@@ -1,0 +1,14 @@
+{
+  "name": "state-of-js-graphql-results-api",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "apollo-server": "^2.9.12",
+    "apollo-server-plugin-response-cache": "^0.3.8",
+    "dotenv": "^8.2.0",
+    "graphql": "^14.5.8",
+    "lodash": "^4.17.15",
+    "mongodb": "^3.3.5"
+  }
+}
