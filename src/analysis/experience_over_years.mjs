@@ -35,12 +35,15 @@ export const computeExperienceOverYears = async (db, tool) => {
             if (yearBucket === undefined) {
                 yearBucket = {
                     year: result.year,
-                    counts: {}
+                    buckets: []
                 }
                 acc.push(yearBucket)
             }
 
-            yearBucket.counts[result.experience] = result.total
+            yearBucket.buckets.push({
+                id: result.experience,
+                count: result.total,
+            })
 
             return acc
         }, []),
@@ -49,14 +52,10 @@ export const computeExperienceOverYears = async (db, tool) => {
 
     // compute percentages
     experienceByYear.forEach(bucket => {
-        bucket.total = _.sum(Object.values(bucket.counts))
-        bucket.percentages = Object.entries(bucket.counts).reduce(
-            (acc, [experience, count]) => ({
-                ...acc,
-                [experience]: Math.round((count / bucket.total) * 1000) / 10
-            }),
-            {}
-        )
+        bucket.total = _.sumBy(bucket.buckets, 'count')
+        bucket.buckets.forEach(subBucket => {
+            subBucket.percentage = Math.round((subBucket.count / bucket.total) * 1000) / 10
+        })
     })
 
     return experienceByYear
