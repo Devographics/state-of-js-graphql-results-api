@@ -57,6 +57,24 @@ export default gql`
         experienceOverYears: [ToolYearExperience] @cacheControl(maxAge: 600)
     }
     
+    type FeatureUsageBucket @cacheControl(maxAge: 600) {
+        id: String
+        count: Int
+        percentage: Float
+    }
+    
+    type FeatureYearUsage @cacheControl(maxAge: 600) {
+        year: Int
+        total: Int
+        buckets: [FeatureUsageBucket] @cacheControl(maxAge: 600)
+    }
+    
+    type Feature @cacheControl(maxAge: 600) {
+        id: ID!
+        section: String
+        usageByYear: [FeatureYearUsage] @cacheControl(maxAge: 600) 
+    }
+    
     type YearParticipation @cacheControl(maxAge: 600) {
         year: Int
         participants: Int
@@ -74,6 +92,14 @@ export default gql`
         buckets: [GenderBreakdownBucket] @cacheControl(maxAge: 600)
     }
     
+    """
+    Information about particpants:
+    - overall participation
+    - gender
+    - salary
+    - company size
+    - …
+    """
     type Demographics @cacheControl(maxAge: 600) {
         participationByYear: [YearParticipation] @cacheControl(maxAge: 600)
         genderBreakdown: [YearGenderBreakdown] @cacheControl(maxAge: 600)
@@ -81,6 +107,7 @@ export default gql`
     
     type Query {
         tool(id: ID!): Tool
+        feature(id: ID!, section: String!): Feature
         demographics: Demographics 
     }
 `
