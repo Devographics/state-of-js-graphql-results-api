@@ -35,22 +35,16 @@ export default gql`
         participants: Int
     }
     
-    type GenderBreakdownCounts @cacheControl(maxAge: 600) {
-        male: Int
-        female: Int
-        non_binary__third_gender: Int
-    }
-    
-    type GenderBreakdownPercentages @cacheControl(maxAge: 600) {
-        male: Float
-        female: Float
-        non_binary__third_gender: Float
+    type GenderBreakdownBucket @cacheControl(maxAge: 600) {
+        id: String
+        count: Int
+        percentage: Float
     }
     
     type YearGenderBreakdown @cacheControl(maxAge: 600) {
         year: Int
-        counts: GenderBreakdownCounts
-        percentages: GenderBreakdownPercentages
+        total: Int
+        buckets: [GenderBreakdownBucket] @cacheControl(maxAge: 600)
     }
     
     type Demographics @cacheControl(maxAge: 600) {

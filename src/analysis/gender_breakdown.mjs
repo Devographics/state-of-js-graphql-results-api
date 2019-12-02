@@ -56,28 +56,27 @@ export const computeGenderBreakdownByYear = async (db) => {
             if (yearBucket === undefined) {
                 yearBucket = {
                     year: result.year,
-                    counts: {},
+                    buckets: [],
                 }
                 acc.push(yearBucket)
             }
 
-            yearBucket.counts[keyByLabel[result.gender]] = result.total
+            yearBucket.buckets.push({
+                id: keyByLabel[result.gender],
+                count: result.total,
+            })
 
             return acc
         }, []),
         'year'
     )
 
-     // compute percentages
+    // compute percentages
     genderBreakdownByYear.forEach(bucket => {
-        bucket.total = _.sum(Object.values(bucket.counts))
-        bucket.percentages = Object.entries(bucket.counts).reduce(
-            (acc, [gender, count]) => ({
-                ...acc,
-                [gender]: Math.round((count / bucket.total) * 1000) / 10
-            }),
-            {}
-        )
+        bucket.total = _.sumBy(bucket.buckets, 'count')
+        bucket.buckets.forEach(subBucket => {
+            subBucket.percentage = Math.round((subBucket.count / bucket.total) * 1000) / 10
+        })
     })
 
     return genderBreakdownByYear
