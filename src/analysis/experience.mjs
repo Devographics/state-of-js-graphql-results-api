@@ -1,5 +1,29 @@
 import _ from 'lodash'
 
+const ratioToPercentage = (ratio) => {
+    return Math.round((ratio * 1000)) / 10
+}
+
+const computeAwareness = (buckets, total) => {
+    const neverHeard = buckets.find(bucket => bucket.id === 'never_heard')
+
+    return ratioToPercentage((total - neverHeard.count) / total)
+}
+
+const computeInterest = (buckets, total) => {
+    const interested = buckets.find(bucket => bucket.id === 'interested')
+    const notInterested = buckets.find(bucket => bucket.id === 'not_interested')
+
+    return ratioToPercentage(interested.count / (interested.count + notInterested.count))
+}
+
+const computeSatisfaction = (buckets, total) => {
+    const wouldUse = buckets.find(bucket => bucket.id === 'would_use')
+    const wouldNotUse = buckets.find(bucket => bucket.id === 'would_not_use')
+
+    return ratioToPercentage(wouldUse.count / (wouldUse.count + wouldNotUse.count))
+}
+
 export const computeExperienceOverYears = async (db, tool) => {
     const collection = db.collection('normalized_responses')
 
@@ -56,6 +80,15 @@ export const computeExperienceOverYears = async (db, tool) => {
         bucket.buckets.forEach(subBucket => {
             subBucket.percentage = Math.round((subBucket.count / bucket.total) * 1000) / 10
         })
+    })
+
+    // compute awareness/interest/satisfaction
+    experienceByYear.forEach(bucket => {
+        bucket.awarenessInterestSatisfaction = {
+            awareness: computeAwareness(bucket.buckets, bucket.total),
+            interest: computeInterest(bucket.buckets, bucket.total),
+            satisfaction: computeSatisfaction(bucket.buckets, bucket.total),
+        }
     })
 
     return experienceByYear
