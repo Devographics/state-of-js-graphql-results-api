@@ -4,6 +4,7 @@ import {
     computeGenderBreakdownByYear,
     computeFeatureUsageByYear,
     computeSalaryRangeByYear,
+    computeCompanySizeByYear,
 } from './analysis/index.mjs'
 
 export default {
@@ -42,6 +43,9 @@ export default {
         },
         salaryRange: async (parent, args, context, info) => {
             return computeSalaryRangeByYear(context.db)
+        },
+        companySize: async (parent, args, context, info) => {
+            return computeCompanySizeByYear(context.db)
         },
     },
 }

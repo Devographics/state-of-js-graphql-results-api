@@ -104,6 +104,18 @@ export default gql`
         buckets: [SalaryRangeBucket] @cacheControl(maxAge: 600)
     }
     
+    type CompanySizeBucket @cacheControl(maxAge: 600) {
+        id: String
+        count: Int
+        percentage: Float
+    }
+    
+    type YearCompanySize @cacheControl(maxAge: 600) {
+        year: Int
+        total: Int
+        buckets: [CompanySizeBucket] @cacheControl(maxAge: 600)
+    }
+    
     """
     Information about particpants:
     - overall participation
@@ -116,6 +128,7 @@ export default gql`
         participation: [YearParticipation] @cacheControl(maxAge: 600)
         genderBreakdown: [YearGenderBreakdown] @cacheControl(maxAge: 600)
         salaryRange: [YearSalaryRange] @cacheControl(maxAge: 600)
+        companySize: [YearCompanySize] @cacheControl(maxAge: 600)
     }
     
     type Query {
