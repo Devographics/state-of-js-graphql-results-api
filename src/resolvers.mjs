@@ -5,6 +5,7 @@ import {
     computeFeatureUsageByYear,
     computeSalaryRangeByYear,
     computeCompanySizeByYear,
+    computeYearsOfExperienceByYear,
 } from './analysis/index.mjs'
 
 export default {
@@ -46,6 +47,9 @@ export default {
         },
         companySize: async (parent, args, context, info) => {
             return computeCompanySizeByYear(context.db)
+        },
+        yearsOfExperience: async (parent, args, context, info) => {
+            return computeYearsOfExperienceByYear(context.db)
         },
     },
 }

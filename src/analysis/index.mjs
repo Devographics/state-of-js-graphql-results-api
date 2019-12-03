@@ -1,6 +1,3 @@
 export { computeExperienceOverYears } from './experience.mjs'
-export { computeParticipationByYear } from './participation.mjs'
-export { computeGenderBreakdownByYear } from './gender.mjs'
 export { computeFeatureUsageByYear } from './features.mjs'
-export { computeSalaryRangeByYear } from './salary.mjs'
-export { computeCompanySizeByYear } from './company_size.mjs'
+export * from './demographics/index.mjs'
