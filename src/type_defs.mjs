@@ -168,9 +168,32 @@ export default gql`
         yearsOfExperience: [YearYearsOfExperience] @cacheControl(maxAge: 600)
     }
     
+    type OpinionBucket @cacheControl(maxAge: 600) {
+        id: Int
+        count: Int
+        percentage: Float
+    }
+    
+    type YearOpinion @cacheControl(maxAge: 600) {
+        year: Int
+        """
+        Total number of respondents who have answered this specific question.
+        """
+        total: Int
+        completion: Float
+        buckets: [OpinionBucket] @cacheControl(maxAge: 600)
+    }
+    
+    type Opinion @cacheControl(maxAge: 600) {
+        id: ID!
+        byYear: [YearOpinion] @cacheControl(maxAge: 600)
+    }
+    
     type Query {
         tool(id: ID!): Tool
         feature(id: ID!, section: String!): Feature
-        demographics: Demographics 
+        demographics: Demographics
+        opinion(id: ID!): Opinion
+        opinions(ids: [ID]!): [Opinion] @cacheControl(maxAge: 600)
     }
 `

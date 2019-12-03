@@ -6,6 +6,7 @@ import {
     computeSalaryRangeByYear,
     computeCompanySizeByYear,
     computeYearsOfExperienceByYear,
+    computeOpinionByYear,
 } from './analysis/index.mjs'
 
 export default {
@@ -23,6 +24,16 @@ export default {
                 id: args.id,
                 section: args.section,
             }
+        },
+        opinion: async (parent, args, context, info) => {
+            return {
+                id: args.id,
+            }
+        },
+        opinions: async (parent, args, context, info) => {
+            return args.ids.map(id => ({
+                id
+            }))
         },
     },
     Tool: {
@@ -52,4 +63,9 @@ export default {
             return computeYearsOfExperienceByYear(context.db)
         },
     },
+    Opinion: {
+        byYear: async (opinion, args, context, info) => {
+            return computeOpinionByYear(context.db, opinion.id)
+        },
+    }
 }
