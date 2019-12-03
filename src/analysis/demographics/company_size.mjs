@@ -1,4 +1,5 @@
 import _ from 'lodash'
+import { ratioToPercentage } from '../common.mjs'
 
 export const computeCompanySizeByYear = async (db, section, feature) => {
     const collection = db.collection('normalized_responses')
@@ -52,7 +53,7 @@ export const computeCompanySizeByYear = async (db, section, feature) => {
     companySizeByYear.forEach(bucket => {
         bucket.total = _.sumBy(bucket.buckets, 'count')
         bucket.buckets.forEach(subBucket => {
-            subBucket.percentage = Math.round((subBucket.count / bucket.total) * 1000) / 10
+            subBucket.percentage = ratioToPercentage(subBucket.count / bucket.total)
         })
     })
 

@@ -22,3 +22,14 @@ export const computeParticipationByYear = async (db) => {
 
     return _.orderBy(participantsByYear, 'year')
 }
+
+export const getParticipationByYearMap = async (db) => {
+    const buckets = await computeParticipationByYear(db)
+
+    return buckets.reduce((acc, bucket) => {
+        return {
+            ...acc,
+            [Number(bucket.year)]: bucket.participants,
+        }
+    }, {})
+}
