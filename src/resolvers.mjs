@@ -3,6 +3,7 @@ import {
     computeParticipationByYear,
     computeGenderBreakdownByYear,
     computeFeatureUsageByYear,
+    computeSalaryRangeByYear,
 } from './analysis/index.mjs'
 
 export default {
@@ -23,7 +24,7 @@ export default {
         },
     },
     Tool: {
-        experienceOverYears: async (tool, args, context, info) => {
+        experience: async (tool, args, context, info) => {
             return computeExperienceOverYears(context.db, tool.id)
         },
     },
@@ -33,11 +34,14 @@ export default {
         }
     },
     Demographics: {
-        participationByYear: async (parent, args, context, info) => {
+        participation: async (parent, args, context, info) => {
             return computeParticipationByYear(context.db)
         },
         genderBreakdown: async (parent, args, context, info) => {
             return computeGenderBreakdownByYear(context.db)
+        },
+        salaryRange: async (parent, args, context, info) => {
+            return computeSalaryRangeByYear(context.db)
         },
     },
 }
