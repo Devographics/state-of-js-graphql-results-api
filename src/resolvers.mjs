@@ -39,10 +39,10 @@ export default {
         participation: async (parent, args, context, info) => {
             return computeParticipationByYear(context.db)
         },
-        genderBreakdown: async (parent, args, context, info) => {
+        gender: async (parent, args, context, info) => {
             return computeGenderBreakdownByYear(context.db)
         },
-        salaryRange: async (parent, args, context, info) => {
+        salary: async (parent, args, context, info) => {
             return computeSalaryRangeByYear(context.db)
         },
         companySize: async (parent, args, context, info) => {

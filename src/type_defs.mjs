@@ -162,8 +162,8 @@ export default gql`
     """
     type Demographics @cacheControl(maxAge: 600) {
         participation: [YearParticipation] @cacheControl(maxAge: 600)
-        genderBreakdown: [YearGenderBreakdown] @cacheControl(maxAge: 600)
-        salaryRange: [YearSalaryRange] @cacheControl(maxAge: 600)
+        gender: [YearGenderBreakdown] @cacheControl(maxAge: 600)
+        salary: [YearSalaryRange] @cacheControl(maxAge: 600)
         companySize: [YearCompanySize] @cacheControl(maxAge: 600)
         yearsOfExperience: [YearYearsOfExperience] @cacheControl(maxAge: 600)
     }
