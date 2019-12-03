@@ -1,5 +1,5 @@
 import _ from 'lodash'
-import { ratioToPercentage } from './common.mjs'
+import { ratioToPercentage, appendCompletionToYearlyResults } from './common.mjs'
 
 export const computeFeatureUsageByYear = async (db, section, feature) => {
     const path = `${section}.${feature}`
@@ -59,5 +59,5 @@ export const computeFeatureUsageByYear = async (db, section, feature) => {
         })
     })
 
-    return usageByYear
+    return appendCompletionToYearlyResults(db, usageByYear)
 }

@@ -1,5 +1,5 @@
 import _ from 'lodash'
-import { ratioToPercentage } from '../common.mjs'
+import { ratioToPercentage, appendCompletionToYearlyResults } from '../common.mjs'
 
 const keyByLabel = {
     'male': 'male',
@@ -80,6 +80,6 @@ export const computeGenderBreakdownByYear = async (db) => {
         })
     })
 
-    return genderBreakdownByYear
+    return appendCompletionToYearlyResults(db, genderBreakdownByYear)
 }
 

@@ -1,5 +1,5 @@
 import _ from 'lodash'
-import { ratioToPercentage } from './common.mjs'
+import { ratioToPercentage, appendCompletionToYearlyResults } from './common.mjs'
 
 const computeAwareness = (buckets, total) => {
     const neverHeard = buckets.find(bucket => bucket.id === 'never_heard')
@@ -88,5 +88,5 @@ export const computeExperienceOverYears = async (db, tool) => {
         }
     })
 
-    return experienceByYear
+    return appendCompletionToYearlyResults(db, experienceByYear)
 }

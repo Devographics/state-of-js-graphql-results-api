@@ -47,7 +47,11 @@ export default gql`
     
     type ToolYearExperience @cacheControl(maxAge: 600) {
         year: Int
+        """
+        Total number of respondents who have answered this specific question.
+        """
         total: Int
+        completion: Float
         buckets: [ToolExperienceBucket] @cacheControl(maxAge: 600)
         awarenessInterestSatisfaction: ToolAwarenessInterestSatisfaction 
     }
@@ -65,7 +69,11 @@ export default gql`
     
     type FeatureYearUsage @cacheControl(maxAge: 600) {
         year: Int
+        """
+        Total number of respondents who have answered this specific question.
+        """
         total: Int
+        completion: Float
         buckets: [FeatureUsageBucket] @cacheControl(maxAge: 600)
     }
     
@@ -88,7 +96,11 @@ export default gql`
     
     type YearGenderBreakdown @cacheControl(maxAge: 600) {
         year: Int
+        """
+        Total number of respondents who have answered this specific question.
+        """
         total: Int
+        completion: Float
         buckets: [GenderBreakdownBucket] @cacheControl(maxAge: 600)
     }
     
@@ -100,7 +112,11 @@ export default gql`
     
     type YearSalaryRange @cacheControl(maxAge: 600) {
         year: Int
+        """
+        Total number of respondents who have answered this specific question.
+        """
         total: Int
+        completion: Float
         buckets: [SalaryRangeBucket] @cacheControl(maxAge: 600)
     }
     
@@ -112,7 +128,11 @@ export default gql`
     
     type YearCompanySize @cacheControl(maxAge: 600) {
         year: Int
+        """
+        Total number of respondents who have answered this specific question.
+        """
         total: Int
+        completion: Float
         buckets: [CompanySizeBucket] @cacheControl(maxAge: 600)
     }
     
@@ -124,7 +144,11 @@ export default gql`
     
     type YearYearsOfExperience @cacheControl(maxAge: 600) {
         year: Int
+        """
+        Total number of respondents who have answered this specific question.
+        """
         total: Int
+        completion: Float
         buckets: [YearsOfExperienceBucket] @cacheControl(maxAge: 600)
     }
     

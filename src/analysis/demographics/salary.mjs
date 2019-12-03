@@ -1,5 +1,5 @@
 import _ from 'lodash'
-import { ratioToPercentage } from '../common.mjs'
+import { ratioToPercentage, appendCompletionToYearlyResults } from '../common.mjs'
 
 export const computeSalaryRangeByYear = async (db, section, feature) => {
     const collection = db.collection('normalized_responses')
@@ -57,5 +57,5 @@ export const computeSalaryRangeByYear = async (db, section, feature) => {
         })
     })
 
-    return salaryRangeByYear
+    return appendCompletionToYearlyResults(db, salaryRangeByYear)
 }
