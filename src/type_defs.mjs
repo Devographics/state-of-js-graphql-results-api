@@ -3,6 +3,13 @@ const { gql } = Apollo.default
 
 export default gql`
     """
+    Completion ratio and count
+    """
+    type Completion {
+        percentage: Float
+        count: Int
+    }
+    """
     An aggregation bucket for tool experience containing both an absolute count
     for the parent year, and the percentage it corresponds to regarding
     the total number of respondents who have answered the question
@@ -51,7 +58,7 @@ export default gql`
         Total number of respondents who have answered this specific question.
         """
         total: Int
-        completion: Float
+        completion: Completion
         buckets: [ToolExperienceBucket] @cacheControl(maxAge: 600)
         awarenessInterestSatisfaction: ToolAwarenessInterestSatisfaction 
     }
@@ -73,7 +80,7 @@ export default gql`
         Total number of respondents who have answered this specific question.
         """
         total: Int
-        completion: Float
+        completion: Completion
         buckets: [FeatureUsageBucket] @cacheControl(maxAge: 600)
     }
     
@@ -100,7 +107,7 @@ export default gql`
         Total number of respondents who have answered this specific question.
         """
         total: Int
-        completion: Float
+        completion: Completion
         buckets: [GenderBreakdownBucket] @cacheControl(maxAge: 600)
     }
     
@@ -116,7 +123,7 @@ export default gql`
         Total number of respondents who have answered this specific question.
         """
         total: Int
-        completion: Float
+        completion: Completion
         buckets: [SalaryRangeBucket] @cacheControl(maxAge: 600)
     }
     
@@ -132,7 +139,7 @@ export default gql`
         Total number of respondents who have answered this specific question.
         """
         total: Int
-        completion: Float
+        completion: Completion
         buckets: [CompanySizeBucket] @cacheControl(maxAge: 600)
     }
     
@@ -148,7 +155,7 @@ export default gql`
         Total number of respondents who have answered this specific question.
         """
         total: Int
-        completion: Float
+        completion: Completion
         buckets: [YearsOfExperienceBucket] @cacheControl(maxAge: 600)
     }
     
@@ -180,7 +187,7 @@ export default gql`
         Total number of respondents who have answered this specific question.
         """
         total: Int
-        completion: Float
+        completion: Completion
         buckets: [OpinionBucket] @cacheControl(maxAge: 600)
     }
     

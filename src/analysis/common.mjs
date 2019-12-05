@@ -14,7 +14,10 @@ export const appendCompletionToYearlyResults = async (db, yearlyResults) => {
     return yearlyResults.map(yearlyResult => {
         return {
             ...yearlyResult,
-            completion: ratioToPercentage(yearlyResult.total / totalRespondentsByYear[yearlyResult.year])
+            completion: {
+                percentage: ratioToPercentage(yearlyResult.total / totalRespondentsByYear[yearlyResult.year]),
+                count: yearlyResult.total
+            }
         }
     })
 }
