@@ -194,6 +194,7 @@ export default gql`
     type Opinion @cacheControl(maxAge: 600) {
         id: ID!
         byYear: [YearOpinion] @cacheControl(maxAge: 600)
+        year(year: Int!): YearOpinion
     }
     
     type Query {
