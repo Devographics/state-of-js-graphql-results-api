@@ -201,7 +201,7 @@ export default gql`
 
     # Resources
     
-    type ResourcesBucket @cacheControl(maxAge: 600) {
+    type Resource @cacheControl(maxAge: 600) {
         id: String
         count: Int
         percentage: Float
@@ -215,13 +215,31 @@ export default gql`
         """
         total: Int
         completion: Completion
-        buckets: [ResourcesBucket] @cacheControl(maxAge: 600)
+        buckets: [Resource] @cacheControl(maxAge: 600)
     }
 
     type Resources @cacheControl(maxAge: 600) {
         id: ID!
         # byYear: [YearResource] @cacheControl(maxAge: 600)
         year(year: Int!): YearResources
+    }
+
+    # Other Tools
+
+    type YearOtherTools @cacheControl(maxAge: 600) {
+        year: Int
+        """
+        Total number of respondents who have answered this specific question.
+        """
+        total: Int
+        completion: Completion
+        buckets: [Resource] @cacheControl(maxAge: 600)
+    }
+
+    type OtherTools @cacheControl(maxAge: 600) {
+        id: ID!
+        # byYear: [YearResource] @cacheControl(maxAge: 600)
+        year(year: Int!): YearOtherTools
     }
 
     # Root Query Type
@@ -232,6 +250,7 @@ export default gql`
         demographics: Demographics
         opinion(id: ID!): Opinion
         # opinions(ids: [ID]!): [Opinion] @cacheControl(maxAge: 600)
+        otherTools(id: ID!): OtherTools
         resources(id: ID!): Resources
     }
 `
