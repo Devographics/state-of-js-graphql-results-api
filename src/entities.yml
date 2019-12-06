@@ -1,0 +1,679 @@
+- id: angular
+  description: |
+      Angular is a TypeScript-based open-source front-end web application platform. Note that from
+      this year on we are not be making a distinction between Angular and Angular.js anymore, while datapoints for 
+      2016 and 2017 correspond to Angular (a.k.a. "Angular 2").
+  name: Angular
+- id: ant-design
+  github: ant-design/ant-design
+  name: 'Ant Design'
+  npm: antd
+- id: aphrodite
+  github: Khan/aphrodite
+  name: Aphrodite
+  npm: aphrodite
+- id: apollo
+  description: "A fully-featured, production ready caching GraphQL client for every UI framework and GraphQL server.\n"
+  name: Apollo
+- id: appcelerator
+  name: Appcelerator
+- id: atom
+  name: Atom
+  homepage: https://atom.io/
+- id: atomic-css
+  description: |
+      Atomic CSS is a CSS architecture. It is not opinionated;
+      it simply defines a set of classes representing single-purpose styling units.
+  homepage: 'https://acss.io'
+  name: 'Atomic CSS'
+- id: bbedit
+  name: BBEdit
+  homepage: https://www.barebones.com/products/bbedit/
+- id: bem
+  description: |
+      You will not be surprised to hear that BEM is an abbreviation
+      of the key elements of the methodology — Block, Element and Modifier.
+  homepage: 'http://getbem.com/'
+  name: BEM
+- id: bootstrap
+  github: twbs/bootstrap
+  name: Bootstrap
+  npm: bootstrap
+- id: brackets
+  name: Brackets
+  homepage: http://brackets.io/
+- id: brave
+  name: Brave
+  homepage: https://brave.com/
+  category: browsers
+- id: bulma
+  github: jgthms/bulma
+  name: Bulma
+  npm: bulma
+- id: chrome
+  name: Chrome
+  homepage: https://www.google.com/chrome/
+  category: browsers
+- id: chrome-android
+  name: Chrome Android
+  homepage: https://www.google.com/chrome/
+  category: browsers
+- id: chrome-ios
+  name: Chrome iOS
+  homepage: https://www.google.com/chrome/
+  category: browsers
+- id: chromium
+  name: Chromium
+  homepage: https://www.chromium.org/Home
+- id: csharp
+  name: 'C#'
+- id: c-cplusplus
+  name: C/C++
+- id: coda
+  name: Coda
+  homepage: https://panic.com/coda/
+- id: css-modules
+  github: css-modules/css-modules
+  name: CSS Modules
+- id: dart
+  name: Dart
+- id: date-fns
+  name: Date-fns
+- id: django
+  name: Django
+- id: dotnet
+  name: .NET
+- id: dreamweaver
+  name: Dreamweaver
+  homepage: https://www.adobe.com/products/dreamweaver.html
+- id: edge
+  name: Edge
+  homepage: https://www.microsoft.com/en-us/windows/microsoft-edge
+- id: elixir
+  name: Elixir
+- id: elm-test
+  name: elm-test
+- id: emacs
+  name: Emacs
+  homepage: https://www.gnu.org/software/emacs/
+- id: emotion
+  github: emotion-js/emotion
+  name: Emotion
+  npm: emotion
+- id: es6
+  description: "ES6 and its descendants are the newer versions of JavaScript, usually run through Babel.\n"
+  name: ES6
+- id: extjs
+  name: 'Ext JS'
+- id: firebase
+  name: Firebase
+- id: firefox
+  name: Firefox
+  homepage: https://www.mozilla.org/en-US/firefox/new/
+  category: browsers
+- id: firefox-developer
+  name: Firefox Quantum
+  homepage: https://www.mozilla.org/en-US/firefox/developer/
+  category: browsers
+  aliases: 
+    - Firefox Developers Edition
+- id: firefox-android
+  name: Firefox Android
+  homepage: https://www.mozilla.org/en-US/firefox/new/
+  category: browsers
+- id: flutter
+  name: Flutter
+- id: foundation
+  github: zurb/foundation-sites
+  name: Foundation
+- id: glamor
+  github: threepointone/glamor
+  name: Glamor
+  npm: glamor
+- id: golang
+  name: Go
+- id: haskell
+  name: Haskell
+- id: haxe
+  name: Haxe
+- id: intellij
+  name: IntelliJ
+  homepage: https://www.jetbrains.com/idea/
+- id: it-css
+  description: |
+      ITCSS is a sane, scalable, managed
+      CSS architecture from CSS Wizardry
+  name: ITCSS
+  homepage: https://itcss.io/
+- id: internet-explorer-11
+  name: Internet Explorer 11
+  homepage: https://www.microsoft.com/en-us/download/internet-explorer-11-for-windows-7-details.aspx
+- id: internet-explorer-8-9-10
+  name: Internet Explorer 8/9/10
+  homepage: https://www.microsoft.com/en-us/download/internet-explorer.aspx
+  aliases:
+    - Internet Explorer
+- id: java
+  name: Java
+- id: jss
+  github: cssinjs/jss
+  name: JSS
+  homepage: https://cssinjs.org
+- id: kotlin
+  name: Kotlin
+- id: laravel
+  name: Laravel
+- id: less
+  github: less/less.js
+  name: Less
+  npm: less
+- id: lodash
+  name: lodash
+- id: luxon
+  name: luxon
+- id: make
+  name: Make
+- id: materialize-css
+  github: Dogfalo/materialize
+  name: 'Materialize CSS'
+  npm: materialize-css
+- id: moment
+  name: moment
+- id: nano
+  name: Nano
+  homepage: https://www.nano-editor.org/
+- id: native-apps
+  description: "The majority of mobile and desktop apps are still built with native languages like Java, Kotlin, Objective-C, or Swift.\n"
+  name: 'Native Apps'
+- id: notepad++
+  name: Notepad++
+  homepage: https://notepad-plus-plus.org/
+- id: objective-c
+  name: Objective-C
+- id: ocaml
+  name: OCaml
+- id: oocss
+  description: |
+      OOCSS, or object-oriented CSS, is a methodology to help programmers
+      write CSS that is succinct and easy to maintain.
+  name: OOCSS
+- id: opera
+  name: Opera
+  homepage: https://www.opera.com/
+  category: browsers
+- id: opera-mini
+  name: Opera Mini
+  homepage: https://www.opera.com/mobile
+  category: browsers
+- id: parcel
+  name: Parcel
+- id: phonegap-cordova
+  description: "Apache Cordova is a mobile application development framework.\n"
+  name: Cordova
+- id: php
+  name: PHP
+- id: phpstorm
+  name: PHPStorm
+  homepage: https://www.jetbrains.com/phpstorm/
+- id: postcss
+  github: postcss/postcss
+  name: PostCSS
+- id: primer
+  github: primer/css
+  name: Primer
+  npm: '@primer/css'
+- id: purecss
+  github: pure-css/pure
+  name: PureCSS
+  npm: purecss
+- id: pwa
+  name: 'Progressive Web Apps'
+- id: pycharm
+  name: PyCharm
+- id: python
+  name: Python
+- id: radium
+  github: FormidableLabs/radium
+  npm: '@emotion/core'
+  name: Radium
+  homepage: https://formidable.com/open-source/radium/
+- id: rails
+  name: Rails
+- id: ramda
+  name: Ramda
+- id: ruby
+  name: Ruby
+- id: rust
+  name: Rust
+- id: safari
+  name: Safari
+  homepage: https://www.apple.com/safari/
+  category: browsers
+- id: safari-ios
+  name: Safari iOS
+  homepage: https://www.apple.com/safari/
+  category: browsers
+- id: samsung-internet
+  name: Samsung Internet
+  homepage: https://play.google.com/store/apps/details?id=com.sec.android.app.sbrowser&hl=en_US
+  category: browsers
+  aliases: 
+    - Samsung
+- id: sass
+  github: sass/sass
+  name: Sass
+  npm: node-sass
+- id: scala
+  name: Scala
+- id: selenium
+  name: Selenium
+- id: semantic-ui
+  github: Semantic-Org/Semantic-UI
+  name: 'Semantic UI'
+  npm: semantic-ui
+- id: service-workers
+  name: 'Service Workers'
+- id: smacss
+  description: |
+      SMACSS (pronounced “smacks”) is more style guide than rigid framework.
+      There is no library within here for you to download or install.
+      There is no git repository for you to clone. SMACSS is a way to examine
+      your design process and as a way to fit those rigid frameworks into
+      a flexible thought process.
+  name: SMACSS
+- id: styled-components
+  github: styled-components/styled-components
+  name: Styled Components
+  npm: styled-components
+  homepage: https://www.styled-components.com/
+- id: styled-jsx
+  github: zeit/styled-jsx
+  name: Styled JSX
+  npm: styled-jsx
+- id: stylus
+  github: stylus/stylus
+  name: Stylus
+  npm: stylus
+- id: sublime-text
+  name: 'Sublime Text'
+  homepage: https://www.sublimetext.com/
+- id: swift
+  name: Swift
+- id: tachyons
+  github: tachyons-css/tachyons
+  name: Tachyons
+- id: tailwind
+  github: tailwindcss/tailwindcss
+  name: Tailwind
+  npm: tailwindcss
+- id: textmate
+  name: Textmate
+  homepage: https://macromates.com/
+- id: twitter
+  name: Twitter
+  category: socialmedia
+  homepage: https://twitter.com
+- id: ucbrowser
+  name: UC Browser
+  homepage: https://www.ucweb.com/
+  category: browsers
+- id: uikit
+  github: uikit/uikit
+  name: UIKit
+  npm: uikit
+- id: underscore
+  name: underscore
+- id: vanilla-js
+  name: 'Vanilla JS'
+- id: vim
+  name: Vim
+  homepage: https://www.vim.org/
+- id: visual-studio
+  name: 'VS Code'
+  homepage: https://code.visualstudio.com/
+- id: visual-studio-not-code
+  name: Visual Studio
+  homepage: https://visualstudio.microsoft.com/
+- id: vivaldi
+  name: Vivaldi
+  homepage: https://vivaldi.com/
+  category: browsers
+- id: web-animations-api
+  name: 'Web Animations API'
+- id: web-assembly
+  name: WebAssembly
+- id: web-audio-api
+  name: 'Web Audio API'
+- id: web-speech-api
+  name: 'Web Speech API'
+- id: webgl
+  name: WebGL
+- id: webrtc
+  name: WebRTC
+- id: webstorm
+  name: WebStorm
+  homepage: https://www.jetbrains.com/webstorm/
+- id: webvr
+  name: WebVR
+- id: weex
+  name: weex
+- id: xamarin
+  name: xamarin
+- id: yandex
+  name: Yandex
+  homepage: https://browser.yandex.com/
+  category: browsers
+
+# ------------------------------------ #
+#               RESOURCES              #
+# ------------------------------------ #
+- id: csstricks
+  name: CSS Tricks
+  homepage: https://css-tricks.com/
+  category: blogs
+  aliases: 
+    - CSS-Tricks
+- id: smashing_magazine
+  name: Smashing Magazine
+  homepage: https://www.smashingmagazine.com/
+  category: blogs
+- id: a_list_apart
+  name: A List Apart
+  homepage: https://alistapart.com/
+  category: blogs
+- id: codrops
+  name: CoDrops
+  homepage: https://tympanus.net/codrops/
+  category: blogs
+- id: sitepoint
+  name: SitePoint
+  homepage: https://www.sitepoint.com/
+  category: blogs
+- id: stack_overflow
+  name: Stack Overflow
+  homepage: https://stackoverflow.com/
+  category: resources
+- id: mdn
+  name: MDN
+  homepage: https://developer.mozilla.org/en-US/
+  category: resources
+- id: w3schools
+  name: W3Schools
+  homepage: https://www.w3schools.com/
+  category: resources
+- id: wesbos
+  name: Wes Bos
+  homepage: https://wesbos.com/
+  category: courses
+  aliases: 
+    - Wes Bos Courses (GSSGrid.io, Flexbox.io, etc.)
+- id: freecodecamp
+  name: FreeCodeCamp
+  homepage: https://www.freecodecamp.org/
+  category: courses
+- id: freecodecamp-announcement-css2019
+  name: Announcement
+  homepage: https://medium.com/free-code-camp/announcing-the-state-of-css-2019-survey-e1e4268df64d
+  category: blogs
+  aliases: 
+    - announcement
+- id: codecademy
+  name: Codecademy
+  homepage: https://www.codecademy.com/
+  category: courses
+- id: css_specs
+  name: The CSS Specs
+  homepage: https://www.w3.org/Style/CSS/specs.en.html
+  category: resources
+- id: pluralsight
+  name: Pluralsight
+  homepage: https://www.pluralsight.com/
+  category: courses
+- id: levelup
+  name: Level Up Tutorials
+  aliases: 
+    - LevelUp Tutorials
+  homepage: https://www.leveluptutorials.com/
+  category: courses
+
+- id: syntax
+  name: Syntax
+  homepage: https://syntax.fm/
+  category: podcasts
+- id: shop_talk_show
+  name: Shop Talk Show
+  homepage: https://shoptalkshow.com/
+  category: podcasts
+- id: changelog
+  name: The Changelog
+  homepage: https://changelog.com/
+  category: podcasts
+- id: web_ahead
+  name: The Web Ahead
+  homepage: http://thewebahead.net/
+  category: podcasts
+- id: big_web_show
+  name: The Big Web Show
+  homepage: https://5by5.tv/bigwebshow
+  category: podcasts
+- id: style_guide_podcast
+  name: Style Guide Podcast
+  homepage: http://styleguides.io/podcast/
+  category: podcasts
+- id: non_breaking_space_show
+  name: Non Breaking Space Show
+  homepage: https://goodstuff.fm/nbsp/
+  category: podcasts
+
+- id: hn
+  name: Hacker News
+  homepage: https://news.ycombinator.com/
+  category: socialmedia
+- id: stateofjs
+  name: State of JS
+  homepage: https://stateofjs.com
+  category: resources
+- id: stateofcss
+  name: State of CSS
+  homepage: https://stateofcss.com
+  category: resources
+- id: reddit
+  name: Reddit
+  homepage: https://reddit.com
+  category: socialmedia
+- id: designernews
+  name: Designer News
+  homepage: https://www.designernews.co/
+  category: socialmedia
+- id: one_page_love
+  name: One Page Love
+  homepage: https://onepagelove.com/
+  category: resources
+- id: sidebar
+  name: Sidebar
+  homepage: https://sidebar.io
+  category: newsletters
+- id: front_end_front
+  name: Front-End Front
+  homepage: https://frontendfront.com/
+  category: newsletters
+- id: css_weekly
+  name: CSS Weekly
+  homepage: https://css-weekly.com/
+  category: newsletters
+- id: css_layout_news
+  name: CSS Layout News
+  homepage: http://csslayout.news/
+  category: newsletters
+- id: responsive_design_weekly
+  name: Responsive Design Weekly
+  homepage: http://responsivedesignweekly.com/
+  category: newsletters
+- id: muzli
+  name: Muzli
+  homepage: https://muz.li/
+  category: resources
+- id: wordpress_tavern
+  name: WordPress Tavern
+  homepage: https://wptavern.com/
+  category: resources
+- id: frontend_focus
+  name: Frontend Focus
+  homepage: https://frontendfoc.us/
+  category: newsletters
+- id: facebook
+  name: Facebook
+  category: socialmedia
+  homepage: https://facebook.com
+- id: word_of_mouth
+  name: Word Of Mouth
+  category: socialmedia
+- id: producthunt
+  name: Product Hunt
+  category: socialmedia
+  homepage: https://www.producthunt.com/
+- id: telegram
+  name: Telegram
+  category: socialmedia
+  homepage: https://telegram.org/
+- id: slack
+  name: Slack
+  category: socialmedia
+  homepage: https://slack.com/
+- id: hangouts
+  name: Hangouts
+  category: socialmedia
+  homepage: https://tools.google.com/dlpage/hangoutplugin
+- id: udemy
+  name: Udemy
+  homepage: https://www.udemy.com/
+  category: resources
+- id: lynda
+  name: Lynda
+  homepage: https://www.lynda.com/
+  category: resources
+- id: egghead
+  name: egghead.io
+  homepage: https://egghead.io/
+  category: resources
+- id: caniuse
+  name: Can I use
+  homepage: https://caniuse.com/
+  category: resources
+- id: front_end_masters
+  name: Frontend Masters
+  homepage: https://frontendmasters.com/
+  category: resources
+- id: treehouse
+  name: treehouse
+  homepage: https://teamtreehouse.com/
+  category: resources
+- id: codepen
+  name: CodePen
+  homepage: https://codepen.io/
+  category: resources
+- id: udacity
+  name: Udacity
+  homepage: https://www.udacity.com/
+  category: resources
+- id: http_203
+  name: HTTP 203
+  homepage: https://developers.google.com/web/shows/http203/podcast/
+  category: resources
+- id: alligator
+  name: alligator.io
+  homepage: https://alligator.io/
+  category: resources
+- id: devto
+  name: dev.to
+  homepage: https://dev.to/
+  category: resources
+- id: css_wizardry
+  name: CSS Wizardry
+  homepage: https://css_wizardry.com
+  category: resources
+- id: web_standards
+  name: Web Standards
+  homepage: https://www.webstandards.org/
+  category: resources
+- id: medium
+  name: Medium
+  category: resources
+- id: google
+  name: Google
+  category: resources
+- id: youtube
+  name: YouTube
+  category: resources
+- id: frontend_focus
+  name: Frontend Focus
+  homepage: https://frontendfoc.us/
+  category: resources
+- id: css_layout_news
+  name: CSS Layout News
+  homepage: http://csslayout.news/
+  category: resources
+- id: flexbox_zombies
+  name: Flexbox Zombies
+  homepage: https://mastery.games/p/flexbox-zombies
+  category: resources
+- id: traversy_media
+  name: Traversy Media
+  homepage: https://www.traversymedia.com/
+  category: resources
+- id: superhi
+  name: SuperHi
+  homepage: https://www.superhi.com/
+  category: resources
+- id: platzi
+  name: Platzi
+  homepage: https://platzi.com/
+  category: resources
+- id: scrimba
+  name: Scrimba
+  homepage: https://scrimba.com/
+  category: resources
+- id: devdocs
+  name: devdocs.io
+  homepage: https://devdocs.io
+  category: resources
+- id: front_end_happy_hour
+  name: Front End Happy Hour
+  homepage: https://frontendhappyhour.com/
+  category: resources
+- id: toolsday
+  name: Toolsday
+  homepage: https://spec.fm/podcasts/toolsday
+  category: resources
+- id: fullstack_radio
+  name: Full Stack Radio
+  homepage: http://www.fullstackradio.com/
+  category: resources
+- id: react_podcast
+  name: React Podcast
+  homepage: https://reactpodcast.simplecast.fm/
+  category: resources
+- id: code_newbie
+  name: Code Newbie
+  homepage: https://www.codenewbie.org/
+  category: resources
+- id: developer_tea
+  name: Developer Tea
+  homepage: https://developertea.simplecast.fm/
+  category: resources
+- id: the_web_platform
+  name: The Web Platform Podcast
+  homepage: https://thewebplatformpodcast.com/
+  category: resources
+- id: web_standards_ru
+  name: Веб-стандарты
+  homepage: https://web-standards.ru/
+  category: resources
+- id: working_draft
+  name: Working Draft Podcast
+  homepage: https://workingdraft.de/
+  category: resources
+- id: software_engineering
+  name: Software Engineering Radio
+  homepage: https://www.se-radio.net/
+  category: resources

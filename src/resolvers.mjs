@@ -1,13 +1,75 @@
 import {
-    computeExperienceOverYears,
-    computeParticipationByYear,
-    computeGenderBreakdownByYear,
-    computeFeatureUsageByYear,
-    computeSalaryRangeByYear,
-    computeCompanySizeByYear,
-    computeYearsOfExperienceByYear,
-    computeOpinionByYear,
-} from './analysis/index.mjs'
+  computeExperienceOverYears,
+  computeParticipationByYear,
+  computeGenderBreakdownByYear,
+  computeFeatureUsageByYear,
+  computeSalaryRangeByYear,
+  computeCompanySizeByYear,
+  computeYearsOfExperienceByYear,
+  computeOpinionByYear,
+} from './analysis/index.mjs';
+import { getEntity } from './helpers.mjs';
+
+const mockResourcesBuckets = [
+  {
+    id: 'SitePoint',
+    count: 2942,
+    percentage: 26,
+  },
+  {
+    id: 'CoDrops',
+    count: 3216,
+    percentage: 28.42,
+  },
+  {
+    id: 'A List Apart',
+    count: 3861,
+    percentage: 34.12,
+  },
+  {
+    id: 'Smashing Magazine',
+    count: 6456,
+    percentage: 57.05,
+  },
+  {
+    id: 'CSS Tricks',
+    count: 10085,
+    percentage: 89.11,
+  },
+];
+
+const mockToolsBuckets = [
+  {
+    id: 'Emacs',
+    count: 201,
+    percentage: 1.78,
+  },
+  {
+    id: 'Vim',
+    count: 1984,
+    percentage: 17.53,
+  },
+  {
+    id: 'Webstorm',
+    count: 2096,
+    percentage: 18.52,
+  },
+  {
+    id: 'Atom',
+    count: 2487,
+    percentage: 21.98,
+  },
+  {
+    id: 'Sublime Text',
+    count: 3855,
+    percentage: 34.06,
+  },
+  {
+    id: 'VS Code',
+    count: 7994,
+    percentage: 70.64,
+  },
+];
 
 export default {
   Query: {
@@ -39,6 +101,9 @@ export default {
       return {
         id: args.id,
       };
+    },
+    entity: async (parent, args, context, info) => {
+      return getEntity({ id: args.id });
     },
     resources: async (parent, args, context, info) => {
       return {
@@ -89,44 +154,10 @@ export default {
         year: 2020,
         total: 123,
         completion: 99,
-        buckets: [
-          {
-            id: 'Emacs',
-            count: 201,
-            percentage: 1.78,
-            homepage: 'https://www.gnu.org/software/emacs/',
-          },
-          {
-            id: 'Vim',
-            count: 1984,
-            percentage: 17.53,
-            homepage: 'https://www.vim.org/',
-          },
-          {
-            id: 'Webstorm',
-            count: 2096,
-            percentage: 18.52,
-            homepage: 'https://www.jetbrains.com/webstorm/',
-          },
-          {
-            id: 'Atom',
-            count: 2487,
-            percentage: 21.98,
-            homepage: 'https://atom.io/',
-          },
-          {
-            id: 'Sublime Text',
-            count: 3855,
-            percentage: 34.06,
-            homepage: 'https://www.sublimetext.com/',
-          },
-          {
-            id: 'VS Code',
-            count: 7994,
-            percentage: 70.64,
-            homepage: 'https://code.visualstudio.com/',
-          },
-        ],
+        buckets: mockToolsBuckets.map(tool => ({
+          ...getEntity(tool),
+          ...tool,
+        })),
       };
     },
   },
@@ -136,38 +167,10 @@ export default {
         year: 2020,
         total: 123,
         completion: 99,
-        buckets: [
-          {
-            id: 'SitePoint',
-            count: 2942,
-            percentage: 26,
-            homepage: 'https://www.sitepoint.com/',
-          },
-          {
-            id: 'CoDrops',
-            count: 3216,
-            percentage: 28.42,
-            homepage: 'https://tympanus.net/codrops/',
-          },
-          {
-            id: 'A List Apart',
-            count: 3861,
-            percentage: 34.12,
-            homepage: 'https://alistapart.com/',
-          },
-          {
-            id: 'Smashing Magazine',
-            count: 6456,
-            percentage: 57.05,
-            homepage: 'https://www.smashingmagazine.com/',
-          },
-          {
-            id: 'CSS Tricks',
-            count: 10085,
-            percentage: 89.11,
-            homepage: 'https://css-tricks.com/',
-          },
-        ],
+        buckets: mockResourcesBuckets.map(resource => ({
+          ...getEntity(resource),
+          ...resource,
+        })),
       };
     },
   },

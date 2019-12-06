@@ -201,11 +201,16 @@ export default gql`
 
     # Resources
     
-    type Resource @cacheControl(maxAge: 600) {
+    type Entity @cacheControl(maxAge: 600) {
         id: String
+        name: String
         count: Int
         percentage: Float
         homepage: String
+        category: String
+        github: String
+        npm: String
+        description: String
     }
 
     type YearResources @cacheControl(maxAge: 600) {
@@ -215,7 +220,7 @@ export default gql`
         """
         total: Int
         completion: Completion
-        buckets: [Resource] @cacheControl(maxAge: 600)
+        buckets: [Entity] @cacheControl(maxAge: 600)
     }
 
     type Resources @cacheControl(maxAge: 600) {
@@ -233,7 +238,7 @@ export default gql`
         """
         total: Int
         completion: Completion
-        buckets: [Resource] @cacheControl(maxAge: 600)
+        buckets: [Entity] @cacheControl(maxAge: 600)
     }
 
     type OtherTools @cacheControl(maxAge: 600) {
@@ -252,5 +257,6 @@ export default gql`
         # opinions(ids: [ID]!): [Opinion] @cacheControl(maxAge: 600)
         otherTools(id: ID!): OtherTools
         resources(id: ID!): Resources
+        entity(id: ID!): Entity
     }
 `
