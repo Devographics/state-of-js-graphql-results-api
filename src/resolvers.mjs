@@ -74,8 +74,10 @@ const mockToolsBuckets = [
 export default {
   Query: {
     tool: async (parent, args, context, info) => {
+      const { id } = args
       return {
-        id: args.id,
+        id,
+        entity: getEntity({ id })
       };
     },
     demographics: (parent, args, context, info) => {
@@ -155,7 +157,7 @@ export default {
         total: 123,
         completion: 99,
         buckets: mockToolsBuckets.map(tool => ({
-          ...getEntity(tool),
+          entity: getEntity(tool),
           ...tool,
         })),
       };
@@ -168,7 +170,7 @@ export default {
         total: 123,
         completion: 99,
         buckets: mockResourcesBuckets.map(resource => ({
-          ...getEntity(resource),
+          entity: getEntity(resource),
           ...resource,
         })),
       };

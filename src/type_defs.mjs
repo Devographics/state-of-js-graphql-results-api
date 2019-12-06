@@ -66,6 +66,7 @@ export default gql`
     type Tool @cacheControl(maxAge: 600) {
         id: ID!
         experience: [ToolYearExperience] @cacheControl(maxAge: 600)
+        entity: Entity
     }
     
     type FeatureUsageBucket @cacheControl(maxAge: 600) {
