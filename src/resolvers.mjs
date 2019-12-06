@@ -30,10 +30,15 @@ export default {
                 id: args.id,
             }
         },
-        opinions: async (parent, args, context, info) => {
-            return args.ids.map(id => ({
-                id
-            }))
+        // opinions: async (parent, args, context, info) => {
+        //     return args.ids.map(id => ({
+        //         id
+        //     }))
+        // },
+        resources: async (parent, args, context, info) => {
+            return {
+                id: args.id,
+            }
         },
     },
     Tool: {
@@ -71,6 +76,47 @@ export default {
             const allYears = await computeOpinionByYear(context.db, opinion.id)
 
             return allYears.find(y => y.year === args.year)
+        },
+    },
+    Resources: {
+        year: async (opinion, args, context, info) => {
+            return {
+              year: 2020,
+              total: 123,
+              completion: 99,
+              buckets: [
+                {
+                  id: 'SitePoint',
+                  count: 2942,
+                  percentage: 26,
+                  homepage: 'https://www.sitepoint.com/',
+                },
+                {
+                  id: 'CoDrops',
+                  count: 3216,
+                  percentage: 28.42,
+                  homepage: 'https://tympanus.net/codrops/',
+                },
+                {
+                  id: 'A List Apart',
+                  count: 3861,
+                  percentage: 34.12,
+                  homepage: 'https://alistapart.com/',
+                },
+                {
+                  id: 'Smashing Magazine',
+                  count: 6456,
+                  percentage: 57.05,
+                  homepage: 'https://www.smashingmagazine.com/',
+                },
+                {
+                  id: 'CSS Tricks',
+                  count: 10085,
+                  percentage: 89.11,
+                  homepage: 'https://css-tricks.com/',
+                },
+              ],
+            };
         },
     }
 }

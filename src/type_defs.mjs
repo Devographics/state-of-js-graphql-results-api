@@ -174,6 +174,8 @@ export default gql`
         companySize: [YearCompanySize] @cacheControl(maxAge: 600)
         yearsOfExperience: [YearYearsOfExperience] @cacheControl(maxAge: 600)
     }
+
+    # Opinions
     
     type OpinionBucket @cacheControl(maxAge: 600) {
         id: Int
@@ -196,12 +198,40 @@ export default gql`
         byYear: [YearOpinion] @cacheControl(maxAge: 600)
         year(year: Int!): YearOpinion
     }
+
+    # Resources
+    
+    type ResourcesBucket @cacheControl(maxAge: 600) {
+        id: String
+        count: Int
+        percentage: Float
+        homepage: String
+    }
+
+    type YearResources @cacheControl(maxAge: 600) {
+        year: Int
+        """
+        Total number of respondents who have answered this specific question.
+        """
+        total: Int
+        completion: Completion
+        buckets: [ResourcesBucket] @cacheControl(maxAge: 600)
+    }
+
+    type Resources @cacheControl(maxAge: 600) {
+        id: ID!
+        # byYear: [YearResource] @cacheControl(maxAge: 600)
+        year(year: Int!): YearResources
+    }
+
+    # Root Query Type
     
     type Query {
         tool(id: ID!): Tool
         feature(id: ID!, section: String!): Feature
         demographics: Demographics
         opinion(id: ID!): Opinion
-        opinions(ids: [ID]!): [Opinion] @cacheControl(maxAge: 600)
+        # opinions(ids: [ID]!): [Opinion] @cacheControl(maxAge: 600)
+        resources(id: ID!): Resources
     }
 `
