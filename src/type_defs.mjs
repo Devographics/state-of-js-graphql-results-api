@@ -175,6 +175,31 @@ export default gql`
         yearsOfExperience: [YearYearsOfExperience] @cacheControl(maxAge: 600)
     }
 
+    """
+    An entity is any object that can have associated metadata
+    (such as a homepage, github repo, description).
+    For example: a library, a podcast, a blog, a framework…
+    """
+    type Entity @cacheControl(maxAge: 600) {
+        id: String
+        name: String
+        homepage: String
+        category: String
+        github: String
+        npm: String
+        description: String
+    }
+    
+    """
+    A datapoint associated with a given entity.
+    """
+    type EntityData @cacheControl(maxAge: 600) {
+        id: String
+        count: Int
+        percentage: Float
+        entity: Entity
+    }
+
     # Opinions
     
     type OpinionBucket @cacheControl(maxAge: 600) {
@@ -200,18 +225,7 @@ export default gql`
     }
 
     # Resources
-    
-    type Entity @cacheControl(maxAge: 600) {
-        id: String
-        name: String
-        count: Int
-        percentage: Float
-        homepage: String
-        category: String
-        github: String
-        npm: String
-        description: String
-    }
+
 
     type YearResources @cacheControl(maxAge: 600) {
         year: Int
@@ -220,7 +234,7 @@ export default gql`
         """
         total: Int
         completion: Completion
-        buckets: [Entity] @cacheControl(maxAge: 600)
+        buckets: [EntityData] @cacheControl(maxAge: 600)
     }
 
     type Resources @cacheControl(maxAge: 600) {
@@ -238,7 +252,7 @@ export default gql`
         """
         total: Int
         completion: Completion
-        buckets: [Entity] @cacheControl(maxAge: 600)
+        buckets: [EntityData] @cacheControl(maxAge: 600)
     }
 
     type OtherTools @cacheControl(maxAge: 600) {
