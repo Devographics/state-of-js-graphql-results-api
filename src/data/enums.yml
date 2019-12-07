@@ -1,4 +1,4 @@
-tools:
+tool:
   - react
   - vue
   - angular
@@ -34,7 +34,7 @@ tools:
   - nwjs
   - expo
 
-opinions: 
+opinion: 
   - js_moving_in_right_direction
   - building_js_apps_overly_complex
   - js_over_used_online
@@ -54,7 +54,7 @@ other-tools:
   - non_js_languages
   - non_js_languages_others
 
-features:
+feature:
   - syntax
   - destructuring
   - spread_operator
@@ -93,3 +93,10 @@ resources:
   - sites_courses_others
   - podcasts
   - podcasts_others
+
+happiness: 
+  - frontend
+  - datalayer
+  - backend
+  - testing
+  - mobiledesktop

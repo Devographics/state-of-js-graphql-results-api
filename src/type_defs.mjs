@@ -4,41 +4,18 @@ import { getEnum } from './helpers.mjs'
 const { gql } = Apollo.default
 
 const typeDefs = /* GraphQL */`
-"""
-Completion ratio and count
-"""
-type Completion {
-    percentage: Float
-    count: Int
-}
-
-"""
-An aggregation bucket for tool experience containing both an absolute count
-for the parent year, and the percentage it corresponds to regarding
-the total number of respondents who have answered the question
-in this particular year.
-"""
-type ToolExperienceBucket @cacheControl(maxAge: 600) {
-    id: String
-    count: Int
-    percentage: Float
-}
-
-"""
-Experience ranking for a tool in a specific year, even if the data 
-is computed at the same point in time, we estimate that there is a logical
-progression in this:
-    
-awareness > interest > satisfaction
-"""
-type ToolAwarenessInterestSatisfaction @cacheControl(maxAge: 600) {
     """
-    Awareness is the total number of participants who answered to
-    the experience question VS those who never heard of a tool.
-    
-    This value is expressed as a percentage.
+    Completion ratio and count
     """
-    awareness: Float
+    type Completion {
+        percentage: Float
+        count: Int
+    }
+    """
+    An aggregation bucket for tool experience containing both an absolute count
+    for the parent year, and the percentage it corresponds to regarding
+    the total number of respondents who have answered the question
+    in this particular year.
     """
     type ToolExperienceBucket @cacheControl(maxAge: 600) {
         id: String
@@ -89,7 +66,7 @@ type ToolAwarenessInterestSatisfaction @cacheControl(maxAge: 600) {
     }
 
     type Tool @cacheControl(maxAge: 600) {
-        id: ID!
+        id: ToolID!
         experience: [ToolYearExperience] @cacheControl(maxAge: 600)
         entity: Entity
     }
@@ -111,7 +88,7 @@ type ToolAwarenessInterestSatisfaction @cacheControl(maxAge: 600) {
     }
 
     type Feature @cacheControl(maxAge: 600) {
-        id: ID!
+        id: FeatureID!
         section: String
         usageByYear: [FeatureYearUsage] @cacheControl(maxAge: 600)
     }
@@ -186,30 +163,25 @@ type ToolAwarenessInterestSatisfaction @cacheControl(maxAge: 600) {
     }
 
     """
-    Total number of respondents who have answered this specific question.
+    Information about particpants:
+    - overall participation
+    - gender
+    - salary
+    - company size
+    - …
     """
-    total: Int
-    completion: Completion
-    buckets: [ToolExperienceBucket] @cacheControl(maxAge: 600)
-    awarenessInterestSatisfaction: ToolAwarenessInterestSatisfaction 
-}
-     
-type Tool @cacheControl(maxAge: 600) {
-    id: ToolID!
-    experience: [ToolYearExperience] @cacheControl(maxAge: 600)
-    entity: Entity
-}
+    type Demographics @cacheControl(maxAge: 600) {
+        participation: [YearParticipation] @cacheControl(maxAge: 600)
+        gender: [YearGenderBreakdown] @cacheControl(maxAge: 600)
+        salary: [YearSalaryRange] @cacheControl(maxAge: 600)
+        companySize: [YearCompanySize] @cacheControl(maxAge: 600)
+        yearsOfExperience: [YearYearsOfExperience] @cacheControl(maxAge: 600)
+    }
 
-type FeatureUsageBucket @cacheControl(maxAge: 600) {
-    id: String
-    count: Int
-    percentage: Float
-}
-
-type FeatureYearUsage @cacheControl(maxAge: 600) {
-    year: Int
     """
-    Total number of respondents who have answered this specific question.
+    An entity is any object that can have associated metadata
+    (such as a homepage, github repo, description).
+    For example: a library, a podcast, a blog, a framework…
     """
     type Entity @cacheControl(maxAge: 600) {
         id: String
@@ -222,7 +194,7 @@ type FeatureYearUsage @cacheControl(maxAge: 600) {
     }
 
     """
-    Total number of respondents who have answered this specific question.
+    A datapoint associated with a given entity.
     """
     type EntityData @cacheControl(maxAge: 600) {
         id: String
@@ -250,7 +222,7 @@ type FeatureYearUsage @cacheControl(maxAge: 600) {
     }
 
     type Opinion @cacheControl(maxAge: 600) {
-        id: ID!
+        id: OpinionID!
         byYear: [YearOpinion] @cacheControl(maxAge: 600)
         year(year: Int!): YearOpinion
     }
@@ -268,7 +240,7 @@ type FeatureYearUsage @cacheControl(maxAge: 600) {
     }
 
     type Resources @cacheControl(maxAge: 600) {
-        id: ID!
+        id: ResourcesID!
         # byYear: [YearResource] @cacheControl(maxAge: 600)
         year(year: Int!): YearResources
     }
@@ -286,7 +258,7 @@ type FeatureYearUsage @cacheControl(maxAge: 600) {
     }
 
     type OtherTools @cacheControl(maxAge: 600) {
-        id: ID!
+        id: OtherToolsID!
         # byYear: [YearResource] @cacheControl(maxAge: 600)
         year(year: Int!): YearOtherTools
     }
@@ -313,23 +285,43 @@ type FeatureYearUsage @cacheControl(maxAge: 600) {
     }
 
     type Happiness @cacheControl(maxAge: 600) {
-        id: ID!
+        id: HappinessID!
         year(year: Int!): YearHappiness
         years: [YearHappiness] @cacheControl(maxAge: 600)
+    }
+
+    # Enums
+    enum ToolID {
+        ${getEnum('tool')}
+    }
+    enum FeatureID {
+        ${getEnum('feature')}
+    }
+    enum OpinionID {
+        ${getEnum('opinion')}
+    }
+    enum OtherToolsID {
+        ${getEnum('other-tools')}
+    }
+    enum ResourcesID {
+        ${getEnum('resources')}
+    }
+    enum HappinessID {
+        ${getEnum('happiness')}
     }
 
     # Root Query Type
 
     type Query {
-        tool(id: ID!): Tool
-        feature(id: ID!, section: String!): Feature
+        tool(id: ToolID!): Tool
+        feature(id: FeatureID!, section: String!): Feature
         demographics: Demographics
-        opinion(id: ID!): Opinion
+        opinion(id: OpinionID!): Opinion
         # opinions(ids: [ID]!): [Opinion] @cacheControl(maxAge: 600)
-        otherTools(id: ID!): OtherTools
-        resources(id: ID!): Resources
+        otherTools(id: OtherToolsID!): OtherTools
+        resources(id: ResourcesID!): Resources
         entity(id: ID!): Entity
-        happiness(id: ID!): Happiness
+        happiness(id: HappinessID!): Happiness
     }
 `
 
