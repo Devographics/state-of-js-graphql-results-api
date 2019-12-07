@@ -62,5 +62,13 @@ export const computeHappinessByYear = async (db, id) => {
         })
     })
 
+    // compute mean for each year
+    happinessByYear.forEach(bucket => {
+        const totalScore = bucket.buckets.reduce((acc, subBucket) => {
+            return acc + subBucket.id * subBucket.count
+        }, 0)
+        bucket.mean = Math.round((totalScore / bucket.total) * 10) / 10
+    })
+
     return appendCompletionToYearlyResults(db, happinessByYear)
 }

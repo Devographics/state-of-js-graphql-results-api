@@ -273,6 +273,10 @@ export default gql`
         Total number of respondents who have answered this specific question.
         """
         total: Int
+        """
+        Mean happiness score for the year.
+        """
+        mean: Float
         completion: Completion
         buckets: [HappinessBucket] @cacheControl(maxAge: 600)
     }

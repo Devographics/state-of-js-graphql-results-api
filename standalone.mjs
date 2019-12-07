@@ -27,7 +27,7 @@ const run = async () => {
     await mongoClient.connect()
     const db = mongoClient.db(process.env.MONGO_DB_NAME)
 
-    const res = await computeHappinessByYear(db, 'javascript_flavors')
+    const res = await computeHappinessByYear(db, 'testing')
     console.log(util.inspect(res, { depth: null, colors: true }))
 
     await mongoClient.close()
