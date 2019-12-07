@@ -1,19 +1,44 @@
 import * as Apollo from 'apollo-server'
+import { getEnum } from './helpers.mjs'
+
 const { gql } = Apollo.default
 
-export default gql`
+const typeDefs = /* GraphQL */`
+"""
+Completion ratio and count
+"""
+type Completion {
+    percentage: Float
+    count: Int
+}
+
+"""
+An aggregation bucket for tool experience containing both an absolute count
+for the parent year, and the percentage it corresponds to regarding
+the total number of respondents who have answered the question
+in this particular year.
+"""
+type ToolExperienceBucket @cacheControl(maxAge: 600) {
+    id: String
+    count: Int
+    percentage: Float
+}
+
+"""
+Experience ranking for a tool in a specific year, even if the data 
+is computed at the same point in time, we estimate that there is a logical
+progression in this:
+    
+awareness > interest > satisfaction
+"""
+type ToolAwarenessInterestSatisfaction @cacheControl(maxAge: 600) {
     """
-    Completion ratio and count
+    Awareness is the total number of participants who answered to
+    the experience question VS those who never heard of a tool.
+    
+    This value is expressed as a percentage.
     """
-    type Completion {
-        percentage: Float
-        count: Int
-    }
-    """
-    An aggregation bucket for tool experience containing both an absolute count
-    for the parent year, and the percentage it corresponds to regarding
-    the total number of respondents who have answered the question
-    in this particular year.
+    awareness: Float
     """
     type ToolExperienceBucket @cacheControl(maxAge: 600) {
         id: String
@@ -161,25 +186,30 @@ export default gql`
     }
 
     """
-    Information about particpants:
-    - overall participation
-    - gender
-    - salary
-    - company size
-    - …
+    Total number of respondents who have answered this specific question.
     """
-    type Demographics @cacheControl(maxAge: 600) {
-        participation: [YearParticipation] @cacheControl(maxAge: 600)
-        gender: [YearGenderBreakdown] @cacheControl(maxAge: 600)
-        salary: [YearSalaryRange] @cacheControl(maxAge: 600)
-        companySize: [YearCompanySize] @cacheControl(maxAge: 600)
-        yearsOfExperience: [YearYearsOfExperience] @cacheControl(maxAge: 600)
-    }
+    total: Int
+    completion: Completion
+    buckets: [ToolExperienceBucket] @cacheControl(maxAge: 600)
+    awarenessInterestSatisfaction: ToolAwarenessInterestSatisfaction 
+}
+     
+type Tool @cacheControl(maxAge: 600) {
+    id: ToolID!
+    experience: [ToolYearExperience] @cacheControl(maxAge: 600)
+    entity: Entity
+}
 
+type FeatureUsageBucket @cacheControl(maxAge: 600) {
+    id: String
+    count: Int
+    percentage: Float
+}
+
+type FeatureYearUsage @cacheControl(maxAge: 600) {
+    year: Int
     """
-    An entity is any object that can have associated metadata
-    (such as a homepage, github repo, description).
-    For example: a library, a podcast, a blog, a framework…
+    Total number of respondents who have answered this specific question.
     """
     type Entity @cacheControl(maxAge: 600) {
         id: String
@@ -192,7 +222,7 @@ export default gql`
     }
 
     """
-    A datapoint associated with a given entity.
+    Total number of respondents who have answered this specific question.
     """
     type EntityData @cacheControl(maxAge: 600) {
         id: String
@@ -302,3 +332,5 @@ export default gql`
         happiness(id: ID!): Happiness
     }
 `
+
+export default gql(typeDefs)
