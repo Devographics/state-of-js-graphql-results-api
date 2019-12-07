@@ -95,8 +95,8 @@ resources:
   - podcasts_others
 
 happiness: 
-  - frontend
-  - datalayer
-  - backend
+  - front_end_frameworks
+  - data_layer
+  - back_end_frameworks
   - testing
-  - mobiledesktop
+  - mobile_desktop
