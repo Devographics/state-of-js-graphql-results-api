@@ -4,8 +4,8 @@
   npm: null
   github: freeCodeCamp/freeCodeCamp
   description: >-
-    The https://www.freeCodeCamp.org open source codebase and curriculum. Learn
-    to code for free together with millions of people.
+      The https://www.freeCodeCamp.org open source codebase and curriculum. Learn
+      to code for free together with millions of people.
   homepage: null
 - id: vuejs
   name: Vue.js
@@ -20,8 +20,8 @@
   npm: react
   github: facebook/react
   description: >-
-    A declarative, efficient, and flexible JavaScript library for building user
-    interfaces.
+      A declarative, efficient, and flexible JavaScript library for building user
+      interfaces.
   homepage: 'https://reactjs.org'
 - id: bootstrap
   name: Bootstrap
@@ -29,8 +29,8 @@
   npm: bootstrap
   github: twbs/bootstrap
   description: >-
-    The most popular HTML, CSS, and JavaScript framework for developing
-    responsive, mobile first projects on the web.
+      The most popular HTML, CSS, and JavaScript framework for developing
+      responsive, mobile first projects on the web.
   homepage: 'https://getbootstrap.com'
 - id: awesome
   name: Awesome
@@ -136,8 +136,8 @@
   npm: null
   github: trekhleb/javascript-algorithms
   description: >-
-    Algorithms and data structures implemented in JavaScript with explanations
-    and links to further readings
+      Algorithms and data structures implemented in JavaScript with explanations
+      and links to further readings
   homepage: null
 - id: puppeteer
   name: Puppeteer
@@ -180,8 +180,8 @@
   npm: '@material-ui/core'
   github: mui-org/material-ui
   description: >-
-    React components for faster and easier web development. Build your own
-    design system, or start with Material Design.
+      React components for faster and easier web development. Build your own
+      design system, or start with Material Design.
   homepage: 'https://material-ui.com/'
 - id: jquery
   name: jQuery
@@ -196,9 +196,9 @@
   npm: webpack
   github: webpack/webpack
   description: >-
-    A bundler for javascript and friends. Packs many modules into a few bundled
-    assets. Code Splitting allows for loading parts of the application on
-    dema...
+      A bundler for javascript and friends. Packs many modules into a few bundled
+      assets. Code Splitting allows for loading parts of the application on
+      dema...
   homepage: 'https://webpack.js.org'
 - id: redux
   name: Redux
@@ -234,8 +234,8 @@
   npm: semantic-ui
   github: Semantic-Org/Semantic-UI
   description: >-
-    Semantic is a UI component framework based around useful principles from
-    natural language.
+      Semantic is a UI component framework based around useful principles from
+      natural language.
   homepage: 'http://www.semantic-ui.com'
 - id: express
   name: Express
@@ -264,8 +264,8 @@
   npm: json-server
   github: typicode/json-server
   description: >-
-    Get a full fake REST API with zero coding in less than 30 seconds
-    (seriously)
+      Get a full fake REST API with zero coding in less than 30 seconds
+      (seriously)
   homepage: null
 - id: storybook
   name: Storybook
@@ -273,8 +273,8 @@
   npm: storybook
   github: storybookjs/storybook
   description: >-
-    UI component dev & test: React, Vue, Angular, React Native, Ember, Web
-    Components & more!
+      UI component dev & test: React, Vue, Angular, React Native, Ember, Web
+      Components & more!
   homepage: 'https://storybook.js.org'
 - id: html5-boilerplate
   name: HTML5 boilerplate
@@ -282,8 +282,8 @@
   npm: null
   github: h5bp/html5-boilerplate
   description: >-
-    A professional front-end template for building fast, robust, and adaptable
-    web apps or sites.
+      A professional front-end template for building fast, robust, and adaptable
+      web apps or sites.
   homepage: 'https://html5boilerplate.com/'
 - id: nextjs
   name: Next.js
@@ -298,8 +298,8 @@
   npm: null
   github: h5bp/Front-end-Developer-Interview-Questions
   description: >-
-    A list of helpful front-end related questions you can use to interview
-    potential candidates, test yourself or completely ignore.
+      A list of helpful front-end related questions you can use to interview
+      potential candidates, test yourself or completely ignore.
   homepage: 'https://h5bp.org/Front-end-Developer-Interview-Questions/'
 - id: moment
   name: Moment
@@ -321,8 +321,8 @@
   npm: lodash
   github: lodash/lodash
   description: >-
-    A modern JavaScript utility library delivering modularity, performance, &
-    extras.
+      A modern JavaScript utility library delivering modularity, performance, &
+      extras.
   homepage: 'https://lodash.com/'
 - id: meteor
   name: Meteor
@@ -344,8 +344,8 @@
   npm: null
   github: mtdvio/every-programmer-should-know
   description: >-
-    A collection of (mostly) technical things every software developer should
-    know
+      A collection of (mostly) technical things every software developer should
+      know
   homepage: null
 - id: deno
   name: Deno
@@ -360,8 +360,8 @@
   npm: '@ionic/core'
   github: ionic-team/ionic
   description: >-
-    Build amazing Native and Progressive Web Apps with web technologies. One app
-    running on everything
+      Build amazing Native and Progressive Web Apps with web technologies. One app
+      running on everything
   homepage: 'https://ionicframework.com/'
 - id: material-design-icons
   name: Material Design icons
@@ -376,8 +376,8 @@
   npm: null
   github: nvm-sh/nvm
   description: >-
-    Node Version Manager - POSIX-compliant bash script to manage multiple active
-    node.js versions
+      Node Version Manager - POSIX-compliant bash script to manage multiple active
+      node.js versions
   homepage: null
 - id: react-router
   name: React Router
@@ -434,8 +434,8 @@
   npm: null
   github: thedaviddias/Front-End-Checklist
   description: >-
-    The perfect Front-End Checklist for modern websites and meticulous
-    developers
+      The perfect Front-End Checklist for modern websites and meticulous
+      developers
   homepage: 'https://frontendchecklist.io'
 - id: materialize-css
   name: Materialize CSS
@@ -457,8 +457,8 @@
   npm: null
   github: nwjs/nw.js
   description: >-
-    Call all Node.js modules directly from DOM/WebWorker and enable a new way of
-    writing applications with all Web technologies.
+      Call all Node.js modules directly from DOM/WebWorker and enable a new way of
+      writing applications with all Web technologies.
   homepage: 'https://nwjs.io'
 - id: impress
   name: Impress
@@ -466,8 +466,8 @@
   npm: null
   github: impress/impress.js
   description: >-
-    It's a presentation framework based on the power of CSS3 transforms and
-    transitions in modern browsers and inspired by the idea behind prezi.com.
+      It's a presentation framework based on the power of CSS3 transforms and
+      transitions in modern browsers and inspired by the idea behind prezi.com.
   homepage: 'http://impress.js.org'
 - id: babel
   name: Babel
@@ -503,8 +503,8 @@
   npm: serverless
   github: serverless/serverless
   description: >-
-    Build web, mobile and IoT applications with serverless architectures using
-    AWS Lambda, Azure Functions, Google CloudFunctions & more!
+      Build web, mobile and IoT applications with serverless architectures using
+      AWS Lambda, Azure Functions, Google CloudFunctions & more!
   homepage: 'https://serverless.com'
 - id: ghost
   name: Ghost
@@ -575,8 +575,8 @@
   npm: immutable
   github: immutable-js/immutable-js
   description: >-
-    Immutable persistent data collections for Javascript which increase
-    efficiency and simplicity.
+      Immutable persistent data collections for Javascript which increase
+      efficiency and simplicity.
   homepage: 'https://immutable-js.github.io/immutable-js/'
 - id: pdfjs
   name: PDF.js
@@ -605,9 +605,9 @@
   npm: foundation-sites
   github: foundation/foundation-sites
   description: >-
-    The most advanced responsive front-end framework in the world. Quickly
-    create prototypes and production code for sites that work on any kind of
-    device...
+      The most advanced responsive front-end framework in the world. Quickly
+      create prototypes and production code for sites that work on any kind of
+      device...
   homepage: 'https://get.foundation'
 - id: koa
   name: Koa
@@ -622,8 +622,8 @@
   npm: pixi.js
   github: pixijs/pixi.js
   description: >-
-    The HTML5 Creation Engine: Create beautiful digital content with the
-    fastest, most flexible 2D WebGL renderer.
+      The HTML5 Creation Engine: Create beautiful digital content with the
+      fastest, most flexible 2D WebGL renderer.
   homepage: 'http://pixijs.com'
 - id: clipboardjs
   name: clipboard.js
@@ -666,8 +666,8 @@
   npm: mermaid
   github: mermaid-js/mermaid
   description: >-
-    Generation of diagram and flowchart from text in a similar manner as
-    markdown
+      Generation of diagram and flowchart from text in a similar manner as
+      markdown
   homepage: 'http://mermaid-js.github.io/mermaid/'
 - id: styled-components
   name: Styled Components
@@ -675,8 +675,8 @@
   npm: styled-components
   github: styled-components/styled-components
   description: >-
-    Visual primitives for the component age. Use the best bits of ES6 and CSS to
-    style your apps without stress
+      Visual primitives for the component age. Use the best bits of ES6 and CSS to
+      style your apps without stress
   homepage: 'https://styled-components.com'
 - id: videojs
   name: Video.js
@@ -698,8 +698,8 @@
   npm: phaser
   github: photonstorm/phaser
   description: >-
-    Phaser is a fun, free and fast 2D game framework for making HTML5 games for
-    desktop and mobile web browsers, supporting Canvas and WebGL rendering.
+      Phaser is a fun, free and fast 2D game framework for making HTML5 games for
+      desktop and mobile web browsers, supporting Canvas and WebGL rendering.
   homepage: 'http://phaser.io'
 - id: async
   name: Async
@@ -749,8 +749,8 @@
   npm: preact
   github: preactjs/preact
   description: >-
-    Fast 3kB React alternative with the same modern API. Components & Virtual
-    DOM.
+      Fast 3kB React alternative with the same modern API. Components & Virtual
+      DOM.
   homepage: 'https://preactjs.com'
 - id: dayjs
   name: Day.js
@@ -758,8 +758,8 @@
   npm: dayjs
   github: iamkun/dayjs
   description: >-
-    Day.js 2KB immutable date library alternative to Moment.js with the same
-    modern API
+      Day.js 2KB immutable date library alternative to Moment.js with the same
+      modern API
   homepage: null
 - id: select2
   name: Select2
@@ -767,8 +767,8 @@
   npm: select2
   github: select2/select2
   description: >-
-    A jQuery based replacement for select boxes. It supports searching, remote
-    data sets, and infinite scrolling of results.
+      A jQuery based replacement for select boxes. It supports searching, remote
+      data sets, and infinite scrolling of results.
   homepage: 'https://select2.org/'
 - id: modernizr
   name: Modernizr
@@ -776,8 +776,8 @@
   npm: modernizr
   github: Modernizr/Modernizr
   description: >-
-    Modernizr is a JavaScript library that detects HTML5 and CSS3 features in
-    the user’s browser.
+      Modernizr is a JavaScript library that detects HTML5 and CSS3 features in
+      the user’s browser.
   homepage: 'https://modernizr.com'
 - id: react-boilerplate
   name: React boilerplate
@@ -785,8 +785,8 @@
   npm: null
   github: react-boilerplate/react-boilerplate
   description: >-
-    A highly scalable, offline-first foundation with the best developer
-    experience and a focus on performance and best practices.
+      A highly scalable, offline-first foundation with the best developer
+      experience and a focus on performance and best practices.
   homepage: 'https://www.reactboilerplate.com'
 - id: nuxt
   name: Nuxt
@@ -871,9 +871,9 @@
   npm: '@nestjs/core'
   github: nestjs/nest
   description: >-
-    A progressive Node.js framework for building efficient, scalable, and
-    enterprise-grade server-side applications on top of TypeScript & JavaScript
-    (ES6...
+      A progressive Node.js framework for building efficient, scalable, and
+      enterprise-grade server-side applications on top of TypeScript & JavaScript
+      (ES6...
   homepage: 'https://nestjs.com/'
 - id: swiper
   name: Swiper
@@ -958,8 +958,8 @@
   npm: cheerio
   github: cheeriojs/cheerio
   description: >-
-    Fast, flexible, and lean implementation of core jQuery designed specifically
-    for the server.
+      Fast, flexible, and lean implementation of core jQuery designed specifically
+      for the server.
   homepage: 'https://cheerio.js.org/'
 - id: hammerjs
   name: Hammer.js
@@ -1002,8 +1002,8 @@
   npm: purecss
   github: pure-css/pure
   description: >-
-    A set of small, responsive CSS modules that you can use in every web
-    project.
+      A set of small, responsive CSS modules that you can use in every web
+      project.
   homepage: 'http://purecss.io/'
 - id: flow
   name: Flow
@@ -1011,8 +1011,8 @@
   npm: flow-bin
   github: facebook/flow
   description: >-
-    Adds static typing to JavaScript to improve developer productivity and code
-    quality.
+      Adds static typing to JavaScript to improve developer productivity and code
+      quality.
   homepage: 'https://flow.org/'
 - id: lerna
   name: Lerna
@@ -1062,8 +1062,8 @@
   npm: null
   github: kriasoft/react-starter-kit
   description: >-
-    React Starter Kit — isomorphic web app boilerplate (Node.js, Express,
-    GraphQL, React.js, Babel, PostCSS, Webpack, Browsersync)
+      React Starter Kit — isomorphic web app boilerplate (Node.js, Express,
+      GraphQL, React.js, Babel, PostCSS, Webpack, Browsersync)
   homepage: 'https://reactstarter.com'
 - id: nodemon
   name: nodemon
@@ -1071,8 +1071,8 @@
   npm: nodemon
   github: remy/nodemon
   description: >-
-    Monitor for any changes in your node.js application and automatically
-    restart the server - perfect for development
+      Monitor for any changes in your node.js application and automatically
+      restart the server - perfect for development
   homepage: 'http://nodemon.io/'
 - id: formik
   name: Formik
@@ -1101,8 +1101,8 @@
   npm: null
   github: mbeaudru/modern-js-cheatsheet
   description: >-
-    Cheatsheet for the JavaScript knowledge you will frequently encounter in
-    modern projects.
+      Cheatsheet for the JavaScript knowledge you will frequently encounter in
+      modern projects.
   homepage: 'https://mbeaudru.github.io/modern-js-cheatsheet/'
 - id: ngx-admin
   name: ngx-admin
@@ -1124,8 +1124,8 @@
   npm: null
   github: airbnb/lottie-web
   description: >-
-    Render After Effects animations natively on Web, Android and iOS, and React
-    Native.
+      Render After Effects animations natively on Web, Android and iOS, and React
+      Native.
   homepage: null
 - id: codemirror
   name: CodeMirror
@@ -1147,8 +1147,8 @@
   npm: sortablejs
   github: SortableJS/Sortable
   description: >-
-    A minimalist JavaScript library for reorderable drag-and-drop lists on
-    modern browsers and touch devices. No jQuery.
+      A minimalist JavaScript library for reorderable drag-and-drop lists on
+      modern browsers and touch devices. No jQuery.
   homepage: 'https://sortablejs.github.io/Sortable/'
 - id: pug
   name: Pug
@@ -1163,8 +1163,8 @@
   npm: null
   github: nefe/You-Dont-Need-jQuery
   description: >-
-    Examples of how to do query, style, dom, ajax, event etc like jQuery with
-    plain javascript.
+      Examples of how to do query, style, dom, ajax, event etc like jQuery with
+      plain javascript.
   homepage: null
 - id: bluebird
   name: Bluebird
@@ -1186,8 +1186,8 @@
   npm: intro.js
   github: usablica/intro.js
   description: >-
-    A better way for new feature introduction and step-by-step users guide for
-    your website and project.
+      A better way for new feature introduction and step-by-step users guide for
+      your website and project.
   homepage: 'http://introjs.com'
 - id: react-select
   name: React Select
@@ -1251,9 +1251,9 @@
   npm: nativescript
   github: NativeScript/NativeScript
   description: >-
-    NativeScript is an open source framework for building truly native mobile
-    apps with JavaScript. Use web skills, like Angular and Vue.js, FlexBox and
-    C...
+      NativeScript is an open source framework for building truly native mobile
+      apps with JavaScript. Use web skills, like Angular and Vue.js, FlexBox and
+      C...
   homepage: 'https://www.nativescript.org'
 - id: autoprefixer
   name: Autoprefixer
@@ -1317,8 +1317,8 @@
   npm: null
   github: dhg/Skeleton
   description: >-
-    Skeleton: A Dead Simple, Responsive Boilerplate for Mobile-Friendly
-    Development
+      Skeleton: A Dead Simple, Responsive Boilerplate for Mobile-Friendly
+      Development
   homepage: 'http://www.getskeleton.com'
 - id: ava
   name: AVA
@@ -1431,9 +1431,9 @@
   npm: typeorm
   github: typeorm/typeorm
   description: >-
-    ORM for TypeScript and JavaScript (ES7, ES6, ES5). Supports MySQL,
-    PostgreSQL, MariaDB, SQLite, MS SQL Server, Oracle, WebSQL databases. Works
-    in Node...
+      ORM for TypeScript and JavaScript (ES7, ES6, ES5). Supports MySQL,
+      PostgreSQL, MariaDB, SQLite, MS SQL Server, Oracle, WebSQL databases. Works
+      in Node...
   homepage: 'http://typeorm.io'
 - id: velocity
   name: Velocity
@@ -1448,8 +1448,8 @@
   npm: localforage
   github: localForage/localForage
   description: >-
-    Offline storage, improved. Wraps IndexedDB, WebSQL, or localStorage using a
-    simple but powerful API.
+      Offline storage, improved. Wraps IndexedDB, WebSQL, or localStorage using a
+      simple but powerful API.
   homepage: 'https://localforage.github.io/localForage'
 - id: prisma
   name: Prisma
@@ -1457,8 +1457,8 @@
   npm: graphcool
   github: prisma/prisma
   description: >-
-    Database Tools incl. ORM, Migrations and Admin UI (Postgres, MySQL &
-    MongoDB)
+      Database Tools incl. ORM, Migrations and Admin UI (Postgres, MySQL &
+      MongoDB)
   homepage: 'https://www.prisma.io'
 - id: less
   name: Less
@@ -1480,8 +1480,8 @@
   npm: slate
   github: ianstormtaylor/slate
   description: >-
-    A completely customizable framework for building rich text editors.
-    (Currently in beta.)
+      A completely customizable framework for building rich text editors.
+      (Currently in beta.)
   homepage: 'http://slatejs.org'
 - id: reselect
   name: Reselect
@@ -1517,8 +1517,8 @@
   npm: eslint
   github: eslint/eslint
   description: >-
-    A fully pluggable tool for identifying and reporting on patterns in
-    JavaScript
+      A fully pluggable tool for identifying and reporting on patterns in
+      JavaScript
   homepage: 'https://eslint.org'
 - id: coffeescript
   name: CoffeeScript
@@ -1582,9 +1582,9 @@
   npm: null
   github: wekan/wekan
   description: >-
-    The open-source kanban (built with Meteor). Keep variable/table/field names
-    camelCase. For translations, only add Pull Request changes to
-    wekan/i18n/e...
+      The open-source kanban (built with Meteor). Keep variable/table/field names
+      camelCase. For translations, only add Pull Request changes to
+      wekan/i18n/e...
   homepage: 'https://wekan.github.io'
 - id: howlerjs
   name: howler.js
@@ -1599,8 +1599,8 @@
   npm: uikit
   github: uikit/uikit
   description: >-
-    A lightweight and modular front-end framework for developing fast and
-    powerful web interfaces
+      A lightweight and modular front-end framework for developing fast and
+      powerful web interfaces
   homepage: 'http://getuikit.com'
 - id: cleavejs
   name: Cleave.js
@@ -1622,8 +1622,8 @@
   npm: sharp
   github: lovell/sharp
   description: >-
-    High performance Node.js image processing, the fastest module to resize
-    JPEG, PNG, WebP and TIFF images. Uses the libvips library.
+      High performance Node.js image processing, the fastest module to resize
+      JPEG, PNG, WebP and TIFF images. Uses the libvips library.
   homepage: 'https://sharp.pixelplumbing.com/'
 - id: handlebarsjs
   name: Handlebars.js
@@ -1673,8 +1673,8 @@
   npm: zepto
   github: madrobby/zepto
   description: >-
-    Zepto.js is a minimalist JavaScript library for modern browsers, with a
-    jQuery-compatible API
+      Zepto.js is a minimalist JavaScript library for modern browsers, with a
+      jQuery-compatible API
   homepage: 'http://zeptojs.com'
 - id: dropzone
   name: Dropzone
@@ -1682,8 +1682,8 @@
   npm: dropzone
   github: enyo/dropzone
   description: >-
-    Dropzone is an easy to use drag'n'drop library. It supports image previews
-    and shows nice progress bars.
+      Dropzone is an easy to use drag'n'drop library. It supports image previews
+      and shows nice progress bars.
   homepage: 'http://www.dropzonejs.com'
 - id: jasmine
   name: Jasmine
@@ -1782,8 +1782,8 @@
   npm: dva
   github: dvajs/dva
   description: >-
-    React and redux based, lightweight and elm-style framework. (Inspired by elm
-    and choo)
+      React and redux based, lightweight and elm-style framework. (Inspired by elm
+      and choo)
   homepage: 'https://dvajs.com/'
 - id: inferno
   name: Inferno
@@ -1791,8 +1791,8 @@
   npm: inferno
   github: infernojs/inferno
   description: >-
-    An extremely fast, React-like JavaScript library for building modern user
-    interfaces
+      An extremely fast, React-like JavaScript library for building modern user
+      interfaces
   homepage: 'https://infernojs.org'
 - id: learngitbranching
   name: LearnGitBranching
@@ -1807,8 +1807,8 @@
   npm: medium-editor
   github: yabwe/medium-editor
   description: >-
-    Medium.com WYSIWYG editor clone. Uses contenteditable API to implement a
-    rich text solution.
+      Medium.com WYSIWYG editor clone. Uses contenteditable API to implement a
+      rich text solution.
   homepage: 'https://yabwe.github.io/medium-editor/'
 - id: ionicons
   name: Ionicons
@@ -1851,8 +1851,8 @@
   npm: null
   github: marktext/marktext
   description: >-
-    A simple and elegant markdown editor, available for Linux, macOS and
-    Windows.
+      A simple and elegant markdown editor, available for Linux, macOS and
+      Windows.
   homepage: 'https://marktext.app'
 - id: draggable
   name: Draggable
@@ -1944,8 +1944,8 @@
   npm: null
   github: hasura/graphql-engine
   description: >-
-    Blazing fast, instant realtime GraphQL APIs on Postgres with fine grained
-    access control, also trigger webhooks on database events.
+      Blazing fast, instant realtime GraphQL APIs on Postgres with fine grained
+      access control, also trigger webhooks on database events.
   homepage: 'https://hasura.io'
 - id: weex
   name: Weex
@@ -1981,8 +1981,8 @@
   npm: loopback
   github: strongloop/loopback
   description: >-
-    LoopBack makes it easy to build modern applications that require complex
-    integrations.
+      LoopBack makes it easy to build modern applications that require complex
+      integrations.
   homepage: 'http://loopback.io'
 - id: handsontable
   name: Handsontable
@@ -1990,8 +1990,8 @@
   npm: handsontable
   github: handsontable/handsontable
   description: >-
-    Handsontable - JavaScript/HTML5 Data Grid Component with Spreadsheet Look &
-    Feel. Available for React, Vue and Angular.
+      Handsontable - JavaScript/HTML5 Data Grid Component with Spreadsheet Look &
+      Feel. Available for React, Vue and Angular.
   homepage: 'https://handsontable.com'
 - id: ws
   name: ws
@@ -1999,8 +1999,8 @@
   npm: ws
   github: websockets/ws
   description: >-
-    Simple to use, blazing fast and thoroughly tested WebSocket client and
-    server for Node.js
+      Simple to use, blazing fast and thoroughly tested WebSocket client and
+      server for Node.js
   homepage: null
 - id: css-modules
   name: CSS Modules
@@ -2015,9 +2015,9 @@
   npm: null
   github: quasarframework/quasar
   description: >-
-    Responsive Single Page Apps, Server-side Render Apps, Progressive Web Apps,
-    Hybrid Mobile Apps (that look native!) & Electron Apps, all using the
-    same...
+      Responsive Single Page Apps, Server-side Render Apps, Progressive Web Apps,
+      Hybrid Mobile Apps (that look native!) & Electron Apps, all using the
+      same...
   homepage: 'https://quasar.dev'
 - id: recharts
   name: Recharts
@@ -2032,8 +2032,8 @@
   npm: null
   github: salomonelli/best-resume-ever
   description: >-
-    Build fast  and easy multiple beautiful resumes and create your best CV
-    ever! Made with Vue and LESS.
+      Build fast  and easy multiple beautiful resumes and create your best CV
+      ever! Made with Vue and LESS.
   homepage: 'https://salomonelli.github.io/best-resume-ever'
 - id: ccxt
   name: CCXT
@@ -2041,8 +2041,8 @@
   npm: ccxt
   github: ccxt/ccxt
   description: >-
-    A JavaScript / Python / PHP cryptocurrency trading API with support for more
-    than 120 bitcoin/altcoin exchanges
+      A JavaScript / Python / PHP cryptocurrency trading API with support for more
+      than 120 bitcoin/altcoin exchanges
   homepage: null
 - id: apollo-client
   name: Apollo client
@@ -2050,8 +2050,8 @@
   npm: apollo-client
   github: apollographql/apollo-client
   description: >-
-    A fully-featured, production ready caching GraphQL client for every UI
-    framework and GraphQL server
+      A fully-featured, production ready caching GraphQL client for every UI
+      framework and GraphQL server
   homepage: 'https://apollographql.com/client'
 - id: storejs
   name: store.js
@@ -2080,8 +2080,8 @@
   npm: forever
   github: foreversd/forever
   description: >-
-    A simple CLI tool for ensuring that a given script runs continuously (i.e.
-    forever)
+      A simple CLI tool for ensuring that a given script runs continuously (i.e.
+      forever)
   homepage: null
 - id: pouchdb
   name: PouchDB
@@ -2131,8 +2131,8 @@
   npm: null
   github: philipwalton/solved-by-flexbox
   description: >-
-    A showcase of problems once hard or impossible to solve with CSS alone, now
-    made trivially easy with Flexbox.
+      A showcase of problems once hard or impossible to solve with CSS alone, now
+      made trivially easy with Flexbox.
   homepage: 'https://philipwalton.github.io/solved-by-flexbox/'
 - id: rxdb
   name: RxDB
@@ -2154,9 +2154,9 @@
   npm: lazysizes
   github: aFarkas/lazysizes
   description: >-
-    High performance and SEO friendly lazy loader for images (responsive and
-    normal), iframes and more, that detects any visibility changes triggered
-    thro...
+      High performance and SEO friendly lazy loader for images (responsive and
+      normal), iframes and more, that detects any visibility changes triggered
+      thro...
   homepage: null
 - id: vivus
   name: vivus
@@ -2171,8 +2171,8 @@
   npm: null
   github: froala/design-blocks
   description: >-
-    A set of 170+ Bootstrap based design blocks ready to be used to create clean
-    modern websites.
+      A set of 170+ Bootstrap based design blocks ready to be used to create clean
+      modern websites.
   homepage: 'https://www.froala.com/design-blocks'
 - id: graphql
   name: GraphQL
@@ -2180,8 +2180,8 @@
   npm: graphql-relay
   github: graphql/graphql-spec
   description: >-
-    GraphQL is a query language and execution engine tied to any backend
-    service.
+      GraphQL is a query language and execution engine tied to any backend
+      service.
   homepage: 'https://graphql.org/'
 - id: tensorflowjs
   name: TensorFlow.js
@@ -2196,9 +2196,9 @@
   npm: selectize
   github: selectize/selectize.js
   description: >-
-    The hybrid of a textbox and <select> box. It's jQuery based and it has
-    autocomplete and native-feeling keyboard navigation; useful for tagging,
-    contac...
+      The hybrid of a textbox and <select> box. It's jQuery based and it has
+      autocomplete and native-feeling keyboard navigation; useful for tagging,
+      contac...
   homepage: 'http://selectize.github.io/selectize.js/'
 - id: react-helmet
   name: React Helmet
@@ -2213,8 +2213,8 @@
   npm: redux-form
   github: redux-form/redux-form
   description: >-
-    A Higher Order Component using react-redux to keep form state in a Redux
-    store
+      A Higher Order Component using react-redux to keep form state in a Redux
+      store
   homepage: 'https://redux-form.com'
 - id: functional-light-javascript
   name: Functional-Light JavaScript
@@ -2229,8 +2229,8 @@
   npm: null
   github: GitSquared/edex-ui
   description: >-
-    A cross-platform, customizable science fiction terminal emulator with
-    advanced monitoring & touchscreen support.
+      A cross-platform, customizable science fiction terminal emulator with
+      advanced monitoring & touchscreen support.
   homepage: null
 - id: grunt
   name: Grunt
@@ -2252,8 +2252,8 @@
   npm: p5
   github: processing/p5.js
   description: >-
-    p5.js is a JS client-side library for creating graphic and interactive
-    experiences, based on the core principles of Processing.
+      p5.js is a JS client-side library for creating graphic and interactive
+      experiences, based on the core principles of Processing.
   homepage: 'http://p5js.org/'
 - id: feathers
   name: Feathers
@@ -2261,8 +2261,8 @@
   npm: '@feathersjs/feathers'
   github: feathersjs/feathers
   description: >-
-    A framework for real-time applications and REST APIs with JavaScript and
-    TypeScript
+      A framework for real-time applications and REST APIs with JavaScript and
+      TypeScript
   homepage: 'https://feathersjs.com'
 - id: lowdb
   name: Lowdb
@@ -2270,8 +2270,8 @@
   npm: lowdb
   github: typicode/lowdb
   description: >-
-    ️ lowdb is a small local JSON database powered by Lodash (supports Node,
-    Electron and the browser)
+      ️ lowdb is a small local JSON database powered by Lodash (supports Node,
+      Electron and the browser)
   homepage: null
 - id: you-might-not-need-jquery
   name: You might not need jQuery
@@ -2314,8 +2314,8 @@
   npm: mean
   github: linnovate/mean
   description: >-
-    The MEAN stack uses Mongo, Express, Angular(6) and Node for simple and
-    scalable fullstack js applications
+      The MEAN stack uses Mongo, Express, Angular(6) and Node for simple and
+      scalable fullstack js applications
   homepage: null
 - id: mithril
   name: Mithril
@@ -2386,8 +2386,8 @@
   npm: aurelia-framework
   github: aurelia/framework
   description: >-
-    The Aurelia 1 framework entry point, bringing together all the required
-    sub-modules of Aurelia.
+      The Aurelia 1 framework entry point, bringing together all the required
+      sub-modules of Aurelia.
   homepage: null
 - id: katex
   name: KaTeX
@@ -2423,8 +2423,8 @@
   npm: paper
   github: paperjs/paper.js
   description: >-
-    The Swiss Army Knife of Vector Graphics Scripting – Scriptographer ported to
-    JavaScript and the browser, using HTML5 Canvas. Created by @lehni & @puck...
+      The Swiss Army Knife of Vector Graphics Scripting – Scriptographer ported to
+      JavaScript and the browser, using HTML5 Canvas. Created by @lehni & @puck...
   homepage: 'http://paperjs.org'
 - id: johnny-five
   name: Johnny-Five
@@ -2446,8 +2446,8 @@
   npm: null
   github: uNetworking/uWebSockets
   description: >-
-    Simple, secure & standards compliant web I/O for the most demanding of
-    applications
+      Simple, secure & standards compliant web I/O for the most demanding of
+      applications
   homepage: null
 - id: react-intl
   name: React Intl
@@ -2455,9 +2455,9 @@
   npm: react-intl
   github: formatjs/react-intl
   description: >-
-    Internationalize React apps. This library provides React components and an
-    API to format dates, numbers, and strings, including pluralization and
-    hand...
+      Internationalize React apps. This library provides React components and an
+      API to format dates, numbers, and strings, including pluralization and
+      hand...
   homepage: null
 - id: react-native-navigation
   name: React Native Navigation
@@ -2479,8 +2479,8 @@
   npm: co
   github: tj/co
   description: >-
-    The ultimate generator based flow-control goodness for nodejs (supports
-    thunks, promises, etc)
+      The ultimate generator based flow-control goodness for nodejs (supports
+      thunks, promises, etc)
   homepage: null
 - id: knexjs
   name: knex.js
@@ -2488,8 +2488,8 @@
   npm: knex
   github: knex/knex
   description: >-
-    A query builder for PostgreSQL, MySQL and SQLite3, designed to be flexible,
-    portable, and fun to use.
+      A query builder for PostgreSQL, MySQL and SQLite3, designed to be flexible,
+      portable, and fun to use.
   homepage: 'http://knexjs.org/'
 - id: plotlyjs
   name: plotly.js
@@ -2567,8 +2567,8 @@
   npm: driver.js
   github: kamranahmedse/driver.js
   description: >-
-    A light-weight, no-dependency, vanilla JavaScript engine to drive the user's
-    focus across the page
+      A light-weight, no-dependency, vanilla JavaScript engine to drive the user's
+      focus across the page
   homepage: 'http://kamranahmed.info/driver.js'
 - id: pomelo
   name: Pomelo
@@ -2590,8 +2590,8 @@
   npm: null
   github: krasimir/react-in-patterns
   description: >-
-    A free book that talks about design patterns/techniques used while
-    developing with React.
+      A free book that talks about design patterns/techniques used while
+      developing with React.
   homepage: 'https://www.gitbook.com/book/krasimir/react-in-patterns/'
 - id: babylonjs
   name: Babylon.js
@@ -2599,8 +2599,8 @@
   npm: babylonjs
   github: BabylonJS/Babylon.js
   description: >-
-    Babylon.js is a powerful, beautiful, simple, and open game and rendering
-    engine packed into a friendly JavaScript framework.
+      Babylon.js is a powerful, beautiful, simple, and open game and rendering
+      engine packed into a friendly JavaScript framework.
   homepage: 'http://www.babylonjs.com'
 - id: react-admin
   name: react-admin
@@ -2608,8 +2608,8 @@
   npm: react-admin
   github: marmelab/react-admin
   description: >-
-    A frontend Framework for building B2B applications running in the browser on
-    top of REST/GraphQL APIs, using ES6, React and Material Design
+      A frontend Framework for building B2B applications running in the browser on
+      top of REST/GraphQL APIs, using ES6, React and Material Design
   homepage: 'http://marmelab.com/react-admin'
 - id: shelljs
   name: ShellJS
@@ -2624,9 +2624,9 @@
   npm: bootstrap-vue
   github: bootstrap-vue/bootstrap-vue
   description: >-
-    BootstrapVue, with over 40 plugins and more than 80 custom components,
-    provides one of the most comprehensive implementations of Bootstrap v4
-    componen...
+      BootstrapVue, with over 40 plugins and more than 80 custom components,
+      provides one of the most comprehensive implementations of Bootstrap v4
+      componen...
   homepage: 'https://bootstrap-vue.js.org'
 - id: headroomjs
   name: headroom.js
@@ -2669,8 +2669,8 @@
   npm: sweetalert2
   github: sweetalert2/sweetalert2
   description: >-
-    A beautiful, responsive, highly customizable and accessible (WAI-ARIA)
-    replacement for JavaScript's popup boxes. Zero dependencies.
+      A beautiful, responsive, highly customizable and accessible (WAI-ARIA)
+      replacement for JavaScript's popup boxes. Zero dependencies.
   homepage: 'https://sweetalert2.github.io/'
 - id: dotenv
   name: Dotenv
@@ -2706,8 +2706,8 @@
   npm: react-dates
   github: airbnb/react-dates
   description: >-
-    An easily internationalizable, mobile-friendly datepicker library for the
-    web
+      An easily internationalizable, mobile-friendly datepicker library for the
+      web
   homepage: 'http://airbnb.io/react-dates'
 - id: editorjs
   name: Editor.js
@@ -2722,8 +2722,8 @@
   npm: react-grid-layout
   github: STRML/react-grid-layout
   description: >-
-    A draggable and resizable grid layout with responsive breakpoints, for
-    React.
+      A draggable and resizable grid layout with responsive breakpoints, for
+      React.
   homepage: 'https://strml.github.io/react-grid-layout/examples/0-showcase.html'
 - id: greensock
   name: Greensock
@@ -2738,8 +2738,8 @@
   npm: waypoints
   github: imakewebthings/waypoints
   description: >-
-    Waypoints is a library that makes it easy to execute a function whenever you
-    scroll to an element.
+      Waypoints is a library that makes it easy to execute a function whenever you
+      scroll to an element.
   homepage: 'http://imakewebthings.com/waypoints/'
 - id: nightwatch
   name: Nightwatch
@@ -2761,8 +2761,8 @@
   npm: '@testing-library/react'
   github: testing-library/react-testing-library
   description: >-
-    Simple and complete React DOM testing utilities that encourage good testing
-    practices.
+      Simple and complete React DOM testing utilities that encourage good testing
+      practices.
   homepage: 'https://testing-library.com/react'
 - id: mousetrap
   name: Mousetrap
@@ -2791,8 +2791,8 @@
   npm: grapesjs
   github: artf/grapesjs
   description: >-
-    Free and Open source Web Builder Framework. Next generation tool for
-    building templates without coding
+      Free and Open source Web Builder Framework. Next generation tool for
+      building templates without coding
   homepage: 'https://grapesjs.com'
 - id: ndb
   name: ndb
@@ -2800,8 +2800,8 @@
   npm: ndb
   github: GoogleChromeLabs/ndb
   description: >-
-    ndb is an improved debugging experience for Node.js, enabled by Chrome
-    DevTools
+      ndb is an improved debugging experience for Node.js, enabled by Chrome
+      DevTools
   homepage: null
 - id: toastui-editor
   name: 'ToastUI Editor '
@@ -2830,8 +2830,8 @@
   npm: botkit
   github: howdyai/botkit
   description: >-
-    Botkit is an open source developer tool for building chat bots, apps and
-    custom integrations for major messaging platforms.
+      Botkit is an open source developer tool for building chat bots, apps and
+      custom integrations for major messaging platforms.
   homepage: 'http://botkit.ai'
 - id: graphiql
   name: GraphiQL
@@ -2867,8 +2867,8 @@
   npm: null
   github: coryhouse/react-slingshot
   description: >-
-    React + Redux starter kit / boilerplate with Babel, hot reloading, testing,
-    linting and a working example app built in
+      React + Redux starter kit / boilerplate with Babel, hot reloading, testing,
+      linting and a working example app built in
   homepage: null
 - id: proton-native
   name: Proton Native
@@ -2904,8 +2904,8 @@
   npm: null
   github: reactioncommerce/reaction
   description: >-
-    Reaction is an API-first, headless commerce platform built using Node.js,
-    React, GraphQL. Deployed via Docker and Kubernetes.
+      Reaction is an API-first, headless commerce platform built using Node.js,
+      React, GraphQL. Deployed via Docker and Kubernetes.
   homepage: 'https://reactioncommerce.com/'
 - id: fusejs
   name: Fuse.js
@@ -2927,8 +2927,8 @@
   npm: jimp
   github: oliver-moran/jimp
   description: >-
-    An image processing library written entirely in JavaScript for Node, with
-    zero external or native dependencies.
+      An image processing library written entirely in JavaScript for Node, with
+      zero external or native dependencies.
   homepage: null
 - id: tachyons
   name: Tachyons
@@ -3027,8 +3027,8 @@
   npm: interactjs
   github: taye/interact.js
   description: >-
-    JavaScript drag and drop, resizing and multi-touch gestures with inertia and
-    snapping for modern browsers (and also IE9+)
+      JavaScript drag and drop, resizing and multi-touch gestures with inertia and
+      snapping for modern browsers (and also IE9+)
   homepage: 'http://interactjs.io/'
 - id: natural
   name: natural
@@ -3071,8 +3071,8 @@
   npm: hotel
   github: typicode/hotel
   description: >-
-    A simple process manager for developers. Start apps from your browser and
-    access them using local domains
+      A simple process manager for developers. Start apps from your browser and
+      access them using local domains
   homepage: null
 - id: evergreen
   name: Evergreen
@@ -3157,8 +3157,8 @@
   npm: markdown-it
   github: markdown-it/markdown-it
   description: >-
-    Markdown parser, done right. 100% CommonMark support, extensions, syntax
-    plugins & high speed
+      Markdown parser, done right. 100% CommonMark support, extensions, syntax
+      plugins & high speed
   homepage: 'https://markdown-it.github.io'
 - id: react-table
   name: React Table
@@ -3173,8 +3173,8 @@
   npm: react-toolbox
   github: react-toolbox/react-toolbox
   description: >-
-    A set of React components implementing Google's Material Design
-    specification with the power of CSS Modules
+      A set of React components implementing Google's Material Design
+      specification with the power of CSS Modules
   homepage: null
 - id: super-tiny-social-icons
   name: Super Tiny Social Icons
@@ -3182,8 +3182,8 @@
   npm: null
   github: edent/SuperTinyIcons
   description: >-
-    Under 1KB each! Super Tiny Icons are miniscule SVG versions of your
-    favourite website and app logos
+      Under 1KB each! Super Tiny Icons are miniscule SVG versions of your
+      favourite website and app logos
   homepage: null
 - id: reactstrap
   name: reactstrap
@@ -3296,8 +3296,8 @@
   npm: debug
   github: visionmedia/debug
   description: >-
-    A tiny JavaScript debugging utility modelled after Node.js core's debugging
-    technique. Works in Node.js and web browsers
+      A tiny JavaScript debugging utility modelled after Node.js core's debugging
+      technique. Works in Node.js and web browsers
   homepage: null
 - id: filepond
   name: Filepond
@@ -3312,8 +3312,8 @@
   npm: jshint
   github: jshint/jshint
   description: >-
-    JSHint is a tool that helps to detect errors and potential problems in your
-    JavaScript code
+      JSHint is a tool that helps to detect errors and potential problems in your
+      JavaScript code
   homepage: 'http://jshint.com'
 - id: razzle
   name: Razzle
@@ -3321,8 +3321,8 @@
   npm: razzle
   github: jaredpalmer/razzle
   description: >-
-    Create server-rendered universal JavaScript applications with no
-    configuration
+      Create server-rendered universal JavaScript applications with no
+      configuration
   homepage: null
 - id: clojurescript
   name: ClojureScript
@@ -3337,8 +3337,8 @@
   npm: null
   github: facebook/reason
   description: >-
-    Simple, fast & type safe code that leverages the JavaScript & OCaml
-    ecosystems
+      Simple, fast & type safe code that leverages the JavaScript & OCaml
+      ecosystems
   homepage: 'http://reasonml.github.io'
 - id: trackingjs
   name: Tracking.js
@@ -3360,8 +3360,8 @@
   npm: postgraphile
   github: graphile/postgraphile
   description: >-
-    Execute one command (or mount one Node.js middleware) and get an instant
-    high-performance GraphQL API for your PostgreSQL database!
+      Execute one command (or mount one Node.js middleware) and get an instant
+      high-performance GraphQL API for your PostgreSQL database!
   homepage: 'https://graphile.org/postgraphile'
 - id: electron-builder
   name: electron-builder
@@ -3369,8 +3369,8 @@
   npm: electron-builder
   github: electron-userland/electron-builder
   description: >-
-    A complete solution to package and build a ready for distribution Electron
-    app with “auto update” support out of the box
+      A complete solution to package and build a ready for distribution Electron
+      app with “auto update” support out of the box
   homepage: 'https://www.electron.build'
 - id: color-thief
   name: Color Thief
@@ -3378,8 +3378,8 @@
   npm: colorthief
   github: lokesh/color-thief
   description: >-
-    Grab the color palette from an image using just Javascript.  Works in the
-    browser and in Node.
+      Grab the color palette from an image using just Javascript.  Works in the
+      browser and in Node.
   homepage: 'https://lokeshdhakar.com/projects/color-thief/'
 - id: pollyjs
   name: Polly.JS
@@ -3394,8 +3394,8 @@
   npm: expo
   github: expo/expo
   description: >-
-    An open-source platform for making universal native apps with React. Expo
-    runs on Android, iOS, and the web.
+      An open-source platform for making universal native apps with React. Expo
+      runs on Android, iOS, and the web.
   homepage: 'https://docs.expo.io/'
 - id: papa-parse
   name: Papa Parse
@@ -3403,8 +3403,8 @@
   npm: papaparse
   github: mholt/PapaParse
   description: >-
-    Fast and powerful CSV (delimited text) parser that gracefully handles large
-    files and malformed input
+      Fast and powerful CSV (delimited text) parser that gracefully handles large
+      files and malformed input
   homepage: 'http://PapaParse.com'
 - id: botpress
   name: Botpress
@@ -3412,8 +3412,8 @@
   npm: botpress
   github: botpress/botpress
   description: >-
-    The open-source Conversational Platform with built-in language understanding
-    (NLU), beautiful graphical interface and Dialog Manager (DM). Easily crea...
+      The open-source Conversational Platform with built-in language understanding
+      (NLU), beautiful graphical interface and Dialog Manager (DM). Easily crea...
   homepage: 'https://botpress.io'
 - id: critical
   name: Critical
@@ -3442,8 +3442,8 @@
   npm: react-content-loader
   github: danilowoz/react-content-loader
   description: >-
-    SVG-Powered component to easily create placeholder loadings (like Facebook
-    cards loading)
+      SVG-Powered component to easily create placeholder loadings (like Facebook
+      cards loading)
   homepage: 'http://danilowoz.com/create-content-loader/'
 - id: face-apijs
   name: face-api.js
@@ -3451,8 +3451,8 @@
   npm: face-api.js
   github: justadudewhohacks/face-api.js
   description: >-
-    JavaScript API for face detection and face recognition in the browser and
-    nodejs with tensorflow.js
+      JavaScript API for face detection and face recognition in the browser and
+      nodejs with tensorflow.js
   homepage: null
 - id: spectacle
   name: Spectacle
@@ -3551,8 +3551,8 @@
   npm: ory-editor
   github: react-page/react-page
   description: >-
-    Next-gen, highly customizable content editor for the browser - based on
-    React and Redux and written in TypeScript. WYSIWYG on steroids.
+      Next-gen, highly customizable content editor for the browser - based on
+      React and Redux and written in TypeScript. WYSIWYG on steroids.
   homepage: 'https://ory-editor.aeneas.io'
 - id: ant-design-mobile
   name: Ant Design Mobile
@@ -3574,9 +3574,9 @@
   npm: null
   github: OnsenUI/OnsenUI
   description: >-
-    Mobile app development framework and SDK using HTML5 and JavaScript. Create
-    beautiful and performant cross-platform mobile apps. Based on Web
-    Componen...
+      Mobile app development framework and SDK using HTML5 and JavaScript. Create
+      beautiful and performant cross-platform mobile apps. Based on Web
+      Componen...
   homepage: 'https://onsen.io/'
 - id: toastui-calendar
   name: ToastUI Calendar
@@ -3633,8 +3633,8 @@
   npm: quicklink
   github: GoogleChromeLabs/quicklink
   description: >-
-    ️Faster subsequent page-loads by prefetching in-viewport links during idle
-    time
+      ️Faster subsequent page-loads by prefetching in-viewport links during idle
+      time
   homepage: null
 - id: wired-elements
   name: wired-elements
@@ -3642,8 +3642,8 @@
   npm: wired-elements
   github: wiredjs/wired-elements
   description: >-
-    Collection of custom elements that appear hand drawn. Great for wireframes
-    or a fun look.
+      Collection of custom elements that appear hand drawn. Great for wireframes
+      or a fun look.
   homepage: 'https://wiredjs.com'
 - id: react-360
   name: React 360
@@ -3700,8 +3700,8 @@
   npm: victory
   github: FormidableLabs/victory
   description: >-
-    A collection of composable React components for building interactive data
-    visualizations
+      A collection of composable React components for building interactive data
+      visualizations
   homepage: 'http://formidable.com/open-source/victory/'
 - id: xtermjs
   name: Xterm.js
@@ -3736,7 +3736,7 @@
   stars: 7506
   npm: barba.js
   github: barbajs/barba
-  description: 'Create badass, fluid and smooth transition between your website''s pages.'
+  description: "Create badass, fluid and smooth transition between your website's pages."
   homepage: 'https://barba.js.org'
 - id: react-sortable
   name: React Sortable
@@ -3744,8 +3744,8 @@
   npm: react-sortable-hoc
   github: clauderic/react-sortable-hoc
   description: >-
-    A set of higher-order components to turn any list into an animated,
-    accessible and touch-friendly sortable list
+      A set of higher-order components to turn any list into an animated,
+      accessible and touch-friendly sortable list
   homepage: 'https://clauderic.github.io/react-sortable-hoc/'
 - id: cube-ui
   name: cube-ui
@@ -3767,8 +3767,8 @@
   npm: automerge
   github: automerge/automerge
   description: >-
-    A JSON-like data structure (a CRDT) that can be modified concurrently by
-    different users, and merged again automatically.
+      A JSON-like data structure (a CRDT) that can be modified concurrently by
+      different users, and merged again automatically.
   homepage: null
 - id: 30-seconds-of-interviews
   name: 30 Seconds of Interviews
@@ -3776,8 +3776,8 @@
   npm: null
   github: 30-seconds/30-seconds-of-interviews
   description: >-
-    A curated collection of common interview questions to help you prepare for
-    your next interview.
+      A curated collection of common interview questions to help you prepare for
+      your next interview.
   homepage: 'https://30secondsofinterviews.org'
 - id: prism
   name: Prism
@@ -3799,8 +3799,8 @@
   npm: adonis-framework
   github: adonisjs/adonis-framework
   description: >-
-    The Node.js Framework highly focused on developer ergonomics, stability and
-    confidence
+      The Node.js Framework highly focused on developer ergonomics, stability and
+      confidence
   homepage: 'https://adonisjs.com'
 - id: stylelint
   name: Stylelint
@@ -3892,9 +3892,9 @@
   npm: mediaelement
   github: mediaelement/mediaelement
   description: >-
-    HTML5 <audio> or <video> player with support for MP4, WebM, and MP3 as well
-    as HLS, Dash, YouTube, Facebook, SoundCloud and others with a common
-    HTML5...
+      HTML5 <audio> or <video> player with support for MP4, WebM, and MP3 as well
+      as HLS, Dash, YouTube, Facebook, SoundCloud and others with a common
+      HTML5...
   homepage: 'http://mediaelementjs.com/'
 - id: diegomurareact-pdf
   name: diegomura/react-pdf
@@ -3909,8 +3909,8 @@
   npm: eva-icons
   github: akveo/eva-icons
   description: >-
-    A pack of more than 480 beautifully crafted Open Source icons. SVG, Sketch,
-    Web Font and Animations support.
+      A pack of more than 480 beautifully crafted Open Source icons. SVG, Sketch,
+      Web Font and Animations support.
   homepage: 'https://akveo.github.io/eva-icons/'
 - id: x-spreadsheet
   name: x-spreadsheet
@@ -3939,8 +3939,8 @@
   npm: dc
   github: dc-js/dc.js
   description: >-
-    Multi-Dimensional charting built to work natively with crossfilter rendered
-    with d3.js
+      Multi-Dimensional charting built to work natively with crossfilter rendered
+      with d3.js
   homepage: null
 - id: stencil
   name: Stencil
@@ -3948,8 +3948,8 @@
   npm: null
   github: ionic-team/stencil
   description: >-
-    A Web Component compiler for building fast, reusable UI components and
-    Progressive Web Apps  Built by the Ionic Framework team
+      A Web Component compiler for building fast, reusable UI components and
+      Progressive Web Apps  Built by the Ionic Framework team
   homepage: 'https://stenciljs.com/'
 - id: redux-observable
   name: redux-observable
@@ -3971,8 +3971,8 @@
   npm: null
   github: browserslist/browserslist
   description: >-
-    Share target browsers between different front-end tools, like Autoprefixer,
-    Stylelint and babel-preset-env
+      Share target browsers between different front-end tools, like Autoprefixer,
+      Stylelint and babel-preset-env
   homepage: 'https://browsersl.ist/'
 - id: es6-promise
   name: es6-promise
@@ -3987,8 +3987,8 @@
   npm: vex-js
   github: HubSpot/vex
   description: >-
-    A modern dialog library which is highly configurable and easy to style.
-    #hubspot-open-source
+      A modern dialog library which is highly configurable and easy to style.
+      #hubspot-open-source
   homepage: 'http://github.hubspot.com/vex/docs/welcome'
 - id: pikaday
   name: Pikaday
@@ -3996,8 +3996,8 @@
   npm: pikaday
   github: Pikaday/Pikaday
   description: >-
-    A refreshing JavaScript Datepicker — lightweight, no dependencies, modular
-    CSS
+      A refreshing JavaScript Datepicker — lightweight, no dependencies, modular
+      CSS
   homepage: null
 - id: sass
   name: Sass
@@ -4026,8 +4026,8 @@
   npm: vue-native
   github: GeekyAnts/vue-native-core
   description: >-
-    Vue Native is a framework to build cross platform native mobile apps using
-    JavaScript
+      Vue Native is a framework to build cross platform native mobile apps using
+      JavaScript
   homepage: 'https://vue-native.io'
 - id: react-window
   name: React Window
@@ -4091,8 +4091,8 @@
   npm: null
   github: bramp/js-sequence-diagrams
   description: >-
-    Draws simple SVG sequence diagrams from textual representation of the
-    diagram
+      Draws simple SVG sequence diagrams from textual representation of the
+      diagram
   homepage: 'https://bramp.github.io/js-sequence-diagrams/'
 - id: synaptic
   name: Synaptic
@@ -4107,8 +4107,8 @@
   npm: snabbdom
   github: snabbdom/snabbdom
   description: >-
-    A virtual DOM library with focus on simplicity, modularity, powerful
-    features and performance.
+      A virtual DOM library with focus on simplicity, modularity, powerful
+      features and performance.
   homepage: null
 - id: 'ajv:-another-json-schema-validator'
   name: 'Ajv: Another JSON Schema Validator'
@@ -4130,8 +4130,8 @@
   npm: chai
   github: chaijs/chai
   description: >-
-    BDD / TDD assertion framework for node.js and the browser that can be paired
-    with any testing framework.
+      BDD / TDD assertion framework for node.js and the browser that can be paired
+      with any testing framework.
   homepage: 'http://chaijs.com'
 - id: peerjs
   name: PeerJS
@@ -4188,9 +4188,9 @@
   npm: lax.js
   github: alexfoxy/laxxx
   description: >-
-    Simple & light weight (3kb minified & zipped) vanilla javascript plugin to
-    create smooth & beautiful animations when you scrolllll! Harness the power
-    ...
+      Simple & light weight (3kb minified & zipped) vanilla javascript plugin to
+      create smooth & beautiful animations when you scrolllll! Harness the power
+      ...
   homepage: null
 - id: noty
   name: Noty
@@ -4198,9 +4198,9 @@
   npm: noty
   github: needim/noty
   description: >-
-    Dependency-free notification library that makes it easy to create alert -
-    success - error - warning - information - confirmation messages as an
-    altern...
+      Dependency-free notification library that makes it easy to create alert -
+      success - error - warning - information - confirmation messages as an
+      altern...
   homepage: 'https://ned.im/noty'
 - id: lunr
   name: lunr
@@ -4243,8 +4243,8 @@
   npm: nunjucks
   github: mozilla/nunjucks
   description: >-
-    A powerful templating engine with inheritance, asynchronous control, and
-    more (jinja2 inspired)
+      A powerful templating engine with inheritance, asynchronous control, and
+      more (jinja2 inspired)
   homepage: 'https://mozilla.github.io/nunjucks/'
 - id: puppeteer-recorder
   name: Puppeteer Recorder
@@ -4252,8 +4252,8 @@
   npm: null
   github: checkly/puppeteer-recorder
   description: >-
-    A Chrome extension that records your browser interactions and generates a
-    Puppeteer script.
+      A Chrome extension that records your browser interactions and generates a
+      Puppeteer script.
   homepage: null
 - id: flowchartjs
   name: flowchart.js
@@ -4261,8 +4261,8 @@
   npm: flowchart.js
   github: adrai/flowchart.js
   description: >-
-    Draws simple SVG flow chart diagrams from textual representation of the
-    diagram
+      Draws simple SVG flow chart diagrams from textual representation of the
+      diagram
   homepage: 'http://flowchart.js.org/'
 - id: fs-extra
   name: fs-extra
@@ -4333,8 +4333,8 @@
   npm: null
   github: outline/outline
   description: >-
-    The fastest wiki and knowledge base for growing teams. Beautiful, feature
-    rich, markdown compatible and open source.
+      The fastest wiki and knowledge base for growing teams. Beautiful, feature
+      rich, markdown compatible and open source.
   homepage: 'https://www.getoutline.com'
 - id: cubejs
   name: Cube.js
@@ -4356,9 +4356,9 @@
   npm: lovefield
   github: google/lovefield
   description: >-
-    Lovefield is a relational database for web apps. Written in JavaScript,
-    works cross-browser. Provides SQL-like APIs that are fast, safe, and easy to
-    u...
+      Lovefield is a relational database for web apps. Written in JavaScript,
+      works cross-browser. Provides SQL-like APIs that are fast, safe, and easy to
+      u...
   homepage: 'https://google.github.io/lovefield/'
 - id: cytoscapejs
   name: cytoscape.js
@@ -4394,8 +4394,8 @@
   npm: nivo
   github: plouc/nivo
   description: >-
-    nivo provides a rich set of dataviz components, built on top of the awesome
-    d3 and Reactjs libraries
+      nivo provides a rich set of dataviz components, built on top of the awesome
+      d3 and Reactjs libraries
   homepage: 'https://nivo.rocks'
 - id: reach-router
   name: Reach Router
@@ -4445,8 +4445,8 @@
   npm: null
   github: guess-js/guess
   description: >-
-    Libraries & tools for enabling Machine Learning driven user-experiences on
-    the web
+      Libraries & tools for enabling Machine Learning driven user-experiences on
+      the web
   homepage: 'https://guess-js.github.io/'
 - id: gm
   name: gm
@@ -4475,8 +4475,8 @@
   npm: ol
   github: openlayers/openlayers
   description: >-
-    A high-performance, feature-packed library for creating interactive maps on
-    the web.
+      A high-performance, feature-packed library for creating interactive maps on
+      the web.
   homepage: 'https://openlayers.org'
 - id: lozad
   name: Lozad
@@ -4484,8 +4484,8 @@
   npm: lozad
   github: ApoorvSaxena/lozad.js
   description: >-
-    Highly performant, light ~1kb and configurable lazy loader in pure JS with
-    no dependencies for responsive images, iframes and more
+      Highly performant, light ~1kb and configurable lazy loader in pure JS with
+      no dependencies for responsive images, iframes and more
   homepage: 'https://apoorv.pro/lozad.js/demo/'
 - id: vue-storefront
   name: Vue Storefront
@@ -4493,8 +4493,8 @@
   npm: null
   github: DivanteLtd/vue-storefront
   description: >-
-    PWA for eCommerce. 100% offline, platform agnostic, headless, Magento 2
-    supported.
+      PWA for eCommerce. 100% offline, platform agnostic, headless, Magento 2
+      supported.
   homepage: 'https://vuestorefront.io'
 - id: react-three-fiber
   name: react-three-fiber
@@ -4523,8 +4523,8 @@
   npm: botbuilder
   github: microsoft/botframework-sdk
   description: >-
-    Bot Framework provides the most comprehensive experience for building
-    conversation applications
+      Bot Framework provides the most comprehensive experience for building
+      conversation applications
   homepage: null
 - id: ag-grid
   name: ag-grid
@@ -4532,8 +4532,8 @@
   npm: ag-grid-community
   github: ag-grid/ag-grid
   description: >-
-    Advanced Data Grid / Data Table supporting Javascript / React / AngularJS /
-    Web Components
+      Advanced Data Grid / Data Table supporting Javascript / React / AngularJS /
+      Web Components
   homepage: 'http://www.ag-grid.com'
 - id: pdfkit
   name: pdfkit
@@ -4569,8 +4569,8 @@
   npm: bookshelf
   github: bookshelf/bookshelf
   description: >-
-    A simple Node.js ORM for PostgreSQL, MySQL and SQLite3 built on top of
-    Knex.js
+      A simple Node.js ORM for PostgreSQL, MySQL and SQLite3 built on top of
+      Knex.js
   homepage: 'http://bookshelfjs.org'
 - id: majestic
   name: Majestic
@@ -4606,8 +4606,8 @@
   npm: grommet
   github: grommet/grommet
   description: >-
-    a react-based framework that provides accessibility, modularity,
-    responsiveness, and theming in a tidy package
+      a react-based framework that provides accessibility, modularity,
+      responsiveness, and theming in a tidy package
   homepage: 'https://grommet.io'
 - id: redux-offline
   name: Redux Offline
@@ -4727,8 +4727,8 @@
   npm: graphql-playground
   github: prisma-labs/graphql-playground
   description: >-
-    GraphQL IDE for better development workflows (GraphQL Subscriptions,
-    interactive docs & collaboration)
+      GraphQL IDE for better development workflows (GraphQL Subscriptions,
+      interactive docs & collaboration)
   homepage: null
 - id: clarity-design-system
   name: Clarity Design System
@@ -4736,8 +4736,8 @@
   npm: null
   github: vmware/clarity
   description: >-
-    UX guidelines, HTML/CSS framework, and Angular components working together
-    to craft exceptional experiences
+      UX guidelines, HTML/CSS framework, and Angular components working together
+      to craft exceptional experiences
   homepage: 'http://clarity.design'
 - id: mapbox-gl-js
   name: Mapbox GL JS
@@ -4745,8 +4745,8 @@
   npm: mapbox-gl
   github: mapbox/mapbox-gl-js
   description: >-
-    Interactive, thoroughly customizable maps in the browser, powered by vector
-    tiles and WebGL
+      Interactive, thoroughly customizable maps in the browser, powered by vector
+      tiles and WebGL
   homepage: 'https://docs.mapbox.com/mapbox-gl-js/'
 - id: react-native-ui-kitten
   name: react-native-ui-kitten
@@ -4775,8 +4775,8 @@
   npm: ramjet
   github: Rich-Harris/ramjet
   description: >-
-    Morph DOM elements from one state to another with smooth animations and
-    transitions
+      Morph DOM elements from one state to another with smooth animations and
+      transitions
   homepage: 'http://www.rich-harris.co.uk/ramjet/'
 - id: hypernova
   name: Hypernova
@@ -4819,8 +4819,8 @@
   npm: knwl.js
   github: benhmoore/Knwl.js
   description: >-
-    Find Dates, Places, Times, and More. A .js library for parsing text for
-    specific information.
+      Find Dates, Places, Times, and More. A .js library for parsing text for
+      specific information.
   homepage: null
 - id: jss
   name: JSS
@@ -4842,8 +4842,8 @@
   npm: htm
   github: developit/htm
   description: >-
-    Hyperscript Tagged Markup: JSX alternative using standard tagged templates,
-    with compiler support.
+      Hyperscript Tagged Markup: JSX alternative using standard tagged templates,
+      with compiler support.
   homepage: null
 - id: zero
   name: Zero
@@ -4900,8 +4900,8 @@
   npm: seamless-immutable
   github: rtfeldman/seamless-immutable
   description: >-
-    Immutable data structures for JavaScript which are backwards-compatible with
-    normal JS Arrays and Objects.
+      Immutable data structures for JavaScript which are backwards-compatible with
+      normal JS Arrays and Objects.
   homepage: null
 - id: tape
   name: Tape
@@ -4951,8 +4951,8 @@
   npm: graphql-yoga
   github: prisma-labs/graphql-yoga
   description: >-
-    Fully-featured GraphQL Server with focus on easy setup, performance & great
-    developer experience
+      Fully-featured GraphQL Server with focus on easy setup, performance & great
+      developer experience
   homepage: null
 - id: lokijs
   name: LokiJS
@@ -5016,8 +5016,8 @@
   npm: mobx-state-tree
   github: mobxjs/mobx-state-tree
   description: >-
-    Opinionated, transactional, MobX powered state container combining the best
-    features of the immutable and mutable world for an optimal DX
+      Opinionated, transactional, MobX powered state container combining the best
+      features of the immutable and mutable world for an optimal DX
   homepage: 'https://mobx-state-tree.js.org/'
 - id: ky
   name: Ky
@@ -5053,8 +5053,8 @@
   npm: '@glidejs/glide'
   github: glidejs/glide
   description: >-
-    A dependency-free JavaScript ES6 slider and carousel. It’s lightweight,
-    flexible and fast. Designed to slide. No less, no more
+      A dependency-free JavaScript ES6 slider and carousel. It’s lightweight,
+      flexible and fast. Designed to slide. No less, no more
   homepage: 'https://glidejs.com'
 - id: js-assessment
   name: JS assessment
@@ -5125,8 +5125,8 @@
   npm: aphrodite
   github: Khan/aphrodite
   description: >-
-    Framework-agnostic CSS-in-JS with support for server-side rendering, browser
-    prefixing, and minimum CSS generation
+      Framework-agnostic CSS-in-JS with support for server-side rendering, browser
+      prefixing, and minimum CSS generation
   homepage: null
 - id: turf
   name: Turf
@@ -5155,8 +5155,8 @@
   npm: nwb
   github: insin/nwb
   description: >-
-    A toolkit for React, Preact, Inferno & vanilla JS apps, React libraries and
-    other npm modules for the web, with no configuration (until you need it)
+      A toolkit for React, Preact, Inferno & vanilla JS apps, React libraries and
+      other npm modules for the web, with no configuration (until you need it)
   homepage: null
 - id: clappr
   name: Clappr
@@ -5227,8 +5227,8 @@
   npm: '@pika/web'
   github: pikapkg/web
   description: >-
-    Install npm dependencies to run directly in the browser. No webpack
-    required. https://www.pika.dev/blog/pika-web-a-future-without-webpack/
+      Install npm dependencies to run directly in the browser. No webpack
+      required. https://www.pika.dev/blog/pika-web-a-future-without-webpack/
   homepage: null
 - id: discordjs
   name: discord.js
@@ -5250,8 +5250,8 @@
   npm: backstopjs
   github: garris/BackstopJS
   description: >-
-    Automates visual regression testing of your responsive web UI by comparing
-    DOM screenshots over time
+      Automates visual regression testing of your responsive web UI by comparing
+      DOM screenshots over time
   homepage: null
 - id: alasql
   name: AlaSQL
@@ -5259,9 +5259,9 @@
   npm: alasql
   github: agershun/alasql
   description: >-
-    AlaSQL.js - JavaScript SQL database for browser and Node.js. Handles both
-    traditional relational tables and nested JSON data (NoSQL). Export, store,
-    a...
+      AlaSQL.js - JavaScript SQL database for browser and Node.js. Handles both
+      traditional relational tables and nested JSON data (NoSQL). Export, store,
+      a...
   homepage: 'http://alasql.org'
 - id: enquirer
   name: Enquirer
@@ -5325,8 +5325,8 @@
   npm: autotrack
   github: googleanalytics/autotrack
   description: >-
-    Automatic and enhanced Google Analytics tracking for common user
-    interactions on the web.
+      Automatic and enhanced Google Analytics tracking for common user
+      interactions on the web.
   homepage: null
 - id: nodal
   name: Nodal
@@ -5355,8 +5355,8 @@
   npm: remarkable
   github: jonschlinkert/remarkable
   description: >-
-    Markdown parser, done right. Commonmark support, extensions, syntax plugins,
-    high speed - all in one. Gulp and metalsmith plugins available. Used by F...
+      Markdown parser, done right. Commonmark support, extensions, syntax plugins,
+      high speed - all in one. Gulp and metalsmith plugins available. Used by F...
   homepage: 'https://jonschlinkert.github.io/remarkable/demo/'
 - id: lightgalleryjs
   name: lightgallery.js
@@ -5420,8 +5420,8 @@
   npm: derby
   github: derbyjs/derby
   description: >-
-    MVC framework making it easy to write realtime, collaborative applications
-    that run in both Node.js and browsers
+      MVC framework making it easy to write realtime, collaborative applications
+      that run in both Node.js and browsers
   homepage: 'http://derbyjs.com'
 - id: intercooler
   name: Intercooler
@@ -5436,8 +5436,8 @@
   npm: konva
   github: konvajs/konva
   description: >-
-    Konva.js is an HTML5 Canvas JavaScript framework that extends the 2d context
-    by enabling canvas interactivity for desktop and mobile applications.
+      Konva.js is an HTML5 Canvas JavaScript framework that extends the 2d context
+      by enabling canvas interactivity for desktop and mobile applications.
   homepage: 'http://konvajs.org/'
 - id: bricksjs
   name: bricks.js
@@ -5459,8 +5459,8 @@
   npm: dot
   github: olado/doT
   description: >-
-    The fastest + concise javascript template engine for nodejs and browsers.
-    Partials, custom delimiters and more.
+      The fastest + concise javascript template engine for nodejs and browsers.
+      Partials, custom delimiters and more.
   homepage: null
 - id: iframe-resizer
   name: iFrame Resizer
@@ -5468,8 +5468,8 @@
   npm: iframe-resizer
   github: davidjbradshaw/iframe-resizer
   description: >-
-    Keep same and cross domain iFrames sized to their content with support for
-    window/content resizing, in page links, nesting and multiple iFrames
+      Keep same and cross domain iFrames sized to their content with support for
+      window/content resizing, in page links, nesting and multiple iFrames
   homepage: 'http://davidjbradshaw.github.io/iframe-resizer/'
 - id: benchmarkjs
   name: Benchmark.js
@@ -5491,8 +5491,8 @@
   npm: accounting
   github: openexchangerates/accounting.js
   description: >-
-    A lightweight JavaScript library for number, money and currency formatting -
-    fully localisable, zero dependencies.
+      A lightweight JavaScript library for number, money and currency formatting -
+      fully localisable, zero dependencies.
   homepage: 'http://openexchangerates.github.io/accounting.js'
 - id: scrollama
   name: Scrollama
@@ -5514,8 +5514,8 @@
   npm: rough-viz
   github: jwilber/roughViz
   description: >-
-    Reusable JavaScript library for creating sketchy/hand-drawn styled charts in
-    the browser.
+      Reusable JavaScript library for creating sketchy/hand-drawn styled charts in
+      the browser.
   homepage: null
 - id: dompurify
   name: DOMPurify
@@ -5523,9 +5523,9 @@
   npm: dompurify
   github: cure53/DOMPurify
   description: >-
-    DOM-only, super-fast, uber-tolerant XSS sanitizer for HTML, MathML and SVG.
-    DOMPurify works with a secure default, but offers a lot of
-    configurability...
+      DOM-only, super-fast, uber-tolerant XSS sanitizer for HTML, MathML and SVG.
+      DOMPurify works with a secure default, but offers a lot of
+      configurability...
   homepage: null
 - id: aplayer
   name: APlayer
@@ -5680,8 +5680,8 @@
   npm: rekit
   github: rekit/rekit
   description: >-
-    IDE and toolkit for building scalable web applications with React, Redux and
-    React-router
+      IDE and toolkit for building scalable web applications with React, Redux and
+      React-router
   homepage: 'http://rekit.js.org'
 - id: purgecss
   name: Purgecss
@@ -5717,9 +5717,9 @@
   npm: tensorspace
   github: tensorspace-team/tensorspace
   description: >-
-    Neural network 3D visualization framework, build interactive and intuitive
-    model in browsers, support pre-trained deep learning models from
-    TensorFlow...
+      Neural network 3D visualization framework, build interactive and intuitive
+      model in browsers, support pre-trained deep learning models from
+      TensorFlow...
   homepage: 'https://tensorspace.org'
 - id: primus
   name: Primus
@@ -5727,8 +5727,8 @@
   npm: primus
   github: primus/primus
   description: >-
-    Primus, the creator god of the transformers & an abstraction layer for
-    real-time to prevent module lock-in.
+      Primus, the creator god of the transformers & an abstraction layer for
+      real-time to prevent module lock-in.
   homepage: null
 - id: react-toastify
   name: React-Toastify
@@ -5778,8 +5778,8 @@
   npm: null
   github: nodegui/react-nodegui
   description: >-
-    Build performant, native and cross-platform desktop applications with native
-    React + powerful CSS like styling.
+      Build performant, native and cross-platform desktop applications with native
+      React + powerful CSS like styling.
   homepage: 'https://react.nodegui.org'
 - id: bideo
   name: bideo
@@ -5794,8 +5794,8 @@
   npm: hotkeys-js
   github: jaywcjlove/hotkeys
   description: >-
-    ➷ A robust Javascript library for capturing keyboard input. It has no
-    dependencies.
+      ➷ A robust Javascript library for capturing keyboard input. It has no
+      dependencies.
   homepage: 'https://git.io/hotkeys.js'
 - id: minimist
   name: minimist
@@ -5810,8 +5810,8 @@
   npm: engine.io
   github: socketio/engine.io
   description: >-
-    Engine.IO is the implementation of transport-based
-    cross-browser/cross-device bi-directional communication layer for Socket.IO.
+      Engine.IO is the implementation of transport-based
+      cross-browser/cross-device bi-directional communication layer for Socket.IO.
   homepage: 'http://socket.io'
 - id: xmysql
   name: Xmysql
@@ -5861,9 +5861,9 @@
   npm: null
   github: nodegui/nodegui
   description: >-
-    A library for building cross-platform native desktop applications with
-    Node.js and CSS  .  For React NodeGUI, visit:
-    https://github.com/nodegui/react-...
+      A library for building cross-platform native desktop applications with
+      Node.js and CSS  .  For React NodeGUI, visit:
+      https://github.com/nodegui/react-...
   homepage: 'http://docs.nodegui.org'
 - id: sapper
   name: Sapper
@@ -5878,8 +5878,8 @@
   npm: keen-ui
   github: JosephusPaye/Keen-UI
   description: >-
-    A lightweight Vue.js UI library with a simple API, inspired by Google's
-    Material Design.
+      A lightweight Vue.js UI library with a simple API, inspired by Google's
+      Material Design.
   homepage: 'https://josephuspaye.github.io/Keen-UI/'
 - id: qunit
   name: QUnit
@@ -5936,8 +5936,8 @@
   npm: assemble
   github: assemble/assemble
   description: >-
-    Get the rocks out of your socks! Assemble makes you fast at web development!
-    Used by thousands of projects for rapid prototyping, themes, scaffolds, b...
+      Get the rocks out of your socks! Assemble makes you fast at web development!
+      Used by thousands of projects for rapid prototyping, themes, scaffolds, b...
   homepage: 'http://assemble.io/'
 - id: cucumberjs
   name: Cucumber.js
@@ -5966,8 +5966,8 @@
   npm: '@11ty/eleventy'
   github: 11ty/eleventy
   description: >-
-    A simpler static site generator. An alternative to Jekyll. Transforms a
-    directory of templates (of varying types) into HTML.
+      A simpler static site generator. An alternative to Jekyll. Transforms a
+      directory of templates (of varying types) into HTML.
   homepage: 'http://11ty.io/'
 - id: jspm
   name: jspm
@@ -6010,8 +6010,8 @@
   npm: '@appbaseio/reactivesearch'
   github: appbaseio/reactivesearch
   description: >-
-    React, React Native and Vue UI components for building data-driven apps with
-    Elasticsearch
+      React, React Native and Vue UI components for building data-driven apps with
+      Elasticsearch
   homepage: 'https://opensource.appbase.io/reactivesearch'
 - id: imba
   name: Imba
@@ -6047,8 +6047,8 @@
   npm: '@graphql-codegen/cli'
   github: dotansimha/graphql-code-generator
   description: >-
-    GraphQL code generator with flexible support for custom plugins and
-    templates
+      GraphQL code generator with flexible support for custom plugins and
+      templates
   homepage: 'https://graphql-code-generator.com'
 - id: labellajs
   name: Labella.js
@@ -6070,8 +6070,8 @@
   npm: bignumber.js
   github: MikeMcl/bignumber.js
   description: >-
-    A JavaScript library for arbitrary-precision decimal and non-decimal
-    arithmetic
+      A JavaScript library for arbitrary-precision decimal and non-decimal
+      arithmetic
   homepage: 'http://mikemcl.github.io/bignumber.js'
 - id: imagemin
   name: imagemin
@@ -6135,8 +6135,8 @@
   npm: react-burger-menu
   github: negomi/react-burger-menu
   description: >-
-    An off-canvas sidebar component with a collection of effects and styles
-    using CSS transitions and SVG path animations
+      An off-canvas sidebar component with a collection of effects and styles
+      using CSS transitions and SVG path animations
   homepage: 'http://negomi.github.io/react-burger-menu/'
 - id: grpc-web
   name: gRPC-Web
@@ -6151,8 +6151,8 @@
   npm: britecharts
   github: eventbrite/britecharts
   description: >-
-    Client-side reusable Charting Library based on D3.js v5 that allows easy and
-    intuitive use of charts and components that can be composed together crea...
+      Client-side reusable Charting Library based on D3.js v5 that allows easy and
+      intuitive use of charts and components that can be composed together crea...
   homepage: 'http://eventbrite.github.io/britecharts/'
 - id: fusuma
   name: Fusuma
@@ -6223,8 +6223,8 @@
   npm: nconf
   github: indexzero/nconf
   description: >-
-    Hierarchical node.js configuration with files, environment variables,
-    command-line arguments, and atomic object merging.
+      Hierarchical node.js configuration with files, environment variables,
+      command-line arguments, and atomic object merging.
   homepage: null
 - id: node-qrcode
   name: node-qrcode
@@ -6266,7 +6266,7 @@
   stars: 3490
   npm: polka
   github: lukeed/polka
-  description: 'A micro web server so fast, it''ll make you dance!'
+  description: "A micro web server so fast, it'll make you dance!"
   homepage: null
 - id: wintersmith
   name: Wintersmith
@@ -6281,8 +6281,8 @@
   npm: '@zeit/ncc'
   github: zeit/ncc
   description: >-
-    Compile a Node.js project into a single file. Supports TypeScript, binary
-    addons, dynamic requires.
+      Compile a Node.js project into a single file. Supports TypeScript, binary
+      addons, dynamic requires.
   homepage: null
 - id: resemblejs
   name: Resemble.js
@@ -6304,8 +6304,8 @@
   npm: grade-js
   github: benhowdle89/grade
   description: >-
-    This JavaScript library produces complementary gradients generated from the
-    top 2 dominant colours in supplied images.
+      This JavaScript library produces complementary gradients generated from the
+      top 2 dominant colours in supplied images.
   homepage: 'https://benhowdle89.github.io/grade/'
 - id: afterjs
   name: After.js
@@ -6313,8 +6313,8 @@
   npm: '@jaredpalmer/after'
   github: jaredpalmer/after.js
   description: >-
-    Next.js-like framework for server-rendered React apps built with React
-    Router 4
+      Next.js-like framework for server-rendered React apps built with React
+      Router 4
   homepage: null
 - id: scrape-it
   name: scrape-it
@@ -6371,8 +6371,8 @@
   npm: amplitudejs
   github: 521dimensions/amplitudejs
   description: >-
-    AmplitudeJS: Open Source HTML5 Audio Library. Design your web audio player,
-    the way you want. No dependencies required.
+      AmplitudeJS: Open Source HTML5 Audio Library. Design your web audio player,
+      the way you want. No dependencies required.
   homepage: 'https://521dimensions.com/open-source/amplitudejs'
 - id: jumpjs
   name: jump.js
@@ -6408,8 +6408,8 @@
   npm: spritejs
   github: spritejs/spritejs
   description: >-
-    Draw graphics on a canvas through DOM-like APIs. Vue & React/Preact
-    supported.
+      Draw graphics on a canvas through DOM-like APIs. Vue & React/Preact
+      supported.
   homepage: 'http://spritejs.org'
 - id: tagui
   name: TA.Gui
@@ -6424,8 +6424,8 @@
   npm: mozaik
   github: plouc/mozaik
   description: >-
-    Mozaïk is a tool based on nodejs / react / redux / nivo / d3 to easily craft
-    beautiful dashboards
+      Mozaïk is a tool based on nodejs / react / redux / nivo / d3 to easily craft
+      beautiful dashboards
   homepage: 'http://mozaik.rocks'
 - id: nlpjs
   name: NLP.js
@@ -6433,8 +6433,8 @@
   npm: node-nlp
   github: axa-group/nlp.js
   description: >-
-    An NLP library for building bots, with entity extraction, sentiment
-    analysis, automatic language identify, and so more
+      An NLP library for building bots, with entity extraction, sentiment
+      analysis, automatic language identify, and so more
   homepage: null
 - id: phenomic
   name: Phenomic
@@ -6442,8 +6442,8 @@
   npm: phenomic
   github: phenomic/phenomic
   description: >-
-    Websites & apps static generator. Works React, Webpack, ReasonML and
-    whatever you want ️
+      Websites & apps static generator. Works React, Webpack, ReasonML and
+      whatever you want ️
   homepage: 'https://phenomic.io/'
 - id: fbt
   name: FBT
@@ -6458,8 +6458,8 @@
   npm: pixelmatch
   github: mapbox/pixelmatch
   description: >-
-    The smallest, simplest and fastest JavaScript pixel-level image comparison
-    library
+      The smallest, simplest and fastest JavaScript pixel-level image comparison
+      library
   homepage: null
 - id: ml5js
   name: ml5.js
@@ -6474,8 +6474,8 @@
   npm: broccoli
   github: broccolijs/broccoli
   description: >-
-    Browser compilation library – an asset pipeline for applications that run in
-    the browser
+      Browser compilation library – an asset pipeline for applications that run in
+      the browser
   homepage: 'https://broccoli.build'
 - id: artillery
   name: Artillery
@@ -6483,8 +6483,8 @@
   npm: artillery
   github: artilleryio/artillery
   description: >-
-    Modern, powerful, hackable backend & API testing toolkit. Load testing &
-    functional testing. HTTP, Socket.io, WebSockets, Kinesis, HLS etc.
+      Modern, powerful, hackable backend & API testing toolkit. Load testing &
+      functional testing. HTTP, Socket.io, WebSockets, Kinesis, HLS etc.
   homepage: 'https://artillery.io'
 - id: bytesize-icons
   name: Bytesize Icons
@@ -6548,8 +6548,8 @@
   npm: simplebar
   github: Grsmto/simplebar
   description: >-
-    Custom scrollbars vanilla javascript library with native scroll, done
-    simple, lightweight, easy to use and cross-browser.
+      Custom scrollbars vanilla javascript library with native scroll, done
+      simple, lightweight, easy to use and cross-browser.
   homepage: 'http://grsmto.github.io/simplebar/'
 - id: dredd
   name: Dredd
@@ -6564,9 +6564,9 @@
   npm: react-player
   github: CookPete/react-player
   description: >-
-    A React component for playing a variety of URLs, including file paths,
-    YouTube, Facebook, Twitch, SoundCloud, Streamable, Vimeo, Wistia and
-    DailyMotio...
+      A React component for playing a variety of URLs, including file paths,
+      YouTube, Facebook, Twitch, SoundCloud, Streamable, Vimeo, Wistia and
+      DailyMotio...
   homepage: 'https://cookpete.com/react-player'
 - id: tinacms
   name: TinaCMS
@@ -6623,8 +6623,8 @@
   npm: jsbarcode
   github: lindell/JsBarcode
   description: >-
-    Barcode generation library written in JavaScript that works in both the
-    browser and on Node.js
+      Barcode generation library written in JavaScript that works in both the
+      browser and on Node.js
   homepage: 'http://lindell.me/JsBarcode'
 - id: tweenjs
   name: TweenJS
@@ -6632,8 +6632,8 @@
   npm: null
   github: CreateJS/TweenJS
   description: >-
-    A simple but powerful tweening / animation library for Javascript. Part of
-    the CreateJS suite of libraries.
+      A simple but powerful tweening / animation library for Javascript. Part of
+      the CreateJS suite of libraries.
   homepage: 'http://createjs.com/'
 - id: npm-run-all
   name: npm-run-all
@@ -6655,8 +6655,8 @@
   npm: feature.js
   github: viljamis/feature.js
   description: >-
-    Feature.js is a fast, simple and lightweight browser feature detection
-    library in 1kb.
+      Feature.js is a fast, simple and lightweight browser feature detection
+      library in 1kb.
   homepage: 'http://featurejs.com/'
 - id: simple-peer
   name: simple-peer
@@ -6671,8 +6671,8 @@
   npm: vue-select
   github: sagalbot/vue-select
   description: >-
-    Everything you wish the HTML <select> element could do, wrapped up into a
-    lightweight, extensible Vue component.
+      Everything you wish the HTML <select> element could do, wrapped up into a
+      lightweight, extensible Vue component.
   homepage: 'https://vue-select.org'
 - id: skate
   name: Skate
@@ -6750,8 +6750,8 @@
   npm: caporal
   github: mattallty/Caporal.js
   description: >-
-    A full-featured framework for building command line applications (cli) with
-    node.js
+      A full-featured framework for building command line applications (cli) with
+      node.js
   homepage: null
 - id: react-konva
   name: React Konva
@@ -6759,8 +6759,8 @@
   npm: react-konva
   github: konvajs/react-konva
   description: >-
-    React + Canvas = Love. JavaScript library for drawing complex canvas
-    graphics using React.
+      React + Canvas = Love. JavaScript library for drawing complex canvas
+      graphics using React.
   homepage: 'https://konvajs.github.io/docs/react/'
 - id: typographyjs
   name: Typography.js
@@ -6824,9 +6824,9 @@
   npm: null
   github: apostrophecms/apostrophe
   description: >-
-    A CMS framework for Node.js that supports in-context editing, schema-driven
-    content types, flexible widgets, and much more. Hint: start with the docs
-    ...
+      A CMS framework for Node.js that supports in-context editing, schema-driven
+      content types, flexible widgets, and much more. Hint: start with the docs
+      ...
   homepage: 'https://apostrophecms.org/'
 - id: jexcel
   name: jExcel
@@ -6834,8 +6834,8 @@
   npm: jexcel
   github: paulhodel/jexcel
   description: >-
-    Lightweight vanilla JavaScript plugin to create web-based spreadsheets
-    compatible with Excel
+      Lightweight vanilla JavaScript plugin to create web-based spreadsheets
+      compatible with Excel
   homepage: 'https://bossanova.uk/jexcel'
 - id: front-end-handbook-2019
   name: Front-End Handbook 2019
@@ -6864,8 +6864,8 @@
   npm: alloyfinger
   github: AlloyTeam/AlloyFinger
   description: >-
-    Super tiny size multi-touch gestures library for the web. 　　　You can touch
-    this →
+      Super tiny size multi-touch gestures library for the web. 　　　You can touch
+      this →
   homepage: 'http://alloyteam.github.io/AlloyFinger/'
 - id: polaris
   name: Polaris
@@ -6908,8 +6908,8 @@
   npm: express-status-monitor
   github: RafalWilinski/express-status-monitor
   description: >-
-    Realtime Monitoring solution for Node.js/Express.js apps, inspired by
-    status.github.com
+      Realtime Monitoring solution for Node.js/Express.js apps, inspired by
+      status.github.com
   homepage: 'https://rwilinski.me'
 - id: percollate
   name: Percollate
@@ -6973,8 +6973,8 @@
   npm: pandora
   github: midwayjs/pandora
   description: >-
-    A Manageable, Measurable and Traceable Node.js Application Manager
-    represented by Alibaba powered by TypeScript
+      A Manageable, Measurable and Traceable Node.js Application Manager
+      represented by Alibaba powered by TypeScript
   homepage: 'http://www.midwayjs.org/pandora'
 - id: melonjs
   name: MelonJS
@@ -6996,8 +6996,8 @@
   npm: '@ckeditor/ckeditor5-build-classic'
   github: ckeditor/ckeditor5
   description: >-
-    Powerful rich text editor framework with a modular architecture, modern
-    integrations and features like collaborative editing.
+      Powerful rich text editor framework with a modular architecture, modern
+      integrations and features like collaborative editing.
   homepage: 'https://ckeditor.com/ckeditor-5'
 - id: playroom
   name: Playroom
@@ -7019,8 +7019,8 @@
   npm: vorlon
   github: MicrosoftDX/Vorlonjs
   description: >-
-    A new, open source, extensible, platform-agnostic tool for remotely
-    debugging and testing your JavaScript. Powered by node.js and socket.io
+      A new, open source, extensible, platform-agnostic tool for remotely
+      debugging and testing your JavaScript. Powered by node.js and socket.io
   homepage: 'http://www.vorlonjs.com'
 - id: react-native-typography
   name: React Native Typography
@@ -7091,8 +7091,8 @@
   npm: html-pdf
   github: marcbachmann/node-html-pdf
   description: >-
-    Html to pdf converter in nodejs. It spawns a phantomjs process and passes
-    the pdf as buffer or as filename.
+      Html to pdf converter in nodejs. It spawns a phantomjs process and passes
+      the pdf as buffer or as filename.
   homepage: null
 - id: reach-ui
   name: Reach UI
@@ -7149,8 +7149,8 @@
   npm: dygraphs
   github: danvk/dygraphs
   description: >-
-    Interactive visualizations of time series using JavaScript and the HTML
-    canvas tag
+      Interactive visualizations of time series using JavaScript and the HTML
+      canvas tag
   homepage: 'http://dygraphs.com'
 - id: execa
   name: Execa
@@ -7326,8 +7326,8 @@
   npm: '@simonwep/pickr'
   github: Simonwep/pickr
   description: >-
-    Flat, simple, multi-themed, responsive and hackable Color-Picker library. No
-    dependencies, no jQuery. Compatible with all CSS Frameworks e.g. Bootstra...
+      Flat, simple, multi-themed, responsive and hackable Color-Picker library. No
+      dependencies, no jQuery. Compatible with all CSS Frameworks e.g. Bootstra...
   homepage: 'https://simonwep.github.io/pickr'
 - id: unistore
   name: Unistore
@@ -7342,8 +7342,8 @@
   npm: '@rocketseat/unform'
   github: Rocketseat/unform
   description: >-
-    ReactJS form library to create uncontrolled form structures with nested
-    fields, validations and much more!
+      ReactJS form library to create uncontrolled form structures with nested
+      fields, validations and much more!
   homepage: null
 - id: modular-javascript
   name: Modular JavaScript
@@ -7365,9 +7365,9 @@
   npm: blazy
   github: dinbror/blazy
   description: >-
-    Hey, be lazy! bLazy.JS is a lightweight pure JavaScript script for lazy
-    loading and multi-serving images. It's working in all modern browsers
-    includin...
+      Hey, be lazy! bLazy.JS is a lightweight pure JavaScript script for lazy
+      loading and multi-serving images. It's working in all modern browsers
+      includin...
   homepage: 'http://dinbror.dk/blazy'
 - id: maptalks
   name: maptalks
@@ -7389,8 +7389,8 @@
   npm: babel-plugin-rawact
   github: sokra/rawact
   description: >-
-    [POC] A babel plugin which compiles React.js components into native DOM
-    instructions to eliminate the need for the react library at runtime.
+      [POC] A babel plugin which compiles React.js components into native DOM
+      instructions to eliminate the need for the react library at runtime.
   homepage: null
 - id: ngxs
   name: NGXS
@@ -7440,8 +7440,8 @@
   npm: '@lingui/react'
   github: lingui/js-lingui
   description: >-
-    A readable, automated, and optimized (5 kb) internationalization for
-    JavaScript
+      A readable, automated, and optimized (5 kb) internationalization for
+      JavaScript
   homepage: 'https://lingui.js.org/'
 - id: react-morph
   name: React Morph
@@ -7456,8 +7456,8 @@
   npm: tui-image-editor
   github: nhn/tui.image-editor
   description: >-
-    Full-featured photo image editor using canvas. It is really easy, and it
-    comes with great filters.
+      Full-featured photo image editor using canvas. It is really easy, and it
+      comes with great filters.
   homepage: 'http://ui.toast.com/tui-image-editor'
 - id: nx
   name: Nx

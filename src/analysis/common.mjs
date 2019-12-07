@@ -1,7 +1,7 @@
 import { getParticipationByYearMap } from './demographics/index.mjs'
 
-export const ratioToPercentage = (ratio) => {
-    return Math.round((ratio * 1000)) / 10
+export const ratioToPercentage = ratio => {
+    return Math.round(ratio * 1000) / 10
 }
 
 export const computeCompletion = (answerCount, totalCount) => {
@@ -15,7 +15,9 @@ export const appendCompletionToYearlyResults = async (db, yearlyResults) => {
         return {
             ...yearlyResult,
             completion: {
-                percentage: ratioToPercentage(yearlyResult.total / totalRespondentsByYear[yearlyResult.year]),
+                percentage: ratioToPercentage(
+                    yearlyResult.total / totalRespondentsByYear[yearlyResult.year]
+                ),
                 count: yearlyResult.total
             }
         }

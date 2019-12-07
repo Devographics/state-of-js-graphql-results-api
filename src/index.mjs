@@ -9,11 +9,9 @@ const server = new ApolloServer({
     resolvers,
     tracing: true,
     cacheControl: true,
-    plugins: [
-        responseCachePlugin(),
-    ],
+    plugins: [responseCachePlugin()],
     engine: {
-        debugPrintReports: true,
+        debugPrintReports: true
     }
 })
 

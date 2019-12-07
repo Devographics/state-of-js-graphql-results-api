@@ -12,5 +12,11 @@
     "graphql": "^14.5.8",
     "lodash": "^4.17.15",
     "mongodb": "^3.3.5"
+  },
+  "devDependencies": {
+    "prettier": "^1.19.1"
+  },
+  "scripts": {
+    "fmt": "prettier --write \"src/**/*.{js,mjs,yml}\""
   }
 }

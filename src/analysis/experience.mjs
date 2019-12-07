@@ -26,28 +26,30 @@ export const computeExperienceOverYears = async (db, tool) => {
 
     const path = `tools.${tool}.experience`
 
-    const results = await collection.aggregate([
-        // exclude null and empty values
-        { '$match': { [path]: { '$nin': [null, ''] } } },
-        {
-            '$group': {
-                _id: {
-                    experience: `$${path}`,
-                    year: '$year',
-                },
-                total: { '$sum': 1 },
+    const results = await collection
+        .aggregate([
+            // exclude null and empty values
+            { $match: { [path]: { $nin: [null, ''] } } },
+            {
+                $group: {
+                    _id: {
+                        experience: `$${path}`,
+                        year: '$year'
+                    },
+                    total: { $sum: 1 }
+                }
             },
-        },
-        // reshape documents
-        {
-            '$project': {
-                _id: 0,
-                experience: '$_id.experience',
-                year: '$_id.year',
-                total: 1,
-            },
-        },
-    ]).toArray()
+            // reshape documents
+            {
+                $project: {
+                    _id: 0,
+                    experience: '$_id.experience',
+                    year: '$_id.year',
+                    total: 1
+                }
+            }
+        ])
+        .toArray()
 
     // group by years and add counts
     const experienceByYear = _.orderBy(
@@ -63,7 +65,7 @@ export const computeExperienceOverYears = async (db, tool) => {
 
             yearBucket.buckets.push({
                 id: result.experience,
-                count: result.total,
+                count: result.total
             })
 
             return acc
@@ -84,7 +86,7 @@ export const computeExperienceOverYears = async (db, tool) => {
         bucket.awarenessInterestSatisfaction = {
             awareness: computeAwareness(bucket.buckets, bucket.total),
             interest: computeInterest(bucket.buckets, bucket.total),
-            satisfaction: computeSatisfaction(bucket.buckets, bucket.total),
+            satisfaction: computeSatisfaction(bucket.buckets, bucket.total)
         }
     })
 

@@ -1,27 +1,29 @@
-import _ from "lodash";
+import _ from 'lodash'
 import { appendCompletionToYearlyResults, ratioToPercentage } from './common.mjs'
 
-export const getOpinionIds = async (db) => {
+export const getOpinionIds = async db => {
     const collection = db.collection('normalized_responses')
 
-    const result = await collection.aggregate([
-        {
-            '$project':{
-                keys: {
-                    '$objectToArray': '$opinions'
+    const result = await collection
+        .aggregate([
+            {
+                $project: {
+                    keys: {
+                        $objectToArray: '$opinions'
+                    }
+                }
+            },
+            { $unwind: '$keys' },
+            {
+                $group: {
+                    _id: null,
+                    keys: {
+                        $addToSet: '$keys.k'
+                    }
                 }
             }
-        },
-        { '$unwind': '$keys' },
-        {
-            '$group': {
-                _id: null,
-                keys: {
-                    '$addToSet': '$keys.k'
-                }
-            }
-        }
-    ]).toArray()
+        ])
+        .toArray()
 
     return result[0].keys
 }
@@ -31,28 +33,30 @@ export const computeOpinionByYear = async (db, opinion) => {
 
     const collection = db.collection('normalized_responses')
 
-    const results = await collection.aggregate([
-        // exclude null and empty values
-        { '$match': { [path]: { '$nin': [null, ''] } } },
-        {
-            '$group': {
-                _id: {
-                    opinion: `$${path}`,
-                    year: '$year',
-                },
-                total: { '$sum': 1 },
+    const results = await collection
+        .aggregate([
+            // exclude null and empty values
+            { $match: { [path]: { $nin: [null, ''] } } },
+            {
+                $group: {
+                    _id: {
+                        opinion: `$${path}`,
+                        year: '$year'
+                    },
+                    total: { $sum: 1 }
+                }
             },
-        },
-        // reshape documents
-        {
-            '$project': {
-                _id: 0,
-                opinion: '$_id.opinion',
-                year: '$_id.year',
-                total: 1,
-            },
-        },
-    ]).toArray()
+            // reshape documents
+            {
+                $project: {
+                    _id: 0,
+                    opinion: '$_id.opinion',
+                    year: '$_id.year',
+                    total: 1
+                }
+            }
+        ])
+        .toArray()
 
     // group by years and add counts
     const opinionByYear = _.orderBy(
@@ -68,7 +72,7 @@ export const computeOpinionByYear = async (db, opinion) => {
 
             yearBucket.buckets.push({
                 id: result.opinion,
-                count: result.total,
+                count: result.total
             })
 
             return acc
@@ -99,4 +103,3 @@ export const computeOpinionsByYear = async (db, opinionIds) => {
 
     return opinionsByYear
 }
-

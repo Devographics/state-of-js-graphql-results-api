@@ -20,38 +20,38 @@ export default gql`
         count: Int
         percentage: Float
     }
-    
+
     """
-    Experience ranking for a tool in a specific year, even if the data 
+    Experience ranking for a tool in a specific year, even if the data
     is computed at the same point in time, we estimate that there is a logical
     progression in this:
-        
+
     awareness > interest > satisfaction
     """
     type ToolAwarenessInterestSatisfaction @cacheControl(maxAge: 600) {
         """
         Awareness is the total number of participants who answered to
         the experience question VS those who never heard of a tool.
-        
+
         This value is expressed as a percentage.
         """
         awareness: Float
         """
         Interest is the ratio of participants who heard of tool and
         are interested/not interested VS those who are only interested in it.
-        
+
         This value is expressed as a percentage.
         """
         interest: Float
         """
         Satisfaction is the ratio of participants who used of tool and
         are satisfied/not satisfied VS those who are willing to use it again.
-        
+
         This value is expressed as a percentage.
         """
         satisfaction: Float
     }
-    
+
     type ToolYearExperience @cacheControl(maxAge: 600) {
         year: Int
         """
@@ -60,21 +60,21 @@ export default gql`
         total: Int
         completion: Completion
         buckets: [ToolExperienceBucket] @cacheControl(maxAge: 600)
-        awarenessInterestSatisfaction: ToolAwarenessInterestSatisfaction 
+        awarenessInterestSatisfaction: ToolAwarenessInterestSatisfaction
     }
-         
+
     type Tool @cacheControl(maxAge: 600) {
         id: ID!
         experience: [ToolYearExperience] @cacheControl(maxAge: 600)
         entity: Entity
     }
-    
+
     type FeatureUsageBucket @cacheControl(maxAge: 600) {
         id: String
         count: Int
         percentage: Float
     }
-    
+
     type FeatureYearUsage @cacheControl(maxAge: 600) {
         year: Int
         """
@@ -84,24 +84,24 @@ export default gql`
         completion: Completion
         buckets: [FeatureUsageBucket] @cacheControl(maxAge: 600)
     }
-    
+
     type Feature @cacheControl(maxAge: 600) {
         id: ID!
         section: String
-        usageByYear: [FeatureYearUsage] @cacheControl(maxAge: 600) 
+        usageByYear: [FeatureYearUsage] @cacheControl(maxAge: 600)
     }
-    
+
     type YearParticipation @cacheControl(maxAge: 600) {
         year: Int
         participants: Int
     }
-    
+
     type GenderBreakdownBucket @cacheControl(maxAge: 600) {
         id: String
         count: Int
         percentage: Float
     }
-    
+
     type YearGenderBreakdown @cacheControl(maxAge: 600) {
         year: Int
         """
@@ -111,13 +111,13 @@ export default gql`
         completion: Completion
         buckets: [GenderBreakdownBucket] @cacheControl(maxAge: 600)
     }
-    
+
     type SalaryRangeBucket @cacheControl(maxAge: 600) {
         id: String
         count: Int
         percentage: Float
     }
-    
+
     type YearSalaryRange @cacheControl(maxAge: 600) {
         year: Int
         """
@@ -127,13 +127,13 @@ export default gql`
         completion: Completion
         buckets: [SalaryRangeBucket] @cacheControl(maxAge: 600)
     }
-    
+
     type CompanySizeBucket @cacheControl(maxAge: 600) {
         id: String
         count: Int
         percentage: Float
     }
-    
+
     type YearCompanySize @cacheControl(maxAge: 600) {
         year: Int
         """
@@ -143,13 +143,13 @@ export default gql`
         completion: Completion
         buckets: [CompanySizeBucket] @cacheControl(maxAge: 600)
     }
-    
+
     type YearsOfExperienceBucket @cacheControl(maxAge: 600) {
         id: String
         count: Int
         percentage: Float
     }
-    
+
     type YearYearsOfExperience @cacheControl(maxAge: 600) {
         year: Int
         """
@@ -159,7 +159,7 @@ export default gql`
         completion: Completion
         buckets: [YearsOfExperienceBucket] @cacheControl(maxAge: 600)
     }
-    
+
     """
     Information about particpants:
     - overall participation
@@ -190,7 +190,7 @@ export default gql`
         npm: String
         description: String
     }
-    
+
     """
     A datapoint associated with a given entity.
     """
@@ -202,13 +202,13 @@ export default gql`
     }
 
     # Opinions
-    
+
     type OpinionBucket @cacheControl(maxAge: 600) {
         id: Int
         count: Int
         percentage: Float
     }
-    
+
     type YearOpinion @cacheControl(maxAge: 600) {
         year: Int
         """
@@ -218,7 +218,7 @@ export default gql`
         completion: Completion
         buckets: [OpinionBucket] @cacheControl(maxAge: 600)
     }
-    
+
     type Opinion @cacheControl(maxAge: 600) {
         id: ID!
         byYear: [YearOpinion] @cacheControl(maxAge: 600)
@@ -226,7 +226,6 @@ export default gql`
     }
 
     # Resources
-
 
     type YearResources @cacheControl(maxAge: 600) {
         year: Int
@@ -263,7 +262,7 @@ export default gql`
     }
 
     # Root Query Type
-    
+
     type Query {
         tool(id: ID!): Tool
         feature(id: ID!, section: String!): Feature

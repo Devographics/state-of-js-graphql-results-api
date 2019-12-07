@@ -4,28 +4,30 @@ import { ratioToPercentage, appendCompletionToYearlyResults } from '../common.mj
 export const computeSalaryRangeByYear = async (db, section, feature) => {
     const collection = db.collection('normalized_responses')
 
-    const results = await collection.aggregate([
-        // exclude null and empty values
-        { '$match': { 'user_info.yearly_salary': { '$nin': [null, ''] } } },
-        {
-            '$group': {
-                _id: {
-                    salaryRange: `$user_info.yearly_salary`,
-                    year: '$year',
-                },
-                total: { '$sum': 1 },
+    const results = await collection
+        .aggregate([
+            // exclude null and empty values
+            { $match: { 'user_info.yearly_salary': { $nin: [null, ''] } } },
+            {
+                $group: {
+                    _id: {
+                        salaryRange: `$user_info.yearly_salary`,
+                        year: '$year'
+                    },
+                    total: { $sum: 1 }
+                }
             },
-        },
-        // reshape documents
-        {
-            '$project': {
-                _id: 0,
-                salaryRange: '$_id.salaryRange',
-                year: '$_id.year',
-                total: 1,
-            },
-        },
-    ]).toArray()
+            // reshape documents
+            {
+                $project: {
+                    _id: 0,
+                    salaryRange: '$_id.salaryRange',
+                    year: '$_id.year',
+                    total: 1
+                }
+            }
+        ])
+        .toArray()
 
     // group by years and add counts
     const salaryRangeByYear = _.orderBy(
@@ -41,7 +43,7 @@ export const computeSalaryRangeByYear = async (db, section, feature) => {
 
             yearBucket.buckets.push({
                 id: result.salaryRange,
-                count: result.total,
+                count: result.total
             })
 
             return acc

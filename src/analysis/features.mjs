@@ -6,28 +6,30 @@ export const computeFeatureUsageByYear = async (db, section, feature) => {
 
     const collection = db.collection('normalized_responses')
 
-    const results = await collection.aggregate([
-        // exclude null and empty values
-        { '$match': { [path]: { '$nin': [null, ''] } } },
-        {
-            '$group': {
-                _id: {
-                    usage: `$${path}`,
-                    year: '$year',
-                },
-                total: { '$sum': 1 },
+    const results = await collection
+        .aggregate([
+            // exclude null and empty values
+            { $match: { [path]: { $nin: [null, ''] } } },
+            {
+                $group: {
+                    _id: {
+                        usage: `$${path}`,
+                        year: '$year'
+                    },
+                    total: { $sum: 1 }
+                }
             },
-        },
-        // reshape documents
-        {
-            '$project': {
-                _id: 0,
-                usage: '$_id.usage',
-                year: '$_id.year',
-                total: 1,
-            },
-        },
-    ]).toArray()
+            // reshape documents
+            {
+                $project: {
+                    _id: 0,
+                    usage: '$_id.usage',
+                    year: '$_id.year',
+                    total: 1
+                }
+            }
+        ])
+        .toArray()
 
     // group by years and add counts
     const usageByYear = _.orderBy(
@@ -43,7 +45,7 @@ export const computeFeatureUsageByYear = async (db, section, feature) => {
 
             yearBucket.buckets.push({
                 id: result.usage,
-                count: result.total,
+                count: result.total
             })
 
             return acc

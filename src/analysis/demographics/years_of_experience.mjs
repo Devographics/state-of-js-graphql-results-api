@@ -4,28 +4,30 @@ import { ratioToPercentage, appendCompletionToYearlyResults } from '../common.mj
 export const computeYearsOfExperienceByYear = async (db, section, feature) => {
     const collection = db.collection('normalized_responses')
 
-    const results = await collection.aggregate([
-        // exclude null and empty values
-        { '$match': { 'user_info.years_of_experience': { '$nin': [null, ''] } } },
-        {
-            '$group': {
-                _id: {
-                    yearsOfExperience: `$user_info.years_of_experience`,
-                    year: '$year',
-                },
-                total: { '$sum': 1 },
+    const results = await collection
+        .aggregate([
+            // exclude null and empty values
+            { $match: { 'user_info.years_of_experience': { $nin: [null, ''] } } },
+            {
+                $group: {
+                    _id: {
+                        yearsOfExperience: `$user_info.years_of_experience`,
+                        year: '$year'
+                    },
+                    total: { $sum: 1 }
+                }
             },
-        },
-        // reshape documents
-        {
-            '$project': {
-                _id: 0,
-                yearsOfExperience: '$_id.yearsOfExperience',
-                year: '$_id.year',
-                total: 1,
-            },
-        },
-    ]).toArray()
+            // reshape documents
+            {
+                $project: {
+                    _id: 0,
+                    yearsOfExperience: '$_id.yearsOfExperience',
+                    year: '$_id.year',
+                    total: 1
+                }
+            }
+        ])
+        .toArray()
 
     // group by years and add counts
     const yearsOfExperienceByYear = _.orderBy(
@@ -41,7 +43,7 @@ export const computeYearsOfExperienceByYear = async (db, section, feature) => {
 
             yearBucket.buckets.push({
                 id: result.yearsOfExperience,
-                count: result.total,
+                count: result.total
             })
 
             return acc

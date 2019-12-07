@@ -2,53 +2,48 @@ import _ from 'lodash'
 import { ratioToPercentage, appendCompletionToYearlyResults } from '../common.mjs'
 
 const keyByLabel = {
-    'male': 'male',
-    'female': 'female',
-    'non-binary/ third gender': 'non_binary__third_gender',
+    male: 'male',
+    female: 'female',
+    'non-binary/ third gender': 'non_binary__third_gender'
 }
 
-export const computeGenderBreakdownByYear = async (db) => {
+export const computeGenderBreakdownByYear = async db => {
     const collection = db.collection('normalized_responses')
 
-    const results = await collection.aggregate([
-        {
-            '$match': {
-                'user_info.gender': {
-                    '$in': [
-                        'female',
-                        'male',
-                        'non-binary/ third gender',
-                    ],
-                },
+    const results = await collection
+        .aggregate([
+            {
+                $match: {
+                    'user_info.gender': {
+                        $in: ['female', 'male', 'non-binary/ third gender']
+                    }
+                }
             },
-        },
-        {
-            '$group': {
-                _id: {
-                    year: '$year',
-                    gender: '$user_info.gender'
-                },
-                total: {
-                    '$sum': {
-                        // exclude years without value
-                        '$cond': [
-                            { '$ne': [{ '$type': '$user_info.gender' }, 'missing'] },
-                            1, 0
-                        ],
+            {
+                $group: {
+                    _id: {
+                        year: '$year',
+                        gender: '$user_info.gender'
                     },
-                },
+                    total: {
+                        $sum: {
+                            // exclude years without value
+                            $cond: [{ $ne: [{ $type: '$user_info.gender' }, 'missing'] }, 1, 0]
+                        }
+                    }
+                }
             },
-        },
-        // reshape documents
-        {
-            '$project': {
-                _id: 0,
-                year: '$_id.year',
-                gender: '$_id.gender',
-                total: 1,
-            },
-        },
-    ]).toArray()
+            // reshape documents
+            {
+                $project: {
+                    _id: 0,
+                    year: '$_id.year',
+                    gender: '$_id.gender',
+                    total: 1
+                }
+            }
+        ])
+        .toArray()
 
     // group by years and add counts
     const genderBreakdownByYear = _.orderBy(
@@ -57,14 +52,14 @@ export const computeGenderBreakdownByYear = async (db) => {
             if (yearBucket === undefined) {
                 yearBucket = {
                     year: result.year,
-                    buckets: [],
+                    buckets: []
                 }
                 acc.push(yearBucket)
             }
 
             yearBucket.buckets.push({
                 id: keyByLabel[result.gender],
-                count: result.total,
+                count: result.total
             })
 
             return acc
@@ -82,4 +77,3 @@ export const computeGenderBreakdownByYear = async (db) => {
 
     return appendCompletionToYearlyResults(db, genderBreakdownByYear)
 }
-

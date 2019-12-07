@@ -4,28 +4,30 @@ import { ratioToPercentage, appendCompletionToYearlyResults } from '../common.mj
 export const computeCompanySizeByYear = async (db, section, feature) => {
     const collection = db.collection('normalized_responses')
 
-    const results = await collection.aggregate([
-        // exclude null and empty values
-        { '$match': { 'user_info.company_size': { '$nin': [null, ''] } } },
-        {
-            '$group': {
-                _id: {
-                    companySize: `$user_info.company_size`,
-                    year: '$year',
-                },
-                total: { '$sum': 1 },
+    const results = await collection
+        .aggregate([
+            // exclude null and empty values
+            { $match: { 'user_info.company_size': { $nin: [null, ''] } } },
+            {
+                $group: {
+                    _id: {
+                        companySize: `$user_info.company_size`,
+                        year: '$year'
+                    },
+                    total: { $sum: 1 }
+                }
             },
-        },
-        // reshape documents
-        {
-            '$project': {
-                _id: 0,
-                companySize: '$_id.companySize',
-                year: '$_id.year',
-                total: 1,
-            },
-        },
-    ]).toArray()
+            // reshape documents
+            {
+                $project: {
+                    _id: 0,
+                    companySize: '$_id.companySize',
+                    year: '$_id.year',
+                    total: 1
+                }
+            }
+        ])
+        .toArray()
 
     // group by years and add counts
     const companySizeByYear = _.orderBy(
@@ -41,7 +43,7 @@ export const computeCompanySizeByYear = async (db, section, feature) => {
 
             yearBucket.buckets.push({
                 id: result.companySize,
-                count: result.total,
+                count: result.total
             })
 
             return acc
