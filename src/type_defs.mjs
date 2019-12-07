@@ -274,7 +274,8 @@ export default gql`
         """
         total: Int
         """
-        Mean happiness score for the year.
+        Mean happiness score for the year, please note that despite the
+        happiness indices starts at 0, the average is computed from 1.
         """
         mean: Float
         completion: Completion
