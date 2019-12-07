@@ -6,7 +6,8 @@ import {
     computeSalaryRangeByYear,
     computeCompanySizeByYear,
     computeYearsOfExperienceByYear,
-    computeOpinionByYear
+    computeOpinionByYear,
+    computeHappinessByYear
 } from './analysis/index.mjs'
 import { getEntity } from './helpers.mjs'
 
@@ -111,6 +112,11 @@ export default {
             return {
                 id: args.id
             }
+        },
+        happiness: async (parent, args, context, info) => {
+            return {
+                id: args.id
+            }
         }
     },
     Tool: {
@@ -174,6 +180,16 @@ export default {
                     ...resource
                 }))
             }
+        }
+    },
+    Happiness: {
+        years: async (happiness, args, context, info) => {
+            return computeHappinessByYear(context.db, happiness.id)
+        },
+        year: async (happiness, args, context, info) => {
+            const allYears = await computeHappinessByYear(context.db, happiness.id)
+
+            return allYears.find(y => y.year === args.year)
         }
     }
 }

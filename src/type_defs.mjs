@@ -261,6 +261,28 @@ export default gql`
         year(year: Int!): YearOtherTools
     }
 
+    type HappinessBucket @cacheControl(maxAge: 600) {
+        id: Int
+        count: Int
+        percentage: Float
+    }
+
+    type YearHappiness @cacheControl(maxAge: 600) {
+        year: Int
+        """
+        Total number of respondents who have answered this specific question.
+        """
+        total: Int
+        completion: Completion
+        buckets: [HappinessBucket] @cacheControl(maxAge: 600)
+    }
+
+    type Happiness @cacheControl(maxAge: 600) {
+        id: ID!
+        year(year: Int!): YearHappiness
+        years: [YearHappiness] @cacheControl(maxAge: 600)
+    }
+
     # Root Query Type
 
     type Query {
@@ -272,5 +294,6 @@ export default gql`
         otherTools(id: ID!): OtherTools
         resources(id: ID!): Resources
         entity(id: ID!): Entity
+        happiness(id: ID!): Happiness
     }
 `
