@@ -72,6 +72,57 @@ const mockToolsBuckets = [
     }
 ]
 
+const mockProficiencyBuckets = [
+    {
+        id: 0,
+        count: 234,
+        percentage: 12
+    },
+    {
+        id: 1,
+        count: 345,
+        percentage: 89
+    },
+    {
+        id: 2,
+        count: 234,
+        percentage: 34
+    },
+    {
+        id: 3,
+        count: 123,
+        percentage: 45
+    },
+    {
+        id: 4,
+        count: 567,
+        percentage: 56
+    }
+]
+
+const mockJobTitleBuckets = [
+    {
+        id: 'front_end_developer_engineer',
+        count: 213,
+        percentage: 23
+    },
+    {
+        id: 'full_stack_developer_engineer',
+        count: 567,
+        percentage: 14
+    },
+    {
+        id: 'back_end_developer_engineer',
+        count: 456,
+        percentage: 45
+    },
+    {
+        id: 'web_developer',
+        count: 234,
+        percentage: 34
+    },
+]
+
 export default {
     Query: {
         tool: async (parent, args, context, info) => {
@@ -144,6 +195,36 @@ export default {
         },
         yearsOfExperience: async (parent, args, context, info) => {
             return computeYearsOfExperienceByYear(context.db)
+        },
+        jobTitle:  async (parent, args, context, info) => {
+            return [
+                {
+                    year: 2019,
+                    total: 123,
+                    completion: { count: 123, percentage: 99 },
+                    buckets: mockJobTitleBuckets
+                }
+            ]
+        },
+        cssProficiency: async (parent, args, context, info) => {
+            return [
+                {
+                    year: 2019,
+                    total: 123,
+                    completion: { count: 123, percentage: 99 },
+                    buckets: mockProficiencyBuckets
+                }
+            ]
+        },
+        backendProficiency: async (parent, args, context, info) => {
+            return [
+                {
+                    year: 2019,
+                    total: 123,
+                    completion: { count: 123, percentage: 99 },
+                    buckets: mockProficiencyBuckets
+                }
+            ]
         }
     },
     Opinion: {
@@ -161,7 +242,7 @@ export default {
             return {
                 year: 2020,
                 total: 123,
-                completion: 99,
+                completion: { count: 123, percentage: 99 },
                 buckets: mockToolsBuckets.map(tool => ({
                     entity: getEntity(tool),
                     ...tool
@@ -174,7 +255,7 @@ export default {
             return {
                 year: 2020,
                 total: 123,
-                completion: 99,
+                completion: { count: 123, percentage: 99 },
                 buckets: mockResourcesBuckets.map(resource => ({
                     entity: getEntity(resource),
                     ...resource

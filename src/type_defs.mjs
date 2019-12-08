@@ -163,6 +163,40 @@ const typeDefs = /* GraphQL */`
     }
 
     """
+    Job Title
+    """
+
+    type JobTitleBucket @cacheControl(maxAge: 600) {
+        id: String
+        count: Int
+        percentage: Float
+    }
+
+    type YearJobTitle @cacheControl(maxAge: 600) {
+        year: Int
+        total: Int
+        completion: Completion
+        buckets: [JobTitleBucket] @cacheControl(maxAge: 600)
+    }
+
+    """
+    Proficiency level (0 to 4)
+    """
+
+    type ProficiencyBucket @cacheControl(maxAge: 600) {
+        id: Int
+        count: Int
+        percentage: Float
+    }
+
+    type YearProficiency @cacheControl(maxAge: 600) {
+        year: Int
+        total: Int
+        completion: Completion
+        buckets: [ProficiencyBucket] @cacheControl(maxAge: 600)
+    }
+
+    """
     Information about particpants:
     - overall participation
     - gender
@@ -176,6 +210,9 @@ const typeDefs = /* GraphQL */`
         salary: [YearSalaryRange] @cacheControl(maxAge: 600)
         companySize: [YearCompanySize] @cacheControl(maxAge: 600)
         yearsOfExperience: [YearYearsOfExperience] @cacheControl(maxAge: 600)
+        jobTitle: [YearJobTitle] @cacheControl(maxAge: 600)
+        cssProficiency: [YearProficiency] @cacheControl(maxAge: 600)
+        backendProficiency: [YearProficiency] @cacheControl(maxAge: 600)
     }
 
     """
