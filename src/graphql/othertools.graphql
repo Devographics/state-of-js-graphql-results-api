@@ -1,0 +1,17 @@
+# Other Tools
+
+type YearOtherTools @cacheControl(maxAge: 600) {
+    year: Int
+    """
+    Total number of respondents who have answered this specific question.
+    """
+    total: Int
+    completion: Completion
+    buckets: [EntityData] @cacheControl(maxAge: 600)
+}
+
+type OtherTools @cacheControl(maxAge: 600) {
+    id: OtherToolsID!
+    # byYear: [YearResource] @cacheControl(maxAge: 600)
+    year(year: Int!): YearOtherTools
+}

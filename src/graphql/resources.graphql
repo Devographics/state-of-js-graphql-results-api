@@ -1,0 +1,17 @@
+# Resources
+
+type YearResources @cacheControl(maxAge: 600) {
+    year: Int
+    """
+    Total number of respondents who have answered this specific question.
+    """
+    total: Int
+    completion: Completion
+    buckets: [EntityData] @cacheControl(maxAge: 600)
+}
+
+type Resources @cacheControl(maxAge: 600) {
+    id: ResourcesID!
+    # byYear: [YearResource] @cacheControl(maxAge: 600)
+    year(year: Int!): YearResources
+}

@@ -102,7 +102,7 @@ happiness:
   - mobile_desktop
 
 # job-titles: 
-#   - front_end_developer_engineer
-#   - full_stack_developer_engineer
-#   - back_end_developer_engineer
-#   - web_developer
+  # - front_end_developer_engineer
+  # - full_stack_developer_engineer
+  # - back_end_developer_engineer
+  # - web_developer

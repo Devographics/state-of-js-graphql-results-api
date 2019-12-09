@@ -1,0 +1,21 @@
+type FeatureUsageBucket @cacheControl(maxAge: 600) {
+    id: String
+    count: Int
+    percentage: Float
+}
+
+type FeatureYearUsage @cacheControl(maxAge: 600) {
+    year: Int
+    """
+    Total number of respondents who have answered this specific question.
+    """
+    total: Int
+    completion: Completion
+    buckets: [FeatureUsageBucket] @cacheControl(maxAge: 600)
+}
+
+type Feature @cacheControl(maxAge: 600) {
+    id: FeatureID!
+    section: String
+    usageByYear: [FeatureYearUsage] @cacheControl(maxAge: 600)
+}

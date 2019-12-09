@@ -1,0 +1,23 @@
+# Opinions
+
+type OpinionBucket @cacheControl(maxAge: 600) {
+    id: Int
+    count: Int
+    percentage: Float
+}
+
+type YearOpinion @cacheControl(maxAge: 600) {
+    year: Int
+    """
+    Total number of respondents who have answered this specific question.
+    """
+    total: Int
+    completion: Completion
+    buckets: [OpinionBucket] @cacheControl(maxAge: 600)
+}
+
+type Opinion @cacheControl(maxAge: 600) {
+    id: OpinionID!
+    byYear: [YearOpinion] @cacheControl(maxAge: 600)
+    year(year: Int!): YearOpinion
+}

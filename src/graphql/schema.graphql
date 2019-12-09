@@ -1,0 +1,62 @@
+# import * from 'demographics.graphql'
+# import * from 'features.graphql'
+# import * from 'happiness.graphql'
+# import * from 'opinions.graphql'
+# import * from 'othertools.graphql'
+# import * from 'resources.graphql'
+# import ToolYearExperience from 'tools.graphql'
+
+
+"""
+Completion ratio and count
+"""
+type Completion {
+    percentage: Float
+    count: Int
+}
+
+
+type YearParticipation @cacheControl(maxAge: 600) {
+    year: Int
+    participants: Int
+}
+
+"""
+An entity is any object that can have associated metadata
+(such as a homepage, github repo, description).
+For example: a library, a podcast, a blog, a framework…
+"""
+type Entity @cacheControl(maxAge: 600) {
+    id: String
+    name: String
+    homepage: String
+    category: String
+    github: String
+    npm: String
+    description: String
+}
+
+"""
+A datapoint associated with a given entity.
+"""
+type EntityData @cacheControl(maxAge: 600) {
+    id: String
+    count: Int
+    percentage: Float
+    entity: Entity
+}
+
+
+# Root Query Type
+
+type Query {
+    tool(id: ToolID!): Tool
+    feature(id: FeatureID!, section: String!): Feature
+    demographics: Demographics
+    opinion(id: OpinionID!): Opinion
+    # opinions(ids: [ID]!): [Opinion] @cacheControl(maxAge: 600)
+    otherTools(id: OtherToolsID!): OtherTools
+    resources(id: ResourcesID!): Resources
+    entity(id: ID!): Entity
+    happiness(id: HappinessID!): Happiness
+} 
