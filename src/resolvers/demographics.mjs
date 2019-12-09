@@ -35,34 +35,38 @@ export default {
     },
     Gender: {
         allYears: async (parent, args, context, info) => {
-            return computeGenderBreakdownByYear(context.db)
+            return await computeGenderBreakdownByYear(context.db)
         },
         year: async (parent, args, context, info) => {
-            return [computeGenderBreakdownByYear(context.db)].find(y => y.year === args.year)
+            const allYears = await computeGenderBreakdownByYear(context.db)
+            return allYears.find(y => y.year === args.year)
         }
     },
     Salary: {
         allYears: async (parent, args, context, info) => {
-            return computeSalaryRangeByYear(context.db)
+            return await computeSalaryRangeByYear(context.db)
         },
         year: async (parent, args, context, info) => {
-            return computeSalaryRangeByYear(context.db).find(y => y.year === args.year)
+            const allYears = await computeSalaryRangeByYear(context.db)
+            return allYears.find(y => y.year === args.year)
         }
     },
     CompanySize: {
         allYears: async (parent, args, context, info) => {
-            return computeCompanySizeByYear(context.db)
+            return await computeCompanySizeByYear(context.db)
         },
         year: async (parent, args, context, info) => {
-            return computeCompanySizeByYear(context.db).find(y => y.year === args.year)
+            const allYears = await computeCompanySizeByYear(context.db)
+            return allYears.find(y => y.year === args.year)
         }
     },
     Experience: {
         allYears: async (parent, args, context, info) => {
-            return computeYearsOfExperienceByYear(context.db)
+            return await computeYearsOfExperienceByYear(context.db)
         },
         year: async (parent, args, context, info) => {
-            return computeYearsOfExperienceByYear(context.db).find(y => y.year === args.year)
+            const allYears = await computeYearsOfExperienceByYear(context.db)
+            return allYears.find(y => y.year === args.year)
         }
     },
     JobTitle: {
