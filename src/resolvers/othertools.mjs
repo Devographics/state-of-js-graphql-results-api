@@ -1,14 +1,21 @@
 import { loadYaml, getEntity } from '../helpers.mjs'
 
-export default {
-  year: async (opinion, args, context, info) => {
-      const mockData = loadYaml('./src/mocks/jobTitle.yml');
-      mockData.forEach(year => {
-          year.buckets = year.buckets.map(tool => ({
+const getMockData = () => {
+    const mockData = loadYaml('./src/mocks/otherTools.yml')
+    mockData.forEach(year => {
+        year.buckets = year.buckets.map(tool => ({
             entity: getEntity(tool),
             ...tool
         }))
-      })
-      return mockData
-  }
+    })
+    return mockData
+}
+
+export default {
+    allYears: async (opinion, args, context, info) => {
+        return getMockData()
+    },
+    year: async (opinion, args, context, info) => {
+        return getMockData().find(yearItem => yearItem.year === args.year)
+    }
 }

@@ -1,4 +1,17 @@
 """
+Participation
+"""
+type YearParticipation @cacheControl(maxAge: 600) {
+    year: Int
+    participants: Int
+}
+
+type Participation @cacheControl(maxAge: 600) {
+    allYears: [YearParticipation]
+    year(year: Int!): YearParticipation
+}
+
+"""
 Country
 """
 type YearCountryBucket @cacheControl(maxAge: 600) {
@@ -12,6 +25,11 @@ type YearCountry @cacheControl(maxAge: 600) {
     total: Int
     completion: Completion
     buckets: [YearCountryBucket] @cacheControl(maxAge: 600)
+}
+
+type Country @cacheControl(maxAge: 600) {
+    allYears: [YearCountry]
+    year(year: Int!): YearCountry
 }
 
 """
@@ -30,43 +48,66 @@ type YearSource @cacheControl(maxAge: 600) {
     buckets: [YearCountryBucket] @cacheControl(maxAge: 600)
 }
 
+type Source @cacheControl(maxAge: 600) {
+    allYears: [YearSource]
+    year(year: Int!): YearSource
+}
+
 """
 Gender
 """
 
-type GenderBreakdownBucket @cacheControl(maxAge: 600) {
+type YearGenderBucket @cacheControl(maxAge: 600) {
     id: String
     count: Int
     percentage: Float
 }
 
-type YearGenderBreakdown @cacheControl(maxAge: 600) {
+type YearGender @cacheControl(maxAge: 600) {
     year: Int
     """
     Total number of respondents who have answered this specific question.
     """
     total: Int
     completion: Completion
-    buckets: [GenderBreakdownBucket] @cacheControl(maxAge: 600)
+    buckets: [YearGenderBucket] @cacheControl(maxAge: 600)
 }
 
-type SalaryRangeBucket @cacheControl(maxAge: 600) {
+type Gender @cacheControl(maxAge: 600) {
+    allYears: [YearGender]
+    year(year: Int!): YearGender
+} 
+
+"""
+Salary
+"""
+
+type YearSalaryBucket @cacheControl(maxAge: 600) {
     id: String
     count: Int
     percentage: Float
 }
 
-type YearSalaryRange @cacheControl(maxAge: 600) {
+type YearSalary @cacheControl(maxAge: 600) {
     year: Int
     """
     Total number of respondents who have answered this specific question.
     """
     total: Int
     completion: Completion
-    buckets: [SalaryRangeBucket] @cacheControl(maxAge: 600)
+    buckets: [YearSalaryBucket] @cacheControl(maxAge: 600)
 }
 
-type CompanySizeBucket @cacheControl(maxAge: 600) {
+type Salary @cacheControl(maxAge: 600) {
+    allYears: [YearSalary]
+    year(year: Int!): YearSalary
+} 
+
+"""
+Company Size
+"""
+
+type YearCompanySizeBucket @cacheControl(maxAge: 600) {
     id: String
     count: Int
     percentage: Float
@@ -79,29 +120,43 @@ type YearCompanySize @cacheControl(maxAge: 600) {
     """
     total: Int
     completion: Completion
-    buckets: [CompanySizeBucket] @cacheControl(maxAge: 600)
+    buckets: [YearCompanySizeBucket] @cacheControl(maxAge: 600)
 }
 
-type YearsOfExperienceBucket @cacheControl(maxAge: 600) {
+type CompanySize @cacheControl(maxAge: 600) {
+    allYears: [YearCompanySize]
+    year(year: Int!): YearCompanySize
+} 
+
+"""
+Experience
+"""
+
+type YearExperienceBucket @cacheControl(maxAge: 600) {
     id: String
     count: Int
     percentage: Float
 }
 
-type YearYearsOfExperience @cacheControl(maxAge: 600) {
+type YearExperience @cacheControl(maxAge: 600) {
     year: Int
     """
     Total number of respondents who have answered this specific question.
     """
     total: Int
     completion: Completion
-    buckets: [YearsOfExperienceBucket] @cacheControl(maxAge: 600)
+    buckets: [YearExperienceBucket] @cacheControl(maxAge: 600)
 }
+
+type Experience @cacheControl(maxAge: 600) {
+    allYears: [YearExperience]
+    year(year: Int!): YearExperience
+} 
 
 """
 Job Title
 """
-type JobTitleBucket @cacheControl(maxAge: 600) {
+type YearJobTitleBucket @cacheControl(maxAge: 600) {
     id: String
     count: Int
     percentage: Float
@@ -111,13 +166,18 @@ type YearJobTitle @cacheControl(maxAge: 600) {
     year: Int
     total: Int
     completion: Completion
-    buckets: [JobTitleBucket] @cacheControl(maxAge: 600)
+    buckets: [YearJobTitleBucket] @cacheControl(maxAge: 600)
 }
 
+type JobTitle @cacheControl(maxAge: 600) {
+    allYears: [YearJobTitle]
+    year(year: Int!): YearJobTitle
+} 
+
 """
-Proficiency level (0 to 4)
+Proficiency Level
 """
-type ProficiencyBucket @cacheControl(maxAge: 600) {
+type YearProficiencyBucket @cacheControl(maxAge: 600) {
     id: String
     count: Int
     percentage: Float
@@ -127,8 +187,18 @@ type YearProficiency @cacheControl(maxAge: 600) {
     year: String
     total: Int
     completion: Completion
-    buckets: [ProficiencyBucket] @cacheControl(maxAge: 600)
+    buckets: [YearProficiencyBucket] @cacheControl(maxAge: 600)
 }
+
+type CSSProficiency @cacheControl(maxAge: 600) {
+    allYears: [YearProficiency]
+    year(year: Int!): YearProficiency
+} 
+
+type BackendProficiency @cacheControl(maxAge: 600) {
+    allYears: [YearProficiency]
+    year(year: Int!): YearProficiency
+} 
 
 """
 Information about particpants:
@@ -139,14 +209,14 @@ Information about particpants:
 - …
 """
 type Demographics @cacheControl(maxAge: 600) {
-    country: [YearCountry] @cacheControl(maxAge: 600)
-    source: [YearSource] @cacheControl(maxAge: 600)
-    participation: [YearParticipation] @cacheControl(maxAge: 600)
-    gender: [YearGenderBreakdown] @cacheControl(maxAge: 600)
-    salary: [YearSalaryRange] @cacheControl(maxAge: 600)
-    companySize: [YearCompanySize] @cacheControl(maxAge: 600)
-    yearsOfExperience: [YearYearsOfExperience] @cacheControl(maxAge: 600)
-    jobTitle: [YearJobTitle] @cacheControl(maxAge: 600)
-    cssProficiency: [YearProficiency] @cacheControl(maxAge: 600)
-    backendProficiency: [YearProficiency] @cacheControl(maxAge: 600)
+    country: Country @cacheControl(maxAge: 600)
+    source: Source @cacheControl(maxAge: 600)
+    participation: Participation @cacheControl(maxAge: 600)
+    gender: Gender @cacheControl(maxAge: 600)
+    salary: Salary @cacheControl(maxAge: 600)
+    companySize: CompanySize @cacheControl(maxAge: 600)
+    experience: Experience @cacheControl(maxAge: 600)
+    jobTitle: JobTitle @cacheControl(maxAge: 600)
+    cssProficiency: CSSProficiency @cacheControl(maxAge: 600)
+    backendProficiency: BackendProficiency @cacheControl(maxAge: 600)
 }

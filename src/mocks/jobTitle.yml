@@ -1,3 +1,47 @@
+- year: 2017
+  total: 123
+  completion:
+      count: 123
+      percentage: 99
+  buckets:
+      - id: front_end_developer_engineer
+        count: 213
+        percentage: 23
+
+      - id: full_stack_developer_engineer
+        count: 567
+        percentage: 14
+
+      - id: back_end_developer_engineer
+        count: 456
+        percentage: 45
+
+      - id: web_developer
+        count: 234
+        percentage: 34
+
+- year: 2018
+  total: 123
+  completion:
+      count: 123
+      percentage: 99
+  buckets:
+      - id: front_end_developer_engineer
+        count: 213
+        percentage: 23
+
+      - id: full_stack_developer_engineer
+        count: 567
+        percentage: 14
+
+      - id: back_end_developer_engineer
+        count: 456
+        percentage: 45
+
+      - id: web_developer
+        count: 234
+        percentage: 34
+
 - year: 2019
   total: 123
   completion:

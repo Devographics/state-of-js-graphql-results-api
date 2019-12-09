@@ -21,6 +21,6 @@ type YearHappiness @cacheControl(maxAge: 600) {
 
 type Happiness @cacheControl(maxAge: 600) {
     id: HappinessID!
+    allYears: [YearHappiness] @cacheControl(maxAge: 600)
     year(year: Int!): YearHappiness
-    years: [YearHappiness] @cacheControl(maxAge: 600)
 }

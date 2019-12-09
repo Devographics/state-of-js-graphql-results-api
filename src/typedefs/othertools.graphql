@@ -14,4 +14,5 @@ type OtherTools @cacheControl(maxAge: 600) {
     id: OtherToolsID!
     # byYear: [YearResource] @cacheControl(maxAge: 600)
     year(year: Int!): YearOtherTools
+    allYears: [YearOtherTools]
 }

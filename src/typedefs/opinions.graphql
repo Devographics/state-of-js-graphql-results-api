@@ -18,6 +18,6 @@ type YearOpinion @cacheControl(maxAge: 600) {
 
 type Opinion @cacheControl(maxAge: 600) {
     id: OpinionID!
-    byYear: [YearOpinion] @cacheControl(maxAge: 600)
+    allYears: [YearOpinion] @cacheControl(maxAge: 600)
     year(year: Int!): YearOpinion
 }

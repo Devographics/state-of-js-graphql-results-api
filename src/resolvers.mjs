@@ -8,10 +8,10 @@ import Resources from './resolvers/resources.mjs'
 import Tool from './resolvers/tool.mjs'
 
 export default {
+    ...Demographics,
     Query,
     Tool,
     Feature,
-    Demographics,
     Opinion,
     OtherTools,
     Resources,

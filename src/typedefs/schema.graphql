@@ -6,12 +6,6 @@ type Completion {
     count: Int
 }
 
-
-type YearParticipation @cacheControl(maxAge: 600) {
-    year: Int
-    participants: Int
-}
-
 """
 An entity is any object that can have associated metadata
 (such as a homepage, github repo, description).

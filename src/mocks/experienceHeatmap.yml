@@ -1,0 +1,138 @@
+- year: 2019
+  total: 123
+  completion:
+      count: 123
+      percentage: 99
+  buckets:
+      - tool: react
+        total: 13062
+        average: 8
+        ranges:
+            - range: 2-5
+              count: 3821
+              percentage: 29.3
+            - range: 5-10
+              count: 3811
+              percentage: 29.2
+            - range: 10-20
+              count: 2970
+              percentage: 22.7
+            - range: 1-2
+              count: 1369
+              percentage: 10.5
+            - range: more-than-20
+              count: 702
+              percentage: 5.4
+            - range: less-than-1
+              count: 298
+              percentage: 2.3
+      - tool: angular
+        total: 4817
+        average: 8.4
+        ranges:
+            - range: 2-5
+              count: 1408
+              percentage: 29.2
+            - range: 5-10
+              count: 1391
+              percentage: 28.9
+            - range: 10-20
+              count: 1125
+              percentage: 23.4
+            - range: 1-2
+              count: 449
+              percentage: 9.3
+            - range: more-than-20
+              count: 329
+              percentage: 6.8
+            - range: less-than-1
+              count: 86
+              percentage: 1.8
+      - tool: ember
+        total: 1013
+        average: 10
+        ranges:
+            - range: 5-10
+              count: 348
+              percentage: 34.4
+            - range: 10-20
+              count: 339
+              percentage: 33.5
+            - range: 2-5
+              count: 198
+              percentage: 19.5
+            - range: more-than-20
+              count: 76
+              percentage: 7.5
+            - range: 1-2
+              count: 41
+              percentage: 4
+            - range: less-than-1
+              count: 3
+              percentage: 0.3
+      - tool: polymer
+        total: 635
+        average: 10.4
+        ranges:
+            - range: 10-20
+              count: 210
+              percentage: 33.1
+            - range: 5-10
+              count: 183
+              percentage: 28.8
+            - range: 2-5
+              count: 138
+              percentage: 21.7
+            - range: more-than-20
+              count: 70
+              percentage: 11
+            - range: 1-2
+              count: 23
+              percentage: 3.6
+            - range: less-than-1
+              count: 5
+              percentage: 0.8
+      - tool: vuejs
+        total: 5810
+        average: 8.1
+        ranges:
+            - range: 2-5
+              count: 1817
+              percentage: 31.3
+            - range: 5-10
+              count: 1647
+              percentage: 28.3
+            - range: 10-20
+              count: 1290
+              percentage: 22.2
+            - range: 1-2
+              count: 572
+              percentage: 9.8
+            - range: more-than-20
+              count: 359
+              percentage: 6.2
+            - range: less-than-1
+              count: 98
+              percentage: 1.7
+      - tool: preact
+        total: 1251
+        average: 8.8
+        ranges:
+            - range: 5-10
+              count: 470
+              percentage: 37.6
+            - range: 10-20
+              count: 328
+              percentage: 26.2
+            - range: 2-5
+              count: 313
+              percentage: 25
+            - range: 1-2
+              count: 68
+              percentage: 5.4
+            - range: more-than-20
+              count: 58
+              percentage: 4.6
+            - range: less-than-1
+              count: 8
+              percentage: 0.6
