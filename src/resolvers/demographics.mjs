@@ -12,6 +12,12 @@ export default {
   participation: async (parent, args, context, info) => {
       return computeParticipationByYear(context.db)
   },
+  country: async (parent, args, context, info) => {
+    return loadYaml('./src/mocks/country.yml')
+  },
+  source: async (parent, args, context, info) => {
+    return loadYaml('./src/mocks/source.yml')
+  },
   gender: async (parent, args, context, info) => {
       return computeGenderBreakdownByYear(context.db)
   },

@@ -1,3 +1,39 @@
+"""
+Country
+"""
+type YearCountryBucket @cacheControl(maxAge: 600) {
+    id: String
+    count: Int
+    percentage: Float
+}
+
+type YearCountry @cacheControl(maxAge: 600) {
+    year: Int
+    total: Int
+    completion: Completion
+    buckets: [YearCountryBucket] @cacheControl(maxAge: 600)
+}
+
+"""
+Source
+"""
+type YearSourceBucket @cacheControl(maxAge: 600) {
+    id: String
+    count: Int
+    percentage: Float
+}
+
+type YearSource @cacheControl(maxAge: 600) {
+    year: Int
+    total: Int
+    completion: Completion
+    buckets: [YearCountryBucket] @cacheControl(maxAge: 600)
+}
+
+"""
+Gender
+"""
+
 type GenderBreakdownBucket @cacheControl(maxAge: 600) {
     id: String
     count: Int
@@ -82,13 +118,13 @@ type YearJobTitle @cacheControl(maxAge: 600) {
 Proficiency level (0 to 4)
 """
 type ProficiencyBucket @cacheControl(maxAge: 600) {
-    id: Int
+    id: String
     count: Int
     percentage: Float
 }
 
 type YearProficiency @cacheControl(maxAge: 600) {
-    year: Int
+    year: String
     total: Int
     completion: Completion
     buckets: [ProficiencyBucket] @cacheControl(maxAge: 600)
@@ -103,6 +139,8 @@ Information about particpants:
 - …
 """
 type Demographics @cacheControl(maxAge: 600) {
+    country: [YearCountry] @cacheControl(maxAge: 600)
+    source: [YearSource] @cacheControl(maxAge: 600)
     participation: [YearParticipation] @cacheControl(maxAge: 600)
     gender: [YearGenderBreakdown] @cacheControl(maxAge: 600)
     salary: [YearSalaryRange] @cacheControl(maxAge: 600)
