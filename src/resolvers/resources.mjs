@@ -1,7 +1,7 @@
 import { loadYaml, getEntity } from '../helpers.mjs'
 
 const getMockData = () => {
-    loadYaml('./src/mocks/resources.yml')
+    const mockData = loadYaml('./src/mocks/resources.yml')
     mockData.forEach(year => {
         year.buckets = year.buckets.map(tool => ({
             entity: getEntity(tool),
