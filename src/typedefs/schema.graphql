@@ -1,12 +1,3 @@
-# import * from 'demographics.graphql'
-# import * from 'features.graphql'
-# import * from 'happiness.graphql'
-# import * from 'opinions.graphql'
-# import * from 'othertools.graphql'
-# import * from 'resources.graphql'
-# import ToolYearExperience from 'tools.graphql'
-
-
 """
 Completion ratio and count
 """

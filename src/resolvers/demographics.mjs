@@ -6,57 +6,7 @@ import {
   computeYearsOfExperienceByYear,
 } from '../analysis/index.mjs'
 
-
-const mockProficiencyBuckets = [
-  {
-      id: 0,
-      count: 234,
-      percentage: 12
-  },
-  {
-      id: 1,
-      count: 345,
-      percentage: 89
-  },
-  {
-      id: 2,
-      count: 234,
-      percentage: 34
-  },
-  {
-      id: 3,
-      count: 123,
-      percentage: 45
-  },
-  {
-      id: 4,
-      count: 567,
-      percentage: 56
-  }
-]
-
-const mockJobTitleBuckets = [
-  {
-      id: 'front_end_developer_engineer',
-      count: 213,
-      percentage: 23
-  },
-  {
-      id: 'full_stack_developer_engineer',
-      count: 567,
-      percentage: 14
-  },
-  {
-      id: 'back_end_developer_engineer',
-      count: 456,
-      percentage: 45
-  },
-  {
-      id: 'web_developer',
-      count: 234,
-      percentage: 34
-  },
-]
+import { loadYaml } from '../helpers.mjs'
 
 export default {
   participation: async (parent, args, context, info) => {
@@ -75,33 +25,12 @@ export default {
       return computeYearsOfExperienceByYear(context.db)
   },
   jobTitle:  async (parent, args, context, info) => {
-      return [
-          {
-              year: 2019,
-              total: 123,
-              completion: { count: 123, percentage: 99 },
-              buckets: mockJobTitleBuckets
-          }
-      ]
+      return loadYaml('./src/mocks/jobTitle.yml')
   },
   cssProficiency: async (parent, args, context, info) => {
-      return [
-          {
-              year: 2019,
-              total: 123,
-              completion: { count: 123, percentage: 99 },
-              buckets: mockProficiencyBuckets
-          }
-      ]
+      return loadYaml('./src/mocks/cssProficiency.yml')
   },
   backendProficiency: async (parent, args, context, info) => {
-      return [
-          {
-              year: 2019,
-              total: 123,
-              completion: { count: 123, percentage: 99 },
-              buckets: mockProficiencyBuckets
-          }
-      ]
+      return loadYaml('./src/mocks/backendProficiency.yml')
   }
 }

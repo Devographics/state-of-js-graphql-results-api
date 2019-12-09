@@ -1,0 +1,25 @@
+- year: 2019,
+  total: 123,
+  completion:
+      count: 123
+      percentage: 99
+  buckets:
+      - id: lvl1_no_knowledge
+        count: 234
+        percentage: 12
+
+      - id: lvl2_cms
+        count: 345
+        percentage: 89
+
+      - id: lvl3_frameworks
+        count: 234
+        percentage: 34
+
+      - id: lvl4_from_scratch
+        count: 123
+        percentage: 45
+
+      - id: lvl5_microservices
+        count: 567
+        percentage: 56

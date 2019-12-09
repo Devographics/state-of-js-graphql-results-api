@@ -2,9 +2,11 @@ import fs from 'fs'
 import yaml from 'js-yaml'
 import path from 'path'
 
-const entities = yaml.safeLoad(fs.readFileSync(path.resolve('./src/data/entities.yml'), 'utf8'))
-const projects = yaml.safeLoad(fs.readFileSync(path.resolve('./src/data/projects.yml'), 'utf8'))
-const enums = yaml.safeLoad(fs.readFileSync(path.resolve('./src/data/enums.yml'), 'utf8'))
+export const loadYaml = filePath => yaml.safeLoad(fs.readFileSync(path.resolve(filePath), 'utf8'))
+
+const entities = loadYaml('./src/data/entities.yml')
+const projects = loadYaml('./src/data/projects.yml')
+const enums = loadYaml('./src/data/enums.yml')
 
 const allEntities = [...entities, ...projects]
 
