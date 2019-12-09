@@ -3,7 +3,7 @@ import { getEnum } from './helpers.mjs'
 import path from 'path'
 import fs from 'fs'
 
-const loadGraphQL = file => fs.readFileSync(path.resolve(`./src/graphql/${file}.graphql`), 'utf8')
+const loadGraphQL = file => fs.readFileSync(path.resolve(`./src/typedefs/${file}.graphql`), 'utf8')
 
 const { gql } = Apollo.default
 
