@@ -3,22 +3,26 @@ survey_type:
     - css
 
 tool:
+    # JS flavors
     - typescript
     - reason
     - elm
     - clojurescript
     - purescript
+    # JS front end frameworks
     - react
     - vue
     - angular
     - preact
     - ember
     - svelte
+    # JS data layer
     - redux
     - apollo
     - graphql
     - relay
     - mobx
+    # JS back end frameworks
     - express
     - nextjs
     - koa
@@ -27,6 +31,7 @@ tool:
     - feathers
     - nuxt
     - gatsby
+    # JS testing
     - jest
     - mocha
     - storybook
@@ -35,6 +40,7 @@ tool:
     - ava
     - jasmine
     - puppeteer
+    # JS mobile desktop
     - electron
     - react_native
     - native_apps

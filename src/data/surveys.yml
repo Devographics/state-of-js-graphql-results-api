@@ -1,0 +1,54 @@
+js:
+    2019:
+        categories:
+            javascript_flavors:
+                tools:
+                    - typescript
+                    - reason
+                    - elm
+                    - clojurescript
+                    - purescript
+            front_end_frameworks:
+                tools:
+                    - react
+                    - vue
+                    - angular
+                    - preact
+                    - ember
+                    - svelte
+            data_layer:
+                tools:
+                    - redux
+                    - apollo
+                    - graphql
+                    - relay
+                    - mobx
+            back_end_frameworks:
+                tools:
+                    - express
+                    - nextjs
+                    - koa
+                    - meteor
+                    - sails
+                    - feathers
+                    - nuxt
+                    - gatsby
+            testing:
+                tools:
+                    - jest
+                    - mocha
+                    - storybook
+                    - cypress
+                    - enzyme
+                    - ava
+                    - jasmine
+                    - puppeteer
+            mobile_desktop:
+                tools:
+                    - electron
+                    - react_native
+                    - native_apps
+                    - cordova
+                    - ionic
+                    - nwjs
+                    - expo
