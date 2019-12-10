@@ -31,17 +31,8 @@ type EntityBucket @cacheControl(maxAge: 600) {
     entity: Entity
 }
 
-
 # Root Query Type
 
 type Query {
-    tool(id: ToolID!): Tool
-    feature(id: FeatureID!): Feature
-    demographics: Demographics
-    opinion(id: OpinionID!): Opinion
-    # opinions(ids: [ID]!): [Opinion] @cacheControl(maxAge: 600)
-    otherTools(id: OtherToolsID!): OtherTools
-    resources(id: ResourcesID!): Resources
-    entity(id: ID!): Entity
-    category(id: CategoryID!): Category
-} 
+    survey(survey: SurveyType!, year: Int!): Survey
+}

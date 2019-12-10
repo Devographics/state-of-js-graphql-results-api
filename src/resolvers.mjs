@@ -1,3 +1,4 @@
+import Surveys from './resolvers/surveys.mjs'
 import Demographics from './resolvers/demographics.mjs'
 import Feature from './resolvers/feature.mjs'
 import Category from './resolvers/category.mjs'
@@ -8,6 +9,7 @@ import Resources from './resolvers/resources.mjs'
 import Tool from './resolvers/tool.mjs'
 
 export default {
+    ...Surveys,
     ...Demographics,
     ...Tool,
     ...Feature,

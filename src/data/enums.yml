@@ -1,3 +1,7 @@
+survey_type:
+    - js
+    - css
+
 tool:
     - typescript
     - reason

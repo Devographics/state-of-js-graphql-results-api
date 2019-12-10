@@ -10,6 +10,9 @@ const { gql } = Apollo.default
 const typeDefs = /* GraphQL */ `
 
 # Enums
+enum SurveyType {
+    ${getEnum('survey_type')}
+}
 enum ToolID {
     ${getEnum('tool')}
 }
@@ -29,6 +32,7 @@ enum CategoryID {
     ${getEnum('categories')}
 }
 
+${loadGraphQL('surveys')}
 ${loadGraphQL('demographics')}
 ${loadGraphQL('features')}
 ${loadGraphQL('categories')}

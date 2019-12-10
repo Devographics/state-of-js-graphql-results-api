@@ -1,4 +1,5 @@
 import { computeHappinessByYear } from '../analysis/index.mjs'
+import { loadYaml } from '../helpers.mjs'
 
 const getMockData = category => {
     const mockData = loadYaml(`./src/mocks/${category}Heatmap.yml`)
@@ -14,21 +15,25 @@ const getMockData = category => {
 export default {
     CategoryHappiness: {
         allYears: async (happiness, args, context, info) => {
-            return computeHappinessByYear(context.db, happiness.id)
+            return computeHappinessByYear(context.db, happiness.id, happiness.survey)
         },
         year: async (happiness, args, context, info) => {
-            const allYears = await computeHappinessByYear(context.db, happiness.id)
+            const allYears = await computeHappinessByYear(
+                context.db,
+                happiness.id,
+                happiness.survey
+            )
+
             return allYears.find(yearItem => yearItem.year === args.year)
         }
     },
     CategoryHeatmap: {
         allYears: async (category, args, context, info) => {
-            console.log(category)
-            return getMockData()
+            return getMockData(category.id)
         },
         year: async (category, { year }, context, info) => {
-            console.log(category)
-            const allYears = await computeExperienceOverYears(context.db, tool.id)
+            const allYears = await computeExperienceOverYears(context.db, category.id)
+
             return getMockData().find(y => y.year === year)
         }
     }

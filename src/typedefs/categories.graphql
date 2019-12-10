@@ -52,7 +52,7 @@ type YearCategoryHeatmap @cacheControl(maxAge: 600) {
 
 type CategoryHeatmap @cacheControl(maxAge: 600) {
     id: CategoryID!
-    allYears: [YearCategoryHeatmap]
+    allYears: [YearCategoryHeatmap] @cacheControl(maxAge: 600)
     year(year: Int!): YearCategoryHeatmap
 }
 

@@ -12,7 +12,6 @@ import {
     computeCompanySizeByYear,
     computeYearsOfExperienceByYear,
     getParticipationByYearMap,
-    getOpinionIds,
     computeOpinionByYear,
     computeOpinionsByYear,
     computeHappinessByYear,
@@ -27,7 +26,7 @@ const run = async () => {
     await mongoClient.connect()
     const db = mongoClient.db(process.env.MONGO_DB_NAME)
 
-    const res = await computeHappinessByYear(db, 'testing')
+    const res = await computeHappinessByYear(db, 'back_end_frameworks')
     console.log(util.inspect(res, { depth: null, colors: true }))
 
     await mongoClient.close()

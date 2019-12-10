@@ -21,15 +21,20 @@ const computeSatisfaction = (buckets, total) => {
     return ratioToPercentage(wouldUse.count / (wouldUse.count + wouldNotUse.count))
 }
 
-export const computeExperienceOverYears = async (db, tool) => {
+export const computeExperienceOverYears = async (db, tool, survey) => {
     const collection = db.collection('normalized_responses')
 
     const path = `tools.${tool}.experience`
 
     const results = await collection
         .aggregate([
-            // exclude null and empty values
-            { $match: { [path]: { $nin: [null, ''] } } },
+            {
+                $match: {
+                    survey: survey.survey,
+                    // exclude null and empty values
+                    [path]: { $nin: [null, ''] }
+                }
+            },
             {
                 $group: {
                     _id: {

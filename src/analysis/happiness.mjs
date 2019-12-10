@@ -1,15 +1,20 @@
 import _ from 'lodash'
 import { appendCompletionToYearlyResults, ratioToPercentage } from './common.mjs'
 
-export const computeHappinessByYear = async (db, id) => {
+export const computeHappinessByYear = async (db, id, survey) => {
     const path = `happiness.${id}`
 
     const collection = db.collection('normalized_responses')
 
     const results = await collection
         .aggregate([
-            // exclude null and empty values
-            { $match: { [path]: { $nin: [null, ''] } } },
+            {
+                $match: {
+                    survey: survey.survey,
+                    // exclude null and empty values
+                    [path]: { $nin: [null, ''] }
+                }
+            },
             {
                 $group: {
                     _id: {

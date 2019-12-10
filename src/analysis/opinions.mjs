@@ -1,42 +1,20 @@
 import _ from 'lodash'
 import { appendCompletionToYearlyResults, ratioToPercentage } from './common.mjs'
 
-export const getOpinionIds = async db => {
-    const collection = db.collection('normalized_responses')
-
-    const result = await collection
-        .aggregate([
-            {
-                $project: {
-                    keys: {
-                        $objectToArray: '$opinions'
-                    }
-                }
-            },
-            { $unwind: '$keys' },
-            {
-                $group: {
-                    _id: null,
-                    keys: {
-                        $addToSet: '$keys.k'
-                    }
-                }
-            }
-        ])
-        .toArray()
-
-    return result[0].keys
-}
-
-export const computeOpinionByYear = async (db, opinion) => {
+export const computeOpinionByYear = async (db, opinion, survey) => {
     const path = `opinions.${opinion}`
 
     const collection = db.collection('normalized_responses')
 
     const results = await collection
         .aggregate([
-            // exclude null and empty values
-            { $match: { [path]: { $nin: [null, ''] } } },
+            {
+                $match: {
+                    survey: survey.survey,
+                    // exclude null and empty values
+                    [path]: { $nin: [null, ''] }
+                }
+            },
             {
                 $group: {
                     _id: {
