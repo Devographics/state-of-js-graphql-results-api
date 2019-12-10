@@ -47,8 +47,6 @@ type CategoryHeatmapBucket @cacheControl(maxAge: 600) {
 
 type YearCategoryHeatmap @cacheControl(maxAge: 600) {
     year: Int
-    total: Int
-    completion: Completion
     buckets: [CategoryHeatmapBucket] @cacheControl(maxAge: 600)
 }
 

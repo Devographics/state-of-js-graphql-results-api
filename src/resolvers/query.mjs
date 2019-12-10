@@ -26,22 +26,22 @@ export default {
             id
         }
     }),
-    opinion: async (parent, args, context, info) => {
+    opinion: async (parent, { id }, context, info) => {
         return {
-            id: args.id
+            id
         }
     },
-    otherTools: async (parent, args, context, info) => {
+    otherTools: async (parent, { id }, context, info) => {
         return {
-            id: args.id
+            id
         }
     },
-    entity: async (parent, args, context, info) => {
-        return getEntity({ id: args.id })
+    entity: async (parent, { id }, context, info) => {
+        return getEntity({ id })
     },
-    resources: async (parent, args, context, info) => {
+    resources: async (parent, { id }, context, info) => {
         return {
-            id: args.id
+            id
         }
     },
     category: async (parent, { id }, context, info) => ({
