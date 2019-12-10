@@ -11,7 +11,7 @@ tool:
     - purescript
     # JS front end frameworks
     - react
-    - vue
+    - vuejs
     - angular
     - preact
     - ember
