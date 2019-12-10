@@ -55,21 +55,21 @@ other-tools:
   - non_js_languages_others
 
 feature:
-  - syntax
+  # JS syntax
   - destructuring
   - spread_operator
   - arrow_functions
-  - language
+  # JS language
   - proxies
   - async_await
   - promises
   - decorators
-  - data_structures
+  # JS data structures
   - maps
   - sets
   - typed_arrays
   - array_prototype_flat
-  - browser_apis
+  # JS browser apis
   - fetch
   - i18n
   - local_storage
@@ -82,7 +82,7 @@ feature:
   - websocket
   - web_speech
   - webvr
-  - features_other_features
+  # JS other features
   - pwa
   - wasm
 
@@ -94,7 +94,8 @@ resources:
   - podcasts
   - podcasts_others
 
-categories: 
+categories:
+  - javascript_flavors
   - front_end_frameworks
   - data_layer
   - back_end_frameworks
