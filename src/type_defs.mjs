@@ -25,13 +25,13 @@ enum OtherToolsID {
 enum ResourcesID {
     ${getEnum('resources')}
 }
-enum HappinessID {
-    ${getEnum('happiness')}
+enum CategoryID {
+    ${getEnum('categories')}
 }
 
 ${loadGraphQL('demographics')}
 ${loadGraphQL('features')}
-${loadGraphQL('happiness')}
+${loadGraphQL('categories')}
 ${loadGraphQL('opinions')}
 ${loadGraphQL('othertools')}
 ${loadGraphQL('resources')}

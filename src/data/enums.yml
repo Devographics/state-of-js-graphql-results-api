@@ -94,7 +94,7 @@ resources:
   - podcasts
   - podcasts_others
 
-happiness: 
+categories: 
   - front_end_frameworks
   - data_layer
   - back_end_frameworks

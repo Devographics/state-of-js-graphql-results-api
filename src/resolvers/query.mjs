@@ -11,7 +11,7 @@ export default {
         workExperience: {},
         jobTitle: {},
         cssProficiency: {},
-        backendProficiency: {},
+        backendProficiency: {}
     }),
     tool: async (parent, { id }, context, info) => ({
         id,
@@ -44,9 +44,19 @@ export default {
             id: args.id
         }
     },
-    happiness: async (parent, args, context, info) => {
-        return {
-            id: args.id
+    category: async (parent, { id }, context, info) => ({
+        id,
+        happiness: {
+            id
+        },
+        workExperience: {
+            id
+        },
+        companySize: {
+            id
+        },
+        salary: {
+            id
         }
-    }
+    })
 }

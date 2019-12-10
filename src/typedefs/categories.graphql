@@ -1,0 +1,69 @@
+"""
+Happiness
+"""
+type HappinessBucket @cacheControl(maxAge: 600) {
+    id: Int
+    count: Int
+    percentage: Float
+}
+
+type YearHappiness @cacheControl(maxAge: 600) {
+    year: Int
+    """
+    Total number of respondents who have answered this specific question.
+    """
+    total: Int
+    """
+    Mean happiness score for the year, please note that despite the
+    happiness indices starts at 0, the average is computed from 1.
+    """
+    mean: Float
+    completion: Completion
+    buckets: [HappinessBucket] @cacheControl(maxAge: 600)
+}
+
+type CategoryHappiness @cacheControl(maxAge: 600) {
+    id: CategoryID!
+    allYears: [YearHappiness] @cacheControl(maxAge: 600)
+    year(year: Int!): YearHappiness
+}
+
+"""
+Heatmaps
+"""
+
+type CategoryHeatmapRange @cacheControl(maxAge: 600) {
+    range: String
+    count: Int
+    percentage: Float
+}
+
+type CategoryHeatmapBucket @cacheControl(maxAge: 600) {
+    id: ToolID
+    total: Int
+    average: Float
+    ranges: CategoryHeatmapRange
+}
+
+type YearCategoryHeatmap @cacheControl(maxAge: 600) {
+    year: Int
+    total: Int
+    completion: Completion
+    buckets: [CategoryHeatmapBucket] @cacheControl(maxAge: 600)
+}
+
+type CategoryHeatmap @cacheControl(maxAge: 600) {
+    id: CategoryID!
+    allYears: [YearCategoryHeatmap]
+    year(year: Int!): YearCategoryHeatmap
+}
+
+"""
+Category
+"""
+type Category @cacheControl(maxAge: 600) {
+  happiness: CategoryHappiness @cacheControl(maxAge: 600)
+  workExperience: CategoryHeatmap @cacheControl(maxAge: 600)
+  salary: CategoryHeatmap @cacheControl(maxAge: 600)
+  companySize: CategoryHeatmap @cacheControl(maxAge: 600)
+}

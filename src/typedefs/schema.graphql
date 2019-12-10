@@ -43,5 +43,5 @@ type Query {
     otherTools(id: OtherToolsID!): OtherTools
     resources(id: ResourcesID!): Resources
     entity(id: ID!): Entity
-    happiness(id: HappinessID!): Happiness
+    category(id: CategoryID!): Category
 } 

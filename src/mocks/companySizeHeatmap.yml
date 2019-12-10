@@ -4,7 +4,7 @@
       count: 123
       percentage: 99
   buckets:
-      - tool: react
+      - id: react
         total: 13062
         average: 409
         ranges:
@@ -32,7 +32,7 @@
             - range: 1-5
               count: 981
               percentage: 7.5
-      - tool: angular
+      - id: angular
         total: 4817
         average: 454
         ranges:
@@ -60,7 +60,7 @@
             - range: 1-5
               count: 329
               percentage: 6.8
-      - tool: ember
+      - id: ember
         total: 1013
         average: 356
         ranges:
@@ -88,7 +88,7 @@
             - range: '1'
               count: 55
               percentage: 5.4
-      - tool: polymer
+      - id: polymer
         total: 635
         average: 514
         ranges:
@@ -116,7 +116,7 @@
             - range: 5-10
               count: 34
               percentage: 5.4
-      - tool: vuejs
+      - id: vuejs
         total: 5810
         average: 320
         ranges:
@@ -144,7 +144,7 @@
             - range: 5-10
               count: 540
               percentage: 9.3
-      - tool: preact
+      - id: preact
         total: 1251
         average: 416
         ranges:
