@@ -7,7 +7,7 @@ const loadGraphQL = file => fs.readFileSync(path.resolve(`./src/typedefs/${file}
 
 const { gql } = Apollo.default
 
-const typeDefs = /* GraphQL */`
+const typeDefs = /* GraphQL */ `
 
 # Enums
 enum ToolID {

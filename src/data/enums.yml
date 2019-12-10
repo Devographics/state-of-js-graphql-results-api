@@ -1,109 +1,113 @@
 tool:
-  - react
-  - vue
-  - angular
-  - preact
-  - ember
-  - svelte
-  - redux
-  - apollo
-  - graphql
-  - relay
-  - mobx
-  - express
-  - nextjs
-  - koa
-  - meteor
-  - sails
-  - feathers
-  - nuxt
-  - gatsby
-  - jest
-  - mocha
-  - storybook
-  - cypress
-  - enzyme
-  - ava
-  - jasmine
-  - puppeteer
-  - electron
-  - react_native
-  - native_apps
-  - cordova
-  - ionic
-  - nwjs
-  - expo
+    - typescript
+    - reason
+    - elm
+    - clojurescript
+    - purescript
+    - react
+    - vue
+    - angular
+    - preact
+    - ember
+    - svelte
+    - redux
+    - apollo
+    - graphql
+    - relay
+    - mobx
+    - express
+    - nextjs
+    - koa
+    - meteor
+    - sails
+    - feathers
+    - nuxt
+    - gatsby
+    - jest
+    - mocha
+    - storybook
+    - cypress
+    - enzyme
+    - ava
+    - jasmine
+    - puppeteer
+    - electron
+    - react_native
+    - native_apps
+    - cordova
+    - ionic
+    - nwjs
+    - expo
 
-opinion: 
-  - js_moving_in_right_direction
-  - building_js_apps_overly_complex
-  - js_over_used_online
-  - enjoy_building_js_apps
-  - would_like_js_to_be_main_lang
-  - js_ecosystem_changing_to_fast
+opinion:
+    - js_moving_in_right_direction
+    - building_js_apps_overly_complex
+    - js_over_used_online
+    - enjoy_building_js_apps
+    - would_like_js_to_be_main_lang
+    - js_ecosystem_changing_to_fast
 
 other-tools:
-  - utilities
-  - utilities_others
-  - text_editors
-  - text_editors_others
-  - browsers
-  - browsers_others
-  - build_tools
-  - build_tools_others
-  - non_js_languages
-  - non_js_languages_others
+    - utilities
+    - utilities_others
+    - text_editors
+    - text_editors_others
+    - browsers
+    - browsers_others
+    - build_tools
+    - build_tools_others
+    - non_js_languages
+    - non_js_languages_others
 
 feature:
-  # JS syntax
-  - destructuring
-  - spread_operator
-  - arrow_functions
-  # JS language
-  - proxies
-  - async_await
-  - promises
-  - decorators
-  # JS data structures
-  - maps
-  - sets
-  - typed_arrays
-  - array_prototype_flat
-  # JS browser apis
-  - fetch
-  - i18n
-  - local_storage
-  - service_workers
-  - web_animations
-  - web_audio
-  - web_components
-  - webgl
-  - webrtc
-  - websocket
-  - web_speech
-  - webvr
-  # JS other features
-  - pwa
-  - wasm
+    # JS syntax
+    - destructuring
+    - spread_operator
+    - arrow_functions
+    # JS language
+    - proxies
+    - async_await
+    - promises
+    - decorators
+    # JS data structures
+    - maps
+    - sets
+    - typed_arrays
+    - array_prototype_flat
+    # JS browser apis
+    - fetch
+    - i18n
+    - local_storage
+    - service_workers
+    - web_animations
+    - web_audio
+    - web_components
+    - webgl
+    - webrtc
+    - websocket
+    - web_speech
+    - webvr
+    # JS other features
+    - pwa
+    - wasm
 
 resources:
-  - blogs_magazines
-  - blogs_magazines_others
-  - sites_courses
-  - sites_courses_others
-  - podcasts
-  - podcasts_others
+    - blogs_magazines
+    - blogs_magazines_others
+    - sites_courses
+    - sites_courses_others
+    - podcasts
+    - podcasts_others
 
 categories:
-  - javascript_flavors
-  - front_end_frameworks
-  - data_layer
-  - back_end_frameworks
-  - testing
-  - mobile_desktop
-
-# job-titles: 
-  # - front_end_developer_engineer
-  # - full_stack_developer_engineer
-  # - back_end_developer_engineer
-  # - web_developer
+    - javascript_flavors
+    - front_end_frameworks
+    - data_layer
+    - back_end_frameworks
+    - testing
+    - mobile_desktop
+# job-titles:
+# - front_end_developer_engineer
+# - full_stack_developer_engineer
+# - back_end_developer_engineer
+# - web_developer

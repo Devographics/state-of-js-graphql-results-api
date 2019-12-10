@@ -92,5 +92,5 @@ export default {
         year: async (parent, args, context, info) => {
             return loadYaml('./src/mocks/backendProficiency.yml').find(y => y.year === args.year)
         }
-    },
+    }
 }

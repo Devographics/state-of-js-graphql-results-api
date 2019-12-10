@@ -15,5 +15,5 @@ export default {
     Opinion,
     OtherTools,
     Resources,
-    Query,
+    Query
 }
