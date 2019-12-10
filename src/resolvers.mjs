@@ -10,8 +10,8 @@ import Tool from './resolvers/tool.mjs'
 export default {
     ...Demographics,
     Query,
-    Tool,
-    Feature,
+    ...Tool,
+    ...Feature,
     Opinion,
     OtherTools,
     Resources,

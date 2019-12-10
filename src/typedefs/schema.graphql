@@ -24,7 +24,7 @@ type Entity @cacheControl(maxAge: 600) {
 """
 A datapoint associated with a given entity.
 """
-type EntityData @cacheControl(maxAge: 600) {
+type EntityBucket @cacheControl(maxAge: 600) {
     id: String
     count: Int
     percentage: Float
@@ -36,7 +36,7 @@ type EntityData @cacheControl(maxAge: 600) {
 
 type Query {
     tool(id: ToolID!): Tool
-    feature(id: FeatureID!, section: String!): Feature
+    feature(id: FeatureID!): Feature
     demographics: Demographics
     opinion(id: OpinionID!): Opinion
     # opinions(ids: [ID]!): [Opinion] @cacheControl(maxAge: 600)

@@ -60,7 +60,7 @@ export default {
             return allYears.find(y => y.year === args.year)
         }
     },
-    Experience: {
+    WorkExperience: {
         allYears: async (parent, args, context, info) => {
             return await computeYearsOfExperienceByYear(context.db)
         },

@@ -13,19 +13,19 @@ export default {
         cssProficiency: {},
         backendProficiency: {},
     }),
-    tool: async (parent, args, context, info) => {
-        const { id } = args
-        return {
-            id,
-            entity: getEntity({ id })
+    tool: async (parent, { id }, context, info) => ({
+        id,
+        entity: getEntity({ id }),
+        experience: {
+            id
         }
-    },
-    feature: async (parent, args, context, info) => {
-        return {
-            id: args.id,
-            section: args.section
+    }),
+    feature: async (parent, { id }, context, info) => ({
+        id,
+        experience: {
+            id
         }
-    },
+    }),
     opinion: async (parent, args, context, info) => {
         return {
             id: args.id

@@ -7,7 +7,7 @@ type YearResources @cacheControl(maxAge: 600) {
     """
     total: Int
     completion: Completion
-    buckets: [EntityData] @cacheControl(maxAge: 600)
+    buckets: [EntityBucket] @cacheControl(maxAge: 600)
 }
 
 type Resources @cacheControl(maxAge: 600) {

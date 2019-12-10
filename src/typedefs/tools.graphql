@@ -52,8 +52,13 @@ type ToolYearExperience @cacheControl(maxAge: 600) {
     awarenessInterestSatisfaction: ToolAwarenessInterestSatisfaction
 }
 
+type ToolExperience @cacheControl(maxAge: 600) {
+    allYears: [ToolYearExperience]
+    year(year: Int!): ToolYearExperience
+}
+
 type Tool @cacheControl(maxAge: 600) {
     id: ToolID!
-    experience: [ToolYearExperience] @cacheControl(maxAge: 600)
+    experience: ToolExperience @cacheControl(maxAge: 600)
     entity: Entity
 }
