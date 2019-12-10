@@ -8,7 +8,7 @@ export default {
         gender: {},
         salary: {},
         companySize: {},
-        experience: {},
+        workExperience: {},
         jobTitle: {},
         cssProficiency: {},
         backendProficiency: {},
