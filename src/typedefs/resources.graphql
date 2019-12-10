@@ -12,6 +12,6 @@ type YearResources @cacheControl(maxAge: 600) {
 
 type Resources @cacheControl(maxAge: 600) {
     id: ResourcesID!
-    allYears: [YearResources]
+    allYears: [YearResources] @cacheControl(maxAge: 600)
     year(year: Int!): YearResources
 }
