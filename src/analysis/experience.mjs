@@ -1,5 +1,6 @@
 import _ from 'lodash'
 import { ratioToPercentage, appendCompletionToYearlyResults } from './common.mjs'
+import util from 'util'
 
 const computeAwareness = (buckets, total) => {
     const neverHeard = buckets.find(bucket => bucket.id === 'never_heard')
@@ -96,4 +97,60 @@ export const computeExperienceOverYears = async (db, tool, survey) => {
     })
 
     return appendCompletionToYearlyResults(db, experienceByYear)
+}
+
+const computeToolExperience = async (db, tool, year, survey) => {
+    const collection = db.collection('normalized_responses')
+
+    const path = `tools.${tool}.experience`
+
+    const results = await collection
+        .aggregate([
+            {
+                $match: {
+                    survey: survey.survey,
+                    year,
+                    // exclude null and empty values
+                    [path]: { $nin: [null, ''] }
+                }
+            },
+            {
+                $group: {
+                    _id: {
+                        experience: `$${path}`
+                    },
+                    count: { $sum: 1 }
+                }
+            },
+            // reshape documents
+            {
+                $project: {
+                    _id: 0,
+                    id: '$_id.experience',
+                    count: 1
+                }
+            }
+        ])
+        .toArray()
+
+    // compute percentages
+    const total = _.sumBy(results, 'count')
+    results.forEach(bucket => {
+        bucket.percentage = ratioToPercentage(bucket.count / total)
+    })
+
+    return {
+        id: tool,
+        total,
+        buckets: results
+    }
+}
+
+export const computeToolsExperience = async (db, tools, year, survey) => {
+    const results = []
+    for (const tool of tools) {
+        results.push(await computeToolExperience(db, tool, year, survey))
+    }
+
+    return results
 }

@@ -1,4 +1,5 @@
 import { getEntity } from '../helpers.mjs'
+import { getCategoryTools } from './category.mjs'
 
 export default {
     Survey: {
@@ -59,6 +60,11 @@ export default {
             return {
                 survey,
                 id,
+                tools: {
+                    survey,
+                    id,
+                    tools: getCategoryTools({ survey, id })
+                },
                 happiness: {
                     survey,
                     id

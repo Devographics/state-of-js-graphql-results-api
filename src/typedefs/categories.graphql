@@ -56,12 +56,34 @@ type CategoryHeatmap @cacheControl(maxAge: 600) {
     year(year: Int!): YearCategoryHeatmap
 }
 
+type YearCategoryToolsExperienceToolBucket @cacheControl(maxAge: 600) {
+    id: String
+    count: Int
+    percentage: Float
+}
+
+type YearCategoryToolsExperienceTool @cacheControl(maxAge: 600) {
+    id: ToolID
+    buckets: [YearCategoryToolsExperienceToolBucket] @cacheControl(maxAge: 600)
+}
+
+type YearCategoryToolsExperience @cacheControl(maxAge: 600) {
+    year: Int
+    tools: [YearCategoryToolsExperienceTool] @cacheControl(maxAge: 600)
+}
+
+type CategoryTools @cacheControl(maxAge: 600) {
+    tools: [ToolID] @cacheControl(maxAge: 600)
+    experience(year: Int): YearCategoryToolsExperience
+}
+
 """
 Category
 """
 type Category @cacheControl(maxAge: 600) {
-  happiness: CategoryHappiness @cacheControl(maxAge: 600)
-  workExperience: CategoryHeatmap @cacheControl(maxAge: 600)
-  salary: CategoryHeatmap @cacheControl(maxAge: 600)
-  companySize: CategoryHeatmap @cacheControl(maxAge: 600)
+    happiness: CategoryHappiness
+    tools: CategoryTools
+    workExperience: CategoryHeatmap
+    salary: CategoryHeatmap
+    companySize: CategoryHeatmap
 }

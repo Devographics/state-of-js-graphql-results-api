@@ -4,6 +4,7 @@ import path from 'path'
 
 export const loadYaml = filePath => yaml.safeLoad(fs.readFileSync(path.resolve(filePath), 'utf8'))
 
+const surveys = loadYaml('./src/data/surveys.yml')
 const entities = loadYaml('./src/data/entities.yml')
 const projects = loadYaml('./src/data/projects.yml')
 const enums = loadYaml('./src/data/enums.yml')
@@ -11,6 +12,20 @@ const enums = loadYaml('./src/data/enums.yml')
 const allEntities = [...entities, ...projects]
 
 enums.entities = allEntities.map(e => e.id)
+
+export const getSurveyConfig = (surveyType, year) => {
+    const survey = surveys[surveyType]
+    if (survey === undefined) {
+        throw new Error(`Invalid survey type ${surveyType}`)
+    }
+
+    const surveyYear = survey[year]
+    if (surveyYear === undefined) {
+        throw new Error(`Year ${year} is not available for survey type ${surveyType}`)
+    }
+
+    return surveyYear
+}
 
 // Look up entities by id, name, or aliases (case-insensitive)
 export const getEntity = ({ id }) => {

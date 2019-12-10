@@ -11,7 +11,7 @@ js:
             front_end_frameworks:
                 tools:
                     - react
-                    - vue
+                    - vuejs
                     - angular
                     - preact
                     - ember
