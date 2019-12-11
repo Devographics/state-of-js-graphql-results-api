@@ -31,12 +31,12 @@ const run = async () => {
     const res = await computeToolsExperienceRanking(db, [
         'jest',
         'mocha',
-        //'storybook',
-        //'cypress',
+        'storybook',
+        'cypress',
         'enzyme',
         'ava',
         'jasmine',
-        //'puppeteer'
+        'puppeteer'
     ], { survey: 'js', year: 2019 })
     console.log(util.inspect(res, { depth: null, colors: true }))
 
