@@ -1,5 +1,7 @@
-import { getEntity } from '../helpers.mjs'
+import { getEntity, loadYaml } from '../helpers.mjs'
 import { getCategoryTools } from './category.mjs'
+
+const enums = loadYaml('./src/data/enums.yml')
 
 export default {
     Survey: {
@@ -24,6 +26,18 @@ export default {
                 id
             }
         }),
+        tools: async (survey, { ids }, context, info) => {
+            const toolIds = ids || enums.tool
+            return toolIds.map(id => ({
+                survey,
+                id,
+                entity: getEntity({ id }),
+                experience: {
+                    survey,
+                    id,
+                }
+            }))
+        },
         feature: async (survey, { id }, context, info) => ({
             survey,
             id,
@@ -32,6 +46,17 @@ export default {
                 id
             }
         }),
+        features: async (survey, { ids }, context, info) => {
+            const featureIds = ids || enums.feature
+            return featureIds.map(id => ({
+                survey,
+                id,
+                experience: {
+                    survey,
+                    id,
+                }
+            }))
+        },
         opinion: async (survey, { id }, context, info) => {
             return {
                 survey,

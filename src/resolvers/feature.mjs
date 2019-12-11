@@ -7,7 +7,6 @@ export default {
         },
         year: async (feature, { year }, context, info) => {
             const allYears = await computeFeatureUsageByYear(context.db, feature.id, feature.survey)
-
             return allYears.find(y => y.year === year)
         }
     }
