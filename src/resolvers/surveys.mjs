@@ -1,6 +1,5 @@
 import { getEntity, loadYaml } from '../helpers.mjs'
 import { getCategoryTools } from './category.mjs'
-import { computeToolsExperienceRanking } from '../analysis/index.mjs'
 
 const enums = loadYaml('./src/data/enums.yml')
 
@@ -39,8 +38,11 @@ export default {
                 }
             }))
         },
-        toolsExperienceRanking: async (survey, { ids }, context, info) => {
-            return computeToolsExperienceRanking(context.db, ids, survey)
+        toolsRankings: async (survey, { ids }, context, info) => {
+            return {
+                survey,
+                ids
+            }
         },
         feature: async (survey, { id }, context, info) => ({
             survey,

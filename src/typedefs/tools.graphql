@@ -69,9 +69,21 @@ type ToolExperienceRankingYearMetric @cacheControl(maxAge: 600) {
     percentage: Float
 }
 
+"""
+Used to represent the ranking of a tool compared to others
+for awareness/interest and stisfaction.
+"""
 type ToolExperienceRanking @cacheControl(maxAge: 600) {
     id: ToolID
     awareness: [ToolExperienceRankingYearMetric] @cacheControl(maxAge: 600)
     interest: [ToolExperienceRankingYearMetric] @cacheControl(maxAge: 600)
     satisfaction: [ToolExperienceRankingYearMetric] @cacheControl(maxAge: 600)
+}
+
+"""
+Contains various rankings for a set of tools.
+"""
+type ToolsRankings @cacheControl(maxAge: 600) {
+    ids: [ToolID] @cacheControl(maxAge: 600)
+    experience: [ToolExperienceRanking] @cacheControl(maxAge: 600)
 }
