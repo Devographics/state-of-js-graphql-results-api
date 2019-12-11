@@ -200,11 +200,6 @@ export const computeToolsExperienceRanking = async (db, tools, survey) => {
     availableYears = _.uniq(availableYears).sort()
 
     const byTool = []
-
-    // for now the frontend does not support holes in the data set
-    // so we exclude tools which are not available for every years
-    const excludedTools = []
-
     tools.forEach(tool => {
         byTool.push({
             id: tool,
@@ -220,10 +215,6 @@ export const computeToolsExperienceRanking = async (db, tools, survey) => {
                             percentage = toolYearMetric.percentage
                         }
 
-                        if (rank === null) {
-                            excludedTools.push(tool)
-                        }
-
                         return { year, rank, percentage }
                     })
                 }
@@ -231,5 +222,5 @@ export const computeToolsExperienceRanking = async (db, tools, survey) => {
         })
     })
 
-    return byTool.filter(({ id }) => !excludedTools.includes(id))
+    return byTool
 }
