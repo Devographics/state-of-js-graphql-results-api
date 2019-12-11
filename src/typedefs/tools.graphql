@@ -62,3 +62,16 @@ type Tool @cacheControl(maxAge: 600) {
     experience: ToolExperience @cacheControl(maxAge: 600)
     entity: Entity
 }
+
+type ToolExperienceRankingYearMetric @cacheControl(maxAge: 600) {
+    year: Int
+    rank: Int
+    percentage: Float
+}
+
+type ToolExperienceRanking @cacheControl(maxAge: 600) {
+    id: ToolID
+    awareness: [ToolExperienceRankingYearMetric] @cacheControl(maxAge: 600)
+    interest: [ToolExperienceRankingYearMetric] @cacheControl(maxAge: 600)
+    satisfaction: [ToolExperienceRankingYearMetric] @cacheControl(maxAge: 600)
+}

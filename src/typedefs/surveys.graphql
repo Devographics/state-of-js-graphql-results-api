@@ -4,9 +4,10 @@ type Survey @cacheControl(maxAge: 600) {
     survey: SurveyType
     year: Int
     tool(id: ToolID!): Tool
-    tools(ids: [ToolID]): [Tool]
+    tools(ids: [ToolID]): [Tool] @cacheControl(maxAge: 600)
+    toolsExperienceRanking(ids: [ToolID]!): [ToolExperienceRanking] @cacheControl(maxAge: 600)
     feature(id: FeatureID!): Feature
-    features(ids: [FeatureID]): [Feature]
+    features(ids: [FeatureID]): [Feature] @cacheControl(maxAge: 600)
     demographics: Demographics
     opinion(id: OpinionID!): Opinion
     otherTools(id: OtherToolsID!): OtherTools

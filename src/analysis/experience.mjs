@@ -154,3 +154,73 @@ export const computeToolsExperience = async (db, tools, year, survey) => {
 
     return results
 }
+
+export const computeToolsExperienceRanking = async (db, tools, survey) => {
+    let availableYears = []
+    const metricByYear = {}
+
+    for (const tool of tools) {
+        const toolAllYearsExperience = await computeExperienceOverYears(db, tool, survey)
+        const toolAwarenessInterestSatisfactionOverYears = []
+
+        toolAllYearsExperience.forEach(toolYear => {
+            availableYears.push(toolYear.year)
+
+            if (metricByYear[toolYear.year] === undefined) {
+                metricByYear[toolYear.year] = {
+                    awareness: [],
+                    interest: [],
+                    satisfaction: []
+                }
+            }
+
+            ;['awareness', 'interest', 'satisfaction'].forEach(metric => {
+                metricByYear[toolYear.year][metric].push({
+                    tool,
+                    percentage: toolYear.awarenessInterestSatisfaction[metric]
+                })
+            })
+
+            toolAwarenessInterestSatisfactionOverYears.push({
+                year: toolYear.year,
+                ...toolYear.awarenessInterestSatisfaction
+            })
+        })
+    }
+
+    for (const yearMetrics of Object.values(metricByYear)) {
+        ;['awareness', 'interest', 'satisfaction'].forEach(metric => {
+            yearMetrics[metric] = _.sortBy(yearMetrics[metric], 'percentage').reverse()
+            yearMetrics[metric].forEach((bucket, index) => {
+                bucket.rank = index + 1
+            })
+        })
+    }
+
+    availableYears = _.uniq(availableYears).sort()
+
+    const byTool = []
+    tools.forEach(tool => {
+        byTool.push({
+            id: tool,
+            ...['awareness', 'interest', 'satisfaction'].reduce((acc, metric) => {
+                return {
+                    ...acc,
+                    [metric]: availableYears.map(year => {
+                        const toolYearMetric = metricByYear[year][metric].find(d => d.tool === tool)
+                        let rank = null
+                        let percentage = null
+                        if (toolYearMetric !== undefined) {
+                            rank = toolYearMetric.rank
+                            percentage = toolYearMetric.percentage
+                        }
+
+                        return { year, rank, percentage }
+                    })
+                }
+            }, {})
+        })
+    })
+
+    return byTool
+}
