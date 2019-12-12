@@ -3,7 +3,6 @@ import { computeExperienceOverYears, computeToolsExperienceRanking } from '../an
 export default {
     ToolsRankings: {
         experience: async (rankings, args, context, info) => {
-            console.log(rankings)
             return computeToolsExperienceRanking(context.db, rankings.ids, rankings.survey)
         }
     },

@@ -367,7 +367,7 @@
 # ------------------------------------ #
 #               RESOURCES              #
 # ------------------------------------ #
-- id: csstricks
+- id: css_tricks
   name: CSS Tricks
   homepage: https://css-tricks.com/
   category: blogs
