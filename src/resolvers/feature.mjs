@@ -15,6 +15,10 @@ export default {
         }
     },
     Feature: {
+        name: async (feature, args, context, info) => {
+            const featureObject = features.find(f => f.id === feature.id)
+            return featureObject && featureObject.name
+        },
         mdn: async (feature, args, context, info) => {
             const featureObject = features.find(f => f.id === feature.id)
             if (!featureObject || !featureObject.mdn) {
