@@ -32,6 +32,7 @@ enum CategoryID {
     ${getEnum('categories')}
 }
 
+${loadGraphQL('entity')}
 ${loadGraphQL('github')}
 ${loadGraphQL('mdn')}
 ${loadGraphQL('surveys')}

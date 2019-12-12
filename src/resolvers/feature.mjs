@@ -1,3 +1,4 @@
+import { computeFeatureUsageByYear } from '../analysis/index.mjs'
 import { fetchMdnResource } from '../analysis/index.mjs'
 import { loadYaml } from '../helpers.mjs'
 
