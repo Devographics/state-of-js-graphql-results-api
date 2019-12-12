@@ -16,7 +16,7 @@ type Entity @cacheControl(maxAge: 600) {
     name: String
     homepage: String
     category: String
-    github: String
+    github: GitHub
     npm: String
     description: String
 }

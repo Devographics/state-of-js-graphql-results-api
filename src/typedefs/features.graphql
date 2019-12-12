@@ -21,5 +21,7 @@ type FeatureExperience @cacheControl(maxAge: 600) {
 
 type Feature @cacheControl(maxAge: 600) {
     id: FeatureID!
+    name: String
+    mdn: MDN
     experience: FeatureExperience
 }

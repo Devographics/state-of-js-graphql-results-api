@@ -7,6 +7,7 @@ import OtherTools from './resolvers/othertools.mjs'
 import Query from './resolvers/query.mjs'
 import Resources from './resolvers/resources.mjs'
 import Tool from './resolvers/tool.mjs'
+import Entity from './resolvers/entity.mjs'
 
 export default {
     ...Surveys,
@@ -14,6 +15,7 @@ export default {
     ...Tool,
     ...Feature,
     ...Category,
+    Entity,
     Opinion,
     OtherTools,
     Resources,

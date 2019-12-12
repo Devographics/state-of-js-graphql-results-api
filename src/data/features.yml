@@ -1,0 +1,185 @@
+#  CSS
+- id: css-grid
+  name: Grid
+  mdn: /en-US/docs/Web/CSS/CSS_Grid_Layout
+  caniuse: css-grid
+  aliases: 
+    - foo
+- id: flexbox
+  name: Flexbox
+  mdn: /en-US/docs/Web/CSS/CSS_Flexible_Box_Layout
+  caniuse: flexbox
+- id: css-multi-column
+  name: Multi-Column Layout
+  mdn: /en-US/docs/Web/CSS/CSS_Columns
+  caniuse: multicolumn
+- id: css-writing-modes
+  name: Writing Modes
+  mdn: /en-US/docs/Web/CSS/CSS_Writing_Modes
+  caniuse: css-writing-mode
+- id: css-exclusions
+  name: Exclusions
+  caniuse: css-exclusions
+- id: css-shapes
+  name: Shapes
+  mdn: /en-US/docs/Web/CSS/CSS_Shapes
+  caniuse: css-shapes
+- id: object-fit
+  name: object-fit
+  mdn: /en-US/docs/Web/CSS/object-fit
+  caniuse: object-fit
+- id: clip-path
+  name: clip-path
+  mdn: /en-US/docs/Web/CSS/clip-path
+  caniuse: css-clip-path
+- id: blend-modes
+  name: blend-mode
+  mdn: /en-US/docs/Web/CSS/blend-mode
+  caniuse: css-mixblendmode
+- id: css-filter-effects
+  name: Filters & Effects
+  mdn: /en-US/docs/Web/CSS/filter
+  caniuse: css-filters
+- id: css-masks
+  name: Masking
+  mdn: /en-US/docs/Web/CSS/CSS_Masking
+  caniuse: css-masks
+- id: css-scroll-snap
+  name: Scroll Snap
+  mdn: /en-US/docs/Web/CSS/CSS_Scroll_Snap
+  caniuse: css-snappoints
+- id: overscroll-behavior
+  name: overscroll-behavior
+  mdn: /en-US/docs/Web/CSS/overscroll-behavior
+  caniuse: css-overscroll-behavior
+- id: overflow-anchor
+  name: overflow-anchor
+  mdn: /en-US/docs/Web/CSS/overflow-anchor
+  caniuse: css-overflow-anchor
+- id: web-fonts-font-face
+  name: |
+      @font-face
+  mdn: /en-US/docs/Web/CSS/@font-face
+  caniuse: fontface
+- id: variable-fonts
+  name: Variable Fonts
+  mdn: /en-US/docs/Web/CSS/CSS_Fonts/Variable_Fonts_Guide
+  caniuse: variable-fonts
+- id: line-breaking-properties
+  name: Line Breaking Properties
+  mdn: /en-US/docs/Web/CSS/line-break
+- id: font-variant
+  name: font-variant
+  mdn: /en-US/docs/Web/CSS/font-variant
+  caniuse: font-variant-alternates
+- id: initial-letter
+  name: initial-letter
+  mdn: /en-US/docs/Web/CSS/initial-letter
+  caniuse: css-initial-letter
+- id: css-transitions
+  name: Transitions
+  mdn: /en-US/docs/Web/CSS/CSS_Transitions
+  caniuse: css-transitions
+- id: css-transforms
+  name: Transforms
+  mdn: /en-US/docs/Web/CSS/CSS_Transforms
+  caniuse: transforms2d
+- id: css-animations
+  name: Animations
+  mdn: /en-US/docs/Web/CSS/CSS_Animations
+  caniuse: css-animation
+- id: css-variables
+  name: Variables
+  mdn: /en-US/docs/Web/CSS/CSS_Variables
+  caniuse: css-variables
+- id: support-queries
+  name: '@supports'
+  mdn: /en-US/docs/Web/CSS/@supports
+  caniuse: css-supports-api
+- id: css-containment
+  name: Contain
+  mdn: /en-US/docs/Web/CSS/contain
+- id: will-change
+  name: will-change
+  mdn: /en-US/docs/Web/CSS/will-change
+  caniuse: will-change
+- id: calc
+  name: calc()
+  mdn: /en-US/docs/Web/CSS/calc
+  caniuse: calc
+# JS
+- id: destructuring
+  name: Destructuring
+  mdn: /en-US/docs/Web/JavaScript/Reference/Operators/Destructuring_assignment
+- id: spread_operator
+  name: Spread Operator
+  mdn: /en-US/docs/Web/JavaScript/Reference/Operators/Spread_syntax
+- id: arrow_functions
+  name: Arrow Functions
+  mdn: /en-US/docs/Web/JavaScript/Reference/Functions/Arrow_functions
+- id: proxies
+  name: Proxies
+  mdn: /en-US/docs/Web/JavaScript/Reference/Global_Objects/Proxy
+- id: async_await
+  name: Async/Await
+  mdn: /en-US/docs/Web/JavaScript/Reference/Statements/async_function
+- id: promises
+  name: Promises
+  mdn: /en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise
+- id: decorators
+  name: Decorators
+  # mdn: 
+- id: maps
+  name: Maps
+  mdn: /en-US/docs/Web/JavaScript/Reference/Global_Objects/Map
+- id: sets
+  name: Sets
+  mdn: /en-US/docs/Web/JavaScript/Reference/Global_Objects/Set
+- id: typed_arrays
+  name: Typed Arrays
+  mdn: /en-US/docs/Web/JavaScript/Typed_arrays
+- id: array_prototype_flat
+  name: Array.prototype.flat()
+  mdn: /en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/flat
+- id: fetch
+  name: Fetch
+  mdn: /en-US/docs/Web/API/Fetch_API/Using_Fetch
+- id: i18n
+  name: i18n
+  mdn: /en-US/docs/Web/JavaScript/Reference/Global_Objects/Intl
+- id: local_storage
+  name: Local Storage
+  mdn: /en-US/docs/Web/API/Window/localStorage
+- id: service_workers
+  name: Service Workers
+  mdn: /en-US/docs/Web/API/Service_Worker_API
+- id: web_animations
+  name: Web Animations
+  mdn: /en-US/docs/Web/API/Web_Animations_API/Using_the_Web_Animations_API
+- id: web_audio
+  name: Web Audio
+  mdn: /en-US/docs/Web/API/Web_Audio_API
+- id: web_components
+  name: Web Components
+  mdn: /en-US/docs/Web/Web_Components
+- id: webgl
+  name: WebGL
+  mdn: /en-US/docs/Web/API/WebGL_API/Tutorial/Getting_started_with_WebGL
+- id: webrtc
+  name: WebRTC
+  mdn: /en-US/docs/Web/API/WebRTC_API
+- id: websocket
+  name: WebSocket
+  mdn: /en-US/docs/Web/API/WebSockets_API
+- id: web_speech
+  name: Web Speech API
+  mdn: /en-US/docs/Web/API/Web_Speech_API
+- id: webvr
+  name: WebVR
+  mdn: /en-US/docs/Web/API/WebVR_API
+- id: pwa
+  name: Progressive Web Apps
+  mdn: /en-US/docs/Web/Progressive_web_apps
+- id: wasm
+  name: WebAssembly (WASM)
+  mdn: /en-US/docs/WebAssembly
