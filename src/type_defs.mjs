@@ -43,6 +43,7 @@ ${loadGraphQL('opinions')}
 ${loadGraphQL('othertools')}
 ${loadGraphQL('resources')}
 ${loadGraphQL('tools')}
+${loadGraphQL('matrices')}
 ${loadGraphQL('schema')}
 `
 

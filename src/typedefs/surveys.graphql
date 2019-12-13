@@ -14,4 +14,6 @@ type Survey @cacheControl(maxAge: 600) {
     resources(id: ResourcesID!): Resources
     entity(id: ID!): Entity
     category(id: CategoryID!): Category
+    matrices: Matrices
 }
+

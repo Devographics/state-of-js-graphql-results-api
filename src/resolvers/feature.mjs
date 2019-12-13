@@ -4,6 +4,17 @@ import { loadYaml } from '../helpers.mjs'
 
 const features = loadYaml('./src/data/features.yml')
 
+const getSimulatedMDN = () => {
+    return [
+        {
+            locale: 'en-US',
+            url: 'https://foo.bar',
+            title: 'Foo',
+            summary: 'Summary foo bar'
+        }
+    ]
+}
+
 export default {
     FeatureExperience: {
         allYears: async (feature, args, context, info) => {
@@ -24,7 +35,8 @@ export default {
             if (!featureObject || !featureObject.mdn) {
                 return
             }
-            const mdn = await fetchMdnResource(featureObject.mdn)
+            const mdn = getSimulatedMDN()
+            // const mdn = await fetchMdnResource(featureObject.mdn)
             return mdn.find(t => t.locale === 'en-US')
         }
     }

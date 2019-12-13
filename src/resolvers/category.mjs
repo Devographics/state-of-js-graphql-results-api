@@ -1,16 +1,5 @@
 import { computeHappinessByYear, computeToolsExperience } from '../analysis/index.mjs'
-import { loadYaml, getSurveyConfig } from '../helpers.mjs'
-
-const getMockData = category => {
-    const mockData = loadYaml(`./src/mocks/${category}Heatmap.yml`)
-    mockData.forEach(year => {
-        year.buckets = year.buckets.map(tool => ({
-            entity: getEntity(tool),
-            ...tool
-        }))
-    })
-    return mockData
-}
+import { getSurveyConfig } from '../helpers.mjs'
 
 export const getCategoryTools = category => {
     const survey = getSurveyConfig(category.survey.survey, category.survey.year)
@@ -55,14 +44,14 @@ export default {
             return allYears.find(yearItem => yearItem.year === args.year)
         }
     },
-    CategoryHeatmap: {
-        allYears: async (category, args, context, info) => {
-            return getMockData(category.id)
-        },
-        year: async (category, { year }, context, info) => {
-            const allYears = await computeExperienceOverYears(context.db, category.id)
-
-            return getMockData().find(y => y.year === year)
-        }
-    }
+    // CategoryHeatmap: {
+    //     allYears: async (category, args, context, info) => {
+    //         return getMockData(category.id)
+    //     },
+    //     year: async (category, { year }, context, info) => {
+    //         console.log(category)
+    //         // const allYears = await computeExperienceOverYears(context.db, category.id)
+    //         return getMockData(category.id).find(y => y.year === year)
+    //     }
+    // }
 }

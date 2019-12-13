@@ -1,0 +1,38 @@
+
+"""
+Matrices (Heatmaps)
+"""
+
+type MatriceRange @cacheControl(maxAge: 600) {
+    range: String
+    count: Int
+    percentage: Float
+}
+
+type MatriceBucket @cacheControl(maxAge: 600) {
+    id: String
+    total: Int
+    average: Float
+    ranges: [MatriceRange]
+}
+
+type YearMatrice @cacheControl(maxAge: 600) {
+    year: Int
+    buckets: [MatriceBucket] @cacheControl(maxAge: 600)
+}
+
+type Matrice @cacheControl(maxAge: 600) {
+    # allYears: [YearMatrice] @cacheControl(maxAge: 600)
+    year(year: Int!): YearMatrice
+}
+
+type MatriceType @cacheControl(maxAge: 600) {
+    workExperience: Matrice
+    salary: Matrice
+    companySize: Matrice
+}
+
+type Matrices @cacheControl(maxAge: 600) {
+  tools(ids: [ToolID]): MatriceType
+  features(ids: [FeatureID]): MatriceType
+}
