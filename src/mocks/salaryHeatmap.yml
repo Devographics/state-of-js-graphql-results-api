@@ -4,149 +4,149 @@
         total: 13062
         average: 73.6
         ranges:
-            - range: 50-100
+            - range: "50_100"
               count: 4055
               percentage: 31
-            - range: 100-200
+            - range: "100_200"
               count: 2986
               percentage: 22.9
-            - range: 30-50
+            - range: "30_50"
               count: 2159
               percentage: 16.5
-            - range: 10-30
+            - range: "10_30"
               count: 1781
               percentage: 13.6
-            - range: 0-10
+            - range: "0_10"
               count: 808
               percentage: 6.2
-            - range: work-for-free
+            - range: work_for_free
               count: 589
               percentage: 4.5
-            - range: more-than-200
+            - range: more_than_200
               count: 335
               percentage: 2.6
       - id: angular
         total: 4817
         average: 66.6
         ranges:
-            - range: 50-100
+            - range: "50_100"
               count: 1397
               percentage: 29
-            - range: 100-200
+            - range: "100_200"
               count: 913
               percentage: 19
-            - range: 30-50
+            - range: "30_50"
               count: 913
               percentage: 19
-            - range: 10-30
+            - range: "10_30"
               count: 792
               percentage: 16.4
-            - range: 0-10
+            - range: "0_10"
               count: 374
               percentage: 7.8
-            - range: work-for-free
+            - range: work_for_free
               count: 182
               percentage: 3.8
-            - range: more-than-200
+            - range: more_than_200
               count: 100
               percentage: 2.1
       - id: ember
         total: 1013
         average: 94
         ranges:
-            - range: 100-200
+            - range: "100_200"
               count: 367
               percentage: 36.2
-            - range: 50-100
+            - range: "50_100"
               count: 317
               percentage: 31.3
-            - range: 30-50
+            - range: "30_50"
               count: 128
               percentage: 12.6
-            - range: 10-30
+            - range: "10_30"
               count: 68
               percentage: 6.7
-            - range: 0-10
+            - range: "0_10"
               count: 42
               percentage: 4.1
-            - range: more-than-200
+            - range: more_than_200
               count: 39
               percentage: 3.8
-            - range: work-for-free
+            - range: work_for_free
               count: 20
               percentage: 2
       - id: polymer
         total: 635
         average: 82.8
         ranges:
-            - range: 50-100
+            - range: "50_100"
               count: 197
               percentage: 31
-            - range: 100-200
+            - range: "100_200"
               count: 175
               percentage: 27.6
-            - range: 30-50
+            - range: "30_50"
               count: 101
               percentage: 15.9
-            - range: 10-30
+            - range: "10_30"
               count: 71
               percentage: 11.2
-            - range: work-for-free
+            - range: work_for_free
               count: 30
               percentage: 4.7
-            - range: more-than-200
+            - range: more_than_200
               count: 24
               percentage: 3.8
-            - range: 0-10
+            - range: "0_10"
               count: 22
               percentage: 3.5
       - id: vuejs
         total: 5810
         average: 62.4
         ranges:
-            - range: 50-100
+            - range: "50_100"
               count: 1685
               percentage: 29
-            - range: 30-50
+            - range: "30_50"
               count: 1104
               percentage: 19
-            - range: 10-30
+            - range: "10_30"
               count: 992
               percentage: 17.1
-            - range: 100-200
+            - range: "100_200"
               count: 989
               percentage: 17
-            - range: 0-10
+            - range: "0_10"
               count: 473
               percentage: 8.1
-            - range: work-for-free
+            - range: work_for_free
               count: 327
               percentage: 5.6
-            - range: more-than-200
+            - range: more_than_200
               count: 86
               percentage: 1.5
       - id: preact
         total: 1251
         average: 79.9
         ranges:
-            - range: 50-100
+            - range: "50_100"
               count: 444
               percentage: 35.5
-            - range: 100-200
+            - range: "100_200"
               count: 314
               percentage: 25.1
-            - range: 30-50
+            - range: "30_50"
               count: 191
               percentage: 15.3
-            - range: 10-30
+            - range: "10_30"
               count: 124
               percentage: 9.9
-            - range: work-for-free
+            - range: work_for_free
               count: 60
               percentage: 4.8
-            - range: 0-10
+            - range: "0_10"
               count: 48
               percentage: 3.8
-            - range: more-than-200
+            - range: more_than_200
               count: 37
               percentage: 3

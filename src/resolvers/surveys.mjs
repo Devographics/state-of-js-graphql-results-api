@@ -88,51 +88,8 @@ export default {
             }
         },
         matrices: async (survey, { id }, context, info) => {
-            console.log('// matrices')
             return {
-                survey,
-            }
-            return {
-                tools: {
-                    workExperience: {
-                        type: 'tools',
-                        subType: 'workExperience',
-                        survey,
-                        id
-                    },
-                    companySize: {
-                        type: 'tools',
-                        subType: 'companySize',
-                        survey,
-                        id
-                    },
-                    salary: {
-                        type: 'tools',
-                        subType: 'salary',
-                        survey,
-                        id
-                    }
-                },
-                features: {
-                    workExperience: {
-                        type: 'features',
-                        subType: 'workExperience',
-                        survey,
-                        id
-                    },
-                    companySize: {
-                        type: 'features',
-                        subType: 'companySize',
-                        survey,
-                        id
-                    },
-                    salary: {
-                        type: 'features',
-                        subType: 'salary',
-                        survey,
-                        id
-                    }
-                }
+                survey
             }
         },
         category: async (survey, { id }, context, info) => {
@@ -147,7 +104,7 @@ export default {
                 happiness: {
                     survey,
                     id
-                },
+                }
             }
         }
     }

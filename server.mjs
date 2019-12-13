@@ -9,10 +9,13 @@ import typeDefs from './src/type_defs.mjs'
 import resolvers from './src/resolvers.mjs'
 
 const startServer = async () => {
+    console.log('// startServer…')
+    console.log(process.env.MONGO_URI)
+    console.log(process.env.MONGO_DB_NAME)
     const mongoClient = new MongoClient(process.env.MONGO_URI, {
         useNewUrlParser: true,
         useUnifiedTopology: true,
-        connectTimeoutMS: 1000
+        connectTimeoutMS: 10000
     })
     await mongoClient.connect()
     const db = mongoClient.db(process.env.MONGO_DB_NAME)

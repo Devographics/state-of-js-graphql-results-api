@@ -4,81 +4,81 @@
         total: 13062
         average: 409
         ranges:
-            - range: 100-1000
+            - range: "100_1000"
               count: 2851
               percentage: 21.8
-            - range: more-than-1000
+            - range: more_than_1000
               count: 2379
               percentage: 18.2
-            - range: 20-50
+            - range: "20_50"
               count: 1771
               percentage: 13.6
-            - range: 50-100
+            - range: "50_100"
               count: 1577
               percentage: 12.1
-            - range: 10-20
+            - range: "10_20"
               count: 1248
               percentage: 9.6
             - range: '1'
               count: 1119
               percentage: 8.6
-            - range: 5-10
+            - range: "5_10"
               count: 1022
               percentage: 7.8
-            - range: 1-5
+            - range: "1_5"
               count: 981
               percentage: 7.5
       - id: angular
         total: 4817
         average: 454
         ranges:
-            - range: 100-1000
+            - range: "100_1000"
               count: 1100
               percentage: 22.8
-            - range: more-than-1000
+            - range: more_than_1000
               count: 1005
               percentage: 20.9
-            - range: 20-50
+            - range: "20_50"
               count: 622
               percentage: 12.9
-            - range: 50-100
+            - range: "50_100"
               count: 573
               percentage: 11.9
-            - range: 10-20
+            - range: "10_20"
               count: 448
               percentage: 9.3
             - range: '1'
               count: 361
               percentage: 7.5
-            - range: 5-10
+            - range: "5_10"
               count: 341
               percentage: 7.1
-            - range: 1-5
+            - range: "1_5"
               count: 329
               percentage: 6.8
       - id: ember
         total: 1013
         average: 356
         ranges:
-            - range: 100-1000
+            - range: "100_1000"
               count: 204
               percentage: 20.1
-            - range: more-than-1000
+            - range: more_than_1000
               count: 153
               percentage: 15.1
-            - range: 20-50
+            - range: "20_50"
               count: 151
               percentage: 14.9
-            - range: 50-100
+            - range: "50_100"
               count: 144
               percentage: 14.2
-            - range: 5-10
+            - range: "5_10"
               count: 119
               percentage: 11.7
-            - range: 1-5
+            - range: "1_5"
               count: 92
               percentage: 9.1
-            - range: 10-20
+            - range: "10_20"
               count: 87
               percentage: 8.6
             - range: '1'
@@ -88,83 +88,83 @@
         total: 635
         average: 514
         ranges:
-            - range: more-than-1000
+            - range: more_than_1000
               count: 162
               percentage: 25.5
-            - range: 100-1000
+            - range: "100_1000"
               count: 135
               percentage: 21.3
-            - range: 20-50
+            - range: "20_50"
               count: 72
               percentage: 11.3
-            - range: 50-100
+            - range: "50_100"
               count: 72
               percentage: 11.3
             - range: '1'
               count: 61
               percentage: 9.6
-            - range: 10-20
+            - range: "10_20"
               count: 46
               percentage: 7.2
-            - range: 1-5
+            - range: "1_5"
               count: 46
               percentage: 7.2
-            - range: 5-10
+            - range: "5_10"
               count: 34
               percentage: 5.4
       - id: vuejs
         total: 5810
         average: 320
         ranges:
-            - range: 100-1000
+            - range: "100_1000"
               count: 1075
               percentage: 18.5
-            - range: 20-50
+            - range: "20_50"
               count: 837
               percentage: 14.4
             - range: more-than-1000
               count: 780
               percentage: 13.4
-            - range: 50-100
+            - range: "50_100"
               count: 672
               percentage: 11.6
-            - range: 10-20
+            - range: "10_20"
               count: 657
               percentage: 11.3
             - range: '1'
               count: 620
               percentage: 10.7
-            - range: 1-5
+            - range: "1_5"
               count: 584
               percentage: 10.1
-            - range: 5-10
+            - range: "5_10"
               count: 540
               percentage: 9.3
       - id: preact
         total: 1251
         average: 416
         ranges:
-            - range: 100-1000
+            - range: "100_1000"
               count: 281
               percentage: 22.5
-            - range: more-than-1000
+            - range: more_than_1000
               count: 231
               percentage: 18.5
-            - range: 20-50
+            - range: "20_50"
               count: 172
               percentage: 13.7
-            - range: 50-100
+            - range: "50_100"
               count: 141
               percentage: 11.3
-            - range: 10-20
+            - range: "10_20"
               count: 131
               percentage: 10.5
             - range: '1'
               count: 110
               percentage: 8.8
-            - range: 5-10
+            - range: "5_10"
               count: 100
               percentage: 8
-            - range: 1-5
+            - range: "1_5"
               count: 74
               percentage: 5.9
