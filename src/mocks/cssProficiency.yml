@@ -4,23 +4,23 @@
       count: 123
       percentage: 99
   buckets:
-      - id: lvl1_no_knowledge
+      - id: 0
         count: 234
         percentage: 12
 
-      - id: lvl2_css_frameworks
+      - id: 1
         count: 345
         percentage: 89
 
-      - id: lvl3_specificity_rules
+      - id: 2
         count: 234
         percentage: 34
 
-      - id: lvl4_animations_interactions
+      - id: 3
         count: 123
         percentage: 45
 
-      - id: lvl5_entire_frontend
+      - id: 4
         count: 567
         percentage: 56
 
@@ -30,23 +30,23 @@
       count: 123
       percentage: 99
   buckets:
-      - id: lvl1_no_knowledge
+      - id: 0
         count: 234
         percentage: 12
 
-      - id: lvl2_css_frameworks
+      - id: 1
         count: 345
         percentage: 89
 
-      - id: lvl3_specificity_rules
+      - id: 2
         count: 234
         percentage: 34
 
-      - id: lvl4_animations_interactions
+      - id: 3
         count: 123
         percentage: 45
 
-      - id: lvl5_entire_frontend
+      - id: 4
         count: 567
         percentage: 56
 
@@ -56,22 +56,22 @@
       count: 123
       percentage: 99
   buckets:
-      - id: lvl1_no_knowledge
+      - id: 0
         count: 234
         percentage: 12
 
-      - id: lvl2_css_frameworks
+      - id: 1
         count: 345
         percentage: 89
 
-      - id: lvl3_specificity_rules
+      - id: 2
         count: 234
         percentage: 34
 
-      - id: lvl4_animations_interactions
+      - id: 3
         count: 123
         percentage: 45
 
-      - id: lvl5_entire_frontend
+      - id: 4
         count: 567
         percentage: 56

@@ -178,7 +178,7 @@ type JobTitle @cacheControl(maxAge: 600) {
 Proficiency Level
 """
 type ProficiencyBucket @cacheControl(maxAge: 600) {
-    id: String
+    id: Int
     count: Int
     percentage: Float
 }
