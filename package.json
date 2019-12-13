@@ -19,5 +19,8 @@
   "scripts": {
     "start": "node server.mjs",
     "fmt": "prettier --write \"src/**/*.{js,mjs,yml}\""
+  },
+  "engines": {
+    "node": "12.12.0"
   }
 }
