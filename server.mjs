@@ -9,9 +9,6 @@ import typeDefs from './src/type_defs.mjs'
 import resolvers from './src/resolvers.mjs'
 
 const startServer = async () => {
-    console.log('// startServer…')
-    console.log(process.env.MONGO_URI)
-    console.log(process.env.MONGO_DB_NAME)
     const mongoClient = new MongoClient(process.env.MONGO_URI, {
         useNewUrlParser: true,
         useUnifiedTopology: true,
@@ -38,7 +35,8 @@ const startServer = async () => {
         }
     })
 
-    server.listen().then(({ url }) => {
+    // see https://stackoverflow.com/a/15693371/649299
+    server.listen(process.env.PORT || 4000).then(({ url }) => {
         console.log(`🚀  Server ready at ${url}`)
     })
 }
