@@ -21,6 +21,6 @@
     "fmt": "prettier --write \"src/**/*.{js,mjs,yml}\""
   },
   "engines": {
-    "node": "12.12.0"
+    "node": "13.2.0"
   }
 }
