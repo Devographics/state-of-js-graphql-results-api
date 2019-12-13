@@ -22,6 +22,8 @@ const startServer = async () => {
         resolvers,
         tracing: true,
         cacheControl: true,
+        introspection: true,
+        playground: true,
         plugins: [
             responseCachePlugin(),
         ],
