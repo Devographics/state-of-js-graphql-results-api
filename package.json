@@ -17,6 +17,7 @@
     "prettier": "^1.19.1"
   },
   "scripts": {
+    "start": "node server.mjs",
     "fmt": "prettier --write \"src/**/*.{js,mjs,yml}\""
   }
 }
