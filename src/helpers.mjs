@@ -33,6 +33,7 @@ export const getEntity = ({ id }) => {
     const entity = allEntities.find(e => {
         return (
             (e.id && e.id.toLowerCase() === lowerCaseId) ||
+            (e.id && e.id.toLowerCase().replace(/\-/g, '_') === lowerCaseId) ||
             (e.name && e.name.toLowerCase() === lowerCaseId) ||
             (e.aliases && e.aliases.find(a => a.toLowerCase() === lowerCaseId))
         )

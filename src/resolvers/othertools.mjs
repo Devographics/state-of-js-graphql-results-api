@@ -1,22 +1,15 @@
-import { loadYaml, getEntity } from '../helpers.mjs'
 import { getCachedResult } from '../caching.mjs'
-
-const getMockData = () => {
-    const mockData = loadYaml('./src/mocks/otherTools.yml')
-    mockData.forEach(year => {
-        year.buckets = year.buckets.map(tool => ({
-            entity: getEntity(tool),
-            ...tool
-        }))
-    })
-    return mockData
-}
+import { computeEntityUsage } from '../analysis/index.mjs'
 
 export default {
-    allYears: async (opinion, args, context, info) => {
-        return getMockData()
+    allYears: async (parent, args, context, info) => {
+        const sectionKey = parent.id.replace('_others', '')
+        const allYears = await getCachedResult(computeEntityUsage, context.db, [`other_tools.${sectionKey}.others_normalized`])
+        return allYears
     },
-    year: async (opinion, args, context, info) => {
-        return getMockData().find(yearItem => yearItem.year === args.year)
+    year: async (parent, args, context, info) => {
+        const sectionKey = parent.id.replace('_others', '')
+        const allYears = await getCachedResult(computeEntityUsage, context.db, [`other_tools.${sectionKey}.others_normalized`])
+        return allYears.find(y => y.year === args.year)
     }
 }

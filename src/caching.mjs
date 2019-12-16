@@ -3,14 +3,12 @@ export const computeKey = (func, args) => {
     return `${func.name}_${serializedArgs}`
 }
 
-export const getCachedResult = async (func, db, args) => {
-    console.log('// getCachedResult')
-
+export const getCachedResult = async (func, db, args, enableCache = true) => {
     const key = computeKey(func, args)
     try {
         const collection = db.collection('cached_results')
         const existingResult = await collection.findOne({ key })
-        if (existingResult) {
+        if (enableCache && existingResult) {
             console.log(`// Returning existing result for ${key}`)
             return existingResult.value
         } else {
