@@ -104,6 +104,10 @@ export default {
                 happiness: {
                     survey,
                     id
+                },
+                otherTools: {
+                    survey,
+                    id
                 }
             }
         }

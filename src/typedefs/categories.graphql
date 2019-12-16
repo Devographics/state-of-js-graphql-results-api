@@ -29,12 +29,8 @@ type CategoryHappiness @cacheControl(maxAge: 600) {
 }
 
 """
-Category
+Tools
 """
-type Category @cacheControl(maxAge: 600) {
-    happiness: CategoryHappiness
-    tools: CategoryTools
-}
 
 type YearCategoryToolsExperienceToolBucket @cacheControl(maxAge: 600) {
     id: String
@@ -55,4 +51,23 @@ type YearCategoryToolsExperience @cacheControl(maxAge: 600) {
 type CategoryTools @cacheControl(maxAge: 600) {
     tools: [ToolID] @cacheControl(maxAge: 600)
     experience(year: Int): YearCategoryToolsExperience
+}
+
+"""
+Other Tools
+"""
+
+type CategoryOtherTools @cacheControl(maxAge: 600) {
+    id: CategoryID!
+    allYears: [YearOtherTools] @cacheControl(maxAge: 600)
+    year(year: Int!): YearOtherTools
+}
+
+"""
+Category
+"""
+type Category @cacheControl(maxAge: 600) {
+    happiness: CategoryHappiness
+    tools: CategoryTools
+    otherTools: CategoryOtherTools
 }
