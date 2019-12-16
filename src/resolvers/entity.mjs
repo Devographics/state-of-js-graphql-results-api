@@ -12,7 +12,7 @@ const getSimulatedGithub = id => {
         description,
         url: `https://github.com/${github}`,
         stars,
-        homepage,
+        homepage
     }
 }
 

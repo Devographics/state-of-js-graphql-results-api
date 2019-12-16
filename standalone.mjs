@@ -17,6 +17,7 @@ import {
     computeHappinessByYear,
     computeToolsExperience,
     computeToolsExperienceRanking,
+    computeToolsMatrix,
 } from './src/analysis/index.mjs'
 
 const run = async () => {
@@ -28,7 +29,7 @@ const run = async () => {
     await mongoClient.connect()
     const db = mongoClient.db(process.env.MONGO_DB_NAME)
 
-    const res = await computeToolsExperienceRanking(db, [
+    const res = await computeToolsMatrix(db, [
         'jest',
         'mocha',
         'storybook',
@@ -37,7 +38,7 @@ const run = async () => {
         'ava',
         'jasmine',
         'puppeteer'
-    ], { survey: 'js', year: 2019 })
+    ], 'would_use', 'company_size', 2019, { survey: 'js', year: 2019 })
     console.log(util.inspect(res, { depth: null, colors: true }))
 
     await mongoClient.close()

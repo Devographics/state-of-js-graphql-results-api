@@ -65,8 +65,7 @@ export default {
     },
     CategoryHappiness: {
         allYears: async (happiness, args, context, info) => {
-            return await getCachedResult(computeHappinessByYear, context.db,[
-                
+            return await getCachedResult(computeHappinessByYear, context.db, [
                 happiness.id,
                 happiness.survey
             ])

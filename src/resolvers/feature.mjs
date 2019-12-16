@@ -19,10 +19,16 @@ const getSimulatedMDN = () => {
 export default {
     FeatureExperience: {
         allYears: async (feature, args, context, info) => {
-            return getCachedResult(computeFeatureUsageByYear, context.db, [feature.id, feature.survey])
+            return getCachedResult(computeFeatureUsageByYear, context.db, [
+                feature.id,
+                feature.survey
+            ])
         },
         year: async (feature, { year }, context, info) => {
-            const allYears = await getCachedResult(computeFeatureUsageByYear, context.db, [feature.id, feature.survey])
+            const allYears = await getCachedResult(computeFeatureUsageByYear, context.db, [
+                feature.id,
+                feature.survey
+            ])
             return allYears.find(y => y.year === year)
         }
     },

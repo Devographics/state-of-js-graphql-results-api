@@ -1,6 +1,5 @@
 import _ from 'lodash'
 import { ratioToPercentage, appendCompletionToYearlyResults } from './common.mjs'
-import util from 'util'
 
 const computeAwareness = (buckets, total) => {
     const neverHeard = buckets.find(bucket => bucket.id === 'never_heard')

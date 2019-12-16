@@ -3,8 +3,8 @@
   name: Grid
   mdn: /en-US/docs/Web/CSS/CSS_Grid_Layout
   caniuse: css-grid
-  aliases: 
-    - foo
+  aliases:
+      - foo
 - id: flexbox
   name: Flexbox
   mdn: /en-US/docs/Web/CSS/CSS_Flexible_Box_Layout
@@ -128,7 +128,7 @@
   mdn: /en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise
 - id: decorators
   name: Decorators
-  # mdn: 
+  # mdn:
 - id: maps
   name: Maps
   mdn: /en-US/docs/Web/JavaScript/Reference/Global_Objects/Map

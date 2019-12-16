@@ -16,7 +16,7 @@ export const normalizeGithubResource = res => {
 export const fetchGithubResource = async ownerAndRepo => {
     try {
         const res = await fetch(`https://api.github.com/repos/${ownerAndRepo}`, {
-            headers: { 'Authorization': `token ${process.env.GITHUB_TOKEN}` }
+            headers: { Authorization: `token ${process.env.GITHUB_TOKEN}` }
         })
         const json = await res.json()
         const data = normalizeGithubResource(json)

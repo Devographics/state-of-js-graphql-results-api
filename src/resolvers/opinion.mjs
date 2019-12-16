@@ -7,7 +7,10 @@ export default {
         // return computeOpinionByYear(context.db, opinion.id, opinion.survey)
     },
     year: async (opinion, args, context, info) => {
-        const allYears = await getCachedResult(computeOpinionByYear, context.db, [opinion.id, opinion.survey])
+        const allYears = await getCachedResult(computeOpinionByYear, context.db, [
+            opinion.id,
+            opinion.survey
+        ])
         // const allYears = await computeOpinionByYear(context.db, opinion.id, opinion.survey)
 
         return allYears.find(yearItem => yearItem.year === args.year)
