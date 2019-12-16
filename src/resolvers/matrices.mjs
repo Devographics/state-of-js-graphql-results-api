@@ -1,5 +1,6 @@
 import { loadYaml, getEntity } from '../helpers.mjs'
 import { getCachedResult } from '../caching.mjs'
+import { computeToolsMatrix } from '../analysis/index.mjs'
 
 const getMockData = (type, subType, ids, year) => {
     const mockData = loadYaml(`./src/mocks/${subType}Heatmap.yml`)
@@ -23,17 +24,33 @@ export default {
     },
     MatriceType: {
         workExperience: async (parent, args, context, info) => {
-            return { ...parent, subType: 'workExperience' }
+            return { ...parent, subType: 'years_of_experience' }
         },
         salary: async (parent, args, context, info) => {
-            return { ...parent, subType: 'salary' }
+            return { ...parent, subType: 'yearly_salary' }
         },
         companySize: async (parent, args, context, info) => {
-            return { ...parent, subType: 'companySize' }
+            return { ...parent, subType: 'company_size' }
         }
     },
     Matrice: {
         year: async (parent, { year }, context, info) => {
+            if (parent.type === 'tools') {
+                const matrix = await computeToolsMatrix(
+                    context.db,
+                    parent.ids,
+                    'would_use',
+                    parent.subType,
+                    year,
+                    parent.survey
+                )
+
+                return {
+                    year,
+                    buckets: matrix
+                }
+            }
+
             const { type, subType, ids } = parent
             return getMockData(type, subType, ids, year)
         }

@@ -1,5 +1,6 @@
 import { ratioToPercentage } from './common.mjs'
 import _ from 'lodash'
+import util from 'util'
 
 export const computeToolMatrixBreakdown = async (
     db,
@@ -13,8 +14,6 @@ export const computeToolMatrixBreakdown = async (
 
     const toolPath = `tools.${tool}.experience`
     const breakdownPath = `user_info.${matrixType}`
-
-    console.log(toolPath, breakdownPath)
 
     const results = await collection
         .aggregate([
@@ -39,7 +38,7 @@ export const computeToolMatrixBreakdown = async (
             {
                 $project: {
                     _id: 0,
-                    id: '$_id.breakdown',
+                    range: '$_id.breakdown',
                     count: 1
                 }
             }
@@ -52,23 +51,22 @@ export const computeToolMatrixBreakdown = async (
         bucket.percentage = ratioToPercentage(bucket.count / total)
     })
 
-    return results
+    return {
+        id: tool,
+        total,
+        ranges: results
+    }
 }
 
 export const computeToolsMatrix = async (db, tools, experienceFilter, matrixType, year, survey) => {
-    console.log({
-        tools,
-        experienceFilter,
-        matrixType,
-        survey
-    })
-
     const allTools = []
     for (const tool of tools) {
         allTools.push(
             await computeToolMatrixBreakdown(db, tool, experienceFilter, matrixType, year, survey)
         )
     }
+
+    // console.log(util.inspect(allTools, { depth: null, colors: true }))
 
     return allTools
 }

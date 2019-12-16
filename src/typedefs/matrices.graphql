@@ -33,6 +33,6 @@ type MatriceType @cacheControl(maxAge: 600) {
 }
 
 type Matrices @cacheControl(maxAge: 600) {
-  tools(ids: [ToolID]): MatriceType
-  features(ids: [FeatureID]): MatriceType
+    tools(ids: [ToolID]): MatriceType
+    features(ids: [FeatureID]): MatriceType
 }
