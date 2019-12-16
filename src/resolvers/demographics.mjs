@@ -7,14 +7,16 @@ import {
 } from '../analysis/index.mjs'
 
 import { loadYaml } from '../helpers.mjs'
+import { getCachedResult } from '../caching.mjs'
 
 export default {
     Participation: {
         allYears: async (parent, args, context, info) => {
-            return computeParticipationByYear(context.db)
+            return await getCachedResult(computeParticipationByYear, context.db)
         },
         year: async (parent, args, context, info) => {
-            return [computeParticipationByYear(context.db)].find(y => y.year === args.year)
+            const allYears = await getCachedResult(computeParticipationByYear, context.db)
+            return allYears.find(y => y.year === args.year)
         }
     },
     Country: {
@@ -35,37 +37,38 @@ export default {
     },
     Gender: {
         allYears: async (parent, args, context, info) => {
-            return await computeGenderBreakdownByYear(context.db)
+            return await getCachedResult(computeGenderBreakdownByYear, context.db)
         },
         year: async (parent, args, context, info) => {
-            const allYears = await computeGenderBreakdownByYear(context.db)
+            const allYears = await getCachedResult(computeGenderBreakdownByYear, context.db)
             return allYears.find(y => y.year === args.year)
         }
     },
     Salary: {
         allYears: async (parent, args, context, info) => {
-            return await computeSalaryRangeByYear(context.db)
+            return await getCachedResult(computeSalaryRangeByYear, context.db)
         },
         year: async (parent, args, context, info) => {
-            const allYears = await computeSalaryRangeByYear(context.db)
+            console.log('salary.year')
+            const allYears = await getCachedResult(computeSalaryRangeByYear, context.db)
             return allYears.find(y => y.year === args.year)
         }
     },
     CompanySize: {
         allYears: async (parent, args, context, info) => {
-            return await computeCompanySizeByYear(context.db)
+            return await getCachedResult(computeCompanySizeByYear, context.db)
         },
         year: async (parent, args, context, info) => {
-            const allYears = await computeCompanySizeByYear(context.db)
+            const allYears = await getCachedResult(computeCompanySizeByYear, context.db)
             return allYears.find(y => y.year === args.year)
         }
     },
     WorkExperience: {
         allYears: async (parent, args, context, info) => {
-            return await computeYearsOfExperienceByYear(context.db)
+            return await getCachedResult(computeYearsOfExperienceByYear, context.db)
         },
         year: async (parent, args, context, info) => {
-            const allYears = await computeYearsOfExperienceByYear(context.db)
+            const allYears = await getCachedResult(computeYearsOfExperienceByYear, context.db)
             return allYears.find(y => y.year === args.year)
         }
     },

@@ -1,4 +1,5 @@
 import { loadYaml, getEntity } from '../helpers.mjs'
+import { getCachedResult } from '../caching.mjs'
 
 const getMockData = (type, subType, ids, year) => {
     const mockData = loadYaml(`./src/mocks/${subType}Heatmap.yml`)

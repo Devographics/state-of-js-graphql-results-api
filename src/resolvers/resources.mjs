@@ -1,4 +1,5 @@
 import { loadYaml, getEntity } from '../helpers.mjs'
+import { getCachedResult } from '../caching.mjs'
 
 const getMockData = () => {
     const mockData = loadYaml('./src/mocks/resources.yml')

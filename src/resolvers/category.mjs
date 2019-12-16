@@ -1,5 +1,6 @@
 import { computeHappinessByYear, computeToolsExperience } from '../analysis/index.mjs'
-import { getSurveyConfig } from '../helpers.mjs'
+import { getSurveyConfig, loadYaml, getEntity } from '../helpers.mjs'
+import { getCachedResult } from '../caching.mjs'
 
 export const getCategoryTools = category => {
     const survey = getSurveyConfig(category.survey.survey, category.survey.year)
@@ -49,14 +50,10 @@ export default {
     },
     CategoryOtherTools: {
         allYears: async (category, args, context, info) => {
-            console.log(category)
             return getMockOtherTools()
             // return computeHappinessByYear(context.db, category.id, category.survey)
         },
         year: async (category, args, context, info) => {
-            console.log(category)
-            console.log(args)
-
             // const allYears = await computeHappinessByYear(
             //     context.db,
             //     category.id,
@@ -68,8 +65,8 @@ export default {
     },
     CategoryHappiness: {
         allYears: async (happiness, args, context, info) => {
-            return await getCachedResult(computeHappinessByYear, [
-                context.db,
+            return await getCachedResult(computeHappinessByYear, context.db,[
+                
                 happiness.id,
                 happiness.survey
             ])
