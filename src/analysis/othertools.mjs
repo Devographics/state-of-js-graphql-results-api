@@ -48,7 +48,10 @@ export const computeEntityUsage = async (db, key) => {
         .toArray()
 
     // add entities
-    results = results.map(result => ({ ...result, entity: getEntity(result) }))
+    results = results.map(result => {
+        const entity = getEntity(result)
+        return { ...result, entity }
+    })
 
     // group by years and add counts
     const byYear = _.orderBy(

@@ -1,25 +1,3 @@
-- id: angular
-  description: |
-      Angular is a TypeScript-based open-source front-end web application platform. Note that from
-      this year on we are not be making a distinction between Angular and Angular.js anymore, while datapoints for 
-      2016 and 2017 correspond to Angular (a.k.a. "Angular 2").
-  name: Angular
-- id: ant-design
-  github: ant-design/ant-design
-  name: 'Ant Design'
-  npm: antd
-- id: aphrodite
-  github: Khan/aphrodite
-  name: Aphrodite
-  npm: aphrodite
-- id: apollo
-  description: "A fully-featured, production ready caching GraphQL client for every UI framework and GraphQL server.\n"
-  name: Apollo
-- id: appcelerator
-  name: Appcelerator
-- id: atom
-  name: Atom
-  homepage: https://atom.io/
 - id: atomic-css
   description: |
       Atomic CSS is a CSS architecture. It is not opinionated;
@@ -35,10 +13,6 @@
       of the key elements of the methodology — Block, Element and Modifier.
   homepage: 'http://getbem.com/'
   name: BEM
-- id: bootstrap
-  github: twbs/bootstrap
-  name: Bootstrap
-  npm: bootstrap
 - id: brackets
   name: Brackets
   homepage: http://brackets.io/
@@ -67,8 +41,10 @@
   homepage: https://www.chromium.org/Home
 - id: csharp
   name: 'C#'
+  category: languages
 - id: c-cplusplus
   name: C/C++
+  category: languages
 - id: coda
   name: Coda
   homepage: https://panic.com/coda/
@@ -77,8 +53,7 @@
   name: CSS Modules
 - id: dart
   name: Dart
-- id: date-fns
-  name: Date-fns
+  category: languages
 - id: django
   name: Django
 - id: dotnet
@@ -91,20 +66,13 @@
   homepage: https://www.microsoft.com/en-us/windows/microsoft-edge
 - id: elixir
   name: Elixir
-- id: elm-test
-  name: elm-test
+  category: languages
 - id: emacs
   name: Emacs
   homepage: https://www.gnu.org/software/emacs/
-- id: emotion
-  github: emotion-js/emotion
-  name: Emotion
-  npm: emotion
 - id: es6
   description: "ES6 and its descendants are the newer versions of JavaScript, usually run through Babel.\n"
   name: ES6
-- id: extjs
-  name: 'Ext JS'
 - id: firebase
   name: Firebase
 - id: firefox
@@ -121,21 +89,18 @@
   name: Firefox Android
   homepage: https://www.mozilla.org/en-US/firefox/new/
   category: browsers
-- id: flutter
-  name: Flutter
 - id: foundation
   github: zurb/foundation-sites
   name: Foundation
-- id: glamor
-  github: threepointone/glamor
-  name: Glamor
-  npm: glamor
 - id: golang
   name: Go
+  category: languages
 - id: haskell
   name: Haskell
+  category: languages
 - id: haxe
   name: Haxe
+  category: languages
 - id: intellij
   name: IntelliJ
   homepage: https://www.jetbrains.com/idea/
@@ -155,30 +120,26 @@
       - Internet Explorer
 - id: java
   name: Java
+  category: languages
 - id: jss
   github: cssinjs/jss
   name: JSS
   homepage: https://cssinjs.org
 - id: kotlin
   name: Kotlin
+  category: languages
 - id: laravel
   name: Laravel
 - id: less
   github: less/less.js
   name: Less
   npm: less
-- id: lodash
-  name: lodash
-- id: luxon
-  name: luxon
 - id: make
   name: Make
 - id: materialize-css
   github: Dogfalo/materialize
   name: 'Materialize CSS'
   npm: materialize-css
-- id: moment
-  name: moment
 - id: nano
   name: Nano
   homepage: https://www.nano-editor.org/
@@ -192,6 +153,7 @@
   name: Objective-C
 - id: ocaml
   name: OCaml
+  category: languages
 - id: oocss
   description: |
       OOCSS, or object-oriented CSS, is a methodology to help programmers
@@ -205,13 +167,12 @@
   name: Opera Mini
   homepage: https://www.opera.com/mobile
   category: browsers
-- id: parcel
-  name: Parcel
 - id: phonegap-cordova
   description: "Apache Cordova is a mobile application development framework.\n"
   name: Cordova
 - id: php
   name: PHP
+  category: languages
 - id: phpstorm
   name: PHPStorm
   homepage: https://www.jetbrains.com/phpstorm/
@@ -232,6 +193,7 @@
   name: PyCharm
 - id: python
   name: Python
+  category: languages
 - id: radium
   github: FormidableLabs/radium
   npm: '@emotion/core'
@@ -239,12 +201,12 @@
   homepage: https://formidable.com/open-source/radium/
 - id: rails
   name: Rails
-- id: ramda
-  name: Ramda
 - id: ruby
   name: Ruby
+  category: languages
 - id: rust
   name: Rust
+  category: languages
 - id: safari
   name: Safari
   homepage: https://www.apple.com/safari/
@@ -265,8 +227,7 @@
   npm: node-sass
 - id: scala
   name: Scala
-- id: selenium
-  name: Selenium
+  category: languages
 - id: semantic-ui
   github: Semantic-Org/Semantic-UI
   name: 'Semantic UI'
@@ -281,15 +242,6 @@
       your design process and as a way to fit those rigid frameworks into
       a flexible thought process.
   name: SMACSS
-- id: styled-components
-  github: styled-components/styled-components
-  name: Styled Components
-  npm: styled-components
-  homepage: https://www.styled-components.com/
-- id: styled-jsx
-  github: zeit/styled-jsx
-  name: Styled JSX
-  npm: styled-jsx
 - id: stylus
   github: stylus/stylus
   name: Stylus
@@ -297,8 +249,10 @@
 - id: sublime-text
   name: 'Sublime Text'
   homepage: https://www.sublimetext.com/
+  category: text_editors
 - id: swift
   name: Swift
+  category: languages
 - id: tachyons
   github: tachyons-css/tachyons
   name: Tachyons
@@ -325,15 +279,18 @@
   name: underscore
 - id: vanilla-js
   name: 'Vanilla JS'
+  category: languages
 - id: vim
   name: Vim
   homepage: https://www.vim.org/
 - id: visual-studio
   name: 'VS Code'
   homepage: https://code.visualstudio.com/
+  category: text_editors
 - id: visual-studio-not-code
   name: Visual Studio
   homepage: https://visualstudio.microsoft.com/
+  category: text_editors
 - id: vivaldi
   name: Vivaldi
   homepage: https://vivaldi.com/
@@ -677,3 +634,8 @@
   name: Software Engineering Radio
   homepage: https://www.se-radio.net/
   category: resources
+
+- id: eclipse
+  name: Eclipse
+  homepage: https://www.eclipse.org/
+  category: text_editors

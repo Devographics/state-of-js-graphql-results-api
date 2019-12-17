@@ -9,7 +9,7 @@ const entities = loadYaml('./src/data/entities.yml')
 const projects = loadYaml('./src/data/projects.yml')
 const enums = loadYaml('./src/data/enums.yml')
 
-const allEntities = [...entities, ...projects]
+const allEntities = [...projects, ...entities]
 
 enums.entities = allEntities.map(e => e.id)
 

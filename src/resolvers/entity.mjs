@@ -5,14 +5,18 @@ const projects = loadYaml('./src/data/projects.yml')
 
 const getSimulatedGithub = id => {
     const projectObject = projects.find(p => p.id === id)
-    const { name, description, github, stars, homepage } = projectObject
-    return {
-        name,
-        full_name: projectObject.full_name,
-        description,
-        url: `https://github.com/${github}`,
-        stars,
-        homepage
+    if (projectObject) {
+        const { name, description, github, stars, homepage } = projectObject
+        return {
+            name,
+            full_name: projectObject.full_name,
+            description,
+            url: `https://github.com/${github}`,
+            stars,
+            homepage
+        }
+    } else {
+        return null
     }
 }
 
