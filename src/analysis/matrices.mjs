@@ -61,9 +61,7 @@ export const computeToolMatrixBreakdown = async (
 export const computeToolsMatrix = async (db, { survey, ids: tools, year, experience, subType }) => {
     const allTools = []
     for (const tool of tools) {
-        allTools.push(
-            await computeToolMatrixBreakdown(db, tool, experience, subType, year, survey)
-        )
+        allTools.push(await computeToolMatrixBreakdown(db, tool, experience, subType, year, survey))
     }
 
     // console.log(util.inspect(allTools, { depth: null, colors: true }))

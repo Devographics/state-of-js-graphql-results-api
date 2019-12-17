@@ -45,10 +45,7 @@ export default {
                   subType: 'years_of_experience',
                   year: 2019
                  */
-                const matrix = await computeToolsMatrix(
-                    context.db,
-                    { ...parent, year }
-                )
+                const matrix = await computeToolsMatrix(context.db, { ...parent, year })
 
                 return {
                     year,

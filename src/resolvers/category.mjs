@@ -40,11 +40,18 @@ export default {
     },
     CategoryOtherTools: {
         allYears: async (category, args, context, info) => {
-            const allYears = await getCachedResult(computeEntityUsage, context.db, [`sections_other_tools.${category.id}_normalized`])
+            const allYears = await getCachedResult(computeEntityUsage, context.db, [
+                `sections_other_tools.${category.id}_normalized`
+            ])
             return allYears
         },
         year: async (category, args, context, info) => {
-            const allYears = await getCachedResult(computeEntityUsage, context.db, [`sections_other_tools.${category.id}_normalized`], false)
+            const allYears = await getCachedResult(
+                computeEntityUsage,
+                context.db,
+                [`sections_other_tools.${category.id}_normalized`],
+                false
+            )
             return allYears.find(y => y.year === args.year)
         }
     },

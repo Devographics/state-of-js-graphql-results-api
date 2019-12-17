@@ -1,7 +1,7 @@
 import _ from 'lodash'
 import { ratioToPercentage, appendCompletionToYearlyResults } from '../common.mjs'
 
-export const computeCompanySizeByYear = async (db) => {
+export const computeCompanySizeByYear = async db => {
     const collection = db.collection('normalized_responses')
 
     const results = await collection
