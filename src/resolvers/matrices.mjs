@@ -35,16 +35,7 @@ export default {
     },
     ToolsMatrice: {
         year: async (parent, { year }, context, info) => {
-            console.log({ ...parent, year })
             if (parent.type === 'tools') {
-                /*
-                survey: { survey: 'js', year: 2019 },
-                  ids: [ 'redux', 'apollo', 'graphql', 'relay', 'mobx' ],
-                  type: 'tools',
-                  experience: 'would_use',
-                  subType: 'years_of_experience',
-                  year: 2019
-                 */
                 const matrix = await computeToolsMatrix(context.db, { ...parent, year })
 
                 return {
