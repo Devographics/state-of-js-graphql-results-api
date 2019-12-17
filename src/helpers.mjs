@@ -48,3 +48,12 @@ export const getEnum = type => {
         throw new Error(`No Enum of type ${type}.`)
     }
 }
+
+/*
+
+Return either e.g. other_tools.browsers.choices or other_tools.browsers.others_normalized
+
+*/
+export const getOtherKey = id => id.includes('_others')
+    ? `${id.replace('_others', '')}.others_normalized`
+    : `${id}.choices`

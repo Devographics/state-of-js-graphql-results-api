@@ -102,8 +102,8 @@ feature:
     - wasm
 
 resources:
-    - blogs_magazines
-    - blogs_magazines_others
+    - blogs_news_magazines
+    - blogs_news_magazines_others
     - sites_courses
     - sites_courses_others
     - podcasts

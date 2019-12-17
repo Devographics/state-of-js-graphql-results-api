@@ -24,6 +24,6 @@
     "node": "13.2.0"
   },
   "nodemonConfig": {
-    "ext": "js,json,graphql,mjs"
+    "ext": "js,json,graphql,gql,mjs,yml,yaml"
   }
 }
