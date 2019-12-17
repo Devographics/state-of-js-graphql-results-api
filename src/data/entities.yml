@@ -396,7 +396,7 @@
   homepage: https://www.leveluptutorials.com/
   category: courses
 
-- id: syntax
+- id: syntaxfm
   name: Syntax
   homepage: https://syntax.fm/
   category: podcasts
@@ -643,3 +643,11 @@
   name: Eclipse
   homepage: https://www.eclipse.org/
   category: text_editors
+- id: js_weekly
+  name: JavaScript Weekly
+  homepage: https://javascriptweekly.com/
+  category: newsletters
+- id: bestofjs
+  name: Best Of JS
+  homepage: https://bestofjs.org/
+  category: news
