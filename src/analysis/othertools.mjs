@@ -11,7 +11,7 @@ import _ from 'lodash'
 import { ratioToPercentage, appendCompletionToYearlyResults } from './common.mjs'
 import { getEntity } from '../helpers.mjs'
 
-export const computeEntityUsage = async (db, key) => {
+export const computeEntityUsage = async (db, options, key) => {
     const collection = db.collection('normalized_responses')
 
     let results = await collection

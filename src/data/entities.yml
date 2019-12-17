@@ -555,6 +555,7 @@
   category: resources
 - id: medium
   name: Medium
+  homepage: https://medium.com/
   category: resources
 - id: google
   name: Google

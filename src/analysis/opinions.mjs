@@ -1,7 +1,7 @@
 import _ from 'lodash'
 import { appendCompletionToYearlyResults, ratioToPercentage } from './common.mjs'
 
-export const computeOpinionByYear = async (db, opinion, survey) => {
+export const computeOpinionByYear = async (db, options, opinion, survey) => {
     const path = `opinions.${opinion}`
 
     const collection = db.collection('normalized_responses')

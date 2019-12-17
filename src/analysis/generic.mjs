@@ -1,17 +1,26 @@
-import _ from 'lodash'
-import { ratioToPercentage, appendCompletionToYearlyResults } from '../common.mjs'
+/*
 
-export const computeSalaryRangeByYear = async (db) => {
+Generic aggregation
+
+Used for source, job title, css proficiency, back end proficiency
+
+*/
+
+import _ from 'lodash'
+import { ratioToPercentage, appendCompletionToYearlyResults } from './common.mjs'
+
+export const computeGenericAggregation = async (db, options = {}, key) => {
+    let { sort = 'total', order = -1, cutoff = 10, limit = 25 } = options
     const collection = db.collection('normalized_responses')
 
     const results = await collection
         .aggregate([
             // exclude null and empty values
-            { $match: { 'user_info.yearly_salary': { $nin: [null, ''] } } },
+            { $match: { [key]: { $nin: [null, ''] } } },
             {
                 $group: {
                     _id: {
-                        salaryRange: `$user_info.yearly_salary`,
+                        id: `$${key}`,
                         year: '$year'
                     },
                     total: { $sum: 1 }
@@ -21,16 +30,19 @@ export const computeSalaryRangeByYear = async (db) => {
             {
                 $project: {
                     _id: 0,
-                    salaryRange: '$_id.salaryRange',
+                    id: '$_id.id',
                     year: '$_id.year',
                     total: 1
                 }
-            }
+            },
+            { $sort: { [sort]: order } },
+            { $match: { total: { $gt: cutoff } } },
+            { $limit: limit }
         ])
         .toArray()
 
     // group by years and add counts
-    const salaryRangeByYear = _.orderBy(
+    const byYear = _.orderBy(
         results.reduce((acc, result) => {
             let yearBucket = acc.find(b => b.year === result.year)
             if (yearBucket === undefined) {
@@ -42,7 +54,7 @@ export const computeSalaryRangeByYear = async (db) => {
             }
 
             yearBucket.buckets.push({
-                id: result.salaryRange,
+                id: result.id,
                 count: result.total
             })
 
@@ -52,12 +64,12 @@ export const computeSalaryRangeByYear = async (db) => {
     )
 
     // compute percentages
-    salaryRangeByYear.forEach(bucket => {
+    byYear.forEach(bucket => {
         bucket.total = _.sumBy(bucket.buckets, 'count')
         bucket.buckets.forEach(subBucket => {
             subBucket.percentage = ratioToPercentage(subBucket.count / bucket.total)
         })
     })
 
-    return appendCompletionToYearlyResults(db, salaryRangeByYear)
+    return appendCompletionToYearlyResults(db, byYear)
 }

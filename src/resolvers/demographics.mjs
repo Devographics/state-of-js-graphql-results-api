@@ -1,9 +1,9 @@
 import {
     computeParticipationByYear,
-    computeGenderBreakdownByYear,
     computeSalaryRangeByYear,
     computeCompanySizeByYear,
-    computeYearsOfExperienceByYear
+    computeYearsOfExperienceByYear,
+    computeGenericAggregation
 } from '../analysis/index.mjs'
 
 import { loadYaml } from '../helpers.mjs'
@@ -21,26 +21,48 @@ export default {
     },
     Country: {
         allYears: async (parent, args, context, info) => {
-            return loadYaml('./src/mocks/country.yml')
+            const allYears = await getCachedResult(
+                computeGenericAggregation,
+                context.db,
+                ['user_info.country_normalized'],
+                { sort: 'id', limit: 999, cutoff: 1 }
+            )
+            return allYears
         },
         year: async (parent, args, context, info) => {
-            return loadYaml('./src/mocks/country.yml').find(y => y.year === args.year)
+            const allYears = await getCachedResult(
+                computeGenericAggregation,
+                context.db,
+                ['user_info.country_normalized'],
+                { sort: 'id', limit: 999, cutoff: 1 }
+            )
+            return allYears.find(y => y.year === args.year)
         }
     },
     Source: {
         allYears: async (parent, args, context, info) => {
-            return loadYaml('./src/mocks/source.yml')
+            const allYears = await getCachedResult(computeGenericAggregation, context.db, [
+                'user_info.source_normalized'
+            ])
+            return allYears
         },
         year: async (parent, args, context, info) => {
-            return loadYaml('./src/mocks/source.yml').find(y => y.year === args.year)
+            const allYears = await getCachedResult(computeGenericAggregation, context.db, [
+                'user_info.source_normalized'
+            ])
+            return allYears.find(y => y.year === args.year)
         }
     },
     Gender: {
         allYears: async (parent, args, context, info) => {
-            return await getCachedResult(computeGenderBreakdownByYear, context.db)
+            return await getCachedResult(computeGenericAggregation, context.db, [
+                'user_info.gender'
+            ])
         },
         year: async (parent, args, context, info) => {
-            const allYears = await getCachedResult(computeGenderBreakdownByYear, context.db)
+            const allYears = await getCachedResult(computeGenericAggregation, context.db, [
+                'user_info.gender'
+            ])
             return allYears.find(y => y.year === args.year)
         }
     },
@@ -49,7 +71,6 @@ export default {
             return await getCachedResult(computeSalaryRangeByYear, context.db)
         },
         year: async (parent, args, context, info) => {
-            console.log('salary.year')
             const allYears = await getCachedResult(computeSalaryRangeByYear, context.db)
             return allYears.find(y => y.year === args.year)
         }
@@ -74,26 +95,56 @@ export default {
     },
     JobTitle: {
         allYears: async (parent, args, context, info) => {
-            return loadYaml('./src/mocks/jobTitle.yml')
+            const allYears = await getCachedResult(computeGenericAggregation, context.db, [
+                'user_info.job_title'
+            ])
+            return allYears
         },
         year: async (parent, args, context, info) => {
-            return loadYaml('./src/mocks/jobTitle.yml').find(y => y.year === args.year)
+            const allYears = await getCachedResult(computeGenericAggregation, context.db, [
+                'user_info.job_title'
+            ])
+            return allYears.find(y => y.year === args.year)
         }
     },
     CSSProficiency: {
         allYears: async (parent, args, context, info) => {
-            return loadYaml('./src/mocks/cssProficiency.yml')
+            const allYears = await getCachedResult(
+                computeGenericAggregation,
+                context.db,
+                ['user_info.css_proficiency'],
+                { sort: 'id', order: 1 }
+            )
+            return allYears
         },
         year: async (parent, args, context, info) => {
-            return loadYaml('./src/mocks/cssProficiency.yml').find(y => y.year === args.year)
+            const allYears = await getCachedResult(
+                computeGenericAggregation,
+                context.db,
+                ['user_info.css_proficiency'],
+                { sort: 'id', order: 1 }
+            )
+            return allYears.find(y => y.year === args.year)
         }
     },
     BackendProficiency: {
         allYears: async (parent, args, context, info) => {
-            return loadYaml('./src/mocks/backendProficiency.yml')
+            const allYears = await getCachedResult(
+                computeGenericAggregation,
+                context.db,
+                ['user_info.backend_proficiency'],
+                { sort: 'id', order: 1 }
+            )
+            return allYears
         },
         year: async (parent, args, context, info) => {
-            return loadYaml('./src/mocks/backendProficiency.yml').find(y => y.year === args.year)
+            const allYears = await getCachedResult(
+                computeGenericAggregation,
+                context.db,
+                ['user_info.backend_proficiency'],
+                { sort: 'id', order: 1 }
+            )
+            return allYears.find(y => y.year === args.year)
         }
     }
 }

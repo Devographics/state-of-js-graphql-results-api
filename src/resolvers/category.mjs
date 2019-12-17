@@ -1,5 +1,5 @@
 import { computeHappinessByYear, computeToolsExperience } from '../analysis/index.mjs'
-import { getSurveyConfig, loadYaml, getEntity } from '../helpers.mjs'
+import { getSurveyConfig } from '../helpers.mjs'
 import { getCachedResult } from '../caching.mjs'
 import { computeEntityUsage } from '../analysis/index.mjs'
 
@@ -13,17 +13,6 @@ export const getCategoryTools = category => {
     }
 
     return categoryConfig.tools
-}
-
-export const getMockOtherTools = () => {
-    const mockData = loadYaml('./src/mocks/otherTools.yml')
-    mockData.forEach(year => {
-        year.buckets = year.buckets.map(tool => ({
-            entity: getEntity(tool),
-            ...tool
-        }))
-    })
-    return mockData
 }
 
 export default {

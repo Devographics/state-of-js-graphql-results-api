@@ -4,6 +4,7 @@ import util from 'util'
 
 export const computeToolMatrixBreakdown = async (
     db,
+    options,
     tool,
     experienceFilter,
     matrixType,

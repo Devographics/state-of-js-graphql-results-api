@@ -21,7 +21,7 @@ const computeSatisfaction = (buckets, total) => {
     return ratioToPercentage(wouldUse.count / (wouldUse.count + wouldNotUse.count))
 }
 
-export const computeExperienceOverYears = async (db, tool, survey) => {
+export const computeExperienceOverYears = async (db, options, tool, survey) => {
     const collection = db.collection('normalized_responses')
 
     const path = `tools.${tool}.experience`
@@ -98,7 +98,7 @@ export const computeExperienceOverYears = async (db, tool, survey) => {
     return appendCompletionToYearlyResults(db, experienceByYear)
 }
 
-const computeToolExperience = async (db, tool, year, survey) => {
+const computeToolExperience = async (db, options, tool, year, survey) => {
     const collection = db.collection('normalized_responses')
 
     const path = `tools.${tool}.experience`
@@ -145,21 +145,21 @@ const computeToolExperience = async (db, tool, year, survey) => {
     }
 }
 
-export const computeToolsExperience = async (db, tools, year, survey) => {
+export const computeToolsExperience = async (db, options, tools, year, survey) => {
     const results = []
     for (const tool of tools) {
-        results.push(await computeToolExperience(db, tool, year, survey))
+        results.push(await computeToolExperience(db, options, tool, year, survey))
     }
 
     return results
 }
 
-export const computeToolsExperienceRanking = async (db, tools, survey) => {
+export const computeToolsExperienceRanking = async (db, options, tools, survey) => {
     let availableYears = []
     const metricByYear = {}
 
     for (const tool of tools) {
-        const toolAllYearsExperience = await computeExperienceOverYears(db, tool, survey)
+        const toolAllYearsExperience = await computeExperienceOverYears(db, options, tool, survey)
         const toolAwarenessInterestSatisfactionOverYears = []
 
         toolAllYearsExperience.forEach(toolYear => {
