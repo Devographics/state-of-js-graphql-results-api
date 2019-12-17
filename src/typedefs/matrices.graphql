@@ -21,8 +21,9 @@ type YearMatrice @cacheControl(maxAge: 600) {
     buckets: [MatriceBucket] @cacheControl(maxAge: 600)
 }
 
-type Matrice @cacheControl(maxAge: 600) {
+type ToolsMatrice @cacheControl(maxAge: 600) {
     year(year: Int!): YearMatrice
+    experience: ExperienceID
 }
 
 """
@@ -31,9 +32,14 @@ for example, salary breakdown for users who have used React
 and would use it again.
 """
 type ToolsMatrices @cacheControl(maxAge: 600) {
-    workExperience(experience: ExperienceID!): Matrice
-    salary(experience: ExperienceID!): Matrice
-    companySize(experience: ExperienceID!): Matrice
+    workExperience(experience: ExperienceID!): ToolsMatrice
+    salary(experience: ExperienceID!): ToolsMatrice
+    companySize(experience: ExperienceID!): ToolsMatrice
+}
+
+type FeaturesMatrice @cacheControl(maxAge: 600) {
+    year(year: Int!): YearMatrice
+    experience: UsageID
 }
 
 """
@@ -41,9 +47,9 @@ Sub-aggregations for features for a given usage response,
 for example, salary breakdown for users who have used flex-box.
 """
 type FeaturesMatrices @cacheControl(maxAge: 600) {
-    workExperience(usage: UsageID!): Matrice
-    salary(usage: UsageID!): Matrice
-    companySize(usage: UsageID!): Matrice
+    workExperience(usage: UsageID!): FeaturesMatrice
+    salary(usage: UsageID!): FeaturesMatrice
+    companySize(usage: UsageID!): FeaturesMatrice
 }
 
 type Matrices @cacheControl(maxAge: 600) {

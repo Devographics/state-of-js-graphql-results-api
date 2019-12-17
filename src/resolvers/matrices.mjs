@@ -22,37 +22,59 @@ export default {
             return { ...parent, ids, type: 'features' }
         }
     },
-    MatriceType: {
+    ToolsMatrices: {
         workExperience: async (parent, args, context, info) => {
-            return { ...parent, subType: 'years_of_experience' }
+            return { ...parent, ...args, subType: 'years_of_experience' }
         },
         salary: async (parent, args, context, info) => {
-            return { ...parent, subType: 'yearly_salary' }
+            return { ...parent, ...args, subType: 'yearly_salary' }
         },
         companySize: async (parent, args, context, info) => {
-            return { ...parent, subType: 'company_size' }
+            return { ...parent, ...args, subType: 'company_size' }
         }
     },
-    Matrice: {
+    ToolsMatrice: {
         year: async (parent, { year }, context, info) => {
+            console.log({ ...parent, year })
             if (parent.type === 'tools') {
+                /*
+                survey: { survey: 'js', year: 2019 },
+                  ids: [ 'redux', 'apollo', 'graphql', 'relay', 'mobx' ],
+                  type: 'tools',
+                  experience: 'would_use',
+                  subType: 'years_of_experience',
+                  year: 2019
+                 */
                 const matrix = await computeToolsMatrix(
                     context.db,
-                    parent.ids,
-                    'would_use',
-                    parent.subType,
-                    year,
-                    parent.survey
+                    { ...parent, year }
                 )
 
                 return {
                     year,
+                    experience: parent.experience,
                     buckets: matrix
                 }
             }
 
             const { type, subType, ids } = parent
             return getMockData(type, subType, ids, year)
+        }
+    },
+    FeaturesMatrices: {
+        workExperience: async (parent, args, context, info) => {
+            return { ...parent, ...args, subType: 'years_of_experience' }
+        },
+        salary: async (parent, args, context, info) => {
+            return { ...parent, ...args, subType: 'yearly_salary' }
+        },
+        companySize: async (parent, args, context, info) => {
+            return { ...parent, ...args, subType: 'company_size' }
+        }
+    },
+    FeaturesMatrice: {
+        year: async (parent, { year }, context, info) => {
+            console.log({ parent, year })
         }
     }
 }

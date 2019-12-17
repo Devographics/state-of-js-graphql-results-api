@@ -4,17 +4,16 @@ import util from 'util'
 
 export const computeToolMatrixBreakdown = async (
     db,
-    options,
     tool,
     experienceFilter,
-    matrixType,
+    subType,
     year,
     survey
 ) => {
     const collection = db.collection('normalized_responses')
 
     const toolPath = `tools.${tool}.experience`
-    const breakdownPath = `user_info.${matrixType}`
+    const breakdownPath = `user_info.${subType}`
 
     const results = await collection
         .aggregate([
@@ -59,11 +58,11 @@ export const computeToolMatrixBreakdown = async (
     }
 }
 
-export const computeToolsMatrix = async (db, tools, experienceFilter, matrixType, year, survey) => {
+export const computeToolsMatrix = async (db, { survey, ids: tools, year, experience, subType }) => {
     const allTools = []
     for (const tool of tools) {
         allTools.push(
-            await computeToolMatrixBreakdown(db, tool, experienceFilter, matrixType, year, survey)
+            await computeToolMatrixBreakdown(db, tool, experience, subType, year, survey)
         )
     }
 
