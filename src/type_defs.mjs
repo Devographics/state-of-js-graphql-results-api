@@ -31,6 +31,12 @@ enum ResourcesID {
 enum CategoryID {
     ${getEnum('categories')}
 }
+enum ExperienceID {
+    ${getEnum('experience')}
+}
+enum UsageID {
+    ${getEnum('usage')}
+}
 
 ${loadGraphQL('entity')}
 ${loadGraphQL('github')}
