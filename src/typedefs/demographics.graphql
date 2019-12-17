@@ -39,6 +39,7 @@ type SourceBucket @cacheControl(maxAge: 600) {
     id: String
     count: Int
     percentage: Float
+    entity: Entity
 }
 
 type YearSource @cacheControl(maxAge: 600) {

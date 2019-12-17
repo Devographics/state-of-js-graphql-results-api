@@ -42,8 +42,8 @@ export default {
             if (!featureObject || !featureObject.mdn) {
                 return
             }
-            const mdn = getSimulatedMDN()
-            // const mdn = await fetchMdnResource(featureObject.mdn)
+            // const mdn = getSimulatedMDN()
+            const mdn = await fetchMdnResource(featureObject.mdn)
             return mdn.find(t => t.locale === 'en-US')
         }
     }

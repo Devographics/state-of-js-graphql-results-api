@@ -1,3 +1,6 @@
+- id: apollo
+  name: Apollo
+  homepage: https://www.apollographql.com/docs/
 - id: atomic-css
   description: |
       Atomic CSS is a CSS architecture. It is not opinionated;

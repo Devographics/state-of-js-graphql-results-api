@@ -8,12 +8,13 @@ Used for source, job title, css proficiency, back end proficiency
 
 import _ from 'lodash'
 import { ratioToPercentage, appendCompletionToYearlyResults } from './common.mjs'
+import { getEntity } from '../helpers.mjs'
 
 export const computeGenericAggregation = async (db, options = {}, key) => {
     let { sort = 'total', order = -1, cutoff = 10, limit = 25 } = options
     const collection = db.collection('normalized_responses')
 
-    const results = await collection
+    let results = await collection
         .aggregate([
             // exclude null and empty values
             { $match: { [key]: { $nin: [null, ''] } } },
@@ -41,6 +42,12 @@ export const computeGenericAggregation = async (db, options = {}, key) => {
         ])
         .toArray()
 
+    // add entities if applicable
+    results = results.map(result => {
+        const entity = getEntity(result)
+        return entity ? { ...result, entity } : result
+    })
+
     // group by years and add counts
     const byYear = _.orderBy(
         results.reduce((acc, result) => {
@@ -55,6 +62,7 @@ export const computeGenericAggregation = async (db, options = {}, key) => {
 
             yearBucket.buckets.push({
                 id: result.id,
+                entity: result.entity,
                 count: result.total
             })
 

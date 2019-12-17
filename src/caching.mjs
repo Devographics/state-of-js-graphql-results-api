@@ -4,7 +4,7 @@ export const computeKey = (func, args, options) => {
     return `${func.name}_${serializedArgs}_${serializedOptions}`
 }
 
-export const getCachedResult = async (func, db, args, options = {}, enableCache = false) => {
+export const getCachedResult = async (func, db, args, options = {}, enableCache = true) => {
     const key = computeKey(func, args, options)
     try {
         const collection = db.collection('cached_results')
