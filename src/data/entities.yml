@@ -700,3 +700,43 @@
   name: Echo JS
   homepage: https://echojs.com/
   category: news
+- id: kentcdodds
+  name: Kent C. Dodds
+  homepage: https://kentcdodds.com/blog/
+  category: blogs
+- id: overreacted
+  name: Overreacted
+  homepage: https://overreacted.io/
+  category: blogs
+- id: 2ality
+  name: 2ality
+  homepage: https://2ality.com/
+  category: blogs
+- id: scotchio
+  name: Scotch
+  homepage: https://scotch.io
+  category: resources
+- id: react_status
+  name: React Status
+  homepage: https://react.statuscode.com/
+  category: newsletters
+- id: node_weekly
+  name: Node weekly
+  homepage: https://nodeweekly.com/
+  category: newsletters
+- id: ember_times
+  name: The Ember times
+  homepage: https://the-emberjs-times.ongoodbits.com/
+  category: newsletters
+- id: hackernoon
+  name: Hackernoon
+  homepage: https://hackernoon.com/
+  category: resources
+- id: habr
+  name: Habr
+  homepage: https://habr.com/en/
+  category: resources
+- id: robin_wieruch
+  name: Robin Wieruch
+  homepage: https://www.robinwieruch.de/
+  category: blogs
