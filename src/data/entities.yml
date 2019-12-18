@@ -1,6 +1,10 @@
 - id: apollo
   name: Apollo
   homepage: https://www.apollographql.com/docs/
+- id: appcelerator
+  name: Appcelerator
+  homepage: http://www.appcelerator.com/
+  category: mobile-desktop
 - id: reactnative
   name: React Native
   homepage: https://facebook.github.io/react-native/
@@ -32,6 +36,10 @@
   github: jgthms/bulma
   name: Bulma
   npm: bulma
+- id: capacitor
+  name: Capacitor
+  homepage: https://capacitor.ionicframework.com/
+  category: mobile-desktop
 - id: chrome
   name: Chrome
   homepage: https://www.google.com/chrome/
@@ -67,6 +75,7 @@
   name: Django
 - id: dotnet
   name: .NET
+  homepage: https://dotnet.microsoft.com/
 - id: dreamweaver
   name: Dreamweaver
   homepage: https://www.adobe.com/products/dreamweaver.html
@@ -98,6 +107,10 @@
   name: Firefox Android
   homepage: https://www.mozilla.org/en-US/firefox/new/
   category: browsers
+- id: flutter
+  name: Flutter
+  homepage: https://flutter.io/
+  category: mobile-desktop
 - id: foundation
   github: zurb/foundation-sites
   name: Foundation
@@ -140,6 +153,7 @@
   homepage: https://kotlinlang.org
 - id: laravel
   name: Laravel
+  homepage: https://laravel.com/
 - id: less
   github: less/less.js
   name: Less
@@ -211,6 +225,15 @@
   homepage: https://formidable.com/open-source/radium/
 - id: rails
   name: Rails
+  homepage: https://rubyonrails.org/
+- id: react_context
+  name: React Context
+- id: react_hooks
+  name: React Hooks
+- id: revery
+  name: Revery
+  homepage: https://www.outrunlabs.com/revery/
+  category: mobile-desktop
 - id: ruby
   name: Ruby
   category: languages
@@ -239,6 +262,10 @@
   name: Scala
   category: languages
   homepage: https://scala-lang.org
+- id: selenium
+  name: Selenium
+  homepage: https://selenium.dev/
+  category: testing
 - id: semantic-ui
   github: Semantic-Org/Semantic-UI
   name: 'Semantic UI'
@@ -290,6 +317,8 @@
   name: underscore
 - id: vanilla-js
   name: 'Vanilla JS'
+  aliases:
+      - vanillajs # not sure an alias is needed?
   category: languages
 - id: vim
   name: Vim
@@ -671,3 +700,43 @@
   name: Echo JS
   homepage: https://echojs.com/
   category: news
+- id: kentcdodds
+  name: Kent C. Dodds
+  homepage: https://kentcdodds.com/blog/
+  category: blogs
+- id: overreacted
+  name: Overreacted
+  homepage: https://overreacted.io/
+  category: blogs
+- id: 2ality
+  name: 2ality
+  homepage: https://2ality.com/
+  category: blogs
+- id: scotchio
+  name: Scotch
+  homepage: https://scotch.io
+  category: resources
+- id: react_status
+  name: React Status
+  homepage: https://react.statuscode.com/
+  category: newsletters
+- id: node_weekly
+  name: Node weekly
+  homepage: https://nodeweekly.com/
+  category: newsletters
+- id: ember_times
+  name: The Ember times
+  homepage: https://the-emberjs-times.ongoodbits.com/
+  category: newsletters
+- id: hackernoon
+  name: Hackernoon
+  homepage: https://hackernoon.com/
+  category: resources
+- id: habr
+  name: Habr
+  homepage: https://habr.com/en/
+  category: resources
+- id: robin_wieruch
+  name: Robin Wieruch
+  homepage: https://www.robinwieruch.de/
+  category: blogs
