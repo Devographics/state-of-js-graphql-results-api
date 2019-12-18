@@ -1,6 +1,7 @@
 import { ratioToPercentage } from './common.mjs'
 import _ from 'lodash'
 import util from 'util'
+import { getEntity } from '../helpers.mjs'
 
 export const computeToolMatrixBreakdown = async (
     db,
@@ -15,7 +16,7 @@ export const computeToolMatrixBreakdown = async (
     const toolPath = `tools.${tool}.experience`
     const breakdownPath = `user_info.${subType}`
 
-    const results = await collection
+    let results = await collection
         .aggregate([
             {
                 $match: {
@@ -51,14 +52,20 @@ export const computeToolMatrixBreakdown = async (
         bucket.percentage = ratioToPercentage(bucket.count / total)
     })
 
-    return {
+    const result = {
         id: tool,
         total,
         ranges: results
     }
+
+    const entity = getEntity(result)
+    if (entity) {
+        result.entity = entity
+    }
+    return result
 }
 
-export const computeToolsMatrix = async (db, { survey, ids: tools, year, experience, subType }) => {
+export const computeToolsMatrix = async (db, options, { survey, ids: tools, year, experience, subType }) => {
     const allTools = []
     for (const tool of tools) {
         allTools.push(await computeToolMatrixBreakdown(db, tool, experience, subType, year, survey))

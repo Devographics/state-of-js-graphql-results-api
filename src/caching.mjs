@@ -15,6 +15,8 @@ export const getCachedResult = async (func, db, args, options = {}, enableCache 
         } else {
             console.log(`// Getting new result for ${key}`)
             const value = args ? await func(db, options, ...args) : await func(db, options)
+            // in case previous cached entry exists, delete it ?
+            // await collection.deleteOne({ key })
             await collection.insertOne({ key, value })
             return value
         }

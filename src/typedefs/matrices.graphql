@@ -11,6 +11,7 @@ type MatriceRange @cacheControl(maxAge: 600) {
 
 type MatriceBucket @cacheControl(maxAge: 600) {
     id: String
+    entity: Entity
     total: Int
     average: Float
     ranges: [MatriceRange]

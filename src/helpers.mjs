@@ -29,6 +29,9 @@ export const getSurveyConfig = (surveyType, year) => {
 
 // Look up entities by id, name, or aliases (case-insensitive)
 export const getEntity = ({ id }) => {
+    if (!id || typeof id !== 'string') {
+        return
+    }
     const lowerCaseId = id.toLowerCase()
     const entity = allEntities.find(e => {
         return (
