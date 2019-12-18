@@ -67,6 +67,7 @@
   name: Django
 - id: dotnet
   name: .NET
+  homepage: https://dotnet.microsoft.com/
 - id: dreamweaver
   name: Dreamweaver
   homepage: https://www.adobe.com/products/dreamweaver.html
@@ -140,6 +141,7 @@
   homepage: https://kotlinlang.org
 - id: laravel
   name: Laravel
+  homepage: https://laravel.com/
 - id: less
   github: less/less.js
   name: Less
@@ -211,6 +213,11 @@
   homepage: https://formidable.com/open-source/radium/
 - id: rails
   name: Rails
+  homepage: https://rubyonrails.org/
+- id: react_context
+  name: React Context
+- id: react_hooks
+  name: React Hooks
 - id: ruby
   name: Ruby
   category: languages
@@ -290,6 +297,8 @@
   name: underscore
 - id: vanilla-js
   name: 'Vanilla JS'
+  aliases:
+      - vanillajs # not sure an alias is needed?
   category: languages
 - id: vim
   name: Vim
