@@ -659,3 +659,15 @@
   name: Best Of JS
   homepage: https://bestofjs.org/
   category: news
+- id: david_walsh
+  name: David Walsh Blog
+  homepage: https://davidwalsh.name/
+  category: blogs
+- id: dailyjs
+  name: Daily JS
+  homepage: https://medium.com/dailyjs
+  category: blogs
+- id: echojs
+  name: Echo JS
+  homepage: https://echojs.com/
+  category: news
