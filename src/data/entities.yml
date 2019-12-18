@@ -1,6 +1,10 @@
 - id: apollo
   name: Apollo
   homepage: https://www.apollographql.com/docs/
+- id: appcelerator
+  name: Appcelerator
+  homepage: http://www.appcelerator.com/
+  category: mobile-desktop
 - id: reactnative
   name: React Native
   homepage: https://facebook.github.io/react-native/
@@ -32,6 +36,10 @@
   github: jgthms/bulma
   name: Bulma
   npm: bulma
+- id: capacitor
+  name: Capacitor
+  homepage: https://capacitor.ionicframework.com/
+  category: mobile-desktop
 - id: chrome
   name: Chrome
   homepage: https://www.google.com/chrome/
@@ -99,6 +107,10 @@
   name: Firefox Android
   homepage: https://www.mozilla.org/en-US/firefox/new/
   category: browsers
+- id: flutter
+  name: Flutter
+  homepage: https://flutter.io/
+  category: mobile-desktop
 - id: foundation
   github: zurb/foundation-sites
   name: Foundation
@@ -218,6 +230,10 @@
   name: React Context
 - id: react_hooks
   name: React Hooks
+- id: revery
+  name: Revery
+  homepage: https://www.outrunlabs.com/revery/
+  category: mobile-desktop
 - id: ruby
   name: Ruby
   category: languages
@@ -246,6 +262,10 @@
   name: Scala
   category: languages
   homepage: https://scala-lang.org
+- id: selenium
+  name: Selenium
+  homepage: https://selenium.dev/
+  category: testing
 - id: semantic-ui
   github: Semantic-Org/Semantic-UI
   name: 'Semantic UI'
