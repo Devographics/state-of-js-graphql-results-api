@@ -62,6 +62,7 @@
 - id: dart
   name: Dart
   category: languages
+  homepage: https://dart.dev
 - id: django
   name: Django
 - id: dotnet
@@ -136,6 +137,7 @@
 - id: kotlin
   name: Kotlin
   category: languages
+  homepage: https://kotlinlang.org
 - id: laravel
   name: Laravel
 - id: less
@@ -236,6 +238,7 @@
 - id: scala
   name: Scala
   category: languages
+  homepage: https://scala-lang.org
 - id: semantic-ui
   github: Semantic-Org/Semantic-UI
   name: 'Semantic UI'
