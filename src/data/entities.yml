@@ -1,6 +1,11 @@
 - id: apollo
   name: Apollo
   homepage: https://www.apollographql.com/docs/
+- id: reactnative
+  name: React Native
+  homepage: https://facebook.github.io/react-native/
+- id: nativeapps
+  name: Native Apps
 - id: atomic-css
   description: |
       Atomic CSS is a CSS architecture. It is not opinionated;
