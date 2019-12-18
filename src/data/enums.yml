@@ -42,8 +42,8 @@ tool:
     - puppeteer
     # JS mobile desktop
     - electron
-    - react_native
-    - native_apps
+    - reactnative
+    - nativeapps
     - cordova
     - ionic
     - nwjs

@@ -36,7 +36,7 @@ export default {
     ToolsMatrice: {
         year: async (parent, { year }, context, info) => {
             if (parent.type === 'tools') {
-                const matrix = await getCachedResult(computeToolsMatrix, context.db, [{ ...parent, year }], options)
+                const matrix = await getCachedResult(computeToolsMatrix, context.db, [{ ...parent, year }])
 
                 return {
                     year,

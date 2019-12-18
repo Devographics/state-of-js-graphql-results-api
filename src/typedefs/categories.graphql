@@ -40,6 +40,7 @@ type YearCategoryToolsExperienceToolBucket @cacheControl(maxAge: 600) {
 
 type YearCategoryToolsExperienceTool @cacheControl(maxAge: 600) {
     id: ToolID
+    entity: Entity
     buckets: [YearCategoryToolsExperienceToolBucket] @cacheControl(maxAge: 600)
 }
 

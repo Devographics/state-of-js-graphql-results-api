@@ -46,8 +46,8 @@ js:
             mobile_desktop:
                 tools:
                     - electron
-                    - react_native
-                    - native_apps
+                    - reactnative
+                    - nativeapps
                     - cordova
                     - ionic
                     - nwjs

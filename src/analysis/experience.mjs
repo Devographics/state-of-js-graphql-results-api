@@ -1,5 +1,6 @@
 import _ from 'lodash'
 import { ratioToPercentage, appendCompletionToYearlyResults } from './common.mjs'
+import { getEntity } from '../helpers.mjs'
 
 const computeAwareness = (buckets, total) => {
     const neverHeard = buckets.find(bucket => bucket.id === 'never_heard')
@@ -138,11 +139,18 @@ const computeToolExperience = async (db, options, tool, year, survey) => {
         bucket.percentage = ratioToPercentage(bucket.count / total)
     })
 
-    return {
+    const result = {
         id: tool,
         total,
         buckets: results
     }
+
+    const entity = getEntity(result)
+    if (entity) {
+        result.entity = entity
+    }
+
+    return result
 }
 
 export const computeToolsExperience = async (db, options, tools, year, survey) => {
@@ -202,6 +210,7 @@ export const computeToolsExperienceRanking = async (db, options, tools, survey) 
     tools.forEach(tool => {
         byTool.push({
             id: tool,
+            entity: getEntity({ id: tool }),
             ...['awareness', 'interest', 'satisfaction'].reduce((acc, metric) => {
                 return {
                     ...acc,

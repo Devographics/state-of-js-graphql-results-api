@@ -75,6 +75,7 @@ for awareness/interest and stisfaction.
 """
 type ToolExperienceRanking @cacheControl(maxAge: 600) {
     id: ToolID
+    entity: Entity
     awareness: [ToolExperienceRankingYearMetric] @cacheControl(maxAge: 600)
     interest: [ToolExperienceRankingYearMetric] @cacheControl(maxAge: 600)
     satisfaction: [ToolExperienceRankingYearMetric] @cacheControl(maxAge: 600)

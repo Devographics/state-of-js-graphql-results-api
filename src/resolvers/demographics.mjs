@@ -24,7 +24,7 @@ export default {
             const allYears = await getCachedResult(
                 computeGenericAggregation,
                 context.db,
-                ['user_info.country_normalized'],
+                ['user_info.country_alpha3'],
                 { sort: 'id', limit: 999, cutoff: 1 }
             )
             return allYears
@@ -33,7 +33,7 @@ export default {
             const allYears = await getCachedResult(
                 computeGenericAggregation,
                 context.db,
-                ['user_info.country_normalized'],
+                ['user_info.country_alpha3'],
                 { sort: 'id', limit: 999, cutoff: 1 }
             )
             return allYears.find(y => y.year === args.year)
