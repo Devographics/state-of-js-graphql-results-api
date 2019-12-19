@@ -61,3 +61,39 @@ export const computeSalaryRangeByYear = async db => {
 
     return appendCompletionToYearlyResults(db, salaryRangeByYear)
 }
+
+export const computeSalaryByJobTitle = async (db, year) => {
+    const collection = db.collection('normalized_responses')
+
+    const results = await collection
+        .aggregate([
+            // exclude null and empty values
+            {
+                $match: {
+                    'user_info.yearly_salary': { $nin: [null, ''] },
+                    'user_info.job_title': { $nin: [null, ''] }
+                }
+            },
+            {
+                $group: {
+                    _id: {
+                        salary: `$user_info.yearly_salary`,
+                        jobTitle: '$user_info.job_title'
+                    },
+                    total: { $sum: 1 }
+                }
+            },
+            // reshape documents
+            {
+                $project: {
+                    _id: 0,
+                    salary: '$_id.salary',
+                    jobTitle: '$_id.jobTitle',
+                    total: 1
+                }
+            }
+        ])
+        .toArray()
+
+    return results
+}
