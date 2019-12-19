@@ -550,11 +550,11 @@
   homepage: https://www.lynda.com/
   category: resources
 - id: egghead
-  name: egghead.io
+  name: Egghead.io
   homepage: https://egghead.io/
   category: resources
 - id: caniuse
-  name: Can I use
+  name: Can I Use
   homepage: https://caniuse.com/
   category: resources
 - id: front_end_masters
@@ -562,7 +562,7 @@
   homepage: https://frontendmasters.com/
   category: resources
 - id: treehouse
-  name: treehouse
+  name: Treehouse
   homepage: https://teamtreehouse.com/
   category: resources
 - id: codepen
@@ -578,11 +578,11 @@
   homepage: https://developers.google.com/web/shows/http203/podcast/
   category: resources
 - id: alligator
-  name: alligator.io
+  name: Alligator.io
   homepage: https://alligator.io/
   category: resources
 - id: devto
-  name: dev.to
+  name: Dev.to
   homepage: https://dev.to/
   category: resources
 - id: css_wizardry
@@ -721,11 +721,11 @@
   homepage: https://react.statuscode.com/
   category: newsletters
 - id: node_weekly
-  name: Node weekly
+  name: Node Weekly
   homepage: https://nodeweekly.com/
   category: newsletters
 - id: ember_times
-  name: The Ember times
+  name: The Ember Times
   homepage: https://the-emberjs-times.ongoodbits.com/
   category: newsletters
 - id: hackernoon
