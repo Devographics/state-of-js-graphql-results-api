@@ -602,7 +602,13 @@
   category: resources
 - id: youtube
   name: YouTube
-  category: resources
+  category: youtube
+  aliases:
+    - YouTube
+- id: vuemastery
+  id: Vue Mastery
+  homepage: https://www.vuemastery.com/
+  category: courses
 - id: frontend_focus
   name: Frontend Focus
   homepage: https://frontendfoc.us/
@@ -746,3 +752,81 @@
   name: JavaScript.info
   homepage: https://javascript.info/
   category: resources
+
+- id: laracasts
+  name: Laracasts
+  homepage: https://laracasts.com/
+  category: courses
+- id: testingjavascript
+  name: Testing JavaScript
+  homepage: https://testingjavascript.com/
+  category: courses
+- id: linkedin_learning
+  name: LinkedIn Learning
+  homepage: https://www.linkedin.com/learning/
+  category: courses
+- id: academind
+  name: Academind
+  homepage: academind
+  category: courses
+- id: tylermcginnis
+  name: Tyle McGinnis
+  homepage: https://tylermcginnis.com/
+  category: courses
+- id: ultimate_courses
+  name: Ultimate Courses
+  homepage: https://ultimatecourses.com/
+  category: courses
+
+- id: frontend_happyhour
+  name: Front End Happy Hour
+  homepage: https://frontendhappyhour.com/
+  category: podcasts
+- id: javascript_jabber
+  name: JavaScript Jabber
+  homepage: https://devchat.tv/js-jabber/
+  category: podcasts
+- id: full_stack_radio
+  name: Full Stack Radio
+  homepage: http://www.fullstackradio.com/
+  category: podcasts
+- id: js_party
+  name: JS Party
+  homepage: https://changelog.com/jsparty
+  category: podcasts
+- id: codepen_radio
+  name: CodePen Radio
+  homepage: https://blog.codepen.io/radio/
+  category: podcasts
+- id: jamstack_radio
+  name: JAMStack Radio
+  homepage: https://www.heavybit.com/library/podcasts/jamstack-radio/
+  category: podcasts
+- id: modern_web
+  name: Modern Web
+  homepage: https://modernweb.podbean.com/
+  category: podcasts
+- id: web_platform_podcast
+  name: The Web Platform Podcast
+  homepage: https://thewebplatformpodcast.com/
+  category: podcasts
+- id: software_engineering_daily
+  name: Software Engineering Daily
+  homepage: https://softwareengineeringdaily.com/
+  category: podcasts
+- id: ladybug
+  name: Ladybug Podcast
+  homepage: https://ladybug.dev/
+  category: podcasts
+- id: real_talk_javascript
+  name: Real Talk JavaScript
+  homepage: https://realtalkjavascript.simplecast.com/
+  category: podcasts
+- id: undefined_podcast
+  name: The Undefined Podcast
+  homepage: https://undefined.fm/
+  category: podcasts
+- id: fun_fun_function
+  name: Fun Fun Funcction
+  homepage: https://www.youtube.com/channel/UCO1cgjhGzsSYb1rsB4bFe4Q
+  category: YouTube
