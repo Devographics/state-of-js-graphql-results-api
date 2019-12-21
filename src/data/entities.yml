@@ -602,11 +602,12 @@
   category: resources
 - id: youtube
   name: YouTube
+  homepage: https://youtube.com
   category: youtube
   aliases:
     - YouTube
 - id: vuemastery
-  id: Vue Mastery
+  name: Vue Mastery
   homepage: https://www.vuemastery.com/
   category: courses
 - id: frontend_focus
@@ -827,6 +828,10 @@
   homepage: https://undefined.fm/
   category: podcasts
 - id: fun_fun_function
-  name: Fun Fun Funcction
+  name: Fun Fun Function
   homepage: https://www.youtube.com/channel/UCO1cgjhGzsSYb1rsB4bFe4Q
   category: YouTube
+- id: angular_in_depth
+  name: Angular In Depth
+  homepage: https://indepth.dev/
+  category: blogs
