@@ -557,7 +557,7 @@
   name: Can I Use
   homepage: https://caniuse.com/
   category: resources
-- id: front_end_masters
+- id: frontendmasters
   name: Frontend Masters
   homepage: https://frontendmasters.com/
   category: resources
@@ -619,6 +619,8 @@
   name: Traversy Media
   homepage: https://www.traversymedia.com/
   category: resources
+  aliases:
+    - traversy
 - id: superhi
   name: SuperHi
   homepage: https://www.superhi.com/
