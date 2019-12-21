@@ -740,3 +740,7 @@
   name: Robin Wieruch
   homepage: https://www.robinwieruch.de/
   category: blogs
+- id: javascript_info
+  name: JavaScript.info
+  homepage: https://javascript.info/
+  category: resources
