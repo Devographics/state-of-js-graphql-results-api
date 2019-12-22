@@ -613,7 +613,7 @@
   homepage: https://youtube.com
   category: youtube
   aliases:
-    - YouTube
+      - YouTube
 - id: vuemastery
   name: Vue Mastery
   homepage: https://www.vuemastery.com/
@@ -635,7 +635,7 @@
   homepage: https://www.traversymedia.com/
   category: resources
   aliases:
-    - traversy
+      - traversy
 - id: superhi
   name: SuperHi
   homepage: https://www.superhi.com/
@@ -778,7 +778,7 @@
   name: Academind
   homepage: academind
   category: courses
-- id: tyler_mcginnis
+- id: tylermcginnis
   name: Tyle McGinnis
   homepage: https://tylermcginnis.com/
   category: courses
@@ -843,85 +843,3 @@
   name: Angular In Depth
   homepage: https://indepth.dev/
   category: blogs
-- id: web_dev
-  name: Web.dev
-  homepage: https://web.dev/
-  category: sites
-  aliases: 
-    - web-dev
-- id: web_development_reading_list
-  name: Web Development Reading List
-  homepage: https://wdrl.info/
-  category: newsletters
-- id: esnext
-  name: ESNext News
-  homepage: http://esnextnews.com/
-  category: newsletters
-- id: ponyfoo
-  name: Pony Foo
-  homepage: https://ponyfoo.com/
-  category: blogs
-- id: designcode
-  name: Design+Code
-  homepage: https://designcode.io/
-  category: courses
-- id: elm_slack
-  name: Elm Slack
-  homepage: https://elmlang.herokuapp.com/
-  category: chats
-- id: soft_skills_engineering
-  name: Soft Skills Engineering Podcast
-  homepage: https://softskills.audio/
-  category: podcasts
-- id: frontend_weekend
-  name: Frontend Weekend
-  homepage: https://frontendweekend.ml/
-  category: podcasts
-- id: odin_project
-  name: The Odin Project
-  homepage: https://www.theodinproject.com/
-  category: courses
-- id: elmtown
-  name: Elm Town
-  homepage: https://elmtown.simplecast.fm/
-  category: courses
-- id: command_line_heroes
-  name: Command Line Heroes
-  homepage: https://www.redhat.com/en/command-line-heroes
-  category: podcasts
-- id: adventures_in_angular
-  name: Adventures in Angular
-  homepage: https://devchat.tv/adv-in-angular/
-  category: podcasts
-- id: coding_blocks
-  name: Coding Blocks
-  homepage: https://www.codingblocks.net/
-  category: podcasts
-- id: dot_net_rocks
-  name: .NET Rocks
-  homepage: https://www.dotnetrocks.com/
-  category: podcasts
-- id: embermap
-  name: EmberMap
-  homepage: https://embermap.com/
-  category: podcasts
-- id: views_on_vue
-  name: Views on Vue
-  homepage: https://devchat.tv/views-on-vue/
-  category: podcasts
-- id: reason_town
-  name: Reason Town
-  homepage: https://player.fm/series/reason-town
-  category: podcasts
-- id: devmode
-  name: DevMode.fm
-  homepage: https://devmode.fm/
-  category: podcasts
-- id: hipsters_tech
-  name: Hipsters Ponto Tech
-  homepage: https://hipsters.tech/
-  category: podcasts
-- id: vueschool
-  name: Vue School
-  homepage: https://vueschool.io/
-  category: courses

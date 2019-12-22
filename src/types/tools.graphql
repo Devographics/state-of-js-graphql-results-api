@@ -1,0 +1,139 @@
+enum ToolID {
+    # JS flavors
+    typescript
+    reason
+    elm
+    clojurescript
+    purescript
+    # JS front end frameworks
+    react
+    vuejs
+    angular
+    preact
+    ember
+    svelte
+    # JS data layer
+    redux
+    apollo
+    graphql
+    relay
+    mobx
+    # JS back end frameworks
+    express
+    nextjs
+    koa
+    meteor
+    sails
+    feathers
+    nuxt
+    gatsby
+    # JS testing
+    jest
+    mocha
+    storybook
+    cypress
+    enzyme
+    ava
+    jasmine
+    puppeteer
+    # JS mobile desktop
+    electron
+    reactnative
+    nativeapps
+    cordova
+    ionic
+    nwjs
+    expo
+
+}
+
+"""
+An aggregation bucket for tool experience containing both an absolute count
+for the parent year, and the percentage it corresponds to regarding
+the total number of respondents who have answered the question
+in this particular year.
+"""
+type ToolExperienceBucket @cacheControl(maxAge: 600) {
+    id: ToolID
+    count: Int
+    percentage: Float
+}
+
+"""
+Experience ranking for a tool in a specific year, even if the data
+is computed at the same point in time, we estimate that there is a logical
+progression in this:
+
+awareness > interest > satisfaction
+"""
+type ToolAwarenessInterestSatisfaction @cacheControl(maxAge: 600) {
+    """
+    Awareness is the total number of participants who answered to
+    the experience question VS those who never heard of a tool.
+
+    This value is expressed as a percentage.
+    """
+    awareness: Float
+    """
+    Interest is the ratio of participants who heard of tool and
+    are interested/not interested VS those who are only interested in it.
+
+    This value is expressed as a percentage.
+    """
+    interest: Float
+    """
+    Satisfaction is the ratio of participants who used of tool and
+    are satisfied/not satisfied VS those who are willing to use it again.
+
+    This value is expressed as a percentage.
+    """
+    satisfaction: Float
+}
+
+type ToolYearExperience @cacheControl(maxAge: 600) {
+    year: Int
+    """
+    Total number of respondents who have answered this specific question.
+    """
+    total: Int
+    completion: Completion
+    buckets: [ToolExperienceBucket] @cacheControl(maxAge: 600)
+    awarenessInterestSatisfaction: ToolAwarenessInterestSatisfaction
+}
+
+type ToolExperience @cacheControl(maxAge: 600) {
+    allYears: [ToolYearExperience]
+    year(year: Int!): ToolYearExperience
+}
+
+type Tool @cacheControl(maxAge: 600) {
+    id: ToolID!
+    experience: ToolExperience @cacheControl(maxAge: 600)
+    entity: Entity
+}
+
+type ToolExperienceRankingYearMetric @cacheControl(maxAge: 600) {
+    year: Int
+    rank: Int
+    percentage: Float
+}
+
+"""
+Used to represent the ranking of a tool compared to others
+for awareness/interest and stisfaction.
+"""
+type ToolExperienceRanking @cacheControl(maxAge: 600) {
+    id: ToolID
+    entity: Entity
+    awareness: [ToolExperienceRankingYearMetric] @cacheControl(maxAge: 600)
+    interest: [ToolExperienceRankingYearMetric] @cacheControl(maxAge: 600)
+    satisfaction: [ToolExperienceRankingYearMetric] @cacheControl(maxAge: 600)
+}
+
+"""
+Contains various rankings for a set of tools.
+"""
+type ToolsRankings @cacheControl(maxAge: 600) {
+    ids: [ToolID] @cacheControl(maxAge: 600)
+    experience: [ToolExperienceRanking] @cacheControl(maxAge: 600)
+}

@@ -1,0 +1,34 @@
+#import "./categories.graphql"
+#import "./demographics.graphql"
+#import "./entity.graphql"
+#import "./features.graphql"
+#import "./github.graphql"
+#import "./matrices.graphql"
+#import "./mdn.graphql"
+#import "./opinions.graphql"
+#import "./other_tools.graphql"
+#import "./resources.graphql"
+#import "./tools.graphql"
+
+enum SurveyType {
+    js
+    css
+}
+
+type Survey @cacheControl(maxAge: 600) {
+    survey: SurveyType
+    year: Int
+    tool(id: ToolID!): Tool
+    tools(ids: [ToolID]): [Tool] @cacheControl(maxAge: 600)
+    toolsRankings(ids: [ToolID]!): ToolsRankings
+    feature(id: FeatureID!): Feature
+    features(ids: [FeatureID]): [Feature] @cacheControl(maxAge: 600)
+    demographics: Demographics
+    opinion(id: OpinionID!): Opinion
+    otherTools(id: OtherToolsID!): OtherTools
+    resources(id: ResourcesID!): Resources
+    entity(id: ID!): Entity
+    category(id: CategoryID!): Category
+    matrices: Matrices
+}
+

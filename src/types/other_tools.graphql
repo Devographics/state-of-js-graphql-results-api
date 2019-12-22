@@ -1,0 +1,29 @@
+enum OtherToolsID {
+    utilities
+    utilities_others
+    text_editors
+    text_editors_others
+    browsers
+    browsers_others
+    build_tools
+    build_tools_others
+    non_js_languages
+    non_js_languages_others
+}
+
+type YearOtherTools @cacheControl(maxAge: 600) {
+    year: Int
+    """
+    Total number of respondents who have answered this specific question.
+    """
+    total: Int
+    completion: Completion
+    buckets: [EntityBucket] @cacheControl(maxAge: 600)
+}
+
+type OtherTools @cacheControl(maxAge: 600) {
+    id: OtherToolsID!
+    # byYear: [YearResource] @cacheControl(maxAge: 600)
+    year(year: Int!): YearOtherTools
+    allYears: [YearOtherTools]
+}

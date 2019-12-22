@@ -1,29 +1,46 @@
 {
-  "name": "state-of-js-graphql-results-api",
-  "version": "1.0.0",
-  "main": "index.js",
-  "license": "MIT",
-  "dependencies": {
-    "apollo-server": "^2.9.12",
-    "apollo-server-plugin-response-cache": "^0.3.8",
-    "dotenv": "^8.2.0",
-    "graphiql": "^0.17.2",
-    "graphiql-explorer": "^0.4.5",
-    "graphql": "^14.5.8",
-    "lodash": "^4.17.15",
-    "mongodb": "^3.3.5"
-  },
-  "devDependencies": {
-    "prettier": "^1.19.1"
-  },
-  "scripts": {
-    "start": "node server.mjs",
-    "fmt": "prettier --write \"src/**/*.{js,mjs,yml}\""
-  },
-  "engines": {
-    "node": "13.2.0"
-  },
-  "nodemonConfig": {
-    "ext": "js,json,graphql,gql,mjs,yml,yaml"
-  }
+    "name": "state-of-js-graphql-results-api",
+    "version": "1.0.0",
+    "main": "index.js",
+    "license": "MIT",
+    "dependencies": {
+        "apollo-server": "^2.9.12",
+        "apollo-server-plugin-response-cache": "^0.3.8",
+        "dotenv": "^8.2.0",
+        "graphiql": "^0.17.2",
+        "graphiql-explorer": "^0.4.5",
+        "graphql": "^14.5.8",
+        "lodash": "^4.17.15",
+        "mongodb": "^3.3.5"
+    },
+    "devDependencies": {
+        "@types/js-yaml": "^3.12.1",
+        "@types/mongodb": "^3.3.13",
+        "@types/node": "^12.12.21",
+        "@types/webpack-env": "^1.14.1",
+        "clean-webpack-plugin": "^3.0.0",
+        "graphql-tag": "^2.10.1",
+        "npm-run-all": "^4.1.5",
+        "prettier": "^1.19.1",
+        "ts-loader": "^6.2.1",
+        "typescript": "^3.7.4",
+        "webpack": "^4.41.4",
+        "webpack-cli": "^3.3.10",
+        "webpack-merge": "^4.2.2",
+        "webpack-node-externals": "^1.7.2",
+        "yaml-loader": "^0.5.0"
+    },
+    "scripts": {
+        "build": "webpack --config webpack.$NODE_ENV.js",
+        "start": "npm-run-all --serial build start:server",
+        "start:server": "node ./dist/server.js",
+        "start:server:env": "node --require dotenv/config dist/server.js",
+        "fmt": "prettier --write \"src/**/*.{ts,js,mjs,yml,gql}\""
+    },
+    "engines": {
+        "node": ">=13.0.0"
+    },
+    "nodemonConfig": {
+        "ext": "js,json,graphql,gql,mjs,yml,yaml"
+    }
 }
