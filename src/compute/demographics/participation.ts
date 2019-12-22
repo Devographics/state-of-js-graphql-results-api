@@ -2,10 +2,10 @@ import _ from 'lodash'
 import { Db } from 'mongodb'
 import { SurveyConfig, YearParticipation } from '../../types'
 
-export const computeParticipationByYear = async (
+export async function computeParticipationByYear(
     db: Db,
     survey: SurveyConfig
-): Promise<YearParticipation[]> => {
+): Promise<YearParticipation[]> {
     const collection = db.collection('normalized_responses')
 
     const participantsByYear = await collection
@@ -34,12 +34,12 @@ export const computeParticipationByYear = async (
     return _.orderBy(participantsByYear, 'year')
 }
 
-export const getParticipationByYearMap = async (
+export async function getParticipationByYearMap(
     db: Db,
     survey: SurveyConfig
 ): Promise<{
     [key: number]: number
-}> => {
+}> {
     const buckets = await computeParticipationByYear(db, survey)
 
     return buckets.reduce((acc, bucket) => {
