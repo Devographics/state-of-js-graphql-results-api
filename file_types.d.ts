@@ -4,3 +4,8 @@ declare module '*.graphql' {
 
     export = Schema
 }
+
+declare module '*.yml' {
+    const content: any
+    export default content
+}

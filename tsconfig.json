@@ -1,6 +1,6 @@
 {
   "compilerOptions": {
-    "target": "es5",
+    "target": "es2017",
     "module": "commonjs",
     "lib": ["es7"],
     "outDir": "dist",
@@ -9,9 +9,9 @@
     "strict": true,
     "esModuleInterop": true,
     "experimentalDecorators": true,
-    "noImplicitAny": false
+    "noImplicitAny": true
   },
-  "files": ["graphql.d.ts"],
+  "files": ["file_types.d.ts"],
   "exclude": ["/node_modules/"],
   "include": ["src/**/*"]
 }

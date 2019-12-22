@@ -1,31 +1,37 @@
-// import { getEntity, loadYaml } from '../helpers'
+import { getEntity } from '../helpers'
 // import { getCategoryTools } from './category'
-import { SurveyConfig } from '../types'
+import { SurveyConfig, SurveyType } from '../types'
 // const enums = loadYaml('./src/data/enums.yml')
 
 export default {
     Survey: {
-        demographics: (survey: SurveyConfig) => ({
-            participation: { survey },
-            country: { survey },
-            source: { survey },
-            gender: { survey },
-            salary: { survey },
-            companySize: { survey },
-            workExperience: { survey },
-            jobTitle: { survey },
-            cssProficiency: { survey },
-            backendProficiency: { survey }
-        }),
-        // tool: async (survey, { id }, context, info) => ({
-        //     survey,
-        //     id,
-        //     entity: getEntity({ id }),
-        //     experience: {
-        //         survey,
-        //         id
-        //     }
-        // }),
+        demographics: (survey: SurveyConfig) => {
+            console.log({ survey })
+
+            return {
+                participation: { survey },
+                country: { survey },
+                source: { survey },
+                gender: { survey },
+                salary: { survey },
+                companySize: { survey },
+                workExperience: { survey },
+                jobTitle: { survey },
+                cssProficiency: { survey },
+                backendProficiency: { survey }
+            }
+        },
+        tool: async (survey: SurveyConfig, { id }: { id: string }) => {
+            return {
+                survey,
+                id,
+                entity: getEntity({ id }),
+                experience: {
+                    survey,
+                    id
+                }
+            }
+        },
         // tools: async (survey, { ids }, context, info) => {
         //     const toolIds = ids || enums.tool
         //     return toolIds.map(id => ({
