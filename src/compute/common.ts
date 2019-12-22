@@ -16,26 +16,28 @@ export const computeCompletion = (answerCount: number, totalCount: number) => {
     return ratioToPercentage(answerCount / totalCount)
 }
 
-export const appendCompletionToYearlyResults = async (
+/**
+ * Add completion information for yearly buckets.
+ */
+export const appendCompletionToYearlyResults = async <
+    T extends { year: number; total: number; completion: Completion }
+>(
     db: Db,
     survey: SurveyConfig,
-    yearlyResults: any[]
-): Promise<Array<{
-    year: number
-    total: number
-    completion: Completion
-}>> => {
+    yearlyResults: Array<Omit<T, 'completion'>>
+): Promise<T[]> => {
     const totalRespondentsByYear = await getParticipationByYearMap(db, survey)
 
     return yearlyResults.map(yearlyResult => {
         return {
             ...yearlyResult,
             completion: {
+                total: totalRespondentsByYear[yearlyResult.year],
+                count: yearlyResult.total,
                 percentage: ratioToPercentage(
                     yearlyResult.total / totalRespondentsByYear[yearlyResult.year]
-                ),
-                count: yearlyResult.total
+                )
             }
         }
-    })
+    }) as T[]
 }

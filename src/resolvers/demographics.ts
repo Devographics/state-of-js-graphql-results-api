@@ -1,12 +1,12 @@
+import { RequestContext, SurveyConfig } from '../types'
+import { useCache } from '../caching'
 import {
-    computeParticipationByYear
-    // computeSalaryRangeByYear,
+    computeParticipationByYear,
+    computeSalaryRangeByYear
     // computeCompanySizeByYear,
     // computeYearsOfExperienceByYear,
     // computeGenericAggregation
 } from '../compute'
-import { RequestContext, SurveyConfig } from '../types'
-import { getCachedResult } from '../caching'
 
 export default {
     Participation: {
@@ -15,14 +15,14 @@ export default {
             args: any,
             { db }: RequestContext
         ) => {
-            return getCachedResult(computeParticipationByYear, db, [survey])
+            return useCache(computeParticipationByYear, db, [survey])
         },
         year: async ({ survey }: { survey: SurveyConfig }, args: any, { db }: RequestContext) => {
-            const allYears = await getCachedResult(computeParticipationByYear, db, [survey])
+            const allYears = await useCache(computeParticipationByYear, db, [survey])
 
             return allYears.find(y => y.year === args.year)
         }
-    }
+    },
     // Country: {
     //     allYears: async (parent, args, context, info) => {
     //         const allYears = await getCachedResult(
@@ -70,15 +70,20 @@ export default {
     //         return allYears.find(y => y.year === args.year)
     //     }
     // },
-    // Salary: {
-    //     allYears: async (parent, args, context, info) => {
-    //         return await getCachedResult(computeSalaryRangeByYear, context.db)
-    //     },
-    //     year: async (parent, args, context, info) => {
-    //         const allYears = await getCachedResult(computeSalaryRangeByYear, context.db)
-    //         return allYears.find(y => y.year === args.year)
-    //     }
-    // },
+    Salary: {
+        allYears: async (
+            { survey }: { survey: SurveyConfig },
+            args: any,
+            { db }: RequestContext
+        ) => {
+            return useCache(computeSalaryRangeByYear, db, [survey])
+        },
+        year: async ({ survey }: { survey: SurveyConfig }, args: any, { db }: RequestContext) => {
+            const allYears = await useCache(computeSalaryRangeByYear, db, [survey])
+
+            return allYears.find(y => y.year === args.year)
+        }
+    }
     // CompanySize: {
     //     allYears: async (parent, args, context, info) => {
     //         return await getCachedResult(computeCompanySizeByYear, context.db)
