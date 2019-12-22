@@ -1,25 +1,21 @@
 import { getEntity } from '../helpers'
 // import { getCategoryTools } from './category'
-import { SurveyConfig, SurveyType } from '../types'
+import { SurveyConfig } from '../types'
 
 export default {
     Survey: {
-        demographics: (survey: SurveyConfig) => {
-            console.log({ survey })
-
-            return {
-                participation: { survey },
-                country: { survey },
-                source: { survey },
-                gender: { survey },
-                salary: { survey },
-                companySize: { survey },
-                workExperience: { survey },
-                jobTitle: { survey },
-                cssProficiency: { survey },
-                backendProficiency: { survey }
-            }
-        },
+        demographics: (survey: SurveyConfig) => ({
+            participation: { survey },
+            country: { survey },
+            source: { survey },
+            gender: { survey },
+            salary: { survey },
+            companySize: { survey },
+            workExperience: { survey },
+            jobTitle: { survey },
+            cssProficiency: { survey },
+            backendProficiency: { survey }
+        }),
         tool: async (survey: SurveyConfig, { id }: { id: string }) => {
             return {
                 survey,

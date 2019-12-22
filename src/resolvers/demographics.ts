@@ -2,8 +2,8 @@ import { RequestContext, SurveyConfig } from '../types'
 import { useCache } from '../caching'
 import {
     computeParticipationByYear,
-    computeSalaryRangeByYear
-    // computeCompanySizeByYear,
+    computeSalaryRangeByYear,
+    computeCompanySizeByYear
     // computeYearsOfExperienceByYear,
     // computeGenericAggregation
 } from '../compute'
@@ -83,16 +83,21 @@ export default {
 
             return allYears.find(y => y.year === args.year)
         }
+    },
+    CompanySize: {
+        allYears: async (
+            { survey }: { survey: SurveyConfig },
+            args: any,
+            { db }: RequestContext
+        ) => {
+            return useCache(computeCompanySizeByYear, db, [survey])
+        },
+        year: async ({ survey }: { survey: SurveyConfig }, args: any, { db }: RequestContext) => {
+            const allYears = await useCache(computeCompanySizeByYear, db, [survey])
+
+            return allYears.find(y => y.year === args.year)
+        }
     }
-    // CompanySize: {
-    //     allYears: async (parent, args, context, info) => {
-    //         return await getCachedResult(computeCompanySizeByYear, context.db)
-    //     },
-    //     year: async (parent, args, context, info) => {
-    //         const allYears = await getCachedResult(computeCompanySizeByYear, context.db)
-    //         return allYears.find(y => y.year === args.year)
-    //     }
-    // },
     // WorkExperience: {
     //     allYears: async (parent, args, context, info) => {
     //         return await getCachedResult(computeYearsOfExperienceByYear, context.db)
