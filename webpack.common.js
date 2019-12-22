@@ -11,17 +11,17 @@ module.exports = {
             {
                 test: /\.yml$/,
                 exclude: /node_modules/,
-                loader: 'yaml'
+                use: 'js-yaml-loader'
             },
             {
                 test: /\.graphql$/,
                 exclude: /node_modules/,
-                loader: 'graphql-tag/loader'
+                use: 'graphql-tag/loader'
             },
             {
                 test: /\.ts$/,
                 exclude: /node_modules/,
-                loader: 'ts-loader'
+                use: 'ts-loader'
             }
         ]
     },
@@ -33,5 +33,6 @@ module.exports = {
         extensions: ['.ts', '.js', '.yml', '.graphql']
     },
     externals: [nodeExternals({})],
-    target: 'node'
+    target: 'node',
+    node: false
 }

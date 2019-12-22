@@ -13,6 +13,7 @@ export interface SurveyConfig {
     year: number
 }
 
+export * from './demographics'
 export * from './entity'
 export * from './features'
 export * from './github'

@@ -3,11 +3,9 @@ dotenv.config()
 import { ApolloServer } from 'apollo-server'
 import { MongoClient } from 'mongodb'
 import responseCachePlugin from 'apollo-server-plugin-response-cache'
-import schema from './types/schema.graphql'
+import typeDefs from './type_defs/schema.graphql'
 import { RequestContext } from './types'
 import resolvers from './resolvers'
-
-console.log(resolvers)
 
 const start = async () => {
     const mongoClient = new MongoClient(process.env!.MONGO_URI!, {
@@ -19,8 +17,9 @@ const start = async () => {
     const db = mongoClient.db(process.env.MONGO_DB_NAME)
 
     const server = new ApolloServer({
-        typeDefs: schema,
-        resolvers,
+        typeDefs,
+        resolvers: resolvers as any,
+        debug: true,
         tracing: true,
         cacheControl: true,
         introspection: true,
@@ -36,7 +35,7 @@ const start = async () => {
 
     // see https://stackoverflow.com/a/15693371/649299
     server.listen(process.env.PORT || 4000).then(({ url }) => {
-        console.log(`🚀  Server ready at ${url}`)
+        console.log(`\n  🚀 Server ready at ${url} 🚀\n`)
     })
 }
 
