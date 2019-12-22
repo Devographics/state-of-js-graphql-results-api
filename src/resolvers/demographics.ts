@@ -4,8 +4,8 @@ import {
     computeParticipationByYear,
     computeSalaryRangeByYear,
     computeCompanySizeByYear,
-    computeYearsOfExperienceByYear
-    // computeGenericAggregation
+    computeYearsOfExperienceByYear,
+    computeTermAggregationByYear
 } from '../compute'
 
 export default {
@@ -57,19 +57,23 @@ export default {
     //         return allYears.find(y => y.year === args.year)
     //     }
     // },
-    // Gender: {
-    //     allYears: async (parent, args, context, info) => {
-    //         return await getCachedResult(computeGenericAggregation, context.db, [
-    //             'user_info.gender'
-    //         ])
-    //     },
-    //     year: async (parent, args, context, info) => {
-    //         const allYears = await getCachedResult(computeGenericAggregation, context.db, [
-    //             'user_info.gender'
-    //         ])
-    //         return allYears.find(y => y.year === args.year)
-    //     }
-    // },
+    Gender: {
+        allYears: async (
+            { survey }: { survey: SurveyConfig },
+            args: any,
+            { db }: RequestContext
+        ) => {
+            return useCache(computeTermAggregationByYear, db, [survey, 'user_info.gender'])
+        },
+        year: async ({ survey }: { survey: SurveyConfig }, args: any, { db }: RequestContext) => {
+            const allYears = await useCache(computeTermAggregationByYear, db, [
+                survey,
+                'user_info.gender'
+            ])
+
+            return allYears.find(y => y.year === args.year)
+        }
+    },
     Salary: {
         allYears: async (
             { survey }: { survey: SurveyConfig },
