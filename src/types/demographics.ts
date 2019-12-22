@@ -80,6 +80,10 @@ type Gender @cacheControl(maxAge: 600) {
 }
 */
 
+/*
+ * Salary
+ */
+
 export interface SalaryBucket {
     id: string
     count: number
@@ -99,30 +103,28 @@ export interface Salary {
 }
 
 /*
-"""
-Company Size
-"""
+ * Company Size
+ */
 
-type CompanySizeBucket @cacheControl(maxAge: 600) {
-    id: String
-    count: Int
-    percentage: Float
+export interface CompanySizeBucket {
+    id: string
+    count: number
+    percentage: number
 }
 
-type YearCompanySize @cacheControl(maxAge: 600) {
-    year: Int
-    """
-    Total number of respondents who have answered this specific question.
-    """
-    total: Int
+export interface YearCompanySize {
+    year: number
+    total: number
     completion: Completion
-    buckets: [CompanySizeBucket] @cacheControl(maxAge: 600)
+    buckets: CompanySizeBucket[]
 }
 
-type CompanySize @cacheControl(maxAge: 600) {
-    allYears: [YearCompanySize]
-    year(year: Int!): YearCompanySize
+export interface CompanySize {
+    allYears: YearCompanySize[]
+    year: YearCompanySize
 }
+
+/*
 
 """
 Experience
