@@ -4,8 +4,9 @@
 Completion ratio and count
 """
 type Completion {
-    percentage: Float
+    total: Int
     count: Int
+    percentage: Float
 }
 
 type Query {

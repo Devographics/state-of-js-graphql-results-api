@@ -34,7 +34,7 @@ export const computeKey = (func: Function, args?: any) => {
     return `${func.name}(${serializedArgs})`
 }
 
-export const getCachedResult = async <F extends DynamicComputeCall>(
+export const useCache = async <F extends DynamicComputeCall>(
     func: F,
     db: Db,
     args: ArgumentTypes<F>
