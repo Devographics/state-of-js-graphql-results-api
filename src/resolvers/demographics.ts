@@ -6,7 +6,7 @@ import {
     // computeGenericAggregation
 } from '../compute'
 import { RequestContext, SurveyConfig } from '../types'
-// import { getCachedResult } from '../caching'
+import { getCachedResult } from '../caching'
 
 export default {
     Participation: {
@@ -15,12 +15,10 @@ export default {
             args: any,
             { db }: RequestContext
         ) => {
-            return computeParticipationByYear(db, survey)
-            // return getCachedResult(computeParticipationByYear, context.db)
+            return getCachedResult(computeParticipationByYear, db, [survey])
         },
         year: async ({ survey }: { survey: SurveyConfig }, args: any, { db }: RequestContext) => {
-            // const allYears = getCachedResult(computeParticipationByYear, context.db)
-            const allYears = await computeParticipationByYear(db, survey)
+            const allYears = await getCachedResult(computeParticipationByYear, db, [survey])
 
             return allYears.find(y => y.year === args.year)
         }

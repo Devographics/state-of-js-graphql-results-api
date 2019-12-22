@@ -1,7 +1,6 @@
 import { getEntity } from '../helpers'
 // import { getCategoryTools } from './category'
 import { SurveyConfig, SurveyType } from '../types'
-// const enums = loadYaml('./src/data/enums.yml')
 
 export default {
     Survey: {
