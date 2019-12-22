@@ -1,0 +1,7 @@
+enum ExperienceID {
+    would_use
+    would_not_use
+    interested
+    not_interested
+    never_heard
+}

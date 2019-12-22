@@ -1,0 +1,24 @@
+enum ResourcesID {
+    blogs_news_magazines
+    blogs_news_magazines_others
+    sites_courses
+    sites_courses_others
+    podcasts
+    podcasts_others
+}
+
+type YearResources @cacheControl(maxAge: 600) {
+    year: Int
+    """
+    Total number of respondents who have answered this specific question.
+    """
+    total: Int
+    completion: Completion
+    buckets: [EntityBucket] @cacheControl(maxAge: 600)
+}
+
+type Resources @cacheControl(maxAge: 600) {
+    id: ResourcesID!
+    allYears: [YearResources] @cacheControl(maxAge: 600)
+    year(year: Int!): YearResources
+}

@@ -1,5 +1,0 @@
-export * from './company_size.mjs'
-export * from './gender.mjs'
-export * from './participation.mjs'
-export * from './salary.mjs'
-export * from './years_of_experience.mjs'
