@@ -16,6 +16,10 @@
       it simply defines a set of classes representing single-purpose styling units.
   homepage: 'https://acss.io'
   name: 'Atomic CSS'
+- id: bazel
+  name: Bazel
+  homepage: https://bazel.build/
+  category: other-tools
 - id: bbedit
   name: BBEdit
   homepage: https://www.barebones.com/products/bbedit/
@@ -64,6 +68,10 @@
 - id: coda
   name: Coda
   homepage: https://panic.com/coda/
+- id: CodeKit
+  name: codekit
+  homepage: https://codekitapp.com/
+  category: other-tools
 - id: css-modules
   github: css-modules/css-modules
   name: CSS Modules
