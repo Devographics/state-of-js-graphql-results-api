@@ -125,32 +125,28 @@ export interface CompanySize {
 }
 
 /*
+ * Years of experience
+ */
 
-"""
-Experience
-"""
-
-type WorkExperienceBucket @cacheControl(maxAge: 600) {
-    id: String
-    count: Int
-    percentage: Float
+export interface WorkExperienceBucket {
+    id: string
+    count: number
+    percentage: number
 }
 
-type YearWorkExperience @cacheControl(maxAge: 600) {
-    year: Int
-    """
-    Total number of respondents who have answered this specific question.
-    """
-    total: Int
+export interface YearWorkExperience {
+    year: number
+    total: number
     completion: Completion
-    buckets: [WorkExperienceBucket] @cacheControl(maxAge: 600)
+    buckets: WorkExperienceBucket[]
 }
 
-type WorkExperience @cacheControl(maxAge: 600) {
-    allYears: [YearWorkExperience]
-    year(year: Int!): YearWorkExperience
+export interface WorkExperience {
+    allYears: YearWorkExperience[]
+    year: YearWorkExperience
 }
 
+/*
 """
 Job Title
 """
