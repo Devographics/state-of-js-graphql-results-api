@@ -921,3 +921,7 @@
   name: Hipsters Ponto Tech
   homepage: https://hipsters.tech/
   category: podcasts
+- id: vueschool
+  name: Vue School
+  homepage: https://vueschool.io/
+  category: courses
