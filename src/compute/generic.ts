@@ -30,6 +30,7 @@ export async function computeTermAggregationByYear(
         .aggregate([
             {
                 $match: {
+                    survey: survey.survey,
                     [key]: { $nin: [null, ''] }
                 }
             },
