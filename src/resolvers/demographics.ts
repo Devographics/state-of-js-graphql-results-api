@@ -1,10 +1,6 @@
 import { RequestContext, SurveyConfig } from '../types'
 import { useCache } from '../caching'
-import {
-    computeParticipationByYear,
-    computeYearsOfExperienceByYear,
-    computeTermAggregationByYear
-} from '../compute'
+import { computeParticipationByYear, computeTermAggregationByYear } from '../compute'
 
 export default {
     Participation: {
@@ -122,10 +118,18 @@ export default {
             args: any,
             { db }: RequestContext
         ) => {
-            return useCache(computeYearsOfExperienceByYear, db, [survey])
+            return useCache(computeTermAggregationByYear, db, [
+                survey,
+                'user_info.years_of_experience',
+                { limit: 100 }
+            ])
         },
         year: async ({ survey }: { survey: SurveyConfig }, args: any, { db }: RequestContext) => {
-            const allYears = await useCache(computeYearsOfExperienceByYear, db, [survey])
+            const allYears = await useCache(computeTermAggregationByYear, db, [
+                survey,
+                'user_info.years_of_experience',
+                { limit: 100 }
+            ])
 
             return allYears.find(y => y.year === args.year)
         }
