@@ -133,21 +133,23 @@ export default {
 
             return allYears.find(y => y.year === args.year)
         }
-    }
-    // JobTitle: {
-    //     allYears: async (parent, args, context, info) => {
-    //         const allYears = await getCachedResult(computeGenericAggregation, context.db, [
-    //             'user_info.job_title'
-    //         ])
-    //         return allYears
-    //     },
-    //     year: async (parent, args, context, info) => {
-    //         const allYears = await getCachedResult(computeGenericAggregation, context.db, [
-    //             'user_info.job_title'
-    //         ])
-    //         return allYears.find(y => y.year === args.year)
-    //     }
-    // },
+    },
+    JobTitle: {
+        allYears: async ({ survey }: { survey: SurveyConfig }, args: any, { db }: RequestContext) => {
+            return  useCache(computeTermAggregationByYear, db, [
+                survey,
+                'user_info.job_title'
+            ])
+        },
+        year: async ({ survey }: { survey: SurveyConfig }, args: any, { db }: RequestContext) => {
+            const allYears = await useCache(computeTermAggregationByYear, db, [
+                survey,
+                'user_info.job_title'
+            ])
+
+            return allYears.find(y => y.year === args.year)
+        }
+    },
     // CSSProficiency: {
     //     allYears: async (parent, args, context, info) => {
     //         const allYears = await getCachedResult(
