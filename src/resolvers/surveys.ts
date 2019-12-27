@@ -65,7 +65,6 @@ export default {
         //     }))
         // },
         opinion: async (survey: SurveyConfig, { id }: { id: string }) => {
-            console.log('OPINION')
             return {
                 survey,
                 id

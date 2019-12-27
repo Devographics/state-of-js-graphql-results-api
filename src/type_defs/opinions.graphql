@@ -8,7 +8,7 @@ enum OpinionID {
 }
 
 type OpinionBucket @cacheControl(maxAge: 600) {
-    id: OpinionID
+    id: Int
     count: Int
     percentage: Float
 }
