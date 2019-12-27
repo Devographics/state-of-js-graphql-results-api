@@ -1,6 +1,6 @@
 import _ from 'lodash'
 import { Db } from 'mongodb'
-import { SurveyConfig, YearParticipation } from '../../types'
+import { SurveyConfig, YearParticipation } from '../types'
 
 export async function computeParticipationByYear(
     db: Db,
