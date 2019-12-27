@@ -17,26 +17,28 @@ export default {
             return allYears.find(y => y.year === args.year)
         }
     },
-    // Country: {
-    //     allYears: async (parent, args, context, info) => {
-    //         const allYears = await getCachedResult(
-    //             computeGenericAggregation,
-    //             context.db,
-    //             ['user_info.country_alpha3'],
-    //             { sort: 'id', limit: 999, cutoff: 1 }
-    //         )
-    //         return allYears
-    //     },
-    //     year: async (parent, args, context, info) => {
-    //         const allYears = await getCachedResult(
-    //             computeGenericAggregation,
-    //             context.db,
-    //             ['user_info.country_alpha3'],
-    //             { sort: 'id', limit: 999, cutoff: 1 }
-    //         )
-    //         return allYears.find(y => y.year === args.year)
-    //     }
-    // },
+    Country: {
+        allYears: async (
+            { survey }: { survey: SurveyConfig },
+            args: any,
+            { db }: RequestContext
+        ) => {
+            return useCache(computeTermAggregationByYear, db, [
+                survey,
+                'user_info.country_alpha3',
+                { sort: 'id', limit: 999, cutoff: 1 }
+            ])
+        },
+        year: async ({ survey }: { survey: SurveyConfig }, args: any, { db }: RequestContext) => {
+            const allYears = await useCache(computeTermAggregationByYear, db, [
+                survey,
+                'user_info.country_alpha3',
+                { sort: 'id', limit: 999, cutoff: 1 }
+            ])
+
+            return allYears.find(y => y.year === args.year)
+        }
+    },
     Source: {
         allYears: async (
             { survey }: { survey: SurveyConfig },
