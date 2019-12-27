@@ -3,8 +3,6 @@
   name: Grid
   mdn: /en-US/docs/Web/CSS/CSS_Grid_Layout
   caniuse: css-grid
-  aliases:
-      - foo
 - id: flexbox
   name: Flexbox
   mdn: /en-US/docs/Web/CSS/CSS_Flexible_Box_Layout
