@@ -5,28 +5,23 @@
 Matrices (Heatmaps)
 """
 
-type MatriceRange @cacheControl(maxAge: 600) {
+type MatrixRange @cacheControl(maxAge: 600) {
     range: String
     count: Int
     percentage: Float
 }
 
-type MatriceBucket @cacheControl(maxAge: 600) {
+type MatrixBucket @cacheControl(maxAge: 600) {
     id: String
     entity: Entity
     total: Int
     average: Float
-    ranges: [MatriceRange]
+    ranges: [MatrixRange] @cacheControl(maxAge: 600)
 }
 
-type YearMatrice @cacheControl(maxAge: 600) {
+type YearMatrix @cacheControl(maxAge: 600) {
     year: Int
-    buckets: [MatriceBucket] @cacheControl(maxAge: 600)
-}
-
-type ToolsMatrice @cacheControl(maxAge: 600) {
-    year(year: Int!): YearMatrice
-    experience: ExperienceID
+    buckets: [MatrixBucket] @cacheControl(maxAge: 600)
 }
 
 """
@@ -34,28 +29,33 @@ Sub-aggregations for tools for a given experience response,
 for example, salary breakdown for users who have used React
 and would use it again.
 """
+type ToolsMatrix @cacheControl(maxAge: 600) {
+    year(year: Int!): YearMatrix
+    experience: ExperienceID
+}
+
 type ToolsMatrices @cacheControl(maxAge: 600) {
-    workExperience(experience: ExperienceID!): ToolsMatrice
-    salary(experience: ExperienceID!): ToolsMatrice
-    companySize(experience: ExperienceID!): ToolsMatrice
+    workExperience(experience: ExperienceID!): ToolsMatrix
+    salary(experience: ExperienceID!): ToolsMatrix
+    companySize(experience: ExperienceID!): ToolsMatrix
 }
 
-type FeaturesMatrice @cacheControl(maxAge: 600) {
-    year(year: Int!): YearMatrice
-    experience: UsageID
-}
-
-"""
-Sub-aggregations for features for a given usage response,
-for example, salary breakdown for users who have used flex-box.
-"""
-type FeaturesMatrices @cacheControl(maxAge: 600) {
-    workExperience(usage: UsageID!): FeaturesMatrice
-    salary(usage: UsageID!): FeaturesMatrice
-    companySize(usage: UsageID!): FeaturesMatrice
-}
+#"""
+#Sub-aggregations for features for a given usage response,
+#for example, salary breakdown for users who have used flex-box.
+#"""
+#type FeaturesMatrix @cacheControl(maxAge: 600) {
+#    year(year: Int!): YearMatrix
+#    experience: UsageID
+#}
+#
+#type FeaturesMatrices @cacheControl(maxAge: 600) {
+#    workExperience(usage: UsageID!): FeaturesMatrix
+#    salary(usage: UsageID!): FeaturesMatrix
+#    companySize(usage: UsageID!): FeaturesMatrix
+#}
 
 type Matrices @cacheControl(maxAge: 600) {
     tools(ids: [ToolID]): ToolsMatrices
-    features(ids: [FeatureID]): FeaturesMatrices
+    # features(ids: [FeatureID]): FeaturesMatrices
 }
