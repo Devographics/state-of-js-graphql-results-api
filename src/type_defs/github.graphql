@@ -1,4 +1,4 @@
-type GitHub {
+type GitHub @cacheControl(maxAge: 600) {
     name: String
     full_name: String
     description: String

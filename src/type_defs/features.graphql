@@ -32,7 +32,7 @@ enum FeatureID {
 }
 
 type FeatureBucket @cacheControl(maxAge: 600) {
-    id: FeatureID
+    id: String
     count: Int
     percentage: Float
 }
@@ -48,7 +48,7 @@ type YearFeature @cacheControl(maxAge: 600) {
 }
 
 type FeatureExperience @cacheControl(maxAge: 600) {
-    allYears: [YearFeature]
+    allYears: [YearFeature] @cacheControl(maxAge: 600)
     year(year: Int!): YearFeature
 }
 
