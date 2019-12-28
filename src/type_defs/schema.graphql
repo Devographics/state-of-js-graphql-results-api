@@ -3,7 +3,7 @@
 """
 Completion ratio and count
 """
-type Completion {
+type Completion @cacheControl(maxAge: 600) {
     total: Int
     count: Int
     percentage: Float
