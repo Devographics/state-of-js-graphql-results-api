@@ -1,21 +1,7 @@
-import { EnumTypeDefinitionNode } from 'graphql'
-import { getEntity } from '../helpers'
+import { getEntity, getGraphQLEnumValues } from '../helpers'
 // import { getCategoryTools } from './category'
 import { SurveyConfig } from '../types'
 import { Filters } from '../filters'
-import typeDefs from '../type_defs/schema.graphql'
-
-const getGraphQLEnumValues = (name: string) => {
-    const enumDef = typeDefs.definitions.find(def => {
-        return def.kind === 'EnumTypeDefinition' && def.name.value === name
-    }) as EnumTypeDefinitionNode
-
-    if (enumDef === undefined) {
-        throw new Error(`No enum found matching name: ${name}`)
-    }
-
-    return enumDef.values!.map(v => v.name.value)
-}
 
 const toolIds = getGraphQLEnumValues('ToolID')
 const featureIds = getGraphQLEnumValues('FeatureID')

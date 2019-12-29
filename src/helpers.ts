@@ -1,6 +1,8 @@
+import { EnumTypeDefinitionNode } from 'graphql'
 import { Entity } from './types'
 import entities from './data/entities.yml'
 import projects from './data/projects.yml'
+import typeDefs from './type_defs/schema.graphql'
 
 const allEntities: Entity[] = [...projects, ...entities]
 
@@ -28,3 +30,15 @@ export const getEntity = ({ id }: { id: string }) => {
  */
 export const getOtherKey = (id: string) =>
     id.includes('_others') ? `${id.replace('_others', '')}.others_normalized` : `${id}.choices`
+
+export const getGraphQLEnumValues = (name: string) => {
+    const enumDef = typeDefs.definitions.find(def => {
+        return def.kind === 'EnumTypeDefinition' && def.name.value === name
+    }) as EnumTypeDefinitionNode
+
+    if (enumDef === undefined) {
+        throw new Error(`No enum found matching name: ${name}`)
+    }
+
+    return enumDef.values!.map(v => v.name.value)
+}
