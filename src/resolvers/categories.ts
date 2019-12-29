@@ -73,7 +73,6 @@ export default {
             { year }: { year: number },
             { db }: RequestContext
         ) => {
-            console.log({ category, year })
             const allYears = await useCache(computeHappinessByYear, db, [
                 category.survey,
                 category.id
