@@ -114,14 +114,16 @@ export default {
         category: (survey: SurveyConfig, { id }: { id: string }) => ({
             survey,
             id,
-            happiness: {
+            happiness: ({ filters }: { filters: Filters }) => ({
                 survey,
-                id
-            },
-            otherTools: {
+                id,
+                filters
+            }),
+            otherTools: ({ filters }: { filters: Filters }) => ({
                 survey,
-                id
-            }
+                id,
+                filters
+            })
         })
     }
 }
