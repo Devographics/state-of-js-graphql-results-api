@@ -1,4 +1,5 @@
-import { RequestContext, SurveyConfig, Filters } from '../types'
+import { RequestContext, SurveyConfig } from '../types'
+import { Filters } from '../filters'
 import { useCache } from '../caching'
 import { computeParticipationByYear, computeTermAggregationByYear } from '../compute'
 
@@ -49,23 +50,25 @@ export default {
     },
     Source: {
         allYears: async (
-            { survey }: { survey: SurveyConfig },
+            { survey, filters }: { survey: SurveyConfig; filters?: Filters },
             args: any,
             { db }: RequestContext
         ) => {
             return useCache(computeTermAggregationByYear, db, [
                 survey,
-                'user_info.source_normalized'
+                'user_info.source_normalized',
+                { filters }
             ])
         },
         year: async (
-            { survey }: { survey: SurveyConfig },
+            { survey, filters }: { survey: SurveyConfig; filters?: Filters },
             { year }: { year: number },
             { db }: RequestContext
         ) => {
             const allYears = await useCache(computeTermAggregationByYear, db, [
                 survey,
-                'user_info.source_normalized'
+                'user_info.source_normalized',
+                { filters }
             ])
 
             return allYears.find(y => y.year === year)
@@ -73,20 +76,25 @@ export default {
     },
     Gender: {
         allYears: async (
-            { survey }: { survey: SurveyConfig },
+            { survey, filters }: { survey: SurveyConfig; filters?: Filters },
             args: any,
             { db }: RequestContext
         ) => {
-            return useCache(computeTermAggregationByYear, db, [survey, 'user_info.gender'])
+            return useCache(computeTermAggregationByYear, db, [
+                survey,
+                'user_info.gender',
+                { filters, cutoff: 1 }
+            ])
         },
         year: async (
-            { survey }: { survey: SurveyConfig },
+            { survey, filters }: { survey: SurveyConfig; filters?: Filters },
             { year }: { year: number },
             { db }: RequestContext
         ) => {
             const allYears = await useCache(computeTermAggregationByYear, db, [
                 survey,
-                'user_info.gender'
+                'user_info.gender',
+                { filters, cutoff: 1 }
             ])
 
             return allYears.find(y => y.year === year)
@@ -103,25 +111,25 @@ export default {
     },
     Salary: {
         allYears: async (
-            { survey }: { survey: SurveyConfig },
+            { survey, filters }: { survey: SurveyConfig; filters?: Filters },
             args: any,
             { db }: RequestContext
         ) => {
             return useCache(computeTermAggregationByYear, db, [
                 survey,
                 'user_info.yearly_salary',
-                { limit: 100 }
+                { filters, limit: 100, cutoff: 1 }
             ])
         },
         year: async (
-            { survey }: { survey: SurveyConfig },
+            { survey, filters }: { survey: SurveyConfig; filters?: Filters },
             { year }: { year: number },
             { db }: RequestContext
         ) => {
             const allYears = await useCache(computeTermAggregationByYear, db, [
                 survey,
                 'user_info.yearly_salary',
-                { limit: 100 }
+                { filters, limit: 100, cutoff: 1 }
             ])
 
             return allYears.find(y => y.year === year)
@@ -139,25 +147,25 @@ export default {
     },
     CompanySize: {
         allYears: async (
-            { survey }: { survey: SurveyConfig },
+            { survey, filters }: { survey: SurveyConfig; filters?: Filters },
             args: any,
             { db }: RequestContext
         ) => {
             return useCache(computeTermAggregationByYear, db, [
                 survey,
                 'user_info.company_size',
-                { limit: 100 }
+                { filters, limit: 100, cutoff: 1 }
             ])
         },
         year: async (
-            { survey }: { survey: SurveyConfig },
+            { survey, filters }: { survey: SurveyConfig; filters?: Filters },
             { year }: { year: number },
             { db }: RequestContext
         ) => {
             const allYears = await useCache(computeTermAggregationByYear, db, [
                 survey,
                 'user_info.company_size',
-                { limit: 100 }
+                { filters, limit: 100, cutoff: 1 }
             ])
 
             return allYears.find(y => y.year === year)
@@ -173,25 +181,25 @@ export default {
     },
     WorkExperience: {
         allYears: async (
-            { survey }: { survey: SurveyConfig },
+            { survey, filters }: { survey: SurveyConfig; filters?: Filters },
             args: any,
             { db }: RequestContext
         ) => {
             return useCache(computeTermAggregationByYear, db, [
                 survey,
                 'user_info.years_of_experience',
-                { limit: 100 }
+                { filters, limit: 100, cutoff: 1 }
             ])
         },
         year: async (
-            { survey }: { survey: SurveyConfig },
+            { survey, filters }: { survey: SurveyConfig; filters?: Filters },
             { year }: { year: number },
             { db }: RequestContext
         ) => {
             const allYears = await useCache(computeTermAggregationByYear, db, [
                 survey,
                 'user_info.years_of_experience',
-                { limit: 100 }
+                { filters, limit: 100, cutoff: 1 }
             ])
 
             return allYears.find(y => y.year === year)
@@ -206,7 +214,7 @@ export default {
             return useCache(computeTermAggregationByYear, db, [
                 survey,
                 'user_info.job_title',
-                { filters }
+                { filters, cutoff: 1 }
             ])
         },
         year: async (
@@ -214,11 +222,10 @@ export default {
             { year }: { year: number },
             { db }: RequestContext
         ) => {
-            console.log({ survey, filters })
             const allYears = await useCache(computeTermAggregationByYear, db, [
                 survey,
                 'user_info.job_title',
-                { filters }
+                { filters, cutoff: 1 }
             ])
 
             return allYears.find(y => y.year === year)
@@ -226,25 +233,25 @@ export default {
     },
     CSSProficiency: {
         allYears: async (
-            { survey }: { survey: SurveyConfig },
+            { survey, filters }: { survey: SurveyConfig; filters?: Filters },
             args: any,
             { db }: RequestContext
         ) => {
             return useCache(computeTermAggregationByYear, db, [
                 survey,
                 'user_info.css_proficiency',
-                { sort: 'id', order: 1 }
+                { filters, sort: 'id', order: 1, cutoff: 1 }
             ])
         },
         year: async (
-            { survey }: { survey: SurveyConfig },
+            { survey, filters }: { survey: SurveyConfig; filters?: Filters },
             { year }: { year: number },
             { db }: RequestContext
         ) => {
             const allYears = await useCache(computeTermAggregationByYear, db, [
                 survey,
                 'user_info.css_proficiency',
-                { sort: 'id', order: 1 }
+                { filters, sort: 'id', order: 1, cutoff: 1 }
             ])
 
             return allYears.find(y => y.year === year)
@@ -252,25 +259,25 @@ export default {
     },
     BackendProficiency: {
         allYears: async (
-            { survey }: { survey: SurveyConfig },
+            { survey, filters }: { survey: SurveyConfig; filters?: Filters },
             args: any,
             { db }: RequestContext
         ) => {
             return useCache(computeTermAggregationByYear, db, [
                 survey,
                 'user_info.backend_proficiency',
-                { sort: 'id', order: 1 }
+                { filters, sort: 'id', order: 1, cutoff: 1 }
             ])
         },
         year: async (
-            { survey }: { survey: SurveyConfig },
+            { survey, filters }: { survey: SurveyConfig; filters?: Filters },
             { year }: { year: number },
             { db }: RequestContext
         ) => {
             const allYears = await useCache(computeTermAggregationByYear, db, [
                 survey,
                 'user_info.backend_proficiency',
-                { sort: 'id', order: 1 }
+                { filters, sort: 'id', order: 1, cutoff: 1 }
             ])
 
             return allYears.find(y => y.year === year)

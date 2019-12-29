@@ -1,23 +1,48 @@
 import { getEntity } from '../helpers'
 // import { getCategoryTools } from './category'
-import { Filters, SurveyConfig } from '../types'
+import { SurveyConfig } from '../types'
+import { Filters } from '../filters'
 
 export default {
     Survey: {
         demographics: (survey: SurveyConfig) => ({
             participation: { survey },
-            country: { survey },
-            source: { survey },
-            gender: { survey },
-            salary: { survey },
-            companySize: { survey },
-            workExperience: { survey },
+            country: ({ filters }: { filters: Filters }) => ({
+                survey,
+                filters
+            }),
+            source: ({ filters }: { filters: Filters }) => ({
+                survey,
+                filters
+            }),
+            gender: ({ filters }: { filters: Filters }) => ({
+                survey,
+                filters
+            }),
+            salary: ({ filters }: { filters: Filters }) => ({
+                survey,
+                filters
+            }),
+            companySize: ({ filters }: { filters: Filters }) => ({
+                survey,
+                filters
+            }),
+            workExperience: ({ filters }: { filters: Filters }) => ({
+                survey,
+                filters
+            }),
             jobTitle: ({ filters }: { filters: Filters }) => ({
                 survey,
                 filters
             }),
-            cssProficiency: { survey },
-            backendProficiency: { survey }
+            cssProficiency: ({ filters }: { filters: Filters }) => ({
+                survey,
+                filters
+            }),
+            backendProficiency: ({ filters }: { filters: Filters }) => ({
+                survey,
+                filters
+            })
         }),
         tool: async (survey: SurveyConfig, { id }: { id: string }) => {
             return {

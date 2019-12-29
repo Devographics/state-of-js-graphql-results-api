@@ -252,14 +252,14 @@ Information about particpants:
 - …
 """
 type Demographics @cacheControl(maxAge: 600) {
-    country: Country @cacheControl(maxAge: 600)
-    source: Source @cacheControl(maxAge: 600)
-    participation: Participation @cacheControl(maxAge: 600)
-    gender: Gender @cacheControl(maxAge: 600)
-    salary: Salary @cacheControl(maxAge: 600)
-    companySize: CompanySize @cacheControl(maxAge: 600)
-    workExperience: WorkExperience @cacheControl(maxAge: 600)
+    country(filters: Filters): Country @cacheControl(maxAge: 600)
+    source(filters: Filters): Source @cacheControl(maxAge: 600)
+    participation(filters: Filters): Participation @cacheControl(maxAge: 600)
+    gender(filters: Filters): Gender @cacheControl(maxAge: 600)
+    salary(filters: Filters): Salary @cacheControl(maxAge: 600)
+    companySize(filters: Filters): CompanySize @cacheControl(maxAge: 600)
+    workExperience(filters: Filters): WorkExperience @cacheControl(maxAge: 600)
     jobTitle(filters: Filters): JobTitle @cacheControl(maxAge: 600)
-    cssProficiency: CSSProficiency @cacheControl(maxAge: 600)
-    backendProficiency: BackendProficiency @cacheControl(maxAge: 600)
+    cssProficiency(filters: Filters): CSSProficiency @cacheControl(maxAge: 600)
+    backendProficiency(filters: Filters): BackendProficiency @cacheControl(maxAge: 600)
 }
