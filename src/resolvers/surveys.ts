@@ -101,12 +101,10 @@ export default {
             survey,
             id
         }),
-        // entity: (survey, { id }, context, info) => {
-        //     return {
-        //         survey,
-        //         ...getEntity({ id })
-        //     }
-        // },
+        entity: (survey: SurveyConfig, { id }: { id: string }) => ({
+            survey,
+            ...getEntity({ id })
+        }),
         resources: (survey: SurveyConfig, { id }: { id: string }) => ({
             survey,
             id
