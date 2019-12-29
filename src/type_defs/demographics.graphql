@@ -190,8 +190,15 @@ type WorkExperience @cacheControl(maxAge: 600) {
 """
 Job Title
 """
+enum JobTitleID {
+    full_stack_developer
+    front_end_developer
+    web_developer
+    back_end_developer
+}
+
 type JobTitleBucket @cacheControl(maxAge: 600) {
-    id: String
+    id: JobTitleID
     count: Int
     percentage: Float
 }
