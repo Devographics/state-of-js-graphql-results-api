@@ -25,7 +25,7 @@ type Survey @cacheControl(maxAge: 600) {
     feature(id: FeatureID!): Feature
     features(ids: [FeatureID]): [Feature] @cacheControl(maxAge: 600)
     demographics: Demographics
-    opinion(id: OpinionID!): Opinion
+    opinion(id: OpinionID!, filters: Filters): Opinion
     otherTools(id: OtherToolsID!): OtherTools
     resources(id: ResourcesID!): Resources
     entity(id: ID!): Entity
