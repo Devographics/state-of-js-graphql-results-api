@@ -5,6 +5,7 @@ import features from './features'
 import matrices from './matrices'
 import categories from './categories'
 import tools from './tool'
+import otherTools from './other_tools'
 import query from './query'
 
 export default {
@@ -15,5 +16,6 @@ export default {
     ...features,
     ...matrices,
     ...tools,
+    ...otherTools,
     ...query
 }
