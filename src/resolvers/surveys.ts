@@ -92,25 +92,27 @@ export default {
             return {
                 survey
             }
+        },
+        category: async (survey: SurveyConfig, { id }: { id: string }) => {
+            return {
+                survey,
+                id,
+                /*
+                tools: {
+                    survey,
+                    id,
+                    tools: getCategoryTools({ survey, id })
+                },
+                */
+                happiness: {
+                    survey,
+                    id
+                },
+                otherTools: {
+                    survey,
+                    id
+                }
+            }
         }
-        // category: async (survey, { id }, context, info) => {
-        //     return {
-        //         survey,
-        //         id,
-        //         tools: {
-        //             survey,
-        //             id,
-        //             tools: getCategoryTools({ survey, id })
-        //         },
-        //         happiness: {
-        //             survey,
-        //             id
-        //         },
-        //         otherTools: {
-        //             survey,
-        //             id
-        //         }
-        //     }
-        // }
     }
 }
