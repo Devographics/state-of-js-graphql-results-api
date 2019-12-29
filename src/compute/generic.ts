@@ -1,10 +1,12 @@
 import { Db } from 'mongodb'
-import { SurveyConfig } from '../types'
+import { SurveyConfig, Filters } from '../types'
 import _ from 'lodash'
 import { ratioToPercentage, appendCompletionToYearlyResults } from './common'
 import { getEntity } from '../helpers'
 
 interface TermAggregationByYearOptions {
+    // filter aggregations
+    filters?: Filters
     sort?: string
     order?: -1 | 1
     cutoff?: number
@@ -39,19 +41,27 @@ export async function computeTermAggregationByYear(
     const collection = db.collection('normalized_responses')
 
     const {
+        filters,
         sort = 'total',
         order = -1,
         cutoff = 10,
         limit = 25
     }: TermAggregationByYearOptions = options
 
+    const match: any = {
+        survey: survey.survey,
+        [key]: { $nin: [null, ''] }
+    }
+    if (filters !== undefined) {
+        if (filters.gender !== undefined) {
+            match['user_info.gender'] = filters.gender
+        }
+    }
+
     const rawResults: RawResult[] = await collection
         .aggregate([
             {
-                $match: {
-                    survey: survey.survey,
-                    [key]: { $nin: [null, ''] }
-                }
+                $match: match
             },
             {
                 $group: {

@@ -1,4 +1,4 @@
-import { RequestContext, SurveyConfig } from '../types'
+import { RequestContext, SurveyConfig, Filters } from '../types'
 import { useCache } from '../caching'
 import { computeParticipationByYear, computeTermAggregationByYear } from '../compute'
 
@@ -199,20 +199,26 @@ export default {
     },
     JobTitle: {
         allYears: async (
-            { survey }: { survey: SurveyConfig },
+            { survey, filters }: { survey: SurveyConfig; filters?: Filters },
             args: any,
             { db }: RequestContext
         ) => {
-            return useCache(computeTermAggregationByYear, db, [survey, 'user_info.job_title'])
+            return useCache(computeTermAggregationByYear, db, [
+                survey,
+                'user_info.job_title',
+                { filters }
+            ])
         },
         year: async (
-            { survey }: { survey: SurveyConfig },
+            { survey, filters }: { survey: SurveyConfig; filters?: Filters },
             { year }: { year: number },
             { db }: RequestContext
         ) => {
+            console.log({ survey, filters })
             const allYears = await useCache(computeTermAggregationByYear, db, [
                 survey,
-                'user_info.job_title'
+                'user_info.job_title',
+                { filters }
             ])
 
             return allYears.find(y => y.year === year)

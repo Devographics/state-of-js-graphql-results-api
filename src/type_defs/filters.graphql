@@ -1,0 +1,6 @@
+input Filters {
+    gender: GenderID
+    salary: SalaryRange
+    companySize: CompanySizeRange
+    workExperience: WorkExperienceRange
+}
