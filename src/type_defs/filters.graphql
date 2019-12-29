@@ -1,6 +1,30 @@
+input GenderFilter {
+    eq: GenderID
+    in: [GenderID]
+    nin: [GenderID]
+}
+
+input SalaryRangeFilter {
+    eq: SalaryRange
+    in: [SalaryRange]
+    nin: [SalaryRange]
+}
+
+input CompanySizeFilter {
+    eq: CompanySizeRange
+    in: [CompanySizeRange]
+    nin: [CompanySizeRange]
+}
+
+input WorkExperienceFilter {
+    eq: WorkExperienceRange
+    in: [WorkExperienceRange]
+    nin: [WorkExperienceRange]
+}
+
 input Filters {
-    gender: GenderID
-    salary: SalaryRange
-    companySize: CompanySizeRange
-    workExperience: WorkExperienceRange
+    gender: GenderFilter
+    salary: SalaryRangeFilter
+    companySize: CompanySizeFilter
+    workExperience: WorkExperienceFilter
 }
