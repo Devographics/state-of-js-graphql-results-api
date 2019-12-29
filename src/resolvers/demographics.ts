@@ -9,6 +9,14 @@ interface DemographicsAggConfig {
     filters?: Filters
 }
 
+const computeCountry = async (db: Db, survey: SurveyConfig, filters?: Filters) => {
+    return useCache(computeTermAggregationByYear, db, [
+        survey,
+        'user_info.country_alpha3',
+        { filters, sort: 'id', limit: 999, cutoff: 1 }
+    ])
+}
+
 const computeSource = async (db: Db, survey: SurveyConfig, filters?: Filters) => {
     return useCache(computeTermAggregationByYear, db, [
         survey,
@@ -93,23 +101,19 @@ export default {
         }
     },
     Country: {
-        allYears: async ({ survey }: DemographicsAggConfig, args: any, { db }: RequestContext) => {
-            return useCache(computeTermAggregationByYear, db, [
-                survey,
-                'user_info.country_alpha3',
-                { sort: 'id', limit: 999, cutoff: 1 }
-            ])
+        allYears: async (
+            { survey, filters }: DemographicsAggConfig,
+            args: any,
+            { db }: RequestContext
+        ) => {
+            return computeCountry(db, survey, filters)
         },
         year: async (
-            { survey }: DemographicsAggConfig,
+            { survey, filters }: DemographicsAggConfig,
             { year }: { year: number },
             { db }: RequestContext
         ) => {
-            const allYears = await useCache(computeTermAggregationByYear, db, [
-                survey,
-                'user_info.country_alpha3',
-                { sort: 'id', limit: 999, cutoff: 1 }
-            ])
+            const allYears = await computeCountry(db, survey, filters)
 
             return allYears.find(y => y.year === year)
         }
