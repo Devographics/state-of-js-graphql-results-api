@@ -61,6 +61,11 @@ export async function computeTermAggregationByYear(
                 $match: match
             },
             {
+                $unwind: {
+                    path: `$${key}`
+                }
+            },
+            {
                 $group: {
                     _id: {
                         id: `$${key}`,

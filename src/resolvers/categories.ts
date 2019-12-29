@@ -1,8 +1,9 @@
 //import { computeHappinessByYear, computeToolsExperience, computeEntityUsage } from '../compute'
-import { computeHappinessByYear } from '../compute'
+import { computeHappinessByYear, computeTermAggregationByYear } from '../compute'
 //import { getSurveyConfig } from '../helpers'
 import { useCache } from '../caching'
 import { RequestContext, SurveyConfig } from '../types'
+import { Db } from 'mongodb'
 /*
 export const getCategoryTools = (category: {
     id: string
@@ -25,6 +26,13 @@ interface CategoryConfig {
     id: string
 }
 
+const computeOtherTools = async (db: Db, survey: SurveyConfig, categoryId: string) => {
+    return useCache(computeTermAggregationByYear, db, [
+        survey,
+        `sections_other_tools.${categoryId}_normalized`
+    ])
+}
+
 export default {
     /*
     CategoryTools: {
@@ -44,26 +52,25 @@ export default {
             }
         }
     },
+    */
     CategoryOtherTools: {
-        allYears: async (category, args, context) => {
-            const allYears = await getCachedResult(computeEntityUsage, context.db, [
-                `sections_other_tools.${category.id}_normalized`
-            ])
-
-            return allYears
+        allYears: async (
+            { survey, id }: { survey: SurveyConfig; id: string },
+            args: any,
+            { db }: RequestContext
+        ) => {
+            return computeOtherTools(db, survey, id)
         },
-        year: async (category, args, context, info) => {
-            const allYears = await getCachedResult(
-                computeEntityUsage,
-                context.db,
-                [`sections_other_tools.${category.id}_normalized`],
-                false
-            )
+        year: async (
+            { survey, id }: { survey: SurveyConfig; id: string },
+            { year }: { year: number },
+            { db }: RequestContext
+        ) => {
+            const allYears = await computeOtherTools(db, survey, id)
 
-            return allYears.find(y => y.year === args.year)
+            return allYears.find(y => y.year === year)
         }
     },
-    */
     CategoryHappiness: {
         allYears: async (category: CategoryConfig, args: any, { db }: RequestContext) => {
             return useCache(computeHappinessByYear, db, [category.survey, category.id])
