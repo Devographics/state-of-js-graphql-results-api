@@ -97,9 +97,10 @@ export default {
             id,
             filters
         }),
-        otherTools: (survey: SurveyConfig, { id }: { id: string }) => ({
+        otherTools: (survey: SurveyConfig, { id, filters }: { id: string; filters?: Filters }) => ({
             survey,
-            id
+            id,
+            filters
         }),
         entity: (survey: SurveyConfig, { id }: { id: string }) => ({
             survey,
