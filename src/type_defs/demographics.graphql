@@ -57,8 +57,15 @@ type Source @cacheControl(maxAge: 600) {
 """
 Gender
 """
+enum GenderID {
+    male
+    female
+    prefer_not_to_say
+    non_binary
+}
+
 type GenderBucket @cacheControl(maxAge: 600) {
-    id: String
+    id: GenderID
     count: Int
     percentage: Float
 }
