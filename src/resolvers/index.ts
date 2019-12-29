@@ -3,11 +3,13 @@ import surveys from './surveys'
 import opinions from './opinions'
 import features from './features'
 import matrices from './matrices'
+import categories from './categories'
 import query from './query'
 
 export default {
     ...surveys,
     ...demographics,
+    ...categories,
     ...opinions,
     ...features,
     ...matrices,

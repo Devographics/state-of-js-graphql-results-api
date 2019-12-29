@@ -42,7 +42,6 @@ export default {
     },
     ToolsMatrix: {
         year: async (matrix: MatrixConfig, { year }: { year: number }, { db }: RequestContext) => {
-            console.log({ matrix, year })
             const result = await useCache(computeToolsMatrix, db, [
                 {
                     survey: matrix.survey,
