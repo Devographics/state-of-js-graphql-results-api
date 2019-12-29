@@ -1,5 +1,5 @@
 import { Db } from 'mongodb'
-import { SurveyType } from '../types'
+import { SurveyType } from './surveys'
 
 /**
  * This context is injected in each and every requests.
@@ -16,6 +16,7 @@ export interface SurveyConfig {
 export * from './demographics'
 export * from './entity'
 export * from './features'
+export * from './filters'
 export * from './github'
 export * from './opinions'
 export * from './other_tools'

@@ -1,6 +1,6 @@
 import { getEntity } from '../helpers'
 // import { getCategoryTools } from './category'
-import { SurveyConfig } from '../types'
+import { Filters, SurveyConfig } from '../types'
 
 export default {
     Survey: {
@@ -12,7 +12,10 @@ export default {
             salary: { survey },
             companySize: { survey },
             workExperience: { survey },
-            jobTitle: { survey },
+            jobTitle: ({ filters }: { filters: Filters }) => ({
+                survey,
+                filters
+            }),
             cssProficiency: { survey },
             backendProficiency: { survey }
         }),
