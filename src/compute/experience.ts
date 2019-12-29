@@ -39,12 +39,12 @@ const computeSatisfaction = (buckets: ExperienceBucket[]) => {
     return ratioToPercentage(wouldUse.count / (wouldUse.count + wouldNotUse.count))
 }
 
-export const computeExperienceOverYears = async (
+export async function computeExperienceOverYears(
     db: Db,
     survey: SurveyConfig,
     tool: string,
     filters?: Filters
-) => {
+) {
     const collection = db.collection('normalized_responses')
 
     const path = `tools.${tool}.experience`

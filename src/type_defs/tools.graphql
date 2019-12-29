@@ -44,7 +44,6 @@ enum ToolID {
     ionic
     nwjs
     expo
-
 }
 
 """
@@ -54,7 +53,7 @@ the total number of respondents who have answered the question
 in this particular year.
 """
 type ToolExperienceBucket @cacheControl(maxAge: 600) {
-    id: ToolID
+    id: ExperienceID
     count: Int
     percentage: Float
 }

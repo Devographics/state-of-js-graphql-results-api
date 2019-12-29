@@ -1,7 +1,12 @@
+import { Db } from 'mongodb'
 import { computeExperienceOverYears, computeToolsExperienceRanking } from '../compute'
 import { useCache } from '../caching'
 import { SurveyConfig, RequestContext } from '../types'
 import { Filters } from '../filters'
+
+const computeToolExperience = async (db: Db, survey: SurveyConfig, id: string) => {
+    return useCache(computeExperienceOverYears, db, [survey, id])
+}
 
 export default {
     ToolsRankings: {
@@ -12,23 +17,23 @@ export default {
         ) => {
             return useCache(computeToolsExperienceRanking, db, [survey, ids, filters])
         }
-    }
-    /*
+    },
     ToolExperience: {
-        allYears: async (tool, args, context) => {
-            return useCache(computeExperienceOverYears, context.db, [
-                tool.id,
-                tool.survey
-            ])
+        allYears: async (
+            { survey, id }: { survey: SurveyConfig; id: string },
+            args: any,
+            { db }: RequestContext
+        ) => {
+            return computeToolExperience(db, survey, id)
         },
-        year: async (tool, args, context) => {
-            const allYears = await useCache(computeExperienceOverYears, context.db, [
-                tool.id,
-                tool.survey
-            ])
+        year: async (
+            { survey, id }: { survey: SurveyConfig; id: string },
+            { year }: { year: number },
+            { db }: RequestContext
+        ) => {
+            const allYears = await computeToolExperience(db, survey, id)
 
-            return allYears.find(yearItem => yearItem.year === args.year)
+            return allYears.find(yearItem => yearItem.year === year)
         }
     }
-    */
 }
