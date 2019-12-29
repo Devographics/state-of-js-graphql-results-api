@@ -7,6 +7,7 @@ import categories from './categories'
 import tools from './tool'
 import otherTools from './other_tools'
 import resources from './resources'
+import entities from './entities'
 import query from './query'
 
 export default {
@@ -19,5 +20,6 @@ export default {
     ...tools,
     ...otherTools,
     ...resources,
+    ...entities,
     ...query
 }

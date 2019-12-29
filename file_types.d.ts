@@ -20,6 +20,23 @@ declare module '*features.yml' {
     export default content
 }
 
+/**
+ * Define the type for the static projects yaml file
+ */
+declare module '*projects.yml' {
+    interface ProjectData {
+        id: string
+        name: string
+        description: string
+        github: string
+        stars: number
+        homepage: string
+    }
+    const content: ProjectData[]
+
+    export default content
+}
+
 declare module '*.yml' {
     const content: any
     export default content
