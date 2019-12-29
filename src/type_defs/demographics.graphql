@@ -57,7 +57,6 @@ type Source @cacheControl(maxAge: 600) {
 """
 Gender
 """
-
 type GenderBucket @cacheControl(maxAge: 600) {
     id: String
     count: Int
@@ -77,14 +76,23 @@ type YearGender @cacheControl(maxAge: 600) {
 type Gender @cacheControl(maxAge: 600) {
     allYears: [YearGender]
     year(year: Int!): YearGender
-} 
+}
 
 """
 Salary
 """
+enum SalaryRange {
+    range_work_for_free
+    range_0_10
+    range_10_30
+    range_30_50
+    range_50_100
+    range_100_200
+    range_more_than_200
+}
 
 type SalaryBucket @cacheControl(maxAge: 600) {
-    id: String
+    id: SalaryRange
     count: Int
     percentage: Float
 }
@@ -102,14 +110,24 @@ type YearSalary @cacheControl(maxAge: 600) {
 type Salary @cacheControl(maxAge: 600) {
     allYears: [YearSalary]
     year(year: Int!): YearSalary
-} 
+}
 
 """
 Company Size
 """
+enum CompanySizeRange {
+    range_1
+    range_1_5
+    range_5_10
+    range_10_20
+    range_20_50
+    range_50_100
+    range_100_1000
+    range_more_than_1000
+}
 
 type CompanySizeBucket @cacheControl(maxAge: 600) {
-    id: String
+    id: CompanySizeRange
     count: Int
     percentage: Float
 }
@@ -127,14 +145,22 @@ type YearCompanySize @cacheControl(maxAge: 600) {
 type CompanySize @cacheControl(maxAge: 600) {
     allYears: [YearCompanySize]
     year(year: Int!): YearCompanySize
-} 
+}
 
 """
 Experience
 """
+enum WorkExperienceRange {
+    range_less_than_1
+    range_1_2
+    range_2_5
+    range_5_10
+    range_10_20
+    range_more_than_20
+}
 
 type WorkExperienceBucket @cacheControl(maxAge: 600) {
-    id: String
+    id: WorkExperienceRange
     count: Int
     percentage: Float
 }
@@ -152,7 +178,7 @@ type YearWorkExperience @cacheControl(maxAge: 600) {
 type WorkExperience @cacheControl(maxAge: 600) {
     allYears: [YearWorkExperience]
     year(year: Int!): YearWorkExperience
-} 
+}
 
 """
 Job Title
@@ -173,7 +199,7 @@ type YearJobTitle @cacheControl(maxAge: 600) {
 type JobTitle @cacheControl(maxAge: 600) {
     allYears: [YearJobTitle]
     year(year: Int!): YearJobTitle
-} 
+}
 
 """
 Proficiency Level
@@ -194,12 +220,12 @@ type YearProficiency @cacheControl(maxAge: 600) {
 type CSSProficiency @cacheControl(maxAge: 600) {
     allYears: [YearProficiency]
     year(year: Int!): YearProficiency
-} 
+}
 
 type BackendProficiency @cacheControl(maxAge: 600) {
     allYears: [YearProficiency]
     year(year: Int!): YearProficiency
-} 
+}
 
 """
 Information about particpants:
