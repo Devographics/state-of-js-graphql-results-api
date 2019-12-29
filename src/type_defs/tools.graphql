@@ -108,7 +108,7 @@ type ToolExperience @cacheControl(maxAge: 600) {
 
 type Tool @cacheControl(maxAge: 600) {
     id: ToolID!
-    experience: ToolExperience @cacheControl(maxAge: 600)
+    experience: ToolExperience
     entity: Entity
 }
 
@@ -134,6 +134,6 @@ type ToolExperienceRanking @cacheControl(maxAge: 600) {
 Contains various rankings for a set of tools.
 """
 type ToolsRankings @cacheControl(maxAge: 600) {
-    ids: [ToolID] @cacheControl(maxAge: 600)
-    experience: [ToolExperienceRanking] @cacheControl(maxAge: 600)
+    ids: [ToolID]! @cacheControl(maxAge: 600)
+    experience(filters: Filters): [ToolExperienceRanking] @cacheControl(maxAge: 600)
 }

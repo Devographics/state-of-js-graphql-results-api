@@ -65,6 +65,14 @@ const computeCSSProficiency = async (db: Db, survey: SurveyConfig, filters?: Fil
     ])
 }
 
+const computeBackendProficiency = async (db: Db, survey: SurveyConfig, filters?: Filters) => {
+    return useCache(computeTermAggregationByYear, db, [
+        survey,
+        'user_info.backend_proficiency',
+        { filters, sort: 'id', order: 1, cutoff: 1 }
+    ])
+}
+
 export default {
     Participation: {
         allYears: async (
@@ -265,22 +273,14 @@ export default {
             args: any,
             { db }: RequestContext
         ) => {
-            return useCache(computeTermAggregationByYear, db, [
-                survey,
-                'user_info.backend_proficiency',
-                { filters, sort: 'id', order: 1, cutoff: 1 }
-            ])
+            return computeBackendProficiency(db, survey, filters)
         },
         year: async (
             { survey, filters }: { survey: SurveyConfig; filters?: Filters },
             { year }: { year: number },
             { db }: RequestContext
         ) => {
-            const allYears = await useCache(computeTermAggregationByYear, db, [
-                survey,
-                'user_info.backend_proficiency',
-                { filters, sort: 'id', order: 1, cutoff: 1 }
-            ])
+            const allYears = await computeBackendProficiency(db, survey, filters)
 
             return allYears.find(y => y.year === year)
         }
