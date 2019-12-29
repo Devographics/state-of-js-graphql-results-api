@@ -38,31 +38,6 @@ type CategoryHappiness @cacheControl(maxAge: 600) {
 }
 
 """
-Tools
-"""
-type YearCategoryToolsExperienceToolBucket @cacheControl(maxAge: 600) {
-    id: String
-    count: Int
-    percentage: Float
-}
-
-type YearCategoryToolsExperienceTool @cacheControl(maxAge: 600) {
-    id: ToolID
-    entity: Entity
-    buckets: [YearCategoryToolsExperienceToolBucket] @cacheControl(maxAge: 600)
-}
-
-type YearCategoryToolsExperience @cacheControl(maxAge: 600) {
-    year: Int
-    tools: [YearCategoryToolsExperienceTool] @cacheControl(maxAge: 600)
-}
-
-type CategoryTools @cacheControl(maxAge: 600) {
-    tools: [ToolID] @cacheControl(maxAge: 600)
-    experience(year: Int): YearCategoryToolsExperience
-}
-
-"""
 Other Tools
 """
 type CategoryOtherTools @cacheControl(maxAge: 600) {
@@ -76,6 +51,5 @@ Category
 """
 type Category @cacheControl(maxAge: 600) {
     happiness: CategoryHappiness
-    tools: CategoryTools
     otherTools: CategoryOtherTools
 }

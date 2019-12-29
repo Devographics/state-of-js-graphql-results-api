@@ -1,5 +1,4 @@
 import { getEntity, getGraphQLEnumValues } from '../helpers'
-// import { getCategoryTools } from './category'
 import { SurveyConfig } from '../types'
 import { Filters } from '../filters'
 
@@ -115,13 +114,6 @@ export default {
         category: (survey: SurveyConfig, { id }: { id: string }) => ({
             survey,
             id,
-            /*
-            tools: {
-                survey,
-                id,
-                tools: getCategoryTools({ survey, id })
-            },
-            */
             happiness: {
                 survey,
                 id
