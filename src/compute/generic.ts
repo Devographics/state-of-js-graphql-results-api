@@ -1,6 +1,6 @@
 import { Db } from 'mongodb'
 import _ from 'lodash'
-import { SurveyConfig } from '../types'
+import { Completion, SurveyConfig } from '../types'
 import { Filters, generateFiltersQuery } from '../filters'
 import { ratioToPercentage, appendCompletionToYearlyResults } from './common'
 import { getEntity } from '../helpers'
@@ -25,6 +25,7 @@ interface TermBucket {
     id: number | string
     entity?: any
     count: number
+    percentage: number
 }
 
 interface YearAggregations {
@@ -111,7 +112,8 @@ export async function computeTermAggregationByYear(
             yearBucket.buckets.push({
                 id: result.id,
                 entity: result.entity,
-                count: result.total
+                count: result.total,
+                percentage: 0
             })
 
             return acc
@@ -122,10 +124,15 @@ export async function computeTermAggregationByYear(
     // compute percentages
     resultsByYear.forEach(bucket => {
         bucket.total = _.sumBy(bucket.buckets, 'count')
-        bucket.buckets.forEach((subBucket: any) => {
+        bucket.buckets.forEach(subBucket => {
             subBucket.percentage = ratioToPercentage(subBucket.count / bucket.total)
         })
     })
 
-    return appendCompletionToYearlyResults(db, survey, resultsByYear)
+    return appendCompletionToYearlyResults<{
+        year: number
+        completion: Completion
+        total: number
+        buckets: TermBucket[]
+    }>(db, survey, resultsByYear)
 }
