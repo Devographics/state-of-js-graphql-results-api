@@ -50,6 +50,6 @@ type CategoryOtherTools @cacheControl(maxAge: 600) {
 Category
 """
 type Category @cacheControl(maxAge: 600) {
-    happiness: CategoryHappiness
-    otherTools: CategoryOtherTools
+    happiness(filters: Filters): CategoryHappiness
+    otherTools(filters: Filters): CategoryOtherTools
 }
