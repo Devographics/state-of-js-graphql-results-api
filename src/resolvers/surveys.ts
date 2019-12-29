@@ -92,9 +92,10 @@ export default {
                 }
             }))
         },
-        opinion: (survey: SurveyConfig, { id }: { id: string }) => ({
+        opinion: (survey: SurveyConfig, { id, filters }: { id: string; filters?: Filters }) => ({
             survey,
-            id
+            id,
+            filters
         }),
         otherTools: (survey: SurveyConfig, { id }: { id: string }) => ({
             survey,

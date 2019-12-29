@@ -2,30 +2,37 @@ import { Db } from 'mongodb'
 import { useCache } from '../caching'
 import { computeTermAggregationByYear } from '../compute'
 import { RequestContext, SurveyConfig } from '../types'
+import { Filters } from '../filters'
 
-const computeOpinion = async (db: Db, survey: SurveyConfig, id: string) => {
+interface OpinionConfig {
+    survey: SurveyConfig
+    id: string
+    filters?: Filters
+}
+
+const computeOpinion = async (db: Db, survey: SurveyConfig, id: string, filters?: Filters) => {
     return useCache(computeTermAggregationByYear, db, [
         survey,
         `opinions.${id}`,
-        { sort: 'id', order: 1 }
+        { filters, sort: 'id', order: 1 }
     ])
 }
 
 export default {
     Opinion: {
         allYears: async (
-            { id, survey }: { id: string; survey: SurveyConfig },
+            { survey, id, filters }: OpinionConfig,
             args: any,
             { db }: RequestContext
         ) => {
-            return computeOpinion(db, survey, id)
+            return computeOpinion(db, survey, id, filters)
         },
         year: async (
-            { id, survey }: { id: string; survey: SurveyConfig },
+            { survey, id, filters }: OpinionConfig,
             { year }: { year: number },
             { db }: RequestContext
         ) => {
-            const allYears = await computeOpinion(db, survey, id)
+            const allYears = await computeOpinion(db, survey, id, filters)
 
             return allYears.find(yearItem => yearItem.year === year)
         }
