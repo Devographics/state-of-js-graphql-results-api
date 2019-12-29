@@ -6,6 +6,7 @@ import matrices from './matrices'
 import categories from './categories'
 import tools from './tool'
 import otherTools from './other_tools'
+import resources from './resources'
 import query from './query'
 
 export default {
@@ -17,5 +18,6 @@ export default {
     ...matrices,
     ...tools,
     ...otherTools,
+    ...resources,
     ...query
 }
