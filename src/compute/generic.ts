@@ -1,6 +1,7 @@
 import { Db } from 'mongodb'
-import { SurveyConfig, Filters } from '../types'
 import _ from 'lodash'
+import { SurveyConfig } from '../types'
+import { Filters, generateFiltersQuery } from '../filters'
 import { ratioToPercentage, appendCompletionToYearlyResults } from './common'
 import { getEntity } from '../helpers'
 
@@ -50,12 +51,8 @@ export async function computeTermAggregationByYear(
 
     const match: any = {
         survey: survey.survey,
-        [key]: { $nin: [null, ''] }
-    }
-    if (filters !== undefined) {
-        if (filters.gender !== undefined) {
-            match['user_info.gender'] = filters.gender
-        }
+        [key]: { $nin: [null, ''] },
+        ...generateFiltersQuery(filters)
     }
 
     const rawResults: RawResult[] = await collection

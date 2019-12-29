@@ -16,7 +16,6 @@ export interface SurveyConfig {
 export * from './demographics'
 export * from './entity'
 export * from './features'
-export * from './filters'
 export * from './github'
 export * from './opinions'
 export * from './other_tools'
