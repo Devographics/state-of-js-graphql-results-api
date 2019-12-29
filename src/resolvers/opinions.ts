@@ -10,13 +10,12 @@ interface OpinionConfig {
     filters?: Filters
 }
 
-const computeOpinion = async (db: Db, survey: SurveyConfig, id: string, filters?: Filters) => {
-    return useCache(computeTermAggregationByYear, db, [
+const computeOpinion = async (db: Db, survey: SurveyConfig, id: string, filters?: Filters) =>
+    useCache(computeTermAggregationByYear, db, [
         survey,
         `opinions.${id}`,
         { filters, sort: 'id', order: 1 }
     ])
-}
 
 export default {
     Opinion: {
@@ -24,9 +23,7 @@ export default {
             { survey, id, filters }: OpinionConfig,
             args: any,
             { db }: RequestContext
-        ) => {
-            return computeOpinion(db, survey, id, filters)
-        },
+        ) => computeOpinion(db, survey, id, filters),
         year: async (
             { survey, id, filters }: OpinionConfig,
             { year }: { year: number },

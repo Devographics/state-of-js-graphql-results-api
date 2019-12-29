@@ -4,9 +4,8 @@ import { computeTermAggregationByYear } from '../compute'
 import { getOtherKey } from '../helpers'
 import { RequestContext, SurveyConfig } from '../types'
 
-const computeOtherTools = async (db: Db, survey: SurveyConfig, id: string) => {
-    return useCache(computeTermAggregationByYear, db, [survey, `other_tools.${getOtherKey(id)}`])
-}
+const computeOtherTools = async (db: Db, survey: SurveyConfig, id: string) =>
+    useCache(computeTermAggregationByYear, db, [survey, `other_tools.${getOtherKey(id)}`])
 
 export default {
     OtherTools: {
@@ -14,9 +13,7 @@ export default {
             { survey, id }: { survey: SurveyConfig; id: string },
             args: any,
             { db }: RequestContext
-        ) => {
-            return computeOtherTools(db, survey, id)
-        },
+        ) => computeOtherTools(db, survey, id),
         year: async (
             { survey, id }: { survey: SurveyConfig; id: string },
             { year }: { year: number },
