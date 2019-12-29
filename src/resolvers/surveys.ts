@@ -105,9 +105,10 @@ export default {
             survey,
             ...getEntity({ id })
         }),
-        resources: (survey: SurveyConfig, { id }: { id: string }) => ({
+        resources: (survey: SurveyConfig, { id, filters }: { id: string; filters?: Filters }) => ({
             survey,
-            id
+            id,
+            filters
         }),
         matrices: (survey: SurveyConfig) => ({
             survey

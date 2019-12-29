@@ -10,13 +10,12 @@ interface CategoryConfig {
     filters?: Filters
 }
 
-const computeOtherTools = async (db: Db, survey: SurveyConfig, id: string, filters?: Filters) => {
-    return useCache(computeTermAggregationByYear, db, [
+const computeOtherTools = async (db: Db, survey: SurveyConfig, id: string, filters?: Filters) =>
+    useCache(computeTermAggregationByYear, db, [
         survey,
         `sections_other_tools.${id}_normalized`,
         { filters }
     ])
-}
 
 export default {
     CategoryOtherTools: {
@@ -24,9 +23,7 @@ export default {
             { survey, id, filters }: CategoryConfig,
             args: any,
             { db }: RequestContext
-        ) => {
-            return computeOtherTools(db, survey, id, filters)
-        },
+        ) => computeOtherTools(db, survey, id, filters),
         year: async (
             { survey, id, filters }: CategoryConfig,
             { year }: { year: number },
@@ -42,9 +39,7 @@ export default {
             { survey, id, filters }: CategoryConfig,
             args: any,
             { db }: RequestContext
-        ) => {
-            return useCache(computeHappinessByYear, db, [survey, id, filters])
-        },
+        ) => useCache(computeHappinessByYear, db, [survey, id, filters]),
         year: async (
             { survey, id, filters }: CategoryConfig,
             { year }: { year: number },

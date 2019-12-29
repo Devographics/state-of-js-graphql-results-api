@@ -9,87 +9,65 @@ interface DemographicsAggConfig {
     filters?: Filters
 }
 
-const computeCountry = async (db: Db, survey: SurveyConfig, filters?: Filters) => {
-    return useCache(computeTermAggregationByYear, db, [
+const computeCountry = async (db: Db, survey: SurveyConfig, filters?: Filters) =>
+    useCache(computeTermAggregationByYear, db, [
         survey,
         'user_info.country_alpha3',
         { filters, sort: 'id', limit: 999, cutoff: 1 }
     ])
-}
 
-const computeSource = async (db: Db, survey: SurveyConfig, filters?: Filters) => {
-    return useCache(computeTermAggregationByYear, db, [
-        survey,
-        'user_info.source_normalized',
-        { filters }
-    ])
-}
+const computeSource = async (db: Db, survey: SurveyConfig, filters?: Filters) =>
+    useCache(computeTermAggregationByYear, db, [survey, 'user_info.source_normalized', { filters }])
 
-const computeGender = async (db: Db, survey: SurveyConfig, filters?: Filters) => {
-    return useCache(computeTermAggregationByYear, db, [
-        survey,
-        'user_info.gender',
-        { filters, cutoff: 1 }
-    ])
-}
+const computeGender = async (db: Db, survey: SurveyConfig, filters?: Filters) =>
+    useCache(computeTermAggregationByYear, db, [survey, 'user_info.gender', { filters, cutoff: 1 }])
 
-const computeSalary = async (db: Db, survey: SurveyConfig, filters?: Filters) => {
-    return useCache(computeTermAggregationByYear, db, [
+const computeSalary = async (db: Db, survey: SurveyConfig, filters?: Filters) =>
+    useCache(computeTermAggregationByYear, db, [
         survey,
         'user_info.yearly_salary',
         { filters, limit: 100, cutoff: 1 }
     ])
-}
 
-const computeCompanySize = async (db: Db, survey: SurveyConfig, filters?: Filters) => {
-    return useCache(computeTermAggregationByYear, db, [
+const computeCompanySize = async (db: Db, survey: SurveyConfig, filters?: Filters) =>
+    useCache(computeTermAggregationByYear, db, [
         survey,
         'user_info.company_size',
         { filters, limit: 100, cutoff: 1 }
     ])
-}
 
-const computeWorkExperience = async (db: Db, survey: SurveyConfig, filters?: Filters) => {
-    return useCache(computeTermAggregationByYear, db, [
+const computeWorkExperience = async (db: Db, survey: SurveyConfig, filters?: Filters) =>
+    useCache(computeTermAggregationByYear, db, [
         survey,
         'user_info.years_of_experience',
         { filters, limit: 100, cutoff: 1 }
     ])
-}
 
-const computeJobTitle = async (db: Db, survey: SurveyConfig, filters?: Filters) => {
-    return useCache(computeTermAggregationByYear, db, [
+const computeJobTitle = async (db: Db, survey: SurveyConfig, filters?: Filters) =>
+    useCache(computeTermAggregationByYear, db, [
         survey,
         'user_info.job_title',
         { filters, cutoff: 1 }
     ])
-}
 
-const computeCSSProficiency = async (db: Db, survey: SurveyConfig, filters?: Filters) => {
-    return useCache(computeTermAggregationByYear, db, [
+const computeCSSProficiency = async (db: Db, survey: SurveyConfig, filters?: Filters) =>
+    useCache(computeTermAggregationByYear, db, [
         survey,
         'user_info.css_proficiency',
         { filters, sort: 'id', order: 1, cutoff: 1 }
     ])
-}
 
-const computeBackendProficiency = async (db: Db, survey: SurveyConfig, filters?: Filters) => {
-    return useCache(computeTermAggregationByYear, db, [
+const computeBackendProficiency = async (db: Db, survey: SurveyConfig, filters?: Filters) =>
+    useCache(computeTermAggregationByYear, db, [
         survey,
         'user_info.backend_proficiency',
         { filters, sort: 'id', order: 1, cutoff: 1 }
     ])
-}
 
 export default {
     Participation: {
-        allYears: async (
-            { survey }: { survey: SurveyConfig },
-            args: any,
-            { db }: RequestContext
-        ) => {
-            return useCache(computeParticipationByYear, db, [survey])
-        },
+        allYears: async ({ survey }: { survey: SurveyConfig }, args: any, { db }: RequestContext) =>
+            useCache(computeParticipationByYear, db, [survey]),
         year: async (
             { survey }: { survey: SurveyConfig },
             { year }: { year: number },
@@ -105,9 +83,7 @@ export default {
             { survey, filters }: DemographicsAggConfig,
             args: any,
             { db }: RequestContext
-        ) => {
-            return computeCountry(db, survey, filters)
-        },
+        ) => computeCountry(db, survey, filters),
         year: async (
             { survey, filters }: DemographicsAggConfig,
             { year }: { year: number },
@@ -123,9 +99,7 @@ export default {
             { survey, filters }: DemographicsAggConfig,
             args: any,
             { db }: RequestContext
-        ) => {
-            return computeSource(db, survey, filters)
-        },
+        ) => computeSource(db, survey, filters),
         year: async (
             { survey, filters }: DemographicsAggConfig,
             { year }: { year: number },
@@ -141,9 +115,7 @@ export default {
             { survey, filters }: DemographicsAggConfig,
             args: any,
             { db }: RequestContext
-        ) => {
-            return computeGender(db, survey, filters)
-        },
+        ) => computeGender(db, survey, filters),
         year: async (
             { survey, filters }: DemographicsAggConfig,
             { year }: { year: number },
@@ -168,9 +140,7 @@ export default {
             { survey, filters }: DemographicsAggConfig,
             args: any,
             { db }: RequestContext
-        ) => {
-            return computeSalary(db, survey, filters)
-        },
+        ) => computeSalary(db, survey, filters),
         year: async (
             { survey, filters }: DemographicsAggConfig,
             { year }: { year: number },
@@ -196,9 +166,7 @@ export default {
             { survey, filters }: DemographicsAggConfig,
             args: any,
             { db }: RequestContext
-        ) => {
-            return computeCompanySize(db, survey, filters)
-        },
+        ) => computeCompanySize(db, survey, filters),
         year: async (
             { survey, filters }: DemographicsAggConfig,
             { year }: { year: number },
@@ -222,9 +190,7 @@ export default {
             { survey, filters }: { survey: SurveyConfig; filters?: Filters },
             args: any,
             { db }: RequestContext
-        ) => {
-            return computeWorkExperience(db, survey, filters)
-        },
+        ) => computeWorkExperience(db, survey, filters),
         year: async (
             { survey, filters }: DemographicsAggConfig,
             { year }: { year: number },
@@ -240,9 +206,7 @@ export default {
             { survey, filters }: DemographicsAggConfig,
             args: any,
             { db }: RequestContext
-        ) => {
-            return computeJobTitle(db, survey, filters)
-        },
+        ) => computeJobTitle(db, survey, filters),
         year: async (
             { survey, filters }: { survey: SurveyConfig; filters?: Filters },
             { year }: { year: number },
@@ -258,9 +222,7 @@ export default {
             { survey, filters }: { survey: SurveyConfig; filters?: Filters },
             args: any,
             { db }: RequestContext
-        ) => {
-            return computeCSSProficiency(db, survey, filters)
-        },
+        ) => computeCSSProficiency(db, survey, filters),
         year: async (
             { survey, filters }: { survey: SurveyConfig; filters?: Filters },
             { year }: { year: number },
@@ -276,9 +238,7 @@ export default {
             { survey, filters }: { survey: SurveyConfig; filters?: Filters },
             args: any,
             { db }: RequestContext
-        ) => {
-            return computeBackendProficiency(db, survey, filters)
-        },
+        ) => computeBackendProficiency(db, survey, filters),
         year: async (
             { survey, filters }: { survey: SurveyConfig; filters?: Filters },
             { year }: { year: number },
