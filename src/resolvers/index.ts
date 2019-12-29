@@ -4,6 +4,7 @@ import opinions from './opinions'
 import features from './features'
 import matrices from './matrices'
 import categories from './categories'
+import tools from './tool'
 import query from './query'
 
 export default {
@@ -13,5 +14,6 @@ export default {
     ...opinions,
     ...features,
     ...matrices,
+    ...tools,
     ...query
 }

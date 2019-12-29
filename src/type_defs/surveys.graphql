@@ -1,3 +1,4 @@
+#import "./filters.graphql"
 #import "./categories.graphql"
 #import "./demographics.graphql"
 #import "./entity.graphql"
@@ -20,7 +21,7 @@ type Survey @cacheControl(maxAge: 600) {
     year: Int
     tool(id: ToolID!): Tool
     tools(ids: [ToolID]): [Tool] @cacheControl(maxAge: 600)
-    toolsRankings(ids: [ToolID]!): ToolsRankings
+    toolsRankings(ids: [ToolID]!, filters: Filters): ToolsRankings
     feature(id: FeatureID!): Feature
     features(ids: [FeatureID]): [Feature] @cacheControl(maxAge: 600)
     demographics: Demographics
