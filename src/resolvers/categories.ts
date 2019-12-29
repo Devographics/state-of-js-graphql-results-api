@@ -43,14 +43,14 @@ export default {
             args: any,
             { db }: RequestContext
         ) => {
-            return useCache(computeHappinessByYear, db, [survey, id])
+            return useCache(computeHappinessByYear, db, [survey, id, filters])
         },
         year: async (
             { survey, id, filters }: CategoryConfig,
             { year }: { year: number },
             { db }: RequestContext
         ) => {
-            const allYears = await useCache(computeHappinessByYear, db, [survey, id])
+            const allYears = await useCache(computeHappinessByYear, db, [survey, id, filters])
 
             return allYears.find(yearItem => yearItem.year === year)
         }
