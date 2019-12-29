@@ -1,9 +1,16 @@
 import { Db } from 'mongodb'
 import { computeTermAggregationByYear } from './generic'
 import { SurveyConfig } from '../types'
+import { Filters } from '../filters'
 
-export async function computeHappinessByYear(db: Db, survey: SurveyConfig, id: string) {
+export async function computeHappinessByYear(
+    db: Db,
+    survey: SurveyConfig,
+    id: string,
+    filters?: Filters
+) {
     const happinessByYear = await computeTermAggregationByYear(db, survey, `happiness.${id}`, {
+        filters,
         sort: 'id',
         order: 1
     })
