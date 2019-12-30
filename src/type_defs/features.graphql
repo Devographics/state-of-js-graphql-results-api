@@ -56,5 +56,5 @@ type Feature @cacheControl(maxAge: 600) {
     id: FeatureID!
     name: String
     mdn: MDN
-    experience: FeatureExperience
+    experience(filters: Filters): FeatureExperience
 }
