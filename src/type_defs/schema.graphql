@@ -10,5 +10,5 @@ type Completion @cacheControl(maxAge: 600) {
 }
 
 type Query {
-    survey(survey: SurveyType!, year: Int!): Survey
+    survey(survey: SurveyType!): Survey
 }

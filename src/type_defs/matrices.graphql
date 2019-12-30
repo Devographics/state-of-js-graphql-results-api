@@ -4,7 +4,6 @@
 """
 Work Experience
 """
-
 type WorkExperienceMatrixRange @cacheControl(maxAge: 600) {
     range: WorkExperienceRange
     count: Int
@@ -32,7 +31,6 @@ type ToolsWorkExperienceMatrix @cacheControl(maxAge: 600) {
 """
 Salary
 """
-
 type SalaryMatrixRange @cacheControl(maxAge: 600) {
     range: SalaryRange
     count: Int
@@ -60,7 +58,6 @@ type ToolsSalaryMatrix @cacheControl(maxAge: 600) {
 """
 Company Size
 """
-
 type CompanySizeMatrixRange @cacheControl(maxAge: 600) {
     range: CompanySizeRange
     count: Int

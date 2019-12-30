@@ -31,4 +31,3 @@ type Survey @cacheControl(maxAge: 600) {
     category(id: CategoryID!): Category
     matrices: Matrices
 }
-
