@@ -26,6 +26,8 @@ export const computeKey = (func: Function, args?: any) => {
         : ''
 
     if (func.name === '') {
+        // enforce regular function usage over arrow functions, to have a proper cache key
+        // console.trace is used to be able to know where the call comes from
         console.trace(
             `found a function without name, please consider using a regular function instead of an arrow function to solve this issue as it can lead to cache mismatch`
         )
@@ -34,6 +36,10 @@ export const computeKey = (func: Function, args?: any) => {
     return `${func.name}(${serializedArgs})`
 }
 
+/**
+ * Cache results in a dedicated mongo collection to improve performance,
+ * if the result isn't already available in the collection, it will be created.
+ */
 export const useCache = async <F extends DynamicComputeCall>(
     func: F,
     db: Db,
