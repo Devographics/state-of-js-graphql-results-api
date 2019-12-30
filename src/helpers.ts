@@ -31,7 +31,7 @@ export const getEntity = ({ id }: { id: string }) => {
 export const getOtherKey = (id: string) =>
     id.includes('_others') ? `${id.replace('_others', '')}.others_normalized` : `${id}.choices`
 
-export const getGraphQLEnumValues = (name: string) => {
+export const getGraphQLEnumValues = (name: string): string[] => {
     const enumDef = typeDefs.definitions.find(def => {
         return def.kind === 'EnumTypeDefinition' && def.name.value === name
     }) as EnumTypeDefinitionNode
