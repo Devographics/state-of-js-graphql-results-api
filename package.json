@@ -36,7 +36,8 @@
         "build": "NODE_ENV=production webpack --config webpack.production.js",
         "dev": "NODE_ENV=development webpack --config webpack.development.js",
         "fmt": "prettier --write \"src/**/*.{ts,js,mjs,yml,graphql}\"",
-        "start": "NODE_ENV=production webpack --config webpack.production.js"
+        "heroku-postbuild": "NODE_ENV=production webpack --config webpack.production.js",
+        "start": "node dist/server.js"
     },
     "engines": {
         "node": ">=13.0.0"
