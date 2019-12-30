@@ -2,26 +2,87 @@
 #import "./usage.graphql"
 
 """
-Matrices (Heatmaps)
+Work Experience
 """
 
-type MatrixRange @cacheControl(maxAge: 600) {
-    range: String
+type WorkExperienceMatrixRange @cacheControl(maxAge: 600) {
+    range: WorkExperienceRange
     count: Int
     percentage: Float
 }
 
-type MatrixBucket @cacheControl(maxAge: 600) {
+type WorkExperienceMatrixBucket @cacheControl(maxAge: 600) {
     id: String
     entity: Entity
     total: Int
     average: Float
-    ranges: [MatrixRange] @cacheControl(maxAge: 600)
+    ranges: [WorkExperienceMatrixRange] @cacheControl(maxAge: 600)
 }
 
-type YearMatrix @cacheControl(maxAge: 600) {
+type YearWorkExperienceMatrix @cacheControl(maxAge: 600) {
     year: Int
-    buckets: [MatrixBucket] @cacheControl(maxAge: 600)
+    buckets: [WorkExperienceMatrixBucket] @cacheControl(maxAge: 600)
+}
+
+type ToolsWorkExperienceMatrix @cacheControl(maxAge: 600) {
+    year(year: Int!): YearWorkExperienceMatrix
+    experience: ExperienceID
+}
+
+"""
+Salary
+"""
+
+type SalaryMatrixRange @cacheControl(maxAge: 600) {
+    range: SalaryRange
+    count: Int
+    percentage: Float
+}
+
+type SalaryMatrixBucket @cacheControl(maxAge: 600) {
+    id: String
+    entity: Entity
+    total: Int
+    average: Float
+    ranges: [SalaryMatrixRange] @cacheControl(maxAge: 600)
+}
+
+type YearSalaryMatrix @cacheControl(maxAge: 600) {
+    year: Int
+    buckets: [SalaryMatrixBucket] @cacheControl(maxAge: 600)
+}
+
+type ToolsSalaryMatrix @cacheControl(maxAge: 600) {
+    year(year: Int!): YearSalaryMatrix
+    experience: ExperienceID
+}
+
+"""
+Company Size
+"""
+
+type CompanySizeMatrixRange @cacheControl(maxAge: 600) {
+    range: CompanySizeRange
+    count: Int
+    percentage: Float
+}
+
+type CompanySizeMatrixBucket @cacheControl(maxAge: 600) {
+    id: String
+    entity: Entity
+    total: Int
+    average: Float
+    ranges: [CompanySizeMatrixRange] @cacheControl(maxAge: 600)
+}
+
+type YearCompanySizeMatrix @cacheControl(maxAge: 600) {
+    year: Int
+    buckets: [CompanySizeMatrixBucket] @cacheControl(maxAge: 600)
+}
+
+type ToolsCompanySizeMatrix @cacheControl(maxAge: 600) {
+    year(year: Int!): YearCompanySizeMatrix
+    experience: ExperienceID
 }
 
 """
@@ -29,15 +90,10 @@ Sub-aggregations for tools for a given experience response,
 for example, salary breakdown for users who have used React
 and would use it again.
 """
-type ToolsMatrix @cacheControl(maxAge: 600) {
-    year(year: Int!): YearMatrix
-    experience: ExperienceID
-}
-
 type ToolsMatrices @cacheControl(maxAge: 600) {
-    workExperience(experience: ExperienceID!): ToolsMatrix
-    salary(experience: ExperienceID!): ToolsMatrix
-    companySize(experience: ExperienceID!): ToolsMatrix
+    workExperience(experience: ExperienceID!): ToolsWorkExperienceMatrix
+    salary(experience: ExperienceID!): ToolsSalaryMatrix
+    companySize(experience: ExperienceID!): ToolsCompanySizeMatrix
 }
 
 #"""

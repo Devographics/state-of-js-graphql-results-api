@@ -6,9 +6,33 @@ interface MatrixConfig {
     survey: SurveyConfig
     ids: string[]
     type: 'tools' | 'features'
-    subType: 'years_of_experience' | 'yearly_salary' | 'company_size'
     experience: string
 }
+
+const getMatrixConfig = (
+    { survey, ids, type }: Omit<MatrixConfig, 'experience'>,
+    { experience }: { experience: MatrixConfig['experience'] }
+): MatrixConfig => ({ survey, ids, type, experience })
+
+const generateMatrixResolver = (type: 'years_of_experience' | 'yearly_salary' | 'company_size') => ({
+    year: async (matrix: MatrixConfig, { year }: { year: number }, { db }: RequestContext) => {
+        const result = await useCache(computeToolsMatrix, db, [
+            {
+                survey: matrix.survey,
+                tools: matrix.ids,
+                experience: matrix.experience,
+                type,
+                year
+            }
+        ])
+
+        return {
+            year,
+            experience: matrix.experience,
+            buckets: result
+        }
+    }
+})
 
 export default {
     Matrices: {
@@ -21,42 +45,11 @@ export default {
         // }
     },
     ToolsMatrices: {
-        workExperience: (
-            { survey, ids, type }: Omit<MatrixConfig, 'subType' | 'experience'>,
-            { experience }: { experience: MatrixConfig['experience'] }
-        ): MatrixConfig => {
-            return { survey, ids, type, experience, subType: 'years_of_experience' }
-        },
-        salary: (
-            { survey, ids, type }: Omit<MatrixConfig, 'subType' | 'experience'>,
-            { experience }: { experience: MatrixConfig['experience'] }
-        ): MatrixConfig => {
-            return { survey, ids, type, experience, subType: 'yearly_salary' }
-        },
-        companySize: (
-            { survey, ids, type }: Omit<MatrixConfig, 'subType' | 'experience'>,
-            { experience }: { experience: MatrixConfig['experience'] }
-        ): MatrixConfig => {
-            return { survey, ids, type, experience, subType: 'company_size' }
-        }
+        workExperience: getMatrixConfig,
+        salary: getMatrixConfig,
+        companySize: getMatrixConfig
     },
-    ToolsMatrix: {
-        year: async (matrix: MatrixConfig, { year }: { year: number }, { db }: RequestContext) => {
-            const result = await useCache(computeToolsMatrix, db, [
-                {
-                    survey: matrix.survey,
-                    tools: matrix.ids,
-                    experience: matrix.experience,
-                    subType: matrix.subType,
-                    year
-                }
-            ])
-
-            return {
-                year,
-                experience: matrix.experience,
-                buckets: result
-            }
-        }
-    }
+    ToolsWorkExperienceMatrix: generateMatrixResolver('years_of_experience'),
+    ToolsSalaryMatrix: generateMatrixResolver('yearly_salary'),
+    ToolsCompanySizeMatrix: generateMatrixResolver('company_size')
 }
