@@ -56,8 +56,8 @@ export default {
                 filters
             })
         }),
-        tools: (survey: SurveyConfig, { ids = toolIds }: { ids?: string[] }) => {
-            return ids.map(id => ({
+        tools: (survey: SurveyConfig, { ids = toolIds }: { ids?: string[] }) =>
+            ids.map(id => ({
                 survey,
                 id,
                 entity: getEntity({ id }),
@@ -66,8 +66,7 @@ export default {
                     id,
                     filters
                 })
-            }))
-        },
+            })),
         toolsRankings: (
             survey: SurveyConfig,
             { ids, filters }: { ids: string[]; filters: Filters }
@@ -79,21 +78,22 @@ export default {
         feature: (survey: SurveyConfig, { id }: { id: string }) => ({
             survey,
             id,
-            experience: {
-                survey,
-                id
-            }
-        }),
-        features: (survey: SurveyConfig, { ids = featureIds }: { ids: string[] }) => {
-            return ids.map(id => ({
+            experience: ({ filters }: { filters?: Filters }) => ({
                 survey,
                 id,
-                experience: {
+                filters
+            })
+        }),
+        features: (survey: SurveyConfig, { ids = featureIds }: { ids: string[] }) =>
+            ids.map(id => ({
+                survey,
+                id,
+                experience: ({ filters }: { filters?: Filters }) => ({
                     survey,
-                    id
-                }
-            }))
-        },
+                    id,
+                    filters
+                })
+            })),
         opinion: (survey: SurveyConfig, { id, filters }: { id: string; filters?: Filters }) => ({
             survey,
             id,
