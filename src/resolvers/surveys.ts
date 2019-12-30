@@ -50,20 +50,22 @@ export default {
             survey,
             id,
             entity: getEntity({ id }),
-            experience: {
+            experience: ({ filters }: { filters?: Filters }) => ({
                 survey,
-                id
-            }
+                id,
+                filters
+            })
         }),
         tools: (survey: SurveyConfig, { ids = toolIds }: { ids?: string[] }) => {
             return ids.map(id => ({
                 survey,
                 id,
                 entity: getEntity({ id }),
-                experience: {
+                experience: ({ filters }: { filters?: Filters }) => ({
                     survey,
-                    id
-                }
+                    id,
+                    filters
+                })
             }))
         },
         toolsRankings: (

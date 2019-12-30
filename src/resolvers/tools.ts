@@ -4,9 +4,14 @@ import { useCache } from '../caching'
 import { SurveyConfig, RequestContext } from '../types'
 import { Filters } from '../filters'
 
-const computeToolExperience = async (db: Db, survey: SurveyConfig, id: string) => {
-    return useCache(computeExperienceOverYears, db, [survey, id])
+interface ToolConfig {
+    survey: SurveyConfig
+    id: string
+    filters?: Filters
 }
+
+const computeToolExperience = async (db: Db, survey: SurveyConfig, id: string, filters?: Filters) =>
+    useCache(computeExperienceOverYears, db, [survey, id, filters])
 
 export default {
     ToolsRankings: {
@@ -14,24 +19,17 @@ export default {
             { survey, ids, filters }: { survey: SurveyConfig; ids: string[]; filters?: Filters },
             args: any,
             { db }: RequestContext
-        ) => {
-            return useCache(computeToolsExperienceRanking, db, [survey, ids, filters])
-        }
+        ) => useCache(computeToolsExperienceRanking, db, [survey, ids, filters])
     },
     ToolExperience: {
-        allYears: async (
-            { survey, id }: { survey: SurveyConfig; id: string },
-            args: any,
-            { db }: RequestContext
-        ) => {
-            return computeToolExperience(db, survey, id)
-        },
+        allYears: async ({ survey, id, filters }: ToolConfig, args: any, { db }: RequestContext) =>
+            computeToolExperience(db, survey, id, filters),
         year: async (
-            { survey, id }: { survey: SurveyConfig; id: string },
+            { survey, id, filters }: ToolConfig,
             { year }: { year: number },
             { db }: RequestContext
         ) => {
-            const allYears = await computeToolExperience(db, survey, id)
+            const allYears = await computeToolExperience(db, survey, id, filters)
 
             return allYears.find(yearItem => yearItem.year === year)
         }
