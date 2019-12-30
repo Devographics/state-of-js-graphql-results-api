@@ -1,27 +1,17 @@
-import util from 'util'
 import dotenv from 'dotenv'
 dotenv.config()
-import * as Mongo from 'mongodb'
-const { MongoClient } = Mongo
-/*
+import { MongoClient } from 'mongodb'
+import { inspect } from 'util'
 import {
     computeParticipationByYear,
-    computeGenderBreakdownByYear,
     computeExperienceOverYears,
-    computeFeatureUsageByYear,
-    computeSalaryRangeByYear,
-    computeCompanySizeByYear,
-    computeYearsOfExperienceByYear,
     getParticipationByYearMap,
-    computeOpinionByYear,
-    computeOpinionsByYear,
     computeHappinessByYear,
-    computeToolsExperience,
     computeToolsExperienceRanking,
     computeToolsMatrix,
-    computeSalaryByJobTitle
-} from './analysis'
-*/
+    computeChangesOverYearsFlow
+} from './compute'
+
 const run = async () => {
     const mongoClient = new MongoClient(process.env!.MONGO_URI!, {
         useNewUrlParser: true,
@@ -31,22 +21,15 @@ const run = async () => {
     await mongoClient.connect()
     const db = mongoClient.db(process.env.MONGO_DB_NAME)
 
-    /*
-    const res = await computeToolsMatrix(
+    const res = await computeChangesOverYearsFlow(
         db,
-        {},
-        {
-            survey: { survey: 'js' },
-            ids: ['typescript', 'reason', 'elm', 'clojurescript', 'purescript'],
-            year: 2019,
-            experience: 'would_user',
-            subType: 'salary'
-        }
+        { survey: 'js' },
+        'tools.typescript.experience'
     )
-    console.log(util.inspect(res, { depth: null, colors: true }))
+
+    console.log(inspect(res, { depth: null, colors: true }))
 
     await mongoClient.close()
-     */
 }
 
 run()

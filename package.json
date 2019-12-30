@@ -11,7 +11,7 @@
         "graphiql-explorer": "^0.4.5",
         "graphql": "^14.5.8",
         "lodash": "^4.17.15",
-        "mongodb": "^3.3.5"
+        "mongodb": "^3.4.1"
     },
     "devDependencies": {
         "@types/js-yaml": "^3.12.1",
