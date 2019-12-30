@@ -1,18 +1,20 @@
 import { useCache } from '../caching'
 import { computeToolsMatrix } from '../compute'
 import { SurveyConfig, RequestContext } from '../types'
+import { Filters } from '../filters'
 
 interface MatrixConfig {
     survey: SurveyConfig
     ids: string[]
     type: 'tools' | 'features'
     experience: string
+    filters?: Filters
 }
 
 const getMatrixConfig = (
-    { survey, ids, type }: Omit<MatrixConfig, 'experience'>,
-    { experience }: { experience: MatrixConfig['experience'] }
-): MatrixConfig => ({ survey, ids, type, experience })
+    { survey, ids, type }: Omit<MatrixConfig, 'experience' | 'filters'>,
+    { experience, filters }: { experience: MatrixConfig['experience']; filters?: Filters }
+): MatrixConfig => ({ survey, ids, type, experience, filters })
 
 const generateMatrixResolver = (
     type: 'years_of_experience' | 'yearly_salary' | 'company_size'
@@ -24,7 +26,8 @@ const generateMatrixResolver = (
                 tools: matrix.ids,
                 experience: matrix.experience,
                 type,
-                year
+                year,
+                filters: matrix.filters
             }
         ])
 

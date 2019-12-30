@@ -3,6 +3,7 @@ import { Db } from 'mongodb'
 import { ratioToPercentage } from './common'
 import { getEntity } from '../helpers'
 import { SurveyConfig } from '../types'
+import { Filters, generateFiltersQuery } from '../filters'
 
 export const computeToolMatrixBreakdown = async (
     db: Db,
@@ -11,13 +12,15 @@ export const computeToolMatrixBreakdown = async (
         tool,
         experience,
         type,
-        year
+        year,
+        filters
     }: {
         survey: SurveyConfig
         tool: string
         experience: string
         type: 'years_of_experience' | 'yearly_salary' | 'company_size'
         year: number
+        filters?: Filters
     }
 ) => {
     const collection = db.collection('normalized_responses')
@@ -25,15 +28,18 @@ export const computeToolMatrixBreakdown = async (
     const toolPath = `tools.${tool}.experience`
     const breakdownPath = `user_info.${type}`
 
+    const match = {
+        survey: survey.survey,
+        year,
+        [toolPath]: experience,
+        [breakdownPath]: { $nin: [null, ''] },
+        ...generateFiltersQuery(filters)
+    }
+
     let results = await collection
         .aggregate([
             {
-                $match: {
-                    survey: survey.survey,
-                    year,
-                    [toolPath]: experience,
-                    [breakdownPath]: { $nin: [null, ''] }
-                }
+                $match: match
             },
             {
                 $group: {
@@ -74,13 +80,15 @@ export async function computeToolsMatrix(
         tools,
         experience,
         type,
-        year
+        year,
+        filters
     }: {
         survey: SurveyConfig
         tools: string[]
         experience: string
         type: 'years_of_experience' | 'yearly_salary' | 'company_size'
         year: number
+        filters?: Filters
     }
 ) {
     const allTools: any[] = []
@@ -91,7 +99,8 @@ export async function computeToolsMatrix(
                 tool,
                 experience,
                 type,
-                year
+                year,
+                filters
             })
         )
     }

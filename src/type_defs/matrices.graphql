@@ -88,9 +88,9 @@ for example, salary breakdown for users who have used React
 and would use it again.
 """
 type ToolsMatrices @cacheControl(maxAge: 600) {
-    workExperience(experience: ExperienceID!): ToolsWorkExperienceMatrix
-    salary(experience: ExperienceID!): ToolsSalaryMatrix
-    companySize(experience: ExperienceID!): ToolsCompanySizeMatrix
+    workExperience(experience: ExperienceID!, filters: Filters): ToolsWorkExperienceMatrix
+    salary(experience: ExperienceID!, filters: Filters): ToolsSalaryMatrix
+    companySize(experience: ExperienceID!, filters: Filters): ToolsCompanySizeMatrix
 }
 
 #"""
