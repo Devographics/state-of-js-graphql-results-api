@@ -107,7 +107,7 @@ type ToolExperience @cacheControl(maxAge: 600) {
 
 type Tool @cacheControl(maxAge: 600) {
     id: ToolID!
-    experience: ToolExperience
+    experience(filters: Filters): ToolExperience
     entity: Entity
 }
 
