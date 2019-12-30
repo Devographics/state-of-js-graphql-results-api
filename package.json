@@ -35,7 +35,8 @@
     "scripts": {
         "build": "NODE_ENV=production webpack --config webpack.production.js",
         "dev": "NODE_ENV=development webpack --config webpack.development.js",
-        "fmt": "prettier --write \"src/**/*.{ts,js,mjs,yml,graphql}\""
+        "fmt": "prettier --write \"src/**/*.{ts,js,mjs,yml,graphql}\"",
+        "start": "NODE_ENV=production webpack --config webpack.production.js"
     },
     "engines": {
         "node": ">=13.0.0"
