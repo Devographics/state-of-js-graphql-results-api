@@ -10,20 +10,20 @@ export const computeToolMatrixBreakdown = async (
         survey,
         tool,
         experience,
-        subType,
+        type,
         year
     }: {
         survey: SurveyConfig
         tool: string
         experience: string
-        subType: 'years_of_experience' | 'yearly_salary' | 'company_size'
+        type: 'years_of_experience' | 'yearly_salary' | 'company_size'
         year: number
     }
 ) => {
     const collection = db.collection('normalized_responses')
 
     const toolPath = `tools.${tool}.experience`
-    const breakdownPath = `user_info.${subType}`
+    const breakdownPath = `user_info.${type}`
 
     let results = await collection
         .aggregate([
@@ -73,13 +73,13 @@ export async function computeToolsMatrix(
         survey,
         tools,
         experience,
-        subType,
+        type,
         year
     }: {
         survey: SurveyConfig
         tools: string[]
         experience: string
-        subType: 'years_of_experience' | 'yearly_salary' | 'company_size'
+        type: 'years_of_experience' | 'yearly_salary' | 'company_size'
         year: number
     }
 ) {
@@ -90,7 +90,7 @@ export async function computeToolsMatrix(
                 survey,
                 tool,
                 experience,
-                subType,
+                type,
                 year
             })
         )
