@@ -14,7 +14,9 @@ const getMatrixConfig = (
     { experience }: { experience: MatrixConfig['experience'] }
 ): MatrixConfig => ({ survey, ids, type, experience })
 
-const generateMatrixResolver = (type: 'years_of_experience' | 'yearly_salary' | 'company_size') => ({
+const generateMatrixResolver = (
+    type: 'years_of_experience' | 'yearly_salary' | 'company_size'
+) => ({
     year: async (matrix: MatrixConfig, { year }: { year: number }, { db }: RequestContext) => {
         const result = await useCache(computeToolsMatrix, db, [
             {

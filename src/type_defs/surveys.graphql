@@ -18,7 +18,6 @@ enum SurveyType {
 
 type Survey @cacheControl(maxAge: 600) {
     survey: SurveyType
-    year: Int
     tool(id: ToolID!): Tool
     tools(ids: [ToolID]): [Tool] @cacheControl(maxAge: 600)
     toolsRankings(ids: [ToolID]!, filters: Filters): ToolsRankings

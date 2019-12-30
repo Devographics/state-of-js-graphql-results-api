@@ -10,7 +10,6 @@ export interface RequestContext {
 
 export interface SurveyConfig {
     survey: SurveyType
-    year: number
 }
 
 export * from './demographics'
