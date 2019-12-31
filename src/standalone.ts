@@ -9,7 +9,7 @@ import {
     computeHappinessByYear,
     computeToolsExperienceRanking,
     computeToolsMatrix,
-    computeChangesOverYearsFlow
+    computeChoicesOverYearsGraph
 } from './compute'
 
 const run = async () => {
@@ -21,7 +21,7 @@ const run = async () => {
     await mongoClient.connect()
     const db = mongoClient.db(process.env.MONGO_DB_NAME)
 
-    const res = await computeChangesOverYearsFlow(
+    const res = await computeChoicesOverYearsGraph(
         db,
         { survey: 'js' },
         'tools.typescript.experience'

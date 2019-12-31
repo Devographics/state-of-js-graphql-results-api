@@ -3,7 +3,7 @@ import { Db } from 'mongodb'
 import { SurveyConfig } from '../types'
 import { Filters, generateFiltersQuery } from '../filters'
 
-export async function computeChangesOverYearsFlow(
+export async function computeChoicesOverYearsGraph(
     db: Db,
     survey: SurveyConfig,
     field: string,
@@ -15,7 +15,7 @@ export async function computeChangesOverYearsFlow(
         .aggregate<{
             years: Array<{
                 year: number
-                value: string
+                choice: string
             }>
         }>([
             {
@@ -29,7 +29,7 @@ export async function computeChangesOverYearsFlow(
                         $trim: { input: '$user_info.email' }
                     },
                     year: true,
-                    value: `$${field}`
+                    choice: `$${field}`
                 }
             },
             // make sure we do not have empty/null values
@@ -37,7 +37,7 @@ export async function computeChangesOverYearsFlow(
                 $match: {
                     email: { $nin: [null, '', ' '] },
                     year: { $nin: [null, '', ' '] },
-                    value: { $nin: [null, '', ' '] }
+                    choice: { $nin: [null, '', ' '] }
                 }
             },
             // make sure there is a single participation by year
@@ -50,7 +50,7 @@ export async function computeChangesOverYearsFlow(
                     },
                     email: { $last: '$email' },
                     year: { $last: '$year' },
-                    value: { $last: '$value' }
+                    choice: { $last: '$choice' }
                 }
             },
             // make sure years are in order
@@ -68,7 +68,7 @@ export async function computeChangesOverYearsFlow(
                     years: {
                         $push: {
                             year: '$year',
-                            value: '$value'
+                            choice: '$choice'
                         }
                     }
                 }
@@ -93,7 +93,7 @@ export async function computeChangesOverYearsFlow(
     let nodes: Array<{
         id: string
         year: number
-        value: string
+        choice: string
     }> = []
     let links: Array<{
         source: string
@@ -103,7 +103,7 @@ export async function computeChangesOverYearsFlow(
 
     await results.forEach(item => {
         item.years.forEach((current, index, arr) => {
-            const currentId = `${current.year}.${current.value}`
+            const currentId = `${current.year}.${current.choice}`
             if (nodes.find(n => n.id === currentId) === undefined) {
                 nodes.push({
                     id: currentId,
@@ -116,7 +116,7 @@ export async function computeChangesOverYearsFlow(
                 // make sure there's only one year between the 2 entries
                 // otherwise, skip the link
                 if (current.year - previous.year === 1) {
-                    const previousId = `${previous.year}.${previous.value}`
+                    const previousId = `${previous.year}.${previous.choice}`
                     let link = links.find(l => {
                         return l.source === previousId && l.target === currentId
                     })

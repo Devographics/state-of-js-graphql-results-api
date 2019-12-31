@@ -1,6 +1,8 @@
 import { getEntity, getGraphQLEnumValues } from '../helpers'
-import { SurveyConfig } from '../types'
+import { RequestContext, SurveyConfig } from '../types'
 import { Filters } from '../filters'
+import { computeToolExperienceGraph } from '../compute'
+import { useCache } from '../caching'
 
 const toolIds = getGraphQLEnumValues('ToolID')
 const featureIds = getGraphQLEnumValues('FeatureID')
@@ -54,7 +56,9 @@ export default {
                 survey,
                 id,
                 filters
-            })
+            }),
+            experienceGraph: async ({ filters }: { filters?: Filters }, { db }: RequestContext) =>
+                useCache(computeToolExperienceGraph, db, [survey, id, filters])
         }),
         tools: (survey: SurveyConfig, { ids = toolIds }: { ids?: string[] }) =>
             ids.map(id => ({
@@ -65,7 +69,11 @@ export default {
                     survey,
                     id,
                     filters
-                })
+                }),
+                experienceGraph: async (
+                    { filters }: { filters?: Filters },
+                    { db }: RequestContext
+                ) => useCache(computeToolExperienceGraph, db, [survey, id, filters])
             })),
         toolsRankings: (
             survey: SurveyConfig,

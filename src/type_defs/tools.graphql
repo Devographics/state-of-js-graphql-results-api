@@ -105,9 +105,37 @@ type ToolExperience @cacheControl(maxAge: 600) {
     year(year: Int!): ToolYearExperience
 }
 
+type ToolExperienceGraphNode @cacheControl(maxAge: 600) {
+    id: String
+    year: Int
+    experience: ExperienceID
+}
+
+"""
+Track number of connections between 2 nodes,
+for example number of user who were interested in React in 206
+and are willing to use it in 2017, connections are only established
+for consecutive years.
+"""
+type ToolExperienceGraphLink @cacheControl(maxAge: 600) {
+    source: String
+    target: String
+    count: Int
+}
+
+"""
+A graph of users' experience over years, compared to just computing
+the overall choice count for each year, this keeps continuity for each user.
+"""
+type ToolExperienceGraph @cacheControl(maxAge: 600) {
+    nodes: [ToolExperienceGraphNode] @cacheControl(maxAge: 600)
+    links: [ToolExperienceGraphLink] @cacheControl(maxAge: 600)
+}
+
 type Tool @cacheControl(maxAge: 600) {
     id: ToolID!
     experience(filters: Filters): ToolExperience
+    experienceGraph(filters: Filters): ToolExperienceGraph
     entity: Entity
 }
 
