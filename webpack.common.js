@@ -1,5 +1,6 @@
 const path = require('path')
 const nodeExternals = require('webpack-node-externals')
+const CopyPlugin = require('copy-webpack-plugin')
 
 module.exports = {
     entry: {
@@ -34,5 +35,6 @@ module.exports = {
     },
     externals: [nodeExternals({})],
     target: 'node',
-    node: false
+    node: false,
+    plugins: [new CopyPlugin([{ from: 'public', to: 'public' }])]
 }
