@@ -37,7 +37,7 @@ const start = async () => {
 
     const app = express()
 
-    app.get('/graphiql', function(req, res) {
+    app.get('/', function(req, res) {
         res.sendFile(path.join(__dirname + '/public/graphiql.html'))
     })
 
