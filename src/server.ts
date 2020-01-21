@@ -37,10 +37,6 @@ const start = async () => {
 
     const app = express()
 
-    app.get('/', function(req, res) {
-        res.sendFile(path.join(__dirname + '/public/graphiql.html'))
-    })
-
     server.applyMiddleware({ app })
 
     const port = process.env.PORT || 4000
