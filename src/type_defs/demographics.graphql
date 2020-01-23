@@ -250,14 +250,44 @@ Information about particpants:
 - …
 """
 type Demographics @cacheControl(maxAge: 600) {
+    """
+    Country
+    """
     country(filters: Filters): Country @cacheControl(maxAge: 600)
+    """
+    How respondents found the survey
+    """
     source(filters: Filters): Source @cacheControl(maxAge: 600)
+    """
+    Participants count
+    """
     participation(filters: Filters): Participation @cacheControl(maxAge: 600)
+    """
+    Gender
+    """
     gender(filters: Filters): Gender @cacheControl(maxAge: 600)
+    """
+    Salary
+    """
     salary(filters: Filters): Salary @cacheControl(maxAge: 600)
+    """
+    Company size
+    """
     companySize(filters: Filters): CompanySize @cacheControl(maxAge: 600)
+    """
+    Work experience as a developer
+    """
     workExperience(filters: Filters): WorkExperience @cacheControl(maxAge: 600)
+    """
+    Job title
+    """
     jobTitle(filters: Filters): JobTitle @cacheControl(maxAge: 600)
+    """
+    Proficiency with front-end tools
+    """
     cssProficiency(filters: Filters): CSSProficiency @cacheControl(maxAge: 600)
+    """
+    Proficiency with back-end tools
+    """
     backendProficiency(filters: Filters): BackendProficiency @cacheControl(maxAge: 600)
 }

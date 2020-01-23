@@ -31,12 +31,18 @@ enum FeatureID {
     wasm
 }
 
+"""
+A feature usage datapoint
+"""
 type FeatureBucket @cacheControl(maxAge: 600) {
     id: String
     count: Int
     percentage: Float
 }
 
+"""
+Feature data for a specific year
+"""
 type YearFeature @cacheControl(maxAge: 600) {
     year: Int
     """
@@ -52,6 +58,9 @@ type FeatureExperience @cacheControl(maxAge: 600) {
     year(year: Int!): YearFeature
 }
 
+"""
+A feature (e.g. arrow functions, websocket, etc.)
+"""
 type Feature @cacheControl(maxAge: 600) {
     id: FeatureID!
     name: String

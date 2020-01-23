@@ -16,18 +16,56 @@ enum SurveyType {
     css
 }
 
+"""
+A survey
+"""
 type Survey @cacheControl(maxAge: 600) {
+    """
+    The survey's name
+    """
     survey: SurveyType
+    """
+    Experience results for a specific tool
+    """
     tool(id: ToolID!): Tool
+    """
+    Experience results for a range of tools
+    """
     tools(ids: [ToolID]): [Tool] @cacheControl(maxAge: 600)
+    """
+    Rankings (awareness, interest, satisfaction) for a range of tools
+    """
     toolsRankings(ids: [ToolID]!, filters: Filters): ToolsRankings
+    """
+    Usage results for a specific feature
+    """
     feature(id: FeatureID!): Feature
+    """
+    Usage results for a range of features
+    """
     features(ids: [FeatureID]): [Feature] @cacheControl(maxAge: 600)
+    """
+    Demographics data (gender, company size, salary, etc.)
+    """
     demographics: Demographics
+    """
+    Opinions data
+    """
     opinion(id: OpinionID!, filters: Filters): Opinion
+    """
+    Other tools (browsers, editors, etc.)
+    """
     otherTools(id: OtherToolsID!, filters: Filters): OtherTools
+    """
+    Resources (sites, blogs, podcasts, etc.)
+    """
     resources(id: ResourcesID!, filters: Filters): Resources
-    entity(id: ID!): Entity
-    category(id: CategoryID!): Category
+    """
+    Data about a specific tool category 
+    """
+    category(id: CategoryID!): Category @deprecated(reason: "Deprecated in favor of using tools() with a list of ids")
+    """
+    Matrices data (used for cross-referencing heatmap charts)
+    """
     matrices: Matrices
 }

@@ -112,10 +112,6 @@ export default {
             id,
             filters
         }),
-        entity: (survey: SurveyConfig, { id }: { id: string }) => ({
-            survey,
-            ...getEntity({ id })
-        }),
         resources: (survey: SurveyConfig, { id, filters }: { id: string; filters?: Filters }) => ({
             survey,
             id,

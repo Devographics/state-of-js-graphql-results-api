@@ -10,5 +10,12 @@ type Completion @cacheControl(maxAge: 600) {
 }
 
 type Query {
+    """
+    Data for a specific survey.
+    """
     survey(survey: SurveyType!): Survey
+    """
+    Data about a specific entity (tool, library, framework, etc.)
+    """
+    entity(id: ID!): Entity
 }
