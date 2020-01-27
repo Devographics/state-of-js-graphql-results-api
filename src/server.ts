@@ -26,7 +26,7 @@ const start = async () => {
         debug: isDev,
         tracing: isDev,
         cacheControl: true,
-        introspection: isDev,
+        introspection: true,
         playground: false,
         plugins: [responseCachePlugin()],
         engine: {
