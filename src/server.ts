@@ -39,6 +39,10 @@ const start = async () => {
 
     server.applyMiddleware({ app })
 
+    app.get('/', function(req, res) {
+        res.sendFile(path.join(__dirname + '/public/welcome.html'))
+    })
+
     const port = process.env.PORT || 4000
 
     app.listen({ port: port }, () =>

@@ -191,7 +191,7 @@ class App extends Component {
                                     return
                                 }
 
-                                window.open('http://onegraph.com/')
+                                window.open('https://api.stateofjs.com/')
                             }}
                             label="Help"
                             title="Open API help"

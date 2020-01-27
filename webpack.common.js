@@ -5,7 +5,7 @@ const CopyPlugin = require('copy-webpack-plugin')
 module.exports = {
     entry: {
         server: path.join(__dirname, 'src/server.ts'),
-        standalone: path.join(__dirname, 'src/standalone.ts')
+        standalone: path.join(__dirname, 'src/standalone.ts'),
     },
     module: {
         rules: [
