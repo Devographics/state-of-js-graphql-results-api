@@ -9,6 +9,8 @@ import resolvers from './resolvers'
 import express from 'express'
 const path = require('path')
 
+const isDev = process.env.NODE_ENV === 'development'
+
 const start = async () => {
     const mongoClient = new MongoClient(process.env!.MONGO_URI!, {
         useNewUrlParser: true,
@@ -21,10 +23,10 @@ const start = async () => {
     const server = new ApolloServer({
         typeDefs,
         resolvers: resolvers as any,
-        debug: true,
-        tracing: true,
+        debug: isDev,
+        tracing: isDev,
         cacheControl: true,
-        introspection: true,
+        introspection: isDev,
         playground: false,
         plugins: [responseCachePlugin()],
         engine: {
