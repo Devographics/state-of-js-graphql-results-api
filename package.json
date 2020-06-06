@@ -4,7 +4,7 @@
     "license": "MIT",
     "dependencies": {
         "@types/node-fetch": "^2.5.4",
-        "apollo-server": "^2.9.12",
+        "apollo-server": "^2.14.2",
         "apollo-server-express": "^2.9.16",
         "apollo-server-plugin-response-cache": "^0.3.8",
         "dotenv": "^8.2.0",
