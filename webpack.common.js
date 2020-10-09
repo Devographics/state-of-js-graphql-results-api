@@ -12,29 +12,29 @@ module.exports = {
             {
                 test: /\.yml$/,
                 exclude: /node_modules/,
-                use: 'js-yaml-loader'
+                use: 'js-yaml-loader',
             },
             {
                 test: /\.graphql$/,
                 exclude: /node_modules/,
-                use: 'graphql-tag/loader'
+                use: 'graphql-tag/loader',
             },
             {
                 test: /\.ts$/,
                 exclude: /node_modules/,
-                use: 'ts-loader'
-            }
-        ]
+                use: 'ts-loader',
+            },
+        ],
     },
     output: {
         filename: '[name].js',
-        path: path.resolve(__dirname, 'dist')
+        path: path.resolve(__dirname, 'dist'),
     },
     resolve: {
-        extensions: ['.ts', '.js', '.yml', '.graphql']
+        extensions: ['.ts', '.js', '.yml', '.graphql'],
     },
     externals: [nodeExternals({})],
     target: 'node',
     node: false,
-    plugins: [new CopyPlugin([{ from: 'public', to: 'public' }])]
+    plugins: [new CopyPlugin({ patterns: [{ from: 'public', to: 'public' }] })],
 }

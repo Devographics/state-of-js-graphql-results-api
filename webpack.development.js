@@ -4,9 +4,10 @@ const merge = require('webpack-merge')
 
 const common = require('./webpack.common.js')
 
-module.exports = merge.smart(common, {
+module.exports = {
+    ...common,
     devtool: 'inline-source-map',
     mode: 'development',
     plugins: [new CleanWebpackPlugin(), new NodemonPlugin()],
-    watch: true
-})
+    watch: true,
+}

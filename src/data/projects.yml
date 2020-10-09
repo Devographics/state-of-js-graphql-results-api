@@ -66,6 +66,7 @@
   homepage: 'https://facebook.github.io/react-native/'
   aliases:
       - reactnative
+      - react_native
 - id: electron
   name: Electron
   npm: electron

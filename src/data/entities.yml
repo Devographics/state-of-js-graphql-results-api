@@ -304,8 +304,10 @@
   name: Tachyons
 - id: tailwind
   github: tailwindcss/tailwindcss
-  name: Tailwind
+  name: Tailwind CSS
   npm: tailwindcss
+  aliases:
+      - Tailwind CSS
 - id: textmate
   name: Textmate
   homepage: https://macromates.com/

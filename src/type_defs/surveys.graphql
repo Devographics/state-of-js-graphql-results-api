@@ -23,7 +23,7 @@ type Survey @cacheControl(maxAge: 600) {
     """
     The survey's name
     """
-    survey: SurveyType
+    surveyName: SurveyType
     """
     Experience results for a specific tool
     """
