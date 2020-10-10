@@ -49,7 +49,6 @@ export const getTranslation = (key: string, locale: string) => {
     if (localeObject) {
         const allStrings = localeObject.stringFiles.map((s: any) => s.translations).flat()
         const translation = allStrings.find((s: any) => s.key === key)
-        console.log(translation)
         return translation
     }
 }
