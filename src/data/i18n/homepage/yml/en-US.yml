@@ -1,55 +1,54 @@
 locale: en-US
 translations:
-  
-  ###########################################################################
-  # Homepage
-  ###########################################################################
+    ###########################################################################
+    # Homepage
+    ###########################################################################
 
-  key: homepage.hand_coded
-  t: Hand-coded in Japan.
-  key: homepage.leave_issue
-  t: Leave an issue
-  key: homepage.get_in_touch
-  t: Get in touch
+    - key: homepage.hand_coded
+      t: Hand-coded in Japan.
+    - key: homepage.leave_issue
+      t: Leave an issue
+    - key: homepage.get_in_touch
+      t: Get in touch
 
-  key: homepage.made_by
-  t: 'The State of CSS is Made by:'
-  key: homepage.leave_issue
-  t: Leave an issue
+    - key: homepage.made_by
+      t: 'The State of CSS is Made by:'
+    - key: homepage.leave_issue
+      t: Leave an issue
 
-  key: homepage.previous_years
-  t: 'Previous Years:'
+    - key: homepage.previous_years
+      t: 'Previous Years:'
 
-  key: homepage.intro
-  t: >
-      ## CSS is evolving faster than ever.
-      
-      Flexbox, Grid, Multi-Column… To say nothing of whole new paradigms like CSS-in-JS.
-      
-      So after the success of our annual [State Of JavaScript](https://stateofjs.com) survey, we’ve decided to take on
-      the world of styles and selectors to help identify the latests trends… and try to bridge
-      the ever-growing “great front-end divide”!
+    - key: homepage.intro
+      t: >
+          ## CSS is evolving faster than ever.
 
-  key: homepage.take_survey
-  t: Take Survey
+          Flexbox, Grid, Multi-Column… To say nothing of whole new paradigms like CSS-in-JS.
 
-  key: homepage.view_results
-  t: View 2019 Results
+          So after the success of our annual [State Of JavaScript](https://stateofjs.com) survey, we’ve decided to take on
+          the world of styles and selectors to help identify the latests trends… and try to bridge
+          the ever-growing “great front-end divide”!
 
-  key: share.help_spread
-  t: Help Spread the Word!
+    - key: homepage.take_survey
+      t: Take Survey
 
-  key: newsletter.stay_tuned
-  t: Stay Tuned
-  key: newsletter.leave_your_email
-  t: Leave us your email and we’ll let you know when the next survey takes place.
+    - key: homepage.view_results
+      t: View 2019 Results
 
-  key: author.sacha.bio
-  t: >
-      Creator of the [Nivo](http://nivo.rocks/) JavaScript data visualization library as well
-      as [Mozaik](http://mozaik.rocks/), a tool for building beautiful dashboards.
-  
-  key: author.raphael.bio
-  t: >
-      Creator of the [Sidebar](http://sidebar.io) daily newsletter and
-      [VulcanJS](http://vulcanjs.org), a React+GraphQL open-source framework.
+    - key: share.help_spread
+      t: Help Spread the Word!
+
+    - key: newsletter.stay_tuned
+      t: Stay Tuned
+    - key: newsletter.leave_your_email
+      t: Leave us your email and we’ll let you know when the next survey takes place.
+
+    - key: author.sacha.bio
+      t: >
+          Creator of the [Nivo](http://nivo.rocks/) JavaScript data visualization library as well
+          as [Mozaik](http://mozaik.rocks/), a tool for building beautiful dashboards.
+
+    - key: author.raphael.bio
+      t: >
+          Creator of the [Sidebar](http://sidebar.io) daily newsletter and
+          [VulcanJS](http://vulcanjs.org), a React+GraphQL open-source framework.

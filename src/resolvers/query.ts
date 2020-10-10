@@ -12,7 +12,7 @@ export default {
             ...getEntity({ id }),
         }),
         translation: (parent: any, { key, locale }: { key: string, locale: string }) => ({
-            ...getTranslation({ key, locale }),
+            ...getTranslation(key, locale),
         }),
     },
 }
