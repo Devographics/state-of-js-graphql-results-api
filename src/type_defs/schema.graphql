@@ -18,4 +18,8 @@ type Query {
     Data about a specific entity (tool, library, framework, etc.)
     """
     entity(id: ID!): Entity
+    """
+    Translate a string
+    """
+    translation(key: String!, locale: String!): Translation
 }

@@ -3,6 +3,7 @@ import { Entity } from './types'
 import entities from './data/entities.yml'
 import projects from './data/projects.yml'
 import typeDefs from './type_defs/schema.graphql'
+import locales from './data/i18n'
 
 const allEntities: Entity[] = [...projects, ...entities]
 
@@ -41,4 +42,13 @@ export const getGraphQLEnumValues = (name: string): string[] => {
     }
 
     return enumDef.values!.map(v => v.name.value)
+}
+
+export const getTranslation = ({ key, locale }) => {
+    const localeObject = locales.find(l => l.locale === locale);
+    const { stringFiles } = localeObject;
+    const allStrings = stringFiles.map(s => s.translations).flat();
+    const translation = allStrings.find(s => s.key === key);
+    console.log(translation)
+    return translation;
 }

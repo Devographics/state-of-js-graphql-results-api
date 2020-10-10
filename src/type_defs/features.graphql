@@ -1,4 +1,5 @@
 enum FeatureID {
+
     # JS syntax
     destructuring
     spread_operator
@@ -29,6 +30,55 @@ enum FeatureID {
     # JS other features
     pwa
     wasm
+
+    # CSS features
+    grid
+    subgrid
+    regions
+    flexbox
+    multi_column
+    writing_modes
+    exclusions
+    position_sticky
+    logical_properties
+    aspect_ratio
+    content_visibility
+    shapes
+    object_fit
+    clip_path
+    masks
+    blend_modes
+    filter_effects
+    backdrop_filter
+    scroll_snap
+    overscroll_behavior
+    overflow_anchor
+    touch_action
+    pointer_events
+    web_fonts
+    variables_fonts
+    line_breaking
+    font_variant
+    initial_letter
+    font_variant_numeric
+    font_display
+    line_clamp
+    leading_trim
+    direction
+    transitions
+    transforms
+    animations
+    perspective
+    prefers_reduced_motion
+    prefers_color_scheme
+    color_gamut
+    variables
+    feature_support_queries
+    containment
+    will_change
+    calc
+    houdini
+    comparison_functions
 }
 
 """

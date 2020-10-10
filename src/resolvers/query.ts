@@ -1,15 +1,18 @@
 import { SurveyType } from '../types'
-import { getEntity, } from '../helpers'
+import { getEntity, getTranslation } from '../helpers'
 import { SurveyConfig } from '../types'
 
 export default {
     Query: {
         survey: (parent: any, { survey }: { survey: SurveyType }) => ({
-            survey
+            survey,
         }),
         entity: (survey: SurveyConfig, { id }: { id: string }) => ({
             survey,
-            ...getEntity({ id })
+            ...getEntity({ id }),
         }),
-    }
+        translation: (parent: any, { key, locale }: { key: string, locale: string }) => ({
+            ...getTranslation({ key, locale }),
+        }),
+    },
 }

@@ -1,0 +1,4 @@
+type Translation @cacheControl(maxAge: 600) {
+    key: String
+    t: String
+}
