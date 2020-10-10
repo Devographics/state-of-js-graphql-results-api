@@ -1,3 +1,9 @@
+enum LocaleID {
+    en_US
+    it_IT
+    zh_Hans
+}
+
 type Translation @cacheControl(maxAge: 600) {
     key: String
     t: String

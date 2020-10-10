@@ -21,5 +21,5 @@ type Query {
     """
     Translate a string
     """
-    translation(key: String!, locale: String!): Translation
+    translation(key: String!, locale: LocaleID): Translation
 }
