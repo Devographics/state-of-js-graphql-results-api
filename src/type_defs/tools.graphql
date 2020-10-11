@@ -63,6 +63,9 @@ enum ToolID {
     purecss
     skeleton
     spectre
+    # CSS methodologies
+    bem
+    atomic_design
 }
 
 """
