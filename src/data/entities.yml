@@ -168,7 +168,7 @@
   npm: less
 - id: make
   name: Make
-- id: materialize-css
+- id: materialize
   github: Dogfalo/materialize
   name: 'Materialize CSS'
   npm: materialize-css
@@ -274,10 +274,13 @@
   name: Selenium
   homepage: https://selenium.dev/
   category: testing
-- id: semantic-ui
+- id: semanticui
   github: Semantic-Org/Semantic-UI
   name: 'Semantic UI'
   npm: semantic-ui
+- id: ant_design
+  name: Ant Design
+  github: ant-design/ant-design
 - id: service-workers
   name: 'Service Workers'
 - id: smacss
