@@ -44,6 +44,11 @@ enum ToolID {
     ionic
     nwjs
     expo
+    # CSS Pre-/Post-processors
+    sass
+    less
+    postcss
+    stylus
 }
 
 """
