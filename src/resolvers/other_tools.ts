@@ -14,7 +14,7 @@ interface OtherToolsConfig {
 const computeOtherTools = async (db: Db, survey: SurveyConfig, id: string, filters?: Filters) =>
     useCache(computeTermAggregationByYear, db, [
         survey,
-        `other_tools.${getOtherKey(id)}`,
+        `tools_others.${getOtherKey(id)}`,
         { filters }
     ])
 
