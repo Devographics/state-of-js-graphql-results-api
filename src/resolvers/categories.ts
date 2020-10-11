@@ -13,7 +13,7 @@ interface CategoryConfig {
 const computeOtherTools = async (db: Db, survey: SurveyConfig, id: string, filters?: Filters) =>
     useCache(computeTermAggregationByYear, db, [
         survey,
-        `sections_other_tools.${id}_normalized`,
+        `tools_others.${id}.others.normalized`,
         { filters }
     ])
 
