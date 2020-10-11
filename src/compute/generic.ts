@@ -1,5 +1,6 @@
 import { Db } from 'mongodb'
 import _ from 'lodash'
+import config from '../config'
 import { Completion, SurveyConfig } from '../types'
 import { Filters, generateFiltersQuery } from '../filters'
 import { ratioToPercentage, appendCompletionToYearlyResults } from './common'
@@ -40,7 +41,7 @@ export async function computeTermAggregationByYear(
     key: string,
     options: TermAggregationByYearOptions = {}
 ) {
-    const collection = db.collection('normalized_responses')
+    const collection = db.collection(config.mongo.normalized_collection)
 
     const {
         filters,
@@ -55,6 +56,11 @@ export async function computeTermAggregationByYear(
         [key]: { $nin: [null, ''] },
         ...generateFiltersQuery(filters)
     }
+
+    console.log({
+        options,
+        match
+    })
 
     const rawResults: RawResult[] = await collection
         .aggregate([

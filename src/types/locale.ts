@@ -1,6 +1,6 @@
 export interface Locale {
-  id: string
-  locale: string
-  label: string
-  stringFiles: any[]
+    id: string
+    locale: string
+    label: string
+    stringFiles: any[]
 }

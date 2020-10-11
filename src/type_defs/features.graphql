@@ -1,5 +1,4 @@
 enum FeatureID {
-
     # JS syntax
     destructuring
     spread_operator

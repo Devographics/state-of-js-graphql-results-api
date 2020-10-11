@@ -11,7 +11,7 @@ const computeFeatureExperience = async (
     survey: SurveyConfig,
     id: string,
     filters?: Filters
-) => useCache(computeTermAggregationByYear, db, [survey, `features.${id}`, { filters }])
+) => useCache(computeTermAggregationByYear, db, [survey, `features.${id}.experience`, { filters }])
 
 export default {
     FeatureExperience: {

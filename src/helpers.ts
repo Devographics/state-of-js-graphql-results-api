@@ -45,7 +45,7 @@ export const getGraphQLEnumValues = (name: string): string[] => {
 }
 
 export const getTranslation = (key: string, locale: string) => {
-    const localeObject = locales.find((l) => l.locale === locale)
+    const localeObject = locales.find(l => l.locale === locale)
     if (localeObject) {
         const allStrings = localeObject.stringFiles.map((s: any) => s.translations).flat()
         const translation = allStrings.find((s: any) => s.key === key)

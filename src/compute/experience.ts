@@ -1,5 +1,6 @@
 import _ from 'lodash'
 import { Db } from 'mongodb'
+import config from '../config'
 import { ratioToPercentage, appendCompletionToYearlyResults } from './common'
 import { getEntity } from '../helpers'
 import { SurveyConfig } from '../types'
@@ -45,7 +46,7 @@ export async function computeExperienceOverYears(
     tool: string,
     filters?: Filters
 ) {
-    const collection = db.collection('normalized_responses')
+    const collection = db.collection(config.mongo.normalized_collection)
 
     const path = `tools.${tool}.experience`
 

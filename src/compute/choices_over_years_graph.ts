@@ -1,5 +1,6 @@
 import _ from 'lodash'
 import { Db } from 'mongodb'
+import config from '../config'
 import { SurveyConfig } from '../types'
 import { Filters, generateFiltersQuery } from '../filters'
 
@@ -9,7 +10,7 @@ export async function computeChoicesOverYearsGraph(
     field: string,
     filters?: Filters
 ) {
-    const collection = db.collection('normalized_responses')
+    const collection = db.collection(config.mongo.normalized_collection)
 
     const results = await collection
         .aggregate<{

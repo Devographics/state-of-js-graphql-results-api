@@ -50,9 +50,8 @@ export const useCache = async <F extends DynamicComputeCall>(
     const collection = db.collection(CACHE_COLLECTION)
     const existingResult = await collection.findOne({ key })
     if (existingResult) {
-        console.log(`< using result from cache for: ${key}`)
-
-        return existingResult.value
+        //console.log(`< using result from cache for: ${key}`)
+        //return existingResult.value
     }
 
     console.log(`> fetching/caching result for: ${key}`)
