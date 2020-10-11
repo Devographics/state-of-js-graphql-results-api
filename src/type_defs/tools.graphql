@@ -49,6 +49,20 @@ enum ToolID {
     less
     postcss
     stylus
+    # CSS frameworks
+    bootstrap
+    materialize
+    ant_design
+    semanticui
+    bulma
+    foundation
+    uikit
+    tachyons
+    primer
+    tailwind
+    purecss
+    skeleton
+    spectre
 }
 
 """
