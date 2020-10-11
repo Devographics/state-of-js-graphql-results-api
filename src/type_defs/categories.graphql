@@ -1,10 +1,16 @@
 enum CategoryID {
+    # JS
     javascript_flavors
     front_end_frameworks
     data_layer
     back_end_frameworks
     testing
     mobile_desktop
+    # CSS
+    pre_post_processors
+    css_frameworks
+    css_methodologies
+    css_in_js
 }
 
 """

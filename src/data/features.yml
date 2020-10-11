@@ -1,5 +1,5 @@
 #  CSS
-- id: css-grid
+- id: grid
   name: Grid
   mdn: /en-US/docs/Web/CSS/CSS_Grid_Layout
   caniuse: css-grid
@@ -7,15 +7,15 @@
   name: Flexbox
   mdn: /en-US/docs/Web/CSS/CSS_Flexible_Box_Layout
   caniuse: flexbox
-- id: css-multi-column
+- id: multi_column
   name: Multi-Column Layout
   mdn: /en-US/docs/Web/CSS/CSS_Columns
   caniuse: multicolumn
-- id: css-writing-modes
+- id: writing_modes
   name: Writing Modes
   mdn: /en-US/docs/Web/CSS/CSS_Writing_Modes
   caniuse: css-writing-mode
-- id: css-exclusions
+- id: exclusions
   name: Exclusions
   caniuse: css-exclusions
 - id: css-shapes

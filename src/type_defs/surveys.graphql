@@ -62,9 +62,10 @@ type Survey @cacheControl(maxAge: 600) {
     """
     resources(id: ResourcesID!, filters: Filters): Resources
     """
-    Data about a specific tool category 
+    Data about a specific tool category
     """
-    category(id: CategoryID!): Category @deprecated(reason: "Deprecated in favor of using tools() with a list of ids")
+    category(id: CategoryID!): Category
+        @deprecated(reason: "Deprecated in favor of using tools() with a list of ids")
     """
     Matrices data (used for cross-referencing heatmap charts)
     """

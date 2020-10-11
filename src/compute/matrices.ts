@@ -1,5 +1,6 @@
 import _ from 'lodash'
 import { Db } from 'mongodb'
+import config from '../config'
 import { ratioToPercentage } from './common'
 import { getEntity } from '../helpers'
 import { SurveyConfig } from '../types'
@@ -23,7 +24,7 @@ export const computeToolMatrixBreakdown = async (
         filters?: Filters
     }
 ) => {
-    const collection = db.collection('normalized_responses')
+    const collection = db.collection(config.mongo.normalized_collection)
 
     const toolPath = `tools.${tool}.experience`
     const breakdownPath = `user_info.${type}`

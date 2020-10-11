@@ -126,15 +126,6 @@ export default {
             return allYears.find(y => y.year === year)
         }
     },
-    SalaryRange: {
-        range_work_for_free: 'work_for_free',
-        range_0_10: '0_10',
-        range_10_30: '10_30',
-        range_30_50: '30_50',
-        range_50_100: '50_100',
-        range_100_200: '100_200',
-        range_more_than_200: 'more_than_200'
-    },
     Salary: {
         allYears: async (
             { survey, filters }: DemographicsAggConfig,
@@ -151,16 +142,6 @@ export default {
             return allYears.find(y => y.year === year)
         }
     },
-    CompanySizeRange: {
-        range_1: '1',
-        range_1_5: '1_5',
-        range_5_10: '5_10',
-        range_10_20: '10_20',
-        range_20_50: '20_50',
-        range_50_100: '50_100',
-        range_100_1000: '100_1000',
-        range_more_than_1000: 'more_than_1000'
-    },
     CompanySize: {
         allYears: async (
             { survey, filters }: DemographicsAggConfig,
@@ -176,14 +157,6 @@ export default {
 
             return allYears.find(y => y.year === year)
         }
-    },
-    WorkExperienceRange: {
-        range_less_than_1: 'less_than_1',
-        range_1_2: '1_2',
-        range_2_5: '2_5',
-        range_5_10: '5_10',
-        range_10_20: '10_20',
-        range_more_than_20: 'more_than_20'
     },
     WorkExperience: {
         allYears: async (

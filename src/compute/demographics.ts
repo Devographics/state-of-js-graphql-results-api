@@ -1,12 +1,13 @@
 import _ from 'lodash'
 import { Db } from 'mongodb'
+import config from '../config'
 import { SurveyConfig, YearParticipation } from '../types'
 
 export async function computeParticipationByYear(
     db: Db,
     survey: SurveyConfig
 ): Promise<YearParticipation[]> {
-    const collection = db.collection('normalized_responses')
+    const collection = db.collection(config.mongo.normalized_collection)
 
     const participantsByYear = await collection
         .aggregate([
