@@ -1,3 +1,300 @@
+#################################################
+# CSS pre/post processors
+#################################################
+- id: sass
+  name: Sass
+  github: sass/sass
+  npm: node-sass
+  tags:
+      - css
+      - css_pre_post_processors
+
+- id: less
+  name: Less
+  github: less/less.js
+  npm: less
+  tags:
+      - css
+      - css_pre_post_processors
+
+- id: postcss
+  name: PostCSS
+  github: postcss/postcss
+  tags:
+      - css
+      - css_pre_post_processors
+
+- id: stylus
+  name: Stylus
+  github: stylus/stylus
+  npm: stylus
+  tags:
+      - css
+      - css_pre_post_processors
+
+#################################################
+# CSS frameworks
+#################################################
+- id: materialize
+  name: Materialize CSS
+  github: Dogfalo/materialize
+  npm: materialize-css
+  tags:
+      - css
+      - css_frameworks
+
+- id: ant_design
+  name: Ant Design
+  github: ant-design/ant-design
+  tags:
+      - css
+      - css_frameworks
+
+- id: semanticui
+  name: Semantic UI
+  github: Semantic-Org/Semantic-UI
+  npm: semantic-ui
+  tags:
+      - css
+      - css_frameworks
+
+- id: bulma
+  name: Bulma
+  github: jgthms/bulma
+  npm: bulma
+  tags:
+      - css
+      - css_frameworks
+
+- id: foundation
+  name: Foundation
+  github: zurb/foundation-sites
+  tags:
+      - css
+      - css_frameworks
+
+- id: uikit
+  name: UIKit
+  github: uikit/uikit
+  npm: uikit
+  tags:
+      - css
+      - css_frameworks
+
+- id: tachyons
+  name: Tachyons
+  github: tachyons-css/tachyons
+  tags:
+      - css
+      - css_frameworks
+
+- id: primer
+  name: Primer
+  github: primer/css
+  npm: '@primer/css'
+  tags:
+      - css
+      - css_frameworks
+
+- id: tailwind
+  name: Tailwind CSS
+  github: tailwindcss/tailwindcss
+  npm: tailwindcss
+  aliases:
+      - Tailwind CSS
+  tags:
+      - css
+      - css_frameworks
+
+- id: purecss
+  name: PureCSS
+  github: pure-css/pure
+  npm: purecss
+  tags:
+      - css
+      - css_frameworks
+
+#################################################
+# CSS methodologies
+#################################################
+- id: bem
+  name: BEM
+  description: |
+      You will not be surprised to hear that BEM is an abbreviation
+      of the key elements of the methodology — Block, Element and Modifier.
+  homepage: 'http://getbem.com/'
+  tags:
+      - css
+      - css_methodologies
+
+- id: atomic_css
+  name: Atomic CSS
+  description: |
+      Atomic CSS is a CSS architecture. It is not opinionated;
+      it simply defines a set of classes representing single-purpose styling units.
+  homepage: 'https://acss.io'
+  tags:
+      - css
+      - css_methodologies
+
+- id: oocss
+  name: OOCSS
+  description: |
+      OOCSS, or object-oriented CSS, is a methodology to help programmers
+      write CSS that is succinct and easy to maintain.
+  tags:
+      - css
+      - css_methodologies
+
+- id: smacss
+  name: SMACSS
+  description: |
+      SMACSS (pronounced “smacks”) is more style guide than rigid framework.
+      There is no library within here for you to download or install.
+      There is no git repository for you to clone. SMACSS is a way to examine
+      your design process and as a way to fit those rigid frameworks into
+      a flexible thought process.
+  tags:
+      - css
+      - css_methodologies
+
+- id: it_css
+  name: ITCSS
+  description: |
+      ITCSS is a sane, scalable, managed
+      CSS architecture from CSS Wizardry
+  homepage: https://itcss.io/
+  tags:
+      - css
+      - css_methodologies
+
+- id: cube_css
+  name: CUBE CSS
+  tags:
+      - css
+      - css_methodologies
+
+#################################################
+# CSS in JS
+#################################################
+- id: styled-components
+  name: Styled Components
+  npm: styled-components
+  github: styled-components/styled-components
+  description: >-
+      Visual primitives for the component age. Use the best bits of ES6 and CSS to
+      style your apps without stress
+  homepage: 'https://styled-components.com'
+  tags:
+      - css
+      - js
+      - css_in_js
+
+- id: jss
+  name: JSS
+  github: cssinjs/jss
+  homepage: https://cssinjs.org
+  tags:
+      - css
+      - js
+      - css_in_js
+
+- id: styled-jsx
+  name: Styled JSX
+  npm: styled-jsx
+  github: zeit/styled-jsx
+  description: Full CSS support for JSX without compromises
+  tags:
+      - css
+      - js
+      - css_in_js
+
+- id: radium
+  name: Radium
+  github: FormidableLabs/radium
+  npm: '@emotion/core'
+  homepage: https://formidable.com/open-source/radium/
+  tags:
+      - css
+      - js
+      - css_in_js
+
+- id: emotion
+  name: Emotion
+  npm: emotion
+  github: emotion-js/emotion
+  description: CSS-in-JS library designed for high performance style composition
+  homepage: 'https://emotion.sh/'
+  tags:
+      - css
+      - js
+      - css_in_js
+
+- id: css-modules
+  name: CSS Modules
+  github: css-modules/css-modules
+  tags:
+      - css
+      - js
+      - css_in_js
+
+- id: styled_system
+  name: Styled System
+  tags:
+      - css
+      - js
+      - css_in_js
+
+- id: stitches
+  name: Stitches
+  tags:
+      - css
+      - js
+      - css_in_js
+
+- id: styletron
+  name: styletron
+  npm: styletron-engine-atomic
+  github: styletron/styletron
+  description: Toolkit for component-oriented styling
+  homepage: 'https://www.styletron.org'
+  tags:
+      - css
+      - js
+      - css_in_js
+
+- id: fela
+  name: Fela
+  npm: fela
+  github: robinweser/fela
+  description: State-Driven Styling in JavaScript
+  homepage: 'http://fela.js.org'
+  tags:
+      - css
+      - js
+      - css_in_js
+
+- id: linaria
+  name: Linaria
+  npm: linaria
+  github: callstack/linaria
+  description: Zero-runtime CSS in JS library
+  homepage: 'https://linaria.now.sh'
+  tags:
+      - css
+      - js
+      - css_in_js
+
+- id: astroturf
+  name: Astroturf
+  npm: astroturf
+  github: 4Catalyzer/astroturf
+  description: An "artificial" CSS-in-JS for those that want it all.
+  tags:
+      - css
+      - js
+      - css_in_js
+
 - id: apollo
   name: Apollo
   homepage: https://www.apollographql.com/docs/
@@ -10,12 +307,6 @@
   homepage: https://facebook.github.io/react-native/
 - id: nativeapps
   name: Native Apps
-- id: atomic-css
-  description: |
-      Atomic CSS is a CSS architecture. It is not opinionated;
-      it simply defines a set of classes representing single-purpose styling units.
-  homepage: 'https://acss.io'
-  name: 'Atomic CSS'
 - id: bazel
   name: Bazel
   homepage: https://bazel.build/
@@ -23,12 +314,6 @@
 - id: bbedit
   name: BBEdit
   homepage: https://www.barebones.com/products/bbedit/
-- id: bem
-  description: |
-      You will not be surprised to hear that BEM is an abbreviation
-      of the key elements of the methodology — Block, Element and Modifier.
-  homepage: 'http://getbem.com/'
-  name: BEM
 - id: brackets
   name: Brackets
   homepage: http://brackets.io/
@@ -36,10 +321,6 @@
   name: Brave
   homepage: https://brave.com/
   category: browsers
-- id: bulma
-  github: jgthms/bulma
-  name: Bulma
-  npm: bulma
 - id: capacitor
   name: Capacitor
   homepage: https://capacitor.ionicframework.com/
@@ -72,9 +353,6 @@
   name: codekit
   homepage: https://codekitapp.com/
   category: other-tools
-- id: css-modules
-  github: css-modules/css-modules
-  name: CSS Modules
 - id: dart
   name: Dart
   category: languages
@@ -119,9 +397,6 @@
   name: Flutter
   homepage: https://flutter.io/
   category: mobile-desktop
-- id: foundation
-  github: zurb/foundation-sites
-  name: Foundation
 - id: golang
   name: Go
   category: languages
@@ -134,12 +409,6 @@
 - id: intellij
   name: IntelliJ
   homepage: https://www.jetbrains.com/idea/
-- id: it-css
-  description: |
-      ITCSS is a sane, scalable, managed
-      CSS architecture from CSS Wizardry
-  name: ITCSS
-  homepage: https://itcss.io/
 - id: internet-explorer-11
   name: Internet Explorer 11
   homepage: https://www.microsoft.com/en-us/download/internet-explorer-11-for-windows-7-details.aspx
@@ -151,10 +420,6 @@
 - id: java
   name: Java
   category: languages
-- id: jss
-  github: cssinjs/jss
-  name: JSS
-  homepage: https://cssinjs.org
 - id: kotlin
   name: Kotlin
   category: languages
@@ -162,16 +427,8 @@
 - id: laravel
   name: Laravel
   homepage: https://laravel.com/
-- id: less
-  github: less/less.js
-  name: Less
-  npm: less
 - id: make
   name: Make
-- id: materialize
-  github: Dogfalo/materialize
-  name: 'Materialize CSS'
-  npm: materialize-css
 - id: nano
   name: Nano
   homepage: https://www.nano-editor.org/
@@ -186,11 +443,6 @@
 - id: ocaml
   name: OCaml
   category: languages
-- id: oocss
-  description: |
-      OOCSS, or object-oriented CSS, is a methodology to help programmers
-      write CSS that is succinct and easy to maintain.
-  name: OOCSS
 - id: opera
   name: Opera
   homepage: https://www.opera.com/
@@ -208,17 +460,6 @@
 - id: phpstorm
   name: PHPStorm
   homepage: https://www.jetbrains.com/phpstorm/
-- id: postcss
-  github: postcss/postcss
-  name: PostCSS
-- id: primer
-  github: primer/css
-  name: Primer
-  npm: '@primer/css'
-- id: purecss
-  github: pure-css/pure
-  name: PureCSS
-  npm: purecss
 - id: pwa
   name: 'Progressive Web Apps'
 - id: pycharm
@@ -226,11 +467,6 @@
 - id: python
   name: Python
   category: languages
-- id: radium
-  github: FormidableLabs/radium
-  npm: '@emotion/core'
-  name: Radium
-  homepage: https://formidable.com/open-source/radium/
 - id: rails
   name: Rails
   homepage: https://rubyonrails.org/
@@ -262,10 +498,6 @@
   category: browsers
   aliases:
       - Samsung
-- id: sass
-  github: sass/sass
-  name: Sass
-  npm: node-sass
 - id: scala
   name: Scala
   category: languages
@@ -274,27 +506,8 @@
   name: Selenium
   homepage: https://selenium.dev/
   category: testing
-- id: semanticui
-  github: Semantic-Org/Semantic-UI
-  name: 'Semantic UI'
-  npm: semantic-ui
-- id: ant_design
-  name: Ant Design
-  github: ant-design/ant-design
 - id: service-workers
   name: 'Service Workers'
-- id: smacss
-  description: |
-      SMACSS (pronounced “smacks”) is more style guide than rigid framework.
-      There is no library within here for you to download or install.
-      There is no git repository for you to clone. SMACSS is a way to examine
-      your design process and as a way to fit those rigid frameworks into
-      a flexible thought process.
-  name: SMACSS
-- id: stylus
-  github: stylus/stylus
-  name: Stylus
-  npm: stylus
 - id: sublime-text
   name: 'Sublime Text'
   homepage: https://www.sublimetext.com/
@@ -302,15 +515,6 @@
 - id: swift
   name: Swift
   category: languages
-- id: tachyons
-  github: tachyons-css/tachyons
-  name: Tachyons
-- id: tailwind
-  github: tailwindcss/tailwindcss
-  name: Tailwind CSS
-  npm: tailwindcss
-  aliases:
-      - Tailwind CSS
 - id: textmate
   name: Textmate
   homepage: https://macromates.com/
@@ -322,10 +526,6 @@
   name: UC Browser
   homepage: https://www.ucweb.com/
   category: browsers
-- id: uikit
-  github: uikit/uikit
-  name: UIKit
-  npm: uikit
 - id: underscore
   name: underscore
 - id: vanilla-js
