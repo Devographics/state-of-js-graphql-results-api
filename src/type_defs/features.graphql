@@ -30,7 +30,7 @@ enum FeatureID {
     pwa
     wasm
 
-    # CSS features
+    # CSS layout features
     grid
     subgrid
     regions
@@ -42,6 +42,7 @@ enum FeatureID {
     logical_properties
     aspect_ratio
     content_visibility
+    # CSS shapes & graphics features
     shapes
     object_fit
     clip_path
@@ -49,11 +50,13 @@ enum FeatureID {
     blend_modes
     filter_effects
     backdrop_filter
+    # CSS interactions features
     scroll_snap
     overscroll_behavior
     overflow_anchor
     touch_action
     pointer_events
+    # CSS typography features
     web_fonts
     variables_fonts
     line_breaking
@@ -64,13 +67,16 @@ enum FeatureID {
     line_clamp
     leading_trim
     direction
+    # CSS animations & transforms features
     transitions
     transforms
     animations
     perspective
+    # CSS media queries features
     prefers_reduced_motion
     prefers_color_scheme
     color_gamut
+    # CSS other features
     variables
     feature_support_queries
     containment
