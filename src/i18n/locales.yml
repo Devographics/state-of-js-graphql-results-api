@@ -1,0 +1,27 @@
+en-US:
+    label: English
+    translators: []
+
+fr-FR:
+    label: Français
+    translators: ['arnauddrain']
+
+it-IT:
+    label: Italiano
+    translators: ['polettoweb']
+
+pt-PT:
+    label: Português
+    translators: ['danisal']
+
+ru-RU:
+    label: Русский
+    translators: ['lex111', 'Omhet']
+
+sv-SE:
+    label: Svenska
+    translators: ['m-hagberg']
+
+zh-Hans:
+    label: 中文
+    translators: []
