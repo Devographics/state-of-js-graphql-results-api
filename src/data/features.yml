@@ -313,9 +313,29 @@
 #################################################
 # CSS media queries
 #################################################
-#prefers_reduced_motion
-#prefers_color_scheme
-#color_gamut
+- id: prefers_reduced_motion
+  name: prefers-reduced-motion
+  mdn: /en-US/docs/Web/CSS/@media/prefers-reduced-motion
+  caniuse: prefers-reduced-motion
+  tags:
+      - css
+      - css_media_queries
+
+- id: prefers_color_scheme
+  name: prefers-color-scheme
+  mdn: /en-US/docs/Web/CSS/@media/prefers-color-scheme
+  caniuse: prefers-color-scheme
+  tags:
+      - css
+      - css_media_queries
+
+- id: color_gamut
+  name: color-gamut
+  mdn: /en-US/docs/Web/CSS/@media/color-gamut
+  caniuse: mdn-css_at-rules_media_color-gamut
+  tags:
+      - css
+      - css_media_queries
 
 #################################################
 # CSS other features
@@ -325,54 +345,54 @@
   mdn: /en-US/docs/Web/CSS/CSS_Variables
   caniuse: css-variables
   tags:
-    - css
-    - css_other
+      - css
+      - css_other
 
 - id: feature_support_queries
   name: '@supports'
   mdn: /en-US/docs/Web/CSS/@supports
   caniuse: css-supports-api
   tags:
-    - css
-    - css_other
+      - css
+      - css_other
 
 - id: containment
   name: Contain
   mdn: /en-US/docs/Web/CSS/contain
   tags:
-    - css
-    - css_other
+      - css
+      - css_other
 
 - id: will_change
   name: will-change
   mdn: /en-US/docs/Web/CSS/will-change
   caniuse: will-change
   tags:
-    - css
-    - css_other
+      - css
+      - css_other
 
 - id: calc
   name: calc()
   mdn: /en-US/docs/Web/CSS/calc
   caniuse: calc
   tags:
-    - css
-    - css_other
+      - css
+      - css_other
 
 - id: houdini
   name: CSS Houdini
   mdn: /en-US/docs/Web/Houdini
   caniuse: css-paint-api
   tags:
-    - css
-    - css_other
+      - css
+      - css_other
 
 - id: comparison_functions
   name: CSS Comparison Functions
   caniuse: css-math-functions
   tags:
-    - css
-    - css_other
+      - css
+      - css_other
 
 #################################################
 #
