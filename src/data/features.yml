@@ -188,27 +188,87 @@
     - css
     - css_interactions
 
-
-- id: web-fonts-font-face
+#################################################
+# CSS typography
+#################################################
+- id: web_fonts
   name: |
       @font-face
   mdn: /en-US/docs/Web/CSS/@font-face
   caniuse: fontface
-- id: variable-fonts
+  tags:
+    - css
+    - css_typography
+
+- id: variable_fonts
   name: Variable Fonts
   mdn: /en-US/docs/Web/CSS/CSS_Fonts/Variable_Fonts_Guide
   caniuse: variable-fonts
-- id: line-breaking-properties
+  tags:
+    - css
+    - css_typography
+
+- id: line_breaking
   name: Line Breaking Properties
   mdn: /en-US/docs/Web/CSS/line-break
-- id: font-variant
+  tags:
+    - css
+    - css_typography
+
+- id: font_variant
   name: font-variant
   mdn: /en-US/docs/Web/CSS/font-variant
   caniuse: font-variant-alternates
-- id: initial-letter
-  name: initial-letter
+  tags:
+    - css
+    - css_typography
+
+- id: initial_letter
+  name: initial_letter
   mdn: /en-US/docs/Web/CSS/initial-letter
   caniuse: css-initial-letter
+  tags:
+    - css
+    - css_typography
+
+- id: font_variant_numeric
+  name: font-variant-numeric
+  mdn: /en-US/docs/Web/CSS/font-variant-numeric
+  caniuse: font-variant-numeric
+  tags:
+    - css
+    - css_typography
+
+- id: font_display
+  name: font-display
+  mdn: /en-US/docs/Web/CSS/@font-face/font-display
+  caniuse: css-font-rendering-controls
+  tags:
+    - css
+    - css_typography
+
+- id: line_clamp
+  name: line-clamp
+  mdn: /en-US/docs/Web/CSS/-webkit-line-clamp
+  caniuse: css-line-clamp
+  tags:
+    - css
+    - css_typography
+
+- id: leading_trim
+  name: leading-trim
+  tags:
+    - css
+    - css_typography
+
+- id: direction
+  name: direction
+  mdn: /en-US/docs/Web/CSS/direction
+  caniuse: mdn-css_properties_direction
+  tags:
+    - css
+    - css_typography
+
 - id: css-transitions
   name: Transitions
   mdn: /en-US/docs/Web/CSS/CSS_Transitions
