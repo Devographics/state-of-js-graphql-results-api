@@ -1,4 +1,5 @@
 import { Db } from 'mongodb'
+import { inspect } from 'util'
 import _ from 'lodash'
 import config from '../config'
 import { Completion, SurveyConfig } from '../types'
@@ -57,43 +58,37 @@ export async function computeTermAggregationByYear(
         ...generateFiltersQuery(filters)
     }
 
-    console.log({
-        options,
-        match
-    })
-
-    const rawResults: RawResult[] = await collection
-        .aggregate([
-            {
-                $match: match
-            },
-            {
-                $unwind: {
-                    path: `$${key}`
-                }
-            },
-            {
-                $group: {
-                    _id: {
-                        id: `$${key}`,
-                        year: '$year'
-                    },
-                    total: { $sum: 1 }
-                }
-            },
-            {
-                $project: {
-                    _id: 0,
-                    id: '$_id.id',
-                    year: '$_id.year',
-                    total: 1
-                }
-            },
-            { $sort: { [sort]: order } },
-            { $match: { total: { $gt: cutoff } } },
-            { $limit: limit }
-        ])
-        .toArray()
+    const aggregationPipeline = [
+        {
+            $match: match
+        },
+        {
+            $unwind: {
+                path: `$${key}`
+            }
+        },
+        {
+            $group: {
+                _id: {
+                    id: `$${key}`,
+                    year: '$year'
+                },
+                total: { $sum: 1 }
+            }
+        },
+        {
+            $project: {
+                _id: 0,
+                id: '$_id.id',
+                year: '$_id.year',
+                total: 1
+            }
+        },
+        { $sort: { [sort]: order } },
+        { $match: { total: { $gt: cutoff } } },
+        { $limit: limit }
+    ]
+    const rawResults: RawResult[] = await collection.aggregate(aggregationPipeline).toArray()
 
     // add entities if applicable
     const resultsWithEntity: RawResult[] = rawResults.map(result => {

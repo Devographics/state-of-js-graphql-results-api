@@ -1,0 +1,32 @@
+enum OtherFeaturesID {
+    units
+    pseudo_elements
+    combinators
+    tree_document_structure
+    attributes
+    links_urls
+    interaction
+    form_controls
+}
+
+type FeatureBucket @cacheControl(maxAge: 600) {
+    id: FeatureID
+    name: String
+    count: Int
+    percentage: Float
+}
+
+type YearOtherFeatures @cacheControl(maxAge: 600) {
+    year: Int
+    """
+    Total number of respondents who have answered this specific question.
+    """
+    total: Int
+    completion: Completion
+    buckets: [FeatureBucket] @cacheControl(maxAge: 600)
+}
+
+type OtherFeatures @cacheControl(maxAge: 600) {
+    id: OtherFeaturesID!
+    year(year: Int!): YearOtherFeatures
+}

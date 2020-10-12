@@ -5,3 +5,9 @@ enum ExperienceID {
     not_interested
     never_heard
 }
+
+enum FeatureExperienceID {
+    never_heard
+    heard
+    used
+}
