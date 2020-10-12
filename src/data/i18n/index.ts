@@ -12,7 +12,8 @@ Object.keys(locales).forEach(l => {
     // initialize every locale with projects, entities, and features
     locales[l].stringFiles = Object.keys(allEntities).map(e => ({
         context: e,
-        strings: convertToStrings(allEntities[e])
+        strings: convertToStrings(allEntities[e]),
+        prefix: e,
     }))
 })
 
