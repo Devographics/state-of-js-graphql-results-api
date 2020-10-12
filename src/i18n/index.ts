@@ -1,7 +1,7 @@
 import localesYAML from './locales.yml'
-import projects from '../projects.yml'
-import features from '../features.yml'
-import entities from '../entities.yml'
+import projects from '../data/projects.yml'
+import features from '../data/features.yml'
+import entities from '../data/entities.yml'
 
 const allEntities: any = { projects, features, entities }
 const locales: any = localesYAML
@@ -13,7 +13,7 @@ Object.keys(locales).forEach(l => {
     locales[l].stringFiles = Object.keys(allEntities).map(e => ({
         context: e,
         strings: convertToStrings(allEntities[e]),
-        prefix: e,
+        prefix: e
     }))
 })
 
@@ -32,12 +32,19 @@ Object.keys(contexts).forEach(context => {
         if (localeName === 'model') {
             // do nothing
         } else if (locales[localeName]) {
-            locales[localeName].stringFiles.push({
-                strings: req(key),
-                context
-            })
+            try {
+                const file = req(key)
+
+                locales[localeName].stringFiles.push({
+                    strings: file.translations,
+                    context
+                })
+            } catch (error) {
+                console.log(error)
+                throw new Error(`Error loading file ${context}/${key}`)
+            }
         } else {
-            throw new Error(`Locale ${localeName} not declared in locales.yml`)
+            console.warn(`Locale ${localeName} not declared in locales.yml, skipping file`)
         }
     })
 })

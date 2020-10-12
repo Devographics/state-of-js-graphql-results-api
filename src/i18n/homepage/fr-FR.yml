@@ -1,0 +1,53 @@
+locale: fr-FR
+translations:
+    ###########################################################################
+    # Homepage
+    ###########################################################################
+
+    - key: homepage.hand_coded
+      t: Codé à la main au Japon.
+    - key: homepage.leave_issue
+      t: Faire part d'un problème
+    - key: homepage.get_in_touch
+      t: Contactez-nous
+
+    - key: homepage.made_by
+      t: 'The State of CSS est réalisé par:'
+    - key: homepage.leave_issue
+      t: Reporter un problème
+
+    - key: homepage.previous_years
+      t: 'Années précédentes:'
+
+    - key: homepage.intro
+      t: >
+          ## CSS évolue plus rapidement que jamais.
+
+          Flexbox, Grid, Multi-Column... Sans parler des tout nouveaux paradigmes comme CSS-in-JS.
+
+          Après le succès de notre questionnaire annuel [State Of JavaScript](https://stateofjs.com), nous avons décidé
+          de s'attaquer au monde du style et des sélecteurs pour aider à identifier les dernières tendances…
+          et essaye de franchir le "gouffre du front-end"!
+
+    - key: homepage.take_survey
+      t: Remplir le questionnaire
+
+    - key: homepage.view_results
+      t: Voir les résultats de 2019
+
+    - key: share.help_spread
+      t: Aidez-nous à partager l'info !
+
+    - key: newsletter.stay_tuned
+      t: Stay Tuned
+    - key: newsletter.leave_your_email
+      t: Rentrez votre email pour être tenu au courant du lancement du prochain questionnaire.
+
+    - key: author.sacha.bio
+      t: >
+          Créateur de [Nivo](http://nivo.rocks/), une librairie JavaScript de data visualisation, et de
+          [Mozaik](http://mozaik.rocks/), un outil pour créer des dashboards magnifiques.
+    - key: author.raphael.bio
+      t: >
+          Créateur de [Sidebar](http://sidebar.io), une newsletter journalière, et de 
+          [VulcanJS](http://vulcanjs.org), un framework open-source React+GraphQL.

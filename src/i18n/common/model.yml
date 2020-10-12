@@ -1,0 +1,601 @@
+locale: ADD LOCALE HERE
+translations:
+  
+  ###########################################################################
+  # General
+  ###########################################################################
+
+  # homepage
+  - key: general.why_create_account # TODO
+    t: Why do I need to create an account?
+  - key: general.create_account_reasons # TODO
+    t: >
+      We ask you to create an account in order to:
+
+      - Avoid duplicate responses
+
+      - Give you access to your data
+      
+      - Save your session as you go
+      
+      - Notify you when results are live
+  - key: general.survey_closed # TODO
+    t: >
+      Sorry, the survey is now closed! You can still review your data but you won't be able to modify it.
+  - key: general.survey_read_only # TODO
+    t: >
+      You are currently viewing this survey in read-only mode. 
+  - key: general.survey_read_only_back # TODO
+    t: >
+      <a href="{link}">Go back</a> to the main survey page to start or resume a session.
+
+  # surveys
+  - key: general.open_surveys # TODO
+    t: Open Surveys
+  - key: general.no_open_surveys # TODO
+    t: No surveys are currently open.
+  - key: general.closed_surveys # TODO
+    t: Closed Surveys
+  - key: general.start_survey # TODO
+    t: Start Survey »
+  - key: general.continue_survey # TODO
+    t: Continue Survey »
+  - key: general.review_survey # TODO
+    t: Review Survey »
+  - key: general.preview_survey # TODO
+    t: Preview Survey »
+  - key: general.finish_survey # TODO
+    t: Finish Survey »
+  - key: general.survey_closed # TODO
+    t: This survey is now closed.
+  - key: general.survey_results # TODO
+    t: View Survey Results »
+
+  # footer
+  - key: general.privacy_policy # TODO
+    t: Privacy Policy
+  - key: general.leave_issue # TODO
+    t: Questions? Found a bug? <a href="{link}" target="_blank">Leave an issue</a>.
+  - key: general.emoji_icons # TODO
+    t: Emoji icons by <a target="_blank" rel="noreferrer" href="https://icons8.com">Icons8</a>
+
+  # navigation
+  - key: general.table_of_contents # TODO
+    t: Table of Contents
+  - key: general.all_questions_optional # TODO
+    t: >
+      Note: all questions are optional, reaching 100% completion is not required.
+  - key: general.data_is_saved # TODO
+    t: Your data is saved whenever you navigate to the previous or next section.
+  
+  # thanks
+  - key: general.back # TODO
+    t: Back
+  - key: general.thanks # TODO
+    t: >
+      Thanks for filling out the survey!
+      
+      Your data is saved. You can review or modify it until the survey closes.
+
+      Also, you can help us get the word out by sharing this survey. Every bit counts, and it'll help make our data even
+      more representative:
+
+  # share
+  - key: general.share_subject # TODO
+    t: >
+      {surveyName} survey
+  - key: general.share_text # TODO
+    t: >
+      This year's {surveyName} survey is now open! {link}
+
+  ###########################################################################
+  # Nav
+  ###########################################################################
+  
+  - key: nav.surveys # TODO
+    t: Surveys
+  - key: nav.account # TODO
+    t: Account
+
+  ###########################################################################
+  # Accounts
+  ###########################################################################
+
+  - key: accounts.sign_up # TODO
+    t: Sign Up
+  - key: accounts.sign_in # TODO
+    t: Log In
+  - key: accounts.sign_out # TODO
+    t: Sign Out
+  - key: accounts.cancel # TODO
+    t: Cancel
+  - key: accounts.email # TODO
+    t: Email
+  - key: accounts.enter_email # TODO
+    t: Enter Email
+
+  - key: accounts.please_pick_password # TODO
+    t: Please pick a new password to continue.
+  - key: accounts.please_log_in # TODO
+    t: Please log in or sign up to begin.
+  - key: accounts.logged_in_as # TODO
+    t: Logged in as {email}
+  - key: accounts.questions # TODO
+    t: >
+      If you have any questions about how we use your data, or would like
+      us to remove your data from our records,
+      please <a href="mailto:hello@stateofjs.com">get in touch</a>.
+      
+  ###########################################################################
+  # Sections
+  ###########################################################################
+
+  - key: sections.user_info.title # TODO
+    t: About You
+  - key: sections.user_info.description # TODO
+    t: Let's get to know the real you.
+
+  - key: sections.resources.title # TODO
+    t: Resources
+  - key: sections.resources.description # TODO
+    t: What {topic} resources do you consult?
+
+  - key: sections.opinions.title # TODO
+    t: Opinions
+  - key: sections.opinions.description # TODO
+    t: How do you feel about the state of {topic}?
+
+  - key: sections.other_tools.title # TODO
+    t: Other Tools
+  - key: sections.other_tools.description # TODO
+    t: For these tools & technologies, just check the ones that you use regularly.
+
+  ###########################################################################
+  # Options
+  ###########################################################################
+
+  # features
+  - key: options.features.never_heard # TODO
+    t: 🤷 Never heard of it/Not sure what it is
+  - key: options.features.heard # TODO
+    t: ✅ Know what it is, but haven't used it
+  - key: options.features.used # TODO
+    t: 👍 I've used it
+
+  # features (short versions)
+  - key: options.features.never_heard.short # TODO
+    t: Never heard of it
+  - key: options.features.heard.short # TODO
+    t: Know about it
+  - key: options.features.used.short # TODO
+    t: Have used it
+
+  # patterns
+  - key: options.patterns.use_never # TODO
+    t: Almost always avoid
+  - key: options.patterns.use_sparingly # TODO
+    t: Use sparingly
+  - key: optionspatterns..use_neutral # TODO
+    t: Neutral
+  - key: options.patterns.use_frequently # TODO
+    t: Use frequently
+  - key: options.patterns.use_always # TODO
+    t: Use as much as I can
+
+  # tools experience
+  - key: options.tools.never_heard # TODO
+    t: 🤷 Never heard of it/Not sure what it is
+  - key: options.tools.interested # TODO
+    t: ✅ Heard of it > Would like to learn
+  - key: options.tools.not_interested # TODO
+    t: 🚫 Heard of it > Not interested
+  - key: options.tools.would_use # TODO
+    t: 👍 Used it > Would use again
+  - key: options.tools.would_not_use # TODO
+    t: 👎 Used it > Would not use again
+
+  # tools experience (short versions)
+  - key: options.tools.never_heard # TODO
+    t: Never heard
+  - key: options.tools.interested # TODO
+    t: Interested
+  - key: options.tools.not_interested # TODO
+    t: Not interested
+  - key: options.tools.would_use # TODO
+    t: Would use again
+  - key: options.tools.would_not_use # TODO
+    t: Would not use
+  
+  # happiness
+  - key: options.happiness.very_unhappy # TODO
+    t: Very Unhappy
+  - key: options.happiness.unhappy # TODO
+    t: Unhappy
+  - key: options.happiness.neutral # TODO
+    t: Neutral
+  - key: options.happiness.happy # TODO
+    t: Happy
+  - key: options.happiness.very_happy # TODO
+    t: Very Happy
+
+  # opinions
+  - key: options.opinions.disagree_strongly # TODO
+    t: Disagree Strongly
+  - key: options.opinions.disagree # TODO
+    t: Disagree
+  - key: options.opinions.neutral # TODO
+    t: Neutral
+  - key: options.opinions.agree # TODO
+    t: Agree
+  - key: options.opinions.agree_strongly # TODO
+    t: Agree Strongly
+    
+  # years of experience
+  - key: options.years_of_experience.range_less_than_1 # TODO
+    t: Less than one year
+  - key: options.years_of_experience.range_1_2 # TODO
+    t: 1 to 2 years
+  - key: options.years_of_experience.range_2_5 # TODO
+    t: 2 to 5 years
+  - key: options.years_of_experience.range_5_10 # TODO
+    t: 5 to 10 years
+  - key: options.years_of_experience.range_10_20 # TODO
+    t: 10 to 20 years
+  - key: options.years_of_experience.range_more_than_20 # TODO
+    t: More than 20 years
+
+  # years of experience (short versions)
+  - key: options.years_of_experience.range_less_than_1.short # TODO
+    t: '<1'
+  - key: options.years_of_experience.range_1_2.short # TODO
+    t: 1-2
+  - key: options.years_of_experience.range_2_5.short # TODO
+    t: 2-5
+  - key: options.years_of_experience.range_5_10 # TODO
+    t: 5-10
+  - key: options.years_of_experience.range_10_20.short # TODO
+    t: 10-20
+  - key: options.years_of_experience.range_more_than_20.short # TODO
+    t: '>20'
+
+  # company size
+  - key: options.company_size.range_1 # TODO
+    t: One employee
+  - key: options.company_size.range_1_5 # TODO
+    t: 1 to 5 employees
+  - key: options.company_size.range_5_10 # TODO
+    t: 5 to 10 employees
+  - key: options.company_size.range_10_20 # TODO
+    t: 10 to 20 employees
+  - key: options.company_size.range_20_50 # TODO
+    t: 20 to 50 employees
+  - key: options.company_size.range_50_100 # TODO
+    t: 50 to 100 employees
+  - key: options.company_size.range_100_1000 # TODO
+    t: 100 to 1000 employees
+  - key: options.company_size.range_more_than_1000 # TODO
+    t: More than 1000 employees
+
+  # company size (short versions)
+  - key: options.company_size.range_1.short # TODO
+    t: 1
+  - key: options.company_size.range_1_5.short # TODO
+    t: 1-5
+  - key: options.company_size.range_5_10.short # TODO
+    t: 5-10
+  - key: options.company_size.range_10_20.short # TODO
+    t: 10-20
+  - key: options.company_size.range_20_50.short # TODO
+    t: 20-50
+  - key: options.company_size.range_50_100.short # TODO
+    t: 50-100
+  - key: options.company_size.range_100_1000.short # TODO
+    t: 100-1000
+  - key: options.company_size.range_more_than_1000.short # TODO
+    t: '>1000'
+
+  # salary
+  - key: options.yearly_salary.range_work_for_free # TODO
+    t: I work for free
+  - key: options.yearly_salary.range_0_10 # TODO
+    t: $0k-$10k
+  - key: options.yearly_salary.range_10_30 # TODO
+    t: $10k-$30k
+  - key: options.yearly_salary.range_30_50 # TODO
+    t: $30k-$50k
+  - key: options.yearly_salary.range_50_100 # TODO
+    t: $50k-$100k
+  - key: options.yearly_salary.range_100_200 # TODO
+    t: $100k-$200k
+  - key: options.yearly_salary.range_more_than_200 # TODO
+    t: more than $200k
+
+  # salary (short versions)
+  - key: options.yearly_salary.range_work_for_free.short # TODO
+    t: '$0'
+  - key: options.yearly_salary.range_0_10.short # TODO
+    t: $0k-$10k
+  - key: options.yearly_salary.range_10_30.short # TODO
+    t: $10k-$30k
+  - key: options.yearly_salary.range_30_50.short # TODO
+    t: $30k-$50k
+  - key: options.yearly_salary.range_50_100.short # TODO
+    t: $50k-$100k
+  - key: options.yearly_salary.range_100_200.short # TODO
+    t: $100k-$200k
+  - key: options.yearly_salary.range_more_than_200.short # TODO
+    t: '>$200k'
+
+  # job titles
+  - key: options.job_title.cto # TODO
+    t: CTO
+  - key: options.job_title.front_end_developer # TODO
+    t: Front End Developer/Engineer
+  - key: options.job_title.back_end_developer # TODO
+    t: Back End Developer/Engineer
+  - key: options.job_title.full_stack_developer # TODO
+    t: Full Stack Developer/Engineer
+  - key: options.job_title.web_developer # TODO
+    t: Web Developer
+  - key: options.job_title.web_designer # TODO
+    t: Web Designer
+  - key: options.job_title.ux_designer # TODO
+    t: UX Designer
+  - key: options.job_title.ui_designer # TODO
+    t: UI Designer
+  - key: options.job_title.back_end_dev # TODO
+    t: Back-end Developer/Engineer
+
+  # JavaScript proficiency
+
+  - key: options.javascript_proficiency.0 # TODO
+    t: Not able to write any JavaScript
+  - key: options.javascript_proficiency.1 # TODO
+    t: Writing short, simple JavaScript or jQuery statements
+  - key: options.javascript_proficiency.2 # TODO
+    t: Working on existing front-end codebases using modern frameworks (React, Vue, etc.)
+  - key: options.javascript_proficiency.3 # TODO
+    t: Architecturing entire front-end codebases from scratch
+  - key: options.javascript_proficiency.4 # TODO
+    t: Handling advanced front-end patterns (state management, data loading, etc.)
+
+  # CSS proficiency
+
+  - key: options.css_proficiency.0 # TODO
+    t: Virtually no knowledge of CSS
+  - key: options.css_proficiency.1 # TODO
+    t: Using CSS frameworks and tweaking existing styles
+  - key: options.css_proficiency.2 # TODO
+    t: Knowing specificity rules, being able to create layouts
+  - key: options.css_proficiency.3 # TODO
+    t: Mastering animations, interactions, transitions, etc.
+  - key: options.css_proficiency.4 # TODO
+    t: Able to style an entire front-end from scratch following a consistent methodology
+
+  # Back-end proficiency
+
+  - key: options.backend_proficiency.0 # TODO
+    t: Not able to handle any back-end work
+  - key: options.backend_proficiency.1 # TODO
+    t: Able to set up all-in-one CMSs (WordPress, etc.) or static site generators (Jekyll, etc.)
+  - key: options.backend_proficiency.2 # TODO
+    t: Able to develop apps using pre-existing frameworks (Rails, Laravel, etc.)
+  - key: options.backend_proficiency.3 # TODO
+    t: Setting up an entire back-end from scratch (Go, Node, etc.)
+  - key: options.backend_proficiency.4 # TODO
+    t: Able to handle complex multi-server or microservices architectures
+
+  # Proficiency (generic versions)
+  - key: options.proficiency.0 # TODO
+    t: None
+  - key: options.proficiency.1 # TODO
+    t: Beginner
+  - key: options.proficiency.2 # TODO
+    t: Intermediate
+  - key: options.proficiency.3 # TODO
+    t: Advanced
+  - key: options.proficiency.4 # TODO
+    t: Expert
+
+  # Gender
+
+  - key: options.gender.female # TODO
+    t: Female
+  - key: options.gender.male # TODO
+    t: Male
+  - key: options.gender.non_binary # TODO
+    t: Non-Binary/Third Gender
+  - key: options.gender.prefer_not_to_say # TODO
+    t: Prefer not to say
+
+  # Race & Ethnicity
+
+  - key: white_european #  # TODO
+    t: White or of European descent
+  - key: south_asian # TODO
+    t: South Asian
+  - key: hispanic_latin # TODO
+    t: Hispanic or Latino/Latina
+  - key: east_asian # TODO
+    t: East Asian
+  - key: middle_eastern # TODO
+    t: Middle Eastern
+  - key: black_african # TODO
+    t: Black or of African descent
+  - key: multiracial # TODO
+    t: Multiracial
+  - key: biracial # TODO
+    t: Biracial
+  - key: native_american_islander_australian # TODO
+    t: Native American, Pacific Islander, or Indigenous Australian
+
+  ###########################################################################
+  # Tools
+  ###########################################################################
+
+  - key: tools.other_tools # TODO
+    t: Other Options
+  - key: tools.other_tools.description # TODO
+    t: Other options you use for the current section not mentioned in the list above
+  - key: tools.happiness # TODO
+    t: Overall Happiness
+  - key: tools.happiness.description # TODO
+    t: >
+      On a scale of one (very unhappy) to five (very happy), how happy are
+      you with the current overall state of things as it relates to the options listed above?
+
+  ###########################################################################
+  # Demographics (About You/User Info)
+  ###########################################################################
+
+  # years of experience
+  - key: user_info.years_of_experience # TODO
+    t: Years of Experience
+  - key: user_info.years_of_experience.description # TODO
+    t: How long you've been working or studying in this field.
+
+  # company size
+  - key: user_info.company_size # TODO
+    t: Company Size
+  - key: user_info.company_size.description # TODO
+    t: How big your company is.
+
+  # salary ranges
+  - key: user_info.yearly_salary # TODO
+    t: Yearly Salary
+  - key: user_info.yearly_salary.description # TODO
+    t: In USD.
+
+  # job title
+  - key: user_info.job_title # TODO
+    t: Job Title
+  - key: user_info.job_title.description # TODO
+    t: How do you introduce yourself at parties?
+
+  # javascript proficiency
+
+  - key: user_info.javascript_proficiency # TODO
+    t: JavaScript Proficiency
+  - key: user_info.javascript_proficiency.description # TODO
+    t: How proficient are you at JavaScript?
+
+  # css proficiency
+
+  - key: user_info.css_proficiency # TODO
+    t: CSS Proficiency
+  - key: user_info.css_proficiency.description # TODO
+    t: How proficient are you at CSS?
+
+  # backend proficiency
+  - key: user_info.backend_proficiency # TODO
+    t: Back-end Proficiency
+  - key: user_info.backend_proficiency.description # TODO
+    t: How proficient are you at back-end development?
+
+  # gender
+  - key: user_info.gender # TODO
+    t: Gender
+
+
+  # skin tone/appearance
+  - key: user_info.skin_tone # TODO
+    t: Appearance
+  - key: user_info.skin_tone.description # TODO
+    t: >
+        Which emoji do you feel represents you best? <br/><br/>
+
+        Note: We are experimenting with a new question format in order to 
+        try and better capture the demographic makeup of our respondents. 
+        <a href="https://github.com/StateOfJS/StateOfCSS-2020/issues/5" target="_blank">Leave us your feedback</a>
+        on GitHub. 
+
+  # other info
+  - key: user_info.how_did_user_find_out_about_the_survey # TODO
+    t: How did you find out about this survey?
+  - key: user_info.email # TODO
+    t: Your Email
+  - key: user_info.country # TODO
+    t: Your Country
+
+  ###########################################################################
+  # Other Tools
+  ###########################################################################
+
+  - key: tools_other.text_editors # TODO
+    t: Text Editors
+  - key: tools_other.text_editors.description # TODO
+    t: Which text editor(s) do you regularly use?
+  - key: tools_other.text_editors.others # TODO
+    t: Other Text Editors
+  - key: tools_other.text_editors.others.description # TODO
+    t: Other answers (freeform field).
+
+  - key: tools_other.utilities # TODO
+    t: Utilities
+  - key: tools_other.utilities.description # TODO
+    t: Which utility libraries do you regularly use?
+  - key: tools_other.utilities.others # TODO
+    t: Other Utilities
+  - key: tools_other.utilities.others.description # TODO
+    t: Other utilities (freeform field).
+
+  - key: tools_other.browsers # TODO
+    t: Browsers
+  - key: tools_other.browsers.description # TODO
+    t: Which browser(s) do you primarily work in during initial development?
+  - key: tools_other.browsers.others # TODO
+    t: Other Browsers
+  - key: tools_other.browsers.others.description # TODO
+    t: Other answers (freeform field).
+
+  - key: tools_other.build_tools # TODO
+    t: Build Tools
+  - key: tools_other.build_tools.description # TODO
+    t: Which build tools do you use?
+  - key: tools_other.build_tools.others # TODO
+    t: Other Build Tools
+  - key: tools_other.build_tools.others.description # TODO
+    t: Other answers (freeform field).
+
+  - key: tools_other.non_js_languages # TODO
+    t: Non-JavaScript Languages
+  - key: tools_other.non_js_languages.description # TODO
+    t: Which other programming languages do you use?
+  - key: tools_other.non_js_languages.others # TODO
+    t: Other Languages
+  - key: tools_other.non_js_languages.others.description # TODO
+    t: Other answers (freeform field).
+
+###########################################################################
+# Resources
+###########################################################################
+
+  # blogs & magazines
+  - key: resources.blogs_news_magazines # TODO
+    t: Blogs & Magazines
+  - key: resources.blogs_news_magazines.description # TODO
+    t: Which blogs/magazines/etc. do you read?
+  - key: resources.blogs_news_magazines.others # TODO
+    t: Other Blogs & Magazines
+  - key: resources.blogs_news_magazines.others.description # TODO
+    t: Other answers (freeform field).
+
+  # sites & courses
+  - key: resources.sites_courses # TODO
+    t: Sites & Courses
+  - key: resources.sites_courses.description # TODO
+    t: Which sites/courses/etc. do you consult?
+  - key: resources.sites_courses.others # TODO
+    t: Other Sites & Courses
+  - key: resources.sites_courses.others.description # TODO
+    t: Other answers (freeform field).
+
+  # podcasts
+  - key: resources.podcasts # TODO
+    t: Podcasts
+  - key: resources.podcasts.description # TODO
+    t: Which programming-related podcasts do you listen to?
+  - key: resources.podcasts.others # TODO
+    t: Other Podcasts
+  - key: resources.podcasts.others.description # TODO
+    t: Other answers (freeform field).
