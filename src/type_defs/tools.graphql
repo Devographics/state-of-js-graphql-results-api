@@ -47,25 +47,42 @@ enum ToolID {
     # CSS Pre-/Post-processors
     sass
     less
-    postcss
+    post_css
     stylus
     # CSS frameworks
     bootstrap
-    materialize
+    materialize_css
     ant_design
-    semanticui
+    semantic_ui
     bulma
     foundation
-    uikit
+    ui_kit
     tachyons
     primer
-    tailwind
-    purecss
+    tailwind_css
+    pure_css
     skeleton
     spectre
     # CSS methodologies
     bem
-    atomic_design
+    atomic_css
+    oocss
+    smacss
+    it_css
+    cube_css
+    # CSS in JS
+    styled_components
+    jss
+    styled_jsx
+    radium
+    emotion
+    css_modules
+    styled_system
+    stitches
+    styletron
+    fela
+    linaria
+    astroturf
 }
 
 """

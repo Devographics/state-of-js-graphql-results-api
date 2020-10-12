@@ -17,7 +17,7 @@
       - css
       - css_pre_post_processors
 
-- id: postcss
+- id: post_css
   name: PostCSS
   github: postcss/postcss
   tags:
@@ -35,7 +35,7 @@
 #################################################
 # CSS frameworks
 #################################################
-- id: materialize
+- id: materialize_css
   name: Materialize CSS
   github: Dogfalo/materialize
   npm: materialize-css
@@ -50,7 +50,7 @@
       - css
       - css_frameworks
 
-- id: semanticui
+- id: semantic_ui
   name: Semantic UI
   github: Semantic-Org/Semantic-UI
   npm: semantic-ui
@@ -73,7 +73,7 @@
       - css
       - css_frameworks
 
-- id: uikit
+- id: ui_kit
   name: UIKit
   github: uikit/uikit
   npm: uikit
@@ -96,7 +96,7 @@
       - css
       - css_frameworks
 
-- id: tailwind
+- id: tailwind_css
   name: Tailwind CSS
   github: tailwindcss/tailwindcss
   npm: tailwindcss
@@ -106,7 +106,7 @@
       - css
       - css_frameworks
 
-- id: purecss
+- id: pure_css
   name: PureCSS
   github: pure-css/pure
   npm: purecss
@@ -177,7 +177,7 @@
 #################################################
 # CSS in JS
 #################################################
-- id: styled-components
+- id: styled_components
   name: Styled Components
   npm: styled-components
   github: styled-components/styled-components
@@ -199,7 +199,7 @@
       - js
       - css_in_js
 
-- id: styled-jsx
+- id: styled_jsx
   name: Styled JSX
   npm: styled-jsx
   github: zeit/styled-jsx
@@ -230,7 +230,7 @@
       - js
       - css_in_js
 
-- id: css-modules
+- id: css_modules
   name: CSS Modules
   github: css-modules/css-modules
   tags:
