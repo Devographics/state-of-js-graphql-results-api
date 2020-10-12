@@ -5,11 +5,15 @@
 # }
 
 enum LocaleContexts {
+    projects
+    features
+    entities
     common
     homepage
     results
     state_of_js
     state_of_css
+    
 }
 
 type Translation @cacheControl(maxAge: 600) {
