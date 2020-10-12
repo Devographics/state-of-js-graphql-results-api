@@ -1,4 +1,10 @@
 #################################################
+#
+#   CSS
+#
+#################################################
+
+#################################################
 # CSS layout
 #################################################
 - id: grid
@@ -304,26 +310,75 @@
       - css
       - css_animations_and_transforms
 
-- id: css-variables
+#################################################
+# CSS media queries
+#################################################
+#prefers_reduced_motion
+#prefers_color_scheme
+#color_gamut
+
+#################################################
+# CSS other features
+#################################################
+- id: variables
   name: Variables
   mdn: /en-US/docs/Web/CSS/CSS_Variables
   caniuse: css-variables
-- id: support-queries
+  tags:
+    - css
+    - css_other
+
+- id: feature_support_queries
   name: '@supports'
   mdn: /en-US/docs/Web/CSS/@supports
   caniuse: css-supports-api
-- id: css-containment
+  tags:
+    - css
+    - css_other
+
+- id: containment
   name: Contain
   mdn: /en-US/docs/Web/CSS/contain
-- id: will-change
+  tags:
+    - css
+    - css_other
+
+- id: will_change
   name: will-change
   mdn: /en-US/docs/Web/CSS/will-change
   caniuse: will-change
+  tags:
+    - css
+    - css_other
+
 - id: calc
   name: calc()
   mdn: /en-US/docs/Web/CSS/calc
   caniuse: calc
-# JS
+  tags:
+    - css
+    - css_other
+
+- id: houdini
+  name: CSS Houdini
+  mdn: /en-US/docs/Web/Houdini
+  caniuse: css-paint-api
+  tags:
+    - css
+    - css_other
+
+- id: comparison_functions
+  name: CSS Comparison Functions
+  caniuse: css-math-functions
+  tags:
+    - css
+    - css_other
+
+#################################################
+#
+#   JS
+#
+#################################################
 - id: destructuring
   name: Destructuring
   mdn: /en-US/docs/Web/JavaScript/Reference/Operators/Destructuring_assignment
