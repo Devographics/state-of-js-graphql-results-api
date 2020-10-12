@@ -21,5 +21,9 @@ type Query {
     """
     Translate a string
     """
-    translation(key: String!, locale: LocaleID): Translation
+    translation(key: String!, localeId: String!): Translation
+    """
+    Get all of a locale's translations
+    """
+    locale(localeId: String!, contexts: [LocaleContexts]): Locale
 }
