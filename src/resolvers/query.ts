@@ -1,6 +1,6 @@
 import { SurveyType } from '../types'
 import { getEntity } from '../helpers'
-import { getLocale, getTranslation } from '../i18n'
+import { getLocales, getLocale, getTranslation } from '../i18n'
 import { SurveyConfig } from '../types'
 
 export default {
@@ -12,11 +12,10 @@ export default {
             survey,
             ...getEntity({ id })
         }),
-        translation: (parent: any, { key, localeId }: { key: string; localeId: string }) => ({
-            ...getTranslation(key, localeId)
-        }),
-        locale: (parent: any, { localeId, contexts }: { localeId: string, contexts: string[] }) => ({
-            ...getLocale(localeId, contexts)
-        }),
+        translation: (parent: any, { key, localeId }: { key: string; localeId: string }) =>
+            getTranslation(key, localeId),
+        locale: (parent: any, { localeId, contexts }: { localeId: string; contexts: string[] }) =>
+            getLocale(localeId, contexts),
+        locales: () => getLocales()
     }
 }

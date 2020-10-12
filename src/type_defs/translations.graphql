@@ -16,7 +16,7 @@ enum LocaleContexts {
     
 }
 
-type Translation @cacheControl(maxAge: 600) {
+type TranslationString @cacheControl(maxAge: 600) {
     key: String
     t: String
     context: String
@@ -25,6 +25,5 @@ type Translation @cacheControl(maxAge: 600) {
 type Locale @cacheControl(maxAge: 600) {
     id: String
     translators: [String]
-    strings: [Translation]
-    contexts: [LocaleContexts]
+    strings: [TranslationString]
 }
