@@ -86,30 +86,67 @@
     - css
     - css_layout
 
-- id: css-shapes
+#################################################
+# CSS shapes & graphics
+#################################################
+- id: shapes
   name: Shapes
   mdn: /en-US/docs/Web/CSS/CSS_Shapes
   caniuse: css-shapes
-- id: object-fit
+  tags:
+    - css
+    - css_shapes_and_graphics
+
+- id: object_fit
   name: object-fit
   mdn: /en-US/docs/Web/CSS/object-fit
   caniuse: object-fit
-- id: clip-path
+  tags:
+    - css
+    - css_shapes_and_graphics
+
+- id: clip_path
   name: clip-path
   mdn: /en-US/docs/Web/CSS/clip-path
   caniuse: css-clip-path
-- id: blend-modes
-  name: blend-mode
-  mdn: /en-US/docs/Web/CSS/blend-mode
-  caniuse: css-mixblendmode
-- id: css-filter-effects
-  name: Filters & Effects
-  mdn: /en-US/docs/Web/CSS/filter
-  caniuse: css-filters
-- id: css-masks
+  tags:
+    - css
+    - css_shapes_and_graphics
+
+- id: masks
   name: Masking
   mdn: /en-US/docs/Web/CSS/CSS_Masking
   caniuse: css-masks
+  tags:
+    - css
+    - css_shapes_and_graphics
+
+- id: blend_modes
+  name: blend-mode
+  mdn: /en-US/docs/Web/CSS/blend-mode
+  caniuse: css-mixblendmode
+  tags:
+    - css
+    - css_shapes_and_graphics
+
+- id: filter_effects
+  name: Filters & Effects
+  mdn: /en-US/docs/Web/CSS/filter
+  caniuse: css-filters
+  tags:
+    - css
+    - css_shapes_and_graphics
+
+- id: backdrop_filter
+  name: backdrop-filter
+  mdn: /en-US/docs/Web/CSS/backdrop-filter
+  caniuse: css-backdrop-filter
+  tags:
+    - css
+    - css_shapes_and_graphics
+
+
+
 - id: css-scroll-snap
   name: Scroll Snap
   mdn: /en-US/docs/Web/CSS/CSS_Scroll_Snap
