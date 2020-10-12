@@ -7,6 +7,7 @@
 #import "./matrices.graphql"
 #import "./mdn.graphql"
 #import "./opinions.graphql"
+#import "./other_features.graphql"
 #import "./other_tools.graphql"
 #import "./resources.graphql"
 #import "./tools.graphql"
@@ -45,6 +46,10 @@ type Survey @cacheControl(maxAge: 600) {
     Usage results for a range of features
     """
     features(ids: [FeatureID]): [Feature] @cacheControl(maxAge: 600)
+    """
+    Choice based features
+    """
+    featuresOthers(id: OtherFeaturesID!): OtherFeatures
     """
     Demographics data (gender, company size, salary, etc.)
     """
