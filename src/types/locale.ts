@@ -4,3 +4,8 @@ export interface Locale {
     label: string
     stringFiles: any[]
 }
+
+export interface StringFile {
+    strings: string[]
+    context: string
+}

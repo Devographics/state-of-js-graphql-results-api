@@ -1,8 +1,9 @@
 import { EnumTypeDefinitionNode } from 'graphql'
-import { Entity } from './types'
+import { Entity, StringFile } from './types'
 import entities from './data/entities.yml'
 import projects from './data/projects.yml'
 import typeDefs from './type_defs/schema.graphql'
+import locales from './data/i18n'
 
 const allEntities: Entity[] = [...projects, ...entities]
 
@@ -41,4 +42,30 @@ export const getGraphQLEnumValues = (name: string): string[] => {
     }
 
     return enumDef.values!.map(v => v.name.value)
+}
+
+export const getLocale = (localeId: string, contexts?: string[]) => {
+    const localeObject = locales[localeId]
+    let stringFiles = localeObject?.stringFiles
+    
+    // if contexts are specified, filter strings by them
+    if (contexts) {
+      stringFiles = stringFiles.filter((sf: StringFile) => {
+        return contexts.includes(sf.context)
+      });
+    }
+    console.log(stringFiles)
+
+    // flatten all stringFiles together
+    const strings = stringFiles.map((sf: StringFile) => sf.strings).flat()
+
+    return {
+        id: localeId,
+        strings
+    }
+}
+
+export const getTranslation = (key: string, localeId: string) => {
+    const locale = getLocale(localeId)
+    return locale.strings.find((s: any) => s.key === key)
 }

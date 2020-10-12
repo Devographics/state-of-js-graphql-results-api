@@ -1,37 +1,41 @@
-import { Locale } from '../../types'
+import localesYAML from './locales.yml'
 
-import { default as enCommon } from './common/yml/en-US.yml'
-import { default as enCSS } from './state-of-css/yml/en-US.yml'
-import { default as enJS } from './state-of-js/yml/en-US.yml'
-import { default as enHomepage } from './homepage/yml/en-US.yml'
+const locales: any = localesYAML
 
-import { default as itCommon } from './common/yml/it-IT.yml'
-import { default as itCSS } from './state-of-css/yml/it-IT.yml'
-import { default as itJS } from './state-of-js/yml/it-IT.yml'
+Object.keys(locales).forEach(l => {
+  locales[l].stringFiles = []
+})
 
-import { default as zhCommon } from './common/yml/zh-Hans.yml'
-import { default as zhCSS } from './state-of-css/yml/zh-Hans.yml'
-import { default as zhJS } from './state-of-js/yml/zh-Hans.yml'
+function importAll(r: any) {
+    r.keys().forEach((key: any) => (locales[key] = r(key)))
+}
 
-const locales: Locale[] = [
-    {
-        id: 'en',
-        locale: 'en_US',
-        label: 'English',
-        stringFiles: [enCommon, enCSS, enJS, enHomepage]
-    },
-    {
-        id: 'it',
-        locale: 'it_IT',
-        label: 'Italiano',
-        stringFiles: [itCommon, itCSS, itJS]
-    },
-    {
-        id: 'zh',
-        locale: 'zh_ZH',
-        label: '中文',
-        stringFiles: [zhCommon, zhCSS, zhJS]
-    }
-]
+const contexts: any = {
+    common: require.context('./common/', true, /\.yml$/),
+    homepage: require.context('./homepage/', true, /\.yml$/),
+    results: require.context('./results/', true, /\.yml$/),
+    state_of_css: require.context('./state_of_css/', true, /\.yml$/),
+    state_of_js: require.context('./state_of_js/', true, /\.yml$/)
+}
+
+Object.keys(contexts).forEach(context => {
+    const req = contexts[context]
+    req.keys().forEach((key: any) => {
+        const localeName = key.replace('./', '').replace('.yml', '');
+        if (localeName === 'model') {
+          // do nothing
+        } else if (locales[localeName]) {
+          locales[localeName].stringFiles.push({
+            strings: req(key),
+            context
+          });
+        } else {
+          throw new Error(`Locale ${localeName} not declared in locales.yml`)
+        }
+    })
+})
+
+console.log('localesObject')
+console.log(locales)
 
 export default locales
