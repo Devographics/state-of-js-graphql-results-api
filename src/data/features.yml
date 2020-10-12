@@ -1,23 +1,91 @@
-#  CSS
+#################################################
+# CSS layout
+#################################################
 - id: grid
   name: Grid
   mdn: /en-US/docs/Web/CSS/CSS_Grid_Layout
   caniuse: css-grid
+  tags:
+    - css
+    - css_layout
+
+- id: subgrid
+  name: Subgrid
+  mdn: /en-US/docs/Web/CSS/CSS_Grid_Layout/Subgrid
+  caniuse: css-subgrid
+  tags:
+    - css
+    - css_layout
+
+- id: regions
+  name: CSS Regions
+  caniuse: css-regions
+  tags:
+    - css
+    - css_layout
+
 - id: flexbox
   name: Flexbox
   mdn: /en-US/docs/Web/CSS/CSS_Flexible_Box_Layout
   caniuse: flexbox
+  tags:
+    - css
+    - css_layout
+
 - id: multi_column
   name: Multi-Column Layout
   mdn: /en-US/docs/Web/CSS/CSS_Columns
   caniuse: multicolumn
+  tags:
+    - css
+    - css_layout
+
 - id: writing_modes
   name: Writing Modes
   mdn: /en-US/docs/Web/CSS/CSS_Writing_Modes
   caniuse: css-writing-mode
+  tags:
+    - css
+    - css_layout
+
 - id: exclusions
   name: Exclusions
   caniuse: css-exclusions
+  tags:
+    - css
+    - css_layout
+
+- id: position_sticky
+  name: 'CSS position:sticky'
+  mdn: /en-US/docs/Web/CSS/position
+  caniuse: css-sticky
+  tags:
+    - css
+    - css_layout
+
+- id: logical_properties
+  name: CSS Logical Properties
+  mdn: /en-US/docs/Web/CSS/CSS_Logical_Properties
+  caniuse: css-logical-props
+  tags:
+    - css
+    - css_layout
+
+- id: aspect_ratio
+  name: 'CSS property: aspect-ratio'
+  mdn: /en-US/docs/Web/CSS/@media/aspect-ratio
+  caniuse: mdn-css_properties_aspect-ratio
+  tags:
+    - css
+    - css_layout
+
+- id: content_visibility
+  name: CSS content-visibility
+  caniuse: css-content-visibility
+  tags:
+    - css
+    - css_layout
+
 - id: css-shapes
   name: Shapes
   mdn: /en-US/docs/Web/CSS/CSS_Shapes
