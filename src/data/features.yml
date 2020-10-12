@@ -145,20 +145,50 @@
     - css
     - css_shapes_and_graphics
 
-
-
-- id: css-scroll-snap
+#################################################
+# CSS interactions
+#################################################
+- id: scroll_snap
   name: Scroll Snap
   mdn: /en-US/docs/Web/CSS/CSS_Scroll_Snap
   caniuse: css-snappoints
-- id: overscroll-behavior
+  tags:
+    - css
+    - css_interactions
+
+- id: overscroll_behavior
   name: overscroll-behavior
   mdn: /en-US/docs/Web/CSS/overscroll-behavior
   caniuse: css-overscroll-behavior
-- id: overflow-anchor
+  tags:
+    - css
+    - css_interactions
+
+- id: overflow_anchor
   name: overflow-anchor
   mdn: /en-US/docs/Web/CSS/overflow-anchor
   caniuse: css-overflow-anchor
+  tags:
+    - css
+    - css_interactions
+
+- id: touch_action
+  name: touch-action
+  mdn: /en-US/docs/Web/CSS/touch-action
+  caniuse: css-touch-action
+  tags:
+    - css
+    - css_interactions
+
+- id: pointer_events
+  name: pointer-events
+  mdn: /en-US/docs/Web/CSS/pointer-events
+  caniuse: pointer-events
+  tags:
+    - css
+    - css_interactions
+
+
 - id: web-fonts-font-face
   name: |
       @font-face
