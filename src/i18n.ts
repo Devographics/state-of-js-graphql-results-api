@@ -1,9 +1,9 @@
 import { EnumTypeDefinitionNode } from 'graphql'
-import { Entity, StringFile } from './types'
+import { Entity, StringFile, Locale } from './types'
 import entities from './data/entities.yml'
 import projects from './data/projects.yml'
 import typeDefs from './type_defs/schema.graphql'
-import locales from './data/i18n'
+import locales from './i18n/'
 
 const allEntities: Entity[] = [...projects, ...entities]
 
@@ -44,7 +44,12 @@ export const getGraphQLEnumValues = (name: string): string[] => {
     return enumDef.values!.map(v => v.name.value)
 }
 
-export const getLocale = (localeId: string, contexts?: string[]) => {
+/*
+
+Get locale strings for a specific locale
+
+*/
+export const getLocaleStrings = (localeId: string, contexts?: string[]) => {
     const localeObject = locales[localeId]
     let stringFiles = localeObject?.stringFiles
 
@@ -54,25 +59,53 @@ export const getLocale = (localeId: string, contexts?: string[]) => {
             return contexts.includes(sf.context)
         })
     }
-    console.log(stringFiles)
 
     // flatten all stringFiles together
     const strings = stringFiles
         .map((sf: StringFile) => {
-            let { strings, prefix } = sf
+            let { strings, prefix, context } = sf
+            // if strings need to be prefixed, do it now
             if (prefix) {
                 strings = strings.map((s: any) => ({ ...s, key: `${prefix}.${s.key}` }))
             }
+            // add context to all strings just in case
+            strings = strings.map((s: any) => ({ ...s, context }))
             return strings
         })
         .flat()
 
+    return strings
+}
+
+/*
+
+Get a specific locale
+
+*/
+export const getLocale = (localeId: string, contexts?: string[]) => {
+    const strings = getLocaleStrings(localeId, contexts)
     return {
         id: localeId,
         strings
     }
 }
 
+/*
+
+Get all locales
+
+*/
+export const getLocales = () => {
+    return Object.keys(locales).map((localeId: string) => {
+        return { ...locales[localeId], id: localeId, strings: getLocaleStrings(localeId) }
+    })
+}
+
+/*
+
+Get a specific translation
+
+*/
 export const getTranslation = (key: string, localeId: string) => {
     const locale = getLocale(localeId)
     return locale.strings.find((s: any) => s.key === key)
