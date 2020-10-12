@@ -6,85 +6,85 @@
   mdn: /en-US/docs/Web/CSS/CSS_Grid_Layout
   caniuse: css-grid
   tags:
-    - css
-    - css_layout
+      - css
+      - css_layout
 
 - id: subgrid
   name: Subgrid
   mdn: /en-US/docs/Web/CSS/CSS_Grid_Layout/Subgrid
   caniuse: css-subgrid
   tags:
-    - css
-    - css_layout
+      - css
+      - css_layout
 
 - id: regions
   name: CSS Regions
   caniuse: css-regions
   tags:
-    - css
-    - css_layout
+      - css
+      - css_layout
 
 - id: flexbox
   name: Flexbox
   mdn: /en-US/docs/Web/CSS/CSS_Flexible_Box_Layout
   caniuse: flexbox
   tags:
-    - css
-    - css_layout
+      - css
+      - css_layout
 
 - id: multi_column
   name: Multi-Column Layout
   mdn: /en-US/docs/Web/CSS/CSS_Columns
   caniuse: multicolumn
   tags:
-    - css
-    - css_layout
+      - css
+      - css_layout
 
 - id: writing_modes
   name: Writing Modes
   mdn: /en-US/docs/Web/CSS/CSS_Writing_Modes
   caniuse: css-writing-mode
   tags:
-    - css
-    - css_layout
+      - css
+      - css_layout
 
 - id: exclusions
   name: Exclusions
   caniuse: css-exclusions
   tags:
-    - css
-    - css_layout
+      - css
+      - css_layout
 
 - id: position_sticky
   name: 'CSS position:sticky'
   mdn: /en-US/docs/Web/CSS/position
   caniuse: css-sticky
   tags:
-    - css
-    - css_layout
+      - css
+      - css_layout
 
 - id: logical_properties
   name: CSS Logical Properties
   mdn: /en-US/docs/Web/CSS/CSS_Logical_Properties
   caniuse: css-logical-props
   tags:
-    - css
-    - css_layout
+      - css
+      - css_layout
 
 - id: aspect_ratio
   name: 'CSS property: aspect-ratio'
   mdn: /en-US/docs/Web/CSS/@media/aspect-ratio
   caniuse: mdn-css_properties_aspect-ratio
   tags:
-    - css
-    - css_layout
+      - css
+      - css_layout
 
 - id: content_visibility
   name: CSS content-visibility
   caniuse: css-content-visibility
   tags:
-    - css
-    - css_layout
+      - css
+      - css_layout
 
 #################################################
 # CSS shapes & graphics
@@ -94,56 +94,56 @@
   mdn: /en-US/docs/Web/CSS/CSS_Shapes
   caniuse: css-shapes
   tags:
-    - css
-    - css_shapes_and_graphics
+      - css
+      - css_shapes_and_graphics
 
 - id: object_fit
   name: object-fit
   mdn: /en-US/docs/Web/CSS/object-fit
   caniuse: object-fit
   tags:
-    - css
-    - css_shapes_and_graphics
+      - css
+      - css_shapes_and_graphics
 
 - id: clip_path
   name: clip-path
   mdn: /en-US/docs/Web/CSS/clip-path
   caniuse: css-clip-path
   tags:
-    - css
-    - css_shapes_and_graphics
+      - css
+      - css_shapes_and_graphics
 
 - id: masks
   name: Masking
   mdn: /en-US/docs/Web/CSS/CSS_Masking
   caniuse: css-masks
   tags:
-    - css
-    - css_shapes_and_graphics
+      - css
+      - css_shapes_and_graphics
 
 - id: blend_modes
   name: blend-mode
   mdn: /en-US/docs/Web/CSS/blend-mode
   caniuse: css-mixblendmode
   tags:
-    - css
-    - css_shapes_and_graphics
+      - css
+      - css_shapes_and_graphics
 
 - id: filter_effects
   name: Filters & Effects
   mdn: /en-US/docs/Web/CSS/filter
   caniuse: css-filters
   tags:
-    - css
-    - css_shapes_and_graphics
+      - css
+      - css_shapes_and_graphics
 
 - id: backdrop_filter
   name: backdrop-filter
   mdn: /en-US/docs/Web/CSS/backdrop-filter
   caniuse: css-backdrop-filter
   tags:
-    - css
-    - css_shapes_and_graphics
+      - css
+      - css_shapes_and_graphics
 
 #################################################
 # CSS interactions
@@ -153,40 +153,40 @@
   mdn: /en-US/docs/Web/CSS/CSS_Scroll_Snap
   caniuse: css-snappoints
   tags:
-    - css
-    - css_interactions
+      - css
+      - css_interactions
 
 - id: overscroll_behavior
   name: overscroll-behavior
   mdn: /en-US/docs/Web/CSS/overscroll-behavior
   caniuse: css-overscroll-behavior
   tags:
-    - css
-    - css_interactions
+      - css
+      - css_interactions
 
 - id: overflow_anchor
   name: overflow-anchor
   mdn: /en-US/docs/Web/CSS/overflow-anchor
   caniuse: css-overflow-anchor
   tags:
-    - css
-    - css_interactions
+      - css
+      - css_interactions
 
 - id: touch_action
   name: touch-action
   mdn: /en-US/docs/Web/CSS/touch-action
   caniuse: css-touch-action
   tags:
-    - css
-    - css_interactions
+      - css
+      - css_interactions
 
 - id: pointer_events
   name: pointer-events
   mdn: /en-US/docs/Web/CSS/pointer-events
   caniuse: pointer-events
   tags:
-    - css
-    - css_interactions
+      - css
+      - css_interactions
 
 #################################################
 # CSS typography
@@ -197,90 +197,113 @@
   mdn: /en-US/docs/Web/CSS/@font-face
   caniuse: fontface
   tags:
-    - css
-    - css_typography
+      - css
+      - css_typography
 
 - id: variable_fonts
   name: Variable Fonts
   mdn: /en-US/docs/Web/CSS/CSS_Fonts/Variable_Fonts_Guide
   caniuse: variable-fonts
   tags:
-    - css
-    - css_typography
+      - css
+      - css_typography
 
 - id: line_breaking
   name: Line Breaking Properties
   mdn: /en-US/docs/Web/CSS/line-break
   tags:
-    - css
-    - css_typography
+      - css
+      - css_typography
 
 - id: font_variant
   name: font-variant
   mdn: /en-US/docs/Web/CSS/font-variant
   caniuse: font-variant-alternates
   tags:
-    - css
-    - css_typography
+      - css
+      - css_typography
 
 - id: initial_letter
   name: initial_letter
   mdn: /en-US/docs/Web/CSS/initial-letter
   caniuse: css-initial-letter
   tags:
-    - css
-    - css_typography
+      - css
+      - css_typography
 
 - id: font_variant_numeric
   name: font-variant-numeric
   mdn: /en-US/docs/Web/CSS/font-variant-numeric
   caniuse: font-variant-numeric
   tags:
-    - css
-    - css_typography
+      - css
+      - css_typography
 
 - id: font_display
   name: font-display
   mdn: /en-US/docs/Web/CSS/@font-face/font-display
   caniuse: css-font-rendering-controls
   tags:
-    - css
-    - css_typography
+      - css
+      - css_typography
 
 - id: line_clamp
   name: line-clamp
   mdn: /en-US/docs/Web/CSS/-webkit-line-clamp
   caniuse: css-line-clamp
   tags:
-    - css
-    - css_typography
+      - css
+      - css_typography
 
 - id: leading_trim
   name: leading-trim
   tags:
-    - css
-    - css_typography
+      - css
+      - css_typography
 
 - id: direction
   name: direction
   mdn: /en-US/docs/Web/CSS/direction
   caniuse: mdn-css_properties_direction
   tags:
-    - css
-    - css_typography
+      - css
+      - css_typography
 
-- id: css-transitions
+#################################################
+# CSS animations & transforms
+#################################################
+- id: transitions
   name: Transitions
   mdn: /en-US/docs/Web/CSS/CSS_Transitions
   caniuse: css-transitions
-- id: css-transforms
+  tags:
+      - css
+      - css_animations_and_transforms
+
+- id: transforms
   name: Transforms
   mdn: /en-US/docs/Web/CSS/CSS_Transforms
   caniuse: transforms2d
-- id: css-animations
+  tags:
+      - css
+      - css_animations_and_transforms
+
+- id: animations
   name: Animations
   mdn: /en-US/docs/Web/CSS/CSS_Animations
   caniuse: css-animation
+  tags:
+      - css
+      - css_animations_and_transforms
+
+- id: perspective
+  name: Perspective
+  mdn: /en-US/docs/Web/CSS/CSS_Animations
+  caniuse: mdn-api_cssperspective
+  tags:
+      - css
+      - css_animations_and_transforms
+
 - id: css-variables
   name: Variables
   mdn: /en-US/docs/Web/CSS/CSS_Variables
