@@ -8,4 +8,5 @@ export interface Locale {
 export interface StringFile {
     strings: string[]
     context: string
+    prefix?: string
 }

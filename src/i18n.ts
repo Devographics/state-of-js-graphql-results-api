@@ -47,17 +47,25 @@ export const getGraphQLEnumValues = (name: string): string[] => {
 export const getLocale = (localeId: string, contexts?: string[]) => {
     const localeObject = locales[localeId]
     let stringFiles = localeObject?.stringFiles
-    
+
     // if contexts are specified, filter strings by them
     if (contexts) {
-      stringFiles = stringFiles.filter((sf: StringFile) => {
-        return contexts.includes(sf.context)
-      });
+        stringFiles = stringFiles.filter((sf: StringFile) => {
+            return contexts.includes(sf.context)
+        })
     }
     console.log(stringFiles)
 
     // flatten all stringFiles together
-    const strings = stringFiles.map((sf: StringFile) => sf.strings).flat()
+    const strings = stringFiles
+        .map((sf: StringFile) => {
+            let { strings, prefix } = sf
+            if (prefix) {
+                strings = strings.map((s: any) => ({ ...s, key: `${prefix}.${s.key}` }))
+            }
+            return strings
+        })
+        .flat()
 
     return {
         id: localeId,
