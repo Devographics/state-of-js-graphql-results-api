@@ -58,7 +58,7 @@ enum FeatureID {
     pointer_events
     # CSS typography features
     web_fonts
-    variables_fonts
+    variable_fonts
     line_breaking
     font_variant
     initial_letter
