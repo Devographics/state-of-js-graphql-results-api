@@ -109,7 +109,7 @@ enum FeatureID {
     # combinators
     descendant
     child
-    next_subling
+    next_sibling
     subsequent_sibling
     # tree_document_structure
     root
