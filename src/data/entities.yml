@@ -3,6 +3,7 @@
 #################################################
 - id: sass
   name: Sass
+  contexts: [state_of_css]
   github: sass/sass
   npm: node-sass
   tags:
@@ -11,6 +12,7 @@
 
 - id: less
   name: Less
+  contexts: [state_of_css]
   github: less/less.js
   npm: less
   tags:
@@ -19,6 +21,7 @@
 
 - id: post_css
   name: PostCSS
+  contexts: [state_of_css]
   github: postcss/postcss
   tags:
       - css
@@ -26,6 +29,7 @@
 
 - id: stylus
   name: Stylus
+  contexts: [state_of_css]
   github: stylus/stylus
   npm: stylus
   tags:
@@ -35,8 +39,19 @@
 #################################################
 # CSS frameworks
 #################################################
+- id: bootstrap
+  name: Bootstrap
+  contexts: [state_of_css]
+  github: twbs/bootstrap
+  homepage: https://getbootstrap.com/
+  npm: bootstrap
+  tags:
+      - css
+      - css_frameworks
+
 - id: materialize_css
   name: Materialize CSS
+  contexts: [state_of_css]
   github: Dogfalo/materialize
   npm: materialize-css
   tags:
@@ -45,6 +60,7 @@
 
 - id: ant_design
   name: Ant Design
+  contexts: [state_of_css]
   github: ant-design/ant-design
   tags:
       - css
@@ -52,6 +68,7 @@
 
 - id: semantic_ui
   name: Semantic UI
+  contexts: [state_of_css]
   github: Semantic-Org/Semantic-UI
   npm: semantic-ui
   tags:
@@ -60,6 +77,7 @@
 
 - id: bulma
   name: Bulma
+  contexts: [state_of_css]
   github: jgthms/bulma
   npm: bulma
   tags:
@@ -68,6 +86,7 @@
 
 - id: foundation
   name: Foundation
+  contexts: [state_of_css]
   github: zurb/foundation-sites
   tags:
       - css
@@ -75,6 +94,7 @@
 
 - id: ui_kit
   name: UIKit
+  contexts: [state_of_css]
   github: uikit/uikit
   npm: uikit
   tags:
@@ -83,6 +103,7 @@
 
 - id: tachyons
   name: Tachyons
+  contexts: [state_of_css]
   github: tachyons-css/tachyons
   tags:
       - css
@@ -90,6 +111,7 @@
 
 - id: primer
   name: Primer
+  contexts: [state_of_css]
   github: primer/css
   npm: '@primer/css'
   tags:
@@ -98,6 +120,7 @@
 
 - id: tailwind_css
   name: Tailwind CSS
+  contexts: [state_of_css]
   github: tailwindcss/tailwindcss
   npm: tailwindcss
   aliases:
@@ -108,8 +131,28 @@
 
 - id: pure_css
   name: PureCSS
+  contexts: [state_of_css]
   github: pure-css/pure
   npm: purecss
+  tags:
+      - css
+      - css_frameworks
+
+- id: skeleton
+  name: Skeleton
+  contexts: [state_of_css]
+  homepage: http://getskeleton.com/
+  github: dhg/Skeleton
+  tags:
+      - css
+      - css_frameworks
+
+- id: spectre_css
+  name: Spectre.css
+  contexts: [state_of_css]
+  homepage: https://picturepan2.github.io/spectre/
+  github: picturepan2/spectre
+  npm: spectre.css
   tags:
       - css
       - css_frameworks
@@ -119,6 +162,7 @@
 #################################################
 - id: bem
   name: BEM
+  contexts: [state_of_css]
   description: |
       You will not be surprised to hear that BEM is an abbreviation
       of the key elements of the methodology — Block, Element and Modifier.
@@ -129,6 +173,7 @@
 
 - id: atomic_css
   name: Atomic CSS
+  contexts: [state_of_css]
   description: |
       Atomic CSS is a CSS architecture. It is not opinionated;
       it simply defines a set of classes representing single-purpose styling units.
@@ -139,6 +184,7 @@
 
 - id: oocss
   name: OOCSS
+  contexts: [state_of_css]
   description: |
       OOCSS, or object-oriented CSS, is a methodology to help programmers
       write CSS that is succinct and easy to maintain.
@@ -148,6 +194,7 @@
 
 - id: smacss
   name: SMACSS
+  contexts: [state_of_css]
   description: |
       SMACSS (pronounced “smacks”) is more style guide than rigid framework.
       There is no library within here for you to download or install.
@@ -160,6 +207,7 @@
 
 - id: it_css
   name: ITCSS
+  contexts: [state_of_css]
   description: |
       ITCSS is a sane, scalable, managed
       CSS architecture from CSS Wizardry
@@ -170,6 +218,8 @@
 
 - id: cube_css
   name: CUBE CSS
+  contexts: [state_of_css]
+  homepage: https://piccalil.li/blog/cube-css/
   tags:
       - css
       - css_methodologies
@@ -179,6 +229,7 @@
 #################################################
 - id: styled_components
   name: Styled Components
+  contexts: [state_of_css]
   npm: styled-components
   github: styled-components/styled-components
   description: >-
@@ -192,6 +243,7 @@
 
 - id: jss
   name: JSS
+  contexts: [state_of_css]
   github: cssinjs/jss
   homepage: https://cssinjs.org
   tags:
@@ -201,6 +253,7 @@
 
 - id: styled_jsx
   name: Styled JSX
+  contexts: [state_of_css]
   npm: styled-jsx
   github: zeit/styled-jsx
   description: Full CSS support for JSX without compromises
@@ -211,6 +264,7 @@
 
 - id: radium
   name: Radium
+  contexts: [state_of_css]
   github: FormidableLabs/radium
   npm: '@emotion/core'
   homepage: https://formidable.com/open-source/radium/
@@ -221,6 +275,7 @@
 
 - id: emotion
   name: Emotion
+  contexts: [state_of_css]
   npm: emotion
   github: emotion-js/emotion
   description: CSS-in-JS library designed for high performance style composition
@@ -232,6 +287,7 @@
 
 - id: css_modules
   name: CSS Modules
+  contexts: [state_of_css]
   github: css-modules/css-modules
   tags:
       - css
@@ -240,6 +296,7 @@
 
 - id: styled_system
   name: Styled System
+  contexts: [state_of_css]
   tags:
       - css
       - js
@@ -247,6 +304,9 @@
 
 - id: stitches
   name: Stitches
+  contexts: [state_of_css]
+  github: modulz/stitches
+  homepage: https://stitches.dev/
   tags:
       - css
       - js
@@ -254,6 +314,7 @@
 
 - id: styletron
   name: styletron
+  contexts: [state_of_css]
   npm: styletron-engine-atomic
   github: styletron/styletron
   description: Toolkit for component-oriented styling
@@ -265,6 +326,7 @@
 
 - id: fela
   name: Fela
+  contexts: [state_of_css]
   npm: fela
   github: robinweser/fela
   description: State-Driven Styling in JavaScript
@@ -276,6 +338,7 @@
 
 - id: linaria
   name: Linaria
+  contexts: [state_of_css]
   npm: linaria
   github: callstack/linaria
   description: Zero-runtime CSS in JS library
@@ -287,6 +350,7 @@
 
 - id: astroturf
   name: Astroturf
+  contexts: [state_of_css]
   npm: astroturf
   github: 4Catalyzer/astroturf
   description: An "artificial" CSS-in-JS for those that want it all.
@@ -294,6 +358,32 @@
       - css
       - js
       - css_in_js
+
+#################################################
+# Other CSS Tools
+#################################################
+
+- id: stylelint
+  name: Stylelint
+  homepage: https://stylelint.io/
+  contexts: [state_of_css]
+  npm: stylelint
+  tags: 
+    - css
+
+- id: purge_css
+  name: PurgeCSS
+  homepage: https://purgecss.com/
+  contexts: [state_of_css]
+  tags: 
+    - css
+
+- id: purify_css
+  name: PurifyCSS
+  homepage: https://purifycss.online/
+  contexts: [state_of_css]
+  tags: 
+    - css
 
 - id: apollo
   name: Apollo
@@ -329,11 +419,11 @@
   name: Chrome
   homepage: https://www.google.com/chrome/
   category: browsers
-- id: chrome-android
+- id: chrome_android
   name: Chrome Android
   homepage: https://www.google.com/chrome/
   category: browsers
-- id: chrome-ios
+- id: chrome_ios
   name: Chrome iOS
   homepage: https://www.google.com/chrome/
   category: browsers
@@ -343,7 +433,7 @@
 - id: csharp
   name: 'C#'
   category: languages
-- id: c-cplusplus
+- id: c_cplusplus
   name: C/C++
   category: languages
 - id: coda
@@ -383,13 +473,13 @@
   name: Firefox
   homepage: https://www.mozilla.org/en-US/firefox/new/
   category: browsers
-- id: firefox-developer
+- id: firefox_developer
   name: Firefox Quantum
   homepage: https://www.mozilla.org/en-US/firefox/developer/
   category: browsers
   aliases:
       - Firefox Developers Edition
-- id: firefox-android
+- id: firefox_android
   name: Firefox Android
   homepage: https://www.mozilla.org/en-US/firefox/new/
   category: browsers
@@ -409,10 +499,10 @@
 - id: intellij
   name: IntelliJ
   homepage: https://www.jetbrains.com/idea/
-- id: internet-explorer-11
+- id: internet_explorer_11
   name: Internet Explorer 11
   homepage: https://www.microsoft.com/en-us/download/internet-explorer-11-for-windows-7-details.aspx
-- id: internet-explorer-8-9-10
+- id: internet_explorer_8_9_10
   name: Internet Explorer 8/9/10
   homepage: https://www.microsoft.com/en-us/download/internet-explorer.aspx
   aliases:
@@ -432,13 +522,13 @@
 - id: nano
   name: Nano
   homepage: https://www.nano-editor.org/
-- id: native-apps
+- id: native_apps
   description: "The majority of mobile and desktop apps are still built with native languages like Java, Kotlin, Objective-C, or Swift.\n"
   name: 'Native Apps'
 - id: notepad++
   name: Notepad++
   homepage: https://notepad-plus-plus.org/
-- id: objective-c
+- id: objective_c
   name: Objective-C
 - id: ocaml
   name: OCaml
@@ -447,11 +537,11 @@
   name: Opera
   homepage: https://www.opera.com/
   category: browsers
-- id: opera-mini
+- id: opera_mini
   name: Opera Mini
   homepage: https://www.opera.com/mobile
   category: browsers
-- id: phonegap-cordova
+- id: phonegap_cordova
   description: "Apache Cordova is a mobile application development framework.\n"
   name: Cordova
 - id: php
@@ -488,11 +578,11 @@
   name: Safari
   homepage: https://www.apple.com/safari/
   category: browsers
-- id: safari-ios
+- id: safari_ios
   name: Safari iOS
   homepage: https://www.apple.com/safari/
   category: browsers
-- id: samsung-internet
+- id: samsung_internet
   name: Samsung Internet
   homepage: https://play.google.com/store/apps/details?id=com.sec.android.app.sbrowser&hl=en_US
   category: browsers
@@ -506,11 +596,19 @@
   name: Selenium
   homepage: https://selenium.dev/
   category: testing
-- id: service-workers
+- id: service_workers
   name: 'Service Workers'
-- id: sublime-text
-  name: 'Sublime Text'
+- id: sublime_text
+  name: Sublime Text
   homepage: https://www.sublimetext.com/
+  category: text_editors
+- id: atom
+  name: Atom
+  homepage: https://atom.io/
+  category: text_editors
+- id: nova
+  name: Nova
+  homepage: https://nova.app/
   category: text_editors
 - id: swift
   name: Swift
@@ -526,9 +624,13 @@
   name: UC Browser
   homepage: https://www.ucweb.com/
   category: browsers
+- id: polypane
+  name: Polypane
+  homepage: https://polypane.app/
+  category: browsers
 - id: underscore
   name: underscore
-- id: vanilla-js
+- id: vanilla_js
   name: 'Vanilla JS'
   aliases:
       - vanillajs # not sure an alias is needed?
@@ -536,11 +638,13 @@
 - id: vim
   name: Vim
   homepage: https://www.vim.org/
-- id: visual-studio
+- id: visual_studio
   name: 'VS Code'
   homepage: https://code.visualstudio.com/
   category: text_editors
-- id: visual-studio-not-code
+  aliases: 
+    - vs_code
+- id: visual_studio_not_code
   name: Visual Studio
   homepage: https://visualstudio.microsoft.com/
   category: text_editors
@@ -548,13 +652,13 @@
   name: Vivaldi
   homepage: https://vivaldi.com/
   category: browsers
-- id: web-animations-api
+- id: web_animations_api
   name: 'Web Animations API'
-- id: web-assembly
+- id: web_assembly
   name: WebAssembly
-- id: web-audio-api
+- id: web_audio_api
   name: 'Web Audio API'
-- id: web-speech-api
+- id: web_speech_api
   name: 'Web Speech API'
 - id: webgl
   name: WebGL
@@ -621,7 +725,7 @@
   name: FreeCodeCamp
   homepage: https://www.freecodecamp.org/
   category: courses
-- id: freecodecamp-announcement-css2019
+- id: freecodecamp_announcement_css2019
   name: Announcement
   homepage: https://medium.com/free-code-camp/announcing-the-state-of-css-2019-survey-e1e4268df64d
   category: blogs
@@ -649,6 +753,10 @@
 - id: syntaxfm
   name: Syntax
   homepage: https://syntax.fm/
+  category: podcasts
+- id: css_podcast
+  name: CSS Podcast
+  homepage: https://thecsspodcast.libsyn.com/
   category: podcasts
 - id: shop_talk_show
   name: Shop Talk Show
@@ -703,6 +811,10 @@
   name: Sidebar
   homepage: https://sidebar.io
   category: newsletters
+- id: heydesigner
+  name: HeyDesigner
+  homepage: https://heydesigner.com
+  category: newsletters
 - id: front_end_front
   name: Front-End Front
   homepage: https://frontendfront.com/
@@ -710,6 +822,10 @@
 - id: css_weekly
   name: CSS Weekly
   homepage: https://css-weekly.com/
+  category: newsletters
+- id: frontend_horse
+  name: Frontend Horse
+  homepage: https://frontend.horse/
   category: newsletters
 - id: css_layout_news
   name: CSS Layout News
@@ -797,6 +913,10 @@
 - id: devto
   name: Dev.to
   homepage: https://dev.to/
+  category: resources
+- id: sidebar
+  name: Sidebar
+  homepage: https://sidebar.io/
   category: resources
 - id: css_wizardry
   name: CSS Wizardry
