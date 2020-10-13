@@ -18,7 +18,7 @@ export const getEntities = ({
 }) => {
     let allEntities = [
         entities.map((e: Entity) => ({ ...e, type: 'entity' })),
-        projects.map(e => ({ ...e, type: 'project' })),
+        // projects.map(e => ({ ...e, type: 'project' })),
         features.map(e => ({ ...e, type: 'feature' }))
     ].flat()
 

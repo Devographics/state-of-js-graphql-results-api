@@ -298,7 +298,7 @@ translations:
     t: div span (комбинатор потомка)
   - key: options.combinators.child
     t: div > span (комбинатор непосредственного потомка)
-  - key: options.combinators.next_subling
+  - key: options.combinators.next_sibling
     t: div + div (комбинатор непосредственного соседства)
   - key: options.combinators.subsequent_sibling
     t: div ~ div (комбинатор соседства)

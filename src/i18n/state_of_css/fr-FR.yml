@@ -295,7 +295,7 @@ translations:
     t: div span (descendant)
   - key: options.combinators.child
     t: div > span (enfant)
-  - key: options.combinators.next_subling
+  - key: options.combinators.next_sibling
     t: div + div (voisin suivant)
   - key: options.combinators.subsequent_sibling
     t: div ~ div (voisin subséquent)
