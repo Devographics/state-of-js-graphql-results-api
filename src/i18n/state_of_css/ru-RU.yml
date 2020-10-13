@@ -460,9 +460,9 @@ translations:
   - key: opinions.enjoy_writing_css
     t: Мне нравится писать CSS
     
-  - key: opinions.currently_missing_from_css.others
+  - key: opinions_other.currently_missing_from_css.others
     t: Что вам не хватает в CSS?
-  - key: opinions.currently_missing_from_css.others.description
+  - key: opinions_other.currently_missing_from_css.others.description
     t: Возможности, которые вы хотели бы видеть в CSS.
 
   - key: opinions.sum_up_one_word_css

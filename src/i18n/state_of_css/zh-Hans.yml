@@ -320,9 +320,9 @@ translations:
   - key: opinions.enjoy_writing_css # TODO
     t: I enjoy writing CSS
     
-  - key: opinions.currently_missing_from_css.others # TODO
+  - key: opinions_other.currently_missing_from_css.others # TODO
     t: What do you feel is currently missing from CSS?
-  - key: opinions.currently_missing_from_css.others.description # TODO
+  - key: opinions_other.currently_missing_from_css.others.description # TODO
     t: Features you'd like to see in CSS one day.
 
   - key: opinions.sum_up_one_word_css # TODO

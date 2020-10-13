@@ -320,9 +320,9 @@ translations:
   - key: opinions.enjoy_writing_css
     t: Lubię pisać CSS
     
-  - key: opinions.currently_missing_from_css.others
+  - key: opinions_other.currently_missing_from_css.others
     t: Czego według ciebie obecnie brakuje w CSS-ie?
-  - key: opinions.currently_missing_from_css.others.description
+  - key: opinions_other.currently_missing_from_css.others.description
     t: Funkcjonalności, które chciał(a)byś pewnego dnia zobaczyć w CSS-ie.
 
   - key: opinions.sum_up_one_word_css
