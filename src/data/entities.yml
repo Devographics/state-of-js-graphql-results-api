@@ -368,22 +368,22 @@
   homepage: https://stylelint.io/
   contexts: [state_of_css]
   npm: stylelint
-  tags: 
-    - css
+  tags:
+      - css
 
 - id: purge_css
   name: PurgeCSS
   homepage: https://purgecss.com/
   contexts: [state_of_css]
-  tags: 
-    - css
+  tags:
+      - css
 
 - id: purify_css
   name: PurifyCSS
   homepage: https://purifycss.online/
   contexts: [state_of_css]
-  tags: 
-    - css
+  tags:
+      - css
 
 - id: apollo
   name: Apollo
@@ -642,8 +642,8 @@
   name: 'VS Code'
   homepage: https://code.visualstudio.com/
   category: text_editors
-  aliases: 
-    - vs_code
+  aliases:
+      - vs_code
 - id: visual_studio_not_code
   name: Visual Studio
   homepage: https://visualstudio.microsoft.com/

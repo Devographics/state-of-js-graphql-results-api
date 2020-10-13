@@ -12,6 +12,7 @@
 #import "./resources.graphql"
 #import "./tools.graphql"
 #import "./translations.graphql"
+#import "./environments.graphql"
 
 enum SurveyType {
     js
@@ -75,4 +76,11 @@ type Survey @cacheControl(maxAge: 600) {
     Matrices data (used for cross-referencing heatmap charts)
     """
     matrices: Matrices
+    """
+    Environments data, for those based on multiple choices,
+    such as browsers, form factors... Only contain predifined
+    choices, freeform answers are stored in `environmentsOthers`.
+    """
+    environments(id: EnvironmentID!): Environments
+    environmentsRating(id: EnvironmentID!): EnvironmentID
 }

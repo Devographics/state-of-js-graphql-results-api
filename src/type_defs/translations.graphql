@@ -13,7 +13,6 @@ enum Contexts {
     results
     state_of_js
     state_of_css
-    
 }
 
 type TranslationString @cacheControl(maxAge: 600) {

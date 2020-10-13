@@ -10,6 +10,7 @@ import otherTools from './other_tools'
 import resources from './resources'
 import entities from './entities'
 import query from './query'
+import environments from './environments'
 
 export default {
     ...surveys,
@@ -23,5 +24,6 @@ export default {
     ...otherTools,
     ...resources,
     ...entities,
+    ...environments,
     ...query
 }
