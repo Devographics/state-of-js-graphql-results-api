@@ -4,7 +4,7 @@
 #     zh_Hans
 # }
 
-enum LocaleContexts {
+enum Contexts {
     projects
     features
     entities

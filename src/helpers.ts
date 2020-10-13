@@ -3,8 +3,36 @@ import { Entity } from './types'
 import entities from './data/entities.yml'
 import projects from './data/projects.yml'
 import typeDefs from './type_defs/schema.graphql'
+import features from './data/features.yml'
 
 const allEntities: Entity[] = [...projects, ...entities]
+
+export const getEntities = ({
+    type,
+    context,
+    tag
+}: {
+    type: string
+    context: string
+    tag: string
+}) => {
+    let allEntities = [
+        entities.map((e: Entity) => ({ ...e, type: 'entity' })),
+        projects.map(e => ({ ...e, type: 'project' })),
+        features.map(e => ({ ...e, type: 'feature' }))
+    ].flat()
+
+    if (type) {
+        allEntities = allEntities.filter(e => e.type === type)
+    }
+    if (context) {
+        allEntities = allEntities.filter(e => e.context === context)
+    }
+    if (tag) {
+        allEntities = allEntities.filter(e => e.tags && e.tags.includes(tag))
+    }
+    return allEntities
+}
 
 // Look up entities by id, name, or aliases (case-insensitive)
 export const getEntity = ({ id }: { id: string }) => {

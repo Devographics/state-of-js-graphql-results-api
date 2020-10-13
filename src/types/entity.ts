@@ -9,6 +9,7 @@ export interface Entity {
     description: string
     github?: GitHub
     npm?: string
+    type?: string
 }
 
 export interface EntityBucket {

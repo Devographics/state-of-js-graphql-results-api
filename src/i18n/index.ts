@@ -1,20 +1,10 @@
 import localesYAML from './locales.yml'
-import projects from '../data/projects.yml'
-import features from '../data/features.yml'
-import entities from '../data/entities.yml'
 
-const allEntities: any = { projects, features, entities }
 const locales: any = localesYAML
 
-const convertToStrings = (file: any) => file.map((item: any) => ({ key: item.id, t: item.name }))
-
 Object.keys(locales).forEach(l => {
-    // initialize every locale with projects, entities, and features
-    locales[l].stringFiles = Object.keys(allEntities).map(e => ({
-        context: e,
-        strings: convertToStrings(allEntities[e]),
-        prefix: e
-    }))
+    // initialize every locale with empty stringFiles array
+    locales[l].stringFiles = []
 })
 
 const contexts: any = {
@@ -48,8 +38,5 @@ Object.keys(contexts).forEach(context => {
         }
     })
 })
-
-console.log('localesObject')
-console.log(locales)
 
 export default locales
