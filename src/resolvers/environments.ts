@@ -22,6 +22,13 @@ const computeEnvironment = async (db: Db, survey: SurveyConfig, id: string, filt
         { filters, cutoff: 0 }
     ])
 
+const computeEnvironmentRating = async (
+    db: Db,
+    survey: SurveyConfig,
+    id: string,
+    filters?: Filters
+) => useCache(computeTermAggregationByYear, db, [survey, `environments.${id}`, { filters }])
+
 export default {
     Environments: {
         allYears: async (
@@ -35,6 +42,22 @@ export default {
             { db }: RequestContext
         ) => {
             const allYears = await computeEnvironment(db, survey, id, filters)
+
+            return allYears.find(y => y.year === year)
+        }
+    },
+    EnvironmentsRatings: {
+        allYears: async (
+            { survey, id, filters }: EnvironmentConfig,
+            args: any,
+            { db }: RequestContext
+        ) => computeEnvironmentRating(db, survey, id, filters),
+        year: async (
+            { survey, id, filters }: EnvironmentConfig,
+            { year }: { year: number },
+            { db }: RequestContext
+        ) => {
+            const allYears = await computeEnvironmentRating(db, survey, id, filters)
 
             return allYears.find(y => y.year === year)
         }

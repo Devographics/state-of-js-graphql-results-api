@@ -33,3 +33,28 @@ type Environments @cacheControl(maxAge: 600) {
     year(year: Int!): YearEnvironments
     allYears: [YearEnvironments]
 }
+
+type EnvironmentRatingBucket @cacheControl(maxAge: 600) {
+    id: Int
+    count: Int
+    percentage: Float
+}
+
+type YearEnvironmentsRatings @cacheControl(maxAge: 600) {
+    year: Int
+    """
+    Total number of respondents who have answered this specific question.
+    """
+    total: Int
+    completion: Completion
+    buckets: [EnvironmentRatingBucket] @cacheControl(maxAge: 600)
+}
+
+"""
+An environment, based rating (e.g. css for emails, css for print, etc.)
+"""
+type EnvironmentsRatings @cacheControl(maxAge: 600) {
+    id: EnvironmentID!
+    year(year: Int!): YearEnvironmentsRatings
+    allYears: [YearEnvironmentsRatings]
+}

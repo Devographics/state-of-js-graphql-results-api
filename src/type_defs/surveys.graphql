@@ -82,5 +82,8 @@ type Survey @cacheControl(maxAge: 600) {
     choices, freeform answers are stored in `environmentsOthers`.
     """
     environments(id: EnvironmentID!): Environments
-    environmentsRating(id: EnvironmentID!): EnvironmentID
+    """
+    Environments data, for those based on rating, such as css for emails...
+    """
+    environmentsRatings(id: EnvironmentID!): EnvironmentsRatings
 }

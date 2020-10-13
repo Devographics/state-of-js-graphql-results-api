@@ -149,6 +149,14 @@ export default {
             survey,
             id,
             filters
+        }),
+        environmentsRatings: (
+            survey: SurveyConfig,
+            { id, filters }: { id: string; filters?: Filters }
+        ) => ({
+            survey,
+            id,
+            filters
         })
     }
 }
