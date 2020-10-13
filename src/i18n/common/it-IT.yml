@@ -507,49 +507,49 @@ translations:
   # Other Tools
   ###########################################################################
 
-  - key: tools_other.text_editors
+  - key: tools_others.text_editors
     t: Editor di Testo
-  - key: tools_other.text_editors.description
+  - key: tools_others.text_editors.description
     t: Quale/i editor di testo usi regolarmente?
-  - key: tools_other.text_editors.others
+  - key: tools_others.text_editors.others
     t: Altri Editor di Testo
-  - key: tools_other.text_editors.others.description
+  - key: tools_others.text_editors.others.description
     t: Altre risposte (risposta aperta).
 
-  - key: tools_other.utilities
+  - key: tools_others.utilities
     t: Utilità
-  - key: tools_other.utilities.description
+  - key: tools_others.utilities.description
     t: Quale libreria di utilità usi regolarmente?
-  - key: tools_other.utilities.others
+  - key: tools_others.utilities.others
     t: Altre Utilità
-  - key: tools_other.utilities.others.description
+  - key: tools_others.utilities.others.description
     t: Altre Utilità (risposta aperta).
 
-  - key: tools_other.browsers
+  - key: tools_others.browsers
     t: Browser
-  - key: tools_other.browsers.description
+  - key: tools_others.browsers.description
     t: Su quale/i browser lavori principalmente durante lo sviluppo iniziale?
-  - key: tools_other.browsers.others
+  - key: tools_others.browsers.others
     t: Altri Browser
-  - key: tools_other.browsers.others.description
+  - key: tools_others.browsers.others.description
     t: Altre risposte (risposta aperta).
 
-  - key: tools_other.build_tools
+  - key: tools_others.build_tools
     t: Strumenti di Costruzione
-  - key: tools_other.build_tools.description
+  - key: tools_others.build_tools.description
     t: Quali strumenti di contruzione usi?
-  - key: tools_other.build_tools.others
+  - key: tools_others.build_tools.others
     t: Altri strumenti di costruzione
-  - key: tools_other.build_tools.others.description
+  - key: tools_others.build_tools.others.description
     t: Altre risposte (rispostsa aperta).
 
-  - key: tools_other.non_js_languages
+  - key: tools_others.non_js_languages
     t: Linguaggi Non-JavaScript
-  - key: tools_other.non_js_languages.description
+  - key: tools_others.non_js_languages.description
     t: Quali altri linguaggi di programmazione usi?
-  - key: tools_other.non_js_languages.others
+  - key: tools_others.non_js_languages.others
     t: Altri Linguaggi
-  - key: tools_other.non_js_languages.others.description
+  - key: tools_others.non_js_languages.others.description
     t: Altre risposte (rispostsa aperta).
 
 ###########################################################################

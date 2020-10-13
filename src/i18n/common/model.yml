@@ -541,49 +541,49 @@ translations:
   # Other Tools
   ###########################################################################
 
-  - key: tools_other.text_editors # TODO
+  - key: tools_others.text_editors # TODO
     t: Text Editors
-  - key: tools_other.text_editors.description # TODO
+  - key: tools_others.text_editors.description # TODO
     t: Which text editor(s) do you regularly use?
-  - key: tools_other.text_editors.others # TODO
+  - key: tools_others.text_editors.others # TODO
     t: Other Text Editors
-  - key: tools_other.text_editors.others.description # TODO
+  - key: tools_others.text_editors.others.description # TODO
     t: Other answers (freeform field).
 
-  - key: tools_other.utilities # TODO
+  - key: tools_others.utilities # TODO
     t: Utilities
-  - key: tools_other.utilities.description # TODO
+  - key: tools_others.utilities.description # TODO
     t: Which utility libraries do you regularly use?
-  - key: tools_other.utilities.others # TODO
+  - key: tools_others.utilities.others # TODO
     t: Other Utilities
-  - key: tools_other.utilities.others.description # TODO
+  - key: tools_others.utilities.others.description # TODO
     t: Other utilities (freeform field).
 
-  - key: tools_other.browsers # TODO
+  - key: tools_others.browsers # TODO
     t: Browsers
-  - key: tools_other.browsers.description # TODO
+  - key: tools_others.browsers.description # TODO
     t: Which browser(s) do you primarily work in during initial development?
-  - key: tools_other.browsers.others # TODO
+  - key: tools_others.browsers.others # TODO
     t: Other Browsers
-  - key: tools_other.browsers.others.description # TODO
+  - key: tools_others.browsers.others.description # TODO
     t: Other answers (freeform field).
 
-  - key: tools_other.build_tools # TODO
+  - key: tools_others.build_tools # TODO
     t: Build Tools
-  - key: tools_other.build_tools.description # TODO
+  - key: tools_others.build_tools.description # TODO
     t: Which build tools do you use?
-  - key: tools_other.build_tools.others # TODO
+  - key: tools_others.build_tools.others # TODO
     t: Other Build Tools
-  - key: tools_other.build_tools.others.description # TODO
+  - key: tools_others.build_tools.others.description # TODO
     t: Other answers (freeform field).
 
-  - key: tools_other.non_js_languages # TODO
+  - key: tools_others.non_js_languages # TODO
     t: Non-JavaScript Languages
-  - key: tools_other.non_js_languages.description # TODO
+  - key: tools_others.non_js_languages.description # TODO
     t: Which other programming languages do you use?
-  - key: tools_other.non_js_languages.others # TODO
+  - key: tools_others.non_js_languages.others # TODO
     t: Other Languages
-  - key: tools_other.non_js_languages.others.description # TODO
+  - key: tools_others.non_js_languages.others.description # TODO
     t: Other answers (freeform field).
 
 ###########################################################################

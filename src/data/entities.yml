@@ -172,7 +172,7 @@
       - css_methodologies
 
 - id: atomic_css
-  name: Atomic CSS
+  name: Atomic CSS (Utility-first CSS)
   contexts: [state_of_css]
   description: |
       Atomic CSS is a CSS architecture. It is not opinionated;
@@ -313,7 +313,7 @@
       - css_in_js
 
 - id: styletron
-  name: styletron
+  name: Styletron
   contexts: [state_of_css]
   npm: styletron-engine-atomic
   github: styletron/styletron
