@@ -57,7 +57,7 @@ export const getEntity = ({ id }: { id: string }) => {
  * Return either e.g. other_tools.browsers.choices or other_tools.browsers.others_normalized
  */
 export const getOtherKey = (id: string) =>
-    id.includes('_others') ? `${id.replace('_others', '')}.others_normalized` : `${id}.choices`
+    id.includes('_others') ? `${id.replace('_others', '')}.others.normalized` : `${id}.choices`
 
 export const getGraphQLEnumValues = (name: string): string[] => {
     const enumDef = typeDefs.definitions.find(def => {

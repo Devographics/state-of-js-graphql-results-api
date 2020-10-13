@@ -1,0 +1,60 @@
+enum EnvironmentID {
+    # choices based
+    browsers
+    browsers_others
+    form_factors
+    form_factors_others
+    # rating based
+    css_for_print
+    css_for_email
+}
+
+type EnvironmentBucket @cacheControl(maxAge: 600) {
+    id: String
+    count: Int
+    percentage: Float
+}
+
+type YearEnvironments @cacheControl(maxAge: 600) {
+    year: Int
+    """
+    Total number of respondents who have answered this specific question.
+    """
+    total: Int
+    completion: Completion
+    buckets: [EnvironmentBucket] @cacheControl(maxAge: 600)
+}
+
+"""
+An environment, based on multiple choices (e.g. browsers, form factors, etc.)
+"""
+type Environments @cacheControl(maxAge: 600) {
+    id: EnvironmentID!
+    year(year: Int!): YearEnvironments
+    allYears: [YearEnvironments]
+}
+
+type EnvironmentRatingBucket @cacheControl(maxAge: 600) {
+    id: Int
+    count: Int
+    percentage: Float
+}
+
+type YearEnvironmentsRatings @cacheControl(maxAge: 600) {
+    year: Int
+    """
+    Total number of respondents who have answered this specific question.
+    """
+    total: Int
+    completion: Completion
+    buckets: [EnvironmentRatingBucket] @cacheControl(maxAge: 600)
+}
+
+"""
+An environment, based rating (e.g. css for emails, css for print, etc.)
+"""
+type EnvironmentsRatings @cacheControl(maxAge: 600) {
+    id: EnvironmentID!
+    year(year: Int!): YearEnvironmentsRatings
+    allYears: [YearEnvironmentsRatings]
+}

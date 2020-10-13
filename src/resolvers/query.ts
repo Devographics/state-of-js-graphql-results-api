@@ -12,8 +12,10 @@ export default {
             survey,
             ...getEntity({ id })
         }),
-        entities: (parent: any, { type, context, tag }: { type: string; context: string; tag: string }) =>
-            getEntities({ type, context, tag }),
+        entities: (
+            parent: any,
+            { type, context, tag }: { type: string; context: string; tag: string }
+        ) => getEntities({ type, context, tag }),
         translation: (parent: any, { key, localeId }: { key: string; localeId: string }) =>
             getTranslation(key, localeId),
         locale: (parent: any, { localeId, contexts }: { localeId: string; contexts: string[] }) =>
