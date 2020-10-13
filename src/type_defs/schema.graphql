@@ -15,9 +15,13 @@ type Query {
     """
     survey(survey: SurveyType!): Survey
     """
-    Data about a specific entity (tool, library, framework, etc.)
+    Data about a specific entity (tool, library, framework, features, etc.)
     """
     entity(id: ID!): Entity
+    """
+    Get all entities (tools, libraries, frameworks, features, etc.)
+    """
+    entities(type: String, context: String, tag: String): [Entity]
     """
     Translate a string
     """
@@ -25,7 +29,7 @@ type Query {
     """
     Get all of a locale's translations
     """
-    locale(localeId: String!, contexts: [LocaleContexts]): Locale
+    locale(localeId: String!, contexts: [Contexts]): Locale
     """
     Get all locales
     """
