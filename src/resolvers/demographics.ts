@@ -190,38 +190,4 @@ export default {
             return allYears.find(y => y.year === year)
         }
     }
-    /*
-    CSSProficiency: {
-        allYears: async (
-            { survey, filters }: { survey: SurveyConfig; filters?: Filters },
-            args: any,
-            { db }: RequestContext
-        ) => computeCSSProficiency(db, survey, filters),
-        year: async (
-            { survey, filters }: { survey: SurveyConfig; filters?: Filters },
-            { year }: { year: number },
-            { db }: RequestContext
-        ) => {
-            const allYears = await computeCSSProficiency(db, survey, filters)
-
-            return allYears.find(y => y.year === year)
-        }
-    },
-    BackendProficiency: {
-        allYears: async (
-            { survey, filters }: { survey: SurveyConfig; filters?: Filters },
-            args: any,
-            { db }: RequestContext
-        ) => computeBackendProficiency(db, survey, filters),
-        year: async (
-            { survey, filters }: { survey: SurveyConfig; filters?: Filters },
-            { year }: { year: number },
-            { db }: RequestContext
-        ) => {
-            const allYears = await computeBackendProficiency(db, survey, filters)
-
-            return allYears.find(y => y.year === year)
-        }
-    }
-    */
 }
