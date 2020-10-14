@@ -17,7 +17,7 @@ const computeCountry = async (db: Db, survey: SurveyConfig, filters?: Filters) =
     ])
 
 const computeSource = async (db: Db, survey: SurveyConfig, filters?: Filters) =>
-    useCache(computeTermAggregationByYear, db, [survey, 'user_info.source_normalized', { filters }])
+    useCache(computeTermAggregationByYear, db, [survey, 'user_info.source.normalized', { filters }])
 
 const computeGender = async (db: Db, survey: SurveyConfig, filters?: Filters) =>
     useCache(computeTermAggregationByYear, db, [survey, 'user_info.gender', { filters, cutoff: 1 }])
