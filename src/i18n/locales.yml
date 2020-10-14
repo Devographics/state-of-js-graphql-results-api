@@ -25,3 +25,7 @@ sv-SE:
 zh-Hans:
     label: 中文
     translators: []
+
+es-ES:
+    label: Español
+    translators: [timbergus, ezkato]
