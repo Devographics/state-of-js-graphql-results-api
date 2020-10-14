@@ -15,8 +15,8 @@
 #import "./environments.graphql"
 
 enum SurveyType {
-    js
-    css
+    state_of_js
+    state_of_css
 }
 
 """
