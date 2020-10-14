@@ -207,27 +207,27 @@ translations:
     t: Ne l'utiliserai pas
   
   # happiness
-  - key: options.happiness.very_unhappy
+  - key: options.happiness.0
     t: Très mécontent
-  - key: options.happiness.unhappy
+  - key: options.happiness.1
     t: Mécontent
-  - key: options.happiness.neutral
+  - key: options.happiness.2
     t: Neutre
-  - key: options.happiness.happy
+  - key: options.happiness.3
     t: Content
-  - key: options.happiness.very_happy
+  - key: options.happiness.4
     t: Très content
 
   # opinions
-  - key: options.opinions.disagree_strongly
+  - key: options.opinions.0
     t: Pas du tout d'accord
-  - key: options.opinions.disagree
+  - key: options.opinions.1
     t: Pas d'accord
-  - key: options.opinions.neutral
+  - key: options.opinions.2
     t: Neutre
-  - key: options.opinions.agree
+  - key: options.opinions.3
     t: D'accord
-  - key: options.opinions.agree_strongly
+  - key: options.opinions.4
     t: Entièrement d'accord
     
   # years of experience

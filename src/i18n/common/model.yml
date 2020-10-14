@@ -207,19 +207,19 @@ translations:
     t: Would not use
   
   # happiness
-  - key: options.happiness.very_unhappy # TODO
+  - key: options.happiness.0 # TODO
     t: Very Unhappy
-  - key: options.happiness.unhappy # TODO
+  - key: options.happiness.1 # TODO
     t: Unhappy
-  - key: options.happiness.neutral # TODO
+  - key: options.happiness.2 # TODO
     t: Neutral
-  - key: options.happiness.happy # TODO
+  - key: options.happiness.3 # TODO
     t: Happy
-  - key: options.happiness.very_happy # TODO
+  - key: options.happiness.4 # TODO
     t: Very Happy
 
   # opinions
-  - key: options.opinions.disagree_strongly # TODO
+  - key: options.opinions.0 # TODO
     t: Disagree Strongly
   - key: options.opinions.disagree # TODO
     t: Disagree

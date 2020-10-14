@@ -213,27 +213,27 @@ translations:
     t: Не буду больше использовать
   
   # happiness
-  - key: options.happiness.very_unhappy
+  - key: options.happiness.0
     t: Очень недоволен
-  - key: options.happiness.unhappy
+  - key: options.happiness.1
     t: Не доволен
-  - key: options.happiness.neutral
+  - key: options.happiness.2
     t: Затрудняюсь ответить
-  - key: options.happiness.happy
+  - key: options.happiness.3
     t: Доволен
-  - key: options.happiness.very_happy
+  - key: options.happiness.4
     t: Очень доволен
 
   # opinions
-  - key: options.opinions.disagree_strongly
+  - key: options.opinions.0
     t: Совершенно не согласен
-  - key: options.opinions.disagree
+  - key: options.opinions.1
     t: Не согласен
-  - key: options.opinions.neutral
+  - key: options.opinions.2
     t: Трудно сказать
-  - key: options.opinions.agree
+  - key: options.opinions.3
     t: Согласен
-  - key: options.opinions.agree_strongly
+  - key: options.opinions.4
     t: Полностью согласен
     
   # years of experience

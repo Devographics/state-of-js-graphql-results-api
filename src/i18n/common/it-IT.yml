@@ -204,27 +204,27 @@ translations:
     t: Non lo userei più
   
   # happiness
-  - key: options.happiness.very_unhappy
+  - key: options.happiness.0
     t: Molto insoddisfatto
-  - key: options.happiness.unhappy
+  - key: options.happiness.1
     t: Insoddisfatto
-  - key: options.happiness.neutral
+  - key: options.happiness.2
     t: Neutrale
-  - key: options.happiness.happy
+  - key: options.happiness.3
     t: Soddisfatto
-  - key: options.happiness.very_happy
+  - key: options.happiness.4
     t: Molto soddisfatto
 
   # opinions
-  - key: options.opinions.disagree_strongly
+  - key: options.opinions.0
     t: Sono fortemente in disaccordo
-  - key: options.opinions.disagree
+  - key: options.opinions.1
     t: Sono in disaccordo
-  - key: options.opinions.neutral
+  - key: options.opinions.2
     t: Neutrale
-  - key: options.opinions.agree
+  - key: options.opinions.3
     t: Concordo
-  - key: options.opinions.agree_strongly
+  - key: options.opinions.4
     t: Concordo fortemente
     
   # years of experience

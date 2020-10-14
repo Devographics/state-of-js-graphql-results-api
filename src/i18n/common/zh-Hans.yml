@@ -207,27 +207,27 @@ translations:
     t: 使用过，以后不愿意用
   
   # happiness
-  - key: options.happiness.very_unhappy # TODO
+  - key: options.happiness.0 # TODO
     t: Very Unhappy
-  - key: options.happiness.unhappy # TODO
+  - key: options.happiness.1 # TODO
     t: Unhappy
-  - key: options.happiness.neutral # TODO
+  - key: options.happiness.2 # TODO
     t: Neutral
-  - key: options.happiness.happy # TODO
+  - key: options.happiness.3 # TODO
     t: Happy
-  - key: options.happiness.very_happy # TODO
+  - key: options.happiness.4 # TODO
     t: Very Happy
 
   # opinions
-  - key: options.opinions.disagree_strongly
+  - key: options.opinions.0
     t: 强烈反对
-  - key: options.opinions.disagree
+  - key: options.opinions.1
     t: 反对
-  - key: options.opinions.neutral
+  - key: options.opinions.2
     t: 中立
-  - key: options.opinions.agree
+  - key: options.opinions.3
     t: 同意
-  - key: options.opinions.agree_strongly
+  - key: options.opinions.4
     t: 十分同意
     
   # years of experience

@@ -212,27 +212,27 @@ translations:
     t: Skulle inte använda
 
   # happiness
-  - key: options.happiness.very_unhappy
+  - key: options.happiness.0
     t: Väldigt missnöjd
-  - key: options.happiness.unhappy
+  - key: options.happiness.1
     t: Missnöjd
-  - key: options.happiness.neutral
+  - key: options.happiness.2
     t: Neutral
-  - key: options.happiness.happy
+  - key: options.happiness.3
     t: Nöjd
-  - key: options.happiness.very_happy
+  - key: options.happiness.4
     t: Väldigt nöjd
 
   # opinions
-  - key: options.opinions.disagree_strongly
+  - key: options.opinions.0
     t: Håller verkligen inte med
-  - key: options.opinions.disagree
+  - key: options.opinions.1
     t: Håller inte med
-  - key: options.opinions.neutral
+  - key: options.opinions.2
     t: Neutral
-  - key: options.opinions.agree
+  - key: options.opinions.3
     t: Håller med
-  - key: options.opinions.agree_strongly
+  - key: options.opinions.4
     t: Håller verkligen med
 
   # years of experience

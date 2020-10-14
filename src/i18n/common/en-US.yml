@@ -215,27 +215,27 @@ translations:
     t: Would not use
   
   # happiness
-  - key: options.happiness.very_unhappy
+  - key: options.happiness.0
     t: Very Unhappy
-  - key: options.happiness.unhappy
+  - key: options.happiness.1
     t: Unhappy
-  - key: options.happiness.neutral
+  - key: options.happiness.2
     t: Neutral
-  - key: options.happiness.happy
+  - key: options.happiness.3
     t: Happy
-  - key: options.happiness.very_happy
+  - key: options.happiness.4
     t: Very Happy
 
   # opinions
-  - key: options.opinions.disagree_strongly
+  - key: options.opinions.0
     t: Disagree Strongly
-  - key: options.opinions.disagree
+  - key: options.opinions.1
     t: Disagree
-  - key: options.opinions.neutral
+  - key: options.opinions.2
     t: Neutral
-  - key: options.opinions.agree
+  - key: options.opinions.3
     t: Agree
-  - key: options.opinions.agree_strongly
+  - key: options.opinions.4
     t: Agree Strongly
     
   # years of experience
