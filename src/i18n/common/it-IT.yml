@@ -50,14 +50,14 @@ translations:
     t: Questo sondaggio é ora chiuso.
   - key: general.survey_results
     t: Vedi Risultati Sondaggo »
-  - key: general.surveys_available_languages # TODO
-    t: "Surveys available in:"
-  - key: general.help_us_translate # TODO
-    t: Help us translate the surveys »
-  - key: general.translators # TODO
-    t: Translators
-  - key: general.translation_help # TODO
-    t: Translation Help
+  - key: general.surveys_available_languages
+    t: "Sondaggio disponibile in:"
+  - key: general.help_us_translate
+    t: Aiutaci a tradurre i sondaggi »
+  - key: general.translators
+    t: Traduttori
+  - key: general.translation_help
+    t: Aiuto alla Traduzione
 
   # footer
   - key: general.privacy_policy
@@ -413,24 +413,24 @@ translations:
     
   # Race & Ethnicity
 
-  - key: options.race_ethnicity.white_european # TODO
-    t: White or of European descent
-  - key: options.race_ethnicity.south_asian # TODO
-    t: South Asian
-  - key: options.race_ethnicity.hispanic_latin # TODO
-    t: Hispanic or Latino/Latina
-  - key: options.race_ethnicity.east_asian # TODO
-    t: East Asian
-  - key: options.race_ethnicity.middle_eastern # TODO
-    t: Middle Eastern
-  - key: options.race_ethnicity.black_african # TODO
-    t: Black or of African descent
-  - key: options.race_ethnicity.multiracial # TODO
-    t: Multiracial
-  - key: options.race_ethnicity.biracial # TODO
-    t: Biracial
-  - key: options.race_ethnicity.native_american_islander_australian # TODO
-    t: Native American, Pacific Islander, or Indigenous Australian
+  - key: options.race_ethnicity.white_european
+    t: Bianco o di origini europee
+  - key: options.race_ethnicity.south_asian
+    t: Sud asiatico
+  - key: options.race_ethnicity.hispanic_latin
+    t: Spagnolo o sudamericano
+  - key: options.race_ethnicity.east_asian
+    t: Est asiatico
+  - key: options.race_ethnicity.middle_eastern
+    t: Mediorientale
+  - key: options.race_ethnicity.black_african
+    t: Nero o di origini africane
+  - key: options.race_ethnicity.multiracial
+    t: Multiraziale
+  - key: options.race_ethnicity.biracial
+    t: Biraziale
+  - key: options.race_ethnicity.native_american_islander_australian
+    t: Nativo americano, Isolano del pacifico o Indigeno australiano
 
   ###########################################################################
   # Tools
@@ -501,7 +501,7 @@ translations:
 
   # skin tone/appearance
   - key: user_info.race_ethnicity
-    t: Race & Ethnicity # TODO
+    t: Razza & Etnia
 
   # other info
   - key: user_info.how_did_user_find_out_about_the_survey
