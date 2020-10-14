@@ -1,476 +1,473 @@
 locale: en-US
 namespace: css
 translations:
+    ###########################################################################
+    # General
+    ###########################################################################
 
-  ###########################################################################
-  # General
-  ###########################################################################
+    - key: general.survey_intro_css2020
+      t: >
+          ## CSS évolue plus rapidement que jamais.
 
-  - key: general.survey_intro_css2020
-    t: >
-      ## CSS évolue plus rapidement que jamais.
-    
-      Flexbox, Grid, Multi-Column... Sans parler des tout nouveaux paradigmes comme CSS-in-JS.
-      
-      Après le succès de notre questionnaire annuel [State Of JavaScript](https://stateofjs.com), nous avons décidé
-      de s'attaquer au monde du style et des sélecteurs pour aider à identifier les dernières tendances…
-      et essaye de franchir le "gouffre du front-end"!
+          Flexbox, Grid, Multi-Column... Sans parler des tout nouveaux paradigmes comme CSS-in-JS.
 
-  ###########################################################################
-  # Sections
-  ###########################################################################
+          Après le succès de notre questionnaire annuel [State Of JavaScript](https://stateofjs.com), nous avons décidé
+          de s'attaquer au monde du style et des sélecteurs pour aider à identifier les dernières tendances…
+          et essaye de franchir le "gouffre du front-end"!
 
-  - key: sections.layout.title
-    t: Layout
-  - key: sections.layout.description
-    t: Comment positionnez-vous des éléments sur l'écran ?
-  
-  - key: sections.shapes_graphics.title
-    t: Formes et Graphiques
-  - key: sections.shapes_graphics.description
-    t: Contrôler la forme et l'affichage des éléments
+    ###########################################################################
+    # Sections
+    ###########################################################################
 
-  - key: sections.interactions.title
-    t: Interactions
-  - key: sections.interactions.description
-    t: Contrôler comment l'utilisateur interragi avec la page
+    - key: sections.layout.title
+      t: Layout
+    - key: sections.layout.description
+      t: Comment positionnez-vous des éléments sur l'écran ?
 
-  - key: sections.typography.title
-    t: Typography
-  - key: sections.typography.description
-    t: Mettre en forme le texte.
+    - key: sections.shapes_graphics.title
+      t: Formes et Graphiques
+    - key: sections.shapes_graphics.description
+      t: Contrôler la forme et l'affichage des éléments
 
-  - key: sections.animations_transforms.title
-    t: Animations et Transformations
-  - key: sections.animations_transforms.description
-    t: Animer et transformer les éléments.
+    - key: sections.interactions.title
+      t: Interactions
+    - key: sections.interactions.description
+      t: Contrôler comment l'utilisateur interragi avec la page
 
-  - key: sections.media_queries.title
-    t: Media Queries
-  - key: sections.media_queries.description
-    t: Façons d'adapter votre site aux terminaux et aux préférences de l'utilisateur
+    - key: sections.typography.title
+      t: Typography
+    - key: sections.typography.description
+      t: Mettre en forme le texte.
 
-  - key: sections.other_features.title
-    t: Autres fonctionnalités
-  - key: sections.other_features.description
-    t: Autres fonctionnalités CSS.
+    - key: sections.animations_transforms.title
+      t: Animations et Transformations
+    - key: sections.animations_transforms.description
+      t: Animer et transformer les éléments.
 
-  - key: sections.units_selectors.title
-    t: Unités et Sélecteurs
-  - key: sections.units_selectors.description
-    t: Testez vos connaissances des unités CSS et des sélecteurs
+    - key: sections.media_queries.title
+      t: Media Queries
+    - key: sections.media_queries.description
+      t: Façons d'adapter votre site aux terminaux et aux préférences de l'utilisateur
 
-  - key: sections.pre_post_processors.title
-    t: Pre-/Post-processors
-  - key: sections.pre_post_processors.description
-    t: Outils qui améliorent CSS.
+    - key: sections.other_features.title
+      t: Autres fonctionnalités
+    - key: sections.other_features.description
+      t: Autres fonctionnalités CSS.
 
-  - key: sections.css_frameworks.title
-    t: Frameworks CSS
-  - key: sections.css_frameworks.description
-    t: Librairies qui fournissent des composants et styles pré-réalisés.
+    - key: sections.units_selectors.title
+      t: Unités et Sélecteurs
+    - key: sections.units_selectors.description
+      t: Testez vos connaissances des unités CSS et des sélecteurs
 
-  - key: sections.css_methodologies.title
-    t: Méthodologies CSS
-  - key: sections.css_methodologies.description
-    t: Méthodes codifiés d'écrire du CSS plus propre.
+    - key: sections.pre_post_processors.title
+      t: Pre-/Post-processors
+    - key: sections.pre_post_processors.description
+      t: Outils qui améliorent CSS.
 
-  - key: sections.css_in_js.title
-    t: CSS-in-JS
-  - key: sections.css_in_js.description
-    t: Librairies permettant d'intégrer du CSS dans du code JavaScript.
+    - key: sections.css_frameworks.title
+      t: Frameworks CSS
+    - key: sections.css_frameworks.description
+      t: Librairies qui fournissent des composants et styles pré-réalisés.
 
-  - key: sections.environments.title
-    t: Environnements
-  - key: sections.environments.description
-    t: Pour quels environments écrivez-vous du CSS ?
+    - key: sections.css_methodologies.title
+      t: Méthodologies CSS
+    - key: sections.css_methodologies.description
+      t: Méthodes codifiés d'écrire du CSS plus propre.
 
-  ###########################################################################
-  # Options
-  ###########################################################################
+    - key: sections.css_in_js.title
+      t: CSS-in-JS
+    - key: sections.css_in_js.description
+      t: Librairies permettant d'intégrer du CSS dans du code JavaScript.
 
-  # CSS for print
-  - key: options.css_for_print.0
-    t: Je n'imprime (quasiment) jamais du style
-  - key: options.css_for_print.1
-    t: J'imprime parfois du style
-  - key: options.css_for_print.2
-    t: J'écris du style d'impression pour la plupart de mes projets
-  - key: options.css_for_print.3
-    t: Je me concentre principalement sur le CSS pour l'impression
+    - key: sections.environments.title
+      t: Environnements
+    - key: sections.environments.description
+      t: Pour quels environments écrivez-vous du CSS ?
 
-  # CSS for email
-  - key: options.css_for_email.0
-    t: Je n'écris (quasiment) jamais du CSS pour des clients mails
-  - key: options.css_for_email.1
-    t: J'écris parfois du CSS pour des clients mails
-  - key: options.css_for_email.2
-    t: J'écris du CSS pour des clients mails pour la plupart de mes projets
-  - key: options.css_for_email.3
-    t: Je me concentre principalement sur le CSS pour les clients mails
+    ###########################################################################
+    # Options
+    ###########################################################################
 
-  ###########################################################################
-  # Features
-  ###########################################################################
+    # CSS for print
+    - key: options.css_for_print.0
+      t: Je n'imprime (quasiment) jamais du style
+    - key: options.css_for_print.1
+      t: J'imprime parfois du style
+    - key: options.css_for_print.2
+      t: J'écris du style d'impression pour la plupart de mes projets
+    - key: options.css_for_print.3
+      t: Je me concentre principalement sur le CSS pour l'impression
 
-  # layout
+    # CSS for email
+    - key: options.css_for_email.0
+      t: Je n'écris (quasiment) jamais du CSS pour des clients mails
+    - key: options.css_for_email.1
+      t: J'écris parfois du CSS pour des clients mails
+    - key: options.css_for_email.2
+      t: J'écris du CSS pour des clients mails pour la plupart de mes projets
+    - key: options.css_for_email.3
+      t: Je me concentre principalement sur le CSS pour les clients mails
 
-  - key: features.grid
-    t: CSS Grid
-  - key: features.subgrid
-    t: Subgrid
-  - key: features.regions
-    t: Régions CSS
-  - key: features.flexbox
-    t: Flexbox
-  - key: features.multi_column
-    t: CSS Multi-Colonnes
-  - key: features.writing_modes
-    t: Modes d'écriture de CSS
-  - key: features.exclusions
-    t: Exclusions CSS
-  - key: features.position_sticky
-    t: '<code>position: sticky</code>'
-  - key: features.logical_properties
-    t: Propriétés logiques
-  - key: features.logical_properties.description
-    t: <code>margin-block-start</code>, <code>padding-inline-end</code>, etc.
-  - key: features.aspect_ratio
-    t: <code>aspect-ratio</code>
-  - key: features.content_visibility
-    t: <code>content-visibility</code>
+    ###########################################################################
+    # Features
+    ###########################################################################
 
-  # shapes & graphics
-  - key: features.shapes
-    t: Formes CSS
-  - key: features.object_fit
-    t: <code>object-fit</code>
-  - key: features.clip_path
-    t: <code>clip-path</code>
-  - key: features.masks
-    t: Masques CSS
-  - key: features.blend_modes
-    t: Blend Modes
-  - key: features.blend_modes.description
-    t: La propriété <code>mix-blend-mode</code>
-  - key: features.filter_effects
-    t: Les effets filtres CSS
-  - key: features.backdrop_filter
-    t: <code>backdrop-filter</code>
+    # layout
 
-  # interactions
-  - key: features.scroll_snap
-    t: Scroll-Snap CSS
-  - key: features.overscroll_behavior
-    t: <code>overscroll-behavior</code>
-  - key: features.overflow_anchor
-    t: <code>overflow-anchor</code>
-  - key: features.touch_action
-    t: <code>touch-action</code>
-  - key: features.pointer_events
-    t: <code>pointer-events</code>
+    - key: features.grid
+      t: CSS Grid
+    - key: features.subgrid
+      t: Subgrid
+    - key: features.regions
+      t: Régions CSS
+    - key: features.flexbox
+      t: Flexbox
+    - key: features.multi_column
+      t: CSS Multi-Colonnes
+    - key: features.writing_modes
+      t: Modes d'écriture de CSS
+    - key: features.exclusions
+      t: Exclusions CSS
+    - key: features.position_sticky
+      t: '<code>position: sticky</code>'
+    - key: features.logical_properties
+      t: Propriétés logiques
+    - key: features.logical_properties.description
+      t: <code>margin-block-start</code>, <code>padding-inline-end</code>, etc.
+    - key: features.aspect_ratio
+      t: <code>aspect-ratio</code>
+    - key: features.content_visibility
+      t: <code>content-visibility</code>
 
-  # typography
-  - key: features.web_fonts
-    t: Web fonts (@font-face)
-  - key: features.variables_fonts
-    t: Variable de police d'écriture
-  - key: features.line_breaking
-    t: Propriétés de saut de ligne
-  - key: features.line_breaking.description
-    t: <code>overflow-wrap</code>, <code>word-break</code>, <code>line-break</code>, <code>hyphens</code>
-  - key: features.font_variant
-    t: <code>font-variant-*</code>
-  - key: features.initial_letter
-    t: <code>initial-letter</code>
-  - key: features.font_variant_numeric
-    t: <code>font-variant-numeric</code>
-  - key: features.font_display
-    t: <code>font-display</code>
-  - key: features.line_clamp
-    t: <code>line-clamp</code>
-  - key: features.leading_trim
-    t: <code>leading-trim</code>
-  - key: features.direction
-    t: <code>direction</code>
-  - key: features.direction.description
-    t: Inclut aussi les attributs HTML <code>dir</code>.
+    # shapes & graphics
+    - key: features.shapes
+      t: Formes CSS
+    - key: features.object_fit
+      t: <code>object-fit</code>
+    - key: features.clip_path
+      t: <code>clip-path</code>
+    - key: features.masks
+      t: Masques CSS
+    - key: features.blend_modes
+      t: Blend Modes
+    - key: features.blend_modes.description
+      t: La propriété <code>mix-blend-mode</code>
+    - key: features.filter_effects
+      t: Les effets filtres CSS
+    - key: features.backdrop_filter
+      t: <code>backdrop-filter</code>
 
-  # animations & transforms
-  - key: features.transitions
-    t: Transitions CSS
-  - key: features.transforms
-    t: Transformations CSS
-  - key: features.animations
-    t: Animations CSS
-  - key: features.perspective
-    t: <code>perspective</code>
-  
-  # media queries
-  - key: features.feature_support_queries
-    t: Requêtes de fonctionnalités (<code>@supports</code>)
-  - key: features.prefers_reduced_motion
-    t: <code>prefers-reduced-motion</code>
-  - key: features.prefers_color_scheme
-    t: <code>prefers-color-scheme</code>
-  - key: features.color_gamut
-    t: <code>color-gamut</code>
+    # interactions
+    - key: features.scroll_snap
+      t: Scroll-Snap CSS
+    - key: features.overscroll_behavior
+      t: <code>overscroll-behavior</code>
+    - key: features.overflow_anchor
+      t: <code>overflow-anchor</code>
+    - key: features.touch_action
+      t: <code>touch-action</code>
+    - key: features.pointer_events
+      t: <code>pointer-events</code>
 
-  # other features
-  - key: features.variables
-    t: Variables CSS (Propriétés Logiques)
-  - key: features.containment
-    t: Endiguement CSS
-  - key: features.will_change
-    t: <code>will-change</code>
-  - key: features.calc
-    t: <code>calc()</code>
-  - key: features.houdini
-    t: Houdini
-  - key: features.comparison_functions
-    t: Fonctions de comparaison CSS
-  - key: features.comparison_functions.description
-    t: <code>min()</code>, <code>max()</code>, and <code>clamp()</code>
+    # typography
+    - key: features.web_fonts
+      t: Web fonts (@font-face)
+    - key: features.variables_fonts
+      t: Variable de police d'écriture
+    - key: features.line_breaking
+      t: Propriétés de saut de ligne
+    - key: features.line_breaking.description
+      t: <code>overflow-wrap</code>, <code>word-break</code>, <code>line-break</code>, <code>hyphens</code>
+    - key: features.font_variant
+      t: <code>font-variant-*</code>
+    - key: features.initial_letter
+      t: <code>initial-letter</code>
+    - key: features.font_variant_numeric
+      t: <code>font-variant-numeric</code>
+    - key: features.font_display
+      t: <code>font-display</code>
+    - key: features.line_clamp
+      t: <code>line-clamp</code>
+    - key: features.leading_trim
+      t: <code>leading-trim</code>
+    - key: features.direction
+      t: <code>direction</code>
+    - key: features.direction.description
+      t: Inclut aussi les attributs HTML <code>dir</code>.
 
-  ###########################################################################
-  # Units & Selectors
-  ###########################################################################
+    # animations & transforms
+    - key: features.transitions
+      t: Transitions CSS
+    - key: features.transforms
+      t: Transformations CSS
+    - key: features.animations
+      t: Animations CSS
+    - key: features.perspective
+      t: <code>perspective</code>
 
-  - key: features_others.units
-    t: Unités
-  - key: features_others.units.description
-    t: Lesquels de ces unités avez-vous utilisé ?
+    # media queries
+    - key: features.feature_support_queries
+      t: Requêtes de fonctionnalités (<code>@supports</code>)
+    - key: features.prefers_reduced_motion
+      t: <code>prefers-reduced-motion</code>
+    - key: features.prefers_color_scheme
+      t: <code>prefers-color-scheme</code>
+    - key: features.color_gamut
+      t: <code>color-gamut</code>
 
-  - key: options.units.px
-    t: px
-  - key: options.units.pt
-    t: pt
-  - key: options.units.percent
-    t: '%'
-  - key: options.units.em
-    t: em
-  - key: options.units.rem
-    t: rem
-  - key: options.units.vh_vw
-    t: vh, vw
-  - key: options.units.vmin_vmax
-    t: vmin, vmax
-  - key: options.units.ch
-    t: ch
-  - key: options.units.ex
-    t: ex
-  - key: options.units.mm
-    t: mm
-  - key: options.units.cm
-    t: cm
-  - key: options.units.in
-    t: in
+    # other features
+    - key: features.variables
+      t: Variables CSS (Propriétés Logiques)
+    - key: features.containment
+      t: Endiguement CSS
+    - key: features.will_change
+      t: <code>will-change</code>
+    - key: features.calc
+      t: <code>calc()</code>
+    - key: features.houdini
+      t: Houdini
+    - key: features.comparison_functions
+      t: Fonctions de comparaison CSS
+    - key: features.comparison_functions.description
+      t: <code>min()</code>, <code>max()</code>, and <code>clamp()</code>
 
-  - key: features_others.pseudo_elements
-    t: Pseudo Éléments
-  - key: features_others.pseudo_elements.description
-    t: Lequel de ces pseudo-éléments CSS avez-vous utilisé ?
+    ###########################################################################
+    # Units & Selectors
+    ###########################################################################
 
-  - key: options.pseudo_elements.before
-    t: '::before'
-  - key: options.pseudo_elements.after
-    t: '::after'
-  - key: options.pseudo_elements.first_line
-    t: '::first-line'
-  - key: options.pseudo_elements.first_letter
-    t: '::first-letter'
-  - key: options.pseudo_elements.selection
-    t: '::selection'
-  - key: options.pseudo_elements.placeholder
-    t: '::placeholder'
-  - key: options.pseudo_elements.marker
-    t: '::marker'
-  - key: options.pseudo_elements.backdrop
-    t: '::backdrop'
+    - key: features_others.units
+      t: Unités
+    - key: features_others.units.description
+      t: Lesquels de ces unités avez-vous utilisé ?
 
-  - key: features_others.combinators
-    t: Combinaisons
+    - key: options.units.px
+      t: px
+    - key: options.units.pt
+      t: pt
+    - key: options.units.percent
+      t: '%'
+    - key: options.units.em
+      t: em
+    - key: options.units.rem
+      t: rem
+    - key: options.units.vh_vw
+      t: vh, vw
+    - key: options.units.vmin_vmax
+      t: vmin, vmax
+    - key: options.units.ch
+      t: ch
+    - key: options.units.ex
+      t: ex
+    - key: options.units.mm
+      t: mm
+    - key: options.units.cm
+      t: cm
+    - key: options.units.in
+      t: in
 
-  - key: options.combinators.descendant
-    t: div span (descendant)
-  - key: options.combinators.child
-    t: div > span (enfant)
-  - key: options.combinators.next_sibling
-    t: div + div (voisin suivant)
-  - key: options.combinators.subsequent_sibling
-    t: div ~ div (voisin subséquent)
+    - key: features_others.pseudo_elements
+      t: Pseudo Éléments
+    - key: features_others.pseudo_elements.description
+      t: Lequel de ces pseudo-éléments CSS avez-vous utilisé ?
 
-  - key: features_others.tree_document_structure
-    t: Hiérarchie / Structure de document
+    - key: options.pseudo_elements.before
+      t: '::before'
+    - key: options.pseudo_elements.after
+      t: '::after'
+    - key: options.pseudo_elements.first_line
+      t: '::first-line'
+    - key: options.pseudo_elements.first_letter
+      t: '::first-letter'
+    - key: options.pseudo_elements.selection
+      t: '::selection'
+    - key: options.pseudo_elements.placeholder
+      t: '::placeholder'
+    - key: options.pseudo_elements.marker
+      t: '::marker'
+    - key: options.pseudo_elements.backdrop
+      t: '::backdrop'
 
-  - key: options.tree_document_structure.root
-    t: :root
-  - key: options.tree_document_structure.empty
-    t: :empty
-  - key: options.tree_document_structure.not
-    t: :not()
-  - key: options.tree_document_structure.nth_child
-    t: :nth-child()
-  - key: options.tree_document_structure.nth_last_child
-    t: :nth-last-child()
-  - key: options.tree_document_structure.first_child
-    t: :first-child
-  - key: options.tree_document_structure.last_child
-    t: :last-child
-  - key: options.tree_document_structure.only_child
-    t: :only-child
-  - key: options.tree_document_structure.nth_of_type
-    t: :nth-of-type()
-  - key: options.tree_document_structure.nth_last_of_type
-    t: :nth-last-of-type()
-  - key: options.tree_document_structure.first_of_type
-    t: :first-of-type
-  - key: options.tree_document_structure.last_of_type
-    t: :last-of-type
-  - key: options.tree_document_structure.only_of_type
-    t: :only-of-type
-  - key: options.tree_document_structure.lang
-    t: :lang()
-  - key: options.tree_document_structure.is
-    t: :is()
-  - key: options.tree_document_structure.where
-    t: :where()
-  - key: options.tree_document_structure.has
-    t: :has()
+    - key: features_others.combinators
+      t: Combinaisons
 
-  - key: features_others.attributes
-    t: Attributs
-  
-  - key: options.attributes.presence
-    t: div[foo] (Présence)
-  - key: options.attributes.equality
-    t: div[foo="bar"] (Égalité)
-  - key: options.attributes.starts_with
-    t: div[foo^="bar"] (Commence par)
-  - key: options.attributes.ends_with
-    t: div[foo$="bar"] (Termine par)
-  - key: options.attributes.contains_word
-    t: div[foo~="bar"] (Contient un mot)
-  - key: options.attributes.contains_substring
-    t: div[foo*="bar"] (Contient une partie de texte)
+    - key: options.combinators.descendant
+      t: div span (descendant)
+    - key: options.combinators.child
+      t: div > span (enfant)
+    - key: options.combinators.next_sibling
+      t: div + div (voisin suivant)
+    - key: options.combinators.subsequent_sibling
+      t: div ~ div (voisin subséquent)
 
-  - key: features_others.links_urls
-    t: Links/URLs
+    - key: features_others.tree_document_structure
+      t: Hiérarchie / Structure de document
 
-  - key: options.links_urls.any_link
-    t: :any-link
-  - key: options.links_urls.link_visited
-    t: :link et :visited
-  - key: options.links_urls.local_link
-    t: :local-link
-  - key: options.links_urls.target
-    t: :target
+    - key: options.tree_document_structure.root
+      t: :root
+    - key: options.tree_document_structure.empty
+      t: :empty
+    - key: options.tree_document_structure.not
+      t: :not()
+    - key: options.tree_document_structure.nth_child
+      t: :nth-child()
+    - key: options.tree_document_structure.nth_last_child
+      t: :nth-last-child()
+    - key: options.tree_document_structure.first_child
+      t: :first-child
+    - key: options.tree_document_structure.last_child
+      t: :last-child
+    - key: options.tree_document_structure.only_child
+      t: :only-child
+    - key: options.tree_document_structure.nth_of_type
+      t: :nth-of-type()
+    - key: options.tree_document_structure.nth_last_of_type
+      t: :nth-last-of-type()
+    - key: options.tree_document_structure.first_of_type
+      t: :first-of-type
+    - key: options.tree_document_structure.last_of_type
+      t: :last-of-type
+    - key: options.tree_document_structure.only_of_type
+      t: :only-of-type
+    - key: options.tree_document_structure.lang
+      t: :lang()
+    - key: options.tree_document_structure.is
+      t: :is()
+    - key: options.tree_document_structure.where
+      t: :where()
+    - key: options.tree_document_structure.has
+      t: :has()
 
-  - key: features_others.interaction
-    t: Interaction
-  
-  - key: options.interaction.hover
-    t: :hover
-  - key: options.interaction.active
-    t: :active
-  - key: options.interaction.focus
-    t: :focus
-  - key: options.interaction.focus_within
-    t: :focus-within
-  - key: options.interaction.focus_visible
-    t: :focus-visible
+    - key: features_others.attributes
+      t: Attributs
 
-  - key: features_others.form_controls
-    t: Form Controls
+    - key: options.attributes.presence
+      t: div[foo] (Présence)
+    - key: options.attributes.equality
+      t: div[foo="bar"] (Égalité)
+    - key: options.attributes.starts_with
+      t: div[foo^="bar"] (Commence par)
+    - key: options.attributes.ends_with
+      t: div[foo$="bar"] (Termine par)
+    - key: options.attributes.contains_word
+      t: div[foo~="bar"] (Contient un mot)
+    - key: options.attributes.contains_substring
+      t: div[foo*="bar"] (Contient une partie de texte)
 
-  - key: options.form_controls.enabled_disabled
-    t: :enabled et :disabled
-  - key: options.form_controls.read_only_write
-    t: :read-only et :read-write
-  - key: options.form_controls.placeholder_shown
-    t: :placeholder-shown
-  - key: options.form_controls.default
-    t: :default
-  - key: options.form_controls.checked
-    t: :checked
-  - key: options.form_controls.indeterminate
-    t: :indeterminate
-  - key: options.form_controls.valid_invalid
-    t: :valid et :invalid
-  - key: options.form_controls.user_invalid
-    t: :user-invalid
-  - key: options.form_controls.in_out_range
-    t: :in-range et :out-of-range
-  - key: options.form_controls.required_optional
-    t: :required et :optional
+    - key: features_others.links_urls
+      t: Links/URLs
 
+    - key: options.links_urls.any_link
+      t: :any-link
+    - key: options.links_urls.link_visited
+      t: :link et :visited
+    - key: options.links_urls.local_link
+      t: :local-link
+    - key: options.links_urls.target
+      t: :target
 
-  ###########################################################################
-  # Tools
-  ###########################################################################
+    - key: features_others.interaction
+      t: Interaction
 
-  - key: tools.atomiccss
-    t: Utility-First / Atomic CSS
+    - key: options.interaction.hover
+      t: :hover
+    - key: options.interaction.active
+      t: :active
+    - key: options.interaction.focus
+      t: :focus
+    - key: options.interaction.focus_within
+      t: :focus-within
+    - key: options.interaction.focus_visible
+      t: :focus-visible
 
-  ###########################################################################
-  # Environments
-  ###########################################################################
+    - key: features_others.form_controls
+      t: Form Controls
 
-  - key: environments.browsers
-    t: Navigateurs
-  - key: environments.browsers.description
-    t: Sur quels navigateurs testez-vous ?
-  
-  - key: environments.form_factors
-    t: Facteurs de forme
-  - key: environments.form_factors.description
-    t: Sur quel facteur de forme testez-vous ?
+    - key: options.form_controls.enabled_disabled
+      t: :enabled et :disabled
+    - key: options.form_controls.read_only_write
+      t: :read-only et :read-write
+    - key: options.form_controls.placeholder_shown
+      t: :placeholder-shown
+    - key: options.form_controls.default
+      t: :default
+    - key: options.form_controls.checked
+      t: :checked
+    - key: options.form_controls.indeterminate
+      t: :indeterminate
+    - key: options.form_controls.valid_invalid
+      t: :valid et :invalid
+    - key: options.form_controls.user_invalid
+      t: :user-invalid
+    - key: options.form_controls.in_out_range
+      t: :in-range et :out-of-range
+    - key: options.form_controls.required_optional
+      t: :required et :optional
 
-  - key: environments.css_for_print
-    t: CSS pour l'impression
-  - key: environments.css_for_print.description
-    t: Écrivez-vous du style d'impression ?
+    ###########################################################################
+    # Tools
+    ###########################################################################
 
-  - key: environments.css_for_email
-    t: CSS pour les clients mails
-  - key: environments.css_for_email.description
-    t: Écrivez-vous du CSS pour des clients mails ?
+    - key: tools.atomiccss
+      t: Utility-First / Atomic CSS
 
-  ###########################################################################
-  # Opinions
-  ###########################################################################
+    ###########################################################################
+    # Environments
+    ###########################################################################
 
-  - key: opinions.css_easy_to_learn
-    t: CSS est façile à apprendre
-    
-  - key: opinions.css_evolving_slowly
-    t: CSS évolue trop lentement
-    
-  - key: opinions.utility_classes_to_be_avoided
-    t: Les classes utilitaires (.center, .large-text, etc.) devraient être évitées
-    
-  - key: opinions.selector_nesting_to_be_avoided
-    t: L'imbrication de sélecteurs (.foo .bar ul li {...}) devrait être évitée
-    
-  - key: opinions.css_is_programming_language
-    t: CSS est un langage de programmation
-    
-  - key: opinions.enjoy_writing_css
-    t: J'aime écrire du CSS
-    
-  - key: opinions_other.currently_missing_from_css.others
-    t: Quelle fonctionnalité est actuellement manquante dans CSS selon vous ?
-  - key: opinions_other.currently_missing_from_css.others.description
-    t: Fonctionnalités que vous aimeriez voir dans CSS un jour.
+    - key: environments.browsers
+      t: Navigateurs
+    - key: environments.browsers.description
+      t: Sur quels navigateurs testez-vous ?
 
-  - key: opinions.sum_up_one_word_css
-    t: CSS en un mot
-  - key: opinions.sum_up_one_word_css.description
-    t: Comment résumeriez-vous votre opinion de CSS en un mot ?
-    
-  - key: happiness.state_of_the_web
-    t: A quel point êtes-vous heureux de l'état général des technologies web ?
-  
-  - key: happiness.state_of_css
-    t: A quel point êtes-vous heureux de l'état général de CSS ?
-    
+    - key: environments.form_factors
+      t: Facteurs de forme
+    - key: environments.form_factors.description
+      t: Sur quel facteur de forme testez-vous ?
+
+    - key: environments.css_for_print
+      t: CSS pour l'impression
+    - key: environments.css_for_print.description
+      t: Écrivez-vous du style d'impression ?
+
+    - key: environments.css_for_email
+      t: CSS pour les clients mails
+    - key: environments.css_for_email.description
+      t: Écrivez-vous du CSS pour des clients mails ?
+
+    ###########################################################################
+    # Opinions
+    ###########################################################################
+
+    - key: opinions.css_easy_to_learn
+      t: CSS est façile à apprendre
+
+    - key: opinions.css_evolving_slowly
+      t: CSS évolue trop lentement
+
+    - key: opinions.utility_classes_to_be_avoided
+      t: Les classes utilitaires (.center, .large-text, etc.) devraient être évitées
+
+    - key: opinions.selector_nesting_to_be_avoided
+      t: L'imbrication de sélecteurs (.foo .bar ul li {...}) devrait être évitée
+
+    - key: opinions.css_is_programming_language
+      t: CSS est un langage de programmation
+
+    - key: opinions.enjoy_writing_css
+      t: J'aime écrire du CSS
+
+    - key: opinions_other.currently_missing_from_css.others
+      t: Quelle fonctionnalité est actuellement manquante dans CSS selon vous ?
+    - key: opinions_other.currently_missing_from_css.others.description
+      t: Fonctionnalités que vous aimeriez voir dans CSS un jour.
+
+    - key: opinions.sum_up_one_word_css
+      t: CSS en un mot
+    - key: opinions.sum_up_one_word_css.description
+      t: Comment résumeriez-vous votre opinion de CSS en un mot ?
+
+    - key: happiness.state_of_the_web
+      t: A quel point êtes-vous heureux de l'état général des technologies web ?
+
+    - key: happiness.state_of_css
+      t: A quel point êtes-vous heureux de l'état général de CSS ?

@@ -1,34 +1,34 @@
 locale: it-IT
 translations:
-  ###########################################################################
-  # General
-  ###########################################################################
+    ###########################################################################
+    # General
+    ###########################################################################
 
-  ###########################################################################
-  # Features
-  ###########################################################################
+    ###########################################################################
+    # Features
+    ###########################################################################
 
-  - key: features.learn_more
-    t: Saperne di più (MDN)
-  - key: features.mdn_link
-    t: MDN
-  - key: features.caniuse_link
-    t: CanIUse
-  - key: features.specification_link
-    t: Specifiche W3C
+    - key: features.learn_more
+      t: Saperne di più (MDN)
+    - key: features.mdn_link
+      t: MDN
+    - key: features.caniuse_link
+      t: CanIUse
+    - key: features.specification_link
+      t: Specifiche W3C
 
-  ###########################################################################
-  # Tools & Methodologies
-  ###########################################################################
+    ###########################################################################
+    # Tools & Methodologies
+    ###########################################################################
 
-  # general
-  - key: tools.links
-    t: Links
-  - key: tools.github_link
-    t: GitHub
-  - key: tools.github_stars
-    t: stelle
-  - key: tools.homepage_link
-    t: Homepage
-  - key: tools.npm_link
-    t: NPM
+    # general
+    - key: tools.links
+      t: Links
+    - key: tools.github_link
+      t: GitHub
+    - key: tools.github_stars
+      t: stelle
+    - key: tools.homepage_link
+      t: Homepage
+    - key: tools.npm_link
+      t: NPM

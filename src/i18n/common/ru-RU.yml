@@ -1,614 +1,612 @@
 locale: ru-RU
 translations:
-  
-  ###########################################################################
-  # General
-  ###########################################################################
-
-  # homepage
-  - key: general.why_create_account
-    t: Зачем нужно создавать аккаунт?
-  - key: general.create_account_reasons
-    t: >
-      Мы просим вас зарегистрироваться, чтобы:
-
-      - Избежать дублирования ответов
-
-      - Дать доступ к вашим ответам
-      
-      - Сохранить текущий прогресс прохождения опроса
-      
-      - Оповестить вас, когда будут опубликованы результаты
-  - key: general.survey_closed
-    t: >
-      Извините, но опрос завершён! Вы можете посмотреть свои ответы, но изменить их уже не получится.
-  - key: general.survey_read_only
-    t: >
-      Сейчас вы просматриваете опрос в режиме только для чтения. 
-  - key: general.survey_read_only_back
-    t: >
-      <a href="{link}">Вернитесь</a> на главную страницу опроса, чтобы начать или возобновить сессию.
-
-  # surveys
-  - key: general.open_surveys
-    t: Открытые опросы
-  - key: general.no_open_surveys
-    t: В настоящее время нет открытых опросов.
-  - key: general.closed_surveys
-    t: Проведённые опросы
-  - key: general.start_survey
-    t: Начать опрос »
-  - key: general.continue_survey
-    t: Продолжить опрос »
-  - key: general.review_survey
-    t: Посмотреть опрос »
-  - key: general.preview_survey
-    t: Предварительный просмотр опроса »
-  - key: general.finish_survey
-    t: Завершить опрос »
-  - key: general.survey_closed
-    t: Опрос уже закрыт.
-  - key: general.survey_results
-    t: Посмотреть результаты опроса »
-  - key: general.surveys_available_languages
-    t: "Опросы доступны на следующих языках:"
-  - key: general.help_us_translate
-    t: Помочь с передовом опросов »
-  - key: general.translators # TODO
-    t: Translators
-  - key: general.translation_help # TODO
-    t: Translation Help
-
-  # footer
-  - key: general.privacy_policy
-    t: Политика конфиденциальности
-  - key: general.leave_issue
-    t: Есть вопрос? Нашли ошибку? <a href="{link}" target="_blank">Создайте ишью</a>.
-  - key: general.emoji_icons
-    t: Эмодзи-иконки от <a target="_blank" rel="noreferrer" href="https://icons8.com">Icons8</a>
-    
-  # navigation
-  - key: general.table_of_contents
-    t: Содержание
-  - key: general.all_questions_optional
-    t: >
-      Примечание: необязательно отвечать на все вопросы, стопроцентное завершение опроса не требуется.
-  - key: general.data_is_saved
-    t: Все ваши ответы сохраняются при переходе к предыдущему или следующему разделу.
-  
-  # thanks
-  - key: general.back
-    t: Вернуться на главную страницу
-  - key: general.thanks
-    t: >
-      Спасибо за заполнение опроса!
-
-      
-      Ваши ответы сохранены. До завершения опроса вы можете посмотреть или изменить их.
-
-      
-      Кроме того, вы можете помочь нам, если расскажите другим людям об этом опросе. Даже небольшая активность с вашей стороны сделает опрос более точным:
-
-  # share
-  - key: general.share_subject
-    t: >
-      Опрос {surveyName}
-  - key: general.share_text
-    t: >
-      Опрос {surveyName} в этом году открыт! {link}
-
-  
-  ###########################################################################
-  # Nav
-  ###########################################################################
-  
-  - key: nav.surveys
-    t: Опросы
-  - key: nav.account
-    t: Аккаунт
-
-  ###########################################################################
-  # Accounts
-  ###########################################################################
-
-  - key: accounts.sign_up
-    t: Зарегистрироваться
-  - key: accounts.sign_in
-    t: Войти
-  - key: accounts.sign_out
-    t: Выйти
-  - key: accounts.cancel
-    t: Отмена
-  - key: accounts.email
-    t: Email
-  - key: accounts.enter_email
-    t: Введите Email
-
-  - key: accounts.please_pick_password
-    t: Пожалуйста, придумайте новый пароль для продолжения.
-  - key: accounts.please_log_in
-    t: Авторизуйтесь или зарегистрируйтесь, чтобы начать опрос.
-  - key: accounts.logged_in_as
-    t: Вы авторизованы как {email}
-  - key: accounts.questions
-    t: >
-      Если у вас есть вопросы по поводу того, как будут использованы ваши ответы, или вы хотите
-      удалить их из нашей базы данных,
-      пожалуйста, <a href="mailto:hello@stateofjs.com">свяжитесь с нами</a>.
-      
-  ###########################################################################
-  # Sections
-  ###########################################################################
-
-  - key: sections.user_info.title
-    t: О вас
-  - key: sections.user_info.description
-    t: Узнаем, кто вы есть на самом деле.
-
-  - key: sections.resources.title
-    t: Ресурсы
-  - key: sections.resources.description
-    t: К каким ресурсам по {topic} вы обращаетесь?
-
-  - key: sections.opinions.title
-    t: Мнения
-  - key: sections.opinions.description
-    t: Что вы думаете насчёт общего состояния {topic}?
-
-  - key: sections.other_tools.title
-    t: Другие инструменты
-  - key: sections.other_tools.description
-    t: Какие из представленных инструментов и технологий вы регулярно используете.
-
-  ###########################################################################
-  # Options
-  ###########################################################################
-
-  # features
-  - key: options.features.never_heard
-    t: 🤷 Впервые слышу/Не уверен, что это
-  - key: options.features.heard
-    t: ✅ Знаю, но не использовал
-  - key: options.features.used
-    t: 👍 Использовал
-
-  # features (short versions)
-  - key: options.features.never_heard.short
-    t: Впервые слышу
-  - key: options.features.heard.short
-    t: Знаю
-  - key: options.features.used.short
-    t: Использовал
-
-  # patterns
-  - key: options.patterns.use_never
-    t: Практически всегда избегаю
-  - key: options.patterns.use_sparingly
-    t: Редко использую
-  - key: optionspatterns..use_neutral
-    t: Трудно сказать
-  - key: options.patterns.use_frequently
-    t: Часто использую
-  - key: options.patterns.use_always
-    t: Использую сколько душе угодно
-
-  # tools experience
-  - key: options.tools.never_heard
-    t: 🤷 Впервые слышу/Не уверен, что это
-  - key: options.tools.interested
-    t: ✅ Слышал об этом > Хочу изучить
-  - key: options.tools.not_interested
-    t: 🚫 Слышал об этом > Не интересно
-  - key: options.tools.would_use
-    t: 👍 Использовал > Буду использовать снова
-  - key: options.tools.would_not_use
-    t: 👎 Использовал > Больше не буду использовать
-
-  # tools experience (short versions)
-  - key: options.tools.never_heard.short
-    t: Впервые слышу
-  - key: options.tools.interested.short
-    t: Интересно
-  - key: options.tools.not_interested.short
-    t: Не интересно
-  - key: options.tools.would_use.short
-    t: Буду ещё использовать
-  - key: options.tools.would_not_use.short
-    t: Не буду больше использовать
-  
-  # happiness
-  - key: options.happiness.0
-    t: Очень недоволен
-  - key: options.happiness.1
-    t: Не доволен
-  - key: options.happiness.2
-    t: Затрудняюсь ответить
-  - key: options.happiness.3
-    t: Доволен
-  - key: options.happiness.4
-    t: Очень доволен
-
-  # opinions
-  - key: options.opinions.0
-    t: Совершенно не согласен
-  - key: options.opinions.1
-    t: Не согласен
-  - key: options.opinions.2
-    t: Трудно сказать
-  - key: options.opinions.3
-    t: Согласен
-  - key: options.opinions.4
-    t: Полностью согласен
-    
-  # years of experience
-  - key: options.years_of_experience.range_less_than_1
-    t: Менее одного года
-  - key: options.years_of_experience.range_1_2
-    t: От 1 до 2 лет
-  - key: options.years_of_experience.range_2_5
-    t: От 2 до 5 лет
-  - key: options.years_of_experience.range_5_10
-    t: От 5 до 10 лет
-  - key: options.years_of_experience.range_10_20
-    t: От 10 до 20 лет
-  - key: options.years_of_experience.range_more_than_20
-    t: Более 20 лет
-
-  # years of experience (short versions)
-  - key: options.years_of_experience.range_less_than_1.short
-    t: '<1'
-  - key: options.years_of_experience.range_1_2.short
-    t: 1-2
-  - key: options.years_of_experience.range_2_5.short
-    t: 2-5
-  - key: options.years_of_experience.range_5_10
-    t: 5-10
-  - key: options.years_of_experience.range_10_20.short
-    t: 10-20
-  - key: options.years_of_experience.range_more_than_20.short
-    t: '>20'
-
-  # company size
-  - key: options.company_size.range_1
-    t: Один сотрудник
-  - key: options.company_size.range_1_5
-    t: От 1 до 5 сотрудников
-  - key: options.company_size.range_5_10
-    t: От 5 до 10 сотрудников
-  - key: options.company_size.range_10_20
-    t: От 10 до 20 сотрудников
-  - key: options.company_size.range_20_50
-    t: От 20 до 50 сотрудников
-  - key: options.company_size.range_50_100
-    t: От 50 до 100 сотрудников
-  - key: options.company_size.range_100_1000
-    t: От 100 до 1000 сотрудников
-  - key: options.company_size.range_more_than_1000
-    t: Более 1000 сотрудников
-
-  # company size (short versions)
-  - key: options.company_size.range_1.short
-    t: 1
-  - key: options.company_size.range_1_5.short
-    t: 1-5
-  - key: options.company_size.range_5_10.short
-    t: 5-10
-  - key: options.company_size.range_10_20.short
-    t: 10-20
-  - key: options.company_size.range_20_50.short
-    t: 20-50
-  - key: options.company_size.range_50_100.short
-    t: 50-100
-  - key: options.company_size.range_100_1000.short
-    t: 100-1000
-  - key: options.company_size.range_more_than_1000.short
-    t: '>1000'
-
-  # salary
-  - key: options.yearly_salary.range_work_for_free
-    t: Я работаю бесплатно
-  - key: options.yearly_salary.range_0_10
-    t: 0-10 тыс. долларов
-  - key: options.yearly_salary.range_10_30
-    t: 10-30 тыс. долларов
-  - key: options.yearly_salary.range_30_50
-    t: 30-50 тыс. долларов
-  - key: options.yearly_salary.range_50_100
-    t: 50-100 тыс. долларов
-  - key: options.yearly_salary.range_100_200
-    t: 100-200 тыс. долларов
-  - key: options.yearly_salary.range_more_than_200
-    t: 'Больше 200 тыс. долларов'
-
-  # salary (short versions)
-  - key: options.yearly_salary.range_work_for_free.short
-    t: '0 долларов'
-  - key: options.yearly_salary.range_0_10.short
-    t: 0-10 тыс. долларов
-  - key: options.yearly_salary.range_10_30.short
-    t: 10-30 тыс. долларов
-  - key: options.yearly_salary.range_30_50.short
-    t: 30-50 тыс. долларов
-  - key: options.yearly_salary.range_50_100.short
-    t: 50-100 тыс. долларов
-  - key: options.yearly_salary.range_100_200.short
-    t: 100-200 тыс. долларов
-  - key: options.yearly_salary.range_more_than_200.short
-    t: 'Больше 200 тыс. долларов'
-
-  # job titles
-  - key: options.job_title.cto
-    t: Технический директор
-  - key: options.job_title.front_end_developer
-    t: Фронтенд-разработчик/инженер
-  - key: options.job_title.back_end_developer
-    t: Бэкенд-разработчик/инженер
-  - key: options.job_title.full_stack_developer
-    t: Фулстек-разработчик/инженер
-  - key: options.job_title.web_developer
-    t: Веб-разработчик
-  - key: options.job_title.web_designer
-    t: Веб-дизайнер
-  - key: options.job_title.ux_designer
-    t: UX-дизайнер
-  - key: options.job_title.ui_designer
-    t: UI-дизайнер
-  - key: options.job_title.back_end_dev
-    t: Бэкенд-разработчик/инженер
-
-  # JavaScript proficiency
-
-  - key: options.javascript_proficiency.0
-    t: Не пишу на JavaScript.
-  - key: options.javascript_proficiency.1
-    t: Пишу короткие, простые выражения на JavaScript или jQuery
-  - key: options.javascript_proficiency.2
-    t: Работаю с фронтендом, используя современные фреймворки (React, Vue и т.д.)
-  - key: options.javascript_proficiency.3
-    t: Могу написать фронтенд с нуля
-  - key: options.javascript_proficiency.4
-    t: Владею продвинутыми фронтенд-паттернами (управление состоянием, загрузка данных и т.д.)
-
-  # CSS proficiency
-
-  - key: options.css_proficiency.0
-    t: Практически не знаю CSS
-  - key: options.css_proficiency.1
-    t: Использую CSS-фреймворки и изменяю существующие стили
-  - key: options.css_proficiency.2
-    t: Знаю правила специфичности, умею создавать раскладки
-  - key: options.css_proficiency.3
-    t: Владею анимацией, интерактивностью, переходами и т.д.
-  - key: options.css_proficiency.4
-    t: Могу взять на себя стилизацию всего фронтенда с нуля, следуя единой методологии
-
-  # Back-end proficiency
-
-  - key: options.backend_proficiency.0
-    t: Не работаю с бэкендом
-  - key: options.backend_proficiency.1
-    t: Могу устанавливать универсальные CMS (WordPress и т.п.) или статические генераторы сайтов (Jekyll, etc.)
-  - key: options.backend_proficiency.2
-    t: Могу разрабатывать приложения, используя существующие фреймворки (Rails, Laravel и т.п.)
-  - key: options.backend_proficiency.3
-    t: Могу разработать весь бэкенд с нуля (Go, Node и т.п.)
-  - key: options.backend_proficiency.4
-    t: Могу управлять сложными многосерверными или микросервисными архитектурами
-
-  # Proficiency (generic versions)
-  - key: options.proficiency.0
-    t: Отсутствует
-  - key: options.proficiency.1
-    t: Начинающий
-  - key: options.proficiency.2
-    t: Промежуточный
-  - key: options.proficiency.3
-    t: Продвинутый
-  - key: options.proficiency.4
-    t: Эксперт
-
-  # Gender
-
-  - key: options.gender.female
-    t: Женский
-  - key: options.gender.male
-    t: Мужской
-  - key: options.gender.non_binary
-    t: Небинарный/Третий пол
-  - key: options.gender.prefer_not_to_say
-    t: Неважно
-
-  # Race & Ethnicity
-
-  - key: options.race_ethnicity.white_european
-    t: Белый или европеец
-  - key: options.race_ethnicity.south_asian
-    t: Уроженец Южной Азии
-  - key: options.race_ethnicity.hispanic_latin
-    t: Испанец или латиноамериканец
-  - key: options.race_ethnicity.east_asian
-    t: Уроженец Восточной Азии
-  - key: options.race_ethnicity.middle_eastern
-    t: Уроженец Ближнего Востока
-  - key: options.race_ethnicity.black_african
-    t: Чёрный или африканец
-  - key: options.race_ethnicity.multiracial
-    t: Метис
-  - key: options.race_ethnicity.biracial
-    t: Представитель двух рас
-  - key: options.race_ethnicity.native_american_islander_australian
-    t: Коренной американец, либо уроженец островов Тихого океана, либо коренной австралиец
-
-  # image fallback
-  - key: options.skin_tone.0
-    t: <img src="/emojis/icons8-bald-man-light-skin-tone-100.png" alt="Эмодзи светлого тона кожи"/>
-  - key: options.skin_tone.1
-    t: <img src="/emojis/icons8-bald-man-medium-light-skin-tone-100.png" alt="Эмодзи средне-светлого тона кожи"/>
-  - key: options.skin_tone.2
-    t: <img src="/emojis/icons8-bald-man-medium-skin-tone-100.png" alt="Эмодзи среднего тона цвета кожи"/>
-  - key: options.skin_tone.3
-    t: <img src="/emojis/icons8-bald-man-medium-dark-skin-tone-100.png" alt="Эмодзи средне-тёмного тона кожи"/>
-  - key: options.skin_tone.4
-    t: <img src="/emojis/icons8-bald-man-dark-skin-tone-100.png" alt="Эмодзи тёмного тона кожи"/>
-
-  ###########################################################################
-  # Tools
-  ###########################################################################
-
-  - key: tools.other_tools
-    t: Другие варианты
-  - key: tools.other_tools.description
-    t: Что-то другое, кроме представленных выше вариантов.
-  - key: tools.happiness
-    t: Общий показатель счастья
-  - key: tools.happiness.description
-    t: >
-      По шкале от одного (очень недоволен) до пяти (очень доволен), насколько вы довольны
-      текущими перечисленными выше вариантами?
-
-  ###########################################################################
-  # Demographics (About You/User Info)
-  ###########################################################################
-
-  # years of experience
-  - key: user_info.years_of_experience
-    t: Опыт
-  - key: user_info.years_of_experience.description
-    t: Как долго вы работаете или учитесь в данной области.
-
-  # company size
-  - key: user_info.company_size
-    t: Размер компании
-  - key: user_info.company_size.description
-    t: Разбивка по размеру компании
-
-  # salary ranges
-  - key: user_info.yearly_salary
-    t: Годовая зарплата
-  - key: user_info.yearly_salary.description
-    t: В долларах США.
-
-  # job title
-  - key: user_info.job_title
-    t: Должность
-  - key: user_info.job_title.description
-    t: Как вы представляетесь на публичных мероприятиях?
-
-  # javascript proficiency
-
-  - key: user_info.javascript_proficiency
-    t: Уровень владения JavaScript
-  - key: user_info.javascript_proficiency.description
-    t: Ваш опыт работы с JavaScript?
-
-  # css proficiency
-
-  - key: user_info.css_proficiency
-    t: Уровень владения CSS
-  - key: user_info.css_proficiency.description
-    t: Ваш опыт работы с CSS?
-
-  # backend proficiency
-  - key: user_info.backend_proficiency
-    t: Уровень владения бэкендом
-  - key: user_info.backend_proficiency.description
-    t: Ваш опыт работы в бэкенд-разработке?
-
-  # gender
-  - key: user_info.gender
-    t: Пол
-
-  # skin tone/appearance
-  - key: user_info.race_ethnicity
-    t: Раса и этническая принадлежность
-
-  # other info
-  - key: user_info.how_did_user_find_out_about_the_survey
-    t: Как вы узнали об этом опросе?
-  - key: user_info.email
-    t: Ваша электронная почта
-  - key: user_info.country
-    t: Ваша страна
-
-  ###########################################################################
-  # Other Tools
-  ###########################################################################
-
-  - key: tools_others.text_editors
-    t: Текстовые редакторы
-  - key: tools_others.text_editors.description
-    t: Какими текстовыми редакторами вы регулярно пользуетесь?
-  - key: tools_others.text_editors.others
-    t: Другие текстовые редакторы
-  - key: tools_others.text_editors.others.description
-    t: Другие ответы (поле со свободной формой ответа).
-
-  - key: tools_others.utilities
-    t: Утилиты
-  - key: tools_others.utilities.description
-    t:  Какие библиотеки-утилиты вы регулярно используете?
-  - key: tools_others.utilities.others
-    t: Другие утилиты
-  - key: tools_others.utilities.others.description
-    t: Другие утилиты (поле со свободной формой ответа).
-
-  - key: tools_others.browsers
-    t: Браузеры
-  - key: tools_others.browsers.description
-    t: В каких браузерах вы в основном работаете?
-  - key: tools_others.browsers.others
-    t: Другие браузеры
-  - key: tools_others.browsers.others.description
-    t: Другие ответы (поле со свободной формой ответа).
-
-  - key: tools_others.build_tools
-    t: Сборщики
-  - key: tools_others.build_tools.description
-    t: Какие сборщики вы используете?
-  - key: tools_others.build_tools.others
-    t: Другие сборщики
-  - key: tools_others.build_tools.others.description
-    t: Другие ответы (поле со свободной формой ответа).
-
-  - key: tools_others.non_js_languages
-    t: Языки, помимо JavaScript
-  - key: tools_others.non_js_languages.description
-    t: Какими другими языками программирования вы пользуетесь?
-  - key: tools_others.non_js_languages.others
-    t: Другие языки
-  - key: tools_others.non_js_languages.others.description
-    t: Другие ответы (поле со свободной формой ответа).
-
-###########################################################################
-# Resources
-###########################################################################
-
-  # blogs & magazines
-  - key: resources.blogs_news_magazines
-    t: Блоги и журналы
-  - key: resources.blogs_news_magazines.description
-    t: Какие блоги, журналы (и т.п.) вы читаете?
-  - key: resources.blogs_news_magazines.others
-    t: Другие блоги и журналы
-  - key: resources.blogs_news_magazines.others.description
-    t: Другие ответы (поле со свободной формой ответа).
-
-  # sites & courses
-  - key: resources.sites_courses
-    t: Сайты и курсы
-  - key: resources.sites_courses.description
-    t: К каким сайтам, курсам (и т.п.) вы обращаетесь?
-  - key: resources.sites_courses.others
-    t: Другие сайты и курсы
-  - key: resources.sites_courses.others.description
-    t: Другие ответы (поле со свободной формой ответа).
-
-  # podcasts
-  - key: resources.podcasts
-    t: Подкасты
-  - key: resources.podcasts.description
-    t: Какие подкасты по программированию вы слушаете?
-  - key: resources.podcasts.others
-    t: Другие подкасты
-  - key: resources.podcasts.others.description
-    t: Другие ответы (поле со свободной формой ответа).
+    ###########################################################################
+    # General
+    ###########################################################################
+
+    # homepage
+    - key: general.why_create_account
+      t: Зачем нужно создавать аккаунт?
+    - key: general.create_account_reasons
+      t: >
+          Мы просим вас зарегистрироваться, чтобы:
+
+          - Избежать дублирования ответов
+
+          - Дать доступ к вашим ответам
+
+          - Сохранить текущий прогресс прохождения опроса
+
+          - Оповестить вас, когда будут опубликованы результаты
+    - key: general.survey_closed
+      t: >
+          Извините, но опрос завершён! Вы можете посмотреть свои ответы, но изменить их уже не получится.
+    - key: general.survey_read_only
+      t: >
+          Сейчас вы просматриваете опрос в режиме только для чтения.
+    - key: general.survey_read_only_back
+      t: >
+          <a href="{link}">Вернитесь</a> на главную страницу опроса, чтобы начать или возобновить сессию.
+
+    # surveys
+    - key: general.open_surveys
+      t: Открытые опросы
+    - key: general.no_open_surveys
+      t: В настоящее время нет открытых опросов.
+    - key: general.closed_surveys
+      t: Проведённые опросы
+    - key: general.start_survey
+      t: Начать опрос »
+    - key: general.continue_survey
+      t: Продолжить опрос »
+    - key: general.review_survey
+      t: Посмотреть опрос »
+    - key: general.preview_survey
+      t: Предварительный просмотр опроса »
+    - key: general.finish_survey
+      t: Завершить опрос »
+    - key: general.survey_closed
+      t: Опрос уже закрыт.
+    - key: general.survey_results
+      t: Посмотреть результаты опроса »
+    - key: general.surveys_available_languages
+      t: 'Опросы доступны на следующих языках:'
+    - key: general.help_us_translate
+      t: Помочь с передовом опросов »
+    - key: general.translators # TODO
+      t: Translators
+    - key: general.translation_help # TODO
+      t: Translation Help
+
+    # footer
+    - key: general.privacy_policy
+      t: Политика конфиденциальности
+    - key: general.leave_issue
+      t: Есть вопрос? Нашли ошибку? <a href="{link}" target="_blank">Создайте ишью</a>.
+    - key: general.emoji_icons
+      t: Эмодзи-иконки от <a target="_blank" rel="noreferrer" href="https://icons8.com">Icons8</a>
+
+    # navigation
+    - key: general.table_of_contents
+      t: Содержание
+    - key: general.all_questions_optional
+      t: >
+          Примечание: необязательно отвечать на все вопросы, стопроцентное завершение опроса не требуется.
+    - key: general.data_is_saved
+      t: Все ваши ответы сохраняются при переходе к предыдущему или следующему разделу.
+
+    # thanks
+    - key: general.back
+      t: Вернуться на главную страницу
+    - key: general.thanks
+      t: >
+          Спасибо за заполнение опроса!
+
+
+          Ваши ответы сохранены. До завершения опроса вы можете посмотреть или изменить их.
+
+
+          Кроме того, вы можете помочь нам, если расскажите другим людям об этом опросе. Даже небольшая активность с вашей стороны сделает опрос более точным:
+
+    # share
+    - key: general.share_subject
+      t: >
+          Опрос {surveyName}
+    - key: general.share_text
+      t: >
+          Опрос {surveyName} в этом году открыт! {link}
+
+    ###########################################################################
+    # Nav
+    ###########################################################################
+
+    - key: nav.surveys
+      t: Опросы
+    - key: nav.account
+      t: Аккаунт
+
+    ###########################################################################
+    # Accounts
+    ###########################################################################
+
+    - key: accounts.sign_up
+      t: Зарегистрироваться
+    - key: accounts.sign_in
+      t: Войти
+    - key: accounts.sign_out
+      t: Выйти
+    - key: accounts.cancel
+      t: Отмена
+    - key: accounts.email
+      t: Email
+    - key: accounts.enter_email
+      t: Введите Email
+
+    - key: accounts.please_pick_password
+      t: Пожалуйста, придумайте новый пароль для продолжения.
+    - key: accounts.please_log_in
+      t: Авторизуйтесь или зарегистрируйтесь, чтобы начать опрос.
+    - key: accounts.logged_in_as
+      t: Вы авторизованы как {email}
+    - key: accounts.questions
+      t: >
+          Если у вас есть вопросы по поводу того, как будут использованы ваши ответы, или вы хотите
+          удалить их из нашей базы данных,
+          пожалуйста, <a href="mailto:hello@stateofjs.com">свяжитесь с нами</a>.
+
+    ###########################################################################
+    # Sections
+    ###########################################################################
+
+    - key: sections.user_info.title
+      t: О вас
+    - key: sections.user_info.description
+      t: Узнаем, кто вы есть на самом деле.
+
+    - key: sections.resources.title
+      t: Ресурсы
+    - key: sections.resources.description
+      t: К каким ресурсам по {topic} вы обращаетесь?
+
+    - key: sections.opinions.title
+      t: Мнения
+    - key: sections.opinions.description
+      t: Что вы думаете насчёт общего состояния {topic}?
+
+    - key: sections.other_tools.title
+      t: Другие инструменты
+    - key: sections.other_tools.description
+      t: Какие из представленных инструментов и технологий вы регулярно используете.
+
+    ###########################################################################
+    # Options
+    ###########################################################################
+
+    # features
+    - key: options.features.never_heard
+      t: 🤷 Впервые слышу/Не уверен, что это
+    - key: options.features.heard
+      t: ✅ Знаю, но не использовал
+    - key: options.features.used
+      t: 👍 Использовал
+
+    # features (short versions)
+    - key: options.features.never_heard.short
+      t: Впервые слышу
+    - key: options.features.heard.short
+      t: Знаю
+    - key: options.features.used.short
+      t: Использовал
+
+    # patterns
+    - key: options.patterns.use_never
+      t: Практически всегда избегаю
+    - key: options.patterns.use_sparingly
+      t: Редко использую
+    - key: optionspatterns..use_neutral
+      t: Трудно сказать
+    - key: options.patterns.use_frequently
+      t: Часто использую
+    - key: options.patterns.use_always
+      t: Использую сколько душе угодно
+
+    # tools experience
+    - key: options.tools.never_heard
+      t: 🤷 Впервые слышу/Не уверен, что это
+    - key: options.tools.interested
+      t: ✅ Слышал об этом > Хочу изучить
+    - key: options.tools.not_interested
+      t: 🚫 Слышал об этом > Не интересно
+    - key: options.tools.would_use
+      t: 👍 Использовал > Буду использовать снова
+    - key: options.tools.would_not_use
+      t: 👎 Использовал > Больше не буду использовать
+
+    # tools experience (short versions)
+    - key: options.tools.never_heard.short
+      t: Впервые слышу
+    - key: options.tools.interested.short
+      t: Интересно
+    - key: options.tools.not_interested.short
+      t: Не интересно
+    - key: options.tools.would_use.short
+      t: Буду ещё использовать
+    - key: options.tools.would_not_use.short
+      t: Не буду больше использовать
+
+    # happiness
+    - key: options.happiness.0
+      t: Очень недоволен
+    - key: options.happiness.1
+      t: Не доволен
+    - key: options.happiness.2
+      t: Затрудняюсь ответить
+    - key: options.happiness.3
+      t: Доволен
+    - key: options.happiness.4
+      t: Очень доволен
+
+    # opinions
+    - key: options.opinions.0
+      t: Совершенно не согласен
+    - key: options.opinions.1
+      t: Не согласен
+    - key: options.opinions.2
+      t: Трудно сказать
+    - key: options.opinions.3
+      t: Согласен
+    - key: options.opinions.4
+      t: Полностью согласен
+
+    # years of experience
+    - key: options.years_of_experience.range_less_than_1
+      t: Менее одного года
+    - key: options.years_of_experience.range_1_2
+      t: От 1 до 2 лет
+    - key: options.years_of_experience.range_2_5
+      t: От 2 до 5 лет
+    - key: options.years_of_experience.range_5_10
+      t: От 5 до 10 лет
+    - key: options.years_of_experience.range_10_20
+      t: От 10 до 20 лет
+    - key: options.years_of_experience.range_more_than_20
+      t: Более 20 лет
+
+    # years of experience (short versions)
+    - key: options.years_of_experience.range_less_than_1.short
+      t: '<1'
+    - key: options.years_of_experience.range_1_2.short
+      t: 1-2
+    - key: options.years_of_experience.range_2_5.short
+      t: 2-5
+    - key: options.years_of_experience.range_5_10
+      t: 5-10
+    - key: options.years_of_experience.range_10_20.short
+      t: 10-20
+    - key: options.years_of_experience.range_more_than_20.short
+      t: '>20'
+
+    # company size
+    - key: options.company_size.range_1
+      t: Один сотрудник
+    - key: options.company_size.range_1_5
+      t: От 1 до 5 сотрудников
+    - key: options.company_size.range_5_10
+      t: От 5 до 10 сотрудников
+    - key: options.company_size.range_10_20
+      t: От 10 до 20 сотрудников
+    - key: options.company_size.range_20_50
+      t: От 20 до 50 сотрудников
+    - key: options.company_size.range_50_100
+      t: От 50 до 100 сотрудников
+    - key: options.company_size.range_100_1000
+      t: От 100 до 1000 сотрудников
+    - key: options.company_size.range_more_than_1000
+      t: Более 1000 сотрудников
+
+    # company size (short versions)
+    - key: options.company_size.range_1.short
+      t: 1
+    - key: options.company_size.range_1_5.short
+      t: 1-5
+    - key: options.company_size.range_5_10.short
+      t: 5-10
+    - key: options.company_size.range_10_20.short
+      t: 10-20
+    - key: options.company_size.range_20_50.short
+      t: 20-50
+    - key: options.company_size.range_50_100.short
+      t: 50-100
+    - key: options.company_size.range_100_1000.short
+      t: 100-1000
+    - key: options.company_size.range_more_than_1000.short
+      t: '>1000'
+
+    # salary
+    - key: options.yearly_salary.range_work_for_free
+      t: Я работаю бесплатно
+    - key: options.yearly_salary.range_0_10
+      t: 0-10 тыс. долларов
+    - key: options.yearly_salary.range_10_30
+      t: 10-30 тыс. долларов
+    - key: options.yearly_salary.range_30_50
+      t: 30-50 тыс. долларов
+    - key: options.yearly_salary.range_50_100
+      t: 50-100 тыс. долларов
+    - key: options.yearly_salary.range_100_200
+      t: 100-200 тыс. долларов
+    - key: options.yearly_salary.range_more_than_200
+      t: 'Больше 200 тыс. долларов'
+
+    # salary (short versions)
+    - key: options.yearly_salary.range_work_for_free.short
+      t: '0 долларов'
+    - key: options.yearly_salary.range_0_10.short
+      t: 0-10 тыс. долларов
+    - key: options.yearly_salary.range_10_30.short
+      t: 10-30 тыс. долларов
+    - key: options.yearly_salary.range_30_50.short
+      t: 30-50 тыс. долларов
+    - key: options.yearly_salary.range_50_100.short
+      t: 50-100 тыс. долларов
+    - key: options.yearly_salary.range_100_200.short
+      t: 100-200 тыс. долларов
+    - key: options.yearly_salary.range_more_than_200.short
+      t: 'Больше 200 тыс. долларов'
+
+    # job titles
+    - key: options.job_title.cto
+      t: Технический директор
+    - key: options.job_title.front_end_developer
+      t: Фронтенд-разработчик/инженер
+    - key: options.job_title.back_end_developer
+      t: Бэкенд-разработчик/инженер
+    - key: options.job_title.full_stack_developer
+      t: Фулстек-разработчик/инженер
+    - key: options.job_title.web_developer
+      t: Веб-разработчик
+    - key: options.job_title.web_designer
+      t: Веб-дизайнер
+    - key: options.job_title.ux_designer
+      t: UX-дизайнер
+    - key: options.job_title.ui_designer
+      t: UI-дизайнер
+    - key: options.job_title.back_end_dev
+      t: Бэкенд-разработчик/инженер
+
+    # JavaScript proficiency
+
+    - key: options.javascript_proficiency.0
+      t: Не пишу на JavaScript.
+    - key: options.javascript_proficiency.1
+      t: Пишу короткие, простые выражения на JavaScript или jQuery
+    - key: options.javascript_proficiency.2
+      t: Работаю с фронтендом, используя современные фреймворки (React, Vue и т.д.)
+    - key: options.javascript_proficiency.3
+      t: Могу написать фронтенд с нуля
+    - key: options.javascript_proficiency.4
+      t: Владею продвинутыми фронтенд-паттернами (управление состоянием, загрузка данных и т.д.)
+
+    # CSS proficiency
+
+    - key: options.css_proficiency.0
+      t: Практически не знаю CSS
+    - key: options.css_proficiency.1
+      t: Использую CSS-фреймворки и изменяю существующие стили
+    - key: options.css_proficiency.2
+      t: Знаю правила специфичности, умею создавать раскладки
+    - key: options.css_proficiency.3
+      t: Владею анимацией, интерактивностью, переходами и т.д.
+    - key: options.css_proficiency.4
+      t: Могу взять на себя стилизацию всего фронтенда с нуля, следуя единой методологии
+
+    # Back-end proficiency
+
+    - key: options.backend_proficiency.0
+      t: Не работаю с бэкендом
+    - key: options.backend_proficiency.1
+      t: Могу устанавливать универсальные CMS (WordPress и т.п.) или статические генераторы сайтов (Jekyll, etc.)
+    - key: options.backend_proficiency.2
+      t: Могу разрабатывать приложения, используя существующие фреймворки (Rails, Laravel и т.п.)
+    - key: options.backend_proficiency.3
+      t: Могу разработать весь бэкенд с нуля (Go, Node и т.п.)
+    - key: options.backend_proficiency.4
+      t: Могу управлять сложными многосерверными или микросервисными архитектурами
+
+    # Proficiency (generic versions)
+    - key: options.proficiency.0
+      t: Отсутствует
+    - key: options.proficiency.1
+      t: Начинающий
+    - key: options.proficiency.2
+      t: Промежуточный
+    - key: options.proficiency.3
+      t: Продвинутый
+    - key: options.proficiency.4
+      t: Эксперт
+
+    # Gender
+
+    - key: options.gender.female
+      t: Женский
+    - key: options.gender.male
+      t: Мужской
+    - key: options.gender.non_binary
+      t: Небинарный/Третий пол
+    - key: options.gender.prefer_not_to_say
+      t: Неважно
+
+    # Race & Ethnicity
+
+    - key: options.race_ethnicity.white_european
+      t: Белый или европеец
+    - key: options.race_ethnicity.south_asian
+      t: Уроженец Южной Азии
+    - key: options.race_ethnicity.hispanic_latin
+      t: Испанец или латиноамериканец
+    - key: options.race_ethnicity.east_asian
+      t: Уроженец Восточной Азии
+    - key: options.race_ethnicity.middle_eastern
+      t: Уроженец Ближнего Востока
+    - key: options.race_ethnicity.black_african
+      t: Чёрный или африканец
+    - key: options.race_ethnicity.multiracial
+      t: Метис
+    - key: options.race_ethnicity.biracial
+      t: Представитель двух рас
+    - key: options.race_ethnicity.native_american_islander_australian
+      t: Коренной американец, либо уроженец островов Тихого океана, либо коренной австралиец
+
+    # image fallback
+    - key: options.skin_tone.0
+      t: <img src="/emojis/icons8-bald-man-light-skin-tone-100.png" alt="Эмодзи светлого тона кожи"/>
+    - key: options.skin_tone.1
+      t: <img src="/emojis/icons8-bald-man-medium-light-skin-tone-100.png" alt="Эмодзи средне-светлого тона кожи"/>
+    - key: options.skin_tone.2
+      t: <img src="/emojis/icons8-bald-man-medium-skin-tone-100.png" alt="Эмодзи среднего тона цвета кожи"/>
+    - key: options.skin_tone.3
+      t: <img src="/emojis/icons8-bald-man-medium-dark-skin-tone-100.png" alt="Эмодзи средне-тёмного тона кожи"/>
+    - key: options.skin_tone.4
+      t: <img src="/emojis/icons8-bald-man-dark-skin-tone-100.png" alt="Эмодзи тёмного тона кожи"/>
+
+    ###########################################################################
+    # Tools
+    ###########################################################################
+
+    - key: tools.other_tools
+      t: Другие варианты
+    - key: tools.other_tools.description
+      t: Что-то другое, кроме представленных выше вариантов.
+    - key: tools.happiness
+      t: Общий показатель счастья
+    - key: tools.happiness.description
+      t: >
+          По шкале от одного (очень недоволен) до пяти (очень доволен), насколько вы довольны
+          текущими перечисленными выше вариантами?
+
+    ###########################################################################
+    # Demographics (About You/User Info)
+    ###########################################################################
+
+    # years of experience
+    - key: user_info.years_of_experience
+      t: Опыт
+    - key: user_info.years_of_experience.description
+      t: Как долго вы работаете или учитесь в данной области.
+
+    # company size
+    - key: user_info.company_size
+      t: Размер компании
+    - key: user_info.company_size.description
+      t: Разбивка по размеру компании
+
+    # salary ranges
+    - key: user_info.yearly_salary
+      t: Годовая зарплата
+    - key: user_info.yearly_salary.description
+      t: В долларах США.
+
+    # job title
+    - key: user_info.job_title
+      t: Должность
+    - key: user_info.job_title.description
+      t: Как вы представляетесь на публичных мероприятиях?
+
+    # javascript proficiency
+
+    - key: user_info.javascript_proficiency
+      t: Уровень владения JavaScript
+    - key: user_info.javascript_proficiency.description
+      t: Ваш опыт работы с JavaScript?
+
+    # css proficiency
+
+    - key: user_info.css_proficiency
+      t: Уровень владения CSS
+    - key: user_info.css_proficiency.description
+      t: Ваш опыт работы с CSS?
+
+    # backend proficiency
+    - key: user_info.backend_proficiency
+      t: Уровень владения бэкендом
+    - key: user_info.backend_proficiency.description
+      t: Ваш опыт работы в бэкенд-разработке?
+
+    # gender
+    - key: user_info.gender
+      t: Пол
+
+    # skin tone/appearance
+    - key: user_info.race_ethnicity
+      t: Раса и этническая принадлежность
+
+    # other info
+    - key: user_info.how_did_user_find_out_about_the_survey
+      t: Как вы узнали об этом опросе?
+    - key: user_info.email
+      t: Ваша электронная почта
+    - key: user_info.country
+      t: Ваша страна
+
+    ###########################################################################
+    # Other Tools
+    ###########################################################################
+
+    - key: tools_others.text_editors
+      t: Текстовые редакторы
+    - key: tools_others.text_editors.description
+      t: Какими текстовыми редакторами вы регулярно пользуетесь?
+    - key: tools_others.text_editors.others
+      t: Другие текстовые редакторы
+    - key: tools_others.text_editors.others.description
+      t: Другие ответы (поле со свободной формой ответа).
+
+    - key: tools_others.utilities
+      t: Утилиты
+    - key: tools_others.utilities.description
+      t: Какие библиотеки-утилиты вы регулярно используете?
+    - key: tools_others.utilities.others
+      t: Другие утилиты
+    - key: tools_others.utilities.others.description
+      t: Другие утилиты (поле со свободной формой ответа).
+
+    - key: tools_others.browsers
+      t: Браузеры
+    - key: tools_others.browsers.description
+      t: В каких браузерах вы в основном работаете?
+    - key: tools_others.browsers.others
+      t: Другие браузеры
+    - key: tools_others.browsers.others.description
+      t: Другие ответы (поле со свободной формой ответа).
+
+    - key: tools_others.build_tools
+      t: Сборщики
+    - key: tools_others.build_tools.description
+      t: Какие сборщики вы используете?
+    - key: tools_others.build_tools.others
+      t: Другие сборщики
+    - key: tools_others.build_tools.others.description
+      t: Другие ответы (поле со свободной формой ответа).
+
+    - key: tools_others.non_js_languages
+      t: Языки, помимо JavaScript
+    - key: tools_others.non_js_languages.description
+      t: Какими другими языками программирования вы пользуетесь?
+    - key: tools_others.non_js_languages.others
+      t: Другие языки
+    - key: tools_others.non_js_languages.others.description
+      t: Другие ответы (поле со свободной формой ответа).
+
+    ###########################################################################
+    # Resources
+    ###########################################################################
+
+    # blogs & magazines
+    - key: resources.blogs_news_magazines
+      t: Блоги и журналы
+    - key: resources.blogs_news_magazines.description
+      t: Какие блоги, журналы (и т.п.) вы читаете?
+    - key: resources.blogs_news_magazines.others
+      t: Другие блоги и журналы
+    - key: resources.blogs_news_magazines.others.description
+      t: Другие ответы (поле со свободной формой ответа).
+
+    # sites & courses
+    - key: resources.sites_courses
+      t: Сайты и курсы
+    - key: resources.sites_courses.description
+      t: К каким сайтам, курсам (и т.п.) вы обращаетесь?
+    - key: resources.sites_courses.others
+      t: Другие сайты и курсы
+    - key: resources.sites_courses.others.description
+      t: Другие ответы (поле со свободной формой ответа).
+
+    # podcasts
+    - key: resources.podcasts
+      t: Подкасты
+    - key: resources.podcasts.description
+      t: Какие подкасты по программированию вы слушаете?
+    - key: resources.podcasts.others
+      t: Другие подкасты
+    - key: resources.podcasts.others.description
+      t: Другие ответы (поле со свободной формой ответа).

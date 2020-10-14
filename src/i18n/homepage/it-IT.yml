@@ -23,10 +23,10 @@ translations:
       t: >
           ### CSS si sta evolvendo veloce come non mai.
 
-      
+
           Flexbox, Grid, Multi-Colonne… Per non parlare dei nuovi paradigmi come CSS-in-JS.
 
-      
+
           Quindi dopi il successo del nostro sondaggio annuale "State Of JavaScript",
           abbiamo deciso di entrare nel mondo dei fogli di stile e selettori per aiutare
           ad identificare le ultime mode… e provare a collegare le due grandi, e sempre più distanti, parti di front-end!

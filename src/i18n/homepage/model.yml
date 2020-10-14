@@ -1,54 +1,52 @@
 locale: en-US
 translations:
-  
-  ###########################################################################
-  # Homepage
-  ###########################################################################
-  
-  - key: homepage.hand_coded # TODO
-    t: Hand-coded in Japan.
-  - key: homepage.leave_issue # TODO
-    t: Leave an issue
-  - key: homepage.get_in_touch # TODO
-    t: Get in touch
+    ###########################################################################
+    # Homepage
+    ###########################################################################
 
-  - key: homepage.made_by # TODO
-    t: 'The State of CSS is Made by:'
-  - key: homepage.leave_issue # TODO
-    t: Leave an issue
+    - key: homepage.hand_coded # TODO
+      t: Hand-coded in Japan.
+    - key: homepage.leave_issue # TODO
+      t: Leave an issue
+    - key: homepage.get_in_touch # TODO
+      t: Get in touch
 
-  - key: homepage.previous_years # TODO
-    t: 'Previous Years:
-'
-  - key: homepage.intro # TODO
-    t: >
-        ## CSS is evolving faster than ever.
-        
-        Flexbox, Grid, Multi-Column… To say nothing of whole new paradigms like CSS-in-JS.
-        
-        So after the success of our annual [State Of JavaScript](https://stateofjs.com) survey, we’ve decided to take on
-        the world of styles and selectors to help identify the latests trends… and try to bridge
-        the ever-growing “great front-end divide”!
+    - key: homepage.made_by # TODO
+      t: 'The State of CSS is Made by:'
+    - key: homepage.leave_issue # TODO
+      t: Leave an issue
 
-  - key: homepage.take_survey # TODO
-    t: Take Survey
+    - key: homepage.previous_years # TODO
+      t: 'Previous Years:'
+    - key: homepage.intro # TODO
+      t: >
+          ## CSS is evolving faster than ever.
 
-  - key: homepage.view_results # TODO
-    t: View 2019 Results
+          Flexbox, Grid, Multi-Column… To say nothing of whole new paradigms like CSS-in-JS.
 
-  - key: share.help_spread # TODO
-    t: Help Spread the Word!
+          So after the success of our annual [State Of JavaScript](https://stateofjs.com) survey, we’ve decided to take on
+          the world of styles and selectors to help identify the latests trends… and try to bridge
+          the ever-growing “great front-end divide”!
 
-  - key: newsletter.stay_tuned # TODO
-    t: Stay Tuned
-  - key: newsletter.leave_your_email # TODO
-    t: Leave us your email and we’ll let you know when the next survey takes place.
+    - key: homepage.take_survey # TODO
+      t: Take Survey
 
-  - key: author.sacha.bio # TODO
-    t: >
-        Creator of the [Nivo](http://nivo.rocks/) JavaScript data visualization library as well
-        as [Mozaik](http://mozaik.rocks/), a tool for building beautiful dashboards.
-  - key: author.raphael.bio # TODO
-    t: >
-        Creator of the [Sidebar](http://sidebar.io) daily newsletter and
-        [VulcanJS](http://vulcanjs.org), a React+GraphQL open-source framework.
+    - key: homepage.view_results # TODO
+      t: View 2019 Results
+
+    - key: share.help_spread # TODO
+      t: Help Spread the Word!
+
+    - key: newsletter.stay_tuned # TODO
+      t: Stay Tuned
+    - key: newsletter.leave_your_email # TODO
+      t: Leave us your email and we’ll let you know when the next survey takes place.
+
+    - key: author.sacha.bio # TODO
+      t: >
+          Creator of the [Nivo](http://nivo.rocks/) JavaScript data visualization library as well
+          as [Mozaik](http://mozaik.rocks/), a tool for building beautiful dashboards.
+    - key: author.raphael.bio # TODO
+      t: >
+          Creator of the [Sidebar](http://sidebar.io) daily newsletter and
+          [VulcanJS](http://vulcanjs.org), a React+GraphQL open-source framework.
