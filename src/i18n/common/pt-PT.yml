@@ -53,6 +53,10 @@ translations:
     t: "Inquéritos disponíveis em:"
   - key: general.help_us_translate
     t: Ajude-nos a traduzir os inquéritos »
+  - key: general.translators # TODO
+    t: Translators
+  - key: general.translation_help # TODO
+    t: Translation Help
 
   # footer
   - key: general.privacy_policy

@@ -54,6 +54,10 @@ translations:
     t: "Surveys available in:"
   - key: general.help_us_translate
     t: Help us translate the surveys »
+  - key: general.translators
+    t: Translators
+  - key: general.translation_help
+    t: Translation Help
 
   # footer
   - key: general.privacy_policy

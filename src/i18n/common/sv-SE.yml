@@ -54,6 +54,10 @@ translations:
     t: "Undersökningar tillgängliga på:"
   - key: general.help_us_translate
     t: Hjälp oss översätta undersökningar »
+  - key: general.translators # TODO
+    t: Translators
+  - key: general.translation_help # TODO
+    t: Translation Help
 
   # footer
   - key: general.privacy_policy

@@ -50,6 +50,14 @@ translations:
     t: This survey is now closed.
   - key: general.survey_results # TODO
     t: View Survey Results »
+  - key: general.surveys_available_languages # TODO
+    t: "Surveys available in:"
+  - key: general.help_us_translate # TODO
+    t: Help us translate the surveys »
+  - key: general.translators # TODO
+    t: Translators
+  - key: general.translation_help # TODO
+    t: Translation Help
 
   # footer
   - key: general.privacy_policy # TODO

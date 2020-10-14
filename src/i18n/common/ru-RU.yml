@@ -54,6 +54,10 @@ translations:
     t: "Опросы доступны на следующих языках:"
   - key: general.help_us_translate
     t: Помочь с передовом опросов »
+  - key: general.translators # TODO
+    t: Translators
+  - key: general.translation_help # TODO
+    t: Translation Help
 
   # footer
   - key: general.privacy_policy
