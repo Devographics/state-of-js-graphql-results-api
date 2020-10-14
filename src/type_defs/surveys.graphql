@@ -13,6 +13,7 @@
 #import "./tools.graphql"
 #import "./translations.graphql"
 #import "./environments.graphql"
+#import "./proficiency.graphql"
 
 enum SurveyType {
     state_of_js
@@ -86,4 +87,8 @@ type Survey @cacheControl(maxAge: 600) {
     Environments data, for those based on rating, such as css for emails...
     """
     environmentsRatings(id: EnvironmentID!): EnvironmentsRatings
+    """
+    Proficiency data, such as backend proficiency, javascript...
+    """
+    proficiency(id: ProficiencyID!): Proficiency
 }

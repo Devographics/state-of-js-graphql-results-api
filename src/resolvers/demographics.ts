@@ -189,7 +189,8 @@ export default {
 
             return allYears.find(y => y.year === year)
         }
-    },
+    }
+    /*
     CSSProficiency: {
         allYears: async (
             { survey, filters }: { survey: SurveyConfig; filters?: Filters },
@@ -222,4 +223,5 @@ export default {
             return allYears.find(y => y.year === year)
         }
     }
+    */
 }

@@ -11,6 +11,7 @@ import resources from './resources'
 import entities from './entities'
 import query from './query'
 import environments from './environments'
+import proficiency from './proficiency'
 
 export default {
     ...surveys,
@@ -25,5 +26,6 @@ export default {
     ...resources,
     ...entities,
     ...environments,
+    ...proficiency,
     ...query
 }

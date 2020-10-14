@@ -157,6 +157,14 @@ export default {
             survey,
             id,
             filters
+        }),
+        proficiency: (
+            survey: SurveyConfig,
+            { id, filters }: { id: string; filters?: Filters }
+        ) => ({
+            survey,
+            id,
+            filters
         })
     }
 }

@@ -216,32 +216,6 @@ type JobTitle @cacheControl(maxAge: 600) {
 }
 
 """
-Proficiency Level
-"""
-type ProficiencyBucket @cacheControl(maxAge: 600) {
-    id: Int
-    count: Int
-    percentage: Float
-}
-
-type YearProficiency @cacheControl(maxAge: 600) {
-    year: String
-    total: Int
-    completion: Completion
-    buckets: [ProficiencyBucket] @cacheControl(maxAge: 600)
-}
-
-type CSSProficiency @cacheControl(maxAge: 600) {
-    allYears: [YearProficiency]
-    year(year: Int!): YearProficiency
-}
-
-type BackendProficiency @cacheControl(maxAge: 600) {
-    allYears: [YearProficiency]
-    year(year: Int!): YearProficiency
-}
-
-"""
 Information about particpants:
 - overall participation
 - gender
@@ -282,12 +256,4 @@ type Demographics @cacheControl(maxAge: 600) {
     Job title
     """
     jobTitle(filters: Filters): JobTitle @cacheControl(maxAge: 600)
-    """
-    Proficiency with front-end tools
-    """
-    cssProficiency(filters: Filters): CSSProficiency @cacheControl(maxAge: 600)
-    """
-    Proficiency with back-end tools
-    """
-    backendProficiency(filters: Filters): BackendProficiency @cacheControl(maxAge: 600)
 }

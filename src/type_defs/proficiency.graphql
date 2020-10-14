@@ -1,0 +1,27 @@
+enum ProficiencyID {
+    backend_proficiency
+    javascript_proficiency
+    css_proficiency
+}
+
+type ProficiencyBucket @cacheControl(maxAge: 600) {
+    id: Int
+    count: Int
+    percentage: Float
+}
+
+type YearProficiency @cacheControl(maxAge: 600) {
+    year: Int
+    """
+    Total number of respondents who have answered this specific question.
+    """
+    total: Int
+    completion: Completion
+    buckets: [ProficiencyBucket] @cacheControl(maxAge: 600)
+}
+
+type Proficiency @cacheControl(maxAge: 600) {
+    id: ProficiencyID!
+    allYears: [YearProficiency] @cacheControl(maxAge: 600)
+    year(year: Int!): YearProficiency
+}
