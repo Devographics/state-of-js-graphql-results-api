@@ -195,6 +195,10 @@ enum JobTitleID {
     front_end_developer
     web_developer
     back_end_developer
+    web_designer
+    ui_designer
+    ux_designer
+
 }
 
 type JobTitleBucket @cacheControl(maxAge: 600) {
