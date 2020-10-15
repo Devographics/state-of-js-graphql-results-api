@@ -241,7 +241,7 @@ translations:
     - key: features_others.units
       t: Единицы измерения
     - key: features_others.units.description
-      t: Какую из этих единиц измерения CSS вы использовали?
+      t: Какие из этих единиц измерения CSS вы использовали?
 
     - key: options.units.px
       t: px
