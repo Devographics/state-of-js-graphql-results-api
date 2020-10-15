@@ -1,0 +1,31 @@
+- id: en-US
+  label: English
+  translators: []
+
+- id: fr-FR
+  label: Français
+  translators: ['arnauddrain']
+
+- id: it-IT
+  label: Italiano
+  translators: ['polettoweb']
+
+- id: pt-PT
+  label: Português
+  translators: ['danisal']
+
+- id: ru-RU
+  label: Русский
+  translators: ['lex111', 'Omhet']
+
+- id: sv-SE
+  label: Svenska
+  translators: ['m-hagberg']
+
+- id: zh-Hans
+  label: 中文
+  translators: []
+
+- id: es-ES
+  label: Español
+  translators: [timbergus, ezkato]

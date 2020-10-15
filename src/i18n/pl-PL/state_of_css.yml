@@ -1,0 +1,336 @@
+locale: pl-PL
+namespace: css
+translations:
+    ###########################################################################
+    # General
+    ###########################################################################
+
+    - key: general.survey_intro_css2020
+      t: >
+          CSS ewoluuje szybciej niż kiedykolwiek
+
+
+          Flexbox, Grid, Multi-Column… Nie mówiąc już o zupełnie nowych paradygmatach, jak CSS-in-JS.
+
+
+          Po sukcesie naszej corocznej ankiety State Of JavaScript,
+          postanowiliśmy zainteresować się światem styli i selektorów, aby
+          rozeznać się w najnowszych trendach... i spróbować zażegnać wciąż rosnący "wielki rozłam frontendowy"!
+
+    ###########################################################################
+    # Sections
+    ###########################################################################
+
+    - key: sections.layout.title
+      t: Pozycjonowanie
+    - key: sections.layout.description
+      t: Jak pozycjonujesz elementy na ekranie?
+
+    - key: sections.shapes_graphics.title
+      t: Kształty i grafiki
+    - key: sections.shapes_graphics.description
+      t: Kontrolowanie kształtu i sposobu wyświetlania elementów.
+
+    - key: sections.interactions.title
+      t: Interakcje
+    - key: sections.interactions.description
+      t: Kontrolowanie interakcji użytkowników ze stroną.
+
+    - key: sections.typography.title
+      t: Typografia
+    - key: sections.typography.description
+      t: Formatowanie i pozycjonowanie tekstu.
+
+    - key: sections.animations_transforms.title
+      t: Animacje i transformacje
+    - key: sections.animations_transforms.description
+      t: Animowanie i transformowanie elementów.
+
+    - key: sections.media_queries.title
+      t: Media Queries
+    - key: sections.media_queries.description
+      t: Sposoby przystosowywania twojej strony do urządzeń i preferencji użytkowników.
+
+    - key: sections.other_features.title
+      t: Inne funkcjonalności
+    - key: sections.other_features.description
+      t: Inne funkcjonalności CSS-a.
+
+    - key: sections.units_selectors.title
+      t: Jednostki i selektory
+    - key: sections.units_selectors.description
+      t: Sprawdź swoją wiedzę o CSS-owych jednostkach i selektorach.
+
+    - key: sections.pre_post_processors.title
+      t: Pre-/Post-procesory
+    - key: sections.pre_post_processors.description
+      t: Narzędzia rozszerzające CSS.
+
+    - key: sections.css_frameworks.title
+      t: Frameworki CSS-owe
+    - key: sections.css_frameworks.description
+      t: Biblioteki dostarczające gotowe elementy i style.
+
+    - key: sections.css_methodologies.title
+      t: Metodologie CSS
+    - key: sections.css_methodologies.description
+      t: Skodyfikowane sposoby na pisanie lepszego CSS-a.
+
+    - key: sections.css_in_js.title
+      t: CSS-in-JS
+    - key: sections.css_in_js.description
+      t: Biblioteki pomagające zintegrować CSS z kodem JavaScriptowym.
+
+    - key: sections.environments.title
+      t: Środowiska
+    - key: sections.environments.description
+      t: Jakie środowiska wspiera twój CSS?
+
+    ###########################################################################
+    # Options
+    ###########################################################################
+
+    # CSS for print
+    - key: options.css_for_print.0
+      t: (Prawie) nigdy nie tworzę styli do druku
+    - key: options.css_for_print.1
+      t: Czasem tworzę style do druku
+    - key: options.css_for_print.2
+      t: Tworzę style do druku w większości projektów
+    - key: options.css_for_print.3
+      t: Skupiam się głównie na tworzeniu styli do druku
+
+    # CSS for email
+    - key: options.css_for_email.0
+      t: (Prawie) nigdy nie tworzę CSS-a dla klientów email
+    - key: options.css_for_email.1
+      t: Czasem tworzę CSS dla klientów email
+    - key: options.css_for_email.2
+      t: Tworzę CSS dla klientów email w większości projektów
+    - key: options.css_for_email.3
+      t: Skupiam się głównie na tworzeniu CSS-a dla klientów email
+
+    ###########################################################################
+    # Features
+    ###########################################################################
+
+    # layout
+
+    - key: features.grid
+      t: Grid
+    - key: features.subgrid
+      t: Subgrid
+    - key: features.regions
+      t: Regiony
+    - key: features.flexbox
+      t: Flexbox
+    - key: features.multi_column
+      t: Multi-Column
+    - key: features.writing_modes
+      t: Tryby pisania
+    - key: features.exclusions
+      t: Wykluczenia
+    - key: features.position_sticky
+      t: '<code>position: sticky</code>'
+    - key: features.logical_properties
+      t: Właściwości logiczne
+    - key: features.logical_properties.description
+      t: <code>margin-block-start</code>, <code>padding-inline-end</code> itp.
+    - key: features.aspect_ratio
+      t: <code>aspect-ratio</code>
+    - key: features.content_visibility
+      t: <code>content-visibility</code>
+
+    # shapes & graphics
+    - key: features.shapes
+      t: Kształty
+    - key: features.object_fit
+      t: <code>object-fit</code>
+    - key: features.clip_path
+      t: <code>clip-path</code>
+    - key: features.masks
+      t: Maski
+    - key: features.blend_modes
+      t: Tryby mieszania
+    - key: features.blend_modes.description
+      t: <code>mix-blend-mode</code>
+    - key: features.filter_effects
+      t: Efekty filtrów
+    - key: features.backdrop_filter
+      t: <code>backdrop-filter</code>
+
+    # interactions
+    - key: features.scroll_snap
+      t: Scroll Snap
+    - key: features.overscroll_behavior
+      t: <code>overscroll-behavior</code>
+    - key: features.overflow_anchor
+      t: <code>overflow-anchor</code>
+    - key: features.touch_action
+      t: <code>touch-action</code>
+    - key: features.pointer_events
+      t: <code>pointer-events</code>
+
+    # typography
+    - key: features.web_fonts
+      t: Czcionki webowe (@font-face)
+    - key: features.variables_fonts
+      t: Zmienne czcionki
+    - key: features.line_breaking
+      t: Właściwości łamiące wiersze
+    - key: features.line_breaking.description
+      t: <code>overflow-wrap</code>, <code>word-break</code>, <code>line-break</code>, <code>hyphens</code>
+    - key: features.font_variant
+      t: <code>font-variant-*</code>
+    - key: features.initial_letter
+      t: <code>initial-letter</code>
+    - key: features.font_variant_numeric
+      t: <code>font-variant-numeric</code>
+    - key: features.font_display
+      t: <code>font-display</code>
+    - key: features.line_clamp
+      t: <code>line-clamp</code>
+    - key: features.leading_trim
+      t: <code>leading-trim</code>
+    - key: features.direction
+      t: <code>direction</code>
+    - key: features.direction.description
+      t: Łącznie z atrybutem HTML <code>dir</code>.
+
+    # animations & transforms
+    - key: features.transitions
+      t: Tranzycje
+    - key: features.transforms
+      t: Transformacje
+    - key: features.animations
+      t: Animacje
+    - key: features.perspective
+      t: <code>perspective</code>
+
+    # media queries
+    - key: features.feature_support_queries
+      t: Support Queries (<code>@supports</code>)
+    - key: features.prefers_reduced_motion
+      t: <code>prefers-reduced-motion</code>
+    - key: features.prefers_color_scheme
+      t: <code>prefers-color-scheme</code>
+    - key: features.color_gamut
+      t: <code>color-gamut</code>
+
+    # other features
+    - key: features.variables
+      t: Zmienne CSS (właściwości logiczne)
+    - key: features.containment
+      t: Ograniczanie
+    - key: features.will_change
+      t: <code>will-change</code>
+    - key: features.calc
+      t: <code>calc()</code>
+    - key: features.houdini
+      t: Houdini
+    - key: features.comparison_functions
+      t: Funkcje porównujące
+    - key: features.comparison_functions.description
+      t: <code>min()</code>, <code>max()</code> i <code>clamp()</code>
+
+    ###########################################################################
+    # Units & Selectors
+    ###########################################################################
+
+    # units & selectors
+    - key: features.units
+      t: Jednostki
+    - key: features.units.description
+      t: Których z tych jednostek kiedykolwiek użyłeś/aś?
+
+    - key: features.pseudo_elements
+      t: Pseudoelementy
+    - key: features.pseudo_elements.description
+      t: Których z tych selektorów kiedykolwiek użyłeś/aś?
+
+    - key: features.combinators
+      t: Kombinatory
+
+    - key: features.tree_document_structure
+      t: Struktura drzewa / dokumentu
+
+    - key: features.attributes
+      t: Atrybuty
+
+    - key: features.links_urls
+      t: Linki/URLe
+
+    - key: features.interaction
+      t: Interakcje
+
+    - key: features.form_controls
+      t: Kontrolki formularza
+
+    ###########################################################################
+    # Tools
+    ###########################################################################
+
+    - key: tools.atomiccss
+      t: Utility-First/Atomic CSS
+
+    ###########################################################################
+    # Environments
+    ###########################################################################
+
+    - key: environments.browsers
+      t: Przeglądarki
+    - key: environments.browsers.description
+      t: W których przeglądarkach testujesz swój kod?
+
+    - key: environments.form_factors
+      t: Współczynnik kształtu
+    - key: environments.form_factors.description
+      t: Dla jakich współczynników kształtu testujesz swój kod?
+
+    - key: environments.css_for_print
+      t: CSS do druku
+    - key: environments.css_for_print.description
+      t: Czy tworzysz style do druku?
+
+    - key: environments.css_for_email
+      t: CSS dla klientów email
+    - key: environments.css_for_email.description
+      t: Czy tworzysz CSS dla klientów email?
+
+    ###########################################################################
+    # Opinions
+    ###########################################################################
+
+    - key: opinions.css_easy_to_learn
+      t: CSS-a łatwo się nauczyć
+
+    - key: opinions.css_evolving_slowly
+      t: CSS ewoluuje za wolno
+
+    - key: opinions.utility_classes_to_be_avoided
+      t: Powinno się unikać używania klas pomocniczych (niesemantycznych) (.center, .large-text, itp.)
+
+    - key: opinions.selector_nesting_to_be_avoided
+      t: Powinno się unikać zagnieżdżania selektorów (.foo .bar ul li {...})
+
+    - key: opinions.css_is_programming_language
+      t: CSS to język programowania
+
+    - key: opinions.enjoy_writing_css
+      t: Lubię pisać CSS
+
+    - key: opinions_other.currently_missing_from_css.others
+      t: Czego według ciebie obecnie brakuje w CSS-ie?
+    - key: opinions_other.currently_missing_from_css.others.description
+      t: Funkcjonalności, które chciał(a)byś pewnego dnia zobaczyć w CSS-ie.
+
+    - key: opinions.sum_up_one_word_css
+      t: CSS jednym słowem
+    - key: opinions.sum_up_one_word_css.description
+      t: Jak byś podsumował/a swoją opinię o CSS-ie jednym słowem?
+
+    - key: happiness.state_of_the_web
+      t: W jakim stopniu jesteś zadowolony/a z ogólnej sytuacji w technologiach webowych?
+
+    - key: happiness.state_of_css
+      t: W jakim stopniu jesteś zadowolony/a z ogólnej sytuacji w CSS-ie?

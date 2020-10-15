@@ -1,0 +1,34 @@
+locale: sv-SE
+translations:
+    ###########################################################################
+    # General
+    ###########################################################################
+
+    ###########################################################################
+    # Features
+    ###########################################################################
+
+    - key: features.learn_more
+      t: Läs Mer (MDN)
+    - key: features.mdn_link
+      t: MDN
+    - key: features.caniuse_link
+      t: CanIUse
+    - key: features.specification_link
+      t: W3C Specifikation
+
+    ###########################################################################
+    # Tools & Methodologies
+    ###########################################################################
+
+    # general
+    - key: tools.links
+      t: Länkar
+    - key: tools.github_link
+      t: GitHub
+    - key: tools.github_stars
+      t: Stjärnor
+    - key: tools.homepage_link
+      t: Hemsida
+    - key: tools.npm_link
+      t: NPM

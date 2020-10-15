@@ -1,0 +1,215 @@
+locale: sv-SE
+namespace: js
+translations:
+    ###########################################################################
+    # General
+    ###########################################################################
+
+    - key: general.survey_intro_js2019
+      t: >
+          JavaScript-världen skulle må bra av lite klassificering.
+
+
+          Sen 2016 har denna undersökning samlat
+          data från över 20 000 utvecklare varje år för att indentifiera aktuella och kommande trender.
+
+
+          Genomför undersökning och hjälp oss ta reda på vilka bibliotek utvecklare
+          vill lära sig härnäst, vilka som har de mest nöjda användarna, och mycket mer.
+
+    ###########################################################################
+    # Sections
+    ###########################################################################
+
+    - key: sections.syntax.title
+      t: Syntax
+    - key: sections.syntax.description
+      t: JavaScriptens grammatik.
+
+    - key: sections.language.title
+      t: Språk
+    - key: sections.language.description
+      t: JavaScriptens vokabulär.
+
+    - key: sections.data_structures.title
+      t: Datastrukturer
+    - key: sections.data_structures.description
+      t: Hur du sparar och manipulerar data.
+
+    - key: sections.browser_apis.title
+      t: Webbläsar-APIer
+    - key: sections.browser_apis.description
+      t: Funktioner som tillhandahålls av webbläsaren.
+
+    - key: sections.other_features.title
+      t: Andra funktioner
+    - key: sections.other_features.description
+      t: Andra teknologier och patterns.
+
+    - key: sections.patterns.title
+      t: Patterns
+    - key: sections.patterns.description
+      t: Hur du föredrar att skriva kod.
+
+    - key: sections.javascript_flavors.title
+      t: JavaScript-flavors
+    - key: sections.javascript_flavors.description
+      t: Språk som kompilerar till JavaScript.
+
+    - key: sections.front_end_frameworks.title
+      t: Frontend-frameworks
+    - key: sections.front_end_frameworks.description
+      t: Frontend-frameworks och bibliotek.
+
+    - key: sections.datalayer.title
+      t: Datalager
+    - key: sections.datalayer.description
+      t: Läs in och hantera data i din app.
+
+    - key: sections.back_end_frameworks.title
+      t: Backend-frameworks
+    - key: sections.back_end_frameworks.description
+      t: JavaScript på servern.
+
+    - key: sections.testing.title
+      t: Testning
+    - key: sections.testing.description
+      t: Verktyg för att testa din kod.
+
+    - key: sections.mobile_desktop.title
+      t: Mobil & Desktop
+    - key: sections.mobile_desktop.description
+      t: JavaScript för mobila enheter och desktop-appar
+
+    ###########################################################################
+    # Options
+    ###########################################################################
+
+    # CSS for print
+    - key: options.css_for_print.0
+      t: Jag skriver (nästan) aldrig styles för print
+    - key: options.css_for_print.1
+      t: Jag skriver ibland styles för print
+    - key: options.css_for_print.2
+      t: Jag skriver styles för print i de flesta projekt jag jobbar med
+    - key: options.css_for_print.3
+      t: Jag skriver enbart styles för print
+
+    # CSS for email
+    - key: options.css_for_email.0
+      t: Jag skriver (nästan) aldrig CSS för email-klienter
+    - key: options.css_for_email.1
+      t: Jag skriver ibland CSS för email-klienter
+    - key: options.css_for_email.2
+      t: Jag skriver styles för email-klienter i de flesta projekten jag jobbar med
+    - key: options.css_for_email.3
+      t: Jag skriver enbart styles för email-klienter
+
+    ###########################################################################
+    # Features
+    ###########################################################################
+
+    # syntax
+    - key: features.destructuring
+      t: Destructuring
+    - key: features.destructuring.description
+      t: 'Example: <code>const { foo } = bar</code>'
+    - key: features.spread_operator
+      t: Spread-operander
+    - key: features.spread_operator.description
+      t: 'Example: <code>[...array1, ...array2]</code>'
+    - key: features.arrow_functions
+      t: Arrow-funktioner
+    - key: features.arrow_functions.description
+      t: 'Example: <code>const foo = () => {}</code>'
+
+    # language
+    - key: features.proxies
+      t: Proxies
+    - key: features.async_await
+      t: Async/Await
+    - key: features.promises
+      t: Promises
+    - key: features.decorators
+      t: Decorators
+    - key: features.decorators.description
+      t: >
+          I dess enklaste form är en dekorator endast ett sätt att lätt
+          wrappa en del av en kod med en annan — bokstavligt talat “dekorera“ den.
+
+    # data structures
+    - key: features.maps
+      t: Maps
+    - key: features.sets
+      t: Sets
+    - key: features.typed_arrays
+      t: Typade Arrayer
+    - key: array_prototype_flat
+      t: Array.prototype.flat
+
+    # browser apis
+    - key: features.service_workers
+      t: Service Workers
+    - key: features.local_storage
+      t: LocalStorage
+    - key: features.i18n
+      t: i18n
+    - key: features.web_components
+      t: Web Components
+    - key: features.web_audio
+      t: Web Audio API
+    - key: features.webgl
+      t: WebGL
+    - key: features.web_animations
+      t: Web Animations API
+    - key: features.webrtc
+      t: WebRTC
+    - key: features.web_speech
+      t: Web Speech API
+    - key: features.webvr
+      t: WebVR
+    - key: features.websocket
+      t: Websocket
+    - key: features.fetch
+      t: Fetch API
+
+    # other features
+    - key: features.pwa
+      t: Progressive Web Apps (PWA)
+    - key: features.wasm
+      t: WebAssembly (WASM)
+
+    # patterns
+    - key: patterns.object_oriented_programming
+      t: Objektorienterad Programmering
+    - key: features.functional_programming
+      t: Funktionell Programmering
+    - key: features.reactive_programming
+      t: Reaktiv Programmering
+
+    ###########################################################################
+    # Opinions
+    ###########################################################################
+
+    - key: opinions.js_moving_in_right_direction
+      t: JavaScript är på väg i rätt riktning
+
+    - key: opinions.building_js_apps_overly_complex
+      t: Att bygga JavaScript-appar är idag överdrivet komplext
+
+    - key: opinions.js_over_used_online
+      t: JavaScript är överanvänt online
+
+    - key: opinions.enjoy_building_js_apps
+      t: Jag gillar att skriva appar i JavaScript
+
+    - key: opinions.would_like_js_to_be_main_lang
+      t: Jag skulle vilja att JavaScript är mitt huvudsakliga programmeringsspråk
+
+    - key: opinions.js_ecosystem_changing_to_fast
+      t: Ekosystemet för JavaScript utvecklas alldeles för fort
+
+    - key: opinions.missing_from_js
+      t: Vad känner du saknas just nu i JavaScript?
+    - key: opinions.missing_from_js.description
+      t: Funktioner du önskar se i JavaScript i framtiden.

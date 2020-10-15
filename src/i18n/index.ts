@@ -2,40 +2,40 @@ import localesYAML from './locales.yml'
 import { Locale } from '../types'
 
 // initialize every locale with empty stringFiles array
-const locales: Locale[] = localesYAML.map((l: any) => ({...l, stringFiles: []}))
+const locales: Locale[] = localesYAML.map((l: any) => ({ ...l, stringFiles: [] }))
 
-const contexts: any = {
-    common: require.context('./common/', true, /\.yml$/),
-    homepage: require.context('./homepage/', true, /\.yml$/),
-    results: require.context('./results/', true, /\.yml$/),
-    state_of_css: require.context('./state_of_css/', true, /\.yml$/),
-    state_of_js: require.context('./state_of_js/', true, /\.yml$/)
+const localeDirectories: any = {
+    'en-US': require.context('./en-US/', true, /\.yml$/),
+    'es-ES': require.context('./es-ES/', true, /\.yml$/),
+    'fr-FR': require.context('./fr-FR/', true, /\.yml$/),
+    'it-IT': require.context('./it-IT/', true, /\.yml$/),
+    'pl-PL': require.context('./pl-PL/', true, /\.yml$/),
+    'pt-PT': require.context('./pt-PT/', true, /\.yml$/),
+    'ru-RU': require.context('./ru-RU/', true, /\.yml$/),
+    'sv-SE': require.context('./sv-SE/', true, /\.yml$/),
+    'zh-Hans': require.context('./zh-Hans/', true, /\.yml$/)
 }
 
-Object.keys(contexts).forEach(context => {
-    const req = contexts[context]
+locales.forEach((locale: Locale) => {
+    const req = localeDirectories[locale.id]
+    if (!localeDirectories) {
+        throw new Error(`No translation files directory found for locale ${locale.id}`)
+    }
     req.keys().forEach((key: any) => {
-        const fileName = key.replace('./', '').replace('.yml', '')
-        if (fileName === 'model') {
-            // do nothing
-        } else {
-            const locale = locales.find(l => l.id === fileName)
-            if (locale) {
-                try {
-                    const file = req(key)
-                    locale.stringFiles.push({
-                        strings: file.translations,
-                        context
-                    })
-                } catch (error) {
-                    console.log(error)
-                    throw new Error(`Error loading file ${context}/${key}`)
-                }
-            } else {
-                console.warn(`Locale ${fileName} not found in locales.yml, skipping file`)
-            }
+        // context is one of homepage, results, state_of_css, etc.
+        const context = key.replace('./', '').replace('.yml', '')
+        try {
+            const file = req(key)
+            locale.stringFiles.push({
+                strings: file.translations,
+                context
+            })
+        } catch (error) {
+            console.log(error)
+            throw new Error(`Error loading file ${locale.id}/${key}`)
         }
     })
 })
 
 export default locales
+
