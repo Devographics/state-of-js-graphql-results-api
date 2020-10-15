@@ -313,7 +313,7 @@ translations:
   - key: options.yearly_salary.range_100_200
     t: $100k-$200k
   - key: options.yearly_salary.range_more_than_200
-    t: más de $200k
+    t: Más de $200k
 
   # salary (short versions)
   - key: options.yearly_salary.range_work_for_free.short

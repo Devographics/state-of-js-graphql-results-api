@@ -315,7 +315,7 @@ translations:
     - key: options.yearly_salary.range_100_200 # TODO
       t: $100k-$200k
     - key: options.yearly_salary.range_more_than_200 # TODO
-      t: more than $200k
+      t: More than $200k
 
     # salary (short versions)
     - key: options.yearly_salary.range_work_for_free.short # TODO
