@@ -217,7 +217,7 @@ translations:
 
     # other features
     - key: features.variables
-      t: Variables CSS (Propriétés Logiques)
+      t: Variables CSS (Propriétés Custom)
     - key: features.containment
       t: Endiguement CSS
     - key: features.will_change

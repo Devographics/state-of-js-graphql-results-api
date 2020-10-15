@@ -220,7 +220,7 @@ translations:
 
   # other features
   - key: features.variables
-    t: Variables (Propiedades Lógicas)
+    t: Variables (Propiedades Custom)
   - key: features.containment
     t: CSS Containment
   - key: features.will_change

@@ -219,7 +219,7 @@ translations:
 
     # other features
     - key: features.variables
-      t: CSS-variabler (Logiska Properties)
+      t: CSS-variabler (Custom Properties)
     - key: features.containment
       t: CSS Containment
     - key: features.will_change

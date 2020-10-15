@@ -217,7 +217,7 @@ translations:
 
     # other features
     - key: features.variables
-      t: Variabili CSS (Proprietà logiche)
+      t: Variabili CSS (Proprietà custom)
     - key: features.feature_support_queries
       t: Query di Supporto (@supports)
     - key: features.containment
