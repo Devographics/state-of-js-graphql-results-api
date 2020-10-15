@@ -219,7 +219,7 @@ translations:
 
     # other features
     - key: features.variables # TODO
-      t: CSS Variables (Logical Properties)
+      t: CSS Variables (Custom Properties)
     - key: features.containment # TODO
       t: CSS Containment
     - key: features.will_change
