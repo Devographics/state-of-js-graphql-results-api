@@ -46,12 +46,36 @@ export const getGraphQLEnumValues = (name: string): string[] => {
 
 /*
 
+For a given locale id, get closest existing key.
+
+Ex: 
+
+en-US -> en-US
+en-us -> en-US
+en-gb -> en-US
+etc. 
+
+*/
+export const truncateKey = (key: string) => key.split('-')[0]
+
+export const getValidLocale = (localeId: string) => {
+    const validLocale = locales.find((locale: Locale) => {
+        const { id } = locale
+        return (
+            id.toLowerCase() === localeId.toLowerCase() || truncateKey(id) === truncateKey(localeId)
+        )
+    })
+    return validLocale
+}
+
+
+/*
+
 Get locale strings for a specific locale
 
 */
-export const getLocaleStrings = (localeId: string, contexts?: string[]) => {
-    const localeObject = locales[localeId]
-    let stringFiles = localeObject?.stringFiles
+export const getLocaleStrings = (locale: Locale, contexts?: string[]) => {
+    let stringFiles = locale.stringFiles
 
     // if contexts are specified, filter strings by them
     if (contexts) {
@@ -79,13 +103,17 @@ export const getLocaleStrings = (localeId: string, contexts?: string[]) => {
 
 /*
 
-Get a specific locale
+Get a specific locale with properly parsed strings
 
 */
 export const getLocale = (localeId: string, contexts?: string[]) => {
-    const strings = getLocaleStrings(localeId, contexts)
+    const validLocale = getValidLocale(localeId)
+    if (!validLocale) {
+        throw new Error(`No locale found for key ${localeId}`)
+    }
+    const strings = getLocaleStrings(validLocale, contexts)
     return {
-        id: localeId,
+        ...validLocale,
         strings
     }
 }
@@ -96,9 +124,7 @@ Get all locales
 
 */
 export const getLocales = () => {
-    return Object.keys(locales).map((localeId: string) => {
-        return { ...locales[localeId], id: localeId, strings: getLocaleStrings(localeId) }
-    })
+    return locales.map((locale: Locale) => getLocale(locale.id))
 }
 
 /*

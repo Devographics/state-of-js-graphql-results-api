@@ -1,11 +1,8 @@
 import localesYAML from './locales.yml'
+import { Locale } from '../types'
 
-const locales: any = localesYAML
-
-Object.keys(locales).forEach(l => {
-    // initialize every locale with empty stringFiles array
-    locales[l].stringFiles = []
-})
+// initialize every locale with empty stringFiles array
+const locales: Locale[] = localesYAML.map((l: any) => ({...l, stringFiles: []}))
 
 const contexts: any = {
     common: require.context('./common/', true, /\.yml$/),
@@ -18,23 +15,25 @@ const contexts: any = {
 Object.keys(contexts).forEach(context => {
     const req = contexts[context]
     req.keys().forEach((key: any) => {
-        const localeName = key.replace('./', '').replace('.yml', '')
-        if (localeName === 'model') {
+        const fileName = key.replace('./', '').replace('.yml', '')
+        if (fileName === 'model') {
             // do nothing
-        } else if (locales[localeName]) {
-            try {
-                const file = req(key)
-
-                locales[localeName].stringFiles.push({
-                    strings: file.translations,
-                    context
-                })
-            } catch (error) {
-                console.log(error)
-                throw new Error(`Error loading file ${context}/${key}`)
-            }
         } else {
-            console.warn(`Locale ${localeName} not declared in locales.yml, skipping file`)
+            const locale = locales.find(l => l.id === fileName)
+            if (locale) {
+                try {
+                    const file = req(key)
+                    locale.stringFiles.push({
+                        strings: file.translations,
+                        context
+                    })
+                } catch (error) {
+                    console.log(error)
+                    throw new Error(`Error loading file ${context}/${key}`)
+                }
+            } else {
+                console.warn(`Locale ${fileName} not found in locales.yml, skipping file`)
+            }
         }
     })
 })

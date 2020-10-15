@@ -1,9 +1,8 @@
 export interface Locale {
     id: string
-    locale: string
     label: string
     stringFiles: any[]
-    translators: string[]
+    translators?: string[]
 }
 
 export interface StringFile {
