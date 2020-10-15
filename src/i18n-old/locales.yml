@@ -6,6 +6,10 @@
   label: Français
   translators: ['arnauddrain']
 
+- id: hi-IN
+  label: Hindi
+  translators: ['jaideepghosh']
+
 - id: it-IT
   label: Italiano
   translators: ['polettoweb']
