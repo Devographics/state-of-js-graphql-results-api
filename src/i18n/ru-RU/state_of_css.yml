@@ -219,7 +219,7 @@ translations:
 
     # other features
     - key: features.variables
-      t: CSS-переменные (Custom Properties)
+      t: CSS-переменные (кастомные свойства)
     - key: features.containment
       t: CSS-изоляция
     - key: features.will_change

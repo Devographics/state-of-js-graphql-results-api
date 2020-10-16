@@ -82,27 +82,26 @@ translations:
       t: >
           Спасибо за заполнение опроса!
 
-
           Ваши ответы сохранены. До завершения опроса вы можете посмотреть или изменить их.
 
-
-          Кроме того, вы можете помочь нам, если расскажите другим людям об этом опросе. Даже небольшая активность с вашей стороны сделает опрос более точным:
-    - key: thanks.learn_more_about # TODO
-      t: 'Some of the features you might want to learn more about:'
-    - key: thanks.knowledge_score # TODO
-      t: Knowledge Score
-    - key: thanks.score_explanation # TODO
+          Кроме того, вы можете помочь нам, если расскажите другим людям об этом опросе.
+          Даже небольшая ваша активность поможет повысить точность опроса:
+    - key: thanks.learn_more_about
+      t: 'Некоторые возможности, которые хорошо бы изучить:'
+    - key: thanks.knowledge_score
+      t: Показатель ваших знаний
+    - key: thanks.score_explanation
       t: >
-          You’ve heard or used <span class="score-number score-number-known">{known}</span> out of
-          <span class="score-number score-number-total">{total}</span> features mentioned in the survey, which
-          puts you in the top <span class="score-number score-number-ranking">{knowledgeRankingFromTop}%</span>
-          of all respondents.
-    - key: thanks.share_on_twitter # TODO
-      t: Share on Twitter
-    - key: thanks.share_score_message # TODO
+          Вы знали или использовали <span class="score-number score-number-known">{known}</span> из
+          <span class="score-number score-number-total">{total}</span> возможностей, упомянутых в опросе.
+          Такой же результат ещё у <span class="score-number score-number-ranking">{knowledgeRankingFromTop}%</span>
+          участников опроса.
+    - key: thanks.share_on_twitter
+      t: Поделиться результатом в Twitter
+    - key: thanks.share_score_message
       t: >
-          I got a {score}% knowledge score on this year's {name} survey. 
-          Take the survey here: {shareUrl} {hashtag}
+          Мой уровень знаний в ежегодном опросе {name} — {score}%.
+          А какой будет у тебя? Проверь на {shareUrl} {hashtag}
           
     # share
     - key: general.share_subject
@@ -373,7 +372,7 @@ translations:
     # JavaScript proficiency
 
     - key: options.javascript_proficiency.0
-      t: Не пишу на JavaScript.
+      t: Не пишу на JavaScript
     - key: options.javascript_proficiency.1
       t: Пишу короткие, простые выражения на JavaScript или jQuery
     - key: options.javascript_proficiency.2
@@ -488,13 +487,13 @@ translations:
     - key: user_info.years_of_experience
       t: Опыт
     - key: user_info.years_of_experience.description
-      t: Как долго вы работаете или учитесь в данной области.
+      t: Как долго вы работаете или учитесь в своей области.
 
     # company size
     - key: user_info.company_size
       t: Размер компании
     - key: user_info.company_size.description
-      t: Разбивка по размеру компании
+      t: Насколько большая компания, в которой вы работаете.
 
     # salary ranges
     - key: user_info.yearly_salary
