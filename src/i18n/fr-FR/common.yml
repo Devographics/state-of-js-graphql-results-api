@@ -111,6 +111,10 @@ translations:
       t: >
           Le questionnaire {surveyName} de cette année est ouvert ! {link}
 
+    # forms
+    - key: forms.select_option # TODO
+      t: Select option
+
     ###########################################################################
     # Nav
     ###########################################################################

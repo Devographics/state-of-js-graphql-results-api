@@ -111,6 +111,10 @@ translations:
       t: >
           Detta års {surveyName}-undersökning är nu öppen! {link}
 
+    # forms
+    - key: forms.select_option # TODO
+      t: Select option
+
     ###########################################################################
     # Nav
     ###########################################################################
