@@ -107,6 +107,10 @@ translations:
       t: >
           Il sondaggio {surveyName} di quest'anno é ora aperto! {link}
 
+    # forms
+    - key: forms.select_option # TODO
+      t: Select option
+
     ###########################################################################
     # Nav
     ###########################################################################
