@@ -1,4 +1,5 @@
 import { GitHub } from './github'
+import { MDN } from './mdn'
 
 export interface Entity {
     id: string
@@ -10,6 +11,7 @@ export interface Entity {
     github?: GitHub
     npm?: string
     type?: string
+    mdn?: string
 }
 
 export interface EntityBucket {

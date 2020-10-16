@@ -5,7 +5,7 @@ import projects from './data/projects.yml'
 import typeDefs from './type_defs/schema.graphql'
 import features from './data/features.yml'
 
-const allEntities: Entity[] = [...projects, ...entities]
+const allEntities: Entity[] = [...projects, ...entities, ...features]
 
 export const getEntities = ({
     type,

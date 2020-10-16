@@ -1,5 +1,6 @@
-import { GitHub, SurveyConfig } from '../types'
+import { GitHub, SurveyConfig, Entity } from '../types'
 import projects from '../data/projects.yml'
+import { fetchMdnResource } from '../external_apis'
 
 const getSimulatedGithub = (id: string): GitHub | null => {
     const project = projects.find(p => p.id === id)
@@ -35,6 +36,15 @@ export default {
             // }
             // const github = await fetchGithubResource(projectObject.github)
             // return github
+        },
+        mdn: async (entity: Entity) => {
+            if (!entity || !entity.mdn) {
+                return
+            }
+
+            const mdn = await fetchMdnResource(entity.mdn)
+
+            return mdn.find((t: any) => t.locale === 'en-US')
         }
     }
 }

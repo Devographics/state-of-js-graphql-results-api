@@ -86,6 +86,22 @@ translations:
 
           Vous pouvez aussi nous aider en faisant connaître le questionnaire en le partageant. Chaque action compte et rendra
           nos données encore plus représentatives.
+    - key: thanks.learn_more_about # TODO
+      t: 'Some of the features you might want to learn more about:'
+    - key: thanks.knowledge_score # TODO
+      t: Knowledge Score
+    - key: thanks.score_explanation # TODO
+      t: >
+          You’ve heard or used <span class="score-number score-number-known">{known}</span> out of
+          <span class="score-number score-number-total">{total}</span> features mentioned in the survey, which
+          puts you in the top <span class="score-number score-number-ranking">{knowledgeRankingFromTop}%</span>
+          of all respondents.
+    - key: thanks.share_on_twitter # TODO
+      t: Share on Twitter
+    - key: thanks.share_score_message # TODO
+      t: >
+          I got a {score}% knowledge score on this year's {name} survey. 
+          Take the survey here: {shareUrl} {hashtag}
 
     # share
     - key: general.share_subject
