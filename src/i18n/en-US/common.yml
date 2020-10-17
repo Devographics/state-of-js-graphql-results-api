@@ -379,7 +379,7 @@ translations:
     - key: options.backend_proficiency.2
       t: Able to develop apps using pre-existing frameworks (Rails, Laravel, etc.)
     - key: options.backend_proficiency.3
-      t: Setting up an entire back-end from scratch (Go, Node, etc.)
+      t: Setting up an entire back-end from scratch (Go, Node.js, etc.)
     - key: options.backend_proficiency.4
       t: Able to handle complex multi-server or microservices architectures
 

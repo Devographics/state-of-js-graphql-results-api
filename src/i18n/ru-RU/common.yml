@@ -379,7 +379,7 @@ translations:
     - key: options.backend_proficiency.2
       t: Могу разрабатывать приложения, используя существующие фреймворки (Rails, Laravel и т.п.)
     - key: options.backend_proficiency.3
-      t: Могу разработать весь бэкенд с нуля (Go, Node и т.п.)
+      t: Могу разработать весь бэкенд с нуля (Go, Node.js и т.п.)
     - key: options.backend_proficiency.4
       t: Могу управлять сложными многосерверными или микросервисными архитектурами
 
