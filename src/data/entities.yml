@@ -682,7 +682,7 @@
 #               RESOURCES              #
 # ------------------------------------ #
 - id: css_tricks
-  name: CSS Tricks
+  name: CSS-Tricks
   homepage: https://css-tricks.com/
   category: blogs
   aliases:
@@ -696,7 +696,7 @@
   homepage: https://alistapart.com/
   category: blogs
 - id: codrops
-  name: CoDrops
+  name: Codrops
   homepage: https://tympanus.net/codrops/
   category: blogs
 - id: sitepoint
@@ -722,7 +722,7 @@
   aliases:
       - Wes Bos Courses (GSSGrid.io, Flexbox.io, etc.)
 - id: freecodecamp
-  name: FreeCodeCamp
+  name: freeCodeCamp
   homepage: https://www.freecodecamp.org/
   category: courses
 - id: freecodecamp_announcement_css2019

@@ -379,7 +379,7 @@ translations:
     - key: options.backend_proficiency.2
       t: 能够使用现有框架开发应用（Rails、Laravel 等）
     - key: options.backend_proficiency.3
-      t: 从零搭建整个后端（Go、Node 等）
+      t: 从零搭建整个后端（Go、Node.js 等）
     - key: options.backend_proficiency.4
       t: 能够掌控复杂的多台服务器或微服务架构
 

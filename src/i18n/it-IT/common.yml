@@ -373,7 +373,7 @@ translations:
     - key: options.backend_proficiency.2
       t: Essere in grado di sviluppare applicazioni usando framework per esistenti (Rails, Laravel, ecc.)
     - key: options.backend_proficiency.3
-      t: Essere in grado di impostare da zero un back-end completo (Go, Node, ecc.)
+      t: Essere in grado di impostare da zero un back-end completo (Go, Node.js, ecc.)
     - key: options.backend_proficiency.4
       t: Essere in grado di gestire architetture multi-server o di micro servizi complesse
 
