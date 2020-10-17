@@ -62,3 +62,14 @@ translations:
     t: Электронное письмо отправлено.
   - key: accounts.info_password_changed
     t: Пароль изменён.
+  - key: accounts.please_pick_password
+    t: Пожалуйста, придумайте новый пароль для продолжения.
+  - key: accounts.please_log_in
+    t: Авторизуйтесь или зарегистрируйтесь, чтобы начать опрос.
+  - key: accounts.logged_in_as
+    t: Вы авторизованы как {email}
+  - key: accounts.questions
+    t: >
+        Если у вас есть вопросы по поводу того, как будут использованы ваши ответы, или вы хотите
+        удалить их из нашей базы данных,
+        пожалуйста, <a href="mailto:hello@stateofjs.com">свяжитесь с нами</a>.

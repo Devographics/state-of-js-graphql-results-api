@@ -62,3 +62,14 @@ translations:
     t: Email sent.
   - key: accounts.info_password_changed
     t: Password changed.
+  - key: accounts.please_pick_password
+    t: Please pick a new password to continue.
+  - key: accounts.please_log_in
+    t: Please log in or sign up to begin.
+  - key: accounts.logged_in_as
+    t: Logged in as {email}
+  - key: accounts.questions
+    t: >
+        If you have any questions about how we use your data, or would like
+        us to remove your data from our records,
+        please <a href="mailto:hello@stateofjs.com">get in touch</a>.

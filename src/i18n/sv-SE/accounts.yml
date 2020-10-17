@@ -1,4 +1,4 @@
-locale: en-US
+locale: sv-SE
 translations:
   - key: accounts.error_incorrect_password # TODO
     t: Incorrect password
@@ -28,10 +28,10 @@ translations:
     t: Enter username
   - key: accounts.username # TODO
     t: Username
-  - key: accounts.enter_email # TODO
-    t: Enter email
-  - key: accounts.email # TODO
-    t: Email
+  - key: accounts.enter_email
+    t: Ange E-mail
+  - key: accounts.email
+    t: E-mail
   - key: accounts.enter_password # TODO
     t: Enter password
   - key: accounts.password # TODO
@@ -50,15 +50,26 @@ translations:
     t: New password
   - key: accounts.forgot_password # TODO
     t: Forgot password
-  - key: accounts.sign_up # TODO
-    t: Sign up
-  - key: accounts.sign_in # TODO
-    t: Sign in
-  - key: accounts.sign_out # TODO
-    t: Sign out
-  - key: accounts.cancel # TODO
-    t: Cancel
+  - key: accounts.sign_up
+    t: Skapa Konto
+  - key: accounts.sign_in
+    t: Logga In
+  - key: accounts.sign_out
+    t: Logga Ut
+  - key: accounts.cancel
+    t: Avbryt
   - key: accounts.info_email_sent # TODO
     t: Email sent.
   - key: accounts.info_password_changed # TODO
     t: Password changed.
+  - key: accounts.please_pick_password
+    t: Välj ett nytt lösenord för att fortsätta.
+  - key: accounts.please_log_in
+    t: Vänligen skapa konto eller logga in för att börja
+  - key: accounts.logged_in_as
+    t: Inloggad som {email}
+  - key: accounts.questions
+    t: >
+        Om du har några frågor gällande hur vi använder din data, eller om
+        du vill att vi raderar din data från vårt register,
+        vänligen <a href="mailto:hello@stateofjs.com">hör av dig</a>.

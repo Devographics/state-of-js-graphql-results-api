@@ -125,35 +125,6 @@ translations:
       t: Compte
 
     ###########################################################################
-    # Accounts
-    ###########################################################################
-
-    - key: accounts.sign_up
-      t: S'inscrire
-    - key: accounts.sign_in
-      t: Se connecter
-    - key: accounts.sign_out
-      t: Se déconnecter
-    - key: accounts.cancel
-      t: Annuler
-    - key: accounts.email
-      t: Email
-    - key: accounts.enter_email
-      t: Entrez votre Email
-
-    - key: accounts.please_pick_password
-      t: Merci de choisir un nouveau mot de passe pour continuer.
-    - key: accounts.please_log_in
-      t: Merci de vous connecter ou de vous inscrire pour commencer.
-    - key: accounts.logged_in_as
-      t: Connecté en tant que {email}
-    - key: accounts.questions
-      t: >
-          Si vous avez une question à propos de notre utilisation de vos données, ou si vous
-          voulez être retiré de nos enregistrements,
-          merci de <a href="mailto:hello@stateofjs.com">nous envoyer un message</a>.
-
-    ###########################################################################
     # Sections
     ###########################################################################
 
