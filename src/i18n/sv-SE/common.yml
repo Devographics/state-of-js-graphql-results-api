@@ -125,35 +125,6 @@ translations:
       t: Konto
 
     ###########################################################################
-    # Accounts
-    ###########################################################################
-
-    - key: accounts.sign_up
-      t: Skapa Konto
-    - key: accounts.sign_in
-      t: Logga In
-    - key: accounts.sign_out
-      t: Logga Ut
-    - key: accounts.cancel
-      t: Avbryt
-    - key: accounts.email
-      t: E-mail
-    - key: accounts.enter_email
-      t: Ange E-mail
-
-    - key: accounts.please_pick_password
-      t: Välj ett nytt lösenord för att fortsätta.
-    - key: accounts.please_log_in
-      t: Vänligen skapa konto eller logga in för att börja
-    - key: accounts.logged_in_as
-      t: Inloggad som {email}
-    - key: accounts.questions
-      t: >
-          Om du har några frågor gällande hur vi använder din data, eller om
-          du vill att vi raderar din data från vårt register,
-          vänligen <a href="mailto:hello@stateofjs.com">hör av dig</a>.
-
-    ###########################################################################
     # Sections
     ###########################################################################
 

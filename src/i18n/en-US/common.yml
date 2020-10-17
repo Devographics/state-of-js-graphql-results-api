@@ -125,35 +125,6 @@ translations:
       t: Account
 
     ###########################################################################
-    # Accounts
-    ###########################################################################
-
-    - key: accounts.sign_up
-      t: Sign Up
-    - key: accounts.sign_in
-      t: Log In
-    - key: accounts.sign_out
-      t: Sign Out
-    - key: accounts.cancel
-      t: Cancel
-    - key: accounts.email
-      t: Email
-    - key: accounts.enter_email
-      t: Enter Email
-
-    - key: accounts.please_pick_password
-      t: Please pick a new password to continue.
-    - key: accounts.please_log_in
-      t: Please log in or sign up to begin.
-    - key: accounts.logged_in_as
-      t: Logged in as {email}
-    - key: accounts.questions
-      t: >
-          If you have any questions about how we use your data, or would like
-          us to remove your data from our records,
-          please <a href="mailto:hello@stateofjs.com">get in touch</a>.
-
-    ###########################################################################
     # Sections
     ###########################################################################
 

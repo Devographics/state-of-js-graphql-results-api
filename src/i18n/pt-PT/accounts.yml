@@ -1,4 +1,4 @@
-locale: en-US
+locale: pt-PT
 translations:
   - key: accounts.error_incorrect_password # TODO
     t: Incorrect password
@@ -28,10 +28,10 @@ translations:
     t: Enter username
   - key: accounts.username # TODO
     t: Username
-  - key: accounts.enter_email # TODO
-    t: Enter email
-  - key: accounts.email # TODO
-    t: Email
+  - key: accounts.enter_email
+    t: Introduzir E-mail
+  - key: accounts.email
+    t: E-mail
   - key: accounts.enter_password # TODO
     t: Enter password
   - key: accounts.password # TODO
@@ -50,15 +50,26 @@ translations:
     t: New password
   - key: accounts.forgot_password # TODO
     t: Forgot password
-  - key: accounts.sign_up # TODO
-    t: Sign up
-  - key: accounts.sign_in # TODO
-    t: Sign in
-  - key: accounts.sign_out # TODO
-    t: Sign out
-  - key: accounts.cancel # TODO
-    t: Cancel
+  - key: accounts.sign_up
+    t: Registar
+  - key: accounts.sign_in
+    t: Entrar
+  - key: accounts.sign_out
+    t: Sair
+  - key: accounts.cancel
+    t: Cancelar
   - key: accounts.info_email_sent # TODO
     t: Email sent.
   - key: accounts.info_password_changed # TODO
     t: Password changed.
+  - key: accounts.please_pick_password
+    t: Por favor escolha uma nova senha para continuar.
+  - key: accounts.please_log_in
+    t: Por favor, inicie sessão ou registe-se para começar.
+  - key: accounts.logged_in_as
+    t: Ligado como {email}
+  - key: accounts.questions
+    t: >
+        Se tiver alguma dúvida sobre a forma como utilizamos os seus dados, ou se desejar
+        para remover os seus dados dos nossos registos,
+        por favor <a href="mailto:hello@stateofjs.com">entrar em contacto</a>.
