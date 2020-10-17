@@ -423,18 +423,46 @@ translations:
   - key: options.gender.prefer_not_to_say
     t: Prefer not to say
 
-  # Skin Tone
+  # Race & Ethnicity
 
-  - key: options.skin_tone.0
-    t: 🧑🏻‍🦲
-  - key: options.skin_tone.1
-    t: 🧑🏼‍🦲
-  - key: options.skin_tone.2
-    t: 🧑🏽‍🦲
-  - key: options.skin_tone.3
-    t: 🧑🏾‍🦲
-  - key: options.skin_tone.4
-    t: 🧑🏿‍🦲
+  - key: white_european #  # TODO
+    t: White or of European descent
+  - key: south_asian # TODO
+    t: South Asian
+  - key: hispanic_latin # TODO
+    t: Hispanic or Latino/Latina
+  - key: east_asian # TODO
+    t: East Asian
+  - key: middle_eastern # TODO
+    t: Middle Eastern
+  - key: black_african # TODO
+    t: Black or of African descent
+  - key: multiracial # TODO
+    t: Multiracial
+  - key: biracial # TODO
+    t: Biracial
+  - key: native_american_islander_australian # TODO
+    t: Native American, Pacific Islander, or Indigenous Australian
+
+  # Form Factors
+  - key: options.form_factors.desktop # TODO
+    t: Desktop
+  - key: options.form_factors.smartphone # TODO
+    t: Smartphone
+  - key: options.form_factors.feature_phone # TODO
+    t: Feature phone
+  - key: options.form_factors.tablet # TODO
+    t: Tablet
+  - key: options.form_factors.smart_watch # TODO
+    t: Smartwatch
+  - key: options.form_factors.tv # TODO
+    t: TV
+  - key: options.form_factors.gaming_console # TODO
+    t: Gaming console
+  - key: options.form_factors.screen_reader # TODO
+    t: Screen reader
+  - key: options.form_factors.print # TODO
+    t: Print
 
   ###########################################################################
   # Tools

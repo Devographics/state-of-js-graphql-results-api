@@ -456,6 +456,26 @@ translations:
     - key: options.race_ethnicity.native_american_islander_australian
       t: Nativo Americano, Ilhas do Pacífico, ou Australiano Indígena
 
+    # Form Factors
+    - key: options.form_factors.desktop # TODO
+      t: Desktop
+    - key: options.form_factors.smartphone # TODO
+      t: Smartphone
+    - key: options.form_factors.feature_phone # TODO
+      t: Feature phone
+    - key: options.form_factors.tablet # TODO
+      t: Tablet
+    - key: options.form_factors.smart_watch # TODO
+      t: Smartwatch
+    - key: options.form_factors.tv # TODO
+      t: TV
+    - key: options.form_factors.gaming_console # TODO
+      t: Gaming console
+    - key: options.form_factors.screen_reader # TODO
+      t: Screen reader
+    - key: options.form_factors.print # TODO
+      t: Print
+
     ###########################################################################
     # Tools
     ###########################################################################

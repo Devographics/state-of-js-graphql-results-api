@@ -456,18 +456,26 @@ translations:
     - key: native_american_islander_australian # TODO
       t: Native American, Pacific Islander, or Indigenous Australian
 
-    # image fallback
-    - key: options.skin_tone.0
-      t: <img src="/emojis/icons8-bald-man-light-skin-tone-100.png" alt="Ljus hudfärg emoji"/>
-    - key: options.skin_tone.1
-      t: <img src="/emojis/icons8-bald-man-medium-light-skin-tone-100.png" alt="Beige hudfärg emoji"/>
-    - key: options.skin_tone.2
-      t: <img src="/emojis/icons8-bald-man-medium-skin-tone-100.png" alt="Ljusbrun hudfärg emoji"/>
-    - key: options.skin_tone.3
-      t: <img src="/emojis/icons8-bald-man-medium-dark-skin-tone-100.png" alt="Mörkbrun hudfärg emoji"/>
-    - key: options.skin_tone.4
-      t: <img src="/emojis/icons8-bald-man-dark-skin-tone-100.png" alt="Mörk hudfärg emoji"/>
-
+    # Form Factors
+    - key: options.form_factors.desktop # TODO
+      t: Desktop
+    - key: options.form_factors.smartphone # TODO
+      t: Smartphone
+    - key: options.form_factors.feature_phone # TODO
+      t: Feature phone
+    - key: options.form_factors.tablet # TODO
+      t: Tablet
+    - key: options.form_factors.smart_watch # TODO
+      t: Smartwatch
+    - key: options.form_factors.tv # TODO
+      t: TV
+    - key: options.form_factors.gaming_console # TODO
+      t: Gaming console
+    - key: options.form_factors.screen_reader # TODO
+      t: Screen reader
+    - key: options.form_factors.print # TODO
+      t: Print
+      
     ###########################################################################
     # Tools
     ###########################################################################
