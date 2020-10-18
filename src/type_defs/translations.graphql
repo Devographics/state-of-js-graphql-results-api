@@ -19,10 +19,15 @@ type TranslationString @cacheControl(maxAge: 600) {
     key: String
     t: String
     context: String
+    fallback: Boolean
 }
 
 type Locale @cacheControl(maxAge: 600) {
     id: String
     translators: [String]
     strings: [TranslationString]
+    translatedCount: Int
+    totalCount: Int
+    completion: Int
+    untranslatedKeys: [String]
 }

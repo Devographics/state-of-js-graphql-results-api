@@ -1,5 +1,5 @@
 import { EnumTypeDefinitionNode } from 'graphql'
-import { Entity, StringFile, Locale } from './types'
+import { Entity, StringFile, Locale, TranslationString } from './types'
 import entities from './data/entities.yml'
 import projects from './data/projects.yml'
 import typeDefs from './type_defs/schema.graphql'
@@ -68,7 +68,6 @@ export const getValidLocale = (localeId: string) => {
     return validLocale
 }
 
-
 /*
 
 Get locale strings for a specific locale
@@ -98,7 +97,65 @@ export const getLocaleStrings = (locale: Locale, contexts?: string[]) => {
         })
         .flat()
 
-    return strings
+    return { strings }
+}
+
+/*
+
+Get locale strings with en-US strings as fallback
+
+*/
+export const getLocaleStringsWithFallback = (locale: Locale, contexts?: string[]) => {
+    let localeStrings: TranslationString[] = [],
+        translatedCount: number = 0,
+        totalCount: number = 0,
+        untranslatedKeys: string[] = []
+
+    const enLocale = getValidLocale('en-US')
+    if (enLocale) {
+        const enStrings = getLocaleStrings(enLocale, contexts).strings
+
+        // handle en-US locale separetely first
+        if (locale.id === 'en-US') {
+            return {
+                strings: enStrings.map(t => ({ ...t, fallback: false })),
+                translatedCount: enStrings.length,
+                totalCount: enStrings.length,
+                completion: 100,
+                untranslatedKeys
+            }
+        }
+
+        localeStrings = getLocaleStrings(locale, contexts).strings
+
+        enStrings.forEach((enTranslation: TranslationString) => {
+            totalCount++
+            const localeTranslationIndex = localeStrings.findIndex(t => t.key === enTranslation.key)
+            if (localeTranslationIndex === -1) {
+                // en-US key doesn't exist in current locale file
+                localeStrings.push({
+                    ...enTranslation,
+                    fallback: true
+                })
+                untranslatedKeys.push(enTranslation.key)
+            } else if (localeStrings[localeTranslationIndex].t === enTranslation.t) {
+                // current locale file's translation is same as en-US (untranslated)
+                localeStrings[localeTranslationIndex].fallback = true
+                untranslatedKeys.push(enTranslation.key)
+            } else {
+                // current locale has key, no fallback needed
+                translatedCount++
+                localeStrings[localeTranslationIndex].fallback = false
+            }
+        })
+    }
+    return {
+        strings: localeStrings,
+        translatedCount,
+        totalCount,
+        completion: Math.round((translatedCount * 100) / totalCount),
+        untranslatedKeys
+    }
 }
 
 /*
@@ -111,10 +168,10 @@ export const getLocale = (localeId: string, contexts?: string[]) => {
     if (!validLocale) {
         throw new Error(`No locale found for key ${localeId}`)
     }
-    const strings = getLocaleStrings(validLocale, contexts)
+    const localeData = getLocaleStringsWithFallback(validLocale, contexts)
     return {
         ...validLocale,
-        strings
+        ...localeData
     }
 }
 

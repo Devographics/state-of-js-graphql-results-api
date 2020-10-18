@@ -22,7 +22,7 @@ locales.forEach((locale: Locale) => {
     if (!localeDirectories) {
         throw new Error(`No translation files directory found for locale ${locale.id}`)
     }
-    req.keys().forEach((key: any) => {
+    req && req.keys().forEach((key: any) => {
         // context is one of homepage, results, state_of_css, etc.
         const context = key.replace('./', '').replace('.yml', '')
         try {

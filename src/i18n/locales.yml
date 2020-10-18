@@ -33,3 +33,7 @@
 - id: es-ES
   label: Español
   translators: [timbergus, ezkato]
+
+- id: xy-ZY
+  label: Foobar
+  translators: [timbergus, ezkato]

@@ -6,7 +6,14 @@ export interface Locale {
 }
 
 export interface StringFile {
-    strings: string[]
+    strings: TranslationString[]
     context: string
     prefix?: string
+}
+
+export interface TranslationString {
+    key: string
+    t: string
+    context: string
+    fallback: Boolean
 }
