@@ -5,6 +5,22 @@
     - [example](#example-data)
 
 
+## Translations
+
+You can use the [GraphQL API](http://localhost:4001/) to get more info about a specific translation locale. Here is a sample query:
+
+```graphql
+query GetLocaleData {
+  locale(localeId: "ru-RU") {
+    completion
+    totalCount
+    translatedCount
+    translators
+    untranslatedKeys
+  }
+}
+```
+
 ## Data Format
 
 ### Type definition
