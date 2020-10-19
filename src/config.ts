@@ -1,5 +1,5 @@
 export default {
     mongo: {
-        normalized_collection: 'normalized_responses_3'
+        normalized_collection: 'normalized_responses'
     }
 }
