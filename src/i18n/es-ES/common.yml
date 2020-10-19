@@ -31,7 +31,7 @@ translations:
 
   # surveys
   - key: general.open_surveys
-    t: Abrir Encuestas
+    t: Encuestas Abiertas
   - key: general.no_open_surveys
     t: No hay encuestas abiertas actualmente.
   - key: general.closed_surveys
