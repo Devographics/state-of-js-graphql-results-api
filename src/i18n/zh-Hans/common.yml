@@ -100,9 +100,7 @@ translations:
       t: Share on Twitter
     - key: thanks.share_score_message # TODO
       t: >
-          I got a {score}% knowledge score on this year's {name} survey. 
-          Take the survey here: {shareUrl} {hashtag}
-          
+          I got a {score}% knowledge score on this year's #{hashtag} survey! Take the survey here: {shareUrl}
     # share
     - key: general.share_subject # TODO
       t: >
