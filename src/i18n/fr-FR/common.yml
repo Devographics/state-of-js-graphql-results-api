@@ -249,7 +249,7 @@ translations:
       t: 1 - 2
     - key: options.years_of_experience.range_2_5.short
       t: 2 - 5
-    - key: options.years_of_experience.range_5_10
+    - key: options.years_of_experience.range_5_10.short
       t: 5 - 10
     - key: options.years_of_experience.range_10_20.short
       t: 10 - 20
