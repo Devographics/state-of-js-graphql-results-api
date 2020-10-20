@@ -368,15 +368,15 @@ translations:
     # Back-end proficiency
 
     - key: options.backend_proficiency.0
-      t: Not able to handle any back-end work
+      t: Kann keine Backend Aufgaben zu übernehmen.
     - key: options.backend_proficiency.1
-      t: Able to set up all-in-one CMSs (WordPress, etc.) or static site generators (Jekyll, etc.)
+      t: Kann ein CMS (WordPress, usw.) installieren oder Static Site Generators nutzen (Jekyll, usw.).
     - key: options.backend_proficiency.2
-      t: Able to develop apps using pre-existing frameworks (Rails, Laravel, etc.)
+      t: Kann Apps mit Frameworks entwickeln (Rails, Laravel, usw.).
     - key: options.backend_proficiency.3
-      t: Setting up an entire back-end from scratch (Go, Node.js, etc.)
+      t: Kann ein komplettes Backend neu bauen (Go, Node.js, usw.).
     - key: options.backend_proficiency.4
-      t: Able to handle complex multi-server or microservices architectures
+      t: Kann komplexe auf mehreren Servern laufende Architekturen oder Microservices bauen.
 
     # Proficiency (generic versions)
     - key: options.proficiency.0

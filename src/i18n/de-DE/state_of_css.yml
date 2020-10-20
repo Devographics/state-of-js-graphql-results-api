@@ -227,7 +227,7 @@ translations:
     - key: features.comparison_functions
       t: CSS Comparison Functions
     - key: features.comparison_functions.description
-      t: <code>min()</code>, <code>max()</code>, and <code>clamp()</code>
+      t: <code>min()</code>, <code>max()</code> und <code>clamp()</code>
 
     ###########################################################################
     # Units & Selectors
@@ -357,7 +357,7 @@ translations:
     - key: options.links_urls.any_link
       t: :any-link
     - key: options.links_urls.link_visited
-      t: :link and :visited
+      t: :link und :visited
     - key: options.links_urls.local_link
       t: :local-link
     - key: options.links_urls.target
@@ -381,9 +381,9 @@ translations:
       t: Formularfelder
 
     - key: options.form_controls.enabled_disabled
-      t: :enabled and :disabled
+      t: :enabled und :disabled
     - key: options.form_controls.read_only_write
-      t: :read-only and :read-write
+      t: :read-only und :read-write
     - key: options.form_controls.placeholder_shown
       t: :placeholder-shown
     - key: options.form_controls.default
@@ -393,13 +393,13 @@ translations:
     - key: options.form_controls.indeterminate
       t: :indeterminate
     - key: options.form_controls.valid_invalid
-      t: :valid and :invalid
+      t: :valid und :invalid
     - key: options.form_controls.user_invalid
       t: :user-invalid
     - key: options.form_controls.in_out_range
-      t: :in-range and :out-of-range
+      t: :in-range und :out-of-range
     - key: options.form_controls.required_optional
-      t: :required and :optional
+      t: :required und :optional
 
     ###########################################################################
     # Environments
