@@ -4,6 +4,13 @@ translations:
     # General
     ###########################################################################
 
+    - key: options.experience_ranking.satisfaction
+      t: Satisfaction
+    - key: options.experience_ranking.interest
+      t: Interest
+    - key: options.experience_ranking.awareness
+      t: Awareness
+
     ###########################################################################
     # Sections
     ###########################################################################
