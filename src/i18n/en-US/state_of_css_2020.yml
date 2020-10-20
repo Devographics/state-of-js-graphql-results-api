@@ -6,7 +6,6 @@ translations:
 
     - key: sections.demographics.introduction
       t: |
-
           This second edition of the State of CSS survey reached 11,307 people in 135 different countries.
           This obviously only represents a tiny part of the overall CSS developer community, but for a second edition
           we think it's pretty encouraging.
