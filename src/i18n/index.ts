@@ -26,21 +26,21 @@ locales.forEach((locale: Locale) => {
     if (!localeDirectories) {
         throw new Error(`No translation files directory found for locale ${locale.id}`)
     }
-    req && req.keys().forEach((key: any) => {
-        // context is one of homepage, results, state_of_css, etc.
-        const context = key.replace('./', '').replace('.yml', '')
-        try {
-            const file = req(key)
-            locale.stringFiles.push({
-                strings: file.translations,
-                context
-            })
-        } catch (error) {
-            console.log(error)
-            throw new Error(`Error loading file ${locale.id}/${key}`)
-        }
-    })
+    req &&
+        req.keys().forEach((key: any) => {
+            // context is one of homepage, results, state_of_css, etc.
+            const context = key.replace('./', '').replace('.yml', '')
+            try {
+                const file = req(key)
+                locale.stringFiles.push({
+                    strings: file.translations,
+                    context
+                })
+            } catch (error) {
+                console.log(error)
+                throw new Error(`Error loading file ${locale.id}/${key}`)
+            }
+        })
 })
 
 export default locales
-

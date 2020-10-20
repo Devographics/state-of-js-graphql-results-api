@@ -15,7 +15,7 @@ const computeFeatureExperience = async (
 
 export default {
     FeatureExperience: {
-        allYears: async (
+        all_years: async (
             { survey, id, filters }: { survey: SurveyConfig; id: string; filters?: Filters },
             args: any,
             { db }: RequestContext

@@ -22,6 +22,6 @@ type YearProficiency @cacheControl(maxAge: 600) {
 
 type Proficiency @cacheControl(maxAge: 600) {
     id: ProficiencyID!
-    allYears: [YearProficiency] @cacheControl(maxAge: 600)
+    all_years: [YearProficiency] @cacheControl(maxAge: 600)
     year(year: Int!): YearProficiency
 }

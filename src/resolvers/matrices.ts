@@ -50,9 +50,9 @@ export default {
         // }
     },
     ToolsMatrices: {
-        workExperience: getMatrixConfig,
-        salary: getMatrixConfig,
-        companySize: getMatrixConfig
+        years_of_experience: getMatrixConfig,
+        yearly_salary: getMatrixConfig,
+        company_size: getMatrixConfig
     },
     ToolsWorkExperienceMatrix: generateMatrixResolver('years_of_experience'),
     ToolsSalaryMatrix: generateMatrixResolver('yearly_salary'),

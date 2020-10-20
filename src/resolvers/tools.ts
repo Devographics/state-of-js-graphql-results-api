@@ -22,7 +22,7 @@ export default {
         ) => useCache(computeToolsExperienceRanking, db, [survey, ids, filters])
     },
     ToolExperience: {
-        allYears: async ({ survey, id, filters }: ToolConfig, args: any, { db }: RequestContext) =>
+        all_years: async ({ survey, id, filters }: ToolConfig, args: any, { db }: RequestContext) =>
             computeToolExperience(db, survey, id, filters),
         year: async (
             { survey, id, filters }: ToolConfig,

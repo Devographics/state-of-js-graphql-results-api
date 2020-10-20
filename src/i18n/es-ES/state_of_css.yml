@@ -207,7 +207,7 @@ translations:
       t: Animaciones
     - key: features.perspective
       t: <code>perspective</code>
-    
+
     # media queries
     - key: features.feature_support_queries
       t: Comprobando Características Soportadas (<code>@supports</code>)
@@ -421,7 +421,7 @@ translations:
       t: Navegadores
     - key: environments.browsers.description
       t: ¿En qué navegadores haces pruebas?
-    
+
     - key: environments.form_factors
       t: Factor de Forma
     - key: environments.form_factors.description

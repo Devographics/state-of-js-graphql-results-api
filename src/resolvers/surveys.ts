@@ -23,27 +23,19 @@ export default {
                 survey,
                 filters
             }),
-            salary: ({ filters }: { filters: Filters }) => ({
+            yearly_salary: ({ filters }: { filters: Filters }) => ({
                 survey,
                 filters
             }),
-            companySize: ({ filters }: { filters: Filters }) => ({
+            company_size: ({ filters }: { filters: Filters }) => ({
                 survey,
                 filters
             }),
-            workExperience: ({ filters }: { filters: Filters }) => ({
+            years_of_experience: ({ filters }: { filters: Filters }) => ({
                 survey,
                 filters
             }),
-            jobTitle: ({ filters }: { filters: Filters }) => ({
-                survey,
-                filters
-            }),
-            cssProficiency: ({ filters }: { filters: Filters }) => ({
-                survey,
-                filters
-            }),
-            backendProficiency: ({ filters }: { filters: Filters }) => ({
+            job_title: ({ filters }: { filters: Filters }) => ({
                 survey,
                 filters
             })
@@ -75,7 +67,7 @@ export default {
                     { db }: RequestContext
                 ) => useCache(computeToolExperienceGraph, db, [survey, id, filters])
             })),
-        toolsRankings: (
+        tools_rankings: (
             survey: SurveyConfig,
             { ids, filters }: { ids: string[]; filters: Filters }
         ) => ({
@@ -102,7 +94,7 @@ export default {
                     filters
                 })
             })),
-        featuresOthers: (
+        features_others: (
             survey: SurveyConfig,
             { id, filters }: { id: string; filters?: Filters }
         ) => ({
@@ -115,7 +107,10 @@ export default {
             id,
             filters
         }),
-        otherTools: (survey: SurveyConfig, { id, filters }: { id: string; filters?: Filters }) => ({
+        tools_others: (
+            survey: SurveyConfig,
+            { id, filters }: { id: string; filters?: Filters }
+        ) => ({
             survey,
             id,
             filters
@@ -150,7 +145,7 @@ export default {
             id,
             filters
         }),
-        environmentsRatings: (
+        environments_ratings: (
             survey: SurveyConfig,
             { id, filters }: { id: string; filters?: Filters }
         ) => ({

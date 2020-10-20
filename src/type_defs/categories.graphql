@@ -39,7 +39,7 @@ type YearHappiness @cacheControl(maxAge: 600) {
 
 type CategoryHappiness @cacheControl(maxAge: 600) {
     id: CategoryID!
-    allYears: [YearHappiness] @cacheControl(maxAge: 600)
+    all_years: [YearHappiness] @cacheControl(maxAge: 600)
     year(year: Int!): YearHappiness
 }
 
@@ -48,7 +48,7 @@ Other Tools
 """
 type CategoryOtherTools @cacheControl(maxAge: 600) {
     id: CategoryID!
-    allYears: [YearOtherTools] @cacheControl(maxAge: 600)
+    all_years: [YearOtherTools] @cacheControl(maxAge: 600)
     year(year: Int!): YearOtherTools
 }
 
@@ -57,5 +57,5 @@ Category
 """
 type Category @cacheControl(maxAge: 600) {
     happiness(filters: Filters): CategoryHappiness
-    otherTools(filters: Filters): CategoryOtherTools
+    tools_others(filters: Filters): CategoryOtherTools
 }

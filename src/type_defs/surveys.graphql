@@ -37,9 +37,13 @@ type Survey @cacheControl(maxAge: 600) {
     """
     tools(ids: [ToolID]): [Tool] @cacheControl(maxAge: 600)
     """
+    Other tools (browsers, editors, etc.)
+    """
+    tools_others(id: OtherToolsID!, filters: Filters): OtherTools
+    """
     Rankings (awareness, interest, satisfaction) for a range of tools
     """
-    toolsRankings(ids: [ToolID]!, filters: Filters): ToolsRankings
+    tools_rankings(ids: [ToolID]!, filters: Filters): ToolsRankings
     """
     Usage results for a specific feature
     """
@@ -51,7 +55,7 @@ type Survey @cacheControl(maxAge: 600) {
     """
     Choice based features
     """
-    featuresOthers(id: OtherFeaturesID!): OtherFeatures
+    features_others(id: OtherFeaturesID!): OtherFeatures
     """
     Demographics data (gender, company size, salary, etc.)
     """
@@ -61,10 +65,6 @@ type Survey @cacheControl(maxAge: 600) {
     """
     opinion(id: OpinionID!, filters: Filters): Opinion
     """
-    Other tools (browsers, editors, etc.)
-    """
-    otherTools(id: OtherToolsID!, filters: Filters): OtherTools
-    """
     Resources (sites, blogs, podcasts, etc.)
     """
     resources(id: ResourcesID!, filters: Filters): Resources
@@ -72,7 +72,6 @@ type Survey @cacheControl(maxAge: 600) {
     Data about a specific tool category
     """
     category(id: CategoryID!): Category
-        @deprecated(reason: "Deprecated in favor of using tools() with a list of ids")
     """
     Matrices data (used for cross-referencing heatmap charts)
     """
@@ -86,7 +85,7 @@ type Survey @cacheControl(maxAge: 600) {
     """
     Environments data, for those based on rating, such as css for emails...
     """
-    environmentsRatings(id: EnvironmentID!): EnvironmentsRatings
+    environments_ratings(id: EnvironmentID!): EnvironmentsRatings
     """
     Proficiency data, such as backend proficiency, javascript...
     """

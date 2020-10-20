@@ -5,6 +5,29 @@ translations:
     ###########################################################################
 
     ###########################################################################
+    # Sections
+    ###########################################################################
+
+    - key: sections.introduction.title
+      t: Introduction
+
+    - key: sections.demographics.title
+      t: Demographics
+    - key: sections.demographics.description
+      t: |
+          This year's State of JavaScript was the survey's fourth edition,
+          and it reached XX,XXX respondents.
+          It was interesting to see that despite few people identifying as
+          pure back-end developers, our respondents still feel quite comfortable
+          dealing with development on the server.
+
+    - key: sections.tshirt.title
+      t: T-shirt
+
+    - key: sections.features.title
+      t: Features
+
+    ###########################################################################
     # Features
     ###########################################################################
 
@@ -32,3 +55,58 @@ translations:
       t: Homepage
     - key: tools.npm_link
       t: NPM
+
+    ###########################################################################
+    # Blocks
+    ###########################################################################
+
+    # export
+    - key: export.export
+      t: Export
+    - key: export.title
+      t: Export data for ${title}
+    - key: export.nocsv
+      t: Sorry, CSV export is not available for this dataset.
+    - key: export.graphql
+      t: >
+          You can copy paste this query into our <a target="_blank" rel="nofollow" href="http://graphiql.stateofjs.com/">public GraphQL API</a>.
+
+    ###########################################################################
+    # Charts
+    ###########################################################################
+
+    - key: chart_units.percentage
+      t: Percents
+    - key: chart_units.count
+      t: Count
+
+    ###########################################################################
+    # Sharing
+    ###########################################################################
+
+    - key: share.share
+      t: Share
+    - key: share.site.title
+      t: Discover the StateOf CSS 2020 results
+    - key: share.site.twitter_text
+      t: 'Discover the State Of CSS 2020 results ${link} #StateOfCSS'
+    - key: share.site.subject
+      t: State Of JavaScript Survey Results
+    - key: share.site.body
+      t: 'Here are some interesting CSS survey results: ${link}'
+    - key: share.block.twitter_text
+      t: '#StateOfCSS 2020: ${title} ${link}'
+    - key: share.block.subject
+      t: State Of CSS Survey Results
+    - key: share.block.body
+      t: 'Here are some interesting CSS survey results (${title}): ${link}'
+    - key: share.twitter
+      t: Share on Twitter
+    - key: share.facebook
+      t: Share on Facebook
+    - key: share.linkedin
+      t: Share on LinkedIn
+    - key: share.email
+      t: Share by email
+    - key: share.image
+      t: Get image

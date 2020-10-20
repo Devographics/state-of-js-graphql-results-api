@@ -140,7 +140,7 @@ type ToolYearExperience @cacheControl(maxAge: 600) {
 }
 
 type ToolExperience @cacheControl(maxAge: 600) {
-    allYears: [ToolYearExperience]
+    all_years: [ToolYearExperience]
     year(year: Int!): ToolYearExperience
 }
 

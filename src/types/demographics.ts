@@ -4,6 +4,6 @@ export interface YearParticipation {
 }
 
 export interface Participation {
-    allYears: YearParticipation[]
+    all_years: YearParticipation[]
     year: YearParticipation
 }

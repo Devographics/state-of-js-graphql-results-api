@@ -93,22 +93,44 @@ translations:
     # CSS for print
     - key: options.css_for_print.0
       t: I (almost) never write print styles
+    - key: options.css_for_print.0.short
+      t: Never
+
     - key: options.css_for_print.1
       t: I occasionally write print styles
+    - key: options.css_for_print.1.short
+      t: Occasionally
+
     - key: options.css_for_print.2
       t: I write print styles as part of most projects
+    - key: options.css_for_print.2.short
+      t: Often
+
     - key: options.css_for_print.3
       t: I focus mainly on CSS for print
+    - key: options.css_for_print.3.short
+      t: Mainly
 
     # CSS for email
     - key: options.css_for_email.0
       t: I (almost) never write CSS for email clients
+    - key: options.css_for_email.0.short
+      t: Never
+
     - key: options.css_for_email.1
       t: I occasionally write CSS for email clients
+    - key: options.css_for_email.1.short
+      t: Occasionally
+
     - key: options.css_for_email.2
       t: I write CSS for email clients as part of most projects
+    - key: options.css_for_email.2.short
+      t: Often
+
     - key: options.css_for_email.3
       t: I focus mainly on CSS for email clients
+    - key: options.css_for_email.3.short
+      t: Mainly
 
     ###########################################################################
     # Features
