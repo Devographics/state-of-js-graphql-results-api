@@ -1,75 +1,75 @@
 locale: hi-IN
 translations:
-  - key: accounts.error_incorrect_password # TODO
-    t: Incorrect password
-  - key: accounts.error_email_required # TODO
-    t: Email required
-  - key: accounts.error_email_already_exists # TODO
-    t: Email already exists
-  - key: accounts.error_invalid_email # TODO
-    t: Invalid email
-  - key: accounts.error_minchar # TODO
-    t: Your password is too short
-  - key: accounts.error_unknown # TODO
-    t: Unknown error
-  - key: accounts.error_user_not_found # TODO
-    t: User not found
-  - key: accounts.error_username_already_exists # TODO
-    t: Username already exists
-  - key: accounts.enter_username_or_email # TODO
-    t: Enter username or email
-  - key: accounts.error_internal_server_error # TODO
-    t: Internal server error
-  - key: accounts.error_token_expired # TODO
-    t: Invalid password reset token
-  - key: accounts.username_or_email # TODO
-    t: Username or email
-  - key: accounts.enter_username # TODO
-    t: Enter username
-  - key: accounts.username # TODO
-    t: Username
-  - key: accounts.enter_email # TODO
-    t: Enter email
-  - key: accounts.email # TODO
-    t: Email
-  - key: accounts.enter_password # TODO
-    t: Enter password
-  - key: accounts.password # TODO
-    t: Password
-  - key: accounts.choose_password # TODO
-    t: Choose password
-  - key: accounts.change_password # TODO
-    t: Change password
-  - key: accounts.reset_your_password # TODO
-    t: Reset your password
-  - key: accounts.set_password # TODO
-    t: Set password
-  - key: accounts.enter_new_password # TODO
-    t: Enter new password
-  - key: accounts.new_password # TODO
-    t: New password
-  - key: accounts.forgot_password # TODO
-    t: Forgot password
-  - key: accounts.sign_up # TODO
-    t: Sign up
-  - key: accounts.sign_in # TODO
-    t: Sign in
-  - key: accounts.sign_out # TODO
-    t: Sign out
-  - key: accounts.cancel # TODO
-    t: Cancel
-  - key: accounts.info_email_sent # TODO
-    t: Email sent.
-  - key: accounts.info_password_changed # TODO
-    t: Password changed.
-  - key: accounts.please_pick_password # TODO
-    t: Please pick a new password to continue.
-  - key: accounts.please_log_in # TODO
-    t: Please log in or sign up to begin.
-  - key: accounts.logged_in_as # TODO
-    t: Logged in as {email}
-  - key: accounts.questions # TODO
-    t: >
-      If you have any questions about how we use your data, or would like
-      us to remove your data from our records,
-      please <a href="mailto:hello@stateofjs.com">get in touch</a>.
+    - key: accounts.error_incorrect_password # TODO
+      t: Incorrect password
+    - key: accounts.error_email_required # TODO
+      t: Email required
+    - key: accounts.error_email_already_exists # TODO
+      t: Email already exists
+    - key: accounts.error_invalid_email # TODO
+      t: Invalid email
+    - key: accounts.error_minchar # TODO
+      t: Your password is too short
+    - key: accounts.error_unknown # TODO
+      t: Unknown error
+    - key: accounts.error_user_not_found # TODO
+      t: User not found
+    - key: accounts.error_username_already_exists # TODO
+      t: Username already exists
+    - key: accounts.enter_username_or_email # TODO
+      t: Enter username or email
+    - key: accounts.error_internal_server_error # TODO
+      t: Internal server error
+    - key: accounts.error_token_expired # TODO
+      t: Invalid password reset token
+    - key: accounts.username_or_email # TODO
+      t: Username or email
+    - key: accounts.enter_username # TODO
+      t: Enter username
+    - key: accounts.username # TODO
+      t: Username
+    - key: accounts.enter_email # TODO
+      t: Enter email
+    - key: accounts.email # TODO
+      t: Email
+    - key: accounts.enter_password # TODO
+      t: Enter password
+    - key: accounts.password # TODO
+      t: Password
+    - key: accounts.choose_password # TODO
+      t: Choose password
+    - key: accounts.change_password # TODO
+      t: Change password
+    - key: accounts.reset_your_password # TODO
+      t: Reset your password
+    - key: accounts.set_password # TODO
+      t: Set password
+    - key: accounts.enter_new_password # TODO
+      t: Enter new password
+    - key: accounts.new_password # TODO
+      t: New password
+    - key: accounts.forgot_password # TODO
+      t: Forgot password
+    - key: accounts.sign_up # TODO
+      t: Sign up
+    - key: accounts.sign_in # TODO
+      t: Sign in
+    - key: accounts.sign_out # TODO
+      t: Sign out
+    - key: accounts.cancel # TODO
+      t: Cancel
+    - key: accounts.info_email_sent # TODO
+      t: Email sent.
+    - key: accounts.info_password_changed # TODO
+      t: Password changed.
+    - key: accounts.please_pick_password # TODO
+      t: Please pick a new password to continue.
+    - key: accounts.please_log_in # TODO
+      t: Please log in or sign up to begin.
+    - key: accounts.logged_in_as # TODO
+      t: Logged in as {email}
+    - key: accounts.questions # TODO
+      t: >
+          If you have any questions about how we use your data, or would like
+          us to remove your data from our records,
+          please <a href="mailto:hello@stateofjs.com">get in touch</a>.

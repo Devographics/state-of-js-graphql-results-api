@@ -19,7 +19,7 @@ const computeOpinion = async (db: Db, survey: SurveyConfig, id: string, filters?
 
 export default {
     Opinion: {
-        allYears: async (
+        all_years: async (
             { survey, id, filters }: OpinionConfig,
             args: any,
             { db }: RequestContext

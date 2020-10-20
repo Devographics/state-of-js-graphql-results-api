@@ -19,7 +19,7 @@ const computeOtherTools = async (db: Db, survey: SurveyConfig, id: string, filte
 
 export default {
     CategoryOtherTools: {
-        allYears: async (
+        all_years: async (
             { survey, id, filters }: CategoryConfig,
             args: any,
             { db }: RequestContext
@@ -35,7 +35,7 @@ export default {
         }
     },
     CategoryHappiness: {
-        allYears: async (
+        all_years: async (
             { survey, id, filters }: CategoryConfig,
             args: any,
             { db }: RequestContext

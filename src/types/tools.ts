@@ -22,7 +22,7 @@ export interface ToolYearExperience {
 }
 
 export interface ToolExperience {
-    allYears: ToolYearExperience[]
+    all_years: ToolYearExperience[]
     year: ToolYearExperience
 }
 

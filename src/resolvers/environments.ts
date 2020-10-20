@@ -31,7 +31,7 @@ const computeEnvironmentRating = async (
 
 export default {
     Environments: {
-        allYears: async (
+        all_years: async (
             { survey, id, filters }: EnvironmentConfig,
             args: any,
             { db }: RequestContext
@@ -47,7 +47,7 @@ export default {
         }
     },
     EnvironmentsRatings: {
-        allYears: async (
+        all_years: async (
             { survey, id, filters }: EnvironmentConfig,
             args: any,
             { db }: RequestContext

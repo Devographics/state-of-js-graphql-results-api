@@ -182,7 +182,7 @@ type YearFeature @cacheControl(maxAge: 600) {
 }
 
 type FeatureExperience @cacheControl(maxAge: 600) {
-    allYears: [YearFeature] @cacheControl(maxAge: 600)
+    all_years: [YearFeature] @cacheControl(maxAge: 600)
     year(year: Int!): YearFeature
 }
 

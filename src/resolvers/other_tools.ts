@@ -20,7 +20,7 @@ const computeOtherTools = async (db: Db, survey: SurveyConfig, id: string, filte
 
 export default {
     OtherTools: {
-        allYears: async (
+        all_years: async (
             { survey, id, filters }: OtherToolsConfig,
             args: any,
             { db }: RequestContext

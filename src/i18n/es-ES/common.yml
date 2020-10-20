@@ -14,9 +14,9 @@ translations:
           - Evitar respuestas duplicadas
 
           - Darte acceso a tu información
-          
+
           - Salvar tu sesión según avanzas
-          
+
           - Notificarte cuando tengamos los resultados
     - key: general.survey_closed
       t: >
@@ -92,7 +92,7 @@ translations:
       t: Valoración de tu Conocimiento
     - key: thanks.score_explanation
       t: >
-          Te suenan o has utilizado <span class="score-number score-number-known">{known}</span> características de 
+          Te suenan o has utilizado <span class="score-number score-number-known">{known}</span> características de
           <span class="score-number score-number-total">{total}</span> mencionadas en la encuesta,
           lo cual te sitúa dentro del <span class="score-number score-number-ranking">{knowledgeRankingFromTop}%</span>
           de todos los que la han respondido.
@@ -116,7 +116,7 @@ translations:
     ###########################################################################
     # Nav
     ###########################################################################
-    
+
     - key: nav.surveys
       t: Encuestas
     - key: nav.account
@@ -201,7 +201,7 @@ translations:
       t: Lo volvería a usar
     - key: options.tools.would_not_use.short
       t: No lo usaría
-    
+
     # happiness
     - key: options.happiness.0
       t: Muy Descontento

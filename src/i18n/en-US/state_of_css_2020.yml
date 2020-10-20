@@ -1,0 +1,127 @@
+locale: en-US
+translations:
+    ###########################################################################
+    # Sections
+    ###########################################################################
+
+    - key: sections.demographics.introduction
+      t: |
+
+          This second edition of the State of CSS survey reached 11,307 people in 135 different countries.
+          This obviously only represents a tiny part of the overall CSS developer community, but for a second edition
+          we think it's pretty encouraging.
+
+          And it's fair to assume our survey audience leans a bit towards early adopters and the more cutting-edge part
+          of the community, since they are the ones most likely to hear about a survey in the first place.
+          But we like to think this also means our data is a good preview of where the mainstream side of the ecosystem
+          will be a few years from now.
+
+          It's also worth mentioning that since a sizeable share of survey respondents learned about it through having
+          previously filled out the [State of JS](https://stateofjs.com) survey, our data may also lean toward the
+          “[back of the front-end](http://bradfrost.com/blog/link/how-to-think-like-a-front-end-developer-with-brad-frost/)”,
+          in other words the more JavaScript-oriented part of the front-end world.
+
+          All that being said, we still think there's a lot of very valuable insights in here, and we're very excited
+          to finally be able to share them all with you!
+
+    - key: sections.features.introduction
+      t: |
+          The story of CSS over the past couple years is one of tremendous flexibility and adaptability.
+          CSS may not be perfect, but it's still managed to negotiate a smooth transition to a multitude of new devices,
+          contexts, interaction modes, and accessibility requirements.
+
+          With features like Grid, we finally have the tools needed to specify complex layouts without requiring hacks
+          and workarounds; while blend modes, masks, and shapes (among others) let us implement designs that are richer
+          and more creative than ever.
+
+    - key: sections.layout.introduction
+      t: |
+          Layout tools are one of the areas that have seen the most changes in recent years.
+          First Flexbox came onto the scene, and then CSS Grid emerged as the most polyvalent and expressive way
+          of handling CSS layouts.
+
+          It may take a little longer to master, which explains why a lot of users haven't actually used it,
+          but it's certainly worth the effort!
+
+    - key: sections.shapes_graphics.introduction
+      t: |
+          For the longest time, creating advanced graphic effects on the web has either required
+          a lot of upfront work in graphics editor apps, or else just plain not been possible.
+
+          But now, with wider support for masking, blend modes, filters, and more, effects that previously
+          seemed impossible are just a couple lines of code away. Best of all: because they're now achievable
+          through pure CSS, you don't have to give up on accessibility and adaptability anymore.
+
+    - key: sections.interactions.introduction
+      t: |
+          JavaScript is a handy instrument, but writing hundreds of lines of code just to emulate something
+          that should be handled by the browser can sometimes feel like trying to swat flies with a sledgehammer.
+
+          Thanfully CSS is catching up, and properties like CSS Scroll Snap give you more control over
+          the browser's behavior, without having to write a single line of JavaScript.
+
+    - key: sections.typography.introduction
+      t: |
+          Typography is probably the most important building block of the web, and it's great to see CSS
+          is still improving its already-good support for typograhical features.
+
+          Variable fonts are the hot new thing here, and while we're still waiting for true responsive type,
+          the constant progress on this front is definitely worth keeping an eye on.
+
+    - key: sections.animations_transforms.introduction
+      t: |
+          Almost all our respondents have used animations, transitions, and transforms. Which should come at no surprise,
+          as just ten minutes browsing any modern website will show you that the era of static, motionless pages
+          is well and truly over.
+
+          From simple hover effects to more complex typographical or graphical animations,
+          CSS can probably handle whatever you can throw at it!
+
+    - key: sections.pre_post_processors.introduction
+      t: |
+          Pre-processors like Sass and Less were the vanguard of “CSS 2.0”. At a time where the language itself
+          could seem pretty stagnant, they introduced new features like variables and nesting by introducing
+          a compile step to the mix.
+
+          More than a decade later, CSS itself is catching up but the pre-processors are holding strong,
+          with Sass being a mainstay in any front-end stack (although CSS-in-JS is looking to change that –
+          but more on this later).
+
+          And on the “post-processor” side, PostCSS has managed to carve out a niche of its own by being
+          a complementary tool that makes your CSS workflow even better.
+
+    - key: sections.css_frameworks.introduction
+      t: |
+          For years the debate has raged on: should you use UI toolkits like Bootstrap, or is that “cheating”?
+          Will all websites end up looking the same? And will designers end up being useless?
+
+          In 2019, it's safe to say the debate has been settled, and the frameworks have won.
+          Bootstrap has kept up with the times and generated a huge ecosystem of various themes and plugins,
+          while Google's Material Design has helped popularized its own specific aesthetic.
+
+          And while the utility-class-focused approach of new frameworks like Tailwind CSS make you question everything
+          you know about writing “proper” semantic CSS, its 81% satisfaction ratio means that it might be time
+          to reconsider our old preconceived notions…
+
+    - key: sections.css_methodologies.introduction
+      t: |
+          CSS stands out among programming languages (if it even is one… but that's a whole other debate!)
+          as one of the few that has given birth to methodologies that aim to codify the “right” way to write it.
+
+          While BEM is ahead of the pack here, Atomic CSS is also starting to gain ground with its completely
+          new utility-class-driven philosophy.
+
+          In the end, we might never find the one true way to write CSS, but that's not going to stop us from looking!
+
+    - key: sections.css_in_js.introduction
+      t: |
+          CSS-in-JS has been one of the biggest developments of the past few years in the CSS world.
+          Just like preprocessors bypassed CSS to introduce their own set of new features over a decade ago,
+          CSS-in-JS libraries piggyback on JavaScript's power to make their own path without waiting for CSS to catch up.
+
+          But while some libraries like Styled Components and Emotion have established themselves as solid options,
+          the overall ecosystem is still very fragmented and in constant movement. So it remains
+          to be seen what place CSS-in-JS will occupy in the overall ecosystem in the long run.
+
+          One thing is sure though: more competition is always good, and if CSS can steal some of its JavaScript cousin's
+          freshest ideas then we'll all be better off for it!

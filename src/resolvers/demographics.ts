@@ -66,8 +66,11 @@ const computeBackendProficiency = async (db: Db, survey: SurveyConfig, filters?:
 
 export default {
     Participation: {
-        allYears: async ({ survey }: { survey: SurveyConfig }, args: any, { db }: RequestContext) =>
-            useCache(computeParticipationByYear, db, [survey]),
+        all_years: async (
+            { survey }: { survey: SurveyConfig },
+            args: any,
+            { db }: RequestContext
+        ) => useCache(computeParticipationByYear, db, [survey]),
         year: async (
             { survey }: { survey: SurveyConfig },
             { year }: { year: number },
@@ -79,7 +82,7 @@ export default {
         }
     },
     Country: {
-        allYears: async (
+        all_years: async (
             { survey, filters }: DemographicsAggConfig,
             args: any,
             { db }: RequestContext
@@ -95,7 +98,7 @@ export default {
         }
     },
     Source: {
-        allYears: async (
+        all_years: async (
             { survey, filters }: DemographicsAggConfig,
             args: any,
             { db }: RequestContext
@@ -111,7 +114,7 @@ export default {
         }
     },
     Gender: {
-        allYears: async (
+        all_years: async (
             { survey, filters }: DemographicsAggConfig,
             args: any,
             { db }: RequestContext
@@ -127,7 +130,7 @@ export default {
         }
     },
     Salary: {
-        allYears: async (
+        all_years: async (
             { survey, filters }: DemographicsAggConfig,
             args: any,
             { db }: RequestContext
@@ -143,7 +146,7 @@ export default {
         }
     },
     CompanySize: {
-        allYears: async (
+        all_years: async (
             { survey, filters }: DemographicsAggConfig,
             args: any,
             { db }: RequestContext
@@ -159,7 +162,7 @@ export default {
         }
     },
     WorkExperience: {
-        allYears: async (
+        all_years: async (
             { survey, filters }: { survey: SurveyConfig; filters?: Filters },
             args: any,
             { db }: RequestContext
@@ -175,7 +178,7 @@ export default {
         }
     },
     JobTitle: {
-        allYears: async (
+        all_years: async (
             { survey, filters }: DemographicsAggConfig,
             args: any,
             { db }: RequestContext

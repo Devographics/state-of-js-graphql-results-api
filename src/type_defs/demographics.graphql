@@ -7,7 +7,7 @@ type YearParticipation @cacheControl(maxAge: 600) {
 }
 
 type Participation @cacheControl(maxAge: 600) {
-    allYears: [YearParticipation]
+    all_years: [YearParticipation]
     year(year: Int!): YearParticipation
 }
 
@@ -28,7 +28,7 @@ type YearCountry @cacheControl(maxAge: 600) {
 }
 
 type Country @cacheControl(maxAge: 600) {
-    allYears: [YearCountry]
+    all_years: [YearCountry]
     year(year: Int!): YearCountry
 }
 
@@ -50,7 +50,7 @@ type YearSource @cacheControl(maxAge: 600) {
 }
 
 type Source @cacheControl(maxAge: 600) {
-    allYears: [YearSource]
+    all_years: [YearSource]
     year(year: Int!): YearSource
 }
 
@@ -81,7 +81,7 @@ type YearGender @cacheControl(maxAge: 600) {
 }
 
 type Gender @cacheControl(maxAge: 600) {
-    allYears: [YearGender]
+    all_years: [YearGender]
     year(year: Int!): YearGender
 }
 
@@ -115,7 +115,7 @@ type YearSalary @cacheControl(maxAge: 600) {
 }
 
 type Salary @cacheControl(maxAge: 600) {
-    allYears: [YearSalary]
+    all_years: [YearSalary]
     year(year: Int!): YearSalary
 }
 
@@ -150,7 +150,7 @@ type YearCompanySize @cacheControl(maxAge: 600) {
 }
 
 type CompanySize @cacheControl(maxAge: 600) {
-    allYears: [YearCompanySize]
+    all_years: [YearCompanySize]
     year(year: Int!): YearCompanySize
 }
 
@@ -183,7 +183,7 @@ type YearWorkExperience @cacheControl(maxAge: 600) {
 }
 
 type WorkExperience @cacheControl(maxAge: 600) {
-    allYears: [YearWorkExperience]
+    all_years: [YearWorkExperience]
     year(year: Int!): YearWorkExperience
 }
 
@@ -214,7 +214,7 @@ type YearJobTitle @cacheControl(maxAge: 600) {
 }
 
 type JobTitle @cacheControl(maxAge: 600) {
-    allYears: [YearJobTitle]
+    all_years: [YearJobTitle]
     year(year: Int!): YearJobTitle
 }
 
@@ -246,17 +246,17 @@ type Demographics @cacheControl(maxAge: 600) {
     """
     Salary
     """
-    salary(filters: Filters): Salary @cacheControl(maxAge: 600)
+    yearly_salary(filters: Filters): Salary @cacheControl(maxAge: 600)
     """
     Company size
     """
-    companySize(filters: Filters): CompanySize @cacheControl(maxAge: 600)
+    company_size(filters: Filters): CompanySize @cacheControl(maxAge: 600)
     """
     Work experience as a developer
     """
-    workExperience(filters: Filters): WorkExperience @cacheControl(maxAge: 600)
+    years_of_experience(filters: Filters): WorkExperience @cacheControl(maxAge: 600)
     """
     Job title
     """
-    jobTitle(filters: Filters): JobTitle @cacheControl(maxAge: 600)
+    job_title(filters: Filters): JobTitle @cacheControl(maxAge: 600)
 }

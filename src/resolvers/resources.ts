@@ -20,7 +20,7 @@ const computeResource = async (db: Db, survey: SurveyConfig, id: string, filters
 
 export default {
     Resources: {
-        allYears: async (
+        all_years: async (
             { survey, id, filters }: ResourceConfig,
             args: any,
             { db }: RequestContext

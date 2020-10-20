@@ -22,7 +22,7 @@ export interface FeatureExperienceBucket {
 }
 
 export interface FeatureExperience {
-    allYears: YearFeature[]
+    all_years: YearFeature[]
     year: YearFeature
 }
 

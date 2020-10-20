@@ -31,7 +31,7 @@ An environment, based on multiple choices (e.g. browsers, form factors, etc.)
 type Environments @cacheControl(maxAge: 600) {
     id: EnvironmentID!
     year(year: Int!): YearEnvironments
-    allYears: [YearEnvironments]
+    all_years: [YearEnvironments]
 }
 
 type EnvironmentRatingBucket @cacheControl(maxAge: 600) {
@@ -56,5 +56,5 @@ An environment, based rating (e.g. css for emails, css for print, etc.)
 type EnvironmentsRatings @cacheControl(maxAge: 600) {
     id: EnvironmentID!
     year(year: Int!): YearEnvironmentsRatings
-    allYears: [YearEnvironmentsRatings]
+    all_years: [YearEnvironmentsRatings]
 }

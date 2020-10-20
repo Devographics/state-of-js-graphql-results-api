@@ -19,7 +19,7 @@ const computeProficiency = async (db: Db, survey: SurveyConfig, id: string, filt
 
 export default {
     Proficiency: {
-        allYears: async (
+        all_years: async (
             { survey, id, filters }: ProficiencyConfig,
             args: any,
             { db }: RequestContext
