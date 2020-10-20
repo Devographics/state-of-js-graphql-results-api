@@ -313,6 +313,8 @@ translations:
 
     - key: features_others.combinators
       t: Combinators
+    - key: features_others.combinators.description
+      t: Which of these combinations CSS selectors have you used?
 
     - key: options.combinators.descendant
       t: div span (descendant)
@@ -325,6 +327,8 @@ translations:
 
     - key: features_others.tree_document_structure
       t: Tree / Document Structure
+    - key: features_others.tree_document_structure.description
+      t: Which of these structure related CSS selectors have you used?
 
     - key: options.tree_document_structure.root
       t: :root
@@ -363,6 +367,8 @@ translations:
 
     - key: features_others.attributes
       t: Attributes
+    - key: features_others.attributes.description
+      t: Which of these CSS attributes selectors have you used?
 
     - key: options.attributes.presence
       t: div[foo] (Presence)
@@ -379,6 +385,8 @@ translations:
 
     - key: features_others.links_urls
       t: Links/URLs
+    - key: features_others.links_urls.description
+      t: Which of these links & URLs related CSS selectors have you used?
 
     - key: options.links_urls.any_link
       t: :any-link
@@ -391,6 +399,8 @@ translations:
 
     - key: features_others.interaction
       t: Interaction
+    - key: features_others.interaction.description
+      t: Which of these interaction CSS selectors have you used?
 
     - key: options.interaction.hover
       t: :hover
@@ -405,6 +415,8 @@ translations:
 
     - key: features_others.form_controls
       t: Form Controls
+    - key: features_others.form_controls.description
+      t: Which of these form related CSS selectors have you used?
 
     - key: options.form_controls.enabled_disabled
       t: :enabled and :disabled
