@@ -76,6 +76,23 @@ translations:
           From simple hover effects to more complex typographical or graphical animations,
           CSS can probably handle whatever you can throw at it!
 
+    - key: sections.other_features.introduction
+      t: |
+          At the end of the day, the bulk of CSS is made up not of sexy, fancy features like Grid or animations;
+          but of small, often niche properties that may at first seem useless, but then end up one day saving
+          you dozens of hours of work.
+
+          CSS variables and support queries fit in that category: they'll take a little while to grow on you,
+          but once you grasp their full potential you'll wonder how you ever managed without them.
+
+    - key: sections.units_selectors.introduction
+      t: |
+          One of the reasons CSS is so tough to master is that even apparently small decisions can sometimes
+          have big consequences. Should you size your fonts in ems or pixels? Which selector should you use?
+          Is there a way to avoid having to use JavaScript to accomplish what you want?
+
+          Having a good grasp of units and selectors makes all these decisions, if not simple, at least a little easier.
+
     - key: sections.pre_post_processors.introduction
       t: |
           Pre-processors like Sass and Less were the vanguard of “CSS 2.0”. At a time where the language itself
