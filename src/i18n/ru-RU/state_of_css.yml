@@ -13,7 +13,7 @@ translations:
           Флексбоксы, гриды, мультиколонки… Не говоря уже о совершенно новых парадигмах, таких как CSS-in-JS.
 
 
-          Итак, после успешного проведения ежегодного опроса "State of JavaScript", 
+          После успешного проведения ежегодного опроса "State of JavaScript" 
           мы решили войти в мир стилей и селекторов. Мы надеемся с вашей помощью 
           определить актуальные тенденции, а также выяснить, что следует изучать и использовать в будущем!
 
@@ -72,7 +72,7 @@ translations:
       t: Библиотеки с готовыми компонентами и стилями.
 
     - key: sections.css_methodologies.title
-      t: Методологии CSS
+      t: CSS-методологии
     - key: sections.css_methodologies.description
       t: Систематизированные способы написания чистого CSS-кода.
 
@@ -121,7 +121,7 @@ translations:
     - key: features.subgrid
       t: Сабгрид
     - key: features.regions
-      t: CSS-области
+      t: CSS-области (CSS Regions)
     - key: features.flexbox
       t: Флексбокс
     - key: features.multi_column
@@ -143,7 +143,7 @@ translations:
 
     # shapes & graphics
     - key: features.shapes
-      t: CSS-фигуры
+      t: CSS-фигуры (CSS Shapes)
     - key: features.object_fit
       t: <code>object-fit</code>
     - key: features.clip_path
@@ -151,7 +151,7 @@ translations:
     - key: features.masks
       t: CSS-маски
     - key: features.blend_modes
-      t: Режимы смешивания
+      t: Режимы смешивания (Blend Modes)
     - key: features.blend_modes.description
       t: Свойство <code>mix-blend-mode</code>
     - key: features.filter_effects
@@ -161,7 +161,7 @@ translations:
 
     # interactions
     - key: features.scroll_snap
-      t: Привязка прокрутки в CSS
+      t: Привязка прокрутки в CSS (Scroll Snap)
     - key: features.overscroll_behavior
       t: <code>overscroll-behavior</code>
     - key: features.overflow_anchor
@@ -221,7 +221,7 @@ translations:
     - key: features.variables
       t: CSS-переменные (кастомные свойства)
     - key: features.containment
-      t: CSS-изоляция
+      t: CSS-изоляция (CSS Containment)
     - key: features.will_change
       t: <code>will-change</code>
     - key: features.calc
@@ -423,9 +423,9 @@ translations:
       t: В каких браузерах вы тестируете?
 
     - key: environments.form_factors
-      t: Форм-фактор
+      t: Форм-факторы
     - key: environments.form_factors.description
-      t: Какие форм-факторы вы проверяете?
+      t: Какие размеры (форм-факторы) вы проверяете?
 
     - key: environments.css_for_print
       t: CSS для печати
