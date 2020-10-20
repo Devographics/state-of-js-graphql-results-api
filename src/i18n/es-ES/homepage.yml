@@ -1,54 +1,55 @@
 locale: es-ES
 translations:
-    ###########################################################################
-    # Homepage
-    ###########################################################################
 
-    - key: homepage.hand_coded
-      t: Programado a mano en Japón.
-    - key: homepage.leave_issue
-      t: ¿Has encontrado algún problema?
-    - key: homepage.get_in_touch
-      t: Permanece en contacto
+  ###########################################################################
+  # Homepage
+  ###########################################################################
 
-    - key: homepage.made_by
-      t: 'El Estado de CSS está Hecho por:'
-    - key: homepage.leave_issue
-      t: ¿Has encontrado algún problema?
+  - key: homepage.hand_coded
+    t: Programado a mano en Japón.
+  - key: homepage.leave_issue
+    t: ¿Has encontrado algún problema?
+  - key: homepage.get_in_touch
+    t: Permanece en contacto
 
-    - key: homepage.previous_years
-      t: 'Años Anteriores:'
+  - key: homepage.made_by
+    t: 'El Estado de CSS está Hecho por:'
+  - key: homepage.leave_issue
+    t: ¿Has encontrado algún problema?
 
-    - key: homepage.intro
-      t: >
-          ## CSS está evolucionando más deprisa que nunca.
+  - key: homepage.previous_years
+    t: 'Años Anteriores:'
 
-          Flexbox, Grid, Multi-Column… por no hablar de paradigmas totalmente nuevos como CSS-in-JS.
+  - key: homepage.intro
+    t: >
+        ## CSS está evolucionando más deprisa que nunca.
 
-          Así que después del éxito de nuestra encuesta anual [Estado de JavaScript](https://stateofjs.com), hemos decidido
-          abordar el mundo de los estilos y selectores para ayudar a identificar las últimas tendencias, y tratar de salvar
-          la "siempre creciente brecha del front".
+        Flexbox, Grid, Multi-Column… por no hablar de paradigmas totalmente nuevos como CSS-in-JS.
 
-    - key: homepage.take_survey
-      t: Realizar la encuesta
+        Así que después del éxito de nuestra encuesta anual [Estado de JavaScript](https://stateofjs.com), hemos decidido
+        abordar el mundo de los estilos y selectores para ayudar a identificar las últimas tendencias, y tratar de salvar
+        la "siempre creciente brecha del front".
 
-    - key: homepage.view_results
-      t: Resultados de 2019
+  - key: homepage.take_survey
+    t: Realizar la encuesta
 
-    - key: share.help_spread
-      t: ¡Ayúdanos a Darla a Conocer!
+  - key: homepage.view_results
+    t: Resultados de 2019
 
-    - key: newsletter.stay_tuned
-      t: Estate Informado
-    - key: newsletter.leave_your_email
-      t: Déjanos tu correo electrónico y te informaremos de futuras encuestas.
+  - key: share.help_spread
+    t: ¡Ayúdanos a Darla a Conocer!
 
-    - key: author.sacha.bio
-      t: >
-          Creador de [Nivo](http://nivo.rocks/), una librería en JavaScript para visualización datos y
-          [Mozaik](http://mozaik.rocks/), una herramienta para construir elegantes dashboards.
+  - key: newsletter.stay_tuned
+    t: Estate Informado
+  - key: newsletter.leave_your_email
+    t: Déjanos tu correo electrónico y te informaremos de futuras encuestas.
 
-    - key: author.raphael.bio
-      t: >
-          Creador del boletín de noticias diario [Sidebar](http://sidebar.io) y
-          [VulcanJS](http://vulcanjs.org), un framework de código abierto para React+GraphQL.
+  - key: author.sacha.bio
+    t: >
+        Creador de [Nivo](http://nivo.rocks/), una librería en JavaScript para visualización datos y
+        [Mozaik](http://mozaik.rocks/), una herramienta para construir elegantes dashboards.
+
+  - key: author.raphael.bio
+    t: >
+        Creador del boletín de noticias diario [Sidebar](http://sidebar.io) y
+        [VulcanJS](http://vulcanjs.org), un framework de código abierto para React+GraphQL.
