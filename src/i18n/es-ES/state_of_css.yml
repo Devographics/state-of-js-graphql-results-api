@@ -6,7 +6,7 @@ translations:
   # General
   ###########################################################################
 
-  - key: general.survey_intro_css2020 # TODO (Outdated translation)
+  - key: general.survey_intro_css2020
     t: >
       CSS está evolucionando más deprisa que nunca.
 
@@ -15,8 +15,9 @@ translations:
 
       
       Así que después del éxito de nuestra encuesta anual sobre el Estado de JavaScrip,
-      hemos decidido hacer una dentro del mundo de los estilos y los selectores para ayudar
-      a identificar las últimas tendencias… y tratar de reducir la creciente "gran brecha del front"!
+      hemos decidido hacer una, dentro del mundo de los estilos y los selectores. Esperamos
+      que nos puedas ayudar a identificar las últimas tendencias, y las herramientas que
+      debemos aprender y utilizar en el futuro!
 
   ###########################################################################
   # Sections
@@ -50,7 +51,7 @@ translations:
   - key: sections.media_queries.title
     t: Media Queries
   - key: sections.media_queries.description
-    t: Formas de adaptar to página a los dispositivos de tus usuarios o sus preferencias.
+    t: Formas de adaptar tu página a los dispositivos de tus usuarios o sus preferencias.
 
   - key: sections.other_features.title
     t: Otras Características
@@ -91,7 +92,7 @@ translations:
   # Options
   ###########################################################################
 
-  # CSS for print
+  # css for print
   - key: options.css_for_print.0
     t: (Casi) nunca escribo CSS para ser impreso
   - key: options.css_for_print.1
@@ -101,7 +102,7 @@ translations:
   - key: options.css_for_print.3
     t: Sólo me centro en CSS para ser impreso
 
-  # CSS for email
+  # css for email
   - key: options.css_for_email.0
     t: (Casi) nunca escribo CSS para correos electrónicos
   - key: options.css_for_email.1
@@ -116,7 +117,6 @@ translations:
   ###########################################################################
 
   # layout
-
   - key: features.grid
     t: CSS Grid
   - key: features.subgrid
