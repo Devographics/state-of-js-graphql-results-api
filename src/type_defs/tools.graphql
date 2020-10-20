@@ -62,7 +62,7 @@ enum ToolID {
     tailwind_css
     pure_css
     skeleton
-    spectre
+    spectre_css
     # CSS methodologies
     bem
     atomic_css
