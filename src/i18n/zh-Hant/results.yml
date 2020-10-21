@@ -1,4 +1,4 @@
-locale: en-US
+locale: zh-Hant
 translations:
     ###########################################################################
     # General
@@ -9,13 +9,13 @@ translations:
     ###########################################################################
 
     - key: features.learn_more
-      t: Learn More (MDN)
+      t: 深入瞭解 (MDN)
     - key: features.mdn_link
       t: MDN
     - key: features.caniuse_link
       t: CanIUse
     - key: features.specification_link
-      t: W3C Specification
+      t: W3C 規格
 
     ###########################################################################
     # Tools & Methodologies
@@ -23,12 +23,12 @@ translations:
 
     # general
     - key: tools.links
-      t: Links
+      t: 連結
     - key: tools.github_link
       t: GitHub
     - key: tools.github_stars
-      t: stars
+      t: 顆星
     - key: tools.homepage_link
-      t: Homepage
+      t: 首頁
     - key: tools.npm_link
       t: NPM
