@@ -1,15 +1,15 @@
-locale: en-US
+locale: zh-Hant
 translations:
     ###########################################################################
     # Homepage
     ###########################################################################
 
     - key: homepage.hand_coded
-      t: Hand-coded in Japan.
+      t: 在日本手工打造。
     - key: homepage.leave_issue
       t: Leave an issue
     - key: homepage.get_in_touch
-      t: Get in touch
+      t: 聯繫
 
     - key: homepage.made_by
       t: 'The State of CSS is Made by:'
@@ -17,7 +17,7 @@ translations:
       t: Leave an issue
 
     - key: homepage.previous_years
-      t: 'Previous Years:'
+      t: '前幾年的：'
 
     - key: homepage.intro
       t: >
