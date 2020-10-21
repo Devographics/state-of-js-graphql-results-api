@@ -66,20 +66,32 @@ translations:
     - key: sections.pre_post_processors.description
       t: Utilities that augment CSS.
 
+    - key: sections.pre_post_processors_others.title
+      t: Other Pre-/Post-processors
+
     - key: sections.css_frameworks.title
       t: CSS Frameworks
     - key: sections.css_frameworks.description
       t: Libraries that give you pre-made components and styles.
+
+    - key: sections.css_frameworks_others.title
+      t: Other CSS Frameworks
 
     - key: sections.css_methodologies.title
       t: CSS Methodologies
     - key: sections.css_methodologies.description
       t: Codified ways to write cleaner CSS.
 
+    - key: sections.css_methodologies_others.title
+      t: Other CSS Methodologies
+
     - key: sections.css_in_js.title
       t: CSS-in-JS
     - key: sections.css_in_js.description
       t: Libraries that help integrate CSS into JavaScript code.
+
+    - key: sections.css_in_js_others.title
+      t: Other CSS-in-JS Libraries
 
     - key: sections.environments.title
       t: Environments

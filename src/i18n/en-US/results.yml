@@ -4,6 +4,11 @@ translations:
     # General
     ###########################################################################
 
+    - key: page.previous
+      t: 'Previous:'
+    - key: page.next
+      t: 'Next:'
+
     - key: options.experience_ranking.satisfaction
       t: Satisfaction
     - key: options.experience_ranking.interest
@@ -67,6 +72,68 @@ translations:
     # Blocks
     ###########################################################################
 
+    # heatmaps
+    - key: blocks.tools_company_size_heatmap.title
+      t: Usage by Company Size
+    - key: blocks.tools_company_size_heatmap.description
+      t: |
+        For each technology, how usage is spread among respondents
+        who picked different company size ranges.
+
+    - key: blocks.tools_yearly_salary_heatmap.title
+      t: Usage by Salary Range
+    - key: blocks.tools_yearly_salary_heatmap.description
+      t: |
+        For each technology, how usage is spread among respondents
+        who picked different salary ranges.
+
+    - key: blocks.tools_years_of_experience_heatmap.title
+      t: Usage by Years Of Experience
+    - key: blocks.tools_years_of_experience_heatmap.description
+      t: |
+        For each technology, how usage is spread among respondents who picked different experience ranges.
+        Note that the experience in question here is general experience, not experience with a specific technology.
+
+    # tool
+    - key: blocks.entity.homepage_link
+      t: Homepage
+    - key: blocks.entity.github_link
+      t: GitHub
+
+    # category other tools
+    - key: blocks.category_other_tools.title
+      t: Other Tools
+    - key: blocks.category_other_tools.description
+      t: Other tools in this category (freeform answers).
+
+    # tool experience
+    - key: blocks.tool_experience.title
+      t: ${name} Experience Over Time
+    - key: blocks.tool_experience.description
+      t: Respondent's experience with ${name}.
+
+    # tools section overview
+    - key: blocks.tools_section_overview.title
+      t: Category Overview
+    - key: blocks.tools_section_overview.description
+      t: |
+        Overview of opinions on the technologies surveyed. Darker segments represent positive opinions,
+        while lighter segments correspond to negative sentiment.
+
+    # tools experience ranking
+    - key: blocks.tools_experience_ranking.title
+      t: Rankings
+    - key: blocks.tools_experience_ranking.description
+      t: Awareness, interest, and satisfaction ratio rankings.
+
+    # happiness
+    - key: blocks.happiness.title
+      t: Overall Happiness
+    - key: blocks.happiness.description
+      t: |
+        On a scale of one (very unhappy) to five (very happy), how happy are developers
+        with the current overall state of this category?
+
     # export
     - key: export.export
       t: Export
@@ -86,6 +153,23 @@ translations:
       t: Percents
     - key: chart_units.count
       t: Count
+
+    - key: charts.axis_legends.years_of_experience
+      t: Years of Experience
+    - key: charts.axis_legends.yearly_salary
+      t: Salary Range (USD)
+    - key: charts.axis_legends.company_size
+      t: Number of Employees
+    - key: charts.axis_legends.backend_proficiency
+      t: Back-end Proficiency
+    - key: charts.axis_legends.css_proficiency
+      t: CSS Proficiency
+    - key: charts.axis_legends.javascript_proficiency
+      t: JavaScript Proficiency
+    - key: charts.axis_legends.users_percentage
+      t: Percentage of Users
+    - key: charts.axis_legends.users_count
+      t: User Count
 
     ###########################################################################
     # Sharing
