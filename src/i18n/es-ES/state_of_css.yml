@@ -26,7 +26,7 @@ translations:
   - key: sections.layout.title
     t: Diseño
   - key: sections.layout.description
-    t: Cómo distribuyes los elementos por la pantalla?
+    t: ¿Cómo distribuyes los elementos por la pantalla?
   
   - key: sections.shapes_graphics.title
     t: Formas y Gráficos
@@ -238,10 +238,10 @@ translations:
   # Units & Selectors
   ###########################################################################
 
-  - key: features.units
+  - key: features_others.units
     t: Unidades
-  - key: features.units.description
-    t: Cuáles de las siguientes unidades has utilizado?
+  - key: features_others.units.description
+    t: ¿Cuáles de las siguientes unidades has utilizado?
 
   - key: options.units.px
     t: px
@@ -268,10 +268,10 @@ translations:
   - key: options.units.in
     t: in
 
-  - key: features.pseudo_elements
+  - key: features_others.pseudo_elements
     t: Pseudo Elementos
-  - key: features.pseudo_elements.description
-    t: Cuáles de los siguientes selectores has utilizado?
+  - key: features_others.pseudo_elements.description
+    t: ¿Cuáles de los siguientes selectores has utilizado?
 
   - key: options.pseudo_elements.before
     t: '::before'
@@ -290,7 +290,7 @@ translations:
   - key: options.pseudo_elements.backdrop
     t: '::backdrop'
 
-  - key: features.combinators
+  - key: features_others.combinators
     t: Combinators
 
   - key: options.combinators.descendant
@@ -302,7 +302,7 @@ translations:
   - key: options.combinators.subsequent_sibling
     t: div ~ div (hermano posterior)
 
-  - key: features.tree_document_structure
+  - key: features_others.tree_document_structure
     t: Estructure del Documento / Árbol
 
   - key: options.tree_document_structure.root
@@ -340,7 +340,7 @@ translations:
   - key: options.tree_document_structure.has
     t: :has()
 
-  - key: features.attributes
+  - key: features_others.attributes
     t: Atributos
   
   - key: options.attributes.presence
@@ -356,7 +356,7 @@ translations:
   - key: options.attributes.contains_substring
     t: div[foo*="bar"] (Contiene la cadena)
 
-  - key: features.links_urls
+  - key: features_others.links_urls
     t: Enlaces/URLs
 
   - key: options.links_urls.any_link
@@ -368,7 +368,7 @@ translations:
   - key: options.links_urls.target
     t: :target
 
-  - key: features.interaction
+  - key: features_others.interaction
     t: Interacciones
   
   - key: options.interaction.hover
@@ -382,7 +382,7 @@ translations:
   - key: options.interaction.focus_visible
     t: :focus-visible
 
-  - key: features.form_controls
+  - key: features_others.form_controls
     t: Control de Formularios
 
   - key: options.form_controls.enabled_disabled
@@ -405,13 +405,6 @@ translations:
     t: :in-range and :out-of-range
   - key: options.form_controls.required_optional
     t: :required and :optional
-
-  ###########################################################################
-  # Tools
-  ###########################################################################
-
-  - key: tools.atomiccss
-    t: Utility-First/Atomic CSS
 
   ###########################################################################
   # Environments

@@ -529,49 +529,49 @@ translations:
   # Other Tools
   ###########################################################################
 
-  - key: other_tools.text_editors
+  - key: tools_others.text_editors
     t: Editores de Texto
-  - key: other_tools.text_editors.description
+  - key: tools_others.text_editors.description
     t: ¿Qué editor(es) de texto usas habitualmente?
-  - key: other_tools.text_editors.others
+  - key: tools_others.text_editors.others
     t: Otros Editores de Texto
-  - key: other_tools.text_editors.others.description
+  - key: tools_others.text_editors.others.description
     t: Otras respuestas (campo de texto libre).
 
-  - key: other_tools.utilities
+  - key: tools_others.utilities
     t: Utilidades
-  - key: other_tools.utilities.description
+  - key: tools_others.utilities.description
     t: ¿Qué librerías de utilidades usas habitualmente?
-  - key: other_tools.utilities.others
+  - key: tools_others.utilities.others
     t: Otras Utilidades
-  - key: other_tools.utilities.others.description
+  - key: tools_others.utilities.others.description
     t: Otras respuestas (campo de texto libre).
 
-  - key: other_tools.browsers
+  - key: tools_others.browsers
     t: Navegadores
-  - key: other_tools.browsers.description
+  - key: tools_others.browsers.description
     t: ¿Con qué navegador(es) trabajas principalmente durante el desarrollo inicial?
-  - key: other_tools.browsers.others
+  - key: tools_others.browsers.others
     t: Otros Navegadores
-  - key: other_tools.browsers.others.description
+  - key: tools_others.browsers.others.description
     t: Otras respuestas (campo de texto libre).
 
-  - key: other_tools.build_tools
+  - key: tools_others.build_tools
     t: Herramientas de Construcción
-  - key: other_tools.build_tools.description
+  - key: tools_others.build_tools.description
     t: ¿Qué herramientas de construcción utilizas?
-  - key: other_tools.build_tools.others
+  - key: tools_others.build_tools.others
     t: Otras Herramientas de Construcción
-  - key: other_tools.build_tools.others.description
+  - key: tools_others.build_tools.others.description
     t: Otras respuestas (campo de texto libre).
 
-  - key: other_tools.non_js_languages
+  - key: tools_others.non_js_languages
     t: Otros Lenguajes (no relacionados con JavaScript)
-  - key: other_tools.non_js_languages.description
+  - key: tools_others.non_js_languages.description
     t: ¿Qué otros lenguajes de programación utilizas?
-  - key: other_tools.non_js_languages.others
+  - key: tools_others.non_js_languages.others
     t: Otros Lenguajes
-  - key: other_tools.non_js_languages.others.description
+  - key: tools_others.non_js_languages.others.description
     t: Otras respuestas (campo de texto libre).
 
 ###########################################################################

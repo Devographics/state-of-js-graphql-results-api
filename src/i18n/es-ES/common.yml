@@ -200,27 +200,27 @@ translations:
     t: No lo usaría
   
   # happiness
-  - key: options.happiness.very_unhappy
+  - key: options.happiness.0
     t: Muy Descontento
-  - key: options.happiness.unhappy
+  - key: options.happiness.1
     t: Descontento
-  - key: options.happiness.neutral
+  - key: options.happiness.2
     t: Neutral
-  - key: options.happiness.happy
+  - key: options.happiness.3
     t: Contento
-  - key: options.happiness.very_happy
+  - key: options.happiness.4
     t: Muy Contento
 
   # opinions
-  - key: options.opinions.disagree_strongly
+  - key: options.opinions.0
     t: Estoy Fuertemente en Desacuerdo
-  - key: options.opinions.disagree
+  - key: options.opinions.1
     t: Estoy en Desacuerdo
-  - key: options.opinions.neutral
+  - key: options.opinions.2
     t: Neutral
-  - key: options.opinions.agree
+  - key: options.opinions.3
     t: Estoy de Acuerdo
-  - key: options.opinions.agree_strongly
+  - key: options.opinions.4
     t: Estoy Fuertemente de Acuerdo
 
   # years of experience
@@ -398,23 +398,23 @@ translations:
     t: Prefiero no decirlo
 
   # race & ethnicity
-  - key: white_european
+  - key: options.race_ethnicity.white_european
     t: Blanco o descendiente de Europeos
-  - key: south_asian
+  - key: options.race_ethnicity.south_asian
     t: Asiático del Sur
-  - key: hispanic_latin
+  - key: options.race_ethnicity.hispanic_latin
     t: Hispano o Latino
-  - key: east_asian
+  - key: options.race_ethnicity.east_asian
     t: Asiático del Este
-  - key: middle_eastern
+  - key: options.race_ethnicity.middle_eastern
     t: De Oriente Medio
-  - key: black_african
+  - key: options.race_ethnicity.black_african
     t: Negro o descendiente de Africanos
-  - key: multiracial
+  - key: options.race_ethnicity.multiracial
     t: Multiracial
-  - key: biracial
+  - key: options.race_ethnicity.biracial
     t: Biracial
-  - key: native_american_islander_australian
+  - key: options.race_ethnicity.native_american_islander_australian
     t: Nativo Americano, de las Islas del Pacífico o Indígena Australiano
 
   # form factors
@@ -503,16 +503,8 @@ translations:
     t: Género
 
   # skin tone/appearance
-  - key: user_info.skin_tone
-    t: Apariencia
-  - key: user_info.skin_tone.description
-    t: >
-        ¿Qué emoji crees que te representa mejor? <br/><br/>
-
-        Nota: Estamos experimentando con un nuevo formato de preguntas para
-        probar a capturar mejor la diversidad racial de nuestros encuestados. 
-        <a href="https://github.com/StateOfJS/StateOfCSS-2020/issues/5" target="_blank">Déjanos tus comentarios</a>
-        en GitHub.
+  - key: user_info.race_ethnicity
+    t: Raza y Etnia
 
   # other info
   - key: user_info.how_did_user_find_out_about_the_survey
@@ -526,49 +518,49 @@ translations:
   # Other Tools
   ###########################################################################
 
-  - key: other_tools.text_editors
+  - key: tools_others.text_editors
     t: Editores de Texto
-  - key: other_tools.text_editors.description
+  - key: tools_others.text_editors.description
     t: ¿Qué editor(es) de texto usas habitualmente?
-  - key: other_tools.text_editors.others
+  - key: tools_others.text_editors.others
     t: Otros Editores de Texto
-  - key: other_tools.text_editors.others.description
+  - key: tools_others.text_editors.others.description
     t: Otras respuestas (campo de texto libre).
 
-  - key: other_tools.utilities
+  - key: tools_others.utilities
     t: Utilidades
-  - key: other_tools.utilities.description
+  - key: tools_others.utilities.description
     t: ¿Qué librerías de utilidades usas habitualmente?
-  - key: other_tools.utilities.others
+  - key: tools_others.utilities.others
     t: Otras Utilidades
-  - key: other_tools.utilities.others.description
+  - key: tools_others.utilities.others.description
     t: Otras respuestas (campo de texto libre).
 
-  - key: other_tools.browsers
+  - key: tools_others.browsers
     t: Navegadores
-  - key: other_tools.browsers.description
+  - key: tools_others.browsers.description
     t: ¿Con qué navegador(es) trabajas principalmente durante el desarrollo inicial?
-  - key: other_tools.browsers.others
+  - key: tools_others.browsers.others
     t: Otros Navegadores
-  - key: other_tools.browsers.others.description
+  - key: tools_others.browsers.others.description
     t: Otras respuestas (campo de texto libre).
 
-  - key: other_tools.build_tools
+  - key: tools_others.build_tools
     t: Herramientas de Construcción
-  - key: other_tools.build_tools.description
+  - key: tools_others.build_tools.description
     t: ¿Qué herramientas de construcción utilizas?
-  - key: other_tools.build_tools.others
+  - key: tools_others.build_tools.others
     t: Otras Herramientas de Construcción
-  - key: other_tools.build_tools.others.description
+  - key: tools_others.build_tools.others.description
     t: Otras respuestas (campo de texto libre).
 
-  - key: other_tools.non_js_languages
+  - key: tools_others.non_js_languages
     t: Otros Lenguajes (no relacionados con JavaScript)
-  - key: other_tools.non_js_languages.description
+  - key: tools_others.non_js_languages.description
     t: ¿Qué otros lenguajes de programación utilizas?
-  - key: other_tools.non_js_languages.others
+  - key: tools_others.non_js_languages.others
     t: Otros Lenguajes
-  - key: other_tools.non_js_languages.others.description
+  - key: tools_others.non_js_languages.others.description
     t: Otras respuestas (campo de texto libre).
 
   ###########################################################################
