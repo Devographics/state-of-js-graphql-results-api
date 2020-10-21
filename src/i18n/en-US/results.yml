@@ -16,6 +16,13 @@ translations:
     - key: options.experience_ranking.awareness
       t: Awareness
 
+    - key: options.features_simplified.know_it
+      t: Know about it
+    - key: options.features_simplified.used_it
+      t: Have used it
+    - key: options.features_simplified.usage_ratio
+      t: Usage ratio
+
     ###########################################################################
     # Sections
     ###########################################################################
@@ -38,6 +45,9 @@ translations:
 
     - key: sections.features.title
       t: Features
+
+    - key: sections.conclusion.title
+      t: Conclusion
 
     ###########################################################################
     # Features
@@ -134,7 +144,33 @@ translations:
         On a scale of one (very unhappy) to five (very happy), how happy are developers
         with the current overall state of this category?
 
-    # export
+    # newsletter
+    - key: blocks.newsletter.title
+      t: Stay Tuned
+    - key: blocks.newsletter.description
+      t: |
+        If you'd like to know when we release additional results or announce next year's edition,
+        just leave us your email below:
+    - key: blocks.newsletter.email
+      t: Your Email
+    - key: blocks.newsletter.submit
+      t: Notify Me
+
+    # features_overview
+    - key: blocks.features_overview.title
+      t: Usage Overview
+    - key: blocks.features_overview.description
+      t: |
+        This chart presents the various adoption rates for all features, grouped by category.
+
+        The size of the <span class="text-teal-darker text-bold">outer circle</span>
+        corresponds to the total number of users who know about a feature, while
+        the <span class="text-teal text-bold">inner one</span> represents those who have actually used it.
+
+        Hover on each node to view detailed data along with an <span class="text-blackpink text-bold">overlay</span>
+        representing the total number of survey respondents.
+
+  # export
     - key: export.export
       t: Export
     - key: export.title
