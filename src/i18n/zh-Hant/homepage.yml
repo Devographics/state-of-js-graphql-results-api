@@ -7,14 +7,14 @@ translations:
     - key: homepage.hand_coded
       t: 在日本手工打造。
     - key: homepage.leave_issue
-      t: Leave an issue
+      t: 寫下 issue
     - key: homepage.get_in_touch
       t: 聯繫
 
     - key: homepage.made_by
-      t: 'The State of CSS is Made by:'
+      t: 'CSS 現況調查的製作人員：'
     - key: homepage.leave_issue
-      t: Leave an issue
+      t: 寫下 issue
 
     - key: homepage.previous_years
       t: '前幾年的：'
@@ -30,16 +30,16 @@ translations:
           the ever-growing “great front-end divide”!
 
     - key: homepage.take_survey
-      t: Take Survey
+      t: 參加調查
 
     - key: homepage.view_results
-      t: View 2019 Results
+      t: 看 2019 年的結果
 
     - key: share.help_spread
-      t: Help Spread the Word!
+      t: 幫忙宣傳！
 
     - key: newsletter.stay_tuned
-      t: Stay Tuned
+      t: 敬請期待
     - key: newsletter.leave_your_email
       t: Leave us your email and we’ll let you know when the next survey takes place.
 
