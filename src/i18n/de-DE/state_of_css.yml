@@ -1,4 +1,4 @@
-locale: ru-RU
+locale: de-DE
 namespace: css
 translations:
     ###########################################################################
@@ -7,84 +7,80 @@ translations:
 
     - key: general.survey_intro_css2020
       t: >
-          CSS развивается быстрее, чем когда-либо.
+          CSS entwickelt sich schneller als je zuvor.
 
+          Flexbox, Grid, Multi-Column... Und dabei sind wir noch gar nicht bei den neuen Paradigmen wie CSS-in-JS.
 
-          Флексбоксы, гриды, мультиколонки… Не говоря уже о совершенно новых парадигмах, таких как CSS-in-JS.
-
-
-          После успешного проведения ежегодного опроса "State of JavaScript" 
-          мы решили войти в мир стилей и селекторов. Мы надеемся с вашей помощью 
-          определить актуальные тенденции, а также выяснить, что следует изучать и использовать в будущем!
+          Auf Grund des Erfolgs unserer jährlichen State Of JavaScript Umfragen haben wir entschieden einen Schritt in die Welt der Styles und Selektoren zu gehen. Wir hoffen Du hilfst uns die aktuellen Trends zu identifizieren und herauszufinden welche Tools es sich lohnt als nächstes zu lernen und zu nutzen!
 
     ###########################################################################
     # Sections
     ###########################################################################
 
     - key: sections.layout.title
-      t: Раскладка
+      t: Layout
     - key: sections.layout.description
-      t: Как вы располагаете элементы на странице?
+      t: Wie positionierst Du Elemente auf dem Bildschirm?
 
     - key: sections.shapes_graphics.title
-      t: Фигуры и графические объекты
+      t: Formen und Grafik
     - key: sections.shapes_graphics.description
-      t: Управление фигурами и отображение элементов.
+      t: Kontrolliere die Form und Anzeige von Elementen.
 
     - key: sections.interactions.title
-      t: Взаимодействия
+      t: Interaktionen
     - key: sections.interactions.description
-      t: Контроль взаимодействия пользователя со страницей.
+      t: Kontrolliere wie der Nutzer mit der Seite interagiert.
 
     - key: sections.typography.title
-      t: Типографика
+      t: Typographie
     - key: sections.typography.description
-      t: Параметры и форматирование текста
+      t: Einstellungen und Layout von Text.
 
     - key: sections.animations_transforms.title
-      t: Анимации и трансформации
+      t: Animationen & Transformationen
     - key: sections.animations_transforms.description
-      t: Анимирование и трансформация элементов.
+      t: Animiere und transformiere Elemente.
 
     - key: sections.media_queries.title
-      t: Медиавыражения
+      t: Media Queries
     - key: sections.media_queries.description
-      t: Способы адаптации сайта к устройству пользователя или его предпочтениям.
+      t: Möglichkeiten die Seite an Geräte und Präferenzen von Nutzern anzupassen.
 
     - key: sections.other_features.title
-      t: Другие возможности
+      t: Andere Features
     - key: sections.other_features.description
-      t: Другие CSS-возможности.
+      t: Andere CSS features.
 
     - key: sections.units_selectors.title
-      t: Единицы значения и селекторы
+      t: Einheiten und Selektoren
     - key: sections.units_selectors.description
-      t: Проверьте свои знания единиц измерения и селекторов CSS.
+      t: Teste Dein Wissen zu CSS Einheiten und Selektoren.
 
     - key: sections.pre_post_processors.title
-      t: Пре/Постпроцессоры
+      t: Pre-/Post-processors
     - key: sections.pre_post_processors.description
-      t: Утилиты, расширяющие возможности CSS.
+      t: Werkzeuge, die CSS erweitern.
 
     - key: sections.css_frameworks.title
-      t: CSS-фреймворки
+      t: CSS Frameworks
     - key: sections.css_frameworks.description
-      t: Библиотеки с готовыми компонентами и стилями.
+      t: Bibliotheken, die Dir vordefinierte Komponenten und Styles liefern.
 
     - key: sections.css_methodologies.title
-      t: CSS-методологии
+      t: CSS Methoden
     - key: sections.css_methodologies.description
-      t: Систематизированные способы написания чистого CSS-кода.
+      t: Kodifizierte Optionen wie sauberes CSS geschrieben wird.
 
     - key: sections.css_in_js.title
       t: CSS-in-JS
     - key: sections.css_in_js.description
-      t: Библиотеки для интеграции CSS в JavaScript-код.
+      t: Bibliotheken, die bei der Integration von CSS nach JavaScript helfen.
 
     - key: sections.environments.title
-      t: Окружения
+      t: Umgebungen
     - key: sections.environments.description
-      t: Для каких окружений вы пишете CSS?
+      t: Für welche Umgebungen schreibst Du CSS?
 
     ###########################################################################
     # Options
@@ -92,23 +88,23 @@ translations:
 
     # CSS for print
     - key: options.css_for_print.0
-      t: Я (почти) никогда не создаю стили для печати
+      t: Ich schreibe fast nie Print Styles
     - key: options.css_for_print.1
-      t: Иногда я создаю стили для печати
+      t: Ich schreibe gelegentlich Print Styles
     - key: options.css_for_print.2
-      t: Создаю стили для печати в большинстве проектах
+      t: Ich schreibe Print Styles üblicherweise als Teil meiner Projekte
     - key: options.css_for_print.3
-      t: Уделяю особое внимание CSS для печати
+      t: Ich schreibe hauptsächlich Print Styles
 
     # CSS for email
     - key: options.css_for_email.0
-      t: Я (почти) никогда не создаю стили для почтовых клиентов
+      t: Ich schreibe fast nie CSS für E-Mail Clients
     - key: options.css_for_email.1
-      t: Иногда я пишу стили для почтовых клиентов
+      t: Ich schreibe gelegentlich CSS für E-Mail Clients
     - key: options.css_for_email.2
-      t: Создаю стили для почтовых клиентов в большинстве проектах
+      t: Ich schreibe CSS für E-Mail Clients üblicherweise als Teil meiner Projekte
     - key: options.css_for_email.3
-      t: Уделяю особое внимание CSS для почтовых клиентов
+      t: Ich schreibe CSS hauptsächlich für E-Mail Clients
 
     ###########################################################################
     # Features
@@ -117,25 +113,25 @@ translations:
     # layout
 
     - key: features.grid
-      t: Грид CSS
+      t: CSS Grid
     - key: features.subgrid
-      t: Сабгрид
+      t: Subgrid
     - key: features.regions
-      t: CSS-области (CSS Regions)
+      t: CSS Regions
     - key: features.flexbox
-      t: Флексбокс
+      t: Flexbox
     - key: features.multi_column
-      t: Мультиколонки CSS
+      t: CSS Multi-Column
     - key: features.writing_modes
-      t: Режимы письма CSS
+      t: CSS Writing Modes
     - key: features.exclusions
-      t: CSS-исключения
+      t: CSS Exclusions
     - key: features.position_sticky
       t: '<code>position: sticky</code>'
     - key: features.logical_properties
-      t: Логические свойства
+      t: Logical Properties
     - key: features.logical_properties.description
-      t: <code>margin-block-start</code>, <code>padding-inline-end</code> и т.д.
+      t: <code>margin-block-start</code>, <code>padding-inline-end</code>, etc.
     - key: features.aspect_ratio
       t: <code>aspect-ratio</code>
     - key: features.content_visibility
@@ -143,25 +139,25 @@ translations:
 
     # shapes & graphics
     - key: features.shapes
-      t: CSS-фигуры (CSS Shapes)
+      t: CSS Shapes
     - key: features.object_fit
       t: <code>object-fit</code>
     - key: features.clip_path
       t: <code>clip-path</code>
     - key: features.masks
-      t: CSS-маски
+      t: CSS Masks
     - key: features.blend_modes
-      t: Режимы смешивания (Blend Modes)
+      t: Blend Modes
     - key: features.blend_modes.description
-      t: Свойство <code>mix-blend-mode</code>
+      t: The <code>mix-blend-mode</code> property
     - key: features.filter_effects
-      t: CSS-фильтры
+      t: CSS Filter Effects
     - key: features.backdrop_filter
       t: <code>backdrop-filter</code>
 
     # interactions
     - key: features.scroll_snap
-      t: Привязка прокрутки в CSS (Scroll Snap)
+      t: CSS Scroll Snap
     - key: features.overscroll_behavior
       t: <code>overscroll-behavior</code>
     - key: features.overflow_anchor
@@ -173,11 +169,11 @@ translations:
 
     # typography
     - key: features.web_fonts
-      t: Веб-шрифты (@font-face)
+      t: Web fonts (@font-face)
     - key: features.variables_fonts
-      t: Вариативные шрифты
+      t: Variable fonts
     - key: features.line_breaking
-      t: Свойства переноса строк
+      t: Line breaking properties
     - key: features.line_breaking.description
       t: <code>overflow-wrap</code>, <code>word-break</code>, <code>line-break</code>, <code>hyphens</code>
     - key: features.font_variant
@@ -195,21 +191,21 @@ translations:
     - key: features.direction
       t: <code>direction</code>
     - key: features.direction.description
-      t: Включая также HTML-атрибут <code>dir</code>.
+      t: Beinhaltet auch <code>dir</code> HTML-Attribute.
 
     # animations & transforms
     - key: features.transitions
-      t: CSS-переходы
+      t: CSS Transitions
     - key: features.transforms
-      t: CSS-трансформации
+      t: CSS Transforms
     - key: features.animations
-      t: CSS-анимации
+      t: CSS Animations
     - key: features.perspective
       t: <code>perspective</code>
 
     # media queries
     - key: features.feature_support_queries
-      t: Проверка CSS-возможности (<code>@supports</code>)
+      t: Feature Support Queries (<code>@supports</code>)
     - key: features.prefers_reduced_motion
       t: <code>prefers-reduced-motion</code>
     - key: features.prefers_color_scheme
@@ -219,9 +215,9 @@ translations:
 
     # other features
     - key: features.variables
-      t: CSS-переменные (кастомные свойства)
+      t: CSS Variables (Custom Properties)
     - key: features.containment
-      t: CSS-изоляция (CSS Containment)
+      t: CSS Containment
     - key: features.will_change
       t: <code>will-change</code>
     - key: features.calc
@@ -229,19 +225,18 @@ translations:
     - key: features.houdini
       t: Houdini
     - key: features.comparison_functions
-      t: Функции сравнения CSS
+      t: CSS Comparison Functions
     - key: features.comparison_functions.description
-      t: <code>min()</code>, <code>max()</code> и <code>clamp()</code>
+      t: <code>min()</code>, <code>max()</code>, and <code>clamp()</code>
 
     ###########################################################################
     # Units & Selectors
     ###########################################################################
 
-    # units & selectors
     - key: features_others.units
-      t: Единицы измерения
+      t: Einheiten
     - key: features_others.units.description
-      t: Какие из этих единиц измерения CSS вы использовали?
+      t: Welche dieser CSS Einheiten hast Du genutzt?
 
     - key: options.units.px
       t: px
@@ -269,9 +264,9 @@ translations:
       t: in
 
     - key: features_others.pseudo_elements
-      t: Псевдоэлементы
+      t: Pseudoelemente
     - key: features_others.pseudo_elements.description
-      t: Какие из этих CSS-псевдоэлементов вы использовали?
+      t: Welche dieser CSS Pseudoelemente hast Du genutzt?
 
     - key: options.pseudo_elements.before
       t: '::before'
@@ -291,19 +286,19 @@ translations:
       t: '::backdrop'
 
     - key: features_others.combinators
-      t: Комбинаторы
+      t: Combinators
 
     - key: options.combinators.descendant
-      t: div span (комбинатор потомка)
+      t: div span (descendant)
     - key: options.combinators.child
-      t: div > span (комбинатор непосредственного потомка)
+      t: div > span (child)
     - key: options.combinators.next_sibling
-      t: div + div (комбинатор непосредственного соседства)
+      t: div + div (next sibling)
     - key: options.combinators.subsequent_sibling
-      t: div ~ div (комбинатор соседства)
+      t: div ~ div (subsequent sibling)
 
     - key: features_others.tree_document_structure
-      t: Структура дерева/документа
+      t: Baum/ Dokumentstruktur
 
     - key: options.tree_document_structure.root
       t: :root
@@ -341,23 +336,23 @@ translations:
       t: :has()
 
     - key: features_others.attributes
-      t: Атрибуты
+      t: Attribute
 
     - key: options.attributes.presence
-      t: div[foo] (имеет определённый атрибут)
+      t: div[foo] (Vorhandensein)
     - key: options.attributes.equality
-      t: div[foo="bar"] (имеет определённый атрибут со значением)
+      t: div[foo="bar"] (Gleichwertigkeit)
     - key: options.attributes.starts_with
-      t: div[foo^="bar"] (начинается с)
+      t: div[foo^="bar"] (Beginnt mit)
     - key: options.attributes.ends_with
-      t: div[foo$="bar"] (заканчивается на)
+      t: div[foo$="bar"] (Endet mit)
     - key: options.attributes.contains_word
-      t: div[foo~="bar"] (содержит определённый набор слов)
+      t: div[foo~="bar"] (Beinhaltet Wort)
     - key: options.attributes.contains_substring
-      t: div[foo*="bar"] (содержит определённую подстроку)
+      t: div[foo*="bar"] (Beinhaltet Zeichen)
 
     - key: features_others.links_urls
-      t: Ссылки/URL-адреса
+      t: Links/URLs
 
     - key: options.links_urls.any_link
       t: :any-link
@@ -369,7 +364,7 @@ translations:
       t: :target
 
     - key: features_others.interaction
-      t: Взаимодействие
+      t: Interaktion
 
     - key: options.interaction.hover
       t: :hover
@@ -383,12 +378,12 @@ translations:
       t: :focus-visible
 
     - key: features_others.form_controls
-      t: Управление полями формы
+      t: Formularfelder
 
     - key: options.form_controls.enabled_disabled
-      t: :enabled и :disabled
+      t: :enabled and :disabled
     - key: options.form_controls.read_only_write
-      t: :read-only и :read-write
+      t: :read-only and :read-write
     - key: options.form_controls.placeholder_shown
       t: :placeholder-shown
     - key: options.form_controls.default
@@ -398,79 +393,72 @@ translations:
     - key: options.form_controls.indeterminate
       t: :indeterminate
     - key: options.form_controls.valid_invalid
-      t: :valid и :invalid
+      t: :valid and :invalid
     - key: options.form_controls.user_invalid
       t: :user-invalid
     - key: options.form_controls.in_out_range
-      t: :in-range и :out-of-range
+      t: :in-range and :out-of-range
     - key: options.form_controls.required_optional
-      t: :required и :optional
-
-    ###########################################################################
-    # Tools
-    ###########################################################################
-
-    - key: tools.atomiccss
-      t: Подход Utility-First/Atomic CSS
+      t: :required and :optional
 
     ###########################################################################
     # Environments
     ###########################################################################
 
     - key: environments.browsers
-      t: Браузеры
+      t: Browser
     - key: environments.browsers.description
-      t: В каких браузерах вы тестируете?
+      t: Welchen Browser nutzt Du zum Testen?
 
     - key: environments.form_factors
-      t: Форм-факторы
+      t: Formfaktoren
     - key: environments.form_factors.description
-      t: Какие размеры (форм-факторы) вы проверяете?
+      t: Mit welchen Formfaktoren testest Du?
 
     - key: environments.css_for_print
-      t: CSS для печати
+      t: CSS für den Druck
     - key: environments.css_for_print.description
-      t: Вы создаёте стили для печати?
+      t: Schreibst Du Styles für den Druck?
 
     - key: environments.css_for_email
-      t: CSS для почтовых клиентов
+      t: CSS für E-Mail Clients
     - key: environments.css_for_email.description
-      t: Вы создаёте CSS-стили для почтовых клиентов?
+      t: Schreibst Du CSS für E-Mail Clients?
 
     ###########################################################################
     # Opinions
     ###########################################################################
 
     - key: opinions.css_easy_to_learn
-      t: CSS легко изучить
+      t: CSS ist leicht zu lernen.
 
     - key: opinions.css_evolving_slowly
-      t: CSS развивается слишком медленно
+      t: CSS entwickelt sich zu langsam.
 
     - key: opinions.utility_classes_to_be_avoided
-      t: Следует избегать вспомогательных (несемантических) классов (.center, .large-text и т.д.)
+      t: Werkzeugklassen (nicht-semantische e.g. .center, .large-text, etc.) sollten vermieden werden.
 
     - key: opinions.selector_nesting_to_be_avoided
-      t: Следует избегать вложенных селекторов (.foo .bar ul li {...})
+      t: Verschachteln von Selektoren (.foo .bar ul li {...}) sollte vermieden werden.
 
     - key: opinions.css_is_programming_language
-      t: CSS — язык программирования
+      t: CSS ist eine Programmiersprache.
 
     - key: opinions.enjoy_writing_css
-      t: Мне нравится писать CSS
+      t: Ich genieße es CSS zu schreiben.
 
     - key: opinions_other.currently_missing_from_css.others
-      t: Что вам не хватает в CSS?
+      t: What do you feel is currently missing from CSS?
     - key: opinions_other.currently_missing_from_css.others.description
-      t: Возможности, которые вы хотели бы видеть в CSS.
+      t: Features, die Du gerne irgendwann in CSS sehen möchtest.
 
     - key: opinions.sum_up_one_word_css
-      t: CSS одним словом
+      t: CSS in one word
     - key: opinions.sum_up_one_word_css.description
-      t: Как вы бы выразили своё мнение о CSS одним словом?
+      t: Wie würdest Du Deine Meinung über CSS in einem Wort zusammenfassen?
 
     - key: happiness.state_of_the_web
-      t: Насколько вы удовлетворены текущим состоянием веб-технологий?
+      t: Wie zufrieden bist Du allgemeinen mit den Webtechnologien?
 
     - key: happiness.state_of_css
-      t: Насколько вы удовлетворены текущим состоянием CSS?
+      t: Wie zufrieden bist Du allgemein mit CSS?

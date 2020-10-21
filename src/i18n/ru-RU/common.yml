@@ -129,7 +129,7 @@ translations:
     - key: sections.user_info.title
       t: О вас
     - key: sections.user_info.description
-      t: Узнаем, кто вы есть на самом деле.
+      t: Давайте познакомимся с вами.
 
     - key: sections.resources.title
       t: Ресурсы
@@ -137,9 +137,9 @@ translations:
       t: К каким ресурсам по {topic} вы обращаетесь?
 
     - key: sections.opinions.title
-      t: Мнения
+      t: Взгляды
     - key: sections.opinions.description
-      t: Что вы думаете насчёт общего состояния {topic}?
+      t: Что вы думаете про общее состояние {topic}?
 
     - key: sections.other_tools.title
       t: Другие инструменты
@@ -486,7 +486,7 @@ translations:
     - key: user_info.job_title
       t: Должность
     - key: user_info.job_title.description
-      t: Как вы представляетесь на публичных мероприятиях?
+      t: Кем вы представляетесь на публичных мероприятиях?
 
     # javascript proficiency
 
