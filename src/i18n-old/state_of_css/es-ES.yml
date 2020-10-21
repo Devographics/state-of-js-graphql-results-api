@@ -25,7 +25,7 @@ translations:
   - key: sections.layout.title
     t: Diseño
   - key: sections.layout.description
-    t: Cómo distribuyes los elementos por la pantalla?
+    t: ¿Cómo distribuyes los elementos por la pantalla?
   
   - key: sections.shapes_graphics.title
     t: Formas y Gráficos

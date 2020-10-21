@@ -528,49 +528,49 @@ translations:
     # Other Tools
     ###########################################################################
 
-    - key: other_tools.text_editors
+    - key: tools_others.text_editors
       t: Text-Editors
-    - key: other_tools.text_editors.description
+    - key: tools_others.text_editors.description
       t: Vilka text-editor(s) använder du regelbundet?
-    - key: other_tools.text_editors.others
+    - key: tools_others.text_editors.others
       t: Andra text-editors
-    - key: other_tools.text_editors.others.description
+    - key: tools_others.text_editors.others.description
       t: Övriga svar (fritextfält).
 
-    - key: other_tools.utilities
+    - key: tools_others.utilities
       t: Verktygsbibliotek
-    - key: other_tools.utilities.description
+    - key: tools_others.utilities.description
       t: Vilka verktygsbibliotek använder du regelbundet?
-    - key: other_tools.utilities.others
+    - key: tools_others.utilities.others
       t: Andra verktygsbibliotek
-    - key: other_tools.utilities.others.description
+    - key: tools_others.utilities.others.description
       t: Övriga svar (fritextfält).
 
-    - key: other_tools.browsers
+    - key: tools_others.browsers
       t: Webbläsare
-    - key: other_tools.browsers.description
+    - key: tools_others.browsers.description
       t: Vilka webbläsare jobbar du i primärt under initial utveckling?
-    - key: other_tools.browsers.others
+    - key: tools_others.browsers.others
       t: Övriga webbläsare
-    - key: other_tools.browsers.others.description
+    - key: tools_others.browsers.others.description
       t: Övriga svar (fritextfält).
 
-    - key: other_tools.build_tools
+    - key: tools_others.build_tools
       t: Byggverktyg
-    - key: other_tools.build_tools.description
+    - key: tools_others.build_tools.description
       t: Vilka byggverktyg använder du?
-    - key: other_tools.build_tools.others
+    - key: tools_others.build_tools.others
       t: Övriga byggverktyg
-    - key: other_tools.build_tools.others.description
+    - key: tools_others.build_tools.others.description
       t: Övriga svar (fritextfält).
 
-    - key: other_tools.non_js_languages
+    - key: tools_others.non_js_languages
       t: Språk Utöver JavaScript
-    - key: other_tools.non_js_languages.description
+    - key: tools_others.non_js_languages.description
       t: Vilka andra programmeringsspråk använder du?
-    - key: other_tools.non_js_languages.others
+    - key: tools_others.non_js_languages.others
       t: Andra språk
-    - key: other_tools.non_js_languages.others.description
+    - key: tools_others.non_js_languages.others.description
       t: Övriga svar (fritextfält).
 
     ###########################################################################
