@@ -158,6 +158,14 @@ translations:
     - key: options.features.used
       t: 👍 I've used it
 
+    # features (no emoji)
+    - key: options.features.never_heard.label
+      t: Never heard of it/Not sure what it is
+    - key: options.features.heard.label
+      t: Know what it is, but haven't used it
+    - key: options.features.used.label
+      t: I've used it
+
     # features (short versions)
     - key: options.features.never_heard.short
       t: Never heard of it
@@ -189,6 +197,18 @@ translations:
       t: 👍 Used it > Would use again
     - key: options.tools.would_not_use
       t: 👎 Used it > Would not use again
+
+    # tools experience (no emoji)
+    - key: options.tools.never_heard.legend
+      t: Never heard of it/Not sure what it is
+    - key: options.tools.interested.legend
+      t: Heard of it > Would like to learn
+    - key: options.tools.not_interested.legend
+      t: Heard of it > Not interested
+    - key: options.tools.would_use.legend
+      t: Used it > Would use again
+    - key: options.tools.would_not_use.legend
+      t: Used it > Would not use again
 
     # tools experience (short versions)
     - key: options.tools.never_heard.short
@@ -308,19 +328,19 @@ translations:
 
     # salary (short versions)
     - key: options.yearly_salary.range_work_for_free.short
-      t: '$0'
+      t: '0'
     - key: options.yearly_salary.range_0_10.short
-      t: $0k-$10k
+      t: 0~10k
     - key: options.yearly_salary.range_10_30.short
-      t: $10k-$30k
+      t: 10~30k
     - key: options.yearly_salary.range_30_50.short
-      t: $30k-$50k
+      t: 30~50k
     - key: options.yearly_salary.range_50_100.short
-      t: $50k-$100k
+      t: 50~100k
     - key: options.yearly_salary.range_100_200.short
-      t: $100k-$200k
+      t: 100~200k
     - key: options.yearly_salary.range_more_than_200.short
-      t: '>$200k'
+      t: '>200k'
 
     # job titles
     - key: options.job_title.cto
@@ -343,7 +363,6 @@ translations:
       t: Back-end Developer/Engineer
 
     # JavaScript proficiency
-
     - key: options.javascript_proficiency.0
       t: Not able to write any JavaScript
     - key: options.javascript_proficiency.1
@@ -356,7 +375,6 @@ translations:
       t: Handling advanced front-end patterns (state management, data loading, etc.)
 
     # CSS proficiency
-
     - key: options.css_proficiency.0
       t: Virtually no knowledge of CSS
     - key: options.css_proficiency.1
@@ -369,7 +387,6 @@ translations:
       t: Able to style an entire front-end from scratch following a consistent methodology
 
     # Back-end proficiency
-
     - key: options.backend_proficiency.0
       t: Not able to handle any back-end work
     - key: options.backend_proficiency.1
@@ -489,14 +506,12 @@ translations:
       t: How do you introduce yourself at parties?
 
     # javascript proficiency
-
     - key: user_info.javascript_proficiency
       t: JavaScript Proficiency
     - key: user_info.javascript_proficiency.description
       t: How proficient are you at JavaScript?
 
     # css proficiency
-
     - key: user_info.css_proficiency
       t: CSS Proficiency
     - key: user_info.css_proficiency.description
