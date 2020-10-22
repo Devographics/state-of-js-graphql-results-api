@@ -12,7 +12,7 @@ translations:
       t: İletişime geçin
 
     - key: homepage.made_by 
-      t: 'The State of CSS is Made by:'
+      t: 'The CSS'nin Durumu, yaratan:'
     - key: homepage.leave_issue 
       t: Bir sorun iletisi bırakın
 
@@ -24,7 +24,7 @@ translations:
 
           Flexbox, Grid, Multi-Column… ve CSS-in-JS gibi tamamen yepyeni paradigmalar.
 
-          Senelik olarak gerçekleştirdiğimiz [State Of JavaScript](https://stateofjs.com) 
+          Senelik olarak gerçekleştirdiğimiz [JavaScript'in Durumu](https://stateofjs.com) 
           anketinin başarısının ardından, stiller ve tasarım dünyasına da
           adım atmaya ve giderek büyüyen "büyük önyüz ayrımını" kapatmaya çalışmaya karar verdik!
 
