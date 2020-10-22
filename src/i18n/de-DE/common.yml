@@ -9,13 +9,13 @@ translations:
       t: Warum soll ich ein Konto anlegen?
     - key: general.create_account_reasons
       t: >
-          Darum bitten Dich ein Konto anzulegen:
+          Darum bitten wir Dich ein Konto anzulegen:
 
           - Vermeidung doppelter Antworten
 
           - Zugriff auf Deine Daten
 
-          - Deinen Fortschitt speichern
+          - Deinen Fortschritt speichern
 
           - Information, wenn Ergebnisse bereitstehen
     - key: general.survey_closed
@@ -48,7 +48,7 @@ translations:
     - key: general.survey_closed
       t: Die Umfrage ist geschlossen.
     - key: general.survey_results
-      t: Umfrage-Ergebnisse anzeigen »
+      t: Ergebnisse anzeigen »
     - key: general.surveys_available_languages
       t: 'Umfrage verfügbar in:'
     - key: general.help_us_translate
@@ -91,7 +91,7 @@ translations:
       t: Wissens-Score
     - key: thanks.score_explanation
       t: >
-          Du hast <span class="score-number score-number-known">{known}</span> Feature/s von <span class="score-number score-number-total">{total} Features aus der Umfrage genutzt oder davon gehört. Das bringt Dich in die Top <span class="score-number score-number-ranking">{knowledgeRankingFromTop}%</span>
+          Du hast <span class="score-number score-number-known">{known}</span> Feature/s von <span class="score-number score-number-total">{total}</span> Features aus der Umfrage verwendet oder davon gehört. Das bringt Dich in die Top <span class="score-number score-number-ranking">{knowledgeRankingFromTop}%</span>
           aller Antworten.
     - key: thanks.share_on_twitter
       t: Teile auf Twitter
@@ -342,28 +342,28 @@ translations:
     # JavaScript proficiency
 
     - key: options.javascript_proficiency.0
-      t: Kann kein JavaScript schreiben
+      t: Kann kein JavaScript schreiben.
     - key: options.javascript_proficiency.1
-      t: Schreibe kurze, einfache JavaScript oder jQuery Befehle
+      t: Schreibe kurze, einfache JavaScript oder jQuery Befehle.
     - key: options.javascript_proficiency.2
       t: Arbeite an einer existierenden Frontend-Codebasis, die auf moderne Frameworks (React, Vue, usw.) setzt.
     - key: options.javascript_proficiency.3
       t: Baue komplett neue Frontend-Projekte auf.
     - key: options.javascript_proficiency.4
-      t: Habe mit erweiterten Frontend-Mustern zu tun (State Management, Data Loading, usw)
+      t: Habe mit erweiterten Frontend-Mustern zu tun (State Management, Data Loading, usw).
 
     # CSS proficiency
 
     - key: options.css_proficiency.0
-      t: Praktisch kein Wissen über CSS
+      t: Praktisch kein Wissen über CSS.
     - key: options.css_proficiency.1
-      t: Nutze CSS-Frameworks und nehme Anpassungen an existierenden Styles vor
+      t: Nutze CSS-Frameworks und nehme Anpassungen an existierenden Styles vor.
     - key: options.css_proficiency.2
-      t: Kenne mich mit Spezifität aus und kann Layouts bauen
+      t: Kenne mich mit Spezifität aus und kann Layouts bauen.
     - key: options.css_proficiency.3
       t: Meistere Animationen, Interaktionen und Transitionen, usw.
     - key: options.css_proficiency.4
-      t: Kann ein komplett neues Frontend-Projekt neu aufbauen und befolge dabei einer konsistenten Methode
+      t: Kann ein komplett neues Frontend-Projekt neu aufbauen und folge dabei einer konsistenten Methode.
 
     # Back-end proficiency
 
@@ -428,7 +428,7 @@ translations:
     - key: options.form_factors.smartphone
       t: Smartphone
     - key: options.form_factors.feature_phone
-      t: Feature phone
+      t: Feature Phone
     - key: options.form_factors.tablet
       t: Tablet
     - key: options.form_factors.smart_watch
@@ -438,7 +438,7 @@ translations:
     - key: options.form_factors.gaming_console
       t: Spielekonsole
     - key: options.form_factors.screen_reader
-      t: Screen reader
+      t: Screen Reader
     - key: options.form_factors.print
       t: Druckerzeugnis
 
@@ -454,7 +454,7 @@ translations:
       t: Zufriedenheit insgesamt
     - key: tools.happiness.description
       t: >
-          Gib mit eins (sehr zufrieden) bis 5 (sehr unzufrieden) an wie zufrieden Du insgesamt mit den unten genannten Optionen bist.
+          Gib mit 1 (sehr zufrieden) bis 5 (sehr unzufrieden) an wie zufrieden Du insgesamt mit den unten genannten Optionen bist.
 
     ###########################################################################
     # Demographics (About You/User Info)
@@ -464,7 +464,7 @@ translations:
     - key: user_info.years_of_experience
       t: Erfahrung in Jahren
     - key: user_info.years_of_experience.description
-      t: Wie lange Du in diesem Feld arbeitest oder beschäftigt bit.
+      t: Wie lange Du in diesem Feld arbeitest oder beschäftigt bist.
 
     # company size
     - key: user_info.company_size

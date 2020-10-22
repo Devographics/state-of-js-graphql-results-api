@@ -63,7 +63,7 @@ translations:
   - key: accounts.info_password_changed
     t: Passwort geändert.
   - key: accounts.please_pick_password
-    t: Zum fortfahren bitte neues Passwort wählen.
+    t: Zum Fortfahren bitte neues Passwort wählen.
   - key: accounts.please_log_in
     t: Zum Starten bitte anmelden oder registrieren.
   - key: accounts.logged_in_as

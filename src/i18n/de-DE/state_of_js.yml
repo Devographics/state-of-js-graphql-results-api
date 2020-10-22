@@ -45,7 +45,7 @@ translations:
     - key: sections.patterns.title
       t: Muster
     - key: sections.patterns.description
-      t: Wie Du Code schreibst
+      t: Wie Du Code schreibst.
 
     - key: sections.javascript_flavors.title
       t: JavaScript Flavors
@@ -65,7 +65,7 @@ translations:
     - key: sections.back_end_frameworks.title
       t: Backend Frameworks
     - key: sections.back_end_frameworks.description
-      t: JavaScript auf dem Server
+      t: JavaScript auf dem Server.
 
     - key: sections.testing.title
       t: Testen
@@ -83,23 +83,23 @@ translations:
 
     # CSS for print
     - key: options.css_for_print.0
-      t: Ich schreibe fast nie Print Styles
+      t: Ich schreibe fast nie Print Styles.
     - key: options.css_for_print.1
-      t: Ich schreibe gelegentlich Print Styles
+      t: Ich schreibe gelegentlich Print Styles.
     - key: options.css_for_print.2
-      t: Ich schreibe Print Styles üblicherweise als Teil meiner Projekte
+      t: Ich schreibe Print Styles üblicherweise als Teil meiner Projekte.
     - key: options.css_for_print.3
-      t: Ich schreibe hauptsächlich Print Styles
+      t: Ich schreibe hauptsächlich Print Styles.
 
     # CSS for email
     - key: options.css_for_email.0
-      t: Ich schreibe fast nie CSS für E-Mail Clients
+      t: Ich schreibe fast nie CSS für E-Mail Clients.
     - key: options.css_for_email.1
-      t: Ich schreibe gelegentlich CSS für E-Mail Clients
+      t: Ich schreibe gelegentlich CSS für E-Mail Clients.
     - key: options.css_for_email.2
-      t: Ich schreibe CSS für E-Mail Clients üblicherweise als Teil meiner Projekte
+      t: Ich schreibe CSS für E-Mail Clients üblicherweise als Teil meiner Projekte.
     - key: options.css_for_email.3
-      t: Ich schreibe CSS hauptsächlich für E-Mail Clients
+      t: Ich schreibe CSS hauptsächlich für E-Mail Clients.
 
     ###########################################################################
     # Features
