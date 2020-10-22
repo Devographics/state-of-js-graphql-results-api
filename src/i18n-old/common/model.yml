@@ -258,7 +258,7 @@ translations:
       t: 1-2
     - key: options.years_of_experience.range_2_5.short # TODO
       t: 2-5
-    - key: options.years_of_experience.range_5_10 # TODO
+    - key: options.years_of_experience.range_5_10.short # TODO
       t: 5-10
     - key: options.years_of_experience.range_10_20.short # TODO
       t: 10-20
