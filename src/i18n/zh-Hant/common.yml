@@ -408,11 +408,11 @@ translations:
     - key: options.race_ethnicity.south_asian
       t: 南亞
     - key: options.race_ethnicity.hispanic_latin
-      t: Hispanic or Latino/Latina
+      t: 西班牙裔或拉丁裔男/女
     - key: options.race_ethnicity.east_asian
-      t: 東亞East Asian
+      t: 東亞
     - key: options.race_ethnicity.middle_eastern
-      t: 中東Middle Eastern
+      t: 中東
     - key: options.race_ethnicity.black_african
       t: 黑人，或非洲裔
     - key: options.race_ethnicity.multiracial
