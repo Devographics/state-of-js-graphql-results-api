@@ -88,23 +88,23 @@ translations:
 
     # CSS for print
     - key: options.css_for_print.0
-      t: Ich schreibe fast nie Print Styles
+      t: Ich schreibe fast nie Print Styles.
     - key: options.css_for_print.1
-      t: Ich schreibe gelegentlich Print Styles
+      t: Ich schreibe gelegentlich Print Styles.
     - key: options.css_for_print.2
-      t: Ich schreibe Print Styles üblicherweise als Teil meiner Projekte
+      t: Ich schreibe Print Styles üblicherweise als Teil meiner Projekte.
     - key: options.css_for_print.3
-      t: Ich schreibe hauptsächlich Print Styles
+      t: Ich schreibe hauptsächlich Print Styles.
 
     # CSS for email
     - key: options.css_for_email.0
-      t: Ich schreibe fast nie CSS für E-Mail Clients
+      t: Ich schreibe fast nie CSS für E-Mail Clients.
     - key: options.css_for_email.1
-      t: Ich schreibe gelegentlich CSS für E-Mail Clients
+      t: Ich schreibe gelegentlich CSS für E-Mail Clients.
     - key: options.css_for_email.2
-      t: Ich schreibe CSS für E-Mail Clients üblicherweise als Teil meiner Projekte
+      t: Ich schreibe CSS für E-Mail Clients üblicherweise als Teil meiner Projekte.
     - key: options.css_for_email.3
-      t: Ich schreibe CSS hauptsächlich für E-Mail Clients
+      t: Ich schreibe CSS hauptsächlich für E-Mail Clients.
 
     ###########################################################################
     # Features
@@ -131,7 +131,7 @@ translations:
     - key: features.logical_properties
       t: Logical Properties
     - key: features.logical_properties.description
-      t: <code>margin-block-start</code>, <code>padding-inline-end</code>, etc.
+      t: <code>margin-block-start</code>, <code>padding-inline-end</code> usw.
     - key: features.aspect_ratio
       t: <code>aspect-ratio</code>
     - key: features.content_visibility
@@ -149,7 +149,7 @@ translations:
     - key: features.blend_modes
       t: Blend Modes
     - key: features.blend_modes.description
-      t: The <code>mix-blend-mode</code> property
+      t: Die <code>mix-blend-mode</code> Eigenschaft
     - key: features.filter_effects
       t: CSS Filter Effects
     - key: features.backdrop_filter
@@ -169,11 +169,11 @@ translations:
 
     # typography
     - key: features.web_fonts
-      t: Web fonts (@font-face)
+      t: Web Fonts (@font-face)
     - key: features.variables_fonts
-      t: Variable fonts
+      t: Variable Fonts
     - key: features.line_breaking
-      t: Line breaking properties
+      t: Line breaking Properties
     - key: features.line_breaking.description
       t: <code>overflow-wrap</code>, <code>word-break</code>, <code>line-break</code>, <code>hyphens</code>
     - key: features.font_variant
@@ -286,7 +286,7 @@ translations:
       t: '::backdrop'
 
     - key: features_others.combinators
-      t: Combinators
+      t: Verkettungen
 
     - key: options.combinators.descendant
       t: div span (descendant)
@@ -416,9 +416,9 @@ translations:
       t: Mit welchen Formfaktoren testest Du?
 
     - key: environments.css_for_print
-      t: CSS für den Druck
+      t: CSS für Print
     - key: environments.css_for_print.description
-      t: Schreibst Du Styles für den Druck?
+      t: Schreibst Du Styles für Print?
 
     - key: environments.css_for_email
       t: CSS für E-Mail Clients
@@ -436,7 +436,7 @@ translations:
       t: CSS entwickelt sich zu langsam.
 
     - key: opinions.utility_classes_to_be_avoided
-      t: Werkzeugklassen (nicht-semantische e.g. .center, .large-text, etc.) sollten vermieden werden.
+      t: Werkzeugklassen (nicht-semantische z.B. .center, .large-text, usw.) sollten vermieden werden.
 
     - key: opinions.selector_nesting_to_be_avoided
       t: Verschachteln von Selektoren (.foo .bar ul li {...}) sollte vermieden werden.
@@ -448,17 +448,17 @@ translations:
       t: Ich genieße es CSS zu schreiben.
 
     - key: opinions_other.currently_missing_from_css.others
-      t: What do you feel is currently missing from CSS?
+      t: Was vermisst Du in CSS?
     - key: opinions_other.currently_missing_from_css.others.description
       t: Features, die Du gerne irgendwann in CSS sehen möchtest.
 
     - key: opinions.sum_up_one_word_css
-      t: CSS in one word
+      t: CSS in einem Wort
     - key: opinions.sum_up_one_word_css.description
       t: Wie würdest Du Deine Meinung über CSS in einem Wort zusammenfassen?
 
     - key: happiness.state_of_the_web
-      t: Wie zufrieden bist Du allgemeinen mit den Webtechnologien?
+      t: Wie zufrieden bist Du allgemein mit den Webtechnologien?
 
     - key: happiness.state_of_css
       t: Wie zufrieden bist Du allgemein mit CSS?
