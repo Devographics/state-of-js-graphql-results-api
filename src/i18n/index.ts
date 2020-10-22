@@ -14,7 +14,8 @@ const localeDirectories: any = {
     'pt-PT': require.context('./pt-PT/', true, /\.yml$/),
     'ru-RU': require.context('./ru-RU/', true, /\.yml$/),
     'sv-SE': require.context('./sv-SE/', true, /\.yml$/),
-    'zh-Hans': require.context('./zh-Hans/', true, /\.yml$/)
+    'zh-Hans': require.context('./zh-Hans/', true, /\.yml$/),
+    'zh-Hant': require.context('./zh-Hant/', true, /\.yml$/)
 }
 
 locales.forEach((locale: Locale) => {
