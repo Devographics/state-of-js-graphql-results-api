@@ -71,7 +71,7 @@ translations:
       t: 目錄
     - key: general.all_questions_optional
       t: >
-          Note: all questions are optional, reaching 100% completion is not required.
+          提醒：所有問題都不是必填，不一定得要達到 100% 完成度。
     - key: general.data_is_saved
       t: 不管回到上一段還是跳到下一段，資料都有儲存起來。
 
@@ -355,28 +355,28 @@ translations:
     # CSS proficiency
 
     - key: options.css_proficiency.0
-      t: Virtually no knowledge of CSS
+      t: 可以說完全沒有 CSS 的觀念
     - key: options.css_proficiency.1
-      t: Using CSS frameworks and tweaking existing styles
+      t: 使用 CSS 框架，修改現有的樣式
     - key: options.css_proficiency.2
-      t: Knowing specificity rules, being able to create layouts
+      t: 知道權重規則，有能力製作版面佈局
     - key: options.css_proficiency.3
-      t: Mastering animations, interactions, transitions, etc.
+      t: 經聽動畫、互動與轉場...等
     - key: options.css_proficiency.4
-      t: Able to style an entire front-end from scratch following a consistent methodology
+      t: 有能力根據一致的方法，為整個前端從無到有增加樣式
 
     # Back-end proficiency
 
     - key: options.backend_proficiency.0
-      t: Not able to handle any back-end work
+      t: 無法處理任何後端工作
     - key: options.backend_proficiency.1
-      t: Able to set up all-in-one CMSs (WordPress, etc.) or static site generators (Jekyll, etc.)
+      t: 有能力安裝打包好的 CMS（WordPress⋯等）或靜態網頁產生工具（Jekyll⋯等。）
     - key: options.backend_proficiency.2
-      t: Able to develop apps using pre-existing frameworks (Rails, Laravel, etc.)
+      t: 有能力以現有的框架開發應用程式（Rails、Laravel⋯等。）
     - key: options.backend_proficiency.3
-      t: Setting up an entire back-end from scratch (Go, Node.js, etc.)
+      t: 有能力從無到有安裝整組後端 (Go、Node⋯等。)
     - key: options.backend_proficiency.4
-      t: Able to handle complex multi-server or microservices architectures
+      t: 有能力處理複雜的多伺服器或微服務架構
 
     # Proficiency (generic versions)
     - key: options.proficiency.0
@@ -449,13 +449,12 @@ translations:
     - key: tools.other_tools
       t: 其他選項
     - key: tools.other_tools.description
-      t: Other options you use for the current section not mentioned in the list above
+      t: 上方列表裡沒有可選的項目時使用。
     - key: tools.happiness
-      t: Overall Happiness
+      t: 整體愉悅感
     - key: tools.happiness.description
       t: >
-          On a scale of one (very unhappy) to five (very happy), how happy are
-          you with the current overall state of things as it relates to the options listed above?
+          上面提到的項目裡，以 1（非常不開心）到 5（非常開心）來劃分的話，目前整體的感覺是？
 
     ###########################################################################
     # Demographics (About You/User Info)
@@ -463,112 +462,112 @@ translations:
 
     # years of experience
     - key: user_info.years_of_experience
-      t: Years of Experience
+      t: 年資
     - key: user_info.years_of_experience.description
-      t: How long you've been working or studying in this field.
+      t: 在此領域，已經工作或研究多久？
 
     # company size
     - key: user_info.company_size
-      t: Company Size
+      t: 公司規模
     - key: user_info.company_size.description
-      t: How big your company is.
+      t: 任職的公司有多大？
 
     # salary ranges
     - key: user_info.yearly_salary
-      t: Yearly Salary
+      t: 年薪
     - key: user_info.yearly_salary.description
-      t: In USD.
+      t: 美金為單位。
 
     # job title
     - key: user_info.job_title
-      t: Job Title
+      t: 職稱
     - key: user_info.job_title.description
-      t: How do you introduce yourself at parties?
+      t: 在聚會中如何介紹自己？
 
     # javascript proficiency
 
     - key: user_info.javascript_proficiency
-      t: JavaScript Proficiency
+      t: JavaScript 熟悉程度
     - key: user_info.javascript_proficiency.description
-      t: How proficient are you at JavaScript?
+      t: 對於 JavaScript 的熟悉程度？
 
     # css proficiency
 
     - key: user_info.css_proficiency
-      t: CSS Proficiency
+      t: CSS 熟悉程度
     - key: user_info.css_proficiency.description
-      t: How proficient are you at CSS?
+      t: 對於 CSS 的熟悉程度？
 
     # backend proficiency
     - key: user_info.backend_proficiency
-      t: Back-end Proficiency
+      t: 後端熟悉程度
     - key: user_info.backend_proficiency.description
-      t: How proficient are you at back-end development?
+      t: 對於後端開發的熟悉程度？
 
     # gender
     - key: user_info.gender
-      t: Gender
+      t: 性別
 
     # skin tone/appearance
     - key: user_info.race_ethnicity
-      t: Race & Ethnicity
+      t: 種族與族群
 
     # other info
     - key: user_info.how_did_user_find_out_about_the_survey
-      t: How did you find out about this survey?
+      t: 是怎麼找到這份調查的？
     - key: user_info.email
-      t: Your Email
+      t: 電子郵件
     - key: user_info.country
-      t: Your Country
+      t: 國家
 
     ###########################################################################
     # Other Tools
     ###########################################################################
 
     - key: tools_others.text_editors
-      t: Text Editors
+      t: 文字編輯器
     - key: tools_others.text_editors.description
-      t: Which text editor(s) do you regularly use?
+      t: 通常使用的文字編輯器是哪些？
     - key: tools_others.text_editors.others
-      t: Other Text Editors
+      t: 其他文字編輯器
     - key: tools_others.text_editors.others.description
-      t: Other answers (freeform field).
+      t: 其他回答（自由填寫）。
 
     - key: tools_others.utilities
-      t: Utilities
+      t: 工具
     - key: tools_others.utilities.description
-      t: Which utility libraries do you regularly use?
+      t: 通常使用哪些工具程式庫 (utility libraries)？
     - key: tools_others.utilities.others
-      t: Other Utilities
+      t: 其他工具
     - key: tools_others.utilities.others.description
-      t: Other utilities (freeform field).
+      t: 其他工具（自由填寫）。
 
     - key: tools_others.browsers
-      t: Browsers
+      t: 瀏覽器
     - key: tools_others.browsers.description
-      t: Which browser(s) do you primarily work in during initial development?
+      t: 在早期開發的時候，主要使用哪些瀏覽器？
     - key: tools_others.browsers.others
-      t: Other Browsers
+      t: 其他瀏覽器
     - key: tools_others.browsers.others.description
-      t: Other answers (freeform field).
+      t: 其他回答（自由填寫）。
 
     - key: tools_others.build_tools
-      t: Build Tools
+      t: Build 工具
     - key: tools_others.build_tools.description
-      t: Which build tools do you use?
+      t: 在用哪些 Build 工具？
     - key: tools_others.build_tools.others
-      t: Other Build Tools
+      t: 其他 Build 工具
     - key: tools_others.build_tools.others.description
-      t: Other answers (freeform field).
+      t: 其他回答（自由填寫）。
 
     - key: tools_others.non_js_languages
-      t: Non-JavaScript Languages
+      t: JavaScript 以外的語言
     - key: tools_others.non_js_languages.description
-      t: Which other programming languages do you use?
+      t: 還有在用哪些程式語言？
     - key: tools_others.non_js_languages.others
-      t: Other Languages
+      t: 其他語言
     - key: tools_others.non_js_languages.others.description
-      t: Other answers (freeform field).
+      t: 其他回答（自由填寫）。
 
     ###########################################################################
     # Resources
@@ -576,30 +575,30 @@ translations:
 
     # blogs & magazines
     - key: resources.blogs_news_magazines
-      t: Blogs & Magazines
+      t: 部落格 & 雜誌
     - key: resources.blogs_news_magazines.description
-      t: Which blogs/magazines/etc. do you read?
+      t: 閱讀哪些部落格、雜誌⋯等？
     - key: resources.blogs_news_magazines.others
-      t: Other Blogs & Magazines
+      t: 其他部落格 & 雜誌
     - key: resources.blogs_news_magazines.others.description
-      t: Other answers (freeform field).
+      t: 其他回答（自由填寫）。
 
     # sites & courses
     - key: resources.sites_courses
-      t: Sites & Courses
+      t: 網站 & 課程
     - key: resources.sites_courses.description
-      t: Which sites/courses/etc. do you consult?
+      t: 參考哪些網站、課程⋯等？
     - key: resources.sites_courses.others
-      t: Other Sites & Courses
+      t: 其他網站 & 課程
     - key: resources.sites_courses.others.description
-      t: Other answers (freeform field).
+      t: 其他回答（自由填寫）。
 
     # podcasts
     - key: resources.podcasts
-      t: Podcasts
+      t: Podcast
     - key: resources.podcasts.description
-      t: Which programming-related podcasts do you listen to?
+      t: 在聽哪些程式相關的 Podcast？
     - key: resources.podcasts.others
-      t: Other Podcasts
+      t: 其他 Podcast
     - key: resources.podcasts.others.description
-      t: Other answers (freeform field).
+      t: 其他回答（自由填寫）。
