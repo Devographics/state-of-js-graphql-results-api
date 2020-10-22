@@ -1,0 +1,616 @@
+locale: tr-TR
+translations:
+    ###########################################################################
+    # General
+    ###########################################################################
+
+    # homepage
+    - key: general.why_create_account
+      t: Neden bir hesap oluşturmam gerekiyor?
+    - key: general.create_account_reasons
+      t: >
+          Şu sebeplerden dolayı sizden bir hesap oluştumanızı istiyoruz:
+
+          - Tekrarlanan yanıtları önlemek
+
+          - Kendi verilerinize erişmenizi sağlamak
+
+          - Siz yanıtladıkça verilerinizi kaydetmek
+
+          - Sonuçlar açıklandığında sizi bilgilendirmek
+    - key: general.survey_closed
+      t: >
+          Üzgünüz, anket sona erdi! Yantılarınızı görüntüleyebilirsiniz fakat değiştiremezsiniz.
+    - key: general.survey_read_only
+      t: >
+          Anketi saltokunur olarak görüntülüyorsunuz.
+    - key: general.survey_read_only_back
+      t: >
+          Ankate başlamak veya devam etmek için anket sayfasına <a href="{link}">geri dön</a>.
+
+    # surveys
+    - key: general.open_surveys
+      t: Devam Eden Anketler
+    - key: general.no_open_surveys
+      t: Şu an devam eden bir anket bulunmuyor.
+    - key: general.closed_surveys
+      t: Sona Eren Anketler
+    - key: general.start_survey
+      t: Ankete Başla »
+    - key: general.continue_survey
+      t: Ankete Devam Et »
+    - key: general.review_survey
+      t: Anketi İncele »
+    - key: general.preview_survey
+      t: Anketi Önizle »
+    - key: general.finish_survey
+      t: Anketi Sonlandır »
+    - key: general.survey_closed
+      t: Bu anket sona erdi.
+    - key: general.survey_results
+      t: Anket sonuçlarını görüntüle »
+    - key: general.surveys_available_languages
+      t: 'Anket şu dillerde görüntülenebilir:'
+    - key: general.help_us_translate
+      t: Anketleri çevirmemiz için bize yardımcı olun »
+    - key: general.translators
+      t: Çevirmenler
+    - key: general.translation_help 
+      t: Çeviri Yardımı
+
+    # footer
+    - key: general.privacy_policy
+      t: Gizlilik Politikası
+    - key: general.leave_issue
+      t: Sorularınız mı var? Bir hata mı buldunuz? <a href="{link}" target="_blank">Bir sorun iletisi yaratın</a>.
+    - key: general.emoji_icons
+      t: Emojiler, <a target="_blank" rel="noreferrer" href="https://icons8.com">Icons8</a>
+
+    # navigation
+    - key: general.table_of_contents
+      t: İçindekiler
+    - key: general.all_questions_optional
+      t: >
+          Not: tüm sorular isteğe bağlıdır, 100% olarak tamamlamak zorunlu değildir.
+    - key: general.data_is_saved
+      t: Önceki veya sonraki bölümlere geçtiğinizde şu anki verileriniz kaydedilir.
+
+    # thanks
+    - key: general.back
+      t: Geri
+    - key: general.thanks
+      t: >
+          Anketimize katıldığınız için teşekkür ederiz!
+
+          Yanıtlarınız kaydedildi. Yanıtlarınızı anket sona erene kadar görüntüleyebilir ve düzenleyebilirsiniz.
+
+          Ayrıca, bu anketi paylaşarak daha fazla insana ulaşmamıza yardımcı olabilirsiniz. Her katılım önemli ve
+          ankatimizin daha temsil edici olmasına katkı sağlıyor:
+    - key: thanks.learn_more_about
+      t: 'Öğrenmek isteyebileceğiniz bazı özellikler:'
+    - key: thanks.knowledge_score 
+      t: Haberdarlık Puanı
+    - key: thanks.score_explanation 
+      t: >
+          Bu ankette bahsedilen <span class="score-number score-number-total">{total}</span> özellikten <span class="score-number score-number-known">{known}</span>
+          tanesinden haberdarsın, bu seni katılanlar arasında <span class="score-number score-number-ranking">{knowledgeRankingFromTop}%</span>
+          arasına yerleştiriyor.
+    - key: thanks.share_on_twitter
+      t: Twitter'da Paylaşın
+    - key: thanks.share_score_message 
+      t: >
+          Bu yılki #{hashtag} anketinden {score}% haberdarlık puanı aldım! Ankete bu linkten katılın: {shareUrl}
+    # share
+    - key: general.share_subject
+      t: >
+          {surveyName} anketi
+    - key: general.share_text
+      t: >
+          Bu yılki {surveyName} anketi başladı! {link}
+
+    # forms
+    - key: forms.select_option
+      t: Bir seçim yapın
+
+    ###########################################################################
+    # Nav
+    ###########################################################################
+
+    - key: nav.surveys
+      t: Anketler
+    - key: nav.account
+      t: Hesap
+
+    ###########################################################################
+    # Sections
+    ###########################################################################
+
+    - key: sections.user_info.title
+      t: Hakkınızda
+    - key: sections.user_info.description
+      t: Gerçek seni tanıyalım.
+
+    - key: sections.resources.title
+      t: Kaynaklar
+    - key: sections.resources.description
+      t: Hangi {topic} kaynaklarına başvurursun?
+
+    - key: sections.opinions.title
+      t: Görüşler
+    - key: sections.opinions.description
+      t: {topic} için şu anki durumlar konusunda ne hissediyorsun?
+
+    - key: sections.other_tools.title
+      t: Diğer Araçlar
+    - key: sections.other_tools.description
+      t: Bu araçlar ve teknolojiler arasında sadece düzenli olarak kullandıklarını işaretle.
+
+    ###########################################################################
+    # Options
+    ###########################################################################
+
+    # features
+    - key: options.features.never_heard
+      t: 🤷 Daha önce hiç duymadım/Tam olarak ne olduğunu bilmiyorum
+    - key: options.features.heard
+      t: ✅ Ne olduğunu biliyorum, fakat henüz hiç kullanmadım
+    - key: options.features.used
+      t: 👍 Daha önce kullandım
+
+    # features (short versions)
+    - key: options.features.never_heard.short
+      t: Daha önce hiç duymadım
+    - key: options.features.heard.short
+      t: Hakkında bilgim var
+    - key: options.features.used.short
+      t: Daha önce kullandım
+
+    # patterns
+    - key: options.patterns.use_never
+      t: Neredeyse her zaman kaçınırım
+    - key: options.patterns.use_sparingly
+      t: Nadiren kullanırım
+    - key: optionspatterns..use_neutral
+      t: Nötrüm
+    - key: options.patterns.use_frequently
+      t: Sıklıkla kullanırım
+    - key: options.patterns.use_always
+      t: Elimden geldiğince kullanırım
+
+    # tools experience
+    - key: options.tools.never_heard 
+      t: 🤷 Daha önce hiç duymadım/Tam olarak ne olduğunu bilmiyorum
+    - key: options.tools.interested
+      t: ✅ Duydum > Öğrenmek isterim
+    - key: options.tools.not_interested
+      t: 🚫 Duydum > İlgimi çekmiyor
+    - key: options.tools.would_use
+      t: 👍 Kullandım > Tekrar kullanmak isterim
+    - key: options.tools.would_not_use
+      t: 👎 Kullandım > Tekrar kullanmayı tercih etmem
+
+    # tools experience (short versions)
+    - key: options.tools.never_heard
+      t: Hiç duymadım
+    - key: options.tools.interested
+      t: Merakım var
+    - key: options.tools.not_interested
+      t: İlgimi çekmiyor
+    - key: options.tools.would_use
+      t: Tekrar kullanırım
+    - key: options.tools.would_not_use
+      t: Tekrar kullanmam
+
+    # happiness
+    - key: options.happiness.0
+      t: Çok Mutsuz
+    - key: options.happiness.1
+      t: Mutsuz
+    - key: options.happiness.2
+      t: Nötr
+    - key: options.happiness.3
+      t: Mutlu
+    - key: options.happiness.4
+      t: Çok Mutlu
+
+    # opinions
+    - key: options.opinions.0
+      t: Kesinlikle Karşıyım
+    - key: options.opinions.disagree
+      t: Karşıyım
+    - key: options.opinions.neutral
+      t: Nötrüm
+    - key: options.opinions.agree
+      t: Katılıyorum
+    - key: options.opinions.agree_strongly
+      t: Kesinlikle Katılıyorum
+
+    # years of experience
+    - key: options.years_of_experience.range_less_than_1
+      t: Bir yıldan az
+    - key: options.years_of_experience.range_1_2
+      t: 1, 2 yıl arası
+    - key: options.years_of_experience.range_2_5
+      t: 2, 5 yıl arası
+    - key: options.years_of_experience.range_5_10
+      t: 5, 10 yıl arası
+    - key: options.years_of_experience.range_10_20
+      t: 10, 20 yıl arası
+    - key: options.years_of_experience.range_more_than_20
+      t: 20 yıldan fazla
+
+    # years of experience (short versions)
+    - key: options.years_of_experience.range_less_than_1.short
+      t: '<1'
+    - key: options.years_of_experience.range_1_2.short
+      t: 1-2
+    - key: options.years_of_experience.range_2_5.short
+      t: 2-5
+    - key: options.years_of_experience.range_5_10.short
+      t: 5-10
+    - key: options.years_of_experience.range_10_20.short
+      t: 10-20
+    - key: options.years_of_experience.range_more_than_20.short
+      t: '>20'
+
+    # company size
+    - key: options.company_size.range_1
+      t: Bir çalışan
+    - key: options.company_size.range_1_5
+      t: 1 - 5 çalışan
+    - key: options.company_size.range_5_10
+      t: 5 - 10 çalışan
+    - key: options.company_size.range_10_20
+      t: 10 - 20 çalışan
+    - key: options.company_size.range_20_50
+      t: 20 - 50 çalışan
+    - key: options.company_size.range_50_100
+      t: 50 - 100 çalışan
+    - key: options.company_size.range_100_1000
+      t: 100 - 1000 çalışan
+    - key: options.company_size.range_more_than_1000
+      t: 1000'den fazla çalışan
+
+    # company size (short versions)
+    - key: options.company_size.range_1.short
+      t: 1
+    - key: options.company_size.range_1_5.short
+      t: 1-5
+    - key: options.company_size.range_5_10.short
+      t: 5-10
+    - key: options.company_size.range_10_20.short
+      t: 10-20
+    - key: options.company_size.range_20_50.short
+      t: 20-50
+    - key: options.company_size.range_50_100.short
+      t: 50-100
+    - key: options.company_size.range_100_1000.short
+      t: 100-1000
+    - key: options.company_size.range_more_than_1000.short
+      t: '>1000'
+
+    # salary
+    - key: options.yearly_salary.range_work_for_free
+      t: Ücretsiz çalışıyorum
+    - key: options.yearly_salary.range_0_10
+      t: $0k-$10k
+    - key: options.yearly_salary.range_10_30
+      t: $10k-$30k
+    - key: options.yearly_salary.range_30_50
+      t: $30k-$50k
+    - key: options.yearly_salary.range_50_100
+      t: $50k-$100k
+    - key: options.yearly_salary.range_100_200
+      t: $100k-$200k
+    - key: options.yearly_salary.range_more_than_200
+      t: $200k'dan fazla
+
+    # salary (short versions)
+    - key: options.yearly_salary.range_work_for_free.short
+      t: '$0'
+    - key: options.yearly_salary.range_0_10.short
+      t: $0k-$10k
+    - key: options.yearly_salary.range_10_30.short
+      t: $10k-$30k
+    - key: options.yearly_salary.range_30_50.short
+      t: $30k-$50k
+    - key: options.yearly_salary.range_50_100.short
+      t: $50k-$100k
+    - key: options.yearly_salary.range_100_200.short
+      t: $100k-$200k
+    - key: options.yearly_salary.range_more_than_200.short
+      t: '>$200k'
+
+    # job titles
+    - key: options.job_title.cto 
+      t: Baş Teknoloji Yöneticisi (CTO)
+    - key: options.job_title.front_end_developer 
+      t: Front End Geliştiricisi/Mühendisi
+    - key: options.job_title.back_end_developer 
+      t: Back End Geliştiricisi/Mühendisi
+    - key: options.job_title.full_stack_developer 
+      t: Full Stack Geliştirici/Mühendis
+    - key: options.job_title.web_developer 
+      t: Web Geliştiricisi
+    - key: options.job_title.web_designer 
+      t: Web Tasarımcısı
+    - key: options.job_title.ux_designer 
+      t: Kullanıcı Deneyimi (UX) Tasarımcısı
+    - key: options.job_title.ui_designer 
+      t: Kullanıcı Arayüzü (UI) Tasarımcısı
+    - key: options.job_title.back_end_dev 
+      t: Back-end Geliştiricisi/Mühendisi
+
+    # JavaScript proficiency
+
+    - key: options.javascript_proficiency.0
+      t: Herhangi bir JavaScript yazamam
+    - key: options.javascript_proficiency.1
+      t: Kısa ve basit JavaScript veya jQuery ifadeleri yazabilirim
+    - key: options.javascript_proficiency.2
+      t: Modern önyüz çerçeveleri kullanarak mevcut kod tabanları üzerinde çalışıyorum (React, Vue, etc.)
+    - key: options.javascript_proficiency.3
+      t: Bütün bir front-endi baştan tasarlayabilirim
+    - key: options.javascript_proficiency.4
+      t: Üst düzey önyüz modellerinin üstesinden gelebilirim (state management, data loading, etc.)
+
+    # CSS proficiency
+
+    - key: options.css_proficiency.0
+      t: Neredeysa hiç CSS bilmiyorum
+    - key: options.css_proficiency.1
+      t: CSS çerçevelerini kullanıyorum ve hali hazırda bulunan stillerle oynuyorum
+    - key: options.css_proficiency.2
+      t: Etkinlik/öncelik kurallarını biliyorum, sayfa düzenleri oluşturabilirim
+    - key: options.css_proficiency.3
+      t: Animasyonlar, etkileşimler, geçişler gibi şeylere hakimim.
+    - key: options.css_proficiency.4
+      t: Tutarlı bir metodolojiyi izleyerek tüm bir önyüz stillerini sıfırdan yazabilirim
+
+    # Back-end proficiency
+
+    - key: options.backend_proficiency.0 
+      t: Arkayüzle ilgili herhangi bir şeyin üstesinden gelemem
+    - key: options.backend_proficiency.1 
+      t: CMS'ler (WordPress, etc.) veya statik site oluşturucular ile (Jekyll, etc.) çalışabilirim
+    - key: options.backend_proficiency.2 
+      t: Hali hazırdaki arkayüz çerçevleri ile uygulamalar geliştirebilirim (Rails, Laravel, etc.)
+    - key: options.backend_proficiency.3 
+      t: Setting up an entire back-end from scratch (Go, Node.js, etc.)
+    - key: options.backend_proficiency.4 
+      t: Karmaşık çok sunuculu veya mikro servislerden oluşan yapıların üstesinden gelebilirim
+
+    # Proficiency (generic versions)
+    - key: options.proficiency.0 
+      t: Hiç/Yok
+    - key: options.proficiency.1 
+      t: Başlangıç Seviyesi
+    - key: options.proficiency.2 
+      t: Orta Düzey
+    - key: options.proficiency.3 
+      t: İleri Düzey
+    - key: options.proficiency.4 
+      t: Uzman
+
+    # Gender
+
+    - key: options.gender.female 
+      t: Kadın
+    - key: options.gender.male 
+      t: Erkek
+    - key: options.gender.non_binary 
+      t: İkili cinsiyet sisteminin dışında
+    - key: options.gender.prefer_not_to_say 
+      t: Belirtmeyi tercih etmiyorum
+
+    # Race & Ethnicity
+
+    - key: white_european #  
+      t: Beyaz veya Avrupa kökenli
+    - key: south_asian 
+      t: Güney Asyalı
+    - key: hispanic_latin 
+      t: İspanyol kökenli veya Latin
+    - key: east_asian 
+      t: Doğu Asyalı
+    - key: middle_eastern 
+      t: Orta Doğulu
+    - key: black_african 
+      t: Siyah veya Afrika kökenli
+    - key: multiracial 
+      t: Çok ırklı
+    - key: biracial 
+      t: Çift ırklı
+    - key: native_american_islander_australian 
+      t: Yerli Amerikalı, Pasifik Adalarından veya Yerli Avustralyalı
+
+    # Form Factors
+    - key: options.form_factors.desktop 
+      t: Masaüstü Bilgisayar
+    - key: options.form_factors.smartphone 
+      t: Akıllı Telefon
+    - key: options.form_factors.feature_phone 
+      t: Sadece temel özelliklere sahip telefonlar (Feature phone)
+    - key: options.form_factors.tablet 
+      t: Tablet
+    - key: options.form_factors.smart_watch 
+      t: Akıllı Saat
+    - key: options.form_factors.tv 
+      t: Televizyon
+    - key: options.form_factors.gaming_console 
+      t: Oyun Konsolu
+    - key: options.form_factors.screen_reader 
+      t: Ekran okuyucu
+    - key: options.form_factors.print 
+      t: Baskı
+
+    ###########################################################################
+    # Tools
+    ###########################################################################
+
+    - key: tools.other_tools 
+      t: Diğer Seçenekler
+    - key: tools.other_tools.description 
+      t: Yukarıdaki listede belirtilmeyen ve mevcut bölüm için kullandığınız diğer seçenekler
+    - key: tools.happiness 
+      t: Genel Mutluluk
+    - key: tools.happiness.description 
+      t: >
+          Bir (çok mutsuz) ile beş (çok mutlu) arasında bir ölçekte, 
+          yukarıda listelenen seçeneklerle ilgili olarak olayların 
+          mevcut genel durumundan ne kadar memnunsunuz?
+
+    ###########################################################################
+    # Demographics (About You/User Info)
+    ###########################################################################
+
+    # years of experience
+    - key: user_info.years_of_experience 
+      t: Yıllık Deneyim
+    - key: user_info.years_of_experience.description 
+      t: Bu alanı ne kadar süredir öğreniyorsun veya ne kadar süredir bu alanda çalışıyorsun?
+
+    # company size
+    - key: user_info.company_size 
+      t: Şirket Büyüklüğü
+    - key: user_info.company_size.description 
+      t: Şirketinizin büyüklüğü nedir?
+
+    # salary ranges
+    - key: user_info.yearly_salary 
+      t: Yıllık Gelir
+    - key: user_info.yearly_salary.description 
+      t: Amerikan Doları (USD) olarak.
+
+    # job title
+    - key: user_info.job_title 
+      t: Job Title
+    - key: user_info.job_title.description 
+      t: Partilerde kendini nasıl tanıtırsın?
+
+    # javascript proficiency
+
+    - key: user_info.javascript_proficiency 
+      t: JavaScript Yetkinliği
+    - key: user_info.javascript_proficiency.description 
+      t: JavaScript konusunda ne kadar yetkinsiniz?
+
+    # css proficiency
+
+    - key: user_info.css_proficiency 
+      t: CSS Yetkinliği
+    - key: user_info.css_proficiency.description 
+      t: CSS konusunda ne kadar yetkinsiniz?
+
+    # backend proficiency
+    - key: user_info.backend_proficiency 
+      t: Back-end Yetkinliği
+    - key: user_info.backend_proficiency.description 
+      t: Arkayüz geliştirme konusunda ne kadar yetkinsiniz?
+
+    # gender
+    - key: user_info.gender 
+      t: Cinsiyet
+
+    # skin tone/appearance
+    - key: user_info.skin_tone 
+      t: Dış Görünüş
+    - key: user_info.skin_tone.description 
+      t: >
+          Hangi emojinin sizi en iyi temsil ettiğini düşünüyorsunuz? <br/><br/>
+
+          Not: Yanıtlayanlarımızın demografik yapısını daha iyi yakalamayı 
+          amaçlayan yeni bir soru formatı deniyoruz. 
+          Github üzerinden <a href="https://github.com/StateOfJS/StateOfCSS-2020/issues/5" target="_blank">bize geri bildirimde bulunun</a>.
+          
+
+    # other info
+    - key: user_info.how_did_user_find_out_about_the_survey 
+      t: Bu anketten nasıl haberdar oldunuz?
+    - key: user_info.email 
+      t: E-posta adresiniz
+    - key: user_info.country 
+      t: Ülkeniz
+
+    ###########################################################################
+    # Other Tools
+    ###########################################################################
+
+    - key: tools_others.text_editors
+      t: Metin Düzenleyiciler
+    - key: tools_others.text_editors.description 
+      t: Düzenli olarak hangi metin düzenleyicisini/düzenleyicilerini kullanıyorsunuz?
+    - key: tools_others.text_editors.others 
+      t: Diğer Metin Düzenleyicileri
+    - key: tools_others.text_editors.others.description 
+      t: Diğer yanıtlar (serbest yanıt alanı).
+
+    - key: tools_others.utilities 
+      t: Yardımcı Araçlar
+    - key: tools_others.utilities.description 
+      t: Düzenli olarak hangi yardımcı programlama kütüphanelerini kullanıyorsunuz?
+    - key: tools_others.utilities.others 
+      t: Diğer Yardımcı Araçlar
+    - key: tools_others.utilities.others.description 
+      t: Diğer yardımcı araçlar (serbest yanıt alanı).
+
+    - key: tools_others.browsers 
+      t: Tarayıcılar
+    - key: tools_others.browsers.description 
+      t: Asıl geliştirme sırasında esas olarak hangi tarayıcıda çalışıyorsunuz?
+    - key: tools_others.browsers.others 
+      t: Diğer Tarayıcılar
+    - key: tools_others.browsers.others.description 
+      t: Diğer yanıtlar (serbest yanıt alanı).
+
+    - key: tools_others.build_tools 
+      t: Derleme Araçları
+    - key: tools_others.build_tools.description 
+      t: Hangi derleme araçlarını kullanıyorsunuz
+    - key: tools_others.build_tools.others 
+      t: Diğer derleme araçları
+    - key: tools_others.build_tools.others.description 
+      t: Diğer yanıtlar (serbest yanıt alanı).
+
+    - key: tools_others.non_js_languages 
+      t: JavaScript Dışındaki Diller
+    - key: tools_others.non_js_languages.description 
+      t: Başka hangi programlama dillerini kullanıyorsunuz?
+    - key: tools_others.non_js_languages.others 
+      t: Diğer Diller
+    - key: tools_others.non_js_languages.others.description 
+      t: Diğer yanıtlar (serbest yanıt alanı).
+
+    ###########################################################################
+    # Resources
+    ###########################################################################
+
+    # blogs & magazines
+    - key: resources.blogs_news_magazines 
+      t: Bloglar ve Dergiler
+    - key: resources.blogs_news_magazines.description 
+      t: Hangi blog/dergi/vb. lerini okuyorsun ?
+    - key: resources.blogs_news_magazines.others 
+      t: Diğer Bloglar ve Dergiler
+    - key: resources.blogs_news_magazines.others.description 
+      t: Diğer yanıtlar (serbest yanıt alanı).
+
+    # sites & courses
+    - key: resources.sites_courses 
+      t: Siteler ve Kurslar
+    - key: resources.sites_courses.description 
+      t: Hangi siteler/kurslar/vb. dan faydalanırsın
+    - key: resources.sites_courses.others 
+      t: Diğer Siteler ve Kurslar
+    - key: resources.sites_courses.others.description 
+      t: Diğer yanıtlar (serbest yanıt alanı).
+
+    # podcasts
+    - key: resources.podcasts 
+      t: Podcast'ler
+    - key: resources.podcasts.description 
+      t: Programlamayla ilgili hangi podcast'leri dinliyorsunuz?
+    - key: resources.podcasts.others 
+      t: Diğer Podcast'ler
+    - key: resources.podcasts.others.description 
+      t: Diğer yanıtlar (serbest yanıt alanı).
