@@ -239,6 +239,10 @@ translations:
       t: Percentage of Users
     - key: charts.axis_legends.users_count
       t: User Count
+    - key: charts.axis_legends.interest_percentage
+      t: Interest Percentage
+    - key: charts.axis_legends.satisfaction_percentage
+      t: Satisfaction Percentage
 
     ###########################################################################
     # Sharing
