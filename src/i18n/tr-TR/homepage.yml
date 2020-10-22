@@ -5,14 +5,14 @@ translations:
     ###########################################################################
 
     - key: homepage.hand_coded 
-      t: Japonya'da elle kodlandı.
+      t: Japonya'da özenle kodlandı.
     - key: homepage.leave_issue 
       t: Bir sorun iletisi bırakın
     - key: homepage.get_in_touch 
       t: İletişime geçin
 
     - key: homepage.made_by 
-      t: 'The CSS'nin Durumu, yaratan:'
+      t: 'The State of CSS, yaratan:'
     - key: homepage.leave_issue 
       t: Bir sorun iletisi bırakın
 
@@ -24,9 +24,9 @@ translations:
 
           Flexbox, Grid, Multi-Column… ve CSS-in-JS gibi tamamen yepyeni paradigmalar.
 
-          Senelik olarak gerçekleştirdiğimiz [JavaScript'in Durumu](https://stateofjs.com) 
+          Senelik olarak gerçekleştirdiğimiz [State of JavaScript](https://stateofjs.com) 
           anketinin başarısının ardından, stiller ve tasarım dünyasına da
-          adım atmaya ve giderek büyüyen "büyük önyüz ayrımını" kapatmaya çalışmaya karar verdik!
+          adım atmaya ve giderek büyüyen "büyük önyüz (front-end) ayrımını" kapatmaya çalışmaya karar verdik!
 
     - key: homepage.take_survey 
       t: Anketi Doldur
@@ -35,7 +35,7 @@ translations:
       t: 2019 Sonuçlarını Görüntüle
 
     - key: share.help_spread 
-      t: Haberin Yayılmasına Yardım Edin!
+      t: Anketin Yayılmasına Yardım Edin!
 
     - key: newsletter.stay_tuned 
       t: Takipte Kalın

@@ -325,11 +325,11 @@ translations:
     - key: options.job_title.cto 
       t: Baş Teknoloji Yöneticisi (CTO)
     - key: options.job_title.front_end_developer 
-      t: Front End Geliştiricisi/Mühendisi
+      t: Önyüz (Front-end) Geliştiricisi/Mühendisi
     - key: options.job_title.back_end_developer 
-      t: Back End Geliştiricisi/Mühendisi
+      t: Arkayüz (Back-end) Geliştiricisi/Mühendisi
     - key: options.job_title.full_stack_developer 
-      t: Full Stack Geliştirici/Mühendis
+      t: Ön ve Arka Yüz (Full Stack) Geliştirici/Mühendis
     - key: options.job_title.web_developer 
       t: Web Geliştiricisi
     - key: options.job_title.web_designer 
@@ -339,7 +339,7 @@ translations:
     - key: options.job_title.ui_designer 
       t: Kullanıcı Arayüzü (UI) Tasarımcısı
     - key: options.job_title.back_end_dev 
-      t: Back-end Geliştiricisi/Mühendisi
+      t: Arkayüz (Back-end) Geliştiricisi/Mühendisi
 
     # JavaScript proficiency
 
@@ -348,11 +348,11 @@ translations:
     - key: options.javascript_proficiency.1
       t: Kısa ve basit JavaScript veya jQuery ifadeleri yazabilirim
     - key: options.javascript_proficiency.2
-      t: Modern önyüz çerçeveleri kullanarak mevcut kod tabanları üzerinde çalışıyorum (React, Vue, etc.)
+      t: Modern önyüz (front-end) çerçeveleri kullanarak mevcut kod tabanları üzerinde çalışıyorum (React, Vue, etc.)
     - key: options.javascript_proficiency.3
-      t: Bütün bir front-endi baştan tasarlayabilirim
+      t: Bütün bir önyüzü (front-end) baştan tasarlayabilirim
     - key: options.javascript_proficiency.4
-      t: Üst düzey önyüz modellerinin üstesinden gelebilirim (state management, data loading, etc.)
+      t: Üst düzey önyüz (front-end) modellerinin üstesinden gelebilirim (state management, data loading, etc.)
 
     # CSS proficiency
 
@@ -365,18 +365,18 @@ translations:
     - key: options.css_proficiency.3
       t: Animasyonlar, etkileşimler, geçişler gibi şeylere hakimim.
     - key: options.css_proficiency.4
-      t: Tutarlı bir metodolojiyi izleyerek tüm bir önyüz stillerini sıfırdan yazabilirim
+      t: Tutarlı bir metodolojiyi izleyerek tüm bir önyüz (front-end) stillerini sıfırdan yazabilirim
 
     # Back-end proficiency
 
     - key: options.backend_proficiency.0 
-      t: Arkayüzle ilgili herhangi bir şeyin üstesinden gelemem
+      t: Arkayüz (back-end) ilgili herhangi bir şeyin üstesinden gelemem
     - key: options.backend_proficiency.1 
       t: CMS'ler (WordPress, etc.) veya statik site oluşturucular ile (Jekyll, etc.) çalışabilirim
     - key: options.backend_proficiency.2 
-      t: Hali hazırdaki arkayüz çerçevleri ile uygulamalar geliştirebilirim (Rails, Laravel, etc.)
+      t: Hali hazırdaki arkayüz (back-end) çerçevleri ile uygulamalar geliştirebilirim (Rails, Laravel, etc.)
     - key: options.backend_proficiency.3 
-      t: Setting up an entire back-end from scratch (Go, Node.js, etc.)
+      t: Tüm bir arkayüzü (back-end) baştan inşa edebilirim (Go, Node.js, etc.)
     - key: options.backend_proficiency.4 
       t: Karmaşık çok sunuculu veya mikro servislerden oluşan yapıların üstesinden gelebilirim
 
@@ -504,9 +504,9 @@ translations:
 
     # backend proficiency
     - key: user_info.backend_proficiency 
-      t: Back-end Yetkinliği
+      t: Arkayüz (Back-end) Yetkinliği
     - key: user_info.backend_proficiency.description 
-      t: Arkayüz geliştirme konusunda ne kadar yetkinsiniz?
+      t: Arkayüz (back-end) geliştirme konusunda ne kadar yetkinsiniz?
 
     # gender
     - key: user_info.gender 
