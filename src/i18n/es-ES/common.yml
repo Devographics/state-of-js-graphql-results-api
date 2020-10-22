@@ -1,6 +1,6 @@
 locale: es-ES
 translations:
-  
+
   ###########################################################################
   # General
   ###########################################################################
@@ -83,21 +83,21 @@ translations:
 
       También puedes ayudarnos a llegar a todo el mundo compartiendo esta encuesta. Todo ayuda es poca, y así podremos hacer
       los datos recibidos más representativos:
-  - key: thanks.learn_more_about # TODO
-    t: 'Some of the features you might want to learn more about:'
-  - key: thanks.knowledge_score # TODO
-    t: Knowledge Score
-  - key: thanks.score_explanation # TODO
+  - key: thanks.learn_more_about
+    t: 'Algunas de las características de las que quieres aprender más:'
+  - key: thanks.knowledge_score
+    t: Valoración de tu Conocimiento
+  - key: thanks.score_explanation
     t: >
-        You’ve heard or used <span class="score-number score-number-known">{known}</span> out of
-        <span class="score-number score-number-total">{total}</span> features mentioned in the survey, which
-        puts you in the top <span class="score-number score-number-ranking">{knowledgeRankingFromTop}%</span>
-        of all respondents.
-  - key: thanks.share_on_twitter # TODO
-    t: Share on Twitter
-  - key: thanks.share_score_message # TODO
+        Has oído o utilizado <span class="score-number score-number-known">{known}</span> características de 
+        <span class="score-number score-number-total">{total}</span> mencionadas en la encuesta,
+        lo cual te sitúa dentro del <span class="score-number score-number-ranking">{knowledgeRankingFromTop}%</span>
+        de todos los que la han respondido.
+  - key: thanks.share_on_twitter
+    t: Compártelo en Twitter
+  - key: thanks.share_score_message
     t: >
-        I got a {score}% knowledge score on this year's #{hashtag} survey! Take the survey here: {shareUrl}
+        Tengo una puntuación del {score}% en la encuesta #{hashtag} de este año! Haz la encuesta tú también aquí: {shareUrl}
   # share
   - key: general.share_subject
     t: >
@@ -107,8 +107,8 @@ translations:
       ¡La encuesta {surveyName} de este año, está abierta! {link}
 
   # forms
-  - key: forms.select_option # TODO
-    t: Select option
+  - key: forms.select_option
+    t: Elige una opción
 
   ###########################################################################
   # Nav
@@ -183,9 +183,9 @@ translations:
   - key: options.tools.not_interested
     t: 🚫 He oído hablar de ello > No estoy interesado
   - key: options.tools.would_use
-    t: 👍 Lo uso > Lo volvería a usar
+    t: 👍 Lo he usado > Lo volvería a usar
   - key: options.tools.would_not_use
-    t: 👎 Lo uso > No lo volvería a usar
+    t: 👎 Lo he usado > No lo volvería a usar
 
   # tools experience (short versions)
   - key: options.tools.never_heard.short
@@ -244,7 +244,7 @@ translations:
     t: 1-2
   - key: options.years_of_experience.range_2_5.short
     t: 2-5
-  - key: options.years_of_experience.range_5_10
+  - key: options.years_of_experience.range_5_10.short
     t: 5-10
   - key: options.years_of_experience.range_10_20.short
     t: 10-20
@@ -339,8 +339,7 @@ translations:
   - key: options.job_title.back_end_dev
     t: Desarrollador o Ingeniero de Back
 
-  # JavaScript proficiency
-
+  # javascript proficiency
   - key: options.javascript_proficiency.0
     t: No soy capaz de escribir JavaScript
   - key: options.javascript_proficiency.1
@@ -352,8 +351,7 @@ translations:
   - key: options.javascript_proficiency.4
     t: Manejo patrones complejos en el front (manejo de estado, carga de datos, etc.)
 
-  # CSS proficiency
-
+  # css proficiency
   - key: options.css_proficiency.0
     t: No tengo ningún conocimiento de CSS
   - key: options.css_proficiency.1
@@ -365,8 +363,7 @@ translations:
   - key: options.css_proficiency.4
     t: Soy capaz de dar estilos desde cero a un proyecto siguiendo metodologías consistentes
 
-  # Back-end proficiency
-
+  # backend proficiency
   - key: options.backend_proficiency.0
     t: No soy capaz de hacer nada en el backend.
   - key: options.backend_proficiency.1
@@ -378,7 +375,7 @@ translations:
   - key: options.backend_proficiency.4
     t: Soy capaz de manejar arquitecturas complejas con multi-servicios o micro-servicios
 
-  # Proficiency (generic versions)
+  # proficiency (generic versions)
   - key: options.proficiency.0
     t: Ninguna
   - key: options.proficiency.1
@@ -390,8 +387,7 @@ translations:
   - key: options.proficiency.4
     t: Experto
 
-  # Gender
-
+  # gender
   - key: options.gender.female
     t: Mujer
   - key: options.gender.male
@@ -401,46 +397,45 @@ translations:
   - key: options.gender.prefer_not_to_say
     t: Prefiero no decirlo
 
-  # Race & Ethnicity
-
-  - key: white_european #  # TODO
-    t: White or of European descent
-  - key: south_asian # TODO
-    t: South Asian
-  - key: hispanic_latin # TODO
-    t: Hispanic or Latino/Latina
-  - key: east_asian # TODO
-    t: East Asian
-  - key: middle_eastern # TODO
-    t: Middle Eastern
-  - key: black_african # TODO
-    t: Black or of African descent
-  - key: multiracial # TODO
+  # race & ethnicity
+  - key: white_european
+    t: Blanco o descendiente de Europeos
+  - key: south_asian
+    t: Asiático del Sur
+  - key: hispanic_latin
+    t: Hispano o Latino
+  - key: east_asian
+    t: Asiático del Este
+  - key: middle_eastern
+    t: De Oriente Medio
+  - key: black_african
+    t: Negro o descendiente de Africanos
+  - key: multiracial
     t: Multiracial
-  - key: biracial # TODO
+  - key: biracial
     t: Biracial
-  - key: native_american_islander_australian # TODO
-    t: Native American, Pacific Islander, or Indigenous Australian
+  - key: native_american_islander_australian
+    t: Nativo Americano, de las Islas del Pacífico o Indígena Australiano
 
-  # Form Factors
-  - key: options.form_factors.desktop # TODO
-    t: Desktop
-  - key: options.form_factors.smartphone # TODO
+  # form factors
+  - key: options.form_factors.desktop
+    t: Escritorio
+  - key: options.form_factors.smartphone
     t: Smartphone
-  - key: options.form_factors.feature_phone # TODO
-    t: Feature phone
-  - key: options.form_factors.tablet # TODO
+  - key: options.form_factors.feature_phone
+    t: Teléfono móvil (no smartphone)
+  - key: options.form_factors.tablet
     t: Tablet
-  - key: options.form_factors.smart_watch # TODO
+  - key: options.form_factors.smart_watch
     t: Smartwatch
-  - key: options.form_factors.tv # TODO
+  - key: options.form_factors.tv
     t: TV
-  - key: options.form_factors.gaming_console # TODO
-    t: Gaming console
-  - key: options.form_factors.screen_reader # TODO
-    t: Screen reader
-  - key: options.form_factors.print # TODO
-    t: Print
+  - key: options.form_factors.gaming_console
+    t: Videoconsola
+  - key: options.form_factors.screen_reader
+    t: Lector de pantalla
+  - key: options.form_factors.print
+    t: Para imprimir
 
   ###########################################################################
   # Tools
@@ -455,7 +450,7 @@ translations:
   - key: tools.happiness.description
     t: >
       En una escala de uno (muy insatisfecho) a cinco (muy satisfecho), ¿cómo de satisfecho estás
-      con el estado general de las cosas relacionadas con las opciones expuestas anteriormente?
+      con el estado general de los elementos relacionados con las opciones expuestas anteriormente?
 
   ###########################################################################
   # Demographics (About You/User Info)
@@ -486,14 +481,12 @@ translations:
     t: ¿Cómo te presentas a ti mismo en las fiestas?
 
   # javascript proficiency
-
   - key: user_info.javascript_proficiency
     t: Competencia con JavaScript
   - key: user_info.javascript_proficiency.description
     t: ¿Cómo de competente eres con JavaScript?
 
   # css proficiency
-
   - key: user_info.css_proficiency
     t: Competencia con CSS
   - key: user_info.css_proficiency.description
@@ -578,9 +571,9 @@ translations:
   - key: other_tools.non_js_languages.others.description
     t: Otras respuestas (campo de texto libre).
 
-###########################################################################
-# Resources
-###########################################################################
+  ###########################################################################
+  # Resources
+  ###########################################################################
 
   # blogs & magazines
   - key: resources.blogs_news_magazines
