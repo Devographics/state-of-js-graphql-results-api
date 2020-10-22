@@ -1,215 +1,217 @@
-locale: ADD LOCALE HERE
+locale: tr-TR
 namespace: js
 translations:
     ###########################################################################
     # General
     ###########################################################################
 
-    - key: general.survey_intro_js2019 # TODO
+    - key: general.survey_intro_js2019 
       t: >
-          The JavaScript world could use a bit of classification.
+          JavaScript dünyası sınıflandırmayı bekliyor.
 
 
-          Since 2016, this survey has collected 
-          data from over 20,000 developers each year to identify current and upcoming trends.
+          2016 yılından bu yana, bu anket, 
+          mevcut ve gelecekteki eğilimleri belirlemek için her yıl 
+          20.000'den fazla geliştiriciden veri toplamaktadır.
 
 
-          Take the survey and help us find out which libraries developers 
-          want to learn next, which have the best satisfaction ratings, and much more.
+          Ankete katılın ve geliştiricilerin hangi kütüphaneleri 
+          ileride öğrenmek istediklerini, hangilerinin en iyi memnuniyet oranlarına 
+          sahip olduğunu ve daha fazlasını öğrenmemize yardımcı olun.
 
     ###########################################################################
     # Sections
     ###########################################################################
 
-    - key: sections.syntax.title # TODO
-      t: Syntax
-    - key: sections.syntax.description # TODO
-      t: The grammar of JavaScript.
+    - key: sections.syntax.title 
+      t: Sözdizimi (Syntax)
+    - key: sections.syntax.description 
+      t: JavaScript dilbilgisi.
 
-    - key: sections.language.title # TODO
-      t: Language
-    - key: sections.language.description # TODO
-      t: The vocabulary of JavaScript.
+    - key: sections.language.title 
+      t: Dil
+    - key: sections.language.description 
+      t: JavaScript'in kelime bilgisi.
 
-    - key: sections.data_structures.title # TODO
-      t: Data Structures
-    - key: sections.data_structures.description # TODO
-      t: How you store and manipulate data.
+    - key: sections.data_structures.title 
+      t: Veri Yapıları
+    - key: sections.data_structures.description 
+      t: Verileri nasıl depoladığınız ve işlediğiniz.
 
-    - key: sections.browser_apis.title # TODO
-      t: Browser APIs
-    - key: sections.browser_apis.description # TODO
-      t: The features provided by the browser.
+    - key: sections.browser_apis.title 
+      t: Tarayıcı API'leri
+    - key: sections.browser_apis.description 
+      t: Tarayıcı tarafından sağlanan özellikler.
 
-    - key: sections.other_features.title # TODO
-      t: Other Features
-    - key: sections.other_features.description # TODO
-      t: Other technologies and patterns
+    - key: sections.other_features.title 
+      t: Diğer Özellikler
+    - key: sections.other_features.description 
+      t: Diğer teknolojiler ve modeller
 
-    - key: sections.patterns.title # TODO
-      t: Patterns
-    - key: sections.patterns.description # TODO
-      t: How you prefer writing code
+    - key: sections.patterns.title 
+      t: Modeller
+    - key: sections.patterns.description 
+      t: Nasıl kod yazmayı tercih edersin
 
-    - key: sections.javascript_flavors.title # TODO
-      t: JavaScript Flavors
-    - key: sections.javascript_flavors.description # TODO
-      t: Languages that compile to JavaScript
+    - key: sections.javascript_flavors.title 
+      t: JavaScript Çeşitlemeleri
+    - key: sections.javascript_flavors.description 
+      t: JavaScript'e derlenen diller
 
-    - key: sections.front_end_frameworks.title # TODO
-      t: Front-end Frameworks
-    - key: sections.front_end_frameworks.description # TODO
-      t: Front-end frameworks and libraries
+    - key: sections.front_end_frameworks.title 
+      t: Önyüz (Front-end) Çerçeveleri
+    - key: sections.front_end_frameworks.description 
+      t: Önyüz (Front-end) kütüphaneleri ve çerçeveleri
 
-    - key: sections.datalayer.title # TODO
-      t: Data Layer
-    - key: sections.datalayer.description # TODO
-      t: Loading and managing data in your app
+    - key: sections.datalayer.title 
+      t: Veri Katmanı
+    - key: sections.datalayer.description 
+      t: Uygulamanızda verileri yükleme ve yönetme
 
-    - key: sections.back_end_frameworks.title # TODO
-      t: Back-end Frameworks
-    - key: sections.back_end_frameworks.description # TODO
-      t: JavaScript on the server
+    - key: sections.back_end_frameworks.title 
+      t: Arkayüz (Back-end) Çerçeveleri
+    - key: sections.back_end_frameworks.description 
+      t: Sunucudaki JavaScript
 
-    - key: sections.testing.title # TODO
-      t: Testing
-    - key: sections.testing.description # TODO
-      t: Tools for testing your code
+    - key: sections.testing.title 
+      t: Test
+    - key: sections.testing.description 
+      t: Kodunuzu test etmek için araçlar
 
-    - key: sections.mobile_desktop.title # TODO
-      t: Mobile & Desktop
-    - key: sections.mobile_desktop.description # TODO
-      t: JavaScript for mobile devices and desktop apps
+    - key: sections.mobile_desktop.title 
+      t: Mobil ve Masaüstü
+    - key: sections.mobile_desktop.description 
+      t: Mobil cihazlar ve masaüstü uygulamaları için JavaScript
 
     ###########################################################################
     # Options
     ###########################################################################
 
     # CSS for print
-    - key: options.css_for_print.0 # TODO
-      t: I (almost) never write print styles
-    - key: options.css_for_print.1 # TODO
-      t: I occasionally write print styles
-    - key: options.css_for_print.2 # TODO
-      t: I write print styles as part of most projects
-    - key: options.css_for_print.3 # TODO
-      t: I focus mainly on CSS for print
+    - key: options.css_for_print.0 
+      t: (Neredeyse) Hiç baskı stilleri yazmıyorum
+    - key: options.css_for_print.1 
+      t: Ara sıra baskı stilleri yazarım
+    - key: options.css_for_print.2 
+      t: Çoğu projemin parçası olarak baskı stilleri yazıyorum
+    - key: options.css_for_print.3 
+      t: CSS'yi asıl olarak baskı stilleri için kullanıyorum
 
     # CSS for email
-    - key: options.css_for_email.0 # TODO
-      t: I (almost) never write CSS for email clients
-    - key: options.css_for_email.1 # TODO
-      t: I occasionally write CSS for email clients
-    - key: options.css_for_email.2 # TODO
-      t: I write CSS for email clients as part of most projects
-    - key: options.css_for_email.3 # TODO
-      t: I focus mainly on CSS for email clients
+    - key: options.css_for_email.0 
+      t: (Neredeyse) Hiç e-posta istemcileri için CSS yazmıyorum
+    - key: options.css_for_email.1 
+      t: E-posta istemcileri için ara sıra CSS yazıyorum
+    - key: options.css_for_email.2 
+      t: Çoğu projemin parçası olarak e-posta istemcileri için CSS yazıyorum
+    - key: options.css_for_email.3 
+      t: CSS'yi asıl olarak e-posta istemcileri için için kullanıyorum
 
     ###########################################################################
     # Features
     ###########################################################################
 
     # syntax
-    - key: features.destructuring # TODO
-      t: Destructuring
-    - key: features.destructuring.description # TODO
-      t: 'Example: <code>const { foo } = bar</code>'
-    - key: features.spread_operator # TODO
-      t: Spread operator
-    - key: features.spread_operator.description # TODO
-      t: 'Example: <code>[...array1, ...array2]</code>'
-    - key: features.arrow_functions # TODO
-      t: Arrow Functions
-    - key: features.arrow_functions.description # TODO
-      t: 'Example: <code>const foo = () => {}</code>'
+    - key: features.destructuring 
+      t: Ayrıştırma (Destructuring)
+    - key: features.destructuring.description 
+      t: 'Örnek: <code>const { foo } = bar</code>'
+    - key: features.spread_operator 
+      t: Dağıtma (Spread) Operatörü
+    - key: features.spread_operator.description 
+      t: 'Örnek: <code>[...array1, ...array2]</code>'
+    - key: features.arrow_functions 
+      t: Arrow Fonksiyonlar
+    - key: features.arrow_functions.description 
+      t: 'Örnek: <code>const foo = () => {}</code>'
 
     # language
-    - key: features.proxies # TODO
-      t: Proxies
-    - key: features.async_await # TODO
+    - key: features.proxies 
+      t: Proxyies
+    - key: features.async_await 
       t: Async/Await
-    - key: features.promises # TODO
+    - key: features.promises 
       t: Promises
-    - key: features.decorators # TODO
-      t: Decorators
-    - key: features.decorators.description # TODO
+    - key: features.decorators 
+      t: Dekoratörler (Decorators)
+    - key: features.decorators.description 
       t: >
-          In its simplest form, a decorator is simply a way of 
-          wrapping one piece of code with another — literally “decorating” it.
+          En basit haliyle, bir dekoratör, bir kod parçasını diğeriyle 
+          sarmanın - kelimenin tam anlamıyla "dekore etmenin" bir yoludur.
 
     # data structures
-    - key: features.maps # TODO
+    - key: features.maps 
       t: Maps
-    - key: features.sets # TODO
-      t: Sets
-    - key: features.typed_arrays # TODO
+    - key: features.sets 
+      t: Set
+    - key: features.typed_arrays 
       t: Typed Arrays
-    - key: array_prototype_flat # TODO
+    - key: array_prototype_flat 
       t: Array.prototype.flat
 
     # browser apis
-    - key: features.service_workers # TODO
+    - key: features.service_workers 
       t: Service Workers
-    - key: features.local_storage # TODO
+    - key: features.local_storage 
       t: LocalStorage
-    - key: features.i18n # TODO
+    - key: features.i18n 
       t: i18n
-    - key: features.web_components # TODO
+    - key: features.web_components 
       t: Web Components
-    - key: features.web_audio # TODO
+    - key: features.web_audio 
       t: Web Audio API
-    - key: features.webgl # TODO
+    - key: features.webgl 
       t: WebGL
-    - key: features.web_animations # TODO
+    - key: features.web_animations 
       t: Web Animations API
-    - key: features.webrtc # TODO
+    - key: features.webrtc 
       t: WebRTC
-    - key: features.web_speech # TODO
+    - key: features.web_speech 
       t: Web Speech API
-    - key: features.webvr # TODO
+    - key: features.webvr 
       t: WebVR
-    - key: features.websocket # TODO
+    - key: features.websocket 
       t: Websocket
-    - key: features.fetch # TODO
+    - key: features.fetch 
       t: Fetch API
 
     # other features
-    - key: features.pwa # TODO
+    - key: features.pwa 
       t: Progressive Web Apps (PWA)
-    - key: features.wasm # TODO
+    - key: features.wasm 
       t: WebAssembly (WASM)
 
     # patterns
-    - key: patterns.object_oriented_programming # TODO
-      t: Object-Oriented Programming
-    - key: features.functional_programming # TODO
-      t: Functional Programming
-    - key: features.reactive_programming # TODO
-      t: Reactive Programming
+    - key: patterns.object_oriented_programming 
+      t: Nesne yönelimli Programlama
+    - key: features.functional_programming 
+      t: Fonksiyonel Programlama
+    - key: features.reactive_programming 
+      t: Reaktif (Reactive) Programlama
 
     ###########################################################################
     # Opinions
     ###########################################################################
 
-    - key: opinions.js_moving_in_right_direction # TODO
-      t: JavaScript is moving in the right direction
+    - key: opinions.js_moving_in_right_direction 
+      t: JavaScript doğru yönde ilerliyor
 
-    - key: opinions.building_js_apps_overly_complex # TODO
-      t: Building JavaScript apps is overly complex right now
+    - key: opinions.building_js_apps_overly_complex 
+      t: JavaScript uygulamaları oluşturmak şu anda aşırı karmaşık
 
-    - key: opinions.js_over_used_online # TODO
-      t: JavaScript is over-used online
+    - key: opinions.js_over_used_online 
+      t: JavaScript çevrimiçi olarak aşırı kullanılıyor
 
-    - key: opinions.enjoy_building_js_apps # TODO
-      t: I enjoy building JavaScript apps
+    - key: opinions.enjoy_building_js_apps 
+      t: JavaScript uygulamaları oluşturaktan keyif alıyorum
 
-    - key: opinions.would_like_js_to_be_main_lang # TODO
-      t: I would like JavaScript to be my main programming language
+    - key: opinions.would_like_js_to_be_main_lang 
+      t: JavaScript'in ana programlama dilim olmasını isterim
 
-    - key: opinions.js_ecosystem_changing_to_fast # TODO
-      t: The JavaScript ecosystem is changing too fast
+    - key: opinions.js_ecosystem_changing_to_fast 
+      t: JavaScript ekosistemi çok hızlı değişiyor
 
-    - key: opinions.missing_from_js # TODO
-      t: What do you feel is currently missing from JavaScript?
-    - key: opinions.missing_from_js.description # TODO
-      t: Features you'd like to see in JavaScript one day.
+    - key: opinions.missing_from_js 
+      t: Şu anda JavaScript'te neyin eksik olduğunu düşünüyorsunuz?
+    - key: opinions.missing_from_js.description 
+      t: JavaScript'te bir gün görmek isteyeceğiniz özellikler.
