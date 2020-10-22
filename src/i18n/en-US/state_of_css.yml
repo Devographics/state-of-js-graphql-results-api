@@ -481,21 +481,33 @@ translations:
 
     - key: opinions.css_easy_to_learn
       t: CSS is easy to learn
+    - key: opinions.css_easy_to_learn.title
+      t: Learning Curve
 
     - key: opinions.css_evolving_slowly
       t: CSS is evolving too slowly
+    - key: opinions.css_evolving_slowly.title
+      t: Rate of Change
 
     - key: opinions.utility_classes_to_be_avoided
       t: Utility (non-semantic) classes (.center, .large-text, etc.) should be avoided
+    - key: opinions.utility_classes_to_be_avoided.title
+      t: Non-Semantic Classes
 
     - key: opinions.selector_nesting_to_be_avoided
       t: Selector nesting (.foo .bar ul li {...}) should be avoided
+    - key: opinions.selector_nesting_to_be_avoided.title
+      t: Selector Nesting
 
     - key: opinions.css_is_programming_language
       t: CSS is a programming language
+    - key: opinions.css_is_programming_language.title
+      t: Programming Language
 
     - key: opinions.enjoy_writing_css
       t: I enjoy writing CSS
+    - key: opinions.enjoy_writing_css.title
+      t: Enjoyment
 
     - key: opinions_other.currently_missing_from_css.others
       t: What do you feel is currently missing from CSS?
