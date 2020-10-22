@@ -21,13 +21,11 @@ translations:
 
     - key: homepage.intro
       t: >
-          ## CSS is evolving faster than ever.
+          ## CSS 以前所未有的速度進化中。
 
-          Flexbox, Grid, Multi-Column… To say nothing of whole new paradigms like CSS-in-JS.
+          Flexbox、Grid、多欄排版...甚至還沒說到 CSS-in-JS 這樣的全新世界觀。
 
-          So after the success of our annual [State Of JavaScript](https://stateofjs.com) survey, we’ve decided to take on
-          the world of styles and selectors to help identify the latests trends… and try to bridge
-          the ever-growing “great front-end divide”!
+          因此，每年舉辦的 [JavaScript 現況調查](https://stateofjs.com) 成功後，我們決定發掘樣式與選擇器的世界，幫助大家找到最新的潮流... 連結不斷成長的「大前端時代」！
 
     - key: homepage.take_survey
       t: 參加調查
@@ -41,14 +39,12 @@ translations:
     - key: newsletter.stay_tuned
       t: 敬請期待
     - key: newsletter.leave_your_email
-      t: Leave us your email and we’ll let you know when the next survey takes place.
+      t: 請留下電子郵件位址，下次的調查開始時通知你。
 
     - key: author.sacha.bio
       t: >
-          Creator of the [Nivo](http://nivo.rocks/) JavaScript data visualization library as well
-          as [Mozaik](http://mozaik.rocks/), a tool for building beautiful dashboards.
+          JavaScript 資料視覺化資源庫 [Nivo](http://nivo.rocks/) 的作者。還有，可以打造漂亮儀表板的的工具 [Mozaik](http://mozaik.rocks/)。
 
     - key: author.raphael.bio
       t: >
-          Creator of the [Sidebar](http://sidebar.io) daily newsletter and
-          [VulcanJS](http://vulcanjs.org), a React+GraphQL open-source framework.
+          每日電子報 [Sidebar](http://sidebar.io)、也是 React+GraphQL 開源框架 [VulcanJS](http://vulcanjs.org) 的作者。
