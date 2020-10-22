@@ -4,6 +4,9 @@ translations:
     # General
     ###########################################################################
 
+    - key: results.start
+      t: Start
+
     - key: page.previous
       t: 'Previous:'
     - key: page.next
@@ -45,6 +48,9 @@ translations:
 
     - key: sections.features.title
       t: Features
+
+    - key: sections.technologies.title
+      t: Technologies
 
     - key: sections.conclusion.title
       t: Conclusion
