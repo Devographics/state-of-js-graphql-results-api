@@ -26,6 +26,27 @@ translations:
     - key: options.features_simplified.usage_ratio
       t: Usage ratio
 
+    - key: options.quadrant.assess
+      t: ASSESS
+    - key: options.quadrant.assess.long
+      t: |
+        ASSESS: Low usage, high satisfaction. Technologies worth keeping an eye on.
+    - key: options.quadrant.adopt
+      t: ADOPT
+    - key: options.quadrant.adopt.long
+      t: |
+        ADOPT: High usage, high satisfaction. Safe technologies to adopt.
+    - key: options.quadrant.avoid
+      t: AVOID
+    - key: options.quadrant.avoid.long
+      t: |
+        AVOID: Low usage, low satisfaction. Technologies probably best avoided currently.
+    - key: options.quadrant.analyze
+      t: ANALYZE
+    - key: options.quadrant.analyze.long
+      t: |
+        ANALYZE: High usage, low satisfaction. Reassess these technologies if you're currently using them.
+
     ###########################################################################
     # Sections
     ###########################################################################
@@ -115,6 +136,12 @@ translations:
       t: Homepage
     - key: blocks.entity.github_link
       t: GitHub
+
+    # tools quadrant
+    - key: blocks.tools_quadrant.title
+      t: Satisfaction vs Usage
+    - key: blocks.tools_quadrant.description
+      t: '@todo'
 
     # category other tools
     - key: blocks.category_other_tools.title
