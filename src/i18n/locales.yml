@@ -27,8 +27,12 @@
   translators: ['m-hagberg']
 
 - id: zh-Hans
-  label: 中文
+  label: 简体
   translators: []
+
+- id: zh-Hant
+  label: 正體
+  translators: ['ymcheung']
 
 - id: es-ES
   label: Español
