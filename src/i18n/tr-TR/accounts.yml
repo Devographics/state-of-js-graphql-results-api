@@ -67,9 +67,9 @@ translations:
   - key: accounts.please_log_in 
     t: Başlamak için lütfen giriş yapın veya kaydolun.
   - key: accounts.logged_in_as 
-    t: {email} olarak giriş yapıldı
+    t: '{email} olarak giriş yapıldı'
   - key: accounts.questions 
     t: >
-      Verilerinizi nasıl kullandığımızla ilgili herhangi bir sorunuz varsa 
-      veya verilerinizi kayıtlarımızdan kaldırmamızı istiyorsanız, 
-      lütfen <a href="mailto:hello@stateofjs.com">bizimle iletişime geçin</a>.
+        Verilerinizi nasıl kullandığımızla ilgili herhangi bir sorunuz varsa 
+        veya verilerinizi kayıtlarımızdan kaldırmamızı istiyorsanız, 
+        lütfen <a href="mailto:hello@stateofjs.com">bizimle iletişime geçin</a>.

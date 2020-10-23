@@ -138,7 +138,7 @@ translations:
     - key: sections.opinions.title
       t: Görüşler
     - key: sections.opinions.description
-      t: {topic} için şu anki durumlar konusunda ne hissediyorsun?
+      t: '{topic} için şu anki durumlar konusunda ne hissediyorsun?'
 
     - key: sections.other_tools.title
       t: Diğer Araçlar
