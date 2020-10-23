@@ -9,9 +9,11 @@ translations:
       t: >
           CSS 以前所未有的速度進化中。
 
-          Flexbox、Grid、多欄排版...甚至還沒說到 CSS-in-JS 這樣的全新世界觀。
 
-          因此，每年舉辦的 [JavaScript 現況調查](https://stateofjs.com) 成功後，我們決定發掘樣式與選擇器的世界，幫助大家找到最新的潮流...知道接下來要學習和使用的工具！
+          Flexbox、Grid、多欄排版⋯甚至還沒說到 CSS-in-JS 這樣的全新世界觀。
+
+
+          因此，每年舉辦的 [JavaScript 現況調查](https://stateofjs.com) 成功後，我們決定發掘樣式與選擇器的世界，幫助大家找到最新的潮流，知道接下來要學習和使用的工具！
 
     ###########################################################################
     # Sections
@@ -131,7 +133,7 @@ translations:
     - key: features.logical_properties
       t: 邏輯參數 (Logical Properties)
     - key: features.logical_properties.description
-      t: <code>margin-block-start</code>、<code>padding-inline-end</code>...等。
+      t: <code>margin-block-start</code>、<code>padding-inline-end</code>⋯等。
     - key: features.aspect_ratio
       t: <code>aspect-ratio</code>
     - key: features.content_visibility
@@ -195,11 +197,11 @@ translations:
 
     # animations & transforms
     - key: features.transitions
-      t: CSS 轉場
+      t: CSS 轉場 (Transition)
     - key: features.transforms
-      t: CSS 變形
+      t: CSS 變形 (Transform)
     - key: features.animations
-      t: CSS 動畫
+      t: CSS 動畫 (Animation)
     - key: features.perspective
       t: <code>perspective</code>
 
@@ -343,9 +345,9 @@ translations:
     - key: options.attributes.equality
       t: div[foo="bar"]（屬性值完全符合）
     - key: options.attributes.starts_with
-      t: div[foo^="bar"]（以...開始）
+      t: div[foo^="bar"]（以⋯開始）
     - key: options.attributes.ends_with
-      t: div[foo$="bar"]（以...結尾）
+      t: div[foo$="bar"]（以⋯結尾）
     - key: options.attributes.contains_word
       t: div[foo~="bar"]（包含文字）
     - key: options.attributes.contains_substring

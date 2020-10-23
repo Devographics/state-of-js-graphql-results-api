@@ -23,9 +23,9 @@ translations:
       t: >
           ## CSS 以前所未有的速度進化中。
 
-          Flexbox、Grid、多欄排版...甚至還沒說到 CSS-in-JS 這樣的全新世界觀。
+          Flexbox、Grid、多欄排版⋯甚至還沒說到 CSS-in-JS 這樣的全新世界觀。
 
-          因此，每年舉辦的 [JavaScript 現況調查](https://stateofjs.com) 成功後，我們決定發掘樣式與選擇器的世界，幫助大家找到最新的潮流... 連結不斷成長的「大前端時代」！
+          因此，每年舉辦的 [JavaScript 現況調查](https://stateofjs.com) 成功後，我們決定發掘樣式與選擇器的世界，幫助大家找到最新的潮流⋯連結不斷成長的「大前端時代」！
 
     - key: homepage.take_survey
       t: 參加調查
