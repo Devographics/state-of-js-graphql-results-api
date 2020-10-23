@@ -1,3 +1,7 @@
+- id: cs-CZ
+  label: Česky
+  translators: ['adamkudrna']
+
 - id: en-US
   label: English
   translators: []
