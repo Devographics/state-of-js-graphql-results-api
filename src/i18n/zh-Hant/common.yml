@@ -34,7 +34,7 @@ translations:
     - key: general.no_open_surveys
       t: 沒有可填寫的調查。
     - key: general.closed_surveys
-      t: 已結束的調查
+      t: 已結束
     - key: general.start_survey
       t: 開始填寫 »
     - key: general.continue_survey
@@ -50,7 +50,7 @@ translations:
     - key: general.survey_results
       t: 查看調查結果 »
     - key: general.surveys_available_languages
-      t: '可以用其他語言：'
+      t: '其他語言：'
     - key: general.help_us_translate
       t: 幫助我們翻譯調查問卷 »
     - key: general.translators
@@ -350,7 +350,7 @@ translations:
     - key: options.javascript_proficiency.3
       t: 有能力從無到有建構整組前端程式庫
     - key: options.javascript_proficiency.4
-      t: 處理進階的前端模式（狀態管理、資料讀取...等。）
+      t: 處理進階的前端模式（狀態管理、資料讀取⋯等。）
 
     # CSS proficiency
 
@@ -361,7 +361,7 @@ translations:
     - key: options.css_proficiency.2
       t: 知道權重規則，有能力製作版面佈局
     - key: options.css_proficiency.3
-      t: 經聽動畫、互動與轉場...等
+      t: 精通動畫、互動與轉場⋯等
     - key: options.css_proficiency.4
       t: 有能力根據一致的方法，為整個前端從無到有增加樣式
 
