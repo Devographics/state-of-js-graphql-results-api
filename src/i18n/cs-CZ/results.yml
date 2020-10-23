@@ -1,0 +1,34 @@
+locale: cs-CZ
+translations:
+    ###########################################################################
+    # General
+    ###########################################################################
+
+    ###########################################################################
+    # Features
+    ###########################################################################
+
+    - key: features.learn_more
+      t: Více info (MDN)
+    - key: features.mdn_link
+      t: MDN
+    - key: features.caniuse_link
+      t: CanIUse
+    - key: features.specification_link
+      t: W3C specifikace
+
+    ###########################################################################
+    # Tools & Methodologies
+    ###########################################################################
+
+    # general
+    - key: tools.links
+      t: Odkazy
+    - key: tools.github_link
+      t: GitHub
+    - key: tools.github_stars
+      t: stars
+    - key: tools.homepage_link
+      t: Web
+    - key: tools.npm_link
+      t: NPM
