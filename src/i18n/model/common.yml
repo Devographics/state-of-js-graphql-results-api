@@ -191,15 +191,15 @@ translations:
       t: 👎 Used it > Would not use again
 
     # tools experience (short versions)
-    - key: options.tools.never_heard # TODO
+    - key: options.tools.never_heard.short # TODO
       t: Never heard
-    - key: options.tools.interested # TODO
+    - key: options.tools.interested.short # TODO
       t: Interested
-    - key: options.tools.not_interested # TODO
+    - key: options.tools.not_interested.short # TODO
       t: Not interested
-    - key: options.tools.would_use # TODO
+    - key: options.tools.would_use.short # TODO
       t: Would use again
-    - key: options.tools.would_not_use # TODO
+    - key: options.tools.would_not_use.short # TODO
       t: Would not use
 
     # happiness
@@ -217,13 +217,13 @@ translations:
     # opinions
     - key: options.opinions.0 # TODO
       t: Disagree Strongly
-    - key: options.opinions.disagree # TODO
+    - key: options.opinions.1 # TODO
       t: Disagree
-    - key: options.opinions.neutral # TODO
+    - key: options.opinions.2 # TODO
       t: Neutral
-    - key: options.opinions.agree # TODO
+    - key: options.opinions.3 # TODO
       t: Agree
-    - key: options.opinions.agree_strongly # TODO
+    - key: options.opinions.4 # TODO
       t: Agree Strongly
 
     # years of experience
@@ -406,23 +406,23 @@ translations:
 
     # Race & Ethnicity
 
-    - key: white_european #  # TODO
+    - key: options.race_ethnicity.white_european #  # TODO
       t: White or of European descent
-    - key: south_asian # TODO
+    - key: options.race_ethnicity.south_asian # TODO
       t: South Asian
-    - key: hispanic_latin # TODO
+    - key: options.race_ethnicity.hispanic_latin # TODO
       t: Hispanic or Latino/Latina
-    - key: east_asian # TODO
+    - key: options.race_ethnicity.east_asian # TODO
       t: East Asian
-    - key: middle_eastern # TODO
+    - key: options.race_ethnicity.middle_eastern # TODO
       t: Middle Eastern
-    - key: black_african # TODO
+    - key: options.race_ethnicity.black_african # TODO
       t: Black or of African descent
-    - key: multiracial # TODO
+    - key: options.race_ethnicity.multiracial # TODO
       t: Multiracial
-    - key: biracial # TODO
+    - key: options.race_ethnicity.biracial # TODO
       t: Biracial
-    - key: native_american_islander_australian # TODO
+    - key: options.race_ethnicity.native_american_islander_australian # TODO
       t: Native American, Pacific Islander, or Indigenous Australian
 
     # Form Factors
@@ -513,16 +513,8 @@ translations:
       t: Gender
 
     # skin tone/appearance
-    - key: user_info.skin_tone # TODO
-      t: Appearance
-    - key: user_info.skin_tone.description # TODO
-      t: >
-          Which emoji do you feel represents you best? <br/><br/>
-
-          Note: We are experimenting with a new question format in order to 
-          try and better capture the demographic makeup of our respondents. 
-          <a href="https://github.com/StateOfJS/StateOfCSS-2020/issues/5" target="_blank">Leave us your feedback</a>
-          on GitHub.
+    - key: user_info.race_ethnicity # TODO
+      t: Race & Ethnicity
 
     # other info
     - key: user_info.how_did_user_find_out_about_the_survey # TODO

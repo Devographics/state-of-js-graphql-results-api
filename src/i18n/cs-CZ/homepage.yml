@@ -22,8 +22,10 @@ translations:
       t: >
           ## CSS jde kupředu rychleji než kdy dřív.
 
+
           Flexbox, Grid, Multi-Column… A to nemluvíme o úplně nových paradigmatech jako je
           CSS-in-JS.
+
 
           Po úspěchu našeho každoročního průzkumu [State Of JavaScript](https://stateofjs.com) jsme
           se rozhodli prozkoumat také svět stylů a selektorů a zmapovat i jejich nejnovější trendy.
