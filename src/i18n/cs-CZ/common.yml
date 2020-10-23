@@ -84,8 +84,10 @@ translations:
       t: >
           Děkujeme za vaši účast v průzkumu!
 
+
           Vaše odpovědi byly zaznamenány. Můžete si je prohlédnout nebo upravit kdykoli před
           ukončením průzkumu.
+
 
           Můžete nám také pomoci dát vědět o tomto průzkumu tím, že jej budete sdílet. Každé sdílení
           se počítá a data z průzkumu tak budou ještě reprezentativnější:
@@ -197,15 +199,15 @@ translations:
       t: 👎 Použil jsem > Stačilo jednou
 
     # tools experience (short versions)
-    - key: options.tools.never_heard
+    - key: options.tools.never_heard.short
       t: Nevím přesně, o co jde
-    - key: options.tools.interested
+    - key: options.tools.interested.short
       t: Mám zájem
-    - key: options.tools.not_interested
+    - key: options.tools.not_interested.short
       t: Nemám zájem
-    - key: options.tools.would_use
+    - key: options.tools.would_use.short
       t: Použil bych znovu
-    - key: options.tools.would_not_use
+    - key: options.tools.would_not_use.short
       t: Stačilo jednou
 
     # happiness
@@ -223,13 +225,13 @@ translations:
     # opinions
     - key: options.opinions.0
       t: Nesouhlasím
-    - key: options.opinions.disagree
+    - key: options.opinions.1
       t: Spíše nesouhlasím
-    - key: options.opinions.neutral
+    - key: options.opinions.2
       t: Neutrální
-    - key: options.opinions.agree
+    - key: options.opinions.3
       t: Spíše souhlasím
-    - key: options.opinions.agree_strongly
+    - key: options.opinions.4
       t: Souhlasím
 
     # years of experience
@@ -412,23 +414,23 @@ translations:
 
     # Race & Ethnicity
 
-    - key: white_european #
+    - key: options.race_ethnicity.white_european #
       t: Bílý nebo původem evropský
-    - key: south_asian
+    - key: options.race_ethnicity.south_asian
       t: Jihoasijský
-    - key: hispanic_latin
+    - key: options.race_ethnicity.hispanic_latin
       t: Hispánský nebo latino
-    - key: east_asian
+    - key: options.race_ethnicity.east_asian
       t: Východoasijský
-    - key: middle_eastern
+    - key: options.race_ethnicity.middle_eastern
       t: Středovýchodní
-    - key: black_african
+    - key: options.race_ethnicity.black_african
       t: Černý nebo původem africký
-    - key: multiracial
+    - key: options.race_ethnicity.multiracial
       t: Smíšený
-    - key: biracial
+    - key: options.race_ethnicity.biracial
       t: Biracial
-    - key: native_american_islander_australian
+    - key: options.race_ethnicity.native_american_islander_australian
       t: Americký či tichomořský domorodec nebo Austrálec
 
     # Form Factors
@@ -519,16 +521,8 @@ translations:
       t: Pohlaví
 
     # skin tone/appearance
-    - key: user_info.skin_tone
-      t: Pleť
-    - key: user_info.skin_tone.description
-      t: >
-          Která emoji ikona vás nejlépe vyjadřuje?<br /><br />
-
-          Poznámka: experimentujeme s novým formátem odpovědi, protože se snažíme
-          co nejlépe zachytit demografický profil našich respondentů.
-          <a href="https://github.com/StateOfJS/StateOfCSS-2020/issues/5" target="_blank">Zpětná vazba</a>
-          na GitHubu vítána!
+    - key: user_info.race_ethnicity
+      t: Etnický původ
 
     # other info
     - key: user_info.how_did_user_find_out_about_the_survey
