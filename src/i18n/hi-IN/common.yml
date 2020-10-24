@@ -394,23 +394,23 @@ translations:
 
   # Race & Ethnicity
 
-  - key: white_european # TODO
+  - key: options.race_ethnicity.white_european # TODO
     t: White or of European descent
-  - key: south_asian # TODO
+  - key: options.race_ethnicity.south_asian # TODO
     t: South Asian
-  - key: hispanic_latin # TODO
+  - key: options.race_ethnicity.hispanic_latin # TODO
     t: Hispanic or Latino/Latina
-  - key: east_asian # TODO
+  - key: options.race_ethnicity.east_asian # TODO
     t: East Asian
-  - key: middle_eastern # TODO
+  - key: options.race_ethnicity.middle_eastern # TODO
     t: Middle Eastern
-  - key: black_african # TODO
+  - key: options.race_ethnicity.black_african # TODO
     t: Black or of African descent
-  - key: multiracial # TODO
+  - key: options.race_ethnicity.multiracial # TODO
     t: Multiracial
-  - key: biracial # TODO
+  - key: options.race_ethnicity.biracial # TODO
     t: Biracial
-  - key: native_american_islander_australian # TODO
+  - key: options.race_ethnicity.native_american_islander_australian # TODO
     t: Native American, Pacific Islander, or Indigenous Australian
 
   # Form Factors
