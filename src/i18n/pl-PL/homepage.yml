@@ -25,7 +25,7 @@ translations:
           Flexbox, Grid, Multi-Column… To say nothing of whole new paradigms like CSS-in-JS.
 
           So after the success of our annual [State Of JavaScript](https://stateofjs.com) survey, we’ve decided to take on
-          the world of styles and selectors to help identify the latests trends… and try to bridge
+          the world of styles and selectors to help identify the latest trends… and try to bridge
           the ever-growing “great front-end divide”!
 
     - key: homepage.take_survey # TODO
