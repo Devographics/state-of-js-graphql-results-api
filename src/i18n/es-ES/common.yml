@@ -397,7 +397,8 @@ translations:
   - key: options.gender.prefer_not_to_say
     t: Prefiero no decirlo
 
-  # race & ethnicity
+  # Race & Ethnicity
+
   - key: options.race_ethnicity.white_european
     t: Blanco o descendiente de Europeos
   - key: options.race_ethnicity.south_asian

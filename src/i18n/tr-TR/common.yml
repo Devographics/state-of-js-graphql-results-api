@@ -405,23 +405,23 @@ translations:
 
     # Race & Ethnicity
 
-    - key: white_european #  
+    - key: options.race_ethnicity.white_european #  
       t: Beyaz veya Avrupa kökenli
-    - key: south_asian 
+    - key: options.race_ethnicity.south_asian 
       t: Güney Asyalı
-    - key: hispanic_latin 
+    - key: options.race_ethnicity.hispanic_latin 
       t: İspanyol kökenli veya Latin
-    - key: east_asian 
+    - key: options.race_ethnicity.east_asian 
       t: Doğu Asyalı
-    - key: middle_eastern 
+    - key: options.race_ethnicity.middle_eastern 
       t: Orta Doğulu
-    - key: black_african 
+    - key: options.race_ethnicity.black_african 
       t: Siyah veya Afrika kökenli
-    - key: multiracial 
+    - key: options.race_ethnicity.multiracial 
       t: Çok ırklı
-    - key: biracial 
+    - key: options.race_ethnicity.biracial 
       t: Çift ırklı
-    - key: native_american_islander_australian 
+    - key: options.race_ethnicity.native_american_islander_australian 
       t: Yerli Amerikalı, Pasifik Adalarından veya Yerli Avustralyalı
 
     # Form Factors
