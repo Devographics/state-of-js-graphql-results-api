@@ -405,7 +405,7 @@ translations:
 
     # Race & Ethnicity
 
-    - key: white_european #  
+    - key: white_european
       t: Beyaz veya Avrupa kökenli
     - key: south_asian 
       t: Güney Asyalı
