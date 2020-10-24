@@ -217,13 +217,13 @@ translations:
     # opinions
     - key: options.opinions.0 # TODO
       t: Disagree Strongly
-    - key: options.opinions.disagree # TODO
+    - key: options.opinions.1 # TODO
       t: Disagree
-    - key: options.opinions.neutral # TODO
+    - key: options.opinions.2 # TODO
       t: Neutral
-    - key: options.opinions.agree # TODO
+    - key: options.opinions.3 # TODO
       t: Agree
-    - key: options.opinions.agree_strongly # TODO
+    - key: options.opinions.4 # TODO
       t: Agree Strongly
 
     # years of experience
