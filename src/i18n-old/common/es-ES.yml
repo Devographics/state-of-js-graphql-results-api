@@ -59,7 +59,7 @@ translations:
   - key: general.privacy_policy
     t: Política de Privacidad
   - key: general.leave_issue
-    t: ¿Preguntas? ¿Has encontrado un fallo? <a href="{link}" target="_blank">Déjanos lo que has encontrado</a>.
+    t: ¿Preguntas? ¿Has encontrado un fallo? <a href="{link}" target="_blank">Contacta con nosotros</a>.
   - key: general.emoji_icons
     t: Emojis por <a target="_blank" rel="noreferrer" href="https://icons8.com">Icons8</a>
     
@@ -79,10 +79,10 @@ translations:
     t: >
       ¡Gracias por rellenar la encuesta!
       
-      Tu información está salvada. Puedes revisarla o modificarla hasta que la encuesta esté cerrada.
+      Tu información queda guardada. Puedes revisarla o modificarla hasta que la encuesta esté cerrada.
 
-      También puedes ayudarnos a llegar a todo el mundo compartiendo esta encuesta. Todo ayuda es poca, y así podremos hacer
-      los datos recibidos más representativos:
+      También puedes ayudarnos a llegar a todo el mundo compartiendo esta encuesta. Todo ayuda es poca. Así podremos hacer
+      los datos recogidos más representativos:
 
   # share
   - key: general.share_subject
@@ -153,7 +153,7 @@ translations:
   - key: sections.other_tools.title
     t: Otras Herramientas
   - key: sections.other_tools.description
-    t: De estas herramientas y tecnologías, marca las que uses habitualmente.
+    t: De estas herramientas y tecnologías, selecciona las que uses habitualmente.
 
   ###########################################################################
   # Options

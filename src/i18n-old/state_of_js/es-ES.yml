@@ -45,7 +45,7 @@ translations:
   - key: sections.other_features.title
     t: Otras Características
   - key: sections.other_features.description
-    t: Otras tecnologías y patrones
+    t: Otras tecnologías y patrones.
 
   - key: sections.patterns.title
     t: Patrones
