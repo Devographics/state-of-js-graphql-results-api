@@ -216,13 +216,13 @@ translations:
     # opinions
     - key: options.opinions.0
       t: Kesinlikle Karşıyım
-    - key: options.opinions.disagree
+    - key: options.opinions.1
       t: Karşıyım
-    - key: options.opinions.neutral
+    - key: options.opinions.2
       t: Nötrüm
-    - key: options.opinions.agree
+    - key: options.opinions.3
       t: Katılıyorum
-    - key: options.opinions.agree_strongly
+    - key: options.opinions.4
       t: Kesinlikle Katılıyorum
 
     # years of experience
