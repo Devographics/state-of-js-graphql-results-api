@@ -168,7 +168,7 @@ translations:
       t: 幾乎避免
     - key: options.patterns.use_sparingly
       t: 少量使用
-    - key: optionspatterns..use_neutral
+    - key: options.patterns.use_neutral
       t: 一般
     - key: options.patterns.use_frequently
       t: 經常使用

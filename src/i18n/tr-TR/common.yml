@@ -170,7 +170,7 @@ translations:
       t: Neredeyse her zaman kaçınırım
     - key: options.patterns.use_sparingly
       t: Nadiren kullanırım
-    - key: optionspatterns..use_neutral
+    - key: options.patterns.use_neutral
       t: Nötrüm
     - key: options.patterns.use_frequently
       t: Sıklıkla kullanırım

@@ -182,7 +182,7 @@ translations:
       t: Évite quasiment tout le temps
     - key: options.patterns.use_sparingly
       t: Utilise de temps en temps
-    - key: optionspatterns..use_neutral
+    - key: options.patterns.use_neutral
       t: Neutre
     - key: options.patterns.use_frequently
       t: Utilise fréquemment
