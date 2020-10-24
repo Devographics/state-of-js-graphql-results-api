@@ -181,15 +181,15 @@ translations:
     t: 👎 Used it > Would not use again
 
   # tools experience (short versions)
-  - key: options.tools.never_heard
+  - key: options.tools.never_heard.short
     t: Never heard
-  - key: options.tools.interested
+  - key: options.tools.interested.short
     t: Interested
-  - key: options.tools.not_interested
+  - key: options.tools.not_interested.short
     t: Not interested
-  - key: options.tools.would_use
+  - key: options.tools.would_use.short
     t: Would use again
-  - key: options.tools.would_not_use
+  - key: options.tools.would_not_use.short
     t: Would not use
 
   # happiness

@@ -191,15 +191,15 @@ translations:
       t: 👎 我使用过这个技术，但以后不愿意再用
 
     # tools experience (short versions)
-    - key: options.tools.never_heard
+    - key: options.tools.never_heard.short
       t: 从来没听说过
-    - key: options.tools.interested
+    - key: options.tools.interested.short
       t: 听说过，且打算学习
-    - key: options.tools.not_interested
+    - key: options.tools.not_interested.short
       t: 听说过，但不感兴趣
-    - key: options.tools.would_use
+    - key: options.tools.would_use.short
       t: 使用过，以后也愿意用
-    - key: options.tools.would_not_use
+    - key: options.tools.would_not_use.short
       t: 使用过，以后不愿意用
 
     # happiness
