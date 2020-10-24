@@ -506,16 +506,8 @@ translations:
     t: Género
 
   # skin tone/appearance
-  - key: user_info.skin_tone
-    t: Apariencia
-  - key: user_info.skin_tone.description
-    t: >
-        ¿Qué emoji crees que te representa mejor? <br/><br/>
-
-        Nota: Estamos experimentando con un nuevo formato de preguntas para
-        probar a capturar mejor la diversidad racial de nuestros encuestados. 
-        <a href="https://github.com/StateOfJS/StateOfCSS-2020/issues/5" target="_blank">Déjanos tus comentarios</a>
-        en GitHub.
+  - key: user_info.race_ethnicity
+    t: Race & Ethnicity # TODO
 
   # other info
   - key: user_info.how_did_user_find_out_about_the_survey

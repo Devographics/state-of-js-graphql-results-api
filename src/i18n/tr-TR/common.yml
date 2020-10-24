@@ -513,16 +513,8 @@ translations:
       t: Cinsiyet
 
     # skin tone/appearance
-    - key: user_info.skin_tone 
-      t: Dış Görünüş
-    - key: user_info.skin_tone.description 
-      t: >
-          Hangi emojinin sizi en iyi temsil ettiğini düşünüyorsunuz? <br/><br/>
-
-          Not: Yanıtlayanlarımızın demografik yapısını daha iyi yakalamayı 
-          amaçlayan yeni bir soru formatı deniyoruz. 
-          Github üzerinden <a href="https://github.com/StateOfJS/StateOfCSS-2020/issues/5" target="_blank">bize geri bildirimde bulunun</a>.
-          
+    - key: user_info.race_ethnicity
+      t: Race & Ethnicity # TODO
 
     # other info
     - key: user_info.how_did_user_find_out_about_the_survey 
