@@ -21,7 +21,7 @@ translations:
 
     - key: homepage.intro
       t: >
-          ### CSS si sta evolvendo veloce come non mai.
+          ## CSS si sta evolvendo veloce come non mai.
 
 
           Flexbox, Grid, Multi-Colonne… Per non parlare dei nuovi paradigmi come CSS-in-JS.

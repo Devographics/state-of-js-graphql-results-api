@@ -406,7 +406,7 @@ translations:
 
     # Race & Ethnicity
 
-    - key: options.race_ethnicity.white_european #  # TODO
+    - key: options.race_ethnicity.white_european # TODO
       t: White or of European descent
     - key: options.race_ethnicity.south_asian # TODO
       t: South Asian

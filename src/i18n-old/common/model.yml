@@ -417,7 +417,7 @@ translations:
 
     # Race & Ethnicity
 
-    - key: white_european #  # TODO
+    - key: white_european # TODO
       t: White or of European descent
     - key: south_asian # TODO
       t: South Asian
