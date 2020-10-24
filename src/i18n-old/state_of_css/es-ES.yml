@@ -297,7 +297,7 @@ translations:
     t: div span (descendiente)
   - key: options.combinators.child
     t: div > span (hijo)
-  - key: options.combinators.next_subling
+  - key: options.combinators.next_sibling
     t: div + div (hermano siguiente)
   - key: options.combinators.subsequent_sibling
     t: div ~ div (hermano posterior)
@@ -459,9 +459,9 @@ translations:
   - key: opinions.enjoy_writing_css
     t: Disfruto escribiendo CSS
     
-  - key: opinions.currently_missing_from_css.others
+  - key: opinions_other.currently_missing_from_css.others
     t: ¿Qué crees que le falta a CSS?
-  - key: opinions.currently_missing_from_css.others.description
+  - key: opinions_other.currently_missing_from_css.others.description
     t: Características que quieres ver en CSS algún día.
 
   - key: opinions.sum_up_one_word_css

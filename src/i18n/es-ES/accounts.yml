@@ -1,10 +1,5 @@
 locale: es-ES
 translations:
-
-  ###########################################################################
-  # General
-  ###########################################################################
-
   - key: accounts.error_incorrect_password
     t: Contraseña incorrecta
   - key: accounts.error_email_required

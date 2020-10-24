@@ -1,216 +1,215 @@
 locale: es-ES
 namespace: js
 translations:
+    ###########################################################################
+    # General
+    ###########################################################################
 
-  ###########################################################################
-  # General
-  ###########################################################################
-
-  - key: general.survey_intro_js2019
-    t: >
-        El mundo de JavaScript podría aprovecharse de un cierto orden.
-
-
-        Desde 2016 esta encuesta ha recopilado datos de más de 20,000
-        desarrolladores cada año para identificar actuales y futuras tendencias.
+    - key: general.survey_intro_js2019
+      t: >
+          El mundo de JavaScript podría aprovecharse de un cierto orden.
 
 
-        Haz la encuesta y ayúdanos a descubrir que librerías quieren aprender los
-        desarrolladores, cuales son las que tienen mayores índices de satisfacción, y mucho más.
+          Desde 2016 esta encuesta ha recopilado datos de más de 20,000
+          desarrolladores cada año para identificar actuales y futuras tendencias.
 
-  ###########################################################################
-  # Sections
-  ###########################################################################
 
-  - key: sections.syntax.title
-    t: Sintaxis
-  - key: sections.syntax.description
-    t: La gramática de JavaScript.
-  
-  - key: sections.language.title
-    t: Lenguaje
-  - key: sections.language.description
-    t: El vocabulario de JavaScript.
+          Haz la encuesta y ayúdanos a descubrir que librerías quieren aprender los
+          desarrolladores, cuales son las que tienen mayores índices de satisfacción, y mucho más.
 
-  - key: sections.data_structures.title
-    t: Estructuras de Datos
-  - key: sections.data_structures.description
-    t: Como almacenas y manipulas la información.
+    ###########################################################################
+    # Sections
+    ###########################################################################
 
-  - key: sections.browser_apis.title
-    t: APIs del Navegador
-  - key: sections.browser_apis.description
-    t: Características facilitadas por el navegador.
+    - key: sections.syntax.title
+      t: Sintaxis
+    - key: sections.syntax.description
+      t: La gramática de JavaScript.
 
-  - key: sections.other_features.title
-    t: Otras Características
-  - key: sections.other_features.description
-    t: Otras tecnologías y patrones
+    - key: sections.language.title
+      t: Lenguaje
+    - key: sections.language.description
+      t: El vocabulario de JavaScript.
 
-  - key: sections.patterns.title
-    t: Patrones
-  - key: sections.patterns.description
-    t: ¿Cómo prefieres escribir código?
+    - key: sections.data_structures.title
+      t: Estructuras de Datos
+    - key: sections.data_structures.description
+      t: Como almacenas y manipulas la información.
 
-  - key: sections.javascript_flavors.title
-    t: Sabores de JavaScript
-  - key: sections.javascript_flavors.description
-    t: Lenguajes que compilan a JavaScript
+    - key: sections.browser_apis.title
+      t: APIs del Navegador
+    - key: sections.browser_apis.description
+      t: Características facilitadas por el navegador.
 
-  - key: sections.front_end_frameworks.title
-    t: Front-end Frameworks
-  - key: sections.front_end_frameworks.description
-    t: Front-end frameworks y librerías
+    - key: sections.other_features.title
+      t: Otras Características
+    - key: sections.other_features.description
+      t: Otras tecnologías y patrones.
 
-  - key: sections.datalayer.title
-    t: Capa de Datos
-  - key: sections.datalayer.description
-    t: Cargando y manejando datos en tus aplicaciones
+    - key: sections.patterns.title
+      t: Patrones
+    - key: sections.patterns.description
+      t: ¿Cómo prefieres escribir código?
 
-  - key: sections.back_end_frameworks.title
-    t: Back-end Frameworks
-  - key: sections.back_end_frameworks.description
-    t: JavaScript en el servidor
+    - key: sections.javascript_flavors.title
+      t: Sabores de JavaScript
+    - key: sections.javascript_flavors.description
+      t: Lenguajes que compilan a JavaScript
 
-  - key: sections.testing.title
-    t: Testing
-  - key: sections.testing.description
-    t: Herramientas para probar tu código
+    - key: sections.front_end_frameworks.title
+      t: Front-end Frameworks
+    - key: sections.front_end_frameworks.description
+      t: Front-end frameworks y librerías
 
-  - key: sections.mobile_desktop.title
-    t: Móviles y Escritorio
-  - key: sections.mobile_desktop.description
-    t: JavaScript para dispositivos móviles y aplicaciones de escritorio
+    - key: sections.datalayer.title
+      t: Capa de Datos
+    - key: sections.datalayer.description
+      t: Cargando y manejando datos en tus aplicaciones
 
-  ###########################################################################
-  # Options
-  ###########################################################################
+    - key: sections.back_end_frameworks.title
+      t: Back-end Frameworks
+    - key: sections.back_end_frameworks.description
+      t: JavaScript en el servidor
 
-  # css for print
-  - key: options.css_for_print.0
-    t: (Casi) nunca escribo CSS para ser impreso
-  - key: options.css_for_print.1
-    t: Ocasionalmente escribo CSS para ser impreso
-  - key: options.css_for_print.2
-    t: Escribo CSS para ser impreso para casi todos los proyectos
-  - key: options.css_for_print.3
-    t: Sólo me centro en CSS para ser impreso
+    - key: sections.testing.title
+      t: Testing
+    - key: sections.testing.description
+      t: Herramientas para probar tu código
 
-  # css for email
-  - key: options.css_for_email.0
-    t: (Casi) nunca escribo CSS para correos electrónicos
-  - key: options.css_for_email.1
-    t: Ocasionalmente escribo CSS para correos electrónicos
-  - key: options.css_for_email.2
-    t: Escribo CSS para correos electrónicos para casi todos los proyectos
-  - key: options.css_for_email.3
-    t: Sólo me centro en CSS para correos electrónicos
+    - key: sections.mobile_desktop.title
+      t: Móviles y Escritorio
+    - key: sections.mobile_desktop.description
+      t: JavaScript para dispositivos móviles y aplicaciones de escritorio
 
-  ###########################################################################
-  # Features
-  ###########################################################################
+    ###########################################################################
+    # Options
+    ###########################################################################
 
-  # syntax
-  - key: features.destructuring
-    t: Desestructurando
-  - key: features.destructuring.description
-    t: 'Ejemplo: <code>const { foo } = bar</code>'
-  - key: features.spread_operator
-    t: Spread operator
-  - key: features.spread_operator.description
-    t: 'Ejemplo: <code>[...array1, ...array2]</code>'
-  - key: features.arrow_functions
-    t: Arrow Functions
-  - key: features.arrow_functions.description
-    t: 'Ejemplo: <code>const foo = () => {}</code>'
+    # css for print
+    - key: options.css_for_print.0
+      t: (Casi) nunca escribo CSS para ser impreso
+    - key: options.css_for_print.1
+      t: Ocasionalmente escribo CSS para ser impreso
+    - key: options.css_for_print.2
+      t: Escribo CSS para ser impreso para casi todos los proyectos
+    - key: options.css_for_print.3
+      t: Sólo me centro en CSS para ser impreso
 
-  # language
-  - key: features.proxies
-    t: Proxies
-  - key: features.async_await
-    t: Async/Await
-  - key: features.promises
-    t: Promesas
-  - key: features.decorators
-    t: Decoradores
-  - key: features.decorators.description
-    t:  >
-      En su forma más sencilla, un decorador es una forma de
-      envolver un trozo de código con otro, literalmente, decorándolo.
+    # css for email
+    - key: options.css_for_email.0
+      t: (Casi) nunca escribo CSS para correos electrónicos
+    - key: options.css_for_email.1
+      t: Ocasionalmente escribo CSS para correos electrónicos
+    - key: options.css_for_email.2
+      t: Escribo CSS para correos electrónicos para casi todos los proyectos
+    - key: options.css_for_email.3
+      t: Sólo me centro en CSS para correos electrónicos
 
-  # data structures
-  - key: features.maps
-    t: Mapas
-  - key: features.sets
-    t: Sets
-  - key: features.typed_arrays
-    t: Typed Arrays
-  - key: array_prototype_flat
-    t: Array.prototype.flat
+    ###########################################################################
+    # Features
+    ###########################################################################
 
-  # browser apis
-  - key: features.service_workers
-    t: Service Workers
-  - key: features.local_storage
-    t: LocalStorage
-  - key: features.i18n
-    t: i18n
-  - key: features.web_components
-    t: Componentes Web
-  - key: features.web_audio
-    t: API Web para Audio
-  - key: features.webgl
-    t: WebGL
-  - key: features.web_animations
-    t: API Web para Animaciones
-  - key: features.webrtc
-    t: WebRTC
-  - key: features.web_speech
-    t: API Web para Sintetización de Voz
-  - key: features.webvr
-    t: WebVR
-  - key: features.websocket
-    t: Websocket
-  - key: features.fetch
-    t: API para Llamadas al Servidor (Fetch)
+    # syntax
+    - key: features.destructuring
+      t: Desestructurando
+    - key: features.destructuring.description
+      t: 'Ejemplo: <code>const { foo } = bar</code>'
+    - key: features.spread_operator
+      t: Spread operator
+    - key: features.spread_operator.description
+      t: 'Ejemplo: <code>[...array1, ...array2]</code>'
+    - key: features.arrow_functions
+      t: Arrow Functions
+    - key: features.arrow_functions.description
+      t: 'Ejemplo: <code>const foo = () => {}</code>'
 
-  # other features
-  - key: features.pwa
-    t: Aplicaciones Web Progresivas (PWA)
-  - key: features.wasm
-    t: WebAssembly (WASM)
-  
-  # patterns
-  - key: patterns.object_oriented_programming
-    t: Programación Orientada a Objetos
-  - key: features.functional_programming
-    t: Programación Funcional
-  - key: features.reactive_programming
-    t: Programación Reactiva
+    # language
+    - key: features.proxies
+      t: Proxies
+    - key: features.async_await
+      t: Async/Await
+    - key: features.promises
+      t: Promesas
+    - key: features.decorators
+      t: Decoradores
+    - key: features.decorators.description
+      t:  >
+        En su forma más sencilla, un decorador es una forma de
+        envolver un trozo de código con otro, literalmente, decorándolo.
 
-  ###########################################################################
-  # Opinions
-  ###########################################################################
+    # data structures
+    - key: features.maps
+      t: Mapas
+    - key: features.sets
+      t: Sets
+    - key: features.typed_arrays
+      t: Typed Arrays
+    - key: array_prototype_flat
+      t: Array.prototype.flat
 
-  - key: opinions.js_moving_in_right_direction
-    t: JavaScript va en la dirección adecuada
-    
-  - key: opinions.building_js_apps_overly_complex
-    t: Construir aplicaciones con JavaScript es demasiado complicado ahora mismo
-    
-  - key: opinions.js_over_used_online
-    t: JavaScript se usa demasiado online
-    
-  - key: opinions.enjoy_building_js_apps
-    t: Disfruto construyendo aplicaciones con JavaScript
-    
-  - key: opinions.would_like_js_to_be_main_lang
-    t: Me gustaría que JavaScript fuese mi lenguaje de programación principal
-    
-  - key: opinions.js_ecosystem_changing_to_fast
-    t: El ecosistema de JavaScript cambia demasiado rápido
-    
-  - key: opinions.missing_from_js
-    t: ¿Qué crees que le falta en estos momentos a JavaScript?
-  - key: opinions.missing_from_js.description
-    t: ¿Qué cosas nuevas te gustaría ver en JavaScript algún día?
+    # browser apis
+    - key: features.service_workers
+      t: Service Workers
+    - key: features.local_storage
+      t: LocalStorage
+    - key: features.i18n
+      t: i18n
+    - key: features.web_components
+      t: Componentes Web
+    - key: features.web_audio
+      t: API Web para Audio
+    - key: features.webgl
+      t: WebGL
+    - key: features.web_animations
+      t: API Web para Animaciones
+    - key: features.webrtc
+      t: WebRTC
+    - key: features.web_speech
+      t: API Web para Sintetización de Voz
+    - key: features.webvr
+      t: WebVR
+    - key: features.websocket
+      t: Websocket
+    - key: features.fetch
+      t: API para Llamadas al Servidor (Fetch)
+
+    # other features
+    - key: features.pwa
+      t: Aplicaciones Web Progresivas (PWA)
+    - key: features.wasm
+      t: WebAssembly (WASM)
+
+    # patterns
+    - key: patterns.object_oriented_programming
+      t: Programación Orientada a Objetos
+    - key: features.functional_programming
+      t: Programación Funcional
+    - key: features.reactive_programming
+      t: Programación Reactiva
+
+    ###########################################################################
+    # Opinions
+    ###########################################################################
+
+    - key: opinions.js_moving_in_right_direction
+      t: JavaScript va en la dirección adecuada
+
+    - key: opinions.building_js_apps_overly_complex
+      t: Construir aplicaciones con JavaScript es demasiado complicado ahora mismo
+
+    - key: opinions.js_over_used_online
+      t: JavaScript se usa demasiado online
+
+    - key: opinions.enjoy_building_js_apps
+      t: Disfruto construyendo aplicaciones con JavaScript
+
+    - key: opinions.would_like_js_to_be_main_lang
+      t: Me gustaría que JavaScript fuese mi lenguaje de programación principal
+
+    - key: opinions.js_ecosystem_changing_to_fast
+      t: El ecosistema de JavaScript cambia demasiado rápido
+
+    - key: opinions.missing_from_js
+      t: ¿Qué crees que le falta en estos momentos a JavaScript?
+    - key: opinions.missing_from_js.description
+      t: ¿Qué cosas nuevas te gustaría ver en JavaScript algún día?
