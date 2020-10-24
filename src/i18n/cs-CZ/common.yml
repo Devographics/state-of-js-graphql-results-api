@@ -179,7 +179,7 @@ translations:
       t: Vyhýbám se tomu
     - key: options.patterns.use_sparingly
       t: Užívám zřídka
-    - key: optionspatterns..use_neutral
+    - key: options.patterns.use_neutral
       t: Neutrální
     - key: options.patterns.use_frequently
       t: Používám často

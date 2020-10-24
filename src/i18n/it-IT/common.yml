@@ -168,7 +168,7 @@ translations:
       t: Lo evito quasi sempre
     - key: options.patterns.use_sparingly
       t: Lo uso con parsimonia
-    - key: optionspatterns..use_neutral
+    - key: options.patterns.use_neutral
       t: Neutrale
     - key: options.patterns.use_frequently
       t: Lo uso frequentemente

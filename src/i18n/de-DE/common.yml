@@ -168,7 +168,7 @@ translations:
       t: meist vermieden
     - key: options.patterns.use_sparingly
       t: selten verwendet
-    - key: optionspatterns..use_neutral
+    - key: options.patterns.use_neutral
       t: neutral
     - key: options.patterns.use_frequently
       t: häufig verwendet
