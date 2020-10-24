@@ -202,15 +202,15 @@ translations:
       t: 👎 Used it > Would not use again
 
     # tools experience (short versions)
-    - key: options.tools.never_heard # TODO
+    - key: options.tools.never_heard.short # TODO
       t: Never heard
-    - key: options.tools.interested # TODO
+    - key: options.tools.interested.short # TODO
       t: Interested
-    - key: options.tools.not_interested # TODO
+    - key: options.tools.not_interested.short # TODO
       t: Not interested
-    - key: options.tools.would_use # TODO
+    - key: options.tools.would_use.short # TODO
       t: Would use again
-    - key: options.tools.would_not_use # TODO
+    - key: options.tools.would_not_use.short # TODO
       t: Would not use
 
     # happiness

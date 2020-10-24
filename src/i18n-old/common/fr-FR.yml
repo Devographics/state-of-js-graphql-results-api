@@ -202,15 +202,15 @@ translations:
       t: 👎 Je l'ai utilisé > Je ne l'utiliserai plus
 
     # tools experience (short versions)
-    - key: options.tools.never_heard
+    - key: options.tools.never_heard.short
       t: Jamais entendu parler
-    - key: options.tools.interested
+    - key: options.tools.interested.short
       t: Intéressé
-    - key: options.tools.not_interested
+    - key: options.tools.not_interested.short
       t: Pas intéressé
-    - key: options.tools.would_use
+    - key: options.tools.would_use.short
       t: L'utiliserai à nouveau
-    - key: options.tools.would_not_use
+    - key: options.tools.would_not_use.short
       t: Ne l'utiliserai pas
 
     # happiness
