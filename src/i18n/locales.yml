@@ -37,3 +37,7 @@
 - id: xy-ZY
   label: Foobar
   translators: [timbergus, ezkato]
+
+- id: id-ID
+  label: Indonesia
+  translators: [ervinismu]
