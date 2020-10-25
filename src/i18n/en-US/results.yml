@@ -140,10 +140,26 @@ translations:
     # tools quadrant
     - key: blocks.tools_quadrant.title
       t: Satisfaction vs Usage
-    - key: blocks.tools_quadrant.description
-      t: '@todo'
+    - key: blocks.tools_quadrant.satisfaction.description
+      t: |
+        This chart shows each technology’s **satisfaction ratio** over its total **user count**.
+        It can be divided into four quadrants:
 
-    # category other tools
+          - **ASSESS**: Low usage, high satisfaction. Technologies worth keeping an eye on.
+
+          - **ADOPT**: High usage, high satisfaction. Safe technologies to adopt.
+
+          - **AVOID**: Low usage, low satisfaction. Technologies probably best avoided currently.
+
+          - **ANALYZE**: High usage, low satisfaction. Reassess these technologies if you're currently using them.
+
+    - key: blocks.tools_quadrant.interest.description
+      t: |
+        This chart shows each technology’s **interest ratio** over its total **user count** (as defined by respondents who are aware of a technology but *haven't* used it yet).
+
+        (Note that low user numbers can be due to either an unknown technology; or a technology with a lot of respondents already using it.)
+
+  # category other tools
     - key: blocks.category_other_tools.title
       t: Other Tools
     - key: blocks.category_other_tools.description
