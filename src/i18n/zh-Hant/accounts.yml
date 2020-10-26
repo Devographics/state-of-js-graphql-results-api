@@ -1,0 +1,73 @@
+locale: zh-Hant
+translations:
+  - key: accounts.error_incorrect_password
+    t: 密碼錯誤
+  - key: accounts.error_email_required
+    t: 必須填寫電子郵件
+  - key: accounts.error_email_already_exists
+    t: 已有此電子郵件
+  - key: accounts.error_invalid_email
+    t: 無效的電子郵件
+  - key: accounts.error_minchar
+    t: 使用的密碼太短
+  - key: accounts.error_unknown
+    t: 未知錯誤
+  - key: accounts.error_user_not_found
+    t: 找不到使用者
+  - key: accounts.error_username_already_exists
+    t: 已有此使用者名稱
+  - key: accounts.enter_username_or_email
+    t: 輸入使用者名稱或電子郵件
+  - key: accounts.error_internal_server_error
+    t: 伺服器錯誤
+  - key: accounts.error_token_expired
+    t: 重置密碼的識別錯誤
+  - key: accounts.username_or_email
+    t: 使用者名稱或電子郵件
+  - key: accounts.enter_username
+    t: 輸入使用者名稱
+  - key: accounts.username
+    t: 使用者名稱
+  - key: accounts.enter_email
+    t: 輸入電子郵件
+  - key: accounts.email
+    t: 電子郵件
+  - key: accounts.enter_password
+    t: 輸入密碼
+  - key: accounts.password
+    t: 密碼
+  - key: accounts.choose_password
+    t: 設定密碼
+  - key: accounts.change_password
+    t: 更改密碼
+  - key: accounts.reset_your_password
+    t: 重置密碼
+  - key: accounts.set_password
+    t: 設定密碼
+  - key: accounts.enter_new_password
+    t: 輸入新密碼
+  - key: accounts.new_password
+    t: 新密碼
+  - key: accounts.forgot_password
+    t: 忘記密碼了
+  - key: accounts.sign_up
+    t: 註冊
+  - key: accounts.sign_in
+    t: 登入
+  - key: accounts.sign_out
+    t: 登出
+  - key: accounts.cancel
+    t: 取消
+  - key: accounts.info_email_sent
+    t: 已送出電子郵件。
+  - key: accounts.info_password_changed
+    t: 已更新密碼。
+  - key: accounts.please_pick_password
+    t: 請設定新密碼後繼續。
+  - key: accounts.please_log_in
+    t: 請登入或註冊後再開始。
+  - key: accounts.logged_in_as
+    t: 以 {email} 登入
+  - key: accounts.questions
+    t: >
+        如果對於我們使用你的資料有任何問題，或想要從記錄裡移除，請<a href="mailto:hello@stateofjs.com">跟我們聯繫。</a>

@@ -1,4 +1,4 @@
-locale: es-ES
+locale: tr-TR
 translations:
     ###########################################################################
     # General
@@ -8,27 +8,27 @@ translations:
     # Features
     ###########################################################################
 
-    - key: features.learn_more
-      t: Más Información (MDN)
-    - key: features.mdn_link
+    - key: features.learn_more 
+      t: Daha fazla bilgi edin (MDN)
+    - key: features.mdn_link 
       t: MDN
-    - key: features.caniuse_link
+    - key: features.caniuse_link 
       t: CanIUse
-    - key: features.specification_link
-      t: Especificación de la W3C
+    - key: features.specification_link 
+      t: W3C Tanımlaması
 
     ###########################################################################
     # Tools & Methodologies
     ###########################################################################
 
     # general
-    - key: tools.links
-      t: Enlaces
-    - key: tools.github_link
+    - key: tools.links 
+      t: Bağlantılar
+    - key: tools.github_link 
       t: GitHub
-    - key: tools.github_stars
-      t: estrellas
-    - key: tools.homepage_link
-      t: Página de Inicio
-    - key: tools.npm_link
+    - key: tools.github_stars 
+      t: yıldız
+    - key: tools.homepage_link 
+      t: Anasayfa
+    - key: tools.npm_link 
       t: NPM

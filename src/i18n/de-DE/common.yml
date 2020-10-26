@@ -1,4 +1,4 @@
-locale: es-ES
+locale: de-DE
 translations:
     ###########################################################################
     # General
@@ -6,145 +6,142 @@ translations:
 
     # homepage
     - key: general.why_create_account
-      t: ¿Por qué necesito crear una cuenta?
+      t: Warum soll ich ein Konto anlegen?
     - key: general.create_account_reasons
       t: >
-          Te pedimos que crees una cuenta para:
+          Darum bitten wir Dich ein Konto anzulegen:
 
-          - Evitar respuestas duplicadas
+          - Vermeidung doppelter Antworten
 
-          - Darte acceso a tu información
-          
-          - Salvar tu sesión según avanzas
-          
-          - Notificarte cuando tengamos los resultados
+          - Zugriff auf Deine Daten
+
+          - Deinen Fortschritt speichern
+
+          - Information, wenn Ergebnisse bereitstehen
     - key: general.survey_closed
       t: >
-        ¡Lo sentimos, la encuesta ha finalizado! Aún puedes revisar tu información, pero no puedes modificarla.
+          Die Umfrage ist geschlossen! Du kannst Deine Daten noch immer einsehen, aber Du kannst sie nicht mehr bearbeiten.
     - key: general.survey_read_only
       t: >
-        Actualmente estás viendo esta encuesta en modo de sólo lectura.
+          Du kannst die Daten der Umfrage derzeit nur ansehen.
     - key: general.survey_read_only_back
       t: >
-          <a href="{link}">Volver</a> a la página principal para continuar con la encuesta o empezarla.
+          <a href="{link}">Zurück</a> zur Hauptseite zum Starten oder Fortsetzen der Umfrage.
 
     # surveys
     - key: general.open_surveys
-      t: Encuestas Abiertas
+      t: Umfragen öffnen
     - key: general.no_open_surveys
-      t: No hay encuestas abiertas actualmente.
+      t: Aktuell sind keine Umfragen offen.
     - key: general.closed_surveys
-      t: Encuestas Cerradas
+      t: Geschlossene Umfragen
     - key: general.start_survey
-      t: Empezar Encuesta »
+      t: Umfrage beginnen »
     - key: general.continue_survey
-      t: Continuar Encuesta »
+      t: Umfrage fortsetzen »
     - key: general.review_survey
-      t: Repasar Encuesta »
+      t: Umfrage ansehen »
     - key: general.preview_survey
-      t: Vista Previa de la Encuesta »
+      t: Vorschau auf Umfrage »
     - key: general.finish_survey
-      t: Terminar Encuesta »
+      t: Umfrage fertigstellen »
     - key: general.survey_closed
-      t: Esta encuesta está cerrada.
+      t: Die Umfrage ist geschlossen.
     - key: general.survey_results
-      t: Ver Resultados de la Encuesta »
+      t: Ergebnisse anzeigen »
     - key: general.surveys_available_languages
-      t: "Encuestas disponibles en:"
+      t: 'Umfrage verfügbar in:'
     - key: general.help_us_translate
-      t: Ayúdanos a traducir las encuestas »
+      t: Hilf uns die Umfragen zu übersetzen »
     - key: general.translators
-      t: Traductores
+      t: Übersetzer
     - key: general.translation_help
-      t: Ayuda con las Traducciones
+      t: Hilfe bei der Übersetzung
 
     # footer
     - key: general.privacy_policy
-      t: Política de Privacidad
+      t: Datenschutzrichtlinien
     - key: general.leave_issue
-      t: ¿Preguntas? ¿Has encontrado un fallo? <a href="{link}" target="_blank">Contacta con nosotros</a>.
+      t: Fragen? Fehler gefunden? <a href="{link}" target="_blank">Erstelle ein Ticket</a>.
     - key: general.emoji_icons
-      t: Emojis por <a target="_blank" rel="noreferrer" href="https://icons8.com">Icons8</a>
+      t: Emoji Icons von <a target="_blank" rel="noreferrer" href="https://icons8.com">Icons8</a>
 
     # navigation
     - key: general.table_of_contents
-      t: Tabla de Contenidos
+      t: Inhalt
     - key: general.all_questions_optional
       t: >
-        Nota: todas las preguntas son opcionales, así que no necesitas responderlas todas.
+          Beachte: Alle Fragen sind optional, Du musst nicht alle Fragen beantworten.
     - key: general.data_is_saved
-      t: Salvamos tus respuestas cada vez que navegas entre secciones.
+      t: Deine Daten werden immer dann gespeichert, wenn du einen Abschnitt weiter oder zurück navigierst.
 
     # thanks
     - key: general.back
-      t: Volver
+      t: Zurück
     - key: general.thanks
       t: >
-          ¡Gracias por rellenar la encuesta!
+          Danke für Deine Antworten!
 
-          Tu información queda guardada. Puedes revisarla o modificarla hasta que la encuesta esté cerrada.
+          Deine Daten sind gespeichert. Du kannst sie einsehen und bearbeiten bis die Umfrage geschlossen wird.
 
-          También puedes ayudarnos a llegar a todo el mundo compartiendo esta encuesta. Todo ayuda es poca. Así podremos hacer
-          los datos recogidos más representativos:
+          Zudem kannst Du uns helfen die Umfrage mit anderen Menschen zu teilen. Alles hilft und macht die Daten noch repräsentativer:
     - key: thanks.learn_more_about
-      t: 'Algunas de las características de las que quieres aprender más:'
+      t: 'Einige der Funktionen, zu denen Du vielleicht mehr erfahren möchtest:'
     - key: thanks.knowledge_score
-      t: Valoración de tu Conocimiento
+      t: Wissens-Score
     - key: thanks.score_explanation
       t: >
-          Te suenan o has utilizado <span class="score-number score-number-known">{known}</span> características de 
-          <span class="score-number score-number-total">{total}</span> mencionadas en la encuesta,
-          lo cual te sitúa dentro del <span class="score-number score-number-ranking">{knowledgeRankingFromTop}%</span>
-          de todos los que la han respondido.
+          Du hast <span class="score-number score-number-known">{known}</span> Feature/s von <span class="score-number score-number-total">{total}</span> Features aus der Umfrage verwendet oder davon gehört. Das bringt Dich in die Top <span class="score-number score-number-ranking">{knowledgeRankingFromTop}%</span>
+          aller Antworten.
     - key: thanks.share_on_twitter
-      t: Compártelo en Twitter
+      t: Teile auf Twitter
     - key: thanks.share_score_message
       t: >
-          Tengo una puntuación del {score}% en la encuesta #{hashtag} de este año! Haz la encuesta tú también aquí: {shareUrl}
+          Ich habe einen Wissens-Score von {score}% in der diesjährigen #{hashtag} Umfrage erreicht! Nimm hier an der Umfrage teil: {shareUrl}
     # share
     - key: general.share_subject
       t: >
-        Encuesta {surveyName}
+          {surveyName} Umfrage
     - key: general.share_text
       t: >
-        ¡La encuesta {surveyName} de este año, está abierta! {link}
+          Die diesjährige {surveyName} Umfrage ist geöffnet! {link}
 
     # forms
     - key: forms.select_option
-      t: Elige una opción
+      t: Option wählen
 
     ###########################################################################
     # Nav
     ###########################################################################
-    
+
     - key: nav.surveys
-      t: Encuestas
+      t: Umfragen
     - key: nav.account
-      t: Cuenta
+      t: Konto
 
     ###########################################################################
     # Sections
     ###########################################################################
 
     - key: sections.user_info.title
-      t: Sobre Tí
+      t: Über Dich
     - key: sections.user_info.description
-      t: Déjanos conocer a tu verdadero yo.
+      t: Lass uns Dich kennenlernen.
 
     - key: sections.resources.title
-      t: Recursos
+      t: Ressourcen
     - key: sections.resources.description
-      t: ¿Qué recursos consultas en relación a {topic}?
+      t: Welche Ressourcen konsultierst Du zu {topic}?
 
     - key: sections.opinions.title
-      t: Opiniones
+      t: Meinungen
     - key: sections.opinions.description
-      t: ¿Qué opinas sobre el estado de {topic}?
+      t: Was hältst Du vom Status zu {topic}?
 
     - key: sections.other_tools.title
-      t: Otras Herramientas
+      t: Andere Werkzeuge
     - key: sections.other_tools.description
-      t: De estas herramientas y tecnologías, selecciona las que uses habitualmente.
+      t: Berücksichtige nur Werkzeuge und Technologien die Du regelmäßig nutzt.
 
     ###########################################################################
     # Options
@@ -152,93 +149,93 @@ translations:
 
     # features
     - key: options.features.never_heard
-      t: 🤷 Nunca he oído hablar de ello/No estoy seguro de lo que es
+      t: 🤷 Nie davon gehört/Nicht sicher worum es sich handelt
     - key: options.features.heard
-      t: ✅ Sé lo que es, pero nunca lo he usado
+      t: ✅ Kenne ich, aber nicht genutzt
     - key: options.features.used
-      t: 👍 Lo he usado
+      t: 👍 Habe ich verwendet
 
     # features (short versions)
     - key: options.features.never_heard.short
-      t: Nunca he oído hablar de ello
+      t: Nie davon gehört
     - key: options.features.heard.short
-      t: Lo conozco
+      t: Kenne ich
     - key: options.features.used.short
-      t: Lo he usado
+      t: Habe ich verwendet
 
     # patterns
     - key: options.patterns.use_never
-      t: Casi siempre lo evito
+      t: meist vermieden
     - key: options.patterns.use_sparingly
-      t: Raramente lo uso
+      t: selten verwendet
     - key: options.patterns.use_neutral
-      t: Neutral
+      t: neutral
     - key: options.patterns.use_frequently
-      t: Lo uso con frecuencia
+      t: häufig verwendet
     - key: options.patterns.use_always
-      t: Lo uso todo lo que puedo
+      t: so oft wie möglich verwendet
 
     # tools experience
     - key: options.tools.never_heard
-      t: 🤷 Nunca he oído hablar de ello/No estoy seguro de lo que es
+      t: 🤷 Nie davon gehört/Nicht sicher worum es sich handelt
     - key: options.tools.interested
-      t: ✅ He oído hablar de ello > Quiero aprenderlo
+      t: ✅ Davon gehört > Möchte ich lernen
     - key: options.tools.not_interested
-      t: 🚫 He oído hablar de ello > No estoy interesado
+      t: 🚫 Davon gehört > Kein Interesse
     - key: options.tools.would_use
-      t: 👍 Lo he usado > Lo volvería a usar
+      t: 👍 Verwendet > Würde ich wieder verwenden
     - key: options.tools.would_not_use
-      t: 👎 Lo he usado > No lo volvería a usar
+      t: 👎 Verwendet > Würde ich nicht wieder verwenden
 
     # tools experience (short versions)
     - key: options.tools.never_heard.short
-      t: Nunca lo he oído
+      t: Nie davon gehört
     - key: options.tools.interested.short
-      t: Interesado
+      t: Interessiert
     - key: options.tools.not_interested.short
-      t: No estoy interesado
+      t: Kein Interesse
     - key: options.tools.would_use.short
-      t: Lo volvería a usar
+      t: Würde ich wieder verwenden
     - key: options.tools.would_not_use.short
-      t: No lo usaría
-    
+      t: Würde ich nicht verwenden
+
     # happiness
     - key: options.happiness.0
-      t: Muy Descontento
+      t: Sehr unglücklich
     - key: options.happiness.1
-      t: Descontento
+      t: Unglücklich
     - key: options.happiness.2
       t: Neutral
     - key: options.happiness.3
-      t: Contento
+      t: Glücklich
     - key: options.happiness.4
-      t: Muy Contento
+      t: Sehr glücklich
 
     # opinions
     - key: options.opinions.0
-      t: Estoy Fuertemente en Desacuerdo
+      t: Starke Ablehnung
     - key: options.opinions.1
-      t: Estoy en Desacuerdo
+      t: Ablehnung
     - key: options.opinions.2
       t: Neutral
     - key: options.opinions.3
-      t: Estoy de Acuerdo
+      t: Zustimmung
     - key: options.opinions.4
-      t: Estoy Fuertemente de Acuerdo
+      t: Starke Zustimmung
 
     # years of experience
     - key: options.years_of_experience.range_less_than_1
-      t: Menos de un Año
+      t: Weniger als ein Jahr
     - key: options.years_of_experience.range_1_2
-      t: De 1 a 2 años
+      t: 1 bis 2 Jahre
     - key: options.years_of_experience.range_2_5
-      t: De 2 a 5 años
+      t: 2 bis 5 Jahre
     - key: options.years_of_experience.range_5_10
-      t: De 5 a 10 años
+      t: 5 bis 10 Jahre
     - key: options.years_of_experience.range_10_20
-      t: De 10 a 20 años
+      t: 10 bis 20 Jahre
     - key: options.years_of_experience.range_more_than_20
-      t: Más de 20 años
+      t: Mehr als 20 Jahre
 
     # years of experience (short versions)
     - key: options.years_of_experience.range_less_than_1.short
@@ -256,21 +253,21 @@ translations:
 
     # company size
     - key: options.company_size.range_1
-      t: Un empleado
+      t: Ein Mitarbeiter
     - key: options.company_size.range_1_5
-      t: De 1 a 5 empleados
+      t: 1 bis 5 Mitarbeiter
     - key: options.company_size.range_5_10
-      t: De 5 a 10 empleados
+      t: 5 bis 10 Mitarbeiter
     - key: options.company_size.range_10_20
-      t: De 10 a 20 empleados
+      t: 10 bis 20 Mitarbeiter
     - key: options.company_size.range_20_50
-      t: De 20 a 50 empleados
+      t: 20 bis 50 Mitarbeiter
     - key: options.company_size.range_50_100
-      t: De 50 a 100 empleados
+      t: 50 bis 100 Mitarbeiter
     - key: options.company_size.range_100_1000
-      t: De 100 a 1000 empleados
+      t: 100 bis 1000 Mitarbeiter
     - key: options.company_size.range_more_than_1000
-      t: Más de 1000 empleados
+      t: Mehr als 1000 Mitarbeiter
 
     # company size (short versions)
     - key: options.company_size.range_1.short
@@ -292,7 +289,7 @@ translations:
 
     # salary
     - key: options.yearly_salary.range_work_for_free
-      t: Trabajo por la cara
+      t: Ich arbeite kostenlos
     - key: options.yearly_salary.range_0_10
       t: $0k-$10k
     - key: options.yearly_salary.range_10_30
@@ -304,7 +301,7 @@ translations:
     - key: options.yearly_salary.range_100_200
       t: $100k-$200k
     - key: options.yearly_salary.range_more_than_200
-      t: Más de $200k
+      t: Mehr als $200k
 
     # salary (short versions)
     - key: options.yearly_salary.range_work_for_free.short
@@ -326,112 +323,112 @@ translations:
     - key: options.job_title.cto
       t: CTO
     - key: options.job_title.front_end_developer
-      t: Desarrollador o Ingeniero de Front
+      t: Front End Developer/Engineer
     - key: options.job_title.back_end_developer
-      t: Desarrollador o Ingeniero de Back
+      t: Back End Developer/Engineer
     - key: options.job_title.full_stack_developer
-      t: Desarrollador o Ingeniero Full Stack
+      t: Full Stack Developer/Engineer
     - key: options.job_title.web_developer
-      t: Desarrollador Web
+      t: Web Developer
     - key: options.job_title.web_designer
-      t: Diseñador Web
+      t: Web Designer
     - key: options.job_title.ux_designer
-      t: Diseñador UX
+      t: UX Designer
     - key: options.job_title.ui_designer
-      t: Diseñador UI
+      t: UI Designer
     - key: options.job_title.back_end_dev
-      t: Desarrollador o Ingeniero de Back
+      t: Back-end Developer/Engineer
 
     # JavaScript proficiency
 
     - key: options.javascript_proficiency.0
-      t: No soy capaz de escribir JavaScript
+      t: Kann kein JavaScript schreiben.
     - key: options.javascript_proficiency.1
-      t: Escribo código sencillo en JavaScript o jQuery
+      t: Schreibe kurze, einfache JavaScript oder jQuery Befehle.
     - key: options.javascript_proficiency.2
-      t: Trabajo en proyectos existentes de front usando frameworks modernos (React, Vue, etc.)
+      t: Arbeite an einer existierenden Frontend-Codebasis, die auf moderne Frameworks (React, Vue, usw.) setzt.
     - key: options.javascript_proficiency.3
-      t: Creo proyectos completos desde cero
+      t: Baue komplett neue Frontend-Projekte auf.
     - key: options.javascript_proficiency.4
-      t: Manejo patrones complejos en el front (manejo de estado, carga de datos, etc.)
+      t: Habe mit erweiterten Frontend-Mustern zu tun (State Management, Data Loading, usw).
 
     # CSS proficiency
 
     - key: options.css_proficiency.0
-      t: No tengo ningún conocimiento de CSS
+      t: Praktisch kein Wissen über CSS.
     - key: options.css_proficiency.1
-      t: Uso CSS frameworks y modifico estilos existentes
+      t: Nutze CSS-Frameworks und nehme Anpassungen an existierenden Styles vor.
     - key: options.css_proficiency.2
-      t: Conozco las reglas de especificidad, y soy capaz de crear layouts
+      t: Kenne mich mit Spezifität aus und kann Layouts bauen.
     - key: options.css_proficiency.3
-      t: Domino las animaciones, interacciones, transiciones, etc.
+      t: Meistere Animationen, Interaktionen und Transitionen, usw.
     - key: options.css_proficiency.4
-      t: Soy capaz de dar estilos desde cero a un proyecto siguiendo metodologías consistentes
+      t: Kann ein komplett neues Frontend-Projekt neu aufbauen und folge dabei einer konsistenten Methode.
 
     # Back-end proficiency
 
     - key: options.backend_proficiency.0
-      t: No soy capaz de hacer nada en el backend.
+      t: Kann keine Backend Aufgaben zu übernehmen.
     - key: options.backend_proficiency.1
-      t: Soy capaz de montar CMSs (WordPress, etc.) o usar generadores de páginas estáticas (Jekyll, etc.)
+      t: Kann ein CMS (WordPress, usw.) installieren oder Static Site Generators nutzen (Jekyll, usw.).
     - key: options.backend_proficiency.2
-      t: Soy capaz de desarrollar aplicaciones usando frameworks existentes (Rails, Laravel, etc.)
+      t: Kann Apps mit Frameworks entwickeln (Rails, Laravel, usw.).
     - key: options.backend_proficiency.3
-      t: Soy capaz de montar un backend desde cero (Go, Node.js, etc.)
+      t: Kann ein komplettes Backend neu bauen (Go, Node.js, usw.).
     - key: options.backend_proficiency.4
-      t: Soy capaz de manejar arquitecturas complejas con multi-servicios o micro-servicios
+      t: Kann komplexe auf mehreren Servern laufende Architekturen oder Microservices bauen.
 
     # Proficiency (generic versions)
     - key: options.proficiency.0
-      t: Ninguna
+      t: Keine
     - key: options.proficiency.1
-      t: Principiante
+      t: Anfänger
     - key: options.proficiency.2
-      t: Intermedio
+      t: Fortgeschrittener Anfänger
     - key: options.proficiency.3
-      t: Avanzado
+      t: Fortgeschritten
     - key: options.proficiency.4
-      t: Experto
+      t: Experte
 
     # Gender
 
     - key: options.gender.female
-      t: Mujer
+      t: weiblich
     - key: options.gender.male
-      t: Hombre
+      t: männlich
     - key: options.gender.non_binary
-      t: No-Binario/Tercer Género
+      t: divers
     - key: options.gender.prefer_not_to_say
-      t: Prefiero no decirlo
+      t: Möchte ich nicht sagen
 
     # Race & Ethnicity
 
     - key: options.race_ethnicity.white_european
-      t: Blanco o descendiente de Europeos
+      t: Weiß oder europäischer Abstammung
     - key: options.race_ethnicity.south_asian
-      t: Asiático del Sur
+      t: Süd asiatisch
     - key: options.race_ethnicity.hispanic_latin
-      t: Hispano o Latino
+      t: Hispanic oder Latino / Latina
     - key: options.race_ethnicity.east_asian
-      t: Asiático del Este
+      t: Ostasiate
     - key: options.race_ethnicity.middle_eastern
-      t: De Oriente Medio
+      t: Naher Osten
     - key: options.race_ethnicity.black_african
-      t: Negro o descendiente de Africanos
+      t: Schwarz oder afrikanischer Abstammung
     - key: options.race_ethnicity.multiracial
-      t: Multiracial
+      t: Gemischtrassig
     - key: options.race_ethnicity.biracial
       t: Biracial
     - key: options.race_ethnicity.native_american_islander_australian
-      t: Nativo Americano, de las Islas del Pacífico o Indígena Australiano
+      t: Amerikanischer Ureinwohner, pazifische Inselbewohner oder Indigener Australier
 
-    # form factors
+    # Form Factors
     - key: options.form_factors.desktop
-      t: Escritorio
+      t: Desktop
     - key: options.form_factors.smartphone
       t: Smartphone
     - key: options.form_factors.feature_phone
-      t: Teléfono móvil (no smartphone)
+      t: Feature Phone
     - key: options.form_factors.tablet
       t: Tablet
     - key: options.form_factors.smart_watch
@@ -439,26 +436,25 @@ translations:
     - key: options.form_factors.tv
       t: TV
     - key: options.form_factors.gaming_console
-      t: Videoconsola
+      t: Spielekonsole
     - key: options.form_factors.screen_reader
-      t: Lector de pantalla
+      t: Screen Reader
     - key: options.form_factors.print
-      t: Para imprimir
+      t: Druckerzeugnis
 
     ###########################################################################
     # Tools
     ###########################################################################
 
     - key: tools.other_tools
-      t: Otras Opciones
+      t: Andere Optionen
     - key: tools.other_tools.description
-      t: Otras opciones que uses en esta sección y que no hayamos mencionado
+      t: Andere Optionen, die Du für den aktuellen Abschnitt nutzen kannst und die in der unteren Liste nicht erwähnt werden.
     - key: tools.happiness
-      t: Satisfacción General
+      t: Zufriedenheit insgesamt
     - key: tools.happiness.description
       t: >
-          En una escala de uno (muy insatisfecho) a cinco (muy satisfecho), ¿cómo de satisfecho estás
-          con el estado general de los elementos relacionados con las opciones expuestas anteriormente?
+          Gib mit 1 (sehr zufrieden) bis 5 (sehr unzufrieden) an wie zufrieden Du insgesamt mit den unten genannten Optionen bist.
 
     ###########################################################################
     # Demographics (About You/User Info)
@@ -466,110 +462,112 @@ translations:
 
     # years of experience
     - key: user_info.years_of_experience
-      t: Años de Experiencia
+      t: Erfahrung in Jahren
     - key: user_info.years_of_experience.description
-      t: ¿Cuánto tiempo llevas trabajando o estudiando en este campo?
+      t: Wie lange Du in diesem Feld arbeitest oder beschäftigt bist.
 
     # company size
     - key: user_info.company_size
-      t: Tamaño de tu Empresa
+      t: Unternehmensgröße
     - key: user_info.company_size.description
-      t: ¿Cómo es tu empresa de grande?
+      t: Wie groß Dein Unternehmen ist.
 
     # salary ranges
     - key: user_info.yearly_salary
-      t: Sueldo Anual
+      t: Jährliches Einkommen
     - key: user_info.yearly_salary.description
-      t: En USD.
+      t: Jährliches Einkommen in USD.
 
     # job title
     - key: user_info.job_title
-      t: Título Laboral
+      t: Job Titel
     - key: user_info.job_title.description
-      t: ¿Cómo te presentas a ti mismo en las fiestas?
+      t: Wie bezeichnest Du Dich?
 
     # javascript proficiency
+
     - key: user_info.javascript_proficiency
-      t: Competencia con JavaScript
+      t: JavaScript Fähigkeiten
     - key: user_info.javascript_proficiency.description
-      t: ¿Cómo de competente eres con JavaScript?
+      t: Wie sind Deine Fähigkeiten im Bezug auf JavaScript?
 
     # css proficiency
+
     - key: user_info.css_proficiency
-      t: Competencia con CSS
+      t: CSS Fähigkeiten
     - key: user_info.css_proficiency.description
-      t: ¿Cómo de competente eres con CSS?
+      t: Wie sind Deine Fähigkeiten im Bezug auf CSS?
 
     # backend proficiency
     - key: user_info.backend_proficiency
-      t: Competencia en el Backend
+      t: Backend Fähigkeiten
     - key: user_info.backend_proficiency.description
-      t: ¿Cómo de competente eres en el backend?
+      t: Wie sind Deine Fähigkeiten im Bezug auf Entwicklungen im Backend?
 
     # gender
     - key: user_info.gender
-      t: Género
+      t: Geschlecht
 
     # skin tone/appearance
     - key: user_info.race_ethnicity
-      t: Raza y Etnia
+      t: Rasse & Ethnizität
 
     # other info
     - key: user_info.how_did_user_find_out_about_the_survey
-      t: ¿Cómo has conocido esta encuesta?
+      t: Wie bist Du auf diese Umfrage aufmerksam geworden?
     - key: user_info.email
-      t: Tu Correo Electrónico
+      t: Deine E-Mail Adresse
     - key: user_info.country
-      t: Tu País
+      t: Dein Land
 
     ###########################################################################
     # Other Tools
     ###########################################################################
 
     - key: tools_others.text_editors
-      t: Editores de Texto
+      t: Text Editoren
     - key: tools_others.text_editors.description
-      t: ¿Qué editor(es) de texto usas habitualmente?
+      t: Welche/n Text Editor/en nutzt Du regelmäßig?
     - key: tools_others.text_editors.others
-      t: Otros Editores de Texto
+      t: Andere Text Editoren
     - key: tools_others.text_editors.others.description
-      t: Otras respuestas (campo de texto libre).
+      t: Andere Antworten (Freifeld).
 
     - key: tools_others.utilities
-      t: Utilidades
+      t: Bibliotheken
     - key: tools_others.utilities.description
-      t: ¿Qué librerías de utilidades usas habitualmente?
+      t: Welche Bibliotheken nutzt Du regelmäßig?
     - key: tools_others.utilities.others
-      t: Otras Utilidades
+      t: Andere Bibliotheken
     - key: tools_others.utilities.others.description
-      t: Otras respuestas (campo de texto libre).
+      t: Andere Antworten (Freifeld).
 
     - key: tools_others.browsers
-      t: Navegadores
+      t: Browser
     - key: tools_others.browsers.description
-      t: ¿Con qué navegador(es) trabajas principalmente durante el desarrollo inicial?
+      t: Welche/n Browser nutzt Du primär zu Beginn eines neuen Projekts?
     - key: tools_others.browsers.others
-      t: Otros Navegadores
+      t: Andere Browser
     - key: tools_others.browsers.others.description
-      t: Otras respuestas (campo de texto libre).
+      t: Andere Antworten (Freifeld).
 
     - key: tools_others.build_tools
-      t: Herramientas de Construcción
+      t: Build-Werkzeuge
     - key: tools_others.build_tools.description
-      t: ¿Qué herramientas de construcción utilizas?
+      t: Welche Build-Werkzeuge nutzt Du?
     - key: tools_others.build_tools.others
-      t: Otras Herramientas de Construcción
+      t: Andere Build-Werkzeuge
     - key: tools_others.build_tools.others.description
-      t: Otras respuestas (campo de texto libre).
+      t: Andere Antworten (Freifeld).
 
     - key: tools_others.non_js_languages
-      t: Otros Lenguajes (no relacionados con JavaScript)
+      t: Nicht-JavaScript Sprachen
     - key: tools_others.non_js_languages.description
-      t: ¿Qué otros lenguajes de programación utilizas?
+      t: Welche anderen Programmiersprachen nutzt Du?
     - key: tools_others.non_js_languages.others
-      t: Otros Lenguajes
+      t: Andere Programmiersprachen
     - key: tools_others.non_js_languages.others.description
-      t: Otras respuestas (campo de texto libre).
+      t: Andere Antworten (Freifeld).
 
     ###########################################################################
     # Resources
@@ -577,30 +575,30 @@ translations:
 
     # blogs & magazines
     - key: resources.blogs_news_magazines
-      t: Blogs y Revistas
+      t: Blogs & Magazine
     - key: resources.blogs_news_magazines.description
-      t: ¿Qué blogs/revistas/etc. sueles leer?
+      t: Welche Blogs & Magazine o.ä. liest Du?
     - key: resources.blogs_news_magazines.others
-      t: Otros Blogs y Revistas
+      t: Andere Blogs & Magazine
     - key: resources.blogs_news_magazines.others.description
-      t: Otras respuestas (campo de texto libre).
+      t: Andere Antworten (Freifeld).
 
     # sites & courses
     - key: resources.sites_courses
-      t: Sitios Web y Cursos
+      t: Seiten & Kurse
     - key: resources.sites_courses.description
-      t: ¿Qué sitios web/cursos/etc. sueles consultar?
+      t: Welche Seiten & Kurse o.ä. konsultierst Du?
     - key: resources.sites_courses.others
-      t: Otros Sitios Web y Cursos
+      t: Andere Seiten & Kurse
     - key: resources.sites_courses.others.description
-      t: Otras respuestas (campo de texto libre).
+      t: Andere Antworten (Freifeld).
 
     # podcasts
     - key: resources.podcasts
       t: Podcasts
     - key: resources.podcasts.description
-      t: ¿Qué podcast sobre programación sueles escuchar?
+      t: Welche Podcasts im Hinblick auf Programmierung hörst Du?
     - key: resources.podcasts.others
-      t: Otros Podcasts
+      t: Andere Podcasts
     - key: resources.podcasts.others.description
-      t: Otras respuestas (campo de texto libre).
+      t: Andere Antworten (Freifeld).

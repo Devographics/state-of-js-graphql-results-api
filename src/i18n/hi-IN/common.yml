@@ -161,7 +161,7 @@ translations:
     t: Almost always avoid
   - key: options.patterns.use_sparingly
     t: Use sparingly
-  - key: optionspatterns..use_neutral
+  - key: options.patterns.use_neutral
     t: Neutral
   - key: options.patterns.use_frequently
     t: Use frequently
@@ -181,39 +181,39 @@ translations:
     t: 👎 Used it > Would not use again
 
   # tools experience (short versions)
-  - key: options.tools.never_heard
+  - key: options.tools.never_heard.short
     t: Never heard
-  - key: options.tools.interested
+  - key: options.tools.interested.short
     t: Interested
-  - key: options.tools.not_interested
+  - key: options.tools.not_interested.short
     t: Not interested
-  - key: options.tools.would_use
+  - key: options.tools.would_use.short
     t: Would use again
-  - key: options.tools.would_not_use
+  - key: options.tools.would_not_use.short
     t: Would not use
 
   # happiness
-  - key: options.happiness.very_unhappy
+  - key: options.happiness.0
     t: Very Unhappy
-  - key: options.happiness.unhappy
+  - key: options.happiness.1
     t: Unhappy
-  - key: options.happiness.neutral
+  - key: options.happiness.2
     t: Neutral
-  - key: options.happiness.happy
+  - key: options.happiness.3
     t: Happy
-  - key: options.happiness.very_happy
+  - key: options.happiness.4
     t: Very Happy
 
   # opinions
-  - key: options.opinions.disagree_strongly
+  - key: options.opinions.0
     t: Disagree Strongly
-  - key: options.opinions.disagree
+  - key: options.opinions.1
     t: Disagree
-  - key: options.opinions.neutral
+  - key: options.opinions.2
     t: Neutral
-  - key: options.opinions.agree
+  - key: options.opinions.3
     t: Agree
-  - key: options.opinions.agree_strongly
+  - key: options.opinions.4
     t: Agree Strongly
 
   # years of experience
@@ -237,7 +237,7 @@ translations:
     t: 1-2
   - key: options.years_of_experience.range_2_5.short
     t: 2-5
-  - key: options.years_of_experience.range_5_10
+  - key: options.years_of_experience.range_5_10.short
     t: 5-10
   - key: options.years_of_experience.range_10_20.short
     t: 10-20
@@ -394,23 +394,23 @@ translations:
 
   # Race & Ethnicity
 
-  - key: white_european #  # TODO
+  - key: options.race_ethnicity.white_european # TODO
     t: White or of European descent
-  - key: south_asian # TODO
+  - key: options.race_ethnicity.south_asian # TODO
     t: South Asian
-  - key: hispanic_latin # TODO
+  - key: options.race_ethnicity.hispanic_latin # TODO
     t: Hispanic or Latino/Latina
-  - key: east_asian # TODO
+  - key: options.race_ethnicity.east_asian # TODO
     t: East Asian
-  - key: middle_eastern # TODO
+  - key: options.race_ethnicity.middle_eastern # TODO
     t: Middle Eastern
-  - key: black_african # TODO
+  - key: options.race_ethnicity.black_african # TODO
     t: Black or of African descent
-  - key: multiracial # TODO
+  - key: options.race_ethnicity.multiracial # TODO
     t: Multiracial
-  - key: biracial # TODO
+  - key: options.race_ethnicity.biracial # TODO
     t: Biracial
-  - key: native_american_islander_australian # TODO
+  - key: options.race_ethnicity.native_american_islander_australian # TODO
     t: Native American, Pacific Islander, or Indigenous Australian
 
   # Form Factors
@@ -501,16 +501,8 @@ translations:
     t: Gender
 
   # skin tone/appearance
-  - key: user_info.skin_tone
-    t: Appearance
-  - key: user_info.skin_tone.description
-    t: >
-      Which emoji do you feel represents you best? <br/><br/>
-
-      Note: We are experimenting with a new question format in order to 
-      try and better capture the demographic makeup of our respondents. 
-      <a href="https://github.com/StateOfJS/StateOfCSS-2020/issues/5" target="_blank">Leave us your feedback</a>
-      on GitHub.
+  - key: user_info.race_ethnicity
+    t: Race & Ethnicity # TODO
 
   # other info
   - key: user_info.how_did_user_find_out_about_the_survey
@@ -524,49 +516,49 @@ translations:
   # Other Tools
   ###########################################################################
 
-  - key: other_tools.text_editors
+  - key: tools_others.text_editors
     t: Text Editors
-  - key: other_tools.text_editors.description
+  - key: tools_others.text_editors.description
     t: Which text editor(s) do you regularly use?
-  - key: other_tools.text_editors.others
+  - key: tools_others.text_editors.others
     t: Other Text Editors
-  - key: other_tools.text_editors.others.description
+  - key: tools_others.text_editors.others.description
     t: Other answers (freeform field).
 
-  - key: other_tools.utilities
+  - key: tools_others.utilities
     t: Utilities
-  - key: other_tools.utilities.description
+  - key: tools_others.utilities.description
     t: Which utility libraries do you regularly use?
-  - key: other_tools.utilities.others
+  - key: tools_others.utilities.others
     t: Other Utilities
-  - key: other_tools.utilities.others.description
+  - key: tools_others.utilities.others.description
     t: Other utilities (freeform field).
 
-  - key: other_tools.browsers
+  - key: tools_others.browsers
     t: Browsers
-  - key: other_tools.browsers.description
+  - key: tools_others.browsers.description
     t: Which browser(s) do you primarily work in during initial development?
-  - key: other_tools.browsers.others
+  - key: tools_others.browsers.others
     t: Other Browsers
-  - key: other_tools.browsers.others.description
+  - key: tools_others.browsers.others.description
     t: Other answers (freeform field).
 
-  - key: other_tools.build_tools
+  - key: tools_others.build_tools
     t: Build Tools
-  - key: other_tools.build_tools.description
+  - key: tools_others.build_tools.description
     t: Which build tools do you use?
-  - key: other_tools.build_tools.others
+  - key: tools_others.build_tools.others
     t: Other Build Tools
-  - key: other_tools.build_tools.others.description
+  - key: tools_others.build_tools.others.description
     t: Other answers (freeform field).
 
-  - key: other_tools.non_js_languages
+  - key: tools_others.non_js_languages
     t: Non-JavaScript Languages
-  - key: other_tools.non_js_languages.description
+  - key: tools_others.non_js_languages.description
     t: Which other programming languages do you use?
-  - key: other_tools.non_js_languages.others
+  - key: tools_others.non_js_languages.others
     t: Other Languages
-  - key: other_tools.non_js_languages.others.description
+  - key: tools_others.non_js_languages.others.description
     t: Other answers (freeform field).
 
   ###########################################################################

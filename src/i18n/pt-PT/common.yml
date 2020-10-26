@@ -171,7 +171,7 @@ translations:
       t: Quase sempre a evitar
     - key: options.patterns.use_sparingly
       t: Usar com moderação
-    - key: optionspatterns..use_neutral
+    - key: options.patterns.use_neutral
       t: Neutro
     - key: options.patterns.use_frequently
       t: Usar frequentemente

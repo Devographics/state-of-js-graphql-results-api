@@ -1,4 +1,4 @@
-locale: es-ES
+locale: zh-Hant
 translations:
     ###########################################################################
     # General
@@ -6,145 +6,142 @@ translations:
 
     # homepage
     - key: general.why_create_account
-      t: ¿Por qué necesito crear una cuenta?
+      t: 為什麼得註冊帳號？
     - key: general.create_account_reasons
       t: >
-          Te pedimos que crees una cuenta para:
+          需註冊帳號的原因是：
 
-          - Evitar respuestas duplicadas
+          - 避免重複作答
 
-          - Darte acceso a tu información
-          
-          - Salvar tu sesión según avanzas
-          
-          - Notificarte cuando tengamos los resultados
+          - 可以看到自己的資料
+
+          - 隨時記錄目前的進度
+
+          - 結果公布後，可以通知你
     - key: general.survey_closed
       t: >
-        ¡Lo sentimos, la encuesta ha finalizado! Aún puedes revisar tu información, pero no puedes modificarla.
+          抱歉，調查已經結束！可以回顧填寫好的資料，但不能修改了。
     - key: general.survey_read_only
       t: >
-        Actualmente estás viendo esta encuesta en modo de sólo lectura.
+          現在是以唯讀模式觀看調查。
     - key: general.survey_read_only_back
       t: >
-          <a href="{link}">Volver</a> a la página principal para continuar con la encuesta o empezarla.
+          <a href="{link}">回到調查主頁</a>開始填寫，或恢復先前進度。
 
     # surveys
     - key: general.open_surveys
-      t: Encuestas Abiertas
+      t: 正在進行
     - key: general.no_open_surveys
-      t: No hay encuestas abiertas actualmente.
+      t: 沒有可填寫的調查。
     - key: general.closed_surveys
-      t: Encuestas Cerradas
+      t: 已結束
     - key: general.start_survey
-      t: Empezar Encuesta »
+      t: 開始填寫 »
     - key: general.continue_survey
-      t: Continuar Encuesta »
+      t: 繼續填寫 »
     - key: general.review_survey
-      t: Repasar Encuesta »
+      t: 檢查已填過的調查 »
     - key: general.preview_survey
-      t: Vista Previa de la Encuesta »
+      t: 預覽調查 »
     - key: general.finish_survey
-      t: Terminar Encuesta »
+      t: 完成 »
     - key: general.survey_closed
-      t: Esta encuesta está cerrada.
+      t: 此調查已經結束。
     - key: general.survey_results
-      t: Ver Resultados de la Encuesta »
+      t: 查看調查結果 »
     - key: general.surveys_available_languages
-      t: "Encuestas disponibles en:"
+      t: '其他語言：'
     - key: general.help_us_translate
-      t: Ayúdanos a traducir las encuestas »
+      t: 幫助我們翻譯調查問卷 »
     - key: general.translators
-      t: Traductores
+      t: 譯者
     - key: general.translation_help
-      t: Ayuda con las Traducciones
+      t: 翻譯幫手
 
     # footer
     - key: general.privacy_policy
-      t: Política de Privacidad
+      t: 隱私權政策
     - key: general.leave_issue
-      t: ¿Preguntas? ¿Has encontrado un fallo? <a href="{link}" target="_blank">Contacta con nosotros</a>.
+      t: 有問題？發現臭蟲？<a href="{link}" target="_blank">請填寫 Issue</a>。
     - key: general.emoji_icons
-      t: Emojis por <a target="_blank" rel="noreferrer" href="https://icons8.com">Icons8</a>
+      t: 表情符號圖示是 <a target="_blank" rel="noreferrer" href="https://icons8.com">Icons8</a> 的作品
 
     # navigation
     - key: general.table_of_contents
-      t: Tabla de Contenidos
+      t: 目錄
     - key: general.all_questions_optional
       t: >
-        Nota: todas las preguntas son opcionales, así que no necesitas responderlas todas.
+          提醒：所有問題都不是必填，不一定得要達到 100% 完成度。
     - key: general.data_is_saved
-      t: Salvamos tus respuestas cada vez que navegas entre secciones.
+      t: 不管回到上一段還是跳到下一段，資料都有儲存起來。
 
     # thanks
     - key: general.back
-      t: Volver
+      t: 上一步
     - key: general.thanks
       t: >
-          ¡Gracias por rellenar la encuesta!
+          由衷感謝填寫調查！
 
-          Tu información queda guardada. Puedes revisarla o modificarla hasta que la encuesta esté cerrada.
+          資料都已經儲存起來了。調查結束之前，都還可以檢查或修改。
 
-          También puedes ayudarnos a llegar a todo el mundo compartiendo esta encuesta. Todo ayuda es poca. Así podremos hacer
-          los datos recogidos más representativos:
+          另外，還可以幫助我們把調查分享出去。有一份是一份，讓資料可以更具有代表性：
     - key: thanks.learn_more_about
-      t: 'Algunas de las características de las que quieres aprender más:'
+      t: '還有一些說不定你想要深入瞭解的功能：'
     - key: thanks.knowledge_score
-      t: Valoración de tu Conocimiento
+      t: 熟悉分數
     - key: thanks.score_explanation
       t: >
-          Te suenan o has utilizado <span class="score-number score-number-known">{known}</span> características de 
-          <span class="score-number score-number-total">{total}</span> mencionadas en la encuesta,
-          lo cual te sitúa dentro del <span class="score-number score-number-ranking">{knowledgeRankingFromTop}%</span>
-          de todos los que la han respondido.
+          調查裡提到的 <span class="score-number score-number-total">{total}</span> 個功能，
+          你聽過或使用過 <span class="score-number score-number-known">{known}</span> 個。在所有答題者裡，你的排名是 <span class="score-number score-number-ranking">{knowledgeRankingFromTop}%</span>。
     - key: thanks.share_on_twitter
-      t: Compártelo en Twitter
+      t: 在 Twitter 分享
     - key: thanks.share_score_message
       t: >
-          Tengo una puntuación del {score}% en la encuesta #{hashtag} de este año! Haz la encuesta tú también aquí: {shareUrl}
+          今年的 #{hashtag} 調查裡我的熟悉分數是 {score}%！在 {shareUrl} 參加調查。
     # share
     - key: general.share_subject
       t: >
-        Encuesta {surveyName}
+          {surveyName} 調查
     - key: general.share_text
       t: >
-        ¡La encuesta {surveyName} de este año, está abierta! {link}
+          今年的 {surveyName} 現正開放中！{link}
 
     # forms
     - key: forms.select_option
-      t: Elige una opción
+      t: 選擇
 
     ###########################################################################
     # Nav
     ###########################################################################
-    
+
     - key: nav.surveys
-      t: Encuestas
+      t: 調查
     - key: nav.account
-      t: Cuenta
+      t: 帳號
 
     ###########################################################################
     # Sections
     ###########################################################################
 
     - key: sections.user_info.title
-      t: Sobre Tí
+      t: 關於你/妳
     - key: sections.user_info.description
-      t: Déjanos conocer a tu verdadero yo.
+      t: 想知道你的模樣
 
     - key: sections.resources.title
-      t: Recursos
+      t: 資源
     - key: sections.resources.description
-      t: ¿Qué recursos consultas en relación a {topic}?
+      t: 你都在找哪些 {topic} 資源？
 
     - key: sections.opinions.title
-      t: Opiniones
+      t: 意見
     - key: sections.opinions.description
-      t: ¿Qué opinas sobre el estado de {topic}?
+      t: 對於 {topic} 現況調查有什麼感覺？
 
     - key: sections.other_tools.title
-      t: Otras Herramientas
+      t: 其他工具
     - key: sections.other_tools.description
-      t: De estas herramientas y tecnologías, selecciona las que uses habitualmente.
+      t: 請在這些工具和技術裡，把經常使用的打勾。
 
     ###########################################################################
     # Options
@@ -152,93 +149,93 @@ translations:
 
     # features
     - key: options.features.never_heard
-      t: 🤷 Nunca he oído hablar de ello/No estoy seguro de lo que es
+      t: 🤷 從未聽過/不確定是什麼
     - key: options.features.heard
-      t: ✅ Sé lo que es, pero nunca lo he usado
+      t: ✅ 知道是什麼，但從未用過
     - key: options.features.used
-      t: 👍 Lo he usado
+      t: 👍 已經有用過
 
     # features (short versions)
     - key: options.features.never_heard.short
-      t: Nunca he oído hablar de ello
+      t: 從未聽過
     - key: options.features.heard.short
-      t: Lo conozco
+      t: 知道是什麼
     - key: options.features.used.short
-      t: Lo he usado
+      t: 已經有用過
 
     # patterns
     - key: options.patterns.use_never
-      t: Casi siempre lo evito
+      t: 幾乎避免
     - key: options.patterns.use_sparingly
-      t: Raramente lo uso
+      t: 少量使用
     - key: options.patterns.use_neutral
-      t: Neutral
+      t: 一般
     - key: options.patterns.use_frequently
-      t: Lo uso con frecuencia
+      t: 經常使用
     - key: options.patterns.use_always
-      t: Lo uso todo lo que puedo
+      t: 盡量使用
 
     # tools experience
     - key: options.tools.never_heard
-      t: 🤷 Nunca he oído hablar de ello/No estoy seguro de lo que es
+      t: 🤷 從未聽過/不確定是什麼
     - key: options.tools.interested
-      t: ✅ He oído hablar de ello > Quiero aprenderlo
+      t: ✅ 有聽過 > 想學
     - key: options.tools.not_interested
-      t: 🚫 He oído hablar de ello > No estoy interesado
+      t: 🚫 有聽過 > 沒興趣
     - key: options.tools.would_use
-      t: 👍 Lo he usado > Lo volvería a usar
+      t: 👍 用過 > 以後還會用
     - key: options.tools.would_not_use
-      t: 👎 Lo he usado > No lo volvería a usar
+      t: 👎 用過 > 以後不會用
 
     # tools experience (short versions)
     - key: options.tools.never_heard.short
-      t: Nunca lo he oído
+      t: 沒聽過
     - key: options.tools.interested.short
-      t: Interesado
+      t: 有興趣
     - key: options.tools.not_interested.short
-      t: No estoy interesado
+      t: 沒興趣
     - key: options.tools.would_use.short
-      t: Lo volvería a usar
+      t: 還會用
     - key: options.tools.would_not_use.short
-      t: No lo usaría
-    
+      t: 不會再用
+
     # happiness
     - key: options.happiness.0
-      t: Muy Descontento
+      t: 非常不開心
     - key: options.happiness.1
-      t: Descontento
+      t: 不開心
     - key: options.happiness.2
-      t: Neutral
+      t: 一般
     - key: options.happiness.3
-      t: Contento
+      t: 開心
     - key: options.happiness.4
-      t: Muy Contento
+      t: 非常開心
 
     # opinions
     - key: options.opinions.0
-      t: Estoy Fuertemente en Desacuerdo
+      t: 非常不同意
     - key: options.opinions.1
-      t: Estoy en Desacuerdo
+      t: 不同意
     - key: options.opinions.2
-      t: Neutral
+      t: 一般
     - key: options.opinions.3
-      t: Estoy de Acuerdo
+      t: 同意
     - key: options.opinions.4
-      t: Estoy Fuertemente de Acuerdo
+      t: 非常同意
 
     # years of experience
     - key: options.years_of_experience.range_less_than_1
-      t: Menos de un Año
+      t: 少於 1 年
     - key: options.years_of_experience.range_1_2
-      t: De 1 a 2 años
+      t: 1 至 2 年
     - key: options.years_of_experience.range_2_5
-      t: De 2 a 5 años
+      t: 2 至 5 年
     - key: options.years_of_experience.range_5_10
-      t: De 5 a 10 años
+      t: 5 至 10 年
     - key: options.years_of_experience.range_10_20
-      t: De 10 a 20 años
+      t: 10 至 20 年
     - key: options.years_of_experience.range_more_than_20
-      t: Más de 20 años
+      t: 超過 20 年
 
     # years of experience (short versions)
     - key: options.years_of_experience.range_less_than_1.short
@@ -256,21 +253,21 @@ translations:
 
     # company size
     - key: options.company_size.range_1
-      t: Un empleado
+      t: 1 位員工
     - key: options.company_size.range_1_5
-      t: De 1 a 5 empleados
+      t: 1 至 5 位員工
     - key: options.company_size.range_5_10
-      t: De 5 a 10 empleados
+      t: 5 至 10 位員工
     - key: options.company_size.range_10_20
-      t: De 10 a 20 empleados
+      t: 10 至 20 位員工
     - key: options.company_size.range_20_50
-      t: De 20 a 50 empleados
+      t: 20 至 50 位員工
     - key: options.company_size.range_50_100
-      t: De 50 a 100 empleados
+      t: 50 至 100 位員工
     - key: options.company_size.range_100_1000
-      t: De 100 a 1000 empleados
+      t: 100 至 1000 位員工
     - key: options.company_size.range_more_than_1000
-      t: Más de 1000 empleados
+      t: 超過 1000 位員工
 
     # company size (short versions)
     - key: options.company_size.range_1.short
@@ -292,7 +289,7 @@ translations:
 
     # salary
     - key: options.yearly_salary.range_work_for_free
-      t: Trabajo por la cara
+      t: 我做功德
     - key: options.yearly_salary.range_0_10
       t: $0k-$10k
     - key: options.yearly_salary.range_10_30
@@ -304,7 +301,7 @@ translations:
     - key: options.yearly_salary.range_100_200
       t: $100k-$200k
     - key: options.yearly_salary.range_more_than_200
-      t: Más de $200k
+      t: 超過 $200k
 
     # salary (short versions)
     - key: options.yearly_salary.range_work_for_free.short
@@ -324,141 +321,140 @@ translations:
 
     # job titles
     - key: options.job_title.cto
-      t: CTO
+      t: 技術長
     - key: options.job_title.front_end_developer
-      t: Desarrollador o Ingeniero de Front
+      t: 前端開發者/工程師
     - key: options.job_title.back_end_developer
-      t: Desarrollador o Ingeniero de Back
+      t: 後端開發者/工程師
     - key: options.job_title.full_stack_developer
-      t: Desarrollador o Ingeniero Full Stack
+      t: 全端開發者/工程師
     - key: options.job_title.web_developer
-      t: Desarrollador Web
+      t: 網頁開發者
     - key: options.job_title.web_designer
-      t: Diseñador Web
+      t: 網頁設計師
     - key: options.job_title.ux_designer
-      t: Diseñador UX
+      t: 使用者體驗設計師
     - key: options.job_title.ui_designer
-      t: Diseñador UI
+      t: 使用者介面設計師
     - key: options.job_title.back_end_dev
-      t: Desarrollador o Ingeniero de Back
+      t: 後端開發者/工程師
 
     # JavaScript proficiency
 
     - key: options.javascript_proficiency.0
-      t: No soy capaz de escribir JavaScript
+      t: 不會撰寫任何 JavaScript
     - key: options.javascript_proficiency.1
-      t: Escribo código sencillo en JavaScript o jQuery
+      t: 會寫簡短的 Javascript 或 jQuery 陳述式
     - key: options.javascript_proficiency.2
-      t: Trabajo en proyectos existentes de front usando frameworks modernos (React, Vue, etc.)
+      t: 可以在已經架設好的現代前端框架做事（React、Vue 等。）
     - key: options.javascript_proficiency.3
-      t: Creo proyectos completos desde cero
+      t: 有能力從無到有建構整組前端程式庫
     - key: options.javascript_proficiency.4
-      t: Manejo patrones complejos en el front (manejo de estado, carga de datos, etc.)
+      t: 處理進階的前端模式（狀態管理、資料讀取⋯等。）
 
     # CSS proficiency
 
     - key: options.css_proficiency.0
-      t: No tengo ningún conocimiento de CSS
+      t: 可以說完全沒有 CSS 的觀念
     - key: options.css_proficiency.1
-      t: Uso CSS frameworks y modifico estilos existentes
+      t: 使用 CSS 框架，修改現有的樣式
     - key: options.css_proficiency.2
-      t: Conozco las reglas de especificidad, y soy capaz de crear layouts
+      t: 知道權重規則，有能力製作版面佈局
     - key: options.css_proficiency.3
-      t: Domino las animaciones, interacciones, transiciones, etc.
+      t: 精通動畫、互動與轉場⋯等
     - key: options.css_proficiency.4
-      t: Soy capaz de dar estilos desde cero a un proyecto siguiendo metodologías consistentes
+      t: 有能力根據一致的方法，為整個前端從無到有增加樣式
 
     # Back-end proficiency
 
     - key: options.backend_proficiency.0
-      t: No soy capaz de hacer nada en el backend.
+      t: 無法處理任何後端工作
     - key: options.backend_proficiency.1
-      t: Soy capaz de montar CMSs (WordPress, etc.) o usar generadores de páginas estáticas (Jekyll, etc.)
+      t: 有能力安裝打包好的 CMS（WordPress⋯等）或靜態網頁產生工具（Jekyll⋯等。）
     - key: options.backend_proficiency.2
-      t: Soy capaz de desarrollar aplicaciones usando frameworks existentes (Rails, Laravel, etc.)
+      t: 有能力以現有的框架開發應用程式（Rails、Laravel⋯等。）
     - key: options.backend_proficiency.3
-      t: Soy capaz de montar un backend desde cero (Go, Node.js, etc.)
+      t: 有能力從無到有安裝整組後端 (Go、Node⋯等。)
     - key: options.backend_proficiency.4
-      t: Soy capaz de manejar arquitecturas complejas con multi-servicios o micro-servicios
+      t: 有能力處理複雜的多伺服器或微服務架構
 
     # Proficiency (generic versions)
     - key: options.proficiency.0
-      t: Ninguna
+      t: 無
     - key: options.proficiency.1
-      t: Principiante
+      t: 初學
     - key: options.proficiency.2
-      t: Intermedio
+      t: 中等
     - key: options.proficiency.3
-      t: Avanzado
+      t: 進階
     - key: options.proficiency.4
-      t: Experto
+      t: 專家
 
     # Gender
 
     - key: options.gender.female
-      t: Mujer
+      t: 女性
     - key: options.gender.male
-      t: Hombre
+      t: 男性
     - key: options.gender.non_binary
-      t: No-Binario/Tercer Género
+      t: 非二元性別/第三性
     - key: options.gender.prefer_not_to_say
-      t: Prefiero no decirlo
+      t: 不想說
 
     # Race & Ethnicity
 
     - key: options.race_ethnicity.white_european
-      t: Blanco o descendiente de Europeos
+      t: 白人，或歐洲裔
     - key: options.race_ethnicity.south_asian
-      t: Asiático del Sur
+      t: 南亞
     - key: options.race_ethnicity.hispanic_latin
-      t: Hispano o Latino
+      t: 西班牙裔或拉丁裔男/女
     - key: options.race_ethnicity.east_asian
-      t: Asiático del Este
+      t: 東亞
     - key: options.race_ethnicity.middle_eastern
-      t: De Oriente Medio
+      t: 中東
     - key: options.race_ethnicity.black_african
-      t: Negro o descendiente de Africanos
+      t: 黑人，或非洲裔
     - key: options.race_ethnicity.multiracial
-      t: Multiracial
+      t: 多民族混血
     - key: options.race_ethnicity.biracial
-      t: Biracial
+      t: 雙民族混血
     - key: options.race_ethnicity.native_american_islander_australian
-      t: Nativo Americano, de las Islas del Pacífico o Indígena Australiano
+      t: 美洲原住民、太平洋島民，或澳洲原住民
 
-    # form factors
+    # Form Factors
     - key: options.form_factors.desktop
-      t: Escritorio
+      t: 桌機
     - key: options.form_factors.smartphone
-      t: Smartphone
+      t: 智慧型手機
     - key: options.form_factors.feature_phone
-      t: Teléfono móvil (no smartphone)
+      t: 傳統手機
     - key: options.form_factors.tablet
-      t: Tablet
+      t: 平板
     - key: options.form_factors.smart_watch
-      t: Smartwatch
+      t: 智慧型手錶
     - key: options.form_factors.tv
-      t: TV
+      t: 電視
     - key: options.form_factors.gaming_console
-      t: Videoconsola
+      t: 遊戲主機
     - key: options.form_factors.screen_reader
-      t: Lector de pantalla
+      t: 報讀器
     - key: options.form_factors.print
-      t: Para imprimir
+      t: 列印
 
     ###########################################################################
     # Tools
     ###########################################################################
 
     - key: tools.other_tools
-      t: Otras Opciones
+      t: 其他選項
     - key: tools.other_tools.description
-      t: Otras opciones que uses en esta sección y que no hayamos mencionado
+      t: 上方列表裡沒有可選的項目時使用。
     - key: tools.happiness
-      t: Satisfacción General
+      t: 整體愉悅感
     - key: tools.happiness.description
       t: >
-          En una escala de uno (muy insatisfecho) a cinco (muy satisfecho), ¿cómo de satisfecho estás
-          con el estado general de los elementos relacionados con las opciones expuestas anteriormente?
+          上面提到的項目裡，以 1（非常不開心）到 5（非常開心）來劃分的話，目前整體的感覺是？
 
     ###########################################################################
     # Demographics (About You/User Info)
@@ -466,110 +462,112 @@ translations:
 
     # years of experience
     - key: user_info.years_of_experience
-      t: Años de Experiencia
+      t: 年資
     - key: user_info.years_of_experience.description
-      t: ¿Cuánto tiempo llevas trabajando o estudiando en este campo?
+      t: 在此領域，已經工作或研究多久？
 
     # company size
     - key: user_info.company_size
-      t: Tamaño de tu Empresa
+      t: 公司規模
     - key: user_info.company_size.description
-      t: ¿Cómo es tu empresa de grande?
+      t: 任職的公司有多大？
 
     # salary ranges
     - key: user_info.yearly_salary
-      t: Sueldo Anual
+      t: 年薪
     - key: user_info.yearly_salary.description
-      t: En USD.
+      t: 美金為單位。
 
     # job title
     - key: user_info.job_title
-      t: Título Laboral
+      t: 職稱
     - key: user_info.job_title.description
-      t: ¿Cómo te presentas a ti mismo en las fiestas?
+      t: 在聚會中如何介紹自己？
 
     # javascript proficiency
+
     - key: user_info.javascript_proficiency
-      t: Competencia con JavaScript
+      t: JavaScript 熟悉程度
     - key: user_info.javascript_proficiency.description
-      t: ¿Cómo de competente eres con JavaScript?
+      t: 對於 JavaScript 的熟悉程度？
 
     # css proficiency
+
     - key: user_info.css_proficiency
-      t: Competencia con CSS
+      t: CSS 熟悉程度
     - key: user_info.css_proficiency.description
-      t: ¿Cómo de competente eres con CSS?
+      t: 對於 CSS 的熟悉程度？
 
     # backend proficiency
     - key: user_info.backend_proficiency
-      t: Competencia en el Backend
+      t: 後端熟悉程度
     - key: user_info.backend_proficiency.description
-      t: ¿Cómo de competente eres en el backend?
+      t: 對於後端開發的熟悉程度？
 
     # gender
     - key: user_info.gender
-      t: Género
+      t: 性別
 
     # skin tone/appearance
     - key: user_info.race_ethnicity
-      t: Raza y Etnia
+      t: 種族與族群
 
     # other info
     - key: user_info.how_did_user_find_out_about_the_survey
-      t: ¿Cómo has conocido esta encuesta?
+      t: 是怎麼找到這份調查的？
     - key: user_info.email
-      t: Tu Correo Electrónico
+      t: 電子郵件
     - key: user_info.country
-      t: Tu País
+      t: 國家
 
     ###########################################################################
     # Other Tools
     ###########################################################################
 
     - key: tools_others.text_editors
-      t: Editores de Texto
+      t: 文字編輯器
     - key: tools_others.text_editors.description
-      t: ¿Qué editor(es) de texto usas habitualmente?
+      t: 通常使用的文字編輯器是哪些？
     - key: tools_others.text_editors.others
-      t: Otros Editores de Texto
+      t: 其他文字編輯器
     - key: tools_others.text_editors.others.description
-      t: Otras respuestas (campo de texto libre).
+      t: 其他回答（自由填寫）。
 
     - key: tools_others.utilities
-      t: Utilidades
+      t: 工具
     - key: tools_others.utilities.description
-      t: ¿Qué librerías de utilidades usas habitualmente?
+      t: 通常使用哪些工具程式庫 (utility libraries)？
     - key: tools_others.utilities.others
-      t: Otras Utilidades
+      t: 其他工具
     - key: tools_others.utilities.others.description
-      t: Otras respuestas (campo de texto libre).
+      t: 其他工具（自由填寫）。
 
     - key: tools_others.browsers
-      t: Navegadores
+      t: 瀏覽器
     - key: tools_others.browsers.description
-      t: ¿Con qué navegador(es) trabajas principalmente durante el desarrollo inicial?
+      t: 在早期開發的時候，主要使用哪些瀏覽器？
     - key: tools_others.browsers.others
-      t: Otros Navegadores
+      t: 其他瀏覽器
     - key: tools_others.browsers.others.description
-      t: Otras respuestas (campo de texto libre).
+      t: 其他回答（自由填寫）。
 
     - key: tools_others.build_tools
-      t: Herramientas de Construcción
+      t: Build 工具
     - key: tools_others.build_tools.description
-      t: ¿Qué herramientas de construcción utilizas?
+      t: 在用哪些 Build 工具？
     - key: tools_others.build_tools.others
-      t: Otras Herramientas de Construcción
+      t: 其他 Build 工具
     - key: tools_others.build_tools.others.description
-      t: Otras respuestas (campo de texto libre).
+      t: 其他回答（自由填寫）。
 
     - key: tools_others.non_js_languages
-      t: Otros Lenguajes (no relacionados con JavaScript)
+      t: JavaScript 以外的語言
     - key: tools_others.non_js_languages.description
-      t: ¿Qué otros lenguajes de programación utilizas?
+      t: 還有在用哪些程式語言？
     - key: tools_others.non_js_languages.others
-      t: Otros Lenguajes
+      t: 其他語言
     - key: tools_others.non_js_languages.others.description
-      t: Otras respuestas (campo de texto libre).
+      t: 其他回答（自由填寫）。
 
     ###########################################################################
     # Resources
@@ -577,30 +575,30 @@ translations:
 
     # blogs & magazines
     - key: resources.blogs_news_magazines
-      t: Blogs y Revistas
+      t: 部落格 & 雜誌
     - key: resources.blogs_news_magazines.description
-      t: ¿Qué blogs/revistas/etc. sueles leer?
+      t: 閱讀哪些部落格、雜誌⋯等？
     - key: resources.blogs_news_magazines.others
-      t: Otros Blogs y Revistas
+      t: 其他部落格 & 雜誌
     - key: resources.blogs_news_magazines.others.description
-      t: Otras respuestas (campo de texto libre).
+      t: 其他回答（自由填寫）。
 
     # sites & courses
     - key: resources.sites_courses
-      t: Sitios Web y Cursos
+      t: 網站 & 課程
     - key: resources.sites_courses.description
-      t: ¿Qué sitios web/cursos/etc. sueles consultar?
+      t: 參考哪些網站、課程⋯等？
     - key: resources.sites_courses.others
-      t: Otros Sitios Web y Cursos
+      t: 其他網站 & 課程
     - key: resources.sites_courses.others.description
-      t: Otras respuestas (campo de texto libre).
+      t: 其他回答（自由填寫）。
 
     # podcasts
     - key: resources.podcasts
-      t: Podcasts
+      t: Podcast
     - key: resources.podcasts.description
-      t: ¿Qué podcast sobre programación sueles escuchar?
+      t: 在聽哪些程式相關的 Podcast？
     - key: resources.podcasts.others
-      t: Otros Podcasts
+      t: 其他 Podcast
     - key: resources.podcasts.others.description
-      t: Otras respuestas (campo de texto libre).
+      t: 其他回答（自由填寫）。

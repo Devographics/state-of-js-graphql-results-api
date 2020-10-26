@@ -1,0 +1,75 @@
+locale: tr-TR
+translations:
+  - key: accounts.error_incorrect_password 
+    t: Hatalı Parola
+  - key: accounts.error_email_required 
+    t: E-posta gerekli
+  - key: accounts.error_email_already_exists 
+    t: Bu e-posta zaten var
+  - key: accounts.error_invalid_email 
+    t: Geçersiz e-posta
+  - key: accounts.error_minchar 
+    t: Parolanız çok kısa
+  - key: accounts.error_unknown 
+    t: Bilinmeyen hata
+  - key: accounts.error_user_not_found 
+    t: Kullanıcı bulunamadı
+  - key: accounts.error_username_already_exists 
+    t: Kullanıcı adı zaten var
+  - key: accounts.enter_username_or_email 
+    t: Kullanıcı adı veya e-posta girin
+  - key: accounts.error_internal_server_error 
+    t: Dahili sunucu hatası
+  - key: accounts.error_token_expired 
+    t: Geçersiz parola sıfırlama tokeni
+  - key: accounts.username_or_email 
+    t: Kullanıcı adı ya da e-posta
+  - key: accounts.enter_username 
+    t: Kullanıcı adı girin
+  - key: accounts.username 
+    t: Kullanıcı adı
+  - key: accounts.enter_email 
+    t: E-posta girin
+  - key: accounts.email 
+    t: E-posta adresi
+  - key: accounts.enter_password 
+    t: Parola girin
+  - key: accounts.password 
+    t: Parola
+  - key: accounts.choose_password 
+    t: Parola girin
+  - key: accounts.change_password 
+    t: Parola değiştir
+  - key: accounts.reset_your_password 
+    t: Parolanızı sıfırlayın
+  - key: accounts.set_password 
+    t: Parolanızı belirleyin
+  - key: accounts.enter_new_password 
+    t: Yeni parolayı girin
+  - key: accounts.new_password 
+    t: Yeni parola
+  - key: accounts.forgot_password 
+    t: Parolamı unttum
+  - key: accounts.sign_up 
+    t: Kaydol
+  - key: accounts.sign_in 
+    t: Oturum Aç
+  - key: accounts.sign_out 
+    t: Oturumu Kapat
+  - key: accounts.cancel 
+    t: İptal
+  - key: accounts.info_email_sent 
+    t: E-posta gönderildi.
+  - key: accounts.info_password_changed 
+    t: Parola değiştirildi.
+  - key: accounts.please_pick_password 
+    t: Devam etmek için lütfen yeni bir parola belirleyin.
+  - key: accounts.please_log_in 
+    t: Başlamak için lütfen giriş yapın veya kaydolun.
+  - key: accounts.logged_in_as 
+    t: '{email} olarak giriş yapıldı'
+  - key: accounts.questions 
+    t: >
+        Verilerinizi nasıl kullandığımızla ilgili herhangi bir sorunuz varsa 
+        veya verilerinizi kayıtlarımızdan kaldırmamızı istiyorsanız, 
+        lütfen <a href="mailto:hello@stateofjs.com">bizimle iletişime geçin</a>.

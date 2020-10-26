@@ -1,4 +1,4 @@
-locale: es-ES
+locale: cs-CZ
 namespace: js
 translations:
     ###########################################################################
@@ -7,103 +7,102 @@ translations:
 
     - key: general.survey_intro_js2019
       t: >
-          El mundo de JavaScript podría aprovecharse de un cierto orden.
+          Svět JavaScriptu by si zasloužil udělat trochu pořádek.
 
+          Od roku 2016 jsme každý rok v tomto průzkumu sesbírali data od více
+          než 20 000 vývojářů a identifikovali jsme aktuální a nadcházející trendy.
 
-          Desde 2016 esta encuesta ha recopilado datos de más de 20,000
-          desarrolladores cada año para identificar actuales y futuras tendencias.
-
-
-          Haz la encuesta y ayúdanos a descubrir que librerías quieren aprender los
-          desarrolladores, cuales son las que tienen mayores índices de satisfacción, y mucho más.
+          Účastněte se průzkumu i vy a pomozte nám zjistit, které knihovny se
+          vývojáři chtějí naučit používat, které z nich mají nejlepší hodnocení,
+          a mnohem víc.
 
     ###########################################################################
     # Sections
     ###########################################################################
 
     - key: sections.syntax.title
-      t: Sintaxis
+      t: Syntaxe
     - key: sections.syntax.description
-      t: La gramática de JavaScript.
+      t: Zápis JavaScriptu.
 
     - key: sections.language.title
-      t: Lenguaje
+      t: Jazyk
     - key: sections.language.description
-      t: El vocabulario de JavaScript.
+      t: Slovní zásoba JavaScriptu.
 
     - key: sections.data_structures.title
-      t: Estructuras de Datos
+      t: Datové struktury
     - key: sections.data_structures.description
-      t: Como almacenas y manipulas la información.
+      t: Jak ukládáte a upravujete data.
 
     - key: sections.browser_apis.title
-      t: APIs del Navegador
+      t: API prohlížečů
     - key: sections.browser_apis.description
-      t: Características facilitadas por el navegador.
+      t: Funkce poskytované prohlížeči.
 
     - key: sections.other_features.title
-      t: Otras Características
+      t: Další funkce
     - key: sections.other_features.description
-      t: Otras tecnologías y patrones.
+      t: Další technologie a návrhové vzory
 
     - key: sections.patterns.title
-      t: Patrones
+      t: Návrhové vzory
     - key: sections.patterns.description
-      t: ¿Cómo prefieres escribir código?
+      t: Jakým způsobem rádi píšete kód
 
     - key: sections.javascript_flavors.title
-      t: Sabores de JavaScript
+      t: Nářečí JavaScriptu
     - key: sections.javascript_flavors.description
-      t: Lenguajes que compilan a JavaScript
+      t: Jazyky, které se kompilují do JavaScriptu
 
     - key: sections.front_end_frameworks.title
-      t: Front-end Frameworks
+      t: Frontendové frameworky
     - key: sections.front_end_frameworks.description
-      t: Front-end frameworks y librerías
+      t: Frontendové frameworky a knihovny
 
     - key: sections.datalayer.title
-      t: Capa de Datos
+      t: Datová vrstva
     - key: sections.datalayer.description
-      t: Cargando y manejando datos en tus aplicaciones
+      t: Načítání a práce s daty v aplikaci
 
     - key: sections.back_end_frameworks.title
-      t: Back-end Frameworks
+      t: Backendové frameworky
     - key: sections.back_end_frameworks.description
-      t: JavaScript en el servidor
+      t: JavaScript na serveru
 
     - key: sections.testing.title
-      t: Testing
+      t: Testování
     - key: sections.testing.description
-      t: Herramientas para probar tu código
+      t: Nástroje pro testování kódu
 
     - key: sections.mobile_desktop.title
-      t: Móviles y Escritorio
+      t: Mobil a desktop
     - key: sections.mobile_desktop.description
-      t: JavaScript para dispositivos móviles y aplicaciones de escritorio
+      t: JavaScript pro mobilní a desktopové aplikace
 
     ###########################################################################
     # Options
     ###########################################################################
 
-    # css for print
+    # CSS for print
     - key: options.css_for_print.0
-      t: (Casi) nunca escribo CSS para ser impreso
+      t: Nikdy (nebo téměř nikdy) nepíšu tiskové styly
     - key: options.css_for_print.1
-      t: Ocasionalmente escribo CSS para ser impreso
+      t: Příležitostně píšu tiskové styly
     - key: options.css_for_print.2
-      t: Escribo CSS para ser impreso para casi todos los proyectos
+      t: Tiskové styly vytvářím pro většinu projektů
     - key: options.css_for_print.3
-      t: Sólo me centro en CSS para ser impreso
+      t: Zaměřuji se především na tiskové styly
 
-    # css for email
+    # CSS for email
     - key: options.css_for_email.0
-      t: (Casi) nunca escribo CSS para correos electrónicos
+      t: Nikdy (nebo téměř nikdy) nepíšu CSS pro e-mailové klienty
     - key: options.css_for_email.1
-      t: Ocasionalmente escribo CSS para correos electrónicos
+      t: Příležitostně píšu CSS pro e-mailové klienty
     - key: options.css_for_email.2
-      t: Escribo CSS para correos electrónicos para casi todos los proyectos
+      t: CSS pro e-mailové klienty vytvářím pro většinu projektů
     - key: options.css_for_email.3
-      t: Sólo me centro en CSS para correos electrónicos
+      t: Zaměřuji se především na CSS pro e-mailové klienty
 
     ###########################################################################
     # Features
@@ -111,105 +110,105 @@ translations:
 
     # syntax
     - key: features.destructuring
-      t: Desestructurando
+      t: Destructuring
     - key: features.destructuring.description
-      t: 'Ejemplo: <code>const { foo } = bar</code>'
+      t: 'Příklad: <code>const { foo } = bar</code>'
     - key: features.spread_operator
-      t: Spread operator
+      t: Spread operátor
     - key: features.spread_operator.description
-      t: 'Ejemplo: <code>[...array1, ...array2]</code>'
+      t: 'Příklad: <code>[...array1, ...array2]</code>'
     - key: features.arrow_functions
-      t: Arrow Functions
+      t: Arrow funkce
     - key: features.arrow_functions.description
-      t: 'Ejemplo: <code>const foo = () => {}</code>'
+      t: 'Příklad: <code>const foo = () => {}</code>'
 
     # language
     - key: features.proxies
-      t: Proxies
+      t: Proxy
     - key: features.async_await
-      t: Async/Await
+      t: Async/await
     - key: features.promises
-      t: Promesas
+      t: Promisy
     - key: features.decorators
-      t: Decoradores
+      t: Dekorátory
     - key: features.decorators.description
-      t:  >
-        En su forma más sencilla, un decorador es una forma de
-        envolver un trozo de código con otro, literalmente, decorándolo.
+      t: >
+          V tom nejjednodušším významu je dekorátor jednoduše obalením
+          části kódu jiným kódem – tedy doslova „dekorováním“.
 
     # data structures
     - key: features.maps
-      t: Mapas
+      t: Mapy
     - key: features.sets
-      t: Sets
+      t: Sety
     - key: features.typed_arrays
-      t: Typed Arrays
+      t: Typovaná pole
     - key: array_prototype_flat
       t: Array.prototype.flat
 
     # browser apis
     - key: features.service_workers
-      t: Service Workers
+      t: Service workery
     - key: features.local_storage
       t: LocalStorage
     - key: features.i18n
       t: i18n
     - key: features.web_components
-      t: Componentes Web
+      t: Web Components
     - key: features.web_audio
-      t: API Web para Audio
+      t: Web Audio API
     - key: features.webgl
       t: WebGL
     - key: features.web_animations
-      t: API Web para Animaciones
+      t: Web Animations API
     - key: features.webrtc
       t: WebRTC
     - key: features.web_speech
-      t: API Web para Sintetización de Voz
+      t: Web Speech API
     - key: features.webvr
       t: WebVR
     - key: features.websocket
       t: Websocket
     - key: features.fetch
-      t: API para Llamadas al Servidor (Fetch)
+      t: Fetch API
 
     # other features
     - key: features.pwa
-      t: Aplicaciones Web Progresivas (PWA)
+      t: Progresivní webové aplikace (PWA)
     - key: features.wasm
       t: WebAssembly (WASM)
 
     # patterns
     - key: patterns.object_oriented_programming
-      t: Programación Orientada a Objetos
+      t: Objektově orientované programování
     - key: features.functional_programming
-      t: Programación Funcional
+      t: Funkcionální programování
     - key: features.reactive_programming
-      t: Programación Reactiva
+      t: Reaktivní programování
 
     ###########################################################################
     # Opinions
     ###########################################################################
 
     - key: opinions.js_moving_in_right_direction
-      t: JavaScript va en la dirección adecuada
+      t: JavaScript se vyvíjí správným směrem
 
     - key: opinions.building_js_apps_overly_complex
-      t: Construir aplicaciones con JavaScript es demasiado complicado ahora mismo
+      t: Vývoj javascriptových aplikací je dnes příliš složitý
 
     - key: opinions.js_over_used_online
-      t: JavaScript se usa demasiado online
+      t: JavaScript v online světě je nadužívaný
 
     - key: opinions.enjoy_building_js_apps
-      t: Disfruto construyendo aplicaciones con JavaScript
+      t: Baví mě vyvíjet javascriptové aplikace
 
     - key: opinions.would_like_js_to_be_main_lang
-      t: Me gustaría que JavaScript fuese mi lenguaje de programación principal
+      t: Rád bych, aby byl JavaScript mým hlavním programovacím jazykem
 
     - key: opinions.js_ecosystem_changing_to_fast
-      t: El ecosistema de JavaScript cambia demasiado rápido
+      t: Ekosystém JavaScriptu se mění příliš rychle
 
     - key: opinions.missing_from_js
-      t: ¿Qué crees que le falta en estos momentos a JavaScript?
+      t: Co v JavaScriptu aktuálně postrádáte?
     - key: opinions.missing_from_js.description
-      t: ¿Qué cosas nuevas te gustaría ver en JavaScript algún día?
+      t: Funkce, které byste rádi jednou používali.

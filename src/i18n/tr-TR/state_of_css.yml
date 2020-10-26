@@ -1,0 +1,476 @@
+locale: tr-TR
+namespace: css
+translations:
+    ###########################################################################
+    # General
+    ###########################################################################
+
+    - key: general.survey_intro_css2020 
+      t: >
+          CSS her zamankinden daha hızlı gelişiyor.
+
+
+          Flexbox, Grid, Multi-Column… ve CSS-in-JS gibi tamamen yepyeni paradigmalar.
+
+
+          Senelik olarak gerçekleştirdiğimiz [State of JavaScript](https://stateofjs.com) 
+          anketinin başarısının ardından, stiller ve tasarım dünyasına da
+          adım atmaya karar verdik. En son trendleri belirlememize ve bundan sonra 
+          hangi araçları öğrenip kullanacağımızı belirlememize yardımcı olacağınızı umuyoruz!
+
+    ###########################################################################
+    # Sections
+    ###########################################################################
+
+    - key: sections.layout.title 
+      t: Sayfa Düzeni
+    - key: sections.layout.description 
+      t: Öğeleri ekranda nasıl konumlandırıyorsunuz?
+
+    - key: sections.shapes_graphics.title 
+      t: Şekiller ve Grafikler
+    - key: sections.shapes_graphics.description 
+      t: Elemanların şeklini ve görüntüsünü kontrol etme.
+
+    - key: sections.interactions.title 
+      t: Etkileşimler
+    - key: sections.interactions.description 
+      t: Kullanıcının sayfayla nasıl etkileşim kurduğunu kontrol etmek.
+
+    - key: sections.typography.title 
+      t: Tipografi
+    - key: sections.typography.description 
+      t: Metni ayarlama ve düzenleme.
+
+    - key: sections.animations_transforms.title 
+      t: Animasyonlar ve Dönüşümler
+    - key: sections.animations_transforms.description 
+      t: Öğeleri anime etme ve dönüştürme.
+
+    - key: sections.media_queries.title 
+      t: Medya Sorguları
+    - key: sections.media_queries.description 
+      t: Sitenizi kullanıcının cihazına veya tercihlerine göre uyarlamanın yolları.
+
+    - key: sections.other_features.title 
+      t: Diğer özellikler
+    - key: sections.other_features.description 
+      t: Diğer CSS özellikleri.
+
+    - key: sections.units_selectors.title 
+      t: Birimler ve Seçiciler
+    - key: sections.units_selectors.description 
+      t: CSS birimleri ve seçiciler hakkındaki bilginizi test edin.
+
+    - key: sections.pre_post_processors.title 
+      t: Ön-/Post İşleyiciler
+    - key: sections.pre_post_processors.description 
+      t: CSS'i genişleten yardımcı araçlar.
+
+    - key: sections.css_frameworks.title 
+      t: CSS Çerçeveleri
+    - key: sections.css_frameworks.description 
+      t: Size önceden hazırlanmış bileşenler ve stiller sunan kütüphaneler.
+
+    - key: sections.css_methodologies.title 
+      t: CSS Metodolojileri
+    - key: sections.css_methodologies.description 
+      t: Daha temiz CSS yazmanın metodlaştırılmış yolları.
+
+    - key: sections.css_in_js.title 
+      t: CSS-in-JS
+    - key: sections.css_in_js.description 
+      t: CSS'yi JavaScript koduna entegre etmeye yardımcı olan kitaplıklar.
+
+    - key: sections.environments.title 
+      t: Ortamlar
+    - key: sections.environments.description 
+      t: Hangi ortamlar için CSS yazıyorsunuz?
+
+    ###########################################################################
+    # Options
+    ###########################################################################
+
+    # CSS for print
+    - key: options.css_for_print.0 
+      t: (Neredeyse) Hiç baskı stilleri yazmıyorum
+    - key: options.css_for_print.1 
+      t: Ara sıra baskı stilleri yazarım
+    - key: options.css_for_print.2 
+      t: Çoğu projemin parçası olarak baskı stilleri yazıyorum
+    - key: options.css_for_print.3 
+      t: CSS'yi asıl olarak baskı stilleri için kullanıyorum
+
+    # CSS for email
+    - key: options.css_for_email.0 
+      t: (Neredeyse) Hiç e-posta istemcileri için CSS yazmıyorum
+    - key: options.css_for_email.1 
+      t: E-posta istemcileri için ara sıra CSS yazıyorum
+    - key: options.css_for_email.2 
+      t: Çoğu projemin parçası olarak e-posta istemcileri için CSS yazıyorum
+    - key: options.css_for_email.3 
+      t: CSS'yi asıl olarak e-posta istemcileri için için kullanıyorum
+
+    ###########################################################################
+    # Features
+    ###########################################################################
+
+    # layout
+
+    - key: features.grid 
+      t: CSS Grid
+    - key: features.subgrid 
+      t: Subgrid
+    - key: features.regions 
+      t: CSS Bölgeleri (Regions)
+    - key: features.flexbox 
+      t: Flexbox
+    - key: features.multi_column 
+      t: CSS Çoklu Stünlar (Multi-Column)
+    - key: features.writing_modes 
+      t: CSS Yazım Modları (Writing Modes)
+    - key: features.exclusions 
+      t: CSS Exclusions
+    - key: features.position_sticky
+      t: '<code>position: sticky</code>'
+    - key: features.logical_properties 
+      t: Mantıksal Özellikler (Logical Properties)
+    - key: features.logical_properties.description 
+      t: <code>margin-block-start</code>, <code>padding-inline-end</code>, vb.
+    - key: features.aspect_ratio
+      t: <code>aspect-ratio</code>
+    - key: features.content_visibility
+      t: <code>content-visibility</code>
+
+    # shapes & graphics
+    - key: features.shapes
+      t: CSS Shapes
+    - key: features.object_fit
+      t: <code>object-fit</code>
+    - key: features.clip_path
+      t: <code>clip-path</code>
+    - key: features.masks 
+      t: CSS Maskeleme (Masks)
+    - key: features.blend_modes
+      t: Karıştırma Modları (Blend Modes)
+    - key: features.blend_modes.description 
+      t: <code>mix-blend-mode</code> özelliği
+    - key: features.filter_effects
+      t: CSS Filtre Efektleri
+    - key: features.backdrop_filter
+      t: <code>backdrop-filter</code>
+
+    # interactions
+    - key: features.scroll_snap
+      t: CSS Scroll Snap
+    - key: features.overscroll_behavior
+      t: <code>overscroll-behavior</code>
+    - key: features.overflow_anchor
+      t: <code>overflow-anchor</code>
+    - key: features.touch_action
+      t: <code>touch-action</code>
+    - key: features.pointer_events
+      t: <code>pointer-events</code>
+
+    # typography
+    - key: features.web_fonts 
+      t: Web fonts (@font-face)
+    - key: features.variables_fonts 
+      t: Değişken yazı tipleri (Variable fonts)
+    - key: features.line_breaking 
+      t: Satır atlatma özellikleri
+    - key: features.line_breaking.description 
+      t: <code>overflow-wrap</code>, <code>word-break</code>, <code>line-break</code>, <code>hyphens</code>
+    - key: features.font_variant
+      t: <code>font-variant-*</code>
+    - key: features.initial_letter
+      t: <code>initial-letter</code>
+    - key: features.font_variant_numeric
+      t: <code>font-variant-numeric</code>
+    - key: features.font_display
+      t: <code>font-display</code>
+    - key: features.line_clamp
+      t: <code>line-clamp</code>
+    - key: features.leading_trim
+      t: <code>leading-trim</code>
+    - key: features.direction
+      t: <code>direction</code>
+    - key: features.direction.description 
+      t: <code>dir</code> HTML niteliğini (attribute) de kapsar.
+
+    # animations & transforms
+    - key: features.transitions
+      t: CSS Geçişleri (Transitions)
+    - key: features.transforms
+      t: CSS Dönüşümleri (Transforms)
+    - key: features.animations
+      t: CSS Animasyonları 
+    - key: features.perspective
+      t: <code>perspective</code>
+
+    # media queries
+    - key: features.feature_support_queries
+      t: Özellik Destek Sorguları (<code>@supports</code>)
+    - key: features.prefers_reduced_motion
+      t: <code>prefers-reduced-motion</code>
+    - key: features.prefers_color_scheme
+      t: <code>prefers-color-scheme</code>
+    - key: features.color_gamut
+      t: <code>color-gamut</code>
+
+    # other features
+    - key: features.variables
+      t: CSS Değişkenleri (Custom Properties)
+    - key: features.containment
+      t: CSS Containment
+    - key: features.will_change
+      t: <code>will-change</code>
+    - key: features.calc
+      t: <code>calc()</code>
+    - key: features.houdini
+      t: Houdini
+    - key: features.comparison_functions
+      t: CSS Karşılaştırma Fonksiyonları
+    - key: features.comparison_functions.description
+      t: <code>min()</code>, <code>max()</code>, and <code>clamp()</code>
+
+    ###########################################################################
+    # Units & Selectors
+    ###########################################################################
+
+    - key: features_others.units 
+      t: Birimler
+    - key: features_others.units.description 
+      t: Aşağıdaki CSS birimlerinden hangilerini daha önce kullandınız?
+
+    - key: options.units.px 
+      t: px
+    - key: options.units.pt 
+      t: pt
+    - key: options.units.percent 
+      t: '%'
+    - key: options.units.em 
+      t: em
+    - key: options.units.rem 
+      t: rem
+    - key: options.units.vh_vw 
+      t: vh, vw
+    - key: options.units.vmin_vmax 
+      t: vmin, vmax
+    - key: options.units.ch 
+      t: ch
+    - key: options.units.ex 
+      t: ex
+    - key: options.units.mm 
+      t: mm
+    - key: options.units.cm 
+      t: cm
+    - key: options.units.in 
+      t: in
+
+    - key: features_others.pseudo_elements 
+      t: Pseudo Elemanlar
+    - key: features_others.pseudo_elements.description 
+      t: Aşağıdaki CSS seçicilerinden hangilerini daha önce kullandınız?
+
+    - key: options.pseudo_elements.before 
+      t: '::before'
+    - key: options.pseudo_elements.after 
+      t: '::after'
+    - key: options.pseudo_elements.first_line 
+      t: '::first-line'
+    - key: options.pseudo_elements.first_letter 
+      t: '::first-letter'
+    - key: options.pseudo_elements.selection 
+      t: '::selection'
+    - key: options.pseudo_elements.placeholder 
+      t: '::placeholder'
+    - key: options.pseudo_elements.marker 
+      t: '::marker'
+    - key: options.pseudo_elements.backdrop 
+      t: '::backdrop'
+
+    - key: features_others.combinators 
+      t: Kombinatörler
+
+    - key: options.combinators.descendant 
+      t: div span (alt soyu)
+    - key: options.combinators.child 
+      t: div > span (çocuğu)
+    - key: options.combinators.next_sibling 
+      t: div + div (komşu kardeş)
+    - key: options.combinators.subsequent_sibling 
+      t: div ~ div (ardından gelen kardeş)
+
+    - key: features_others.tree_document_structure 
+      t: Ağaç / Belge Yapısı
+
+    - key: options.tree_document_structure.root 
+      t: :root
+    - key: options.tree_document_structure.empty 
+      t: :empty
+    - key: options.tree_document_structure.not 
+      t: :not()
+    - key: options.tree_document_structure.nth_child 
+      t: :nth-child()
+    - key: options.tree_document_structure.nth_last_child 
+      t: :nth-last-child()
+    - key: options.tree_document_structure.first_child 
+      t: :first-child
+    - key: options.tree_document_structure.last_child 
+      t: :last-child
+    - key: options.tree_document_structure.only_child 
+      t: :only-child
+    - key: options.tree_document_structure.nth_of_type 
+      t: :nth-of-type()
+    - key: options.tree_document_structure.nth_last_of_type 
+      t: :nth-last-of-type()
+    - key: options.tree_document_structure.first_of_type 
+      t: :first-of-type
+    - key: options.tree_document_structure.last_of_type 
+      t: :last-of-type
+    - key: options.tree_document_structure.only_of_type 
+      t: :only-of-type
+    - key: options.tree_document_structure.lang 
+      t: :lang()
+    - key: options.tree_document_structure.is 
+      t: :is()
+    - key: options.tree_document_structure.where 
+      t: :where()
+    - key: options.tree_document_structure.has 
+      t: :has()
+
+    - key: features_others.attributes 
+      t: Nitellikler (Attributes)
+
+    - key: options.attributes.presence 
+      t: div[foo] (bulunma)
+    - key: options.attributes.equality 
+      t: div[foo="bar"] (eşitlik)
+    - key: options.attributes.starts_with 
+      t: div[foo^="bar"] (ile başlayan)
+    - key: options.attributes.ends_with 
+      t: div[foo$="bar"] (ile biten)
+    - key: options.attributes.contains_word 
+      t: div[foo~="bar"] (kelimeyi içeren)
+    - key: options.attributes.contains_substring 
+      t: div[foo*="bar"] (kelime parçacığını içeren)
+
+    - key: features_others.links_urls 
+      t: Bağlantılar/URL'ler
+
+    - key: options.links_urls.any_link 
+      t: :any-link
+    - key: options.links_urls.link_visited 
+      t: :link and :visited
+    - key: options.links_urls.local_link 
+      t: :local-link
+    - key: options.links_urls.target 
+      t: :target
+
+    - key: features_others.interaction 
+      t: Etkileşim
+
+    - key: options.interaction.hover 
+      t: :hover
+    - key: options.interaction.active 
+      t: :active
+    - key: options.interaction.focus 
+      t: :focus
+    - key: options.interaction.focus_within 
+      t: :focus-within
+    - key: options.interaction.focus_visible 
+      t: :focus-visible
+
+    - key: features_others.form_controls 
+      t: Form Denetimleri
+
+    - key: options.form_controls.enabled_disabled 
+      t: :enabled and :disabled
+    - key: options.form_controls.read_only_write 
+      t: :read-only and :read-write
+    - key: options.form_controls.placeholder_shown 
+      t: :placeholder-shown
+    - key: options.form_controls.default 
+      t: :default
+    - key: options.form_controls.checked 
+      t: :checked
+    - key: options.form_controls.indeterminate 
+      t: :indeterminate
+    - key: options.form_controls.valid_invalid 
+      t: :valid and :invalid
+    - key: options.form_controls.user_invalid 
+      t: :user-invalid
+    - key: options.form_controls.in_out_range 
+      t: :in-range and :out-of-range
+    - key: options.form_controls.required_optional 
+      t: :required and :optional
+
+    ###########################################################################
+    # Tools
+    ###########################################################################
+
+    - key: tools.atomiccss 
+      t: Utility-First/Atomik CSS
+
+    ###########################################################################
+    # Environments
+    ###########################################################################
+
+    - key: environments.browsers 
+      t: Tarayıcılar
+    - key: environments.browsers.description 
+      t: Hangi tarayıcılarda test ediyorsunuz?
+
+    - key: environments.form_factors 
+      t: Form Faktörleri
+    - key: environments.form_factors.description 
+      t: Hangi form faktörlerini test ediyorsunuz?
+
+    - key: environments.css_for_print 
+      t: Baskı için CSS
+    - key: environments.css_for_print.description 
+      t: Baskı stilleri yazıyor musunuz?
+
+    - key: environments.css_for_email 
+      t: E-posta İstemcileri için CSS
+    - key: environments.css_for_email.description 
+      t: E-posta istemcileri için CSS yazıyor musunuz?
+
+    ###########################################################################
+    # Opinions
+    ###########################################################################
+
+    - key: opinions.css_easy_to_learn 
+      t: CSS'yi öğrenmek kolaydır
+
+    - key: opinions.css_evolving_slowly 
+      t: CSS çok yavaş gelişiyor
+
+    - key: opinions.utility_classes_to_be_avoided 
+      t: Yardımcı (semantik olmayan) sınıflardan (.center, .large-text, vb.) kaçınılmalıdır.
+
+    - key: opinions.selector_nesting_to_be_avoided 
+      t: Seçicileri iç içe geçirmekten (.foo .bar ul li {...}) kaçınılmalıdır
+
+    - key: opinions.css_is_programming_language 
+      t: CSS bir programlama dilidir
+
+    - key: opinions.enjoy_writing_css 
+      t: CSS yazmayı seviyorum
+
+    - key: opinions_other.currently_missing_from_css.others 
+      t: Şu anda CSS'de neyin eksik olduğunu düşünüyorsunuz?
+    - key: opinions_other.currently_missing_from_css.others.description 
+      t: CSS'de bir gün görmek isteyeceğiniz özellikler.
+
+    - key: opinions.sum_up_one_word_css 
+      t: Tek kelimeyle CSS
+    - key: opinions.sum_up_one_word_css.description 
+      t: CSS hakkındaki düşüncenizi tek kelimeyle nasıl özetlersiniz?
+
+    - key: happiness.state_of_the_web 
+      t: Web teknolojilerinin genel durumundan ne kadar memnunsunuz?
+
+    - key: happiness.state_of_css 
+      t: CSS'nin genel durumundan ne kadar memnunsunuz?

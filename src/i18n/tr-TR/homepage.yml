@@ -1,0 +1,52 @@
+locale: tr-TR
+translations:
+    ###########################################################################
+    # Homepage
+    ###########################################################################
+
+    - key: homepage.hand_coded 
+      t: Japonya'da özenle kodlandı.
+    - key: homepage.leave_issue 
+      t: Bir sorun iletisi bırakın
+    - key: homepage.get_in_touch 
+      t: İletişime geçin
+
+    - key: homepage.made_by 
+      t: 'The State of CSS, yaratan:'
+    - key: homepage.leave_issue 
+      t: Bir sorun iletisi bırakın
+
+    - key: homepage.previous_years 
+      t: 'Önceki Seneler:'
+    - key: homepage.intro 
+      t: >
+          ## CSS her zamankinden daha hızlı gelişiyor.
+
+          Flexbox, Grid, Multi-Column… ve CSS-in-JS gibi tamamen yepyeni paradigmalar.
+
+          Senelik olarak gerçekleştirdiğimiz [State of JavaScript](https://stateofjs.com) 
+          anketinin başarısının ardından, stiller ve tasarım dünyasına da
+          adım atmaya ve giderek büyüyen "büyük önyüz (front-end) ayrımını" kapatmaya çalışmaya karar verdik!
+
+    - key: homepage.take_survey 
+      t: Anketi Doldur
+
+    - key: homepage.view_results 
+      t: 2019 Sonuçlarını Görüntüle
+
+    - key: share.help_spread 
+      t: Anketin Yayılmasına Yardım Edin!
+
+    - key: newsletter.stay_tuned 
+      t: Takipte Kalın
+    - key: newsletter.leave_your_email 
+      t: Bize e-postanızı bırakın, bir sonraki anketin ne zaman yapılacağını size bildirelim.
+
+    - key: author.sacha.bio 
+      t: >
+          JavaScript veri görselleştirme kütüphanesi [Nivo](http://nivo.rocks/)'nun ve 
+          güzel gösterge panelleri olşuturabileceğiniz [Mozaik](http://mozaik.rocks/)'in yaratıcısı.
+    - key: author.raphael.bio 
+      t: >
+          Günlük haber bülteni [Sidebar](http://sidebar.io)'ın ve
+          açık kaynak React+GraphQL çerçevesi [VulcanJS](http://vulcanjs.org)'nin yaratıcısı.

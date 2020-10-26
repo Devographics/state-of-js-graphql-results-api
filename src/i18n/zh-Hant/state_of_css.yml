@@ -1,4 +1,4 @@
-locale: es-ES
+locale: zh-Hant
 namespace: css
 translations:
     ###########################################################################
@@ -7,109 +7,106 @@ translations:
 
     - key: general.survey_intro_css2020
       t: >
-        CSS está evolucionando más deprisa que nunca.
+          CSS 以前所未有的速度進化中。
 
 
-        Flexbox, Grid, Multi-Column… por no hablar del totalmente nuevo paradigma CSS-in-JS.
+          Flexbox、Grid、多欄排版⋯甚至還沒說到 CSS-in-JS 這樣的全新世界觀。
 
 
-        Así que después del éxito de nuestra encuesta anual sobre el Estado de JavaScrip,
-        hemos decidido hacer una, dentro del mundo de los estilos y los selectores. ¡Esperamos
-        que nos puedas ayudar a identificar las últimas tendencias, y las herramientas que
-        debemos aprender y utilizar en el futuro!
+          因此，每年舉辦的 [JavaScript 現況調查](https://stateofjs.com) 成功後，我們決定發掘樣式與選擇器的世界，幫助大家找到最新的潮流，知道接下來要學習和使用的工具！
 
     ###########################################################################
     # Sections
     ###########################################################################
 
     - key: sections.layout.title
-      t: Diseño
+      t: 版面安排
     - key: sections.layout.description
-      t: ¿Cómo distribuyes los elementos por la pantalla?
+      t: 如何把螢幕上的元素定位？
 
     - key: sections.shapes_graphics.title
-      t: Formas y Gráficos
+      t: 形狀 & 圖形
     - key: sections.shapes_graphics.description
-      t: Controlando la forma y la representación de los elementos.
+      t: 控制形狀與元素的顯示方式。
 
     - key: sections.interactions.title
-      t: Interacciones
+      t: 互動
     - key: sections.interactions.description
-      t: Controlando como el usuario interactúa con la página.
+      t: 控制使用者如何跟頁面互動。
 
     - key: sections.typography.title
-      t: Tipografías
+      t: 文字排版
     - key: sections.typography.description
-      t: Configurando y distribuyendo el texto.
+      t: 文字的設定與擺放。
 
     - key: sections.animations_transforms.title
-      t: Animaciones y Transformaciones
+      t: 動畫 & 變形
     - key: sections.animations_transforms.description
-      t: Animando y transformando elementos.
+      t: 把元素加上動畫或變形。
 
     - key: sections.media_queries.title
       t: Media Queries
     - key: sections.media_queries.description
-      t: Formas de adaptar tu página a los dispositivos de tus usuarios o sus preferencias.
+      t: 讓網站相容於使用者裝置或偏好的方式。
 
     - key: sections.other_features.title
-      t: Otras Características
+      t: 其他功能
     - key: sections.other_features.description
-      t: Otras características de CSS.
+      t: 其他 CSS 功能。
 
     - key: sections.units_selectors.title
-      t: Unidades y Selectores
+      t: 單位 & 選擇器
     - key: sections.units_selectors.description
-      t: Pon a prueba tu conocimiento sobre unidades y selectores de CSS.
+      t: 試試看對 CSS 單位與選擇器的理解。
 
     - key: sections.pre_post_processors.title
-      t: Pre-/Post-procesadores
+      t: 預 & 後處理器
     - key: sections.pre_post_processors.description
-      t: Utilidades para enriquecer CSS.
+      t: 強化 CSS 的工具。
 
     - key: sections.css_frameworks.title
-      t: CSS Frameworks
+      t: CSS 框架
     - key: sections.css_frameworks.description
-      t: Librerías que te facilitan componentes y estilos listos para ser usados.
+      t: 提供已預先做好的元件和樣式程式庫。
 
     - key: sections.css_methodologies.title
-      t: Metodologías CSS
+      t: CSS 方法論
     - key: sections.css_methodologies.description
-      t: Cómo escribir CSS de forma más limpia.
+      t: 用程式化方法撰寫更乾淨的 CSS。
 
     - key: sections.css_in_js.title
       t: CSS-in-JS
     - key: sections.css_in_js.description
-      t: Librerías que nos ayudan a escribir CSS dentro del código JavaScript.
+      t: 幫助 CSS 整合進 JavaScript 的程式庫。
 
     - key: sections.environments.title
-      t: Entornos
+      t: 環境
     - key: sections.environments.description
-      t: ¿Para que entornos escribes CSS?
+      t: 撰寫的 CSS 是用在哪些環境？
 
     ###########################################################################
     # Options
     ###########################################################################
 
-    # css for print
+    # CSS for print
     - key: options.css_for_print.0
-      t: (Casi) nunca escribo CSS para ser impreso
+      t: 我（幾乎）沒寫過列印的樣式。
     - key: options.css_for_print.1
-      t: Ocasionalmente escribo CSS para ser impreso
+      t: 我偶爾寫列印的樣式。
     - key: options.css_for_print.2
-      t: Escribo CSS para ser impreso para casi todos los proyectos
+      t: 我在許多專案裡會把列印用的樣式當作一部分來撰寫。
     - key: options.css_for_print.3
-      t: Sólo me centro en CSS para ser impreso
+      t: 我主要就是在寫列印用的 CSS。
 
-    # css for email
+    # CSS for email
     - key: options.css_for_email.0
-      t: (Casi) nunca escribo CSS para correos electrónicos
+      t: 我（幾乎）沒寫過電子郵件客戶端的 CSS。
     - key: options.css_for_email.1
-      t: Ocasionalmente escribo CSS para correos electrónicos
+      t: 我偶爾寫電子郵件客戶端的 CSS。
     - key: options.css_for_email.2
-      t: Escribo CSS para correos electrónicos para casi todos los proyectos
+      t: 我在許多專案裡會把電子郵件客戶端的 CSS 當作一部分來撰寫。
     - key: options.css_for_email.3
-      t: Sólo me centro en CSS para correos electrónicos
+      t: 我主要就是在做電子郵件客戶端的 CSS。
 
     ###########################################################################
     # Features
@@ -122,21 +119,21 @@ translations:
     - key: features.subgrid
       t: Subgrid
     - key: features.regions
-      t: CSS Regions
+      t: CSS Region
     - key: features.flexbox
       t: Flexbox
     - key: features.multi_column
-      t: CSS Multi-Column
+      t: CSS 多欄排版
     - key: features.writing_modes
-      t: CSS Writing Modes
+      t: CSS 書寫模式 (Writing Modes)
     - key: features.exclusions
-      t: CSS Exclusions
+      t: CSS 排除條件
     - key: features.position_sticky
       t: '<code>position: sticky</code>'
     - key: features.logical_properties
-      t: Propiedades Lógicas
+      t: 邏輯參數 (Logical Properties)
     - key: features.logical_properties.description
-      t: <code>margin-block-start</code>, <code>padding-inline-end</code>, etc.
+      t: <code>margin-block-start</code>、<code>padding-inline-end</code>⋯等。
     - key: features.aspect_ratio
       t: <code>aspect-ratio</code>
     - key: features.content_visibility
@@ -144,19 +141,19 @@ translations:
 
     # shapes & graphics
     - key: features.shapes
-      t: CSS Shapes
+      t: CSS 形狀 (Shape)
     - key: features.object_fit
       t: <code>object-fit</code>
     - key: features.clip_path
       t: <code>clip-path</code>
     - key: features.masks
-      t: CSS Masks
+      t: CSS 遮罩 (Mask)
     - key: features.blend_modes
-      t: Blend Modes
+      t: 混合模式 (Blend Modes)
     - key: features.blend_modes.description
-      t: La propiedad <code>mix-blend-mode</code>
+      t: <code>mix-blend-mode</code> 參數
     - key: features.filter_effects
-      t: Filtros en CSS
+      t: CSS 濾鏡效果
     - key: features.backdrop_filter
       t: <code>backdrop-filter</code>
 
@@ -174,11 +171,11 @@ translations:
 
     # typography
     - key: features.web_fonts
-      t: Web fonts (@font-face)
+      t: 網路字型 (@font-face)
     - key: features.variables_fonts
-      t: Fuentes variables
+      t: 可變換字型
     - key: features.line_breaking
-      t: Saltos de línea
+      t: 換行參數 (Line breaking)
     - key: features.line_breaking.description
       t: <code>overflow-wrap</code>, <code>word-break</code>, <code>line-break</code>, <code>hyphens</code>
     - key: features.font_variant
@@ -196,21 +193,21 @@ translations:
     - key: features.direction
       t: <code>direction</code>
     - key: features.direction.description
-      t: También incluye el atributo de HTML <code>dir</code>.
+      t: 也包含 <code>dir</code> HTML 屬性.
 
     # animations & transforms
     - key: features.transitions
-      t: Transiciones
+      t: CSS 轉場 (Transition)
     - key: features.transforms
-      t: Transformaciones
+      t: CSS 變形 (Transform)
     - key: features.animations
-      t: Animaciones
+      t: CSS 動畫 (Animation)
     - key: features.perspective
       t: <code>perspective</code>
-    
+
     # media queries
     - key: features.feature_support_queries
-      t: Comprobando Características Soportadas (<code>@supports</code>)
+      t: 功能支援判別 (Feature Support Queries) (<code>@supports</code>)
     - key: features.prefers_reduced_motion
       t: <code>prefers-reduced-motion</code>
     - key: features.prefers_color_scheme
@@ -220,7 +217,7 @@ translations:
 
     # other features
     - key: features.variables
-      t: Variables (Propiedades Custom)
+      t: CSS 變數（自訂參數）
     - key: features.containment
       t: CSS Containment
     - key: features.will_change
@@ -230,7 +227,7 @@ translations:
     - key: features.houdini
       t: Houdini
     - key: features.comparison_functions
-      t: Funciones de Comparación
+      t: CSS 比較函式 (Comparison Functions)
     - key: features.comparison_functions.description
       t: <code>min()</code>, <code>max()</code>, and <code>clamp()</code>
 
@@ -239,9 +236,9 @@ translations:
     ###########################################################################
 
     - key: features_others.units
-      t: Unidades
+      t: 單位
     - key: features_others.units.description
-      t: ¿Cuáles de las siguientes unidades has utilizado?
+      t: 用過哪些 CSS 單位？
 
     - key: options.units.px
       t: px
@@ -269,9 +266,9 @@ translations:
       t: in
 
     - key: features_others.pseudo_elements
-      t: Pseudo Elementos
+      t: 偽元素 (Pseudo Elements)
     - key: features_others.pseudo_elements.description
-      t: ¿Cuáles de los siguientes pseudo elementos has utilizado?
+      t: 用過哪些 CSS 偽元素？
 
     - key: options.pseudo_elements.before
       t: '::before'
@@ -291,19 +288,19 @@ translations:
       t: '::backdrop'
 
     - key: features_others.combinators
-      t: Combinators
+      t: 組合語法
 
     - key: options.combinators.descendant
-      t: div span (descendiente)
+      t: div span（後代）
     - key: options.combinators.child
-      t: div > span (hijo)
+      t: div > span（子代）
     - key: options.combinators.next_sibling
-      t: div + div (hermano siguiente)
+      t: div + div（同層下一個）
     - key: options.combinators.subsequent_sibling
-      t: div ~ div (hermano posterior)
+      t: div ~ div（同層之後）
 
     - key: features_others.tree_document_structure
-      t: Estructura del Documento / Árbol
+      t: 樹狀 / 文件結構
 
     - key: options.tree_document_structure.root
       t: :root
@@ -341,23 +338,23 @@ translations:
       t: :has()
 
     - key: features_others.attributes
-      t: Atributos
+      t: 屬性
 
     - key: options.attributes.presence
-      t: div[foo] (Presencia)
+      t: div[foo]（屬性存在）
     - key: options.attributes.equality
-      t: div[foo="bar"] (Igualdad)
+      t: div[foo="bar"]（屬性值完全符合）
     - key: options.attributes.starts_with
-      t: div[foo^="bar"] (Empieza con)
+      t: div[foo^="bar"]（以⋯開始）
     - key: options.attributes.ends_with
-      t: div[foo$="bar"] (Termina con)
+      t: div[foo$="bar"]（以⋯結尾）
     - key: options.attributes.contains_word
-      t: div[foo~="bar"] (Contiene la palabra)
+      t: div[foo~="bar"]（包含文字）
     - key: options.attributes.contains_substring
-      t: div[foo*="bar"] (Contiene la cadena)
+      t: div[foo*="bar"]（包含子字串）
 
     - key: features_others.links_urls
-      t: Enlaces/URLs
+      t: 連結/網址
 
     - key: options.links_urls.any_link
       t: :any-link
@@ -369,7 +366,7 @@ translations:
       t: :target
 
     - key: features_others.interaction
-      t: Interacciones
+      t: 互動
 
     - key: options.interaction.hover
       t: :hover
@@ -383,7 +380,7 @@ translations:
       t: :focus-visible
 
     - key: features_others.form_controls
-      t: Control de Formularios
+      t: 表單控制
 
     - key: options.form_controls.enabled_disabled
       t: :enabled and :disabled
@@ -407,70 +404,63 @@ translations:
       t: :required and :optional
 
     ###########################################################################
-    # Tools
-    ###########################################################################
-
-    - key: tools.atomiccss
-      t: Utility-First/Atomic CSS
-
-    ###########################################################################
     # Environments
     ###########################################################################
 
     - key: environments.browsers
-      t: Navegadores
+      t: 瀏覽器
     - key: environments.browsers.description
-      t: ¿En qué navegadores haces pruebas?
-    
+      t: 在哪些瀏覽器進行測試？
+
     - key: environments.form_factors
-      t: Factor de Forma
+      t: 裝置
     - key: environments.form_factors.description
-      t: ¿En que tamaños y formatos de pantalla haces pruebas?
+      t: 在哪些裝置上進行測試？
 
     - key: environments.css_for_print
-      t: CSS para Imprimir
+      t: 列印用的 CSS
     - key: environments.css_for_print.description
-      t: ¿Escribes CSS para imprimir?
+      t: 有寫列印用的樣式嗎？
 
     - key: environments.css_for_email
-      t: CSS para Correos Electrónicos
+      t: 電子郵件客戶端的 CSS
     - key: environments.css_for_email.description
-      t: ¿Escribes CSS para correos electrónicos?
+      t: 有寫電子郵件客戶端的 CSS 嗎？
 
     ###########################################################################
     # Opinions
     ###########################################################################
 
     - key: opinions.css_easy_to_learn
-      t: CSS es fácil de aprender
+      t: CSS 很容易學
 
     - key: opinions.css_evolving_slowly
-      t: CSS está evolucionando muy despacio
+      t: CSS 的演進實在太慢了
 
     - key: opinions.utility_classes_to_be_avoided
-      t: Clases funcionales (no-semánticas) (.center, .large-text, etc.) deberían ser evitadas
+      t: 應該要避免使用 `.center` 和 `.large-text` 這樣工具式、非情境的 class
 
     - key: opinions.selector_nesting_to_be_avoided
-      t: Anidar selectores (.foo .bar ul li {...}) debería evitarse
+      t: 應該要避免使用像是 `.foo .bar ul li {...}` 這樣的巢狀選擇器
 
     - key: opinions.css_is_programming_language
-      t: CSS es un lenguaje de programación
+      t: CSS 是一種程式語言
 
     - key: opinions.enjoy_writing_css
-      t: Disfruto escribiendo CSS
+      t: 我喜歡撰寫 CSS
 
     - key: opinions_other.currently_missing_from_css.others
-      t: ¿Qué crees que le falta a CSS?
+      t: 你覺得 CSS 目前還缺了什麼？
     - key: opinions_other.currently_missing_from_css.others.description
-      t: Características que quieres ver en CSS algún día.
+      t: 希望未來有的 CSS 樣式。
 
     - key: opinions.sum_up_one_word_css
-      t: CSS en una palabra
+      t: 用一個詞形容 CSS
     - key: opinions.sum_up_one_word_css.description
-      t: ¿Cómo resumirías tu opinión de CSS en una palabra?
+      t: 要用一個詞總結對 CSS 的感覺的話，會是什麼？
 
     - key: happiness.state_of_the_web
-      t: ¿Cómo de contento estás con el estado general de las tecnologías web?
+      t: 平均來說，對於各種網路技術的狀態覺得開心嗎？
 
     - key: happiness.state_of_css
-      t: ¿Cómo de contento estás con el estado general de CSS?
+      t: 平均來說，對於 CSS 的狀態覺得開心嗎？
