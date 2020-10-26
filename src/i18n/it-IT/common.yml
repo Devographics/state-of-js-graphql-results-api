@@ -155,6 +155,14 @@ translations:
     - key: options.features.used
       t: 👍 L'ho usato
 
+    # features (no emoji)
+    - key: options.features.never_heard.label
+      t: Mai sentito nominare/Non sono sicuro di cosa sia
+    - key: options.features.heard.label
+      t: So cos'é, ma non l'ho mai usato
+    - key: options.features.used.label
+      t: L'ho usato
+
     # features (short versions)
     - key: options.features.never_heard.short
       t: Mai sentito nominare
@@ -186,6 +194,18 @@ translations:
       t: 👍 L'ho usato > Lo userei ancora
     - key: options.tools.would_not_use
       t: 👎 L'ho usato > Non lo userei più
+
+    # tools experience (no emoji)
+    - key: options.tools.never_heard.legend
+      t: Mai sentito nominare/Non sono sicuro di cosa sia
+    - key: options.tools.interested.legend
+      t: L'ho sentito nominare > Vorrei impararlo
+    - key: options.tools.not_interested.legend
+      t: L'ho sentito nominare > Non sono interessato
+    - key: options.tools.would_use.legend
+      t: L'ho usato > Lo userei ancora
+    - key: options.tools.would_not_use.legend
+      t: L'ho usato > Non lo userei più
 
     # tools experience (short versions)
     - key: options.tools.never_heard.short

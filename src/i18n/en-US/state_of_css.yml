@@ -13,8 +13,8 @@ translations:
           Flexbox, Grid, Multi-Column… To say nothing of whole new paradigms like CSS-in-JS.
 
 
-          So after the success of our annual State Of JavaScript survey, 
-          we’ve decided to take on the world of styles and selectors. We're hoping you’ll help 
+          So after the success of our annual State Of JavaScript survey,
+          we’ve decided to take on the world of styles and selectors. We're hoping you’ll help
           us identify the latest trends, and figure out what tools to learn and use next!
 
     ###########################################################################
@@ -89,6 +89,9 @@ translations:
       t: CSS-in-JS
     - key: sections.css_in_js.description
       t: Libraries that help integrate CSS into JavaScript code.
+
+    - key: sections.css_in_js_others.title
+      t: Other CSS-in-JS Libraries
 
     - key: sections.css_in_js_others.title
       t: Other CSS-in-JS Libraries

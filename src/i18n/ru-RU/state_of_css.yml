@@ -13,8 +13,8 @@ translations:
           Флексбоксы, гриды, мультиколонки… Не говоря уже о совершенно новых парадигмах, таких как CSS-in-JS.
 
 
-          После успешного проведения ежегодного опроса "State of JavaScript" 
-          мы решили войти в мир стилей и селекторов. Мы надеемся с вашей помощью 
+          После успешного проведения ежегодного опроса "State of JavaScript"
+          мы решили войти в мир стилей и селекторов. Мы надеемся с вашей помощью
           определить актуальные тенденции, а также выяснить, что следует изучать и использовать в будущем!
 
     ###########################################################################
@@ -66,20 +66,32 @@ translations:
     - key: sections.pre_post_processors.description
       t: Утилиты, расширяющие возможности CSS.
 
+    - key: sections.pre_post_processors_others.title
+      t: Другие пре/постпроцессоры
+
     - key: sections.css_frameworks.title
       t: CSS-фреймворки
     - key: sections.css_frameworks.description
       t: Библиотеки с готовыми компонентами и стилями.
+
+    - key: sections.css_frameworks_others.title
+      t: Другие CSS-фреймворки
 
     - key: sections.css_methodologies.title
       t: CSS-методологии
     - key: sections.css_methodologies.description
       t: Систематизированные способы написания чистого CSS-кода.
 
+    - key: sections.css_methodologies_others.title
+      t: Другие CSS-методологии
+
     - key: sections.css_in_js.title
       t: CSS-in-JS
     - key: sections.css_in_js.description
       t: Библиотеки для интеграции CSS в JavaScript-код.
+
+    - key: sections.css_in_js_others.title
+      t: Другие библиотеки CSS-in-JS
 
     - key: sections.environments.title
       t: Окружения
@@ -93,22 +105,44 @@ translations:
     # CSS for print
     - key: options.css_for_print.0
       t: Я (почти) никогда не создаю стили для печати
+    - key: options.css_for_print.0.short
+      t: Никогда
+
     - key: options.css_for_print.1
       t: Иногда я создаю стили для печати
+    - key: options.css_for_print.1.short
+      t: Иногда
+
     - key: options.css_for_print.2
       t: Создаю стили для печати в большинстве проектах
+    - key: options.css_for_print.2.short
+      t: Часто
+
     - key: options.css_for_print.3
       t: Уделяю особое внимание CSS для печати
+    - key: options.css_for_print.3.short
+      t: В основном всегда
 
     # CSS for email
     - key: options.css_for_email.0
       t: Я (почти) никогда не создаю стили для почтовых клиентов
+    - key: options.css_for_email.0.short
+      t: Никогда
+
     - key: options.css_for_email.1
       t: Иногда я пишу стили для почтовых клиентов
+    - key: options.css_for_email.1.short
+      t: Иногда
+
     - key: options.css_for_email.2
       t: Создаю стили для почтовых клиентов в большинстве проектах
+    - key: options.css_for_email.2.short
+      t: Часто
+
     - key: options.css_for_email.3
       t: Уделяю особое внимание CSS для почтовых клиентов
+    - key: options.css_for_email.3.short
+      t: В основном всегда
 
     ###########################################################################
     # Features
@@ -366,7 +400,7 @@ translations:
       t: Ссылки/URL-адреса
     - key: features_others.links_urls.description
       t: Какие из этих CSS-селекторов пседоклассов, связанных со ссылками, вы использовали?
-      
+
     - key: options.links_urls.any_link
       t: :any-link
     - key: options.links_urls.link_visited
@@ -455,21 +489,33 @@ translations:
 
     - key: opinions.css_easy_to_learn
       t: CSS легко изучить
+    - key: opinions.css_easy_to_learn.title
+      t: Кривая обучения
 
     - key: opinions.css_evolving_slowly
       t: CSS развивается слишком медленно
+    - key: opinions.css_evolving_slowly.title
+      t: Темп изменения
 
     - key: opinions.utility_classes_to_be_avoided
       t: Следует избегать вспомогательных (несемантических) классов (.center, .large-text и т.д.)
+    - key: opinions.utility_classes_to_be_avoided.title
+      t: Несемантические классы
 
     - key: opinions.selector_nesting_to_be_avoided
       t: Следует избегать вложенных селекторов (.foo .bar ul li {...})
+    - key: opinions.selector_nesting_to_be_avoided.title
+      t: Вложенные селекторы
 
     - key: opinions.css_is_programming_language
       t: CSS — язык программирования
+    - key: opinions.css_is_programming_language.title
+      t: Язык программирования
 
     - key: opinions.enjoy_writing_css
       t: Мне нравится писать CSS
+    - key: opinions.enjoy_writing_css.title
+      t: Удовлетворение
 
     - key: opinions_other.currently_missing_from_css.others
       t: Что вам не хватает в CSS?

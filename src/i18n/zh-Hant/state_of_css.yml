@@ -64,20 +64,32 @@ translations:
     - key: sections.pre_post_processors.description
       t: 強化 CSS 的工具。
 
+    - key: sections.pre_post_processors_others.title # TODO
+      t: Other Pre-/Post-processors
+
     - key: sections.css_frameworks.title
       t: CSS 框架
     - key: sections.css_frameworks.description
       t: 提供已預先做好的元件和樣式程式庫。
+
+    - key: sections.css_frameworks_others.title # TODO
+      t: Other CSS Frameworks
 
     - key: sections.css_methodologies.title
       t: CSS 方法論
     - key: sections.css_methodologies.description
       t: 用程式化方法撰寫更乾淨的 CSS。
 
+    - key: sections.css_methodologies_others.title # TODO
+      t: Other CSS Methodologies
+
     - key: sections.css_in_js.title
       t: CSS-in-JS
     - key: sections.css_in_js.description
       t: 幫助 CSS 整合進 JavaScript 的程式庫。
+
+    - key: sections.css_in_js_others.title # TODO
+      t: Other CSS-in-JS Libraries
 
     - key: sections.environments.title
       t: 環境
@@ -91,22 +103,44 @@ translations:
     # CSS for print
     - key: options.css_for_print.0
       t: 我（幾乎）沒寫過列印的樣式。
+    - key: options.css_for_print.0.short # TODO
+      t: Never
+
     - key: options.css_for_print.1
       t: 我偶爾寫列印的樣式。
+    - key: options.css_for_print.1.short # TODO
+      t: Occasionally
+
     - key: options.css_for_print.2
       t: 我在許多專案裡會把列印用的樣式當作一部分來撰寫。
+    - key: options.css_for_print.2.short # TODO
+      t: Often
+
     - key: options.css_for_print.3
       t: 我主要就是在寫列印用的 CSS。
+    - key: options.css_for_print.3.short # TODO
+      t: Mainly
 
     # CSS for email
     - key: options.css_for_email.0
       t: 我（幾乎）沒寫過電子郵件客戶端的 CSS。
+    - key: options.css_for_email.0.short # TODO
+      t: Never
+
     - key: options.css_for_email.1
       t: 我偶爾寫電子郵件客戶端的 CSS。
+    - key: options.css_for_email.1.short # TODO
+      t: Occasionally
+
     - key: options.css_for_email.2
       t: 我在許多專案裡會把電子郵件客戶端的 CSS 當作一部分來撰寫。
+    - key: options.css_for_email.2.short # TODO
+      t: Often
+
     - key: options.css_for_email.3
       t: 我主要就是在做電子郵件客戶端的 CSS。
+    - key: options.css_for_email.3.short # TODO
+      t: Mainly
 
     ###########################################################################
     # Features
@@ -289,6 +323,8 @@ translations:
 
     - key: features_others.combinators
       t: 組合語法
+    - key: features_others.combinators.description # TODO
+      t: Which of these combinations CSS selectors have you used?
 
     - key: options.combinators.descendant
       t: div span（後代）
@@ -301,6 +337,8 @@ translations:
 
     - key: features_others.tree_document_structure
       t: 樹狀 / 文件結構
+    - key: features_others.tree_document_structure.description # TODO
+      t: Which of these structure related CSS selectors have you used?
 
     - key: options.tree_document_structure.root
       t: :root
@@ -339,6 +377,8 @@ translations:
 
     - key: features_others.attributes
       t: 屬性
+    - key: features_others.attributes.description # TODO
+      t: Which of these CSS attributes selectors have you used?
 
     - key: options.attributes.presence
       t: div[foo]（屬性存在）
@@ -355,6 +395,8 @@ translations:
 
     - key: features_others.links_urls
       t: 連結/網址
+    - key: features_others.links_urls.description # TODO
+      t: Which of these links & URLs related CSS selectors have you used?
 
     - key: options.links_urls.any_link
       t: :any-link
@@ -367,6 +409,8 @@ translations:
 
     - key: features_others.interaction
       t: 互動
+    - key: features_others.interaction.description # TODO
+      t: Which of these interaction CSS selectors have you used?
 
     - key: options.interaction.hover
       t: :hover
@@ -381,6 +425,8 @@ translations:
 
     - key: features_others.form_controls
       t: 表單控制
+    - key: features_others.form_controls.description # TODO
+      t: Which of these form related CSS selectors have you used?
 
     - key: options.form_controls.enabled_disabled
       t: :enabled and :disabled
@@ -433,21 +479,33 @@ translations:
 
     - key: opinions.css_easy_to_learn
       t: CSS 很容易學
+    - key: opinions.css_easy_to_learn.title # TODO
+      t: Learning Curve
 
     - key: opinions.css_evolving_slowly
       t: CSS 的演進實在太慢了
+    - key: opinions.css_evolving_slowly.title # TODO
+      t: Rate of Change
 
     - key: opinions.utility_classes_to_be_avoided
       t: 應該要避免使用 `.center` 和 `.large-text` 這樣工具式、非情境的 class
+    - key: opinions.utility_classes_to_be_avoided.title # TODO
+      t: Non-Semantic Classes
 
     - key: opinions.selector_nesting_to_be_avoided
       t: 應該要避免使用像是 `.foo .bar ul li {...}` 這樣的巢狀選擇器
+    - key: opinions.selector_nesting_to_be_avoided.title # TODO
+      t: Selector Nesting
 
     - key: opinions.css_is_programming_language
       t: CSS 是一種程式語言
+    - key: opinions.css_is_programming_language.title # TODO
+      t: Programming Language
 
     - key: opinions.enjoy_writing_css
       t: 我喜歡撰寫 CSS
+    - key: opinions.enjoy_writing_css.title # TODO
+      t: Enjoyment
 
     - key: opinions_other.currently_missing_from_css.others
       t: 你覺得 CSS 目前還缺了什麼？

@@ -66,20 +66,32 @@ translations:
     - key: sections.pre_post_processors.description # TODO
       t: Utilities that augment CSS.
 
+    - key: sections.pre_post_processors_others.title # TODO
+      t: Other Pre-/Post-processors
+
     - key: sections.css_frameworks.title # TODO
       t: CSS Frameworks
     - key: sections.css_frameworks.description # TODO
       t: Libraries that give you pre-made components and styles.
+
+    - key: sections.css_frameworks_others.title # TODO
+      t: Other CSS Frameworks
 
     - key: sections.css_methodologies.title # TODO
       t: CSS Methodologies
     - key: sections.css_methodologies.description # TODO
       t: Codified ways to write cleaner CSS.
 
+    - key: sections.css_methodologies_others.title # TODO
+      t: Other CSS Methodologies
+
     - key: sections.css_in_js.title # TODO
       t: CSS-in-JS
     - key: sections.css_in_js.description # TODO
       t: Libraries that help integrate CSS into JavaScript code.
+
+    - key: sections.css_in_js_others.title # TODO
+      t: Other CSS-in-JS Libraries
 
     - key: sections.environments.title # TODO
       t: Environments
