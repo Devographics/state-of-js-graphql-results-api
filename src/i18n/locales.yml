@@ -46,6 +46,10 @@
 #   label: 简体
 #   translators: []
 
+- id: id-ID
+  label: Indonesia
+  translators: [ervinismu]
+
 - id: zh-Hant
   label: 正體中文
   translators: ['ymcheung']
