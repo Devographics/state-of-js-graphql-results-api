@@ -7,6 +7,24 @@ import typeDefs from './type_defs/schema.graphql'
 import { RequestContext } from './types'
 import resolvers from './resolvers'
 import express from 'express'
+const Sentry = require("@sentry/node");
+const Tracing = require("@sentry/tracing");
+
+const app = express()
+
+Sentry.init({
+  dsn: process.env.SENTRY_DSN,
+    integrations: [
+    // enable HTTP calls tracing
+    new Sentry.Integrations.Http({ tracing: true }),
+    // enable Express.js middleware tracing
+    new Tracing.Integrations.Express({ app }),
+  ],
+  // We recommend adjusting this value in production, or using tracesSampler
+  // for finer control
+  tracesSampleRate: 1.0,
+});
+
 const path = require('path')
 
 const isDev = process.env.NODE_ENV === 'development'
@@ -37,7 +55,9 @@ const start = async () => {
         })
     })
 
-    const app = express()
+    app.use(Sentry.Handlers.requestHandler());
+    // TracingHandler creates a trace for every incoming request
+    app.use(Sentry.Handlers.tracingHandler());
 
     server.applyMiddleware({ app })
 
@@ -45,11 +65,19 @@ const start = async () => {
         res.sendFile(path.join(__dirname + '/public/welcome.html'))
     })
 
+    app.get('/debug-sentry', function mainHandler(req, res) {
+    throw new Error('My first Sentry error!');
+    });
+
+    app.use(Sentry.Handlers.errorHandler());
+
     const port = process.env.PORT || 4000
 
     app.listen({ port: port }, () =>
         console.log(`🚀 Server ready at http://localhost:${port}${server.graphqlPath}`)
     )
+
+    
 }
 
 start()

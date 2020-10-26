@@ -3,6 +3,8 @@
     "version": "1.0.0",
     "license": "MIT",
     "dependencies": {
+        "@sentry/node": "^5.27.1",
+        "@sentry/tracing": "^5.27.1",
         "@types/node-fetch": "^2.5.7",
         "apollo-server": "^2.18.2",
         "apollo-server-express": "^2.18.2",
