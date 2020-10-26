@@ -155,6 +155,14 @@ translations:
     - key: options.features.used
       t: 👍 Habe ich verwendet
 
+    # features (no emoji)
+    - key: options.features.never_heard.label
+      t: Nie davon gehört/Nicht sicher worum es sich handelt
+    - key: options.features.heard.label
+      t: Kenne ich, aber nicht genutzt
+    - key: options.features.used.label
+      t: Habe ich verwendet
+
     # features (short versions)
     - key: options.features.never_heard.short
       t: Nie davon gehört

@@ -157,6 +157,14 @@ translations:
     - key: options.features.used
       t: 👍 Daha önce kullandım
 
+    # features (no emoji)
+    - key: options.features.never_heard.label
+      t: Daha önce hiç duymadım/Tam olarak ne olduğunu bilmiyorum
+    - key: options.features.heard.label
+      t: Ne olduğunu biliyorum, fakat henüz hiç kullanmadım
+    - key: options.features.used.label
+      t: Daha önce kullandım
+
     # features (short versions)
     - key: options.features.never_heard.short
       t: Daha önce hiç duymadım
@@ -188,6 +196,18 @@ translations:
       t: 👍 Kullandım > Tekrar kullanmak isterim
     - key: options.tools.would_not_use
       t: 👎 Kullandım > Tekrar kullanmayı tercih etmem
+
+    # tools experience (no emoji)
+    - key: options.tools.never_heard.legend
+      t: Daha önce hiç duymadım/Tam olarak ne olduğunu bilmiyorum
+    - key: options.tools.interested.legend
+      t: Duydum > Öğrenmek isterim
+    - key: options.tools.not_interested.legend
+      t: Duydum > İlgimi çekmiyor
+    - key: options.tools.would_use.legend
+      t: Kullandım > Tekrar kullanmak isterim
+    - key: options.tools.would_not_use.legend
+      t: Kullandım > Tekrar kullanmayı tercih etmem
 
     # tools experience (short versions)
     - key: options.tools.never_heard.short

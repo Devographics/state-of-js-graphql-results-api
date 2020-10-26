@@ -158,6 +158,14 @@ translations:
     - key: options.features.used
       t: 👍 Har använt det
 
+    # features (no emoji)
+    - key: options.features.never_heard.label
+      t: Aldrig hört talas om/Osäker på vad det är
+    - key: options.features.heard.label
+      t: Vet vad det är, men har aldrig använt
+    - key: options.features.used.label
+      t: Har använt det
+
     # features (short versions)
     - key: options.features.never_heard.short
       t: Aldrig hört talas om det
@@ -189,6 +197,18 @@ translations:
       t: 👍 Har använt > Skulle använda igen
     - key: options.tools.would_not_use
       t: 👎 Har använt > Skulle inte använda igen
+
+    # tools experience (no emoji)
+    - key: options.tools.never_heard.legend
+      t: Aldrig hört talas om/Osäker på vad det är
+    - key: options.tools.interested.legend
+      t: Hört talas om > Vill lära mig
+    - key: options.tools.not_interested.legend
+      t: Hört talas om > Inte intresserad
+    - key: options.tools.would_use.legend
+      t: Har använt > Skulle använda igen
+    - key: options.tools.would_not_use.legend
+      t: Har använt > Skulle inte använda igen
 
     # tools experience (short versions)
     - key: options.tools.never_heard.short

@@ -157,6 +157,14 @@ translations:
     - key: options.features.used
       t: 👍 Saya sudah menggunakannya
 
+    # features (no emoji)
+    - key: options.features.never_heard.label
+      t: Tidak pernah mendengarnya/Tidak yakin apakah itu
+    - key: options.features.heard.label
+      t: Tahu apa itu, tapi belum pernah menggunakannya
+    - key: options.features.used.label
+      t: Saya sudah menggunakannya
+
     # features (short versions)
     - key: options.features.never_heard.short
       t: Tidak pernah mendengarnya
@@ -188,6 +196,18 @@ translations:
       t: 👍 Digunakan > Akan digunakan lagi
     - key: options.tools.would_not_use
       t: 👎 Digunakan > Tidak akan digunakan lagi
+
+    # tools experience (no emoji)
+    - key: options.tools.never_heard.legend
+      t: Tidak pernah mendengarnya/Tidak yakin apakah itu
+    - key: options.tools.interested.legend
+      t: Pernah mendengarnya > ingin belajar
+    - key: options.tools.not_interested.legend
+      t: Mendengarnya > Tidak tertarik
+    - key: options.tools.would_use.legend
+      t: Digunakan > Akan digunakan lagi
+    - key: options.tools.would_not_use.legend
+      t: Digunakan > Tidak akan digunakan lagi
 
     # tools experience (short versions)
     - key: options.tools.never_heard.short

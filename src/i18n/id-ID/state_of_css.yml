@@ -14,7 +14,7 @@ translations:
 
 
           Jadi, setelah keberhasilan survei State Of JavaScript tahunan kami,
-          kami telah memutuskan untuk mengambil pada dunia styles dan selectors. 
+          kami telah memutuskan untuk mengambil pada dunia styles dan selectors.
           Kami berharap Anda akan membantu kami mengidentifikasi tren terbaru, dan mencari tahu alat apa yang harus dipelajari dan digunakan selanjutnya!
 
     ###########################################################################
@@ -66,20 +66,32 @@ translations:
     - key: sections.pre_post_processors.description
       t: Utilitas yang meningkatkan CSS.
 
+    - key: sections.pre_post_processors_others.title # TODO
+      t: Other Pre-/Post-processors
+
     - key: sections.css_frameworks.title
       t: Kerangka CSS
     - key: sections.css_frameworks.description
       t: Pustaka yang memberi anda komponen dan gaya yang siap pakai.
+
+    - key: sections.css_frameworks_others.title # TODO
+      t: Other CSS Frameworks
 
     - key: sections.css_methodologies.title
       t: Metodologi CSS
     - key: sections.css_methodologies.description
       t: Cara terkodifikasi untuk menulis CSS yang lebih bersih.
 
+    - key: sections.css_methodologies_others.title # TODO
+      t: Other CSS Methodologies
+
     - key: sections.css_in_js.title
       t: CSS-in-JS
     - key: sections.css_in_js.description
       t: Pustaka yang membantu mengintegrasikan CSS ke dalam kode Javascript.
+
+    - key: sections.css_in_js_others.title # TODO
+      t: Other CSS-in-JS Libraries
 
     - key: sections.environments.title
       t: Lingkungan
@@ -93,22 +105,44 @@ translations:
     # CSS for print
     - key: options.css_for_print.0
       t: Saya (hampir) tidak pernah menulis print styles
+    - key: options.css_for_print.0.short # TODO
+      t: Never
+
     - key: options.css_for_print.1
       t: Saya terkadang menulis print styles
+    - key: options.css_for_print.1.short # TODO
+      t: Occasionally
+
     - key: options.css_for_print.2
       t: Saya menulis print styles dari sebagian besar proyek.
+    - key: options.css_for_print.2.short # TODO
+      t: Often
+
     - key: options.css_for_print.3
       t: Fokus utama saya pada CSS untuk print.
+    - key: options.css_for_print.3.short # TODO
+      t: Mainly
 
     # CSS for email
     - key: options.css_for_email.0
       t: Saya (hampir) tidak pernah menulis CSS untuk email klien
+    - key: options.css_for_email.0.short # TODO
+      t: Never
+
     - key: options.css_for_email.1
       t: Saya terkadang menulis CSS untuk email klien
+    - key: options.css_for_email.1.short # TODO
+      t: Occasionally
+
     - key: options.css_for_email.2
       t: Saya menulis CSS untuk email klien di sebagian besar proyek
+    - key: options.css_for_email.2.short # TODO
+      t: Often
+
     - key: options.css_for_email.3
       t: Fokus utama saya pada CSS untuk email klien
+    - key: options.css_for_email.3.short # TODO
+      t: Mainly
 
     ###########################################################################
     # Features
@@ -291,6 +325,8 @@ translations:
 
     - key: features_others.combinators
       t: Combinators
+    - key: features_others.combinators.description # TODO
+      t: Which of these combinations CSS selectors have you used?
 
     - key: options.combinators.descendant
       t: div span (descendant)
@@ -303,6 +339,8 @@ translations:
 
     - key: features_others.tree_document_structure
       t: Tree / Struktur Dokumen
+    - key: features_others.tree_document_structure.description # TODO
+      t: Which of these structure related CSS selectors have you used?
 
     - key: options.tree_document_structure.root
       t: :root
@@ -341,6 +379,8 @@ translations:
 
     - key: features_others.attributes
       t: Atribut
+    - key: features_others.attributes.description # TODO
+      t: Which of these CSS attributes selectors have you used?
 
     - key: options.attributes.presence
       t: div[foo] (Presence)
@@ -357,6 +397,8 @@ translations:
 
     - key: features_others.links_urls
       t: Link/URLs
+    - key: features_others.links_urls.description # TODO
+      t: Which of these links & URLs related CSS selectors have you used?
 
     - key: options.links_urls.any_link
       t: :any-link
@@ -369,6 +411,8 @@ translations:
 
     - key: features_others.interaction
       t: Interaksi
+    - key: features_others.interaction.description # TODO
+      t: Which of these interaction CSS selectors have you used?
 
     - key: options.interaction.hover
       t: :hover
@@ -383,6 +427,8 @@ translations:
 
     - key: features_others.form_controls
       t: Kontrol Form
+    - key: features_others.form_controls.description # TODO
+      t: Which of these form related CSS selectors have you used?
 
     - key: options.form_controls.enabled_disabled
       t: :enabled and :disabled
@@ -435,21 +481,33 @@ translations:
 
     - key: opinions.css_easy_to_learn
       t: CSS mudah dipelajari
+    - key: opinions.css_easy_to_learn.title # TODO
+      t: Learning Curve
 
     - key: opinions.css_evolving_slowly
       t: CSS berkembang terlalu lambat
+    - key: opinions.css_evolving_slowly.title # TODO
+      t: Rate of Change
 
     - key: opinions.utility_classes_to_be_avoided
       t: Kelas utilitas (non-semantic) (.center, .large-text, dll.) harus dihindari
+    - key: opinions.utility_classes_to_be_avoided.title # TODO
+      t: Non-Semantic Classes
 
     - key: opinions.selector_nesting_to_be_avoided
       t: Penyarangan pemilih (.foo .bar ul li {...}) harus di hindari
+    - key: opinions.selector_nesting_to_be_avoided.title # TODO
+      t: Selector Nesting
 
     - key: opinions.css_is_programming_language
       t: CSS adalah bahasa pemrograman
+    - key: opinions.css_is_programming_language.title # TODO
+      t: Programming Language
 
     - key: opinions.enjoy_writing_css
       t: Saya menikmati menulis CSS
+    - key: opinions.enjoy_writing_css.title # TODO
+      t: Enjoyment
 
     - key: opinions_other.currently_missing_from_css.others
       t: Apa yang anda rasakan yang saat ini hilang dari CSS?

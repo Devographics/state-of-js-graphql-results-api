@@ -64,20 +64,32 @@ translations:
     - key: sections.pre_post_processors.description
       t: Outils qui améliorent CSS.
 
+    - key: sections.pre_post_processors_others.title # TODO
+      t: Other Pre-/Post-processors
+
     - key: sections.css_frameworks.title
       t: Frameworks CSS
     - key: sections.css_frameworks.description
       t: Librairies qui fournissent des composants et styles pré-réalisés.
+
+    - key: sections.css_frameworks_others.title # TODO
+      t: Other CSS Frameworks
 
     - key: sections.css_methodologies.title
       t: Méthodologies CSS
     - key: sections.css_methodologies.description
       t: Méthodes codifiés d'écrire du CSS plus propre.
 
+    - key: sections.css_methodologies_others.title # TODO
+      t: Other CSS Methodologies
+
     - key: sections.css_in_js.title
       t: CSS-in-JS
     - key: sections.css_in_js.description
       t: Librairies permettant d'intégrer du CSS dans du code JavaScript.
+
+    - key: sections.css_in_js_others.title # TODO
+      t: Other CSS-in-JS Libraries
 
     - key: sections.environments.title
       t: Environnements
@@ -91,22 +103,45 @@ translations:
     # CSS for print
     - key: options.css_for_print.0
       t: Je n'imprime (quasiment) jamais du style
+    - key: options.css_for_print.0.short # TODO
+      t: Never
+
     - key: options.css_for_print.1
       t: J'imprime parfois du style
+    - key: options.css_for_print.1.short # TODO
+      t: Occasionally
+
     - key: options.css_for_print.2
       t: J'écris du style d'impression pour la plupart de mes projets
+    - key: options.css_for_print.2.short # TODO
+      t: Often
+
     - key: options.css_for_print.3
       t: Je me concentre principalement sur le CSS pour l'impression
+    - key: options.css_for_print.3.short # TODO
+      t: Mainly
 
     # CSS for email
     - key: options.css_for_email.0
       t: Je n'écris (quasiment) jamais du CSS pour des clients mails
+    - key: options.css_for_email.0.short # TODO
+      t: Never
+
+
     - key: options.css_for_email.1
       t: J'écris parfois du CSS pour des clients mails
+    - key: options.css_for_email.1.short # TODO
+      t: Occasionally
+
     - key: options.css_for_email.2
       t: J'écris du CSS pour des clients mails pour la plupart de mes projets
+    - key: options.css_for_email.2.short # TODO
+      t: Often
+
     - key: options.css_for_email.3
       t: Je me concentre principalement sur le CSS pour les clients mails
+    - key: options.css_for_email.3.short # TODO
+      t: Mainly
 
     ###########################################################################
     # Features
@@ -289,6 +324,8 @@ translations:
 
     - key: features_others.combinators
       t: Combinaisons
+    - key: features_others.combinators.description # TODO
+      t: Which of these combinations CSS selectors have you used?
 
     - key: options.combinators.descendant
       t: div span (descendant)
@@ -301,6 +338,8 @@ translations:
 
     - key: features_others.tree_document_structure
       t: Hiérarchie / Structure de document
+    - key: features_others.tree_document_structure.description # TODO
+      t: Which of these structure related CSS selectors have you used?
 
     - key: options.tree_document_structure.root
       t: :root
@@ -339,6 +378,8 @@ translations:
 
     - key: features_others.attributes
       t: Attributs
+    - key: features_others.attributes.description # TODO
+      t: Which of these CSS attributes selectors have you used?
 
     - key: options.attributes.presence
       t: div[foo] (Présence)
@@ -355,6 +396,8 @@ translations:
 
     - key: features_others.links_urls
       t: Links/URLs
+    - key: features_others.links_urls.description # TODO
+      t: Which of these links & URLs related CSS selectors have you used?
 
     - key: options.links_urls.any_link
       t: :any-link
@@ -367,6 +410,8 @@ translations:
 
     - key: features_others.interaction
       t: Interaction
+    - key: features_others.interaction.description # TODO
+      t: Which of these interaction CSS selectors have you used?
 
     - key: options.interaction.hover
       t: :hover
@@ -381,6 +426,8 @@ translations:
 
     - key: features_others.form_controls
       t: Form Controls
+    - key: features_others.form_controls.description # TODO
+      t: Which of these form related CSS selectors have you used?
 
     - key: options.form_controls.enabled_disabled
       t: :enabled et :disabled
@@ -440,21 +487,33 @@ translations:
 
     - key: opinions.css_easy_to_learn
       t: CSS est façile à apprendre
+    - key: opinions.css_easy_to_learn.title # TODO
+      t: Learning Curve
 
     - key: opinions.css_evolving_slowly
       t: CSS évolue trop lentement
+    - key: opinions.css_evolving_slowly.title # TODO
+      t: Rate of Change
 
     - key: opinions.utility_classes_to_be_avoided
       t: Les classes utilitaires (.center, .large-text, etc.) devraient être évitées
+    - key: opinions.utility_classes_to_be_avoided.title # TODO
+      t: Non-Semantic Classes
 
     - key: opinions.selector_nesting_to_be_avoided
       t: L'imbrication de sélecteurs (.foo .bar ul li {...}) devrait être évitée
+    - key: opinions.selector_nesting_to_be_avoided.title # TODO
+      t: Selector Nesting
 
     - key: opinions.css_is_programming_language
       t: CSS est un langage de programmation
+    - key: opinions.css_is_programming_language.title # TODO
+      t: Programming Language
 
     - key: opinions.enjoy_writing_css
       t: J'aime écrire du CSS
+    - key: opinions.enjoy_writing_css.title # TODO
+      t: Enjoyment
 
     - key: opinions_other.currently_missing_from_css.others
       t: Quelle fonctionnalité est actuellement manquante dans CSS selon vous ?

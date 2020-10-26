@@ -148,6 +148,14 @@ translations:
   - key: options.features.used
     t: 👍 I've used it
 
+  # features (no emoji)
+  - key: options.features.never_heard.label
+    t: Never heard of it/Not sure what it is
+  - key: options.features.heard.label
+    t: Know what it is, but haven't used it
+  - key: options.features.used.label
+    t: I've used it
+
   # features (short versions)
   - key: options.features.never_heard.short
     t: Never heard of it
@@ -179,6 +187,18 @@ translations:
     t: 👍 Used it > Would use again
   - key: options.tools.would_not_use
     t: 👎 Used it > Would not use again
+
+  # tools experience (no emoji)
+  - key: options.tools.never_heard.legend
+    t: Never heard of it/Not sure what it is
+  - key: options.tools.interested.legend
+    t: Heard of it > Would like to learn
+  - key: options.tools.not_interested.legend
+    t: Heard of it > Not interested
+  - key: options.tools.would_use.legend
+    t: Used it > Would use again
+  - key: options.tools.would_not_use.legend
+    t: Used it > Would not use again
 
   # tools experience (short versions)
   - key: options.tools.never_heard.short

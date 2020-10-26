@@ -158,6 +158,14 @@ translations:
     - key: options.features.used
       t: 👍 Je l'ai utilisé
 
+    # features (no emoji)
+    - key: options.features.never_heard.label
+      t: Je n'en ai jamais entendu parler / Je ne suis pas sur de ce que c'est
+    - key: options.features.heard.label
+      t: Je sais ce que c'est, mais je ne l'ai jamais utilisé
+    - key: options.features.used.label
+      t: Je l'ai utilisé
+
     # features (short versions)
     - key: options.features.never_heard.short
       t: Jamais entendu parler
@@ -189,6 +197,18 @@ translations:
       t: 👍 Je l'ai utilisé > Je l'utiliserai à nouveau
     - key: options.tools.would_not_use
       t: 👎 Je l'ai utilisé > Je ne l'utiliserai plus
+
+    # tools experience (no emoji)
+    - key: options.tools.never_heard.legend
+      t: Je n'en ai jamais entendu parler / Je ne suis pas sur de ce que c'est
+    - key: options.tools.interested.legend
+      t: J'en ai entendu parler > Je voudrais l'apprendre
+    - key: options.tools.not_interested.legend
+      t: J'en ai entendu parler > Je ne suis pas intéressé
+    - key: options.tools.would_use.legend
+      t: Je l'ai utilisé > Je l'utiliserai à nouveau
+    - key: options.tools.would_not_use.legend
+      t: Je l'ai utilisé > Je ne l'utiliserai plus
 
     # tools experience (short versions)
     - key: options.tools.never_heard.short

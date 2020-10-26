@@ -61,20 +61,32 @@ translations:
   - key: sections.pre_post_processors.description
     t: उपयोगिताएँ जो सीएसएस को बढ़ाती हैं।
 
+  - key: sections.pre_post_processors_others.title # TODO
+    t: Other Pre-/Post-processors
+
   - key: sections.css_frameworks.title
     t: CSS फ़्रेमवर्क
   - key: sections.css_frameworks.description
     t: लाइब्रेरी जो आपको पूर्व-निर्मित घटकों और शैलियाँ देते हैं।
+
+  - key: sections.css_frameworks_others.title # TODO
+    t: Other CSS Frameworks
 
   - key: sections.css_methodologies.title
     t: CSS के तरीके
   - key: sections.css_methodologies.description
     t: क्लीनर CSS लिखने के लिए संहिताबद्ध तरीके।
 
+  - key: sections.css_methodologies_others.title # TODO
+    t: Other CSS Methodologies
+
   - key: sections.css_in_js.title
     t: CSS-में-JS
   - key: sections.css_in_js.description
     t: लाइब्रेरी जो सीएसएस को जावास्क्रिप्ट कोड में एकीकृत करने में मदद करते हैं।
+
+  - key: sections.css_in_js_others.title # TODO
+    t: Other CSS-in-JS Libraries
 
   - key: sections.environments.title
     t: वातावरण

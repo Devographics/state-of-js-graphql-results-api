@@ -158,6 +158,14 @@ translations:
     - key: options.features.used
       t: 👍 用过
 
+    # features (no emoji)
+    - key: options.features.never_heard.label
+      t: 没听说过/不确定它是什么
+    - key: options.features.heard.label
+      t: 知道它是什么，但是没用过
+    - key: options.features.used.label
+      t: 用过
+
     # features (short versions)
     - key: options.features.never_heard.short
       t: 没听说过/不确定它是什么
@@ -189,6 +197,18 @@ translations:
       t: 👍 我使用过这个技术，以后也愿意再次使用
     - key: options.tools.would_not_use
       t: 👎 我使用过这个技术，但以后不愿意再用
+
+    # tools experience (no emoji)
+    - key: options.tools.never_heard.legend
+      t: 我从来没有听说过这个技术
+    - key: options.tools.interested.legend
+      t: 我听说过这个技术，且有学习的意向
+    - key: options.tools.not_interested.legend
+      t: 我听说过这个技术，但我不感兴趣
+    - key: options.tools.would_use.legend
+      t: 我使用过这个技术，以后也愿意再次使用
+    - key: options.tools.would_not_use.legend
+      t: 我使用过这个技术，但以后不愿意再用
 
     # tools experience (short versions)
     - key: options.tools.never_heard.short

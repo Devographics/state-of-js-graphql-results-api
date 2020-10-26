@@ -166,6 +166,14 @@ translations:
     - key: options.features.used
       t: 👍 Už jsem použil
 
+    # features (no emoji)
+    - key: options.features.never_heard.label
+      t: Neslyšel jsem/Nevím přesně, o co jde
+    - key: options.features.heard.label
+      t: Znám, ale nepoužil jsem
+    - key: options.features.used.label
+      t: Už jsem použil
+
     # features (short versions)
     - key: options.features.never_heard.short
       t: Nevím přesně, o co jde
@@ -197,6 +205,18 @@ translations:
       t: 👍 Použil jsem > Použil bych znovu
     - key: options.tools.would_not_use
       t: 👎 Použil jsem > Stačilo jednou
+
+    # tools experience (no emoji)
+    - key: options.tools.never_heard.legend
+      t: Neslyšel jsem/Nevím přesně, o co jde
+    - key: options.tools.interested.legend
+      t: Slyšel jsem o tom > Rád bych to uměl
+    - key: options.tools.not_interested.legend
+      t: Slyšel jsem o tom > Nemám zájem
+    - key: options.tools.would_use.legend
+      t: Použil jsem > Použil bych znovu
+    - key: options.tools.would_not_use.legend
+      t: Použil jsem > Stačilo jednou
 
     # tools experience (short versions)
     - key: options.tools.never_heard.short
