@@ -292,6 +292,8 @@ translations:
 
     - key: features_others.combinators
       t: Комбинаторы
+    - key: features_others.combinators.description
+      t: Какие из этих CSS-комбинаторов вы использовали?
 
     - key: options.combinators.descendant
       t: div span (комбинатор потомка)
@@ -304,6 +306,8 @@ translations:
 
     - key: features_others.tree_document_structure
       t: Структура дерева/документа
+    - key: features_others.tree_document_structure.description
+      t: Какие из этих CSS-селекторов, связанных со структурой документа, вы использовали?
 
     - key: options.tree_document_structure.root
       t: :root
@@ -342,6 +346,8 @@ translations:
 
     - key: features_others.attributes
       t: Атрибуты
+    - key: features_others.attributes.description
+      t: Какие из этих CSS-селекторов атрибутов вы использовали?
 
     - key: options.attributes.presence
       t: div[foo] (имеет определённый атрибут)
@@ -358,11 +364,13 @@ translations:
 
     - key: features_others.links_urls
       t: Ссылки/URL-адреса
-
+    - key: features_others.links_urls.description
+      t: Какие из этих CSS-селекторов пседоклассов, связанных со ссылками, вы использовали?
+      
     - key: options.links_urls.any_link
       t: :any-link
     - key: options.links_urls.link_visited
-      t: :link and :visited
+      t: :link и :visited
     - key: options.links_urls.local_link
       t: :local-link
     - key: options.links_urls.target
@@ -370,6 +378,8 @@ translations:
 
     - key: features_others.interaction
       t: Взаимодействие
+    - key: features_others.interaction.description
+      t: Какие из этих CSS-селекторов взаимодействия вы использовали?
 
     - key: options.interaction.hover
       t: :hover
@@ -384,6 +394,8 @@ translations:
 
     - key: features_others.form_controls
       t: Управление полями формы
+    - key: features_others.form_controls.description
+      t: Какие из этих CSS-селекторов формы вы использовали?
 
     - key: options.form_controls.enabled_disabled
       t: :enabled и :disabled
