@@ -11,6 +11,7 @@ const localeDirectories: any = {
     'es-ES': require.context('./es-ES/', true, /\.yml$/),
     'fr-FR': require.context('./fr-FR/', true, /\.yml$/),
     'hi-IN': require.context('./hi-IN/', true, /\.yml$/),
+    'id-ID': require.context('./id-ID/', true, /\.yml$/),
     'it-IT': require.context('./it-IT/', true, /\.yml$/),
     'pl-PL': require.context('./pl-PL/', true, /\.yml$/),
     'pt-PT': require.context('./pt-PT/', true, /\.yml$/),
