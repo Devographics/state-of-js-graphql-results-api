@@ -537,7 +537,7 @@ translations:
     - key: user_info.email
       t: Your Email
     - key: user_info.country
-      t: Your Country
+      t: Your Country or Region
 
     ###########################################################################
     # Other Tools
