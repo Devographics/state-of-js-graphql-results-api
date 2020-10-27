@@ -207,7 +207,7 @@ translations:
     - key: features.web_fonts
       t: 網路字型 (@font-face)
     - key: features.variables_fonts
-      t: 可變換字型
+      t: 可變換字型 (Variable fonts)
     - key: features.line_breaking
       t: 換行參數 (Line breaking)
     - key: features.line_breaking.description
@@ -338,7 +338,7 @@ translations:
     - key: features_others.tree_document_structure
       t: 樹狀 / 文件結構
     - key: features_others.tree_document_structure.description
-      t: 用過哪些結構相關的 CSS 選擇器？ Which of these structure related CSS selectors have you used?
+      t: 用過哪些結構相關的 CSS 選擇器？
 
     - key: options.tree_document_structure.root
       t: :root

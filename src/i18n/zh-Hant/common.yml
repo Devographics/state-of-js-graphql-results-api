@@ -71,7 +71,7 @@ translations:
       t: 目錄
     - key: general.all_questions_optional
       t: >
-          提醒：所有問題都不是必填，不一定得要達到 100% 完成度。
+          附註：所有問題都不是必填，不一定得要達到 100% 完成度。
     - key: general.data_is_saved
       t: 不管回到上一段還是跳到下一段，資料都有儲存起來。
 
@@ -309,7 +309,7 @@ translations:
 
     # salary
     - key: options.yearly_salary.range_work_for_free
-      t: 我做功德
+      t: 我免費做功德
     - key: options.yearly_salary.range_0_10
       t: $0k-$10k
     - key: options.yearly_salary.range_10_30
