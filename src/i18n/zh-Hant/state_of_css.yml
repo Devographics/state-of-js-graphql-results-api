@@ -64,7 +64,7 @@ translations:
     - key: sections.pre_post_processors.description
       t: 強化 CSS 的工具。
 
-    - key: sections.pre_post_processors_others.title # TODO
+    - key: sections.pre_post_processors_others.title
       t: Other Pre-/Post-processors
 
     - key: sections.css_frameworks.title
@@ -72,24 +72,24 @@ translations:
     - key: sections.css_frameworks.description
       t: 提供已預先做好的元件和樣式程式庫。
 
-    - key: sections.css_frameworks_others.title # TODO
-      t: Other CSS Frameworks
+    - key: sections.css_frameworks_others.title
+      t: 其他 CSS 框架
 
     - key: sections.css_methodologies.title
       t: CSS 方法論
     - key: sections.css_methodologies.description
       t: 用程式化方法撰寫更乾淨的 CSS。
 
-    - key: sections.css_methodologies_others.title # TODO
-      t: Other CSS Methodologies
+    - key: sections.css_methodologies_others.title
+      t: 其他 CSS 方法論
 
     - key: sections.css_in_js.title
       t: CSS-in-JS
     - key: sections.css_in_js.description
       t: 幫助 CSS 整合進 JavaScript 的程式庫。
 
-    - key: sections.css_in_js_others.title # TODO
-      t: Other CSS-in-JS Libraries
+    - key: sections.css_in_js_others.title
+      t: 其他 CSS-in-JS 程式庫
 
     - key: sections.environments.title
       t: 環境
@@ -103,44 +103,44 @@ translations:
     # CSS for print
     - key: options.css_for_print.0
       t: 我（幾乎）沒寫過列印的樣式。
-    - key: options.css_for_print.0.short # TODO
-      t: Never
+    - key: options.css_for_print.0.short
+      t: 從未
 
     - key: options.css_for_print.1
       t: 我偶爾寫列印的樣式。
-    - key: options.css_for_print.1.short # TODO
-      t: Occasionally
+    - key: options.css_for_print.1.short
+      t: 偶爾
 
     - key: options.css_for_print.2
       t: 我在許多專案裡會把列印用的樣式當作一部分來撰寫。
-    - key: options.css_for_print.2.short # TODO
-      t: Often
+    - key: options.css_for_print.2.short
+      t: 經常
 
     - key: options.css_for_print.3
       t: 我主要就是在寫列印用的 CSS。
-    - key: options.css_for_print.3.short # TODO
-      t: Mainly
+    - key: options.css_for_print.3.short
+      t: 主要
 
     # CSS for email
     - key: options.css_for_email.0
       t: 我（幾乎）沒寫過電子郵件客戶端的 CSS。
-    - key: options.css_for_email.0.short # TODO
-      t: Never
+    - key: options.css_for_email.0.short
+      t: 從未
 
     - key: options.css_for_email.1
       t: 我偶爾寫電子郵件客戶端的 CSS。
-    - key: options.css_for_email.1.short # TODO
-      t: Occasionally
+    - key: options.css_for_email.1.short
+      t: 偶爾
 
     - key: options.css_for_email.2
       t: 我在許多專案裡會把電子郵件客戶端的 CSS 當作一部分來撰寫。
-    - key: options.css_for_email.2.short # TODO
-      t: Often
+    - key: options.css_for_email.2.short
+      t: 經常
 
     - key: options.css_for_email.3
       t: 我主要就是在做電子郵件客戶端的 CSS。
-    - key: options.css_for_email.3.short # TODO
-      t: Mainly
+    - key: options.css_for_email.3.short
+      t: 主要
 
     ###########################################################################
     # Features
@@ -157,7 +157,7 @@ translations:
     - key: features.flexbox
       t: Flexbox
     - key: features.multi_column
-      t: CSS 多欄排版
+      t: CSS 多欄排版 (Multi-Column)
     - key: features.writing_modes
       t: CSS 書寫模式 (Writing Modes)
     - key: features.exclusions
@@ -263,7 +263,7 @@ translations:
     - key: features.comparison_functions
       t: CSS 比較函式 (Comparison Functions)
     - key: features.comparison_functions.description
-      t: <code>min()</code>, <code>max()</code>, and <code>clamp()</code>
+      t: <code>min()</code>、<code>max()</code> 和 <code>clamp()</code>
 
     ###########################################################################
     # Units & Selectors
@@ -323,8 +323,8 @@ translations:
 
     - key: features_others.combinators
       t: 組合語法
-    - key: features_others.combinators.description # TODO
-      t: Which of these combinations CSS selectors have you used?
+    - key: features_others.combinators.description
+      t: 用過哪些 CSS 組合語法選擇器？
 
     - key: options.combinators.descendant
       t: div span（後代）
@@ -337,8 +337,8 @@ translations:
 
     - key: features_others.tree_document_structure
       t: 樹狀 / 文件結構
-    - key: features_others.tree_document_structure.description # TODO
-      t: Which of these structure related CSS selectors have you used?
+    - key: features_others.tree_document_structure.description
+      t: 用過哪些結構相關的 CSS 選擇器？ Which of these structure related CSS selectors have you used?
 
     - key: options.tree_document_structure.root
       t: :root
@@ -377,11 +377,11 @@ translations:
 
     - key: features_others.attributes
       t: 屬性
-    - key: features_others.attributes.description # TODO
-      t: Which of these CSS attributes selectors have you used?
+    - key: features_others.attributes.description
+      t: 用過哪些 CSS 屬性選擇器？
 
     - key: options.attributes.presence
-      t: div[foo]（屬性存在）
+      t: div[foo]（具有此屬性）
     - key: options.attributes.equality
       t: div[foo="bar"]（屬性值完全符合）
     - key: options.attributes.starts_with
@@ -395,13 +395,13 @@ translations:
 
     - key: features_others.links_urls
       t: 連結/網址
-    - key: features_others.links_urls.description # TODO
-      t: Which of these links & URLs related CSS selectors have you used?
+    - key: features_others.links_urls.description
+      t: 用過哪些連結與網址相關的 CSS 選擇器？
 
     - key: options.links_urls.any_link
       t: :any-link
     - key: options.links_urls.link_visited
-      t: :link and :visited
+      t: :link 和 :visited
     - key: options.links_urls.local_link
       t: :local-link
     - key: options.links_urls.target
@@ -409,8 +409,8 @@ translations:
 
     - key: features_others.interaction
       t: 互動
-    - key: features_others.interaction.description # TODO
-      t: Which of these interaction CSS selectors have you used?
+    - key: features_others.interaction.description
+      t: 用過哪些互動的 CSS 選擇器？
 
     - key: options.interaction.hover
       t: :hover
@@ -425,13 +425,13 @@ translations:
 
     - key: features_others.form_controls
       t: 表單控制
-    - key: features_others.form_controls.description # TODO
-      t: Which of these form related CSS selectors have you used?
+    - key: features_others.form_controls.description
+      t: 用過哪些表單相關的 CSS 選擇器？
 
     - key: options.form_controls.enabled_disabled
-      t: :enabled and :disabled
+      t: :enabled 和 :disabled
     - key: options.form_controls.read_only_write
-      t: :read-only and :read-write
+      t: :read-only 和 :read-write
     - key: options.form_controls.placeholder_shown
       t: :placeholder-shown
     - key: options.form_controls.default
@@ -441,13 +441,13 @@ translations:
     - key: options.form_controls.indeterminate
       t: :indeterminate
     - key: options.form_controls.valid_invalid
-      t: :valid and :invalid
+      t: :valid 和 :invalid
     - key: options.form_controls.user_invalid
       t: :user-invalid
     - key: options.form_controls.in_out_range
-      t: :in-range and :out-of-range
+      t: :in-range 和 :out-of-range
     - key: options.form_controls.required_optional
-      t: :required and :optional
+      t: :required 和 :optional
 
     ###########################################################################
     # Environments
@@ -479,36 +479,36 @@ translations:
 
     - key: opinions.css_easy_to_learn
       t: CSS 很容易學
-    - key: opinions.css_easy_to_learn.title # TODO
-      t: Learning Curve
+    - key: opinions.css_easy_to_learn.title
+      t: 學習曲線
 
     - key: opinions.css_evolving_slowly
       t: CSS 的演進實在太慢了
-    - key: opinions.css_evolving_slowly.title # TODO
-      t: Rate of Change
+    - key: opinions.css_evolving_slowly.title
+      t: 變動速度
 
     - key: opinions.utility_classes_to_be_avoided
       t: 應該要避免使用 `.center` 和 `.large-text` 這樣工具式、非情境的 class
-    - key: opinions.utility_classes_to_be_avoided.title # TODO
-      t: Non-Semantic Classes
+    - key: opinions.utility_classes_to_be_avoided.title
+      t: 非情境 Class
 
     - key: opinions.selector_nesting_to_be_avoided
       t: 應該要避免使用像是 `.foo .bar ul li {...}` 這樣的巢狀選擇器
-    - key: opinions.selector_nesting_to_be_avoided.title # TODO
-      t: Selector Nesting
+    - key: opinions.selector_nesting_to_be_avoided.title
+      t: 巢狀選擇器
 
     - key: opinions.css_is_programming_language
       t: CSS 是一種程式語言
-    - key: opinions.css_is_programming_language.title # TODO
-      t: Programming Language
+    - key: opinions.css_is_programming_language.title
+      t: 程式語言
 
     - key: opinions.enjoy_writing_css
       t: 我喜歡撰寫 CSS
-    - key: opinions.enjoy_writing_css.title # TODO
-      t: Enjoyment
+    - key: opinions.enjoy_writing_css.title
+      t: 愉悅感
 
     - key: opinions_other.currently_missing_from_css.others
-      t: 你覺得 CSS 目前還缺了什麼？
+      t: 覺得 CSS 目前還缺了什麼？
     - key: opinions_other.currently_missing_from_css.others.description
       t: 希望未來有的 CSS 樣式。
 
