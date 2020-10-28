@@ -13,7 +13,7 @@ translations:
         Flexbox, Grid, Multi-Column… por no hablar del totalmente nuevo paradigma CSS-in-JS.
 
 
-        Así que después del éxito de nuestra encuesta anual sobre el Estado de JavaScrip,
+        Así que después del éxito de nuestra encuesta anual sobre el Estado de JavaScript,
         hemos decidido hacer una, dentro del mundo de los estilos y los selectores. ¡Esperamos
         que nos puedas ayudar a identificar las últimas tendencias, y las herramientas que
         debemos aprender y utilizar en el futuro!
@@ -97,7 +97,7 @@ translations:
     - key: sections.environments.title
       t: Entornos
     - key: sections.environments.description
-      t: ¿Para que entornos escribes CSS?
+      t: ¿Para qué entornos escribes CSS?
 
     ###########################################################################
     # Options
@@ -471,7 +471,7 @@ translations:
     - key: environments.form_factors
       t: Factor de Forma
     - key: environments.form_factors.description
-      t: ¿En que tamaños y formatos de pantalla haces pruebas?
+      t: ¿En qué tamaños y formatos de pantalla haces pruebas?
 
     - key: environments.css_for_print
       t: CSS para Imprimir
