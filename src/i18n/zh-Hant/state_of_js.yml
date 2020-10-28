@@ -103,7 +103,7 @@ translations:
     - key: options.css_for_email.2
       t: 我在許多專案裡會把電子郵件客戶端的 CSS 當作一部分來撰寫
     - key: options.css_for_email.3
-      t:我主要就是在做電子郵件客戶端的 CSS
+      t: 我主要就是在做電子郵件客戶端的 CSS
 
     ###########################################################################
     # Features
