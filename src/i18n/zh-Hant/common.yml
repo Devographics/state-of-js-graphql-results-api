@@ -538,7 +538,7 @@ translations:
     - key: user_info.email
       t: 電子郵件
     - key: user_info.country
-      t: 國家
+      t: 國家或區域
 
     ###########################################################################
     # Other Tools

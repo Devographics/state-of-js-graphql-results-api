@@ -42,9 +42,9 @@ translations:
       t: The features provided by the browser.
 
     - key: sections.other_features.title
-      t: Other Features
+      t: 其他功能
     - key: sections.other_features.description
-      t: Other technologies and patterns
+      t: 其他技術與模式
 
     - key: sections.patterns.title
       t: Patterns
@@ -87,23 +87,23 @@ translations:
 
     # CSS for print
     - key: options.css_for_print.0
-      t: I (almost) never write print styles
+      t: 我（幾乎）沒寫過列印的樣式
     - key: options.css_for_print.1
-      t: I occasionally write print styles
+      t: 我偶爾寫列印的樣式
     - key: options.css_for_print.2
-      t: I write print styles as part of most projects
+      t: 我在許多專案裡會把列印用的樣式當作一部分來撰寫
     - key: options.css_for_print.3
-      t: I focus mainly on CSS for print
+      t: 我主要就是在寫列印用的 CSS
 
     # CSS for email
     - key: options.css_for_email.0
-      t: I (almost) never write CSS for email clients
+      t:  我（幾乎）沒寫過電子郵件客戶端的 CSS
     - key: options.css_for_email.1
-      t: I occasionally write CSS for email clients
+      t: 我偶爾寫電子郵件客戶端的 CSS
     - key: options.css_for_email.2
-      t: I write CSS for email clients as part of most projects
+      t: 我在許多專案裡會把電子郵件客戶端的 CSS 當作一部分來撰寫
     - key: options.css_for_email.3
-      t: I focus mainly on CSS for email clients
+      t:我主要就是在做電子郵件客戶端的 CSS
 
     ###########################################################################
     # Features
