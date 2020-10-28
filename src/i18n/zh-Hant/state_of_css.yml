@@ -102,43 +102,43 @@ translations:
 
     # CSS for print
     - key: options.css_for_print.0
-      t: 我（幾乎）沒寫過列印的樣式。
+      t: 我（幾乎）沒寫過列印的樣式
     - key: options.css_for_print.0.short
       t: 從未
 
     - key: options.css_for_print.1
-      t: 我偶爾寫列印的樣式。
+      t: 我偶爾寫列印的樣式
     - key: options.css_for_print.1.short
       t: 偶爾
 
     - key: options.css_for_print.2
-      t: 我在許多專案裡會把列印用的樣式當作一部分來撰寫。
+      t: 我在許多專案裡會把列印用的樣式當作一部分來撰寫
     - key: options.css_for_print.2.short
       t: 經常
 
     - key: options.css_for_print.3
-      t: 我主要就是在寫列印用的 CSS。
+      t: 我主要就是在寫列印用的 CSS
     - key: options.css_for_print.3.short
       t: 主要
 
     # CSS for email
     - key: options.css_for_email.0
-      t: 我（幾乎）沒寫過電子郵件客戶端的 CSS。
+      t: 我（幾乎）沒寫過電子郵件客戶端的 CSS
     - key: options.css_for_email.0.short
       t: 從未
 
     - key: options.css_for_email.1
-      t: 我偶爾寫電子郵件客戶端的 CSS。
+      t: 我偶爾寫電子郵件客戶端的 CSS
     - key: options.css_for_email.1.short
       t: 偶爾
 
     - key: options.css_for_email.2
-      t: 我在許多專案裡會把電子郵件客戶端的 CSS 當作一部分來撰寫。
+      t: 我在許多專案裡會把電子郵件客戶端的 CSS 當作一部分來撰寫
     - key: options.css_for_email.2.short
       t: 經常
 
     - key: options.css_for_email.3
-      t: 我主要就是在做電子郵件客戶端的 CSS。
+      t: 我主要就是在做電子郵件客戶端的 CSS
     - key: options.css_for_email.3.short
       t: 主要
 
