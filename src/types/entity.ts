@@ -3,11 +3,13 @@ import { MDN } from './mdn'
 
 export interface Entity {
     id: string
-    aliases: string[]
+    aliases?: string[]
     name: string
-    homepage: string
-    category: string
-    description: string
+    homepage?: string
+    category?: string
+    description?: string
+    tags?: string[]
+    match?: string[]
     github?: GitHub
     npm?: string
     type?: string

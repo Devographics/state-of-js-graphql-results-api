@@ -1,11 +1,6 @@
 import { EnumTypeDefinitionNode } from 'graphql'
-import { Entity } from './types'
-import entities from './data/entities.yml'
-import projects from './data/projects.yml'
 import typeDefs from './type_defs/schema.graphql'
-import features from './data/features.yml'
-
-const allEntities: Entity[] = [...projects, ...entities, ...features]
+import allEntities from './data/entities/index'
 
 export const getEntities = ({
     type,
@@ -16,22 +11,14 @@ export const getEntities = ({
     context: string
     tag: string
 }) => {
-    let allEntities = [
-        entities.map((e: Entity) => ({ ...e, type: 'entity' })),
-        // projects.map(e => ({ ...e, type: 'project' })),
-        features.map(e => ({ ...e, type: 'feature' }))
-    ].flat()
-
+    let entities = allEntities
     if (type) {
-        allEntities = allEntities.filter(e => e.type === type)
-    }
-    if (context) {
-        allEntities = allEntities.filter(e => e.context === context)
+        entities = entities.filter(e => e.type === type)
     }
     if (tag) {
-        allEntities = allEntities.filter(e => e.tags && e.tags.includes(tag))
+        entities = entities.filter(e => e.tags && e.tags.includes(tag))
     }
-    return allEntities
+    return entities
 }
 
 // Look up entities by id, name, or aliases (case-insensitive)

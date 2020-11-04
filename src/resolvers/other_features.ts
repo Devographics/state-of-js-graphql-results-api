@@ -1,10 +1,11 @@
 import { Db } from 'mongodb'
-import features from '../data/features.yml'
+import features from '../data/entities/features.yml'
 import { useCache } from '../caching'
 import { computeTermAggregationByYear } from '../compute'
 import { getOtherKey } from '../helpers'
 import { RequestContext, SurveyConfig } from '../types'
 import { Filters } from '../filters'
+import { Entity } from '../types'
 
 interface OtherFeaturesConfig {
     survey: SurveyConfig
@@ -28,7 +29,7 @@ const computeOtherFeatures = async (
         return {
             ...yearOtherFeatures,
             buckets: yearOtherFeatures.buckets.map(bucket => {
-                const feature = features.find(f => f.id === bucket.id)
+                const feature = features.find((f: Entity) => f.id === bucket.id)
 
                 return {
                     ...bucket,

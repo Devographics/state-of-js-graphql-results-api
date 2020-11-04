@@ -1,3 +1,5 @@
+// import { Entity } from './src/types'
+
 declare module '*.graphql' {
     import { DocumentNode } from 'graphql'
     const Schema: DocumentNode
@@ -8,14 +10,14 @@ declare module '*.graphql' {
 /**
  * Define the type for the static features yaml file
  */
-declare module '*features.yml' {
-    interface FeatureData {
+declare module 'entities/*.yml' {
+    interface Entity {
         id: string
         name: string
         mdn?: string
         caniuse?: string
     }
-    const content: FeatureData[]
+    const content: Entity[]
 
     export default content
 }

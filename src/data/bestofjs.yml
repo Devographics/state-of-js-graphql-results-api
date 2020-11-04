@@ -2367,6 +2367,10 @@
   github: emotion-js/emotion
   description: CSS-in-JS library designed for high performance style composition
   homepage: 'https://emotion.sh/'
+  tags: 
+    - state-of-css-2020
+    - state-of-css-2021
+    - state-of-js-2020
 - id: react-native-navigation
   name: React Native Navigation
   npm: react-native-navigation

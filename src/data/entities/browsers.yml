@@ -1,0 +1,85 @@
+- id: chrome
+  name: Chrome
+  homepage: https://www.google.com/chrome/
+  category: browsers
+- id: chrome_android
+  name: Chrome Android
+  homepage: https://www.google.com/chrome/
+  category: browsers
+- id: chrome_ios
+  name: Chrome iOS
+  homepage: https://www.google.com/chrome/
+  category: browsers
+- id: brave
+  name: Brave
+  homepage: https://brave.com/
+  category: browsers
+- id: chromium
+  name: Chromium
+  homepage: https://www.chromium.org/Home
+  category: browsers
+- id: edge
+  name: Edge
+  homepage: https://www.microsoft.com/en-us/windows/microsoft-edge
+  category: browsers
+- id: firefox
+  name: Firefox
+  homepage: https://www.mozilla.org/en-US/firefox/new/
+  category: browsers
+- id: firefox_developer
+  name: Firefox Quantum
+  homepage: https://www.mozilla.org/en-US/firefox/developer/
+  category: browsers
+  aliases:
+      - Firefox Developers Edition
+- id: firefox_android
+  name: Firefox Android
+  homepage: https://www.mozilla.org/en-US/firefox/new/
+  category: browsers
+- id: internet_explorer_11
+  name: Internet Explorer 11
+  homepage: https://www.microsoft.com/en-us/download/internet-explorer-11-for-windows-7-details.aspx
+- id: internet_explorer_8_9_10
+  name: Internet Explorer 8/9/10
+  homepage: https://www.microsoft.com/en-us/download/internet-explorer.aspx
+  aliases:
+      - Internet Explorer
+
+- id: opera
+  name: Opera
+  homepage: https://www.opera.com/
+  category: browsers
+- id: opera_mini
+  name: Opera Mini
+  homepage: https://www.opera.com/mobile
+  category: browsers
+- id: samsung_internet
+  name: Samsung Internet
+  homepage: https://play.google.com/store/apps/details?id=com.sec.android.app.sbrowser&hl=en_US
+  category: browsers
+  aliases:
+      - Samsung
+- id: ucbrowser
+  name: UC Browser
+  homepage: https://www.ucweb.com/
+  category: browsers
+- id: polypane
+  name: Polypane
+  homepage: https://polypane.app/
+  category: browsers
+- id: yandex
+  name: Yandex
+  homepage: https://browser.yandex.com/
+  category: browsers
+- id: safari
+  name: Safari
+  homepage: https://www.apple.com/safari/
+  category: browsers
+- id: safari_ios
+  name: Safari iOS
+  homepage: https://www.apple.com/safari/
+  category: browsers
+- id: vivaldi
+  name: Vivaldi
+  homepage: https://vivaldi.com/
+  category: browsers

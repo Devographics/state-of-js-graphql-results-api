@@ -1,11 +1,8 @@
 import { EnumTypeDefinitionNode } from 'graphql'
 import { Entity, StringFile, Locale, TranslationString } from './types'
-import entities from './data/entities.yml'
-import projects from './data/projects.yml'
+import entities from './data/entities/index'
 import typeDefs from './type_defs/schema.graphql'
 import locales from './i18n/'
-
-const allEntities: Entity[] = [...projects, ...entities]
 
 // Look up entities by id, name, or aliases (case-insensitive)
 export const getEntity = ({ id }: { id: string }) => {
@@ -14,7 +11,7 @@ export const getEntity = ({ id }: { id: string }) => {
     }
 
     const lowerCaseId = id.toLowerCase()
-    const entity = allEntities.find(e => {
+    const entity = entities.find(e => {
         return (
             (e.id && e.id.toLowerCase() === lowerCaseId) ||
             (e.id && e.id.toLowerCase().replace(/\-/g, '_') === lowerCaseId) ||

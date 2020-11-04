@@ -1,10 +1,11 @@
 import { Db } from 'mongodb'
 import { useCache } from '../caching'
 import { fetchMdnResource } from '../external_apis'
-import features from '../data/features.yml'
+import features from '../data/entities/features.yml'
 import { RequestContext, SurveyConfig } from '../types'
 import { computeTermAggregationByYear } from '../compute'
 import { Filters } from '../filters'
+import { Entity } from '../types'
 
 const computeFeatureExperience = async (
     db: Db,
@@ -32,12 +33,12 @@ export default {
     },
     Feature: {
         name: ({ id }: { id: string }) => {
-            const feature = features.find(f => f.id === id)
+            const feature = features.find((f: Entity) => f.id === id)
 
             return feature && feature.name
         },
         mdn: async ({ id }: { id: string }) => {
-            const feature = features.find(f => f.id === id)
+            const feature = features.find((f: Entity) => f.id === id)
             if (!feature || !feature.mdn) {
                 return
             }

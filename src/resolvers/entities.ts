@@ -1,9 +1,9 @@
 import { GitHub, SurveyConfig, Entity } from '../types'
-import projects from '../data/projects.yml'
+import projects from '../data/bestofjs.yml'
 import { fetchMdnResource } from '../external_apis'
 
 const getSimulatedGithub = (id: string): GitHub | null => {
-    const project = projects.find(p => p.id === id)
+    const project = projects.find((p: Entity) => p.id === id)
 
     if (project !== undefined) {
         const { name, description, github, stars, homepage } = project
