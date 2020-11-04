@@ -399,7 +399,7 @@
   name: Alpine.js
   npm: alpinejs
   github: alpinejs/alpine
-  description: >-
+  description: >
       A rugged, minimal framework for composing JavaScript behavior in your
       markup.
   homepage: null
@@ -461,9 +461,15 @@
   description: State machines and statecharts for the modern web.
   homepage: 'https://xstate.js.org/docs'
 
-
 - id: firebase
   name: Firebase
+
+- id: vuex
+  name: Vuex
+  npm: vuex
+  github: vuejs/vuex
+  description: Centralized State Management for Vue.js.
+  homepage: 'https://vuex.vuejs.org'
 
 #################################################
 # Back-End Frameworks
@@ -567,6 +573,20 @@
   description: A secure JavaScript and TypeScript runtime
   homepage: 'https://deno.land'
 
+- id: redwood
+  name: Redwood
+  npm: null
+  github: redwoodjs/redwood
+  description: Bringing full-stack to the Jamstack.
+  homepage: 'https://redwoodjs.com'
+
+- id: hapi
+  name: Hapi
+  npm: '@hapi/hapi'
+  github: hapijs/hapi
+  description: 'The Simple, Secure Framework Developers Trust'
+  homepage: 'https://hapi.dev'
+
 
 #################################################
 # Testing
@@ -630,7 +650,7 @@
   description: Headless Chrome Node.js API
   homepage: 'https://pptr.dev/'
 
-- id: react-testing-library
+- id: react_testing_library
   name: react-testing-library
   npm: '@testing-library/react'
   github: testing-library/react-testing-library
@@ -750,6 +770,13 @@
       Images, JSON, Coffeescript, LESS, ... and your custom stuff.
   homepage: 'https://webpack.js.org'
 
+- id: babel
+  name: Babel
+  npm: babel-core
+  github: babel/babel
+  description: A compiler for writing next generation JavaScript.
+  homepage: 'https://babel.dev'
+
 - id: parcel
   name: Parcel
   npm: parcel-bundler
@@ -828,7 +855,7 @@
   description: 'Build cross-platform desktop apps with JavaScript, HTML, and CSS'
   homepage: 'https://electronjs.org'
 
-- id: reactnative
+- id: react_native
   name: React Native
   homepage: https://facebook.github.io/react-native/
 
@@ -870,9 +897,142 @@
 - id: flutter
   name: Flutter
   homepage: https://flutter.io/
-  category: mobile-desktop
+  tags: 
+    - mobile-desktop
 
 - id: capacitor
   name: Capacitor
   homepage: https://capacitor.ionicframework.com/
-  category: mobile-desktop
+  tags: 
+    - mobile-desktop
+
+
+#################################################
+# Other Tools
+#################################################
+
+- id: immer
+  name: Immer
+  npm: immer
+  github: immerjs/immer
+  description: Create the next immutable state by mutating the current one
+  homepage: 'https://immerjs.github.io/immer/'
+
+- id: lodash
+  name: Lodash
+  npm: lodash
+  github: lodash/lodash
+  description: >-
+      A modern JavaScript utility library delivering modularity, performance, &
+      extras.
+  homepage: 'https://lodash.com/'
+
+- id: underscore
+  name: Underscore
+  npm: underscore
+  github: jashkenas/underscore
+  description: JavaScript's utility _ belt
+  homepage: 'https://underscorejs.org'
+
+- id: moment
+  name: Moment
+  npm: moment
+  github: moment/moment
+  description: 'Parse, validate, manipulate, and display dates in javascript.'
+  homepage: 'https://momentjs.com/'
+
+- id: dayjs
+  name: Day.js
+  npm: dayjs
+  github: iamkun/dayjs
+  description: >-
+      Day.js 2KB immutable date-time library alternative to Moment.js with the
+      same modern API
+  homepage: 'https://day.js.org'
+
+- id: date_fns
+  name: date-fns
+  npm: date-fns
+  github: date-fns/date-fns
+  description: Modern JavaScript date utility library ️
+  homepage: 'https://date-fns.org'
+
+- id: luxon
+  name: Luxon
+  npm: luxon
+  github: moment/luxon
+  description: ⏱ A library for working with dates and times in JS
+  homepage: 'https://moment.github.io/luxon'
+
+- id: ramda
+  name: Ramda
+  npm: ramda
+  github: ramda/ramda
+  description: Practical functional Javascript
+  homepage: 'https://ramdajs.com'
+
+- id: jquery
+  name: jQuery
+  npm: jquery
+  github: jquery/jquery
+  description: jQuery JavaScript Library
+  homepage: 'https://jquery.com/'
+
+- id: rxjs
+  name: RxJS
+  npm: rx
+  github: ReactiveX/rxjs
+  description: A reactive programming library for JavaScript
+  homepage: 'https://rxjs.dev'
+
+- id: axios
+  name: Axios
+  npm: axios
+  github: axios/axios
+  description: Promise based HTTP client for the browser and node.js
+  homepage: null
+
+- id: lerna
+  name: Lerna
+  npm: lerna
+  github: lerna/lerna
+  description: A tool for managing JavaScript projects with multiple packages.
+  homepage: 'https://lerna.js.org'
+
+- id: prettier
+  name: Prettier
+  npm: prettier
+  github: prettier/prettier
+  description: Prettier is an opinionated code formatter.
+  homepage: 'https://prettier.io'
+
+- id: eslint
+  name: ESLint
+  npm: eslint
+  github: eslint/eslint
+  description: Find and fix problems in your JavaScript code.
+  homepage: 'https://eslint.org'
+
+- id: nvm
+  name: nvm
+  npm: null
+  github: nvm-sh/nvm
+  description: >-
+      Node Version Manager - POSIX-compliant bash script to manage multiple active
+      node.js versions
+  homepage: null
+
+- id: npm
+  name: Npm
+  npm: null
+  github: npm/cli
+  description: A package manager for JavaScript
+  homepage: 'https://npm.community'
+
+- id: yarn
+  name: Yarn
+  npm: null
+  github: yarnpkg/yarn
+  description: 'Fast, reliable, and secure dependency management.'
+  homepage: 'https://classic.yarnpkg.com'
+

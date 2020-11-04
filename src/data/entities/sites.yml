@@ -1,435 +1,537 @@
 - id: css_tricks
   name: CSS-Tricks
   homepage: https://css-tricks.com/
-  category: blogs
+  tags:
+    - blogs
   aliases:
-      - CSS-Tricks
+    - CSS-Tricks
 - id: smashing_magazine
   name: Smashing Magazine
   homepage: https://www.smashingmagazine.com/
-  category: blogs
+  tags:
+    - blogs
 - id: a_list_apart
   name: A List Apart
   homepage: https://alistapart.com/
-  category: blogs
+  tags:
+    - blogs
 - id: codrops
   name: Codrops
   homepage: https://tympanus.net/codrops/
-  category: blogs
+  tags:
+    - blogs
 - id: sitepoint
   name: SitePoint
   homepage: https://www.sitepoint.com/
-  category: blogs
+  tags:
+    - blogs
 - id: stack_overflow
   name: Stack Overflow
   homepage: https://stackoverflow.com/
-  category: resources
+  tags:
+    - resources
 - id: mdn
   name: MDN
   homepage: https://developer.mozilla.org/en-US/
-  category: resources
+  tags:
+    - resources
 - id: w3schools
   name: W3Schools
   homepage: https://www.w3schools.com/
-  category: resources
+  tags:
+    - resources
 - id: wesbos
   name: Wes Bos
   homepage: https://wesbos.com/
-  category: courses
+  tags:
+    - courses
   aliases:
-      - Wes Bos Courses (GSSGrid.io, Flexbox.io, etc.)
+    - Wes Bos Courses (GSSGrid.io, Flexbox.io, etc.)
 - id: freecodecamp
   name: freeCodeCamp
   homepage: https://www.freecodecamp.org/
-  category: courses
+  tags:
+    - courses
 - id: freecodecamp_announcement_css2019
   name: Announcement
   homepage: https://medium.com/free-code-camp/announcing-the-state-of-css-2019-survey-e1e4268df64d
-  category: blogs
+  tags:
+    - blogs
   aliases:
-      - announcement
+    - announcement
 - id: codecademy
   name: Codecademy
   homepage: https://www.codecademy.com/
-  category: courses
+  tags:
+    - courses
 - id: css_specs
   name: The CSS Specs
   homepage: https://www.w3.org/Style/CSS/specs.en.html
-  category: resources
+  tags:
+    - resources
 - id: pluralsight
   name: Pluralsight
   homepage: https://www.pluralsight.com/
-  category: courses
+  tags:
+    - courses
 - id: levelup
   name: Level Up Tutorials
   aliases:
-      - LevelUp Tutorials
+    - LevelUp Tutorials
   homepage: https://www.leveluptutorials.com/
-  category: courses
-
-
+  tags:
+    - courses
 
 - id: hn
   name: Hacker News
   homepage: https://news.ycombinator.com/
-  category: socialmedia
+  tags:
+    - socialmedia
 - id: stateofjs
   name: State of JS
   homepage: https://stateofjs.com
-  category: resources
+  tags:
+    - resources
 - id: stateofcss
   name: State of CSS
   homepage: https://stateofcss.com
-  category: resources
+  tags:
+    - resources
 - id: reddit
   name: Reddit
   homepage: https://reddit.com
-  category: socialmedia
+  tags:
+    - socialmedia
 - id: designernews
   name: Designer News
   homepage: https://www.designernews.co/
-  category: socialmedia
+  tags:
+    - socialmedia
 - id: one_page_love
   name: One Page Love
   homepage: https://onepagelove.com/
-  category: resources
+  tags:
+    - resources
 - id: sidebar
   name: Sidebar
   homepage: https://sidebar.io
-  category: newsletters
+  tags:
+    - newsletters
 - id: heydesigner
   name: HeyDesigner
   homepage: https://heydesigner.com
-  category: newsletters
+  tags:
+    - newsletters
 - id: front_end_front
   name: Front-End Front
   homepage: https://frontendfront.com/
-  category: newsletters
+  tags:
+    - newsletters
 - id: css_weekly
   name: CSS Weekly
   homepage: https://css-weekly.com/
-  category: newsletters
+  tags:
+    - newsletters
 - id: frontend_horse
   name: Frontend Horse
   homepage: https://frontend.horse/
-  category: newsletters
+  tags:
+    - newsletters
 - id: css_layout_news
   name: CSS Layout News
   homepage: http://csslayout.news/
-  category: newsletters
+  tags:
+    - newsletters
 - id: responsive_design_weekly
   name: Responsive Design Weekly
   homepage: http://responsivedesignweekly.com/
-  category: newsletters
+  tags:
+    - newsletters
 - id: muzli
   name: Muzli
   homepage: https://muz.li/
-  category: resources
+  tags:
+    - resources
 - id: wordpress_tavern
   name: WordPress Tavern
   homepage: https://wptavern.com/
-  category: resources
+  tags:
+    - resources
 - id: frontend_focus
   name: Frontend Focus
   homepage: https://frontendfoc.us/
-  category: newsletters
+  tags:
+    - newsletters
 - id: facebook
   name: Facebook
-  category: socialmedia
+  tags:
+    - socialmedia
   homepage: https://facebook.com
 - id: word_of_mouth
   name: Word Of Mouth
-  category: socialmedia
+  tags:
+    - socialmedia
 - id: producthunt
   name: Product Hunt
-  category: socialmedia
+  tags:
+    - socialmedia
   homepage: https://www.producthunt.com/
 - id: telegram
   name: Telegram
-  category: socialmedia
+  tags:
+    - socialmedia
   homepage: https://telegram.org/
 - id: slack
   name: Slack
-  category: socialmedia
+  tags:
+    - socialmedia
   homepage: https://slack.com/
 - id: hangouts
   name: Hangouts
-  category: socialmedia
+  tags:
+    - socialmedia
   homepage: https://tools.google.com/dlpage/hangoutplugin
 - id: udemy
   name: Udemy
   homepage: https://www.udemy.com/
-  category: resources
+  tags:
+    - resources
 - id: lynda
   name: Lynda
   homepage: https://www.lynda.com/
-  category: resources
+  tags:
+    - resources
 - id: egghead
   name: Egghead.io
   homepage: https://egghead.io/
-  category: resources
+  tags:
+    - resources
 - id: caniuse
   name: Can I Use
   homepage: https://caniuse.com/
-  category: resources
+  tags:
+    - resources
 - id: frontendmasters
   name: Frontend Masters
   homepage: https://frontendmasters.com/
-  category: resources
+  tags:
+    - resources
 - id: treehouse
   name: Treehouse
   homepage: https://teamtreehouse.com/
-  category: resources
+  tags:
+    - resources
 - id: codepen
   name: CodePen
   homepage: https://codepen.io/
-  category: resources
+  tags:
+    - resources
 - id: udacity
   name: Udacity
   homepage: https://www.udacity.com/
-  category: resources
+  tags:
+    - resources
 - id: http_203
   name: HTTP 203
   homepage: https://developers.google.com/web/shows/http203/podcast/
-  category: resources
+  tags:
+    - resources
 - id: alligator
   name: Alligator.io
   homepage: https://alligator.io/
-  category: resources
+  tags:
+    - resources
 - id: devto
   name: Dev.to
   homepage: https://dev.to/
-  category: resources
+  tags:
+    - resources
 - id: sidebar
   name: Sidebar
   homepage: https://sidebar.io/
-  category: resources
+  tags:
+    - resources
 - id: css_wizardry
   name: CSS Wizardry
   homepage: https://css_wizardry.com
-  category: resources
+  tags:
+    - resources
 - id: web_standards
   name: Web Standards
   homepage: https://www.webstandards.org/
-  category: resources
+  tags:
+    - resources
 - id: medium
   name: Medium
   homepage: https://medium.com/
-  category: resources
+  tags:
+    - resources
 - id: google
   name: Google
-  category: resources
+  tags:
+    - resources
 - id: youtube
   name: YouTube
   homepage: https://youtube.com
-  category: youtube
+  tags:
+    - youtube
   aliases:
-      - YouTube
+    - YouTube
 - id: vuemastery
   name: Vue Mastery
   homepage: https://www.vuemastery.com/
-  category: courses
+  tags:
+    - courses
 - id: frontend_focus
   name: Frontend Focus
   homepage: https://frontendfoc.us/
-  category: resources
+  tags:
+    - resources
 - id: css_layout_news
   name: CSS Layout News
   homepage: http://csslayout.news/
-  category: resources
+  tags:
+    - resources
 - id: flexbox_zombies
   name: Flexbox Zombies
   homepage: https://mastery.games/p/flexbox-zombies
-  category: resources
+  tags:
+    - resources
 - id: traversy_media
   name: Traversy Media
   homepage: https://www.traversymedia.com/
-  category: resources
+  tags:
+    - resources
   aliases:
-      - traversy
+    - traversy
 - id: superhi
   name: SuperHi
   homepage: https://www.superhi.com/
-  category: resources
+  tags:
+    - resources
 - id: platzi
   name: Platzi
   homepage: https://platzi.com/
-  category: resources
+  tags:
+    - resources
 - id: scrimba
   name: Scrimba
   homepage: https://scrimba.com/
-  category: resources
+  tags:
+    - resources
 - id: devdocs
   name: devdocs.io
   homepage: https://devdocs.io
-  category: resources
+  tags:
+    - resources
 - id: front_end_happy_hour
   name: Front End Happy Hour
   homepage: https://frontendhappyhour.com/
-  category: resources
+  tags:
+    - resources
 - id: toolsday
   name: Toolsday
   homepage: https://spec.fm/podcasts/toolsday
-  category: resources
+  tags:
+    - resources
 - id: fullstack_radio
   name: Full Stack Radio
   homepage: http://www.fullstackradio.com/
-  category: resources
+  tags:
+    - resources
 - id: react_podcast
   name: React Podcast
   homepage: https://reactpodcast.com/
-  category: resources
+  tags:
+    - resources
 - id: code_newbie
   name: Code Newbie
   homepage: https://www.codenewbie.org/
-  category: resources
+  tags:
+    - resources
 - id: developer_tea
   name: Developer Tea
   homepage: https://developertea.simplecast.fm/
-  category: resources
+  tags:
+    - resources
 - id: the_web_platform
   name: The Web Platform Podcast
   homepage: https://thewebplatformpodcast.com/
-  category: resources
+  tags:
+    - resources
 - id: web_standards_ru
   name: Веб-стандарты
   homepage: https://web-standards.ru/
-  category: resources
+  tags:
+    - resources
 - id: working_draft
   name: Working Draft Podcast
   homepage: https://workingdraft.de/
-  category: resources
+  tags:
+    - resources
 - id: software_engineering
   name: Software Engineering Radio
   homepage: https://www.se-radio.net/
-  category: resources
+  tags:
+    - resources
 
 - id: eclipse
   name: Eclipse
   homepage: https://www.eclipse.org/
-  category: text_editors
+  tags:
+    - text_editors
 - id: js_weekly
   name: JavaScript Weekly
   homepage: https://javascriptweekly.com/
-  category: newsletters
+  tags:
+    - newsletters
 - id: bestofjs
   name: Best Of JS
   homepage: https://bestofjs.org/
-  category: news
+  tags:
+    - news
 - id: david_walsh
   name: David Walsh Blog
   homepage: https://davidwalsh.name/
-  category: blogs
+  tags:
+    - blogs
 - id: daily_js
   name: Daily JS
   homepage: https://medium.com/dailyjs
-  category: blogs
+  tags:
+    - blogs
 - id: echo_js
   name: Echo JS
   homepage: https://echojs.com/
-  category: news
+  tags:
+    - news
 - id: kentcdodds
   name: Kent C. Dodds
   homepage: https://kentcdodds.com/blog/
-  category: blogs
+  tags:
+    - blogs
 - id: overreacted
   name: Overreacted
   homepage: https://overreacted.io/
-  category: blogs
+  tags:
+    - blogs
 - id: 2ality
   name: 2ality
   homepage: https://2ality.com/
-  category: blogs
+  tags:
+    - blogs
 - id: scotchio
   name: Scotch
   homepage: https://scotch.io
-  category: resources
+  tags:
+    - resources
 - id: react_status
   name: React Status
   homepage: https://react.statuscode.com/
-  category: newsletters
+  tags:
+    - newsletters
 - id: node_weekly
   name: Node Weekly
   homepage: https://nodeweekly.com/
-  category: newsletters
+  tags:
+    - newsletters
 - id: ember_times
   name: The Ember Times
   homepage: https://the-emberjs-times.ongoodbits.com/
-  category: newsletters
+  tags:
+    - newsletters
 - id: hackernoon
   name: Hackernoon
   homepage: https://hackernoon.com/
-  category: resources
+  tags:
+    - resources
 - id: habr
   name: Habr
   homepage: https://habr.com/en/
-  category: resources
+  tags:
+    - resources
 - id: robin_wieruch
   name: Robin Wieruch
   homepage: https://www.robinwieruch.de/
-  category: blogs
+  tags:
+    - blogs
 - id: javascript_info
   name: JavaScript.info
   homepage: https://javascript.info/
-  category: resources
+  tags:
+    - resources
 
 - id: laracasts
   name: Laracasts
   homepage: https://laracasts.com/
-  category: courses
+  tags:
+    - courses
 - id: testingjavascript
   name: Testing JavaScript
   homepage: https://testingjavascript.com/
-  category: courses
+  tags:
+    - courses
 - id: linkedin_learning
   name: LinkedIn Learning
   homepage: https://www.linkedin.com/learning/
-  category: courses
+  tags:
+    - courses
 - id: academind
   name: Academind
   homepage: academind
-  category: courses
+  tags:
+    - courses
 - id: tyler_mcginnis
   name: Tyle McGinnis
   homepage: https://tylermcginnis.com/
-  category: courses
+  tags:
+    - courses
 - id: ultimate_courses
   name: Ultimate Courses
   homepage: https://ultimatecourses.com/
-  category: courses
+  tags:
+    - courses
 
 - id: angular_in_depth
   name: Angular In Depth
   homepage: https://indepth.dev/
-  category: blogs
+  tags:
+    - blogs
 - id: web_dev
   name: Web.dev
   homepage: https://web.dev/
-  category: sites
+  tags:
+    - resources
   aliases:
-      - web-dev
+    - web-dev
 - id: web_development_reading_list
   name: Web Development Reading List
   homepage: https://wdrl.info/
-  category: newsletters
+  tags:
+    - newsletters
 - id: esnext
   name: ESNext News
   homepage: http://esnextnews.com/
-  category: newsletters
+  tags:
+    - newsletters
 - id: ponyfoo
   name: Pony Foo
   homepage: https://ponyfoo.com/
-  category: blogs
+  tags:
+    - blogs
 - id: designcode
   name: Design+Code
   homepage: https://designcode.io/
-  category: courses
+  tags:
+    - courses
 - id: elm_slack
   name: Elm Slack
   homepage: https://elmlang.herokuapp.com/
-  category: chats
+  tags:
+    - chats
 
 - id: vueschool
   name: Vue School
   homepage: https://vueschool.io/
-  category: courses
+  tags:
+    - courses

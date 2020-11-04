@@ -474,3 +474,30 @@
 - id: wasm
   name: WebAssembly (WASM)
   mdn: /en-US/docs/WebAssembly
+- id: nullish_coalescing
+  name: Nullish Coalescing
+  mdn: /en-US/docs/Web/JavaScript/Reference/Operators/Nullish_coalescing_operator
+- id: optional_chaining
+  name: Optional Chaining
+  mdn: /en-US/docs/Web/JavaScript/Reference/Operators/Optional_chaining
+- id: private_fields
+  name: Private Fields
+  mdn: /en-US/docs/Web/JavaScript/Reference/Classes/Private_class_fields
+- id: promise_all_settled
+  name: Promise.allSettled()
+  mdn: /en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise/allSettled
+- id: dynamic_import
+  name: Dynamic Import
+  mdn: /en-US/docs/Web/JavaScript/Reference/Statements/import
+- id: big_int
+  name: BigInt
+  mdn: /en-US/docs/Web/JavaScript/Reference/Global_Objects/BigInt
+- id: intl
+  name: Intl
+  mdn: /en-US/docs/Web/JavaScript/Reference/Global_Objects/Intl
+- id: custom_elements
+  name: Custom Elements
+  mdn: /en-US/docs/Web/Web_Components
+- id: shadow_dom
+  name: Shadow DOM
+  mdn: /en-US/docs/Web/Web_Components

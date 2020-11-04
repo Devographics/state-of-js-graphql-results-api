@@ -4,11 +4,9 @@ import allEntities from './data/entities/index'
 
 export const getEntities = ({
     type,
-    context,
     tag
 }: {
     type: string
-    context: string
     tag: string
 }) => {
     let entities = allEntities

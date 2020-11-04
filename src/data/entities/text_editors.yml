@@ -1,66 +1,49 @@
-# TEXT EDITORS #
 - id: nano
   name: Nano
   homepage: https://www.nano-editor.org/
-  category: text_editors
 - id: sublime_text
   name: Sublime Text
   homepage: https://www.sublimetext.com/
-  category: text_editors
 - id: atom
   name: Atom
   homepage: https://atom.io/
-  category: text_editors
 - id: nova
   name: Nova
   homepage: https://nova.app/
-  category: text_editors
 - id: vim
   name: Vim
   homepage: https://www.vim.org/
-  category: text_editors
 - id: visual_studio
   name: 'VS Code'
   homepage: https://code.visualstudio.com/
-  category: text_editors
   aliases:
       - vs_code
 - id: visual_studio_not_code
   name: Visual Studio
   homepage: https://visualstudio.microsoft.com/
-  category: text_editors
 - id: bbedit
   name: BBEdit
   homepage: https://www.barebones.com/products/bbedit/
-  category: text_editors
 - id: brackets
   name: Brackets
   homepage: http://brackets.io/
-  category: text_editors
 - id: coda
   name: Coda
   homepage: https://panic.com/coda/
-  category: text_editors
 - id: emacs
   name: Emacs
   homepage: https://www.gnu.org/software/emacs/
-  category: text_editors
 - id: intellij
   name: IntelliJ
   homepage: https://www.jetbrains.com/idea/
-  category: text_editors
 - id: notepad++
   name: Notepad++
   homepage: https://notepad-plus-plus.org/
-  category: text_editors
 - id: pycharm
   name: PyCharm
-  category: text_editors
 - id: phpstorm
   name: PHPStorm
   homepage: https://www.jetbrains.com/phpstorm/
-  category: text_editors
 - id: textmate
   name: Textmate
   homepage: https://macromates.com/
-  category: text_editors

@@ -1,133 +1,132 @@
 - id: soft_skills_engineering
   name: Soft Skills Engineering Podcast
   homepage: https://softskills.audio/
-  category: podcasts
+
 - id: frontend_weekend
   name: Frontend Weekend
   homepage: https://frontendweekend.ml/
-  category: podcasts
+
 - id: odin_project
   name: The Odin Project
   homepage: https://www.theodinproject.com/
-  category: courses
+
 - id: elmtown
   name: Elm Town
   homepage: https://elmtown.simplecast.fm/
-  category: podcasts
+
 - id: command_line_heroes
   name: Command Line Heroes
   homepage: https://www.redhat.com/en/command-line-heroes
-  category: podcasts
+
 - id: adventures_in_angular
   name: Adventures in Angular
   homepage: https://devchat.tv/adv-in-angular/
-  category: podcasts
+
 - id: coding_blocks
   name: Coding Blocks
   homepage: https://www.codingblocks.net/
-  category: podcasts
+
 - id: dot_net_rocks
   name: .NET Rocks
   homepage: https://www.dotnetrocks.com/
-  category: podcasts
+
 - id: embermap
   name: EmberMap
   homepage: https://embermap.com/
-  category: podcasts
+
 - id: views_on_vue
   name: Views on Vue
   homepage: https://devchat.tv/views-on-vue/
-  category: podcasts
+
 - id: reason_town
   name: Reason Town
   homepage: https://player.fm/series/reason-town
-  category: podcasts
+
 - id: devmode
   name: DevMode.fm
   homepage: https://devmode.fm/
-  category: podcasts
+
 - id: hipsters_tech
   name: Hipsters Ponto Tech
   homepage: https://hipsters.tech/
-  category: podcasts
+
 - id: syntaxfm
   name: Syntax
   homepage: https://syntax.fm/
-  category: podcasts
+
 - id: css_podcast
   name: CSS Podcast
   homepage: https://thecsspodcast.libsyn.com/
-  category: podcasts
+
 - id: shop_talk_show
   name: Shop Talk Show
   homepage: https://shoptalkshow.com/
-  category: podcasts
+
 - id: changelog
   name: The Changelog
   homepage: https://changelog.com/
-  category: podcasts
+
 - id: web_ahead
   name: The Web Ahead
   homepage: http://thewebahead.net/
-  category: podcasts
+
 - id: big_web_show
   name: The Big Web Show
   homepage: https://5by5.tv/bigwebshow
-  category: podcasts
+
 - id: style_guide_podcast
   name: Style Guide Podcast
   homepage: http://styleguides.io/podcast/
-  category: podcasts
+
 - id: non_breaking_space_show
   name: Non Breaking Space Show
   homepage: https://goodstuff.fm/nbsp/
-  category: podcasts
+
 
 - id: frontend_happyhour
   name: Front End Happy Hour
   homepage: https://frontendhappyhour.com/
-  category: podcasts
+
 - id: javascript_jabber
   name: JavaScript Jabber
   homepage: https://devchat.tv/js-jabber/
-  category: podcasts
+
 - id: full_stack_radio
   name: Full Stack Radio
   homepage: http://www.fullstackradio.com/
-  category: podcasts
+
 - id: js_party
   name: JS Party
   homepage: https://changelog.com/jsparty
-  category: podcasts
+
 - id: codepen_radio
   name: CodePen Radio
   homepage: https://blog.codepen.io/radio/
-  category: podcasts
+
 - id: jamstack_radio
   name: JAMStack Radio
   homepage: https://www.heavybit.com/library/podcasts/jamstack-radio/
-  category: podcasts
+
 - id: modern_web
   name: Modern Web
   homepage: https://modernweb.podbean.com/
-  category: podcasts
+
 - id: web_platform_podcast
   name: The Web Platform Podcast
   homepage: https://thewebplatformpodcast.com/
-  category: podcasts
+
 - id: software_engineering_daily
   name: Software Engineering Daily
   homepage: https://softwareengineeringdaily.com/
-  category: podcasts
+
 - id: ladybug
   name: Ladybug Podcast
   homepage: https://ladybug.dev/
-  category: podcasts
+
 - id: real_talk_javascript
   name: Real Talk JavaScript
   homepage: https://realtalkjavascript.simplecast.com/
-  category: podcasts
+
 - id: undefined_podcast
   name: The Undefined Podcast
   homepage: https://undefined.fm/
-  category: podcasts

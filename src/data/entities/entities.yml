@@ -1,9 +1,5 @@
 
 
-- id: apollo
-  name: Apollo
-  homepage: https://www.apollographql.com/docs/
-  category: libraries
 - id: appcelerator
   name: Appcelerator
   homepage: http://www.appcelerator.com/
@@ -13,7 +9,6 @@
   name: Bazel
   homepage: https://bazel.build/
   category: other-tools
-
 
 
 - id: CodeKit
