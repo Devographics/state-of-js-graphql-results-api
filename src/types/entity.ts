@@ -14,6 +14,7 @@ export interface Entity {
     npm?: string
     type?: string
     mdn?: string
+    patterns?: string[]
 }
 
 export interface EntityBucket {

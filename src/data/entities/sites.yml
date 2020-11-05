@@ -20,6 +20,9 @@
   homepage: https://tympanus.net/codrops/
   tags:
     - blogs
+  patterns:
+    - codedrops
+    - tympanus
 - id: sitepoint
   name: SitePoint
   homepage: https://www.sitepoint.com/
@@ -47,18 +50,16 @@
     - courses
   aliases:
     - Wes Bos Courses (GSSGrid.io, Flexbox.io, etc.)
+  patterns:
+    - wes ?bos
 - id: freecodecamp
   name: freeCodeCamp
   homepage: https://www.freecodecamp.org/
   tags:
     - courses
-- id: freecodecamp_announcement_css2019
-  name: Announcement
-  homepage: https://medium.com/free-code-camp/announcing-the-state-of-css-2019-survey-e1e4268df64d
-  tags:
-    - blogs
-  aliases:
-    - announcement
+  patterns: 
+    - fcc
+    - free( |-)?code( |-)?camp
 - id: codecademy
   name: Codecademy
   homepage: https://www.codecademy.com/
@@ -87,21 +88,30 @@
   homepage: https://news.ycombinator.com/
   tags:
     - socialmedia
+  patterns:
+    - hacker_news
+    - ycombinator
 - id: stateofjs
   name: State of JS
   homepage: https://stateofjs.com
   tags:
     - resources
+  patterns:
+    - state( |-)?of( |-)?js
 - id: stateofcss
   name: State of CSS
   homepage: https://stateofcss.com
   tags:
     - resources
+  patterns:
+    - state( |-)?of( |-)?css
 - id: reddit
   name: Reddit
   homepage: https://reddit.com
   tags:
     - socialmedia
+  patterns:
+    - \/?r\/(javascript|clojure|reactjs|angular|webdev|programming)
 - id: designernews
   name: Designer News
   homepage: https://www.designernews.co/
@@ -157,16 +167,13 @@
   homepage: https://wptavern.com/
   tags:
     - resources
-- id: frontend_focus
-  name: Frontend Focus
-  homepage: https://frontendfoc.us/
-  tags:
-    - newsletters
 - id: facebook
   name: Facebook
   tags:
     - socialmedia
   homepage: https://facebook.com
+  patterns:
+    - fb
 - id: word_of_mouth
   name: Word Of Mouth
   tags:
@@ -216,6 +223,8 @@
   homepage: https://frontendmasters.com/
   tags:
     - resources
+  patterns:
+    - front( |-)?end( |-)?masters
 - id: treehouse
   name: Treehouse
   homepage: https://teamtreehouse.com/
@@ -266,6 +275,8 @@
   homepage: https://medium.com/
   tags:
     - resources
+  patterns:
+    - meduim
 - id: google
   name: Google
   tags:
@@ -287,6 +298,8 @@
   homepage: https://frontendfoc.us/
   tags:
     - resources
+  patterns:
+    - front( |-)?end( |-)?focus
 - id: css_layout_news
   name: CSS Layout News
   homepage: http://csslayout.news/
@@ -385,11 +398,15 @@
   homepage: https://javascriptweekly.com/
   tags:
     - newsletters
+  patterns:
+    - javascript( |-)?weekly
 - id: bestofjs
   name: Best Of JS
   homepage: https://bestofjs.org/
   tags:
     - news
+  patterns:
+    - best( |-)?of( |-)?js
 - id: david_walsh
   name: David Walsh Blog
   homepage: https://davidwalsh.name/
@@ -410,11 +427,16 @@
   homepage: https://kentcdodds.com/blog/
   tags:
     - blogs
+  patterns:
+    - kent( )?c(.)?( )?dodds
 - id: overreacted
   name: Overreacted
   homepage: https://overreacted.io/
   tags:
     - blogs
+  patterns:
+    - overeacted
+    - abramov
 - id: 2ality
   name: 2ality
   homepage: https://2ality.com/
@@ -425,6 +447,8 @@
   homepage: https://scotch.io
   tags:
     - resources
+  patterns:
+    - scotch
 - id: react_status
   name: React Status
   homepage: https://react.statuscode.com/
@@ -455,6 +479,8 @@
   homepage: https://www.robinwieruch.de/
   tags:
     - blogs
+  patterns: 
+    - wieruch
 - id: javascript_info
   name: JavaScript.info
   homepage: https://javascript.info/
@@ -486,6 +512,8 @@
   homepage: https://tylermcginnis.com/
   tags:
     - courses
+  patterns:
+    - tyler ?mc( |-)?ginnis
 - id: ultimate_courses
   name: Ultimate Courses
   homepage: https://ultimatecourses.com/
@@ -519,6 +547,8 @@
   homepage: https://ponyfoo.com/
   tags:
     - blogs
+  patterns:
+    - pony ?foo
 - id: designcode
   name: Design+Code
   homepage: https://designcode.io/
@@ -535,3 +565,62 @@
   homepage: https://vueschool.io/
   tags:
     - courses
+
+- id: twitter
+  name: Twitter
+  homepage: https://twitter.com
+  tags:
+    - socialmedia
+
+- id: oreilly
+  name: O'Reilly
+  homepage: https://www.oreilly.com/
+  tags:
+    - resources
+  patterns:
+    - o\'reilly
+    - o reilly
+
+- id: juejin
+  name: Juejin
+  homepage: https://juejin.im/
+  tags:
+    - socialmedia
+
+- id: javascriptkicks
+  name: JavaScript Kicks
+  homepage: https://javascriptkicks.com/
+  tags: 
+    - news
+  patterns:
+    - jsk
+    - js( |-)?kicks
+    - javascript( |-)?kicks
+
+- id: mozilla_hacks
+  name: Mozilla Hacks
+  homepage: https://hacks.mozilla.org/
+  tags: 
+    - blogs
+
+- id: gomakethings
+  name: Go Make Things
+  homepage: https://gomakethings.com/
+  tags: 
+    - blogs
+  patterns:
+    - go ?make ?things
+
+- id: flaviocopes
+  name: Flavio Copes
+  homepage: https://flaviocopes.com/
+  tags:
+    - blogs
+
+- id: codyhouse
+  name: Cody House
+  homepage: https://codyhouse.co/
+  tags:
+    - blogs
+  patterns:
+    - cody( |-)?house

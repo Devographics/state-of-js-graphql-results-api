@@ -18,6 +18,9 @@
   homepage: https://code.visualstudio.com/
   aliases:
       - vs_code
+  patterns: 
+    - vs( |-)?code
+
 - id: visual_studio_not_code
   name: Visual Studio
   homepage: https://visualstudio.microsoft.com/
@@ -36,7 +39,7 @@
 - id: intellij
   name: IntelliJ
   homepage: https://www.jetbrains.com/idea/
-- id: notepad++
+- id: notepad
   name: Notepad++
   homepage: https://notepad-plus-plus.org/
 - id: pycharm

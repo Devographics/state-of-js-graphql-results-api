@@ -90,6 +90,8 @@
 - id: javascript_jabber
   name: JavaScript Jabber
   homepage: https://devchat.tv/js-jabber/
+  patterns:
+    - js( |-)?jabber
 
 - id: full_stack_radio
   name: Full Stack Radio

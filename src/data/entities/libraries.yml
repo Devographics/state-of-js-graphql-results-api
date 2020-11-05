@@ -7,9 +7,9 @@
   github: sass/sass
   npm: node-sass
   tags:
-      - css
-      - css_pre_post_processors
-      - state_of_css
+    - css
+    - css_pre_post_processors
+    - state_of_css
 
 - id: less
   name: Less
@@ -17,17 +17,17 @@
   github: less/less.js
   npm: less
   tags:
-      - css
-      - css_pre_post_processors
-      - state_of_css
+    - css
+    - css_pre_post_processors
+    - state_of_css
 
 - id: post_css
   name: PostCSS
   contexts: [state_of_css]
   github: postcss/postcss
   tags:
-      - css
-      - css_pre_post_processors
+    - css
+    - css_pre_post_processors
 
 - id: stylus
   name: Stylus
@@ -35,8 +35,8 @@
   github: stylus/stylus
   npm: stylus
   tags:
-      - css
-      - css_pre_post_processors
+    - css
+    - css_pre_post_processors
 
 #################################################
 # CSS frameworks
@@ -48,8 +48,8 @@
   homepage: https://getbootstrap.com/
   npm: bootstrap
   tags:
-      - css
-      - css_frameworks
+    - css
+    - css_frameworks
 
 - id: materialize_css
   name: Materialize CSS
@@ -57,16 +57,16 @@
   github: Dogfalo/materialize
   npm: materialize-css
   tags:
-      - css
-      - css_frameworks
+    - css
+    - css_frameworks
 
 - id: ant_design
   name: Ant Design
   contexts: [state_of_css]
   github: ant-design/ant-design
   tags:
-      - css
-      - css_frameworks
+    - css
+    - css_frameworks
 
 - id: semantic_ui
   name: Semantic UI
@@ -74,8 +74,8 @@
   github: Semantic-Org/Semantic-UI
   npm: semantic-ui
   tags:
-      - css
-      - css_frameworks
+    - css
+    - css_frameworks
 
 - id: bulma
   name: Bulma
@@ -83,16 +83,16 @@
   github: jgthms/bulma
   npm: bulma
   tags:
-      - css
-      - css_frameworks
+    - css
+    - css_frameworks
 
 - id: foundation
   name: Foundation
   contexts: [state_of_css]
   github: zurb/foundation-sites
   tags:
-      - css
-      - css_frameworks
+    - css
+    - css_frameworks
 
 - id: ui_kit
   name: UIKit
@@ -100,25 +100,25 @@
   github: uikit/uikit
   npm: uikit
   tags:
-      - css
-      - css_frameworks
+    - css
+    - css_frameworks
 
 - id: tachyons
   name: Tachyons
   contexts: [state_of_css]
   github: tachyons-css/tachyons
   tags:
-      - css
-      - css_frameworks
+    - css
+    - css_frameworks
 
 - id: primer
   name: Primer
   contexts: [state_of_css]
   github: primer/css
-  npm: '@primer/css'
+  npm: "@primer/css"
   tags:
-      - css
-      - css_frameworks
+    - css
+    - css_frameworks
 
 - id: tailwind_css
   name: Tailwind CSS
@@ -126,10 +126,10 @@
   github: tailwindcss/tailwindcss
   npm: tailwindcss
   aliases:
-      - Tailwind CSS
+    - Tailwind CSS
   tags:
-      - css
-      - css_frameworks
+    - css
+    - css_frameworks
 
 - id: pure_css
   name: PureCSS
@@ -137,8 +137,8 @@
   github: pure-css/pure
   npm: purecss
   tags:
-      - css
-      - css_frameworks
+    - css
+    - css_frameworks
 
 - id: skeleton
   name: Skeleton
@@ -146,8 +146,8 @@
   homepage: http://getskeleton.com/
   github: dhg/Skeleton
   tags:
-      - css
-      - css_frameworks
+    - css
+    - css_frameworks
 
 - id: spectre_css
   name: Spectre.css
@@ -156,8 +156,8 @@
   github: picturepan2/spectre
   npm: spectre.css
   tags:
-      - css
-      - css_frameworks
+    - css
+    - css_frameworks
 
 #################################################
 # CSS in JS
@@ -169,13 +169,13 @@
   npm: styled-components
   github: styled-components/styled-components
   description: >-
-      Visual primitives for the component age. Use the best bits of ES6 and CSS to
-      style your apps without stress
-  homepage: 'https://styled-components.com'
+    Visual primitives for the component age. Use the best bits of ES6 and CSS to
+    style your apps without stress
+  homepage: "https://styled-components.com"
   tags:
-      - css
-      - js
-      - css_in_js
+    - css
+    - js
+    - css_in_js
 
 - id: jss
   name: JSS
@@ -183,9 +183,9 @@
   github: cssinjs/jss
   homepage: https://cssinjs.org
   tags:
-      - css
-      - js
-      - css_in_js
+    - css
+    - js
+    - css_in_js
 
 - id: styled_jsx
   name: Styled JSX
@@ -194,20 +194,20 @@
   github: zeit/styled-jsx
   description: Full CSS support for JSX without compromises
   tags:
-      - css
-      - js
-      - css_in_js
+    - css
+    - js
+    - css_in_js
 
 - id: radium
   name: Radium
   contexts: [state_of_css]
   github: FormidableLabs/radium
-  npm: '@emotion/core'
+  npm: "@emotion/core"
   homepage: https://formidable.com/open-source/radium/
   tags:
-      - css
-      - js
-      - css_in_js
+    - css
+    - js
+    - css_in_js
 
 - id: emotion
   name: Emotion
@@ -215,28 +215,28 @@
   npm: emotion
   github: emotion-js/emotion
   description: CSS-in-JS library designed for high performance style composition
-  homepage: 'https://emotion.sh/'
+  homepage: "https://emotion.sh/"
   tags:
-      - css
-      - js
-      - css_in_js
+    - css
+    - js
+    - css_in_js
 
 - id: css_modules
   name: CSS Modules
   contexts: [state_of_css]
   github: css-modules/css-modules
   tags:
-      - css
-      - js
-      - css_in_js
+    - css
+    - js
+    - css_in_js
 
 - id: styled_system
   name: Styled System
   contexts: [state_of_css]
   tags:
-      - css
-      - js
-      - css_in_js
+    - css
+    - js
+    - css_in_js
 
 - id: stitches
   name: Stitches
@@ -244,9 +244,9 @@
   github: modulz/stitches
   homepage: https://stitches.dev/
   tags:
-      - css
-      - js
-      - css_in_js
+    - css
+    - js
+    - css_in_js
 
 - id: styletron
   name: Styletron
@@ -254,11 +254,11 @@
   npm: styletron-engine-atomic
   github: styletron/styletron
   description: Toolkit for component-oriented styling
-  homepage: 'https://www.styletron.org'
+  homepage: "https://www.styletron.org"
   tags:
-      - css
-      - js
-      - css_in_js
+    - css
+    - js
+    - css_in_js
 
 - id: fela
   name: Fela
@@ -266,11 +266,11 @@
   npm: fela
   github: robinweser/fela
   description: State-Driven Styling in JavaScript
-  homepage: 'http://fela.js.org'
+  homepage: "http://fela.js.org"
   tags:
-      - css
-      - js
-      - css_in_js
+    - css
+    - js
+    - css_in_js
 
 - id: linaria
   name: Linaria
@@ -278,11 +278,11 @@
   npm: linaria
   github: callstack/linaria
   description: Zero-runtime CSS in JS library
-  homepage: 'https://linaria.now.sh'
+  homepage: "https://linaria.now.sh"
   tags:
-      - css
-      - js
-      - css_in_js
+    - css
+    - js
+    - css_in_js
 
 - id: astroturf
   name: Astroturf
@@ -291,9 +291,9 @@
   github: 4Catalyzer/astroturf
   description: An "artificial" CSS-in-JS for those that want it all.
   tags:
-      - css
-      - js
-      - css_in_js
+    - css
+    - js
+    - css_in_js
 
 #################################################
 # JavaScript Flavors
@@ -304,24 +304,24 @@
   npm: typescript
   github: microsoft/TypeScript
   description: A superset of JavaScript that compiles to clean JavaScript output.
-  homepage: 'https://www.typescriptlang.org'
+  homepage: "https://www.typescriptlang.org"
   aliases:
-      - tsc
+    - tsc
 
 - id: reason
   name: Reason
   npm: null
   github: facebook/reason
   description: >-
-      Simple, fast & type safe code that leverages the JavaScript & OCaml
-      ecosystems
+    Simple, fast & type safe code that leverages the JavaScript & OCaml
+    ecosystems
 
 - id: elm
   name: Elm
   npm: null
   github: elm/compiler
-  description: 'Compiler for Elm, a functional language for reliable webapps.'
-  homepage: 'https://elm-lang.org/'
+  description: "Compiler for Elm, a functional language for reliable webapps."
+  homepage: "https://elm-lang.org/"
 
 - id: clojurescript
   name: ClojureScript
@@ -335,7 +335,7 @@
   npm: null
   github: purescript/purescript
   description: A strongly-typed language that compiles to JavaScript
-  homepage: 'https://www.purescript.org'
+  homepage: "https://www.purescript.org"
 
 #################################################
 # Front-end Frameworks
@@ -346,70 +346,70 @@
   npm: react
   github: facebook/react
   description: >-
-      A declarative, efficient, and flexible JavaScript library for building user
-      interfaces.
+    A declarative, efficient, and flexible JavaScript library for building user
+    interfaces.
 
 - id: vue
   name: Vue.js
   npm: vue
   github: vuejs/vue
-  description: 'A progressive, incrementally-adoptable framework for building UI on the web'
-  homepage: 'http://vuejs.org'
+  description: "A progressive, incrementally-adoptable framework for building UI on the web"
+  homepage: "http://vuejs.org"
 
 - id: angular
   name: Angular
-  npm: '@angular/core'
+  npm: "@angular/core"
   github: angular/angular
   description: One framework. Mobile & desktop.
-  homepage: 'https://angular.io'
+  homepage: "https://angular.io"
 
 - id: angular-1
   name: Angular 1
   npm: angular
   github: angular/angular.js
   description: AngularJS - HTML enhanced for web apps!
-  homepage: 'https://angularjs.org'
+  homepage: "https://angularjs.org"
   aliases:
-      - angularjs
+    - angularjs
 
 - id: preact
   name: Preact
   npm: preact
   github: preactjs/preact
   description: >-
-      Fast 3kB React alternative with the same modern API. Components & Virtual
-      DOM.
-  homepage: 'https://preactjs.com'
+    Fast 3kB React alternative with the same modern API. Components & Virtual
+    DOM.
+  homepage: "https://preactjs.com"
 
 - id: ember
   name: Ember
   npm: ember-source
   github: emberjs/ember.js
   description: A JavaScript framework for creating ambitious web applications
-  homepage: 'https://emberjs.com'
+  homepage: "https://emberjs.com"
 
 - id: svelte
   name: Svelte
   npm: null
   github: sveltejs/svelte
   description: Cybernetically enhanced web apps
-  homepage: 'https://svelte.dev'
+  homepage: "https://svelte.dev"
 
 - id: alpinejs
   name: Alpine.js
   npm: alpinejs
   github: alpinejs/alpine
   description: >
-      A rugged, minimal framework for composing JavaScript behavior in your
-      markup.
+    A rugged, minimal framework for composing JavaScript behavior in your
+    markup.
   homepage: null
 
 - id: litelement
   name: LitElement
   npm: lit-element
   github: Polymer/lit-element
-  description: 'A simple base class for creating fast, lightweight web components'
-  homepage: 'https://lit-element.polymer-project.org'
+  description: "A simple base class for creating fast, lightweight web components"
+  homepage: "https://lit-element.polymer-project.org"
 
 #################################################
 # Data Layer
@@ -420,46 +420,46 @@
   npm: redux
   github: reduxjs/redux
   description: Predictable state container for JavaScript apps
-  homepage: 'https://redux.js.org'
+  homepage: "https://redux.js.org"
 
 - id: apollo
-  name: Apollo client
+  name: Apollo Client
   npm: apollo-client
   github: apollographql/apollo-client
   description: >-
-      A fully-featured, production ready caching GraphQL client for every UI
-      framework and GraphQL server
-  homepage: 'https://apollographql.com/client'
+    A fully-featured, production ready caching GraphQL client for every UI
+    framework and GraphQL server
+  homepage: "https://apollographql.com/client"
 
 - id: graphql
   name: GraphQL
   npm: graphql-relay
   github: graphql/graphql-spec
   description: >-
-      GraphQL is a query language and execution engine tied to any backend
-      service.
-  homepage: 'https://spec.graphql.org'
+    GraphQL is a query language and execution engine tied to any backend
+    service.
+  homepage: "https://spec.graphql.org"
 
 - id: mobx
   name: MobX
   npm: mobx
   github: mobxjs/mobx
-  description: 'Simple, scalable state management.'
-  homepage: 'http://mobx.js.org'
+  description: "Simple, scalable state management."
+  homepage: "http://mobx.js.org"
 
 - id: relay
   name: Relay
   npm: react-relay
   github: facebook/relay
   description: Relay is a JavaScript framework for building data-driven React applications.
-  homepage: 'https://relay.dev'
+  homepage: "https://relay.dev"
 
 - id: xstate
   name: XState
   npm: xstate
   github: davidkpiano/xstate
   description: State machines and statecharts for the modern web.
-  homepage: 'https://xstate.js.org/docs'
+  homepage: "https://xstate.js.org/docs"
 
 - id: firebase
   name: Firebase
@@ -469,7 +469,21 @@
   npm: vuex
   github: vuejs/vuex
   description: Centralized State Management for Vue.js.
-  homepage: 'https://vuex.vuejs.org'
+  homepage: "https://vuex.vuejs.org"
+
+- id: swr
+  name: swr
+  npm: swr
+  github: vercel/swr
+  description: React Hooks library for remote data fetching
+  homepage: "https://swr.vercel.app"
+
+- id: react_query
+  name: React Query
+  npm: react-query
+  github: tannerlinsley/react-query
+  description: "Hooks for fetching, caching and updating asynchronous data in React"
+  homepage: "https://react-query.tanstack.com"
 
 #################################################
 # Back-End Frameworks
@@ -479,114 +493,113 @@
   name: Express
   npm: express
   github: expressjs/express
-  description: 'Fast, unopinionated, minimalist web framework for node.'
-  homepage: 'https://expressjs.com'
+  description: "Fast, unopinionated, minimalist web framework for node."
+  homepage: "https://expressjs.com"
 
 - id: nextjs
   name: Next.js
   npm: next
   github: vercel/next.js
   description: The React Framework
-  homepage: 'https://nextjs.org'
+  homepage: "https://nextjs.org"
 
 - id: koa
   name: Koa
   npm: koa
   github: koajs/koa
   description: Expressive middleware for node.js using ES2017 async functions
-  homepage: 'https://koajs.com'
+  homepage: "https://koajs.com"
 
 - id: meteor
   name: Meteor
   npm: null
   github: meteor/meteor
-  description: 'Meteor, the JavaScript App Platform'
-  homepage: 'https://www.meteor.com'
+  description: "Meteor, the JavaScript App Platform"
+  homepage: "https://www.meteor.com"
 
 - id: sails
   name: Sails
   npm: sails
   github: balderdashy/sails
   description: Realtime MVC Framework for Node.js
-  homepage: 'https://sailsjs.com'
+  homepage: "https://sailsjs.com"
 
 - id: feathers
   name: Feathers
-  npm: '@feathersjs/feathers'
+  npm: "@feathersjs/feathers"
   github: feathersjs/feathers
   description: >-
-      A framework for real-time applications and REST APIs with JavaScript and
-      TypeScript
-  homepage: 'https://feathersjs.com'
+    A framework for real-time applications and REST APIs with JavaScript and
+    TypeScript
+  homepage: "https://feathersjs.com"
 
 - id: nuxt
   name: Nuxt
   npm: nuxt
   github: nuxt/nuxt.js
   description: The Intuitive Vue Framework
-  homepage: 'https://nuxtjs.org'
+  homepage: "https://nuxtjs.org"
 
 - id: gatsby
   name: Gatsby
   npm: gatsby
   github: gatsbyjs/gatsby
-  description: 'Build blazing fast, modern apps and websites with React'
-  homepage: 'https://www.gatsbyjs.com'
+  description: "Build blazing fast, modern apps and websites with React"
+  homepage: "https://www.gatsbyjs.com"
 
 - id: nest
   name: Nest
-  npm: '@nestjs/core'
+  npm: "@nestjs/core"
   github: nestjs/nest
   description: >-
-      A progressive Node.js framework for building efficient, scalable, and
-      enterprise-grade server-side applications on top of TypeScript & JavaScript
-      (ES6, ES7, ES8)
-  homepage: 'https://nestjs.com'
+    A progressive Node.js framework for building efficient, scalable, and
+    enterprise-grade server-side applications on top of TypeScript & JavaScript
+    (ES6, ES7, ES8)
+  homepage: "https://nestjs.com"
 
 - id: strapi
   name: Strapi
   npm: strapi
   github: strapi/strapi
   description: Open source Node.js Headless CMS to easily build customisable APIs
-  homepage: 'https://strapi.io'
+  homepage: "https://strapi.io"
 
 - id: razzle
   name: Razzle
   npm: razzle
   github: jaredpalmer/razzle
   description: >-
-      Create server-rendered universal JavaScript applications with no
-      configuration
-  homepage: 'https://razzlejs.org'
+    Create server-rendered universal JavaScript applications with no
+    configuration
+  homepage: "https://razzlejs.org"
 
 - id: fastify
   name: Fastify
   npm: fastify
   github: fastify/fastify
-  description: 'Fast and low overhead web framework, for Node.js'
-  homepage: 'https://www.fastify.io'
+  description: "Fast and low overhead web framework, for Node.js"
+  homepage: "https://www.fastify.io"
 
 - id: deno
   name: Deno
   npm: null
   github: denoland/deno
   description: A secure JavaScript and TypeScript runtime
-  homepage: 'https://deno.land'
+  homepage: "https://deno.land"
 
 - id: redwood
   name: Redwood
   npm: null
   github: redwoodjs/redwood
   description: Bringing full-stack to the Jamstack.
-  homepage: 'https://redwoodjs.com'
+  homepage: "https://redwoodjs.com"
 
 - id: hapi
   name: Hapi
-  npm: '@hapi/hapi'
+  npm: "@hapi/hapi"
   github: hapijs/hapi
-  description: 'The Simple, Secure Framework Developers Trust'
-  homepage: 'https://hapi.dev'
-
+  description: "The Simple, Secure Framework Developers Trust"
+  homepage: "https://hapi.dev"
 
 #################################################
 # Testing
@@ -597,37 +610,37 @@
   npm: jest
   github: facebook/jest
   description: Delightful JavaScript Testing.
-  homepage: 'https://jestjs.io'
+  homepage: "https://jestjs.io"
 
 - id: mocha
   name: Mocha
   npm: mocha
   github: mochajs/mocha
-  description: '️ simple, flexible, fun javascript test framework for node.js & the browser'
-  homepage: 'https://mochajs.org'
+  description: "️ simple, flexible, fun javascript test framework for node.js & the browser"
+  homepage: "https://mochajs.org"
 
 - id: storybook
   name: Storybook
   npm: storybook
   github: storybookjs/storybook
   description: >-
-      The UI component explorer. Develop, document, & test for React, Vue,
-      Angular, Ember, Web Components, & more!
-  homepage: 'https://storybook.js.org'
+    The UI component explorer. Develop, document, & test for React, Vue,
+    Angular, Ember, Web Components, & more!
+  homepage: "https://storybook.js.org"
 
 - id: cypress
   name: Cypress
   npm: cypress
   github: cypress-io/cypress
-  description: 'Fast, easy and reliable testing for anything that runs in a browser.'
-  homepage: 'https://www.cypress.io'
+  description: "Fast, easy and reliable testing for anything that runs in a browser."
+  homepage: "https://www.cypress.io"
 
 - id: enzyme
   name: Enzyme
   npm: enzyme
   github: enzymejs/enzyme
   description: JavaScript Testing utilities for React
-  homepage: 'https://enzymejs.github.io/enzyme/'
+  homepage: "https://enzymejs.github.io/enzyme/"
 
 - id: ava
   name: AVA
@@ -641,32 +654,32 @@
   npm: jasmine
   github: jasmine/jasmine
   description: Simple JavaScript testing framework for browsers and node.js
-  homepage: 'http://jasmine.github.io/'
+  homepage: "http://jasmine.github.io/"
 
 - id: puppeteer
   name: Puppeteer
   npm: puppeteer
   github: puppeteer/puppeteer
   description: Headless Chrome Node.js API
-  homepage: 'https://pptr.dev/'
+  homepage: "https://pptr.dev/"
 
-- id: react_testing_library
-  name: react-testing-library
-  npm: '@testing-library/react'
+- id: testing_library
+  name: testing-library
+  npm: "@testing-library/react"
   github: testing-library/react-testing-library
   description: >-
-      Simple and complete React DOM testing utilities that encourage good testing
-      practices.
-  homepage: 'https://testing-library.com/react'
+    Simple and complete React DOM testing utilities that encourage good testing
+    practices.
+  homepage: "https://testing-library.com/"
 
 - id: webdriverio
   name: WebdriverIO
   npm: webdriverio
   github: webdriverio/webdriverio
   description: Next-gen browser and mobile automation test framework for Node.js
-  homepage: 'http://webdriver.io'
+  homepage: "http://webdriver.io"
   aliases:
-      - webdriver
+    - webdriver
 
 #################################################
 # Animation & Graphics
@@ -676,76 +689,79 @@
   name: D3
   npm: d3
   github: d3/d3
-  description: 'Bring data to life with SVG, Canvas and HTML.'
-  homepage: 'https://d3js.org'
+  description: "Bring data to life with SVG, Canvas and HTML."
+  homepage: "https://d3js.org"
 
 - id: threejs
   name: Three.js
   npm: three
   github: mrdoob/three.js
   description: JavaScript 3D library.
-  homepage: 'https://threejs.org/'
+  homepage: "https://threejs.org/"
 
 - id: fabricjs
   name: Fabric.js
   npm: fabric
   github: fabricjs/fabric.js
-  description: 'Javascript Canvas Library, SVG-to-Canvas (& canvas-to-SVG) Parser'
-  homepage: 'http://fabricjs.com'
+  description: "Javascript Canvas Library, SVG-to-Canvas (& canvas-to-SVG) Parser"
+  homepage: "http://fabricjs.com"
 
 - id: visx
   name: visx
   npm: null
   github: airbnb/visx
-  description: 'A collection of expressive, low-level visualization primitives for React'
-  homepage: 'https://airbnb.io/visx'
+  description: "A collection of expressive, low-level visualization primitives for React"
+  homepage: "https://airbnb.io/visx"
 
 - id: nivo
   name: Nivo
   npm: nivo
   github: plouc/nivo
   description: >-
-      nivo provides a rich set of dataviz components, built on top of the awesome
-      d3 and Reactjs libraries
-  homepage: 'https://nivo.rocks'
+    nivo provides a rich set of dataviz components, built on top of the awesome
+    d3 and Reactjs libraries
+  homepage: "https://nivo.rocks"
 
 - id: recharts
   name: Recharts
   npm: recharts
   github: recharts/recharts
   description: Redefined chart library built with React and D3
-  homepage: 'http://recharts.org'
+  homepage: "http://recharts.org"
 
 - id: animejs
   name: Anime.js
   npm: animejs
   github: juliangarnier/anime
   description: JavaScript animation engine
-  homepage: 'https://animejs.com'
+  homepage: "https://animejs.com"
 
 - id: popmotion
   name: Popmotion
   npm: popmotion
   github: Popmotion/popmotion
   description: Simple animation libraries for delightful user interfaces
-  homepage: 'https://popmotion.io'
+  homepage: "https://popmotion.io"
 
 - id: greensock
   name: Greensock
   npm: gsap
   github: greensock/GSAP
   description: GreenSock's GSAP JavaScript animation library (including Draggable).
-  homepage: 'https://greensock.com'
+  homepage: "https://greensock.com"
   aliases:
-      - gsap
+    - gsap
+  patterns:
+    - green( |-)sock
+    - gsap
 
 - id: lottie
   name: Lottie
   npm: null
   github: airbnb/lottie-web
   description: >-
-      Render After Effects animations natively on Web, Android and iOS, and React
-      Native.
+    Render After Effects animations natively on Web, Android and iOS, and React
+    Native.
   homepage: null
 
 - id: velocity
@@ -753,7 +769,7 @@
   npm: velocity-animate
   github: julianshapiro/velocity
   description: Accelerated JavaScript animation.
-  homepage: 'http://velocityjs.org/'
+  homepage: "http://velocityjs.org/"
 
 #################################################
 # Build Tools
@@ -764,69 +780,69 @@
   npm: webpack
   github: webpack/webpack
   description: >-
-      A bundler for javascript and friends. Packs many modules into a few bundled
-      assets. Code Splitting allows for loading parts of the application on
-      demand. Through "loaders", modules can be CommonJs, AMD, ES6 modules, CSS,
-      Images, JSON, Coffeescript, LESS, ... and your custom stuff.
-  homepage: 'https://webpack.js.org'
+    A bundler for javascript and friends. Packs many modules into a few bundled
+    assets. Code Splitting allows for loading parts of the application on
+    demand. Through "loaders", modules can be CommonJs, AMD, ES6 modules, CSS,
+    Images, JSON, Coffeescript, LESS, ... and your custom stuff.
+  homepage: "https://webpack.js.org"
 
 - id: babel
   name: Babel
   npm: babel-core
   github: babel/babel
   description: A compiler for writing next generation JavaScript.
-  homepage: 'https://babel.dev'
+  homepage: "https://babel.dev"
 
 - id: parcel
   name: Parcel
   npm: parcel-bundler
   github: parcel-bundler/parcel
-  description: 'Blazing fast, zero configuration web application bundler'
-  homepage: 'https://parceljs.org'
+  description: "Blazing fast, zero configuration web application bundler"
+  homepage: "https://parceljs.org"
 
 - id: gulp
   name: Gulp
   npm: gulp
   github: gulpjs/gulp
   description: A toolkit to automate & enhance your workflow
-  homepage: 'https://gulpjs.com'
+  homepage: "https://gulpjs.com"
 
 - id: rollup
   name: Rollup
   npm: rollup
   github: rollup/rollup
   description: Next-generation ES module bundler
-  homepage: 'https://rollupjs.org'
+  homepage: "https://rollupjs.org"
 
 - id: fusebox
   name: FuseBox
   npm: fuse-box
   github: fuse-box/fuse-box
   description: A blazing fast js bundler/loader with a comprehensive API
-  homepage: 'http://fuse-box.org'
+  homepage: "http://fuse-box.org"
 
 - id: browserify
   name: Browserify
   npm: browserify
   github: browserify/browserify
   description: browser-side require() the node.js way
-  homepage: 'http://browserify.org/'
+  homepage: "http://browserify.org/"
 
 - id: rome
   name: Rome
   npm: null
   github: rome/tools
   description: >-
-      The Rome Toolchain. A linter, compiler, bundler, and more for JavaScript,
-      TypeScript, HTML, Markdown, and CSS.
-  homepage: 'https://rome.tools/'
+    The Rome Toolchain. A linter, compiler, bundler, and more for JavaScript,
+    TypeScript, HTML, Markdown, and CSS.
+  homepage: "https://rome.tools/"
 
 - id: snowpack
   name: Snowpack
   npm: snowpack
   github: snowpackjs/snowpack
-  description: 'WASM-powered frontend build tool. Fast, lightweight, unbundled ESM.'
-  homepage: 'https://www.snowpack.dev'
+  description: "WASM-powered frontend build tool. Fast, lightweight, unbundled ESM."
+  homepage: "https://www.snowpack.dev"
 
 - id: swc
   name: SWC
@@ -843,7 +859,6 @@
   description: An extremely fast JavaScript bundler and minifier
   homepage: null
 
-
 #################################################
 # Mobile
 #################################################
@@ -852,8 +867,8 @@
   name: Electron
   npm: electron
   github: electron/electron
-  description: 'Build cross-platform desktop apps with JavaScript, HTML, and CSS'
-  homepage: 'https://electronjs.org'
+  description: "Build cross-platform desktop apps with JavaScript, HTML, and CSS"
+  homepage: "https://electronjs.org"
 
 - id: react_native
   name: React Native
@@ -869,43 +884,42 @@
 
 - id: ionic
   name: Ionic
-  npm: '@ionic/core'
+  npm: "@ionic/core"
   github: ionic-team/ionic-framework
   description: >-
-      A powerful cross-platform UI toolkit for building native-quality iOS,
-      Android, and Progressive Web Apps with HTML, CSS, and JavaScript.
-  homepage: 'https://ionicframework.com'
+    A powerful cross-platform UI toolkit for building native-quality iOS,
+    Android, and Progressive Web Apps with HTML, CSS, and JavaScript.
+  homepage: "https://ionicframework.com"
 
 - id: nwjs
   name: NW.js
   npm: null
   github: nwjs/nw.js
   description: >-
-      Call all Node.js modules directly from DOM/WebWorker and enable a new way of
-      writing applications with all Web technologies.
-  homepage: 'https://nwjs.io'
+    Call all Node.js modules directly from DOM/WebWorker and enable a new way of
+    writing applications with all Web technologies.
+  homepage: "https://nwjs.io"
 
 - id: expo
   name: Expo
   npm: expo
   github: expo/expo
   description: >-
-      An open-source platform for making universal native apps with React. Expo
-      runs on Android, iOS, and the web.
-  homepage: 'https://docs.expo.io'
+    An open-source platform for making universal native apps with React. Expo
+    runs on Android, iOS, and the web.
+  homepage: "https://docs.expo.io"
 
 - id: flutter
   name: Flutter
   homepage: https://flutter.io/
-  tags: 
+  tags:
     - mobile-desktop
 
 - id: capacitor
   name: Capacitor
   homepage: https://capacitor.ionicframework.com/
-  tags: 
+  tags:
     - mobile-desktop
-
 
 #################################################
 # Other Tools
@@ -916,74 +930,74 @@
   npm: immer
   github: immerjs/immer
   description: Create the next immutable state by mutating the current one
-  homepage: 'https://immerjs.github.io/immer/'
+  homepage: "https://immerjs.github.io/immer/"
 
 - id: lodash
   name: Lodash
   npm: lodash
   github: lodash/lodash
   description: >-
-      A modern JavaScript utility library delivering modularity, performance, &
-      extras.
-  homepage: 'https://lodash.com/'
+    A modern JavaScript utility library delivering modularity, performance, &
+    extras.
+  homepage: "https://lodash.com/"
 
 - id: underscore
   name: Underscore
   npm: underscore
   github: jashkenas/underscore
   description: JavaScript's utility _ belt
-  homepage: 'https://underscorejs.org'
+  homepage: "https://underscorejs.org"
 
 - id: moment
   name: Moment
   npm: moment
   github: moment/moment
-  description: 'Parse, validate, manipulate, and display dates in javascript.'
-  homepage: 'https://momentjs.com/'
+  description: "Parse, validate, manipulate, and display dates in javascript."
+  homepage: "https://momentjs.com/"
 
 - id: dayjs
   name: Day.js
   npm: dayjs
   github: iamkun/dayjs
   description: >-
-      Day.js 2KB immutable date-time library alternative to Moment.js with the
-      same modern API
-  homepage: 'https://day.js.org'
+    Day.js 2KB immutable date-time library alternative to Moment.js with the
+    same modern API
+  homepage: "https://day.js.org"
 
 - id: date_fns
   name: date-fns
   npm: date-fns
   github: date-fns/date-fns
   description: Modern JavaScript date utility library ️
-  homepage: 'https://date-fns.org'
+  homepage: "https://date-fns.org"
 
 - id: luxon
   name: Luxon
   npm: luxon
   github: moment/luxon
   description: ⏱ A library for working with dates and times in JS
-  homepage: 'https://moment.github.io/luxon'
+  homepage: "https://moment.github.io/luxon"
 
 - id: ramda
   name: Ramda
   npm: ramda
   github: ramda/ramda
   description: Practical functional Javascript
-  homepage: 'https://ramdajs.com'
+  homepage: "https://ramdajs.com"
 
 - id: jquery
   name: jQuery
   npm: jquery
   github: jquery/jquery
   description: jQuery JavaScript Library
-  homepage: 'https://jquery.com/'
+  homepage: "https://jquery.com/"
 
 - id: rxjs
   name: RxJS
   npm: rx
   github: ReactiveX/rxjs
   description: A reactive programming library for JavaScript
-  homepage: 'https://rxjs.dev'
+  homepage: "https://rxjs.dev"
 
 - id: axios
   name: Axios
@@ -997,29 +1011,29 @@
   npm: lerna
   github: lerna/lerna
   description: A tool for managing JavaScript projects with multiple packages.
-  homepage: 'https://lerna.js.org'
+  homepage: "https://lerna.js.org"
 
 - id: prettier
   name: Prettier
   npm: prettier
   github: prettier/prettier
   description: Prettier is an opinionated code formatter.
-  homepage: 'https://prettier.io'
+  homepage: "https://prettier.io"
 
 - id: eslint
   name: ESLint
   npm: eslint
   github: eslint/eslint
   description: Find and fix problems in your JavaScript code.
-  homepage: 'https://eslint.org'
+  homepage: "https://eslint.org"
 
 - id: nvm
   name: nvm
   npm: null
   github: nvm-sh/nvm
   description: >-
-      Node Version Manager - POSIX-compliant bash script to manage multiple active
-      node.js versions
+    Node Version Manager - POSIX-compliant bash script to manage multiple active
+    node.js versions
   homepage: null
 
 - id: npm
@@ -1027,12 +1041,11 @@
   npm: null
   github: npm/cli
   description: A package manager for JavaScript
-  homepage: 'https://npm.community'
+  homepage: "https://npm.community"
 
 - id: yarn
   name: Yarn
   npm: null
   github: yarnpkg/yarn
-  description: 'Fast, reliable, and secure dependency management.'
-  homepage: 'https://classic.yarnpkg.com'
-
+  description: "Fast, reliable, and secure dependency management."
+  homepage: "https://classic.yarnpkg.com"

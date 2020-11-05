@@ -1,0 +1,64 @@
+# used to normalize the results of the freeform "what features are missing from X" field
+
+#CSS
+
+- id: container_queries
+  name: Container Queries
+  patterns:
+    - container( |-)(media|width)? ?quer(y|ies)
+    - (element|object|component)s? (based )?(media )?quer(y|ies)
+
+- id: parent_selector
+  name: Parent Selector
+  patterns:
+    - parent select(or|ion)
+    - parent (of )?(an )?element
+    - \:parent
+    - (target|select|style) (a )?parent
+
+- id: nesting
+  name: Nesting
+  patterns:
+    - nested select(or|ion)
+
+- id: subgrid
+  name: Subgrid
+  patterns:
+    - sub( |-)?grid
+
+- id: has_selector
+  name: ":has Selector"
+  patterns:
+    - \:has
+    - has\(\)
+
+- id: mixins
+  name: Mixins
+  patterns:
+    - mixins?
+
+- id: scoping
+  name: Scoping
+  patterns:
+    - encapsulation
+    - isolation
+    - scop(e|ing)
+
+- id: functions
+  name: Functions
+  patterns:
+    - functions?
+
+- id: browser_support
+  name: Browser Support
+  patterns:
+    - browser adoption
+    - consistency
+    - consistent support
+    - cross( |-)browser
+
+- id: conditional_logic
+  name: Conditional Logic
+  patterns:
+    - conditional
+    - if statement
