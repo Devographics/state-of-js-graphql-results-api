@@ -1,3 +1,5 @@
+# social media, news, aggregators, etc.
+
 - id: hn
   name: Hacker News
   homepage: https://news.ycombinator.com/
@@ -44,3 +46,13 @@
 - id: juejin
   name: Juejin
   homepage: https://juejin.im/
+
+- id: echo_js
+  name: Echo JS
+  homepage: https://echojs.com/
+  tags:
+    - news
+  
+- id: habr
+  name: Habr
+  homepage: https://habr.com/en/

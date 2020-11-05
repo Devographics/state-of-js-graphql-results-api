@@ -37,20 +37,15 @@
   name: Stack Overflow
   homepage: https://stackoverflow.com/
   tags:
-    - resources
     - podcasts
 
 - id: mdn
   name: MDN
   homepage: https://developer.mozilla.org/en-US/
-  tags:
-    - resources
 
 - id: w3schools
   name: W3Schools
   homepage: https://www.w3schools.com/
-  tags:
-    - resources
 
 - id: freecodecamp
   name: freeCodeCamp
@@ -65,147 +60,80 @@
 - id: css_specs
   name: The CSS Specs
   homepage: https://www.w3.org/Style/CSS/specs.en.html
-  tags:
-    - resources
 
 - id: stateofjs
   name: State of JS
   homepage: https://stateofjs.com
-  tags:
-    - resources
   patterns:
     - state( |-)?of( |-)?js
 
 - id: stateofcss
   name: State of CSS
   homepage: https://stateofcss.com
-  tags:
-    - resources
   patterns:
     - state( |-)?of( |-)?css
 
 - id: one_page_love
   name: One Page Love
   homepage: https://onepagelove.com/
-  tags:
-    - resources
 
 - id: muzli
   name: Muzli
   homepage: https://muz.li/
-  tags:
-    - resources
 
 - id: wordpress_tavern
   name: WordPress Tavern
   homepage: https://wptavern.com/
-  tags:
-    - resources
 
 - id: caniuse
   name: Can I Use
   homepage: https://caniuse.com/
-  tags:
-    - resources
 
 - id: codepen
   name: CodePen
   homepage: https://codepen.io/
-  tags:
-    - resources
   patterns:
     - (^|\s)codepen($|\s)
 
 - id: alligator
   name: Alligator.io
   homepage: https://alligator.io/
-  tags:
-    - resources
 
 - id: devto
   name: Dev.to
   homepage: https://dev.to/
-  tags:
-    - resources
 
 - id: web_standards
   name: Web Standards
   homepage: https://www.webstandards.org/
-  tags:
-    - resources
 
 - id: medium
   name: Medium
   homepage: https://medium.com/
-  tags:
-    - resources
   patterns:
     - meduim
 
 - id: google
   name: Google
-  tags:
-    - resources
-
-- id: youtube
-  name: YouTube
-  homepage: https://youtube.com
-  tags:
-    - youtube
-  aliases:
-    - YouTube
-
-- id: frontend_focus
-  name: Frontend Focus
-  homepage: https://frontendfoc.us/
-  tags:
-    - resources
-  patterns:
-    - front( |-)?end( |-)?focus
-
-- id: css_layout_news
-  name: CSS Layout News
-  homepage: http://csslayout.news/
-  tags:
-    - resources
 
 - id: flexbox_zombies
   name: Flexbox Zombies
   homepage: https://mastery.games/p/flexbox-zombies
-  tags:
-    - resources
-
-- id: traversy_media
-  name: Traversy Media
-  homepage: https://www.traversymedia.com/
-  tags:
-    - resources
-  aliases:
-    - traversy
-
-- id: platzi
-  name: Platzi
-  homepage: https://platzi.com/
-  tags:
-    - resources
 
 - id: scrimba
   name: Scrimba
   homepage: https://scrimba.com/
-  tags:
-    - resources
 
 - id: devdocs
   name: devdocs.io
   homepage: https://devdocs.io
-  tags:
-    - resources
 
 - id: code_newbie
   name: Code Newbie
   homepage: https://www.codenewbie.org/
   tags:
-    - resources
+    - blogs
+    - podcasts
 
 - id: bestofjs
   name: Best Of JS
@@ -221,12 +149,6 @@
   tags:
     - blogs
 
-- id: echo_js
-  name: Echo JS
-  homepage: https://echojs.com/
-  tags:
-    - news
-
 - id: 2ality
   name: 2ality
   homepage: https://2ality.com/
@@ -236,28 +158,12 @@
 - id: scotchio
   name: Scotch
   homepage: https://scotch.io
-  tags:
-    - resources
   patterns:
     - scotch
 
 - id: hackernoon
   name: Hackernoon
   homepage: https://hackernoon.com/
-  tags:
-    - resources
-
-- id: habr
-  name: Habr
-  homepage: https://habr.com/en/
-  tags:
-    - resources
-
-- id: javascript_info
-  name: JavaScript.info
-  homepage: https://javascript.info/
-  tags:
-    - resources
 
 - id: angular_in_depth
   name: Angular In Depth
@@ -268,8 +174,6 @@
 - id: web_dev
   name: Web.dev
   homepage: https://web.dev/
-  tags:
-    - resources
   aliases:
     - web-dev
 
@@ -282,21 +186,9 @@
 - id: oreilly
   name: O'Reilly
   homepage: https://www.oreilly.com/
-  tags:
-    - resources
   patterns:
     - o\'reilly
     - o reilly
-
-- id: javascriptkicks
-  name: JavaScript Kicks
-  homepage: https://javascriptkicks.com/
-  tags:
-    - news
-  patterns:
-    - jsk
-    - js( |-)?kicks
-    - javascript( |-)?kicks
 
 - id: mozilla_hacks
   name: Mozilla Hacks
@@ -319,10 +211,6 @@
     - blogs
   patterns:
     - cody( |-)?house
-
-- id: habr
-  name: Habr
-  homepage: https://habr.com/
 
 - id: vzhurudolu
   name: Vzhůru dolů
@@ -350,10 +238,3 @@
   homepage: https://www.awwwards.com/
   tags:
     - news
-
-- id: every_layout
-  name: Every Layout
-  homepage: https://every-layout.dev/
-  tags:
-    - css
-    - courses

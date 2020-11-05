@@ -90,3 +90,23 @@
     - courses
     - css
     - js
+
+- id: platzi
+  name: Platzi
+  homepage: https://platzi.com/
+
+- id: traversy_media
+  name: Traversy Media
+  homepage: https://www.traversymedia.com/
+  aliases:
+    - traversy
+
+- id: javascript_info
+  name: JavaScript.info
+  homepage: https://javascript.info/
+
+- id: every_layout
+  name: Every Layout
+  homepage: https://every-layout.dev/
+  tags:
+    - css

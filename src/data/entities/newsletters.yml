@@ -70,3 +70,21 @@
   name: Responsive Design Weekly
   patterns:
     - responsive ?design ?weekly
+
+- id: frontend_focus
+  name: Frontend Focus
+  homepage: https://frontendfoc.us/
+  patterns:
+    - front( |-)?end( |-)?focus
+
+- id: css_layout_news
+  name: CSS Layout News
+  homepage: http://csslayout.news/
+
+- id: javascriptkicks
+  name: JavaScript Kicks
+  homepage: https://javascriptkicks.com/
+  patterns:
+    - jsk
+    - js( |-)?kicks
+    - javascript( |-)?kicks
