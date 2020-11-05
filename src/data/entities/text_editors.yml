@@ -27,6 +27,8 @@
 - id: bbedit
   name: BBEdit
   homepage: https://www.barebones.com/products/bbedit/
+  patterns:
+    - textwrangler
 - id: brackets
   name: Brackets
   homepage: http://brackets.io/
@@ -50,3 +52,41 @@
 - id: textmate
   name: Textmate
   homepage: https://macromates.com/
+
+- id: idea
+  name: IDEA
+  homepage: https://www.jetbrains.com/idea/
+
+- id: vscodium
+  name: VSCodium
+  homepage: https://vscodium.com/
+
+- id: dreamweaver
+  name: Dreamweaver
+  homepage: https://www.adobe.com/products/dreamweaver.html
+
+- id: kate
+  name: Kate Editor
+  homepage: https://kate-editor.org/
+
+- id: eclipse
+  name: Eclipse
+  homepage: https://www.eclipse.org/
+
+- id: kakoune
+  name: Kakoune
+  homepage: https://kakoune.org/
+
+- id: codesandbox
+  name: CodeSandbox
+  homepage: https://codesandbox.io/
+  patterns:
+    - code ?sandbox
+
+- id: xcode
+  name: Xcode
+  homepage: https://developer.apple.com/xcode/
+
+- id: geany
+  name: Geany
+  homepage: https://www.geany.org/

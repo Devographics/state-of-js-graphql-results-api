@@ -130,6 +130,8 @@
   tags:
     - css
     - css_frameworks
+  patterns:
+    - tailwind
 
 - id: pure_css
   name: PureCSS
@@ -293,6 +295,54 @@
   tags:
     - css
     - js
+    - css_in_js
+
+
+#################################################
+# Other
+#################################################
+
+- id: stylis
+  name: Stylis
+  homepage: https://stylis.js.org/
+
+- id: autoprefixer
+  name: Autoprefixer
+  homepage: https://autoprefixer.github.io/
+  patterns:
+    - auto( |-)?prefixer
+
+- id: codyframe
+  name: CodyFrame
+  homepage: https://codyhouse.co/ds/docs/framework
+
+- id: chakra_ui
+  name: Chakra UI
+  homepage: https://chakra-ui.com/
+
+- id: theme_ui
+  name: Theme UI
+  homepage: https://theme-ui.com/home/
+
+- id: element
+  name: Element
+  homepage: https://element.eleme.io/#/en-US
+
+- id: suit
+  name: SUIT CSS
+  homepage: https://suitcss.github.io/
+  tags:
+    - methodologies
+    - css
+
+- id: blueprint
+  name: Blueprint
+  homepage: http://www.blueprintcss.org/
+
+- id: goober
+  name: Goober
+  homepage: https://github.com/cristianbote/goober
+  tags: 
     - css_in_js
 
 #################################################

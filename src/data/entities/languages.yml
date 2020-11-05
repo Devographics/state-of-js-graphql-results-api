@@ -2,6 +2,8 @@
   name: 'C#'
 - id: c_cplusplus
   name: C/C++
+  patterns:
+    - c\+\+
 - id: dart
   name: Dart
   homepage: https://dart.dev

@@ -82,3 +82,11 @@
 - id: vivaldi
   name: Vivaldi
   homepage: https://vivaldi.com/
+
+- id: responsively
+  name: Responsively
+  homepage: https://responsively.app/
+
+- id: blisk
+  name: Blisk
+  homepage: https://blisk.io/

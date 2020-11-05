@@ -1,0 +1,182 @@
+# personal sites and blogs
+
+- id: tyler_mcginnis
+  name: Tyle McGinnis
+  homepage: https://tylermcginnis.com/
+  tags:
+    - courses
+    - react
+    - js
+  patterns:
+    - tyler ?mc( |-)?ginnis
+
+
+- id: quirksmode
+  name: Quirksmode
+  homepage: https://www.quirksmode.org/
+  tags:
+    - css
+    - blogs
+
+- id: sarah_drasner
+  name: Sarah Drasner
+  homepage: https://sarahdrasnerdesign.com/
+  tags:
+    - css
+    - blogs
+
+- id: heydon_pickering
+  name: Heydon Pickering
+  homepage: https://heydonworks.com/
+  tags:
+    - blogs
+    - css
+  patterns:
+    - heydon
+
+- id: kentcdodds
+  name: Kent C. Dodds
+  homepage: https://kentcdodds.com/blog/
+  tags:
+    - js
+    - react
+    - blogs
+  patterns:
+    - kent( )?c(.)?( )?dodds
+
+- id: overreacted
+  name: Overreacted
+  homepage: https://overreacted.io/
+  tags:
+    - js
+    - react
+    - blogs
+  patterns:
+    - overeacted
+    - abramov
+
+- id: robin_wieruch
+  name: Robin Wieruch
+  homepage: https://www.robinwieruch.de/
+  tags:
+    - js
+    - blogs
+  patterns: 
+    - wieruch
+
+- id: ponyfoo
+  name: Pony Foo
+  homepage: https://ponyfoo.com/
+  tags:
+    - js
+    - blogs
+  patterns:
+    - pony ?foo
+
+- id: david_walsh
+  name: David Walsh Blog
+  homepage: https://davidwalsh.name/
+  tags:
+    - js
+    - blogs
+
+- id: flaviocopes
+  name: Flavio Copes
+  homepage: https://flaviocopes.com/
+  tags:
+    - js
+    - blogs
+
+- id: ishadeed
+  name: Ahmad Shadeed
+  homepage: https://ishadeed.com/
+  tags:
+    - css
+    - blogs
+  patterns:
+    - shadeed
+
+
+- id: picalilli
+  name: Piccalilli
+  homepage: https://piccalil.li/
+  tags:
+    - css
+    - blogs
+  patterns:
+    - picc?alil\.?l?(i|y)
+
+- id: chenhuijing
+  name: Chen Hui Jing
+  homepage: https://chenhuijing.com/
+  tags: 
+    - css
+    - blogs
+  patterns:
+    - chen ?hui ?jing
+
+- id: adactio
+  name: Jeremy Keith
+  homepage: https://adactio.com/
+  tags:
+    - css
+    - blogs
+  patterns:
+    - jeremy ?keith
+
+- id: lea_verou
+  name: Lea Verou
+  homepage: https://lea.verou.me/
+  tags:
+    - css
+    - blogs
+
+- id: sara_soueidan
+  name: Sara Soueidan
+  homepage: https://www.sarasoueidan.com/
+  tags:
+    - css
+    - blogs
+
+- id: josh_comeau
+  name: Josh Comeau
+  homepage: https://joshwcomeau.com/
+  tags:
+    - blogs
+    - css
+    - js
+  patterns:
+    - josh ?w? ?comeau
+
+- id: rachel_andrew
+  name: Rachel Andrew
+  homepage: https://rachelandrew.co.uk/
+  tags:
+    - css
+
+- id: una_kravets
+  name: Una Kravets
+  homepage: https://una.im/
+  tags:
+    - css
+
+- id: jen_simmons
+  name: Jen Simmons
+  homepage: https://jensimmons.com/
+  tags:
+    - css
+
+- id: kevin_powell
+  name: Kevin Powell
+  homepage: https://www.kevinpowell.co/
+  tags:
+    - css
+
+- id: css_wizardry
+  name: CSS Wizardry
+  homepage: https://css_wizardry.com
+  tags:
+    - css
+  patterns:
+    - harry ?roberts
+    

@@ -53,6 +53,8 @@
 - id: syntaxfm
   name: Syntax
   homepage: https://syntax.fm/
+  patterns:
+    - syntax
 
 - id: css_podcast
   name: CSS Podcast
@@ -82,10 +84,11 @@
   name: Non Breaking Space Show
   homepage: https://goodstuff.fm/nbsp/
 
-
 - id: frontend_happyhour
   name: Front End Happy Hour
   homepage: https://frontendhappyhour.com/
+  patterns:
+    - front( |-)?end ?happy ?hour
 
 - id: javascript_jabber
   name: JavaScript Jabber
@@ -132,3 +135,49 @@
 - id: undefined_podcast
   name: The Undefined Podcast
   homepage: https://undefined.fm/
+  patterns:
+    - undefined
+
+- id: tools_day
+  name: Tools Day
+  homepage: https://spec.fm/podcasts/toolsday
+
+- id: front_end_happy_hour
+  name: Front End Happy Hour
+  homepage: https://frontendhappyhour.com/
+
+- id: fullstack_radio
+  name: Full Stack Radio
+  homepage: http://www.fullstackradio.com/
+
+- id: react_podcast
+  name: React Podcast
+  homepage: https://reactpodcast.com/
+
+- id: developer_tea
+  name: Developer Tea
+  homepage: https://developertea.simplecast.fm/
+
+- id: the_web_platform
+  name: The Web Platform Podcast
+  homepage: https://thewebplatformpodcast.com/
+
+- id: web_standards_ru
+  name: Веб-стандарты
+  homepage: https://web-standards.ru/
+  patterns:
+    - web_standards
+    - web_standarts
+    - Веб(-| )?стандарты
+
+- id: http_203
+  name: HTTP 203
+  homepage: https://developers.google.com/web/shows/http203/podcast/
+
+- id: working_draft
+  name: Working Draft Podcast
+  homepage: https://workingdraft.de/
+
+- id: software_engineering
+  name: Software Engineering Radio
+  homepage: https://www.se-radio.net/

@@ -1,0 +1,92 @@
+- id: wesbos
+  name: Wes Bos
+  homepage: https://wesbos.com/
+  aliases:
+    - Wes Bos Courses (GSSGrid.io, Flexbox.io, etc.)
+  patterns:
+    - wes ?bos
+
+- id: codecademy
+  name: Codecademy
+  homepage: https://www.codecademy.com/
+
+- id: pluralsight
+  name: Pluralsight
+  homepage: https://www.pluralsight.com/
+
+- id: levelup
+  name: Level Up Tutorials
+  aliases:
+    - LevelUp Tutorials
+  homepage: https://www.leveluptutorials.com/
+
+- id: udemy
+  name: Udemy
+  homepage: https://www.udemy.com/
+    
+- id: lynda
+  name: Lynda
+  homepage: https://www.lynda.com/
+
+- id: egghead
+  name: Egghead.io
+  homepage: https://egghead.io/
+
+- id: udacity
+  name: Udacity
+  homepage: https://www.udacity.com/
+  
+- id: vuemastery
+  name: Vue Mastery
+  homepage: https://www.vuemastery.com/
+
+
+- id: superhi
+  name: SuperHi
+  homepage: https://www.superhi.com/
+
+- id: laracasts
+  name: Laracasts
+  homepage: https://laracasts.com/
+
+- id: testingjavascript
+  name: Testing JavaScript
+  homepage: https://testingjavascript.com/
+
+- id: linkedin_learning
+  name: LinkedIn Learning
+  homepage: https://www.linkedin.com/learning/
+
+- id: academind
+  name: Academind
+  homepage: academind
+    
+- id: ultimate_courses
+  name: Ultimate Courses
+  homepage: https://ultimatecourses.com/
+
+- id: designcode
+  name: Design+Code
+  homepage: https://designcode.io/
+
+- id: frontendmasters
+  name: Frontend Masters
+  homepage: https://frontendmasters.com/
+  patterns:
+    - front( |-)?end( |-)?masters
+
+- id: treehouse
+  name: Treehouse
+  homepage: https://teamtreehouse.com/
+
+- id: vueschool
+  name: Vue School
+  homepage: https://vueschool.io/
+
+- id: superhi
+  name: SuperHi
+  homepage: https://www.superhi.com/
+  tags:
+    - courses
+    - css
+    - js

@@ -5,16 +5,19 @@
     - blogs
   aliases:
     - CSS-Tricks
+
 - id: smashing_magazine
   name: Smashing Magazine
   homepage: https://www.smashingmagazine.com/
   tags:
     - blogs
+
 - id: a_list_apart
   name: A List Apart
   homepage: https://alistapart.com/
   tags:
     - blogs
+
 - id: codrops
   name: Codrops
   homepage: https://tympanus.net/codrops/
@@ -23,74 +26,48 @@
   patterns:
     - codedrops
     - tympanus
+
 - id: sitepoint
   name: SitePoint
   homepage: https://www.sitepoint.com/
   tags:
     - blogs
+
 - id: stack_overflow
   name: Stack Overflow
   homepage: https://stackoverflow.com/
   tags:
     - resources
+    - podcasts
+
 - id: mdn
   name: MDN
   homepage: https://developer.mozilla.org/en-US/
   tags:
     - resources
+
 - id: w3schools
   name: W3Schools
   homepage: https://www.w3schools.com/
   tags:
     - resources
-- id: wesbos
-  name: Wes Bos
-  homepage: https://wesbos.com/
-  tags:
-    - courses
-  aliases:
-    - Wes Bos Courses (GSSGrid.io, Flexbox.io, etc.)
-  patterns:
-    - wes ?bos
+
 - id: freecodecamp
   name: freeCodeCamp
   homepage: https://www.freecodecamp.org/
   tags:
     - courses
-  patterns: 
+    - podcasts
+  patterns:
     - fcc
     - free( |-)?code( |-)?camp
-- id: codecademy
-  name: Codecademy
-  homepage: https://www.codecademy.com/
-  tags:
-    - courses
+
 - id: css_specs
   name: The CSS Specs
   homepage: https://www.w3.org/Style/CSS/specs.en.html
   tags:
     - resources
-- id: pluralsight
-  name: Pluralsight
-  homepage: https://www.pluralsight.com/
-  tags:
-    - courses
-- id: levelup
-  name: Level Up Tutorials
-  aliases:
-    - LevelUp Tutorials
-  homepage: https://www.leveluptutorials.com/
-  tags:
-    - courses
 
-- id: hn
-  name: Hacker News
-  homepage: https://news.ycombinator.com/
-  tags:
-    - socialmedia
-  patterns:
-    - hacker_news
-    - ycombinator
 - id: stateofjs
   name: State of JS
   homepage: https://stateofjs.com
@@ -98,6 +75,7 @@
     - resources
   patterns:
     - state( |-)?of( |-)?js
+
 - id: stateofcss
   name: State of CSS
   homepage: https://stateofcss.com
@@ -105,171 +83,57 @@
     - resources
   patterns:
     - state( |-)?of( |-)?css
-- id: reddit
-  name: Reddit
-  homepage: https://reddit.com
-  tags:
-    - socialmedia
-  patterns:
-    - \/?r\/(javascript|clojure|reactjs|angular|webdev|programming)
-- id: designernews
-  name: Designer News
-  homepage: https://www.designernews.co/
-  tags:
-    - socialmedia
+
 - id: one_page_love
   name: One Page Love
   homepage: https://onepagelove.com/
   tags:
     - resources
-- id: sidebar
-  name: Sidebar
-  homepage: https://sidebar.io
-  tags:
-    - newsletters
-- id: heydesigner
-  name: HeyDesigner
-  homepage: https://heydesigner.com
-  tags:
-    - newsletters
-- id: front_end_front
-  name: Front-End Front
-  homepage: https://frontendfront.com/
-  tags:
-    - newsletters
-- id: css_weekly
-  name: CSS Weekly
-  homepage: https://css-weekly.com/
-  tags:
-    - newsletters
-- id: frontend_horse
-  name: Frontend Horse
-  homepage: https://frontend.horse/
-  tags:
-    - newsletters
-- id: css_layout_news
-  name: CSS Layout News
-  homepage: http://csslayout.news/
-  tags:
-    - newsletters
-- id: responsive_design_weekly
-  name: Responsive Design Weekly
-  homepage: http://responsivedesignweekly.com/
-  tags:
-    - newsletters
+
 - id: muzli
   name: Muzli
   homepage: https://muz.li/
   tags:
     - resources
+
 - id: wordpress_tavern
   name: WordPress Tavern
   homepage: https://wptavern.com/
   tags:
     - resources
-- id: facebook
-  name: Facebook
-  tags:
-    - socialmedia
-  homepage: https://facebook.com
-  patterns:
-    - fb
-- id: word_of_mouth
-  name: Word Of Mouth
-  tags:
-    - socialmedia
-- id: producthunt
-  name: Product Hunt
-  tags:
-    - socialmedia
-  homepage: https://www.producthunt.com/
-- id: telegram
-  name: Telegram
-  tags:
-    - socialmedia
-  homepage: https://telegram.org/
-- id: slack
-  name: Slack
-  tags:
-    - socialmedia
-  homepage: https://slack.com/
-- id: hangouts
-  name: Hangouts
-  tags:
-    - socialmedia
-  homepage: https://tools.google.com/dlpage/hangoutplugin
-- id: udemy
-  name: Udemy
-  homepage: https://www.udemy.com/
-  tags:
-    - resources
-- id: lynda
-  name: Lynda
-  homepage: https://www.lynda.com/
-  tags:
-    - resources
-- id: egghead
-  name: Egghead.io
-  homepage: https://egghead.io/
-  tags:
-    - resources
+
 - id: caniuse
   name: Can I Use
   homepage: https://caniuse.com/
   tags:
     - resources
-- id: frontendmasters
-  name: Frontend Masters
-  homepage: https://frontendmasters.com/
-  tags:
-    - resources
-  patterns:
-    - front( |-)?end( |-)?masters
-- id: treehouse
-  name: Treehouse
-  homepage: https://teamtreehouse.com/
-  tags:
-    - resources
+
 - id: codepen
   name: CodePen
   homepage: https://codepen.io/
   tags:
     - resources
-- id: udacity
-  name: Udacity
-  homepage: https://www.udacity.com/
-  tags:
-    - resources
-- id: http_203
-  name: HTTP 203
-  homepage: https://developers.google.com/web/shows/http203/podcast/
-  tags:
-    - resources
+  patterns:
+    - (^|\s)codepen($|\s)
+
 - id: alligator
   name: Alligator.io
   homepage: https://alligator.io/
   tags:
     - resources
+
 - id: devto
   name: Dev.to
   homepage: https://dev.to/
   tags:
     - resources
-- id: sidebar
-  name: Sidebar
-  homepage: https://sidebar.io/
-  tags:
-    - resources
-- id: css_wizardry
-  name: CSS Wizardry
-  homepage: https://css_wizardry.com
-  tags:
-    - resources
+
 - id: web_standards
   name: Web Standards
   homepage: https://www.webstandards.org/
   tags:
     - resources
+
 - id: medium
   name: Medium
   homepage: https://medium.com/
@@ -277,10 +141,12 @@
     - resources
   patterns:
     - meduim
+
 - id: google
   name: Google
   tags:
     - resources
+
 - id: youtube
   name: YouTube
   homepage: https://youtube.com
@@ -288,11 +154,7 @@
     - youtube
   aliases:
     - YouTube
-- id: vuemastery
-  name: Vue Mastery
-  homepage: https://www.vuemastery.com/
-  tags:
-    - courses
+
 - id: frontend_focus
   name: Frontend Focus
   homepage: https://frontendfoc.us/
@@ -300,16 +162,19 @@
     - resources
   patterns:
     - front( |-)?end( |-)?focus
+
 - id: css_layout_news
   name: CSS Layout News
   homepage: http://csslayout.news/
   tags:
     - resources
+
 - id: flexbox_zombies
   name: Flexbox Zombies
   homepage: https://mastery.games/p/flexbox-zombies
   tags:
     - resources
+
 - id: traversy_media
   name: Traversy Media
   homepage: https://www.traversymedia.com/
@@ -317,89 +182,31 @@
     - resources
   aliases:
     - traversy
-- id: superhi
-  name: SuperHi
-  homepage: https://www.superhi.com/
-  tags:
-    - resources
+
 - id: platzi
   name: Platzi
   homepage: https://platzi.com/
   tags:
     - resources
+
 - id: scrimba
   name: Scrimba
   homepage: https://scrimba.com/
   tags:
     - resources
+
 - id: devdocs
   name: devdocs.io
   homepage: https://devdocs.io
   tags:
     - resources
-- id: front_end_happy_hour
-  name: Front End Happy Hour
-  homepage: https://frontendhappyhour.com/
-  tags:
-    - resources
-- id: toolsday
-  name: Toolsday
-  homepage: https://spec.fm/podcasts/toolsday
-  tags:
-    - resources
-- id: fullstack_radio
-  name: Full Stack Radio
-  homepage: http://www.fullstackradio.com/
-  tags:
-    - resources
-- id: react_podcast
-  name: React Podcast
-  homepage: https://reactpodcast.com/
-  tags:
-    - resources
+
 - id: code_newbie
   name: Code Newbie
   homepage: https://www.codenewbie.org/
   tags:
     - resources
-- id: developer_tea
-  name: Developer Tea
-  homepage: https://developertea.simplecast.fm/
-  tags:
-    - resources
-- id: the_web_platform
-  name: The Web Platform Podcast
-  homepage: https://thewebplatformpodcast.com/
-  tags:
-    - resources
-- id: web_standards_ru
-  name: Веб-стандарты
-  homepage: https://web-standards.ru/
-  tags:
-    - resources
-- id: working_draft
-  name: Working Draft Podcast
-  homepage: https://workingdraft.de/
-  tags:
-    - resources
-- id: software_engineering
-  name: Software Engineering Radio
-  homepage: https://www.se-radio.net/
-  tags:
-    - resources
 
-- id: eclipse
-  name: Eclipse
-  homepage: https://www.eclipse.org/
-  tags:
-    - text_editors
-- id: js_weekly
-  name: JavaScript Weekly
-  homepage: https://javascriptweekly.com/
-  tags:
-    - newsletters
-  patterns:
-    - javascript( |-)?weekly
 - id: bestofjs
   name: Best Of JS
   homepage: https://bestofjs.org/
@@ -407,41 +214,25 @@
     - news
   patterns:
     - best( |-)?of( |-)?js
-- id: david_walsh
-  name: David Walsh Blog
-  homepage: https://davidwalsh.name/
-  tags:
-    - blogs
+
 - id: daily_js
   name: Daily JS
   homepage: https://medium.com/dailyjs
   tags:
     - blogs
+
 - id: echo_js
   name: Echo JS
   homepage: https://echojs.com/
   tags:
     - news
-- id: kentcdodds
-  name: Kent C. Dodds
-  homepage: https://kentcdodds.com/blog/
-  tags:
-    - blogs
-  patterns:
-    - kent( )?c(.)?( )?dodds
-- id: overreacted
-  name: Overreacted
-  homepage: https://overreacted.io/
-  tags:
-    - blogs
-  patterns:
-    - overeacted
-    - abramov
+
 - id: 2ality
   name: 2ality
   homepage: https://2ality.com/
   tags:
     - blogs
+
 - id: scotchio
   name: Scotch
   homepage: https://scotch.io
@@ -449,82 +240,31 @@
     - resources
   patterns:
     - scotch
-- id: react_status
-  name: React Status
-  homepage: https://react.statuscode.com/
-  tags:
-    - newsletters
-- id: node_weekly
-  name: Node Weekly
-  homepage: https://nodeweekly.com/
-  tags:
-    - newsletters
-- id: ember_times
-  name: The Ember Times
-  homepage: https://the-emberjs-times.ongoodbits.com/
-  tags:
-    - newsletters
+
 - id: hackernoon
   name: Hackernoon
   homepage: https://hackernoon.com/
   tags:
     - resources
+
 - id: habr
   name: Habr
   homepage: https://habr.com/en/
   tags:
     - resources
-- id: robin_wieruch
-  name: Robin Wieruch
-  homepage: https://www.robinwieruch.de/
-  tags:
-    - blogs
-  patterns: 
-    - wieruch
+
 - id: javascript_info
   name: JavaScript.info
   homepage: https://javascript.info/
   tags:
     - resources
 
-- id: laracasts
-  name: Laracasts
-  homepage: https://laracasts.com/
-  tags:
-    - courses
-- id: testingjavascript
-  name: Testing JavaScript
-  homepage: https://testingjavascript.com/
-  tags:
-    - courses
-- id: linkedin_learning
-  name: LinkedIn Learning
-  homepage: https://www.linkedin.com/learning/
-  tags:
-    - courses
-- id: academind
-  name: Academind
-  homepage: academind
-  tags:
-    - courses
-- id: tyler_mcginnis
-  name: Tyle McGinnis
-  homepage: https://tylermcginnis.com/
-  tags:
-    - courses
-  patterns:
-    - tyler ?mc( |-)?ginnis
-- id: ultimate_courses
-  name: Ultimate Courses
-  homepage: https://ultimatecourses.com/
-  tags:
-    - courses
-
 - id: angular_in_depth
   name: Angular In Depth
   homepage: https://indepth.dev/
   tags:
     - blogs
+
 - id: web_dev
   name: Web.dev
   homepage: https://web.dev/
@@ -532,45 +272,12 @@
     - resources
   aliases:
     - web-dev
-- id: web_development_reading_list
-  name: Web Development Reading List
-  homepage: https://wdrl.info/
-  tags:
-    - newsletters
-- id: esnext
-  name: ESNext News
-  homepage: http://esnextnews.com/
-  tags:
-    - newsletters
-- id: ponyfoo
-  name: Pony Foo
-  homepage: https://ponyfoo.com/
-  tags:
-    - blogs
-  patterns:
-    - pony ?foo
-- id: designcode
-  name: Design+Code
-  homepage: https://designcode.io/
-  tags:
-    - courses
+
 - id: elm_slack
   name: Elm Slack
   homepage: https://elmlang.herokuapp.com/
   tags:
     - chats
-
-- id: vueschool
-  name: Vue School
-  homepage: https://vueschool.io/
-  tags:
-    - courses
-
-- id: twitter
-  name: Twitter
-  homepage: https://twitter.com
-  tags:
-    - socialmedia
 
 - id: oreilly
   name: O'Reilly
@@ -581,16 +288,10 @@
     - o\'reilly
     - o reilly
 
-- id: juejin
-  name: Juejin
-  homepage: https://juejin.im/
-  tags:
-    - socialmedia
-
 - id: javascriptkicks
   name: JavaScript Kicks
   homepage: https://javascriptkicks.com/
-  tags: 
+  tags:
     - news
   patterns:
     - jsk
@@ -600,22 +301,16 @@
 - id: mozilla_hacks
   name: Mozilla Hacks
   homepage: https://hacks.mozilla.org/
-  tags: 
+  tags:
     - blogs
 
 - id: gomakethings
   name: Go Make Things
   homepage: https://gomakethings.com/
-  tags: 
+  tags:
     - blogs
   patterns:
     - go ?make ?things
-
-- id: flaviocopes
-  name: Flavio Copes
-  homepage: https://flaviocopes.com/
-  tags:
-    - blogs
 
 - id: codyhouse
   name: Cody House
@@ -624,3 +319,41 @@
     - blogs
   patterns:
     - cody( |-)?house
+
+- id: habr
+  name: Habr
+  homepage: https://habr.com/
+
+- id: vzhurudolu
+  name: Vzhůru dolů
+  homapge: https://www.vzhurudolu.cz/
+  patterns:
+    - vzhůru ?dolů
+  tags:
+    - podcasts
+
+- id: daily_dev
+  name: Daily Dev
+  homepage: https://daily.dev/
+  tags:
+    - news
+
+- id: webdesignernews
+  name: Web Designer News
+  tags:
+    - news
+  patterns:
+    - web ?designer ?news
+
+- id: awwwards
+  name: Awwwards
+  homepage: https://www.awwwards.com/
+  tags:
+    - news
+
+- id: every_layout
+  name: Every Layout
+  homepage: https://every-layout.dev/
+  tags:
+    - css
+    - courses
