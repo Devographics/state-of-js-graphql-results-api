@@ -5,7 +5,7 @@ translations:
     ###########################################################################
 
     - key: homepage.hand_coded
-      t: 手写于日本
+      t: 于日本手工编码
     - key: homepage.leave_issue
       t: 提出 issue
     - key: homepage.get_in_touch
