@@ -12,6 +12,8 @@ const Tracing = require("@sentry/tracing");
 
 const app = express()
 
+const environment = process.env.ENVIRONMENT || process.env.NODE_ENV;
+
 Sentry.init({
   dsn: process.env.SENTRY_DSN,
     integrations: [
@@ -23,6 +25,7 @@ Sentry.init({
   // We recommend adjusting this value in production, or using tracesSampler
   // for finer control
   tracesSampleRate: 1.0,
+  environment,
 });
 
 const path = require('path')
