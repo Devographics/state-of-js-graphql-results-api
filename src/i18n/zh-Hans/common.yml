@@ -9,7 +9,7 @@ translations:
       t: 为什么我需要创建一个账户？
     - key: general.create_account_reasons
       t: >
-          因为:
+          因为可以:
 
            - 确保数据的唯一性
 
