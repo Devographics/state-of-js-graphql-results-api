@@ -1,75 +1,74 @@
 locale: zh-Hans
 translations:
-  - key: accounts.error_incorrect_password # TODO
-    t: Incorrect password
-  - key: accounts.error_email_required # TODO
-    t: Email required
-  - key: accounts.error_email_already_exists # TODO
-    t: Email already exists
-  - key: accounts.error_invalid_email # TODO
-    t: Invalid email
-  - key: accounts.error_minchar # TODO
-    t: Your password is too short
-  - key: accounts.error_unknown # TODO
-    t: Unknown error
-  - key: accounts.error_user_not_found # TODO
-    t: User not found
-  - key: accounts.error_username_already_exists # TODO
-    t: Username already exists
-  - key: accounts.enter_username_or_email # TODO
-    t: Enter username or email
-  - key: accounts.error_internal_server_error # TODO
-    t: Internal server error
-  - key: accounts.error_token_expired # TODO
-    t: Invalid password reset token
-  - key: accounts.username_or_email # TODO
-    t: Username or email
-  - key: accounts.enter_username # TODO
-    t: Enter username
-  - key: accounts.username # TODO
-    t: Username
-  - key: accounts.enter_email # TODO
-    t: Enter email
-  - key: accounts.email # TODO
-    t: Email
-  - key: accounts.enter_password # TODO
-    t: Enter password
-  - key: accounts.password # TODO
-    t: Password
-  - key: accounts.choose_password # TODO
-    t: Choose password
-  - key: accounts.change_password # TODO
-    t: Change password
-  - key: accounts.reset_your_password # TODO
-    t: Reset your password
-  - key: accounts.set_password # TODO
-    t: Set password
-  - key: accounts.enter_new_password # TODO
-    t: Enter new password
-  - key: accounts.new_password # TODO
-    t: New password
-  - key: accounts.forgot_password # TODO
-    t: Forgot password
-  - key: accounts.sign_up # TODO
-    t: Sign up
-  - key: accounts.sign_in # TODO
-    t: Sign in
-  - key: accounts.sign_out # TODO
-    t: Sign out
-  - key: accounts.cancel # TODO
-    t: Cancel
-  - key: accounts.info_email_sent # TODO
-    t: Email sent.
-  - key: accounts.info_password_changed # TODO
-    t: Password changed.
-  - key: accounts.please_pick_password # TODO
-    t: Please pick a new password to continue.
-  - key: accounts.please_log_in # TODO
-    t: Please log in or sign up to begin.
-  - key: accounts.logged_in_as # TODO
-    t: Logged in as {email}
-  - key: accounts.questions # TODO
-    t: >
-        If you have any questions about how we use your data, or would like
-        us to remove your data from our records,
-        please <a href="mailto:hello@stateofjs.com">get in touch</a>.
+    - key: accounts.error_incorrect_password # TODO
+      t: 密码错误
+    - key: accounts.error_email_required # TODO
+      t: 必须输入邮箱地址
+    - key: accounts.error_email_already_exists # TODO
+      t: 已有此邮箱地址
+    - key: accounts.error_invalid_email # TODO
+      t: 邮箱地址格式错误
+    - key: accounts.error_minchar # TODO
+      t: 你输入的密码过短
+    - key: accounts.error_unknown # TODO
+      t: 未知错误
+    - key: accounts.error_user_not_found # TODO
+      t: 该用户不存在
+    - key: accounts.error_username_already_exists # TODO
+      t: 用户名已被注册
+    - key: accounts.enter_username_or_email # TODO
+      t: 输入用户名或邮箱地址
+    - key: accounts.error_internal_server_error # TODO
+      t: 服务器错误
+    - key: accounts.error_token_expired # TODO
+      t: 重置密码出现错误
+    - key: accounts.username_or_email # TODO
+      t: 用户名或邮箱地址
+    - key: accounts.enter_username # TODO
+      t: 输入用户名
+    - key: accounts.username # TODO
+      t: 用户名
+    - key: accounts.enter_email # TODO
+      t: 输入邮箱地址
+    - key: accounts.email # TODO
+      t: 邮箱地址
+    - key: accounts.enter_password # TODO
+      t: 输入密码
+    - key: accounts.password # TODO
+      t: 密码
+    - key: accounts.choose_password # TODO
+      t: 设定密码
+    - key: accounts.change_password # TODO
+      t: 修改密码
+    - key: accounts.reset_your_password # TODO
+      t: 重置密码
+    - key: accounts.set_password # TODO
+      t: 设置密码
+    - key: accounts.enter_new_password # TODO
+      t: 输入新密码
+    - key: accounts.new_password # TODO
+      t: 新密码
+    - key: accounts.forgot_password # TODO
+      t: 忘记密码
+    - key: accounts.sign_up # TODO
+      t: 注册
+    - key: accounts.sign_in # TODO
+      t: 登录
+    - key: accounts.sign_out # TODO
+      t: 退出登录
+    - key: accounts.cancel # TODO
+      t: 取消
+    - key: accounts.info_email_sent # TODO
+      t: 邮件已发送。
+    - key: accounts.info_password_changed # TODO
+      t: 密码已更改。
+    - key: accounts.please_pick_password # TODO
+      t: 请设定新密码后继续。
+    - key: accounts.please_log_in # TODO
+      t: 请登录或注册后重试。
+    - key: accounts.logged_in_as # TODO
+      t: 以 {email} 登录
+    - key: accounts.questions # TODO
+      t: >
+          如果你对于我们使用你的数据存在疑问，或者希望我们删除你的数据记录，请
+          发送<a href="mailto:hello@stateofjs.com">邮件</a>获得联系。

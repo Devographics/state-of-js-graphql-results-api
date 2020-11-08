@@ -5,146 +5,143 @@ translations:
     ###########################################################################
 
     # homepage
-    - key: general.why_create_account # TODO
-      t: Why do I need to create an account?
-    - key: general.create_account_reasons # TODO
+    - key: general.why_create_account
+      t: 为什么我需要创建一个账户？
+    - key: general.create_account_reasons
       t: >
-          We ask you to create an account in order to:
+          因为:
 
-          - Avoid duplicate responses
+           - 确保数据的唯一性
 
-          - Give you access to your data
+           - 用于访问自己的数据
 
-          - Save your session as you go
+           - 保持会话状态以便继续操作
 
-          - Notify you when results are live
-    - key: general.survey_closed # TODO
+           - 结果公布后，可以通知到你
+    - key: general.survey_closed
       t: >
-          Sorry, the survey is now closed! You can still review your data but you won't be able to modify it.
-    - key: general.survey_read_only # TODO
+          抱歉，此问卷已结束！你仍可以查看已有数据，但不能修改。
+    - key: general.survey_read_only
       t: >
-          You are currently viewing this survey in read-only mode.
-    - key: general.survey_read_only_back # TODO
+          你当前正在以只读模式查看此问卷。
+    - key: general.survey_read_only_back
       t: >
-          <a href="{link}">Go back</a> to the main survey page to start or resume a session.
+          <a href="{link}">返回问卷主页</a> 以继续（重新）填写。
 
     # surveys
-    - key: general.open_surveys # TODO
-      t: Open Surveys
-    - key: general.no_open_surveys # TODO
-      t: No surveys are currently open.
-    - key: general.closed_surveys # TODO
-      t: Closed Surveys
-    - key: general.start_survey # TODO
-      t: Start Survey »
-    - key: general.continue_survey # TODO
-      t: Continue Survey »
-    - key: general.review_survey # TODO
-      t: Review Survey »
-    - key: general.preview_survey # TODO
-      t: Preview Survey »
-    - key: general.finish_survey # TODO
-      t: Finish Survey »
-    - key: general.survey_closed # TODO
-      t: This survey is now closed.
-    - key: general.survey_results # TODO
-      t: View Survey Results »
-    - key: general.surveys_available_languages # TODO
-      t: 'Surveys available in:'
-    - key: general.help_us_translate # TODO
-      t: Help us translate the surveys »
-    - key: general.translators # TODO
-      t: Translators
-    - key: general.translation_help # TODO
-      t: Translation Help
+    - key: general.open_surveys
+      t: 进行中
+    - key: general.no_open_surveys
+      t: 没有可供填写的问卷。
+    - key: general.closed_surveys
+      t: 已关闭
+    - key: general.start_survey
+      t: 开始问卷 »
+    - key: general.continue_survey
+      t: 继续填写 »
+    - key: general.review_survey
+      t: 查看已填写 »
+    - key: general.preview_survey
+      t: 预览问卷 »
+    - key: general.finish_survey
+      t: 完成问卷 »
+    - key: general.survey_closed
+      t: 此问卷调查已结束。
+    - key: general.survey_results
+      t: 查看问卷调查结果 »
+    - key: general.surveys_available_languages
+      t: '切换语言：'
+    - key: general.help_us_translate
+      t: 帮助我们翻译问卷调查 »
+    - key: general.translators
+      t: 译者
+    - key: general.translation_help
+      t: 翻译帮助
 
     # footer
-    - key: general.privacy_policy # TODO
-      t: Privacy Policy
-    - key: general.leave_issue # TODO
-      t: Questions? Found a bug? <a href="{link}" target="_blank">Leave an issue</a>.
-    - key: general.emoji_icons # TODO
-      t: Emoji icons by <a target="_blank" rel="noreferrer" href="https://icons8.com">Icons8</a>
+    - key: general.privacy_policy
+      t: 隐私政策
+    - key: general.leave_issue
+      t: 遇到问题，发生bug？ 请<a href="{link}" target="_blank">提交 issue</a>。
+    - key: general.emoji_icons
+      t: Emoji 图标来自 <a target="_blank" rel="noreferrer" href="https://icons8.com">Icons8</a>
 
     # navigation
-    - key: general.table_of_contents # TODO
-      t: Table of Contents
-    - key: general.all_questions_optional # TODO
+    - key: general.table_of_contents
+      t: 目录
+    - key: general.all_questions_optional
       t: >
-          Note: all questions are optional, reaching 100% completion is not required.
-    - key: general.data_is_saved # TODO
-      t: Your data is saved whenever you navigate to the previous or next section.
+          提示：所有问题都不是必填项，不强制填满。
+    - key: general.data_is_saved
+      t: 每次进行“上一步”或“下一步”跳转操作时，数据都会自动保存。
 
     # thanks
-    - key: general.back # TODO
-      t: Back
-    - key: general.thanks # TODO
+    - key: general.back
+      t: 返回
+    - key: general.thanks
       t: >
-          Thanks for filling out the survey!
+          非常感谢你的填写！
 
-          Your data is saved. You can review or modify it until the survey closes.
+          数据已保存。在调查结束之前，你都可以进行查看和修改。
 
-          Also, you can help us get the word out by sharing this survey. Every bit counts, and it'll help make our data even
-          more representative:
-    - key: thanks.learn_more_about # TODO
-      t: 'Some of the features you might want to learn more about:'
-    - key: thanks.knowledge_score # TODO
-      t: Knowledge Score
-    - key: thanks.score_explanation # TODO
+          另外，如果可以，你可以将此问卷分享给更多人，让最终的数据更具代表性：
+    - key: thanks.learn_more_about
+      t: '还有一些你可能感兴趣的功能：'
+    - key: thanks.knowledge_score
+      t: 分数排名
+    - key: thanks.score_explanation
       t: >
-          You’ve heard or used <span class="score-number score-number-known">{known}</span> out of
-          <span class="score-number score-number-total">{total}</span> features mentioned in the survey, which
-          puts you in the top <span class="score-number score-number-ranking">{knowledgeRankingFromTop}%</span>
-          of all respondents.
-    - key: thanks.share_on_twitter # TODO
-      t: Share on Twitter
-    - key: thanks.share_score_message # TODO
+          你的调查问卷里提到的 <span class="score-number score-number-known">{known}</span> 个提案，已有
+          <span class="score-number score-number-total">{total}</span> 个计分, 在所有提交者里，你排名于 <span class="score-number score-number-ranking">{knowledgeRankingFromTop}%</span>。
+    - key: thanks.share_on_twitter
+      t: 分享至 Twitter
+    - key: thanks.share_score_message
       t: >
-          I got a {score}% knowledge score on this year's #{hashtag} survey! Take the survey here: {shareUrl}
+          我正在参与#{hashtag}调查问卷，我的分数排名是 {score}% 。点击链接和我一起参与调查问卷： {shareUrl}
     # share
-    - key: general.share_subject # TODO
+    - key: general.share_subject
       t: >
-          {surveyName} survey
-    - key: general.share_text # TODO
+          {surveyName} 调查问卷
+    - key: general.share_text
       t: >
-          This year's {surveyName} survey is now open! {link}
+          今年份 {surveyName} 开放填写中！ {link}
 
     # forms
-    - key: forms.select_option # TODO
-      t: Select option
+    - key: forms.select_option
+      t: 选项
 
     ###########################################################################
     # Nav
     ###########################################################################
 
-    - key: nav.surveys # TODO
-      t: Surveys
-    - key: nav.account # TODO
-      t: Account
+    - key: nav.surveys
+      t: 调查问卷
+    - key: nav.account
+      t: 账户
 
     ###########################################################################
     # Sections
     ###########################################################################
 
-    - key: sections.user_info.title # TODO
-      t: About You
-    - key: sections.user_info.description # TODO
-      t: Let's get to know the real you.
+    - key: sections.user_info.title
+      t: 关于你
+    - key: sections.user_info.description
+      t: 让我们了解真实的你。
 
     - key: sections.resources.title
-      t: 资源
-    - key: sections.resources.description # TODO
-      t: What {topic} resources do you consult?
+      t: 资料
+    - key: sections.resources.description
+      t: 你可能想要了解关于 {topic} 的资料？
 
     - key: sections.opinions.title
-      t: 看法
-    - key: sections.opinions.description # TODO
-      t: How do you feel about the state of {topic}?
+      t: 想法
+    - key: sections.opinions.description
+      t: 对于 {topic} 的现状调查有什么想说的？
 
-    - key: sections.other_tools.title # TODO
+    - key: sections.other_tools.title
       t: 其他工具
     - key: sections.other_tools.description # TODO
-      t: For these tools & technologies, just check the ones that you use regularly.
+      t: 请在这些工具和技术里，勾上你常用的。
 
     ###########################################################################
     # Options
@@ -168,23 +165,23 @@ translations:
 
     # features (short versions)
     - key: options.features.never_heard.short
-      t: 没听说过/不确定它是什么
+      t: 印象模糊
     - key: options.features.heard.short
-      t: 知道它是什么，但是没用过
+      t: 有听说过
     - key: options.features.used.short
       t: 用过
 
     # patterns
-    - key: options.patterns.use_never # TODO
-      t: Almost always avoid
-    - key: options.patterns.use_sparingly # TODO
-      t: Use sparingly
-    - key: options.patterns.use_neutral # TODO
-      t: Neutral
-    - key: options.patterns.use_frequently # TODO
-      t: Use frequently
-    - key: options.patterns.use_always # TODO
-      t: Use as much as I can
+    - key: options.patterns.use_never
+      t: 避而远之
+    - key: options.patterns.use_sparingly
+      t: 不常用
+    - key: options.patterns.use_neutral
+      t: 观望态度
+    - key: options.patterns.use_frequently
+      t: 常用
+    - key: options.patterns.use_always
+      t: 重度使用
 
     # tools experience
     - key: options.tools.never_heard
@@ -212,27 +209,27 @@ translations:
 
     # tools experience (short versions)
     - key: options.tools.never_heard.short
-      t: 从来没听说过
+      t: 没听过
     - key: options.tools.interested.short
-      t: 听说过，且打算学习
+      t: 感兴趣
     - key: options.tools.not_interested.short
-      t: 听说过，但不感兴趣
+      t: 不感冒
     - key: options.tools.would_use.short
-      t: 使用过，以后也愿意用
+      t: 还不错
     - key: options.tools.would_not_use.short
-      t: 使用过，以后不愿意用
+      t: 不会再用
 
     # happiness
-    - key: options.happiness.0 # TODO
-      t: Very Unhappy
-    - key: options.happiness.1 # TODO
-      t: Unhappy
-    - key: options.happiness.2 # TODO
-      t: Neutral
-    - key: options.happiness.3 # TODO
-      t: Happy
-    - key: options.happiness.4 # TODO
-      t: Very Happy
+    - key: options.happiness.0
+      t: 很不好
+    - key: options.happiness.1
+      t: 不好
+    - key: options.happiness.2
+      t: 一般
+    - key: options.happiness.3
+      t: 不错
+    - key: options.happiness.4
+      t: 非常不错
 
     # opinions
     - key: options.opinions.0
@@ -365,15 +362,15 @@ translations:
     # JavaScript proficiency
 
     - key: options.javascript_proficiency.0 # TODO
-      t: Not able to write any JavaScript
+      t: 不会 JavaScript
     - key: options.javascript_proficiency.1 # TODO
-      t: Writing short, simple JavaScript or jQuery statements
+      t: 会一点 JavaScript 或 jQuery 代码
     - key: options.javascript_proficiency.2 # TODO
-      t: Working on existing front-end codebases using modern frameworks (React, Vue, etc.)
+      t: 会用一些现成的前端流行框架，如 （React、 Vue、 等)
     - key: options.javascript_proficiency.3 # TODO
-      t: Architecturing entire front-end codebases from scratch
+      t: 从 0 到 1 构建前端技术栈
     - key: options.javascript_proficiency.4 # TODO
-      t: Handling advanced front-end patterns (state management, data loading, etc.)
+      t: 能处理负责的前端业务（状态管理，数据管理等）
 
     # CSS proficiency
 
@@ -402,16 +399,16 @@ translations:
       t: 能够掌控复杂的多台服务器或微服务架构
 
     # Proficiency (generic versions)
-    - key: options.proficiency.0 # TODO
-      t: None
-    - key: options.proficiency.1 # TODO
-      t: Beginner
-    - key: options.proficiency.2 # TODO
-      t: Intermediate
-    - key: options.proficiency.3 # TODO
-      t: Advanced
-    - key: options.proficiency.4 # TODO
-      t: Expert
+    - key: options.proficiency.0
+      t: 无
+    - key: options.proficiency.1
+      t: 初学
+    - key: options.proficiency.2
+      t: 中等
+    - key: options.proficiency.3
+      t: 高级
+    - key: options.proficiency.4
+      t: 资深
 
     # Gender
 
@@ -422,62 +419,61 @@ translations:
     - key: options.gender.non_binary
       t: 第三性别
     - key: options.gender.prefer_not_to_say
-      t: 未透露
+      t: 不便透露
 
     # Race & Ethnicity
 
-    - key: options.race_ethnicity.white_european # TODO
-      t: White or of European descent
-    - key: options.race_ethnicity.south_asian # TODO
-      t: South Asian
-    - key: options.race_ethnicity.hispanic_latin # TODO
-      t: Hispanic or Latino/Latina
-    - key: options.race_ethnicity.east_asian # TODO
-      t: East Asian
-    - key: options.race_ethnicity.middle_eastern # TODO
-      t: Middle Eastern
-    - key: options.race_ethnicity.black_african # TODO
-      t: Black or of African descent
-    - key: options.race_ethnicity.multiracial # TODO
-      t: Multiracial
-    - key: options.race_ethnicity.biracial # TODO
-      t: Biracial
-    - key: options.race_ethnicity.native_american_islander_australian # TODO
-      t: Native American, Pacific Islander, or Indigenous Australian
+    - key: options.race_ethnicity.white_european
+      t: 白种人或欧洲裔
+    - key: options.race_ethnicity.south_asian
+      t: 南亚
+    - key: options.race_ethnicity.hispanic_latin
+      t: 西班牙裔或拉丁裔男/女
+    - key: options.race_ethnicity.east_asian
+      t: 东亚
+    - key: options.race_ethnicity.middle_eastern
+      t: 亚洲中部
+    - key: options.race_ethnicity.black_african
+      t: 黑种人或非裔
+    - key: options.race_ethnicity.multiracial
+      t: 多民族混血
+    - key: options.race_ethnicity.biracial
+      t: 双民族混血
+    - key: options.race_ethnicity.native_american_islander_australian
+      t: 美洲原住民、太平洋岛民或澳洲原住民
 
     # Form Factors
-    - key: options.form_factors.desktop # TODO
-      t: Desktop
-    - key: options.form_factors.smartphone # TODO
-      t: Smartphone
-    - key: options.form_factors.feature_phone # TODO
-      t: Feature phone
-    - key: options.form_factors.tablet # TODO
-      t: Tablet
-    - key: options.form_factors.smart_watch # TODO
-      t: Smartwatch
-    - key: options.form_factors.tv # TODO
+    - key: options.form_factors.desktop
+      t: 桌面
+    - key: options.form_factors.smartphone
+      t: 智能手机
+    - key: options.form_factors.feature_phone
+      t: 非智能手机
+    - key: options.form_factors.tablet
+      t: 平板
+    - key: options.form_factors.smart_watch
+      t: 智能手表
+    - key: options.form_factors.tv
       t: TV
-    - key: options.form_factors.gaming_console # TODO
-      t: Gaming console
-    - key: options.form_factors.screen_reader # TODO
-      t: Screen reader
-    - key: options.form_factors.print # TODO
-      t: Print
+    - key: options.form_factors.gaming_console
+      t: 游戏主机
+    - key: options.form_factors.screen_reader
+      t: 屏幕阅读器
+    - key: options.form_factors.print
+      t: 打印机
     ###########################################################################
     # Tools
     ###########################################################################
 
-    - key: tools.other_tools # TODO
-      t: Other Options
-    - key: tools.other_tools.description # TODO
-      t: Other options you use for the current section not mentioned in the list above
-    - key: tools.happiness # TODO
-      t: Overall Happiness
-    - key: tools.happiness.description # TODO
+    - key: tools.other_tools
+      t: 其他选项
+    - key: tools.other_tools.description
+      t: 上方列表没有可供选择的项
+    - key: tools.happiness
+      t: 整体体验
+    - key: tools.happiness.description
       t: >
-          On a scale of one (very unhappy) to five (very happy), how happy are
-          you with the current overall state of things as it relates to the options listed above?
+          上面所列的选项中，以1 为（很不好）5为（满意）来评分的话，你愿意给几分呢？
 
     ###########################################################################
     # Demographics (About You/User Info)
@@ -485,9 +481,9 @@ translations:
 
     # years of experience
     - key: user_info.years_of_experience
-      t: 工龄
-    - key: user_info.years_of_experience.description # TODO
-      t: How long you've been working or studying in this field.
+      t: 年限
+    - key: user_info.years_of_experience.description
+      t: 你已于当前领域工作（研究）多长时间？
 
     # company size
     - key: user_info.company_size
@@ -505,27 +501,27 @@ translations:
     - key: user_info.job_title
       t: 职位名称
     - key: user_info.job_title.description
-      t: 你在社交场合如何介绍自己？
+      t: 使用一个名词像别人介绍你从事的工作？
 
     # javascript proficiency
 
-    - key: user_info.javascript_proficiency # TODO
-      t: JavaScript Proficiency
-    - key: user_info.javascript_proficiency.description # TODO
-      t: How proficient are you at JavaScript?
+    - key: user_info.javascript_proficiency
+      t: JavaScript 熟练程度
+    - key: user_info.javascript_proficiency.description
+      t: 对 JavaScript 了解得怎样？
 
     # css proficiency
 
-    - key: user_info.css_proficiency # TODO
-      t: CSS Proficiency
-    - key: user_info.css_proficiency.description # TODO
-      t: How proficient are you at CSS?
+    - key: user_info.css_proficiency
+      t: CSS 熟练程度
+    - key: user_info.css_proficiency.description
+      t: 对 CSS 了解得怎样？
 
     # backend proficiency
-    - key: user_info.backend_proficiency # TODO
-      t: Back-end Proficiency
-    - key: user_info.backend_proficiency.description # TODO
-      t: How proficient are you at back-end development?
+    - key: user_info.backend_proficiency
+      t: Back-end 熟练程度
+    - key: user_info.backend_proficiency.description
+      t: 对 后端开发 了解得怎样？
 
     # gender
     - key: user_info.gender
@@ -533,95 +529,95 @@ translations:
 
     # skin tone/appearance
     - key: user_info.race_ethnicity
-      t: Race & Ethnicity # TODO
+      t: 种族和民族
 
     # other info
-    - key: user_info.how_did_user_find_out_about_the_survey # TODO
-      t: How did you find out about this survey?
-    - key: user_info.email # TODO
-      t: Your Email
-    - key: user_info.country # TODO
-      t: Your Country
+    - key: user_info.how_did_user_find_out_about_the_survey
+      t: 从什么渠道找到本调查文件的？
+    - key: user_info.email
+      t: 你的邮箱地址
+    - key: user_info.country
+      t: 你的国家或地区
 
     ###########################################################################
     # Other Tools
     ###########################################################################
 
-    - key: tools_others.text_editors # TODO
-      t: Text Editors
-    - key: tools_others.text_editors.description # TODO
-      t: Which text editor(s) do you regularly use?
-    - key: tools_others.text_editors.others # TODO
-      t: Other Text Editors
-    - key: tools_others.text_editors.others.description # TODO
-      t: Other answers (freeform field).
+    - key: tools_others.text_editors
+      t: 文本编辑器
+    - key: tools_others.text_editors.description
+      t: 经常使用那（些）文字編輯器？
+    - key: tools_others.text_editors.others
+      t: 其他文本编辑器
+    - key: tools_others.text_editors.others.description
+      t: 其他文本编辑器（填写名称）。
 
-    - key: tools_others.utilities # TODO
-      t: Utilities
-    - key: tools_others.utilities.description # TODO
-      t: Which utility libraries do you regularly use?
-    - key: tools_others.utilities.others # TODO
-      t: Other Utilities
-    - key: tools_others.utilities.others.description # TODO
-      t: Other utilities (freeform field).
+    - key: tools_others.utilities
+      t: 工具函数库
+    - key: tools_others.utilities.description
+      t: 常用的工具函数库有？
+    - key: tools_others.utilities.others
+      t: 其他工具函数库
+    - key: tools_others.utilities.others.description
+      t: 其他工具函数库（填写名称）。
 
-    - key: tools_others.browsers # TODO
-      t: Browsers
-    - key: tools_others.browsers.description # TODO
-      t: Which browser(s) do you primarily work in during initial development?
-    - key: tools_others.browsers.others # TODO
-      t: Other Browsers
-    - key: tools_others.browsers.others.description # TODO
-      t: Other answers (freeform field).
+    - key: tools_others.browsers
+      t: 浏览器
+    - key: tools_others.browsers.description
+      t: 常用用于开发的浏览器有哪些？
+    - key: tools_others.browsers.others
+      t: 其他浏览器
+    - key: tools_others.browsers.others.description
+      t: 其他浏览器（填写名称）。
 
-    - key: tools_others.build_tools # TODO
-      t: Build Tools
-    - key: tools_others.build_tools.description # TODO
-      t: Which build tools do you use?
-    - key: tools_others.build_tools.others # TODO
-      t: Other Build Tools
-    - key: tools_others.build_tools.others.description # TODO
-      t: Other answers (freeform field).
+    - key: tools_others.build_tools
+      t: 构建工具
+    - key: tools_others.build_tools.description
+      t: 常用的构建工具有哪些？
+    - key: tools_others.build_tools.others
+      t: 其他构建工具
+    - key: tools_others.build_tools.others.description
+      t: 其他构建工具（填写名称）。
 
-    - key: tools_others.non_js_languages # TODO
-      t: Non-JavaScript Languages
-    - key: tools_others.non_js_languages.description # TODO
-      t: Which other programming languages do you use?
-    - key: tools_others.non_js_languages.others # TODO
-      t: Other Languages
-    - key: tools_others.non_js_languages.others.description # TODO
-      t: Other answers (freeform field).
+    - key: tools_others.non_js_languages
+      t: JavaScript 以外的语言
+    - key: tools_others.non_js_languages.description
+      t: 你还在使用那些编程语言？
+    - key: tools_others.non_js_languages.others
+      t: 其他编程语言
+    - key: tools_others.non_js_languages.others.description
+      t: 其他编程语言（填写名称）。
 
     ###########################################################################
     # Resources
     ###########################################################################
 
     # blogs & magazines
-    - key: resources.blogs_news_magazines # TODO
-      t: Blogs & Magazines
-    - key: resources.blogs_news_magazines.description # TODO
-      t: Which blogs/magazines/etc. do you read?
-    - key: resources.blogs_news_magazines.others # TODO
-      t: Other Blogs & Magazines
-    - key: resources.blogs_news_magazines.others.description # TODO
-      t: Other answers (freeform field).
+    - key: resources.blogs_news_magazines
+      t: Blog 和杂志
+    - key: resources.blogs_news_magazines.description
+      t: 常用的 blog 和杂志？
+    - key: resources.blogs_news_magazines.others
+      t: 其他 blog 和杂志
+    - key: resources.blogs_news_magazines.others.description
+      t: 其他 blog 和杂志（填写名称）。
 
     # sites & courses
-    - key: resources.sites_courses # TODO
-      t: Sites & Courses
-    - key: resources.sites_courses.description # TODO
-      t: Which sites/courses/etc. do you consult?
-    - key: resources.sites_courses.others # TODO
-      t: Other Sites & Courses
-    - key: resources.sites_courses.others.description # TODO
-      t: Other answers (freeform field).
+    - key: resources.sites_courses
+      t: 网站和课程
+    - key: resources.sites_courses.description
+      t: 关注了哪些网站和课程？
+    - key: resources.sites_courses.others
+      t: 其他网站和课程
+    - key: resources.sites_courses.others.description
+      t: 其他网站和课程（填写名称）。
 
     # podcasts
-    - key: resources.podcasts # TODO
-      t: Podcasts
-    - key: resources.podcasts.description # TODO
-      t: Which programming-related podcasts do you listen to?
-    - key: resources.podcasts.others # TODO
-      t: Other Podcasts
-    - key: resources.podcasts.others.description # TODO
-      t: Other answers (freeform field).
+    - key: resources.podcasts
+      t: 广播
+    - key: resources.podcasts.description
+      t: 订阅了哪些编程相关的播客？
+    - key: resources.podcasts.others
+      t: 其他广播
+    - key: resources.podcasts.others.description
+      t: 其他广播（填写名称）。
