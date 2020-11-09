@@ -20,7 +20,7 @@ Sentry.init({
     // enable HTTP calls tracing
     new Sentry.Integrations.Http({ tracing: true }),
     // enable Express.js middleware tracing
-    new Tracing.Integrations.Express({ app }),
+    // new Tracing.Integrations.Express({ app }),
   ],
   // We recommend adjusting this value in production, or using tracesSampler
   // for finer control
@@ -60,7 +60,7 @@ const start = async () => {
 
     app.use(Sentry.Handlers.requestHandler());
     // TracingHandler creates a trace for every incoming request
-    app.use(Sentry.Handlers.tracingHandler());
+    // app.use(Sentry.Handlers.tracingHandler());
 
     server.applyMiddleware({ app })
 

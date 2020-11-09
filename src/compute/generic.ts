@@ -36,6 +36,17 @@ interface YearAggregations {
     buckets: TermBucket[]
 }
 
+export async function getSurveyTotals(db: Db, surveyConfig: SurveyConfig, year?: Number) {
+    const collection = db.collection(config.mongo.normalized_collection)
+    let selector: any = {
+        survey: surveyConfig.survey
+    }
+    if (year) {
+        selector = { ...selector, year }
+    }
+    return collection.countDocuments(selector)
+}
+
 export async function computeTermAggregationByYear(
     db: Db,
     survey: SurveyConfig,

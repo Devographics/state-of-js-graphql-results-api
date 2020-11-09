@@ -1,0 +1,4 @@
+type Totals @cacheControl(maxAge: 600) {
+    all_years: Int @cacheControl(maxAge: 600)
+    year(year: Int!): Int
+}

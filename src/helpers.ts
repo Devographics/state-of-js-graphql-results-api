@@ -2,13 +2,7 @@ import { EnumTypeDefinitionNode } from 'graphql'
 import typeDefs from './type_defs/schema.graphql'
 import allEntities from './data/entities/index'
 
-export const getEntities = ({
-    type,
-    tag
-}: {
-    type: string
-    tag: string
-}) => {
+export const getEntities = ({ type, tag }: { type: string; tag: string }) => {
     let entities = allEntities
     if (type) {
         entities = entities.filter(e => e.type === type)

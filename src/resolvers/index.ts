@@ -1,5 +1,6 @@
 import demographics from './demographics'
 import surveys from './surveys'
+import totals from './totals'
 import opinions from './opinions'
 import features from './features'
 import matrices from './matrices'
@@ -15,6 +16,7 @@ import proficiency from './proficiency'
 
 export default {
     ...surveys,
+    ...totals,
     ...demographics,
     ...categories,
     ...opinions,

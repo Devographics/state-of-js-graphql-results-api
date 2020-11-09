@@ -14,6 +14,7 @@
 #import "./translations.graphql"
 #import "./environments.graphql"
 #import "./proficiency.graphql"
+#import "./totals.graphql"
 
 enum SurveyType {
     state_of_js
@@ -28,6 +29,10 @@ type Survey @cacheControl(maxAge: 600) {
     The survey's name
     """
     surveyName: SurveyType
+    """
+    Total responses
+    """
+    totals: Totals
     """
     Experience results for a specific tool
     """

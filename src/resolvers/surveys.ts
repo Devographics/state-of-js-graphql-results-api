@@ -9,6 +9,10 @@ const featureIds = getGraphQLEnumValues('FeatureID')
 
 export default {
     Survey: {
+        surveyName: (survey: SurveyConfig) => {
+            return survey.survey
+        },
+        totals: (survey: SurveyConfig) => survey,
         demographics: (survey: SurveyConfig) => ({
             participation: { survey },
             country: ({ filters }: { filters: Filters }) => ({
