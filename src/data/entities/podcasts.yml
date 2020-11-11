@@ -162,14 +162,6 @@
   name: The Web Platform Podcast
   homepage: https://thewebplatformpodcast.com/
 
-- id: web_standards_ru
-  name: Веб-стандарты
-  homepage: https://web-standards.ru/
-  patterns:
-    - web_standards
-    - web_standarts
-    - Веб(-| )?стандарты
-
 - id: http_203
   name: HTTP 203
   homepage: https://developers.google.com/web/shows/http203/podcast/
@@ -181,3 +173,11 @@
 - id: software_engineering
   name: Software Engineering Radio
   homepage: https://www.se-radio.net/
+
+- id: smashing_podcast
+  name: Smashing Podcast
+  homepage: https://podcast.smashingmagazine.com/
+
+- id: f_word
+  name: The F-Word
+  homepage: https://f-word.dev

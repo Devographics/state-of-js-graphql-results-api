@@ -90,3 +90,14 @@
 - id: blisk
   name: Blisk
   homepage: https://blisk.io/
+
+- id: sizzy
+  name: Sizzy
+  homepage: https://sizzy.co/
+
+- id: gnome_web
+  name: Gnome Web
+  homepage: https://wiki.gnome.org/Apps/Web
+  patterns:
+    - gnome
+    - epiphany

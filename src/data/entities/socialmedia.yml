@@ -4,7 +4,7 @@
   name: Hacker News
   homepage: https://news.ycombinator.com/
   patterns:
-    - hacker_news
+    - hacker( |-|_)?news
     - ycombinator
 
 - id: reddit

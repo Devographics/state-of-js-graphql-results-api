@@ -13,7 +13,8 @@
         "express": "^4.17.1",
         "graphql": "^15.3.0",
         "lodash": "^4.17.20",
-        "mongodb": "^3.6.2"
+        "mongodb": "^3.6.2",
+        "write-file-webpack-plugin": "^4.5.1"
     },
     "devDependencies": {
         "@types/js-yaml": "^3.12.5",
@@ -38,6 +39,7 @@
     "scripts": {
         "build": "NODE_ENV=production webpack --config webpack.production.js",
         "dev": "NODE_ENV=development webpack --config webpack.development.js",
+        "dev:clean": "NODE_ENV=development DISABLE_CACHE=true webpack --config webpack.development.js",
         "fmt": "prettier --write \"src/**/*.{ts,js,mjs,yml,graphql}\"",
         "heroku-postbuild": "NODE_ENV=production webpack --config webpack.production.js",
         "start": "node dist/server.js"

@@ -10,6 +10,8 @@
     - css
     - css_pre_post_processors
     - state_of_css
+  patterns:
+    - scss
 
 - id: less
   name: Less
@@ -59,6 +61,19 @@
   tags:
     - css
     - css_frameworks
+
+- id: material_ui
+  name: Material UI
+  contexts: [state_of_css]
+  github: mui-org/material-ui
+  npm: '@material-ui/core'
+  homepage: https://material-ui.com/
+  tags:
+    - css
+    - css_frameworks
+  patterns:
+    - mui
+    - material
 
 - id: ant_design
   name: Ant Design
@@ -178,6 +193,9 @@
     - css
     - js
     - css_in_js
+  patterns:
+    - style(d)?( |-|_)?component(s)?
+    - style(d)?( |-|_)?componetns
 
 - id: jss
   name: JSS
@@ -310,15 +328,22 @@
   name: Autoprefixer
   homepage: https://autoprefixer.github.io/
   patterns:
-    - auto( |-)?prefixer
+    - auto( |-)?prefix(e)?r
 
 - id: codyframe
   name: CodyFrame
   homepage: https://codyhouse.co/ds/docs/framework
+  tags: 
+    - css
+    - css_frameworks
+  patterns:
+    - codyhouse
 
 - id: chakra_ui
   name: Chakra UI
   homepage: https://chakra-ui.com/
+  patterns:
+    - chakra
 
 - id: theme_ui
   name: Theme UI
@@ -342,9 +367,48 @@
 - id: goober
   name: Goober
   homepage: https://github.com/cristianbote/goober
+  github: cristianbote/goober
   tags: 
     - css_in_js
 
+- id: aphrodite
+  name: Aphrodite
+  homepage: https://github.com/Khan/aphrodite
+  github: Khan/aphrodite
+  tags: 
+    - css_in_js
+
+- id: inuit_css
+  name: Inuit CSS
+  github: inuitcss/inuitcss
+  homepage: http://inuitcss.com/
+  tags:
+    - css
+    - css_framework
+  patterns:
+    - inuit
+
+- id: css_comb
+  name: CSSComb
+  github: csscomb/csscomb
+  tags:
+    - css
+    - css_utilities
+
+- id: normalize_css
+  name: NormalizeCSS
+  homepage: https://necolas.github.io/normalize.css/
+  tags:
+    - css
+    - css_utilities
+
+- id: css_nano
+  name: cssnano
+  homepage: https://cssnano.co/
+  tags:
+    - css
+    - css_utilities
+    
 #################################################
 # JavaScript Flavors
 #################################################
@@ -792,6 +856,8 @@
   github: Popmotion/popmotion
   description: Simple animation libraries for delightful user interfaces
   homepage: "https://popmotion.io"
+  patterns: 
+    - pop( |-|.)?motion
 
 - id: greensock
   name: Greensock

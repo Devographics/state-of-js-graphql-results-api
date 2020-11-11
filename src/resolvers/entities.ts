@@ -44,7 +44,11 @@ export default {
 
             const mdn = await fetchMdnResource(entity.mdn)
 
-            return mdn.find((t: any) => t.locale === 'en-US')
+            if (mdn) {
+                return mdn.find((t: any) => t.locale === 'en-US')
+            } else {
+                return
+            }
         }
     }
 }

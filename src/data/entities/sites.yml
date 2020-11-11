@@ -98,10 +98,14 @@
 - id: alligator
   name: Alligator.io
   homepage: https://alligator.io/
+  patterns:
+    - al(l)?igator
 
 - id: devto
   name: Dev.to
   homepage: https://dev.to/
+  patterns:
+    - dev( |-|_|.)?to
 
 - id: web_standards
   name: Web Standards
@@ -214,7 +218,7 @@
 
 - id: vzhurudolu
   name: Vzhůru dolů
-  homapge: https://www.vzhurudolu.cz/
+  homepage: https://www.vzhurudolu.cz/
   patterns:
     - vzhůru ?dolů
   tags:
@@ -238,3 +242,26 @@
   homepage: https://www.awwwards.com/
   tags:
     - news
+
+- id: webdesigner_depot
+  name: Webdesigner Depot
+  homepage: https://www.webdesignerdepot.com/
+  tags:
+    - news
+
+- id: web_standards_ru
+  name: Веб-стандарты
+  homepage: https://web-standards.ru/
+  tags:
+    - podcasts
+  patterns:
+    - web(_| |-)?standards
+    - web(_| |-)?standarts
+    - Веб(-| )?стандарты
+    - web(-| )?стандарты
+
+- id: w3c
+  name: W3C
+  homepage: https://www.w3.org/
+  patterns:
+    - w3( |-|-|.)?org

@@ -12,6 +12,7 @@
   patterns:
     - twee?t,
     - https\:\/\/t\.co
+  homepage: https://twitter.com
 
 - id: email
   name: Email

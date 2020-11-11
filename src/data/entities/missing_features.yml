@@ -11,6 +11,7 @@
 - id: parent_selector
   name: Parent Selector
   patterns:
+    - parent
     - parent select(or|ion)
     - parent (of )?(an )?element
     - \:parent
@@ -62,3 +63,38 @@
   patterns:
     - conditional
     - if statement
+
+- id: houdini
+  name: CSS Houdini
+
+- id: animation
+  name: Animation
+
+- id: flow_control
+  name: Flow Control
+
+- id: center
+  name: Centering
+
+- id: masonry
+  name: Masonry Layout
+
+- id: simplicty
+  name: Simplicity
+
+- id: typography
+  name: Typographic Controls
+  patterns:
+    - typographic
+
+- id: form_elements
+  name: Form Elements Styling
+  patterns:
+    - form styling
+    - form input
+    - input element
+
+- id: print
+  name: Print Support
+
+  

@@ -49,6 +49,8 @@
 - id: phpstorm
   name: PHPStorm
   homepage: https://www.jetbrains.com/phpstorm/
+  patterns:
+    - php( |-)?storm
 - id: textmate
   name: Textmate
   homepage: https://macromates.com/
@@ -60,6 +62,8 @@
 - id: vscodium
   name: VSCodium
   homepage: https://vscodium.com/
+  patterns: 
+    - vs( |-|_)?codium
 
 - id: dreamweaver
   name: Dreamweaver
@@ -90,3 +94,10 @@
 - id: geany
   name: Geany
   homepage: https://www.geany.org/
+
+- id: rubymine
+  name: RubyMine
+  homepage: https://www.jetbrains.com/ruby/
+
+- id: textedit
+  name: TextEdit

@@ -75,7 +75,7 @@
   name: Frontend Focus
   homepage: https://frontendfoc.us/
   patterns:
-    - front( |-)?end( |-)?focus
+    - front( |-)?end( |-)?foc(.)?us
 
 - id: css_layout_news
   name: CSS Layout News
@@ -88,3 +88,7 @@
     - jsk
     - js( |-)?kicks
     - javascript( |-)?kicks
+
+- id: a11y_weekly
+  name: A11y Weekly
+  homepage: https://a11yweekly.com/

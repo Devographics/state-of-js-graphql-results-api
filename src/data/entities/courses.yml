@@ -19,6 +19,8 @@
   aliases:
     - LevelUp Tutorials
   homepage: https://www.leveluptutorials.com/
+  patterns:
+    - level( |-|_)?up
 
 - id: udemy
   name: Udemy
@@ -109,4 +111,10 @@
   name: Every Layout
   homepage: https://every-layout.dev/
   tags:
+    - css
+
+- id: html_academy
+  name: HTML Academy
+  homepage: https://htmlacademy.org/
+  tags: 
     - css
