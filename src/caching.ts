@@ -49,7 +49,7 @@ export const useCache = async <F extends DynamicComputeCall>(
 
     const collection = db.collection(CACHE_COLLECTION)
     const existingResult = await collection.findOne({ key })
-    if (existingResult) {
+    if (existingResult && !process.env.DISABLE_CACHE) {
         console.log(`< using result from cache for: ${key}`)
         return existingResult.value
     }
