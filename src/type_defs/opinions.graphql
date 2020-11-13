@@ -1,3 +1,7 @@
+"""
+Opinions
+"""
+
 enum OpinionID {
     js_moving_in_right_direction
     building_js_apps_overly_complex
@@ -34,4 +38,34 @@ type Opinion @cacheControl(maxAge: 600) {
     id: OpinionID!
     all_years: [YearOpinion] @cacheControl(maxAge: 600)
     year(year: Int!): YearOpinion
+}
+
+"""
+Other Opinions
+"""
+
+enum OtherOpinionsID {
+    currently_missing_from_css
+}
+
+type OtherOpinionsBucket @cacheControl(maxAge: 600) {
+    id: String
+    count: Int
+    percentage: Float
+}
+
+type YearOtherOpinions @cacheControl(maxAge: 600) {
+    year: Int
+    """
+    Total number of respondents who have answered this specific question.
+    """
+    total: Int
+    completion: Completion
+    buckets: [OtherOpinionsBucket] @cacheControl(maxAge: 600)
+}
+
+type OtherOpinions @cacheControl(maxAge: 600) {
+    id: OtherOpinionsID!
+    all_years: [YearOtherOpinions] @cacheControl(maxAge: 600)
+    year(year: Int!): YearOtherOpinions
 }

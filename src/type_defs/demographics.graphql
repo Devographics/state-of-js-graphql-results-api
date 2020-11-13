@@ -33,6 +33,27 @@ type Country @cacheControl(maxAge: 600) {
 }
 
 """
+Locale
+"""
+type LocaleBucket @cacheControl(maxAge: 600) {
+    id: String
+    count: Int
+    percentage: Float
+}
+
+type YearLocale @cacheControl(maxAge: 600) {
+    year: Int
+    total: Int
+    completion: Completion
+    buckets: [LocaleBucket] @cacheControl(maxAge: 600)
+}
+
+type LocaleStats @cacheControl(maxAge: 600) {
+    all_years: [YearLocale]
+    year(year: Int!): YearLocale
+}
+
+"""
 Source
 """
 type SourceBucket @cacheControl(maxAge: 600) {
@@ -83,6 +104,42 @@ type YearGender @cacheControl(maxAge: 600) {
 type Gender @cacheControl(maxAge: 600) {
     all_years: [YearGender]
     year(year: Int!): YearGender
+}
+
+"""
+Race & Ethnicity
+"""
+enum RaceEthnicityID {
+    biracial
+    black_african
+    east_asian
+    hispanic_latin
+    middle_eastern
+    multiracial
+    native_american_islander_australian
+    south_asian
+    white_european
+}
+
+type RaceEthnicityBucket @cacheControl(maxAge: 600) {
+    id: RaceEthnicityID
+    count: Int
+    percentage: Float
+}
+
+type YearRaceEthnicity @cacheControl(maxAge: 600) {
+    year: Int
+    """
+    Total number of respondents who have answered this specific question.
+    """
+    total: Int
+    completion: Completion
+    buckets: [RaceEthnicityBucket] @cacheControl(maxAge: 600)
+}
+
+type RaceEthnicity @cacheControl(maxAge: 600) {
+    all_years: [YearRaceEthnicity]
+    year(year: Int!): YearRaceEthnicity
 }
 
 """
@@ -232,6 +289,10 @@ type Demographics @cacheControl(maxAge: 600) {
     """
     country(filters: Filters): Country @cacheControl(maxAge: 600)
     """
+    Locale
+    """
+    locale(filters: Filters): LocaleStats @cacheControl(maxAge: 600)
+    """
     How respondents found the survey
     """
     source(filters: Filters): Source @cacheControl(maxAge: 600)
@@ -243,6 +304,10 @@ type Demographics @cacheControl(maxAge: 600) {
     Gender
     """
     gender(filters: Filters): Gender @cacheControl(maxAge: 600)
+    """
+    Race & Ethnicity
+    """
+    race_ethnicity(filters: Filters): RaceEthnicity @cacheControl(maxAge: 600)
     """
     Salary
     """

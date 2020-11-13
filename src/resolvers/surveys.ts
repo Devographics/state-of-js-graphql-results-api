@@ -19,11 +19,19 @@ export default {
                 survey,
                 filters
             }),
+            locale: ({ filters }: { filters: Filters }) => ({
+                survey,
+                filters
+            }),
             source: ({ filters }: { filters: Filters }) => ({
                 survey,
                 filters
             }),
             gender: ({ filters }: { filters: Filters }) => ({
+                survey,
+                filters
+            }),
+            race_ethnicity: ({ filters }: { filters: Filters }) => ({
                 survey,
                 filters
             }),
@@ -107,6 +115,11 @@ export default {
             filters
         }),
         opinion: (survey: SurveyConfig, { id, filters }: { id: string; filters?: Filters }) => ({
+            survey,
+            id,
+            filters
+        }),
+        opinions_others: (survey: SurveyConfig, { id, filters }: { id: string; filters?: Filters }) => ({
             survey,
             id,
             filters

@@ -70,6 +70,10 @@ type Survey @cacheControl(maxAge: 600) {
     """
     opinion(id: OpinionID!, filters: Filters): Opinion
     """
+    Opinions data
+    """
+    opinions_others(id: OtherOpinionsID!, filters: Filters): OtherOpinions
+    """
     Resources (sites, blogs, podcasts, etc.)
     """
     resources(id: ResourcesID!, filters: Filters): Resources

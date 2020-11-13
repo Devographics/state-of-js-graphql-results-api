@@ -16,11 +16,22 @@ const computeCountry = async (db: Db, survey: SurveyConfig, filters?: Filters) =
         { filters, sort: 'id', limit: 999, cutoff: 1 }
     ])
 
+
+const computeLocale = async (db: Db, survey: SurveyConfig, filters?: Filters) =>
+    useCache(computeTermAggregationByYear, db, [
+        survey,
+        'user_info.locale',
+        { filters, sort: 'id', limit: 100, cutoff: 1 }
+    ])
+
 const computeSource = async (db: Db, survey: SurveyConfig, filters?: Filters) =>
     useCache(computeTermAggregationByYear, db, [survey, 'user_info.source.normalized', { filters }])
 
 const computeGender = async (db: Db, survey: SurveyConfig, filters?: Filters) =>
     useCache(computeTermAggregationByYear, db, [survey, 'user_info.gender', { filters, cutoff: 1 }])
+
+const computeRaceEthnicity = async (db: Db, survey: SurveyConfig, filters?: Filters) =>
+    useCache(computeTermAggregationByYear, db, [survey, 'user_info.race_ethnicity.choices', { filters, cutoff: 1 }])
 
 const computeSalary = async (db: Db, survey: SurveyConfig, filters?: Filters) =>
     useCache(computeTermAggregationByYear, db, [
@@ -97,6 +108,22 @@ export default {
             return allYears.find(y => y.year === year)
         }
     },
+    LocaleStats: {
+        all_years: async (
+            { survey, filters }: DemographicsAggConfig,
+            args: any,
+            { db }: RequestContext
+        ) => computeCountry(db, survey, filters),
+        year: async (
+            { survey, filters }: DemographicsAggConfig,
+            { year }: { year: number },
+            { db }: RequestContext
+        ) => {
+            const allYears = await computeLocale(db, survey, filters)
+
+            return allYears.find(y => y.year === year)
+        }
+    },
     Source: {
         all_years: async (
             { survey, filters }: DemographicsAggConfig,
@@ -125,6 +152,22 @@ export default {
             { db }: RequestContext
         ) => {
             const allYears = await computeGender(db, survey, filters)
+
+            return allYears.find(y => y.year === year)
+        }
+    },
+    RaceEthnicity: {
+        all_years: async (
+            { survey, filters }: DemographicsAggConfig,
+            args: any,
+            { db }: RequestContext
+        ) => computeRaceEthnicity(db, survey, filters),
+        year: async (
+            { survey, filters }: DemographicsAggConfig,
+            { year }: { year: number },
+            { db }: RequestContext
+        ) => {
+            const allYears = await computeRaceEthnicity(db, survey, filters)
 
             return allYears.find(y => y.year === year)
         }
