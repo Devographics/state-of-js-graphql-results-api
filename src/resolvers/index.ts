@@ -13,6 +13,7 @@ import entities from './entities'
 import query from './query'
 import environments from './environments'
 import proficiency from './proficiency'
+import happiness from './happiness'
 
 export default {
     ...surveys,
@@ -29,5 +30,6 @@ export default {
     ...entities,
     ...environments,
     ...proficiency,
+    ...happiness,
     ...query
 }

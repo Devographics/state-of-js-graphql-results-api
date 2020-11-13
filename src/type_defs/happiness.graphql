@@ -1,0 +1,48 @@
+enum HappinessID {
+  # JS
+  javascript_flavors
+  front_end_frameworks
+  data_layer
+  back_end_frameworks
+  testing
+  mobile_desktop
+  state_of_js
+  # CSS
+  pre_post_processors
+  css_frameworks
+  css_methodologies
+  css_in_js
+  state_of_css
+  # Other
+  state_of_the_web
+}
+
+"""
+Happiness
+"""
+type HappinessBucket @cacheControl(maxAge: 600) {
+    id: Int
+    count: Int
+    percentage: Float
+}
+
+type YearHappiness @cacheControl(maxAge: 600) {
+    year: Int
+    """
+    Total number of respondents who have answered this specific question.
+    """
+    total: Int
+    """
+    Mean happiness score for the year, please note that despite the
+    happiness indices starts at 0, the average is computed from 1.
+    """
+    mean: Float
+    completion: Completion
+    buckets: [HappinessBucket] @cacheControl(maxAge: 600)
+}
+
+type Happiness @cacheControl(maxAge: 600) {
+    id: HappinessID!
+    all_years: [YearHappiness] @cacheControl(maxAge: 600)
+    year(year: Int!): YearHappiness
+}

@@ -15,6 +15,7 @@
 #import "./environments.graphql"
 #import "./proficiency.graphql"
 #import "./totals.graphql"
+#import "./happiness.graphql"
 
 enum SurveyType {
     state_of_js
@@ -99,4 +100,8 @@ type Survey @cacheControl(maxAge: 600) {
     Proficiency data, such as backend proficiency, javascript...
     """
     proficiency(id: ProficiencyID!): Proficiency
+    """
+    Happiness data, either for a specific category or more generally
+    """
+    happiness(id: HappinessID!): Happiness
 }

@@ -177,6 +177,14 @@ export default {
             survey,
             id,
             filters
+        }),
+        happiness: (
+            survey: SurveyConfig,
+            { id, filters }: { id: string; filters?: Filters }
+        ) => ({
+            survey,
+            id,
+            filters
         })
     }
 }
