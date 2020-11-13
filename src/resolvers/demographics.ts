@@ -61,6 +61,13 @@ const computeJobTitle = async (db: Db, survey: SurveyConfig, filters?: Filters) 
         { filters, cutoff: 1 }
     ])
 
+const computeKnowledgeScore = async (db: Db, survey: SurveyConfig, filters?: Filters) =>
+    useCache(computeTermAggregationByYear, db, [
+        survey,
+        'user_info.knowledge_score',
+        { filters, limit: 100, cutoff: 1 }
+    ])
+
 const computeCSSProficiency = async (db: Db, survey: SurveyConfig, filters?: Filters) =>
     useCache(computeTermAggregationByYear, db, [
         survey,
@@ -88,7 +95,6 @@ export default {
             { db }: RequestContext
         ) => {
             const allYears = await useCache(computeParticipationByYear, db, [survey])
-
             return allYears.find(y => y.year === year)
         }
     },
@@ -104,7 +110,6 @@ export default {
             { db }: RequestContext
         ) => {
             const allYears = await computeCountry(db, survey, filters)
-
             return allYears.find(y => y.year === year)
         }
     },
@@ -120,7 +125,6 @@ export default {
             { db }: RequestContext
         ) => {
             const allYears = await computeLocale(db, survey, filters)
-
             return allYears.find(y => y.year === year)
         }
     },
@@ -136,7 +140,6 @@ export default {
             { db }: RequestContext
         ) => {
             const allYears = await computeSource(db, survey, filters)
-
             return allYears.find(y => y.year === year)
         }
     },
@@ -152,7 +155,6 @@ export default {
             { db }: RequestContext
         ) => {
             const allYears = await computeGender(db, survey, filters)
-
             return allYears.find(y => y.year === year)
         }
     },
@@ -168,7 +170,6 @@ export default {
             { db }: RequestContext
         ) => {
             const allYears = await computeRaceEthnicity(db, survey, filters)
-
             return allYears.find(y => y.year === year)
         }
     },
@@ -184,7 +185,6 @@ export default {
             { db }: RequestContext
         ) => {
             const allYears = await computeSalary(db, survey, filters)
-
             return allYears.find(y => y.year === year)
         }
     },
@@ -200,7 +200,6 @@ export default {
             { db }: RequestContext
         ) => {
             const allYears = await computeCompanySize(db, survey, filters)
-
             return allYears.find(y => y.year === year)
         }
     },
@@ -216,7 +215,6 @@ export default {
             { db }: RequestContext
         ) => {
             const allYears = await computeWorkExperience(db, survey, filters)
-
             return allYears.find(y => y.year === year)
         }
     },
@@ -232,7 +230,22 @@ export default {
             { db }: RequestContext
         ) => {
             const allYears = await computeJobTitle(db, survey, filters)
-
+            return allYears.find(y => y.year === year)
+        }
+    },
+    KnowledgeScore: {
+        all_years: async (
+            { survey, filters }: DemographicsAggConfig,
+            args: any,
+            { db }: RequestContext
+        ) => computeKnowledgeScore(db, survey, filters),
+        year: async (
+            { survey, filters }: { survey: SurveyConfig; filters?: Filters },
+            { year }: { year: number },
+            { db }: RequestContext
+        ) => {
+            const allYears = await computeKnowledgeScore(db, survey, filters)
+            console.log(allYears)
             return allYears.find(y => y.year === year)
         }
     }

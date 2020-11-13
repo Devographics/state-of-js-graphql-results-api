@@ -276,6 +276,26 @@ type JobTitle @cacheControl(maxAge: 600) {
 }
 
 """
+Knowledge Score
+"""
+
+type KnowledgeScoreBucket @cacheControl(maxAge: 600) {
+    id: Int
+    count: Int
+    percentage: Float
+}
+
+type YearKnowledgeScore @cacheControl(maxAge: 600) {
+    year: Int
+    buckets: [KnowledgeScoreBucket] @cacheControl(maxAge: 600)
+}
+
+type KnowledgeScore @cacheControl(maxAge: 600) {
+    all_years: [YearKnowledgeScore]
+    year(year: Int!): YearKnowledgeScore
+}
+
+"""
 Information about particpants:
 - overall participation
 - gender
@@ -324,4 +344,8 @@ type Demographics @cacheControl(maxAge: 600) {
     Job title
     """
     job_title(filters: Filters): JobTitle @cacheControl(maxAge: 600)
+    """
+    Knowledge Score
+    """
+    knowledge_score(filters: Filters): KnowledgeScore @cacheControl(maxAge: 600)
 }

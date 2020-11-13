@@ -50,6 +50,10 @@ export default {
             job_title: ({ filters }: { filters: Filters }) => ({
                 survey,
                 filters
+            }),
+            knowledge_score: ({ filters }: { filters: Filters }) => ({
+                survey,
+                filters
             })
         }),
         tool: (survey: SurveyConfig, { id }: { id: string }) => ({
