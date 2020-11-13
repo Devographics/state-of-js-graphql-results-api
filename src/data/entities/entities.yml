@@ -77,9 +77,6 @@
   name: WebGL
 - id: webrtc
   name: WebRTC
-- id: webstorm
-  name: WebStorm
-  homepage: https://www.jetbrains.com/webstorm/
 - id: webvr
   name: WebVR
 - id: weex

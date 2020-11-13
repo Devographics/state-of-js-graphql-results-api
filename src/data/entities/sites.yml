@@ -107,10 +107,6 @@
   patterns:
     - dev( |-|_|.)?to
 
-- id: web_standards
-  name: Web Standards
-  homepage: https://www.webstandards.org/
-
 - id: medium
   name: Medium
   homepage: https://medium.com/
@@ -250,7 +246,7 @@
     - news
 
 - id: web_standards_ru
-  name: Веб-стандарты
+  name: Web Standards
   homepage: https://web-standards.ru/
   tags:
     - podcasts

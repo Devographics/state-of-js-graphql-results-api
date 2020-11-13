@@ -68,6 +68,18 @@ translations:
       t: |
           TODO
 
+    - key: sections.other_tools.introduction
+      t: |
+          TODO
+
+    - key: sections.resources.introduction
+      t: |
+          TODO
+
+    - key: sections.environments.introduction
+      t: |
+          TODO
+          
     - key: sections.opinions.introduction
       t: |
           TODO

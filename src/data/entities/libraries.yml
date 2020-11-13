@@ -27,6 +27,7 @@
   name: PostCSS
   contexts: [state_of_css]
   github: postcss/postcss
+  homepage: https://postcss.org/
   tags:
     - css
     - css_pre_post_processors
@@ -140,6 +141,7 @@
   contexts: [state_of_css]
   github: tailwindcss/tailwindcss
   npm: tailwindcss
+  homepage: https://tailwindcss.com/
   aliases:
     - Tailwind CSS
   tags:
@@ -245,6 +247,7 @@
   name: CSS Modules
   contexts: [state_of_css]
   github: css-modules/css-modules
+  homepage: https://github.com/css-modules/css-modules
   tags:
     - css
     - js
