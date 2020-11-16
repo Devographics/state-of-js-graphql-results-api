@@ -13,6 +13,7 @@ enum Contexts {
     results
     state_of_js
     state_of_css
+    state_of_css_2020
 }
 
 type TranslationString @cacheControl(maxAge: 600) {
@@ -24,6 +25,7 @@ type TranslationString @cacheControl(maxAge: 600) {
 
 type Locale @cacheControl(maxAge: 600) {
     id: String
+    label: String
     translators: [String]
     strings: [TranslationString]
     translatedCount: Int
