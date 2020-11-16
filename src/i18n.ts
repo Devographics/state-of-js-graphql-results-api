@@ -177,8 +177,8 @@ export const getLocale = (localeId: string, contexts?: string[]) => {
 Get all locales
 
 */
-export const getLocales = () => {
-    return locales.map((locale: Locale) => getLocale(locale.id))
+export const getLocales = (contexts?: string[]) => {
+    return locales.map((locale: Locale) => getLocale(locale.id, contexts))
 }
 
 /*

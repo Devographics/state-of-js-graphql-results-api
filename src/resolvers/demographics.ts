@@ -245,7 +245,6 @@ export default {
             { db }: RequestContext
         ) => {
             const allYears = await computeKnowledgeScore(db, survey, filters)
-            console.log(allYears)
             return allYears.find(y => y.year === year)
         }
     }

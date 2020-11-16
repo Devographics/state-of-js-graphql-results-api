@@ -28,5 +28,6 @@ type YearOtherFeatures @cacheControl(maxAge: 600) {
 
 type OtherFeatures @cacheControl(maxAge: 600) {
     id: OtherFeaturesID!
+    all_years: [YearOtherFeatures] @cacheControl(maxAge: 600)
     year(year: Int!): YearOtherFeatures
 }

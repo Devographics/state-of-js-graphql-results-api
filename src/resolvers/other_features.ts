@@ -42,13 +42,17 @@ const computeOtherFeatures = async (
 
 export default {
     OtherFeatures: {
+        all_years: async (
+            { survey, id, filters }: OtherFeaturesConfig,
+            args: any,
+            { db }: RequestContext
+        ) => computeOtherFeatures(db, survey, id, filters),
         year: async (
             { survey, id, filters }: OtherFeaturesConfig,
             { year }: { year: number },
             { db }: RequestContext
         ) => {
             const allYears = await computeOtherFeatures(db, survey, id, filters)
-
             return allYears.find(y => y.year === year)
         }
     }

@@ -33,5 +33,5 @@ type Query {
     """
     Get all locales
     """
-    locales: [Locale]
+    locales(contexts: [Contexts]): [Locale]
 }

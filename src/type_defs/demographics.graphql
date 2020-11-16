@@ -15,7 +15,7 @@ type Participation @cacheControl(maxAge: 600) {
 Country
 """
 type CountryBucket @cacheControl(maxAge: 600) {
-    id: String
+    id: CountryID
     count: Int
     percentage: Float
 }
@@ -255,6 +255,7 @@ enum JobTitleID {
     web_designer
     ui_designer
     ux_designer
+    cto
 }
 
 type JobTitleBucket @cacheControl(maxAge: 600) {

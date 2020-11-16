@@ -9,9 +9,12 @@ export interface Filter<T> {
 
 export interface Filters {
     gender?: Filter<string>
+    country?: Filter<string>
+    race_ethnicity?: Filter<string>
     salary?: Filter<string>
     companySize?: Filter<string>
     workExperience?: Filter<string>
+    source?: Filter<string>
 }
 
 export interface FilterQuery<T> {
@@ -25,9 +28,12 @@ export interface FilterQuery<T> {
 
 export interface FiltersQuery {
     'user_info.gender'?: FilterQuery<string>
+    'user_info.country_alpha3'?: FilterQuery<string>
+    'user_info.race_ethnicity.choices'?: FilterQuery<string>
     'user_info.company_size'?: FilterQuery<string>
     'user_info.yearly_salary'?: FilterQuery<string>
     'user_info.years_of_experience'?: FilterQuery<string>
+    'user_info.source.normalized'?: FilterQuery<string>
 }
 
 /**
@@ -63,6 +69,12 @@ export const generateFiltersQuery = (filters?: Filters): FiltersQuery => {
         if (filters.gender !== undefined) {
             match['user_info.gender'] = mapFilter<string>(filters.gender)
         }
+        if (filters.country !== undefined) {
+            match['user_info.country_alpha3'] = mapFilter<string>(filters.country)
+        }
+        if (filters.race_ethnicity !== undefined) {
+            match['user_info.race_ethnicity.choices'] = mapFilter<string>(filters.race_ethnicity)
+        }
         if (filters.companySize !== undefined) {
             match['user_info.company_size'] = mapFilter<string>(filters.companySize)
         }
@@ -71,6 +83,9 @@ export const generateFiltersQuery = (filters?: Filters): FiltersQuery => {
         }
         if (filters.workExperience !== undefined) {
             match['user_info.years_of_experience'] = mapFilter<string>(filters.workExperience)
+        }
+        if (filters.source !== undefined) {
+            match['user_info.source.normalized'] = mapFilter<string>(filters.source)
         }
     }
 

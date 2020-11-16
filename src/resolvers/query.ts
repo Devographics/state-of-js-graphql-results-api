@@ -20,6 +20,6 @@ export default {
             getTranslation(key, localeId),
         locale: (parent: any, { localeId, contexts }: { localeId: string; contexts: string[] }) =>
             getLocale(localeId, contexts),
-        locales: () => getLocales()
+        locales: (parent: any, { contexts }: { contexts: string[] }) => getLocales(contexts)
     }
 }

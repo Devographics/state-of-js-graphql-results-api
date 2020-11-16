@@ -1,6 +1,7 @@
 #import "./filters.graphql"
 #import "./categories.graphql"
 #import "./demographics.graphql"
+#import "./countries.graphql"
 #import "./entity.graphql"
 #import "./features.graphql"
 #import "./github.graphql"
@@ -33,7 +34,7 @@ type Survey @cacheControl(maxAge: 600) {
     """
     Total responses
     """
-    totals: Totals
+    totals(filters: Filters): Totals
     """
     Experience results for a specific tool
     """
@@ -49,7 +50,7 @@ type Survey @cacheControl(maxAge: 600) {
     """
     Rankings (awareness, interest, satisfaction) for a range of tools
     """
-    tools_rankings(ids: [ToolID]!, filters: Filters): ToolsRankings
+    tools_rankings(ids: [ToolID]!): ToolsRankings
     """
     Usage results for a specific feature
     """
@@ -61,7 +62,7 @@ type Survey @cacheControl(maxAge: 600) {
     """
     Choice based features
     """
-    features_others(id: OtherFeaturesID!): OtherFeatures
+    features_others(id: OtherFeaturesID!, filters: Filters): OtherFeatures
     """
     Demographics data (gender, company size, salary, etc.)
     """
@@ -91,17 +92,17 @@ type Survey @cacheControl(maxAge: 600) {
     such as browsers, form factors... Only contain predifined
     choices, freeform answers are stored in `environmentsOthers`.
     """
-    environments(id: EnvironmentID!): Environments
+    environments(id: EnvironmentID!, filters: Filters): Environments
     """
     Environments data, for those based on rating, such as css for emails...
     """
-    environments_ratings(id: EnvironmentID!): EnvironmentsRatings
+    environments_ratings(id: EnvironmentID!, filters: Filters): EnvironmentsRatings
     """
     Proficiency data, such as backend proficiency, javascript...
     """
-    proficiency(id: ProficiencyID!): Proficiency
+    proficiency(id: ProficiencyID!, filters: Filters): Proficiency
     """
     Happiness data, either for a specific category or more generally
     """
-    happiness(id: HappinessID!): Happiness
+    happiness(id: HappinessID!, filters: Filters): Happiness
 }
