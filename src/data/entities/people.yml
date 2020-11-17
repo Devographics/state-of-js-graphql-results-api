@@ -206,3 +206,11 @@
   homepage: https://daverupert.com/
   tags:
     - css
+
+- id: wesbos
+  name: Wes Bos
+  homepage: https://wesbos.com/
+  tags:
+    - courses
+  patterns:
+    - wes ?bos

@@ -1,11 +1,3 @@
-- id: wesbos
-  name: Wes Bos
-  homepage: https://wesbos.com/
-  aliases:
-    - Wes Bos Courses (GSSGrid.io, Flexbox.io, etc.)
-  patterns:
-    - wes ?bos
-
 - id: codecademy
   name: Codecademy
   homepage: https://www.codecademy.com/

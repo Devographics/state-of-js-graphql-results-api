@@ -66,6 +66,7 @@
   homepage: https://stateofjs.com
   patterns:
     - state( |-)?of( |-)?js
+    - state( |-)?of( |-)?javascript
 
 - id: stateofcss
   name: State of CSS
@@ -115,6 +116,7 @@
 
 - id: google
   name: Google
+  homepage: https://google.com
 
 - id: flexbox_zombies
   name: Flexbox Zombies

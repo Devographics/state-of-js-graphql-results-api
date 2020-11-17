@@ -35,6 +35,16 @@
   name: Slack
   homepage: https://slack.com/
 
+- id: github
+  name: GitHub
+  homepage: https://github.com/
+
+- id: linkedin
+  name: LinkedIn
+  homepage: https://linkedin.com/
+  patterns:
+    - linked( |-)?in
+
 - id: hangouts
   name: Hangouts
   homepage: https://tools.google.com/dlpage/hangoutplugin
@@ -42,6 +52,13 @@
 - id: twitter
   name: Twitter
   homepage: https://twitter.com
+  patterns:
+    - twee?t,
+    - https\:\/\/t\.co
+
+- id: instagram
+  name: Instagram
+  homepage: https://instagram.com
 
 - id: juejin
   name: Juejin
