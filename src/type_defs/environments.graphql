@@ -9,12 +9,6 @@ enum EnvironmentID {
     css_for_email
 }
 
-type EnvironmentBucket @cacheControl(maxAge: 600) {
-    id: String
-    count: Int
-    percentage: Float
-}
-
 type YearEnvironments @cacheControl(maxAge: 600) {
     year: Int
     """
@@ -22,7 +16,7 @@ type YearEnvironments @cacheControl(maxAge: 600) {
     """
     total: Int
     completion: Completion
-    buckets: [EnvironmentBucket] @cacheControl(maxAge: 600)
+    buckets: [EntityBucket] @cacheControl(maxAge: 600)
 }
 
 """

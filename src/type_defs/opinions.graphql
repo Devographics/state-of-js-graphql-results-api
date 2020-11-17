@@ -48,12 +48,6 @@ enum OtherOpinionsID {
     currently_missing_from_css
 }
 
-type OtherOpinionsBucket @cacheControl(maxAge: 600) {
-    id: String
-    count: Int
-    percentage: Float
-}
-
 type YearOtherOpinions @cacheControl(maxAge: 600) {
     year: Int
     """
@@ -61,7 +55,7 @@ type YearOtherOpinions @cacheControl(maxAge: 600) {
     """
     total: Int
     completion: Completion
-    buckets: [OtherOpinionsBucket] @cacheControl(maxAge: 600)
+    buckets: [EntityBucket] @cacheControl(maxAge: 600)
 }
 
 type OtherOpinions @cacheControl(maxAge: 600) {

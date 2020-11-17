@@ -185,8 +185,10 @@ export const getLocales = (contexts?: string[]) => {
 
 Get a specific translation
 
+Reverse array first so that strings added last take priority
+
 */
 export const getTranslation = (key: string, localeId: string) => {
     const locale = getLocale(localeId)
-    return locale.strings.find((s: any) => s.key === key)
+    return locale.strings.reverse().find((s: any) => s.key === key)
 }
