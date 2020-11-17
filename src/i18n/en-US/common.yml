@@ -131,6 +131,11 @@ translations:
     - key: sections.user_info.description
       t: Let's get to know the real you.
 
+    - key: sections.features.title
+      t: Features
+    - key: sections.features.description
+      t: Syntax, keywords, and other language features.
+
     - key: sections.resources.title
       t: Resources
     - key: sections.resources.description
@@ -232,6 +237,18 @@ translations:
     - key: options.happiness.3
       t: Happy
     - key: options.happiness.4
+      t: Very Happy
+
+    # happiness (short version)
+    - key: options.happiness.0.short
+      t: Very Unhappy
+    - key: options.happiness.1.short
+      t: Unhappy
+    - key: options.happiness.2.short
+      t: Neutral
+    - key: options.happiness.3.short
+      t: Happy
+    - key: options.happiness.4.short
       t: Very Happy
 
     # opinions

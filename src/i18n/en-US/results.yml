@@ -12,6 +12,19 @@ translations:
     - key: page.next
       t: 'Next:'
 
+    - key: general.state_of_css_link
+      t: State of CSS
+
+    - key: general.netlify_link
+      t: Hosted by <a href={link}>Netlify</a>
+
+    - key: general.completion_percentage
+      t: 'Completion percentage:'
+
+    ###########################################################################
+    # Options
+    ###########################################################################
+  
     - key: options.experience_ranking.satisfaction
       t: Satisfaction
     - key: options.experience_ranking.interest
@@ -50,31 +63,76 @@ translations:
     ###########################################################################
     # Sections
     ###########################################################################
-
+ 
     - key: sections.introduction.title
       t: Introduction
 
     - key: sections.demographics.title
       t: Demographics
-    - key: sections.demographics.description
-      t: |
-          This year's State of JavaScript was the survey's fourth edition,
-          and it reached XX,XXX respondents.
-          It was interesting to see that despite few people identifying as
-          pure back-end developers, our respondents still feel quite comfortable
-          dealing with development on the server.
 
     - key: sections.tshirt.title
       t: T-shirt
-
-    - key: sections.features.title
-      t: Features
 
     - key: sections.technologies.title
       t: Technologies
 
     - key: sections.conclusion.title
       t: Conclusion
+
+    ###########################################################################
+    # User Info
+    ###########################################################################
+
+    - key: user_info.locale
+      t: Language
+    - key: user_info.locale.description
+      t: What language did respondents select to fill out the survey?
+
+    - key: user_info.source
+      t: Source
+    - key: user_info.source.description
+      t: How did respondents find out about the survey? 
+    - key: user_info.source.note
+      t: >
+      
+        This chart aggregates a mix of referrers, URL parameters, and freeform answers. 
+
+        - State of JS: the [State of JS](https://stateofjs.com) mailing list.
+
+        - State of CSS: the State of CSS mailing list; also matches `email`, `by email`, etc.
+
+        - Work: matches `work`, `colleagues`, `coworkers`, etc.
+
+    ###########################################################################
+    # Locales
+    ###########################################################################
+
+    - key: options.locale.en-US
+      t: English
+    - key: options.locale.es-ES
+      t: Spanish
+    - key: options.locale.ru-RU
+      t: Russian
+    - key: options.locale.fr-FR
+      t: French
+    - key: options.locale.zh-Hant
+      t: Chinese (Traditional)
+    - key: options.locale.de-DE
+      t: German
+    - key: options.locale.cs-CZ
+      t: Czech
+    - key: options.locale.pt-PT
+      t: Portuguese
+    - key: options.locale.it-IT
+      t: Italian
+    - key: options.locale.sv-SE
+      t: Swedish
+    - key: options.locale.tr-TR
+      t: Turkish
+    - key: options.locale.id-ID
+      t: Indonesian
+    - key: options.locale.hi-IN
+      t: Hindi
 
     ###########################################################################
     # Features
@@ -159,7 +217,7 @@ translations:
 
         (Note that low user numbers can be due to either an unknown technology; or a technology with a lot of respondents already using it.)
 
-  # category other tools
+    # category other tools
     - key: blocks.category_other_tools.title
       t: Other Tools
     - key: blocks.category_other_tools.description
@@ -170,6 +228,13 @@ translations:
       t: ${name} Experience Over Time
     - key: blocks.tool_experience.description
       t: Respondent's experience with ${name}.
+
+    # tools section streams
+    - key: blocks.tools_section_streams.title
+      t: Experience Over Time
+    - key: blocks.tools_section_streams.description
+      t: |
+        Overview of opinions on the technologies surveyed over time.
 
     # tools section overview
     - key: blocks.tools_section_overview.title
@@ -259,6 +324,12 @@ translations:
       t: Interest Percentage
     - key: charts.axis_legends.satisfaction_percentage
       t: Satisfaction Percentage
+    - key: charts.axis_legends.happiness
+      t: Happiness
+    - key: charts.axis_legends.knowledge_score
+      t: Percentage
+    - key: charts.axis_legends.frequency
+      t: Frequency
 
     ###########################################################################
     # Sharing

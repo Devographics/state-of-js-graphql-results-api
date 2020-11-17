@@ -83,7 +83,7 @@ translations:
       t: Codified ways to write cleaner CSS.
 
     - key: sections.css_methodologies_others.title
-      t: Other CSS Methodologies
+      t: Other CSS Methodologies.
 
     - key: sections.css_in_js.title
       t: CSS-in-JS
@@ -91,15 +91,22 @@ translations:
       t: Libraries that help integrate CSS into JavaScript code.
 
     - key: sections.css_in_js_others.title
-      t: Other CSS-in-JS Libraries
+      t: Other CSS-in-JS Libraries.
 
-    - key: sections.css_in_js_others.title
-      t: Other CSS-in-JS Libraries
+    - key: sections.tools_others.title
+      t: Other Tools
+    - key: sections.tools_others.description
+      t: Other CSS tools.
 
     - key: sections.environments.title
       t: Environments
     - key: sections.environments.description
       t: Which environments do you write CSS for?
+
+    - key: sections.awards.title
+      t: Awards
+    - key: sections.awards.description
+      t: Things that stood out this year.
 
     ###########################################################################
     # Options
@@ -270,6 +277,12 @@ translations:
     - key: features.comparison_functions.description
       t: <code>min()</code>, <code>max()</code>, and <code>clamp()</code>
 
+    # knowledge score
+    - key: features.knowledge_score
+      t: Knowledge Score
+    - key: features.knowledge_score.description
+      t: Out of all the CSS features mentioned in the survey, how many did the respondent know about?
+      
     ###########################################################################
     # Units & Selectors
     ###########################################################################
@@ -516,7 +529,11 @@ translations:
       t: What do you feel is currently missing from CSS?
     - key: opinions_other.currently_missing_from_css.others.description
       t: Features you'd like to see in CSS one day.
-
+    - key: opinions_other.currently_missing_from_css.others.note
+      t: >
+          These results were normalized based on the contents of a freeform field.
+          To view the raw, unprocessed responses check out [whatsmissingfromcss.com](http://whatsmissingfromcss.com/).
+    
     - key: opinions.sum_up_one_word_css
       t: CSS in one word
     - key: opinions.sum_up_one_word_css.description

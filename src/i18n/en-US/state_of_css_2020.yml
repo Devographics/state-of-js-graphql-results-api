@@ -4,82 +4,52 @@ translations:
     # Sections
     ###########################################################################
 
-    - key: sections.introduction.introduction
+    - key: sections.introduction.description
       t: |
           TODO
 
-    - key: sections.tshirt.introduction
+    - key: sections.tshirt.description
       t: |
           TODO
 
-    - key: sections.demographics.introduction
+    - key: sections.demographics.description
       t: |
-          TODO
+          This year's survey reached 11,492 people in 102 countries. For the first time this year,
+          we were able to translate the survey questions in multiple languages thanks to an awesome team of volunteers.
 
-    - key: sections.features.introduction
+    - key: sections.features.description
       t: |
-          TODO
+          CSS is has seen a surge of new features in recent years, so as you'd expect adoption is
+          lagging a bit behind as the community takes its time to absorb new properties.
 
-    - key: sections.layout.introduction
+    - key: sections.units_selectors.description
       t: |
-          TODO
+          We're willing to bet you'll find a few things you didn't know about in this section!
 
-    - key: sections.shapes_graphics.introduction
+    - key: sections.technologies.description
       t: |
-          TODO
+          The CSS ecosystem is going through a renewal of sorts, as older mainstays like Bootstrap 
+          now have to accomodate newer entrants like Tailwind CSS. To say nothing of the whole CSS-in-JS
+          movement which, while it has yet to cross over to the CSS mainstream, is nonetheless quite dynamic. 
 
-    - key: sections.interactions.introduction
+    - key: sections.other_tools.description
       t: |
-          TODO
+          No surprises here, but it's worth highlighting the appearance of development-focused browsers
+          like Polypane and Sizzy, which go a step further than traditional devtools.
 
-    - key: sections.typography.introduction
+    - key: sections.environments.description
       t: |
-          TODO
+          One of CSS's core strengths is its ability to adapt to different environment, yet for a variety
+          of reasons media like print and email remain unexplored by a majority of CSS developers. Might they
+          turn out to be the next frontier of CSS…?
 
-    - key: sections.animations_transforms.introduction
+    - key: sections.resources.description
       t: |
-          TODO
+          The “other answers” results in this section highlight the richness and diversity of the CSS community,
+          and feature many outstanding blogs and pocasts which we are looking forward to officially adding
+          to the survey next year!
 
-    - key: sections.other_features.introduction
+    - key: sections.opinions.description
       t: |
-          TODO
-
-    - key: sections.units_selectors.introduction
-      t: |
-          TODO
-
-    - key: sections.technologies.introduction
-      t: |
-          TODO
-
-    - key: sections.pre_post_processors.introduction
-      t: |
-          TODO
-
-    - key: sections.css_frameworks.introduction
-      t: |
-          TODO
-
-    - key: sections.css_methodologies.introduction
-      t: |
-          TODO
-
-    - key: sections.css_in_js.introduction
-      t: |
-          TODO
-
-    - key: sections.other_tools.introduction
-      t: |
-          TODO
-
-    - key: sections.resources.introduction
-      t: |
-          TODO
-
-    - key: sections.environments.introduction
-      t: |
-          TODO
-          
-    - key: sections.opinions.introduction
-      t: |
-          TODO
+          These opinions paint a picture of a language getting more mature, but also more complex. And perhaps
+          –at least while we struggle to keep up with the pace of change– a little less enjoyable?
