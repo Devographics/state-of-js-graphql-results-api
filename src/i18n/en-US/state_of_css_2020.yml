@@ -79,7 +79,7 @@ translations:
     - key: sections.resources.description
       t: |
           The “other answers” results in this section highlight the richness and diversity of the CSS community,
-          and feature many outstanding blogs and pocasts which we are looking forward to officially adding
+          and feature many outstanding blogs and podcasts which we are looking forward to officially adding
           to the survey next year!
 
     - key: sections.opinions.description
