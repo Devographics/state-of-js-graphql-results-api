@@ -1,16 +1,49 @@
 locale: en-US
 translations:
     ###########################################################################
-    # Sections
+    # Introduction
     ###########################################################################
 
     - key: sections.introduction.description
       t: |
           TODO
 
+    ###########################################################################
+    # Tshirt
+    ###########################################################################
+
+    - key: sections.tshirt.title
+      t: T-shirt
+
     - key: sections.tshirt.description
       t: |
-          TODO
+          ## Support the survey and look good in the process!
+
+          A quick announcement before the survey results. Introducing our very own 🎈🎉👕 State of CSS T-shirt 👕🎉🎈!
+
+          What makes this shirt truly special is that it's the only piece of clothing that also teaches you practical, real-world CSS techniques.
+
+          So whether you're going to a conference, a job interview, or just work, this shirt will demonstrate your CSS mastery like no other garment can!
+    
+    - key: tshirt.about
+      t: About the T-shirt
+
+    - key: tshirt.description
+      t: |
+          The shirt features the State of CSS logo along with snippets of the actual CSS code used to create each shape. Who knows, you might learn a thing or two!
+
+          We use a high-quality, super-soft tri-blend shirt with a slim fit. 
+          This shirt sizes small, so if you prefer a looser fit we recommend ordering one size up from what you usually wear (I'm wearing an M in the photos).
+
+    - key: tshirt.getit
+      t: Get It
+
+    - key: tshirt.price
+      t: USD $24 + shipping
+
+    ###########################################################################
+    # Sections
+    ###########################################################################
 
     - key: sections.demographics.description
       t: |
@@ -19,7 +52,7 @@ translations:
 
     - key: sections.features.description
       t: |
-          CSS is has seen a surge of new features in recent years, so as you'd expect adoption is
+          CSS has seen a surge of new features in recent years, so as you'd expect adoption is
           lagging a bit behind as the community takes its time to absorb new properties.
 
     - key: sections.units_selectors.description
@@ -34,7 +67,7 @@ translations:
 
     - key: sections.other_tools.description
       t: |
-          No surprises here, but it's worth highlighting the appearance of development-focused browsers
+          No big surprises here, but it's worth highlighting the appearance of development-focused browsers
           like Polypane and Sizzy, which go a step further than traditional devtools.
 
     - key: sections.environments.description
@@ -53,3 +86,12 @@ translations:
       t: |
           These opinions paint a picture of a language getting more mature, but also more complex. And perhaps
           –at least while we struggle to keep up with the pace of change– a little less enjoyable?
+
+
+    ###########################################################################
+    # Conclusion
+    ###########################################################################
+
+    - key: sections.conclusion.description
+      t: |
+          TODO
