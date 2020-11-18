@@ -16,7 +16,7 @@ translations:
       t: State of CSS
 
     - key: general.netlify_link
-      t: Хостинг от <a href={link}>Netlify</a>
+      t: Хостинг-провайдер <a href={link}>Netlify</a>
 
     - key: general.completion_percentage
       t: 'Процент заполнения:'
@@ -28,7 +28,7 @@ translations:
     - key: options.experience_ranking.satisfaction
       t: Удовлетворенность
     - key: options.experience_ranking.interest
-      t: Интерес
+      t: Заинтересованность
     - key: options.experience_ranking.awareness
       t: Осведомленность
 
@@ -172,21 +172,21 @@ translations:
       t: Изпользование в зависимости от размера компании
     - key: blocks.tools_company_size_heatmap.description
       t: |
-        Степень распределения использования для каждой технологии, среди респондентов, 
+        Степень распределения использования каждой технологии, среди респондентов, 
         которые выбрали различные диапазоны размеров компании.
 
     - key: blocks.tools_yearly_salary_heatmap.title
       t: Изпользование в зависимости от размера зарплаты
     - key: blocks.tools_yearly_salary_heatmap.description
       t: |
-        Степень распределения использования для каждой технологии, среди респондентов, 
+        Степень распределения использования каждой технологии, среди респондентов, 
         которые выбрали различные диапазоны заработной платы.
 
     - key: blocks.tools_years_of_experience_heatmap.title
-      t: Изпользование в зависимости от лет опыта
+      t: Изпользование в зависимости от количества лет опыта
     - key: blocks.tools_years_of_experience_heatmap.description
       t: |
-        Степень распределения использования для каждой технологии, среди респондентов, 
+        Степень распределения использования каждой технологии, среди респондентов, 
         которые выбрали различные диапазоны опыта работы.
         Обратите внимание, что рассматриваемый здесь опыт является общим опытом, а не опытом работы с конкретной технологией.
 
@@ -214,32 +214,32 @@ translations:
 
     - key: blocks.tools_quadrant.interest.description
       t: |
-        Эта диаграмма показывает **отношение интереса** к каждой технологии к общему **количеству пользователей** (как определено респондентами, которые знают о технологии, но еще *не* использовали ее).
+        Эта диаграмма показывает **отношение заинтересованности** к каждой технологии к общему **количеству пользователей** (как определено респондентами, которые знают о технологии, но еще *не* использовали ее).
 
         (Обратите внимание, что низкая численность пользователей может быть вызвана либо неизвестностью технологии, либо технологией, которой уже пользуется много респондентов.)
 
     # category other tools
     - key: blocks.category_other_tools.title
-      t: Другие Инструменты
+      t: Другие инструменты
     - key: blocks.category_other_tools.description
       t: Другие инструменты в этой категории (ответы в свободной форме).
 
     # tool experience
     - key: blocks.tool_experience.title
-      t: ${name} Опыт Работы
+      t: ${name} Опыт работы
     - key: blocks.tool_experience.description
       t: Опыт респондента с ${name}.
 
     # tools section streams
     - key: blocks.tools_section_streams.title
-      t: Опыт Работы
+      t: Опыт работы
     - key: blocks.tools_section_streams.description
       t: |
         Обзор мнений об опрошенных технологиях с течением времени.
 
     # tools section overview
     - key: blocks.tools_section_overview.title
-      t: Обзор Категорий
+      t: Обзор по категориям
     - key: blocks.tools_section_overview.description
       t: |
         Обзор мнений об опрошенных технологиях. Более темные сегменты представляют позитивные мнения, 
@@ -249,11 +249,11 @@ translations:
     - key: blocks.tools_experience_ranking.title
       t: Рейтинг
     - key: blocks.tools_experience_ranking.description
-      t: Рейтинг осведомленности, интереса и удовлетворенности.
+      t: Рейтинг осведомленности, заинтересованности и удовлетворенности.
 
     # happiness
     - key: blocks.happiness.title
-      t: Общая Степень Довольства
+      t: Общая степень удовлетворения
     - key: blocks.happiness.description
       t: |
         По шкале от одного (очень недоволен) до пяти (очень доволен), 
@@ -267,13 +267,13 @@ translations:
         Если вы хотите узнать, когда мы опубликуем дополнительные результаты или объявим выпуск следующего года, 
         просто оставьте нам свой адрес электронной почты ниже:
     - key: blocks.newsletter.email
-      t: Ваш Адрес
+      t: Ваш адрес
     - key: blocks.newsletter.submit
       t: Держите меня в курсе
 
     # features_overview
     - key: blocks.features_overview.title
-      t: Обзор Использования
+      t: Обзор использования
     - key: blocks.features_overview.description
       t: |
         На этой диаграмме представлены различные коэффициенты принятия для всех функций, сгруппированных по категориям.
@@ -318,15 +318,15 @@ translations:
     - key: charts.axis_legends.javascript_proficiency
       t: Знание JavaScript
     - key: charts.axis_legends.users_percentage
-      t: Процент Пользователей
+      t: Процент пользователей
     - key: charts.axis_legends.users_count
-      t: Количество Пользователей
+      t: Количество пользователей
     - key: charts.axis_legends.interest_percentage
-      t: Процент Интереса
+      t: Процент заинтересованности
     - key: charts.axis_legends.satisfaction_percentage
-      t: Процент Удовлетворенности
+      t: Процент удовлетворенности
     - key: charts.axis_legends.happiness
-      t: Довольство
+      t: Удовлетворение
     - key: charts.axis_legends.knowledge_score
       t: Процент
     - key: charts.axis_legends.frequency
@@ -343,13 +343,13 @@ translations:
     - key: share.site.twitter_text
       t: 'Узнать результаты CSS 2020 ${link} #StateOfCSS'
     - key: share.site.subject
-      t: Результаты Опроса State Of JavaScript
+      t: Результаты опроса State Of JavaScript
     - key: share.site.body
       t: 'Вот некоторые интересные результаты опроса CSS: ${link}'
     - key: share.block.twitter_text
       t: '#StateOfCSS 2020: ${title} ${link}'
     - key: share.block.subject
-      t: Результаты Опроса State Of CSS
+      t: Результаты опроса State Of CSS
     - key: share.block.body
       t: 'Вот некоторые интересные результаты опроса CSS (${title}): ${link}'
     - key: share.twitter
@@ -361,4 +361,4 @@ translations:
     - key: share.email
       t: Поделиться по электронной почте
     - key: share.image
-      t: Скачать картинку
+      t: Скачать изображение
