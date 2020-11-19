@@ -26,6 +26,7 @@
 - id: oocss
   name: OOCSS
   contexts: [state_of_css]
+  homepage: http://oocss.org/
   description: |
     OOCSS, or object-oriented CSS, is a methodology to help programmers
     write CSS that is succinct and easy to maintain.
@@ -36,6 +37,7 @@
 - id: smacss
   name: SMACSS
   contexts: [state_of_css]
+  homepage: http://smacss.com/
   description: |
     SMACSS (pronounced “smacks”) is more style guide than rigid framework.
     There is no library within here for you to download or install.
