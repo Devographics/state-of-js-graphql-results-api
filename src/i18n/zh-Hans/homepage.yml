@@ -4,49 +4,48 @@ translations:
     # Homepage
     ###########################################################################
 
-    - key: homepage.hand_coded # TODO
-      t: Hand-coded in Japan.
-    - key: homepage.leave_issue # TODO
-      t: Leave an issue
-    - key: homepage.get_in_touch # TODO
-      t: Get in touch
+    - key: homepage.hand_coded
+      t: 于日本手工编码
+    - key: homepage.leave_issue
+      t: 提出 issue
+    - key: homepage.get_in_touch
+      t: 取得联系
 
-    - key: homepage.made_by # TODO
-      t: 'The State of CSS is Made by:'
-    - key: homepage.leave_issue # TODO
-      t: Leave an issue
+    - key: homepage.made_by
+      t: “关于 State of CSS 调查问卷的幕后人员：”
+    - key: homepage.leave_issue
+      t: 提出 issue
 
-    - key: homepage.previous_years # TODO
-      t: 'Previous Years:'
-    - key: homepage.intro # TODO
+    - key: homepage.previous_years
+      t: “往年的：”
+    - key: homepage.intro
       t: >
-          ## CSS is evolving faster than ever.
+          ## CSS 正以前所未有的速度发展。
 
-          Flexbox, Grid, Multi-Column… To say nothing of whole new paradigms like CSS-in-JS.
+          Flexbox （弹性盒模型）、 Grid （网格布局）、 Multi-Column （多列布局）甚至迈入了 CSS-in-JS 这样的全新领域。
 
-          So after the success of our annual [State Of JavaScript](https://stateofjs.com) survey, we’ve decided to take on
-          the world of styles and selectors to help identify the latest trends… and try to bridge
-          the ever-growing “great front-end divide”!
+          也因每年举办的 [State Of JavaScript](https://stateofjs.com) 取得成功后。我们决定深入样式选择器的世界，帮助大家找到
+          最新趋势，作为桥梁连接“大前端时代”洪流！
 
-    - key: homepage.take_survey # TODO
-      t: Take Survey
+    - key: homepage.take_survey
+      t: 参与问卷
 
-    - key: homepage.view_results # TODO
-      t: View 2019 Results
+    - key: homepage.view_results
+      t: 查看 2019 年调查结果
 
-    - key: share.help_spread # TODO
-      t: Help Spread the Word!
+    - key: share.help_spread
+      t: 帮忙宣传
 
-    - key: newsletter.stay_tuned # TODO
-      t: Stay Tuned
-    - key: newsletter.leave_your_email # TODO
-      t: Leave us your email and we’ll let you know when the next survey takes place.
+    - key: newsletter.stay_tuned
+      t: 敬请期待
+    - key: newsletter.leave_your_email
+      t: 可以留下你的邮箱地址，方便下次调查开始时通知你
 
-    - key: author.sacha.bio # TODO
+    - key: author.sacha.bio
       t: >
-          Creator of the [Nivo](http://nivo.rocks/) JavaScript data visualization library as well
-          as [Mozaik](http://mozaik.rocks/), a tool for building beautiful dashboards.
-    - key: author.raphael.bio # TODO
+          [Nivo](http://nivo.rocks/)： JavaScript data visualization 库以及
+          可以创建美观的仪表盘工具 [Mozaik](http://mozaik.rocks/) 的作者。
+    - key: author.raphael.bio
       t: >
-          Creator of the [Sidebar](http://sidebar.io) daily newsletter and
-          [VulcanJS](http://vulcanjs.org), a React+GraphQL open-source framework.
+          创建了 [Sidebar](http://sidebar.io) 同时也是采用
+          React+GraphQL 的开源框架 [VulcanJS](http://vulcanjs.org) 的作者。
