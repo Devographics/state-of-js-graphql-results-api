@@ -49,7 +49,7 @@ const start = async () => {
         cacheControl: true,
         introspection: true,
         playground: false,
-        plugins: [responseCachePlugin()],
+        // plugins: [responseCachePlugin()],
         engine: {
             debugPrintReports: true
         },
