@@ -4,6 +4,136 @@ translations:
     # General
     ###########################################################################
 
+    - key: results.start
+      t: Старт
+
+    - key: page.previous
+      t: 'Назад:'
+    - key: page.next
+      t: 'Вперед:'
+
+    - key: general.state_of_css_link
+      t: State of CSS
+
+    - key: general.netlify_link
+      t: Хостинг-провайдер <a href={link}>Netlify</a>
+
+    - key: general.completion_percentage
+      t: 'Процент заполнения:'
+
+    ###########################################################################
+    # Options
+    ###########################################################################
+  
+    - key: options.experience_ranking.satisfaction
+      t: Удовлетворенность
+    - key: options.experience_ranking.interest
+      t: Заинтересованность
+    - key: options.experience_ranking.awareness
+      t: Осведомленность
+
+    - key: options.features_simplified.know_it
+      t: Знаю
+    - key: options.features_simplified.used_it
+      t: Использовал
+    - key: options.features_simplified.usage_ratio
+      t: Коэффициент использования
+
+    - key: options.quadrant.assess
+      t: ОЦЕНИВАЮТ
+    - key: options.quadrant.assess.long
+      t: |
+        ОЦЕНИВАЮТ: Низкая степень использования, высокая степень удовлетворенности. Технологии, на которые стоит обратить внимание.
+    - key: options.quadrant.adopt
+      t: ВНЕДРЯЮТ
+    - key: options.quadrant.adopt.long
+      t: |
+        ВНЕДРЯЮТ: Высокая степень использования, высокая степень удовлетворенности. Безопасные технологии для внедрения.
+    - key: options.quadrant.avoid
+      t: ИЗБЕГАЮТ
+    - key: options.quadrant.avoid.long
+      t: |
+        ИЗБЕГАЮТ: Низкая степень использования, высокая степень удовлетворенности. Технологии, которых стоит избегать в настоящий момент.
+    - key: options.quadrant.analyze
+      t: АНАЛИЗИРУЮТ
+    - key: options.quadrant.analyze.long
+      t: |
+        АНАЛИЗИРУЮТ: Высокая степень использования, низкая степень удовлетворенности. Пересмотрите свой взгляд на эти технологии, если вы используете их в настоящий момент.
+
+    ###########################################################################
+    # Sections
+    ###########################################################################
+ 
+    - key: sections.introduction.title
+      t: Введение
+
+    - key: sections.demographics.title
+      t: Демографические данные
+
+    - key: sections.tshirt.title
+      t: Футболка
+
+    - key: sections.technologies.title
+      t: Технологии
+
+    - key: sections.conclusion.title
+      t: Заключение
+
+    ###########################################################################
+    # User Info
+    ###########################################################################
+
+    - key: user_info.locale
+      t: Язык
+    - key: user_info.locale.description
+      t: Какой язык выбрали респонденты для прохождения опроса?
+
+    - key: user_info.source
+      t: Источник
+    - key: user_info.source.description
+      t: Как респонденты узнали об опросе? 
+    - key: user_info.source.note
+      t: >
+      
+        Эта диаграмма объединяет набор ссылок, параметров URL и ответов в произвольной форме. 
+
+        - State of JS: the [State of JS](https://stateofjs.com) почтовая рассылка.
+
+        - State of CSS: почтовая рассылка State of CSS; также совпадает с `почта`, `по почте`, и т.д.
+
+        - Работа: совпадает с `работа`, `коллеги`, `сослуживцы`, и т.д.
+
+    ###########################################################################
+    # Locales
+    ###########################################################################
+
+    - key: options.locale.en-US
+      t: Английский
+    - key: options.locale.es-ES
+      t: Испанский
+    - key: options.locale.ru-RU
+      t: Русский
+    - key: options.locale.fr-FR
+      t: Французский
+    - key: options.locale.zh-Hant
+      t: Китайский (Традиционный)
+    - key: options.locale.de-DE
+      t: Немецкий
+    - key: options.locale.cs-CZ
+      t: Чешский
+    - key: options.locale.pt-PT
+      t: Португальский
+    - key: options.locale.it-IT
+      t: Итальянский
+    - key: options.locale.sv-SE
+      t: Шведский
+    - key: options.locale.tr-TR
+      t: Турецкий
+    - key: options.locale.id-ID
+      t: Индонезийский
+    - key: options.locale.hi-IN
+      t: Хинди
+
     ###########################################################################
     # Features
     ###########################################################################
@@ -32,3 +162,203 @@ translations:
       t: Главная страница
     - key: tools.npm_link
       t: NPM
+
+    ###########################################################################
+    # Blocks
+    ###########################################################################
+
+    # heatmaps
+    - key: blocks.tools_company_size_heatmap.title
+      t: Изпользование в зависимости от размера компании
+    - key: blocks.tools_company_size_heatmap.description
+      t: |
+        Степень распределения использования каждой технологии, среди респондентов, 
+        которые выбрали различные диапазоны размеров компании.
+
+    - key: blocks.tools_yearly_salary_heatmap.title
+      t: Изпользование в зависимости от размера зарплаты
+    - key: blocks.tools_yearly_salary_heatmap.description
+      t: |
+        Степень распределения использования каждой технологии, среди респондентов, 
+        которые выбрали различные диапазоны заработной платы.
+
+    - key: blocks.tools_years_of_experience_heatmap.title
+      t: Изпользование в зависимости от количества лет опыта
+    - key: blocks.tools_years_of_experience_heatmap.description
+      t: |
+        Степень распределения использования каждой технологии, среди респондентов, 
+        которые выбрали различные диапазоны опыта работы.
+        Обратите внимание, что рассматриваемый здесь опыт является общим опытом, а не опытом работы с конкретной технологией.
+
+    # tool
+    - key: blocks.entity.homepage_link
+      t: Домашняя страница
+    - key: blocks.entity.github_link
+      t: GitHub
+
+    # tools quadrant
+    - key: blocks.tools_quadrant.title
+      t: Удовлетворенность vs Использование
+    - key: blocks.tools_quadrant.satisfaction.description
+      t: |
+        Эта диаграмма показывает **отношение удовлетворенности** каждой технологией к общему **количеству пользователей**. 
+        Его можно разделить на четыре квадранта:
+
+          - **ОЦЕНИВАЮТ**: Низкая степень использования, высокая степень удовлетворенности. Технологии, на которые стоит обратить внимание.
+
+          - **ВНЕДРЯЮТ**: Высокая степень использования, высокая степень удовлетворенности. Безопасные технологии для внедрения.
+          
+          - **ИЗБЕГАЮТ**: Низкая степень использования, высокая степень удовлетворенности. Технологии, которых стоит избегать в настоящий момент.
+
+          - **АНАЛИЗИРУЮТ**: Высокая степень использования, низкая степень удовлетворенности. Пересмотрите свой взгляд на эти технологии, если вы используете их в настоящий момент.
+
+    - key: blocks.tools_quadrant.interest.description
+      t: |
+        Эта диаграмма показывает **отношение заинтересованности** к каждой технологии к общему **количеству пользователей** (как определено респондентами, которые знают о технологии, но еще *не* использовали ее).
+
+        (Обратите внимание, что низкая численность пользователей может быть вызвана либо неизвестностью технологии, либо технологией, которой уже пользуется много респондентов.)
+
+    # category other tools
+    - key: blocks.category_other_tools.title
+      t: Другие инструменты
+    - key: blocks.category_other_tools.description
+      t: Другие инструменты в этой категории (ответы в свободной форме).
+
+    # tool experience
+    - key: blocks.tool_experience.title
+      t: ${name} Опыт работы
+    - key: blocks.tool_experience.description
+      t: Опыт респондента с ${name}.
+
+    # tools section streams
+    - key: blocks.tools_section_streams.title
+      t: Опыт работы
+    - key: blocks.tools_section_streams.description
+      t: |
+        Обзор мнений об опрошенных технологиях с течением времени.
+
+    # tools section overview
+    - key: blocks.tools_section_overview.title
+      t: Обзор по категориям
+    - key: blocks.tools_section_overview.description
+      t: |
+        Обзор мнений об опрошенных технологиях. Более темные сегменты представляют позитивные мнения, 
+        в то время как более светлые сегменты соответствуют негативным настроениям.
+
+    # tools experience ranking
+    - key: blocks.tools_experience_ranking.title
+      t: Рейтинг
+    - key: blocks.tools_experience_ranking.description
+      t: Рейтинг осведомленности, заинтересованности и удовлетворенности.
+
+    # happiness
+    - key: blocks.happiness.title
+      t: Общая степень удовлетворения
+    - key: blocks.happiness.description
+      t: |
+        По шкале от одного (очень недоволен) до пяти (очень доволен), 
+        насколько довольны разработчики текущим общим состоянием этой категории?
+
+    # newsletter
+    - key: blocks.newsletter.title
+      t: Оставайтесь на связи
+    - key: blocks.newsletter.description
+      t: |
+        Если вы хотите узнать, когда мы опубликуем дополнительные результаты или объявим выпуск следующего года, 
+        просто оставьте нам свой адрес электронной почты ниже:
+    - key: blocks.newsletter.email
+      t: Ваш адрес
+    - key: blocks.newsletter.submit
+      t: Держите меня в курсе
+
+    # features_overview
+    - key: blocks.features_overview.title
+      t: Обзор использования
+    - key: blocks.features_overview.description
+      t: |
+        На этой диаграмме представлены различные коэффициенты принятия для всех функций, сгруппированных по категориям.
+
+        Размер <span class="text-teal-darker text-bold">внешнего круга</span>
+        соответствует общему числу пользователей, которые знают о функции, в то время как
+        размер <span class="text-teal text-bold">внутреннего круга</span> представляет тех, кто действительно использовал его.
+
+        Наведите курсор мыши на каждый узел, чтобы просмотреть подробные данные вместе с <span class="text-blackpink text-bold">наложением</span>
+        которое представляет собой общее число респондентов опроса.
+
+  # export
+    - key: export.export
+      t: Экспорт
+    - key: export.title
+      t: Экспорт данных для ${title}
+    - key: export.nocsv
+      t: К сожалению, экспорт CSV недоступен для этого набора данных.
+    - key: export.graphql
+      t: >
+         Вы можете скопировать этот запрос в наш<a target="_blank" rel="nofollow" href="http://graphiql.stateofjs.com/">публичный GraphQL API</a>.
+
+    ###########################################################################
+    # Charts
+    ###########################################################################
+
+    - key: chart_units.percentage
+      t: Проценты
+    - key: chart_units.count
+      t: Количество
+
+    - key: charts.axis_legends.years_of_experience
+      t: Опыт работы
+    - key: charts.axis_legends.yearly_salary
+      t: Уровень зарплаты (USD)
+    - key: charts.axis_legends.company_size
+      t: Число сотрудников
+    - key: charts.axis_legends.backend_proficiency
+      t: Знание Back-end
+    - key: charts.axis_legends.css_proficiency
+      t: Знание CSS
+    - key: charts.axis_legends.javascript_proficiency
+      t: Знание JavaScript
+    - key: charts.axis_legends.users_percentage
+      t: Процент пользователей
+    - key: charts.axis_legends.users_count
+      t: Количество пользователей
+    - key: charts.axis_legends.interest_percentage
+      t: Процент заинтересованности
+    - key: charts.axis_legends.satisfaction_percentage
+      t: Процент удовлетворенности
+    - key: charts.axis_legends.happiness
+      t: Удовлетворение
+    - key: charts.axis_legends.knowledge_score
+      t: Процент
+    - key: charts.axis_legends.frequency
+      t: Частота
+
+    ###########################################################################
+    # Sharing
+    ###########################################################################
+
+    - key: share.share
+      t: Поделиться
+    - key: share.site.title
+      t: Узнать результаты StateOf CSS 2020
+    - key: share.site.twitter_text
+      t: 'Узнать результаты CSS 2020 ${link} #StateOfCSS'
+    - key: share.site.subject
+      t: Результаты опроса State Of JavaScript
+    - key: share.site.body
+      t: 'Вот некоторые интересные результаты опроса CSS: ${link}'
+    - key: share.block.twitter_text
+      t: '#StateOfCSS 2020: ${title} ${link}'
+    - key: share.block.subject
+      t: Результаты опроса State Of CSS
+    - key: share.block.body
+      t: 'Вот некоторые интересные результаты опроса CSS (${title}): ${link}'
+    - key: share.twitter
+      t: Поделиться в Twitter
+    - key: share.facebook
+      t: Поделиться в Facebook
+    - key: share.linkedin
+      t: Поделиться в LinkedIn
+    - key: share.email
+      t: Поделиться по электронной почте
+    - key: share.image
+      t: Скачать изображение
