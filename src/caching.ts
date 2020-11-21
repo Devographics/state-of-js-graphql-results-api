@@ -1,6 +1,5 @@
 import { Db } from 'mongodb'
-
-const CACHE_COLLECTION = 'cached_results'
+import config from './config'
 
 type DynamicComputeCall = (db: Db, ...args: any[]) => Promise<any>
 
@@ -47,7 +46,7 @@ export const useCache = async <F extends DynamicComputeCall>(
 ): Promise<ResultType<F>> => {
     const key = computeKey(func, args)
 
-    const collection = db.collection(CACHE_COLLECTION)
+    const collection = db.collection(config.mongo.cache_collection)
     const existingResult = await collection.findOne({ key })
     if (existingResult && !process.env.DISABLE_CACHE) {
         console.log(`< using result from cache for: ${key}`)

@@ -99,7 +99,9 @@ export async function computeExperienceOverYears(
                 buckets: Array<{
                     id: string
                     count: number
+                    countDelta?: number
                     percentage: number
+                    percentageDelta?: number
                 }>
             }>
         >((acc, result) => {
@@ -143,6 +145,20 @@ export async function computeExperienceOverYears(
             awareness: computeAwareness(bucket.buckets, bucket.total),
             interest: computeInterest(bucket.buckets),
             satisfaction: computeSatisfaction(bucket.buckets)
+        }
+    })
+
+    // compute deltas
+    experienceByYear.forEach((year, i) => {
+        const previousYear = experienceByYear[i - 1]
+        if (previousYear) {
+            year.buckets.forEach(bucket => {
+                const previousYearBucket = previousYear.buckets.find(b => b.id === bucket.id)
+                if (previousYearBucket) {
+                    bucket.countDelta = bucket.count - previousYearBucket.count
+                    bucket.percentageDelta = Math.round(100 * (bucket.percentage - previousYearBucket.percentage))/100
+                }
+            })
         }
     })
 
