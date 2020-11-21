@@ -56,13 +56,13 @@ etc.
 export const truncateKey = (key: string) => key.split('-')[0]
 
 export const getValidLocale = (localeId: string) => {
-    const validLocale = locales.find((locale: Locale) => {
-        const { id } = locale
-        return (
-            id.toLowerCase() === localeId.toLowerCase() || truncateKey(id) === truncateKey(localeId)
-        )
-    })
-    return validLocale
+    const exactLocale = locales.find(
+        (locale: Locale) => locale.id.toLowerCase() === localeId.toLowerCase()
+    )
+    const similarLocale = locales.find(
+        (locale: Locale) => truncateKey(locale.id) === truncateKey(localeId)
+    )
+    return exactLocale || similarLocale
 }
 
 /*
