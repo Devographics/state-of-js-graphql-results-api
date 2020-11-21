@@ -225,7 +225,7 @@ translations:
 
     # tool experience
     - key: blocks.tool_experience.title
-      t: ${name} Experience Over Time
+      t: ${name} Experience
     - key: blocks.tool_experience.description
       t: Respondent's experience with ${name}.
 
@@ -327,7 +327,7 @@ translations:
     - key: charts.axis_legends.happiness
       t: Happiness
     - key: charts.axis_legends.knowledge_score
-      t: Percentage
+      t: Known Features
     - key: charts.axis_legends.frequency
       t: Frequency
 
@@ -361,3 +361,55 @@ translations:
       t: Share by email
     - key: share.image
       t: Get image
+
+    ###########################################################################
+    # Awards
+    ###########################################################################
+
+    - key: awards.runner_ups
+      t: Runner Ups
+      
+    - key: award.feature_adoption_award.title
+      t: Most Adopted Feature
+    - key: award.feature_adoption_award.description
+      t: Awarded to the most adopted feature.
+
+    - key: award.feature_adoption_delta_award.title
+      t: Most Adopted Feature
+    - key: award.feature_adoption_delta_award.description
+      t: Awarded to the feature with the largest year-over-year progression.
+
+    - key: award.tool_usage_award.title
+      t: Most Used Technology
+    - key: award.tool_usage_award.description
+      t: Awarded to the technology with the largest user base.
+
+    - key: award.tool_usage_delta_award.title
+      t: Most Used Technology
+    - key: award.tool_usage_delta_award.description
+      t: Awarded to the technology with the largest year-over-year progression.
+
+    - key: award.tool_satisfaction_award.title
+      t: Highest Satisfaction
+    - key: award.tool_satisfaction_award.description
+      t: Awarded to the technology with the highest percentage of satisfied users.
+
+    - key: award.tool_interest_award.title
+      t: Highest Interest
+    - key: award.tool_interest_award.description
+      t: Awarded to the technology developers are most interested in learning.
+
+    - key: award.resource_usage_award.title
+      t: Most Used Resource
+    - key: award.resource_usage_award.description
+      t: Awarded to the resource with the largest user base.
+
+    - key: award.prediction_award.title
+      t: Prediction Award
+    - key: award.prediction_award.description
+      t: Awarded to an up-and-coming technology that might take over… or not?
+
+    - key: award.most_write_ins_award.title
+      t: Most Write-Ins
+    - key: award.most_write_ins_award.descriptiona
+      t: Awarded to the item with the most write-in answers

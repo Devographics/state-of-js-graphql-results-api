@@ -113,6 +113,12 @@ translations:
     - key: forms.select_option
       t: Select option
 
+    # 404
+    - key: notfound.title
+      t: 404 Not Found
+    - key: notfound.description
+      t: Sorry, we couldn't find what you were looking for. 
+
     ###########################################################################
     # Nav
     ###########################################################################
