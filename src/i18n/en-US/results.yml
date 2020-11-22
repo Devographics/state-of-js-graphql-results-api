@@ -368,7 +368,7 @@ translations:
 
     - key: awards.runner_ups
       t: Runner Ups
-      
+
     - key: award.feature_adoption_award.title
       t: Most Adopted Feature
     - key: award.feature_adoption_award.description
@@ -377,7 +377,7 @@ translations:
     - key: award.feature_adoption_delta_award.title
       t: Most Adopted Feature
     - key: award.feature_adoption_delta_award.description
-      t: Awarded to the feature with the largest year-over-year progression.
+      t: Awarded to the feature with the largest year-over-year ”have used” progression.
 
     - key: award.tool_usage_award.title
       t: Most Used Technology
@@ -387,7 +387,7 @@ translations:
     - key: award.tool_usage_delta_award.title
       t: Most Used Technology
     - key: award.tool_usage_delta_award.description
-      t: Awarded to the technology with the largest year-over-year progression.
+      t: Awarded to the technology with the largest year-over-year “would use again” progression.
 
     - key: award.tool_satisfaction_award.title
       t: Highest Satisfaction
@@ -411,5 +411,5 @@ translations:
 
     - key: award.most_write_ins_award.title
       t: Most Write-Ins
-    - key: award.most_write_ins_award.descriptiona
+    - key: award.most_write_ins_award.description
       t: Awarded to the item with the most write-in answers

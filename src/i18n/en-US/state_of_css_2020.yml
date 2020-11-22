@@ -6,7 +6,44 @@ translations:
 
     - key: sections.introduction.description
       t: |
-          TODO
+
+            <span class="first-letter">F</span>orget everything you know about CSS. Or at least, be ready to reconsider a lot of it. If like me you've been writing CSS for over a decade, CSS in 2020 looks nothing like what you were used to.
+
+            Instead of breakpoints, we can now leverage CSS Grid to make dynamic, responsive layouts that adapt to any viewport size with fewer lines of code. Instead of relying on global stylesheets, CSS-in-JS lets us colocate our styles with our components to build themeable design systems.
+
+            And most of all, Tailwind CSS has burst onto the scene and, through its use of utility-first CSS, forced us to reconsider the traditional dogma of semantic class names.
+
+            Whether all this change makes you want to write a hyped-up blog post or an angry Twitter rant, we are here to present the data, highlight the trends, and hopefully guide you through another eventful year of CSS!
+
+            ### Team
+
+            The State of CSS Survey is created and maintained by:
+
+            - [Sacha Greif](https://twitter.com/sachagreif): Design, writing, coding
+            - [Raphaël Benitte](https://twitter.com/benitteraphael): Data analysis, data visualizations
+
+            ### Download Our Data
+
+            You can [download the raw JSON data for this survey](https://www.kaggle.com/sachag/state-of-css-2020). Let us know if you end up making your own data visualizations!
+
+            ### Other Links
+
+            - [State of CSS Homepage](https://stateofcss.com)
+            - [State of JS](https://stateofjs.com)
+
+            ### Thanks
+
+            Thanks to all the people who helped us design the survey, including [Chen Hui-Jing](http://chenhuijing.com/), [Philip Jägenstedt](https://blog.foolip.org/), [Adam Argyke](https://nerdy.dev/), [Ahmad Shadeed](https://www.ishadeed.com/), [Robert Flack](https://github.com/flackr), [Dominic Nguyen](https://www.chromatic.com/), [Fantasai](http://fantasai.inkedblade.net/), and [Kilian Valkhof](https://kilianvalkhof.com/).
+
+            Additional thanks to [Stéphanie Walter](https://stephaniewalter.design/) for her guidance and [Alexey Pyltsyn](https://github.com/lex111) for his help with translations.  
+
+            ### Credits & Stuff
+
+            The site is set in IBM Plex Mono. Questions? Feedback? [Get in touch!](mailto:hello@stateofjs.com)
+
+            And now, let's see what CSS has been up to this year!
+
+            <span class="conclusion__byline">– Sacha and Raphaël</span>
 
     ###########################################################################
     # Tshirt
@@ -93,19 +130,19 @@ translations:
     ###########################################################################
 
     - key: award.feature_adoption_delta_award.comment
-      t: 2020 was the year CSS Grid crossed over from new technology to established tool.
+      t: With a **${value}** progression in 2020, this was the year CSS Grid crossed over from new technology to established tool.
 
     - key: award.tool_usage_delta_award.comment
-      t: No other tool comes even close to Tailwind CSS's dramatic progression over the last year.
+      t: No other tool comes even close to Tailwind CSS's dramatic **${value}** progression over the last year.
 
     - key: award.tool_satisfaction_award.comment
-      t: Post CSS's high satisfaction ratio shows that you can't beat doing one thing really, really well.
+      t: Post CSS's **${value}** satisfaction ratio shows that you can't beat doing one thing really, really well.
 
     - key: award.tool_interest_award.comment
-      t: CSS Modules have generated the most interest among CSS developers this year.
+      t: With a **${value}** ratio, CSS Modules have generated the most interest among CSS developers this year.
 
     - key: award.most_write_ins_award.comment
-      t: Many questions also accepted write-in answers, and PHP Storm was the one item that got the most mentions.
+      t: Many questions also accepted write-in answers, and with **${value}** mentions PHP Storm was the most popular item overall.
 
       
     ###########################################################################
@@ -114,4 +151,14 @@ translations:
 
     - key: sections.conclusion.description
       t: |
-          TODO
+            If a JavaScript developer writes a line of CSS code, are they now a CSS developer?
+            
+            This programming kōan illustrates a clear trend in the web development world: as more and more CSS developers are tasked with learning JavaScript, so are JavaScript developers starting to realize there might be more to this whole CSS thing than just `font-weight: bold;`. 
+
+            So asking about “the State of CSS” is inherently a tricky proposition: depending on who you ask you might get completely different answers! And how do you know which one's right?
+
+            Here's another kōan for you: the right answer is that there *is* no right answer. Each of the many tools, methodologies, frameworks, and libraries featured here has its place in the vast front-end ecosystem. 
+
+            Building a complex React app? Styled Components is a great option. Designing a static landing page? You can't go wrong with Sass! And even though Bootstrap has lost some of its original cool factor, you can't beat it when it comes to sheer number of themes and plugins.
+
+            So while we keep an eye on the shiny new toys popping up on GitHub every week, let's not forget the tools, techniques, and most of all people who have carried the CSS torch up to now. We'll need everybody if we're to keep CSS moving forward into 2021 and beyond!
