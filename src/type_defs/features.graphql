@@ -165,7 +165,11 @@ A feature experience datapoint
 type FeatureExperienceBucket @cacheControl(maxAge: 600) {
     id: FeatureExperienceID
     count: Int
+    # difference with previous year
+    countDelta: Int
     percentage: Float
+    # difference with previous year
+    percentageDelta: Float
 }
 
 """

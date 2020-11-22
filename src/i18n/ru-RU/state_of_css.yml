@@ -83,7 +83,7 @@ translations:
       t: Систематизированные способы написания чистого CSS-кода.
 
     - key: sections.css_methodologies_others.title
-      t: Другие CSS-методологии
+      t: Другие CSS-методологии.
 
     - key: sections.css_in_js.title
       t: CSS-in-JS
@@ -91,12 +91,22 @@ translations:
       t: Библиотеки для интеграции CSS в JavaScript-код.
 
     - key: sections.css_in_js_others.title
-      t: Другие библиотеки CSS-in-JS
+      t: Другие библиотеки CSS-in-JS.
+
+    - key: sections.tools_others.title
+      t: Другие инструменты
+    - key: sections.tools_others.description
+      t: Другие CSS-инструменты.
 
     - key: sections.environments.title
       t: Окружения
     - key: sections.environments.description
       t: Для каких окружений вы пишете CSS?
+
+    - key: sections.awards.title
+      t: Награды
+    - key: sections.awards.description
+      t: Что привлекло большее внимание в этом году.
 
     ###########################################################################
     # Options
@@ -266,6 +276,12 @@ translations:
       t: Функции сравнения CSS
     - key: features.comparison_functions.description
       t: <code>min()</code>, <code>max()</code> и <code>clamp()</code>
+
+    # knowledge score
+    - key: features.knowledge_score
+      t: Оценка знаний
+    - key: features.knowledge_score.description
+      t: О скольких из упомянутых в опросе возможностей CSS знал респондент?
 
     ###########################################################################
     # Units & Selectors
@@ -521,6 +537,10 @@ translations:
       t: Что вам не хватает в CSS?
     - key: opinions_other.currently_missing_from_css.others.description
       t: Возможности, которые вы хотели бы видеть в CSS.
+    - key: opinions_other.currently_missing_from_css.others.note
+      t: >
+          Эти данные были нормализованы на основе ответов в свободной форме.
+          Посмотреть оригинальные ответы можно на сайте [whatsmissingfromcss.com](http://whatsmissingfromcss.com/).
 
     - key: opinions.sum_up_one_word_css
       t: CSS одним словом

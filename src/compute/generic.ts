@@ -27,7 +27,9 @@ interface TermBucket {
     id: number | string
     entity?: any
     count: number
+    countDelta?: number
     percentage: number
+    percentageDelta?: number
 }
 
 interface YearAggregations {
@@ -101,13 +103,16 @@ export async function computeTermAggregationByYear(
     ]
     const rawResults: RawResult[] = await collection.aggregate(aggregationPipeline).toArray()
 
-    /*
-    console.log(inspect({
-        match,
-        aggregationPipeline,
-        rawResults,
-    }, { colors: true, depth: null }))
-    */
+    console.log(
+        inspect(
+            {
+                match,
+                aggregationPipeline,
+                rawResults
+            },
+            { colors: true, depth: null }
+        )
+    )
 
     // add entities if applicable
     const resultsWithEntity: RawResult[] = rawResults.map(result => {
@@ -142,11 +147,25 @@ export async function computeTermAggregationByYear(
     )
 
     // compute percentages
-    resultsByYear.forEach(bucket => {
-        bucket.total = _.sumBy(bucket.buckets, 'count')
-        bucket.buckets.forEach(subBucket => {
-            subBucket.percentage = ratioToPercentage(subBucket.count / bucket.total)
+    resultsByYear.forEach(year => {
+        year.total = _.sumBy(year.buckets, 'count')
+        year.buckets.forEach(bucket => {
+            bucket.percentage = ratioToPercentage(bucket.count / year.total)
         })
+    })
+
+    // compute deltas
+    resultsByYear.forEach((year, i) => {
+        const previousYear = resultsByYear[i - 1]
+        if (previousYear) {
+            year.buckets.forEach(bucket => {
+                const previousYearBucket = previousYear.buckets.find(b => b.id === bucket.id)
+                if (previousYearBucket) {
+                    bucket.countDelta = bucket.count - previousYearBucket.count
+                    bucket.percentageDelta = Math.round(100 * (bucket.percentage - previousYearBucket.percentage))/100
+                }
+            })
+        }
     })
 
     return appendCompletionToYearlyResults<{

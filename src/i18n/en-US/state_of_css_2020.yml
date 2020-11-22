@@ -79,7 +79,7 @@ translations:
     - key: sections.resources.description
       t: |
           The “other answers” results in this section highlight the richness and diversity of the CSS community,
-          and feature many outstanding blogs and pocasts which we are looking forward to officially adding
+          and feature many outstanding blogs and podcasts which we are looking forward to officially adding
           to the survey next year!
 
     - key: sections.opinions.description
@@ -88,6 +88,26 @@ translations:
           –at least while we struggle to keep up with the pace of change– a little less enjoyable?
 
 
+    ###########################################################################
+    # Awards
+    ###########################################################################
+
+    - key: award.feature_adoption_delta_award.comment
+      t: 2020 was the year CSS Grid crossed over from new technology to established tool.
+
+    - key: award.tool_usage_delta_award.comment
+      t: No other tool comes even close to Tailwind CSS's dramatic progression over the last year.
+
+    - key: award.tool_satisfaction_award.comment
+      t: Post CSS's high satisfaction ratio shows that you can't beat doing one thing really, really well.
+
+    - key: award.tool_interest_award.comment
+      t: CSS Modules have generated the most interest among CSS developers this year.
+
+    - key: award.most_write_ins_award.comment
+      t: Many questions also accepted write-in answers, and PHP Storm was the one item that got the most mentions.
+
+      
     ###########################################################################
     # Conclusion
     ###########################################################################

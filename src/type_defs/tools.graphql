@@ -94,7 +94,9 @@ in this particular year.
 type ToolExperienceBucket @cacheControl(maxAge: 600) {
     id: ExperienceID
     count: Int
+    countDelta: Int
     percentage: Float
+    percentageDelta: Float
 }
 
 """

@@ -42,14 +42,14 @@
   label: Türkçe
   translators: ['berkayyildiz']
 
-# - id: zh-Hans
-#   label: 简体
-#   translators: []
-
 - id: id-ID
   label: Indonesia
   translators: [ervinismu]
 
-- id: zh-Hant
+- id: 'zh-Hans'
+  label: 简体中文
+  translators: ['TIOvOIT']
+
+- id: 'zh-Hant'
   label: 正體中文
   translators: ['ymcheung']

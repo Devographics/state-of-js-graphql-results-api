@@ -113,6 +113,12 @@ translations:
     - key: forms.select_option
       t: Выбрать вариант
 
+    # 404
+    - key: notfound.title
+      t: Ошибка 404
+    - key: notfound.description
+      t: К сожалению, эта страница не найдена.
+
     ###########################################################################
     # Nav
     ###########################################################################
@@ -130,6 +136,11 @@ translations:
       t: О вас
     - key: sections.user_info.description
       t: Давайте познакомимся с вами.
+
+    - key: sections.features.title
+      t: Возможности
+    - key: sections.features.description
+      t: Синтаксис, ключевые слова и другие возможности языка.
 
     - key: sections.resources.title
       t: Ресурсы
@@ -212,6 +223,18 @@ translations:
     - key: options.happiness.3
       t: Доволен
     - key: options.happiness.4
+      t: Очень доволен
+
+      # happiness (short version)
+    - key: options.happiness.0.short
+      t: Очень недоволен
+    - key: options.happiness.1.short
+      t: Не доволен
+    - key: options.happiness.2.short
+      t: Затрудняюсь ответить
+    - key: options.happiness.3.short
+      t: Доволен
+    - key: options.happiness.4.short
       t: Очень доволен
 
     # opinions

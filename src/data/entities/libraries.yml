@@ -6,6 +6,7 @@
   name: Sass
   github: sass/sass
   npm: node-sass
+  homepage: https://sass-lang.com/
   tags:
     - css
     - css_pre_post_processors
@@ -18,6 +19,7 @@
   contexts: []
   github: less/less.js
   npm: less
+  homepage: http://lesscss.org/
   tags:
     - css
     - css_pre_post_processors
@@ -37,6 +39,7 @@
   contexts: [state_of_css]
   github: stylus/stylus
   npm: stylus
+  homepage: https://stylus-lang.com/
   tags:
     - css
     - css_pre_post_processors
@@ -59,6 +62,7 @@
   contexts: [state_of_css]
   github: Dogfalo/materialize
   npm: materialize-css
+  homepage: https://materializecss.com/
   tags:
     - css
     - css_frameworks
@@ -80,6 +84,7 @@
   name: Ant Design
   contexts: [state_of_css]
   github: ant-design/ant-design
+  homepage: https://ant.design/
   tags:
     - css
     - css_frameworks
@@ -88,6 +93,7 @@
   name: Semantic UI
   contexts: [state_of_css]
   github: Semantic-Org/Semantic-UI
+  homepage: https://semantic-ui.com/
   npm: semantic-ui
   tags:
     - css
@@ -98,6 +104,7 @@
   contexts: [state_of_css]
   github: jgthms/bulma
   npm: bulma
+  homepage: https://bulma.io/
   tags:
     - css
     - css_frameworks
@@ -106,6 +113,7 @@
   name: Foundation
   contexts: [state_of_css]
   github: zurb/foundation-sites
+  homepage: https://get.foundation/
   tags:
     - css
     - css_frameworks
@@ -115,6 +123,7 @@
   contexts: [state_of_css]
   github: uikit/uikit
   npm: uikit
+  homepage: https://getuikit.com/
   tags:
     - css
     - css_frameworks
@@ -123,6 +132,7 @@
   name: Tachyons
   contexts: [state_of_css]
   github: tachyons-css/tachyons
+  homepage: https://tachyons.io/
   tags:
     - css
     - css_frameworks
@@ -131,6 +141,7 @@
   name: Primer
   contexts: [state_of_css]
   github: primer/css
+  homepage: https://primer.style/
   npm: "@primer/css"
   tags:
     - css
@@ -155,6 +166,7 @@
   contexts: [state_of_css]
   github: pure-css/pure
   npm: purecss
+  homepage: https://purecss.io/
   tags:
     - css
     - css_frameworks
@@ -215,6 +227,7 @@
   npm: styled-jsx
   github: zeit/styled-jsx
   description: Full CSS support for JSX without compromises
+  homepage: https://github.com/vercel/styled-jsx
   tags:
     - css
     - js
@@ -256,6 +269,7 @@
 - id: styled_system
   name: Styled System
   contexts: [state_of_css]
+  homepage: Styled System
   tags:
     - css
     - js

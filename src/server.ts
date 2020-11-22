@@ -7,6 +7,7 @@ import typeDefs from './type_defs/schema.graphql'
 import { RequestContext } from './types'
 import resolvers from './resolvers'
 import express from 'express'
+import config from './config'
 const Sentry = require("@sentry/node");
 const Tracing = require("@sentry/tracing");
 
@@ -40,6 +41,10 @@ const start = async () => {
     })
     await mongoClient.connect()
     const db = mongoClient.db(process.env.MONGO_DB_NAME)
+
+    // purge db cache
+    const collection = db.collection(config.mongo.cache_collection)
+    collection.deleteMany({})
 
     const server = new ApolloServer({
         typeDefs,
