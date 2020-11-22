@@ -63,9 +63,9 @@ translations:
       t: CSS birimleri ve seçiciler hakkındaki bilginizi test edin.
 
     - key: sections.pre_post_processors.title 
-      t: Ön-/Post İşleyiciler
+      t: Pre-/Post İşleyiciler
     - key: sections.pre_post_processors.description 
-      t: CSS'i genişleten yardımcı araçlar.
+      t: CSS'yi genişleten yardımcı araçlar.
 
     - key: sections.pre_post_processors_others.title # TODO
       t: Other Pre-/Post-processors
@@ -353,7 +353,7 @@ translations:
       t: :has()
 
     - key: features_others.attributes 
-      t: Nitellikler (Attributes)
+      t: Nitelikler (Attributes)
 
     - key: options.attributes.presence 
       t: div[foo] (bulunma)
