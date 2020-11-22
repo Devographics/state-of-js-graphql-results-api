@@ -129,6 +129,11 @@ translations:
       t: Hakkınızda
     - key: sections.user_info.description
       t: Gerçek sizi tanıyalım.
+      
+    - key: sections.features.title
+      t: Özellikler
+    - key: sections.features.description
+      t: Sözdizimi, anahtar kelimeler, ve dildeki diğer özellikler.
 
     - key: sections.resources.title
       t: Kaynaklar
@@ -231,6 +236,18 @@ translations:
     - key: options.happiness.3
       t: Memnun
     - key: options.happiness.4
+      t: Çok Memnun
+
+    # happiness (short version)
+    - key: options.happiness.0.short
+      t: Hiç Memnun Değil
+    - key: options.happiness.1.short
+      t: Memnun Değil
+    - key: options.happiness.2.short
+      t: Nötr
+    - key: options.happiness.3.short
+      t: Memnun
+    - key: options.happiness.4.short
       t: Çok Memnun
 
     # opinions
@@ -349,7 +366,7 @@ translations:
     - key: options.job_title.back_end_developer 
       t: Arkayüz (Back-end) Geliştiricisi/Mühendisi
     - key: options.job_title.full_stack_developer 
-      t: Ön ve Arka Yüz (Full Stack) Geliştiricisi/Mühendisi
+      t: Ön ve Arkayüz (Full Stack) Geliştiricisi/Mühendisi
     - key: options.job_title.web_developer 
       t: Web Geliştiricisi
     - key: options.job_title.web_designer 

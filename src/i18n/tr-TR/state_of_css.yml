@@ -91,13 +91,20 @@ translations:
     - key: sections.css_in_js.description 
       t: CSS'yi JavaScript koduna entegre etmeye yardımcı olan kitaplıklar.
 
-    - key: sections.css_in_js_others.title
-      t: Diğer CSS-in-JS Kütüphaneleri
+    - key: sections.tools_others.title
+      t: Diğer Araçlar
+    - key: sections.tools_others.description
+      t: Diğer CSS araçları.
 
     - key: sections.environments.title 
       t: Ortamlar
     - key: sections.environments.description 
       t: Hangi ortamlar için CSS yazıyorsunuz?
+
+    - key: sections.awards.title
+      t: Ödüller
+    - key: sections.awards.description
+      t: Bu yıl öne çıkan şeyler.
 
     ###########################################################################
     # Options
@@ -245,6 +252,12 @@ translations:
       t: CSS Karşılaştırma Fonksiyonları
     - key: features.comparison_functions.description
       t: <code>min()</code>, <code>max()</code>, and <code>clamp()</code>
+
+    # knowledge score
+    - key: features.knowledge_score
+      t: Haberdarlık Puanı
+    - key: features.knowledge_score.description
+      t: Yanıtlayanlar ankette bahsedilen tüm CSS özelliklerinden kaç tanesini biliyorlardı?
 
     ###########################################################################
     # Units & Selectors
@@ -475,6 +488,11 @@ translations:
       t: Şu anda CSS'de neyin eksik olduğunu düşünüyorsunuz?
     - key: opinions_other.currently_missing_from_css.others.description 
       t: CSS'de bir gün görmek isteyeceğiniz özellikler.
+
+    - key: opinions_other.currently_missing_from_css.others.note
+      t: >
+          Bu sonuçlar bir serbest yanıt alanında verilen yantılara göre normalleştirildi.
+          Ham, işlenmemiş yanıtları görüntülemek için [whatsmissingfromcss.com](http://whatsmissingfromcss.com/) adresine göz atabilirsiniz.
 
     - key: opinions.sum_up_one_word_css 
       t: Tek kelimeyle CSS

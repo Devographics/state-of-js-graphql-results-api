@@ -73,7 +73,7 @@ translations:
     - key: sections.environments.description
       t: |
           CSS'nin en güçlü yönlerinden birisi farklı ortamlara uyum sağlayabilme yeteneği, lakin çeşitli sebeplerden
-          ötürü bası ve e posta gibi medya tipleri bir çok CSS geliştiricisi tarafından keşfedilmemiş durumda. Belki de CSS'nin
+          ötürü bası ve e-posta gibi medya tipleri bir çok CSS geliştiricisi tarafından keşfedilmemiş durumda. Belki de CSS'nin
           bir sonraki dikkatleri çekecek kısmı olabilirler mi? 
 
     - key: sections.resources.description
