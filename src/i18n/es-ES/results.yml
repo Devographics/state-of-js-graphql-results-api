@@ -24,7 +24,7 @@ translations:
     ###########################################################################
     # Options
     ###########################################################################
-  
+
     - key: options.experience_ranking.satisfaction
       t: Satisfacción
     - key: options.experience_ranking.interest
@@ -43,27 +43,27 @@ translations:
       t: EVALUAR
     - key: options.quadrant.assess.long
       t: |
-        EVALUAR: Bajo uso, alta satisfacción. Tecnologías que merecen que las eches un ojo.
+          EVALUAR: Bajo uso, alta satisfacción. Tecnologías que merecen que las eches un ojo.
     - key: options.quadrant.adopt
       t: ADOPTAR
     - key: options.quadrant.adopt.long
       t: |
-        ADOPTAR: Muy utilizadas, alta satisfacción. Tecnologías seguras para adoptar.
+          ADOPTAR: Muy utilizadas, alta satisfacción. Tecnologías seguras para adoptar.
     - key: options.quadrant.avoid
       t: EVITAR
     - key: options.quadrant.avoid.long
       t: |
-        EVITAR: Bajo uso, baja satisfacción. Tecnologías que probablemente debería evitar a día de hoy.
+          EVITAR: Bajo uso, baja satisfacción. Tecnologías que probablemente debería evitar a día de hoy.
     - key: options.quadrant.analyze
       t: ANALIZAR
     - key: options.quadrant.analyze.long
       t: |
-        ANALIZAR: Muy utilizadas, baja satisfacción. Piénsatelo bien, si son tecnologías que estés usando en estos momentos.
+          ANALIZAR: Muy utilizadas, baja satisfacción. Piénsatelo bien, si son tecnologías que estés usando en estos momentos.
 
     ###########################################################################
     # Sections
     ###########################################################################
- 
+
     - key: sections.introduction.title
       t: Introducción
 
@@ -94,14 +94,14 @@ translations:
       t: ¿Cómo se ha conocido la encuesta?
     - key: user_info.source.note
       t: >
-      
-        Este gráfico agrega una mezcla de remitentes, parámetros de URLs y respuestas libres.
 
-        - Estado de JS: la lista de correo del [Estado de JS](https://stateofjs.com).
+          Este gráfico agrega una mezcla de remitentes, parámetros de URLs y respuestas libres.
 
-        - Estado de CSS: la lista de correo del Estado de CSS; también identifica `email`, `por email`, etc.
+          - Estado de JS: la lista de correo del [Estado de JS](https://stateofjs.com).
 
-        - Trabajo: identifica `trabajo`, `colegas`, `compañeros de trabajo`, etc.
+          - Estado de CSS: la lista de correo del Estado de CSS; también identifica `email`, `por email`, etc.
+
+          - Trabajo: identifica `trabajo`, `colegas`, `compañeros de trabajo`, etc.
 
     ###########################################################################
     # Locales
@@ -172,22 +172,22 @@ translations:
       t: Uso en Función del Tamaño de la Compañía
     - key: blocks.tools_company_size_heatmap.description
       t: |
-        Para cada tecnología, como está extendido el uso entre los encuestados
-        atendiendo a diferentes tamaños de compañías.
+          Para cada tecnología, como está extendido el uso entre los encuestados
+          atendiendo a diferentes tamaños de compañías.
 
     - key: blocks.tools_yearly_salary_heatmap.title
       t: Uso en Función del Rango Salarial
     - key: blocks.tools_yearly_salary_heatmap.description
       t: |
-        Para cada tecnología, como está extendido el uso entre los encuestados
-        atendiendo a diferentes rangos salariales.
+          Para cada tecnología, como está extendido el uso entre los encuestados
+          atendiendo a diferentes rangos salariales.
 
     - key: blocks.tools_years_of_experience_heatmap.title
       t: Uso en Función de los Años de Experiencia
     - key: blocks.tools_years_of_experience_heatmap.description
       t: |
-        Para cada tecnología, como está extendido el uso entre los encuestados atendiendo a diferentes niveles de experiencia.
-        Pensad que la experiencia aquí es experiencia general, no experiencia con una tecnología específica.
+          Para cada tecnología, como está extendido el uso entre los encuestados atendiendo a diferentes niveles de experiencia.
+          Pensad que la experiencia aquí es experiencia general, no experiencia con una tecnología específica.
 
     # tool
     - key: blocks.entity.homepage_link
@@ -200,22 +200,22 @@ translations:
       t: Satisfacción contra Uso
     - key: blocks.tools_quadrant.satisfaction.description
       t: |
-        Este gráfico muestra el **ratio de satisfacción** frente al **número total de usuarios** de cada tecnología.
-        Se puede dividir en cuatro cuadrantes:
+          Este gráfico muestra el **ratio de satisfacción** frente al **número total de usuarios** de cada tecnología.
+          Se puede dividir en cuatro cuadrantes:
 
-          - **EVALUAR**: Bajo uso, alta satisfacción. Tecnologías que merecen que las eches un ojo.
+            - **EVALUAR**: Bajo uso, alta satisfacción. Tecnologías que merecen que las eches un ojo.
 
-          - **ADOPTAR**: Muy utilizadas, alta satisfacción. Tecnologías seguras para adoptar.
+            - **ADOPTAR**: Muy utilizadas, alta satisfacción. Tecnologías seguras para adoptar.
 
-          - **EVITAR**: Bajo uso, baja satisfacción. Tecnologías que probablemente debería evitar a día de hoy.
+            - **EVITAR**: Bajo uso, baja satisfacción. Tecnologías que probablemente debería evitar a día de hoy.
 
-          - **ANALIZAR**: Muy utilizadas, baja satisfacción. Piénsatelo bien, si son tecnologías que estés usando en estos momentos.
+            - **ANALIZAR**: Muy utilizadas, baja satisfacción. Piénsatelo bien, si son tecnologías que estés usando en estos momentos.
 
     - key: blocks.tools_quadrant.interest.description
       t: |
-        Este gráfico muestra el **ratio de interés** frente al **número total de usuarios** de cada tecnología (definido por las respuestas de la gente que saben que existen pero *aún* no las han utilizado).
+          Este gráfico muestra el **ratio de interés** frente al **número total de usuarios** de cada tecnología (definido por las respuestas de la gente que saben que existen pero *aún* no las han utilizado).
 
-        (Daos cuenta que un número bajo puede deberse a que la tecnología es desconocida o a que la gente ya la está utilizando)
+          (Daos cuenta que un número bajo puede deberse a que la tecnología es desconocida o a que la gente ya la está utilizando)
 
     # category other tools
     - key: blocks.category_other_tools.title
@@ -234,15 +234,15 @@ translations:
       t: Experiencia en el Tiempo
     - key: blocks.tools_section_streams.description
       t: |
-        Opiniones sobre la tecnologías encuestadas, en el tiempo.
+          Opiniones sobre la tecnologías encuestadas, en el tiempo.
 
     # tools section overview
     - key: blocks.tools_section_overview.title
       t: Vista General de la Categoría
     - key: blocks.tools_section_overview.description
       t: |
-        Opiniones sobre la tecnología encuestada. Los segmentos más oscuros representan opiniones positivas,
-        mientras que los segmentos claros representan opiniones negativas.
+          Opiniones sobre la tecnología encuestada. Los segmentos más oscuros representan opiniones positivas,
+          mientras que los segmentos claros representan opiniones negativas.
 
     # tools experience ranking
     - key: blocks.tools_experience_ranking.title
@@ -255,16 +255,16 @@ translations:
       t: Felicidad General
     - key: blocks.happiness.description
       t: |
-        En una escala del uno (muy descontento) al cinco (muy feliz), ¿cómo de contentos están los desarrolladores
-        con el estado general de esta categoría?
+          En una escala del uno (muy descontento) al cinco (muy feliz), ¿cómo de contentos están los desarrolladores
+          con el estado general de esta categoría?
 
     # newsletter
     - key: blocks.newsletter.title
       t: Estate Conectado
     - key: blocks.newsletter.description
       t: |
-        Si quieres saber cuando sacaremos resultados adicionales o cuando anunciaremos la edición del año que viene,
-        sólo déjanos tu correo electrónico aquí abajo:
+          Si quieres saber cuando sacaremos resultados adicionales o cuando anunciaremos la edición del año que viene,
+          sólo déjanos tu correo electrónico aquí abajo:
     - key: blocks.newsletter.email
       t: Tu Correo Electrónico
     - key: blocks.newsletter.submit
@@ -275,16 +275,16 @@ translations:
       t: Uso
     - key: blocks.features_overview.description
       t: |
-        Este gráfico representa los diferentes grados de adopción para todas las características, agrupadas por categoría.
+          Este gráfico representa los diferentes grados de adopción para todas las características, agrupadas por categoría.
 
-        El tamaño del <span class="text-teal-darker text-bold">círculo exterior</span>
-        representa el número total de usuarios que conoce la característica, mientras que
-        el <span class="text-teal text-bold">círculo interior</span> representa a aquello que la están usando.
+          El tamaño del <span class="text-teal-darker text-bold">círculo exterior</span>
+          representa el número total de usuarios que conoce la característica, mientras que
+          el <span class="text-teal text-bold">círculo interior</span> representa a aquello que la están usando.
 
-        Pasa por cada nodo con el ratón para ver información detallada junto con una <span class="text-blackpink text-bold">capa</span>
-        representando el número total de encuestados.
+          Pasa por cada nodo con el ratón para ver información detallada junto con una <span class="text-blackpink text-bold">capa</span>
+          representando el número total de encuestados.
 
-  # export
+    # export
     - key: export.export
       t: Exportar
     - key: export.title
@@ -361,3 +361,55 @@ translations:
       t: Enviar por correo
     - key: share.image
       t: Conseguir imágen
+
+    ###########################################################################
+    # Awards
+    ###########################################################################
+
+    - key: awards.runner_ups
+      t: Finalistas
+
+    - key: award.feature_adoption_award.title
+      t: Característica más Adoptada
+    - key: award.feature_adoption_award.description
+      t: Concedido a la característica más adoptada.
+
+    - key: award.feature_adoption_delta_award.title
+      t: Característica más Adoptada
+    - key: award.feature_adoption_delta_award.description
+      t: Concedido a la característica con la mejor progresión inter anual.
+
+    - key: award.tool_usage_award.title
+      t: Tecnología más Utilizada
+    - key: award.tool_usage_award.description
+      t: Concedido a la tecnología con mayor número de usuarios.
+
+    - key: award.tool_usage_delta_award.title
+      t: Tecnología más Utilizada
+    - key: award.tool_usage_delta_award.description
+      t: Concedido a la tecnología con la mejor progresión inter anual.
+
+    - key: award.tool_satisfaction_award.title
+      t: Mayor Satisfacción
+    - key: award.tool_satisfaction_award.description
+      t: Concedido a la tecnología con el mayor porcentaje de usuarios satisfechos.
+
+    - key: award.tool_interest_award.title
+      t: Mayor Interés
+    - key: award.tool_interest_award.description
+      t: Concedido a la tecnología que los desarrolladores están más interesados en aprender.
+
+    - key: award.resource_usage_award.title
+      t: Recurso Más Utilizado
+    - key: award.resource_usage_award.description
+      t: Concedido al recurso más utilizado entre los desarrolladores.
+
+    - key: award.prediction_award.title
+      t: Premio a la Predicción
+    - key: award.prediction_award.description
+      t: Concedido a una tecnología que viene a triunfar… ¿o no?
+
+    - key: award.most_write_ins_award.title
+      t: Con más Respuestas Escritas
+    - key: award.most_write_ins_award.descriptiona
+      t: Concedido al elemento con más respuestas escritas.

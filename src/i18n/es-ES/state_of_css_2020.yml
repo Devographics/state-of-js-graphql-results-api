@@ -87,6 +87,27 @@ translations:
           Estas opiniones describen un panorama de un lenguaje que está madurando, y haciéndose más complejo. Y a lo mejor
           -al menos mientras nos esforzamos por mantenernos actualizados- ¿un poco más difícil de disfrutar?
 
+
+    ###########################################################################
+    # Awards
+    ###########################################################################
+
+    - key: award.feature_adoption_delta_award.comment
+      t: 2020 ha sido el año en el que CSS Grid finalmente ha dado el paso de nueva tecnología a herramienta consolida.
+
+    - key: award.tool_usage_delta_award.comment
+      t: Ninguna otra herramienta se acerca al rápido crecimiento que ha tenido Tailwind CSS en el último año.
+
+    - key: award.tool_satisfaction_award.comment
+      t: El ratio de satisfacción con Post CSS demuestra que puedes vencer haciendo algo realmente bien.
+
+    - key: award.tool_interest_award.comment
+      t: Los módulos de CSS han generado el mayor interés entre los desarrolladores este año.
+
+    - key: award.most_write_ins_award.comment
+      t: Muchas preguntas aceptan respuestas escritas, y PHP Storm ha sido quien ha recibido más menciones.
+
+      
     ###########################################################################
     # Conclusion
     ###########################################################################
