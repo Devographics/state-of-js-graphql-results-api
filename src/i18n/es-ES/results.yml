@@ -4,6 +4,136 @@ translations:
     # General
     ###########################################################################
 
+    - key: results.start
+      t: Empezar
+
+    - key: page.previous
+      t: 'Anterior:'
+    - key: page.next
+      t: 'Siguiente:'
+
+    - key: general.state_of_css_link
+      t: Estado de CSS
+
+    - key: general.netlify_link
+      t: Alojado por <a href={link}>Netlify</a>
+
+    - key: general.completion_percentage
+      t: 'Porcentaje completado:'
+
+    ###########################################################################
+    # Options
+    ###########################################################################
+  
+    - key: options.experience_ranking.satisfaction
+      t: Satisfacción
+    - key: options.experience_ranking.interest
+      t: Interés
+    - key: options.experience_ranking.awareness
+      t: Conciencia
+
+    - key: options.features_simplified.know_it
+      t: Lo conozco
+    - key: options.features_simplified.used_it
+      t: Lo he usado
+    - key: options.features_simplified.usage_ratio
+      t: Ratio de uso
+
+    - key: options.quadrant.assess
+      t: EVALUAR
+    - key: options.quadrant.assess.long
+      t: |
+        EVALUAR: Bajo uso, alta satisfacción. Tecnologías que merecen que las eches un ojo.
+    - key: options.quadrant.adopt
+      t: ADOPTAR
+    - key: options.quadrant.adopt.long
+      t: |
+        ADOPTAR: Muy utilizadas, alta satisfacción. Tecnologías seguras para adoptar.
+    - key: options.quadrant.avoid
+      t: EVITAR
+    - key: options.quadrant.avoid.long
+      t: |
+        EVITAR: Bajo uso, baja satisfacción. Tecnologías que probablemente debería evitar a día de hoy.
+    - key: options.quadrant.analyze
+      t: ANALIZAR
+    - key: options.quadrant.analyze.long
+      t: |
+        ANALIZAR: Muy utilizadas, baja satisfacción. Piénsatelo bien, si son tecnologías que estés usando en estos momentos.
+
+    ###########################################################################
+    # Sections
+    ###########################################################################
+ 
+    - key: sections.introduction.title
+      t: Introducción
+
+    - key: sections.demographics.title
+      t: Demografía
+
+    - key: sections.tshirt.title
+      t: Camiseta
+
+    - key: sections.technologies.title
+      t: Tecnologías
+
+    - key: sections.conclusion.title
+      t: Conclusión
+
+    ###########################################################################
+    # User Info
+    ###########################################################################
+
+    - key: user_info.locale
+      t: Lenguaje
+    - key: user_info.locale.description
+      t: ¿En que lenguaje se ha respondido la encuesta?
+
+    - key: user_info.source
+      t: Fuente
+    - key: user_info.source.description
+      t: ¿Cómo se ha conocido la encuesta?
+    - key: user_info.source.note
+      t: >
+      
+        Este gráfico agrega una mezcla de remitentes, parámetros de URLs y respuestas libres.
+
+        - Estado de JS: la lista de correo del [Estado de JS](https://stateofjs.com).
+
+        - Estado de CSS: la lista de correo del Estado de CSS; también identifica `email`, `por email`, etc.
+
+        - Trabajo: identifica `trabajo`, `colegas`, `compañeros de trabajo`, etc.
+
+    ###########################################################################
+    # Locales
+    ###########################################################################
+
+    - key: options.locale.en-US
+      t: Inglés
+    - key: options.locale.es-ES
+      t: Español
+    - key: options.locale.ru-RU
+      t: Ruso
+    - key: options.locale.fr-FR
+      t: Francés
+    - key: options.locale.zh-Hant
+      t: Chino Tradicional
+    - key: options.locale.de-DE
+      t: Alemán
+    - key: options.locale.cs-CZ
+      t: Checo
+    - key: options.locale.pt-PT
+      t: Portugués
+    - key: options.locale.it-IT
+      t: Italiano
+    - key: options.locale.sv-SE
+      t: Suizo
+    - key: options.locale.tr-TR
+      t: Turco
+    - key: options.locale.id-ID
+      t: Indonesio
+    - key: options.locale.hi-IN
+      t: Hindi
+
     ###########################################################################
     # Features
     ###########################################################################
@@ -32,3 +162,202 @@ translations:
       t: Página de Inicio
     - key: tools.npm_link
       t: NPM
+
+    ###########################################################################
+    # Blocks
+    ###########################################################################
+
+    # heatmaps
+    - key: blocks.tools_company_size_heatmap.title
+      t: Uso en Función del Tamaño de la Compañía
+    - key: blocks.tools_company_size_heatmap.description
+      t: |
+        Para cada tecnología, como está extendido el uso entre los encuestados
+        atendiendo a diferentes tamaños de compañías.
+
+    - key: blocks.tools_yearly_salary_heatmap.title
+      t: Uso en Función del Rango Salarial
+    - key: blocks.tools_yearly_salary_heatmap.description
+      t: |
+        Para cada tecnología, como está extendido el uso entre los encuestados
+        atendiendo a diferentes rangos salariales.
+
+    - key: blocks.tools_years_of_experience_heatmap.title
+      t: Uso en Función de los Años de Experiencia
+    - key: blocks.tools_years_of_experience_heatmap.description
+      t: |
+        Para cada tecnología, como está extendido el uso entre los encuestados atendiendo a diferentes niveles de experiencia.
+        Pensad que la experiencia aquí es experiencia general, no experiencia con una tecnología específica.
+
+    # tool
+    - key: blocks.entity.homepage_link
+      t: Página Principal
+    - key: blocks.entity.github_link
+      t: GitHub
+
+    # tools quadrant
+    - key: blocks.tools_quadrant.title
+      t: Satisfacción contra Uso
+    - key: blocks.tools_quadrant.satisfaction.description
+      t: |
+        Este gráfico muestra el **ratio de satisfacción** frente al **número total de usuarios** de cada tecnología.
+        Se puede dividir en cuatro cuadrantes:
+
+          - **EVALUAR**: Bajo uso, alta satisfacción. Tecnologías que merecen que las eches un ojo.
+
+          - **ADOPTAR**: Muy utilizadas, alta satisfacción. Tecnologías seguras para adoptar.
+
+          - **EVITAR**: Bajo uso, baja satisfacción. Tecnologías que probablemente debería evitar a día de hoy.
+
+          - **ANALIZAR**: Muy utilizadas, baja satisfacción. Piénsatelo bien, si son tecnologías que estés usando en estos momentos.
+
+    - key: blocks.tools_quadrant.interest.description
+      t: |
+        Este gráfico muestra el **ratio de interés** frente al **número total de usuarios** de cada tecnología (definido por las respuestas de la gente que saben que existen pero *aún* no las han utilizado).
+
+        (Daos cuenta que un número bajo puede deberse a que la tecnología es desconocida o a que la gente ya la está utilizando)
+
+    # category other tools
+    - key: blocks.category_other_tools.title
+      t: Otras Herramientas
+    - key: blocks.category_other_tools.description
+      t: Otras herramientas en esta categoría (respuestas libres).
+
+    # tool experience
+    - key: blocks.tool_experience.title
+      t: ${name} Experiencia en el Tiempo
+    - key: blocks.tool_experience.description
+      t: Experiencia con ${name}.
+
+    # tools section streams
+    - key: blocks.tools_section_streams.title
+      t: Experiencia en el Tiempo
+    - key: blocks.tools_section_streams.description
+      t: |
+        Opiniones sobre la tecnologías encuestadas, en el tiempo.
+
+    # tools section overview
+    - key: blocks.tools_section_overview.title
+      t: Vista General de la Categoría
+    - key: blocks.tools_section_overview.description
+      t: |
+        Opiniones sobre la tecnología encuestada. Los segmentos más oscuros representan opiniones positivas,
+        mientras que los segmentos claros representan opiniones negativas.
+
+    # tools experience ranking
+    - key: blocks.tools_experience_ranking.title
+      t: Clasificaciones
+    - key: blocks.tools_experience_ranking.description
+      t: Clasificación de la conciencia, el interés y el ratio de satisfacción.
+
+    # happiness
+    - key: blocks.happiness.title
+      t: Felicidad General
+    - key: blocks.happiness.description
+      t: |
+        En una escala del uno (muy descontento) al cinco (muy feliz), ¿cómo de contentos están los desarrolladores
+        con el estado general de esta categoría?
+
+    # newsletter
+    - key: blocks.newsletter.title
+      t: Estate Conectado
+    - key: blocks.newsletter.description
+      t: |
+        Si quieres saber cuando sacaremos resultados adicionales o cuando anunciaremos la edición del año que viene,
+        sólo déjanos tu correo electrónico aquí abajo:
+    - key: blocks.newsletter.email
+      t: Tu Correo Electrónico
+    - key: blocks.newsletter.submit
+      t: Avisadme
+
+    # features_overview
+    - key: blocks.features_overview.title
+      t: Uso
+    - key: blocks.features_overview.description
+      t: |
+        Este gráfico representa los diferentes grados de adopción para todas las características, agrupadas por categoría.
+
+        El tamaño del <span class="text-teal-darker text-bold">círculo exterior</span>
+        representa el número total de usuarios que conoce la característica, mientras que
+        el <span class="text-teal text-bold">círculo interior</span> representa a aquello que la están usando.
+
+        Pasa por cada nodo con el ratón para ver información detallada junto con una <span class="text-blackpink text-bold">capa</span>
+        representando el número total de encuestados.
+
+  # export
+    - key: export.export
+      t: Exportar
+    - key: export.title
+      t: Exportar información para ${title}
+    - key: export.nocsv
+      t: Lo sentimo pero no está disponible exportar a CSV para estos datos.
+    - key: export.graphql
+      t: >
+          Puedes usar estas queries en nuestra <a target="_blank" rel="nofollow" href="http://graphiql.stateofjs.com/">API pública en GraphQL</a>.
+
+    ###########################################################################
+    # Charts
+    ###########################################################################
+
+    - key: chart_units.percentage
+      t: Porcentajes
+    - key: chart_units.count
+      t: Cuenta
+
+    - key: charts.axis_legends.years_of_experience
+      t: Años de Experiencia
+    - key: charts.axis_legends.yearly_salary
+      t: Rango Salarial (USD)
+    - key: charts.axis_legends.company_size
+      t: Número de Empleados
+    - key: charts.axis_legends.backend_proficiency
+      t: Competencia en el Backend
+    - key: charts.axis_legends.css_proficiency
+      t: Competencia con CSS
+    - key: charts.axis_legends.javascript_proficiency
+      t: Competencia con JavaScript
+    - key: charts.axis_legends.users_percentage
+      t: Porcentaje de Usuarios
+    - key: charts.axis_legends.users_count
+      t: Número de Usuarios
+    - key: charts.axis_legends.interest_percentage
+      t: Porcentaje de Interés
+    - key: charts.axis_legends.satisfaction_percentage
+      t: Porcentaje de Satisfacción
+    - key: charts.axis_legends.happiness
+      t: Felicidad
+    - key: charts.axis_legends.knowledge_score
+      t: Porcentaje
+    - key: charts.axis_legends.frequency
+      t: Frecuencia
+
+    ###########################################################################
+    # Sharing
+    ###########################################################################
+
+    - key: share.share
+      t: Compartir
+    - key: share.site.title
+      t: Descubra los resultados del Estado de CSS 2020
+    - key: share.site.twitter_text
+      t: 'Descubra los resultados del Estado de CSS 2020 ${link} #StateOfCSS'
+    - key: share.site.subject
+      t: Resultados de la Encuesta sobre el Estado de JavaScript
+    - key: share.site.body
+      t: 'Aquí hay algunos resultados interesantes sobre la encuesta de CSS: ${link}'
+    - key: share.block.twitter_text
+      t: '#StateOfCSS 2020: ${title} ${link}'
+    - key: share.block.subject
+      t: Resultados de la Encuesta sobre el Estado de CSS
+    - key: share.block.body
+      t: 'Aquí hay algunos resultados interesantes sobre la encuesta de CSS (${title}): ${link}'
+    - key: share.twitter
+      t: Compartir en Twitter
+    - key: share.facebook
+      t: Compartir en Facebook
+    - key: share.linkedin
+      t: Compartir en LinkedIn
+    - key: share.email
+      t: Enviar por correo
+    - key: share.image
+      t: Conseguir imágen
