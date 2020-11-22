@@ -67,32 +67,32 @@ translations:
     - key: sections.pre_post_processors.description 
       t: CSS'yi genişleten yardımcı araçlar.
 
-    - key: sections.pre_post_processors_others.title # TODO
-      t: Other Pre-/Post-processors
+    - key: sections.pre_post_processors_others.title
+      t: Diğer Pre-/Post İşleyiciler
 
     - key: sections.css_frameworks.title 
       t: CSS Çerçeveleri
     - key: sections.css_frameworks.description 
       t: Size önceden hazırlanmış bileşenler ve stiller sunan kütüphaneler.
 
-    - key: sections.css_frameworks_others.title # TODO
-      t: Other CSS Frameworks
+    - key: sections.css_frameworks_others.title
+      t: Diğer CSS Çerçeveleri
 
     - key: sections.css_methodologies.title 
       t: CSS Metodolojileri
     - key: sections.css_methodologies.description 
       t: Daha temiz CSS yazmanın metodlaştırılmış yolları.
 
-    - key: sections.css_methodologies_others.title # TODO
-      t: Other CSS Methodologies
+    - key: sections.css_methodologies_others.title
+      t: Diğer CSS Metodolojileri
 
     - key: sections.css_in_js.title 
       t: CSS-in-JS
     - key: sections.css_in_js.description 
       t: CSS'yi JavaScript koduna entegre etmeye yardımcı olan kitaplıklar.
 
-    - key: sections.css_in_js_others.title # TODO
-      t: Other CSS-in-JS Libraries
+    - key: sections.css_in_js_others.title
+      t: Diğer CSS-in-JS Kütüphaneleri
 
     - key: sections.environments.title 
       t: Ortamlar

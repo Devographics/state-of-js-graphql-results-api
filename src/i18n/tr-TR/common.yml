@@ -534,7 +534,7 @@ translations:
 
     # skin tone/appearance
     - key: user_info.race_ethnicity
-      t: Race & Ethnicity # TODO
+      t: Irk & Etnik Köken
 
     # other info
     - key: user_info.how_did_user_find_out_about_the_survey 
