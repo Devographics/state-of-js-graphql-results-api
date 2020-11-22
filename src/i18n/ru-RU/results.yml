@@ -327,7 +327,7 @@ translations:
     - key: charts.axis_legends.happiness
       t: Удовлетворение
     - key: charts.axis_legends.knowledge_score
-      t: Процент
+      t: Узнаваемость возможности
     - key: charts.axis_legends.frequency
       t: Частота
 
@@ -361,3 +361,55 @@ translations:
       t: Поделиться по электронной почте
     - key: share.image
       t: Скачать изображение
+
+    ###########################################################################
+    # Awards
+    ###########################################################################
+
+    - key: awards.runner_ups
+      t: Призовые места
+
+    - key: award.feature_adoption_award.title
+      t: Самая популярная возможность
+    - key: award.feature_adoption_award.description
+      t: Награждается, как наиболее применяемая возможность.
+
+    - key: award.feature_adoption_delta_award.title
+      t: Самая популярная возможность
+    - key: award.feature_adoption_delta_award.description
+      t: Награждается, как наиболее успешная возможность по сравнению с предыдущим годом.
+
+    - key: award.tool_usage_award.title
+      t: Наиболее используемая технология
+    - key: award.tool_usage_award.description
+      t: Награждается, как технология с самой большой базой пользователей.
+
+    - key: award.tool_usage_delta_award.title
+      t: Наиболее используемая технология
+    - key: award.tool_usage_delta_award.description
+      t: Награждается, как наиболее успешная технология по сравнению с предыдущим годом.
+
+    - key: award.tool_satisfaction_award.title
+      t: Самый высокий уровень удовлетворённости
+    - key: award.tool_satisfaction_award.description
+      t: Награждается, как технология с наибольшим процентом удовлетворённых пользователей.
+
+    - key: award.tool_interest_award.title
+      t: Самая высокая заинтересованность
+    - key: award.tool_interest_award.description
+      t: Награждается, как технология, которую многие разработчики желают изучить.
+
+    - key: award.resource_usage_award.title
+      t: Самый популярный ресурс
+    - key: award.resource_usage_award.description
+      t: Награждается, как ресурс с самой большой посещаемостью среди пользователей.
+
+    - key: award.prediction_award.title
+      t: Самая перспективная технология
+    - key: award.prediction_award.description
+      t: Награждается, как технология, которая может стать лидером… или нет?
+
+    - key: award.most_write_ins_award.title
+      t: Самый популярный ответ среди участников
+    - key: award.most_write_ins_award.description
+      t: Награждается, как наиболее популярный вариант ответа, указанный самими участниками опроса.
