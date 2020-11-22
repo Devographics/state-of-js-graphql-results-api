@@ -7,16 +7,16 @@ translations:
 
     - key: general.survey_intro_css2020
       t: >
-        CSS está evolucionando más deprisa que nunca.
+          CSS está evolucionando más deprisa que nunca.
 
 
-        Flexbox, Grid, Multi-Column… por no hablar del totalmente nuevo paradigma CSS-in-JS.
+          Flexbox, Grid, Multi-Column… por no hablar del totalmente nuevo paradigma CSS-in-JS.
 
 
-        Así que después del éxito de nuestra encuesta anual sobre el Estado de JavaScript,
-        hemos decidido hacer una, dentro del mundo de los estilos y los selectores. ¡Esperamos
-        que nos puedas ayudar a identificar las últimas tendencias, y las herramientas que
-        debemos aprender y utilizar en el futuro!
+          Así que después del éxito de nuestra encuesta anual sobre el Estado de JavaScript,
+          hemos decidido hacer una, dentro del mundo de los estilos y los selectores. ¡Esperamos
+          que nos puedas ayudar a identificar las últimas tendencias, y las herramientas que
+          debemos aprender y utilizar en el futuro!
 
     ###########################################################################
     # Sections
@@ -67,37 +67,47 @@ translations:
     - key: sections.pre_post_processors.description
       t: Utilidades para enriquecer CSS.
 
-    - key: sections.pre_post_processors_others.title # TODO
-      t: Other Pre-/Post-processors
+    - key: sections.pre_post_processors_others.title
+      t: Otros Pre-/Post-procesadores
 
     - key: sections.css_frameworks.title
       t: CSS Frameworks
     - key: sections.css_frameworks.description
       t: Librerías que te facilitan componentes y estilos listos para ser usados.
 
-    - key: sections.css_frameworks_others.title # TODO
-      t: Other CSS Frameworks
+    - key: sections.css_frameworks_others.title
+      t: Otros CSS Frameworks
 
     - key: sections.css_methodologies.title
       t: Metodologías CSS
     - key: sections.css_methodologies.description
       t: Cómo escribir CSS de forma más limpia.
 
-    - key: sections.css_methodologies_others.title # TODO
-      t: Other CSS Methodologies
+    - key: sections.css_methodologies_others.title
+      t: Otras Metodologías CSS.
 
     - key: sections.css_in_js.title
       t: CSS-in-JS
     - key: sections.css_in_js.description
       t: Librerías que nos ayudan a escribir CSS dentro del código JavaScript.
 
-    - key: sections.css_in_js_others.title # TODO
-      t: Other CSS-in-JS Libraries
+    - key: sections.css_in_js_others.title
+      t: Otras Librerías de CSS-in-JS.
+
+    - key: sections.tools_others.title
+      t: Otras herramientas
+    - key: sections.tools_others.description
+      t: Otras herramientas para CSS.
 
     - key: sections.environments.title
       t: Entornos
     - key: sections.environments.description
       t: ¿Para qué entornos escribes CSS?
+
+    - key: sections.awards.title
+      t: Galardones
+    - key: sections.awards.description
+      t: Cosas que han destacado este año.
 
     ###########################################################################
     # Options
@@ -106,44 +116,44 @@ translations:
     # css for print
     - key: options.css_for_print.0
       t: (Casi) nunca escribo CSS para ser impreso
-    - key: options.css_for_print.0.short # TODO
-      t: Never
+    - key: options.css_for_print.0.short
+      t: Nunca
 
     - key: options.css_for_print.1
       t: Ocasionalmente escribo CSS para ser impreso
-    - key: options.css_for_print.1.short # TODO
-      t: Occasionally
+    - key: options.css_for_print.1.short
+      t: De vez en cuando
 
     - key: options.css_for_print.2
       t: Escribo CSS para ser impreso para casi todos los proyectos
-    - key: options.css_for_print.2.short # TODO
-      t: Often
+    - key: options.css_for_print.2.short
+      t: A menudo
 
     - key: options.css_for_print.3
       t: Sólo me centro en CSS para ser impreso
-    - key: options.css_for_print.3.short # TODO
-      t: Mainly
+    - key: options.css_for_print.3.short
+      t: Principalmente
 
     # css for email
     - key: options.css_for_email.0
       t: (Casi) nunca escribo CSS para correos electrónicos
-    - key: options.css_for_email.0.short # TODO
-      t: Never
+    - key: options.css_for_email.0.short
+      t: Nunca
 
     - key: options.css_for_email.1
       t: Ocasionalmente escribo CSS para correos electrónicos
-    - key: options.css_for_email.1.short # TODO
-      t: Occasionally
+    - key: options.css_for_email.1.short
+      t: De vez en cuando
 
     - key: options.css_for_email.2
       t: Escribo CSS para correos electrónicos para casi todos los proyectos
-    - key: options.css_for_email.2.short # TODO
-      t: Often
+    - key: options.css_for_email.2.short
+      t: A menudo
 
     - key: options.css_for_email.3
       t: Sólo me centro en CSS para correos electrónicos
-    - key: options.css_for_email.3.short # TODO
-      t: Mainly
+    - key: options.css_for_email.3.short
+      t: Principalmente
 
     ###########################################################################
     # Features
@@ -156,15 +166,15 @@ translations:
     - key: features.subgrid
       t: Subgrid
     - key: features.regions
-      t: CSS Regions
+      t: Regiones en CSS
     - key: features.flexbox
       t: Flexbox
     - key: features.multi_column
-      t: CSS Multi-Column
+      t: Multi-Columna en CSS
     - key: features.writing_modes
-      t: CSS Writing Modes
+      t: Modos de Escritura en CSS
     - key: features.exclusions
-      t: CSS Exclusions
+      t: Exclusiones en CSS
     - key: features.position_sticky
       t: '<code>position: sticky</code>'
     - key: features.logical_properties
@@ -178,13 +188,13 @@ translations:
 
     # shapes & graphics
     - key: features.shapes
-      t: CSS Shapes
+      t: Formas en CSS
     - key: features.object_fit
       t: <code>object-fit</code>
     - key: features.clip_path
       t: <code>clip-path</code>
     - key: features.masks
-      t: CSS Masks
+      t: Máscaras en CSS
     - key: features.blend_modes
       t: Blend Modes
     - key: features.blend_modes.description
@@ -268,6 +278,12 @@ translations:
     - key: features.comparison_functions.description
       t: <code>min()</code>, <code>max()</code>, and <code>clamp()</code>
 
+    # knowledge score
+    - key: features.knowledge_score
+      t: Puntuación de tu Conocimiento
+    - key: features.knowledge_score.description
+      t: De todas las características de CSS mencionadas anteriormente en la encuesta, ¿cuantas conoces?
+
     ###########################################################################
     # Units & Selectors
     ###########################################################################
@@ -326,8 +342,8 @@ translations:
 
     - key: features_others.combinators
       t: Combinators
-    - key: features_others.combinators.description # TODO
-      t: Which of these combinations CSS selectors have you used?
+    - key: features_others.combinators.description
+      t: ¿Cuáles de estas combinaciones de selectores has usado?
 
     - key: options.combinators.descendant
       t: div span (descendiente)
@@ -340,8 +356,8 @@ translations:
 
     - key: features_others.tree_document_structure
       t: Estructura del Documento / Árbol
-    - key: features_others.tree_document_structure.description # TODO
-      t: Which of these structure related CSS selectors have you used?
+    - key: features_others.tree_document_structure.description
+      t: ¿Cuáles de estas estructuras de selectores has usado?
 
     - key: options.tree_document_structure.root
       t: :root
@@ -380,8 +396,8 @@ translations:
 
     - key: features_others.attributes
       t: Atributos
-    - key: features_others.attributes.description # TODO
-      t: Which of these CSS attributes selectors have you used?
+    - key: features_others.attributes.description
+      t: ¿Cuáles de estos atributos has usado?
 
     - key: options.attributes.presence
       t: div[foo] (Presencia)
@@ -398,8 +414,8 @@ translations:
 
     - key: features_others.links_urls
       t: Enlaces/URLs
-    - key: features_others.links_urls.description # TODO
-      t: Which of these links & URLs related CSS selectors have you used?
+    - key: features_others.links_urls.description
+      t: ¿Cuáles de estos selectores de enlaces y URLs has usado?
 
     - key: options.links_urls.any_link
       t: :any-link
@@ -412,8 +428,8 @@ translations:
 
     - key: features_others.interaction
       t: Interacciones
-    - key: features_others.interaction.description # TODO
-      t: Which of these interaction CSS selectors have you used?
+    - key: features_others.interaction.description
+      t: ¿Cuáles de estos selectores de interacciones has usado?
 
     - key: options.interaction.hover
       t: :hover
@@ -428,8 +444,8 @@ translations:
 
     - key: features_others.form_controls
       t: Control de Formularios
-    - key: features_others.form_controls.description # TODO
-      t: Which of these form related CSS selectors have you used?
+    - key: features_others.form_controls.description
+      t: ¿Cuáles de estos selectores para formularios has usado?
 
     - key: options.form_controls.enabled_disabled
       t: :enabled and :disabled
@@ -451,13 +467,6 @@ translations:
       t: :in-range and :out-of-range
     - key: options.form_controls.required_optional
       t: :required and :optional
-
-    ###########################################################################
-    # Tools
-    ###########################################################################
-
-    - key: tools.atomiccss
-      t: Utility-First/Atomic CSS
 
     ###########################################################################
     # Environments
@@ -489,38 +498,42 @@ translations:
 
     - key: opinions.css_easy_to_learn
       t: CSS es fácil de aprender
-    - key: opinions.css_easy_to_learn.title # TODO
-      t: Learning Curve
+    - key: opinions.css_easy_to_learn.title
+      t: Curva de Aprendizaje
 
     - key: opinions.css_evolving_slowly
       t: CSS está evolucionando muy despacio
-    - key: opinions.css_evolving_slowly.title # TODO
-      t: Rate of Change
+    - key: opinions.css_evolving_slowly.title
+      t: Velocidad de Cambio
 
     - key: opinions.utility_classes_to_be_avoided
       t: Clases funcionales (no-semánticas) (.center, .large-text, etc.) deberían ser evitadas
-    - key: opinions.utility_classes_to_be_avoided.title # TODO
-      t: Non-Semantic Classes
+    - key: opinions.utility_classes_to_be_avoided.title
+      t: Clases No Semánticas
 
     - key: opinions.selector_nesting_to_be_avoided
       t: Anidar selectores (.foo .bar ul li {...}) debería evitarse
-    - key: opinions.selector_nesting_to_be_avoided.title # TODO
-      t: Selector Nesting
+    - key: opinions.selector_nesting_to_be_avoided.title
+      t: Selectores Anidados
 
     - key: opinions.css_is_programming_language
       t: CSS es un lenguaje de programación
-    - key: opinions.css_is_programming_language.title # TODO
-      t: Programming Language
+    - key: opinions.css_is_programming_language.title
+      t: Lenguaje de Programación
 
     - key: opinions.enjoy_writing_css
       t: Disfruto escribiendo CSS
-    - key: opinions.enjoy_writing_css.title # TODO
-      t: Enjoyment
+    - key: opinions.enjoy_writing_css.title
+      t: Satisfacción
 
     - key: opinions_other.currently_missing_from_css.others
       t: ¿Qué crees que le falta a CSS?
     - key: opinions_other.currently_missing_from_css.others.description
       t: Características que quieres ver en CSS algún día.
+    - key: opinions_other.currently_missing_from_css.others.note
+      t: >
+          Estos resultados han sido normalizados en base a un campo de texto libre.
+          Para ver los datos originales, visita [whatsmissingfromcss.com](http://whatsmissingfromcss.com/).
 
     - key: opinions.sum_up_one_word_css
       t: CSS en una palabra

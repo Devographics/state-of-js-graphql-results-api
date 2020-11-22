@@ -14,9 +14,9 @@ translations:
           - Evitar respuestas duplicadas
 
           - Darte acceso a tu información
-          
+
           - Salvar tu sesión según avanzas
-          
+
           - Notificarte cuando tengamos los resultados
     - key: general.survey_closed
       t: >
@@ -104,10 +104,10 @@ translations:
     # share
     - key: general.share_subject
       t: >
-        Encuesta {surveyName}
+          Encuesta {surveyName}
     - key: general.share_text
       t: >
-        ¡La encuesta {surveyName} de este año, está abierta! {link}
+          ¡La encuesta {surveyName} de este año, está abierta! {link}
 
     # forms
     - key: forms.select_option
@@ -116,7 +116,7 @@ translations:
     ###########################################################################
     # Nav
     ###########################################################################
-    
+
     - key: nav.surveys
       t: Encuestas
     - key: nav.account
@@ -130,6 +130,11 @@ translations:
       t: Sobre Tí
     - key: sections.user_info.description
       t: Déjanos conocer a tu verdadero yo.
+
+    - key: sections.features.title
+      t: Características
+    - key: sections.features.description
+      t: Sintaxis, palabras clave y otras características del lenguaje.
 
     - key: sections.resources.title
       t: Recursos
@@ -234,6 +239,18 @@ translations:
     - key: options.happiness.4
       t: Muy Contento
 
+    # happiness (short version)
+    - key: options.happiness.0.short
+      t: Muy Descontento
+    - key: options.happiness.1.short
+      t: Descontento
+    - key: options.happiness.2.short
+      t: Neutral
+    - key: options.happiness.3.short
+      t: Contento
+    - key: options.happiness.4.short
+      t: Muy Contento
+
     # opinions
     - key: options.opinions.0
       t: Estoy Fuertemente en Desacuerdo
@@ -312,7 +329,7 @@ translations:
 
     # salary
     - key: options.yearly_salary.range_work_for_free
-      t: Trabajo por la cara
+      t: Trabajo gratis
     - key: options.yearly_salary.range_0_10
       t: $0k-$10k
     - key: options.yearly_salary.range_10_30
@@ -328,19 +345,19 @@ translations:
 
     # salary (short versions)
     - key: options.yearly_salary.range_work_for_free.short
-      t: '$0'
+      t: '0'
     - key: options.yearly_salary.range_0_10.short
-      t: $0k-$10k
+      t: 0~10k
     - key: options.yearly_salary.range_10_30.short
-      t: $10k-$30k
+      t: 10~30k
     - key: options.yearly_salary.range_30_50.short
-      t: $30k-$50k
+      t: 30~50k
     - key: options.yearly_salary.range_50_100.short
-      t: $50k-$100k
+      t: 50~100k
     - key: options.yearly_salary.range_100_200.short
-      t: $100k-$200k
+      t: 100~200k
     - key: options.yearly_salary.range_more_than_200.short
-      t: '>$200k'
+      t: '>200k'
 
     # job titles
     - key: options.job_title.cto
@@ -363,7 +380,6 @@ translations:
       t: Desarrollador o Ingeniero de Back
 
     # JavaScript proficiency
-
     - key: options.javascript_proficiency.0
       t: No soy capaz de escribir JavaScript
     - key: options.javascript_proficiency.1
@@ -376,7 +392,6 @@ translations:
       t: Manejo patrones complejos en el front (manejo de estado, carga de datos, etc.)
 
     # CSS proficiency
-
     - key: options.css_proficiency.0
       t: No tengo ningún conocimiento de CSS
     - key: options.css_proficiency.1
@@ -389,7 +404,6 @@ translations:
       t: Soy capaz de dar estilos desde cero a un proyecto siguiendo metodologías consistentes
 
     # Back-end proficiency
-
     - key: options.backend_proficiency.0
       t: No soy capaz de hacer nada en el backend.
     - key: options.backend_proficiency.1
@@ -445,7 +459,7 @@ translations:
     - key: options.race_ethnicity.native_american_islander_australian
       t: Nativo Americano, de las Islas del Pacífico o Indígena Australiano
 
-    # form factors
+    # Form Factors
     - key: options.form_factors.desktop
       t: Escritorio
     - key: options.form_factors.smartphone
