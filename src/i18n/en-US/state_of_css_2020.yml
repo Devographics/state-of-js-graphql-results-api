@@ -185,3 +185,51 @@ translations:
             Building a complex React app? Styled Components is a great option. Designing a static landing page? You can't go wrong with Sass! And even though Bootstrap has lost some of its original cool factor, you can't beat it when it comes to sheer number of themes and plugins.
 
             So while we keep an eye on the shiny new toys popping up on GitHub every week, let's not forget the tools, techniques, and most of all people who have carried the CSS torch up to now. We'll need everybody if we're to keep CSS moving forward into 2021 and beyond!
+
+    ###########################################################################
+    # Picks
+    ###########################################################################
+
+    - key: picks.my_2020_pick
+      t: 'My 2020 Pick: '
+    - key: picks.intro
+      t: We asked members of the CSS community to share their “pick of the year”
+
+    - key: picks.shadeed9.bio
+      t: Author of debuggingcss.com
+    - key: picks.shadeed9.description
+      t: |
+            Container queries are a long-time awaited feature for us, 
+            and I’m thrilled that the Chrome team is working on support for it natively!
+
+
+    - key: picks.argyleink.bio
+      t: CSS at Google
+    - key: picks.argyleink.description
+      t: |
+            The humble CSS box is more dynamic every year, and for me 2020 was about logical sides, instead of physical sides. Free internationally contextual content flow, spacing and shorthands? pls & ty 
+
+
+    - key: picks.sachagreif.bio
+      t: Creator of this survey
+    - key: picks.sachagreif.description
+      t: |
+            With this blog post, Amelia Wattenberger didn't just go the extra mile, she ran a whole marathon! The animations and quiz will ensure you finally understand the CSS cascade. 
+    
+    - key: picks.christianoliff.bio
+      t: I like the internet
+    - key: picks.christianoliff.description
+      t: |
+          One thing I've really started using and appreciating this year though is Purge CSS- an awesome tool for removing unused CSS. It can greatly reduce the size of your CSS, and its fast and easy to use.
+    
+    - key: picks.kilianvalkhof.bio
+      t: Web developer and creator of Polypane
+    - key: picks.kilianvalkhof.description
+      t: |
+          `content-visibility` is making a huge difference in the performance of my web apps already, but at the same time I think it should be the job of browsers to optimize this, not devs.
+
+    - key: picks.walterstephanie.bio
+      t: User Centered Designer & CSS Lover
+    - key: picks.walterstephanie.description
+      t: |
+          A series of YouTube videos that explain all the new cool CSS features to build modern designs.
