@@ -29,6 +29,8 @@ translations:
       t: Satisfaction
     - key: options.experience_ranking.interest
       t: Interest
+    - key: options.experience_ranking.usage
+      t: Usage
     - key: options.experience_ranking.awareness
       t: Awareness
 

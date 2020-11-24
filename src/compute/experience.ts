@@ -20,6 +20,18 @@ const computeAwareness = (buckets: ExperienceBucket[], total: number) => {
     return ratioToPercentage((total - neverHeard.count) / total)
 }
 
+const computeUsage = (buckets: ExperienceBucket[]) => {
+    const interestedCount = buckets.find(bucket => bucket.id === 'interested')?.count ?? 0
+    const notInterestedCount = buckets.find(bucket => bucket.id === 'not_interested')?.count ?? 0
+    const wouldUseCount = buckets.find(bucket => bucket.id === 'would_use')?.count ?? 0
+    const wouldNotUseCount = buckets.find(bucket => bucket.id === 'would_not_use')?.count ?? 0
+
+    const usageCount = wouldUseCount + wouldNotUseCount
+    const total = usageCount + interestedCount + notInterestedCount
+
+    return ratioToPercentage(usageCount / total)
+}
+
 const computeInterest = (buckets: ExperienceBucket[]) => {
     const interested = buckets.find(bucket => bucket.id === 'interested')
     const notInterested = buckets.find(bucket => bucket.id === 'not_interested')
@@ -91,8 +103,9 @@ export async function computeExperienceOverYears(
             Array<{
                 year: number
                 total: number
-                awarenessInterestSatisfaction: {
+                awarenessUsageInterestSatisfaction: {
                     awareness: number
+                    usage: number
                     interest: number
                     satisfaction: number
                 }
@@ -110,8 +123,9 @@ export async function computeExperienceOverYears(
                 yearBucket = {
                     year: result.year,
                     total: 0,
-                    awarenessInterestSatisfaction: {
+                    awarenessUsageInterestSatisfaction: {
                         awareness: 0,
+                        usage: 0,
                         interest: 0,
                         satisfaction: 0
                     },
@@ -141,8 +155,9 @@ export async function computeExperienceOverYears(
 
     // compute awareness/interest/satisfaction
     experienceByYear.forEach(bucket => {
-        bucket.awarenessInterestSatisfaction = {
+        bucket.awarenessUsageInterestSatisfaction = {
             awareness: computeAwareness(bucket.buckets, bucket.total),
+            usage: computeUsage(bucket.buckets),
             interest: computeInterest(bucket.buckets),
             satisfaction: computeSatisfaction(bucket.buckets)
         }
@@ -165,7 +180,7 @@ export async function computeExperienceOverYears(
     return appendCompletionToYearlyResults(db, survey, experienceByYear)
 }
 
-const metrics = ['awareness', 'interest', 'satisfaction']
+const metrics = ['awareness', 'usage', 'interest', 'satisfaction']
 
 export async function computeToolsExperienceRanking(
     db: Db,
@@ -178,7 +193,7 @@ export async function computeToolsExperienceRanking(
 
     for (const tool of tools) {
         const toolAllYearsExperience = await computeExperienceOverYears(db, survey, tool, filters)
-        const toolAwarenessInterestSatisfactionOverYears: any[] = []
+        const toolAwarenessUsageInterestSatisfactionOverYears: any[] = []
 
         toolAllYearsExperience.forEach((toolYear: any) => {
             availableYears.push(toolYear.year)
@@ -186,6 +201,7 @@ export async function computeToolsExperienceRanking(
             if (metricByYear[toolYear.year] === undefined) {
                 metricByYear[toolYear.year] = {
                     awareness: [],
+                    usage: [],
                     interest: [],
                     satisfaction: []
                 }
@@ -194,13 +210,13 @@ export async function computeToolsExperienceRanking(
             metrics.forEach(metric => {
                 metricByYear[toolYear.year][metric].push({
                     tool,
-                    percentage: toolYear.awarenessInterestSatisfaction[metric]
+                    percentage: toolYear.awarenessUsageInterestSatisfaction[metric]
                 })
             })
 
-            toolAwarenessInterestSatisfactionOverYears.push({
+            toolAwarenessUsageInterestSatisfactionOverYears.push({
                 year: toolYear.year,
-                ...toolYear.awarenessInterestSatisfaction
+                ...toolYear.awarenessUsageInterestSatisfaction
             })
         })
     }

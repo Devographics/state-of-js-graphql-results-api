@@ -104,9 +104,9 @@ Experience ranking for a tool in a specific year, even if the data
 is computed at the same point in time, we estimate that there is a logical
 progression in this:
 
-awareness > interest > satisfaction
+awareness > usage > interest > satisfaction
 """
-type ToolAwarenessInterestSatisfaction @cacheControl(maxAge: 600) {
+type ToolAwarenessUsageInterestSatisfaction @cacheControl(maxAge: 600) {
     """
     Awareness is the total number of participants who answered to
     the experience question VS those who never heard of a tool.
@@ -114,6 +114,13 @@ type ToolAwarenessInterestSatisfaction @cacheControl(maxAge: 600) {
     This value is expressed as a percentage.
     """
     awareness: Float
+    """
+    Usage is the total number of participants who used the tool,
+    include both users willing to use it again and those who wouldn't.
+
+    This value is expressed as a percentage.
+    """
+    usage: Float
     """
     Interest is the ratio of participants who heard of tool and
     are interested/not interested VS those who are only interested in it.
@@ -138,7 +145,7 @@ type ToolYearExperience @cacheControl(maxAge: 600) {
     total: Int
     completion: Completion
     buckets: [ToolExperienceBucket] @cacheControl(maxAge: 600)
-    awarenessInterestSatisfaction: ToolAwarenessInterestSatisfaction
+    awarenessUsageInterestSatisfaction: ToolAwarenessUsageInterestSatisfaction
 }
 
 type ToolExperience @cacheControl(maxAge: 600) {
@@ -194,6 +201,7 @@ type ToolExperienceRanking @cacheControl(maxAge: 600) {
     id: ToolID
     entity: Entity
     awareness: [ToolExperienceRankingYearMetric] @cacheControl(maxAge: 600)
+    usage: [ToolExperienceRankingYearMetric] @cacheControl(maxAge: 600)
     interest: [ToolExperienceRankingYearMetric] @cacheControl(maxAge: 600)
     satisfaction: [ToolExperienceRankingYearMetric] @cacheControl(maxAge: 600)
 }
