@@ -4,6 +4,136 @@ translations:
     # General
     ###########################################################################
 
+    - key: results.start
+      t: Start
+
+    - key: page.previous
+      t: 'Vorherige:'
+    - key: page.next
+      t: 'Nächste:'
+
+    - key: general.state_of_css_link
+      t: State of CSS
+
+    - key: general.netlify_link
+      t: Gehostet von <a href={link}>Netlify</a>
+
+    - key: general.completion_percentage
+      t: 'Fortschritt:'
+
+    ###########################################################################
+    # Options
+    ###########################################################################
+
+    - key: options.experience_ranking.satisfaction
+      t: Zufriedenheit
+    - key: options.experience_ranking.interest
+      t: Interesse
+    - key: options.experience_ranking.awareness
+      t: Bekanntheit
+
+    - key: options.features_simplified.know_it
+      t: Kenne ich
+    - key: options.features_simplified.used_it
+      t: Hab ich genutzt
+    - key: options.features_simplified.usage_ratio
+      t: Nutzungshäufigkeit
+
+    - key: options.quadrant.assess
+      t: Abschätzung
+    - key: options.quadrant.assess.long
+      t: |
+        Abschätzung: Geringe Nutzung, hohe Zufriedenheit. Technologien, die beobachtet werden sollten.
+    - key: options.quadrant.adopt
+      t: Übernahme
+    - key: options.quadrant.adopt.long
+      t: |
+        Übernahme: Hohe Nutzung, hohe Zufriedenheit. Diese Technologien können ohne Weiteres genutzt werden.
+    - key: options.quadrant.avoid
+      t: Vermeiden
+    - key: options.quadrant.avoid.long
+      t: |
+        Vermeiden: Geringe Nutzung, geringe Zufriedenheit. Technologien die derzeit vermieden werden sollten.
+    - key: options.quadrant.analyze
+      t: Analysieren
+    - key: options.quadrant.analyze.long
+      t: |
+        Analysieren: Hohe Nutzung, geringe Zufriedenheit. Überdenke die Nutzung dieser Technologien, wenn Du sie aktuell im Einsatz hast.
+
+    ###########################################################################
+    # Sections
+    ###########################################################################
+
+    - key: sections.introduction.title
+      t: Einführung
+
+    - key: sections.demographics.title
+      t: Demografie
+
+    - key: sections.tshirt.title
+      t: T-Shirt
+
+    - key: sections.technologies.title
+      t: Technologien
+
+    - key: sections.conclusion.title
+      t: Zusammenfassung
+
+    ###########################################################################
+    # User Info
+    ###########################################################################
+
+    - key: user_info.locale
+      t: Sprache
+    - key: user_info.locale.description
+      t: Welche Sprache haben Teilnehmer gewählt, um diese Umfrage zu beantworten?
+
+    - key: user_info.source
+      t: Quelle
+    - key: user_info.source.description
+      t: Wie haben Teilnehmer von dieser Umfrage erfahren?
+    - key: user_info.source.note
+      t: >
+
+        Dieses Chart führt eine Mischung aus Referrern, URL-Parametern und Freitextfeldern zusammen.
+
+        - State of JS: die [State of JS](https://stateofjs.com) Mailing-Liste.
+
+        - State of CSS: die State of CSS Mailing-Liste; akzeptiert `email`, `by email`, usw.
+
+        - Work: akzeptiert `work`, `colleagues`, `coworkers`, usw.
+
+    ###########################################################################
+    # Locales
+    ###########################################################################
+
+    - key: options.locale.en-US
+      t: Englisch
+    - key: options.locale.es-ES
+      t: Spanisch
+    - key: options.locale.ru-RU
+      t: Russisch
+    - key: options.locale.fr-FR
+      t: Französisch
+    - key: options.locale.zh-Hant
+      t: Chinesisch (traditionell)
+    - key: options.locale.de-DE
+      t: Deutsch
+    - key: options.locale.cs-CZ
+      t: Tschechisch
+    - key: options.locale.pt-PT
+      t: Portugiesisch
+    - key: options.locale.it-IT
+      t: Italienisch
+    - key: options.locale.sv-SE
+      t: Schwedisch
+    - key: options.locale.tr-TR
+      t: Türkisch
+    - key: options.locale.id-ID
+      t: Indonesisch
+    - key: options.locale.hi-IN
+      t: Hindi
+
     ###########################################################################
     # Features
     ###########################################################################
@@ -15,7 +145,7 @@ translations:
     - key: features.caniuse_link
       t: CanIUse
     - key: features.specification_link
-      t: W3C Spezifikation
+      t: W3C-Spezifikation
 
     ###########################################################################
     # Tools & Methodologies
@@ -27,8 +157,252 @@ translations:
     - key: tools.github_link
       t: GitHub
     - key: tools.github_stars
-      t: Stars
+      t: Sterne
     - key: tools.homepage_link
       t: Startseite
     - key: tools.npm_link
       t: NPM
+
+    ###########################################################################
+    # Blocks
+    ###########################################################################
+
+    # heatmaps
+    - key: blocks.tools_company_size_heatmap.title
+      t: Nutzung nach Unternehmensgröße
+    - key: blocks.tools_company_size_heatmap.description
+      t: |
+        Wie sich die Nutzung über die Unternehmensgröße verteilt.
+
+    - key: blocks.tools_yearly_salary_heatmap.title
+      t: Nutzung nach Einkommen
+    - key: blocks.tools_yearly_salary_heatmap.description
+      t: |
+        Wie sich die Nutzung über das Einkommen verteilt.
+
+    - key: blocks.tools_years_of_experience_heatmap.title
+      t: Nutzung nach Erfahrung nach Jahren
+    - key: blocks.tools_years_of_experience_heatmap.description
+      t: |
+        Wie sich die Nutzung über die Erfahrung nach Jahren verteilt.
+        Beachte, dass es sich hierbei um allgemeine Erfahrung handelt und nicht entsprechend einer speziellen Technologie.
+
+    # tool
+    - key: blocks.entity.homepage_link
+      t: Startseite
+    - key: blocks.entity.github_link
+      t: GitHub
+
+    # tools quadrant
+    - key: blocks.tools_quadrant.title
+      t: Zufriedenheit im Vergleich zur Nutzung
+    - key: blocks.tools_quadrant.satisfaction.description
+      t: |
+        Dieses Chart zeigt für jede Technologie den **Zufriedenheitswert** für die gesamte **Nutzerzahl**.
+        Es kann in Vier Bereiche unterteilt werden:
+
+          - **Abschätzung**: Geringe Nutzung, hohe Zufriedenheit. Technologien, die beobachtet werden sollten.
+
+          - **Übernahme**: Hohe Nutzung, hohe Zufriedenheit. Diese Technologien können ohne Weiteres genutzt werden.
+
+          - **Vermeiden**: Geringe Nutzung, geringe Zufriedenheit. Technologien die derzeit vermieden werden sollten.
+
+          - **Analysieren**: Hohe Nutzung, geringe Zufriedenheit. Überdenke die Nutzung dieser Technologien, wenn Du sie aktuell im Einsatz hast.
+
+    - key: blocks.tools_quadrant.interest.description
+      t: |
+        Dieses Chart zeigt für jede Technologie das **Interesse** für die gesamte **Nutzerzahl** an (Definiert von Teilnehmern, die die Technik kennen aber noch *nicht genutzt haben*.).
+
+        (Beachte, dass niedrigere Nutzerzahlen an einer unbekannten Technologie liegen können oder die Technologie wird bereits von vielen Teilnehmern genutzt.)
+
+    # category other tools
+    - key: blocks.category_other_tools.title
+      t: Andere Werkzeuge
+    - key: blocks.category_other_tools.description
+      t: Andere Werkzeuge in dieser Kategorie (Freifeldtext).
+
+    # tool experience
+    - key: blocks.tool_experience.title
+      t: ${name} Erfahrung
+    - key: blocks.tool_experience.description
+      t: Erfahrungen der Teilnehmer mit ${name}.
+
+    # tools section streams
+    - key: blocks.tools_section_streams.title
+      t: Erfahrung über Zeit
+    - key: blocks.tools_section_streams.description
+      t: |
+        Überblick über Meinungen zu Technologien, abgefragt über die Zeit.
+
+    # tools section overview
+    - key: blocks.tools_section_overview.title
+      t: Kategorie Überblick
+    - key: blocks.tools_section_overview.description
+      t: |
+        Überblick über Meinungen zu Technologien. Dunklere Bereiche repräsentieren positive Meinungen, während hellere Bereiche für negative Einstellungen stehen.
+
+    # tools experience ranking
+    - key: blocks.tools_experience_ranking.title
+      t: Rangliste
+    - key: blocks.tools_experience_ranking.description
+      t: Einstufung von Bekanntheit, Interesse und Zufriedenheit.
+
+    # happiness
+    - key: blocks.happiness.title
+      t: Allgemeine Zufriedenheit
+    - key: blocks.happiness.description
+      t: |
+        Auf einer Skala von eins (sehr unzufrieden) bis fünf (sehr zufrieden),
+        wie zufrieden sind Entwickler allgemein mit dem Status in dieser Kategorie?
+
+    # newsletter
+    - key: blocks.newsletter.title
+      t: Bleib dran
+    - key: blocks.newsletter.description
+      t: |
+        Wenn Du von zusätzlichen Ergebnissen erfahren möchtest oder die Ankündigung für die nächste Umfragen erhalten willst, lass einfach Deine Mail Adresse hier.
+    - key: blocks.newsletter.email
+      t: Deine E-Mail
+    - key: blocks.newsletter.submit
+      t: Benachrichtige mich
+
+    # features_overview
+    - key: blocks.features_overview.title
+      t: Überblick Nutzung
+    - key: blocks.features_overview.description
+      t: |
+        Dieses Chart präsentiert die verschiedenen Nutzungsraten für alle Funktionen gruppiert nach Kategorie.
+
+        Die Größe des <span class="text-teal-darker text-bold">äußeren Kreises</span> korrespondiert mit der Gesamtzahl der Nutzer, die die Technik kennen. Der <span class="text-teal text-bold">innere Kreis</span> hingegen repräsentiert die die sie tatsächlich verwenden.
+
+        Fahre mit der Maus über einen Knoten, um detaillierte Daten zu sehen, sowie ein <span class="text-blackpink text-bold">Overlay</span> mit der Gesamtzahl der Teilnehmer.
+
+  # export
+    - key: export.export
+      t: Export
+    - key: export.title
+      t: Exportiere Daten für ${title}
+    - key: export.nocsv
+      t: Entschuldigung, ein CSV-Export ist für diese Daten nicht verfügbar.
+    - key: export.graphql
+      t: >
+          Du kannst diese Query in unsere <a target="_blank" rel="nofollow" href="http://graphiql.stateofjs.com/">öffentliche GraphQL-API</a> kopieren.
+
+    ###########################################################################
+    # Charts
+    ###########################################################################
+
+    - key: chart_units.percentage
+      t: Prozent
+    - key: chart_units.count
+      t: Anzahl
+
+    - key: charts.axis_legends.years_of_experience
+      t: Jahre mit Erfahrung
+    - key: charts.axis_legends.yearly_salary
+      t: Einkommensbereich (USD)
+    - key: charts.axis_legends.company_size
+      t: Anzahl Angestellter
+    - key: charts.axis_legends.backend_proficiency
+      t: Backend Fähigkeiten
+    - key: charts.axis_legends.css_proficiency
+      t: CSS Fähigkeiten
+    - key: charts.axis_legends.javascript_proficiency
+      t: JavaScript Fähigkeiten
+    - key: charts.axis_legends.users_percentage
+      t: Prozent Nutzer
+    - key: charts.axis_legends.users_count
+      t: Nutzerzahl
+    - key: charts.axis_legends.interest_percentage
+      t: Prozent Interesse
+    - key: charts.axis_legends.satisfaction_percentage
+      t: Prozent Zufriedenheit
+    - key: charts.axis_legends.happiness
+      t: Zufriedenheit
+    - key: charts.axis_legends.knowledge_score
+      t: Bekannte Features
+    - key: charts.axis_legends.frequency
+      t: Frequenz
+
+    ###########################################################################
+    # Sharing
+    ###########################################################################
+
+    - key: share.share
+      t: Teilen
+    - key: share.site.title
+      t: Entdecke die StateOf CSS 2020 Ergebnisse.
+    - key: share.site.twitter_text
+      t: 'Entdecke die State Of CSS 2020 Ergebnisse. ${link} #StateOfCSS'
+    - key: share.site.subject
+      t: State Of JavaScript Umfrageergebnisse
+    - key: share.site.body
+      t: 'Hier sind einige interessante CSS Umfrageergebnisse: ${link}.'
+    - key: share.block.twitter_text
+      t: '#StateOfCSS 2020: ${title} ${link}'
+    - key: share.block.subject
+      t: State Of CSS Umfrageergebnisse
+    - key: share.block.body
+      t: 'Hier sind einige interessante CSS Umfrageergebnisse (${title}): ${link}'
+    - key: share.twitter
+      t: Teile auf Twitter
+    - key: share.facebook
+      t: Teile auf Facebook
+    - key: share.linkedin
+      t: Teile auf LinkedIn
+    - key: share.email
+      t: Teile per E-Mail
+    - key: share.image
+      t: Hole Bild
+
+    ###########################################################################
+    # Awards
+    ###########################################################################
+
+    - key: awards.runner_ups
+      t: Runner Ups
+
+    - key: award.feature_adoption_award.title
+      t: Meist übernommene Features
+    - key: award.feature_adoption_award.description
+      t: Vergeben an das meist übernommene Feature.
+
+    - key: award.feature_adoption_delta_award.title
+      t: Meist übernommene Feature
+    - key: award.feature_adoption_delta_award.description
+      t: Vergeben an das Feature mit dem größten Fortschritt.
+
+    - key: award.tool_usage_award.title
+      t: Meist genutzte Technologie
+    - key: award.tool_usage_award.description
+      t: Vergeben an die Technologie mit der größen Nutzerbasis.
+
+    - key: award.tool_usage_delta_award.title
+      t: Meist genutzte Technologie
+    - key: award.tool_usage_delta_award.description
+      t: Vergeben an die Technologie mit dem größten Fortschritt.
+
+    - key: award.tool_satisfaction_award.title
+      t: Höchste Zufriedenheit
+    - key: award.tool_satisfaction_award.description
+      t: Vergeben an die Technologie mit der höchsten Zufriedenheit.
+
+    - key: award.tool_interest_award.title
+      t: Größtes Interesse
+    - key: award.tool_interest_award.description
+      t: Vergeben an die Technologie, die Entwickler am liebsten lernen wollen.
+
+    - key: award.resource_usage_award.title
+      t: Meist genutzte Resource
+    - key: award.resource_usage_award.description
+      t: Vergeben an die Resource mit der größten Nutzerbasis.
+
+    - key: award.prediction_award.title
+      t: Vorhersage Award
+    - key: award.prediction_award.description
+      t: Vergeben an eine Technologie, die vielleicht bald auf Platz 1 steht.
+
+    - key: award.most_write_ins_award.title
+      t: Meiste Eintragungen
+    - key: award.most_write_ins_award.descriptiona
+      t: Vergeben an das am meisten eingetragene Element.

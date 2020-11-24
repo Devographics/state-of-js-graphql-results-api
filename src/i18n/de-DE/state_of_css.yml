@@ -50,7 +50,7 @@ translations:
     - key: sections.other_features.title
       t: Andere Features
     - key: sections.other_features.description
-      t: Andere CSS features.
+      t: Andere CSS-Features.
 
     - key: sections.units_selectors.title
       t: Einheiten und Selektoren
@@ -62,7 +62,7 @@ translations:
     - key: sections.pre_post_processors.description
       t: Werkzeuge, die CSS erweitern.
 
-    - key: sections.pre_post_processors_others.title # TODO
+    - key: sections.pre_post_processors_others.title
       t: Other Pre-/Post-processors
 
     - key: sections.css_frameworks.title
@@ -70,7 +70,7 @@ translations:
     - key: sections.css_frameworks.description
       t: Bibliotheken, die Dir vordefinierte Komponenten und Styles liefern.
 
-    - key: sections.css_frameworks_others.title # TODO
+    - key: sections.css_frameworks_others.title
       t: Other CSS Frameworks
 
     - key: sections.css_methodologies.title
@@ -78,16 +78,21 @@ translations:
     - key: sections.css_methodologies.description
       t: Kodifizierte Optionen wie sauberes CSS geschrieben wird.
 
-    - key: sections.css_methodologies_others.title # TODO
-      t: Other CSS Methodologies
+    - key: sections.css_methodologies_others.title
+      t: Andere CSS-Methoden
 
     - key: sections.css_in_js.title
       t: CSS-in-JS
     - key: sections.css_in_js.description
       t: Bibliotheken, die bei der Integration von CSS nach JavaScript helfen.
 
-    - key: sections.css_in_js_others.title # TODO
-      t: Other CSS-in-JS Libraries
+    - key: sections.css_in_js_others.title
+      t: Andere CSS-in-JS Bibliotheken
+
+    - key: sections.tools_others.title
+      t: Andere Werkzeuge
+    - key: sections.tools_others.description
+      t: Andere CSS-Werkzeuge
 
     - key: sections.environments.title
       t: Umgebungen
@@ -139,6 +144,12 @@ translations:
       t: Ich schreibe CSS hauptsächlich für E-Mail Clients.
     - key: options.css_for_email.3.short # TODO
       t: Mainly
+
+    # knowledge score
+    - key: features.knowledge_score
+      t: Knowledge Score
+    - key: features.knowledge_score.description
+      t: Wie viele hier erwähnte Techniken kannte der Teilnehmer?
 
     ###########################################################################
     # Features
@@ -509,6 +520,11 @@ translations:
       t: Was vermisst Du in CSS?
     - key: opinions_other.currently_missing_from_css.others.description
       t: Features, die Du gerne irgendwann in CSS sehen möchtest.
+
+    - key: opinions_other.currently_missing_from_css.others.note
+      t: >
+          Diese Ergebnisse wurden bearbeitet, basierend auf einem Freitextfeld.
+          Um alle Ergebnisse zu sehen, schaue auf [whatsmissingfromcss.com](http://whatsmissingfromcss.com/).
 
     - key: opinions.sum_up_one_word_css
       t: CSS in einem Wort

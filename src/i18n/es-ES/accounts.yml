@@ -1,75 +1,75 @@
 locale: es-ES
 translations:
-  - key: accounts.error_incorrect_password
-    t: Contraseña incorrecta
-  - key: accounts.error_email_required
-    t: El correo electrónico es obligatorio
-  - key: accounts.error_email_already_exists
-    t: Este correo electrónico ya existe
-  - key: accounts.error_invalid_email
-    t: El correo electrónico es inválido
-  - key: accounts.error_minchar
-    t: Tu contraseña es demasiado corta
-  - key: accounts.error_unknown
-    t: Error desconocido
-  - key: accounts.error_user_not_found
-    t: Usuario no encontrado
-  - key: accounts.error_username_already_exists
-    t: Este usuario ya existe
-  - key: accounts.enter_username_or_email
-    t: Introduce tu nombre de usuario o tu correo electrónico
-  - key: accounts.error_internal_server_error
-    t: Error interno
-  - key: accounts.error_token_expired
-    t: Token inválido para renovar tu contraseña
-  - key: accounts.username_or_email
-    t: Nombre de usuario o correo electrónico
-  - key: accounts.enter_username
-    t: Introduce tu nombre de usuario
-  - key: accounts.username
-    t: Nombre de usuario
-  - key: accounts.enter_email
-    t: Introduce tu correo electrónico
-  - key: accounts.email
-    t: Correo electrónico
-  - key: accounts.enter_password
-    t: Introduce tu contraseña
-  - key: accounts.password
-    t: Contraseña
-  - key: accounts.choose_password
-    t: Elige una contraseña
-  - key: accounts.change_password
-    t: Cambia tu contraseña
-  - key: accounts.reset_your_password
-    t: Renueva tu contraseña
-  - key: accounts.set_password
-    t: Pon una contraseña
-  - key: accounts.enter_new_password
-    t: Introduce una contraseña nueva
-  - key: accounts.new_password
-    t: Nueva contraseña
-  - key: accounts.forgot_password
-    t: He olvidado mi contraseña
-  - key: accounts.sign_up
-    t: Registrarse
-  - key: accounts.sign_in
-    t: Entrar
-  - key: accounts.sign_out
-    t: Salir
-  - key: accounts.cancel
-    t: Cancelar
-  - key: accounts.info_email_sent
-    t: Correo enviado.
-  - key: accounts.info_password_changed
-    t: Contraseña cambiada.
-  - key: accounts.please_pick_password
-    t: Por favor, elige una nueva contraseña para continuar.
-  - key: accounts.please_log_in
-    t: Por favor, regístrate o entra para continuar.
-  - key: accounts.logged_in_as
-    t: Registrado como {email}
-  - key: accounts.questions
-    t: >
-      Si tienes alguna pregunta sobre como usamos tus datos, o te gustaría
-      que los eliminásemos de nuestros registros,
-      por favor, <a href="mailto:hello@stateofjs.com">mándanos un email</a>.
+    - key: accounts.error_incorrect_password
+      t: Contraseña incorrecta
+    - key: accounts.error_email_required
+      t: El correo electrónico es obligatorio
+    - key: accounts.error_email_already_exists
+      t: Este correo electrónico ya existe
+    - key: accounts.error_invalid_email
+      t: El correo electrónico es inválido
+    - key: accounts.error_minchar
+      t: Tu contraseña es demasiado corta
+    - key: accounts.error_unknown
+      t: Error desconocido
+    - key: accounts.error_user_not_found
+      t: Usuario no encontrado
+    - key: accounts.error_username_already_exists
+      t: Este usuario ya existe
+    - key: accounts.enter_username_or_email
+      t: Introduce tu nombre de usuario o tu correo electrónico
+    - key: accounts.error_internal_server_error
+      t: Error interno
+    - key: accounts.error_token_expired
+      t: Token inválido para renovar tu contraseña
+    - key: accounts.username_or_email
+      t: Nombre de usuario o correo electrónico
+    - key: accounts.enter_username
+      t: Introduce tu nombre de usuario
+    - key: accounts.username
+      t: Nombre de usuario
+    - key: accounts.enter_email
+      t: Introduce tu correo electrónico
+    - key: accounts.email
+      t: Correo electrónico
+    - key: accounts.enter_password
+      t: Introduce tu contraseña
+    - key: accounts.password
+      t: Contraseña
+    - key: accounts.choose_password
+      t: Elige una contraseña
+    - key: accounts.change_password
+      t: Cambia tu contraseña
+    - key: accounts.reset_your_password
+      t: Renueva tu contraseña
+    - key: accounts.set_password
+      t: Pon una contraseña
+    - key: accounts.enter_new_password
+      t: Introduce una contraseña nueva
+    - key: accounts.new_password
+      t: Nueva contraseña
+    - key: accounts.forgot_password
+      t: He olvidado mi contraseña
+    - key: accounts.sign_up
+      t: Registrarse
+    - key: accounts.sign_in
+      t: Entrar
+    - key: accounts.sign_out
+      t: Salir
+    - key: accounts.cancel
+      t: Cancelar
+    - key: accounts.info_email_sent
+      t: Correo enviado.
+    - key: accounts.info_password_changed
+      t: Contraseña cambiada.
+    - key: accounts.please_pick_password
+      t: Por favor, elige una nueva contraseña para continuar.
+    - key: accounts.please_log_in
+      t: Por favor, regístrate o entra para continuar.
+    - key: accounts.logged_in_as
+      t: Registrado como {email}
+    - key: accounts.questions
+      t: >
+        Si tienes alguna pregunta sobre como usamos tus datos, o te gustaría
+        que los eliminásemos de nuestros registros,
+        por favor, <a href="mailto:hello@stateofjs.com">mándanos un email</a>.

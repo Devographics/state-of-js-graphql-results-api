@@ -128,6 +128,11 @@ translations:
     - key: sections.user_info.description
       t: Lass uns Dich kennenlernen.
 
+    - key: sections.features.title
+      t: Features
+    - key: sections.features.description
+      t: Syntax, Keywords, und andere Funktionen der Sprache.
+
     - key: sections.resources.title
       t: Ressourcen
     - key: sections.resources.description
@@ -219,6 +224,18 @@ translations:
     - key: options.happiness.4
       t: Sehr glücklich
 
+    # happiness (short version)
+    - key: options.happiness.0.short
+      t: Sehr unglücklich
+    - key: options.happiness.1.short
+      t: Unglücklich
+    - key: options.happiness.2.short
+      t: Neutral
+    - key: options.happiness.3.short
+      t: Glücklich
+    - key: options.happiness.4.short
+      t: Sehr glücklich
+      
     # opinions
     - key: options.opinions.0
       t: Starke Ablehnung

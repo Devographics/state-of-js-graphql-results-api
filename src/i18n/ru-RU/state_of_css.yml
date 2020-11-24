@@ -57,7 +57,7 @@ translations:
       t: Другие CSS-возможности.
 
     - key: sections.units_selectors.title
-      t: Единицы значения и селекторы
+      t: Единицы измерения и селекторы
     - key: sections.units_selectors.description
       t: Проверьте свои знания единиц измерения и селекторов CSS.
 
@@ -106,7 +106,7 @@ translations:
     - key: sections.awards.title
       t: Награды
     - key: sections.awards.description
-      t: Выдающиеся вещи этого года.
+      t: Что привлекло большее внимание в этом году.
 
     ###########################################################################
     # Options
@@ -281,7 +281,7 @@ translations:
     - key: features.knowledge_score
       t: Оценка знаний
     - key: features.knowledge_score.description
-      t: О скольких из упомянутых в опросе возможностей CSS знал респондент?
+      t: Сколько CSS-возможностей знали участники опроса?
 
     ###########################################################################
     # Units & Selectors
@@ -540,7 +540,7 @@ translations:
     - key: opinions_other.currently_missing_from_css.others.note
       t: >
           Эти данные были нормализованы на основе ответов в свободной форме.
-          Чтобы просмотреть сырые, необработанные ответы, зайдите на [whatsmissingfromcss.com](http://whatsmissingfromcss.com/).
+          Посмотреть оригинальные ответы можно на сайте [whatsmissingfromcss.com](http://whatsmissingfromcss.com/).
 
     - key: opinions.sum_up_one_word_css
       t: CSS одним словом

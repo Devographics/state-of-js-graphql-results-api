@@ -1,0 +1,117 @@
+locale: en-US
+translations:
+    ###########################################################################
+    # Introduction
+    ###########################################################################
+
+    - key: sections.introduction.description
+      t: |
+          TODO
+
+    ###########################################################################
+    # Tshirt
+    ###########################################################################
+
+    - key: sections.tshirt.title
+      t: Camiseta
+
+    - key: sections.tshirt.description
+      t: |
+          ## ¡Apoya la encuesta y presume de camiseta en el proceso!
+
+          Un anuncio rápido antes de los resultados de la encuesta. ¡Os presentamos nuestra propia 🎈🎉👕 Camiseta sobre el Estado de CSS 👕🎉🎈!
+
+          Lo que hace a esta camiseta realmente especial es que es la única camiseta que además te enseña CSS.
+
+          Así que tanto si vas a una conferencia, a una entrevista de trabajo o a trabajar, ¡esta camiseta demostrará tu maestría con CSS cómo ninguna otra!
+    
+    - key: tshirt.about
+      t: Sobre la Camiseta
+
+    - key: tshirt.description
+      t: |
+          La camiseta tiene el logo del "Estado de CSS" junto con los fragmentos de CSS usados para crear cada forma. ¡Quién sabe, puede que aprendas un par de trucos útiles!
+
+          Usamos una camiseta ajustada de alta calidad, con un tejido extra suave con tres materiales (algodón, poliéster y rayón).
+          Al seer la camiseta ajustada, si prefieres que te quede algo suelta, te recomendamos que pidas una talla más de la que habitualmente llevas (yo llevo una M en las fotos).
+
+    - key: tshirt.getit
+      t: Consíguela
+
+    - key: tshirt.price
+      t: USD $24 + transporte
+
+    ###########################################################################
+    # Sections
+    ###########################################################################
+
+    - key: sections.demographics.description
+      t: |
+          La encuesta de este año a llegado a 11.492 personas en 102 países. Por primera vez este año,
+          hemos sido capaces de traducir las preguntas de la encuesta a múltiples idiomas gracias a un increíble equipo de voluntarios.
+
+    - key: sections.features.description
+      t: |
+          CSS ha visto como han surgido un montón de características nuevas en los últimos años, así que como te imaginas
+          la adopción es lenta según la comunidad va poco a poco absorbiéndolas.
+
+    - key: sections.units_selectors.description
+      t: |
+          ¡Estamos dispuestos a apostar que vas a encontrar, en esta sección, cosas que no conocías!
+
+    - key: sections.technologies.description
+      t: |
+          El ecosistema de CSS está sufriendo una renovación de clases, ya que antiguos pilares como Bootstrap
+          tienen que hacer sitio a nuevos actores como Tailwind CSS. Sin hablar ya del nuevo movimiento CSS-in-JS
+          el cual, pese a que aún tiene que entrar en el día a día de CSS, se está moviendo realmente rápido.
+
+    - key: sections.other_tools.description
+      t: |
+          No nos ha sorprendido, y merece la pena mencionarla, la aparición de navegadores enfocados al desarrollo
+          como Polypane y Sizzy, que van un paso más allá de las clásicas herramientas de desarrollo.
+
+    - key: sections.environments.description
+      t: |
+          Una de las fortalezas de CSS es su capacidad para adaptarse a diferentes entornos, y aún así, por diferentes
+          razones, medios como la impresión y los correos electrónicos permaneces inexplorados por la mayoría de los desarrolladores.
+          ¿Puede que estos sean la siguiente frontera para CSS…?
+
+    - key: sections.resources.description
+      t: |
+          ¡Los resultados de "otras respuestas" en esta sección demuestran lo rico y variado de la comunidad CSS,
+          y muestran muchos blogs y podcast relevantes que estamos deseando añadir oficialmente a la encuesta
+          del año que viene!
+
+    - key: sections.opinions.description
+      t: |
+          Estas opiniones describen un panorama de un lenguaje que está madurando, y haciéndose más complejo. Y a lo mejor
+          -al menos mientras nos esforzamos por mantenernos actualizados- ¿un poco más difícil de disfrutar?
+
+
+    ###########################################################################
+    # Awards
+    ###########################################################################
+
+    - key: award.feature_adoption_delta_award.comment
+      t: 2020 ha sido el año en el que CSS Grid finalmente ha dado el paso de nueva tecnología a herramienta consolida.
+
+    - key: award.tool_usage_delta_award.comment
+      t: Ninguna otra herramienta se acerca al rápido crecimiento que ha tenido Tailwind CSS en el último año.
+
+    - key: award.tool_satisfaction_award.comment
+      t: El ratio de satisfacción con Post CSS demuestra que puedes vencer haciendo algo realmente bien.
+
+    - key: award.tool_interest_award.comment
+      t: Los módulos de CSS han generado el mayor interés entre los desarrolladores este año.
+
+    - key: award.most_write_ins_award.comment
+      t: Muchas preguntas aceptan respuestas escritas, y PHP Storm ha sido quien ha recibido más menciones.
+
+      
+    ###########################################################################
+    # Conclusion
+    ###########################################################################
+
+    - key: sections.conclusion.description
+      t: |
+          TODO

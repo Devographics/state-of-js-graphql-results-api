@@ -63,41 +63,48 @@ translations:
       t: CSS birimleri ve seçiciler hakkındaki bilginizi test edin.
 
     - key: sections.pre_post_processors.title 
-      t: Ön-/Post İşleyiciler
+      t: Pre-/Post İşleyiciler
     - key: sections.pre_post_processors.description 
-      t: CSS'i genişleten yardımcı araçlar.
+      t: CSS'yi genişleten yardımcı araçlar.
 
-    - key: sections.pre_post_processors_others.title # TODO
-      t: Other Pre-/Post-processors
+    - key: sections.pre_post_processors_others.title
+      t: Diğer Pre-/Post İşleyiciler
 
     - key: sections.css_frameworks.title 
       t: CSS Çerçeveleri
     - key: sections.css_frameworks.description 
       t: Size önceden hazırlanmış bileşenler ve stiller sunan kütüphaneler.
 
-    - key: sections.css_frameworks_others.title # TODO
-      t: Other CSS Frameworks
+    - key: sections.css_frameworks_others.title
+      t: Diğer CSS Çerçeveleri
 
     - key: sections.css_methodologies.title 
       t: CSS Metodolojileri
     - key: sections.css_methodologies.description 
       t: Daha temiz CSS yazmanın metodlaştırılmış yolları.
 
-    - key: sections.css_methodologies_others.title # TODO
-      t: Other CSS Methodologies
+    - key: sections.css_methodologies_others.title
+      t: Diğer CSS Metodolojileri
 
     - key: sections.css_in_js.title 
       t: CSS-in-JS
     - key: sections.css_in_js.description 
       t: CSS'yi JavaScript koduna entegre etmeye yardımcı olan kitaplıklar.
 
-    - key: sections.css_in_js_others.title # TODO
-      t: Other CSS-in-JS Libraries
+    - key: sections.tools_others.title
+      t: Diğer Araçlar
+    - key: sections.tools_others.description
+      t: Diğer CSS araçları.
 
     - key: sections.environments.title 
       t: Ortamlar
     - key: sections.environments.description 
       t: Hangi ortamlar için CSS yazıyorsunuz?
+
+    - key: sections.awards.title
+      t: Ödüller
+    - key: sections.awards.description
+      t: Bu yıl öne çıkan şeyler.
 
     ###########################################################################
     # Options
@@ -246,6 +253,12 @@ translations:
     - key: features.comparison_functions.description
       t: <code>min()</code>, <code>max()</code>, and <code>clamp()</code>
 
+    # knowledge score
+    - key: features.knowledge_score
+      t: Haberdarlık Puanı
+    - key: features.knowledge_score.description
+      t: Yanıtlayanlar ankette bahsedilen tüm CSS özelliklerinden kaç tanesini biliyorlardı?
+
     ###########################################################################
     # Units & Selectors
     ###########################################################################
@@ -353,7 +366,7 @@ translations:
       t: :has()
 
     - key: features_others.attributes 
-      t: Nitellikler (Attributes)
+      t: Nitelikler (Attributes)
 
     - key: options.attributes.presence 
       t: div[foo] (bulunma)
@@ -475,6 +488,11 @@ translations:
       t: Şu anda CSS'de neyin eksik olduğunu düşünüyorsunuz?
     - key: opinions_other.currently_missing_from_css.others.description 
       t: CSS'de bir gün görmek isteyeceğiniz özellikler.
+
+    - key: opinions_other.currently_missing_from_css.others.note
+      t: >
+          Bu sonuçlar bir serbest yanıt alanında verilen yantılara göre normalleştirildi.
+          Ham, işlenmemiş yanıtları görüntülemek için [whatsmissingfromcss.com](http://whatsmissingfromcss.com/) adresine göz atabilirsiniz.
 
     - key: opinions.sum_up_one_word_css 
       t: Tek kelimeyle CSS

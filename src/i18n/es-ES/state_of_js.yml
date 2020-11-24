@@ -85,7 +85,7 @@ translations:
     # Options
     ###########################################################################
 
-    # css for print
+    # CSS for print
     - key: options.css_for_print.0
       t: (Casi) nunca escribo CSS para ser impreso
     - key: options.css_for_print.1
@@ -95,7 +95,7 @@ translations:
     - key: options.css_for_print.3
       t: Sólo me centro en CSS para ser impreso
 
-    # css for email
+    # CSS for email
     - key: options.css_for_email.0
       t: (Casi) nunca escribo CSS para correos electrónicos
     - key: options.css_for_email.1
