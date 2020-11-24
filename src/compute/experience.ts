@@ -3,8 +3,9 @@ import { Db } from 'mongodb'
 import config from '../config'
 import { ratioToPercentage, appendCompletionToYearlyResults } from './common'
 import { getEntity } from '../helpers'
-import { SurveyConfig } from '../types'
+import { Completion, SurveyConfig } from '../types'
 import { Filters, generateFiltersQuery } from '../filters'
+import { computeCompletionByYear } from './generic'
 
 interface ExperienceBucket {
     id: string
@@ -97,12 +98,15 @@ export async function computeExperienceOverYears(
         ])
         .toArray()
 
+    const completionByYear = await computeCompletionByYear(db, match)
+
     // group by years and add counts
     const experienceByYear = _.orderBy(
         results.reduce<
             Array<{
                 year: number
                 total: number
+                completion: Pick<Completion, 'count'>
                 awarenessUsageInterestSatisfaction: {
                     awareness: number
                     usage: number
@@ -123,6 +127,9 @@ export async function computeExperienceOverYears(
                 yearBucket = {
                     year: result.year,
                     total: 0,
+                    completion: {
+                        count: completionByYear[result.year]?.total ?? 0
+                    },
                     awarenessUsageInterestSatisfaction: {
                         awareness: 0,
                         usage: 0,
