@@ -79,7 +79,7 @@ translations:
       t: USD $24 + shipping
 
     ###########################################################################
-    # Sections
+    # Sections Introductions
     ###########################################################################
 
     - key: sections.demographics.description
@@ -124,6 +124,29 @@ translations:
           These opinions paint a picture of a language getting more mature, but also more complex. And perhaps
           –at least while we struggle to keep up with the pace of change– a little less enjoyable?
 
+          
+    ###########################################################################
+    # Other
+    ###########################################################################
+
+    - key: blocks.gender.note
+      t: |
+          If you're interested in learning more, we [wrote a blog post](https://dev.to/sachagreif/is-our-survey-biased-against-women-49oj) that addresses the survey's gender dynamics
+
+    - key: blocks.currently_missing_from_css.note
+      t: |
+          You can explore the full dataset of answers to this question in [this side project](https://whatsmissingfromcss.com/).
+
+    - key: blocks.source.note
+      t: >
+      
+        This chart aggregates a mix of referrers, URL parameters, and freeform answers. 
+
+        - State of JS: the [State of JS](https://stateofjs.com) mailing list.
+
+        - State of CSS: the State of CSS mailing list; also matches `email`, `by email`, etc.
+
+        - Work: matches `work`, `colleagues`, `coworkers`, etc.
 
     ###########################################################################
     # Awards

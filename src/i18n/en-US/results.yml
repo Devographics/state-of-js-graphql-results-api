@@ -91,17 +91,7 @@ translations:
     - key: user_info.source
       t: Source
     - key: user_info.source.description
-      t: How did respondents find out about the survey? 
-    - key: user_info.source.note
-      t: >
-      
-        This chart aggregates a mix of referrers, URL parameters, and freeform answers. 
-
-        - State of JS: the [State of JS](https://stateofjs.com) mailing list.
-
-        - State of CSS: the State of CSS mailing list; also matches `email`, `by email`, etc.
-
-        - Work: matches `work`, `colleagues`, `coworkers`, etc.
+      t: How did respondents find out about the survey?
 
     ###########################################################################
     # Locales
@@ -229,12 +219,26 @@ translations:
     - key: blocks.tool_experience.description
       t: Respondent's experience with ${name}.
 
+    # tool positive/negative split ("marimekko" chart)
+    - key: blocks.tools_experience_marimekko.title
+      t: Positive/Negative Split
+    - key: blocks.tools_experience_marimekko.description
+      t: |
+          This chart splits positive (“want to learn”, ”would use again”) vs 
+          negative (“not interested”, “would not use again”) experiences on 
+          both sides of a central axis. 
+
+          Bar thickness represents the number of respondents aware of a technology.
+
     # tools section streams
     - key: blocks.tools_section_streams.title
       t: Experience Over Time
     - key: blocks.tools_section_streams.description
       t: |
         Overview of opinions on the technologies surveyed over time.
+    - key: blocks.tools_section_streams.note
+      t: |
+        Technologies with only one year of data are not included. 
 
     # tools section overview
     - key: blocks.tools_section_overview.title
@@ -248,7 +252,15 @@ translations:
     - key: blocks.tools_experience_ranking.title
       t: Rankings
     - key: blocks.tools_experience_ranking.description
-      t: Awareness, interest, and satisfaction ratio rankings.
+      t: Satisfaction, interest, usage, and awareness ratio rankings.
+    - key: blocks.tools_experience_ranking.note
+      t: |
+        Technologies with less than 10% awareness not included. Each ratio is defined as follows:
+
+        - Satisfaction: **would use again** vs **would not use again**.
+        - Interest: **want to learn** vs **not interested**.
+        - Usage: **would use again** + **would not use again** vs total.
+        - Awareness: total - **never heard**.
 
     # happiness
     - key: blocks.happiness.title
@@ -370,7 +382,7 @@ translations:
       t: Runner Ups
 
     - key: award.feature_adoption_award.title
-      t: Most Adopted Feature
+      t: Most Used Feature
     - key: award.feature_adoption_award.description
       t: Awarded to the most adopted feature.
 
@@ -385,7 +397,7 @@ translations:
       t: Awarded to the technology with the largest user base.
 
     - key: award.tool_usage_delta_award.title
-      t: Most Used Technology
+      t: Most Adopted Technology
     - key: award.tool_usage_delta_award.description
       t: Awarded to the technology with the largest year-over-year “would use again” progression.
 
