@@ -128,7 +128,7 @@ translations:
     - key: sections.user_info.description
       t: Lass uns Dich kennenlernen.
 
-    key: sections.features.title
+    - key: sections.features.title
       t: Features
     - key: sections.features.description
       t: Syntax, Keywords, und andere Funktionen der Sprache.

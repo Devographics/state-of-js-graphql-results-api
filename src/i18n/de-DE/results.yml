@@ -343,7 +343,7 @@ translations:
     - key: share.block.subject
       t: State Of CSS Umfrageergebnisse
     - key: share.block.body
-      t: 'Hier sind einige interessante CSS Umfrageergebnisse (${title}): ${link}'.
+      t: 'Hier sind einige interessante CSS Umfrageergebnisse (${title}): ${link}'
     - key: share.twitter
       t: Teile auf Twitter
     - key: share.facebook
