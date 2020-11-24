@@ -6,6 +6,7 @@ import { Completion, SurveyConfig } from '../types'
 import { Filters, generateFiltersQuery } from '../filters'
 import { ratioToPercentage, appendCompletionToYearlyResults } from './common'
 import { getEntity } from '../helpers'
+import { getParticipationByYearMap } from './demographics'
 
 interface TermAggregationByYearOptions {
     // filter aggregations
@@ -40,7 +41,7 @@ interface TermBucket {
 interface YearAggregations {
     year: number
     total: number
-    completion: Pick<Completion, 'count'>
+    completion: Completion
     buckets: TermBucket[]
 }
 
@@ -167,6 +168,7 @@ export async function computeTermAggregationByYear(
         return entity ? { ...result, entity } : result
     })
 
+    const totalRespondentsByYear = await getParticipationByYearMap(db, survey)
     const completionByYear = await computeCompletionByYear(db, match)
 
     // group by years and add counts
@@ -174,11 +176,16 @@ export async function computeTermAggregationByYear(
         resultsWithEntity.reduce((acc: YearAggregations[], result) => {
             let yearBucket = acc.find(b => b.year === result.year)
             if (yearBucket === undefined) {
+                const totalRespondents = totalRespondentsByYear[result.year] ?? 0
+                const completionCount = completionByYear[result.year]?.total ?? 0
+
                 yearBucket = {
                     year: result.year,
-                    total: 0,
+                    total: totalRespondents,
                     completion: {
-                        count: completionByYear[result.year]?.total ?? 0
+                        total: totalRespondents,
+                        count: completionCount,
+                        percentage: ratioToPercentage(completionCount / totalRespondents)
                     },
                     buckets: []
                 }
@@ -199,9 +206,8 @@ export async function computeTermAggregationByYear(
 
     // compute percentages
     resultsByYear.forEach(year => {
-        year.total = _.sumBy(year.buckets, 'count')
         year.buckets.forEach(bucket => {
-            bucket.percentage = ratioToPercentage(bucket.count / year.total)
+            bucket.percentage = ratioToPercentage(bucket.count / year.completion.total)
         })
     })
 
@@ -220,5 +226,5 @@ export async function computeTermAggregationByYear(
         }
     })
 
-    return appendCompletionToYearlyResults<YearAggregations>(db, survey, resultsByYear)
+    return resultsByYear
 }
