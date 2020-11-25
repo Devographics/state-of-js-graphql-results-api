@@ -29,6 +29,8 @@ translations:
       t: Удовлетворённость
     - key: options.experience_ranking.interest
       t: Заинтересованность
+    - key: options.experience_ranking.usage
+      t: Использование
     - key: options.experience_ranking.awareness
       t: Узнаваемость
 
@@ -37,7 +39,7 @@ translations:
     - key: options.features_simplified.used_it
       t: Использовал
     - key: options.features_simplified.usage_ratio
-      t: Коэффициент использования
+      t: Процент использования
 
     - key: options.quadrant.assess
       t: ПРОБУЮТ
@@ -86,22 +88,13 @@ translations:
     - key: user_info.locale
       t: Язык
     - key: user_info.locale.description
-      t: Какой язык выбрали респонденты для прохождения опроса?
+      t: Какой язык выбрали участники для прохождения опроса?
 
     - key: user_info.source
       t: Источник
     - key: user_info.source.description
-      t: Как респонденты узнали об опросе?
-    - key: user_info.source.note
-      t: >
+      t: Откуда участники узнали об опросе?
 
-        Эта диаграмма объединяет набор ссылок, URL-параметры и ответы в свободной форме.
-
-        - State of JS:  почтовая рассылка [State of JS](https://stateofjs.com).
-
-        - State of CSS: почтовая рассылка State of CSS; сюда относятся ответы с `email`, `by email` и т.д.
-
-        - Work: ответы, включающие `work`, `colleagues`, `coworkers` и т.д.
 
     ###########################################################################
     # Locales
@@ -228,12 +221,24 @@ translations:
     - key: blocks.tool_experience.description
       t: Опыт участника опроса с ${name}.
 
+    # tool positive/negative split ("marimekko" chart)
+    - key: blocks.tools_experience_marimekko.title
+      t: Сравнение положительных и негативных ответов
+    - key: blocks.tools_experience_marimekko.description
+      t: |
+          На следующей диаграмме разделены положительные (“Хочу изучить“, “Буду использовать снова“) и негативные (“Не интересно“, “Больше не буду использовать“) ответы справа и слева, соответственно, относительно центральной оси.
+
+          Ширина столбца представляет собой количество респондентов, знакомых с определённой технологией.
+
     # tools section streams
     - key: blocks.tools_section_streams.title
       t: Опыт работы
     - key: blocks.tools_section_streams.description
       t: |
         Анализ ответов по исследуемым технологиям в сравнении с предыдущим годом.
+    - key: blocks.tools_section_streams.note
+      t: |
+        Не учитываются технологии, данные по которым есть только за один год.
 
     # tools section overview
     - key: blocks.tools_section_overview.title
@@ -246,7 +251,14 @@ translations:
     - key: blocks.tools_experience_ranking.title
       t: Рейтинг
     - key: blocks.tools_experience_ranking.description
-      t: Рейтинг узнаваемости, заинтересованности и удовлетворённости.
+      t: Рейтинг удовлетворённости, заинтересованности, использования, узнаваемости.
+    - key: blocks.tools_experience_ranking.note
+      t: |
+        Не учитываются технологии с узнаваемостью менее 10%. Каждое соотношение определяется следующим образом:
+        - Удовлетворённость: сравнение ответов **Буду использовать снова** и **Больше не буду использовать**.
+        - Заинтересованность: сравнение ответов **Хочу изучить** и **Не интересно**.
+        - Использование: сравнение ответов **Буду использовать снова**/**Больше не буду использовать** с общим количеством.
+        - Узнаваемость: разница между общим количеством ответов и количество ответов за вариант ответа **Впервые слышу**.
 
     # happiness
     - key: blocks.happiness.title
