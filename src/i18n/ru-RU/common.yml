@@ -113,6 +113,13 @@ translations:
     - key: forms.select_option
       t: Выбрать вариант
 
+    # partners
+    - key: partners.our_partners
+      t: Наши партнёры
+    - key: partners.become_partner
+      t: Стать партнёром
+
+
     # 404
     - key: notfound.title
       t: Ошибка 404
