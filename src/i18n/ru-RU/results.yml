@@ -378,14 +378,14 @@ translations:
       t: Призовые места
 
     - key: award.feature_adoption_award.title
-      t: Самая популярная возможность
+      t: Самая применяемая возможность
     - key: award.feature_adoption_award.description
       t: Награждается, как наиболее применяемая возможность.
 
     - key: award.feature_adoption_delta_award.title
-      t: Самая популярная возможность
+      t: Самая применяемая возможность
     - key: award.feature_adoption_delta_award.description
-      t: Награждается, как наиболее успешная возможность по сравнению с предыдущим годом.
+      t: Награждается, как наиболее успешная возможность по сравнению с предыдущим годом (согласно ответам за вариант ”Использовал”).
 
     - key: award.tool_usage_award.title
       t: Наиболее используемая технология
@@ -395,7 +395,7 @@ translations:
     - key: award.tool_usage_delta_award.title
       t: Наиболее используемая технология
     - key: award.tool_usage_delta_award.description
-      t: Награждается, как наиболее успешная технология по сравнению с предыдущим годом.
+      t: Награждается, как наиболее успешная технология по сравнению с предыдущим годом (согласно ответам за вариант ”Буду использовать снова”) .
 
     - key: award.tool_satisfaction_award.title
       t: Самый высокий уровень удовлетворённости
