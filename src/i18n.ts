@@ -135,8 +135,9 @@ export const getLocaleStringsWithFallback = (locale: Locale, contexts?: string[]
                     fallback: true
                 })
                 untranslatedKeys.push(enTranslation.key)
-            } else if (localeStrings[localeTranslationIndex].t === enTranslation.t) {
+            } else if (localeStrings[localeTranslationIndex].t === enTranslation.t || localeStrings[localeTranslationIndex].t === 'TODO') {
                 // current locale file's translation is same as en-US (untranslated)
+                // or is "TODO"
                 localeStrings[localeTranslationIndex].fallback = true
                 untranslatedKeys.push(enTranslation.key)
             } else {

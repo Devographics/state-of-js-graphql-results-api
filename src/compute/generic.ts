@@ -150,16 +150,16 @@ export async function computeTermAggregationByYear(
     ]
     const rawResults: RawResult[] = await collection.aggregate(aggregationPipeline).toArray()
 
-    console.log(
-        inspect(
-            {
-                match,
-                aggregationPipeline,
-                rawResults,
-            },
-            { colors: true, depth: null }
-        )
-    )
+    // console.log(
+    //     inspect(
+    //         {
+    //             match,
+    //             aggregationPipeline,
+    //             rawResults,
+    //         },
+    //         { colors: true, depth: null }
+    //     )
+    // )
 
     // add entities if applicable
     const resultsWithEntity: RawResult[] = rawResults.map(result => {
