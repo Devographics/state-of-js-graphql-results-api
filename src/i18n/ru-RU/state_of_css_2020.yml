@@ -206,7 +206,7 @@ translations:
 
 
     - key: picks.sachagreif.bio
-      t: Creator of this survey
+      t: Создатель этого опроса
     - key: picks.sachagreif.description
       t: |
             В своём посте в блоге Амелия Уоттенбергер (Amelia Wattenberger) сделала просто невероятную работу! При помощи анимации и викторины вы точно, наконец, узнаете, как работает CSS-каскад.
