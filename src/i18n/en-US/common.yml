@@ -125,6 +125,12 @@ translations:
     - key: notfound.description
       t: Sorry, we couldn't find what you were looking for. 
 
+    # other
+    - key: general.join_discord
+      t: Join us on <a href=${link}>Discord</a>. 
+    - key: general.translator_mode
+      t: Press cmd/ctrl to enable translator mode. 
+      
     ###########################################################################
     # Nav
     ###########################################################################

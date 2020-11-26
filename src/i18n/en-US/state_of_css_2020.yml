@@ -126,7 +126,7 @@ translations:
 
           
     ###########################################################################
-    # Other
+    # Notes
     ###########################################################################
 
     - key: blocks.gender.note
@@ -217,7 +217,7 @@ translations:
             With this blog post, Amelia Wattenberger didn't just go the extra mile, she ran a whole marathon! The animations and quiz will ensure you finally understand the CSS cascade. 
     
     - key: picks.christianoliff.bio
-      t: I like the internet
+      t: Front-end developer for Trimble MAPS
     - key: picks.christianoliff.description
       t: |
           One thing I've really started using and appreciating this year though is Purge CSS- an awesome tool for removing unused CSS. It can greatly reduce the size of your CSS, and its fast and easy to use.
@@ -233,3 +233,22 @@ translations:
     - key: picks.walterstephanie.description
       t: |
           A series of YouTube videos that explain all the new cool CSS features to build modern designs.
+
+    - key: picks.piccalilli_.bio
+      t: Freelance designer & dev who runs piccalil.li
+    - key: picks.piccalilli_.description
+      t: |
+          This blog is an absolute gold mine of CSS knowledge. Michelle is a CSS legend and every post or tutorial they write is heaped with useful content.
+
+    - key: picks.sarasoueidan.bio
+      t: Independent UI/design engineer
+    - key: picks.sarasoueidan.description
+      t: |
+          My pick is a person, namely Rachel Andrew. She taught CSS Grid to a whole generation of developers.
+
+    - key: picks.5t3ph.bio
+      t: Software Engineer @ Microsoft
+    - key: picks.5t3ph.description
+      t: |
+          In this conference talk, Manuel Matuzovic provides thoughtfully 
+          crafted examples that are engaging, approachable, and actionable.
