@@ -130,7 +130,9 @@ translations:
       t: Join us on <a href=${link}>Discord</a>. 
     - key: general.translator_mode
       t: Press option/alt to enable translator mode. 
-
+    - key: general.charts_nivo
+      t: Charts built with <a href="${link}">Nivo</a>.
+      
     ###########################################################################
     # Nav
     ###########################################################################
