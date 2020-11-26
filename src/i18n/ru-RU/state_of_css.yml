@@ -57,7 +57,7 @@ translations:
       t: Другие CSS-возможности.
 
     - key: sections.units_selectors.title
-      t: Единицы и селекторы # Shortened for results, normally should be as "Единицы измерения и селекторы"
+      t: Единицы измерения и селекторы
     - key: sections.units_selectors.description
       t: Проверьте свои знания единиц измерения и селекторов CSS.
 
