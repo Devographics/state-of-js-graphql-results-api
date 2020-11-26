@@ -26,7 +26,7 @@ translations:
           Vous êtes actuellement en train de voir ce questionnaire en lecture seule.
     - key: general.survey_read_only_back
       t: >
-          <a href=${link}>Retourner</a> à la page principale du questionnaire pour commencer ou continuer à répondre.
+          <a href="${link}">Retourner</a> à la page principale du questionnaire pour commencer ou continuer à répondre.
 
     # surveys
     - key: general.open_surveys
@@ -62,7 +62,7 @@ translations:
     - key: general.privacy_policy
       t: Politique de confidentialité
     - key: general.leave_issue
-      t: Une question ? Un bug ? <a href=${link} target="_blank">Reportez un problème</a>.
+      t: Une question ? Un bug ? <a href="${link}" target="_blank">Reportez un problème</a>.
     - key: general.emoji_icons
       t: Emoji icons by <a target="_blank" rel="noreferrer" href="https://icons8.com">Icons8</a>
 
