@@ -26,7 +26,7 @@ translations:
           You are currently viewing this survey in read-only mode.
     - key: general.survey_read_only_back # TODO
       t: >
-          <a href="{link}">Go back</a> to the main survey page to start or resume a session.
+          <a href=${link}>Go back</a> to the main survey page to start or resume a session.
 
     # surveys
     - key: general.open_surveys # TODO
@@ -62,7 +62,7 @@ translations:
     - key: general.privacy_policy # TODO
       t: Privacy Policy
     - key: general.leave_issue # TODO
-      t: Questions? Found a bug? <a href="{link}" target="_blank">Leave an issue</a>.
+      t: Questions? Found a bug? <a href=${link} target="_blank">Leave an issue</a>.
     - key: general.emoji_icons # TODO
       t: Emoji icons by <a target="_blank" rel="noreferrer" href="https://icons8.com">Icons8</a>
 

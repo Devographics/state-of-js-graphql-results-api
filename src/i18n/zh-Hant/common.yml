@@ -26,7 +26,7 @@ translations:
           現在是以唯讀模式觀看調查。
     - key: general.survey_read_only_back
       t: >
-          <a href="{link}">回到調查主頁</a>開始填寫，或恢復先前進度。
+          <a href=${link}>回到調查主頁</a>開始填寫，或恢復先前進度。
 
     # surveys
     - key: general.open_surveys
@@ -62,7 +62,7 @@ translations:
     - key: general.privacy_policy
       t: 隱私權政策
     - key: general.leave_issue
-      t: 有問題？發現臭蟲？<a href="{link}" target="_blank">請填寫 Issue</a>。
+      t: 有問題？發現臭蟲？<a href=${link} target="_blank">請填寫 Issue</a>。
     - key: general.emoji_icons
       t: 表情符號圖示是 <a target="_blank" rel="noreferrer" href="https://icons8.com">Icons8</a> 的作品
 
