@@ -127,18 +127,26 @@ export const getLocaleStringsWithFallback = (locale: Locale, contexts?: string[]
 
         enStrings.forEach((enTranslation: TranslationString) => {
             totalCount++
-            const localeTranslationIndex = localeStrings.findIndex(t => t.key === enTranslation.key)
-            if (localeTranslationIndex === -1) {
+            // note: exclude fallback strings that might have been added during 
+            // a previous iteration of the current loop
+            const localeTranslationIndex = localeStrings.findIndex(t => t.key === enTranslation.key && !t.fallback)
+
+            if (enTranslation.key === 'sections.features.description') {
+                console.log(localeTranslationIndex)
+                console.log(localeStrings[localeTranslationIndex] && localeStrings[localeTranslationIndex].t)
+            }
+            if (
+                localeTranslationIndex === -1 ||
+                localeStrings[localeTranslationIndex].t === enTranslation.t ||
+                localeStrings[localeTranslationIndex].t.trim() === 'TODO'
+            ) {
                 // en-US key doesn't exist in current locale file
+                // OR current locale file's translation is same as en-US (untranslated)
+                // OR is "TODO"
                 localeStrings.push({
                     ...enTranslation,
                     fallback: true
                 })
-                untranslatedKeys.push(enTranslation.key)
-            } else if (localeStrings[localeTranslationIndex].t === enTranslation.t || localeStrings[localeTranslationIndex].t.trim() === 'TODO') {
-                // current locale file's translation is same as en-US (untranslated)
-                // or is "TODO"
-                localeStrings[localeTranslationIndex].fallback = true
                 untranslatedKeys.push(enTranslation.key)
             } else {
                 // current locale has key, no fallback needed
