@@ -26,7 +26,7 @@ translations:
           Actualmente, está a visualizar este inquérito em modo de leitura.
     - key: general.survey_read_only_back
       t: >
-          <a href="{link}">Voltar</a> para a página principal do inquérito para iniciar ou retomar a sessão.
+          <a href="${link}">Voltar</a> para a página principal do inquérito para iniciar ou retomar a sessão.
 
     # surveys
     - key: general.open_surveys
@@ -62,7 +62,7 @@ translations:
     - key: general.privacy_policy
       t: Política de Privacidade
     - key: general.leave_issue
-      t: Questões? Encontrou um erro? <a href="{link}" target="_blank">Deixe uma sugestão</a>.
+      t: Questões? Encontrou um erro? <a href="${link}" target="_blank">Deixe uma sugestão</a>.
     - key: general.emoji_icons
       t: Emoji icons por <a target="_blank" rel="noreferrer" href="https://icons8.com">Icons8</a>
 

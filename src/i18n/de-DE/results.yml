@@ -16,7 +16,7 @@ translations:
       t: State of CSS
 
     - key: general.netlify_link
-      t: Gehostet von <a href={link}>Netlify</a>
+      t: Gehostet von <a href="${link}">Netlify</a>
 
     - key: general.completion_percentage
       t: 'Fortschritt:'

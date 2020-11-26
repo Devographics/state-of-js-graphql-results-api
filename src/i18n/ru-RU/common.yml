@@ -26,7 +26,7 @@ translations:
           Сейчас вы просматриваете опрос в режиме только для чтения.
     - key: general.survey_read_only_back
       t: >
-          <a href="{link}">Вернитесь</a> на главную страницу опроса, чтобы начать или возобновить сессию.
+          <a href="${link}">Вернитесь</a> на главную страницу опроса, чтобы начать или возобновить сессию.
 
     # surveys
     - key: general.open_surveys
@@ -62,7 +62,7 @@ translations:
     - key: general.privacy_policy
       t: Политика конфиденциальности
     - key: general.leave_issue
-      t: Есть вопрос? Нашли ошибку? <a href="{link}" target="_blank">Создайте ишью</a>.
+      t: Есть вопрос? Нашли ошибку? <a href="${link}" target="_blank">Создайте ишью</a>.
     - key: general.emoji_icons
       t: Эмодзи-иконки от <a target="_blank" rel="noreferrer" href="https://icons8.com">Icons8</a>
 
@@ -128,7 +128,7 @@ translations:
 
     # other
     - key: general.join_discord
-      t: Заходите к нам в <a href=${link}>Discord-чат</a>. 
+      t: Заходите к нам в <a href="${link}">Discord-чат</a>. 
     - key: general.translator_mode
       t: Нажмите option/alt, чтобы активировать режим переводчика.
 

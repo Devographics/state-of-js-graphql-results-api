@@ -26,7 +26,7 @@ translations:
           Stai guardando questo sondaggio in modalità sola lettura.
     - key: general.survey_read_only_back
       t: >
-          <a href="{link}">Torna indietro</a> alla pagina principale del sondaggio per iniziare o riprendere una sessione.
+          <a href="${link}">Torna indietro</a> alla pagina principale del sondaggio per iniziare o riprendere una sessione.
 
     # surveys
     - key: general.open_surveys
@@ -62,7 +62,7 @@ translations:
     - key: general.privacy_policy
       t: Politica sulla Privacy
     - key: general.leave_issue
-      t: Domande? Trovato un bug? <a href="{link}" target="_blank">Apri una issue</a>.
+      t: Domande? Trovato un bug? <a href="${link}" target="_blank">Apri una issue</a>.
 
     # navigation
     - key: general.table_of_contents

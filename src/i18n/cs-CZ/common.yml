@@ -27,7 +27,7 @@ translations:
           Průzkum si právě prohlížíte v režimu ke čtení.
     - key: general.survey_read_only_back
       t: >
-          Můžete se <a href="{link}">vrátit zpět</a>
+          Můžete se <a href="${link}">vrátit zpět</a>
           na hlavní stránku a začít průzkum znovu nebo v něm pokračovat.
 
     # surveys
@@ -64,7 +64,7 @@ translations:
     - key: general.privacy_policy
       t: Ochrana osobních údajů
     - key: general.leave_issue
-      t: Máte dotaz? Našli jste chybu? <a href="{link}" target="_blank">Založte issue</a>.
+      t: Máte dotaz? Našli jste chybu? <a href="${link}" target="_blank">Založte issue</a>.
     - key: general.emoji_icons
       t: Emoji ikony od <a target="_blank" rel="noreferrer" href="https://icons8.com">Icons8</a>
 
