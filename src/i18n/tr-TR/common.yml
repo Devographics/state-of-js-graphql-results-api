@@ -26,7 +26,7 @@ translations:
           Anketi saltokunur olarak görüntülüyorsunuz.
     - key: general.survey_read_only_back
       t: >
-          Ankate başlamak veya devam etmek için anket sayfasına <a href="{link}">geri dön</a>.
+          Ankate başlamak veya devam etmek için anket sayfasına <a href=${link}>geri dön</a>.
 
     # surveys
     - key: general.open_surveys
@@ -62,7 +62,7 @@ translations:
     - key: general.privacy_policy
       t: Gizlilik Politikası
     - key: general.leave_issue
-      t: Sorularınız mı var? Bir hata mı buldunuz? <a href="{link}" target="_blank">Bir sorun iletisi yaratın</a>.
+      t: Sorularınız mı var? Bir hata mı buldunuz? <a href=${link} target="_blank">Bir sorun iletisi yaratın</a>.
     - key: general.emoji_icons
       t: Emojiler, <a target="_blank" rel="noreferrer" href="https://icons8.com">Icons8</a>
 

@@ -26,7 +26,7 @@ translations:
           Du kannst die Daten der Umfrage derzeit nur ansehen.
     - key: general.survey_read_only_back
       t: >
-          <a href="{link}">Zurück</a> zur Hauptseite zum Starten oder Fortsetzen der Umfrage.
+          <a href=${link}>Zurück</a> zur Hauptseite zum Starten oder Fortsetzen der Umfrage.
 
     # surveys
     - key: general.open_surveys
@@ -62,7 +62,7 @@ translations:
     - key: general.privacy_policy
       t: Datenschutzrichtlinien
     - key: general.leave_issue
-      t: Fragen? Fehler gefunden? <a href="{link}" target="_blank">Erstelle ein Ticket</a>.
+      t: Fragen? Fehler gefunden? <a href=${link} target="_blank">Erstelle ein Ticket</a>.
     - key: general.emoji_icons
       t: Emoji Icons von <a target="_blank" rel="noreferrer" href="https://icons8.com">Icons8</a>
 
