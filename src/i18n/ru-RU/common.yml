@@ -128,9 +128,12 @@ translations:
 
     # other
     - key: general.join_discord
-      t: Заходите к нам в <a href="${link}">Discord-чат</a>. 
+      t: Заходите к нам в <a href="${link}">Discord-чат</a>.
     - key: general.translator_mode
       t: Нажмите option/alt, чтобы активировать режим переводчика.
+
+    - key: general.charts_nivo
+      t: Визуализация данных сделана с помощью <a href="${link}">Nivo</a>.
 
     ###########################################################################
     # Nav
