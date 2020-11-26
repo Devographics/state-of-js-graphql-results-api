@@ -16,7 +16,7 @@ translations:
       t: Estado de CSS
 
     - key: general.netlify_link
-      t: Alojado por <a href=${link}>Netlify</a>
+      t: Alojado por <a href="${link}">Netlify</a>
 
     - key: general.completion_percentage
       t: 'Porcentaje completado:'
