@@ -83,15 +83,15 @@ export async function computeCompletionByYear(db: Db, match: any): Promise<Recor
         .aggregate(aggregationPipeline)
         .toArray()
 
-    console.log(
-        inspect(
-            {
-                aggregationPipeline,
-                completionResults,
-            },
-            { colors: true, depth: null }
-        )
-    )
+    // console.log(
+    //     inspect(
+    //         {
+    //             aggregationPipeline,
+    //             completionResults,
+    //         },
+    //         { colors: true, depth: null }
+    //     )
+    // )
 
     return _.keyBy(completionResults, 'year')
 }
