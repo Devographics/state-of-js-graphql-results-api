@@ -131,10 +131,6 @@ export const getLocaleStringsWithFallback = (locale: Locale, contexts?: string[]
             // a previous iteration of the current loop
             const localeTranslationIndex = localeStrings.findIndex(t => t.key === enTranslation.key && !t.fallback)
 
-            if (enTranslation.key === 'sections.features.description') {
-                console.log(localeTranslationIndex)
-                console.log(localeStrings[localeTranslationIndex] && localeStrings[localeTranslationIndex].t)
-            }
             if (
                 localeTranslationIndex === -1 ||
                 localeStrings[localeTranslationIndex].t === enTranslation.t ||
