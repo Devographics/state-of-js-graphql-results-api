@@ -62,6 +62,13 @@ translations:
       t: |
         ANALYZE: High usage, low satisfaction. Reassess these technologies if you're currently using them.
 
+    - key: ranges.selector.years_of_experience
+      t: Experience
+    - key: ranges.selector.yearly_salary
+      t: Salary
+    - key: ranges.selector.company_size
+      t: Company Size
+
     ###########################################################################
     # Sections
     ###########################################################################
@@ -344,6 +351,13 @@ translations:
       t: Known Features
     - key: charts.axis_legends.frequency
       t: Frequency
+
+    - key: charts.ranges_multiple_diverging_lines.baseline
+      t: baseline
+    - key: charts.ranges_multiple_diverging_lines.positive_offset
+      t: positive offset
+    - key: charts.ranges_multiple_diverging_lines.negative_offset
+      t: negative offset
 
     ###########################################################################
     # Sharing
