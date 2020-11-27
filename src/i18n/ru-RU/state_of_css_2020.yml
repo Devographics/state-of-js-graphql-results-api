@@ -249,13 +249,13 @@ translations:
 
     - key: picks.hugogiraudel.bio
       t: Небинарный сторонник доступности и социокультурного многообразия
-    - key: picks.hugogiraudel.bio
+    - key: picks.hugogiraudel.description
       t: |
           Fela — удивительный инструмент.
           Он довольно мощный, достаточно простой в использовании и при этом очень эффективный.
     - key: picks.foolip.bio
       t: Программист в Google
-    - key: picks.foolip.bio
+    - key: picks.foolip.description
       t: |
           Сержио недавно исправил множество багов Flexbox в реализации WebKit и кое-что в Chromium,
           в частности, он добавил поддержку отступов между элементами в Flexbox для WebKit.
@@ -263,6 +263,6 @@ translations:
 
     - key: picks.jina.bio
       t: Дизайн-менеджер и специалист-практик
-    - key: picks.jina.bio
+    - key: picks.jina.description
       t: |
           Это медиавыражение, предназначенное для сокращения использования анимаций и переходов, специально для тех, кому это не по душе.
