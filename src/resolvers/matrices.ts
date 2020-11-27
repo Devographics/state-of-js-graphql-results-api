@@ -17,7 +17,7 @@ const getMatrixConfig = (
 ): MatrixConfig => ({ survey, ids, type, experience, filters })
 
 const generateMatrixResolver = (
-    type: 'years_of_experience' | 'yearly_salary' | 'company_size'
+    type: 'years_of_experience' | 'yearly_salary' | 'company_size' | 'source'
 ) => ({
     year: async (matrix: MatrixConfig, { year }: { year: number }, { db }: RequestContext) => {
         const result = await useCache(computeToolsMatrix, db, [
@@ -34,7 +34,7 @@ const generateMatrixResolver = (
         return {
             year,
             experience: matrix.experience,
-            buckets: result
+            tools: result
         }
     }
 })
@@ -52,9 +52,11 @@ export default {
     ToolsMatrices: {
         years_of_experience: getMatrixConfig,
         yearly_salary: getMatrixConfig,
-        company_size: getMatrixConfig
+        company_size: getMatrixConfig,
+        source: getMatrixConfig
     },
     ToolsWorkExperienceMatrix: generateMatrixResolver('years_of_experience'),
     ToolsSalaryMatrix: generateMatrixResolver('yearly_salary'),
-    ToolsCompanySizeMatrix: generateMatrixResolver('company_size')
+    ToolsCompanySizeMatrix: generateMatrixResolver('company_size'),
+    ToolsSourceMatrix: generateMatrixResolver('source')
 }

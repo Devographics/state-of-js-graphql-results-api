@@ -1,26 +1,39 @@
 #import "./experience.graphql"
 #import "./usage.graphql"
 
+interface ExperienceMatrixRange {
+    count: Int
+    percentage: Float
+    total_in_range: Int
+    percentage_from_range: Float
+    percentage_delta_from_range: Float
+    percentage_from_experience: Float
+}
+
 """
 Work Experience
 """
-type WorkExperienceMatrixRange @cacheControl(maxAge: 600) {
+type WorkExperienceMatrixRange implements ExperienceMatrixRange @cacheControl(maxAge: 600) {
     range: WorkExperienceRange
     count: Int
     percentage: Float
+    total_in_range: Int
+    percentage_from_range: Float
+    percentage_delta_from_range: Float
+    percentage_from_experience: Float
 }
 
 type WorkExperienceMatrixBucket @cacheControl(maxAge: 600) {
     id: String
     entity: Entity
     total: Int
-    average: Float
+    total_in_experience: Int
     ranges: [WorkExperienceMatrixRange] @cacheControl(maxAge: 600)
 }
 
 type YearWorkExperienceMatrix @cacheControl(maxAge: 600) {
     year: Int
-    buckets: [WorkExperienceMatrixBucket] @cacheControl(maxAge: 600)
+    tools: [WorkExperienceMatrixBucket] @cacheControl(maxAge: 600)
 }
 
 type ToolsWorkExperienceMatrix @cacheControl(maxAge: 600) {
@@ -31,23 +44,27 @@ type ToolsWorkExperienceMatrix @cacheControl(maxAge: 600) {
 """
 Salary
 """
-type SalaryMatrixRange @cacheControl(maxAge: 600) {
+type SalaryMatrixRange implements ExperienceMatrixRange @cacheControl(maxAge: 600) {
     range: SalaryRange
     count: Int
     percentage: Float
+    total_in_range: Int
+    percentage_from_range: Float
+    percentage_delta_from_range: Float
+    percentage_from_experience: Float
 }
 
 type SalaryMatrixBucket @cacheControl(maxAge: 600) {
     id: String
     entity: Entity
     total: Int
-    average: Float
+    total_in_experience: Int
     ranges: [SalaryMatrixRange] @cacheControl(maxAge: 600)
 }
 
 type YearSalaryMatrix @cacheControl(maxAge: 600) {
     year: Int
-    buckets: [SalaryMatrixBucket] @cacheControl(maxAge: 600)
+    tools: [SalaryMatrixBucket] @cacheControl(maxAge: 600)
 }
 
 type ToolsSalaryMatrix @cacheControl(maxAge: 600) {
@@ -58,27 +75,62 @@ type ToolsSalaryMatrix @cacheControl(maxAge: 600) {
 """
 Company Size
 """
-type CompanySizeMatrixRange @cacheControl(maxAge: 600) {
+type CompanySizeMatrixRange implements ExperienceMatrixRange @cacheControl(maxAge: 600) {
     range: CompanySizeRange
     count: Int
     percentage: Float
+    total_in_range: Int
+    percentage_from_range: Float
+    percentage_delta_from_range: Float
+    percentage_from_experience: Float
 }
 
 type CompanySizeMatrixBucket @cacheControl(maxAge: 600) {
     id: String
     entity: Entity
     total: Int
-    average: Float
+    total_in_experience: Int
     ranges: [CompanySizeMatrixRange] @cacheControl(maxAge: 600)
 }
 
 type YearCompanySizeMatrix @cacheControl(maxAge: 600) {
     year: Int
-    buckets: [CompanySizeMatrixBucket] @cacheControl(maxAge: 600)
+    tools: [CompanySizeMatrixBucket] @cacheControl(maxAge: 600)
 }
 
 type ToolsCompanySizeMatrix @cacheControl(maxAge: 600) {
     year(year: Int!): YearCompanySizeMatrix
+    experience: ExperienceID
+}
+
+"""
+Source
+"""
+type SourceMatrixRange implements ExperienceMatrixRange @cacheControl(maxAge: 600) {
+    range: String
+    count: Int
+    percentage: Float
+    total_in_range: Int
+    percentage_from_range: Float
+    percentage_delta_from_range: Float
+    percentage_from_experience: Float
+}
+
+type SourceMatrixBucket @cacheControl(maxAge: 600) {
+    id: String
+    entity: Entity
+    total: Int
+    total_in_experience: Int
+    ranges: [SourceMatrixRange] @cacheControl(maxAge: 600)
+}
+
+type YearSourceMatrix @cacheControl(maxAge: 600) {
+    year: Int
+    tools: [SourceMatrixBucket] @cacheControl(maxAge: 600)
+}
+
+type ToolsSourceMatrix @cacheControl(maxAge: 600) {
+    year(year: Int!): YearSourceMatrix
     experience: ExperienceID
 }
 
@@ -91,6 +143,7 @@ type ToolsMatrices @cacheControl(maxAge: 600) {
     years_of_experience(experience: ExperienceID!, filters: Filters): ToolsWorkExperienceMatrix
     yearly_salary(experience: ExperienceID!, filters: Filters): ToolsSalaryMatrix
     company_size(experience: ExperienceID!, filters: Filters): ToolsCompanySizeMatrix
+    source(experience: ExperienceID!, filters: Filters): ToolsSourceMatrix
 }
 
 #"""

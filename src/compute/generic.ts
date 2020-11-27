@@ -4,7 +4,7 @@ import _ from 'lodash'
 import config from '../config'
 import { Completion, SurveyConfig } from '../types'
 import { Filters, generateFiltersQuery } from '../filters'
-import { ratioToPercentage, appendCompletionToYearlyResults } from './common'
+import { ratioToPercentage } from './common'
 import { getEntity } from '../helpers'
 import { getParticipationByYearMap } from './demographics'
 
@@ -189,6 +189,7 @@ export async function computeTermAggregationByYear(
                     },
                     buckets: []
                 }
+
                 acc.push(yearBucket)
             }
 
@@ -206,8 +207,10 @@ export async function computeTermAggregationByYear(
 
     // compute percentages
     resultsByYear.forEach(year => {
+        let yearTotalPercents = 0
         year.buckets.forEach(bucket => {
-            bucket.percentage = ratioToPercentage(bucket.count / year.completion.total)
+            bucket.percentage = ratioToPercentage(bucket.count / year.completion.count)
+            yearTotalPercents += bucket.percentage
         })
     })
 
