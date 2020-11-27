@@ -255,14 +255,14 @@ translations:
 
     - key: picks.hugogiraudel.bio
       t: Non-binary accessibility & diversity advocate
-    - key: picks.hugogiraudel.bio
+    - key: picks.hugogiraudel.description
       t: |
           Fela is an amazing piece of software. 
           It’s pretty powerful, relatively easy to use and very performant
 
     - key: picks.foolip.bio
       t: Software Engineer @ Google
-    - key: picks.foolip.bio
+    - key: picks.foolip.description
       t: |
           Sergio has recently fixed lots of Flexbox in WebKit and even some in Chromium, 
           notably bringing flex gap to WebKit, 
@@ -270,7 +270,7 @@ translations:
     
     - key: picks.jina.bio
       t: Design systems advocate and practitioner
-    - key: picks.jina.bio
+    - key: picks.jina.description
       t: |
           The media query to reduce motion, which helps avoid 
           triggering dizziness and discomfort.
