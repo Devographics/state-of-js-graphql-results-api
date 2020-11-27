@@ -86,9 +86,9 @@ translations:
       t: Другие CSS-методологии.
 
     - key: sections.css_in_js.title
-      t: CSS-in-JS
+      t: Подход CSS-in-JS
     - key: sections.css_in_js.description
-      t: Библиотеки для интеграции CSS в JavaScript-код.
+      t: Библиотеки для написания CSS в JavaScript-коде.
 
     - key: sections.css_in_js_others.title
       t: Другие библиотеки CSS-in-JS.

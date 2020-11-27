@@ -217,6 +217,18 @@ translations:
     - key: options.tools.would_not_use
       t: 👎 Использовал > Больше не буду использовать
 
+    # tools experience (no emoji)
+    - key: options.tools.never_heard.legend
+      t: Впервые слышу/Не уверен, что это
+    - key: options.tools.interested.legend
+      t: Слышал об этом > Хочу изучить
+    - key: options.tools.not_interested.legend
+      t: Слышал об этом > Не интересно
+    - key: options.tools.would_use.legend
+      t: Использовал > Буду использовать снова
+    - key: options.tools.would_not_use.legend
+      t: Использовал > Больше не буду использовать
+
     # tools experience (short versions)
     - key: options.tools.never_heard.short
       t: Впервые слышу
