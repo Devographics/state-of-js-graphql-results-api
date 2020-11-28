@@ -8,36 +8,6 @@ import { SurveyConfig } from '../types'
 import { Filters, generateFiltersQuery } from '../filters'
 import { computeTermAggregationByYear } from './generic'
 
-interface MatrixBucket {
-    // Id of the range, e.g. `range_50_100` for `company_size`.
-    id: string
-    // Number of responses for a given tool/feature in a specific range.
-    // e.g. users who picked `range_50_100` for `company_size`
-    // and also picked `would_use` for experience with `tailwind_css`.
-    count: number
-    // Number of respondents who picked both an answer
-    // for the `experience` question about the tool/feature
-    // and the range topic (e.g. `company_size`).
-    total: number
-    // `count` VS `total`
-    percentage: number
-    // Number of participants who answered
-    // the experience question about the tool/feature.
-    // e.g. users who picked `would_use` for experience
-    // with `tailwind_css`.
-    total_in_experience: number
-    // Distribution of range in experience,
-    // `count` VS `total_in_experience`.
-    percentage_from_experience: number
-    // Total number of respondents for this specific range,
-    // e.g. number of users who selected `range_50_100`
-    // for the `company_size` question.
-    total_in_range: number
-    // Distribution of experience in range,
-    // `count` VS `total_in_range`.
-    percentage_from_range: number
-}
-
 export const computeToolMatrixBreakdown = async (
     db: Db,
     {

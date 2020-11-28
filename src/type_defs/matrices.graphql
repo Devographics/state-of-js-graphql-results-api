@@ -17,10 +17,33 @@ enum MatrixDimensionID {
 }
 
 type MatrixBucket @cacheControl(maxAge: 600) {
+    """
+    Id of the bucket dimension range, e.g. `range_50_100`
+    for `company_size`.
+    """
     id: String
+    """
+    Number of responses for a given tool/feature in a specific range.
+    e.g. users who picked `range_50_100` for `company_size` and also
+    picked `would_use` for experience with `tailwind_css`.
+    """
     count: Int
+    """
+    Ratio from all respondents who picked a specific experience
+    for the current tool and also answered to the question related
+    to the dimension, e.g. `yearly_salary`.
+    """
     percentage: Float
+    """
+    Total number of respondents for this specific range,
+    e.g. number of users who selected `range_50_100`
+    for the `company_size` question.
+    """
     total_in_range: Int
+    """
+    Ratio of experience in this specific range,
+    `count` VS `total_in_range`.
+    """
     percentage_from_range: Float
     percentage_delta_from_range: Float
     percentage_from_experience: Float
