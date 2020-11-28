@@ -51,7 +51,7 @@ export const computeToolMatrixBreakdown = async (
         survey: SurveyConfig
         tool: string
         experience: string
-        type: 'years_of_experience' | 'yearly_salary' | 'company_size' | 'source'
+        type: string
         year: number
         filters?: Filters
     }
@@ -98,7 +98,7 @@ export const computeToolMatrixBreakdown = async (
             {
                 $project: {
                     _id: 0,
-                    range: '$_id.breakdown',
+                    id: '$_id.breakdown',
                     count: 1
                 }
             },
@@ -117,17 +117,17 @@ export const computeToolMatrixBreakdown = async (
     results.forEach(bucket => {
         bucket.percentage = ratioToPercentage(bucket.count / total)
 
-        const rangeData = rangeDistributionByRangeId[bucket.range]
+        const rangeData = rangeDistributionByRangeId[bucket.id]
         if (!rangeData) {
-            throw new Error(`unable to get range data for ${type}: ${bucket.range}`)
+            throw new Error(`unable to get range data for ${type}: ${bucket.id}`)
         }
 
-        bucket.total_in_range = rangeDistributionByRangeId[bucket.range].count
+        bucket.total_in_range = rangeData.count
         bucket.percentage_from_range = ratioToPercentage(bucket.count / bucket.total_in_range)
         // how does the distribution for this specific experience/range compare
         // to the overall distribution for the range?
         bucket.percentage_delta_from_range = _.round(
-            bucket.percentage - rangeDistributionByRangeId[bucket.range].percentage,
+            bucket.percentage - rangeData.percentage,
             2
         )
 
@@ -152,7 +152,7 @@ export const computeToolMatrixBreakdown = async (
         entity: getEntity({ id: tool }),
         total,
         total_in_experience: experienceTotal,
-        ranges: results
+        buckets: results
     }
 }
 
@@ -169,7 +169,7 @@ export async function computeToolsMatrix(
         survey: SurveyConfig
         tools: string[]
         experience: string
-        type: 'years_of_experience' | 'yearly_salary' | 'company_size' | 'source'
+        type: string
         year: number
         filters?: Filters
     }
