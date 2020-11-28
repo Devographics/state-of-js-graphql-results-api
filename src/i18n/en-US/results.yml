@@ -319,7 +319,7 @@ translations:
     # Tools usage variations
     - key: blocks.tools_usage_variation.title
       t: Usage Variations
-    - key: blocks.tools_usage_variation.descriptions
+    - key: blocks.tools_usage_variation.description
       t: >
         How different factors such as salary range, years of experience
         or company size influence usage.
