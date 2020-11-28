@@ -28,29 +28,35 @@ export const computeToolMatrixBreakdown = async (
 ) => {
     const collection = db.collection(config.mongo.normalized_collection)
 
-    const toolPath = `tools.${tool}.experience`
-    let breakdownPath = `user_info.${type}`
-
-    // `source` is normalized, so we need to access a nested field
-    if (type === 'source') {
-        breakdownPath = `${breakdownPath}.normalized`
+    const toolExperiencePath = `tools.${tool}.experience`
+    let experiencePredicate: any = experience
+    // `usage` is not a direct experience ID, it means
+    // either `would_use` or `would_not_use`
+    if (experience === 'usage') {
+        experiencePredicate = { $in: ['would_use', 'would_not_use'] }
     }
 
-    const rangeDistributionByYear = await computeTermAggregationByYear(db, survey, breakdownPath, {
+    let dimensionPath = `user_info.${type}`
+    // `source` is normalized, so we need to access a nested field
+    if (type === 'source') {
+        dimensionPath = `${dimensionPath}.normalized`
+    }
+
+    const match = {
+        survey: survey.survey,
+        year,
+        [toolExperiencePath]: experiencePredicate,
+        [dimensionPath]: { $nin: [null, ''] },
+        ...generateFiltersQuery(filters)
+    }
+
+    const rangeDistributionByYear = await computeTermAggregationByYear(db, survey, dimensionPath, {
         filters,
         cutoff: 0,
         limit: 100
     })
     const rangeDistribution = rangeDistributionByYear.find(yearResults => yearResults.year === year)
     const rangeDistributionByRangeId = _.keyBy(rangeDistribution!.buckets, 'id')
-
-    const match = {
-        survey: survey.survey,
-        year,
-        [toolPath]: experience,
-        [breakdownPath]: { $nin: [null, ''] },
-        ...generateFiltersQuery(filters)
-    }
 
     const results = await collection
         .aggregate([
@@ -60,7 +66,7 @@ export const computeToolMatrixBreakdown = async (
             {
                 $group: {
                     _id: {
-                        breakdown: `$${breakdownPath}`
+                        breakdown: `$${dimensionPath}`
                     },
                     count: { $sum: 1 }
                 }
@@ -80,7 +86,7 @@ export const computeToolMatrixBreakdown = async (
     const experienceTotal = await collection.countDocuments({
         survey: survey.survey,
         year,
-        [toolPath]: experience
+        [toolExperiencePath]: experiencePredicate
     })
 
     const total = _.sumBy(results, 'count')
