@@ -1,167 +1,75 @@
 #import "./experience.graphql"
-#import "./usage.graphql"
 
-interface ExperienceMatrixRange {
-    count: Int
-    percentage: Float
-    total_in_range: Int
-    percentage_from_range: Float
-    percentage_delta_from_range: Float
-    percentage_from_experience: Float
+enum ToolMatrixExperienceID {
+    would_use
+    would_not_use
+    interested
+    not_interested
+    never_heard
+    usage
 }
 
-"""
-Work Experience
-"""
-type WorkExperienceMatrixRange implements ExperienceMatrixRange @cacheControl(maxAge: 600) {
-    range: WorkExperienceRange
-    count: Int
-    percentage: Float
-    total_in_range: Int
-    percentage_from_range: Float
-    percentage_delta_from_range: Float
-    percentage_from_experience: Float
+enum MatrixDimensionID {
+    company_size
+    source
+    yearly_salary
+    years_of_experience
 }
 
-type WorkExperienceMatrixBucket @cacheControl(maxAge: 600) {
+type MatrixBucket @cacheControl(maxAge: 600) {
+    """
+    Id of the bucket dimension range, e.g. `range_50_100`
+    for `company_size`.
+    """
     id: String
-    entity: Entity
-    total: Int
-    total_in_experience: Int
-    ranges: [WorkExperienceMatrixRange] @cacheControl(maxAge: 600)
-}
-
-type YearWorkExperienceMatrix @cacheControl(maxAge: 600) {
-    year: Int
-    tools: [WorkExperienceMatrixBucket] @cacheControl(maxAge: 600)
-}
-
-type ToolsWorkExperienceMatrix @cacheControl(maxAge: 600) {
-    year(year: Int!): YearWorkExperienceMatrix
-    experience: ExperienceID
-}
-
-"""
-Salary
-"""
-type SalaryMatrixRange implements ExperienceMatrixRange @cacheControl(maxAge: 600) {
-    range: SalaryRange
+    """
+    Number of responses for a given tool/feature in a specific range.
+    e.g. users who picked `range_50_100` for `company_size` and also
+    picked `would_use` for experience with `tailwind_css`.
+    """
     count: Int
+    """
+    Ratio from all respondents who picked a specific experience
+    for the current tool and also answered to the question related
+    to the dimension, e.g. `yearly_salary`.
+    """
     percentage: Float
+    """
+    Total number of respondents for this specific range,
+    e.g. number of users who selected `range_50_100`
+    for the `company_size` question.
+    """
     total_in_range: Int
+    """
+    Ratio of experience in this specific range,
+    `count` VS `total_in_range`.
+    """
     percentage_from_range: Float
     percentage_delta_from_range: Float
     percentage_from_experience: Float
 }
 
-type SalaryMatrixBucket @cacheControl(maxAge: 600) {
-    id: String
+type ToolMatrix @cacheControl(maxAge: 600) {
+    id: ToolID
     entity: Entity
-    total: Int
-    total_in_experience: Int
-    ranges: [SalaryMatrixRange] @cacheControl(maxAge: 600)
+    buckets: [MatrixBucket] @cacheControl(maxAge: 600)
 }
 
-type YearSalaryMatrix @cacheControl(maxAge: 600) {
-    year: Int
-    tools: [SalaryMatrixBucket] @cacheControl(maxAge: 600)
+type ToolsExperienceDimensionMatrix @cacheControl(maxAge: 600) {
+    dimension: MatrixDimensionID
+    tools: [ToolMatrix] @cacheControl(maxAge: 600)
 }
 
-type ToolsSalaryMatrix @cacheControl(maxAge: 600) {
-    year(year: Int!): YearSalaryMatrix
-    experience: ExperienceID
+type ToolsExperienceMatrices @cacheControl(maxAge: 600) {
+    experience: ToolMatrixExperienceID
+    dimensions: [ToolsExperienceDimensionMatrix] @cacheControl(maxAge: 600)
 }
-
-"""
-Company Size
-"""
-type CompanySizeMatrixRange implements ExperienceMatrixRange @cacheControl(maxAge: 600) {
-    range: CompanySizeRange
-    count: Int
-    percentage: Float
-    total_in_range: Int
-    percentage_from_range: Float
-    percentage_delta_from_range: Float
-    percentage_from_experience: Float
-}
-
-type CompanySizeMatrixBucket @cacheControl(maxAge: 600) {
-    id: String
-    entity: Entity
-    total: Int
-    total_in_experience: Int
-    ranges: [CompanySizeMatrixRange] @cacheControl(maxAge: 600)
-}
-
-type YearCompanySizeMatrix @cacheControl(maxAge: 600) {
-    year: Int
-    tools: [CompanySizeMatrixBucket] @cacheControl(maxAge: 600)
-}
-
-type ToolsCompanySizeMatrix @cacheControl(maxAge: 600) {
-    year(year: Int!): YearCompanySizeMatrix
-    experience: ExperienceID
-}
-
-"""
-Source
-"""
-type SourceMatrixRange implements ExperienceMatrixRange @cacheControl(maxAge: 600) {
-    range: String
-    count: Int
-    percentage: Float
-    total_in_range: Int
-    percentage_from_range: Float
-    percentage_delta_from_range: Float
-    percentage_from_experience: Float
-}
-
-type SourceMatrixBucket @cacheControl(maxAge: 600) {
-    id: String
-    entity: Entity
-    total: Int
-    total_in_experience: Int
-    ranges: [SourceMatrixRange] @cacheControl(maxAge: 600)
-}
-
-type YearSourceMatrix @cacheControl(maxAge: 600) {
-    year: Int
-    tools: [SourceMatrixBucket] @cacheControl(maxAge: 600)
-}
-
-type ToolsSourceMatrix @cacheControl(maxAge: 600) {
-    year(year: Int!): YearSourceMatrix
-    experience: ExperienceID
-}
-
-"""
-Sub-aggregations for tools for a given experience response,
-for example, salary breakdown for users who have used React
-and would use it again.
-"""
-type ToolsMatrices @cacheControl(maxAge: 600) {
-    years_of_experience(experience: ExperienceID!, filters: Filters): ToolsWorkExperienceMatrix
-    yearly_salary(experience: ExperienceID!, filters: Filters): ToolsSalaryMatrix
-    company_size(experience: ExperienceID!, filters: Filters): ToolsCompanySizeMatrix
-    source(experience: ExperienceID!, filters: Filters): ToolsSourceMatrix
-}
-
-#"""
-#Sub-aggregations for features for a given usage response,
-#for example, salary breakdown for users who have used flex-box.
-#"""
-#type FeaturesMatrix @cacheControl(maxAge: 600) {
-#    year(year: Int!): YearMatrix
-#    experience: UsageID
-#}
-#
-#type FeaturesMatrices @cacheControl(maxAge: 600) {
-#    workExperience(usage: UsageID!): FeaturesMatrix
-#    salary(usage: UsageID!): FeaturesMatrix
-#    companySize(usage: UsageID!): FeaturesMatrix
-#}
 
 type Matrices @cacheControl(maxAge: 600) {
-    tools(ids: [ToolID]): ToolsMatrices
-    # features(ids: [FeatureID]): FeaturesMatrices
+    tools(
+        year: Int!,
+        ids: [ToolID]!,
+        experiences: [ToolMatrixExperienceID]!,
+        dimensions: [MatrixDimensionID]!
+    ): [ToolsExperienceMatrices]
 }

@@ -1,62 +1,51 @@
 import { useCache } from '../caching'
 import { computeToolsMatrix } from '../compute'
 import { SurveyConfig, RequestContext } from '../types'
-import { Filters } from '../filters'
-
-interface MatrixConfig {
-    survey: SurveyConfig
-    ids: string[]
-    type: 'tools' | 'features'
-    experience: string
-    filters?: Filters
-}
-
-const getMatrixConfig = (
-    { survey, ids, type }: Omit<MatrixConfig, 'experience' | 'filters'>,
-    { experience, filters }: { experience: MatrixConfig['experience']; filters?: Filters }
-): MatrixConfig => ({ survey, ids, type, experience, filters })
-
-const generateMatrixResolver = (
-    type: 'years_of_experience' | 'yearly_salary' | 'company_size' | 'source'
-) => ({
-    year: async (matrix: MatrixConfig, { year }: { year: number }, { db }: RequestContext) => {
-        const result = await useCache(computeToolsMatrix, db, [
-            {
-                survey: matrix.survey,
-                tools: matrix.ids,
-                experience: matrix.experience,
-                type,
-                year,
-                filters: matrix.filters
-            }
-        ])
-
-        return {
-            year,
-            experience: matrix.experience,
-            tools: result
-        }
-    }
-})
 
 export default {
     Matrices: {
-        tools: ({ survey }: { survey: SurveyConfig }, { ids }: { ids: string[] }) => {
-            return { survey, ids, type: 'tools' }
+        tools: async (
+            { survey }: { survey: SurveyConfig },
+            {
+                year,
+                ids,
+                experiences,
+                dimensions,
+            }: {
+                year: number
+                ids: string[]
+                experiences: string[]
+                dimensions: string[]
+            },
+            { db }: RequestContext
+        ) => {
+            const result = []
+            for (const experience of experiences) {
+                const by_dimension = []
+                for (const dimension of dimensions) {
+                    const tools = await useCache(computeToolsMatrix, db, [
+                        {
+                            survey,
+                            tools: ids,
+                            experience,
+                            type: dimension,
+                            year,
+                        }
+                    ])
+
+                    by_dimension.push({
+                        dimension,
+                        tools,
+                    })
+                }
+
+                result.push({
+                    experience,
+                    dimensions: by_dimension,
+                })
+            }
+
+            return result
         }
-        // @todo: implement features matrices
-        // features: ({ survey }: { survey: SurveyConfig }, { ids }: { ids: string[] }) => {
-        //     return { survey, ids, type: 'features' }
-        // }
-    },
-    ToolsMatrices: {
-        years_of_experience: getMatrixConfig,
-        yearly_salary: getMatrixConfig,
-        company_size: getMatrixConfig,
-        source: getMatrixConfig
-    },
-    ToolsWorkExperienceMatrix: generateMatrixResolver('years_of_experience'),
-    ToolsSalaryMatrix: generateMatrixResolver('yearly_salary'),
-    ToolsCompanySizeMatrix: generateMatrixResolver('company_size'),
-    ToolsSourceMatrix: generateMatrixResolver('source')
+    }
 }

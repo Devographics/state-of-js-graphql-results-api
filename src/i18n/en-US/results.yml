@@ -62,6 +62,13 @@ translations:
       t: |
         ANALYZE: High usage, low satisfaction. Reassess these technologies if you're currently using them.
 
+    - key: ranges.selector.years_of_experience
+      t: Experience
+    - key: ranges.selector.yearly_salary
+      t: Salary
+    - key: ranges.selector.company_size
+      t: Company Size
+
     ###########################################################################
     # Sections
     ###########################################################################
@@ -298,7 +305,7 @@ translations:
         Hover on each node to view detailed data along with an <span class="text-blackpink text-bold">overlay</span>
         representing the total number of survey respondents.
 
-  # export
+    # export
     - key: export.export
       t: Export
     - key: export.title
@@ -308,6 +315,25 @@ translations:
     - key: export.graphql
       t: >
           You can copy paste this query into our <a target="_blank" rel="nofollow" href="http://graphiql.stateofjs.com/">public GraphQL API</a>.
+
+    # Tools usage variations
+    - key: blocks.tools_usage_variations.title
+      t: Usage Variations
+    - key: blocks.tools_usage_variations.description
+      t: |
+        How different factors such as salary range, years of experience
+        or company size influence usage (participants who answered either
+        ”would use again” or “would not use again”).
+
+        The baseline represents the base usage for each tool and the offsets
+        correspond to the delta from this baseline in each range. Let's say
+        tool X has an overall usage of 10% across all respondents (the baseline),
+        then if the percentage of users having from 1 to 2 years of experience
+        using this tool is 13% (compared to all users having from 1 to 2 years
+        of experience), then we have a postive delta of +3%.
+    - key: blocks.tools_usage_variations.note
+      t: |
+        Please keep in mind that tools having a lower overall usage tends to vary more.
 
     ###########################################################################
     # Charts
@@ -344,6 +370,13 @@ translations:
       t: Known Features
     - key: charts.axis_legends.frequency
       t: Frequency
+
+    - key: charts.ranges_multiple_diverging_lines.baseline
+      t: baseline
+    - key: charts.ranges_multiple_diverging_lines.positive_offset
+      t: positive offset
+    - key: charts.ranges_multiple_diverging_lines.negative_offset
+      t: negative offset
 
     ###########################################################################
     # Sharing
