@@ -491,6 +491,11 @@ translations:
     - key: environments.css_for_email.description
       t: Do you write CSS for email clients?
 
+    - key: charts.axis_legends.css_for_print
+      t: Frequency
+    - key: charts.axis_legends.css_for_email
+      t: Frequency
+
     ###########################################################################
     # Opinions
     ###########################################################################
