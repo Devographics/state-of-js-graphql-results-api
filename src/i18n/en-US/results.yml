@@ -305,7 +305,7 @@ translations:
         Hover on each node to view detailed data along with an <span class="text-blackpink text-bold">overlay</span>
         representing the total number of survey respondents.
 
-  # export
+    # export
     - key: export.export
       t: Export
     - key: export.title
@@ -315,6 +315,17 @@ translations:
     - key: export.graphql
       t: >
           You can copy paste this query into our <a target="_blank" rel="nofollow" href="http://graphiql.stateofjs.com/">public GraphQL API</a>.
+
+    # Tools usage variations
+    - key: blocks.tools_usage_variation.title
+      t: Usage Variations
+    - key: blocks.tools_usage_variation.descriptions
+      t: >
+        How different factors such as salary range, years of experience
+        or company size influence usage.
+
+        The baseline represents the base usage for each tool and the offsets
+        use the delta from this baseline in each range.
 
     ###########################################################################
     # Charts
