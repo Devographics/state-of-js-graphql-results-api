@@ -359,19 +359,19 @@ translations:
 
     # salary (short versions)
     - key: options.yearly_salary.range_work_for_free.short
-      t: '0 долларов'
+      t: '0'
     - key: options.yearly_salary.range_0_10.short
-      t: 0-10 тыс. долларов
+      t: 0-10 т.
     - key: options.yearly_salary.range_10_30.short
-      t: 10-30 тыс. долларов
+      t: 10-30 т.
     - key: options.yearly_salary.range_30_50.short
-      t: 30-50 тыс. долларов
+      t: 30-50 т.
     - key: options.yearly_salary.range_50_100.short
-      t: 50-100 тыс. долларов
+      t: 50-100 т.
     - key: options.yearly_salary.range_100_200.short
-      t: 100-200 тыс. долларов
+      t: 100-200 т.
     - key: options.yearly_salary.range_more_than_200.short
-      t: 'Больше 200 тыс. долларов'
+      t: '> 200 т.'
 
     # job titles
     - key: options.job_title.cto
