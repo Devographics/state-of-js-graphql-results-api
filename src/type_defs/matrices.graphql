@@ -6,7 +6,18 @@ enum ToolMatrixExperienceID {
     interested
     not_interested
     never_heard
+    """
+    `would_use` + `would_not_use`
+    """
     usage
+    """
+    `would_use` + `interested`
+    """
+    positive_sentiment
+    """
+    `would_not_use` + `not_interested`
+    """
+    negative_sentiment
 }
 
 enum MatrixDimensionID {

@@ -1,5 +1,5 @@
 import { useCache } from '../caching'
-import { computeToolsMatrix } from '../compute'
+import { computeToolsMatrix, ToolExperienceFilterId } from '../compute'
 import { SurveyConfig, RequestContext } from '../types'
 
 export default {
@@ -14,7 +14,7 @@ export default {
             }: {
                 year: number
                 ids: string[]
-                experiences: string[]
+                experiences: ToolExperienceFilterId[]
                 dimensions: string[]
             },
             { db }: RequestContext
