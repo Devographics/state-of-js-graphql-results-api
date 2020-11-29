@@ -30,7 +30,7 @@ translations:
     ###########################################################################
     # Options
     ###########################################################################
-  
+
     - key: options.experience_ranking.satisfaction
       t: Satisfaction
     - key: options.experience_ranking.interest
@@ -78,7 +78,7 @@ translations:
     ###########################################################################
     # Sections
     ###########################################################################
- 
+
     - key: sections.introduction.title
       t: Introduction
 
@@ -248,9 +248,9 @@ translations:
       t: Positive/Negative Split
     - key: blocks.tools_experience_marimekko.description
       t: |
-          This chart splits positive (“want to learn”, ”would use again”) vs 
-          negative (“not interested”, “would not use again”) experiences on 
-          both sides of a central axis. 
+          This chart splits positive (“want to learn”, ”would use again”) vs
+          negative (“not interested”, “would not use again”) experiences on
+          both sides of a central axis.
 
           Bar thickness represents the number of respondents aware of a technology.
 
@@ -262,7 +262,7 @@ translations:
         Overview of opinions on the technologies surveyed over time.
     - key: blocks.tools_section_streams.note
       t: |
-        Technologies with only one year of data are not included. 
+        Technologies with only one year of data are not included.
 
     # tools section overview
     - key: blocks.tools_section_overview.title
@@ -345,7 +345,7 @@ translations:
         tool X has an overall usage of 10% across all respondents (the baseline),
         then if the percentage of users having from 1 to 2 years of experience
         using this tool is 13% (compared to all users having from 1 to 2 years
-        of experience), then we have a postive delta of +3%.
+        of experience), then we have a positive delta of +3%.
     - key: blocks.tools_usage_variations.note
       t: |
         Please keep in mind that tools having a lower overall usage tends to vary more.
