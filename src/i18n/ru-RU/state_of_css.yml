@@ -499,6 +499,11 @@ translations:
     - key: environments.css_for_email.description
       t: Вы создаёте CSS-стили для почтовых клиентов?
 
+    - key: charts.axis_legends.css_for_print
+      t: Периодичность
+    - key: charts.axis_legends.css_for_email
+      t: Периодичность
+
     ###########################################################################
     # Opinions
     ###########################################################################
