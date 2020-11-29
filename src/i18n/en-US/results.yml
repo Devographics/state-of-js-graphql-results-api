@@ -21,6 +21,12 @@ translations:
     - key: general.completion_percentage
       t: 'Completion percentage:'
 
+    - key: partners.thanks
+      t: Thanks to our partners for supporting us!
+    
+    - key: partners.learn_more
+      t: Learn more.
+
     ###########################################################################
     # Options
     ###########################################################################
@@ -87,6 +93,15 @@ translations:
 
     - key: sections.conclusion.title
       t: Conclusion
+
+    - key: sections.support.title
+      t: Support Us
+    - key: sections.support.description
+      t: >
+        We run this survey as a side project, but in order to make the 
+        project sustainable we’re always looking for partners who can help support us, 
+        either financially or by helping us spread the word.
+        If you think you could help in any way, please don’t hesitate to [get in touch](mailto:hello@stateofjs.com)!
 
     ###########################################################################
     # User Info
@@ -334,6 +349,10 @@ translations:
     - key: blocks.tools_usage_variations.note
       t: |
         Please keep in mind that tools having a lower overall usage tends to vary more.
+
+    # Recommended Resources
+    - key: blocks.recommended_resources.title
+      t: Recommended Resources
 
     ###########################################################################
     # Charts
