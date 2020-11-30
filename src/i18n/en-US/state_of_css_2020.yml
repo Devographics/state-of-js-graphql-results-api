@@ -159,13 +159,13 @@ translations:
       t: No other tool comes even close to Tailwind CSS's dramatic **${value}** progression over the last year.
 
     - key: award.tool_satisfaction_award.comment
-      t: Post CSS's **${value}** satisfaction ratio shows that you can't beat doing one thing really, really well.
+      t: PostCSS's **${value}** satisfaction ratio shows that you can't beat doing one thing really, really well.
 
     - key: award.tool_interest_award.comment
       t: With a **${value}** ratio, CSS Modules have generated the most interest among CSS developers this year.
 
     - key: award.most_write_ins_award.comment
-      t: Many questions also accepted write-in answers, and with **${value}** mentions PHP Storm was the most popular item overall.
+      t: Many questions also accepted write-in answers, and with **${value}** mentions PhpStorm was the most popular item overall.
 
       
     ###########################################################################

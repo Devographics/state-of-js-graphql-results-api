@@ -99,13 +99,13 @@ translations:
       t: Ninguna otra herramienta se acerca al rápido crecimiento que ha tenido Tailwind CSS en el último año.
 
     - key: award.tool_satisfaction_award.comment
-      t: El ratio de satisfacción con Post CSS demuestra que puedes vencer haciendo algo realmente bien.
+      t: El ratio de satisfacción con PostCSS demuestra que puedes vencer haciendo algo realmente bien.
 
     - key: award.tool_interest_award.comment
       t: Los módulos de CSS han generado el mayor interés entre los desarrolladores este año.
 
     - key: award.most_write_ins_award.comment
-      t: Muchas preguntas aceptan respuestas escritas, y PHP Storm ha sido quien ha recibido más menciones.
+      t: Muchas preguntas aceptan respuestas escritas, y PhpStorm ha sido quien ha recibido más menciones.
 
       
     ###########################################################################
