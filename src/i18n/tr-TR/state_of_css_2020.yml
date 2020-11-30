@@ -98,13 +98,13 @@ translations:
       t: Hiçbir diğer araç Tailwind CSS'nin geçen yılki etkileyici ilerlemesine biraz bile yaklaşamadı.
 
     - key: award.tool_satisfaction_award.comment
-      t: Post CSS'nin yüksek memnuniyet oranı bir şeyi gerçekten çok iyi bir şekilde yapmanın alt edilemez olduğunu gösteiyor.
+      t: PostCSS'nin yüksek memnuniyet oranı bir şeyi gerçekten çok iyi bir şekilde yapmanın alt edilemez olduğunu gösteiyor.
 
     - key: award.tool_interest_award.comment
       t: CSS Modülleri bu sene geliştiriciler arasında en çok ilgi gören şey oldu.
 
     - key: award.most_write_ins_award.comment
-      t: Birçok soru yazılı yanıtları da kabul etti, ve PHP Storm bunlarda en çok sözü edilen şey oldu.
+      t: Birçok soru yazılı yanıtları da kabul etti, ve PhpStorm bunlarda en çok sözü edilen şey oldu.
 
       
     ###########################################################################

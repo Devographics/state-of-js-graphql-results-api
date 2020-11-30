@@ -88,13 +88,13 @@ translations:
       t: Kein anderes Werkzeug hat im letzten Jahr so dramatische Fortschritte gemacht wie Tailwind CSS.
 
     - key: award.tool_satisfaction_award.comment
-      t: Post CSS's hohe Zufriedenheitswerte zeigen, dass es sich lohnt sich auf eine Sache zu konzentrieren.
+      t: PostCSS's hohe Zufriedenheitswerte zeigen, dass es sich lohnt sich auf eine Sache zu konzentrieren.
 
     - key: award.tool_interest_award.comment
       t: CSS Module haben in diesem Jahr das meiste Interesse unter Entwicklern generiert.
 
     - key: award.most_write_ins_award.comment
-      t: Viele Fragen haben auch freie Antworten erlaubt und PHP Storm wurde dabei am meisten erwähnt.
+      t: Viele Fragen haben auch freie Antworten erlaubt und PhpStorm wurde dabei am meisten erwähnt.
 
     ###########################################################################
     # Conclusion
