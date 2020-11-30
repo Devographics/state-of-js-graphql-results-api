@@ -7,17 +7,29 @@ enum ToolMatrixExperienceID {
     not_interested
     never_heard
     """
-    `would_use` + `would_not_use`
+    `would_use` + `would_not_use` VS total
     """
     usage
     """
-    `would_use` + `interested`
+    `would_use` + `interested` VS `would_use` + `would_not_use` + `interested` + `not_interested`
     """
     positive_sentiment
     """
-    `would_not_use` + `not_interested`
+    `would_not_use` + `not_interested` VS `would_use` + `would_not_use` + `interested` + `not_interested`
     """
     negative_sentiment
+    """
+    `would_use` VS `would_not_use`
+    """
+    satisfaction
+    """
+    `interested` VS `not_interested`
+    """
+    interest
+    """
+    `never_heard` VS total (inverted)
+    """
+    awareness
 }
 
 enum MatrixDimensionID {
@@ -43,26 +55,36 @@ type MatrixBucket @cacheControl(maxAge: 600) {
     Ratio from all respondents who picked a specific experience
     for the current tool and also answered to the question related
     to the dimension, e.g. `yearly_salary`.
+    `count` VS `total`.
     """
     percentage: Float
     """
     Total number of respondents for this specific range,
     e.g. number of users who selected `range_50_100`
-    for the `company_size` question.
+    for the `company_size` question and also answered
+    the experience question.
     """
-    total_in_range: Int
+    range_total: Int
     """
     Ratio of experience in this specific range,
-    `count` VS `total_in_range`.
+    `count` VS `range_total`.
     """
-    percentage_from_range: Float
-    percentage_delta_from_range: Float
-    percentage_from_experience: Float
+    range_percentage: Float
+    """
+    Delta between the overall percentage of responses
+    for the selected experience filter compared
+    to the percentage in this range.
+    `range_percentage` VS overall percentage.
+    """
+    range_percentage_delta: Float
 }
 
 type ToolMatrix @cacheControl(maxAge: 600) {
     id: ToolID
     entity: Entity
+    count: Int
+    total: Int
+    percentage: Float
     buckets: [MatrixBucket] @cacheControl(maxAge: 600)
 }
 

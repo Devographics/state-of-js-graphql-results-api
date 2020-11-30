@@ -5,7 +5,7 @@ import config from '../config'
 import { ratioToPercentage } from './common'
 import { getEntity } from '../helpers'
 import { SurveyConfig } from '../types'
-import { ToolExperienceFilterId, toolExperienceFilterById } from './tools'
+import { ToolExperienceFilterId, toolExperienceConfigById } from './tools'
 
 export const computeToolMatrixBreakdown = async (
     db: Db,
@@ -14,7 +14,7 @@ export const computeToolMatrixBreakdown = async (
         tool,
         experience,
         type,
-        year,
+        year
     }: {
         survey: SurveyConfig
         tool: string
@@ -25,33 +25,27 @@ export const computeToolMatrixBreakdown = async (
 ) => {
     const collection = db.collection(config.mongo.normalized_collection)
 
-    // define the key to use to filter tool experience
-    // and the filter to apply, which might be a compound filter.
     const experienceKey = `tools.${tool}.experience`
-    const experiencePredicate = toolExperienceFilterById[experience]
+    const experienceConfig = toolExperienceConfigById[experience]
+    const experiencePredicate = experienceConfig.predicate
+    const experienceComparisonPredicate = experienceConfig.comparisonPredicate
 
     let dimensionPath = `user_info.${type}`
-    // `source` is normalized, so we need to access a nested field
     if (type === 'source') {
         dimensionPath = `${dimensionPath}.normalized`
     }
 
-    // ensure we compare dimensions to answers having both
-    // the dimension and the experience defined.
-    const dimensionDistributionPipeline = [
+    const comparisonRangesAggregationPipeline = [
         {
             $match: {
                 survey: survey.survey,
                 year,
-                [experienceKey]: {
-                    $exists: true,
-                    $nin: [null, ''],
-                },
+                [experienceKey]: experienceComparisonPredicate,
                 [dimensionPath]: {
                     $exists: true,
-                    $nin: [null, ''],
-                },
-            },
+                    $nin: [null, '']
+                }
+            }
         },
         {
             // group by dimension choice
@@ -59,30 +53,26 @@ export const computeToolMatrixBreakdown = async (
                 _id: {
                     group_by: `$${dimensionPath}`
                 },
-                count: { $sum: 1 },
+                count: { $sum: 1 }
             }
         },
         {
             $project: {
                 _id: 0,
                 id: '$_id.group_by',
-                count: 1,
-            },
-        },
-    ]
-    let dimensionDistributionResults = await collection
-        .aggregate(dimensionDistributionPipeline)
-        .toArray()
-    const dimensionDistributionTotal = _.sumBy(dimensionDistributionResults, 'count')
-    dimensionDistributionResults = dimensionDistributionResults.map(datum => {
-        return {
-            ...datum,
-            percentage: datum.count / dimensionDistributionTotal * 100,
+                count: 1
+            }
         }
-    })
-    const dimensionDistributionById = _.keyBy(dimensionDistributionResults, 'id')
+    ]
+    const comparisonRangesResults = await collection
+        .aggregate(comparisonRangesAggregationPipeline)
+        .toArray()
 
-    const mainAggregationPipeline = [
+    const comparisonTotal = _.sumBy(comparisonRangesResults, 'count')
+
+    const comparisonRangeById = _.keyBy(comparisonRangesResults, 'id')
+
+    const experienceDistributionByRangeAggregationPipeline = [
         {
             $match: {
                 survey: survey.survey,
@@ -90,9 +80,9 @@ export const computeToolMatrixBreakdown = async (
                 [experienceKey]: experiencePredicate,
                 [dimensionPath]: {
                     $exists: true,
-                    $nin: [null, ''],
-                },
-            },
+                    $nin: [null, '']
+                }
+            }
         },
         {
             $group: {
@@ -110,54 +100,53 @@ export const computeToolMatrixBreakdown = async (
             }
         },
         { $sort: { count: -1 } },
-        { $limit: 10 },
+        { $limit: 10 }
     ]
-    const results = await collection
-        .aggregate(mainAggregationPipeline)
+    const experienceDistributionByRangeResults = await collection
+        .aggregate(experienceDistributionByRangeAggregationPipeline)
         .toArray()
 
+    // fetch the total number of respondents having picked
+    // the given experience, and who also answered the dimension
+    // question.
     const experienceTotalQuery = {
         survey: survey.survey,
         year,
         [experienceKey]: experiencePredicate,
         [dimensionPath]: {
             $exists: true,
-            $nin: [null, ''],
-        },
+            $nin: [null, '']
+        }
     }
-    const experienceTotal = await collection.countDocuments(experienceTotalQuery)
+    const total = await collection.countDocuments(experienceTotalQuery)
+    const overallPercentage = ratioToPercentage(total / comparisonTotal)
 
-    const total = _.sumBy(results, 'count')
-    results.forEach(bucket => {
+    experienceDistributionByRangeResults.forEach(bucket => {
         bucket.percentage = ratioToPercentage(bucket.count / total)
 
         // As we're using an intersection, it's safe to assume that
         // the dimension item is always available.
-        const dimensionBucket = dimensionDistributionById[bucket.id]
+        const comparisonRange = comparisonRangeById[bucket.id]
 
-        bucket.total_in_range = dimensionBucket.count
-        bucket.percentage_from_range = ratioToPercentage(bucket.count / bucket.total_in_range)
+        bucket.range_total = comparisonRange.count
+        bucket.range_percentage = ratioToPercentage(bucket.count / comparisonRange.count)
         // how does the distribution for this specific experience/range compare
         // to the overall distribution for the range?
-        bucket.percentage_delta_from_range = _.round(
-            bucket.percentage - dimensionBucket.percentage,
-            2
-        )
-
-        bucket.percentage_from_experience = ratioToPercentage(bucket.count / experienceTotal)
+        bucket.range_percentage_delta = _.round(bucket.range_percentage - overallPercentage, 2)
     })
 
     // console.log(
     //     inspect(
     //         {
-    //             mainAggregationPipeline,
-    //             experienceTotalQuery,
-    //             dimensionDistributionPipeline,
-    //             dimensionDistributionById,
-    //             id: tool,
     //             total,
-    //             total_in_experience: experienceTotal,
-    //             ranges: results
+    //             comparisonTotal,
+    //             comparisonRangesAggregationPipeline,
+    //             experienceDistributionByRangeAggregationPipeline,
+    //             overallPercentage,
+    //             comparisonRangeById,
+    //             id: tool,
+    //             total_in_experience: total,
+    //             ranges: experienceDistributionByRangeResults
     //         },
     //         { colors: true, depth: null }
     //     )
@@ -166,9 +155,10 @@ export const computeToolMatrixBreakdown = async (
     return {
         id: tool,
         entity: getEntity({ id: tool }),
-        total,
-        total_in_experience: experienceTotal,
-        buckets: results
+        total: comparisonTotal,
+        count: total,
+        percentage: overallPercentage,
+        buckets: experienceDistributionByRangeResults
     }
 }
 
@@ -179,7 +169,7 @@ export async function computeToolsMatrix(
         tools,
         experience,
         type,
-        year,
+        year
     }: {
         survey: SurveyConfig
         tools: string[]
@@ -196,7 +186,7 @@ export async function computeToolsMatrix(
                 tool,
                 experience,
                 type,
-                year,
+                year
             })
         )
     }
