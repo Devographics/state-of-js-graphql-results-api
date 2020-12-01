@@ -63,12 +63,12 @@
   homepage: https://www.jetbrains.com/pycharm/
 
 - id: phpstorm
-  name: PHPStorm
+  name: PhpStorm
   homepage: https://www.jetbrains.com/phpstorm/
   patterns:
     - php( |-)?storm
 - id: textmate
-  name: Textmate
+  name: TextMate
   homepage: https://macromates.com/
 
 - id: vscodium
