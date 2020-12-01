@@ -181,3 +181,15 @@
 - id: f_word
   name: The F-Word
   homepage: https://f-word.dev
+
+- id: frontend_first
+  name: Frontend First
+  homepage: https://frontendfirst.fm/
+
+- id: a11y_rules
+  name: '#A11y Rules'
+  homepage: https://a11yrules.com/
+
+- id: the_bike_shed
+  name: The Bike Shed
+  homepage: https://www.bikeshed.fm/

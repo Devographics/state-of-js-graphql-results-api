@@ -104,3 +104,11 @@
   contexts: [state_of_css]
   tags:
     - css
+
+  
+- id: browser_environment
+  name: Browser
+
+- id: jspm
+  name: jspm
+  homepage: https://jspm.org/
