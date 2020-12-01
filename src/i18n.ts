@@ -80,7 +80,6 @@ export const getLocaleStrings = (locale: Locale, contexts?: string[]) => {
         })
     }
 
-console.log(locale)
     // flatten all stringFiles together
     const strings = stringFiles
         .map((sf: StringFile) => {
