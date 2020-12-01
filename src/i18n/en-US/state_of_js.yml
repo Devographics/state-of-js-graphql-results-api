@@ -81,29 +81,14 @@ translations:
     - key: sections.mobile_desktop.description
       t: JavaScript for mobile devices and desktop apps
 
+    - key: sections.build_tools.title
+      t: Build Tools
+    - key: sections.build_tools.description
+      t: Compiling & bundling code
+
     ###########################################################################
     # Options
     ###########################################################################
-
-    # CSS for print
-    - key: options.css_for_print.0
-      t: I (almost) never write print styles
-    - key: options.css_for_print.1
-      t: I occasionally write print styles
-    - key: options.css_for_print.2
-      t: I write print styles as part of most projects
-    - key: options.css_for_print.3
-      t: I focus mainly on CSS for print
-
-    # CSS for email
-    - key: options.css_for_email.0
-      t: I (almost) never write CSS for email clients
-    - key: options.css_for_email.1
-      t: I occasionally write CSS for email clients
-    - key: options.css_for_email.2
-      t: I write CSS for email clients as part of most projects
-    - key: options.css_for_email.3
-      t: I focus mainly on CSS for email clients
 
     ###########################################################################
     # Features
@@ -113,15 +98,30 @@ translations:
     - key: features.destructuring
       t: Destructuring
     - key: features.destructuring.description
-      t: 'Example: <code>const { foo } = bar</code>'
+      t: 'Example: `const { foo } = bar`'
     - key: features.spread_operator
       t: Spread operator
     - key: features.spread_operator.description
-      t: 'Example: <code>[...array1, ...array2]</code>'
+      t: 'Example: `[...array1, ...array2]`'
     - key: features.arrow_functions
       t: Arrow Functions
     - key: features.arrow_functions.description
-      t: 'Example: <code>const foo = () => {}</code>'
+      t: 'Example: `const foo = () => {}`'
+    - key: features.nullish_coalescing
+      t: Nullish Coalescing
+    - key: features.nullish_coalescing.description
+      t: >
+        Example: `const foo = 0 ?? 42`
+    - key: features.optional_chaining
+      t: Optional Chaining
+    - key: features.optional_chaining.description
+      t: >
+        Example: `const dogName = adventurer.dog?.name`
+    - key: features.private_fields
+      t: Private Fields
+    - key: features.private_fields.description
+      t: >
+        Example: `class ClassWithPrivateField { #privateField }`
 
     # language
     - key: features.proxies
@@ -136,6 +136,11 @@ translations:
       t: >
           In its simplest form, a decorator is simply a way of 
           wrapping one piece of code with another — literally “decorating” it.
+    - key: features.dynamic_import
+      t: Dynamic Import
+    - key: features.dynamic_import.description
+      t: >
+        Example: <code>await import('/modules/my-module.js')</code>
 
     # data structures
     - key: features.maps
@@ -188,6 +193,37 @@ translations:
       t: Reactive Programming
 
     ###########################################################################
+    # Tools
+    ###########################################################################
+
+    - key: tools.angular.description
+      t: >
+        Note that this question only targets [Angular](https://angular.io/) experience,
+        and specifically does *not* apply to the deprecated [AngularJS](https://angularjs.org/).
+   
+    ###########################################################################
+    # Other Tools
+    ###########################################################################
+
+    - key: tools_others.runtimes
+      t: JavaScript Runtimes
+    - key: tools_others.runtimes.description
+      t: Which engines/runtimes/execution environments do you regularly use?
+    - key: tools_others.runtimes.others
+      t: Other Runtimes
+    - key: tools_others.runtimes.others.description
+      t: Other answers (freeform field).
+
+    - key: tools_others.package_registries
+      t: Package Registries
+    - key: tools_others.package_registries.description
+      t: Which package registries do you regularly fetch packages from?
+    - key: tools_others.package_registries.others
+      t: Other Package Registries
+    - key: tools_others.package_registries.others.description
+      t: Other answers (freeform field).
+
+    ###########################################################################
     # Opinions
     ###########################################################################
 
@@ -209,7 +245,13 @@ translations:
     - key: opinions.js_ecosystem_changing_to_fast
       t: The JavaScript ecosystem is changing too fast
 
-    - key: opinions.missing_from_js
+    - key: opinions_others.missing_from_js.others
       t: What do you feel is currently missing from JavaScript?
-    - key: opinions.missing_from_js.description
+    - key: opinions_others.missing_from_js.others.description
       t: Features you'd like to see in JavaScript one day.
+
+    - key: happiness.state_of_the_web
+      t: How happy are you with the general state of web technologies?
+
+    - key: happiness.state_of_js
+      t: How happy are you with the general state of JavaScript?

@@ -499,6 +499,34 @@ translations:
     - key: options.form_factors.print
       t: Print
 
+    # Industry Sector
+    - key: options.industry_sector.ecommerce
+      t: Ecommerce
+    - key: options.industry_sector.news_media
+      t: News, Media, & Blogging
+    - key: options.industry_sector.healthcare
+      t: Healthcare
+    - key: options.industry_sector.finance
+      t: Finance
+    - key: options.industry_sector.programming_tools
+      t: Programming & Technical Tools
+    - key: options.industry_sector.socialmedia
+      t: Social Media
+    - key: options.industry_sector.marketing_tools
+      t: Marketing/Sales/Analytics Tools
+    - key: options.industry_sector.saas
+      t: SaaS
+    - key: options.industry_sector.education
+      t: Education
+    - key: options.industry_sector.real_estate
+      t: Real Estate
+    - key: options.industry_sector.retail
+      t: Retail
+    - key: options.industry_sector.entertainment
+      t: Entertainment
+    - key: options.industry_sector.consulting
+      t: Consulting & Services
+
     ###########################################################################
     # Tools
     ###########################################################################
@@ -575,10 +603,33 @@ translations:
       t: Your Email
     - key: user_info.country
       t: Your Country or Region
+    - key: user_info.github_username
+      t: Your GitHub Username
+    - key: user_info.github_username.description
+      t: >
+        We might use GitHub usernames in the future to look at
+        repos and cross-reference publicly available information. 
+    - key: user_info.industry_sector
+      t: Industry Sector
+    - key: user_info.industry_sector.description
+      t: Which industry sector do you work in?
+    - key: user_info.industry_sector.others
+      t: Other Industry Sectors
+    - key: user_info.industry_sector.others.description
+      t: Other industry sectors you work in not mentioned above.
 
     ###########################################################################
     # Other Tools
     ###########################################################################
+
+    - key: tools_others.libraries
+      t: Libraries
+    - key: tools_others.libraries.description
+      t: Which libraries do you regularly use?
+    - key: tools_others.libraries.others
+      t: Other Libraries
+    - key: tools_others.libraries.others.description
+      t: Other answers (freeform field).
 
     - key: tools_others.text_editors
       t: Text Editors

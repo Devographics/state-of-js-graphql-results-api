@@ -176,13 +176,13 @@ translations:
       t: |
             If a JavaScript developer writes a line of CSS code, are they now a CSS developer?
             
-            This programming kōan illustrates a clear trend in the web development world: as more and more CSS developers are tasked with learning JavaScript, so are JavaScript developers starting to realize there might be more to this whole CSS thing than just `font-weight: bold;`. 
+            This programming *kōan* illustrates a clear trend in the web development world: as more and more CSS developers are tasked with learning JavaScript, so are JavaScript developers starting to realize there might be more to this whole CSS thing than just `font-weight: bold;`. 
 
             So asking about “the State of CSS” is inherently a tricky proposition: depending on who you ask you might get completely different answers! And how do you know which one's right?
 
             Here's another kōan for you: the right answer is that there *is* no right answer. Each of the many tools, methodologies, frameworks, and libraries featured here has its place in the vast front-end ecosystem. 
 
-            Building a complex React app? Styled Components is a great option. Designing a static landing page? You can't go wrong with Sass! And even though Bootstrap has lost some of its original cool factor, you can't beat it when it comes to sheer number of themes and plugins.
+            Building a complex React app? Styled Components is a great option. Designing a static landing page? You can't go wrong with Sass! And even though Bootstrap has lost some of its original hype factor, you can't beat it when it comes to sheer number of themes and plugins.
 
             So while we keep an eye on the shiny new toys popping up on GitHub every week, let's not forget the tools, techniques, and most of all people who have carried the CSS torch up to now. We'll need everybody if we're to keep CSS moving forward into 2021 and beyond!
 

@@ -530,11 +530,11 @@ translations:
     - key: opinions.enjoy_writing_css.title
       t: Enjoyment
 
-    - key: opinions_other.currently_missing_from_css.others
+    - key: opinions_others.currently_missing_from_css.others
       t: What do you feel is currently missing from CSS?
-    - key: opinions_other.currently_missing_from_css.others.description
+    - key: opinions_others.currently_missing_from_css.others.description
       t: Features you'd like to see in CSS one day.
-    - key: opinions_other.currently_missing_from_css.others.note
+    - key: opinions_others.currently_missing_from_css.others.note
       t: >
           These results were normalized based on the contents of a freeform field.
           To view the raw, unprocessed responses check out [whatsmissingfromcss.com](http://whatsmissingfromcss.com/).

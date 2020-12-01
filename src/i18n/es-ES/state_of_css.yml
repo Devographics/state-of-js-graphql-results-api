@@ -526,11 +526,11 @@ translations:
     - key: opinions.enjoy_writing_css.title
       t: Satisfacción
 
-    - key: opinions_other.currently_missing_from_css.others
+    - key: opinions_others.currently_missing_from_css.others
       t: ¿Qué crees que le falta a CSS?
-    - key: opinions_other.currently_missing_from_css.others.description
+    - key: opinions_others.currently_missing_from_css.others.description
       t: Características que quieres ver en CSS algún día.
-    - key: opinions_other.currently_missing_from_css.others.note
+    - key: opinions_others.currently_missing_from_css.others.note
       t: >
           Estos resultados han sido normalizados en base a un campo de texto libre.
           Para ver los datos originales, visita [whatsmissingfromcss.com](http://whatsmissingfromcss.com/).
