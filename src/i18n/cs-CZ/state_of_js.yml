@@ -112,15 +112,15 @@ translations:
     - key: features.destructuring
       t: Destructuring
     - key: features.destructuring.description
-      t: 'Příklad: <code>const { foo } = bar</code>'
+      t: 'Příklad: `const { foo } = bar`'
     - key: features.spread_operator
       t: Spread operátor
     - key: features.spread_operator.description
-      t: 'Příklad: <code>[...array1, ...array2]</code>'
+      t: 'Příklad: `[...array1, ...array2]`'
     - key: features.arrow_functions
       t: Arrow funkce
     - key: features.arrow_functions.description
-      t: 'Příklad: <code>const foo = () => {}</code>'
+      t: 'Příklad: `const foo = () => {}`'
 
     # language
     - key: features.proxies

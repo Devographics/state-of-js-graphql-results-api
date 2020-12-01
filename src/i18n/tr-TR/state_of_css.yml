@@ -484,12 +484,12 @@ translations:
     - key: opinions.enjoy_writing_css 
       t: CSS yazmayı seviyorum
 
-    - key: opinions_other.currently_missing_from_css.others 
+    - key: opinions_others.currently_missing_from_css.others 
       t: Şu anda CSS'de neyin eksik olduğunu düşünüyorsunuz?
-    - key: opinions_other.currently_missing_from_css.others.description 
+    - key: opinions_others.currently_missing_from_css.others.description 
       t: CSS'de bir gün görmek isteyeceğiniz özellikler.
 
-    - key: opinions_other.currently_missing_from_css.others.note
+    - key: opinions_others.currently_missing_from_css.others.note
       t: >
           Bu sonuçlar bir serbest yanıt alanında verilen yantılara göre normalleştirildi.
           Ham, işlenmemiş yanıtları görüntülemek için [whatsmissingfromcss.com](http://whatsmissingfromcss.com/) adresine göz atabilirsiniz.

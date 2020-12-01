@@ -509,9 +509,9 @@ translations:
     - key: opinions.enjoy_writing_css.title # TODO
       t: Enjoyment
 
-    - key: opinions_other.currently_missing_from_css.others
+    - key: opinions_others.currently_missing_from_css.others
       t: O que sente que falta actualmente no CSS?
-    - key: opinions_other.currently_missing_from_css.others.description
+    - key: opinions_others.currently_missing_from_css.others.description
       t: Características que gostaria de ver um dia no CSS.
 
     - key: opinions.sum_up_one_word_css

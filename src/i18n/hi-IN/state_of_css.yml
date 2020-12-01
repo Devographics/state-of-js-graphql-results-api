@@ -300,9 +300,9 @@ translations:
   - key: opinions.enjoy_writing_css
     t: मुझे CSS लिखने में मज़ा आता है
 
-  - key: opinions_other.currently_missing_from_css.others
+  - key: opinions_others.currently_missing_from_css.others
     t: आपको क्या लगता है वर्तमान में CSS से गायब है?
-  - key: opinions_other.currently_missing_from_css.others.description
+  - key: opinions_others.currently_missing_from_css.others.description
     t: वे विशेषताएँ जिन्हें आप एक दिन CSS में देखना चाहते हैं।
 
   - key: opinions.sum_up_one_word_css

@@ -115,15 +115,15 @@ translations:
     - key: features.destructuring 
       t: Ayrıştırma (Destructuring)
     - key: features.destructuring.description 
-      t: 'Örnek: <code>const { foo } = bar</code>'
+      t: 'Örnek: `const { foo } = bar`'
     - key: features.spread_operator 
       t: Dağıtma (Spread) Operatörü
     - key: features.spread_operator.description 
-      t: 'Örnek: <code>[...array1, ...array2]</code>'
+      t: 'Örnek: `[...array1, ...array2]`'
     - key: features.arrow_functions 
       t: Arrow Fonksiyonlar
     - key: features.arrow_functions.description 
-      t: 'Örnek: <code>const foo = () => {}</code>'
+      t: 'Örnek: `const foo = () => {}`'
 
     # language
     - key: features.proxies 

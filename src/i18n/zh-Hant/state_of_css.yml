@@ -507,9 +507,9 @@ translations:
     - key: opinions.enjoy_writing_css.title
       t: 愉悅感
 
-    - key: opinions_other.currently_missing_from_css.others
+    - key: opinions_others.currently_missing_from_css.others
       t: 覺得 CSS 目前還缺了什麼？
-    - key: opinions_other.currently_missing_from_css.others.description
+    - key: opinions_others.currently_missing_from_css.others.description
       t: 希望未來有的 CSS 樣式。
 
     - key: opinions.sum_up_one_word_css

@@ -516,12 +516,12 @@ translations:
     - key: opinions.enjoy_writing_css.title # TODO
       t: Enjoyment
 
-    - key: opinions_other.currently_missing_from_css.others
+    - key: opinions_others.currently_missing_from_css.others
       t: Was vermisst Du in CSS?
-    - key: opinions_other.currently_missing_from_css.others.description
+    - key: opinions_others.currently_missing_from_css.others.description
       t: Features, die Du gerne irgendwann in CSS sehen möchtest.
 
-    - key: opinions_other.currently_missing_from_css.others.note
+    - key: opinions_others.currently_missing_from_css.others.note
       t: >
           Diese Ergebnisse wurden bearbeitet, basierend auf einem Freitextfeld.
           Um alle Ergebnisse zu sehen, schaue auf [whatsmissingfromcss.com](http://whatsmissingfromcss.com/).

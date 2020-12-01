@@ -538,11 +538,11 @@ translations:
     - key: opinions.enjoy_writing_css.title
       t: Удовлетворение
 
-    - key: opinions_other.currently_missing_from_css.others
+    - key: opinions_others.currently_missing_from_css.others
       t: Что вам не хватает в CSS?
-    - key: opinions_other.currently_missing_from_css.others.description
+    - key: opinions_others.currently_missing_from_css.others.description
       t: Возможности, которые вы хотели бы видеть в CSS.
-    - key: opinions_other.currently_missing_from_css.others.note
+    - key: opinions_others.currently_missing_from_css.others.note
       t: >
           Эти данные были нормализованы на основе ответов в свободной форме.
           Посмотреть оригинальные ответы можно на сайте [whatsmissingfromcss.com](http://whatsmissingfromcss.com/).

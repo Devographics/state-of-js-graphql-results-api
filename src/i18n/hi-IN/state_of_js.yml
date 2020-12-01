@@ -113,15 +113,15 @@ translations:
   - key: features.destructuring
     t: Destructuring
   - key: features.destructuring.description
-    t: "Example: <code>const { foo } = bar</code>"
+    t: "Example: `const { foo } = bar`"
   - key: features.spread_operator
     t: Spread operator
   - key: features.spread_operator.description
-    t: "Example: <code>[...array1, ...array2]</code>"
+    t: "Example: `[...array1, ...array2]`"
   - key: features.arrow_functions
     t: Arrow Functions
   - key: features.arrow_functions.description
-    t: "Example: <code>const foo = () => {}</code>"
+    t: "Example: `const foo = () => {}`"
 
   # language
   - key: features.proxies
