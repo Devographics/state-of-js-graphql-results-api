@@ -49,7 +49,7 @@ translations:
     - key: sections.patterns.title
       t: Паттерны
     - key: sections.patterns.description
-      t: Как вы пишите код
+      t: Как вы пишете код
 
     - key: sections.javascript_flavors.title
       t: Разновидности JavaScript

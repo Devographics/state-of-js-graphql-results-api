@@ -114,17 +114,17 @@ translations:
 
     # CSS for print
     - key: options.css_for_print.0
-      t: Я (почти) никогда не создаю стили для печати
+      t: Я (почти) никогда не пишу стили для печати
     - key: options.css_for_print.0.short
       t: Никогда
 
     - key: options.css_for_print.1
-      t: Иногда я создаю стили для печати
+      t: Иногда я пишу стили для печати
     - key: options.css_for_print.1.short
       t: Иногда
 
     - key: options.css_for_print.2
-      t: Создаю стили для печати в большинстве проектах
+      t: Пишу стили для печати в большинстве проектах
     - key: options.css_for_print.2.short
       t: Часто
 
@@ -135,7 +135,7 @@ translations:
 
     # CSS for email
     - key: options.css_for_email.0
-      t: Я (почти) никогда не создаю стили для почтовых клиентов
+      t: Я (почти) никогда не пишу стили для почтовых клиентов
     - key: options.css_for_email.0.short
       t: Никогда
 
@@ -145,7 +145,7 @@ translations:
       t: Иногда
 
     - key: options.css_for_email.2
-      t: Создаю стили для почтовых клиентов в большинстве проектах
+      t: Пишу стили для почтовых клиентов в большинстве проектах
     - key: options.css_for_email.2.short
       t: Часто
 
@@ -492,12 +492,12 @@ translations:
     - key: environments.css_for_print
       t: CSS для печати
     - key: environments.css_for_print.description
-      t: Вы создаёте стили для печати?
+      t: Вы пишете стили для печати?
 
     - key: environments.css_for_email
       t: CSS для почтовых клиентов
     - key: environments.css_for_email.description
-      t: Вы создаёте CSS-стили для почтовых клиентов?
+      t: Вы пишете CSS-стили для почтовых клиентов?
 
     - key: charts.axis_legends.css_for_print
       t: Периодичность
