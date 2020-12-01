@@ -80,10 +80,16 @@ export const getLocaleStrings = (locale: Locale, contexts?: string[]) => {
         })
     }
 
+console.log(locale)
     // flatten all stringFiles together
     const strings = stringFiles
         .map((sf: StringFile) => {
             let { strings, prefix, context } = sf
+
+            if (strings === null ) {
+                return []
+            }
+
             // if strings need to be prefixed, do it now
             if (prefix) {
                 strings = strings.map((s: any) => ({ ...s, key: `${prefix}.${s.key}` }))
