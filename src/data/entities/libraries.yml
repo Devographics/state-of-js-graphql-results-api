@@ -326,12 +326,13 @@
   contexts: [state_of_css]
   npm: astroturf
   github: 4Catalyzer/astroturf
-  description: An "artificial" CSS-in-JS for those that want it all.
+  homepage: https://github.com/4Catalyzer/astroturf
+  description: >
+    An "artificial" CSS-in-JS for those that want it all.
   tags:
     - css
     - js
     - css_in_js
-
 
 #################################################
 # Other

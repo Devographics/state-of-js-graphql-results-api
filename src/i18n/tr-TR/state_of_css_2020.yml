@@ -45,7 +45,7 @@ translations:
     # Sections
     ###########################################################################
 
-    - key: sections.demographics.description
+    - key: sections.user_info.description
       t: |
           Bu yılki anket 102 ülkede 11.492 kişiye ulaştı. Bu yıl ilk kez, 
           harika bir gönüllüler ekibi sayesinde anket sorularını birden çok dile çevirebildik.

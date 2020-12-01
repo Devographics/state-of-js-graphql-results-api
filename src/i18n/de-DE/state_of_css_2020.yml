@@ -44,7 +44,7 @@ translations:
     # Sections
     ###########################################################################
 
-    - key: sections.demographics.description
+    - key: sections.user_info.description
       t: |
           Die diesjährige Umfrage erreichte 11.492 menschen in 102 Ländern. Erstmalig in diesem Jahr konnten wir die Umfrage in verschiedene Sprachen übersetzen. Danke an das großartige Team Freiwilliger!
 

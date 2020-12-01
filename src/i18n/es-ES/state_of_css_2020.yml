@@ -45,7 +45,7 @@ translations:
     # Sections
     ###########################################################################
 
-    - key: sections.demographics.description
+    - key: sections.user_info.description
       t: |
           La encuesta de este año a llegado a 11.492 personas en 102 países. Por primera vez este año,
           hemos sido capaces de traducir las preguntas de la encuesta a múltiples idiomas gracias a un increíble equipo de voluntarios.

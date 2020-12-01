@@ -82,9 +82,9 @@ translations:
     # Sections Introductions
     ###########################################################################
 
-    - key: sections.demographics.description
+    - key: sections.user_info.description
       t: |
-          This year's survey reached 11,492 people in 102 countries. For the first time this year,
+          This year's survey reached **11,492** people in **102** countries. For the first time this year,
           we were able to translate the survey questions in multiple languages thanks to an awesome team of volunteers.
 
     - key: sections.features.description
