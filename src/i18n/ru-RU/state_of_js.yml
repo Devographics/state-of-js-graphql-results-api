@@ -14,7 +14,7 @@ translations:
           участвуют более 20 000 разработчиков для того, чтобы изучить текущие и будущие тенденции.
 
 
-          Пройдите опрос и помогите нам выяснить, какие библиотеки 
+          Пройдите опрос и помогите нам выяснить, какие библиотеки
           планируют изучить разработчики в будущем, какими из них больше всего довольны уже сейчас, и т.д.
 
     ###########################################################################
@@ -81,29 +81,14 @@ translations:
     - key: sections.mobile_desktop.description
       t: JavaScript для мобильных устройств и декстопные приложения
 
+    - key: sections.build_tools.title
+      t: Сборщики
+    - key: sections.build_tools.description
+      t: Компиляция и сборка кода
+
     ###########################################################################
     # Options
     ###########################################################################
-
-    # CSS for print
-    - key: options.css_for_print.0
-      t: Я (почти) никогда не создаю стили для печати
-    - key: options.css_for_print.1
-      t: Иногда я создаю стили для печати
-    - key: options.css_for_print.2
-      t: Создаю стили для печати в большинстве своих проектах
-    - key: options.css_for_print.3
-      t: Уделяю особое внимание CSS для печати
-
-    # CSS for email
-    - key: options.css_for_email.0
-      t: Я (почти) никогда не создаю стили для почтовых клиентов
-    - key: options.css_for_email.1
-      t: Иногда я пишу стили для почтовых клиентов
-    - key: options.css_for_email.2
-      t: Создаю стили для почтовых клиентов в большинстве своих проектах
-    - key: options.css_for_email.3
-      t: Уделяю особое внимание CSS для почтовых клиентов
 
     ###########################################################################
     # Features
@@ -122,6 +107,21 @@ translations:
       t: Стрелочные функции
     - key: features.arrow_functions.description
       t: 'Пример: `const foo = () => {}`'
+    - key: features.nullish_coalescing
+      t: Оператор объединения с null
+    - key: features.nullish_coalescing.description
+      t: >
+        Пример: `const foo = 0 ?? 42`
+    - key: features.optional_chaining
+      t: Опциональная цепочка
+    - key: features.optional_chaining.description
+      t: >
+        Пример: `const dogName = adventurer.dog?.name`
+    - key: features.private_fields
+      t: Приватные поля
+    - key: features.private_fields.description
+      t: >
+        Пример: `class ClassWithPrivateField { #privateField }`
 
     # language
     - key: features.proxies
@@ -136,6 +136,11 @@ translations:
       t: >
           В упрощённом виде, декоратор — это просто способ обернуть
           один фрагмент кода другим, буквально “декорируя” его.
+    - key: features.dynamic_import
+      t: Динамический импорт
+    - key: features.dynamic_import.description
+      t: >
+        Пример: <code>await import('/modules/my-module.js')</code>
 
     # data structures
     - key: features.maps
@@ -151,7 +156,7 @@ translations:
     - key: features.service_workers
       t: Сервис-воркеры
     - key: features.local_storage
-      t: LocalStorage
+      t: Локальное хранилище
     - key: features.i18n
       t: Интернационализация (i18n)
     - key: features.web_components
@@ -185,7 +190,38 @@ translations:
     - key: features.functional_programming
       t: Функциональное программирование
     - key: features.reactive_programming
-      t: Реактивные программирование
+      t: Реактивное программирование
+
+    ###########################################################################
+    # Tools
+    ###########################################################################
+
+    - key: tools.angular.description
+      t: >
+        Обратите внимание, что этот вопрос относится к опыту работы с [Angular](https://angular.io/),
+        а *не* с устаревшим [AngularJS](https://angularjs.org/).
+
+    ###########################################################################
+    # Other Tools
+    ###########################################################################
+
+    - key: tools_others.runtimes
+      t: Среды выполнения JavaScript
+    - key: tools_others.runtimes.description
+      t: Какие движки/среды выполнения/рантаймы вы регулярно используете?
+    - key: tools_others.runtimes.others
+      t: Другие среды выполнения
+    - key: tools_others.runtimes.others.description
+      t: Другие ответы (поле со свободной формой ответа).
+
+    - key: tools_others.package_registries
+      t: Реестры пакетов
+    - key: tools_others.package_registries.description
+      t: Из каких реестров вы регулярно загружаете пакеты?
+    - key: tools_others.package_registries.others
+      t: Другие реестры пакетов
+    - key: tools_others.package_registries.others.description
+      t: Другие ответы (поле со свободной формой ответа).
 
     ###########################################################################
     # Opinions
@@ -209,7 +245,13 @@ translations:
     - key: opinions.js_ecosystem_changing_to_fast
       t: Экосистема JavaScript меняется слишком быстро
 
-    - key: opinions.missing_from_js
+    - key: opinions_others.missing_from_js.others
       t: Что в данный момент вам не хватает в JavaScript?
-    - key: opinions.missing_from_js.description
+    - key: opinions_others.missing_from_js.others.description
       t: Возможности, которые вы хотели бы видеть в JavaScript.
+
+    - key: happiness.state_of_the_web
+      t: Насколько вы удовлетворены текущим состоянием веб-технологий?
+
+    - key: happiness.state_of_js
+      t: Насколько вы удовлетворены текущим состоянием JavaScript?

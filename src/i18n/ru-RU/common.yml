@@ -35,6 +35,8 @@ translations:
       t: В настоящее время нет открытых опросов.
     - key: general.closed_surveys
       t: Проведённые опросы
+    - key: general.no_preview_surveys
+      t: Нет опросов для предварительного просмотра.
     - key: general.start_survey
       t: Начать опрос »
     - key: general.continue_survey
@@ -496,6 +498,32 @@ translations:
     - key: options.form_factors.print
       t: Версии для печати
 
+    # Industry Sector
+    - key: options.industry_sector.ecommerce
+      t: Электронная коммерция и розничная торговля
+    - key: options.industry_sector.news_media
+      t: Новости, медиа, блогинг
+    - key: options.industry_sector.healthcare
+      t: Здравоохранение
+    - key: options.industry_sector.finance
+      t: Финансы
+    - key: options.industry_sector.programming_tools
+      t: Программирование и технические инструменты
+    - key: options.industry_sector.socialmedia
+      t: Социальные медиа
+    - key: options.industry_sector.marketing_tools
+      t: Маркетинг/Продажи/Инструменты аналитики
+    - key: options.industry_sector.education
+      t: Образование
+    - key: options.industry_sector.real_estate
+      t: Недвижимость
+    - key: options.industry_sector.government
+      t: Государственный сектор
+    - key: options.industry_sector.entertainment
+      t: Развлечения
+    - key: options.industry_sector.consulting
+      t: Консалтинг и услуги
+
     ###########################################################################
     # Tools
     ###########################################################################
@@ -574,10 +602,33 @@ translations:
       t: Ваша электронная почта
     - key: user_info.country
       t: Страна проживания
+    - key: user_info.github_username
+      t: Ваш логин на GitHub
+    - key: user_info.github_username.description
+      t: >
+        В будущем мы можем использовать имена пользователей GitHub
+        для просмотра репозиториев и изучения публичной информации.
+    - key: user_info.industry_sector
+      t: Сфера деятельности
+    - key: user_info.industry_sector.description
+      t: В какой отрасли вы работаете?
+    - key: user_info.industry_sector.others
+      t: Другие сферы деятельности
+    - key: user_info.industry_sector.others.description
+      t: Другие отрасли, в которых вы работаете, отсутствующие в списке выше.
 
     ###########################################################################
     # Other Tools
     ###########################################################################
+
+    - key: tools_others.libraries
+      t: Библиотеки
+    - key: tools_others.libraries.description
+      t: Какие библиотеки вы регулярно используете?
+    - key: tools_others.libraries.others
+      t: Другие библиотеки
+    - key: tools_others.libraries.others.description
+      t: Другие библиотеки (поле со свободной формой ответа).
 
     - key: tools_others.text_editors
       t: Текстовые редакторы
@@ -591,7 +642,7 @@ translations:
     - key: tools_others.utilities
       t: Утилиты
     - key: tools_others.utilities.description
-      t: Какие библиотеки-утилиты вы регулярно используете?
+      t: Какие утилиты вы регулярно используете?
     - key: tools_others.utilities.others
       t: Другие утилиты
     - key: tools_others.utilities.others.description
@@ -618,7 +669,7 @@ translations:
     - key: tools_others.non_js_languages
       t: Языки, помимо JavaScript
     - key: tools_others.non_js_languages.description
-      t: Какими другими языками программирования вы пользуетесь?
+      t: На каких языках программирования вы ещё пишете?
     - key: tools_others.non_js_languages.others
       t: Другие языки
     - key: tools_others.non_js_languages.others.description
