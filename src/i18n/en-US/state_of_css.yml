@@ -17,6 +17,9 @@ translations:
           we’ve decided to take on the world of styles and selectors. We're hoping you’ll help
           us identify the latest trends, and figure out what tools to learn and use next!
 
+    - key: general.results.description
+      t: The annual survey about the latest trends in CSS.
+
     ###########################################################################
     # Sections
     ###########################################################################

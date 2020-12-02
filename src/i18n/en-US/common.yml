@@ -501,7 +501,7 @@ translations:
 
     # Industry Sector
     - key: options.industry_sector.ecommerce
-      t: Ecommerce
+      t: Ecommerce & Retail
     - key: options.industry_sector.news_media
       t: News, Media, & Blogging
     - key: options.industry_sector.healthcare
@@ -514,14 +514,12 @@ translations:
       t: Social Media
     - key: options.industry_sector.marketing_tools
       t: Marketing/Sales/Analytics Tools
-    - key: options.industry_sector.saas
-      t: SaaS
     - key: options.industry_sector.education
       t: Education
     - key: options.industry_sector.real_estate
       t: Real Estate
-    - key: options.industry_sector.retail
-      t: Retail
+    - key: options.industry_sector.government
+      t: Government
     - key: options.industry_sector.entertainment
       t: Entertainment
     - key: options.industry_sector.consulting
