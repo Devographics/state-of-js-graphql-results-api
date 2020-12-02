@@ -29,9 +29,9 @@ type Query {
     """
     Get all of a locale's translations
     """
-    locale(localeId: String!, contexts: [Contexts]): Locale
+    locale(localeId: String!, contexts: [Contexts], enableFallbacks: Boolean): Locale
     """
     Get all locales
     """
-    locales(contexts: [Contexts]): [Locale]
+    locales(contexts: [Contexts], enableFallbacks: Boolean): [Locale]
 }

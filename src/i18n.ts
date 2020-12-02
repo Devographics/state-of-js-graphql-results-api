@@ -85,7 +85,7 @@ export const getLocaleStrings = (locale: Locale, contexts?: string[]) => {
         .map((sf: StringFile) => {
             let { strings, prefix, context } = sf
 
-            if (strings === null ) {
+            if (strings === null) {
                 return []
             }
 
@@ -132,9 +132,11 @@ export const getLocaleStringsWithFallback = (locale: Locale, contexts?: string[]
 
         enStrings.forEach((enTranslation: TranslationString) => {
             totalCount++
-            // note: exclude fallback strings that might have been added during 
+            // note: exclude fallback strings that might have been added during
             // a previous iteration of the current loop
-            const localeTranslationIndex = localeStrings.findIndex(t => t.key === enTranslation.key && !t.fallback)
+            const localeTranslationIndex = localeStrings.findIndex(
+                t => t.key === enTranslation.key && !t.fallback
+            )
 
             if (
                 localeTranslationIndex === -1 ||
@@ -170,12 +172,18 @@ export const getLocaleStringsWithFallback = (locale: Locale, contexts?: string[]
 Get a specific locale with properly parsed strings
 
 */
-export const getLocale = (localeId: string, contexts?: string[]) => {
+export const getLocale = (
+    localeId: string,
+    contexts?: string[],
+    enableFallbacks: boolean = true
+) => {
     const validLocale = getValidLocale(localeId)
     if (!validLocale) {
         throw new Error(`No locale found for key ${localeId}`)
     }
-    const localeData = getLocaleStringsWithFallback(validLocale, contexts)
+    const localeData = enableFallbacks
+        ? getLocaleStringsWithFallback(validLocale, contexts)
+        : getLocaleStrings(validLocale, contexts)
     return {
         ...validLocale,
         ...localeData
@@ -187,8 +195,8 @@ export const getLocale = (localeId: string, contexts?: string[]) => {
 Get all locales
 
 */
-export const getLocales = (contexts?: string[]) => {
-    return locales.map((locale: Locale) => getLocale(locale.id, contexts))
+export const getLocales = (contexts?: string[], enableFallbacks?: boolean) => {
+    return locales.map((locale: Locale) => getLocale(locale.id, contexts, enableFallbacks))
 }
 
 /*

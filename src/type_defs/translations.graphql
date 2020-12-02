@@ -13,6 +13,7 @@ enum Contexts {
     results
     accounts
     state_of_js
+    state_of_js_2020
     state_of_css
     state_of_css_2020
 }

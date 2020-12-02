@@ -18,8 +18,8 @@ export default {
         ) => getEntities({ type, tag }),
         translation: (parent: any, { key, localeId }: { key: string; localeId: string }) =>
             getTranslation(key, localeId),
-        locale: (parent: any, { localeId, contexts }: { localeId: string; contexts: string[] }) =>
-            getLocale(localeId, contexts),
-        locales: (parent: any, { contexts }: { contexts: string[] }) => getLocales(contexts)
+        locale: (parent: any, { localeId, contexts, enableFallbacks }: { localeId: string; contexts: string[], enableFallbacks?: boolean }) =>
+            getLocale(localeId, contexts, enableFallbacks),
+        locales: (parent: any, { contexts, enableFallbacks }: { contexts: string[], enableFallbacks?: boolean }) => getLocales(contexts, enableFallbacks)
     }
 }
