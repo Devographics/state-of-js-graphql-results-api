@@ -611,7 +611,7 @@ translations:
     - key: user_info.industry_sector
       t: Сфера деятельности
     - key: user_info.industry_sector.description
-      t: В какой отрасли вы работаете?
+      t: В каких отраслях вы работаете?
     - key: user_info.industry_sector.others
       t: Другие сферы деятельности
     - key: user_info.industry_sector.others.description
@@ -642,7 +642,7 @@ translations:
     - key: tools_others.utilities
       t: Утилиты
     - key: tools_others.utilities.description
-      t: Какие утилиты вы регулярно используете?
+      t: Какие утилиты или инструменты вы регулярно используете?
     - key: tools_others.utilities.others
       t: Другие утилиты
     - key: tools_others.utilities.others.description
