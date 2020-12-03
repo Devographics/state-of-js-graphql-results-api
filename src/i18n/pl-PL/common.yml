@@ -560,7 +560,7 @@ translations:
     - key: tools_others.utilities # TODO
       t: Utilities
     - key: tools_others.utilities.description # TODO
-      t: Which utility libraries do you regularly use?
+      t: Which utilities or tools do you regularly use?
     - key: tools_others.utilities.others # TODO
       t: Other Utilities
     - key: tools_others.utilities.others.description # TODO

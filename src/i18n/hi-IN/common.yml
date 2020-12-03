@@ -548,7 +548,7 @@ translations:
   - key: tools_others.utilities
     t: Utilities
   - key: tools_others.utilities.description
-    t: Which utility libraries do you regularly use?
+    t: Which utilities or tools do you regularly use?
   - key: tools_others.utilities.others
     t: Other Utilities
   - key: tools_others.utilities.others.description

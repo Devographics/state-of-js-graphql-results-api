@@ -616,11 +616,11 @@ translations:
     - key: user_info.industry_sector
       t: Industry Sector
     - key: user_info.industry_sector.description
-      t: Which industry sector do you work in?
+      t: Which industry sector(s) do you work in?
     - key: user_info.industry_sector.others
       t: Other Industry Sectors
     - key: user_info.industry_sector.others.description
-      t: Other industry sectors you work in not mentioned above.
+      t: Other industry sector(s) you work in not mentioned above.
 
     ###########################################################################
     # Other Tools
@@ -647,7 +647,7 @@ translations:
     - key: tools_others.utilities
       t: Utilities
     - key: tools_others.utilities.description
-      t: Which utility libraries do you regularly use?
+      t: Which utilities or tools do you regularly use?
     - key: tools_others.utilities.others
       t: Other Utilities
     - key: tools_others.utilities.others.description
