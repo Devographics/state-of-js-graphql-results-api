@@ -351,7 +351,7 @@
 - id: codyframe
   name: CodyFrame
   homepage: https://codyhouse.co/ds/docs/framework
-  tags: 
+  tags:
     - css
     - css_frameworks
   patterns:
@@ -386,14 +386,14 @@
   name: Goober
   homepage: https://github.com/cristianbote/goober
   github: cristianbote/goober
-  tags: 
+  tags:
     - css_in_js
 
 - id: aphrodite
   name: Aphrodite
   homepage: https://github.com/Khan/aphrodite
   github: Khan/aphrodite
-  tags: 
+  tags:
     - css_in_js
 
 - id: inuit_css
@@ -426,7 +426,7 @@
   tags:
     - css
     - css_utilities
-    
+
 #################################################
 # JavaScript Flavors
 #################################################
@@ -888,7 +888,7 @@
   github: Popmotion/popmotion
   description: Simple animation libraries for delightful user interfaces
   homepage: "https://popmotion.io"
-  patterns: 
+  patterns:
     - pop( |-|.)?motion
 
 - id: greensock
@@ -997,7 +997,7 @@
   github: swc-project/swc
   homepage: https://swc.rs/
   description: >
-    swc is a super-fast compiler written in rust; 
+    swc is a super-fast compiler written in rust;
     producing widely-supported javascript from modern standards and typescript.
 
 - id: esbuild
@@ -1107,7 +1107,7 @@
   homepage: "https://lodash.com/"
 
 - id: underscore
-  name: Underscore
+  name: Underscore.js
   npm: underscore
   github: jashkenas/underscore
   description: JavaScript's utility _ belt
