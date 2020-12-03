@@ -488,7 +488,7 @@ translations:
     - key: options.form_factors.tablet
       t: Планшеты
     - key: options.form_factors.smart_watch
-      t: Умные часты
+      t: Умные часы
     - key: options.form_factors.tv
       t: TV-приставки
     - key: options.form_factors.gaming_console
