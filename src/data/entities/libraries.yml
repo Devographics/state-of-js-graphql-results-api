@@ -1216,7 +1216,7 @@
   homepage: "https://classic.yarnpkg.com"
 
 - id: node
-  name: Node
+  name: Node.js
   homepage: https://nodejs.org/en/
 
 - id: chakracore
