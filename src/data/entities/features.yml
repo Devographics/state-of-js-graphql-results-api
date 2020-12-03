@@ -79,7 +79,7 @@
 
 - id: aspect_ratio
   name: 'CSS property: aspect-ratio'
-  mdn: /en-US/docs/Web/CSS/@media/aspect-ratio
+  mdn: /en-US/docs/Web/CSS/aspect-ratio
   caniuse: mdn-css_properties_aspect-ratio
   tags:
       - css
@@ -304,7 +304,7 @@
 
 - id: perspective
   name: Perspective
-  mdn: /en-US/docs/Web/CSS/CSS_Animations
+  mdn: /en-US/docs/Web/CSS/perspective
   caniuse: mdn-api_cssperspective
   tags:
       - css
