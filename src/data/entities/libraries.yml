@@ -315,7 +315,7 @@
   npm: linaria
   github: callstack/linaria
   description: Zero-runtime CSS in JS library
-  homepage: "https://linaria.now.sh"
+  homepage: "https://linaria.dev/"
   tags:
     - css
     - js
