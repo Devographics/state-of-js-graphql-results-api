@@ -77,9 +77,9 @@ translations:
       t: Инструменты для тестирования кода
 
     - key: sections.mobile_desktop.title
-      t: Мобильные устройства и декстоп
+      t: Мобильные устройства и десктоп
     - key: sections.mobile_desktop.description
-      t: JavaScript для мобильных устройств и декстопные приложения
+      t: JavaScript для мобильных устройств и десктопные приложения
 
     - key: sections.build_tools.title
       t: Сборщики
