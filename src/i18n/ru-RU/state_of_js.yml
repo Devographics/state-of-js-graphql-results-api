@@ -144,9 +144,9 @@ translations:
 
     # data structures
     - key: features.maps
-      t: Ассоциативные массивы
+      t: Ассоциативные массивы (объекты Map)
     - key: features.sets
-      t: Множества
+      t: Множества (объекты Set)
     - key: features.typed_arrays
       t: Типизированные массивы
     - key: array_prototype_flat
@@ -180,7 +180,7 @@ translations:
 
     # other features
     - key: features.pwa
-      t: Прогрессивное веб-приложения (PWA)
+      t: Прогрессивные веб-приложения (PWA)
     - key: features.wasm
       t: WebAssembly (WASM)
 
