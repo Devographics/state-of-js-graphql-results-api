@@ -53,3 +53,7 @@
 - id: 'zh-Hant'
   label: 正體中文
   translators: ['ymcheung']
+  
+  - id: 'el-EL'
+  label: Greece
+  translators: ['ipapoutsidis']
