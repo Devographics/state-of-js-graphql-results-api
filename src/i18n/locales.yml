@@ -54,6 +54,6 @@
   label: 正體中文
   translators: ['ymcheung']
   
-  - id: 'el-EL'
+- id: 'el-GR'
   label: Greece
   translators: ['ipapoutsidis']
