@@ -97,4 +97,80 @@
 - id: print
   name: Print Support
 
-  
+# JS
+
+- id: optional_chaining
+  name: Optional Chaining
+  patterns:
+    - conditional chaining
+
+- id: battery_api
+  name: Battery API
+
+- id: static_typing
+  name: Static Typing
+  patterns:
+    - type
+    - types
+    - typing
+    - static
+
+- id: interfaces
+  name: Interfaces
+
+- id: standard_library
+  name: Standard Library
+  patterns:
+    - std
+    - standard
+
+- id: documentation
+  name: Documentation
+  patterns:
+    - docs
+
+- id: pipe_operator
+  name: Pipe Operator
+  patterns:
+    - pipe
+
+- id: pattern_matching
+  name: Pattern Matching
+
+- id: auto_currying
+  name: Auto-Currying
+  patterns:
+    - currying
+
+- id: native_observables
+  name: Native Observables
+  patterns:
+    - observable
+
+- id: decorators
+  name: Decorators
+
+- id: simplicity
+  name: Simplicity
+
+- id: sanity
+  name: Sanity
+
+- id: tree_shaking
+  name: Tree Shaking
+
+- id: immutable
+  name: Immutable Data Structure
+
+- id: multi_threading
+  name: Multi Threading
+
+- id: date_time
+  name: Date/Time Handling
+  patterns:
+    - date/time
+
+- id: monads
+  name: Monads
+  patterns:
+    - monad

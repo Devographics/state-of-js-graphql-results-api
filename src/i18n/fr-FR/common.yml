@@ -583,7 +583,7 @@ translations:
       t: Autres réponses (champ libre).
 
     - key: tools_others.non_js_languages
-      t: JavaScript autres que JavaScript
+      t: Langages autres que JavaScript
     - key: tools_others.non_js_languages.description
       t: Quel autres langages utilisez-vous ?
     - key: tools_others.non_js_languages.others
