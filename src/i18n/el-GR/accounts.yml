@@ -1,0 +1,74 @@
+locale: el-GR
+translations:
+    - key: accounts.error_incorrect_password
+      t: Λάθος κωδικός
+    - key: accounts.error_email_required
+      t: Απαιτείται email
+    - key: accounts.error_email_already_exists
+      t: Το email υπάρχει ήδη
+    - key: accounts.error_invalid_email
+      t: Μη έγκυρη διεύθυνση e-mail
+    - key: accounts.error_minchar
+      t: Ο κωδικός πρόσβασής σας είναι πολύ μικρός
+    - key: accounts.error_unknown
+      t: Αγνωστο σφάλμα
+    - key: accounts.error_user_not_found
+      t: Ο χρήστης δεν βρέθηκε
+    - key: accounts.error_username_already_exists
+      t: Το όνομα χρήστη υπάρχει ήδη
+    - key: accounts.enter_username_or_email
+      t: Εισαγάγετε όνομα χρήστη ή email
+    - key: accounts.error_internal_server_error
+      t: Εσωτερικό Σφάλμα Διακομιστή
+    - key: accounts.error_token_expired
+      t: Μη έγκυρος κωδικός πρόσβασης επαναφορά token
+    - key: accounts.username_or_email
+      t: Ονομα χρήστη ή email
+    - key: accounts.enter_username
+      t: Εισάγετε όνομα χρήστη
+    - key: accounts.username
+      t: Όνομα χρήστη
+    - key: accounts.enter_email
+      t: Εισάγετε email
+    - key: accounts.email
+      t: Email
+    - key: accounts.enter_password
+      t: Εισάγετε τον κωδικό πρόσβασης
+    - key: accounts.password
+      t: Κωδικός πρόσβασης
+    - key: accounts.choose_password
+      t: Επιλέξτε κωδικό
+    - key: accounts.change_password
+      t: Αλλάξτε κωδικό πρόσβασης
+    - key: accounts.reset_your_password
+      t: Επαναφορά του κωδικού πρόσβασής σας
+    - key: accounts.set_password
+      t: Ορίστε κωδικό πρόσβασης
+    - key: accounts.enter_new_password
+      t: Εισάγετε το νέο κωδικό πρόσβασης
+    - key: accounts.new_password
+      t: Νέος κωδικός πρόσβασης
+    - key: accounts.forgot_password
+      t: Ξεχάσατε τον κωδικό πρόσβασης
+    - key: accounts.sign_up
+      t: Εγγραφείτε
+    - key: accounts.sign_in
+      t: Συνδεθείτε
+    - key: accounts.sign_out
+      t: Αποσύνδεση
+    - key: accounts.cancel
+      t: Άκυρο
+    - key: accounts.info_email_sent
+      t: Το μήνυμα email εστάλη
+    - key: accounts.info_password_changed
+      t: Ο κωδικός πρόσβασης άλλαξε
+    - key: accounts.please_pick_password
+      t: Επιλέξτε έναν νέο κωδικό πρόσβασης για να συνεχίσετε
+    - key: accounts.please_log_in
+      t: Συνδεθείτε ή εγγραφείτε για να ξεκινήσετε
+    - key: accounts.logged_in_as
+      t: Συνδεθήκατε ως {email}
+    - key: accounts.questions
+      t: >
+        Εάν έχετε απορίες σχετικά με τον τρόπο με τον οποίο χρησιμοποιούμε τα δεδομένα σας ή αν θα θέλατε
+        να αφαιρέσουμε τα δεδομένα σας από τα αρχεία μας, <a href="mailto:hello@stateofjs.com">επικοινωνήστε μαζί μας</a>.
