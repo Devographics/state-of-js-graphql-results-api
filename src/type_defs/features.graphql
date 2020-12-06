@@ -20,18 +20,21 @@ enum FeatureID {
     array_prototype_flat
     big_int
     # JS browser apis
-    fetch
-    i18n
-    local_storage
     service_workers
-    web_animations
+    local_storage
+    intl
     web_audio
-    web_components
     webgl
+    web_animations
     webrtc
-    websocket
     web_speech
     webvr
+    websocket
+    fetch
+    custom_elements
+    shadow_dom
+    i18n
+    web_components
     # JS other features
     pwa
     wasm
