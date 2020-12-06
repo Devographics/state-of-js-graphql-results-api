@@ -1,0 +1,265 @@
+locale: zh-Hant
+translations:
+    ###########################################################################
+    # Introduction
+    ###########################################################################
+
+    - key: sections.introduction.description
+      t: |
+
+            <span class="first-letter">忘</span>記你已經知道的 CSS。或者，至少很多部分要準備好重新考量。如果像我一樣已經撰寫 CSS 超過 10 年，2020 的 CSS 長得跟習以為常的樣子完全不同了。
+
+            現在可以利用 CSS Grid 取代斷點 (breakpoint)，以更少程式碼打造任何裝置大小皆能使用的動態、響應式版面。CSS-in-JS 取代全域樣式表，讓元件都有相對應的位置，方便打造能切換主題的設計系統。
+
+            Tailwind CSS 這樣以 utility 優先的 CSS 俯衝至舞台上，強迫我們重新考量傳統情境式 class 名稱的教條。
+
+            不管這些改變讓你想要在部落格寫篇激賞文，還是震怒的抱怨推文，這裡呈現資料、標示趨勢，希望能帶你走過下一年充滿話題的 CSS。
+
+            ### 團隊
+
+            發起與維護 CSS 現況調查：
+
+            - [Sacha Greif](https://twitter.com/sachagreif): 設計、撰文與程式
+            - [Raphaël Benitte](https://twitter.com/benitteraphael): 資料分析與資料視覺化
+
+            ### 下載資料
+
+            本次調查提供[原始 JSON 資料下載](https://www.kaggle.com/sachag/state-of-css)。如果你以此做出自己的資料視覺化，跟我們說一聲吧！
+
+            ### 其他連結
+
+            - [State of CSS 首頁](https://stateofcss.com)
+            - [State of JS](https://stateofjs.com)
+
+            ### 致謝
+
+            感謝所有協助設計問卷的人，包括：[Chen Hui-Jing](http://chenhuijing.com/)、[Philip Jägenstedt](https://blog.foolip.org/)、[Adam Argyke](https://nerdy.dev/)、[Ahmad Shadeed](https://www.ishadeed.com/)、[Robert Flack](https://github.com/flackr)、[Dominic Nguyen](https://www.chromatic.com/)、[Fantasai](http://fantasai.inkedblade.net/)、和 [Kilian Valkhof](https://kilianvalkhof.com/)。
+
+            特別感謝 [Alexey Pyltsyn](https://github.com/lex111) 協助翻譯。  
+
+            ### 使用素材
+
+            此網站使用 IBM Plex Mono。有問題或回饋嗎？[立刻聯繫！](mailto:hello@stateofjs.com)
+
+            接下來，就看看今年目前為止，CSS 過得怎麼樣！
+
+            <span class="conclusion__byline">– Sacha 和 Raphaël</span>
+
+    ###########################################################################
+    # Tshirt
+    ###########################################################################
+
+    - key: sections.tshirt.title
+      t: T-shirt
+
+    - key: sections.tshirt.description
+      t: |
+          ## 贊助這次調查，穿件好看的衣服！
+
+          查看調查結果之前，有個簡短公告：隆重介紹獨有的 🎈🎉👕 CSS 現況調查 T-shirt 👕🎉🎈！
+
+          這件 T-shirt 真的很特別，因為它是唯一一件教你實用、實際 CSS 技巧的衣服。
+
+          不管是參加研討會、工作面試或平日工作，這件 T-shirt 會讓你展現其他服裝都無法給予的 CSS 駕馭程度。
+    
+    - key: tshirt.about
+      t: 關於這件 T-shirt
+
+    - key: tshirt.description
+      t: |
+          這件衣服最特別的地方是 CSS 現況調查的標誌，附上可以做出每個圖形的 CSS 實際程式碼片段。說不定，你可以從中學到一兩招！
+
+          我們使用高品質、超柔軟的 Tri-blend 合身剪裁。尺寸比較小一些，所以如果習慣較為寬鬆，我們建議訂購比你平常穿著還要大一號的（在照片裡，我穿的是 M 號。）
+
+    - key: tshirt.getit
+      t: 入手
+
+    - key: tshirt.price
+      t: $24 美金 + 運費
+
+    ###########################################################################
+    # Sections Introductions
+    ###########################################################################
+
+    - key: sections.user_info.description
+      t: |
+          今年的調查來自 **102** 個國家的 **11,492** 人。感謝超棒的志工團隊，今年首次將調查翻譯成各種語言。
+
+    - key: sections.features.description
+      t: |
+          近年來，CSS 湧起新功能。因此，也可以預料到社群還在慢慢地吸收新屬性，採用有點落後。
+
+    - key: sections.units_selectors.description
+      t: |
+          可以跟你打賭，在這段落一定會找到一些不知道的東西！
+
+    - key: sections.technologies.description
+      t: |
+          CSS 生態系正在經歷分類洗牌，像是 Bootstrap 這樣的老牌主流之中，得要讓些位置給新加入的 Tailwind CSS。更不用提還未跨過 CSS 主流的 CSS-in-JS，整體變動幅度還很大。
+
+    - key: sections.other_tools.description
+      t: |
+          沒什麼大驚喜，但值得為專注於開發的瀏覽器上標，例如 Polypane 和 Sizzy。把傳統開發工具往前推一步。
+
+    - key: sections.environments.description
+      t: |
+          CSS 的核心強項之一是適應於不同環境的能力。只不過，像是列印和 Email 媒介，基於各種原因，大多數的 CSS 開發者還未進行探索。有可能成為下個 CSS 戰場前線嗎…？
+
+    - key: sections.resources.description
+      t: |
+          這部分裡的「其他回答」彰顯 CSS 社群的豐富與多元，期待許多優秀的部落格和 Podcast 正式加入明年的調查！
+
+    - key: sections.opinions.description
+      t: |
+          這些意見描繪出語言逐漸成熟，但也更複雜的景象。至少在掙扎要跟上腳步的時候，變得沒這麼享受，應該吧？
+
+          
+    ###########################################################################
+    # Notes
+    ###########################################################################
+
+    - key: blocks.gender.note
+      t: |
+          If you're interested in learning more, we [wrote a blog post](https://dev.to/sachagreif/is-our-survey-biased-against-women-49oj) that addresses the survey's gender dynamics.
+
+    - key: blocks.currently_missing_from_css.note
+      t: |
+          You can explore the full dataset of answers to this question in [this side project](https://whatsmissingfromcss.com/).
+
+    - key: blocks.source.note
+      t: >
+      
+        This chart aggregates a mix of referrers, URL parameters, and freeform answers. 
+
+        - State of JS: the [State of JS](https://stateofjs.com) mailing list.
+
+        - State of CSS: the State of CSS mailing list; also matches `email`, `by email`, etc.
+
+        - Work: matches `work`, `colleagues`, `coworkers`, etc.
+
+    ###########################################################################
+    # Awards
+    ###########################################################################
+
+    - key: award.feature_adoption_delta_award.comment
+      t: CSS Grid 在 2020 年進展 **${value}**，是從新技術跨越到具備規模的一年。
+
+    - key: award.tool_usage_delta_award.comment
+      t: 其他工具都沒有辦法接近 Tailwind CSS 這樣從去年劇烈成長 **${value}**。
+
+    - key: award.tool_satisfaction_award.comment
+      t: PostCSS 的 **${value}** 滿意比例代表非常認真地做好一件事，仍是無懈可擊的。
+
+    - key: award.tool_interest_award.comment
+      t: CSS Module 的有興趣比例是 **${value}**，今年度在 CSS 開發者之間產生最多興趣。
+
+    - key: award.most_write_ins_award.comment
+      t: 許多問題可以自行填答。整體來說，提到 **${value}** 次的 PhpStorm 是最受歡迎的。
+
+      
+    ###########################################################################
+    # Conclusion
+    ###########################################################################
+
+    - key: sections.conclusion.description
+      t: |
+            If a JavaScript developer writes a line of CSS code, are they now a CSS developer?
+            
+            This programming *kōan* illustrates a clear trend in the web development world: as more and more CSS developers are tasked with learning JavaScript, so are JavaScript developers starting to realize there might be more to this whole CSS thing than just `font-weight: bold;`. 
+
+            So asking about “the State of CSS” is inherently a tricky proposition: depending on who you ask you might get completely different answers! And how do you know which one's right?
+
+            Here's another kōan for you: the right answer is that there *is* no right answer. Each of the many tools, methodologies, frameworks, and libraries featured here has its place in the vast front-end ecosystem. 
+
+            Building a complex React app? Styled Components is a great option. Designing a static landing page? You can't go wrong with Sass! And even though Bootstrap has lost some of its original hype factor, you can't beat it when it comes to sheer number of themes and plugins.
+
+            So while we keep an eye on the shiny new toys popping up on GitHub every week, let's not forget the tools, techniques, and most of all people who have carried the CSS torch up to now. We'll need everybody if we're to keep CSS moving forward into 2021 and beyond!
+
+    ###########################################################################
+    # Picks
+    ###########################################################################
+
+    - key: picks.my_2020_pick
+      t: 'My 2020 Pick: '
+    - key: picks.intro
+      t: We asked members of the CSS community to share their “pick of the year”
+
+    - key: picks.shadeed9.bio
+      t: Author of debuggingcss.com
+    - key: picks.shadeed9.description
+      t: |
+            Container queries are a long-time awaited feature for us, 
+            and I’m thrilled that the Chrome team is working on support for it natively!
+
+
+    - key: picks.argyleink.bio
+      t: CSS at Google
+    - key: picks.argyleink.description
+      t: |
+            The humble CSS box is more dynamic every year, and for me 2020 was about logical sides, instead of physical sides. Free internationally contextual content flow, spacing and shorthands? pls & ty 
+
+
+    - key: picks.sachagreif.bio
+      t: Creator of this survey
+    - key: picks.sachagreif.description
+      t: |
+            With this blog post, Amelia Wattenberger didn't just go the extra mile, she ran a whole marathon! The animations and quiz will ensure you finally understand the CSS cascade. 
+    
+    - key: picks.christianoliff.bio
+      t: Front-end developer for Trimble MAPS
+    - key: picks.christianoliff.description
+      t: |
+          One thing I've really started using and appreciating this year though is Purge CSS- an awesome tool for removing unused CSS. It can greatly reduce the size of your CSS, and its fast and easy to use.
+    
+    - key: picks.kilianvalkhof.bio
+      t: Web developer and creator of Polypane
+    - key: picks.kilianvalkhof.description
+      t: |
+          `content-visibility` is making a huge difference in the performance of my web apps already, but at the same time I think it should be the job of browsers to optimize this, not devs.
+
+    - key: picks.walterstephanie.bio
+      t: User Centered Designer & CSS Lover
+    - key: picks.walterstephanie.description
+      t: |
+          A series of YouTube videos that explain all the new cool CSS features to build modern designs.
+
+    - key: picks.piccalilli_.bio
+      t: Freelance designer & dev who runs piccalil.li
+    - key: picks.piccalilli_.description
+      t: |
+          This blog is an absolute gold mine of CSS knowledge. Michelle is a CSS legend and every post or tutorial they write is heaped with useful content.
+
+    - key: picks.sarasoueidan.bio
+      t: Independent UI/design engineer
+    - key: picks.sarasoueidan.description
+      t: |
+          My pick is a person, namely Rachel Andrew. She taught CSS Grid to a whole generation of developers.
+
+    - key: picks.5t3ph.bio
+      t: Software Engineer @ Microsoft
+    - key: picks.5t3ph.description
+      t: |
+          In this conference talk, Manuel Matuzovic provides thoughtfully 
+          crafted examples that are engaging, approachable, and actionable.
+
+    - key: picks.hugogiraudel.bio
+      t: Non-binary accessibility & diversity advocate
+    - key: picks.hugogiraudel.description
+      t: |
+          Fela is an amazing piece of software. 
+          It’s pretty powerful, relatively easy to use and very performant
+
+    - key: picks.foolip.bio
+      t: Software Engineer @ Google
+    - key: picks.foolip.description
+      t: |
+          Sergio has recently fixed lots of Flexbox in WebKit and even some in Chromium, 
+          notably bringing flex gap to WebKit, 
+          which means that soon it will be available on all modern browsers. 
+    
+    - key: picks.jina.bio
+      t: Design systems advocate and practitioner
+    - key: picks.jina.description
+      t: |
+          The media query to reduce motion, which helps avoid 
+          triggering dizziness and discomfort.
