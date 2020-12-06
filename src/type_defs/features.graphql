@@ -11,6 +11,8 @@ enum FeatureID {
     async_await
     promises
     decorators
+    promise_all_settled
+    dynamic_import
     # JS data structures
     maps
     sets
