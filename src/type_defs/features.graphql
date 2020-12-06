@@ -3,6 +3,9 @@ enum FeatureID {
     destructuring
     spread_operator
     arrow_functions
+    nullish_coalescing
+    optional_chaining
+    private_fields
     # JS language
     proxies
     async_await
