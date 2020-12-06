@@ -7,43 +7,43 @@ translations:
     - key: sections.introduction.description
       t: |
 
-            <span class="first-letter">F</span>orget everything you know about CSS. Or at least, be ready to reconsider a lot of it. If like me you've been writing CSS for over a decade, CSS in 2020 looks nothing like what you were used to.
+            <span class="first-letter">忘</span>記你已經知道的 CSS。或者，至少很多部分要準備好重新考量。如果像我一樣已經撰寫 CSS 超過 10 年，2020 的 CSS 長得跟習以為常的樣子完全不同了。
 
-            Instead of breakpoints, we can now leverage CSS Grid to make dynamic, responsive layouts that adapt to any viewport size with fewer lines of code. Instead of relying on global stylesheets, CSS-in-JS lets us colocate our styles with our components to build themeable design systems.
+            現在可以利用 CSS Grid 取代斷點 (breakpoint)，以更少程式碼打造任何裝置大小皆能使用的動態、響應式版面。CSS-in-JS 取代全域樣式表，讓元件都有相對應的位置，方便打造能切換主題的設計系統。
 
-            And most of all, Tailwind CSS has burst onto the scene and, through its use of utility-first CSS, forced us to reconsider the traditional dogma of semantic class names.
+            Tailwind CSS 這樣以 utility 優先的 CSS 俯衝至舞台上，強迫我們重新考量傳統情境式 class 名稱的教條。
 
-            Whether all this change makes you want to write a hyped-up blog post or an angry Twitter rant, we are here to present the data, highlight the trends, and hopefully guide you through another eventful year of CSS!
+            不管這些改變讓你想要在部落格寫篇激賞文，還是震怒的抱怨推文，這裡呈現資料、標示趨勢，希望能帶你走過下一年充滿話題的 CSS。
 
-            ### Team
+            ### 團隊
 
-            The State of CSS Survey is created and maintained by:
+            發起與維護 CSS 現況調查：
 
-            - [Sacha Greif](https://twitter.com/sachagreif): Design, writing, coding
-            - [Raphaël Benitte](https://twitter.com/benitteraphael): Data analysis, data visualizations
+            - [Sacha Greif](https://twitter.com/sachagreif): 設計、撰文與程式
+            - [Raphaël Benitte](https://twitter.com/benitteraphael): 資料分析與資料視覺化
 
-            ### Download Our Data
+            ### 下載資料
 
-            You can [download the raw JSON data for this survey](https://www.kaggle.com/sachag/state-of-css). Let us know if you end up making your own data visualizations!
+            本次調查提供[原始 JSON 資料下載](https://www.kaggle.com/sachag/state-of-css)。如果你以此做出自己的資料視覺化，跟我們說一聲吧！
 
-            ### Other Links
+            ### 其他連結
 
-            - [State of CSS Homepage](https://stateofcss.com)
+            - [State of CSS 首頁](https://stateofcss.com)
             - [State of JS](https://stateofjs.com)
 
-            ### Thanks
+            ### 致謝
 
-            Thanks to all the people who helped us design the survey, including [Chen Hui-Jing](http://chenhuijing.com/), [Philip Jägenstedt](https://blog.foolip.org/), [Adam Argyke](https://nerdy.dev/), [Ahmad Shadeed](https://www.ishadeed.com/), [Robert Flack](https://github.com/flackr), [Dominic Nguyen](https://www.chromatic.com/), [Fantasai](http://fantasai.inkedblade.net/), and [Kilian Valkhof](https://kilianvalkhof.com/).
+            感謝所有協助設計問卷的人，包括：[Chen Hui-Jing](http://chenhuijing.com/)、[Philip Jägenstedt](https://blog.foolip.org/)、[Adam Argyke](https://nerdy.dev/)、[Ahmad Shadeed](https://www.ishadeed.com/)、[Robert Flack](https://github.com/flackr)、[Dominic Nguyen](https://www.chromatic.com/)、[Fantasai](http://fantasai.inkedblade.net/)、和 [Kilian Valkhof](https://kilianvalkhof.com/)。
 
-            Additional thanks to [Alexey Pyltsyn](https://github.com/lex111) for his help with translations.  
+            特別感謝 [Alexey Pyltsyn](https://github.com/lex111) 協助翻譯。  
 
-            ### Credits & Stuff
+            ### 使用素材
 
-            The site is set in IBM Plex Mono. Questions? Feedback? [Get in touch!](mailto:hello@stateofjs.com)
+            此網站使用 IBM Plex Mono。有問題或回饋嗎？[立刻聯繫！](mailto:hello@stateofjs.com)
 
-            And now, let's see what CSS has been up to this year!
+            接下來，就看看今年目前為止，CSS 過得怎麼樣！
 
-            <span class="conclusion__byline">– Sacha and Raphaël</span>
+            <span class="conclusion__byline">– Sacha 和 Raphaël</span>
 
     ###########################################################################
     # Tshirt
@@ -54,29 +54,28 @@ translations:
 
     - key: sections.tshirt.description
       t: |
-          ## Support the survey and look good in the process!
+          ## 贊助這次調查，穿件好看的衣服！
 
-          A quick announcement before the survey results. Introducing our very own 🎈🎉👕 State of CSS T-shirt 👕🎉🎈!
+          查看調查結果之前，有個簡短公告：隆重介紹獨有的 🎈🎉👕 CSS 現況調查 T-shirt 👕🎉🎈！
 
-          What makes this shirt truly special is that it's the only piece of clothing that also teaches you practical, real-world CSS techniques.
+          這件 T-shirt 真的很特別，因為它是唯一一件教你實用、實際 CSS 技巧的衣服。
 
-          So whether you're going to a conference, a job interview, or just work, this shirt will demonstrate your CSS mastery like no other garment can!
+          不管是參加研討會、工作面試或平日工作，這件 T-shirt 會讓你展現其他服裝都無法給予的 CSS 駕馭程度。
     
     - key: tshirt.about
-      t: About the T-shirt
+      t: 關於這件 T-shirt
 
     - key: tshirt.description
       t: |
-          The shirt features the State of CSS logo along with snippets of the actual CSS code used to create each shape. Who knows, you might learn a thing or two!
+          這件衣服最特別的地方是 CSS 現況調查的標誌，附上可以做出每個圖形的 CSS 實際程式碼片段。說不定，你可以從中學到一兩招！
 
-          We use a high-quality, super-soft tri-blend shirt with a slim fit. 
-          This shirt sizes small, so if you prefer a looser fit we recommend ordering one size up from what you usually wear (I'm wearing an M in the photos).
+          我們使用高品質、超柔軟的 Tri-blend 合身剪裁。尺寸比較小一些，所以如果習慣較為寬鬆，我們建議訂購比你平常穿著還要大一號的（在照片裡，我穿的是 M 號。）
 
     - key: tshirt.getit
-      t: Get It
+      t: 入手
 
     - key: tshirt.price
-      t: USD $24 + shipping
+      t: $24 美金 + 運費
 
     ###########################################################################
     # Sections Introductions
@@ -84,45 +83,35 @@ translations:
 
     - key: sections.user_info.description
       t: |
-          This year's survey reached **11,492** people in **102** countries. For the first time this year,
-          we were able to translate the survey questions in multiple languages thanks to an awesome team of volunteers.
+          今年的調查來自 **102** 個國家的 **11,492** 人。感謝超棒的志工團隊，今年首次將調查翻譯成各種語言。
 
     - key: sections.features.description
       t: |
-          CSS has seen a surge of new features in recent years, so as you'd expect adoption is
-          lagging a bit behind as the community takes its time to absorb new properties.
+          近年來，CSS 湧起新功能。因此，也可以預料到社群還在慢慢地吸收新屬性，採用有點落後。
 
     - key: sections.units_selectors.description
       t: |
-          We're willing to bet you'll find a few things you didn't know about in this section!
+          可以跟你打賭，在這段落一定會找到一些不知道的東西！
 
     - key: sections.technologies.description
       t: |
-          The CSS ecosystem is going through a renewal of sorts, as older mainstays like Bootstrap 
-          now have to accomodate newer entrants like Tailwind CSS. To say nothing of the whole CSS-in-JS
-          movement which, while it has yet to cross over to the CSS mainstream, is nonetheless quite dynamic. 
+          CSS 生態系正在經歷分類洗牌，像是 Bootstrap 這樣的老牌主流之中，得要讓些位置給新加入的 Tailwind CSS。更不用提還未跨過 CSS 主流的 CSS-in-JS，整體變動幅度還很大。
 
     - key: sections.other_tools.description
       t: |
-          No big surprises here, but it's worth highlighting the appearance of development-focused browsers
-          like Polypane and Sizzy, which go a step further than traditional devtools.
+          沒什麼大驚喜，但值得為專注於開發的瀏覽器上標，例如 Polypane 和 Sizzy。把傳統開發工具往前推一步。
 
     - key: sections.environments.description
       t: |
-          One of CSS's core strengths is its ability to adapt to different environment, yet for a variety
-          of reasons media like print and email remain unexplored by a majority of CSS developers. Might they
-          turn out to be the next frontier of CSS…?
+          CSS 的核心強項之一是適應於不同環境的能力。只不過，像是列印和 Email 媒介，基於各種原因，大多數的 CSS 開發者還未進行探索。有可能成為下個 CSS 戰場前線嗎…？
 
     - key: sections.resources.description
       t: |
-          The “other answers” results in this section highlight the richness and diversity of the CSS community,
-          and feature many outstanding blogs and podcasts which we are looking forward to officially adding
-          to the survey next year!
+          這部分裡的「其他回答」彰顯 CSS 社群的豐富與多元，期待許多優秀的部落格和 Podcast 正式加入明年的調查！
 
     - key: sections.opinions.description
       t: |
-          These opinions paint a picture of a language getting more mature, but also more complex. And perhaps
-          –at least while we struggle to keep up with the pace of change– a little less enjoyable?
+          這些意見描繪出語言逐漸成熟，但也更複雜的景象。至少在掙扎要跟上腳步的時候，變得沒這麼享受，應該吧？
 
           
     ###########################################################################
@@ -153,19 +142,19 @@ translations:
     ###########################################################################
 
     - key: award.feature_adoption_delta_award.comment
-      t: With a **${value}** progression in 2020, this was the year CSS Grid crossed over from new technology to established tool.
+      t: CSS Grid 在 2020 年進展 **${value}**，是從新技術跨越到具備規模的一年。
 
     - key: award.tool_usage_delta_award.comment
-      t: No other tool comes even close to Tailwind CSS's dramatic **${value}** progression over the last year.
+      t: 其他工具都沒有辦法接近 Tailwind CSS 這樣從去年劇烈成長 **${value}**。
 
     - key: award.tool_satisfaction_award.comment
-      t: PostCSS's **${value}** satisfaction ratio shows that you can't beat doing one thing really, really well.
+      t: PostCSS 的 **${value}** 滿意比例代表非常認真地做好一件事，仍是無懈可擊的。
 
     - key: award.tool_interest_award.comment
-      t: With a **${value}** ratio, CSS Modules have generated the most interest among CSS developers this year.
+      t: CSS Module 的有興趣比例是 **${value}**，今年度在 CSS 開發者之間產生最多興趣。
 
     - key: award.most_write_ins_award.comment
-      t: Many questions also accepted write-in answers, and with **${value}** mentions PhpStorm was the most popular item overall.
+      t: 許多問題可以自行填答。整體來說，提到 **${value}** 次的 PhpStorm 是最受歡迎的。
 
       
     ###########################################################################
