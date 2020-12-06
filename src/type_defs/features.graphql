@@ -18,6 +18,7 @@ enum FeatureID {
     sets
     typed_arrays
     array_prototype_flat
+    big_int
     # JS browser apis
     fetch
     i18n
