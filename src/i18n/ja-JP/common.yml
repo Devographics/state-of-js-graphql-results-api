@@ -6,19 +6,8 @@ translations:
 
     # homepage
     - key: general.why_create_account
-      t: Why do I need to create an account?
       t: なぜアカウントを作らないといけないのでしょうか？
     - key: general.create_account_reasons
-      t: >
-          We ask you to create an account in order to:
-
-          - Avoid duplicate responses
-
-          - Give you access to your data
-
-          - Save your session as you go
-
-          - Notify you when results are live
       t: >
           以下の理由からアカウントの作成をお願いしています。
 
@@ -31,108 +20,71 @@ translations:
           - 結果が公開されたときにあなたに伝えたい
     - key: general.survey_closed
       t: >
-          Sorry, the survey is now closed! You can still review your data but you won't be able to modify it.
-      t: >
           ごめんなさい！アンケートは終了しました。あなたが送信したデータの確認はできますが、変更はできません。
     - key: general.survey_read_only
       t: >
-          You are currently viewing this survey in read-only mode.
-      t: >
           アンケートを読み込み専用モードで見ています。
     - key: general.survey_read_only_back
-      t: >
-          <a href="${link}">Go back</a> to the main survey page to start or resume a session.
       t: >
           <a href="${link}">メインページへ戻る</a>。アンケートへの回答や、回答中のアンケートを再開できます。
 
     # surveys
     - key: general.open_surveys
-      t: Open Surveys
       t: 実施中のアンケート
     - key: general.no_open_surveys
-      t: No surveys are currently open.
       t: 実施中のアンケートはありません。
     - key: general.closed_surveys
-      t: Closed Surveys
       t: 終了したアンケート
     - key: general.no_open_surveys
-      t: No surveys are currently closed.
       t: 終了したアンケートはありません。
     - key: general.preview_surveys
-      t: Preview Surveys
       t: アンケートのプレビュー
     - key: general.no_preview_surveys
-      t: No surveys available to preview.
       t: プレビューできるアンケートはありません。
     - key: general.start_survey
-      t: Start Survey »
       t: アンケートに回答する »
     - key: general.continue_survey
-      t: Continue Survey »
       t: アンケートの回答を続ける »
     - key: general.review_survey
-      t: Review Survey »
       t: アンケートの回答を確認する »
     - key: general.preview_survey
-      t: Preview Survey »
       t: アンケートの回答をプレビュー »
     - key: general.finish_survey
-      t: Finish Survey »
       t: アンケートを終了する »
     - key: general.survey_closed
-      t: This survey is now closed.
       t: このアンケートは終了しました。
     - key: general.survey_results
-      t: View Survey Results »
       t: アンケートの結果を見る »
     - key: general.surveys_available_languages
-      t: 'Surveys available in:'
       t: アンケートは次の言語でも見られます：
     - key: general.help_us_translate
-      t: Help us translate the surveys »
       t: アンケートの翻訳に協力してください »
     - key: general.translators
-      t: Translators
       t: 翻訳者
     - key: general.translation_help
-      t: Translation Help
       t: 翻訳のヘルプ
 
     # footer
     - key: general.privacy_policy
-      t: Privacy Policy
       t: プライバシーポリシー
     - key: general.leave_issue
-      t: Questions? Found a bug? <a href="${link}" target="_blank">Leave an issue</a>.
       t: 質問があったり、バグを見つけたときは<a href="${link}" target="_blank">issueを立ててください</a>。
     - key: general.emoji_icons
       t: Emoji icons by <a target="_blank" rel="noreferrer" href="https://icons8.com">Icons8</a>
 
     # navigation
     - key: general.table_of_contents
-      t: Table of Contents
       t: 目次
     - key: general.all_questions_optional
       t: >
-          Note: all questions are optional, reaching 100% completion is not required.
-      t: >
           注：すべての質問は任意です。100%にする必要はありません。
     - key: general.data_is_saved
-      t: Your data is saved whenever you navigate to the previous or next section.
       t: あなたのデータはセクションの移動時に保存されます。
 
     # thanks
     - key: general.back
-      t: Back
       t: 戻る
     - key: general.thanks
-      t: >
-          Thanks for filling out the survey!
-
-          Your data is saved. You can review or modify it until the survey closes.
-
-          Also, you can help us get the word out by sharing this survey. Every bit counts, and it'll help make our data even
-          more representative:
       t: >
           回答ありがとうございます！
 
@@ -140,36 +92,22 @@ translations:
 
           このアンケートをシェアしてください。みなさん一人一人の回答に価値があります。多くの回答が集まることで、このデータもより現実を反映できます。
     - key: thanks.learn_more_about
-      t: 'Some of the features you might want to learn more about:'
       t: ほかにも知っておきたい機能はこちら：
     - key: thanks.knowledge_score
-      t: Knowledge Score
       t: ナレッジスコア
     - key: thanks.score_explanation
       t: >
-          You’ve heard or used <span class="score-number score-number-known">{known}</span> out of
-          <span class="score-number score-number-total">{total}</span> features mentioned in the survey, which
-          puts you in the top <span class="score-number score-number-ranking">{knowledgeRankingFromTop}%</span>
-          of all respondents.
-      t: >
           あなたはこのアンケートで紹介した全<span class="score-number score-number-total">{total}</span>機能のうち、<span class="score-number score-number-known">{known}</span>を知って、もしくは使っています。これは全回答者の上位<span class="score-number score-number-ranking">{knowledgeRankingFromTop}%</span>以内です。
     - key: thanks.share_on_twitter
-      t: Share on Twitter
       t: Twitterにシェア
     - key: thanks.share_score_message
-      t: >
-          I got a {score}% knowledge score on this year's #{hashtag} survey! Take the survey here: {shareUrl}
       t: >
          私の#{hashtag}ナレッジスコアは{score}%でした。アンケートの回答はここから：{shareUrl}
     # share
     - key: general.share_subject
       t: >
-          {surveyName} survey
-      t: >
           {surveyName}
     - key: general.share_text
-      t: >
-          This year's {surveyName} survey is now open! {link}
       t: >
           今年の{surveyName}がオープンしました！{link}
 
@@ -179,25 +117,20 @@ translations:
 
     # partners
     - key: partners.our_partners
-      t: Our Partners
       t: パートナー一覧
     - key: partners.become_partner
-      t: Become a partner
       t: パートナーになる
 
     # 404
     - key: notfound.title
       t: 404 Not Found
     - key: notfound.description
-      t: Sorry, we couldn't find what you were looking for. 
       t: ごめんなさい。あなたの探しているものを見つけられませんでした。
 
     # other
     - key: general.join_discord
-      t: Join us on <a href="${link}">Discord</a>. 
       t: <a href="${link}">Discord</a>に参加。
     - key: general.translator_mode
-      t: Press option/alt to enable translator mode. 
       t: option/altを押して翻訳モードにする。
     - key: general.charts_nivo
       t: Charts built with <a href="${link}">Nivo</a>.
@@ -207,10 +140,8 @@ translations:
     ###########################################################################
 
     - key: nav.surveys
-      t: Surveys
       t: アンケート
     - key: nav.account
-      t: Account
       t: アカウント
 
     ###########################################################################
@@ -218,38 +149,28 @@ translations:
     ###########################################################################
 
     - key: sections.user_info.title
-      t: About You
       t: あなたについて
     - key: sections.user_info.description
-      t: Let's get to know the real you.
       t: あなた自身についてお聞きします。
 
     - key: sections.features.title
-      t: Features
       t: 機能
     - key: sections.features.description
-      t: Syntax, keywords, and other language features.
       t: 構文、キーワード、そのほかの言語機能
 
     - key: sections.resources.title
-      t: Resources
       t: リソース
     - key: sections.resources.description
-      t: What {topic} resources do you consult?
       t: {topic}について、どんなリソースを参考にしますか？
 
     - key: sections.opinions.title
-      t: Opinions
       t: 意見
     - key: sections.opinions.description
-      t: How do you feel about the state of {topic}?
       t: {topic}の現状についてどう思いますか？
 
     - key: sections.other_tools.title
-      t: Other Tools
       t: そのほかのツール
     - key: sections.other_tools.description
-      t: For these tools & technologies, just check the ones that you use regularly.
       t: 以下のツールや技術について、あなたが普段から使っているものをチェックしてください。
 
     ###########################################################################
@@ -258,103 +179,74 @@ translations:
 
     # features
     - key: options.features.never_heard
-      t: 🤷 Never heard of it/Not sure what it is
       t: 🤷 聞いたことがない/何なのかわからない
     - key: options.features.heard
-      t: ✅ Know what it is, but haven't used it
       t: ✅ 知っているが、使ったことはない
     - key: options.features.used
-      t: 👍 I've used it
       t: 👍 使ったことがある
 
     # features (no emoji)
     - key: options.features.never_heard.label
-      t: Never heard of it/Not sure what it is
       t: 聞いたことがない/何なのかわからない
     - key: options.features.heard.label
-      t: Know what it is, but haven't used it
       t: 知っているが、使ったことはない
     - key: options.features.used.label
-      t: I've used it
       t: 使ったことがある
 
     # features (short versions)
     - key: options.features.never_heard.short
-      t: Never heard of it
       t: 聞いたことがない
     - key: options.features.heard.short
-      t: Know about it
       t: 知っている
     - key: options.features.used.short
-      t: Have used it
       t: 使った
 
     # patterns
     - key: options.patterns.use_never
-      t: Almost always avoid
       t: 使わないようにしている
     - key: options.patterns.use_sparingly
-      t: Use sparingly
       t: あまり使わない
     - key: options.patterns.use_neutral
-      t: Neutral
       t: どれでもない
     - key: options.patterns.use_frequently
-      t: Use frequently
       t: よく使う
     - key: options.patterns.use_always
-      t: Use as much as I can
       t: 使えるなら常に使っている
 
     # tools experience
     - key: options.tools.never_heard
-      t: 🤷 Never heard of it/Not sure what it is
       t: 🤷 聞いたことがない/何なのかわからない
     - key: options.tools.interested
-      t: ✅ Heard of it > Would like to learn
       t: ✅ 聞いたことがある > 学んでみたい
     - key: options.tools.not_interested
-      t: 🚫 Heard of it > Not interested
       t: 🚫 聞いたことがある > 興味がない
     - key: options.tools.would_use
-      t: 👍 Used it > Would use again
       t: 👍 使った > また使いたい
     - key: options.tools.would_not_use
-      t: 👎 Used it > Would not use again
       t: 👎 使った > もう使わない
 
     # tools experience (no emoji)
     - key: options.tools.never_heard.legend
-      t: Never heard of it/Not sure what it is
       t: 聞いたことがない/何なのかわからない
     - key: options.tools.interested.legend
-      t: Heard of it > Would like to learn
       t: 聞いたことがある > 学んでみたい
     - key: options.tools.not_interested.legend
-      t: Heard of it > Not interested
       t: 聞いたことがある > 興味がない
     - key: options.tools.would_use.legend
-      t: Used it > Would use again
       t: 使った > また使いたい
     - key: options.tools.would_not_use.legend
-      t: Used it > Would not use again
       t: 使った > もう使わない
 
     # tools experience (short versions)
     - key: options.tools.never_heard.short
-      t: Never heard
       t: 聞いたことがない
     - key: options.tools.interested.short
-      t: Interested
       t: 興味がある
     - key: options.tools.not_interested.short
-      t: Not interested
       t: 興味がない
     - key: options.tools.would_use.short
-      t: Would use again
       t: また使いたい
     - key: options.tools.would_not_use.short
-      t: Would not use
       t: もう使わない
 
     # happiness
@@ -393,40 +285,29 @@ translations:
 
     # opinions
     - key: options.opinions.0
-      t: Disagree Strongly
       t: まったく同意しない
     - key: options.opinions.1
-      t: Disagree
       t: 同意しない
     - key: options.opinions.2
-      t: Neutral
       t: どちらでもない
     - key: options.opinions.3
-      t: Agree
       t: 同意する
     - key: options.opinions.4
-      t: Agree Strongly
       t: とても同意する
 
     # years of experience
     - key: options.years_of_experience.range_less_than_1
-      t: Less than one year
       t: 1年未満
     - key: options.years_of_experience.range_1_2
-      t: 1 to 2 years
       t: 1年から2年
     - key: options.years_of_experience.range_2_5
-      t: 2 to 5 years
       t: 2年から5年
     - key: options.years
     - key: options.years_of_experience.range_5_10
-      t: 5 to 10 years
       t: 5年から10年
     - key: options.years_of_experience.range_10_20
-      t: 10 to 20 years
       t: 10年から20年
     - key: options.years_of_experience.range_more_than_20
-      t: More than 20 years
       t: 20年以上
 
     # years of experience (short versions)
@@ -445,28 +326,20 @@ translations:
 
     # company size
     - key: options.company_size.range_1
-      t: One employee
       t: 1人
     - key: options.company_size.range_1_5
-      t: 1 to 5 employees
       t: 1人から5人
     - key: options.company_size.range_5_10
-      t: 5 to 10 employees
       t: 5人から10人
     - key: options.company_size.range_10_20
-      t: 10 to 20 employees
       t: 10人から20人
     - key: options.company_size.range_20_50
-      t: 20 to 50 employees
       t: 20人から50人
     - key: options.company_size.range_50_100
-      t: 50 to 100 employees
       t: 50人から100人
     - key: options.company_size.range_100_1000
-      t: 100 to 1000 employees
       t: 100人から1000人
     - key: options.company_size.range_more_than_1000
-      t: More than 1000 employees
       t: 1000人より多い
 
     # company size (short versions)
@@ -489,25 +362,18 @@ translations:
 
     # salary
     - key: options.yearly_salary.range_work_for_free
-      t: I work for free
       t: 無報酬
     - key: options.yearly_salary.range_0_10
-      t: $0k-$10k
       t: $0～$10,000
     - key: options.yearly_salary.range_10_30
-      t: $10k-$30k
       t: $10,000～$30,000
     - key: options.yearly_salary.range_30_50
-      t: $30k-$50k
       t: $30,000～$50,000
     - key: options.yearly_salary.range_50_100
-      t: $50k-$100k
       t: $50,000～$100,000
     - key: options.yearly_salary.range_100_200
-      t: $100k-$200k
       t: $100,000～$200,000
     - key: options.yearly_salary.range_more_than_200
-      t: More than $200k
       t: $200,000以上
 
     # salary (short versions)
@@ -530,208 +396,146 @@ translations:
     - key: options.job_title.cto
       t: CTO
     - key: options.job_title.front_end_developer
-      t: Front End Developer/Engineer
       t: フロントエンドデベロッパー・エンジニア
     - key: options.job_title.back_end_developer
-      t: Back End Developer/Engineer
       t: バックエンドデベロッパー・エンジニア
     - key: options.job_title.full_stack_developer
-      t: Full Stack Developer/Engineer
       t: フルスタックデベロッパー・エンジニア
     - key: options.job_title.web_developer
-      t: Web Developer
       t: ウェブデベロッパー
     - key: options.job_title.web_designer
-      t: Web Designer
       t: ウェブデザイナー
     - key: options.job_title.ux_designer
-      t: UX Designer
       t: UXデザイナー
     - key: options.job_title.ui_designer
-      t: UI Designer
       t: UIデザイナー
     - key: options.job_title.back_end_dev
-      t: Back-end Developer/Engineer
       t: バックエンドデベロッパー・エンジニア
 
     # JavaScript proficiency
     - key: options.javascript_proficiency.0
-      t: Not able to write any JavaScript
       t: JavaScriptをまったく書けない
     - key: options.javascript_proficiency.1
-      t: Writing short, simple JavaScript or jQuery statements
       t: 短い/シンプルなJavaScriptコードやjQueryコードを書ける
     - key: options.javascript_proficiency.2
-      t: Working on existing front-end codebases using modern frameworks (React, Vue, etc.)
       t: モダンなフレームワーク（React、Vueなど）を使ってフロントエンドのコードを書ける
     - key: options.javascript_proficiency.3
-      t: Architecturing entire front-end codebases from scratch
       t: フロントエンドのコードベース全体をスクラッチから設計できる
     - key: options.javascript_proficiency.4
-      t: Handling advanced front-end patterns (state management, data loading, etc.)
       t: 高度なフロントエンドのパターン（ステート管理、データ読み込みなど）を処理できる
 
     # CSS proficiency
     - key: options.css_proficiency.0
-      t: Virtually no knowledge of CSS
       t: CSSの知識がまったくない
     - key: options.css_proficiency.1
-      t: Using CSS frameworks and tweaking existing styles
       t: CSSフレームワークを使ったり、既存のスタイルを修正できる
     - key: options.css_proficiency.2
-      t: Knowing specificity rules, being able to create layouts
       t: 詳細度を知っている、レイアウトを作成できる
     - key: options.css_proficiency.3
-      t: Mastering animations, interactions, transitions, etc.
       t: アニメーション、インタラクション、トランジションをマスターしている
     - key: options.css_proficiency.4
-      t: Able to style an entire front-end from scratch following a consistent methodology
       t: 一貫性のある方針に基づいて、フロントエンドのスタイルをスクラッチで作成できる
 
     # Back-end proficiency
     - key: options.backend_proficiency.0
-      t: Not able to handle any back-end work
       t: バックエンドの処理はまったくできない
     - key: options.backend_proficiency.1
-      t: Able to set up all-in-one CMSs (WordPress, etc.) or static site generators (Jekyll, etc.)
       t: 多機能なCMS（WordPressなど）や静的サイトジェネレーター（Jekyllなど）をセットアップできる
     - key: options.backend_proficiency.2
-      t: Able to develop apps using pre-existing frameworks (Rails, Laravel, etc.)
       t: 既存のフレームワーク（Rails、Laravelなど）を使って開発できる
     - key: options.backend_proficiency.3
-      t: Setting up an entire back-end from scratch (Go, Node.js, etc.)
       t: バックエンドをスクラッチでセットアップできる（Go、Node.jsなど）
     - key: options.backend_proficiency.4
-      t: Able to handle complex multi-server or microservices architectures
       t: 複雑なマルチサーバーやマイクロサービスのアーキテクチャを処理できる
 
     # Proficiency (generic versions)
     - key: options.proficiency.0
-      t: None
       t: なし
     - key: options.proficiency.1
-      t: Beginner
       t: 初心者
     - key: options.proficiency.2
-      t: Intermediate
       t: 中級者
     - key: options.proficiency.3
-      t: Advanced
       t: 上級者
     - key: options.proficiency.4
-      t: Expert
       t: エキスパート
 
     # Gender
 
     - key: options.gender.female
-      t: Female
       t: 女性
     - key: options.gender.male
-      t: Male
       t: 男性
     - key: options.gender.non_binary
-      t: Non-Binary/Third Gender
       t: ノンバイナリー・サードジェンダー
     - key: options.gender.prefer_not_to_say
-      t: Prefer not to say
       t: 答えたくない
 
     # Race & Ethnicity
 
     - key: options.race_ethnicity.white_european
-      t: White or of European descent
       t: 白人・ヨーロッパ系
     - key: options.race_ethnicity.south_asian
-      t: South Asian
       t: 東南アジア系
     - key: options.race_ethnicity.hispanic_latin
-      t: Hispanic or Latino/Latina
       t: ヒスパニック・ラテン系
     - key: options.race_ethnicity.east_asian
-      t: East Asian
       t: 東アジア系
     - key: options.race_ethnicity.middle_eastern
-      t: Middle Eastern
       t: 中東系
     - key: options.race_ethnicity.black_african
-      t: Black or of African descent
       t: 黒人・アフリカ系
     - key: options.race_ethnicity.multiracial
-      t: Multiracial
       t: マルチレイシャル
     - key: options.race_ethnicity.biracial
-      t: Biracial
       t: バイレイシャル
     - key: options.race_ethnicity.native_american_islander_australian
-      t: Native American, Pacific Islander, or Indigenous Australian
       t: ネイティブアメリカン、太平洋諸島系、オーストラリア先住民
 
     # Form Factors
     - key: options.form_factors.desktop
-      t: Desktop
       t: デスクトップ
     - key: options.form_factors.smartphone
-      t: Smartphone
       t: スマートフォン
     - key: options.form_factors.feature_phone
-      t: Feature phone
       t: フィーチャーフォン
     - key: options.form_factors.tablet
-      t: Tablet
       t: タブレット
     - key: options.form_factors.smart_watch
-      t: Smartwatch
       t: スマートウォッチ
     - key: options.form_factors.tv
-      t: TV
       t: テレビ
     - key: options.form_factors.gaming_console
-      t: Gaming console
       t: ゲーム機
     - key: options.form_factors.screen_reader
-      t: Screen reader
       t: スクリーンリーダー
     - key: options.form_factors.print
-      t: Print
       t: 印刷
 
     # Industry Sector
     - key: options.industry_sector.ecommerce
-      t: Ecommerce & Retail
       t: Eコマース・小売
     - key: options.industry_sector.news_media
-      t: News, Media, & Blogging
       t: ニュース・メディア・ブログ
     - key: options.industry_sector.healthcare
-      t: Healthcare
       t: 医療
     - key: options.industry_sector.finance
-      t: Finance
       t: 金融
     - key: options.industry_sector.programming_tools
-      t: Programming & Technical Tools
       t: プログラミング・技術ツール
     - key: options.industry_sector.socialmedia
-      t: Social Media
       t: ソーシャルメディア・SNS
     - key: options.industry_sector.marketing_tools
-      t: Marketing/Sales/Analytics Tools
       t: マーケティング・営業・アナリティクス
     - key: options.industry_sector.education
-      t: Education
       t: 教育
     - key: options.industry_sector.real_estate
-      t: Real Estate
       t: 不動産
     - key: options.industry_sector.government
-      t: Government
       t: 政府系
     - key: options.industry_sector.entertainment
-      t: Entertainment
       t: エンターテインメント
     - key: options.industry_sector.consulting
-      t: Consulting & Services
       t: コンサルティング・サービス業
 
     ###########################################################################
@@ -739,18 +543,12 @@ translations:
     ###########################################################################
 
     - key: tools.other_tools
-      t: Other Options
       t: ほかのツール
     - key: tools.other_tools.description
-      t: Other options you use for the current section not mentioned in the list above
       t: 使っているもののうち、上のリストに掲載されていないもの
     - key: tools.happiness
-      t: Overall Happiness
       t: 総合的な満足度
     - key: tools.happiness.description
-      t: >
-          On a scale of one (very unhappy) to five (very happy), how happy are
-          you with the current overall state of things as it relates to the options listed above?
       t: >
           ここに挙げた選択肢について、現在の満足度合いを1（very unhappy）から5（very happy）の間で表すとどれになりますか？
 
@@ -760,100 +558,73 @@ translations:
 
     # years of experience
     - key: user_info.years_of_experience
-      t: Years of Experience
       t: 経験年数
     - key: user_info.years_of_experience.description
-      t: How long you've been working or studying in this field.
       t: この業界で何年ほどの経験がありますか。
 
     # company size
     - key: user_info.company_size
-      t: Company Size
       t: 会社の規模
     - key: user_info.company_size.description
-      t: How big your company is.
       t: あなたの会社はどれくらいの大きさですか。
 
     # salary ranges
     - key: user_info.yearly_salary
-      t: Yearly Salary
       t: 年収
     - key: user_info.yearly_salary.description
-      t: In USD.
       t: 米ドルでの年収。
 
     # job title
     - key: user_info.job_title
-      t: Job Title
       t: 肩書き
     - key: user_info.job_title.description
-      t: How do you introduce yourself at parties?
       t: 懇親会などでどう自己紹介しますか？
 
     # javascript proficiency
     - key: user_info.javascript_proficiency
-      t: JavaScript Proficiency
       t: JavaScriptの習熟度
     - key: user_info.javascript_proficiency.description
-      t: How proficient are you at JavaScript?
       t: JavaScriptをどれくらい習得していますか？
 
     # css proficiency
     - key: user_info.css_proficiency
-      t: CSS Proficiency
       t: CSSの習熟度
     - key: user_info.css_proficiency.description
-      t: How proficient are you at CSS?
       t: CSSをどれくらい習得していますか？
 
     # backend proficiency
     - key: user_info.backend_proficiency
-      t: Back-end Proficiency
       t: バックエンドの習熟度
     - key: user_info.backend_proficiency.description
-      t: How proficient are you at back-end development?
       t: バックエンド開発をどのくらい習得していますか？
 
     # gender
     - key: user_info.gender
-      t: Gender
       t: ジェンダー
 
     # skin tone/appearance
     - key: user_info.race_ethnicity
-      t: Race & Ethnicity
       t: 人種・民族
 
     # other info
     - key: user_info.how_did_user_find_out_about_the_survey
-      t: How did you find out about this survey?
       t: このアンケートをどうやって知りましたか？
     - key: user_info.email
-      t: Your Email
       t: メールアドレス
     - key: user_info.country
-      t: Your Country or Region
       t: 居住国・居住地
     - key: user_info.github_username
-      t: Your GitHub Username
       t: GitHubのユーザー名
     - key: user_info.github_username.description
       t: >
-        We might use GitHub usernames in the future to look at
-        repos and cross-reference publicly available information. 
-      t: >
         今後、レポジトリやそのほかの公開情報を組み合わせるため、GitHubのユーザー名を使うかもしれません。
     - key: user_info.industry_sector
-      t: Industry Sector
       t: 業種
     - key: user_info.industry_sector.description
-      t: Which industry sector(s) do you work in?
       t: どの業界で働いていますか？
     - key: user_info.industry_sector.others
-      t: Other Industry Sectors
       t: そのほかの業種
     - key: user_info.industry_sector.others.description
-      t: Other industry sector(s) you work in not mentioned above.
       t: 上記のリストにない場合は、書いてください。
 
     ###########################################################################
@@ -861,81 +632,57 @@ translations:
     ###########################################################################
 
     - key: tools_others.libraries
-      t: Libraries
       t: ライブラリ
     - key: tools_others.libraries.description
-      t: Which libraries do you regularly use?
       t: いつも使うライブラリは何ですか？
     - key: tools_others.libraries.others
-      t: Other Libraries
       t: そのほかのライブラリ
     - key: tools_others.libraries.others.description
-      t: Other answers (freeform field).
       t: そのほかの回答（自由入力欄）。
 
     - key: tools_others.text_editors
-      t: Text Editors
       t: テキストエディタ
     - key: tools_others.text_editors.description
-      t: Which text editor(s) do you regularly use?
       t: いつも使うテキストエディタは何ですか？
     - key: tools_others.text_editors.others
-      t: Other Text Editors
       t: そのほかのテキストエディタ
     - key: tools_others.text_editors.others.description
-      t: Other answers (freeform field).
       t: そのほかの回答（自由入力欄）。
 
     - key: tools_others.utilities
-      t: Utilities
       t: ユーティリティ
     - key: tools_others.utilities.description
-      t: Which utilities or tools do you regularly use?
       t: いつも使うユーティリティやツールは何ですか？
     - key: tools_others.utilities.others
-      t: Other Utilities
       t: そのほかのユーティリティ
     - key: tools_others.utilities.others.description
-      t: Other utilities (freeform field).
       t: そのほかの回答（自由入力欄）。
 
     - key: tools_others.browsers
-      t: Browsers
       t: ブラウザー
     - key: tools_others.browsers.description
-      t: Which browser(s) do you primarily work in during initial development?
       t: 開発を始めるとき、主に使うブラウザーは何ですか？
     - key: tools_others.browsers.others
-      t: Other Browsers
       t: そのほかのブラウザー
     - key: tools_others.browsers.others.description
-      t: Other answers (freeform field).
       t: そのほかの回答（自由入力欄）。
 
     - key: tools_others.build_tools
-      t: Build Tools
       t: ビルドツール
     - key: tools_others.build_tools.description
-      t: Which build tools do you use?
       t: 使っているビルドツールは何ですか？
     - key: tools_others.build_tools.others
-      t: Other Build Tools
       t: そのほかのビルドツール
     - key: tools_others.build_tools.others.description
-      t: Other answers (freeform field).
       t: そのほかの回答（自由入力欄）。
 
     - key: tools_others.non_js_languages
-      t: Non-JavaScript Languages
       t: JavaScript以外の言語
     - key: tools_others.non_js_languages.description
-      t: Which other programming languages do you use?
       t: 他のプログラミング言語のうち、使っているものは何ですか？
     - key: tools_others.non_js_languages.others
-      t: Other Languages
       t: そのほかの言語
     - key: tools_others.non_js_languages.others.description
-      t: Other answers (freeform field).
       t: そのほかの回答（自由入力欄）。
 
     ###########################################################################
@@ -944,42 +691,30 @@ translations:
 
     # blogs & magazines
     - key: resources.blogs_news_magazines
-      t: Blogs & Magazines
       t: ブログ・マガジン
     - key: resources.blogs_news_magazines.description
-      t: Which blogs/magazines/etc. do you read?
       t: ブログやマガジンのうち、読んでいるのは何ですか？
     - key: resources.blogs_news_magazines.others
-      t: Other Blogs & Magazines
       t: そのほかのブログ・マガジン
     - key: resources.blogs_news_magazines.others.description
-      t: Other answers (freeform field).
       t: そのほかの回答（自由入力欄）。
 
     # sites & courses
     - key: resources.sites_courses
-      t: Sites & Courses
       t: サイト・学習コース
     - key: resources.sites_courses.description
-      t: Which sites/courses/etc. do you consult?
       t: サイトや学習コースのうち、参考にしているものは何ですか？
     - key: resources.sites_courses.others
-      t: Other Sites & Courses
       t: そのほかのサイト・学習コース
     - key: resources.sites_courses.others.description
-      t: Other answers (freeform field).
       t: そのほかの回答（自由入力欄）。
 
     # podcasts
     - key: resources.podcasts
-      t: Podcasts
       t: ポッドキャスト
     - key: resources.podcasts.description
-      t: Which programming-related podcasts do you listen to?
       t: プログラミングに関係するポッドキャストのうち、聞いているものは何ですか？
     - key: resources.podcasts.others
-      t: Other Podcasts
       t: そのほかのポッドキャスト
     - key: resources.podcasts.others.description
-      t: Other answers (freeform field).
       t: そのほかの回答（自由入力欄）。
