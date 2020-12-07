@@ -62,7 +62,7 @@ translations:
     - key: general.translators
       t: 翻訳者
     - key: general.translation_help
-      t: 翻訳のヘルプ
+      t: 翻訳協力
 
     # footer
     - key: general.privacy_policy
