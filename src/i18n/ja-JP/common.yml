@@ -7,6 +7,7 @@ translations:
     # homepage
     - key: general.why_create_account
       t: Why do I need to create an account?
+      t: なぜアカウントを作る必要があるのでしょうか？
     - key: general.create_account_reasons
       t: >
           We ask you to create an account in order to:
@@ -18,72 +19,112 @@ translations:
           - Save your session as you go
 
           - Notify you when results are live
+      t: >
+          以下の理由からアカウントの作成をお願いしています。
+
+          - 回答の重複を避けたい
+
+          - あなたが自身のデータへアクセスできるようにしたい
+
+          - ページ離脱時にセッションを保存したい
+
+          - 結果が公開されたときにあなたに伝えたい
     - key: general.survey_closed
       t: >
           Sorry, the survey is now closed! You can still review your data but you won't be able to modify it.
+      t: >
+          ごめんなさい！アンケートは終了しました。あなたが送信したデータの確認はできますが、変更はできません。
     - key: general.survey_read_only
       t: >
           You are currently viewing this survey in read-only mode.
+      t: >
+          アンケートを読み込み専用モードで見ています。
     - key: general.survey_read_only_back
       t: >
           <a href="${link}">Go back</a> to the main survey page to start or resume a session.
+      t: >
+          <a href="${link}">メインページへ戻る</a>。アンケートへの回答や、回答中のアンケートを再開できます。
 
     # surveys
     - key: general.open_surveys
       t: Open Surveys
+      t: 実施中のアンケート
     - key: general.no_open_surveys
       t: No surveys are currently open.
+      t: 実施中のアンケートはありません。
     - key: general.closed_surveys
       t: Closed Surveys
+      t: 終了したアンケート
     - key: general.no_open_surveys
       t: No surveys are currently closed.
+      t: 終了したアンケートはありません。
     - key: general.preview_surveys
       t: Preview Surveys
+      t: アンケートのプレビュー
     - key: general.no_preview_surveys
       t: No surveys available to preview.
+      t: プレビューできるアンケートはありません。
     - key: general.start_survey
       t: Start Survey »
+      t: アンケートに回答する »
     - key: general.continue_survey
       t: Continue Survey »
+      t: アンケートの回答を続ける »
     - key: general.review_survey
       t: Review Survey »
+      t: アンケートの回答を確認する »
     - key: general.preview_survey
       t: Preview Survey »
+      t: アンケートの回答をプレビュー »
     - key: general.finish_survey
       t: Finish Survey »
+      t: アンケートを終了する »
     - key: general.survey_closed
       t: This survey is now closed.
+      t: このアンケートは終了しました。
     - key: general.survey_results
       t: View Survey Results »
+      t: アンケートの結果を見る »
     - key: general.surveys_available_languages
       t: 'Surveys available in:'
+      t: 'アンケートは次の言語でも見られます：'
     - key: general.help_us_translate
       t: Help us translate the surveys »
+      t: アンケートの翻訳に協力してください »
     - key: general.translators
       t: Translators
+      t: 翻訳者
     - key: general.translation_help
       t: Translation Help
+      t: 翻訳のヘルプ
 
     # footer
     - key: general.privacy_policy
       t: Privacy Policy
+      t: プライバシーポリシー
     - key: general.leave_issue
       t: Questions? Found a bug? <a href="${link}" target="_blank">Leave an issue</a>.
+      t: 質問があったり、バグを見つけたときは<a href="${link}" target="_blank">issueを立ててください</a>。
     - key: general.emoji_icons
       t: Emoji icons by <a target="_blank" rel="noreferrer" href="https://icons8.com">Icons8</a>
 
     # navigation
     - key: general.table_of_contents
       t: Table of Contents
+      t: 目次
     - key: general.all_questions_optional
       t: >
           Note: all questions are optional, reaching 100% completion is not required.
+      t: >
+          注：すべての質問は任意です。100%にする必要はありません。
     - key: general.data_is_saved
       t: Your data is saved whenever you navigate to the previous or next section.
+      t: あなたのデータはセクションの移動時に保存されます。
 
     # thanks
     - key: general.back
       t: Back
+      t: 戻る
     - key: general.thanks
       t: >
           Thanks for filling out the survey!
@@ -92,28 +133,45 @@ translations:
 
           Also, you can help us get the word out by sharing this survey. Every bit counts, and it'll help make our data even
           more representative:
+      t: >
+          回答ありがとうございます！
+
+          データは保存されました。アンケートが終了するまで、回答の確認や編集ができます。
+
+          このアンケートをシェアしてください。Every bit counts, and it'll help make our data even more representative:
     - key: thanks.learn_more_about
       t: 'Some of the features you might want to learn more about:'
+      t: 他にも知っておきたい機能はこちら：
     - key: thanks.knowledge_score
       t: Knowledge Score
+      t: ナレッジスコア
     - key: thanks.score_explanation
       t: >
           You’ve heard or used <span class="score-number score-number-known">{known}</span> out of
           <span class="score-number score-number-total">{total}</span> features mentioned in the survey, which
           puts you in the top <span class="score-number score-number-ranking">{knowledgeRankingFromTop}%</span>
           of all respondents.
+      t: >
+          あなたはこのアンケートで紹介した全<span class="score-number score-number-total">{total}</span>機能のうち、<span class="score-number score-number-known">{known}</span>を知って、もしくは使っています。これは全回答者の上位<span class="score-number score-number-ranking">{knowledgeRankingFromTop}%</span>以内です。
     - key: thanks.share_on_twitter
       t: Share on Twitter
+      t: Twitterにシェア
     - key: thanks.share_score_message
       t: >
           I got a {score}% knowledge score on this year's #{hashtag} survey! Take the survey here: {shareUrl}
+      t: >
+         私の#{hashtag}ナレッジスコアは{score}%でした。アンケートの回答はここから：{shareUrl}
     # share
     - key: general.share_subject
       t: >
           {surveyName} survey
+      t: >
+          {surveyName}
     - key: general.share_text
       t: >
           This year's {surveyName} survey is now open! {link}
+      t: >
+          今年の{surveyName}がオープンしました！{link}
 
     # forms
     - key: forms.select_option
@@ -122,21 +180,27 @@ translations:
     # partners
     - key: partners.our_partners
       t: Our Partners
+      t: パートナー一覧
     - key: partners.become_partner
       t: Become a partner
+      t: パートナーになる
 
     # 404
     - key: notfound.title
       t: 404 Not Found
     - key: notfound.description
       t: Sorry, we couldn't find what you were looking for. 
+      t: ごめんなさい。あなたの探しているものを見つけられませんでした。
 
     # other
     - key: general.join_discord
       t: Join us on <a href="${link}">Discord</a>. 
+      t: <a href="${link}">Discord</a>に参加
     - key: general.translator_mode
       t: Press option/alt to enable translator mode. 
+      t: option/alt を押して翻訳モードにする
     - key: general.charts_nivo
+      t: Charts built with <a href="${link}">Nivo</a>.
       t: Charts built with <a href="${link}">Nivo</a>.
       
     ###########################################################################
@@ -145,8 +209,10 @@ translations:
 
     - key: nav.surveys
       t: Surveys
+      t: アンケート
     - key: nav.account
       t: Account
+      t: アカウント
 
     ###########################################################################
     # Sections
@@ -154,28 +220,38 @@ translations:
 
     - key: sections.user_info.title
       t: About You
+      t: あなたについて
     - key: sections.user_info.description
       t: Let's get to know the real you.
+      t: あなた自身についてお聞きします。
 
     - key: sections.features.title
       t: Features
+      t: 機能
     - key: sections.features.description
       t: Syntax, keywords, and other language features.
+      t: 構文、キーワード、その他の言語機能
 
     - key: sections.resources.title
       t: Resources
+      t: リソース
     - key: sections.resources.description
       t: What {topic} resources do you consult?
+      t: {topic}について、どんなリソースを参考にしますか？
 
     - key: sections.opinions.title
       t: Opinions
+      t: 意見
     - key: sections.opinions.description
       t: How do you feel about the state of {topic}?
+      t: {topic}の現状についてどう思いますか？
 
     - key: sections.other_tools.title
       t: Other Tools
+      t: その他のツール
     - key: sections.other_tools.description
       t: For these tools & technologies, just check the ones that you use regularly.
+      t: 以下のツールや技術について、あなたが普段から使っているものをチェックしてください。
 
     ###########################################################################
     # Options
