@@ -61,12 +61,14 @@ enum ToolID {
     esbuild
     # JS mobile desktop
     electron
-    reactnative
-    nativeapps
+    react_native # reactnative?
+    native_apps # nativeapps?
     cordova
     ionic
     nwjs
     expo
+    capacitor
+    quasar
     # CSS Pre-/Post-processors
     sass
     less
