@@ -120,22 +120,21 @@ translations:
 
     - key: blocks.gender.note
       t: |
-          If you're interested in learning more, we [wrote a blog post](https://dev.to/sachagreif/is-our-survey-biased-against-women-49oj) that addresses the survey's gender dynamics.
-
+          如果還有興趣知道更深入的，我們[寫了篇文章](https://dev.to/sachagreif/is-our-survey-biased-against-women-49oj)，談這次調查的性別差距。
     - key: blocks.currently_missing_from_css.note
       t: |
-          You can explore the full dataset of answers to this question in [this side project](https://whatsmissingfromcss.com/).
+          在此[閒暇專案](https://whatsmissingfromcss.com/)可以翻閱這問題的完整答案 Dataset。
 
     - key: blocks.source.note
       t: >
-      
-        This chart aggregates a mix of referrers, URL parameters, and freeform answers. 
 
-        - State of JS: the [State of JS](https://stateofjs.com) mailing list.
+        這張圖表整合各種參照頁面、網址參數和自由填寫回答。
 
-        - State of CSS: the State of CSS mailing list; also matches `email`, `by email`, etc.
+        - State of JS: [JS 現況調查](https://stateofjs.com) 的訂閱名單。
 
-        - Work: matches `work`, `colleagues`, `coworkers`, etc.
+        - State of CSS: CSS 現況調查訂閱名單，還有包含 `email`、`by email`…等。
+
+        - Work: 包含 `work`、`colleagues`、`coworkers`…等。
 
     ###########################################################################
     # Awards
@@ -163,29 +162,29 @@ translations:
 
     - key: sections.conclusion.description
       t: |
-            If a JavaScript developer writes a line of CSS code, are they now a CSS developer?
-            
-            This programming *kōan* illustrates a clear trend in the web development world: as more and more CSS developers are tasked with learning JavaScript, so are JavaScript developers starting to realize there might be more to this whole CSS thing than just `font-weight: bold;`. 
+            如果 JavaScript 開發者寫了一行 CSS 程式碼，就是 CSS 開發者了嗎？
 
-            So asking about “the State of CSS” is inherently a tricky proposition: depending on who you ask you might get completely different answers! And how do you know which one's right?
+            這個程式*公案 (kōan)*描繪出網頁開發貨真價實的趨勢：越來越多 CSS 開發者被指派要學習 JavaScript，JavaScript 開發者同樣要開始理解 CSS 的完整樣貌，不是只有 `font-weight: bold;`。
 
-            Here's another kōan for you: the right answer is that there *is* no right answer. Each of the many tools, methodologies, frameworks, and libraries featured here has its place in the vast front-end ecosystem. 
+            因此，在探求「CSS 現況」的時候，理所當然會是微妙的命題：問到的不同的人，可能會得到完全不同的答案！要怎麼知道哪個才是對的？
 
-            Building a complex React app? Styled Components is a great option. Designing a static landing page? You can't go wrong with Sass! And even though Bootstrap has lost some of its original hype factor, you can't beat it when it comes to sheer number of themes and plugins.
+            還有一句公案：正確答案是沒有正確答案。這裡提到的方法論、框架和函式庫，在廣大的前端生態系裡都有一席之地。
 
-            So while we keep an eye on the shiny new toys popping up on GitHub every week, let's not forget the tools, techniques, and most of all people who have carried the CSS torch up to now. We'll need everybody if we're to keep CSS moving forward into 2021 and beyond!
+            正在打造複雜的 React 應用程式？Styled Components 是優秀的選擇；設計靜態登陸頁面？Sass 絕對不會錯！即使 Bootstrap 失去一些當初令人感到振奮的因素，仍無法擊倒龐大的主題與外掛數量。
+
+            因此，關注每星期在 GitHub 竄出亮眼新玩具的同時，也不要忘記讓 CSS 火炬傳遞到現在的工具、技巧和最重要的人們。讓 CSS 往前邁進 2021 與更久遠之後，靠的是每個人！
 
     ###########################################################################
     # Picks
     ###########################################################################
 
     - key: picks.my_2020_pick
-      t: 'My 2020 Pick: '
+      t: '我的 2020 精選：'
     - key: picks.intro
-      t: We asked members of the CSS community to share their “pick of the year”
+      t: 我們詢問 CSS 社群成員，分享「年度精選」
 
     - key: picks.shadeed9.bio
-      t: Author of debuggingcss.com
+      t: debuggingcss.com 的作者
     - key: picks.shadeed9.description
       t: |
             Container queries are a long-time awaited feature for us, 
@@ -193,64 +192,64 @@ translations:
 
 
     - key: picks.argyleink.bio
-      t: CSS at Google
+      t: Google 的 CSS
     - key: picks.argyleink.description
       t: |
             The humble CSS box is more dynamic every year, and for me 2020 was about logical sides, instead of physical sides. Free internationally contextual content flow, spacing and shorthands? pls & ty 
 
 
     - key: picks.sachagreif.bio
-      t: Creator of this survey
+      t: 這份調查的作者
     - key: picks.sachagreif.description
       t: |
             With this blog post, Amelia Wattenberger didn't just go the extra mile, she ran a whole marathon! The animations and quiz will ensure you finally understand the CSS cascade. 
     
     - key: picks.christianoliff.bio
-      t: Front-end developer for Trimble MAPS
+      t: Trimble MAPS 的前端開發者
     - key: picks.christianoliff.description
       t: |
           One thing I've really started using and appreciating this year though is Purge CSS- an awesome tool for removing unused CSS. It can greatly reduce the size of your CSS, and its fast and easy to use.
     
     - key: picks.kilianvalkhof.bio
-      t: Web developer and creator of Polypane
+      t: Polypane 的網頁開發者、作者
     - key: picks.kilianvalkhof.description
       t: |
           `content-visibility` is making a huge difference in the performance of my web apps already, but at the same time I think it should be the job of browsers to optimize this, not devs.
 
     - key: picks.walterstephanie.bio
-      t: User Centered Designer & CSS Lover
+      t: 使用者中心設計師 & CSS 愛好者
     - key: picks.walterstephanie.description
       t: |
           A series of YouTube videos that explain all the new cool CSS features to build modern designs.
 
     - key: picks.piccalilli_.bio
-      t: Freelance designer & dev who runs piccalil.li
+      t: 自由接案設計師 & 經營 piccalil.li 的開發者 
     - key: picks.piccalilli_.description
       t: |
           This blog is an absolute gold mine of CSS knowledge. Michelle is a CSS legend and every post or tutorial they write is heaped with useful content.
 
     - key: picks.sarasoueidan.bio
-      t: Independent UI/design engineer
+      t: 獨立 UI 設計師/工程師
     - key: picks.sarasoueidan.description
       t: |
           My pick is a person, namely Rachel Andrew. She taught CSS Grid to a whole generation of developers.
 
     - key: picks.5t3ph.bio
-      t: Software Engineer @ Microsoft
+      t: Microsoft 的軟體工程師
     - key: picks.5t3ph.description
       t: |
           In this conference talk, Manuel Matuzovic provides thoughtfully 
           crafted examples that are engaging, approachable, and actionable.
 
     - key: picks.hugogiraudel.bio
-      t: Non-binary accessibility & diversity advocate
+      t: 非二元無障礙與多元倡議
     - key: picks.hugogiraudel.description
       t: |
           Fela is an amazing piece of software. 
           It’s pretty powerful, relatively easy to use and very performant
 
     - key: picks.foolip.bio
-      t: Software Engineer @ Google
+      t: Google 的軟體工程師
     - key: picks.foolip.description
       t: |
           Sergio has recently fixed lots of Flexbox in WebKit and even some in Chromium, 
@@ -258,7 +257,7 @@ translations:
           which means that soon it will be available on all modern browsers. 
     
     - key: picks.jina.bio
-      t: Design systems advocate and practitioner
+      t: 設計系統倡議與實踐者
     - key: picks.jina.description
       t: |
           The media query to reduce motion, which helps avoid 
