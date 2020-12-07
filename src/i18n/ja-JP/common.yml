@@ -1,4 +1,4 @@
-locale: en-US
+locale: ja-JP
 translations:
     ###########################################################################
     # General
@@ -7,7 +7,7 @@ translations:
     # homepage
     - key: general.why_create_account
       t: Why do I need to create an account?
-      t: なぜアカウントを作る必要があるのでしょうか？
+      t: なぜアカウントを作らないといけないのでしょうか？
     - key: general.create_account_reasons
       t: >
           We ask you to create an account in order to:
@@ -871,7 +871,7 @@ translations:
       t: そのほかのライブラリ
     - key: tools_others.libraries.others.description
       t: Other answers (freeform field).
-      t: Other answers (freeform field).
+      t: そのほかの回答（自由入力欄）。
 
     - key: tools_others.text_editors
       t: Text Editors
@@ -884,7 +884,7 @@ translations:
       t: そのほかのテキストエディタ
     - key: tools_others.text_editors.others.description
       t: Other answers (freeform field).
-      t: Other answers (freeform field).
+      t: そのほかの回答（自由入力欄）。
 
     - key: tools_others.utilities
       t: Utilities
@@ -897,7 +897,7 @@ translations:
       t: そのほかのユーティリティ
     - key: tools_others.utilities.others.description
       t: Other utilities (freeform field).
-      t: Other answers (freeform field).
+      t: そのほかの回答（自由入力欄）。
 
     - key: tools_others.browsers
       t: Browsers
@@ -910,7 +910,7 @@ translations:
       t: そのほかのブラウザー
     - key: tools_others.browsers.others.description
       t: Other answers (freeform field).
-      t: Other answers (freeform field).
+      t: そのほかの回答（自由入力欄）。
 
     - key: tools_others.build_tools
       t: Build Tools
@@ -923,7 +923,7 @@ translations:
       t: そのほかのビルドツール
     - key: tools_others.build_tools.others.description
       t: Other answers (freeform field).
-      t: Other answers (freeform field).
+      t: そのほかの回答（自由入力欄）。
 
     - key: tools_others.non_js_languages
       t: Non-JavaScript Languages
@@ -936,7 +936,7 @@ translations:
       t: そのほかの言語
     - key: tools_others.non_js_languages.others.description
       t: Other answers (freeform field).
-      t: Other answers (freeform field).
+      t: そのほかの回答（自由入力欄）。
 
     ###########################################################################
     # Resources
@@ -954,7 +954,7 @@ translations:
       t: そのほかのブログ・マガジン
     - key: resources.blogs_news_magazines.others.description
       t: Other answers (freeform field).
-      t: Other answers (freeform field).
+      t: そのほかの回答（自由入力欄）。
 
     # sites & courses
     - key: resources.sites_courses
@@ -968,7 +968,7 @@ translations:
       t: そのほかのサイト・学習コース
     - key: resources.sites_courses.others.description
       t: Other answers (freeform field).
-      t: Other answers (freeform field).
+      t: そのほかの回答（自由入力欄）。
 
     # podcasts
     - key: resources.podcasts
@@ -982,4 +982,4 @@ translations:
       t: そのほかのポッドキャスト
     - key: resources.podcasts.others.description
       t: Other answers (freeform field).
-      t: Other answers (freeform field).
+      t: そのほかの回答（自由入力欄）。
