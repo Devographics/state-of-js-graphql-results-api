@@ -48,6 +48,17 @@ enum ToolID {
     testing_library
     playwright
     webdriverio
+    # JS build tools
+    webpack
+    parcel
+    gulp
+    rollup
+    browserify
+    tsc
+    rome
+    snowpack
+    swc
+    esbuild
     # JS mobile desktop
     electron
     reactnative
