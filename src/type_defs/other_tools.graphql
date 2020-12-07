@@ -19,6 +19,10 @@ enum OtherToolsID {
     back_end_frameworks_others
     testing_others
     mobile_desktop_others
+    libraries
+    libraries_others
+    runtimes
+    runtimes_others
 }
 
 type YearOtherTools @cacheControl(maxAge: 600) {
