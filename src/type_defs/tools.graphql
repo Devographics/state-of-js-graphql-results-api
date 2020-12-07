@@ -45,6 +45,9 @@ enum ToolID {
     ava
     jasmine
     puppeteer
+    testing_library
+    playwright
+    webdriverio
     # JS mobile desktop
     electron
     reactnative

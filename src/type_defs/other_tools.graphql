@@ -17,6 +17,7 @@ enum OtherToolsID {
     front_end_frameworks_others
     datalayer_others
     back_end_frameworks_others
+    testing_others
 }
 
 type YearOtherTools @cacheControl(maxAge: 600) {
