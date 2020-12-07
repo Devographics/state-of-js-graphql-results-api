@@ -32,6 +32,10 @@ enum ToolID {
     feathers
     nuxt
     gatsby
+    nest
+    strapi
+    fastify
+    hapi
     # JS testing
     jest
     mocha
