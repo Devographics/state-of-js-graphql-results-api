@@ -1,0 +1,75 @@
+locale: en-US
+translations:
+    - key: accounts.error_incorrect_password
+      t: Incorrect password
+    - key: accounts.error_email_required
+      t: Email required
+    - key: accounts.error_email_already_exists
+      t: Email already exists
+    - key: accounts.error_invalid_email
+      t: Invalid email
+    - key: accounts.error_minchar
+      t: Your password is too short
+    - key: accounts.error_unknown
+      t: Unknown error
+    - key: accounts.error_user_not_found
+      t: User not found
+    - key: accounts.error_username_already_exists
+      t: Username already exists
+    - key: accounts.enter_username_or_email
+      t: Enter username or email
+    - key: accounts.error_internal_server_error
+      t: Internal server error
+    - key: accounts.error_token_expired
+      t: Invalid password reset token
+    - key: accounts.username_or_email
+      t: Username or email
+    - key: accounts.enter_username
+      t: Enter username
+    - key: accounts.username
+      t: Username
+    - key: accounts.enter_email
+      t: Enter email
+    - key: accounts.email
+      t: Email
+    - key: accounts.enter_password
+      t: Enter password
+    - key: accounts.password
+      t: Password
+    - key: accounts.choose_password
+      t: Choose password
+    - key: accounts.change_password
+      t: Change password
+    - key: accounts.reset_your_password
+      t: Reset your password
+    - key: accounts.set_password
+      t: Set password
+    - key: accounts.enter_new_password
+      t: Enter new password
+    - key: accounts.new_password
+      t: New password
+    - key: accounts.forgot_password
+      t: Forgot password
+    - key: accounts.sign_up
+      t: Sign up
+    - key: accounts.sign_in
+      t: Sign in
+    - key: accounts.sign_out
+      t: Sign out
+    - key: accounts.cancel
+      t: Cancel
+    - key: accounts.info_email_sent
+      t: Email sent.
+    - key: accounts.info_password_changed
+      t: Password changed.
+    - key: accounts.please_pick_password
+      t: Please pick a new password to continue.
+    - key: accounts.please_log_in
+      t: Please log in or sign up to begin.
+    - key: accounts.logged_in_as
+      t: Logged in as {email}
+    - key: accounts.questions
+      t: >
+          If you have any questions about how we use your data, or would like
+          us to remove your data from our records,
+          please <a href="mailto:hello@stateofjs.com">get in touch</a>.
