@@ -195,12 +195,11 @@ translations:
     # other
     - key: general.join_discord
       t: Join us on <a href="${link}">Discord</a>. 
-      t: <a href="${link}">Discord</a>に参加
+      t: <a href="${link}">Discord</a>に参加。
     - key: general.translator_mode
       t: Press option/alt to enable translator mode. 
-      t: option/alt を押して翻訳モードにする
+      t: option/altを押して翻訳モードにする。
     - key: general.charts_nivo
-      t: Charts built with <a href="${link}">Nivo</a>.
       t: Charts built with <a href="${link}">Nivo</a>.
       
     ###########################################################################
@@ -407,7 +406,7 @@ translations:
       t: 同意する
     - key: options.opinions.4
       t: Agree Strongly
-      t: つよく同意する
+      t: とても同意する
 
     # years of experience
     - key: options.years_of_experience.range_less_than_1
@@ -700,10 +699,10 @@ translations:
     # Industry Sector
     - key: options.industry_sector.ecommerce
       t: Ecommerce & Retail
-      t: Eコマース＆小売
+      t: Eコマース・小売
     - key: options.industry_sector.news_media
       t: News, Media, & Blogging
-      t: ニュース、メディア、ブログ
+      t: ニュース・メディア・ブログ
     - key: options.industry_sector.healthcare
       t: Healthcare
       t: 医療
@@ -905,7 +904,7 @@ translations:
       t: ブラウザー
     - key: tools_others.browsers.description
       t: Which browser(s) do you primarily work in during initial development?
-      t: 開発するときにまず使うブラウザーは何ですか？
+      t: 開発を始めるとき、主に使うブラウザーは何ですか？
     - key: tools_others.browsers.others
       t: Other Browsers
       t: そのほかのブラウザー
@@ -949,7 +948,7 @@ translations:
       t: ブログ・マガジン
     - key: resources.blogs_news_magazines.description
       t: Which blogs/magazines/etc. do you read?
-      t: ブログやマガジンの中で、読んでいるのは何ですか？
+      t: ブログやマガジンのうち、読んでいるのは何ですか？
     - key: resources.blogs_news_magazines.others
       t: Other Blogs & Magazines
       t: そのほかのブログ・マガジン
@@ -963,7 +962,7 @@ translations:
       t: サイト・学習コース
     - key: resources.sites_courses.description
       t: Which sites/courses/etc. do you consult?
-      t: 参考にしているサイトや学習コースは何ですか？
+      t: サイトや学習コースのうち、参考にしているものは何ですか？
     - key: resources.sites_courses.others
       t: Other Sites & Courses
       t: そのほかのサイト・学習コース
