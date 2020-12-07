@@ -19,8 +19,10 @@ enum ToolID {
     redux
     apollo
     graphql
-    relay
     mobx
+    relay
+    xstate
+    vuex
     # JS back end frameworks
     express
     nextjs
