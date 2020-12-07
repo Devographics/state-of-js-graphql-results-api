@@ -1,0 +1,9 @@
+locale: en-US
+namespace: js
+translations:
+    ###########################################################################
+    # General
+    ###########################################################################
+
+    - key: general.results.description
+      t: The annual survey about the latest trends in the JavaScript ecosystem.
