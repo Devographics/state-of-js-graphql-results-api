@@ -179,7 +179,7 @@ translations:
 
     # features
     - key: options.features.never_heard
-      t: 🤷 聞いたことがない/何なのかわからない
+      t: 🤷 知らない/何なのかわからない
     - key: options.features.heard
       t: ✅ 知っているが、使ったことはない
     - key: options.features.used
@@ -187,7 +187,7 @@ translations:
 
     # features (no emoji)
     - key: options.features.never_heard.label
-      t: 聞いたことがない/何なのかわからない
+      t: 知らない/何なのかわからない
     - key: options.features.heard.label
       t: 知っているが、使ったことはない
     - key: options.features.used.label
@@ -195,7 +195,7 @@ translations:
 
     # features (short versions)
     - key: options.features.never_heard.short
-      t: 聞いたことがない
+      t: 知らない
     - key: options.features.heard.short
       t: 知っている
     - key: options.features.used.short
@@ -215,11 +215,11 @@ translations:
 
     # tools experience
     - key: options.tools.never_heard
-      t: 🤷 聞いたことがない/何なのかわからない
+      t: 🤷 知らない/何なのかわからない
     - key: options.tools.interested
-      t: ✅ 聞いたことがある > 学んでみたい
+      t: ✅ 知っている > 学んでみたい
     - key: options.tools.not_interested
-      t: 🚫 聞いたことがある > 興味がない
+      t: 🚫 知っている > 興味がない
     - key: options.tools.would_use
       t: 👍 使った > また使いたい
     - key: options.tools.would_not_use
@@ -227,11 +227,11 @@ translations:
 
     # tools experience (no emoji)
     - key: options.tools.never_heard.legend
-      t: 聞いたことがない/何なのかわからない
+      t: 知らない/何なのかわからない
     - key: options.tools.interested.legend
-      t: 聞いたことがある > 学んでみたい
+      t: 知っている > 学んでみたい
     - key: options.tools.not_interested.legend
-      t: 聞いたことがある > 興味がない
+      t: 知っている > 興味がない
     - key: options.tools.would_use.legend
       t: 使った > また使いたい
     - key: options.tools.would_not_use.legend
@@ -239,7 +239,7 @@ translations:
 
     # tools experience (short versions)
     - key: options.tools.never_heard.short
-      t: 聞いたことがない
+      t: 知らない
     - key: options.tools.interested.short
       t: 興味がある
     - key: options.tools.not_interested.short
