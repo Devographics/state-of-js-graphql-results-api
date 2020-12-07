@@ -416,7 +416,7 @@ translations:
     - key: options.javascript_proficiency.0
       t: JavaScriptをまったく書けない
     - key: options.javascript_proficiency.1
-      t: 短い/シンプルなJavaScriptコードやjQueryコードを書ける
+      t: 短い・シンプルなJavaScriptコードやjQueryコードを書ける
     - key: options.javascript_proficiency.2
       t: モダンなフレームワーク（React、Vueなど）を使ってフロントエンドのコードを書ける
     - key: options.javascript_proficiency.3
@@ -461,7 +461,6 @@ translations:
       t: エキスパート
 
     # Gender
-
     - key: options.gender.female
       t: 女性
     - key: options.gender.male
@@ -472,7 +471,6 @@ translations:
       t: 答えたくない
 
     # Race & Ethnicity
-
     - key: options.race_ethnicity.white_european
       t: 白人・ヨーロッパ系
     - key: options.race_ethnicity.south_asian
