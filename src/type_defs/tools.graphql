@@ -7,11 +7,14 @@ enum ToolID {
     purescript
     # JS front end frameworks
     react
-    vuejs
+    vue # vuejs?
     angular
     preact
     ember
     svelte
+    alpinejs
+    litelement
+    stimulus
     # JS data layer
     redux
     apollo

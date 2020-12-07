@@ -14,6 +14,7 @@ enum OtherToolsID {
     non_js_languages
     non_js_languages_others
     javascript_flavors_others
+    front_end_frameworks_others
 }
 
 type YearOtherTools @cacheControl(maxAge: 600) {
