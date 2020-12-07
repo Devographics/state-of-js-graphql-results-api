@@ -58,7 +58,7 @@ translations:
     - key: general.surveys_available_languages
       t: アンケートは次の言語でも見られます：
     - key: general.help_us_translate
-      t: アンケートの翻訳に協力してください »
+      t: アンケートの翻訳に協力する »
     - key: general.translators
       t: 翻訳者
     - key: general.translation_help
