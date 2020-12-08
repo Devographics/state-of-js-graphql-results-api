@@ -56,7 +56,10 @@ export async function getSurveyTotals(db: Db, surveyConfig: SurveyConfig, year?:
     return collection.countDocuments(selector)
 }
 
-export async function computeCompletionByYear(db: Db, match: any): Promise<Record<number, CompletionResult>> {
+export async function computeCompletionByYear(
+    db: Db,
+    match: any
+): Promise<Record<number, CompletionResult>> {
     const collection = db.collection(config.mongo.normalized_collection)
 
     const aggregationPipeline = [
@@ -100,15 +103,18 @@ export async function computeTermAggregationByYear(
     db: Db,
     survey: SurveyConfig,
     key: string,
-    options: TermAggregationByYearOptions = {}
+    options: TermAggregationByYearOptions = {},
+    year?: number
 ) {
     const collection = db.collection(config.mongo.normalized_collection)
+
+    const yearArray = year ? [year] : [2016, 2017, 2018, 2019, 2020]
 
     const {
         filters,
         sort = 'total',
         order = -1,
-        cutoff = 10,
+        cutoff = 2,
         limit = 25
     }: TermAggregationByYearOptions = options
 
@@ -118,9 +124,10 @@ export async function computeTermAggregationByYear(
         ...generateFiltersQuery(filters)
     }
 
-    const aggregationPipeline = [
+    // generate an aggregation pipeline for a year of data
+    const getAggregationPipeline = (year: number) => [
         {
-            $match: match
+            $match: { ...match, year }
         },
         {
             $unwind: {
@@ -148,14 +155,21 @@ export async function computeTermAggregationByYear(
         { $match: { total: { $gt: cutoff } } },
         { $limit: limit }
     ]
-    const rawResults: RawResult[] = await collection.aggregate(aggregationPipeline).toArray()
+
+    // get all results for all years specified
+    const getResults = async () =>
+        Promise.all(
+            yearArray.map(year => collection.aggregate(getAggregationPipeline(year)).toArray())
+        )
+    const resultsNested = await getResults()
+    const rawResults: RawResult[] = resultsNested.flat()
 
     // console.log(
     //     inspect(
     //         {
     //             match,
-    //             aggregationPipeline,
-    //             rawResults,
+    //             sampleAggregationPipeline: getAggregationPipeline(2020),
+    //             rawResults
     //         },
     //         { colors: true, depth: null }
     //     )

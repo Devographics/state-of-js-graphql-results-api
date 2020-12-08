@@ -9,93 +9,148 @@ interface DemographicsAggConfig {
     filters?: Filters
 }
 
-const computeCountry = async (db: Db, survey: SurveyConfig, filters?: Filters) =>
+const computeParticipation = async (
+    db: Db,
+    survey: SurveyConfig,
+    filters?: Filters,
+    year?: number
+) => useCache(computeParticipationByYear, db, [survey, filters, year])
+
+const computeCountry = async (db: Db, survey: SurveyConfig, filters?: Filters, year?: number) =>
     useCache(computeTermAggregationByYear, db, [
         survey,
         'user_info.country_alpha3',
-        { filters, sort: 'id', limit: 999, cutoff: 1 }
+        { filters, sort: 'id', limit: 999, cutoff: 1 },
+        year
     ])
 
-
-const computeLocale = async (db: Db, survey: SurveyConfig, filters?: Filters) =>
+const computeLocale = async (db: Db, survey: SurveyConfig, filters?: Filters, year?: number) =>
     useCache(computeTermAggregationByYear, db, [
         survey,
         'user_info.locale',
-        { filters, sort: 'id', limit: 100, cutoff: 1 }
+        { filters, sort: 'id', limit: 100, cutoff: 1 },
+        year
     ])
 
-const computeSource = async (db: Db, survey: SurveyConfig, filters?: Filters) =>
-    useCache(computeTermAggregationByYear, db, [survey, 'user_info.source.normalized', { filters }])
+const computeSource = async (db: Db, survey: SurveyConfig, filters?: Filters, year?: number) =>
+    useCache(computeTermAggregationByYear, db, [
+        survey,
+        'user_info.source.normalized',
+        { filters },
+        year
+    ])
 
-const computeGender = async (db: Db, survey: SurveyConfig, filters?: Filters) =>
-    useCache(computeTermAggregationByYear, db, [survey, 'user_info.gender', { filters, cutoff: 1 }])
+const computeGender = async (db: Db, survey: SurveyConfig, filters?: Filters, year?: number) =>
+    useCache(computeTermAggregationByYear, db, [
+        survey,
+        'user_info.gender',
+        { filters, cutoff: 1 },
+        year
+    ])
 
-const computeRaceEthnicity = async (db: Db, survey: SurveyConfig, filters?: Filters) =>
-    useCache(computeTermAggregationByYear, db, [survey, 'user_info.race_ethnicity.choices', { filters, cutoff: 1 }])
+const computeRaceEthnicity = async (
+    db: Db,
+    survey: SurveyConfig,
+    filters?: Filters,
+    year?: number
+) =>
+    useCache(computeTermAggregationByYear, db, [
+        survey,
+        'user_info.race_ethnicity.choices',
+        { filters, cutoff: 1 },
+        year
+    ])
 
-const computeSalary = async (db: Db, survey: SurveyConfig, filters?: Filters) =>
+const computeSalary = async (db: Db, survey: SurveyConfig, filters?: Filters, year?: number) =>
     useCache(computeTermAggregationByYear, db, [
         survey,
         'user_info.yearly_salary',
-        { filters, limit: 100, cutoff: 1 }
+        { filters, limit: 100, cutoff: 1 },
+        year
     ])
 
-const computeCompanySize = async (db: Db, survey: SurveyConfig, filters?: Filters) =>
+const computeCompanySize = async (db: Db, survey: SurveyConfig, filters?: Filters, year?: number) =>
     useCache(computeTermAggregationByYear, db, [
         survey,
         'user_info.company_size',
-        { filters, limit: 100, cutoff: 1 }
+        { filters, limit: 100, cutoff: 1 },
+        year
     ])
 
-const computeWorkExperience = async (db: Db, survey: SurveyConfig, filters?: Filters) =>
+const computeWorkExperience = async (
+    db: Db,
+    survey: SurveyConfig,
+    filters?: Filters,
+    year?: number
+) =>
     useCache(computeTermAggregationByYear, db, [
         survey,
         'user_info.years_of_experience',
-        { filters, limit: 100, cutoff: 1 }
+        { filters, limit: 100, cutoff: 1 },
+        year
     ])
 
-const computeJobTitle = async (db: Db, survey: SurveyConfig, filters?: Filters) =>
+const computeJobTitle = async (db: Db, survey: SurveyConfig, filters?: Filters, year?: number) =>
     useCache(computeTermAggregationByYear, db, [
         survey,
         'user_info.job_title',
-        { filters, cutoff: 1 }
+        { filters, cutoff: 1 },
+        year
     ])
 
-const computeKnowledgeScore = async (db: Db, survey: SurveyConfig, filters?: Filters) =>
+const computeKnowledgeScore = async (
+    db: Db,
+    survey: SurveyConfig,
+    filters?: Filters,
+    year?: number
+) =>
     useCache(computeTermAggregationByYear, db, [
         survey,
         'user_info.knowledge_score',
-        { filters, limit: 100, cutoff: 1 }
+        { filters, limit: 100, cutoff: 1 },
+        year
     ])
 
-const computeCSSProficiency = async (db: Db, survey: SurveyConfig, filters?: Filters) =>
+const computeCSSProficiency = async (
+    db: Db,
+    survey: SurveyConfig,
+    filters?: Filters,
+    year?: number
+) =>
     useCache(computeTermAggregationByYear, db, [
         survey,
         'user_info.css_proficiency',
-        { filters, sort: 'id', order: 1, cutoff: 1 }
+        { filters, sort: 'id', order: 1, cutoff: 1 },
+        year
     ])
 
-const computeBackendProficiency = async (db: Db, survey: SurveyConfig, filters?: Filters) =>
+const computeBackendProficiency = async (
+    db: Db,
+    survey: SurveyConfig,
+    filters?: Filters,
+    year?: number
+) =>
     useCache(computeTermAggregationByYear, db, [
         survey,
         'user_info.backend_proficiency',
-        { filters, sort: 'id', order: 1, cutoff: 1 }
+        { filters, sort: 'id', order: 1, cutoff: 1 },
+        year
     ])
 
 export default {
     Participation: {
         all_years: async (
-            { survey }: { survey: SurveyConfig },
+            { survey, filters }: DemographicsAggConfig,
             args: any,
             { db }: RequestContext
-        ) => useCache(computeParticipationByYear, db, [survey]),
+        ) => computeParticipation(db, survey, filters),
         year: async (
-            { survey }: { survey: SurveyConfig },
+            { survey, filters }: DemographicsAggConfig,
             { year }: { year: number },
             { db }: RequestContext
         ) => {
-            const allYears = await useCache(computeParticipationByYear, db, [survey])
-            return allYears.find(y => y.year === year)
+            const oneYear = await computeParticipation(db, survey, filters, year)
+            return oneYear[0]
         }
     },
     Country: {
@@ -109,8 +164,8 @@ export default {
             { year }: { year: number },
             { db }: RequestContext
         ) => {
-            const allYears = await computeCountry(db, survey, filters)
-            return allYears.find(y => y.year === year)
+            const oneYear = await computeCountry(db, survey, filters, year)
+            return oneYear[0]
         }
     },
     LocaleStats: {
@@ -124,8 +179,8 @@ export default {
             { year }: { year: number },
             { db }: RequestContext
         ) => {
-            const allYears = await computeLocale(db, survey, filters)
-            return allYears.find(y => y.year === year)
+            const oneYear = await computeLocale(db, survey, filters, year)
+            return oneYear[0]
         }
     },
     Source: {
@@ -139,8 +194,8 @@ export default {
             { year }: { year: number },
             { db }: RequestContext
         ) => {
-            const allYears = await computeSource(db, survey, filters)
-            return allYears.find(y => y.year === year)
+            const oneYear = await computeSource(db, survey, filters, year)
+            return oneYear[0]
         }
     },
     Gender: {
@@ -154,8 +209,8 @@ export default {
             { year }: { year: number },
             { db }: RequestContext
         ) => {
-            const allYears = await computeGender(db, survey, filters)
-            return allYears.find(y => y.year === year)
+            const oneYear = await computeGender(db, survey, filters, year)
+            return oneYear[0]
         }
     },
     RaceEthnicity: {
@@ -169,8 +224,8 @@ export default {
             { year }: { year: number },
             { db }: RequestContext
         ) => {
-            const allYears = await computeRaceEthnicity(db, survey, filters)
-            return allYears.find(y => y.year === year)
+            const oneYear = await computeRaceEthnicity(db, survey, filters, year)
+            return oneYear[0]
         }
     },
     Salary: {
@@ -184,8 +239,8 @@ export default {
             { year }: { year: number },
             { db }: RequestContext
         ) => {
-            const allYears = await computeSalary(db, survey, filters)
-            return allYears.find(y => y.year === year)
+            const oneYear = await computeSalary(db, survey, filters, year)
+            return oneYear[0]
         }
     },
     CompanySize: {
@@ -199,8 +254,8 @@ export default {
             { year }: { year: number },
             { db }: RequestContext
         ) => {
-            const allYears = await computeCompanySize(db, survey, filters)
-            return allYears.find(y => y.year === year)
+            const oneYear = await computeCompanySize(db, survey, filters, year)
+            return oneYear[0]
         }
     },
     WorkExperience: {
@@ -214,8 +269,8 @@ export default {
             { year }: { year: number },
             { db }: RequestContext
         ) => {
-            const allYears = await computeWorkExperience(db, survey, filters)
-            return allYears.find(y => y.year === year)
+            const oneYear = await computeWorkExperience(db, survey, filters, year)
+            return oneYear[0]
         }
     },
     JobTitle: {
@@ -229,8 +284,8 @@ export default {
             { year }: { year: number },
             { db }: RequestContext
         ) => {
-            const allYears = await computeJobTitle(db, survey, filters)
-            return allYears.find(y => y.year === year)
+            const oneYear = await computeJobTitle(db, survey, filters, year)
+            return oneYear[0]
         }
     },
     KnowledgeScore: {
@@ -244,8 +299,8 @@ export default {
             { year }: { year: number },
             { db }: RequestContext
         ) => {
-            const allYears = await computeKnowledgeScore(db, survey, filters)
-            return allYears.find(y => y.year === year)
+            const oneYear = await computeKnowledgeScore(db, survey, filters, year)
+            return oneYear[0]
         }
     }
 }
