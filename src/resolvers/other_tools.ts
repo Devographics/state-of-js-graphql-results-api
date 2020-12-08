@@ -11,11 +11,18 @@ interface OtherToolsConfig {
     filters?: Filters
 }
 
-const computeOtherTools = async (db: Db, survey: SurveyConfig, id: string, filters?: Filters) =>
+const computeOtherTools = async (
+    db: Db,
+    survey: SurveyConfig,
+    id: string,
+    filters?: Filters,
+    year?: number
+) =>
     useCache(computeTermAggregationByYear, db, [
         survey,
         `tools_others.${getOtherKey(id)}`,
-        { filters }
+        { filters },
+        year
     ])
 
 export default {
@@ -30,9 +37,8 @@ export default {
             { year }: { year: number },
             { db }: RequestContext
         ) => {
-            const allYears = await computeOtherTools(db, survey, id, filters)
-
-            return allYears.find(y => y.year === year)
+            const oneYear = await computeOtherTools(db, survey, id, filters, year)
+            return oneYear[0]
         }
     }
 }
