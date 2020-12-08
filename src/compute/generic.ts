@@ -7,14 +7,29 @@ import { Filters, generateFiltersQuery } from '../filters'
 import { ratioToPercentage } from './common'
 import { getEntity } from '../helpers'
 import { getParticipationByYearMap } from './demographics'
+import { useCache } from '../caching'
 
-interface TermAggregationByYearOptions {
+const firstYear = 2016
+const currentYear = new Date().getFullYear()
+const allYears = _.range(firstYear, currentYear)
+
+interface TermAggregationAllYearsOptions {
     // filter aggregations
     filters?: Filters
     sort?: string
     order?: -1 | 1
     cutoff?: number
     limit?: number
+}
+
+interface TermAggregationSingleYearOptions {
+    // filter aggregations
+    filters?: Filters
+    sort?: string
+    order?: -1 | 1
+    cutoff?: number
+    limit?: number
+    year: number
 }
 
 interface RawResult {
@@ -103,12 +118,12 @@ export async function computeTermAggregationByYear(
     db: Db,
     survey: SurveyConfig,
     key: string,
-    options: TermAggregationByYearOptions = {},
+    options: TermAggregationAllYearsOptions = {},
     year?: number
 ) {
     const collection = db.collection(config.mongo.normalized_collection)
 
-    const yearArray = year ? [year] : [2016, 2017, 2018, 2019, 2020]
+    const yearArray = year ? [year] : allYears
 
     const {
         filters,
@@ -116,7 +131,7 @@ export async function computeTermAggregationByYear(
         order = -1,
         cutoff = 2,
         limit = 25
-    }: TermAggregationByYearOptions = options
+    }: TermAggregationAllYearsOptions = options
 
     const match: any = {
         survey: survey.survey,
@@ -244,4 +259,33 @@ export async function computeTermAggregationByYear(
     })
 
     return resultsByYear
+}
+
+export async function computeTermAggregationAllYearsWithCache(
+    db: Db,
+    survey: SurveyConfig,
+    id: string,
+    options: TermAggregationAllYearsOptions = {},
+    year?: number
+) {
+    return useCache(computeTermAggregationByYear, db, [survey, id, options, year])
+}
+
+export async function computeTermAggregationSingleYear(
+    db: Db,
+    survey: SurveyConfig,
+    key: string,
+    options: TermAggregationSingleYearOptions = { year: currentYear }
+) {
+    const allYears = await computeTermAggregationByYear(db, survey, key, options)
+    return allYears[0]
+}
+
+export async function computeTermAggregationSingleYearWithCache(
+    db: Db,
+    survey: SurveyConfig,
+    id: string,
+    options: TermAggregationSingleYearOptions = { year: currentYear }
+) {
+    return useCache(computeTermAggregationSingleYear, db, [survey, id, options])
 }
