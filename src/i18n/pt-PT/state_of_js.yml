@@ -27,7 +27,7 @@ translations:
       t: A gramática do JavaScript.
 
     - key: sections.language.title
-      t: Languagem
+      t: Linguagem
     - key: sections.language.description
       t: O vocabulário do JavaScript.
 
