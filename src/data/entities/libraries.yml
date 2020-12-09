@@ -436,7 +436,7 @@
   npm: typescript
   github: microsoft/TypeScript
   description: A superset of JavaScript that compiles to clean JavaScript output.
-  homepage: "https://www.typescriptlang.org"
+  homepage: https://www.typescriptlang.org
   aliases:
     - tsc
 
@@ -444,6 +444,7 @@
   name: Reason
   npm: null
   github: facebook/reason
+  homepage: https://reasonml.github.io/
   description: >-
     Simple, fast & type safe code that leverages the JavaScript & OCaml
     ecosystems
@@ -453,21 +454,60 @@
   npm: null
   github: elm/compiler
   description: "Compiler for Elm, a functional language for reliable webapps."
-  homepage: "https://elm-lang.org/"
+  homepage: https://elm-lang.org/
 
 - id: clojurescript
   name: ClojureScript
   npm: null
   github: clojure/clojurescript
   description: Clojure to JS compiler
-  homepage: null
+  homepage: https://clojurescript.org/
 
 - id: purescript
   name: PureScript
   npm: null
   github: purescript/purescript
   description: A strongly-typed language that compiles to JavaScript
-  homepage: "https://www.purescript.org"
+  homepage: https://www.purescript.org
+
+- id: coffeescript
+  name: CoffeeScript
+  npm: coffeescript
+  github: jashkenas/coffeescript
+  description: Unfancy JavaScript
+  homepage: 'https://coffeescript.org/'
+
+- id: flow
+  name: Flow
+  npm: flow-bin
+  github: facebook/flow
+  description: >-
+      Adds static typing to JavaScript to improve developer productivity and code
+      quality.
+  homepage: 'https://flow.org/'
+
+- id: assemblyscript
+  name: AssemblyScript
+  npm: null
+  github: AssemblyScript/assemblyscript
+  description: Definitely not a TypeScript to WebAssembly compiler
+  homepage: 'https://assemblyscript.org'
+
+- id: scalajs
+  name: Scala.js
+  npm: null
+  github: scala-js/scala-js
+  description: 'Scala.js, the Scala to JavaScript compiler'
+  homepage: 'https://www.scala-js.org/'
+  
+- id: aurelia
+  name: Aurelia
+  npm: aurelia-framework
+  github: aurelia/framework
+  description: >-
+      The Aurelia 1 framework entry point, bringing together all the required
+      sub-modules of Aurelia.
+  homepage: https://aurelia.io/
 
 #################################################
 # Front-end Frameworks
@@ -477,6 +517,7 @@
   name: React
   npm: react
   github: facebook/react
+  homepage: https://reactjs.org/
   description: >-
     A declarative, efficient, and flexible JavaScript library for building user
     interfaces.
@@ -487,6 +528,8 @@
   github: vuejs/vue
   description: "A progressive, incrementally-adoptable framework for building UI on the web"
   homepage: "http://vuejs.org"
+  patterns:
+    - vue
 
 - id: angular
   name: Angular
@@ -531,10 +574,10 @@
   name: Alpine.js
   npm: alpinejs
   github: alpinejs/alpine
+  homepage: https://github.com/alpinejs/alpine
   description: >
     A rugged, minimal framework for composing JavaScript behavior in your
     markup.
-  homepage: null
 
 - id: litelement
   name: LitElement
@@ -549,6 +592,52 @@
   github: stimulusjs/stimulus
   description: A modest JavaScript framework for the HTML you already have
   homepage: 'https://stimulusjs.org/'
+
+- id: stencil
+  name: Stencil
+  npm: null
+  github: ionic-team/stencil
+  description: >-
+      A Web Component compiler for building fast, reusable UI components and
+      static site generated Progressive Web Apps
+  homepage: 'https://stenciljs.com'
+
+- id: solid
+  name: Solid
+  npm: solid-js
+  github: ryansolid/solid
+  description: >-
+      A declarative, efficient, and flexible JavaScript library for building user
+      interfaces.
+  homepage: null
+
+- id: marko
+  name: Marko
+  npm: marko
+  github: marko-js/marko
+  description: 'A declarative, HTML-based language that makes building web apps fun'
+  homepage: 'https://markojs.com/'
+  
+- id: polymer
+  name: Polymer
+  npm: polymer
+  github: Polymer/polymer
+  description: Our original Web Component library.
+  homepage: 'https://polymer-library.polymer-project.org/'
+
+- id: lit_html
+  name: lit-html
+  npm: lit-html
+  github: Polymer/lit-html
+  description: 'An efficient, expressive, extensible HTML templating library for JavaScript.'
+  homepage: 'https://lit-html.polymer-project.org/'
+
+- id: hyperapp
+  name: Hyperapp
+  npm: hyperapp
+  github: jorgebucaran/hyperapp
+  description: The tiny framework for building hypertext applications.
+  homepage: https://github.com/jorgebucaran/hyperapp
 
 #################################################
 # Data Layer
@@ -623,6 +712,90 @@
   github: tannerlinsley/react-query
   description: "Hooks for fetching, caching and updating asynchronous data in React"
   homepage: "https://react-query.tanstack.com"
+
+- id: recoil
+  name: Recoil
+  npm: recoil
+  github: facebookexperimental/Recoil
+  description: An experimental state management library for React apps
+  homepage: 'http://recoiljs.org/'
+
+- id: ngrx
+  name: NgRx
+  npm: null
+  github: ngrx/platform
+  description: Reactive libraries for Angular
+  homepage: 'https://ngrx.io'
+
+- id: effector
+  name: Effector
+  npm: effector
+  github: effector/effector
+  description: Reactive state manager
+  homepage: 'https://effector.dev'
+
+- id: zustand
+  name: Zustand
+  npm: zustand
+  github: pmndrs/zustand
+  description: Bear necessities for state management in React
+  homepage: 'https://zustand.surge.sh'
+
+- id: akita
+  name: Akita
+  npm: '@datorama/akita'
+  github: datorama/akita
+  description: State Management Tailored-Made for JS Applications
+  homepage: 'https://datorama.github.io/akita/'
+
+- id: jotai
+  name: Jotai
+  npm: jotai
+  github: pmndrs/jotai
+  description: 'Primitive, flexible state management for React'
+  homepage: 'https://jotai.surge.sh'
+
+- id: ember_data
+  name: ember-data
+  npm: ember-data
+  github: emberjs/data
+  description: A data persistence library for Ember.js.
+  homepage: https://github.com/emberjs/data
+
+- id: ngxs
+  name: NGXS
+  npm: '@ngxs/store'
+  github: ngxs/store
+  description: NGXS - State Management for Angular
+  homepage: 'http://ngxs.io'
+
+- id: redux_saga
+  name: Redux-Saga
+  npm: redux-saga
+  github: redux-saga/redux-saga
+  description: An alternative side effect model for Redux apps
+  homepage: 'https://redux-saga.js.org/'
+
+- id: urql
+  name: URQL
+  npm: urql
+  github: FormidableLabs/urql
+  description: The highly customizable and versatile GraphQL client.
+  homepage: 'https://formidable.com/open-source/urql/docs/'
+
+- id: storeon
+  name: Storeon
+  npm: storeon
+  github: storeon/storeon
+  description: "\U0001F329 A tiny (185 bytes) event-based Redux-like state manager for React, Preact, Angular, Vue, and Svelte"
+  homepage: 'https://evilmartians.com/chronicles/storeon-redux-in-173-bytes'
+
+- id: overmind
+  name: Overmind
+  npm: overmind
+  github: cerebral/overmind
+  description: Frictionless state management
+  homepage: 'https://overmindjs.org'
 
 #################################################
 # Back-End Frameworks
@@ -740,6 +913,66 @@
   description: "The Simple, Secure Framework Developers Trust"
   homepage: "https://hapi.dev"
 
+- id: adonis
+  name: Adonis
+  npm: adonis-framework
+  github: adonisjs/core
+  description: >-
+      The Node.js Framework highly focused on developer ergonomics, stability and
+      confidence
+  homepage: 'https://preview.adonisjs.com'
+
+- id: sapper
+  name: Sapper
+  npm: sapper
+  github: sveltejs/sapper
+  description: 'The next small thing in web development, powered by Svelte'
+  homepage: 'https://sapper.svelte.dev'
+
+- id: gridsome
+  name: Gridsome
+  npm: '@gridsome/cli'
+  github: gridsome/gridsome
+  description: ️ The Jamstack framework for Vue.js
+  homepage: 'https://gridsome.org'
+
+- id: blitz
+  name: Blitz
+  npm: blitz
+  github: blitz-js/blitz
+  description: ️The Fullstack React Framework — built on Next.js
+  homepage: 'https://Blitzjs.com'
+
+- id: loopback_4
+  name: LoopBack 4
+  npm: '@loopback/core'
+  github: strongloop/loopback-next
+  description: "A highly extensible Node.js and TypeScript framework\r\nfor building APIs and microservices"
+  homepage: 'https://loopback.io/' 
+
+- id: tinyhttp
+  name: tinyhttp
+  npm: '@tinyhttp/app'
+  github: talentlessguy/tinyhttp
+  description: Modern Express-like web framework
+  homepage: 'https://tinyhttp.v1rtl.site'
+
+- id: polka
+  name: Polka
+  npm: polka
+  github: lukeed/polka
+  description: "A micro web server so fast, it'll make you dance!"
+  homepage: null
+
+- id: foalts
+  name: FoalTS
+  npm: '@foal/core'
+  github: FoalTS/foal
+  description: >-
+      Node.JS and TypeScript framework for building web applications . Simple,
+      intuitive and feature-complete.
+  homepage: 'https://foalts.org/'
+
 #################################################
 # Testing
 #################################################
@@ -826,6 +1059,75 @@
   homepage: "http://webdriver.io"
   aliases:
     - webdriver
+
+- id: testcafe
+  name: TestCafe
+  npm: testcafe
+  github: DevExpress/testcafe
+  description: A Node.js tool to automate end-to-end web testing.
+  homepage: 'https://devexpress.github.io/testcafe/'
+
+- id: tape
+  name: Tape
+  npm: tape
+  github: substack/tape
+  description: tap-producing test harness for node and browsers
+  homepage: https://github.com/substack/tape
+
+- id: chai
+  name: Chai
+  npm: chai
+  github: chaijs/chai
+  description: >-
+      BDD / TDD assertion framework for node.js and the browser that can be paired
+      with any testing framework.
+  homepage: 'http://chaijs.com'
+
+- id: nightwatch
+  name: Nightwatch
+  npm: nightwatch
+  github: nightwatchjs/nightwatch
+  description: End-to-end testing framework written in Node.js and using the Webdriver API
+  homepage: 'https://nightwatchjs.org'
+
+- id: qunit
+  name: QUnit
+  npm: qunit
+  github: qunitjs/qunit
+  description: An easy-to-use JavaScript unit testing framework.
+  homepage: 'https://qunitjs.com'
+
+- id: mock_service_worker
+  name: Mock Service Worker
+  npm: msw
+  github: mswjs/msw
+  description: Seamless REST/GraphQL API mocking library for browser and Node.
+  homepage: 'https://mswjs.io'
+
+- id: node_tap
+  name: Node-tap
+  npm: tap
+  github: tapjs/node-tap
+  description: Test Anything Protocol tools for node
+  homepage: 'https://www.node-tap.org/'
+  aliases:
+      - node_tap
+
+- id: react_testing_library
+  name: react-testing-library
+  npm: '@testing-library/react'
+  github: testing-library/react-testing-library
+  description: >-
+      Simple and complete React DOM testing utilities that encourage good testing
+      practices.
+  homepage: 'https://testing-library.com/react'
+
+- id: karma
+  name: Karma
+  npm: karma
+  github: karma-runner/karma
+  description: Spectacular Test Runner for JavaScript
+  homepage: 'http://karma-runner.github.io'
 
 #################################################
 # Animation & Graphics
@@ -1014,6 +1316,27 @@
   description: A superset of JavaScript that compiles to clean JavaScript output.
   homepage: 'https://www.typescriptlang.org'
 
+- id: vite
+  name: Vite
+  npm: null
+  github: vitejs/vite
+  description: Native-ESM powered web dev build tool. It's fast.
+  homepage: https://github.com/vitejs/vite
+
+- id: microbundle
+  name: Microbundle
+  npm: microbundle
+  github: developit/microbundle
+  description: Zero-configuration bundler for tiny modules.
+  homepage: https://github.com/developit/microbundle
+
+- id: grunt
+  name: Grunt
+  npm: grunt
+  github: gruntjs/grunt
+  description: 'Grunt: The JavaScript Task Runner'
+  homepage: 'http://gruntjs.com/'
+
 #################################################
 # Mobile
 #################################################
@@ -1025,11 +1348,11 @@
   description: "Build cross-platform desktop apps with JavaScript, HTML, and CSS"
   homepage: "https://electronjs.org"
 
-- id: react_native
+- id: reactnative
   name: React Native
   homepage: https://facebook.github.io/react-native/
 
-- id: native_apps
+- id: nativeapps
   name: Native Apps
   description: "The majority of mobile and desktop apps are still built with native languages like Java, Kotlin, Objective-C, or Swift.\n"
 
@@ -1085,6 +1408,40 @@
       Hybrid Mobile Apps (that look native!) & Electron Apps, all using the same
       codebase.
   homepage: 'https://quasar.dev'
+
+- id: nativescript
+  name: NativeScript
+  npm: nativescript
+  github: NativeScript/NativeScript
+  description: >-
+      NativeScript empowers you to access native api's from JavaScript directly.
+      Angular, Vue, Svelte, React and you name it compatible.
+  homepage: 'https://www.nativescript.org'
+
+- id: svelte_native
+  name: Svelte Native
+  npm: null
+  github: halfnelson/svelte-native
+  description: Svelte controlling native components via Nativescript
+  homepage: https://svelte-native.technology/
+
+- id: tauri
+  name: Tauri
+  npm: null
+  github: tauri-apps/tauri
+  description: >-
+      A framework for building tiny, blazing fast binaries for all major desktop
+      platforms
+  homepage: 'https://tauri.studio'
+
+- id: vue_native
+  name: Vue Native
+  npm: vue-native
+  github: GeekyAnts/vue-native-core
+  description: >-
+      Vue Native is a framework to build cross platform native mobile apps using
+      JavaScript
+  homepage: 'https://vue-native.io'
 
 #################################################
 # Other Tools
@@ -1230,3 +1587,10 @@
   github: facebook/hermes
   description: ' A small and lightweight JavaScript engine optimized for running React Native on Android'
   homepage: 'https://hermesengine.dev'
+
+- id: pnpm
+  name: pnpm
+  npm: pnpm
+  github: pnpm/pnpm
+  description: 'Fast, disk space efficient package manager'
+  homepage: 'https://pnpm.js.org'
