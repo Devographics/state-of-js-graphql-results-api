@@ -522,7 +522,7 @@
     A declarative, efficient, and flexible JavaScript library for building user
     interfaces.
 
-- id: vue
+- id: vuejs
   name: Vue.js
   npm: vue
   github: vuejs/vue
