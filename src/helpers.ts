@@ -1,6 +1,11 @@
 import { EnumTypeDefinitionNode } from 'graphql'
 import typeDefs from './type_defs/schema.graphql'
 import allEntities from './data/entities/index'
+import { RequestContext, SurveyConfig, ResolverDynamicConfig } from './types'
+import {
+    computeTermAggregationAllYearsWithCache,
+    computeTermAggregationSingleYearWithCache
+} from './compute'
 
 export const getEntities = ({ type, tag }: { type: string; tag: string }) => {
     let entities = allEntities
@@ -49,3 +54,46 @@ export const getGraphQLEnumValues = (name: string): string[] => {
 
     return enumDef.values!.map(v => v.name.value)
 }
+
+/**
+ * Get resolvers when the db key is the same as the field id
+ * 
+ * @param id the field's GraphQL id
+ * @param options options
+ */
+export const getStaticResolvers = (id: string, options: any = {}) => ({
+    all_years: async (
+        { survey, filters }: ResolverDynamicConfig,
+        args: any,
+        { db }: RequestContext
+    ) => computeTermAggregationAllYearsWithCache(db, survey, id, { ...options, filters }),
+    year: async (
+        { survey, filters }: ResolverDynamicConfig,
+        { year }: { year: number },
+        { db }: RequestContext
+    ) => computeTermAggregationSingleYearWithCache(db, survey, id, { ...options, filters, year })
+})
+
+/**
+ * Get resolvers when the db key is *not* the same as the field id
+ * 
+ * @param getId a function that takes the field's GraphQL id and returns the db key
+ * @param options options
+ */
+export const getDynamicResolvers = (getId: (id: string) => string, options: any = {}) => ({
+    all_years: async (
+        { survey, id, filters }: ResolverDynamicConfig,
+        args: any,
+        { db }: RequestContext
+    ) => computeTermAggregationAllYearsWithCache(db, survey, getId(id), { ...options, filters }),
+    year: async (
+        { survey, id, filters }: ResolverDynamicConfig,
+        { year }: { year: number },
+        { db }: RequestContext
+    ) =>
+        computeTermAggregationSingleYearWithCache(db, survey, getId(id), {
+            ...options,
+            filters,
+            year
+        })
+})
