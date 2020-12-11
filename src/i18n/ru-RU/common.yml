@@ -54,7 +54,7 @@ translations:
     - key: general.surveys_available_languages
       t: 'Опросы доступны на следующих языках:'
     - key: general.help_us_translate
-      t: Помочь с передовом опросов »
+      t: Помочь с переводом опросов »
     - key: general.translators
       t: Переводчики
     - key: general.translation_help
