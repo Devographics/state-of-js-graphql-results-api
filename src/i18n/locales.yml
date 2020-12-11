@@ -32,7 +32,7 @@
 
 - id: ru-RU
   label: Русский
-  translators: ['lex111', 'Omhet']
+  translators: ['lex111', 'Omhet', 'shramkoweb']
 
 - id: sv-SE
   label: Svenska
