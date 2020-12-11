@@ -479,3 +479,39 @@ translations:
       t: Most Write-Ins
     - key: award.most_write_ins_award.description
       t: Awarded to the item with the most write-in answers
+
+    ###########################################################################
+    # Hints
+    ###########################################################################
+
+    - key: hints.hint_hint
+      t: >
+          You'll find little hints like this one throughout the survey results
+          that will point out extra features and details. 
+
+    - key: hints.units_switcher_hint
+      t: >
+          You can use the segmented control at the top right of each block to switch 
+          between relative percentages and absolute counts to get a different view of the
+          same data.
+
+    - key: hints.export_hint
+      t: >
+          The export button lets you get the raw JSON data for any chart, or a GraphQL
+          query you can run against our public API. 
+
+    - key: hints.completion_hint
+      t: >
+          Since all questions are optional, some of them got fewer responses than others. 
+          The completion indicator tells you exactly how many people answered any given question.
+
+    - key: hints.tool_modal_hint
+      t: >
+          You can click on any technology name to get extra details and 
+          a more in-depth look at its related data. 
+
+    - key: hints.rankings_modes_hint
+      t: >
+          The Rankings chart can be toggled between satisfaction, interest, usage, and awareness
+          to give you a fuller picture of a category's rankings. 
+
