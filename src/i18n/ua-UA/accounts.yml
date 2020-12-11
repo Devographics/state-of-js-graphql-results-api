@@ -1,0 +1,75 @@
+locale: ua-UA
+translations:
+  - key: accounts.error_incorrect_password
+    t: Некорректный пароль
+  - key: accounts.error_email_required
+    t: Введіть електронну пошту
+  - key: accounts.error_email_already_exists
+    t: Аккаунт з такою поштою вже зареєстрований
+  - key: accounts.error_invalid_email
+    t: Неправильна пошта
+  - key: accounts.error_minchar
+    t: Пароль занадто короткий
+  - key: accounts.error_unknown
+    t: Невідома помилка
+  - key: accounts.error_user_not_found
+    t: Користувач не знайдений
+  - key: accounts.error_username_already_exists
+    t: Аккаунт з таким іменем вже зареєстрований
+  - key: accounts.enter_username_or_email
+    t: Введіть логін або пошту
+  - key: accounts.error_internal_server_error
+    t: Внутрішня помилка сервера
+  - key: accounts.error_token_expired
+    t: Недійсний токен скидання пароля
+  - key: accounts.username_or_email
+    t: Логін або електронна пошта
+  - key: accounts.enter_username
+    t: Введіть логін
+  - key: accounts.username
+    t: Логін
+  - key: accounts.enter_email
+    t: Введіть електронну пошту
+  - key: accounts.email
+    t: Електронна пошта
+  - key: accounts.enter_password
+    t: Введите пароль
+  - key: accounts.password
+    t: Пароль
+  - key: accounts.choose_password
+    t: Придумайте пароль
+  - key: accounts.change_password
+    t: Змінити пароль
+  - key: accounts.reset_your_password
+    t: Скинути пароль
+  - key: accounts.set_password
+    t: Встановити пароль
+  - key: accounts.enter_new_password
+    t: Введіть новий пароль
+  - key: accounts.new_password
+    t: Новий пароль
+  - key: accounts.forgot_password
+    t: Забули пароль
+  - key: accounts.sign_up
+    t: Зареєструватися
+  - key: accounts.sign_in
+    t: Увійти
+  - key: accounts.sign_out
+    t: Вийти
+  - key: accounts.cancel
+    t: Скасування
+  - key: accounts.info_email_sent
+    t: Електронний лист надіслано.
+  - key: accounts.info_password_changed
+    t: Пароль змінений.
+  - key: accounts.please_pick_password
+    t: Будь ласка, придумайте новий пароль для продовження.
+  - key: accounts.please_log_in
+    t: Авторизуйтесь або зареєструйтесь, щоб почати опитування.
+  - key: accounts.logged_in_as
+    t: Ви авторизовані як {email}
+  - key: accounts.questions
+    t: >
+        Якщо у вас є питання з приводу того, як будуть використані ваші відповіді, або ви хочете
+        видалити їх з нашої бази даних,
+        будь ласка, <a href="mailto:hello@stateofjs.com">напишіть нам</a>.
