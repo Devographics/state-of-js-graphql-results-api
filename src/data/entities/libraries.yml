@@ -1036,7 +1036,7 @@
   homepage: "https://pptr.dev/"
 
 - id: testing_library
-  name: testing-library
+  name: Testing Library
   npm: "@testing-library/react"
   github: testing-library/react-testing-library
   description: >-
@@ -1351,6 +1351,8 @@
 - id: reactnative
   name: React Native
   homepage: https://facebook.github.io/react-native/
+  patterns:
+    - react( |_|-)?native
 
 - id: nativeapps
   name: Native Apps
