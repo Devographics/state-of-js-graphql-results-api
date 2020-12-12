@@ -639,6 +639,50 @@
   description: The tiny framework for building hypertext applications.
   homepage: https://github.com/jorgebucaran/hyperapp
 
+- id: backbone
+  name: Backbone
+  npm: backbone
+  github: jashkenas/backbone
+  description: 'Give your JS App some Backbone with Models, Views, Collections, and Events'
+  homepage: 'http://backbonejs.org'
+
+- id: mithril
+  name: Mithril
+  npm: mithril
+  github: MithrilJS/mithril.js
+  description: A JavaScript Framework for Building Brilliant Applications
+  homepage: 'https://mithril.js.org'
+
+- id: hyperhtml
+  name: hyperHTML
+  npm: hyperhtml
+  github: WebReflection/hyperHTML
+  description: A Fast & Light Virtual DOM Alternative
+  homepage: https://viperhtml.js.org/hyper.html
+
+- id: cyclejs
+  name: Cycle.js
+  npm: '@cycle/rx-run'
+  github: cyclejs/cyclejs
+  description: A functional and reactive JavaScript framework for predictable code
+  homepage: 'http://cycle.js.org'
+  aliases:
+      - cycle
+
+- id: riotjs
+  name: RiotJS
+  npm: riot
+  github: riot/riot
+  description: Simple and elegant component-based UI library
+  homepage: 'https://riot.js.org'
+
+- id: knockout
+  name: Knockout
+  npm: knockout
+  github: knockout/knockout
+  description: 'Knockout makes it easier to create rich, responsive UIs with JavaScript'
+  homepage: 'http://knockoutjs.com/'
+
 #################################################
 # Data Layer
 #################################################
@@ -973,6 +1017,15 @@
       intuitive and feature-complete.
   homepage: 'https://foalts.org/'
 
+- id: eleventy
+  name: Eleventy
+  npm: '@11ty/eleventy'
+  github: 11ty/eleventy
+  description: >-
+      A simpler static site generator. An alternative to Jekyll. Transforms a
+      directory of templates (of varying types) into HTML.
+  homepage: 'https://www.11ty.dev/'
+
 #################################################
 # Testing
 #################################################
@@ -1128,6 +1181,27 @@
   github: karma-runner/karma
   description: Spectacular Test Runner for JavaScript
   homepage: 'http://karma-runner.github.io'
+
+- id: cucumberjs
+  name: Cucumber.js
+  npm: cucumber
+  github: cucumber/cucumber-js
+  description: Cucumber for JavaScript
+  homepage: 'https://cucumber.io/'
+
+- id: sinonjs
+  name: Sinon.JS
+  npm: sinon
+  github: sinonjs/sinon
+  description: 'Test spies, stubs and mocks for JavaScript.'
+  homepage: 'https://sinonjs.org/'
+
+- id: protractor
+  name: Protractor
+  npm: protractor
+  github: angular/protractor
+  description: E2E test framework for Angular apps
+  homepage: 'http://www.protractortest.org'
 
 #################################################
 # Animation & Graphics
@@ -1337,6 +1411,15 @@
   description: 'Grunt: The JavaScript Task Runner'
   homepage: 'http://gruntjs.com/'
 
+- id: broccoli
+  name: Broccoli
+  npm: broccoli
+  github: broccolijs/broccoli
+  description: >-
+      Browser compilation library – an asset pipeline for applications that run in
+      the browser
+  homepage: 'https://broccoli.build'
+
 #################################################
 # Mobile
 #################################################
@@ -1349,6 +1432,14 @@
   homepage: "https://electronjs.org"
 
 - id: reactnative
+  name: React Native
+  homepage: https://facebook.github.io/react-native/
+  patterns:
+    - react( |_|-)?native
+
+# TODO: avoid duplicate
+# necessary because for State of JS we match on exact ID
+- id: react_native
   name: React Native
   homepage: https://facebook.github.io/react-native/
   patterns:
@@ -1444,6 +1535,13 @@
       Vue Native is a framework to build cross platform native mobile apps using
       JavaScript
   homepage: 'https://vue-native.io'
+
+- id: framework7
+  name: Framework7
+  npm: framework7
+  github: framework7io/framework7
+  description: Full featured HTML framework for building iOS & Android apps
+  homepage: 'http://framework7.io'
 
 #################################################
 # Other Tools
@@ -1578,6 +1676,14 @@
   name: Node.js
   homepage: https://nodejs.org/en/
 
+# TODO: avoid duplicate
+- id: nodejs
+  name: Node.js
+  npm: null
+  github: nodejs/node
+  description: Node.js JavaScript runtime
+  homepage: 'https://nodejs.org/'
+
 - id: chakracore
   name: ChakraCore
   github: ChakraCore
@@ -1596,3 +1702,125 @@
   github: pnpm/pnpm
   description: 'Fast, disk space efficient package manager'
   homepage: 'https://pnpm.js.org'
+
+- id: create_react_app
+  name: Create React App
+  homepage: https://create-react-app.dev/
+
+- id: formik
+  name: Formik
+  npm: formik
+  github: formium/formik
+  description: 'Build forms in React, without the tears'
+  homepage: 'https://formik.org'
+
+- id: fp_ts
+  name: fp-ts
+  npm: fp-ts
+  github: gcanti/fp-ts
+  description: Functional programming in TypeScript
+  homepage: 'https://gcanti.github.io/fp-ts/'
+
+- id: classnames
+  name: Classnames
+  npm: classnames
+  github: JedWatson/classnames
+  description: A simple javascript utility for conditionally joining classNames together
+  homepage: https://jedwatson.github.io/classnames/
+
+- id: react_router
+  name: React Router
+  npm: react-router
+  github: ReactTraining/react-router
+  description: Declarative routing for React
+  homepage: 'https://reacttraining.com/react-router/'
+
+- id: react_hook_form
+  name: React Hook Form
+  npm: react-hook-form
+  github: react-hook-form/react-hook-form
+  description: React Hooks for forms validation (Web + React Native)
+  homepage: 'https://react-hook-form.com'
+
+- id: yup
+  name: Yup
+  npm: yup
+  github: jquense/yup
+  description: Dead simple Object schema validation
+  homepage: https://github.com/jquense/yup
+
+- id: got
+  name: Got
+  npm: got
+  github: sindresorhus/got
+  description: Human-friendly and powerful HTTP request library for Node.js
+  homepage: https://github.com/sindresorhus/got
+
+- id: ky
+  name: Ky
+  npm: ky
+  github: sindresorhus/ky
+  description: Tiny & elegant HTTP client based on window.fetch
+  homepage: https://github.com/sindresorhus/ky
+
+- id: n
+  name: N
+  homepage: https://github.com/tj/n
+
+- id: nx
+  name: Nx
+  npm: null
+  github: nrwl/nx
+  description: Extensible Dev Tools for Monorepos
+  homepage: 'https://nx.dev'
+
+- id: husky
+  name: Husky
+  npm: husky
+  github: typicode/husky
+  description: Git hooks made easy
+  homepage: 'https://typicode.github.io/husky'
+
+- id: tslint
+  name: TSLint
+  npm: tslint
+  github: palantir/tslint
+  description: An extensible linter for the TypeScript language
+  homepage: 'http://palantir.github.io/tslint/'
+
+- id: standard
+  name: Standard
+  npm: standard
+  github: standard/standard
+  description: 'JavaScript Style Guide, with linter & automatic code fixer'
+  homepage: 'https://standardjs.com'
+
+- id: nodemon
+  name: nodemon
+  npm: nodemon
+  github: remy/nodemon
+  description: >-
+      Monitor for any changes in your node.js application and automatically
+      restart the server - perfect for development
+  homepage: 'http://nodemon.io/'
+
+- id: angular-cli
+  name: Angular CLI
+  npm: '@angular/cli'
+  github: angular/angular-cli
+  description: CLI tool for Angular
+  homepage: 'https://cli.angular.io'
+
+- id: commitizen
+  name: Commitizen
+  npm: commitizen
+  github: commitizen/cz-cli
+  description: The commitizen command line utility
+  homepage: 'http://commitizen.github.io/cz-cli/'
+
+- id: dotenv
+  name: Dotenv
+  npm: dotenv
+  github: motdotla/dotenv
+  description: Loads environment variables from .env for nodejs projects.
+  homepage: https://github.com/motdotla/dotenv
