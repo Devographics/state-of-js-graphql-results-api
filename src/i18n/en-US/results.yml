@@ -127,6 +127,8 @@ translations:
       t: Spanish
     - key: options.locale.ru-RU
       t: Russian
+    - key: options.locale.ua-UA
+      t: Ukrainian
     - key: options.locale.fr-FR
       t: French
     - key: options.locale.zh-Hant
