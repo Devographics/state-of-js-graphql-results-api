@@ -251,37 +251,27 @@ translations:
 
     # happiness
     - key: options.happiness.0
-      t: Very Unhappy
-      t: Very Unhappy
+      t: とても不満
     - key: options.happiness.1
-      t: Unhappy
-      t: Unhappy
+      t: 不満
     - key: options.happiness.2
-      t: Neutral
-      t: Neutral
+      t: どちらでもない
     - key: options.happiness.3
-      t: Happy
-      t: Happy
+      t: 満足
     - key: options.happiness.4
-      t: Very Happy
-      t: Very Happy
+      t: とても満足
 
     # happiness (short version)
     - key: options.happiness.0.short
-      t: Very Unhappy
-      t: Very Unhappy
+      t: とても不満
     - key: options.happiness.1.short
-      t: Unhappy
-      t: Unhappy
+      t: 不満
     - key: options.happiness.2.short
-      t: Neutral
-      t: Neutral
+      t: どちらでもない
     - key: options.happiness.3.short
-      t: Happy
-      t: Happy
+      t: 満足
     - key: options.happiness.4.short
-      t: Very Happy
-      t: Very Happy
+      t: とても満足
 
     # opinions
     - key: options.opinions.0
