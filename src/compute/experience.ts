@@ -172,7 +172,7 @@ export async function computeExperienceOverYears(
 
     // compute deltas
     experienceByYear.forEach((year, i) => {
-        const previousYear = experienceByYear[i - 1]
+        const previousYear = experienceByYear.find(y => y.year === year.year - 1)
         if (previousYear) {
             year.buckets.forEach(bucket => {
                 const previousYearBucket = previousYear.buckets.find(b => b.id === bucket.id)
