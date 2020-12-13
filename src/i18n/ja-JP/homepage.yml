@@ -27,7 +27,7 @@ translations:
 
           なので年次の[State Of JavaScript](https://stateofjs.com) の調査の成功をもとに、
           スタイリングやセレクターの世界についても最新のトレンドを明らかにして、
-          成長し続けている「great front-end divide」への架け橋を作ることに決めました！
+          今までにないほど大きくなっている「フロントエンドの分断」の架け橋を作ることにしました！
 
     - key: homepage.take_survey
       t: 調査に答える
