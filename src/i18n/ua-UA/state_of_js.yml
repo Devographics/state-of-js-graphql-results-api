@@ -29,7 +29,7 @@ translations:
     - key: sections.language.title
       t: Мова
     - key: sections.language.description
-      t: Словарь JavaScript.
+      t: Словник JavaScript.
 
     - key: sections.data_structures.title
       t: Cтруктури даних
@@ -49,7 +49,7 @@ translations:
     - key: sections.patterns.title
       t: Патерни
     - key: sections.patterns.description
-      t: Как вы пишете код
+      t: Як ви пишете код
 
     - key: sections.javascript_flavors.title
       t: Різновиди JavaScript
@@ -144,9 +144,9 @@ translations:
 
     # data structures
     - key: features.maps
-      t: Асоціативні масиви (объекты Map)
+      t: Асоціативні масиви (об'єкти Map)
     - key: features.sets
-      t: Множини (объекты Set)
+      t: Множини (об'єкти Set)
     - key: features.typed_arrays
       t: Типізовані масиви
     - key: array_prototype_flat

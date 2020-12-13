@@ -33,7 +33,7 @@ translations:
   - key: accounts.email
     t: Електронна пошта
   - key: accounts.enter_password
-    t: Введите пароль
+    t: Введіть пароль
   - key: accounts.password
     t: Пароль
   - key: accounts.choose_password
