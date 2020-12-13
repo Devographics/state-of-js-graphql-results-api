@@ -9,6 +9,7 @@ const localeDirectories: any = {
     'de-DE': require.context('./de-DE/', true, /\.yml$/),
     'en-US': require.context('./en-US/', true, /\.yml$/),
     'es-ES': require.context('./es-ES/', true, /\.yml$/),
+    'fa-IR': require.context('./fa-IR/', true, /\.yml$/),
     'fr-FR': require.context('./fr-FR/', true, /\.yml$/),
     'hi-IN': require.context('./hi-IN/', true, /\.yml$/),
     'id-ID': require.context('./id-ID/', true, /\.yml$/),

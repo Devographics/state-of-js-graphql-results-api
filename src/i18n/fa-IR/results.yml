@@ -1,0 +1,481 @@
+locale: fa-IR
+translations:
+    ###########################################################################
+    # General
+    ###########################################################################
+
+    - key: results.start
+      t: Start
+
+    - key: page.previous
+      t: 'Previous:'
+    - key: page.next
+      t: 'Next:'
+
+    - key: general.state_of_css_link
+      t: State of CSS
+
+    - key: general.netlify_link
+      t: Hosted by <a href="${link}">Netlify</a>.
+
+    - key: general.completion_percentage
+      t: 'Completion percentage:'
+
+    - key: partners.thanks
+      t: Thanks to our partners for supporting us!
+
+    - key: partners.learn_more
+      t: Learn more.
+
+    ###########################################################################
+    # Options
+    ###########################################################################
+
+    - key: options.experience_ranking.satisfaction
+      t: Satisfaction
+    - key: options.experience_ranking.interest
+      t: Interest
+    - key: options.experience_ranking.usage
+      t: Usage
+    - key: options.experience_ranking.awareness
+      t: Awareness
+
+    - key: options.features_simplified.know_it
+      t: Know about it
+    - key: options.features_simplified.used_it
+      t: Have used it
+    - key: options.features_simplified.usage_ratio
+      t: Usage ratio
+
+    - key: options.quadrant.assess
+      t: ASSESS
+    - key: options.quadrant.assess.long
+      t: |
+        ASSESS: Low usage, high satisfaction. Technologies worth keeping an eye on.
+    - key: options.quadrant.adopt
+      t: ADOPT
+    - key: options.quadrant.adopt.long
+      t: |
+        ADOPT: High usage, high satisfaction. Safe technologies to adopt.
+    - key: options.quadrant.avoid
+      t: AVOID
+    - key: options.quadrant.avoid.long
+      t: |
+        AVOID: Low usage, low satisfaction. Technologies probably best avoided currently.
+    - key: options.quadrant.analyze
+      t: ANALYZE
+    - key: options.quadrant.analyze.long
+      t: |
+        ANALYZE: High usage, low satisfaction. Reassess these technologies if you're currently using them.
+
+    - key: ranges.selector.years_of_experience
+      t: Experience
+    - key: ranges.selector.yearly_salary
+      t: Salary
+    - key: ranges.selector.company_size
+      t: Company Size
+
+    ###########################################################################
+    # Sections
+    ###########################################################################
+
+    - key: sections.introduction.title
+      t: Introduction
+
+    - key: sections.demographics.title
+      t: Demographics
+
+    - key: sections.tshirt.title
+      t: T-shirt
+
+    - key: sections.technologies.title
+      t: Technologies
+
+    - key: sections.conclusion.title
+      t: Conclusion
+
+    - key: sections.support.title
+      t: Support Us
+    - key: sections.support.description
+      t: >
+        We run this survey as a side project, but in order to make the
+        project sustainable we’re always looking for partners who can help support us,
+        either financially or by helping us spread the word.
+        If you think you could help in any way, please don’t hesitate to [get in touch](mailto:hello@stateofjs.com)!
+
+    ###########################################################################
+    # User Info
+    ###########################################################################
+
+    - key: user_info.locale
+      t: Language
+    - key: user_info.locale.description
+      t: What language did respondents select to fill out the survey?
+
+    - key: user_info.source
+      t: Source
+    - key: user_info.source.description
+      t: How did respondents find out about the survey?
+
+    ###########################################################################
+    # Locales
+    ###########################################################################
+
+    - key: options.locale.en-US
+      t: English
+    - key: options.locale.es-ES
+      t: Spanish
+    - key: options.locale.ru-RU
+      t: Russian
+    - key: options.locale.fr-FR
+      t: French
+    - key: options.locale.zh-Hant
+      t: Chinese (Traditional)
+    - key: options.locale.de-DE
+      t: German
+    - key: options.locale.cs-CZ
+      t: Czech
+    - key: options.locale.pt-PT
+      t: Portuguese
+    - key: options.locale.it-IT
+      t: Italian
+    - key: options.locale.sv-SE
+      t: Swedish
+    - key: options.locale.tr-TR
+      t: Turkish
+    - key: options.locale.id-ID
+      t: Indonesian
+    - key: options.locale.hi-IN
+      t: Hindi
+
+    ###########################################################################
+    # Features
+    ###########################################################################
+
+    - key: features.learn_more
+      t: Learn More (MDN)
+    - key: features.mdn_link
+      t: MDN
+    - key: features.caniuse_link
+      t: CanIUse
+    - key: features.specification_link
+      t: W3C Specification
+
+    ###########################################################################
+    # Tools & Methodologies
+    ###########################################################################
+
+    # general
+    - key: tools.links
+      t: Links
+    - key: tools.github_link
+      t: GitHub
+    - key: tools.github_stars
+      t: stars
+    - key: tools.homepage_link
+      t: Homepage
+    - key: tools.npm_link
+      t: NPM
+
+    ###########################################################################
+    # Blocks
+    ###########################################################################
+
+    # heatmaps
+    - key: blocks.tools_company_size_heatmap.title
+      t: Usage by Company Size
+    - key: blocks.tools_company_size_heatmap.description
+      t: |
+        For each technology, how usage is spread among respondents
+        who picked different company size ranges.
+
+    - key: blocks.tools_yearly_salary_heatmap.title
+      t: Usage by Salary Range
+    - key: blocks.tools_yearly_salary_heatmap.description
+      t: |
+        For each technology, how usage is spread among respondents
+        who picked different salary ranges.
+
+    - key: blocks.tools_years_of_experience_heatmap.title
+      t: Usage by Years Of Experience
+    - key: blocks.tools_years_of_experience_heatmap.description
+      t: |
+        For each technology, how usage is spread among respondents who picked different experience ranges.
+        Note that the experience in question here is general experience, not experience with a specific technology.
+
+    # tool
+    - key: blocks.entity.homepage_link
+      t: Homepage
+    - key: blocks.entity.github_link
+      t: GitHub
+
+    # tools quadrant
+    - key: blocks.tools_quadrant.title
+      t: Satisfaction vs Usage
+    - key: blocks.tools_quadrant.satisfaction.description
+      t: |
+        This chart shows each technology’s **satisfaction ratio** over its total **user count**.
+        It can be divided into four quadrants:
+
+          - **ASSESS**: Low usage, high satisfaction. Technologies worth keeping an eye on.
+
+          - **ADOPT**: High usage, high satisfaction. Safe technologies to adopt.
+
+          - **AVOID**: Low usage, low satisfaction. Technologies probably best avoided currently.
+
+          - **ANALYZE**: High usage, low satisfaction. Reassess these technologies if you're currently using them.
+
+    - key: blocks.tools_quadrant.interest.description
+      t: |
+        This chart shows each technology’s **interest ratio** over its total **user count** (as defined by respondents who are aware of a technology but *haven't* used it yet).
+
+        (Note that low user numbers can be due to either an unknown technology; or a technology with a lot of respondents already using it.)
+
+    # category other tools
+    - key: blocks.category_other_tools.title
+      t: Other Tools
+    - key: blocks.category_other_tools.description
+      t: Other tools in this category (freeform answers).
+
+    # tool experience
+    - key: blocks.tool_experience.title
+      t: ${name} Experience
+    - key: blocks.tool_experience.description
+      t: Respondent's experience with ${name}.
+
+    # tool positive/negative split ("marimekko" chart)
+    - key: blocks.tools_experience_marimekko.title
+      t: Positive/Negative Split
+    - key: blocks.tools_experience_marimekko.description
+      t: |
+          This chart splits positive (“want to learn”, ”would use again”) vs
+          negative (“not interested”, “would not use again”) experiences on
+          both sides of a central axis.
+
+          Bar thickness represents the number of respondents aware of a technology.
+
+    # tools section streams
+    - key: blocks.tools_section_streams.title
+      t: Experience Over Time
+    - key: blocks.tools_section_streams.description
+      t: |
+        Overview of opinions on the technologies surveyed over time.
+    - key: blocks.tools_section_streams.note
+      t: |
+        Technologies with only one year of data are not included.
+
+    # tools section overview
+    - key: blocks.tools_section_overview.title
+      t: Category Overview
+    - key: blocks.tools_section_overview.description
+      t: |
+        Overview of opinions on the technologies surveyed. Darker segments represent positive opinions,
+        while lighter segments correspond to negative sentiment.
+
+    # tools experience ranking
+    - key: blocks.tools_experience_ranking.title
+      t: Rankings
+    - key: blocks.tools_experience_ranking.description
+      t: Satisfaction, interest, usage, and awareness ratio rankings.
+    - key: blocks.tools_experience_ranking.note
+      t: |
+        Technologies with less than 10% awareness not included. Each ratio is defined as follows:
+
+        - Satisfaction: **would use again** vs **would not use again**.
+        - Interest: **want to learn** vs **not interested**.
+        - Usage: **would use again** + **would not use again** vs awareness.
+        - Awareness: total - **never heard**.
+
+    # happiness
+    - key: blocks.happiness.title
+      t: Overall Happiness
+    - key: blocks.happiness.description
+      t: |
+        On a scale of one (very unhappy) to five (very happy), how happy are developers
+        with the current overall state of this category?
+
+    # newsletter
+    - key: blocks.newsletter.title
+      t: Stay Tuned
+    - key: blocks.newsletter.description
+      t: |
+        If you'd like to know when we release additional results or announce next year's edition,
+        just leave us your email below:
+    - key: blocks.newsletter.email
+      t: Your Email
+    - key: blocks.newsletter.submit
+      t: Notify Me
+
+    # features_overview
+    - key: blocks.features_overview.title
+      t: Usage Overview
+    - key: blocks.features_overview.description
+      t: |
+        This chart presents the various adoption rates for all features, grouped by category.
+
+        The size of the <span class="text-teal-darker text-bold">outer circle</span>
+        corresponds to the total number of users who know about a feature, while
+        the <span class="text-teal text-bold">inner one</span> represents those who have actually used it.
+
+        Hover on each node to view detailed data along with an <span class="text-blackpink text-bold">overlay</span>
+        representing the total number of survey respondents.
+
+    # export
+    - key: export.export
+      t: Export
+    - key: export.title
+      t: Export data for ${title}
+    - key: export.nocsv
+      t: Sorry, CSV export is not available for this dataset.
+    - key: export.graphql
+      t: >
+          You can copy paste this query into our <a target="_blank" rel="nofollow" href="http://graphiql.stateofjs.com/">public GraphQL API</a>.
+
+    # Tools usage variations
+    - key: blocks.tools_usage_variations.title
+      t: Usage Variations
+    - key: blocks.tools_usage_variations.description
+      t: |
+        How different factors such as salary range, years of experience
+        or company size influence usage (participants who answered either
+        ”would use again” or “would not use again”).
+
+        The baseline represents the base usage for each tool and the offsets
+        correspond to the delta from this baseline in each range. Let's say
+        tool X has an overall usage of 10% across all respondents (the baseline),
+        then if the percentage of users having from 1 to 2 years of experience
+        using this tool is 13% (compared to all users having from 1 to 2 years
+        of experience), then we have a positive delta of +3%.
+    - key: blocks.tools_usage_variations.note
+      t: |
+        Please keep in mind that tools having a lower overall usage tends to vary more.
+
+    # Recommended Resources
+    - key: blocks.recommended_resources.title
+      t: Recommended Resources
+
+    ###########################################################################
+    # Charts
+    ###########################################################################
+
+    - key: chart_units.percentage
+      t: Percents
+    - key: chart_units.count
+      t: Count
+
+    - key: charts.axis_legends.years_of_experience
+      t: Years of Experience
+    - key: charts.axis_legends.yearly_salary
+      t: Salary Range (USD)
+    - key: charts.axis_legends.company_size
+      t: Number of Employees
+    - key: charts.axis_legends.backend_proficiency
+      t: Back-end Proficiency
+    - key: charts.axis_legends.css_proficiency
+      t: CSS Proficiency
+    - key: charts.axis_legends.javascript_proficiency
+      t: JavaScript Proficiency
+    - key: charts.axis_legends.users_percentage
+      t: Percentage of Users
+    - key: charts.axis_legends.users_count
+      t: User Count
+    - key: charts.axis_legends.interest_percentage
+      t: Interest Percentage
+    - key: charts.axis_legends.satisfaction_percentage
+      t: Satisfaction Percentage
+    - key: charts.axis_legends.happiness
+      t: Happiness
+    - key: charts.axis_legends.knowledge_score
+      t: Known Features
+    - key: charts.axis_legends.frequency
+      t: Frequency
+
+    - key: charts.ranges_multiple_diverging_lines.baseline
+      t: baseline
+    - key: charts.ranges_multiple_diverging_lines.positive_offset
+      t: positive offset
+    - key: charts.ranges_multiple_diverging_lines.negative_offset
+      t: negative offset
+
+    ###########################################################################
+    # Sharing
+    ###########################################################################
+
+    - key: share.share
+      t: Share
+    - key: share.site.title
+      t: Discover the StateOf CSS 2020 results
+    - key: share.site.twitter_text
+      t: 'Discover the State Of CSS 2020 results ${link} #StateOfCSS'
+    - key: share.site.subject
+      t: State Of JavaScript Survey Results
+    - key: share.site.body
+      t: 'Here are some interesting CSS survey results: ${link}'
+    - key: share.block.twitter_text
+      t: '#StateOfCSS 2020: ${title} ${link}'
+    - key: share.block.subject
+      t: State Of CSS Survey Results
+    - key: share.block.body
+      t: 'Here are some interesting CSS survey results (${title}): ${link}'
+    - key: share.twitter
+      t: Share on Twitter
+    - key: share.facebook
+      t: Share on Facebook
+    - key: share.linkedin
+      t: Share on LinkedIn
+    - key: share.email
+      t: Share by email
+    - key: share.image
+      t: Get image
+
+    ###########################################################################
+    # Awards
+    ###########################################################################
+
+    - key: awards.runner_ups
+      t: Runner Ups
+
+    - key: award.feature_adoption_award.title
+      t: Most Used Feature
+    - key: award.feature_adoption_award.description
+      t: Awarded to the most adopted feature.
+
+    - key: award.feature_adoption_delta_award.title
+      t: Most Adopted Feature
+    - key: award.feature_adoption_delta_award.description
+      t: Awarded to the feature with the largest year-over-year ”have used” progression.
+
+    - key: award.tool_usage_award.title
+      t: Most Used Technology
+    - key: award.tool_usage_award.description
+      t: Awarded to the technology with the largest user base.
+
+    - key: award.tool_usage_delta_award.title
+      t: Most Adopted Technology
+    - key: award.tool_usage_delta_award.description
+      t: Awarded to the technology with the largest year-over-year “would use again” progression.
+
+    - key: award.tool_satisfaction_award.title
+      t: Highest Satisfaction
+    - key: award.tool_satisfaction_award.description
+      t: Awarded to the technology with the highest percentage of satisfied users.
+
+    - key: award.tool_interest_award.title
+      t: Highest Interest
+    - key: award.tool_interest_award.description
+      t: Awarded to the technology developers are most interested in learning.
+
+    - key: award.resource_usage_award.title
+      t: Most Used Resource
+    - key: award.resource_usage_award.description
+      t: Awarded to the resource with the largest user base.
+
+    - key: award.prediction_award.title
+      t: Prediction Award
+    - key: award.prediction_award.description
+      t: Awarded to an up-and-coming technology that might take over… or not?
+
+    - key: award.most_write_ins_award.title
+      t: Most Write-Ins
+    - key: award.most_write_ins_award.description
+      t: Awarded to the item with the most write-in answers
