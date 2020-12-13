@@ -67,7 +67,7 @@ translations:
     - key: accounts.please_log_in
       t: 始めるためにはサインアップかログインが必要です。
     - key: accounts.logged_in_as
-      t: {email}としてログインしました。
+      t: '{email}としてログインしました。'
     - key: accounts.questions
       t: >
           個人データをどのように扱うかの質問や、個人情報の削除がしたい場合は
