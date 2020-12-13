@@ -183,7 +183,7 @@ translations:
     - key: options.features.never_heard
       t: 🤷 Вперше чую/Не впевнений, що це
     - key: options.features.heard
-      t: ✅ Знаю, але не використав
+      t: ✅ Знаю, але не використовував
     - key: options.features.used
       t: 👍 Використовував
 
@@ -277,7 +277,7 @@ translations:
     - key: options.opinions.3
       t: Згоден
     - key: options.opinions.4
-      t: Полностью согласен
+      t: Повністю згоден
 
     # years of experience
     - key: options.years_of_experience.range_less_than_1
@@ -400,7 +400,7 @@ translations:
     - key: options.javascript_proficiency.0
       t: Не пишу на JavaScript
     - key: options.javascript_proficiency.1
-      t: Пишу короткі, прості скрипти на JavaScript або jQuery
+      t: Пишу короткі, прості сценарії на JavaScript або jQuery
     - key: options.javascript_proficiency.2
       t: Працюю з фронтенда, використовуючи сучасні фреймворки (React, Vue і т.д.)
     - key: options.javascript_proficiency.3
@@ -413,13 +413,13 @@ translations:
     - key: options.css_proficiency.0
       t: Практично не знаю CSS
     - key: options.css_proficiency.1
-      t: Використовую CSS-фреймворки і зраджую існуючі стилі
+      t: Використовую CSS-фреймворки і змінюю існуючі стилі
     - key: options.css_proficiency.2
       t: Знаю правила специфічності, вмію створювати сітки
     - key: options.css_proficiency.3
       t: Володію анімацією, інтерактивністю, переходами і т.д.
     - key: options.css_proficiency.4
-      t: Можу взяти на себе стилізацію всього фронтенда з нуля, слідуючи єдиний методології
+      t: Можу взяти на себе стилізацію всього фронтенда з нуля, слідуючи єдиній методології
 
     # Back-end proficiency
 
@@ -449,11 +449,11 @@ translations:
     # Gender
 
     - key: options.gender.female
-      t: Жіночий
+      t: Жінка
     - key: options.gender.male
       t: Чоловік
     - key: options.gender.non_binary
-      t: Небінарний/Третій підлогу
+      t: Небінарний/Третого полу
     - key: options.gender.prefer_not_to_say
       t: Неважливо
 
@@ -622,7 +622,7 @@ translations:
     ###########################################################################
 
     - key: tools_others.libraries
-      t: бібліотеки
+      t: Бібліотеки
     - key: tools_others.libraries.description
       t: Які бібліотеки ви регулярно використовуєте?
     - key: tools_others.libraries.others
@@ -649,11 +649,11 @@ translations:
       t: Інші утиліти (поле з вільною формою відповіді).
 
     - key: tools_others.browsers
-      t: браузери
+      t: Браузери
     - key: tools_others.browsers.description
       t: В яких браузерах ви в основному працюєте?
     - key: tools_others.browsers.others
-      t: Шнші браузери
+      t: Інші браузери
     - key: tools_others.browsers.others.description
       t: Інші відповіді (поле з вільною формою відповіді).
 
@@ -693,7 +693,7 @@ translations:
     - key: resources.sites_courses
       t: Сайти та курси
     - key: resources.sites_courses.description
-      t: До яких сайтах, курсам (і т.п.) ви звертаєтеся?
+      t: До яких сайтів та курсів (і т.д.) ви звертаєтеся?
     - key: resources.sites_courses.others
       t: Інші сайти і курси
     - key: resources.sites_courses.others.description
@@ -701,10 +701,10 @@ translations:
 
     # podcasts
     - key: resources.podcasts
-      t: Подкасти
+      t: Підкасти
     - key: resources.podcasts.description
-      t: Які подкасти з програмування ви слухаєте?
+      t: Які підкасти з програмування ви слухаєте?
     - key: resources.podcasts.others
-      t: Інші подкасти
+      t: Інші підкасти
     - key: resources.podcasts.others.description
       t: Інші відповіді (поле з вільною формою відповіді).

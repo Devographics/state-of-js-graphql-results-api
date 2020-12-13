@@ -14,7 +14,7 @@ translations:
 
 
           Після успішного проведення щорічного опитування "State of JavaScript"
-          ми вирішили увійти в світ стилів і селектор. Ми сподіваємося з вашою допомогою
+          ми вирішили увійти в світ стилів і селекторів. Ми сподіваємося з вашою допомогою
           визначити актуальні тенденції, а також з'ясувати, що слід вивчати і використовувати в майбутньому!
 
     - key: general.results.description
@@ -50,7 +50,7 @@ translations:
       t: Анімація і трансформація елементів.
 
     - key: sections.media_queries.title
-      t: Медіавырази
+      t: Медіавирази
     - key: sections.media_queries.description
       t: Способи адаптації сайту до пристрою користувача або його перевагам.
 
@@ -127,7 +127,7 @@ translations:
       t: Ніколи
 
     - key: options.css_for_print.2
-      t: ППишу стилі для друку в більшості проектах
+      t: Пишу стилі для друку в більшості проектах
     - key: options.css_for_print.2.short
       t: Часто
 
@@ -190,7 +190,7 @@ translations:
 
     # shapes & graphics
     - key: features.shapes
-      t: CSS-фигуры (CSS Shapes)
+      t: CSS-фігури (CSS Shapes)
     - key: features.object_fit
       t: <code>object-fit</code>
     - key: features.clip_path
@@ -266,7 +266,7 @@ translations:
 
     # other features
     - key: features.variables
-      t: CSS-змінні (кастомные свойства)
+      t: CSS-змінні (кастомні властивості)
     - key: features.containment
       t: CSS-ізоляція (CSS Containment)
     - key: features.will_change
@@ -346,12 +346,12 @@ translations:
     - key: features_others.combinators
       t: Комбінатори
     - key: features_others.combinators.description
-      t: Какие из этих CSS-комбинаторов вы использовали?
+      t: Які з цих CSS-комбінаторів ви використовували?
 
     - key: options.combinators.descendant
       t: div span (комбінатор нащадка)
     - key: options.combinators.child
-      t: div > span (комбінатор непосредственного потомка)
+      t: div > span (комбінатор безпосереднього потомка)
     - key: options.combinators.next_sibling
       t: div + div (комбінатор безпосереднього сусідства)
     - key: options.combinators.subsequent_sibling
@@ -413,12 +413,12 @@ translations:
     - key: options.attributes.contains_word
       t: div[foo~="bar"] (містить певний набір слів)
     - key: options.attributes.contains_substring
-      t: div[foo*="bar"] (містить певну підрядок)
+      t: div[foo*="bar"] (містить певний підрядок)
 
     - key: features_others.links_urls
       t: Посилання/URL-адреси
     - key: features_others.links_urls.description
-      t: Які з цих CSS-селекторів пседоклассов, пов'язаних з посиланнями, ви використовували?
+      t: Які з цих CSS-селекторів псевдокласів, пов'язаних з посиланнями, ви використовували?
 
     - key: options.links_urls.any_link
       t: :any-link
@@ -527,7 +527,7 @@ translations:
       t: Несемантичні класи
 
     - key: opinions.selector_nesting_to_be_avoided
-      t: Слід уникати вкладених селектор (.foo .bar ul li {...})
+      t: Слід уникати вкладених селекторів (.foo .bar ul li {...})
     - key: opinions.selector_nesting_to_be_avoided.title
       t: Вкладені селектори
 
@@ -537,7 +537,7 @@ translations:
       t: Мова програмування
 
     - key: opinions.enjoy_writing_css
-      t: Мне нравится писать CSS
+      t: Мені подобається писати CSS
     - key: opinions.enjoy_writing_css.title
       t: Задоволення
 
