@@ -522,6 +522,16 @@
     A declarative, efficient, and flexible JavaScript library for building user
     interfaces.
 
+# TODO: get rid of duplicate
+- id: vue
+  name: Vue.js
+  npm: vue
+  github: vuejs/vue
+  description: "A progressive, incrementally-adoptable framework for building UI on the web"
+  homepage: "http://vuejs.org"
+  patterns:
+    - vue
+
 - id: vuejs
   name: Vue.js
   npm: vue
