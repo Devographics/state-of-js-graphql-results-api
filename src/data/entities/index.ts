@@ -15,6 +15,7 @@ import people from './people.yml'
 import courses from './courses.yml'
 import newsletters from './newsletters.yml'
 import socialmedia from './socialmedia.yml'
+import industry_sectors from './industry_sectors.yml'
 
 const entities: any = {
     browsers,
@@ -32,6 +33,7 @@ const entities: any = {
     courses,
     newsletters,
     socialmedia,
+    industry_sectors,
 }
 
 // add key as category and flatten the whole thing

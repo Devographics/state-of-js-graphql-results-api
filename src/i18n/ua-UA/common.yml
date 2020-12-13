@@ -1,0 +1,710 @@
+locale: ua-UA
+translations:
+    ###########################################################################
+    # General
+    ###########################################################################
+
+    # homepage
+    - key: general.why_create_account
+      t: Навіщо потрібно створювати аккаунт?
+    - key: general.create_account_reasons
+      t: >
+          Ми просимо вас зареєструватися, щоб:
+
+          - Уникнути дублювання відповідей
+
+          - Дати доступ до ваших відповідей
+
+          - Зберегти поточний прогрес проходження опитування
+
+          - Сповістити вас, коли будуть опубліковані результати
+    - key: general.survey_closed
+      t: >
+          Вибачте, але опитування завершений! Ви можете подивитися свої відповіді, але змінити їх уже не вийде.
+    - key: general.survey_read_only
+      t: >
+          Зараз ви переглядаєте опитування в режимі тільки для читання.
+    - key: general.survey_read_only_back
+      t: >
+          <a href="${link}">Поверніться</a> на головну сторінку опитування, щоб почати або відновити сесію.
+
+    # surveys
+    - key: general.open_surveys
+      t: Відкриті опитування
+    - key: general.no_open_surveys
+      t: В даний час немає відкритих опитувань.
+    - key: general.closed_surveys
+      t: Проведені опитування
+    - key: general.no_preview_surveys
+      t: Немає опитувань для попереднього перегляду.
+    - key: general.start_survey
+      t: Почати опитування »
+    - key: general.continue_survey
+      t: Продовжити опитування »
+    - key: general.review_survey
+      t: Подивитися опитування »
+    - key: general.preview_survey
+      t: Попередній перегляд опитування »
+    - key: general.finish_survey
+      t: Завершити опитування »
+    - key: general.survey_closed
+      t: Опитування вже закрите.
+    - key: general.survey_results
+      t: Подивитися результати опитування »
+    - key: general.surveys_available_languages
+      t: 'Опитування доступні на наступних мовах:'
+    - key: general.help_us_translate
+      t: Допомогти з перекладом опитувань »
+    - key: general.translators
+      t: Перекладачі
+    - key: general.translation_help
+      t: Допомога з перекладами
+
+    # footer
+    - key: general.privacy_policy
+      t: Політика конфіденційності
+    - key: general.leave_issue
+      t: Є питання? Знайшли помилку? <a href="${link}" target="_blank">Створіть ішью</a>.
+    - key: general.emoji_icons
+      t: Емодзі-іконки від <a target="_blank" rel="noreferrer" href="https://icons8.com">Icons8</a>
+
+    # navigation
+    - key: general.table_of_contents
+      t: Зміст
+    - key: general.all_questions_optional
+      t: >
+        Примітка: необов'язково відповідати на всі питання, стовідсоткове завершення опитування не потрібно.
+    - key: general.data_is_saved
+      t: Всі ваші відповіді зберігаються при переході до попереднього або наступного розділу.
+
+    # thanks
+    - key: general.back
+      t: Повернутися на попередню сторінку
+    - key: general.thanks
+      t: >
+          Дякую за заповнення опитування!
+
+          Ваші відповіді збережені. До завершення опитування ви можете подивитися або змінити їх.
+
+          Крім того, ви допоможете нам, якщо розповісте іншим людям про це опитування.
+          Навіть невелика ваша активність допоможе підвищити точність опитування:
+    - key: thanks.learn_more_about
+      t: 'Деякі можливості, які добре б вам вивчити:'
+    - key: thanks.knowledge_score
+      t: Рівень ваших знань
+    - key: thanks.score_explanation
+      t: >
+          Ви знали або використовували <span class="score-number score-number-known">{known}</span> з
+          <span class="score-number score-number-total">{total}</span> можливостей, згаданих в опитуванні.
+          Такий же результат ще у <span class="score-number score-number-ranking">{knowledgeRankingFromTop}%</span>
+          учасників опитування.
+    - key: thanks.share_on_twitter
+      t: Поділитися результатом в Twitter
+    - key: thanks.share_score_message
+      t: >
+          Мій рівень знань в щорічному опитуванні #{hashtag} — {score}%. Перевір свій на {shareUrl}.
+    # share
+    - key: general.share_subject
+      t: >
+          Опитування {surveyName}
+    - key: general.share_text
+      t: >
+          Опитування {surveyName} в цьому році відкрито! {link}
+
+    # forms
+    - key: forms.select_option
+      t: Вибрати варіант
+
+    # partners
+    - key: partners.our_partners
+      t: Наші партнери
+    - key: partners.become_partner
+      t: Стати партнером
+
+
+    # 404
+    - key: notfound.title
+      t: Помилка 404
+    - key: notfound.description
+      t: На жаль, ця сторінка не знайдена.
+
+    # other
+    - key: general.join_discord
+      t: Заходьте до нас в <a href="${link}">Discord-чат</a>.
+    - key: general.translator_mode
+      t: Натисніть option/alt, щоб активувати режим перекладача.
+
+    - key: general.charts_nivo
+      t: Візуалізація даних зроблена за допомогою <a href="${link}">Nivo</a>.
+
+    ###########################################################################
+    # Nav
+    ###########################################################################
+
+    - key: nav.surveys
+      t: Опитування
+    - key: nav.account
+      t: Аккаунт
+
+    ###########################################################################
+    # Sections
+    ###########################################################################
+
+    - key: sections.user_info.title
+      t: Про вас
+    - key: sections.user_info.description
+      t: Давайте познайомимося з вами.
+
+    - key: sections.features.title
+      t: Можливості
+    - key: sections.features.description
+      t: Синтаксис, ключові слова та інші можливості мови.
+
+    - key: sections.resources.title
+      t: Ресурси
+    - key: sections.resources.description
+      t: До яких ресурсів по {topic} ви звертаєтеся?
+
+    - key: sections.opinions.title
+      t: Погляди
+    - key: sections.opinions.description
+      t: Що ви думаєте про загальний стан {topic}?
+
+    - key: sections.other_tools.title
+      t: Інші інструменти
+    - key: sections.other_tools.description
+      t: Які з представлених інструментів і технологій ви регулярно використовуєте.
+
+    ###########################################################################
+    # Options
+    ###########################################################################
+
+    # features
+    - key: options.features.never_heard
+      t: 🤷 Вперше чую/Не впевнений, що це
+    - key: options.features.heard
+      t: ✅ Знаю, але не використав
+    - key: options.features.used
+      t: 👍 Використовував
+
+    # features (short versions)
+    - key: options.features.never_heard.short
+      t: Вперше чую
+    - key: options.features.heard.short
+      t: Знаю
+    - key: options.features.used.short
+      t: Використовував
+
+    # patterns
+    - key: options.patterns.use_never
+      t: Практично завжди уникаю
+    - key: options.patterns.use_sparingly
+      t: Рідко використовую
+    - key: options.patterns.use_neutral
+      t: Важко сказати
+    - key: options.patterns.use_frequently
+      t: Часто використовую
+    - key: options.patterns.use_always
+      t: Використовую скільки душі завгодно
+
+    # tools experience
+    - key: options.tools.never_heard
+      t: 🤷 Вперше чую/Не впевнений, що це
+    - key: options.tools.interested
+      t: ✅ Чув про це > Хочу вивчити
+    - key: options.tools.not_interested
+      t: 🚫 Чув про це > Не цікаво
+    - key: options.tools.would_use
+      t: 👍 Використовував > Буду використовувати знову
+    - key: options.tools.would_not_use
+      t: 👎 Використовував > Більше не буду використовувати
+
+    # tools experience (no emoji)
+    - key: options.tools.never_heard.legend
+      t: Вперше чую/Не впевнений, що це
+    - key: options.tools.interested.legend
+      t: Чув про це > Хочу вивчити
+    - key: options.tools.not_interested.legend
+      t: Чув про це > Не цікаво
+    - key: options.tools.would_use.legend
+      t: Використовував > Буду використовувати знову
+    - key: options.tools.would_not_use.legend
+      t: Використовував > Більше не буду використовувати
+
+    # tools experience (short versions)
+    - key: options.tools.never_heard.short
+      t: Вперше чую
+    - key: options.tools.interested.short
+      t: Цікаво
+    - key: options.tools.not_interested.short
+      t: Не цікаво
+    - key: options.tools.would_use.short
+      t: Буду ще використовувати
+    - key: options.tools.would_not_use.short
+      t: Не буду більше використовувати
+
+    # happiness
+    - key: options.happiness.0
+      t: Дуже незадоволений
+    - key: options.happiness.1
+      t: Не задоволений
+    - key: options.happiness.2
+      t: Важко відповісти
+    - key: options.happiness.3
+      t: Задоволений
+    - key: options.happiness.4
+      t: Дуже задоволений
+
+      # happiness (short version)
+    - key: options.happiness.0.short
+      t: Дуже незадоволений
+    - key: options.happiness.1.short
+      t: Не задоволений
+    - key: options.happiness.2.short
+      t: Важко відповісти
+    - key: options.happiness.3.short
+      t: Задоволений
+    - key: options.happiness.4.short
+      t: Дуже задоволений
+
+    # opinions
+    - key: options.opinions.0
+      t: Абсолютно не згоден
+    - key: options.opinions.1
+      t: Не згоден
+    - key: options.opinions.2
+      t: Важко сказати
+    - key: options.opinions.3
+      t: Згоден
+    - key: options.opinions.4
+      t: Полностью согласен
+
+    # years of experience
+    - key: options.years_of_experience.range_less_than_1
+      t: Менше одного року
+    - key: options.years_of_experience.range_1_2
+      t: Від 1 до 2 років
+    - key: options.years_of_experience.range_2_5
+      t: Від 2 до 5 років
+    - key: options.years_of_experience.range_5_10
+      t: Від 5 до 10 років
+    - key: options.years_of_experience.range_10_20
+      t: Від 10 до 20 років
+    - key: options.years_of_experience.range_more_than_20
+      t: Більше 20 років
+
+    # years of experience (short versions)
+    - key: options.years_of_experience.range_less_than_1.short
+      t: '<1'
+    - key: options.years_of_experience.range_1_2.short
+      t: 1-2
+    - key: options.years_of_experience.range_2_5.short
+      t: 2-5
+    - key: options.years_of_experience.range_5_10.short
+      t: 5-10
+    - key: options.years_of_experience.range_10_20.short
+      t: 10-20
+    - key: options.years_of_experience.range_more_than_20.short
+      t: '>20'
+
+    # company size
+    - key: options.company_size.range_1
+      t: Один співробітник
+    - key: options.company_size.range_1_5
+      t: Від 1 до 5 співробітників
+    - key: options.company_size.range_5_10
+      t: Від 5 до 10 співробітників
+    - key: options.company_size.range_10_20
+      t: Від 10 до 20 співробітників
+    - key: options.company_size.range_20_50
+      t: Від 20 до 50 співробітників
+    - key: options.company_size.range_50_100
+      t: Від 50 до 100 співробітників
+    - key: options.company_size.range_100_1000
+      t: Від 100 до 1000 співробітників
+    - key: options.company_size.range_more_than_1000
+      t: Більше 1000 співробітників
+
+    # company size (short versions)
+    - key: options.company_size.range_1.short
+      t: 1
+    - key: options.company_size.range_1_5.short
+      t: 1-5
+    - key: options.company_size.range_5_10.short
+      t: 5-10
+    - key: options.company_size.range_10_20.short
+      t: 10-20
+    - key: options.company_size.range_20_50.short
+      t: 20-50
+    - key: options.company_size.range_50_100.short
+      t: 50-100
+    - key: options.company_size.range_100_1000.short
+      t: 100-1000
+    - key: options.company_size.range_more_than_1000.short
+      t: '>1000'
+
+    # salary
+    - key: options.yearly_salary.range_work_for_free
+      t: Я працюю безкоштовно
+    - key: options.yearly_salary.range_0_10
+      t: 0-10 тис. доларів
+    - key: options.yearly_salary.range_10_30
+      t: 10-30 тис. доларів
+    - key: options.yearly_salary.range_30_50
+      t: 30-50 тис. доларів
+    - key: options.yearly_salary.range_50_100
+      t: 50-100 тис. доларів
+    - key: options.yearly_salary.range_100_200
+      t: 100-200 тис. доларів
+    - key: options.yearly_salary.range_more_than_200
+      t: 'Більше 200 тис. доларів'
+
+    # salary (short versions)
+    - key: options.yearly_salary.range_work_for_free.short
+      t: '0'
+    - key: options.yearly_salary.range_0_10.short
+      t: 0-10 т.
+    - key: options.yearly_salary.range_10_30.short
+      t: 10-30 т.
+    - key: options.yearly_salary.range_30_50.short
+      t: 30-50 т.
+    - key: options.yearly_salary.range_50_100.short
+      t: 50-100 т.
+    - key: options.yearly_salary.range_100_200.short
+      t: 100-200 т.
+    - key: options.yearly_salary.range_more_than_200.short
+      t: '> 200 т.'
+
+    # job titles
+    - key: options.job_title.cto
+      t: Технічний директор
+    - key: options.job_title.front_end_developer
+      t: Фронтенд-розробник/інженер
+    - key: options.job_title.back_end_developer
+      t: Бекенд-розробник/інженер
+    - key: options.job_title.full_stack_developer
+      t: Фулстек-розробник/інженер
+    - key: options.job_title.web_developer
+      t: Веб-розробник
+    - key: options.job_title.web_designer
+      t: Веб-дизайнер
+    - key: options.job_title.ux_designer
+      t: UX-дизайнер
+    - key: options.job_title.ui_designer
+      t: UI-дизайнер
+    - key: options.job_title.back_end_dev
+      t: Бекенд-розробник/інженер
+
+    # JavaScript proficiency
+
+    - key: options.javascript_proficiency.0
+      t: Не пишу на JavaScript
+    - key: options.javascript_proficiency.1
+      t: Пишу короткі, прості скрипти на JavaScript або jQuery
+    - key: options.javascript_proficiency.2
+      t: Працюю з фронтенда, використовуючи сучасні фреймворки (React, Vue і т.д.)
+    - key: options.javascript_proficiency.3
+      t: Можу написати фронтенд з нуля
+    - key: options.javascript_proficiency.4
+      t: Володію просунутими фронтенд-паттернами (управління станом, завантаження даних і т.д.)
+
+    # CSS proficiency
+
+    - key: options.css_proficiency.0
+      t: Практично не знаю CSS
+    - key: options.css_proficiency.1
+      t: Використовую CSS-фреймворки і зраджую існуючі стилі
+    - key: options.css_proficiency.2
+      t: Знаю правила специфічності, вмію створювати сітки
+    - key: options.css_proficiency.3
+      t: Володію анімацією, інтерактивністю, переходами і т.д.
+    - key: options.css_proficiency.4
+      t: Можу взяти на себе стилізацію всього фронтенда з нуля, слідуючи єдиний методології
+
+    # Back-end proficiency
+
+    - key: options.backend_proficiency.0
+      t: Не працюю з бекенд
+    - key: options.backend_proficiency.1
+      t: Можу встановлювати універсальні CMS (WordPress і т.п.) або статичні генератори сайтів (Jekyll, etc.)
+    - key: options.backend_proficiency.2
+      t: Можу розробляти програми, використовуючи існуючі фреймворки (Rails, Laravel і т.п.)
+    - key: options.backend_proficiency.3
+      t: Можу розробити весь бекенд з нуля (Go, Node.js і т.п.)
+    - key: options.backend_proficiency.4
+      t: Можу керувати складними багатосерверних або мікросервіснимі архітектурою
+
+    # Proficiency (generic versions)
+    - key: options.proficiency.0
+      t: Відсутній
+    - key: options.proficiency.1
+      t: Початківець
+    - key: options.proficiency.2
+      t: Проміжний
+    - key: options.proficiency.3
+      t: Високий рівень
+    - key: options.proficiency.4
+      t: Експерт
+
+    # Gender
+
+    - key: options.gender.female
+      t: Жіночий
+    - key: options.gender.male
+      t: Чоловік
+    - key: options.gender.non_binary
+      t: Небінарний/Третій підлогу
+    - key: options.gender.prefer_not_to_say
+      t: Неважливо
+
+    # Race & Ethnicity
+
+    - key: options.race_ethnicity.white_european
+      t: Білий або європеєць
+    - key: options.race_ethnicity.south_asian
+      t: Уродженець Південної Азії
+    - key: options.race_ethnicity.hispanic_latin
+      t: Іспанець або латиноамериканець
+    - key: options.race_ethnicity.east_asian
+      t: Уродженець Східної Азії
+    - key: options.race_ethnicity.middle_eastern
+      t: Уродженець Близького Сходу
+    - key: options.race_ethnicity.black_african
+      t: Чорний або африканець
+    - key: options.race_ethnicity.multiracial
+      t: Метис
+    - key: options.race_ethnicity.biracial
+      t: Представник двох рас
+    - key: options.race_ethnicity.native_american_islander_australian
+      t: Корінний американець, або уродженець островів Тихого океану, або корінний австралієць
+
+    # Form Factors
+    - key: options.form_factors.desktop
+      t: Комп'ютери
+    - key: options.form_factors.smartphone
+      t: Смартфони
+    - key: options.form_factors.feature_phone
+      t: Прості телефони (фічерфони)
+    - key: options.form_factors.tablet
+      t: Планшети
+    - key: options.form_factors.smart_watch
+      t: Розумний годинник
+    - key: options.form_factors.tv
+      t: TV-приставки
+    - key: options.form_factors.gaming_console
+      t: Ігрові приставки
+    - key: options.form_factors.screen_reader
+      t: Екранні зчитувальні пристрої
+    - key: options.form_factors.print
+      t: Версії для друку
+
+    # Industry Sector
+    - key: options.industry_sector.ecommerce
+      t: Електронна комерція та роздрібна торгівля
+    - key: options.industry_sector.news_media
+      t: Новини, медіа, блогінг
+    - key: options.industry_sector.healthcare
+      t: Охорона здоров'я
+    - key: options.industry_sector.finance
+      t: Фінанси
+    - key: options.industry_sector.programming_tools
+      t: Програмування та технічні інструменти
+    - key: options.industry_sector.socialmedia
+      t: Соціальні медіа
+    - key: options.industry_sector.marketing_tools
+      t: Маркетинг/Продажі/Інструменти аналітики
+    - key: options.industry_sector.education
+      t: Освіта
+    - key: options.industry_sector.real_estate
+      t: Нерухомість
+    - key: options.industry_sector.government
+      t: Державний сектор
+    - key: options.industry_sector.entertainment
+      t: Розваги
+    - key: options.industry_sector.consulting
+      t: Консалтинг і послуги
+
+    ###########################################################################
+    # Tools
+    ###########################################################################
+
+    - key: tools.other_tools
+      t: Інші варіанти
+    - key: tools.other_tools.description
+      t: Щось інше, крім наведених вище варіантів.
+    - key: tools.happiness
+      t: Загальний показник задоволеності
+    - key: tools.happiness.description
+      t: >
+        За шкалою від одного (дуже незадоволений) до п'яти (дуже задоволений), наскільки ви задоволені
+        поточними перерахованими вище варіантами?
+
+    ###########################################################################
+    # Demographics (About You/User Info)
+    ###########################################################################
+
+    # years of experience
+    - key: user_info.years_of_experience
+      t: Досвід
+    - key: user_info.years_of_experience.description
+      t: Як довго ви працюєте або вчитеся в своїй області.
+
+    # company size
+    - key: user_info.company_size
+      t: Розмір компанії
+    - key: user_info.company_size.description
+      t: Наскільки велика компанія, в якій ви працюєте.
+
+    # salary ranges
+    - key: user_info.yearly_salary
+      t: Річна зарплата
+    - key: user_info.yearly_salary.description
+      t: У доларах США.
+
+    # job title
+    - key: user_info.job_title
+      t: Посада
+    - key: user_info.job_title.description
+      t: Ким ви представляєтеся на публічних заходах?
+
+    # javascript proficiency
+
+    - key: user_info.javascript_proficiency
+      t: Рівень володіння JavaScript
+    - key: user_info.javascript_proficiency.description
+      t: Ваш досвід роботи з JavaScript?
+
+    # css proficiency
+
+    - key: user_info.css_proficiency
+      t: Рівень володіння CSS
+    - key: user_info.css_proficiency.description
+      t: Ваш досвід роботи з CSS?
+
+    # backend proficiency
+    - key: user_info.backend_proficiency
+      t: Рівень володіння бекенд
+    - key: user_info.backend_proficiency.description
+      t: Ваш досвід роботи в бекенд-розробці?
+
+    # gender
+    - key: user_info.gender
+      t: Стать
+
+    # skin tone/appearance
+    - key: user_info.race_ethnicity
+      t: Раса та етнічна приналежність
+
+    # other info
+    - key: user_info.how_did_user_find_out_about_the_survey
+      t: Як ви дізналися про це опитуванні?
+    - key: user_info.email
+      t: Ваша електронна пошта
+    - key: user_info.country
+      t: Країна проживання
+    - key: user_info.github_username
+      t: Ваш логін на GitHub
+    - key: user_info.github_username.description
+      t: >
+        В майбутньому ми можемо використовувати імена користувачів GitHub
+        для перегляду репозиторіїв і вивчення публічної інформації.
+    - key: user_info.industry_sector
+      t: Сфера діяльності
+    - key: user_info.industry_sector.description
+      t: В яких галузях ви працюєте?
+    - key: user_info.industry_sector.others
+      t: Інші сфери діяльності
+    - key: user_info.industry_sector.others.description
+      t: Інші галузі, в яких ви працюєте, крім наведених вище варіантів.
+
+    ###########################################################################
+    # Other Tools
+    ###########################################################################
+
+    - key: tools_others.libraries
+      t: бібліотеки
+    - key: tools_others.libraries.description
+      t: Які бібліотеки ви регулярно використовуєте?
+    - key: tools_others.libraries.others
+      t: Інші бібліотеки
+    - key: tools_others.libraries.others.description
+      t: Інші бібліотеки (поле з вільною формою відповіді).
+
+    - key: tools_others.text_editors
+      t: Текстові редактори
+    - key: tools_others.text_editors.description
+      t: Якими текстовими редакторами ви регулярно користуєтеся?
+    - key: tools_others.text_editors.others
+      t: Інші текстові редактори
+    - key: tools_others.text_editors.others.description
+      t: Інші відповіді (поле з вільною формою відповіді).
+
+    - key: tools_others.utilities
+      t: Утиліти
+    - key: tools_others.utilities.description
+      t: Які утиліти або інструменти ви регулярно використовуєте?
+    - key: tools_others.utilities.others
+      t: Інші утиліти
+    - key: tools_others.utilities.others.description
+      t: Інші утиліти (поле з вільною формою відповіді).
+
+    - key: tools_others.browsers
+      t: браузери
+    - key: tools_others.browsers.description
+      t: В яких браузерах ви в основному працюєте?
+    - key: tools_others.browsers.others
+      t: Шнші браузери
+    - key: tools_others.browsers.others.description
+      t: Інші відповіді (поле з вільною формою відповіді).
+
+    - key: tools_others.build_tools
+      t: Збирачі
+    - key: tools_others.build_tools.description
+      t: Які збирачі ви використовуєте?
+    - key: tools_others.build_tools.others
+      t: Інші збирачі
+    - key: tools_others.build_tools.others.description
+      t: Інші відповіді (поле з вільною формою відповіді).
+
+    - key: tools_others.non_js_languages
+      t: Мови, крім JavaScript
+    - key: tools_others.non_js_languages.description
+      t: Якими мовами програмування ви ще пишете?
+    - key: tools_others.non_js_languages.others
+      t: Інші мови
+    - key: tools_others.non_js_languages.others.description
+      t: Інші відповіді (поле з вільною формою відповіді).
+
+    ###########################################################################
+    # Resources
+    ###########################################################################
+
+    # blogs & magazines
+    - key: resources.blogs_news_magazines
+      t: Блоги та журнали
+    - key: resources.blogs_news_magazines.description
+      t: Які блоги, журнали (і т.п.) ви читаєте?
+    - key: resources.blogs_news_magazines.others
+      t: Інші блоги і журнали
+    - key: resources.blogs_news_magazines.others.description
+      t: Інші відповіді (поле з вільною формою відповіді).
+
+    # sites & courses
+    - key: resources.sites_courses
+      t: Сайти та курси
+    - key: resources.sites_courses.description
+      t: До яких сайтах, курсам (і т.п.) ви звертаєтеся?
+    - key: resources.sites_courses.others
+      t: Інші сайти і курси
+    - key: resources.sites_courses.others.description
+      t: Інші відповіді (поле з вільною формою відповіді).
+
+    # podcasts
+    - key: resources.podcasts
+      t: Подкасти
+    - key: resources.podcasts.description
+      t: Які подкасти з програмування ви слухаєте?
+    - key: resources.podcasts.others
+      t: Інші подкасти
+    - key: resources.podcasts.others.description
+      t: Інші відповіді (поле з вільною формою відповіді).

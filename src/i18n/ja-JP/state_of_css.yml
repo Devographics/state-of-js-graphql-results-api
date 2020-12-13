@@ -280,6 +280,12 @@ translations:
     - key: features.comparison_functions.description
       t: <code>min()</code>, <code>max()</code>, and <code>clamp()</code>
 
+    # knowledge score
+    - key: features.knowledge_score
+      t: Knowledge Score
+    - key: features.knowledge_score.description
+      t: Out of all the CSS features mentioned in the survey, how many did the respondent know about?
+      
     ###########################################################################
     # Units & Selectors
     ###########################################################################

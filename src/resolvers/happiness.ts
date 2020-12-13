@@ -1,5 +1,4 @@
-import { Db } from 'mongodb'
-import { computeHappinessByYear, computeTermAggregationByYear } from '../compute'
+import { computeHappinessByYear } from '../compute'
 import { useCache } from '../caching'
 import { RequestContext, SurveyConfig } from '../types'
 import { Filters } from '../filters'

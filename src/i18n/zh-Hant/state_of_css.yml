@@ -15,6 +15,9 @@ translations:
 
           因此，每年舉辦的 [JavaScript 現況調查](https://stateofjs.com) 成功後，我們決定發掘樣式與選擇器的世界，幫助大家找到最新的潮流，知道接下來要學習和使用的工具！
 
+    - key: general.results.description
+      t: The annual survey about the latest trends in CSS.
+
     ###########################################################################
     # Sections
     ###########################################################################
@@ -89,12 +92,22 @@ translations:
       t: 幫助 CSS 整合進 JavaScript 的程式庫。
 
     - key: sections.css_in_js_others.title
-      t: 其他 CSS-in-JS 程式庫
+      t: 其他 CSS-in-JS 程式庫。
+
+    - key: sections.tools_others.title
+      t: 其他工具
+    - key: sections.tools_others.description
+      t: 其他 CSS 工具。
 
     - key: sections.environments.title
       t: 環境
     - key: sections.environments.description
       t: 撰寫的 CSS 是用在哪些環境？
+
+    - key: sections.awards.title
+      t: 獎項
+    - key: sections.awards.description
+      t: Things that stood out this year.
 
     ###########################################################################
     # Options
@@ -153,7 +166,7 @@ translations:
     - key: features.subgrid
       t: Subgrid
     - key: features.regions
-      t: CSS Region
+      t: CSS Regions
     - key: features.flexbox
       t: Flexbox
     - key: features.multi_column
@@ -265,6 +278,12 @@ translations:
     - key: features.comparison_functions.description
       t: <code>min()</code>、<code>max()</code> 和 <code>clamp()</code>
 
+    # knowledge score
+    - key: features.knowledge_score
+      t: 認知分數
+    - key: features.knowledge_score.description
+      t: 調查裡提到的 CSS 功能裡，有多少答題者知道？
+      
     ###########################################################################
     # Units & Selectors
     ###########################################################################
@@ -473,6 +492,11 @@ translations:
     - key: environments.css_for_email.description
       t: 有寫電子郵件客戶端的 CSS 嗎？
 
+    - key: charts.axis_legends.css_for_print
+      t: 頻率
+    - key: charts.axis_legends.css_for_email
+      t: 頻率
+
     ###########################################################################
     # Opinions
     ###########################################################################
@@ -511,7 +535,11 @@ translations:
       t: 覺得 CSS 目前還缺了什麼？
     - key: opinions_others.currently_missing_from_css.others.description
       t: 希望未來有的 CSS 樣式。
-
+    - key: opinions_others.currently_missing_from_css.others.note
+      t: >
+          這些是將自由填寫內容整理過的結果。
+          若要看原始、沒有處理過的資料，請看 [whatsmissingfromcss.com](http://whatsmissingfromcss.com/)。
+    
     - key: opinions.sum_up_one_word_css
       t: 用一個詞形容 CSS
     - key: opinions.sum_up_one_word_css.description

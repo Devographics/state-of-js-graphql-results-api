@@ -1,118 +1,121 @@
-locale: zh-Hant
+locale: en-US
 translations:
     ###########################################################################
     # General
     ###########################################################################
 
     - key: results.start
-      t: 開始
+      t: Start
 
     - key: page.previous
-      t: '前一項：'
+      t: 'Previous:'
     - key: page.next
-      t: '後一項：'
+      t: 'Next:'
 
     - key: general.state_of_css_link
-      t: CSS 現況調查
+      t: State of CSS
 
     - key: general.netlify_link
-      t: 存放在 <a href="${link}">Netlify</a>。
+      t: Hosted by <a href="${link}">Netlify</a>.
 
     - key: general.completion_percentage
-      t: '完成百分比：'
+      t: 'Completion percentage:'
 
     - key: partners.thanks
-      t: 感謝贊助我們的伙伴！
+      t: Thanks to our partners for supporting us!
 
     - key: partners.learn_more
-      t: 深入瞭解。
+      t: Learn more.
 
     ###########################################################################
     # Options
     ###########################################################################
 
     - key: options.experience_ranking.satisfaction
-      t: 滿意度
+      t: Satisfaction
     - key: options.experience_ranking.interest
-      t: 興趣
+      t: Interest
     - key: options.experience_ranking.usage
-      t: 使用程度
+      t: Usage
     - key: options.experience_ranking.awareness
-      t: 知道
+      t: Awareness
 
     - key: options.features_simplified.know_it
-      t: 有聽過
+      t: Know about it
     - key: options.features_simplified.used_it
-      t: 已經使用
+      t: Have used it
     - key: options.features_simplified.usage_ratio
-      t: 使用比例
+      t: Usage ratio
 
     - key: options.quadrant.assess
-      t: 評估
+      t: ASSESS
     - key: options.quadrant.assess.long
       t: |
-        評估：低使用量、高滿意度。是值得關注的技術。
+        ASSESS: Low usage, high satisfaction. Technologies worth keeping an eye on.
     - key: options.quadrant.adopt
-      t: 採用
+      t: ADOPT
     - key: options.quadrant.adopt.long
       t: |
-        採用：高使用量、高滿意度。可以放心採用的技術。
+        ADOPT: High usage, high satisfaction. Safe technologies to adopt.
     - key: options.quadrant.avoid
-      t: 迴避
+      t: AVOID
     - key: options.quadrant.avoid.long
       t: |
-        迴避：低使用量、低滿意度。近期最好避免的技術。
+        AVOID: Low usage, low satisfaction. Technologies probably best avoided currently.
     - key: options.quadrant.analyze
-      t: 分析
+      t: ANALYZE
     - key: options.quadrant.analyze.long
       t: |
-        分析：高使用量、低滿意度。如果正在使用這些技術，要進行重新評估。
+        ANALYZE: High usage, low satisfaction. Reassess these technologies if you're currently using them.
 
     - key: ranges.selector.years_of_experience
-      t: 經驗
+      t: Experience
     - key: ranges.selector.yearly_salary
-      t: 薪資
+      t: Salary
     - key: ranges.selector.company_size
-      t: 公司規模
+      t: Company Size
 
     ###########################################################################
     # Sections
     ###########################################################################
 
     - key: sections.introduction.title
-      t: 簡介
+      t: Introduction
 
     - key: sections.demographics.title
-      t: 參與者統計
+      t: Demographics
 
     - key: sections.tshirt.title
       t: T-shirt
 
     - key: sections.technologies.title
-      t: 技術
+      t: Technologies
 
     - key: sections.conclusion.title
-      t: 結論
+      t: Conclusion
 
     - key: sections.support.title
-      t: 贊助
+      t: Support Us
     - key: sections.support.description
       t: >
-        這份調查是我們的閒暇專案。為了讓它可以持續進行，也持續徵求可以幫助我們的伙伴。不管是資金或幫忙宣傳都可以。如果你有任何可以幫助的方式，請[立即聯繫](mailto:hello@stateofjs.com)！
+        We run this survey as a side project, but in order to make the
+        project sustainable we’re always looking for partners who can help support us,
+        either financially or by helping us spread the word.
+        If you think you could help in any way, please don’t hesitate to [get in touch](mailto:hello@stateofjs.com)!
 
     ###########################################################################
     # User Info
     ###########################################################################
 
     - key: user_info.locale
-      t: 語言
+      t: Language
     - key: user_info.locale.description
-      t: 答題者選用什麼語言來填寫？
+      t: What language did respondents select to fill out the survey?
 
     - key: user_info.source
-      t: 來源
+      t: Source
     - key: user_info.source.description
-      t: 答題者如何找到調查的？
+      t: How did respondents find out about the survey?
 
     ###########################################################################
     # Locales
@@ -124,8 +127,6 @@ translations:
       t: Spanish
     - key: options.locale.ru-RU
       t: Russian
-    - key: options.locale.ua-UA
-      t: Ukrainian
     - key: options.locale.fr-FR
       t: French
     - key: options.locale.zh-Hant
@@ -152,13 +153,13 @@ translations:
     ###########################################################################
 
     - key: features.learn_more
-      t: 深入瞭解 (MDN)
+      t: Learn More (MDN)
     - key: features.mdn_link
       t: MDN
     - key: features.caniuse_link
       t: CanIUse
     - key: features.specification_link
-      t: W3C 規格
+      t: W3C Specification
 
     ###########################################################################
     # Tools & Methodologies
@@ -166,13 +167,13 @@ translations:
 
     # general
     - key: tools.links
-      t: 連結
+      t: Links
     - key: tools.github_link
       t: GitHub
     - key: tools.github_stars
-      t: 顆星
+      t: stars
     - key: tools.homepage_link
-      t: 首頁
+      t: Homepage
     - key: tools.npm_link
       t: NPM
 
@@ -182,143 +183,162 @@ translations:
 
     # heatmaps
     - key: blocks.tools_company_size_heatmap.title
-      t: 根據公司規模劃分使用程度
+      t: Usage by Company Size
     - key: blocks.tools_company_size_heatmap.description
       t: |
-        每個技術裡，根據已填寫公司規模的回應來看使用程度。
+        For each technology, how usage is spread among respondents
+        who picked different company size ranges.
 
     - key: blocks.tools_yearly_salary_heatmap.title
-      t: 根據薪資劃分使用程度
+      t: Usage by Salary Range
     - key: blocks.tools_yearly_salary_heatmap.description
       t: |
-        每個技術裡，根據已填寫薪資的回應來看使用程度。
+        For each technology, how usage is spread among respondents
+        who picked different salary ranges.
 
     - key: blocks.tools_years_of_experience_heatmap.title
-      t: 根據年資劃分使用程度
+      t: Usage by Years Of Experience
     - key: blocks.tools_years_of_experience_heatmap.description
       t: |
-        每個技術裡，根據已填寫年資的回應來看使用程度。另外，此處提到的經驗是指共通經驗，而不是特定技術的經驗。
+        For each technology, how usage is spread among respondents who picked different experience ranges.
+        Note that the experience in question here is general experience, not experience with a specific technology.
 
     # tool
     - key: blocks.entity.homepage_link
-      t: 首頁
+      t: Homepage
     - key: blocks.entity.github_link
       t: GitHub
 
     # tools quadrant
     - key: blocks.tools_quadrant.title
-      t: 滿意度 vs 使用程度
+      t: Satisfaction vs Usage
     - key: blocks.tools_quadrant.satisfaction.description
       t: |
-        此圖表根據每項技術的全部**使用人數**顯示**滿意比例**，劃分成 4 個象限：
+        This chart shows each technology’s **satisfaction ratio** over its total **user count**.
+        It can be divided into four quadrants:
 
-          - 評估: 低使用度、高滿意度。是值得關注的技術。
+          - **ASSESS**: Low usage, high satisfaction. Technologies worth keeping an eye on.
 
-          - 採用: 高使用度、高滿意度。可以放心採用的技術。
+          - **ADOPT**: High usage, high satisfaction. Safe technologies to adopt.
 
-          - 迴避: 低使用度、低滿意度。近期最好避免的技術。
+          - **AVOID**: Low usage, low satisfaction. Technologies probably best avoided currently.
 
-          - 分析: 高使用度、低滿意度。如果正在使用這些技術，要進行重新評估。
+          - **ANALYZE**: High usage, low satisfaction. Reassess these technologies if you're currently using them.
 
     - key: blocks.tools_quadrant.interest.description
       t: |
-        這張圖表是每個技術根據**總使用者數量**顯示**有興趣比例**（定義是答題者知道某個技術，但*尚未*使用）。
+        This chart shows each technology’s **interest ratio** over its total **user count** (as defined by respondents who are aware of a technology but *haven't* used it yet).
+
+        (Note that low user numbers can be due to either an unknown technology; or a technology with a lot of respondents already using it.)
 
     # category other tools
     - key: blocks.category_other_tools.title
-      t: 其他工具
+      t: Other Tools
     - key: blocks.category_other_tools.description
-      t: 此分類裡的其他工具。（自由填答）
+      t: Other tools in this category (freeform answers).
 
     # tool experience
     - key: blocks.tool_experience.title
-      t: ${name} 體驗
+      t: ${name} Experience
     - key: blocks.tool_experience.description
-      t: 填答者的 ${name} 體驗。
+      t: Respondent's experience with ${name}.
 
     # tool positive/negative split ("marimekko" chart)
     - key: blocks.tools_experience_marimekko.title
-      t: 區分正面/負面
+      t: Positive/Negative Split
     - key: blocks.tools_experience_marimekko.description
       t: |
-          這張圖表以中間軸線往兩旁分為正面（想要學、還會再用）vs 負面（沒興趣、不會再用）的體驗。
+          This chart splits positive (“want to learn”, ”would use again”) vs
+          negative (“not interested”, “would not use again”) experiences on
+          both sides of a central axis.
 
-          長條的寬度代表答題者知道某技術的數量。
+          Bar thickness represents the number of respondents aware of a technology.
 
     # tools section streams
     - key: blocks.tools_section_streams.title
-      t: 逐年體驗
+      t: Experience Over Time
     - key: blocks.tools_section_streams.description
       t: |
-        技術的逐年調查意見概要。
+        Overview of opinions on the technologies surveyed over time.
     - key: blocks.tools_section_streams.note
       t: |
-        只有 1 年資料的技術不算在內。
+        Technologies with only one year of data are not included.
 
     # tools section overview
     - key: blocks.tools_section_overview.title
-      t: 分類概要
+      t: Category Overview
     - key: blocks.tools_section_overview.description
       t: |
-        對於技術的意見概要。深色區域代表正面意見；而淺色區域是負面情緒。
+        Overview of opinions on the technologies surveyed. Darker segments represent positive opinions,
+        while lighter segments correspond to negative sentiment.
 
     # tools experience ranking
     - key: blocks.tools_experience_ranking.title
-      t: 排名
+      t: Rankings
     - key: blocks.tools_experience_ranking.description
-      t: 滿意度、有興趣、實際使用、有聽過比例的排名。
+      t: Satisfaction, interest, usage, and awareness ratio rankings.
     - key: blocks.tools_experience_ranking.note
       t: |
-        少於 10% 聽過的技術不算在內。每個比例的根據：
+        Technologies with less than 10% awareness not included. Each ratio is defined as follows:
 
-        - 滿意度： **還會再用** vs **不會再用**。
-        - 有興趣：**想要學** vs **沒興趣**。
-        - 實際使用：**還會再用** + **不會再用** vs 有聽過。
-        - 有聽過：全部 - **沒聽過**。
+        - Satisfaction: **would use again** vs **would not use again**.
+        - Interest: **want to learn** vs **not interested**.
+        - Usage: **would use again** + **would not use again** vs awareness.
+        - Awareness: total - **never heard**.
 
     # happiness
     - key: blocks.happiness.title
-      t: 整體愉悅感
+      t: Overall Happiness
     - key: blocks.happiness.description
       t: |
-        開發者目前對於此分類的整體現況是否開心？程度從 1（非常不開心）到 5（非常開心）。
+        On a scale of one (very unhappy) to five (very happy), how happy are developers
+        with the current overall state of this category?
 
     # newsletter
     - key: blocks.newsletter.title
-      t: 敬請期待
+      t: Stay Tuned
     - key: blocks.newsletter.description
       t: |
-        想要在我們釋出更多結果或明年度版本發布的時候，收到通知嗎？
-        請留下 Email：
+        If you'd like to know when we release additional results or announce next year's edition,
+        just leave us your email below:
     - key: blocks.newsletter.email
-      t: Email
+      t: Your Email
     - key: blocks.newsletter.submit
-      t: 通知我
+      t: Notify Me
 
     # features_overview
     - key: blocks.features_overview.title
-      t: 使用程度概要
+      t: Usage Overview
     - key: blocks.features_overview.description
       t: |
-        這張圖表顯示所有功能個別的採用程度，以分類來區別。<span class="text-teal-darker text-bold">外圍圓圈</span>的大小代表知道某功能的使用者總數，而<span class="text-teal text-bold">內圈</span>代表實際在使用的人數。將滑鼠移到節點上，就可以看到詳細資料，還有代表此問卷答題者總數的<span class="text-blackpink text-bold">區塊</span>。
+        This chart presents the various adoption rates for all features, grouped by category.
+
+        The size of the <span class="text-teal-darker text-bold">outer circle</span>
+        corresponds to the total number of users who know about a feature, while
+        the <span class="text-teal text-bold">inner one</span> represents those who have actually used it.
+
+        Hover on each node to view detailed data along with an <span class="text-blackpink text-bold">overlay</span>
+        representing the total number of survey respondents.
 
     # export
     - key: export.export
-      t: 輸出
+      t: Export
     - key: export.title
-      t: 輸出 ${title} 的資料
+      t: Export data for ${title}
     - key: export.nocsv
-      t: 抱歉，這組資料還沒有辦法輸出 CSV。
+      t: Sorry, CSV export is not available for this dataset.
     - key: export.graphql
       t: >
-          可以把這組查詢複製貼上到我們的<a target="_blank" rel="nofollow" href="http://graphiql.stateofjs.com/">公開 GraphQL API</a>。
+          You can copy paste this query into our <a target="_blank" rel="nofollow" href="http://graphiql.stateofjs.com/">public GraphQL API</a>.
 
     # Tools usage variations
     - key: blocks.tools_usage_variations.title
-      t: 使用程度離勢
+      t: Usage Variations
     - key: blocks.tools_usage_variations.description
       t: |
-        薪資範圍、年資或公司規模等因素影響的使用程度（回答「還會再用」或「不會再用」其中之一的答題者）。
+        How different factors such as salary range, years of experience
+        or company size influence usage (participants who answered either
+        ”would use again” or “would not use again”).
 
         The baseline represents the base usage for each tool and the offsets
         correspond to the delta from this baseline in each range. Let's say
@@ -328,134 +348,134 @@ translations:
         of experience), then we have a positive delta of +3%.
     - key: blocks.tools_usage_variations.note
       t: |
-        請注意：整體使用程度低的工具通常有較高的離勢。
+        Please keep in mind that tools having a lower overall usage tends to vary more.
 
     # Recommended Resources
     - key: blocks.recommended_resources.title
-      t: 推薦資源
+      t: Recommended Resources
 
     ###########################################################################
     # Charts
     ###########################################################################
 
     - key: chart_units.percentage
-      t: 百分比
+      t: Percents
     - key: chart_units.count
-      t: 數量
+      t: Count
 
     - key: charts.axis_legends.years_of_experience
-      t: 年資
+      t: Years of Experience
     - key: charts.axis_legends.yearly_salary
-      t: 薪資範圍（美金）
+      t: Salary Range (USD)
     - key: charts.axis_legends.company_size
-      t: 員工數
+      t: Number of Employees
     - key: charts.axis_legends.backend_proficiency
-      t: 後端熟悉程度
+      t: Back-end Proficiency
     - key: charts.axis_legends.css_proficiency
-      t: CSS 熟悉程度
+      t: CSS Proficiency
     - key: charts.axis_legends.javascript_proficiency
-      t: JavaScript 熟悉程度
+      t: JavaScript Proficiency
     - key: charts.axis_legends.users_percentage
-      t: 使用者百分比
+      t: Percentage of Users
     - key: charts.axis_legends.users_count
-      t: 使用者數量
+      t: User Count
     - key: charts.axis_legends.interest_percentage
-      t: 有興趣百分比
+      t: Interest Percentage
     - key: charts.axis_legends.satisfaction_percentage
-      t: 滿意度百分比
+      t: Satisfaction Percentage
     - key: charts.axis_legends.happiness
-      t: 愉悅感
+      t: Happiness
     - key: charts.axis_legends.knowledge_score
-      t: 知道的功能
+      t: Known Features
     - key: charts.axis_legends.frequency
-      t: 頻率
+      t: Frequency
 
     - key: charts.ranges_multiple_diverging_lines.baseline
-      t: 基線
+      t: baseline
     - key: charts.ranges_multiple_diverging_lines.positive_offset
-      t: 正面 offset
+      t: positive offset
     - key: charts.ranges_multiple_diverging_lines.negative_offset
-      t: 負面 offset
+      t: negative offset
 
     ###########################################################################
     # Sharing
     ###########################################################################
 
     - key: share.share
-      t: 分享
+      t: Share
     - key: share.site.title
-      t: 探索 CSS 現況調查 2020 結果
+      t: Discover the StateOf CSS 2020 results
     - key: share.site.twitter_text
-      t: '探索 CSS 現況調查 2020 結果 ${link} #StateOfCSS'
+      t: 'Discover the State Of CSS 2020 results ${link} #StateOfCSS'
     - key: share.site.subject
-      t: JavaScript 現況調查結果
+      t: State Of JavaScript Survey Results
     - key: share.site.body
-      t: 'CSS 現況調查的有趣結果看這裡：${link}'
+      t: 'Here are some interesting CSS survey results: ${link}'
     - key: share.block.twitter_text
       t: '#StateOfCSS 2020: ${title} ${link}'
     - key: share.block.subject
-      t: CSS 現況調查結果
+      t: State Of CSS Survey Results
     - key: share.block.body
-      t: 'CSS 現況調查的有趣結果看這裡 (${title}): ${link}'
+      t: 'Here are some interesting CSS survey results (${title}): ${link}'
     - key: share.twitter
-      t: 分享至 Twitter
+      t: Share on Twitter
     - key: share.facebook
-      t: 分享至 Facebook
+      t: Share on Facebook
     - key: share.linkedin
-      t: 分享至 LinkedIn
+      t: Share on LinkedIn
     - key: share.email
-      t: 以 Email 分享
+      t: Share by email
     - key: share.image
-      t: 取得圖片
+      t: Get image
 
     ###########################################################################
     # Awards
     ###########################################################################
 
     - key: awards.runner_ups
-      t: 緊追在後
+      t: Runner Ups
 
     - key: award.feature_adoption_award.title
-      t: 最多使用的功能
+      t: Most Used Feature
     - key: award.feature_adoption_award.description
-      t: 頒發給最多實際使用的功能。
+      t: Awarded to the most adopted feature.
 
     - key: award.feature_adoption_delta_award.title
-      t: 最多採用的功能
+      t: Most Adopted Feature
     - key: award.feature_adoption_delta_award.description
-      t: 頒發給每年新增最多「已經使用」的功能。
+      t: Awarded to the feature with the largest year-over-year ”have used” progression.
 
     - key: award.tool_usage_award.title
-      t: 最多使用的技術
+      t: Most Used Technology
     - key: award.tool_usage_award.description
-      t: 頒發給擁有最多使用者的技術。
+      t: Awarded to the technology with the largest user base.
 
     - key: award.tool_usage_delta_award.title
-      t: 最多採用的技術
+      t: Most Adopted Technology
     - key: award.tool_usage_delta_award.description
-      t: 頒發給每年新增最多「還會再用」的技術。
+      t: Awarded to the technology with the largest year-over-year “would use again” progression.
 
     - key: award.tool_satisfaction_award.title
-      t: 最高滿意度
+      t: Highest Satisfaction
     - key: award.tool_satisfaction_award.description
-      t: 頒發給擁有最高滿意使用者比例的技術。
+      t: Awarded to the technology with the highest percentage of satisfied users.
 
     - key: award.tool_interest_award.title
-      t: 最有興趣
+      t: Highest Interest
     - key: award.tool_interest_award.description
-      t: 頒發給開發者們最有興趣學習的技術。
+      t: Awarded to the technology developers are most interested in learning.
 
     - key: award.resource_usage_award.title
-      t: 最多使用的資源
+      t: Most Used Resource
     - key: award.resource_usage_award.description
-      t: 頒發給擁有最多使用者的資源。
+      t: Awarded to the resource with the largest user base.
 
     - key: award.prediction_award.title
-      t: 未來獎項
+      t: Prediction Award
     - key: award.prediction_award.description
-      t: 頒發給前途充滿光明的技術，以後可能會取而代之…吧？
+      t: Awarded to an up-and-coming technology that might take over… or not?
 
     - key: award.most_write_ins_award.title
-      t: 最多自行填答
+      t: Most Write-Ins
     - key: award.most_write_ins_award.description
-      t: 頒發給最多自行填答的項目。
+      t: Awarded to the item with the most write-in answers

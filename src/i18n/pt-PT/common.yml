@@ -121,7 +121,7 @@ translations:
       t: Inquéritos
     - key: nav.account
       t: Conta
-  
+
     ###########################################################################
     # Sections
     ###########################################################################
@@ -230,7 +230,7 @@ translations:
     - key: options.happiness.2
       t: Neutro
     - key: options.happiness.3
-      t: Content
+      t: Contente
     - key: options.happiness.4
       t: Muito contente
 

@@ -7,7 +7,7 @@ enum ToolID {
     purescript
     # JS front end frameworks
     react
-    vue # vuejs?
+    vuejs
     angular
     preact
     ember
@@ -45,6 +45,20 @@ enum ToolID {
     ava
     jasmine
     puppeteer
+    testing_library
+    playwright
+    webdriverio
+    # JS build tools
+    webpack
+    parcel
+    gulp
+    rollup
+    browserify
+    tsc
+    rome
+    snowpack
+    swc
+    esbuild
     # JS mobile desktop
     electron
     reactnative
@@ -53,6 +67,8 @@ enum ToolID {
     ionic
     nwjs
     expo
+    capacitor
+    quasar
     # CSS Pre-/Post-processors
     sass
     less

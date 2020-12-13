@@ -13,7 +13,9 @@
 - id: elmtown
   name: Elm Town
   homepage: https://elmtown.simplecast.fm/
-
+  patterns:
+    - elm( |-)?town
+    
 - id: command_line_heroes
   name: Command Line Heroes
   homepage: https://www.redhat.com/en/command-line-heroes
@@ -139,7 +141,7 @@
     - undefined
 
 - id: tools_day
-  name: Tools Day
+  name: Toolsday
   homepage: https://spec.fm/podcasts/toolsday
 
 - id: front_end_happy_hour
