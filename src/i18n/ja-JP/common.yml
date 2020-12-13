@@ -161,12 +161,12 @@ translations:
     - key: sections.resources.title
       t: リソース
     - key: sections.resources.description
-      t: {topic}について、どんなリソースを参考にしますか？
+      t: '{topic}について、どんなリソースを参考にしますか？'
 
     - key: sections.opinions.title
       t: 意見
     - key: sections.opinions.description
-      t: {topic}の現状についてどう思いますか？
+      t: '{topic}の現状についてどう思いますか？'
 
     - key: sections.other_tools.title
       t: そのほかのツール
