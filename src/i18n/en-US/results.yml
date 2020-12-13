@@ -475,7 +475,7 @@ translations:
     - key: award.tool_interest_award.title
       t: Highest Interest
     - key: award.tool_interest_award.description
-      t: Awarded to the technology developers are most interested in learning.
+      t: Awarded to the technology developers are most interested in learning once they know about it.
 
     - key: award.resource_usage_award.title
       t: Most Used Resource
@@ -516,7 +516,7 @@ translations:
     - key: hints.completion_hint
       t: >
           Since all questions are optional, some of them got fewer responses than others. 
-          The completion indicator <span class="hint-completion-indicator"/> tells you exactly how many people answered any given question.
+          The completion indicator (<span class="hint-completion-indicator">◕</span>) tells you exactly how many people answered any given question.
 
     - key: hints.tool_modal_hint
       t: >

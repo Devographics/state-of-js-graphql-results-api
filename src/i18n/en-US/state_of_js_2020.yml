@@ -15,7 +15,39 @@ translations:
     - key: sections.introduction.description
       t: |
 
-            TODO
+            <span class="first-letter">E</span>ven in a year as crappy as 2020, JavaScript as a whole still managed to somehow move forward. As the language itself keeps improving
+            thanks to new features like Optional Chaining and Nullish Coalescing, TypeScript's widespread adoption is taking things to a whole other level by popularizing static typing (cue non-JS devs everywhere laughing –or crying– quietly). 
+
+            And on the framework side, just when we though things were settling down, Svelte comes in and promises to shake everything up with a fresh take on the front-end. And even build tools are showing signs of new activity after years of Webpack hegemony. 
+
+            But the difference this time is that the “old” guard –relatively speaking– is not going anywhere. Svelte and Snowpack are great, but so are React and Webpack. And sure, they too will eventually fall prey to the Great JavaScript Churn, but not for many, many years. 
+
+            So let's enjoy what we have here: a great ecosystem that just keeps getting even better!
+
+            ### Team
+
+            The State of JavaScript Survey is created and maintained by [Sacha Greif](https://twitter.com/sachagreif) and [Raphaël Benitte](https://twitter.com/benitteraphael).
+
+            ### Download Our Data
+
+            You can [download the raw JSON data for this survey](https://www.kaggle.com/sachag/state-of-js). Let us know if you end up making your own data visualizations!
+
+            ### Other Links
+
+            - [State of CSS Homepage](https://stateofcss.com)
+            - [State of JS Homepage](https://stateofjs.com)
+
+            ### Thanks
+
+            Thanks to [Alexey Pyltsyn](https://github.com/lex111) for his help with translations.  
+
+            ### Credits & Stuff
+
+            The site is set in IBM Plex Mono. Questions? Feedback? [Get in touch!](mailto:hello@stateofjs.com)
+
+            And now, let's see what JavaScript has been up to this year!
+
+            <span class="conclusion__byline">– Sacha and Raphaël</span>
 
     ###########################################################################
     # Tshirt
@@ -155,14 +187,14 @@ translations:
     # - key: award.feature_adoption_delta_award.comment
     #   t: With a **${value}** progression in 2020, this was the year CSS Grid crossed over from new technology to established tool.
 
-    # - key: award.tool_usage_delta_award.comment
-    #   t: No other tool comes even close to Tailwind CSS's dramatic **${value}** progression over the last year.
+    - key: award.tool_usage_delta_award.comment
+      t: TypeScript was already popular, and it looks like it's only going to get more ubiquitous going forward.
 
-    # - key: award.tool_satisfaction_award.comment
-    #   t: PostCSS's **${value}** satisfaction ratio shows that you can't beat doing one thing really, really well.
+    - key: award.tool_satisfaction_award.comment
+      t: With a sky-high satisfaction rating of **${value}**, Testing Library is 2020's overall most beloved tool. 
 
-    # - key: award.tool_interest_award.comment
-    #   t: With a **${value}** ratio, CSS Modules have generated the most interest among CSS developers this year.
+    - key: award.tool_interest_award.comment
+      t: GraphQL continues to be the one thing developers want to learn more about, as soon as they can finally find the time. 
 
     # - key: award.most_write_ins_award.comment
     #   t: Many questions also accepted write-in answers, and with **${value}** mentions PhpStorm was the most popular item overall.
@@ -174,21 +206,40 @@ translations:
 
     - key: sections.conclusion.description
       t: |
-            TODO
+            Since ancient times, philosophers have pondered the Paradox of JavaScript: on one hand, you can't wait for exciting new language features and libraries that promise to make your developer experience so much better. 
+
+            But at the same time, you crave stability and simplicity so you can finally get things done without having to spend half your time browsing through convoluted GitHub issues threads and outdated Stack Overflow questions. 
+
+            So which is it? Do we want the new shiny, or the old reliable? More than ever, 2020 shows that we won't settle for anything less than *both*. The good news is that the JavaScript community has risen up to the challenge, which promises an exciting 2021!
 
     ###########################################################################
     # Picks
     ###########################################################################
 
-    # - key: picks.my_2020_pick
-    #   t: 'My 2020 Pick: '
-    # - key: picks.intro
-    #   t: We asked members of the CSS community to share their “pick of the year”
+    - key: picks.my_2020_pick
+      t: 'My 2020 Pick: '
+    - key: picks.intro
+      t: We asked members of the JavaScript community to share their “pick of the year”
 
-    # - key: picks.shadeed9.bio
-    #   t: Author of debuggingcss.com
-    # - key: picks.shadeed9.description
-    #   t: |
-    #         Container queries are a long-time awaited feature for us, 
-    #         and I’m thrilled that the Chrome team is working on support for it natively!
+    - key: picks.joshwcomeau.bio
+      t: Software-engineer-turned-educator
+    - key: picks.joshwcomeau.description
+      t: |
+            This is a fantastic intro resource for learning about web accessibility! 
+            I picked it because it's our job as JS devs to make sure that the sites 
+            we build are usable by everyone, not just sighted keyboard-and-mouse users.
 
+    - key: picks.swyx.bio
+      t: Infinite Builder
+    - key: picks.swyx.description
+      t: |
+            Svelte is the Space Elevator of frontend frameworks. 
+            It helps you ship apps extremely fast apps extremely fast. 
+
+    - key: picks.kentcdodds.bio
+      t: Improving the world with quality software
+    - key: picks.kentcdodds.description
+      t: |
+            Remix is a different approach to React frameworks with an emphasis on progressive 
+            enhancement. It embraces the web platform in a way that no existing frameworks do 
+            and I'm excited by its potential.
