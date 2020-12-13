@@ -45,7 +45,7 @@ type YearEnvironmentsRatings @cacheControl(maxAge: 600) {
 }
 
 """
-An environment, based rating (e.g. css for emails, css for print, etc.)
+An environment-based rating (e.g. css for emails, css for print, etc.)
 """
 type EnvironmentsRatings @cacheControl(maxAge: 600) {
     id: EnvironmentID!

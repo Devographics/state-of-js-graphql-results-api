@@ -127,6 +127,8 @@ translations:
       t: Spanish
     - key: options.locale.ru-RU
       t: Russian
+    - key: options.locale.ua-UA
+      t: Ukrainian
     - key: options.locale.fr-FR
       t: French
     - key: options.locale.zh-Hant
@@ -147,6 +149,12 @@ translations:
       t: Indonesian
     - key: options.locale.hi-IN
       t: Hindi
+    - key: options.locale.zh-Hans
+      t: Chinese (Simplified)
+    - key: options.locale.ja-JP
+      t: Japanese
+    - key: options.locale.ua-UA
+      t: Ukrainian
 
     ###########################################################################
     # Features
@@ -160,6 +168,12 @@ translations:
       t: CanIUse
     - key: features.specification_link
       t: W3C Specification
+
+    # knowledge score
+    - key: features.knowledge_score
+      t: Knowledge Score
+    - key: features.knowledge_score.description
+      t: Out of all the features mentioned in the survey, how many did the respondent know about?
 
     ###########################################################################
     # Tools & Methodologies
@@ -281,10 +295,10 @@ translations:
       t: |
         Technologies with less than 10% awareness not included. Each ratio is defined as follows:
 
-        - Satisfaction: **would use again** vs **would not use again**.
-        - Interest: **want to learn** vs **not interested**.
-        - Usage: **would use again** + **would not use again** vs awareness.
-        - Awareness: total - **never heard**.
+        - Satisfaction: **would use again** / (**would use again** + **would not use again**)
+        - Interest: **want to learn** / (**want to learn** + **not interested**)
+        - Usage: (**would use again** + **would not use again**) / **total**
+        - Awareness: (**total** - **never heard**) / **total**
 
     # happiness
     - key: blocks.happiness.title
@@ -479,3 +493,49 @@ translations:
       t: Most Write-Ins
     - key: award.most_write_ins_award.description
       t: Awarded to the item with the most write-in answers
+
+    ###########################################################################
+    # Hints
+    ###########################################################################
+
+    - key: hints.hint_hint
+      t: >
+          You'll find little hints like this one throughout the survey results
+          that will point out extra features and details. 
+
+    - key: hints.units_switcher_hint
+      t: >
+          You can use the segmented control at the top right of each block to switch 
+          between relative percentages and absolute counts to get a different view of the
+          same data.
+
+    - key: hints.export_hint
+      t: >
+          The <span class="hint-export-button">Export</span> button at the top of each block
+          lets you get the raw JSON data for any chart, or a GraphQL
+          query you can run against our public API. 
+
+    - key: hints.completion_hint
+      t: >
+          Since all questions are optional, some of them got fewer responses than others. 
+          The completion indicator <span class="hint-completion-indicator"/> tells you exactly how many people answered any given question.
+
+    - key: hints.tool_modal_hint
+      t: >
+          You can click on any technology name to get extra details and 
+          a more in-depth look at its related data. 
+
+    - key: hints.rankings_modes_hint
+      t: >
+          The Rankings chart can be toggled between satisfaction, interest, usage, and awareness
+          to give you a fuller picture of a category's rankings. 
+
+    - key: hints.sharing_hint
+      t: >
+          Sharing this survey on Twitter, Facebook, or by email is scientifically proven to 
+          improve your JavaScript performance by up to 15%. 
+
+    - key: hints.tshirt_hint
+      t: >
+          Another guaranteed scientific finding: buying our t-shirt will 
+          increase your JavaScript knowledge by over 9000!

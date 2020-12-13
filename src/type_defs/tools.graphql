@@ -7,7 +7,7 @@ enum ToolID {
     purescript
     # JS front end frameworks
     react
-    vue # vuejs?
+    vuejs
     angular
     preact
     ember
@@ -61,8 +61,8 @@ enum ToolID {
     esbuild
     # JS mobile desktop
     electron
-    react_native # reactnative?
-    native_apps # nativeapps?
+    reactnative
+    nativeapps
     cordova
     ionic
     nwjs

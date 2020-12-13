@@ -35,6 +35,8 @@ translations:
       t: В настоящее время нет открытых опросов.
     - key: general.closed_surveys
       t: Проведённые опросы
+    - key: general.preview_surveys
+      t: Предварительные опросы
     - key: general.no_preview_surveys
       t: Нет опросов для предварительного просмотра.
     - key: general.start_survey
@@ -54,7 +56,7 @@ translations:
     - key: general.surveys_available_languages
       t: 'Опросы доступны на следующих языках:'
     - key: general.help_us_translate
-      t: Помочь с передовом опросов »
+      t: Помочь с переводом опросов »
     - key: general.translators
       t: Переводчики
     - key: general.translation_help
@@ -186,6 +188,14 @@ translations:
       t: ✅ Знаю, но не использовал
     - key: options.features.used
       t: 👍 Использовал
+
+    # features (no emoji)
+    - key: options.features.never_heard.label
+      t: Впервые слышу/Не уверен, что это
+    - key: options.features.heard.label
+      t: Знаю, но не использовал
+    - key: options.features.used.label
+      t: Использовал
 
     # features (short versions)
     - key: options.features.never_heard.short
