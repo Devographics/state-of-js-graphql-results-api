@@ -1,0 +1,74 @@
+locale: ja-JP
+translations:
+    - key: accounts.error_incorrect_password
+      t: パスワードが違います
+    - key: accounts.error_email_required
+      t: メールアドレスが必要です
+    - key: accounts.error_email_already_exists
+      t: メールアドレスはすでに使われています
+    - key: accounts.error_invalid_email
+      t: 無効なメールアドレスです
+    - key: accounts.error_minchar
+      t: パスワードが短すぎます
+    - key: accounts.error_unknown
+      t: 不明なエラーです
+    - key: accounts.error_user_not_found
+      t: ユーザーが見つかりません
+    - key: accounts.error_username_already_exists
+      t: ユーザー名がすでに使われています
+    - key: accounts.enter_username_or_email
+      t: ユーザー名かメールアドレスを入力してください
+    - key: accounts.error_internal_server_error
+      t: Internal server error
+    - key: accounts.error_token_expired
+      t: パスワードリセットトークンが無効です
+    - key: accounts.username_or_email
+      t: ユーザー名かメールアドレス
+    - key: accounts.enter_username
+      t: ユーザー名を入力してください
+    - key: accounts.username
+      t: ユーザー名
+    - key: accounts.enter_email
+      t: メールアドレスを入力してください
+    - key: accounts.email
+      t: メールアドレス
+    - key: accounts.enter_password
+      t: パスワードを入力してください
+    - key: accounts.password
+      t: パスワード
+    - key: accounts.choose_password
+      t: パスワードを選んでください
+    - key: accounts.change_password
+      t: パスワード変更
+    - key: accounts.reset_your_password
+      t: パスワードをリセット
+    - key: accounts.set_password
+      t: パスワードを設定
+    - key: accounts.enter_new_password
+      t: 新しいパスワードを入力してください
+    - key: accounts.new_password
+      t: 新しいパスワード
+    - key: accounts.forgot_password
+      t: パスワードを忘れた場合
+    - key: accounts.sign_up
+      t: サインアップ
+    - key: accounts.sign_in
+      t: ログイン
+    - key: accounts.sign_out
+      t: ログアウト
+    - key: accounts.cancel
+      t: キャンセル
+    - key: accounts.info_email_sent
+      t: メールが送信されました。
+    - key: accounts.info_password_changed
+      t: パスワードが変更されました。
+    - key: accounts.please_pick_password
+      t: 続けるために新しいパスワードを選んでください
+    - key: accounts.please_log_in
+      t: 始めるためにはサインアップかログインが必要です。
+    - key: accounts.logged_in_as
+      t: {email}としてログインしました。
+    - key: accounts.questions
+      t: >
+          個人データをどのように扱うかの質問や、個人情報の削除がしたい場合は
+          <a href="mailto:hello@stateofjs.com">メールでお問い合わせ</a>ください。
