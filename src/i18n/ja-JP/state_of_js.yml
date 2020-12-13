@@ -50,7 +50,7 @@ translations:
       t: どんな風にコードを書くか
 
     - key: sections.javascript_flavors.title
-      t: JavaScript Flavors
+      t: JavaScriptフレーバー
     - key: sections.javascript_flavors.description
       t: JavaScriptにコンパイルされる言語
 
@@ -94,32 +94,29 @@ translations:
 
     # syntax
     - key: features.destructuring
-      t: Destructuring
+      t: 分割代入（destructuring）
     - key: features.destructuring.description
       t: '例：`const { foo } = bar`'
     - key: features.spread_operator
-      t: Spread operator
+      t: スプレッド構文
     - key: features.spread_operator.description
       t: '例：`[...array1, ...array2]`'
     - key: features.arrow_functions
-      t: Arrow Functions
+      t: アロー関数（arrow functions）
     - key: features.arrow_functions.description
       t: '例：`const foo = () => {}`'
     - key: features.nullish_coalescing
       t: Nullish Coalescing
     - key: features.nullish_coalescing.description
-      t: >
-        例：`const foo = 0 ?? 42`
+      t: '例：`const foo = 0 ?? 42`'
     - key: features.optional_chaining
       t: Optional Chaining
     - key: features.optional_chaining.description
-      t: >
-        例：`const dogName = adventurer.dog?.name`
+      t: '例：`const dogName = adventurer.dog?.name`'
     - key: features.private_fields
       t: Private Fields
     - key: features.private_fields.description
-      t: >
-        例：`class ClassWithPrivateField { #privateField }`
+      t: '例：`class ClassWithPrivateField { #privateField }`'
 
     # language
     - key: features.proxies
@@ -136,7 +133,7 @@ translations:
       t: Dynamic Import
     - key: features.dynamic_import.description
       t: >
-        例：<code>await import('/modules/my-module.js')</code>
+        例：`await import('/modules/my-module.js')`
 
     # data structures
     - key: features.maps
@@ -176,13 +173,13 @@ translations:
 
     # other features
     - key: features.pwa
-      t: Progressive Web Apps (PWA)
+      t: プログレッシブ・ウェブアプリ（PWA）
     - key: features.wasm
       t: WebAssembly (WASM)
 
     # patterns
     - key: patterns.object_oriented_programming
-      t: オブジェクト指向型プログラミング
+      t: オブジェクト指向プログラミング
     - key: features.functional_programming
       t: 関数型プログラミング
     - key: features.reactive_programming
@@ -193,7 +190,7 @@ translations:
     ###########################################################################
 
     - key: tools.angular.description
-      t: これは[Angular](https://angular.io/)の選択肢で、[AngularJS](https://angularjs.org/)のものではないことに注意してください。
+      t: これは[Angular](https://angular.io/)についてで、非推奨になった[AngularJS](https://angularjs.org/)のものではないことに注意してください。
    
     ###########################################################################
     # Other Tools
@@ -202,7 +199,6 @@ translations:
     - key: tools_others.runtimes
       t: JavaScriptランタイム
     - key: tools_others.runtimes.description
-      t: Which engines/runtimes/execution environments do you regularly use?
       t: いつもどのエンジン・ランタイム・実行環境を使っていますか？
     - key: tools_others.runtimes.others
       t: そのほかのランタイム
@@ -212,7 +208,6 @@ translations:
     - key: tools_others.package_registries
       t: パッケージレジストリ
     - key: tools_others.package_registries.description
-      t: Which package registries do you regularly fetch packages from?
       t: いつもどのレジストリからパッケージを取得していますか？
     - key: tools_others.package_registries.others
       t: そのほかのパッケージレジストリ
@@ -224,13 +219,13 @@ translations:
     ###########################################################################
 
     - key: opinions.js_moving_in_right_direction
-      t: JavaScriptは正しい方向に向かっている
+      t: JavaScriptは正しい方向に進んでいる
 
     - key: opinions.building_js_apps_overly_complex
       t: JavaScriptアプリの開発はいまやとても複雑になった
 
     - key: opinions.js_over_used_online
-      t: JavaScriptは不必要に使われている
+      t: JavaScriptは過剰に使われている
 
     - key: opinions.enjoy_building_js_apps
       t: JavaScriptアプリの開発は楽しい
