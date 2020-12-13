@@ -203,7 +203,7 @@ translations:
       t: JavaScriptランタイム
     - key: tools_others.runtimes.description
       t: Which engines/runtimes/execution environments do you regularly use?
-      t: Which engines/runtimes/execution environments do you regularly use?
+      t: いつもどのエンジン・ランタイム・実行環境を使っていますか？
     - key: tools_others.runtimes.others
       t: そのほかのランタイム
     - key: tools_others.runtimes.others.description
@@ -213,7 +213,7 @@ translations:
       t: パッケージレジストリ
     - key: tools_others.package_registries.description
       t: Which package registries do you regularly fetch packages from?
-      t: Which package registries do you regularly fetch packages from?
+      t: いつもどのレジストリからパッケージを取得していますか？
     - key: tools_others.package_registries.others
       t: そのほかのパッケージレジストリ
     - key: tools_others.package_registries.others.description
