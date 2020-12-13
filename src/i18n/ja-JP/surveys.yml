@@ -1,8 +1,8 @@
-locale: en-US
+locale: ja-JP
 translations:
     ###########################################################################
     # General
     ###########################################################################
 
     - key: general.no_preview_surveys
-      t: No surveys to preview
+      t: 表示する調査はありません
