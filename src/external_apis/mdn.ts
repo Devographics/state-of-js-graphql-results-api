@@ -30,6 +30,7 @@ export const fetchMdnResource = async (path: string) => {
         return normalizeMdnResource(json)
     } catch (error) {
         console.error(`an error occurred while fetching mdn resource`, error)
-        throw error
+        // throw error
+        return
     }
 }
