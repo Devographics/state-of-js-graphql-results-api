@@ -113,3 +113,25 @@
   homepage: https://htmlacademy.org/
   tags: 
     - css
+
+- id: fireship
+  name: Fireship
+  homepage: https://fireship.io/
+
+- id: in_depth_dev
+  name: In Depth Dev
+  homepage: https://indepth.dev/
+  patterns:
+    - in( |-)depth
+
+- id: vue_mastery
+  name: Vue Mastery
+  homepage: https://www.vuemastery.com/
+
+- id: epic_react
+  name: Epic React
+  homepage: https://epicreact.dev/
+
+- id: odin_project
+  name: The Odin Project
+  homepage: https://www.theodinproject.com/

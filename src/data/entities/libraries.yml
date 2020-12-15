@@ -1554,6 +1554,24 @@
   homepage: 'http://framework7.io'
 
 #################################################
+# Runtimes
+#################################################
+
+- id: quickjs
+  name: QuickJS
+  homepage: https://bellard.org/quickjs/
+  description: QuickJS is a small and embeddable Javascript engine. It supports the ES2020 specification including modules, asynchronous generators, proxies and BigInt.
+  github: bellard/quickjs
+
+- id: cloudflare_workers
+  name: Cloudflare Workers
+  homepage: https://workers.cloudflare.com/
+
+- id: jsc
+  name: JSC
+  homepage: https://mbbill.github.io/JSC.js/
+  
+#################################################
 # Other Tools
 #################################################
 

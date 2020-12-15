@@ -166,6 +166,8 @@
 - id: hackernoon
   name: Hackernoon
   homepage: https://hackernoon.com/
+  patterns:
+    - hacker( |-)?noon
 
 - id: angular_in_depth
   name: Angular In Depth
@@ -263,3 +265,7 @@
   homepage: https://www.w3.org/
   patterns:
     - w3( |-|-|.)?org
+
+- id: indie_hackers
+  name: Indie Hackers
+  homepage: https://www.indiehackers.com/
