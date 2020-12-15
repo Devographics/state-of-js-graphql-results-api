@@ -513,7 +513,7 @@ translations:
 
     # backend proficiency
     - key: user_info.backend_proficiency
-      t: Cométences en back-end
+      t: Compétences en back-end
     - key: user_info.backend_proficiency.description
       t: Quel est votre niveau de compétence en développement back-end ?
 
