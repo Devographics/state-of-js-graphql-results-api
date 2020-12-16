@@ -1,0 +1,257 @@
+locale: ua-UA
+namespace: js
+translations:
+    ###########################################################################
+    # General
+    ###########################################################################
+
+    - key: general.survey_intro_js2019
+      t: >
+          Миру JavaScript не завадило б трохи класифікації.
+
+
+          Починаючи з 2016 року, в опитуванні щорічно
+          беруть участь більше 20 000 розробників для того, щоб вивчити поточні і майбутні тенденції.
+
+
+          Пройдіть опитування і допоможіть нам з'ясувати, які бібліотеки
+          планують вивчити розробники в майбутньому, якими з них найбільше задоволені вже зараз, і т.д.
+
+    ###########################################################################
+    # Sections
+    ###########################################################################
+
+    - key: sections.syntax.title
+      t: Cинтаксис
+    - key: sections.syntax.description
+      t: Граматика JavaScript.
+
+    - key: sections.language.title
+      t: Мова
+    - key: sections.language.description
+      t: Словник JavaScript.
+
+    - key: sections.data_structures.title
+      t: Cтруктури даних
+    - key: sections.data_structures.description
+      t: Як ви зберігаєте і керуєте даними.
+
+    - key: sections.browser_apis.title
+      t: API браузера
+    - key: sections.browser_apis.description
+      t: Вбудовані можливості браузера
+
+    - key: sections.other_features.title
+      t: Інші можливості
+    - key: sections.other_features.description
+      t: Інші технології і патерни
+
+    - key: sections.patterns.title
+      t: Патерни
+    - key: sections.patterns.description
+      t: Як ви пишете код
+
+    - key: sections.javascript_flavors.title
+      t: Різновиди JavaScript
+    - key: sections.javascript_flavors.description
+      t: Мови, компільовані в JavaScript
+
+    - key: sections.front_end_frameworks.title
+      t: Фронтенд-фреймворки
+    - key: sections.front_end_frameworks.description
+      t: Фронтенд-фреймворки і бібліотеки
+
+    - key: sections.datalayer.title
+      t: Шар доступу до даних
+    - key: sections.datalayer.description
+      t: Завантаження та керування даними в додатку
+
+    - key: sections.back_end_frameworks.title
+      t: Бекенд-фреймворки
+    - key: sections.back_end_frameworks.description
+      t: JavaScript на сервері
+
+    - key: sections.testing.title
+      t: Тестування
+    - key: sections.testing.description
+      t: Інструменти для тестування коду
+
+    - key: sections.mobile_desktop.title
+      t: Мобільні пристрої та десктоп
+    - key: sections.mobile_desktop.description
+      t: JavaScript для мобільних пристроїв і десктопні програми
+
+    - key: sections.build_tools.title
+      t: Збирачі
+    - key: sections.build_tools.description
+      t: Компіляція та збирання коду
+
+    ###########################################################################
+    # Options
+    ###########################################################################
+
+    ###########################################################################
+    # Features
+    ###########################################################################
+
+    # syntax
+    - key: features.destructuring
+      t: Деструктуризація
+    - key: features.destructuring.description
+      t: 'Приклад: `const { foo } = bar`'
+    - key: features.spread_operator
+      t: Оператор розширення
+    - key: features.spread_operator.description
+      t: 'Приклад: `[...array1, ...array2]`'
+    - key: features.arrow_functions
+      t: Стрілочні функції
+    - key: features.arrow_functions.description
+      t: 'Приклад: `const foo = () => {}`'
+    - key: features.nullish_coalescing
+      t: Оператор об'єднання з null
+    - key: features.nullish_coalescing.description
+      t: >
+        Приклад: `const foo = 0 ?? 42`
+    - key: features.optional_chaining
+      t: Опціональий ланцюг
+    - key: features.optional_chaining.description
+      t: >
+        Приклад: `const dogName = adventurer.dog?.name`
+    - key: features.private_fields
+      t: Приватні поля
+    - key: features.private_fields.description
+      t: >
+        Приклад: `class ClassWithPrivateField { #privateField }`
+
+    # language
+    - key: features.proxies
+      t: Проксі
+    - key: features.async_await
+      t: Async/Await
+    - key: features.promises
+      t: Проміс
+    - key: features.decorators
+      t: Декоратори
+    - key: features.decorators.description
+      t: >
+          У спрощеному вигляді, декоратор - це просто спосіб обернути
+          один фрагмент коду іншим, буквально "декоруючи" його.
+    - key: features.dynamic_import
+      t: Динамічний імпорт
+    - key: features.dynamic_import.description
+      t: >
+        Приклад: <code>await import('/modules/my-module.js')</code>
+
+    # data structures
+    - key: features.maps
+      t: Асоціативні масиви (об'єкти Map)
+    - key: features.sets
+      t: Множини (об'єкти Set)
+    - key: features.typed_arrays
+      t: Типізовані масиви
+    - key: array_prototype_flat
+      t: Array.prototype.flat
+
+    # browser apis
+    - key: features.service_workers
+      t: Сервіс-Воркер
+    - key: features.local_storage
+      t: Локальне сховище
+    - key: features.i18n
+      t: Інтернаціоналізація (i18n)
+    - key: features.web_components
+      t: Веб-компоненти
+    - key: features.web_audio
+      t: Web Audio API
+    - key: features.webgl
+      t: WebGL
+    - key: features.web_animations
+      t: Web Animations API
+    - key: features.webrtc
+      t: WebRTC
+    - key: features.web_speech
+      t: Web Speech API
+    - key: features.webvr
+      t: WebVR
+    - key: features.websocket
+      t: Websocket
+    - key: features.fetch
+      t: Fetch API
+
+    # other features
+    - key: features.pwa
+      t: Прогресивні веб-додатки (PWA)
+    - key: features.wasm
+      t: WebAssembly (WASM)
+
+    # patterns
+    - key: patterns.object_oriented_programming
+      t: Об'єктно-орієнтоване програмування
+    - key: features.functional_programming
+      t: Функціональне програмування
+    - key: features.reactive_programming
+      t: Реактивне програмування
+
+    ###########################################################################
+    # Tools
+    ###########################################################################
+
+    - key: tools.angular.description
+      t: >
+        Зверніть увагу, що це питання відноситься до досвіду роботи з [Angular](https://angular.io/),
+        а *не* із застарілим [AngularJS](https://angularjs.org/).
+
+    ###########################################################################
+    # Other Tools
+    ###########################################################################
+
+    - key: tools_others.runtimes
+      t: Середовища виконання JavaScript
+    - key: tools_others.runtimes.description
+      t: Які двигуни/середовища виконання/рантайм ви регулярно використовуєте?
+    - key: tools_others.runtimes.others
+      t: Інші середовища виконання
+    - key: tools_others.runtimes.others.description
+      t: Інші відповіді (поле з вільною формою ВІДПОВІДІ).
+
+    - key: tools_others.package_registries
+      t: Реєстри пакетів
+    - key: tools_others.package_registries.description
+      t: З яких реєстрів ви регулярно завантажуєте пакети?
+    - key: tools_others.package_registries.others
+      t: Інші реєстри пакетів
+    - key: tools_others.package_registries.others.description
+      t: Інші відповіді (поле з вільною формою відповіді).
+
+    ###########################################################################
+    # Opinions
+    ###########################################################################
+
+    - key: opinions.js_moving_in_right_direction
+      t: JavaScript рухається в правильному напрямку
+
+    - key: opinions.building_js_apps_overly_complex
+      t: Розробляти JavaScript-додатки зараз занадто складно
+
+    - key: opinions.js_over_used_online
+      t: JavaScript використовується занадто часто
+
+    - key: opinions.enjoy_building_js_apps
+      t: Мені подобається писати додатки на JavaScriptt
+
+    - key: opinions.would_like_js_to_be_main_lang
+      t: Я б хотів, щоб JavaScript був моєю основною мовою програмування
+
+    - key: opinions.js_ecosystem_changing_to_fast
+      t: Екосистема JavaScript змінюється занадто швидко
+
+    - key: opinions_others.missing_from_js.others
+      t: Що в даний момент вам не вистачає в JavaScript?
+    - key: opinions_others.missing_from_js.others.description
+      t: Можливості, які ви хотіли б бачити в JavaScript.
+
+    - key: happiness.state_of_the_web
+      t: Наскільки ви задоволені поточним станом веб-технологій?
+
+    - key: happiness.state_of_js
+      t: Наскільки ви задоволені поточним станом JavaScript?

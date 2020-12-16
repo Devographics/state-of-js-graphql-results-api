@@ -12,12 +12,17 @@ enum ToolID {
     preact
     ember
     svelte
+    alpinejs
+    litelement
+    stimulus
     # JS data layer
     redux
     apollo
     graphql
-    relay
     mobx
+    relay
+    xstate
+    vuex
     # JS back end frameworks
     express
     nextjs
@@ -27,6 +32,10 @@ enum ToolID {
     feathers
     nuxt
     gatsby
+    nest
+    strapi
+    fastify
+    hapi
     # JS testing
     jest
     mocha
@@ -36,6 +45,20 @@ enum ToolID {
     ava
     jasmine
     puppeteer
+    testing_library
+    playwright
+    webdriverio
+    # JS build tools
+    webpack
+    parcel
+    gulp
+    rollup
+    browserify
+    tsc
+    rome
+    snowpack
+    swc
+    esbuild
     # JS mobile desktop
     electron
     reactnative
@@ -44,6 +67,8 @@ enum ToolID {
     ionic
     nwjs
     expo
+    capacitor
+    quasar
     # CSS Pre-/Post-processors
     sass
     less

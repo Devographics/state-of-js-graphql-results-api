@@ -402,102 +402,137 @@
 - id: destructuring
   name: Destructuring
   mdn: /en-US/docs/Web/JavaScript/Reference/Operators/Destructuring_assignment
+
 - id: spread_operator
   name: Spread Operator
   mdn: /en-US/docs/Web/JavaScript/Reference/Operators/Spread_syntax
+
 - id: arrow_functions
   name: Arrow Functions
   mdn: /en-US/docs/Web/JavaScript/Reference/Functions/Arrow_functions
+
 - id: proxies
   name: Proxies
   mdn: /en-US/docs/Web/JavaScript/Reference/Global_Objects/Proxy
+
 - id: async_await
   name: Async/Await
   mdn: /en-US/docs/Web/JavaScript/Reference/Statements/async_function
+
 - id: promises
   name: Promises
   mdn: /en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise
+
 - id: decorators
   name: Decorators
   # mdn:
+
 - id: maps
   name: Maps
   mdn: /en-US/docs/Web/JavaScript/Reference/Global_Objects/Map
+
 - id: sets
   name: Sets
   mdn: /en-US/docs/Web/JavaScript/Reference/Global_Objects/Set
+
 - id: typed_arrays
   name: Typed Arrays
   mdn: /en-US/docs/Web/JavaScript/Typed_arrays
+
 - id: array_prototype_flat
   name: Array.prototype.flat()
   mdn: /en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/flat
+
 - id: fetch
   name: Fetch
   mdn: /en-US/docs/Web/API/Fetch_API/Using_Fetch
+
 - id: i18n
   name: i18n
   mdn: /en-US/docs/Web/JavaScript/Reference/Global_Objects/Intl
+
 - id: local_storage
   name: Local Storage
   mdn: /en-US/docs/Web/API/Window/localStorage
+
 - id: service_workers
   name: Service Workers
   mdn: /en-US/docs/Web/API/Service_Worker_API
+
 - id: web_animations
   name: Web Animations
   mdn: /en-US/docs/Web/API/Web_Animations_API/Using_the_Web_Animations_API
+
 - id: web_audio
   name: Web Audio
   mdn: /en-US/docs/Web/API/Web_Audio_API
+
 - id: web_components
   name: Web Components
   mdn: /en-US/docs/Web/Web_Components
+
 - id: webgl
   name: WebGL
   mdn: /en-US/docs/Web/API/WebGL_API/Tutorial/Getting_started_with_WebGL
+
 - id: webrtc
   name: WebRTC
   mdn: /en-US/docs/Web/API/WebRTC_API
+
 - id: websocket
   name: WebSocket
   mdn: /en-US/docs/Web/API/WebSockets_API
+
 - id: web_speech
   name: Web Speech API
   mdn: /en-US/docs/Web/API/Web_Speech_API
+
 - id: webvr
   name: WebVR
   mdn: /en-US/docs/Web/API/WebVR_API
+
 - id: pwa
   name: Progressive Web Apps
   mdn: /en-US/docs/Web/Progressive_web_apps
+
 - id: wasm
   name: WebAssembly (WASM)
   mdn: /en-US/docs/WebAssembly
+
 - id: nullish_coalescing
   name: Nullish Coalescing
   mdn: /en-US/docs/Web/JavaScript/Reference/Operators/Nullish_coalescing_operator
+  patterns:
+    - elvis
+
 - id: optional_chaining
   name: Optional Chaining
   mdn: /en-US/docs/Web/JavaScript/Reference/Operators/Optional_chaining
+
 - id: private_fields
   name: Private Fields
   mdn: /en-US/docs/Web/JavaScript/Reference/Classes/Private_class_fields
+
 - id: promise_all_settled
   name: Promise.allSettled()
   mdn: /en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise/allSettled
+
 - id: dynamic_import
   name: Dynamic Import
   mdn: /en-US/docs/Web/JavaScript/Reference/Statements/import
+
 - id: big_int
   name: BigInt
   mdn: /en-US/docs/Web/JavaScript/Reference/Global_Objects/BigInt
+
 - id: intl
   name: Intl
   mdn: /en-US/docs/Web/JavaScript/Reference/Global_Objects/Intl
+
 - id: custom_elements
   name: Custom Elements
   mdn: /en-US/docs/Web/Web_Components
+
 - id: shadow_dom
   name: Shadow DOM
   mdn: /en-US/docs/Web/Web_Components

@@ -46,6 +46,7 @@ Other Opinions
 
 enum OtherOpinionsID {
     currently_missing_from_css
+    missing_from_js
 }
 
 type YearOtherOpinions @cacheControl(maxAge: 600) {

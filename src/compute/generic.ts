@@ -7,14 +7,16 @@ import { Filters, generateFiltersQuery } from '../filters'
 import { ratioToPercentage } from './common'
 import { getEntity } from '../helpers'
 import { getParticipationByYearMap } from './demographics'
+import { useCache } from '../caching'
 
-interface TermAggregationByYearOptions {
+interface TermAggregationOptions {
     // filter aggregations
     filters?: Filters
     sort?: string
     order?: -1 | 1
     cutoff?: number
     limit?: number
+    year?: number
 }
 
 interface RawResult {
@@ -56,7 +58,10 @@ export async function getSurveyTotals(db: Db, surveyConfig: SurveyConfig, year?:
     return collection.countDocuments(selector)
 }
 
-export async function computeCompletionByYear(db: Db, match: any): Promise<Record<number, CompletionResult>> {
+export async function computeCompletionByYear(
+    db: Db,
+    match: any
+): Promise<Record<number, CompletionResult>> {
     const collection = db.collection(config.mongo.normalized_collection)
 
     const aggregationPipeline = [
@@ -100,7 +105,7 @@ export async function computeTermAggregationByYear(
     db: Db,
     survey: SurveyConfig,
     key: string,
-    options: TermAggregationByYearOptions = {}
+    options: TermAggregationOptions = {}
 ) {
     const collection = db.collection(config.mongo.normalized_collection)
 
@@ -108,9 +113,10 @@ export async function computeTermAggregationByYear(
         filters,
         sort = 'total',
         order = -1,
-        cutoff = 10,
-        limit = 25
-    }: TermAggregationByYearOptions = options
+        cutoff = 2,
+        limit = 25,
+        year
+    }: TermAggregationOptions = options
 
     const match: any = {
         survey: survey.survey,
@@ -118,44 +124,61 @@ export async function computeTermAggregationByYear(
         ...generateFiltersQuery(filters)
     }
 
-    const aggregationPipeline = [
-        {
-            $match: match
-        },
-        {
-            $unwind: {
-                path: `$${key}`
-            }
-        },
-        {
-            $group: {
-                _id: {
-                    id: `$${key}`,
-                    year: '$year'
-                },
-                total: { $sum: 1 }
-            }
-        },
-        {
-            $project: {
-                _id: 0,
-                id: '$_id.id',
-                year: '$_id.year',
-                total: 1
-            }
-        },
-        { $sort: { [sort]: order } },
-        { $match: { total: { $gt: cutoff } } },
-        { $limit: limit }
-    ]
-    const rawResults: RawResult[] = await collection.aggregate(aggregationPipeline).toArray()
+    // generate an aggregation pipeline for all years, or
+    // optionally restrict it to a specific year of data
+    const getAggregationPipeline = () => {
+        const aggregationMatch = { ...match }
+        // if year is passed, restrict aggregation to specific year
+        if (year) {
+            aggregationMatch.year = year
+        }
+
+        const pipeline = [
+            {
+                $match: aggregationMatch
+            },
+            {
+                $unwind: {
+                    path: `$${key}`
+                }
+            },
+            {
+                $group: {
+                    _id: {
+                        id: `$${key}`,
+                        year: '$year'
+                    },
+                    total: { $sum: 1 }
+                }
+            },
+            {
+                $project: {
+                    _id: 0,
+                    id: '$_id.id',
+                    year: '$_id.year',
+                    total: 1
+                }
+            },
+            { $sort: { [sort]: order } },
+            { $match: { total: { $gt: cutoff } } },
+            { $limit: limit }
+        ]
+
+        // only add limit if year is specified
+        if (year) {
+            pipeline.push({ $limit: limit })
+        }
+        return pipeline
+    }
+
+    const rawResults: RawResult[] = await collection.aggregate(getAggregationPipeline()).toArray()
 
     // console.log(
     //     inspect(
     //         {
     //             match,
-    //             aggregationPipeline,
-    //             rawResults,
+    //             sampleAggregationPipeline: getAggregationPipeline(2020),
+    //             rawResults
     //         },
     //         { colors: true, depth: null }
     //     )
@@ -230,4 +253,32 @@ export async function computeTermAggregationByYear(
     })
 
     return resultsByYear
+}
+
+export async function computeTermAggregationAllYearsWithCache(
+    db: Db,
+    survey: SurveyConfig,
+    id: string,
+    options: TermAggregationOptions = {}
+) {
+    return useCache(computeTermAggregationByYear, db, [survey, id, options])
+}
+
+export async function computeTermAggregationSingleYear(
+    db: Db,
+    survey: SurveyConfig,
+    key: string,
+    options: TermAggregationOptions
+) {
+    const allYears = await computeTermAggregationByYear(db, survey, key, options)
+    return allYears[0]
+}
+
+export async function computeTermAggregationSingleYearWithCache(
+    db: Db,
+    survey: SurveyConfig,
+    id: string,
+    options: TermAggregationOptions
+) {
+    return useCache(computeTermAggregationSingleYear, db, [survey, id, options])
 }

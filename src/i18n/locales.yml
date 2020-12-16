@@ -14,6 +14,10 @@
   label: Español
   translators: [timbergus, ezakto]
 
+- id: fa-IR
+  label: فارسی
+  translators: ['fghamsary']
+
 - id: fr-FR
   label: Français
   translators: ['arnauddrain']
@@ -32,7 +36,11 @@
 
 - id: ru-RU
   label: Русский
-  translators: ['lex111', 'Omhet']
+  translators: ['lex111', 'Omhet', 'shramkoweb']
+
+- id: ua-UA
+  label: Українська
+  translators: ['shramkoweb']
 
 - id: sv-SE
   label: Svenska
@@ -57,3 +65,7 @@
 - id: 'el-GR'
   label: Greek
   translators: ['ipapoutsidis']
+
+- id: ja-JP
+  label: 日本語
+  translators: ['myakura', 'Spice-Z']

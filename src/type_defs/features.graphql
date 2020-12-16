@@ -3,29 +3,38 @@ enum FeatureID {
     destructuring
     spread_operator
     arrow_functions
+    nullish_coalescing
+    optional_chaining
+    private_fields
     # JS language
     proxies
     async_await
     promises
     decorators
+    promise_all_settled
+    dynamic_import
     # JS data structures
     maps
     sets
     typed_arrays
     array_prototype_flat
+    big_int
     # JS browser apis
-    fetch
-    i18n
-    local_storage
     service_workers
-    web_animations
+    local_storage
+    intl
     web_audio
-    web_components
     webgl
+    web_animations
     webrtc
-    websocket
     web_speech
     webvr
+    websocket
+    fetch
+    custom_elements
+    shadow_dom
+    i18n
+    web_components
     # JS other features
     pwa
     wasm

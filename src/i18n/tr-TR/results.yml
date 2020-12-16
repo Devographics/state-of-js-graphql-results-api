@@ -113,6 +113,8 @@ translations:
       t: İspanyolca
     - key: options.locale.ru-RU
       t: Rusça
+    - key: options.locale.ua-UA
+      t: Ukrayna
     - key: options.locale.fr-FR
       t: Fransızca
     - key: options.locale.zh-Hant

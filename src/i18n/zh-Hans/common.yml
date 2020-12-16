@@ -370,7 +370,7 @@ translations:
     - key: options.javascript_proficiency.3 # TODO
       t: 从 0 到 1 构建前端技术栈
     - key: options.javascript_proficiency.4 # TODO
-      t: 能处理负责的前端业务（状态管理，数据管理等）
+      t: 能处理复杂的前端业务（状态管理，数据管理等）
 
     # CSS proficiency
 

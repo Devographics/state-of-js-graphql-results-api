@@ -86,6 +86,11 @@ translations:
     - key: sections.build_tools.description
       t: Compiling & bundling code
 
+    - key: sections.tools_others.title
+      t: Other Tools
+    - key: sections.tools_others.description
+      t: Other JavaScript tools.
+
     ###########################################################################
     # Options
     ###########################################################################
