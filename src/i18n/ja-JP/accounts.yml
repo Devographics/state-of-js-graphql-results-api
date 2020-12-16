@@ -39,7 +39,7 @@ translations:
     - key: accounts.choose_password
       t: パスワードを選んでください
     - key: accounts.change_password
-      t: パスワード変更
+      t: パスワードを変更
     - key: accounts.reset_your_password
       t: パスワードをリセット
     - key: accounts.set_password
