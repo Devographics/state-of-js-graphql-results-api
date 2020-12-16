@@ -20,7 +20,7 @@
 
 - id: fr-FR
   label: Français
-  translators: ['arnauddrain']
+  translators: ['arnauddrain', 'AvocadoVenom']
 
 - id: hi-IN
   label: Hindi
