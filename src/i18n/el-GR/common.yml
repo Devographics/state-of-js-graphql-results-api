@@ -101,73 +101,71 @@ translations:
       t: > Πήρα μια {score}% βαθμολογία γνώσης στη φετινή #{hashtag} έρευνα! Παρακολουθήστε την έρευνα εδώ: {shareUrl}
     # share
     - key: general.share_subject
-      t: >
-          {surveyName} survey
+      t: > {surveyName} έρευνα
     - key: general.share_text
-      t: >
-          This year's {surveyName} survey is now open! {link}
+      t: > Η φετινή έρευνα {surveyName} είναι πλέον ανοικτή! {link}
 
     # forms
     - key: forms.select_option
-      t: Select option
+      t: Επιλέξτε
 
     # partners
     - key: partners.our_partners
-      t: Our Partners
+      t: Όι συνεργάτες μας
     - key: partners.become_partner
-      t: Become a partner
+      t: Γίνε συνεργάτης
 
     # 404
     - key: notfound.title
       t: 404 Not Found
     - key: notfound.description
-      t: Sorry, we couldn't find what you were looking for. 
+      t: Δυστυχώς, δεν μπορέσαμε να βρούμε αυτό που ψάχνατε. 
 
     # other
     - key: general.join_discord
-      t: Join us on <a href="${link}">Discord</a>. 
+      t: Ελάτε μαζί μας <a href="${link}">Discord</a>. 
     - key: general.translator_mode
-      t: Press option/alt to enable translator mode. 
+      t: Πατήστε την επιλογή/alt για να ενεργοποιήσετε τη λειτουργία μεταφραστή. 
     - key: general.charts_nivo
-      t: Charts built with <a href="${link}">Nivo</a>.
+      t: Διαγράμματα φτιαγμένα με <a href="${link}">Nivo</a>.
       
     ###########################################################################
     # Nav
     ###########################################################################
 
     - key: nav.surveys
-      t: Surveys
+      t: Έρευνες
     - key: nav.account
-      t: Account
+      t: Λογαριασμός
 
     ###########################################################################
     # Sections
     ###########################################################################
 
     - key: sections.user_info.title
-      t: About You
+      t: Σχετικά με σας
     - key: sections.user_info.description
-      t: Let's get to know the real you.
+      t: Ας γνωρίσουμε τον πραγματικό εαυτό σας.
 
     - key: sections.features.title
-      t: Features
+      t: Χαρακτηριστικά
     - key: sections.features.description
-      t: Syntax, keywords, and other language features.
+      t: Σύνταξη, λέξεις-κλειδιά και άλλες λειτουργίες γλώσσας.
 
     - key: sections.resources.title
-      t: Resources
+      t: Πηγές
     - key: sections.resources.description
-      t: What {topic} resources do you consult?
+      t: Ποιές πηγές {topic} συμβουλεύεστε?
 
     - key: sections.opinions.title
-      t: Opinions
+      t: Επιλογές
     - key: sections.opinions.description
-      t: How do you feel about the state of {topic}?
+      t: Πώς αισθάνεστε για την κατάσταση του {topic}?
 
     - key: sections.other_tools.title
-      t: Other Tools
+      t: Υπόλοιπα εργαλεία
     - key: sections.other_tools.description
-      t: For these tools & technologies, just check the ones that you use regularly.
+      t: Για αυτά τα εργαλεία και τις τεχνολογίες, απλώς ελέγξτε αυτά που χρησιμοποιείτε περισσότερα.
 
     ###########################################################################
     # Options
@@ -175,125 +173,125 @@ translations:
 
     # features
     - key: options.features.never_heard
-      t: 🤷 Never heard of it/Not sure what it is
+      t: 🤷 Δεν το έχετε άκουσει / Δεν είσται σίγουρη τι είναι
     - key: options.features.heard
-      t: ✅ Know what it is, but haven't used it
+      t: ✅ Μάθετε τι είναι, αλλά δεν το έχετε χρησιμοποιήσει
     - key: options.features.used
-      t: 👍 I've used it
+      t: 👍 Το έχω χρησιμοποιήσει
 
     # features (no emoji)
     - key: options.features.never_heard.label
-      t: Never heard of it/Not sure what it is
+      t: Δεν το έχετε άκουσει / Δεν είσται σίγουρη τι είναι
     - key: options.features.heard.label
-      t: Know what it is, but haven't used it
+      t: Μάθετε τι είναι, αλλά δεν το έχετε χρησιμοποιήσει
     - key: options.features.used.label
-      t: I've used it
+      t: Το έχω χρησιμοποιήσει.
 
     # features (short versions)
     - key: options.features.never_heard.short
-      t: Never heard of it
+      t: Δεν το έχετε ακούσει ποτέ
     - key: options.features.heard.short
-      t: Know about it
+      t: Μάθετε για αυτό
     - key: options.features.used.short
-      t: Have used it
+      t: Το έχετε χρησιμοποιήσει
 
     # patterns
     - key: options.patterns.use_never
-      t: Almost always avoid
+      t: Να το αποφεύγετε πάντα
     - key: options.patterns.use_sparingly
-      t: Use sparingly
+      t: Χρησιμοποιήστε με συναίνεση
     - key: options.patterns.use_neutral
-      t: Neutral
+      t: Ουδέτερος
     - key: options.patterns.use_frequently
-      t: Use frequently
+      t: Χρησιμοποιήστε συχνά
     - key: options.patterns.use_always
-      t: Use as much as I can
+      t: Χρησιμοποιήστε όσο περισσότερο μπορείται
 
     # tools experience
     - key: options.tools.never_heard
-      t: 🤷 Never heard of it/Not sure what it is
+      t: 🤷 Δεν το έχετε άκουσει / Δεν είσται σίγουρη τι είναι
     - key: options.tools.interested
-      t: ✅ Heard of it > Would like to learn
+      t: ✅ Το έχετε ακούσει > Θα θέλατε να μάθετε
     - key: options.tools.not_interested
-      t: 🚫 Heard of it > Not interested
+      t: 🚫 Το έχετε ακούσει > Δεν σας ενδιαφέρει
     - key: options.tools.would_use
-      t: 👍 Used it > Would use again
+      t: 👍 Το χρησιμοποιήσατε > Θα το χρησιμοποιούσατε ξανά
     - key: options.tools.would_not_use
-      t: 👎 Used it > Would not use again
+      t: 👎 Το χρησιμοποιήσατε > Δεν Θα το χρησιμοποιούσατε ξανά
 
     # tools experience (no emoji)
     - key: options.tools.never_heard.legend
-      t: Never heard of it/Not sure what it is
+      t: Δεν το έχετε άκουσει / Δεν είσται σίγουρη τι είναι
     - key: options.tools.interested.legend
-      t: Heard of it > Would like to learn
+      t: Το έχετε ακούσει > Θα θέλατε να μάθετε
     - key: options.tools.not_interested.legend
-      t: Heard of it > Not interested
+      t: Το έχετε ακούσει > Δεν σας ενδιαφέρει
     - key: options.tools.would_use.legend
-      t: Used it > Would use again
+      t: Το χρησιμοποιήσατε > Θα το χρησιμοποιούσατε ξανά
     - key: options.tools.would_not_use.legend
-      t: Used it > Would not use again
+      t: Το χρησιμοποιήσατε > Δεν Θα το χρησιμοποιούσατε ξανά
 
     # tools experience (short versions)
     - key: options.tools.never_heard.short
-      t: Never heard
+      t: εν το έχετε άκουσει
     - key: options.tools.interested.short
-      t: Interested
+      t: Σας ενδιαφέρει
     - key: options.tools.not_interested.short
-      t: Not interested
+      t: Δεν σας ενδιαφέρε
     - key: options.tools.would_use.short
-      t: Would use again
+      t: Το χρησιμοποιήσατε
     - key: options.tools.would_not_use.short
-      t: Would not use
+      t: Δεν Θα το χρησιμοποιούσατε
 
     # happiness
     - key: options.happiness.0
-      t: Very Unhappy
+      t: Πολύ δυσαρεστημένος
     - key: options.happiness.1
-      t: Unhappy
+      t: Δυσαρεστημένος
     - key: options.happiness.2
-      t: Neutral
+      t: Ουδέτερος
     - key: options.happiness.3
-      t: Happy
+      t: Χαρούμενος
     - key: options.happiness.4
-      t: Very Happy
+      t: Πόλυ χαρούμενος
 
     # happiness (short version)
     - key: options.happiness.0.short
-      t: Very Unhappy
+      t: Πολύ δυσαρεστημένος
     - key: options.happiness.1.short
-      t: Unhappy
+      t: Δυσαρεστημένος
     - key: options.happiness.2.short
-      t: Neutral
+      t: Ουδέτερος
     - key: options.happiness.3.short
-      t: Happy
+      t: Χαρούμενος
     - key: options.happiness.4.short
-      t: Very Happy
+      t: Πόλυ χαρούμενος
 
     # opinions
     - key: options.opinions.0
-      t: Disagree Strongly
+      t: Διαφωνώ έντονα
     - key: options.opinions.1
-      t: Disagree
+      t: Διαφωνώ
     - key: options.opinions.2
-      t: Neutral
+      t: Ουδέτερος
     - key: options.opinions.3
-      t: Agree
+      t: Συμφωνώ
     - key: options.opinions.4
-      t: Agree Strongly
+      t: Συμφωνώ απόλυτα
 
     # years of experience
     - key: options.years_of_experience.range_less_than_1
-      t: Less than one year
+      t: Λιγότερο από ένα έτος
     - key: options.years_of_experience.range_1_2
-      t: 1 to 2 years
+      t: 1 έως 2 χρόνια
     - key: options.years_of_experience.range_2_5
-      t: 2 to 5 years
+      t: 2 έως 5 χρόνια
     - key: options.years_of_experience.range_5_10
-      t: 5 to 10 years
+      t: 5 έως 10 χρόνια
     - key: options.years_of_experience.range_10_20
-      t: 10 to 20 years
+      t: 10 έως 20 χρόνια
     - key: options.years_of_experience.range_more_than_20
-      t: More than 20 years
+      t: Περισσότερο από 20 χρόνια
 
     # years of experience (short versions)
     - key: options.years_of_experience.range_less_than_1.short
@@ -311,21 +309,21 @@ translations:
 
     # company size
     - key: options.company_size.range_1
-      t: One employee
+      t: Ένας υπάλληλος
     - key: options.company_size.range_1_5
-      t: 1 to 5 employees
+      t: 1 έως 5 υπαλλήλους
     - key: options.company_size.range_5_10
-      t: 5 to 10 employees
+      t: 5 έως 10 υπαλλήλους
     - key: options.company_size.range_10_20
-      t: 10 to 20 employees
+      t: 10 έως 20 υπαλλήλους
     - key: options.company_size.range_20_50
-      t: 20 to 50 employees
+      t: 20 έως 50 υπαλλήλους
     - key: options.company_size.range_50_100
-      t: 50 to 100 employees
+      t: 50 έως 100 υπαλλήλους
     - key: options.company_size.range_100_1000
-      t: 100 to 1000 employees
+      t: 100 έως 1000 υπαλλήλους
     - key: options.company_size.range_more_than_1000
-      t: More than 1000 employees
+      t: Πάνω από 1000 υπαλλήλους
 
     # company size (short versions)
     - key: options.company_size.range_1.short
@@ -347,19 +345,19 @@ translations:
 
     # salary
     - key: options.yearly_salary.range_work_for_free
-      t: I work for free
+      t: Δουλεύω δωρεάν €
     - key: options.yearly_salary.range_0_10
-      t: $0k-$10k
+      t: €0k-€10k 
     - key: options.yearly_salary.range_10_30
-      t: $10k-$30k
+      t: €10k-€30k
     - key: options.yearly_salary.range_30_50
-      t: $30k-$50k
+      t: €30k-€50k
     - key: options.yearly_salary.range_50_100
-      t: $50k-$100k
+      t: €50k-€100k
     - key: options.yearly_salary.range_100_200
-      t: $100k-$200k
+      t: €100k-€200k
     - key: options.yearly_salary.range_more_than_200
-      t: More than $200k
+      t: Πάνω από €200k
 
     # salary (short versions)
     - key: options.yearly_salary.range_work_for_free.short
