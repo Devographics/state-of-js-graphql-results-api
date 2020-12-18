@@ -1,52 +1,50 @@
-locale: en-US
+locale: pl-PL
 translations:
     ###########################################################################
     # Homepage
     ###########################################################################
 
-    - key: homepage.hand_coded # TODO
+    - key: homepage.hand_coded
       t: Hand-coded in Japan.
-    - key: homepage.leave_issue # TODO
-      t: Leave an issue
-    - key: homepage.get_in_touch # TODO
-      t: Get in touch
+    - key: homepage.leave_issue
+      t: Zgłoś uwagę
+    - key: homepage.get_in_touch
+      t: Odezwij się
 
-    - key: homepage.made_by # TODO
-      t: 'The State of CSS is Made by:'
-    - key: homepage.leave_issue # TODO
-      t: Leave an issue
+    - key: homepage.made_by
+      t: 'The State of CSS jest stworzone przez:'
+    - key: homepage.leave_issue
+      t: Zgłoś uwagę
 
-    - key: homepage.previous_years # TODO
-      t: 'Previous Years:'
-    - key: homepage.intro # TODO
+    - key: homepage.previous_years
+      t: 'Poprzednie lata:'
+
+    - key: homepage.intro
       t: >
-          ## CSS is evolving faster than ever.
+          ## CSS rozwija się szybciej niż kiedykolwiek wcześniej.
 
-          Flexbox, Grid, Multi-Column… To say nothing of whole new paradigms like CSS-in-JS.
+          Flexbox, Grid, Multi-Column… Nie wspominając już o całkiem nowych paradygmatach jak CSS-in-JS.
 
-          So after the success of our annual [State Of JavaScript](https://stateofjs.com) survey, we’ve decided to take on
-          the world of styles and selectors to help identify the latest trends… and try to bridge
-          the ever-growing “great front-end divide”!
+          Dlatego po sukcesie naszej corocznej ankiety [State Of JavaScript](https://stateofjs.com) zdecydowaliśmy się spojrzeć na świat styli i selektorów, aby zidentyfikować najnowsze trendy… i spróbować połączyć stale rosnący "wielki podział frontendu"!
 
-    - key: homepage.take_survey # TODO
-      t: Take Survey
+    - key: homepage.take_survey
+      t: Weź udział w ankiecie
 
-    - key: homepage.view_results # TODO
-      t: View 2019 Results
+    - key: homepage.view_results
+      t: Wyświetl wyniki z 2019
 
-    - key: share.help_spread # TODO
-      t: Help Spread the Word!
+    - key: share.help_spread
+      t: Pomóż w głoszeniu słowa!
 
-    - key: newsletter.stay_tuned # TODO
+    - key: newsletter.stay_tuned
       t: Stay Tuned
-    - key: newsletter.leave_your_email # TODO
-      t: Leave us your email and we’ll let you know when the next survey takes place.
+    - key: newsletter.leave_your_email
+      t: Zostaj swój email jeśli chcesz być powiadamiany o kolejnych ankietach.
 
-    - key: author.sacha.bio # TODO
+    - key: author.sacha.bio
       t: >
-          Creator of the [Nivo](http://nivo.rocks/) JavaScript data visualization library as well
-          as [Mozaik](http://mozaik.rocks/), a tool for building beautiful dashboards.
-    - key: author.raphael.bio # TODO
+          Twórczyni JavaScriptowej bibliotekii wizualizacji danych [Nivo](http://nivo.rocks/) oraz [Mozaik](http://mozaik.rocks/), narzędzia do budowania pięknych dashboardów.
+
+    - key: author.raphael.bio
       t: >
-          Creator of the [Sidebar](http://sidebar.io) daily newsletter and
-          [VulcanJS](http://vulcanjs.org), a React+GraphQL open-source framework.
+          Twórca codziennego newslettera [Sidebar](http://sidebar.io) oraz [VulcanJS](http://vulcanjs.org), open-sourcowej biblioteki React+GraphQL.
