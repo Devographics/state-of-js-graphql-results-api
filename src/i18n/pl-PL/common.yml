@@ -94,7 +94,7 @@ translations:
     - key: thanks.learn_more_about
       t: 'Funkcjonalność, o której możesz chcieć dowiedzieć się więcej:'
     - key: thanks.knowledge_score
-      t: Wynik wiedzy
+      t: Współczynnik Znajomości
     - key: thanks.score_explanation
       t: >
           Słyszałeś o lub używałeś <span class="score-number score-number-known">{known}</span> z
@@ -105,7 +105,7 @@ translations:
       t: Udostępnij na Twitter
     - key: thanks.share_score_message
       t: >
-          Uzyskałem wynik wiedzy {score}% w tegorocznej ankiecie #{hashtag} ! Weź udział w ankiecie tutaj: {shareUrl}
+          Uzyskałem współczynnik znajomości {score}% w tegorocznej ankiecie #{hashtag} ! Weź udział w ankiecie tutaj: {shareUrl}
     # share
     - key: general.share_subject
       t: >
