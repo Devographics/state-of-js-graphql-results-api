@@ -68,7 +68,7 @@ translations:
     - key: general.privacy_policy
       t: Polityka prywatności
     - key: general.leave_issue
-      t: Pytania? Znalazłeś błąd? <a href="${link}" target="_blank">Zostaw powiadomienie</a>.
+      t: Pytania? Znalazłeś błąd? <a href="${link}" target="_blank">Zgłoś uwagę</a>.
     - key: general.emoji_icons
       t: Emoji icons by <a target="_blank" rel="noreferrer" href="https://icons8.com">Icons8</a>
 
