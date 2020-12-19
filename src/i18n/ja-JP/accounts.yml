@@ -70,5 +70,4 @@ translations:
       t: '{email}としてログインしました。'
     - key: accounts.questions
       t: >
-          個人データをどのように扱うかの質問や、個人情報の削除がしたい場合は
-          <a href="mailto:hello@stateofjs.com">メールでお問い合わせ</a>ください。
+          個人データをどのように扱うかの質問や、個人情報の削除がしたい場合は<a href="mailto:hello@stateofjs.com">メールでお問い合わせ</a>ください。
