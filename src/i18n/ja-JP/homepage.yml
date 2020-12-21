@@ -50,5 +50,4 @@ translations:
 
     - key: author.raphael.bio
       t: >
-          毎日ニュースレターをお届けする[Sidebar](http://sidebar.io)と、
-          React+GraphQL製フレームワーク[VulcanJS](http://vulcanjs.org)の作者。
+          毎日配信されるニュースレター[Sidebar](http://sidebar.io)と、React+GraphQL製フレームワーク[VulcanJS](http://vulcanjs.org)の作者。
