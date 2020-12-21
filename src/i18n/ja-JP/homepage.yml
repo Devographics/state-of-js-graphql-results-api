@@ -43,8 +43,7 @@ translations:
 
     - key: author.sacha.bio
       t: >
-          JavaScriptのデータビジュアライゼーションライブラリ[Nivo](http://nivo.rocks/)と、
-          as美しいダッシュボードが作成するための [Mozaik](http://mozaik.rocks/)の作者。
+          JavaScriptのデータビジュアライゼーションライブラリ[Nivo](http://nivo.rocks/)と、美しいダッシュボードを作成する[Mozaik](http://mozaik.rocks/)の作者。
 
     - key: author.raphael.bio
       t: >
