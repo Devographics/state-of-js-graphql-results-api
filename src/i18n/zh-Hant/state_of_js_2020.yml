@@ -171,8 +171,7 @@ translations:
       t: 只要開發者有時間進修，GraphQL 依舊是他們的首選。
 
     # - key: award.most_write_ins_award.comment
-    #   t: Many questions also accepted write-in answers, and with **${value}** mentions PhpStorm was the most popular item overall.
-
+    #   t: Many questions also accepted write-in answers, and with **${value}** mentions    PhpStorm was the most popular item overall.
 
     ###########################################################################
     # Conclusion
@@ -180,7 +179,7 @@ translations:
 
     - key: sections.conclusion.description
       t: |
-            自古以來，哲學家便在思考一則 JavaScript 悖論：一方面，我們這些開發者迫不及待想使用新的功能，以及宣稱能夠大幅改善開發體驗的新套件。但另一方面，我們卻又嚮往穩定、簡單的工具，不想浪費時間查看 GitHub issue 或過時的 Stack Overflow 問題。
+            自古以來，哲學家便在思考一則 JavaScript 悖論：一方面，我們這些開發者迫不及待想使用新的功能，以及宣稱能夠大幅改善開發體驗的新套件。但另一方面，我們卻又嚮往穩定、簡單的工具，不想浪費時間查看 GitHub issue 或過時的 Stack Overflow 問題。
 
             怎麼辦？我們要用潮到出水的新技術，還是選安定可靠的舊工具？前所未見地，2020 年的調查顯示我們「全都要」。不過，好消息是，JavaScript 社群已經準備好迎接這項挑戰，讓我們一同期待 2021 年到來吧！
 
