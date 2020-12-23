@@ -188,7 +188,7 @@ translations:
     #   t: With a **${value}** progression in 2020, this was the year CSS Grid crossed over from new technology to established tool.
 
     - key: award.tool_usage_delta_award.comment
-      t: TypeScript was already popular, and it looks like it's only going to get more ubiquitous going forward.
+      t: TypeScript was already popular, and with a **${value}** growth in usage it looks like it's only going to get more ubiquitous going forward.
 
     - key: award.tool_satisfaction_award.comment
       t: With a sky-high satisfaction rating of **${value}**, Testing Library is 2020's overall most beloved tool. 

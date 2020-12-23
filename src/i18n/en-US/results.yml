@@ -103,6 +103,11 @@ translations:
         either financially or by helping us spread the word.
         If you think you could help in any way, please don’t hesitate to [get in touch](mailto:hello@stateofjs.com)!
 
+    - key: sections.awards.title
+      t: Awards
+    - key: sections.awards.description
+      t: Things that stood out this year.
+
     ###########################################################################
     # User Info
     ###########################################################################

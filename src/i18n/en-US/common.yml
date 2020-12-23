@@ -35,7 +35,7 @@ translations:
       t: No surveys are currently open.
     - key: general.closed_surveys
       t: Closed Surveys
-    - key: general.no_open_surveys
+    - key: general.no_closed_surveys
       t: No surveys are currently closed.
     - key: general.preview_surveys
       t: Preview Surveys
