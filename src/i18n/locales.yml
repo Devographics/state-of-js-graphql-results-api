@@ -65,3 +65,7 @@
 - id: ja-JP
   label: 日本語
   translators: ['myakura', 'Spice-Z']
+
+- id: pl-PL
+  label: Polski
+  translators: ['luk-str']
