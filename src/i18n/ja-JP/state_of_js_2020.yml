@@ -1,4 +1,4 @@
-locale: en-US
+locale: ja-JP
 namespace: js
 translations:
     ###########################################################################
@@ -6,4 +6,4 @@ translations:
     ###########################################################################
 
     - key: general.results.description
-      t: The annual survey about the latest trends in the JavaScript ecosystem.
+      t: Javascriptのエコシステムに関して行う、一年に一度のアンケートです。
