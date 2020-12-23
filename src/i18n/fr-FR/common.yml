@@ -10,13 +10,9 @@ translations:
     - key: general.create_account_reasons
       t: >
           Nous vous demandons de créer un compte pour :
-
           - Éviter les réponses dupliquées
-
           - Vous donner accès à vos données
-
           - Enregistrer vos réponses en cours
-
           - Vous tenir au courant de la sortie des résultats
     - key: general.survey_closed
       t: >
@@ -27,7 +23,6 @@ translations:
     - key: general.survey_read_only_back
       t: >
           <a href="${link}">Retourner</a> à la page principale du questionnaire pour commencer ou continuer à répondre.
-
     # surveys
     - key: general.open_surveys
       t: Questionnaires en cours
@@ -49,14 +44,14 @@ translations:
       t: Ce questionnaire est maintenant terminé.
     - key: general.survey_results
       t: Voir les résultats du questionnaire »
-    - key: general.surveys_available_languages # TODO
-      t: 'Surveys available in:'
-    - key: general.help_us_translate # TODO
-      t: Help us translate the surveys »
-    - key: general.translators # TODO
-      t: Translators
-    - key: general.translation_help # TODO
-      t: Translation Help
+    - key: general.surveys_available_languages
+      t: 'Questionnaires disponibles en:'
+    - key: general.help_us_translate
+      t: Aidez-nous à traduire les questionnaires »
+    - key: general.translators
+      t: Traducteurs
+    - key: general.translation_help
+      t: Aide à la traduction
 
     # footer
     - key: general.privacy_policy
@@ -81,26 +76,24 @@ translations:
     - key: general.thanks
       t: >
           Merci d'avoir rempli le questionnaire !
-
           Vos réponses sont sauvegardées. Vous pouvez les revoir ou les modifier jusqu'à ce que le questionnaire se termine.
-
           Vous pouvez aussi nous aider en faisant connaître le questionnaire en le partageant. Chaque action compte et rendra
           nos données encore plus représentatives.
-    - key: thanks.learn_more_about # TODO
-      t: 'Some of the features you might want to learn more about:'
-    - key: thanks.knowledge_score # TODO
-      t: Knowledge Score
-    - key: thanks.score_explanation # TODO
+    - key: thanks.learn_more_about
+      t: 'Quelques éléments sur lesquels vous souhaiteriez en apprendre plus :'
+    - key: thanks.knowledge_score
+      t: Score de votre connaissance
+    - key: thanks.score_explanation
       t: >
-          You’ve heard or used <span class="score-number score-number-known">{known}</span> out of
-          <span class="score-number score-number-total">{total}</span> features mentioned in the survey, which
-          puts you in the top <span class="score-number score-number-ranking">{knowledgeRankingFromTop}%</span>
-          of all respondents.
-    - key: thanks.share_on_twitter # TODO
-      t: Share on Twitter
-    - key: thanks.share_score_message # TODO
+          Vous avez entendu parlé ou déjà utilisé <span class="score-number score-number-known">{known}</span> /
+          <span class="score-number score-number-total">{total}</span> éléments mentionnés dans le questionnaire, ce qui
+          vous place dans le top <span class="score-number score-number-ranking">{knowledgeRankingFromTop}%</span>
+          de tous les répondants.
+    - key: thanks.share_on_twitter
+      t: Partager sur Twitter
+    - key: thanks.share_score_message
       t: >
-          I got a {score}% knowledge score on this year's #{hashtag} survey! Take the survey here: {shareUrl}
+          J'ai obtenu un score de connaissance de {score}% sur le questionnaire #{hashtag} de cette année! Pour y participer, rendez-vous ici: {shareUrl}
     # share
     - key: general.share_subject
       t: >
@@ -108,10 +101,9 @@ translations:
     - key: general.share_text
       t: >
           Le questionnaire {surveyName} de cette année est ouvert ! {link}
-
     # forms
-    - key: forms.select_option # TODO
-      t: Select option
+    - key: forms.select_option
+      t: Selectionnez une option
 
     ###########################################################################
     # Nav
@@ -424,44 +416,44 @@ translations:
 
     # Race & Ethnicity
 
-    - key: options.race_ethnicity.white_european # TODO
-      t: White or of European descent
-    - key: options.race_ethnicity.south_asian # TODO
-      t: South Asian
-    - key: options.race_ethnicity.hispanic_latin # TODO
-      t: Hispanic or Latino/Latina
-    - key: options.race_ethnicity.east_asian # TODO
-      t: East Asian
-    - key: options.race_ethnicity.middle_eastern # TODO
-      t: Middle Eastern
-    - key: options.race_ethnicity.black_african # TODO
-      t: Black or of African descent
-    - key: options.race_ethnicity.multiracial # TODO
-      t: Multiracial
-    - key: options.race_ethnicity.biracial # TODO
-      t: Biracial
-    - key: options.race_ethnicity.native_american_islander_australian # TODO
-      t: Native American, Pacific Islander, or Indigenous Australian
+    - key: options.race_ethnicity.white_european
+      t: D'origine européenne
+    - key: options.race_ethnicity.south_asian
+      t: Sud-asiatique
+    - key: options.race_ethnicity.hispanic_latin
+      t: Hispanique ou Latino
+    - key: options.race_ethnicity.east_asian
+      t: Est-asiatique
+    - key: options.race_ethnicity.middle_eastern
+      t: Moyen-Orient
+    - key: options.race_ethnicity.black_african
+      t: D'origine africaine
+    - key: options.race_ethnicity.multiracial
+      t: Mutiples
+    - key: options.race_ethnicity.biracial
+      t: Double origine
+    - key: options.race_ethnicity.native_american_islander_australian
+      t: Amérindien, insulaire du Pacifique ou indigène australien
 
     # Form Factors
-    - key: options.form_factors.desktop # TODO
+    - key: options.form_factors.desktop
       t: Desktop
-    - key: options.form_factors.smartphone # TODO
+    - key: options.form_factors.smartphone
       t: Smartphone
-    - key: options.form_factors.feature_phone # TODO
-      t: Feature phone
-    - key: options.form_factors.tablet # TODO
-      t: Tablet
-    - key: options.form_factors.smart_watch # TODO
-      t: Smartwatch
-    - key: options.form_factors.tv # TODO
+    - key: options.form_factors.feature_phone
+      t: Téléphone mobile basique
+    - key: options.form_factors.tablet
+      t: Tablette
+    - key: options.form_factors.smart_watch
+      t: Montre connectée
+    - key: options.form_factors.tv
       t: TV
-    - key: options.form_factors.gaming_console # TODO
-      t: Gaming console
-    - key: options.form_factors.screen_reader # TODO
-      t: Screen reader
-    - key: options.form_factors.print # TODO
-      t: Print
+    - key: options.form_factors.gaming_console
+      t: Console de jeux vidéo
+    - key: options.form_factors.screen_reader
+      t: Lecteur d'écran
+    - key: options.form_factors.print
+      t: Imprimante
       
     ###########################################################################
     # Tools
@@ -477,7 +469,6 @@ translations:
       t: >
           Sur une échelle de 1 (très malheureux) à 5 (très content), comment vous-sentez vous
           avec l'état général des choses par rapports aux options de la liste ci-dessus ?
-
     ###########################################################################
     # Demographics (About You/User Info)
     ###########################################################################
@@ -522,7 +513,7 @@ translations:
 
     # backend proficiency
     - key: user_info.backend_proficiency
-      t: Cométences en back-end
+      t: Compétences en back-end
     - key: user_info.backend_proficiency.description
       t: Quel est votre niveau de compétence en développement back-end ?
 
@@ -532,7 +523,7 @@ translations:
 
     # skin tone/appearance
     - key: user_info.race_ethnicity
-      t: Race & Ethnicity # TODO
+      t: Origine et ethnies
 
     # other info
     - key: user_info.how_did_user_find_out_about_the_survey

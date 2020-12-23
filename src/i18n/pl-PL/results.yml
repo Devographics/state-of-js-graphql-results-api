@@ -1,34 +1,515 @@
-locale: ADD LOCALE HERE
+locale: pl-PL
 translations:
     ###########################################################################
     # General
     ###########################################################################
 
+    - key: results.start
+      t: Start
+
+    - key: page.previous
+      t: 'Poprzednie:'
+    - key: page.next
+      t: 'Następne:'
+
+    - key: general.state_of_css_link
+      t: State of CSS
+
+    - key: general.netlify_link
+      t: Hosted by <a href="${link}">Netlify</a>.
+
+    - key: general.completion_percentage
+      t: 'Procent ukończenia:'
+
+    - key: partners.thanks
+      t: Dziękujemy za wsparcie naszym partnerom!
+
+    - key: partners.learn_more
+      t: Dowiedz się więcej.
+
+    ###########################################################################
+    # Options
+    ###########################################################################
+
+    - key: options.experience_ranking.satisfaction
+      t: Satysfakcja
+    - key: options.experience_ranking.interest
+      t: Zainteresowanie
+    - key: options.experience_ranking.usage
+      t: Wykorzystywanie
+    - key: options.experience_ranking.awareness
+      t: Świadomość
+
+    - key: options.features_simplified.know_it
+      t: Zna
+    - key: options.features_simplified.used_it
+      t: Używał
+    - key: options.features_simplified.usage_ratio
+      t: Stosunek wykorzystywania
+
+    - key: options.quadrant.assess
+      t: ASSESS
+    - key: options.quadrant.assess.long
+      t: |
+          ASSESS: Rzadko wykorzystywane, wysoka satysfakcja. Technologie, które warto mieć na oku.
+    - key: options.quadrant.adopt
+      t: ADOPT
+    - key: options.quadrant.adopt.long
+      t: |
+          ADOPT: Często wykorzystywane, wysoka satysfakcja. Technologie warte przyswojenia.
+    - key: options.quadrant.avoid
+      t: AVOID
+    - key: options.quadrant.avoid.long
+      t: |
+          AVOID: Rzadko wykorzystywane, niska satysfakcja. Technologie, których aktualnie raczej lepiej unikać.
+    - key: options.quadrant.analyze
+      t: ANALYZE
+    - key: options.quadrant.analyze.long
+      t: |
+          ANALYZE: Często wykorzystywane, niska satysfakcja. Zastanów się ponownie jeżeli używasz aktualnie tych technologii.
+
+    - key: ranges.selector.years_of_experience
+      t: Doświadczenie
+    - key: ranges.selector.yearly_salary
+      t: Wynagrodzenie
+    - key: ranges.selector.company_size
+      t: Rozmiar firmy
+
+    ###########################################################################
+    # Sections
+    ###########################################################################
+
+    - key: sections.introduction.title
+      t: Wprowadzenie
+
+    - key: sections.demographics.title
+      t: Demografia
+
+    - key: sections.tshirt.title
+      t: T-shirt
+
+    - key: sections.technologies.title
+      t: Technologie
+
+    - key: sections.conclusion.title
+      t: Wnioski
+
+    - key: sections.support.title
+      t: Wesprzyj Nas
+    - key: sections.support.description
+      t: >
+          Prowadzenie tej ankiety jest dla nas zajęciem dodatkowym, ale aby projekt mógł się utrzymać potrzebujemy partnerów pomagających nam czy to finansowo czy też przy rozpowszechnianiu informacji na jego temat. Jeśli myślisz, że możesz nas w jakiś sposób wesprzeć, [odezwij się do nas](mailto:hello@stateofjs.com)!
+
+    ###########################################################################
+    # User Info
+    ###########################################################################
+
+    - key: user_info.locale
+      t: Język
+    - key: user_info.locale.description
+      t: W jakim języku odpowiadający wypełniali ankietę?
+
+    - key: user_info.source
+      t: Żródło
+    - key: user_info.source.description
+      t: Skąd odpowiadający dowiedzieli się o ankiecie?
+
+    ###########################################################################
+    # Locales
+    ###########################################################################
+
+    - key: options.locale.en-US
+      t: Angielski
+    - key: options.locale.es-ES
+      t: Hiszpański
+    - key: options.locale.ru-RU
+      t: Rosyjski
+    - key: options.locale.ua-UA
+      t: Ukraiński
+    - key: options.locale.fr-FR
+      t: Francuski
+    - key: options.locale.zh-Hant
+      t: Chiński (Tradycyjny)
+    - key: options.locale.de-DE
+      t: Niemiecki
+    - key: options.locale.cs-CZ
+      t: Czeski
+    - key: options.locale.pt-PT
+      t: Portugalski
+    - key: options.locale.it-IT
+      t: Włoski
+    - key: options.locale.sv-SE
+      t: Szwedzki
+    - key: options.locale.tr-TR
+      t: Turecki
+    - key: options.locale.id-ID
+      t: Indonezyjski
+    - key: options.locale.hi-IN
+      t: Hinduski
+    - key: options.locale.zh-Hans
+      t: Chiński (Uproszczony)
+    - key: options.locale.ja-JP
+      t: Japoński
+    - key: options.locale.ua-UA
+      t: Ukraiński
+
     ###########################################################################
     # Features
     ###########################################################################
 
-    - key: features.learn_more # TODO
+    - key: features.learn_more
       t: Learn More (MDN)
-    - key: features.mdn_link # TODO
+    - key: features.mdn_link
       t: MDN
-    - key: features.caniuse_link # TODO
+    - key: features.caniuse_link
       t: CanIUse
-    - key: features.specification_link # TODO
+    - key: features.specification_link
       t: W3C Specification
+
+    # knowledge score
+    - key: features.knowledge_score
+      t: Poziom znajomości
+    - key: features.knowledge_score.description
+      t: Jak wiele z funkcjonalności wymienionych w ankiecie znali odpowiadający?
 
     ###########################################################################
     # Tools & Methodologies
     ###########################################################################
 
     # general
-    - key: tools.links # TODO
-      t: Links
-    - key: tools.github_link # TODO
+    - key: tools.links
+      t: Linki
+    - key: tools.github_link
       t: GitHub
-    - key: tools.github_stars # TODO
+    - key: tools.github_stars
       t: stars
-    - key: tools.homepage_link # TODO
-      t: Homepage
-    - key: tools.npm_link # TODO
+    - key: tools.homepage_link
+      t: Strona Główna
+    - key: tools.npm_link
       t: NPM
+
+    ###########################################################################
+    # Blocks
+    ###########################################################################
+
+    # heatmaps
+    - key: blocks.tools_company_size_heatmap.title
+      t: Wykorzystanie Według Rozmiaru Firmy
+    - key: blocks.tools_company_size_heatmap.description
+      t: |
+          Rozkład wykorzystania każdej z technologii wśród odpowiadających, którzy wybrali różne rozmiary firmy.
+
+    - key: blocks.tools_yearly_salary_heatmap.title
+      t: Wykorzystanie Według Skali Zarobków
+    - key: blocks.tools_yearly_salary_heatmap.description
+      t: |
+          Rozkład wykorzystania każdej z technologii wśród odpowiadających, którzy wybrali różne skale zarobków.
+
+    - key: blocks.tools_years_of_experience_heatmap.title
+      t: Wykorzystanie Według Lat Doświadczenia
+    - key: blocks.tools_years_of_experience_heatmap.description
+      t: |
+          Rozkład wykorzystania każdej z technologii wśród odpowiadających, którzy wybrali różne skale doświadczenia.
+          Zwracamy uwagę, że doświadczenie, o którym mowa to doświadczenie ogólne, a nie z określoną technologią.
+
+    # tool
+    - key: blocks.entity.homepage_link
+      t: Strona Główna
+    - key: blocks.entity.github_link
+      t: GitHub
+
+    # tools quadrant
+    - key: blocks.tools_quadrant.title
+      t: Satysfakcja vs Wykorzystanie
+    - key: blocks.tools_quadrant.satisfaction.description
+      t: |
+          Ten diagram pokazuje **poziom zadowolenia** w stosunku do całkowitej **ilości użytkowników**.
+          Można go podzielić na cztery kwadranty:
+
+            - **ASSESS**: Rzadko wykorzystywane, wysoka satysfakcja. Technologie, które warto mieć na oku.
+
+            - **ADOPT**: Często wykorzystywane, wysoka satysfakcja. Technologie warte przyswojenia.
+
+            - **AVOID**: Rzadko wykorzystywane, niska satysfakcja. Technologie, których aktualnie raczej lepiej unikać.
+
+            - **ANALYZE**: Często wykorzystywane, niska satysfakcja. Zastanów się ponownie jeżeli używasz aktualnie tych technologii.
+
+    - key: blocks.tools_quadrant.interest.description
+      t: |
+          Ten diagram pokazuje **poziom zainteresowania** w stosunku do całkowitej **ilości użytkowników** (na podstawie odpowiedzi ankietowanych, którzy wiedzą o istnieniu danej technologii, ale jeszcze z niej *nie korzystali*).
+
+          (Zwracamy uwagę, że niska ilość użytkowników może być spowodowana albo małą znajomością technologii, albo tym, że wiele osób już z niej korzysta.)
+
+    # category other tools
+    - key: blocks.category_other_tools.title
+      t: Inne narzędzia
+    - key: blocks.category_other_tools.description
+      t: Inne narzędzia w tej kategorii (pole wolne).
+
+    # tool experience
+    - key: blocks.tool_experience.title
+      t: Doświadczenie z ${name}
+    - key: blocks.tool_experience.description
+      t: Doświadczenie ankietowanych z ${name}.
+
+    # tool positive/negative split ("marimekko" chart)
+    - key: blocks.tools_experience_marimekko.title
+      t: Podział Pozytywne/Negatywne
+    - key: blocks.tools_experience_marimekko.description
+      t: |
+          Ten diagram pokazuje podział pozytywnych(“chce się nauczyć”, ”użyłby ponownie”) i
+          negatywnych (“niezainteresowany, “nie użyłby ponownie”) doświadczeń po dwóch stronach środkowej osi.
+
+          Szerokość słupka odpowiada ilości odpowiadających wiedzących o istnieniu danej technologii.
+
+    # tools section streams
+    - key: blocks.tools_section_streams.title
+      t: Doświadczenie na przestrzeni czasu
+    - key: blocks.tools_section_streams.description
+      t: |
+          Przegląd opinii na temat badanych technologii na przestrzeni czasu.
+    - key: blocks.tools_section_streams.note
+      t: |
+          Technologie z danymi tylko z jednego roku nie są uwzględnione.
+
+    # tools section overview
+    - key: blocks.tools_section_overview.title
+      t: Przegląd kategorii
+    - key: blocks.tools_section_overview.description
+      t: |
+          Przegląd opinii na temat badanych technologii. Ciemniejsze segmenty odpowiadają pozytywnym opiniom, jaśniejsze negatywnym odczuciom.
+
+    # tools experience ranking
+    - key: blocks.tools_experience_ranking.title
+      t: Rankingi
+    - key: blocks.tools_experience_ranking.description
+      t: Rankingi wskaźników satysfakcji, zainteresowania, użytkowania i znajomości.
+    - key: blocks.tools_experience_ranking.note
+      t: |
+          Nie uwzględniono technologii o znajomości mniejszej niż 10%. Każdy wskaźnik jest określony w następujący sposób:
+
+          - Satysfakcja: **użyłby ponownie** / (**użyłby ponownie** + **nie użyłby ponownie**)
+          - Zainteresowanie: **chce się nauczyćn** / (**chce się nauczyć** + **niezainteresowany**)
+          - Użytkowanie: (**użyłby ponownie** + **nie użyłby ponownie**) / **suma**
+          - Znajomość: (**suma** - **nigdy nie słyszał**) / **suma**
+
+    # happiness
+    - key: blocks.happiness.title
+      t: Całkowite Zadowolenie
+    - key: blocks.happiness.description
+      t: |
+          W skali od jednego (bardzo niezadowolony) do pięciu (bardzo zadowolony), jak bardzo zadowoleni z obecnego ogólnego stanu tej kategorii są programiści?
+
+    # newsletter
+    - key: blocks.newsletter.title
+      t: Stay Tuned
+    - key: blocks.newsletter.description
+      t: |
+          Jeśli chcesz dowiedzieć się, kiedy opublikujemy dodatkowe wyniki lub zapowiemy przyszłoroczną edycję, zostaw swój email poniżej:
+    - key: blocks.newsletter.email
+      t: Twój Email
+    - key: blocks.newsletter.submit
+      t: Proszę o Powiadomienie
+
+    # features_overview
+    - key: blocks.features_overview.title
+      t: Przegląd Użytkowania
+    - key: blocks.features_overview.description
+      t: |
+          Ten diagram przedstawia różne wskaźniki powszechności stosowania funkcjonalności, pogrupowane według kategorii.
+
+          Rozmiar <span class="text-teal-darker text-bold">zewnętrznego koła</span>
+          odpowiada całkowitej ilości użytkowników, którzy wiedzą o istnieniu funkcjonalności, a <span class="text-teal text-bold">wewnętrznego koła</span> ilości osób, które jej używały.
+
+          Najedź na dany obszar, aby wyświetlić szczegółowe dane wraz z <span class="text-blackpink text-bold">nakładką</span>
+          przedstawiającą całkowitą ilość odpowiadających.
+
+    # export
+    - key: export.export
+      t: Eksport
+    - key: export.title
+      t: Eksport danych z ${title}
+    - key: export.nocsv
+      t: Przepraszam, eksport CSV nie jest dostępny dla tego zestawu danych.
+    - key: export.graphql
+      t: >
+          Możesz skopiować i wkleić to zapytanie do naszego <a target="_blank" rel="nofollow" href="http://graphiql.stateofjs.com/">publicznego API GraphQL</a>.
+
+    # Tools usage variations
+    - key: blocks.tools_usage_variations.title
+      t: Różnice w użytkowaniu
+    - key: blocks.tools_usage_variations.description
+      t: |
+          Jak różne czynniki, takie jak wysokość wynagrodzenia, lata doświadczenia lub wielkość firmy, wpływają na wykorzystanie (uczestnicy, którzy odpowiedzieli „użyłbym ponownie” lub „nie użyłbym ponownie”).
+
+         Linia bazowa reprezentuje podstawowe użytkowanie dla każdego narzędzia, a przesunięcia odpowiadają delcie od tej linii bazowej w każdym zakresie. Jeśli założymy, że ogólne użycie narzędzia X wynosi 10% wśród wszystkich respondentów (poziom bazowy), i jeśli odsetek użytkowników mających od 1 do 2 lat doświadczenia w korzystaniu z tego narzędzia wynosi 13% (w porównaniu do wszystkich użytkowników mających od 1 do 2 lat doświadczenia), wychodzi nam delta dodatnia +3%.
+    - key: blocks.tools_usage_variations.note
+      t: |
+          Należy pamiętać, że narzędzia o niższym ogólnym użytkowaniu mają z reguły większe zróżnicowane.
+
+    # Recommended Resources
+    - key: blocks.recommended_resources.title
+      t: Polecane Źródła
+
+    ###########################################################################
+    # Charts
+    ###########################################################################
+
+    - key: chart_units.percentage
+      t: Procent
+    - key: chart_units.count
+      t: Liczba
+
+    - key: charts.axis_legends.years_of_experience
+      t: Lata Doświadczenia
+    - key: charts.axis_legends.yearly_salary
+      t: Skala Wynagrodzenia (USD)
+    - key: charts.axis_legends.company_size
+      t: Ilość Pracowników
+    - key: charts.axis_legends.backend_proficiency
+      t: Biegłość w Back-end
+    - key: charts.axis_legends.css_proficiency
+      t: Biegłość w CSS
+    - key: charts.axis_legends.javascript_proficiency
+      t: Biegłość w JavaScript
+    - key: charts.axis_legends.users_percentage
+      t: Procent Użytkowników
+    - key: charts.axis_legends.users_count
+      t: Ilość Użytkowników
+    - key: charts.axis_legends.interest_percentage
+      t: Procent Zainteresowania
+    - key: charts.axis_legends.satisfaction_percentage
+      t: Procent Zadowolenia
+    - key: charts.axis_legends.happiness
+      t: Zadowolenie
+    - key: charts.axis_legends.knowledge_score
+      t: Znana Funkcjonalność
+    - key: charts.axis_legends.frequency
+      t: Częstotliwość
+
+    - key: charts.ranges_multiple_diverging_lines.baseline
+      t: linia bazowa
+    - key: charts.ranges_multiple_diverging_lines.positive_offset
+      t: przesunięcie pozytywne
+    - key: charts.ranges_multiple_diverging_lines.negative_offset
+      t: przesunięcie negatywne
+
+    ###########################################################################
+    # Sharing
+    ###########################################################################
+
+    - key: share.share
+      t: Udostępnij
+    - key: share.site.title
+      t: Poznaj wyniki StateOf CSS 2020
+    - key: share.site.twitter_text
+      t: 'Poznaj Wyniki State Of CSS 2020 ${link} #StateOfCSS'
+    - key: share.site.subject
+      t: Wyniki Sondażu State Of JavaScript
+    - key: share.site.body
+      t: 'Interesujące wyniki sondażu o CSS: ${link}'
+    - key: share.block.twitter_text
+      t: '#StateOfCSS 2020: ${title} ${link}'
+    - key: share.block.subject
+      t: Wyniki Sondażu State Of CSS
+    - key: share.block.body
+      t: 'Interesujące wyniki sondażu o CSS (${title}): ${link}'
+    - key: share.twitter
+      t: Udostępnij na Twitterze
+    - key: share.facebook
+      t: Udostępnij na Facebooku
+    - key: share.linkedin
+      t: Udostępnij na LinkedIn
+    - key: share.email
+      t: Udostępnij emailem
+    - key: share.image
+      t: Uzyskaj obraz
+
+    ###########################################################################
+    # Awards
+    ###########################################################################
+
+    - key: awards.runner_ups
+      t: Drugie Miejsca
+
+    - key: award.feature_adoption_award.title
+      t: Najczęście Używana Funkcjonalność
+    - key: award.feature_adoption_award.description
+      t: Przyznawane dla najbardziej przyswojonej funkcjonalności.
+
+    - key: award.feature_adoption_delta_award.title
+      t: Najbardziej Przyswojona Funkcjonalności
+    - key: award.feature_adoption_delta_award.description
+      t: Przyznawane dla funkcjonalności z największym wzrostem rok-do-roku w odpowiedzi "używałem".
+
+    - key: award.tool_usage_award.title
+      t: Najczęściej Używana Technologia
+    - key: award.tool_usage_award.description
+      t: Przyznawane technologii o największej bazie użytkowników.
+
+    - key: award.tool_usage_delta_award.title
+      t: Najbardziej Przyswojona Technologia
+    - key: award.tool_usage_delta_award.description
+      t: Przyznawane dla technologii z największym wzrostem rok-do-roku w odpowiedzi "użyłbym ponownie".
+
+    - key: award.tool_satisfaction_award.title
+      t: Największe Zadowolenie
+    - key: award.tool_satisfaction_award.description
+      t: Przyznawane technologii, która ma największy odsetek zadowolonych użytkowników.
+
+    - key: award.tool_interest_award.title
+      t: Największe Zainteresowanie
+    - key: award.tool_interest_award.description
+      t: Przyznawane technologii, której nauką programiści są najbardziej zainteresowani, po tym jak się o niej dowiedzą.
+
+    - key: award.resource_usage_award.title
+      t: Najczęściej Używane Źródło
+    - key: award.resource_usage_award.description
+      t: Przyznawane dla źródła z największą bazą użytkowników.
+
+    - key: award.prediction_award.title
+      t: Nagroda Technologii z Potencjałem
+    - key: award.prediction_award.description
+      t: Przyznawana rozwijającej się technologii, która może przejąć świat… albo i nie?
+
+    - key: award.most_write_ins_award.title
+      t: Najwięcej Wpisów
+    - key: award.most_write_ins_award.description
+      t: Przyznawane pozycji, która była najczęściej dopisywana ręcznie
+
+    ###########################################################################
+    # Hints
+    ###########################################################################
+
+    - key: hints.hint_hint
+      t: >
+          Podczas przeglądania wyników znajdziesz w wielu miejscach podpowiedzi takie jak ta, które wskażą dodatkowe funkcje i szczegóły.
+
+    - key: hints.units_switcher_hint
+      t: >
+          W prawym górnym rogu każdego bloku znajdziesz przełącznik pozwalający zmieniać widok między względnymi wartościami procentowymi, a całkowitą liczbą, aby uzyskać inne spojrzenie na te same dane.
+
+    - key: hints.export_hint
+      t: >
+          Przycisk <span class="hint-export-button">Eksport</span> na górze każdego bloku pozwala uzyskać surowe dane JSON dla wszystkich diagramów lub zapytanie GraphQL, którego możesz użyć w naszym publicznym API.
+
+    - key: hints.completion_hint
+      t: >
+          Ponieważ wszystkie pytania są opcjonalne, niektóre z nich otrzymały mniej odpowiedzi niż inne.
+          Wskażnik ukończenia (<span class="hint-completion-indicator">◕</span>) pokazuje ile dokładnie osób odpowiedziało na dane pytanie.
+
+    - key: hints.tool_modal_hint
+      t: >
+          Możesz kliknać dowolną nazwę technologii, by uzyskać dodatkowe informacje i bardziej szczegółowy wgląd w powiązane z nią dane.
+
+    - key: hints.rankings_modes_hint
+      t: >
+          Diagram rankingów można przełączać między satysfakcją, zainteresowaniem, użytkowaniem i znajomością, aby uzyskać pełniejszy obraz rankingów danej kategorii.
+
+    - key: hints.sharing_hint
+      t: >
+          Według badań naukowych, udostępnienie tego sondażu na Twitterze, Facebooku lub emailem powoduje wzrost biegłości w JavaScript aż o 15%.
+
+    - key: hints.tshirt_hint
+      t: >
+          Inny potwierdzony fakt naukowy: zakup naszego t-shirta powoduje wzrost znajomości JavaScript o ponad 9000!
