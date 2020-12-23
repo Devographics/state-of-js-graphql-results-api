@@ -43,7 +43,7 @@ translations:
 
     - key: author.sacha.bio
       t: >
-          Twórczyni JavaScriptowej bibliotekii wizualizacji danych [Nivo](http://nivo.rocks/) oraz [Mozaik](http://mozaik.rocks/), narzędzia do budowania pięknych dashboardów.
+          Twórca JavaScriptowej bibliotekii wizualizacji danych [Nivo](http://nivo.rocks/) oraz [Mozaik](http://mozaik.rocks/), narzędzia do budowania pięknych dashboardów.
 
     - key: author.raphael.bio
       t: >
