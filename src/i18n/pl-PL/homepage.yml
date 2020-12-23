@@ -39,7 +39,7 @@ translations:
     - key: newsletter.stay_tuned
       t: Stay Tuned
     - key: newsletter.leave_your_email
-      t: Zostaj swój email jeśli chcesz być powiadamiany o kolejnych ankietach.
+      t: Zostaw swój email jeśli chcesz być powiadamiany o kolejnych ankietach.
 
     - key: author.sacha.bio
       t: >
