@@ -1,3 +1,7 @@
+- id: ca-ES
+  label: Català
+  translators: ['socunanena']
+
 - id: cs-CZ
   label: Česky
   translators: ['adamkudrna']
