@@ -109,6 +109,8 @@ translations:
 
     - key: options.locale.en-US
       t: İngilizce
+    - key: options.locale.ca-ES
+      t: Katalanca
     - key: options.locale.es-ES
       t: İspanyolca
     - key: options.locale.ru-RU

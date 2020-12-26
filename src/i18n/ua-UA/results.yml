@@ -124,6 +124,8 @@ translations:
 
     - key: options.locale.en-US
       t: Англійська
+    - key: options.locale.ca-ES
+      t: Каталонська
     - key: options.locale.es-ES
       t: Іспанська
     - key: options.locale.ru-RU

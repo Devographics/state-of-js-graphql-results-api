@@ -120,6 +120,8 @@ translations:
 
     - key: options.locale.en-US
       t: English
+    - key: options.locale.ca-ES
+      t: Catalan
     - key: options.locale.es-ES
       t: Spanish
     - key: options.locale.ru-RU
