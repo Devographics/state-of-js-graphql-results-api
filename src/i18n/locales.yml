@@ -60,7 +60,7 @@
 
 - id: 'zh-Hant'
   label: 正體中文
-  translators: ['ymcheung']
+  translators: ['ymcheung', 'mingjunlu']
 
 - id: ja-JP
   label: 日本語
