@@ -541,133 +541,132 @@ translations:
 
     # years of experience
     - key: user_info.years_of_experience
-      t: Years of Experience
+      t: Χρόνια εμπειρίας
     - key: user_info.years_of_experience.description
-      t: How long you've been working or studying in this field.
+      t: Πόσο καιρό εργάζεστε ή σπουδάζετε σε αυτόν τον τομέα
 
     # company size
     - key: user_info.company_size
-      t: Company Size
+      t: Μέγεθος εταιρείας
     - key: user_info.company_size.description
-      t: How big your company is.
+      t: Πόσο μεγάλη είναι η εταιρεία σας
 
     # salary ranges
     - key: user_info.yearly_salary
-      t: Yearly Salary
+      t: Ετήσιος μισθός
     - key: user_info.yearly_salary.description
-      t: In USD.
+      t: Σε δολάρια ΗΠΑ
 
     # job title
     - key: user_info.job_title
-      t: Job Title
+      t: Τίτλος εργασίας
     - key: user_info.job_title.description
-      t: How do you introduce yourself at parties?
+      t: Πώς μπορείτε να συστήσετε τον εαυτό σας στο πλήθος?
 
     # javascript proficiency
     - key: user_info.javascript_proficiency
-      t: JavaScript Proficiency
+      t: Επάρκεια σε JavaScript
     - key: user_info.javascript_proficiency.description
-      t: How proficient are you at JavaScript?
+      t: Πόσο ικανός είστε στην JavaScript?
 
     # css proficiency
     - key: user_info.css_proficiency
-      t: CSS Proficiency
+      t: Επάρκεια σε CSS
     - key: user_info.css_proficiency.description
-      t: How proficient are you at CSS?
+      t: Πόσο ικανός είστε στo CSS?
 
     # backend proficiency
     - key: user_info.backend_proficiency
-      t: Back-end Proficiency
+      t: Επάρκεια σε  Back-end
     - key: user_info.backend_proficiency.description
-      t: How proficient are you at back-end development?
+      t: Πόσο ικανός είστε στην ανάπτυξη back-end?
 
     # gender
     - key: user_info.gender
-      t: Gender
+      t: Γένος
 
     # skin tone/appearance
     - key: user_info.race_ethnicity
-      t: Race & Ethnicity
+      t: Φυλή και εθνικότητα
 
     # other info
     - key: user_info.how_did_user_find_out_about_the_survey
-      t: How did you find out about this survey?
+      t: Πώς μάθατε για αυτήν την έρευνα?
     - key: user_info.email
-      t: Your Email
+      t: Το Email σας
     - key: user_info.country
-      t: Your Country or Region
+      t: Η χώρα ή περιοχή σας
     - key: user_info.github_username
-      t: Your GitHub Username
+      t: Το όνομα χρήστη σας στο GitHub
     - key: user_info.github_username.description
-      t: >
-        We might use GitHub usernames in the future to look at
-        repos and cross-reference publicly available information. 
+      t: > Θα μπορούσαμε να χρησιμοποιήσουμε τα ονόματα χρηστών του GitHub στο μέλλον για να τα δούμε τα
+         repos και παραπομπές διαθέσιμες στο κοινό..
     - key: user_info.industry_sector
-      t: Industry Sector
+      t: Βιομηχανικός τομέας
     - key: user_info.industry_sector.description
-      t: Which industry sector(s) do you work in?
+      t: Σε ποιον τομέα βιομηχανίας εργάζεστε;
     - key: user_info.industry_sector.others
-      t: Other Industry Sectors
+      t: Άλλοι κλάδοι της βιομηχανίας
     - key: user_info.industry_sector.others.description
-      t: Other industry sector(s) you work in not mentioned above.
+      t: Άλλοι βιομηχανικοί τομείς στους οποίους εργάζεστε, τα οποια δεν αναφέρονται παραπάνω.
 
     ###########################################################################
     # Other Tools
     ###########################################################################
 
     - key: tools_others.libraries
-      t: Libraries
+      t: Βιβλιοθήκες
     - key: tools_others.libraries.description
-      t: Which libraries do you regularly use?
+      t: Ποιες βιβλιοθήκες χρησιμοποιείτε τακτικά?
     - key: tools_others.libraries.others
-      t: Other Libraries
+      t: Άλλες Βιβλιοθήκες
     - key: tools_others.libraries.others.description
-      t: Other answers (freeform field).
+      t: Άλλες απαντήσεις (freeform field).
 
     - key: tools_others.text_editors
-      t: Text Editors
+      t: Eπεξεργαστές κειμένου (Text Editors)
     - key: tools_others.text_editors.description
-      t: Which text editor(s) do you regularly use?
+      t: Ποιο πρόγραμμα επεξεργασίας κειμένου (text editors) χρησιμοποιείτε τακτικά?
     - key: tools_others.text_editors.others
-      t: Other Text Editors
+      t: Άλλοι Eπεξεργαστές κειμένου
     - key: tools_others.text_editors.others.description
-      t: Other answers (freeform field).
+      t: Άλλες απαντήσεις (freeform field).
 
     - key: tools_others.utilities
-      t: Utilities
+      t: Βοηθητικά προγράμματα
     - key: tools_others.utilities.description
-      t: Which utilities or tools do you regularly use?
+      t: Ποια βοηθητικά προγράμματα ή εργαλεία χρησιμοποιείτε τακτικά?
     - key: tools_others.utilities.others
-      t: Other Utilities
+      t: Άλλα βοηθητικά προγράμματα
     - key: tools_others.utilities.others.description
-      t: Other utilities (freeform field).
+      t: Άλλα βοηθητικά προγράμματα (freeform field).
 
     - key: tools_others.browsers
-      t: Browsers
+      t: Πρόγραμμα περιήγησης
     - key: tools_others.browsers.description
-      t: Which browser(s) do you primarily work in during initial development?
+      t: Ποια προγράμματα περιήγησης χρησιμοποιείτε για ανάπτυξη?
     - key: tools_others.browsers.others
-      t: Other Browsers
+      t: Άλλα πρόγραμμα περιήγησης
     - key: tools_others.browsers.others.description
-      t: Other answers (freeform field).
+      t: Άλλες απαντήσεις (freeform field).
 
     - key: tools_others.build_tools
-      t: Build Tools
+      t: Εργαλεία κατασκευής
     - key: tools_others.build_tools.description
-      t: Which build tools do you use?
+      t: Ποια εργαλεία κατασκευής χρησιμοποιείτε?
     - key: tools_others.build_tools.others
-      t: Other Build Tools
+      t: Άλλα εργαλεία κατασκευής
     - key: tools_others.build_tools.others.description
-      t: Other answers (freeform field).
+      t: Άλλες απαντήσεις (freeform field).
 
     - key: tools_others.non_js_languages
-      t: Non-JavaScript Languages
+      t: Γλώσσες εκτός JavaScript
     - key: tools_others.non_js_languages.description
-      t: Which other programming languages do you use?
+      t: Ποιες άλλες γλώσσες προγραμματισμού χρησιμοποιείτε?
     - key: tools_others.non_js_languages.others
-      t: Other Languages
+      t: Άλλες γλώσσες
     - key: tools_others.non_js_languages.others.description
-      t: Other answers (freeform field).
+      t: Άλλες απαντήσεις (freeform field).
 
     ###########################################################################
     # Resources
@@ -675,30 +674,30 @@ translations:
 
     # blogs & magazines
     - key: resources.blogs_news_magazines
-      t: Blogs & Magazines
+      t: Blogs & Περιοδικά
     - key: resources.blogs_news_magazines.description
-      t: Which blogs/magazines/etc. do you read?
+      t: Ποια blogs/περιοδικά/κ.λπ. διαβάζεται?
     - key: resources.blogs_news_magazines.others
-      t: Other Blogs & Magazines
+      t: Άλλα Blogs & Περιοδικά
     - key: resources.blogs_news_magazines.others.description
-      t: Other answers (freeform field).
+      t: Άλλες απαντήσεις (freeform field).
 
     # sites & courses
     - key: resources.sites_courses
-      t: Sites & Courses
+      t: Ιστότοποι και σεμινάρια
     - key: resources.sites_courses.description
-      t: Which sites/courses/etc. do you consult?
+      t: Ποιους ιστότοπους/σεμινάρια/κ.λπ. συμβουλεύεσται?
     - key: resources.sites_courses.others
-      t: Other Sites & Courses
+      t: Άλλους ιστότοπους και σεμινάρια
     - key: resources.sites_courses.others.description
-      t: Other answers (freeform field).
+      t: Άλλες απαντήσεις (freeform field).
 
     # podcasts
     - key: resources.podcasts
       t: Podcasts
     - key: resources.podcasts.description
-      t: Which programming-related podcasts do you listen to?
+      t: Ποια podcast που σχετίζονται με τον προγραμματισμό ακούτε?
     - key: resources.podcasts.others
-      t: Other Podcasts
+      t: Άλλα Podcasts
     - key: resources.podcasts.others.description
-      t: Other answers (freeform field).
+      t: Άλλες απαντήσεις (freeform field).
