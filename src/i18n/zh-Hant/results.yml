@@ -455,7 +455,7 @@ translations:
     - key: award.tool_interest_award.title
       t: 最有興趣
     - key: award.tool_interest_award.description
-      t: 頒發給開發者們聽過後最有興趣學習的技術。
+      t: 頒發給開發者聽過後，最有興趣學習的技術。
 
     - key: award.resource_usage_award.title
       t: 最多使用的資源
@@ -478,32 +478,32 @@ translations:
 
     - key: hints.hint_hint
       t: >
-          你在整份問卷調查結果都能看到像這樣的小提示，它會顯示額外的功能和細節。
+          整份調查問卷結果都有這樣的小提示，會顯示額外的功能和細節。
 
     - key: hints.units_switcher_hint
       t: >
-          每一區右上角的分段控制器（segmented control）可以切換顯示百分比或原始次數。
+          每區右上角的分段控制器（segmented control）可以切換顯示百分比或原始計數。
 
     - key: hints.export_hint
       t: >
-          每一區上方的 <span class="hint-export-button">匯出</span> 按鈕可以讓你取得圖表的原始 JSON 資料或 GraphQL query。
+          每區上方的<span class="hint-export-button">匯出</span>按鈕可以取得圖表的原始 JSON 資料或 GraphQL query。
 
     - key: hints.completion_hint
       t: >
-          所有問題都是選填，所以有些問題的回答數可能會比較少。這個圖示（<span class="hint-completion-indicator">◕</span>）會註明回答問題的人有多少。
+          問題都是選填，所以有些回答數可能比較少。完成比例圖示（<span class="hint-completion-indicator">◕</span>）會註明確切的答題人數。
 
     - key: hints.tool_modal_hint
       t: >
-          點選某個技術的名稱，你就能得到更多資訊，並深入檢視相關資料。
+          點選技術的名稱後，可以看到更多細節，並深入檢視相關資料。
 
     - key: hints.rankings_modes_hint
       t: >
-          你可以自由勾選排名圖表是否顯示滿意度、有興趣、實際使用、有聽過比例，使各類別的排名一目了然。
+          自由勾選排名圖表是否顯示滿意度、有興趣、實際使用、有聽過比例，使各類別的排名一目了然。
 
     - key: hints.sharing_hint
       t: >
-          科學研究顯示，透過 Twitter、Facebook，或 email 分享本研究調查，最高可以讓你的 JavaScript 功力增加 15%。
+          科學研究顯示，透過 Twitter、Facebook 或 email 分享本研究調查，最高可以讓 JavaScript 功力增加 15%。
 
     - key: hints.tshirt_hint
       t: >
-          另一項科學研究發現：購買我們的 T-shirt 可以讓你的 JavaScript 知識增加 9000 分！
+          另一項科學研究發現：購買我們的 T-shirt 可以讓 JavaScript 知識增加 9000 分！
