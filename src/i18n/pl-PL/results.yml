@@ -152,6 +152,8 @@ translations:
       t: Japoński
     - key: options.locale.ua-UA
       t: Ukraiński
+    - key: options.locale.pl-PL
+      t: Polski
 
     ###########################################################################
     # Features

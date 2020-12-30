@@ -148,6 +148,8 @@ translations:
       t: Индонезийский
     - key: options.locale.hi-IN
       t: Хинди
+    - key: options.locale.pl-PL
+      t: Польский
 
     ###########################################################################
     # Features

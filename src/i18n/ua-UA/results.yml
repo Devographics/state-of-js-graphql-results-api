@@ -150,6 +150,8 @@ translations:
       t: Індонезійська
     - key: options.locale.hi-IN
       t: Хінді
+    - key: options.locale.pl-PL
+      t: польська
 
     ###########################################################################
     # Features

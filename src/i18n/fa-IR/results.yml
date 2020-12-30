@@ -147,6 +147,8 @@ translations:
       t: Indonesian
     - key: options.locale.hi-IN
       t: Hindi
+    - key: options.locale.pl-PL
+      t: Polish
 
     ###########################################################################
     # Features
