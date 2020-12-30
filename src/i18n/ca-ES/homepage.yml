@@ -1,54 +1,54 @@
-locale: en-US
+locale: ca-ES
 translations:
     ###########################################################################
     # Homepage
     ###########################################################################
 
     - key: homepage.hand_coded
-      t: Hand-coded in Japan.
+      t: Codificat a Japan.
     - key: homepage.leave_issue
-      t: Leave an issue
+      t: Deixa'ns un suggeriment
     - key: homepage.get_in_touch
-      t: Get in touch
+      t: Contacta amb nosaltres
 
     - key: homepage.made_by
-      t: 'The State of CSS is Made by:'
+      t: "L'Estat de CSS ha estat realitzat per:"
     - key: homepage.leave_issue
-      t: Leave an issue
+    - key: homepage.get_in_touch
 
     - key: homepage.previous_years
-      t: 'Previous Years:'
+      t: 'Anys anteriors:'
 
     - key: homepage.intro
       t: >
-          ## CSS is evolving faster than ever.
+          ## CSS està evolucionant més de pressa que mai.
 
-          Flexbox, Grid, Multi-Column… To say nothing of whole new paradigms like CSS-in-JS.
+          Flexbox, Grid, Multi-Column… Per no parlar de nous paradigmes com CSS-in-JS.
 
-          So after the success of our annual [State Of JavaScript](https://stateofjs.com) survey, we’ve decided to take on
-          the world of styles and selectors to help identify the latest trends… and try to bridge
-          the ever-growing “great front-end divide”!
+          Així que, després de l'èxit de l'enquesta anual [Estat de JavaScript](https://stateofjs.com),
+          hem decidit adoptar el món dels estils i els selectors per ajudar a identificar les últimes tendències…
+          i així intentar salvar la sempre creixent "gran divisió de front-end"
 
     - key: homepage.take_survey
-      t: Take Survey
+      t: Comença l'enquesta
 
     - key: homepage.view_results
-      t: View 2019 Results
+      t: Visualitza els resultats de 2019
 
     - key: share.help_spread
-      t: Help Spread the Word!
+      t: Ajuda'ns a divulgar-la!
 
     - key: newsletter.stay_tuned
-      t: Stay Tuned
+      t: Atenció a nova informació
     - key: newsletter.leave_your_email
-      t: Leave us your email and we’ll let you know when the next survey takes place.
+      t: Deixa'ns el teu correu electrònic i t'avisarem quan es faci la propera enquesta.
 
     - key: author.sacha.bio
       t: >
-          Creator of the [Nivo](http://nivo.rocks/) JavaScript data visualization library as well
-          as [Mozaik](http://mozaik.rocks/), a tool for building beautiful dashboards.
+          Creador de la llibreria de visualització de dades de JavaScript [Nivo](http://nivo.rocks/),
+          així com [Mozaik](http://mozaik.rocks/), una eina per construir taulers elegants.
 
     - key: author.raphael.bio
       t: >
-          Creator of the [Sidebar](http://sidebar.io) daily newsletter and
-          [VulcanJS](http://vulcanjs.org), a React+GraphQL open-source framework.
+          Creador del butlletí diari [Sidebar](http://sidebar.io) i
+          [VulcanJS](http://vulcanjs.org), un framework de codi obert fet amb React+GraphQL.

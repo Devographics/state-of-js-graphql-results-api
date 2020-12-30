@@ -1,4 +1,4 @@
-locale: en-US
+locale: ca-ES
 namespace: js
 translations:
     ###########################################################################
@@ -7,10 +7,8 @@ translations:
 
     - key: general.survey_intro_js2020
       t: >
-          2020 has been a tough year for everyone, one that makes worrying about the
-          latest JavaScript frameworks seem pretty futile in comparison. 
+          El 2020 ha estat un any difícil per a tothom, que fa que la preocupació pels
+          darrers frameworks de JavaScript semblin força inútils en comparació.
 
-          
-          Still, the world has to move on, and so does JavaScript. And once again, with your help
-          we'll try to build a comprehensive picture of the ecosystem to find out a little bit more
-          about where it's going. 
+          Tot i així, el món ha de seguir endavant, i JavaScript també ho fa. I, una vegada més, amb la teva ajuda
+          intentarem crear una imatge completa de l'ecosistema per esbrinar una mica més cap a on va.

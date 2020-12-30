@@ -1,4 +1,4 @@
-locale: en-US
+locale: ca-ES
 namespace: js
 translations:
     ###########################################################################
@@ -6,7 +6,7 @@ translations:
     ###########################################################################
 
     - key: general.results.description
-      t: The annual survey about the latest trends in the JavaScript ecosystem.
+      t: L'enquesta anual sobre les últimes tendències en l'ecosistema JavaScript.
 
     ###########################################################################
     # Introduction
@@ -15,76 +15,73 @@ translations:
     - key: sections.introduction.description
       t: |
 
-            <span class="first-letter">A</span>s crappy as 2020 was, JavaScript as a whole still managed to somehow move forward. As the language itself keeps improving
-            thanks to new features like Optional Chaining and Nullish Coalescing, TypeScript's widespread adoption is taking things to a whole other level by popularizing static typing (cue non-JS devs everywhere laughing –or crying– quietly). 
+            <span class="first-letter">P</span>er molt merda que hagi estat el 2020, JavaScript encara ha aconseguit avançar d'alguna manera. A mesura que el llenguatge en sí continua millorant
+            gràcies a les noves característiques com Optional Chaining i Nullish Coalescing, l'adopció generalitzada de TypeScript està portant les coses a un altre nivell popularitzant la tipificació estàtica (persones que no desenvolupen en JS silenciosament rient -o plorant- arreu).
 
-            And on the framework side, just when we though things were settling down, Svelte comes in and promises to shake everything up with a fresh take on the front-end. And even build tools are showing signs of new activity after years of Webpack hegemony. 
+            I pel que fa al framework, just quan pensàvem que les coses s'anaven establint, arriba Svelte i promet remoure-ho tot amb una nova visió de front-end. I fins i tot eines de build mostren signes de nova activitat després d'anys d'hegemonia de Webpack.
 
-            But the difference this time is that the “old” guard –relatively speaking– is not going anywhere. Svelte and Snowpack are great, but so are React and Webpack. And sure, they too will eventually fall prey to the Great JavaScript Churn, but not for many, many years. 
+            Però la diferència aquest cop és que la "vella" guàrdia -parlant en termes relatius- no va enlloc. Svelte i Snowpack són fantàstics, per també ho són React i Webpack. I segur que també acabaran sent presa de la Great JavaScript Churn, però no per massa anys.
 
-            So let's enjoy what we have here: a great ecosystem that just keeps getting even better!
+            Per tant, gaudim del que tenim aquí: un gran ecosistema que no para de millorar!
 
             ### Team
 
-            The State of JavaScript Survey is created and maintained by [Sacha Greif](https://twitter.com/sachagreif) and [Raphaël Benitte](https://twitter.com/benitteraphael).
+            L'enquesta de l'Estat de JavaScript ha estat creada i és mantinguda per [Sacha Greif](https://twitter.com/sachagreif) i [Raphaël Benitte](https://twitter.com/benitteraphael).
 
             ### Download Our Data
 
-            You can [download the raw JSON data for this survey](https://www.kaggle.com/sachag/state-of-js). Let us know if you end up making your own data visualizations!
+            Et pots [descarregar les dades en cru en format JSON d'aquesta enquesta](https://www.kaggle.com/sachag/state-of-js). Fes-nos saber is has acabat fent les teves pròpies visualizations de les dades!
 
             ### Other Links
 
-            - [State of CSS Homepage](https://stateofcss.com)
-            - [State of JS Homepage](https://stateofjs.com)
+            - [Pàgina principal de l'Estat de CSS](https://stateofcss.com)
+            - [Pàgina principal de l'Estat de JS](https://stateofjs.com)
 
             ### Thanks
 
-            Thanks to [Alexey Pyltsyn](https://github.com/lex111) for his help with translations.  
+            Agrïments a [Alexey Pyltsyn](https://github.com/lex111) per la seva ajuda en les traduccions.
 
             ### Credits & Stuff
 
-            The site is set in IBM Plex Mono. Questions? Feedback? [Get in touch!](mailto:hello@stateofjs.com)
+            El lloc web està configurat a IBM Plex Mono. Tens preguntes? Comentaris? [Posa't en contacte amb nosaltres!](mailto:hello@stateofjs.com)
 
-            And now, let's see what JavaScript has been up to this year!
+            I ara, vegem què ha passat amb JavaScript aquest any!
 
-            <span class="conclusion__byline">– Sacha and Raphaël</span>
+            <span class="conclusion__byline">– Sacha i Raphaël</span>
 
     ###########################################################################
     # Tshirt
     ###########################################################################
 
     - key: sections.tshirt.title
-      t: T-shirt
+      t: Samarreta
 
     - key: sections.tshirt.description
       t: |
-          ## Support the survey and look good in the process!
+          ## Dóna suport a l'enquesta i queda bé en el procéss!
 
-          We've updated last year's very popular 👕 State of JavaScript T-shirt 👕 for 
-          the 2020 JavaScript landscape!
+          Hem actualitzat la popular 👕 samarreta de l'Estat de JavaScript 👕 de l'any passat amb el nou panorama de 2020.
 
-          The shirt features a ”periodic table of JavaScript” that lists the most popular 
-          libraries grouped by category, along with their GitHub stars counts (in thousands).
+          La samarreta inclou una "taula periòdica de JavaScript" que llista les llibreries més populars
+          agrupades per categoria, juntament amb el recompte d'estrelles a GitHub (expressades en milers).
 
-          This shirt is a great way to familiarize yourself with the JavaScript ecosystem, 
-          and maybe even strike up a conversation with other like-minded 
-          JavaScript developers!
+          Aquesta samarreta és una bona manera de familiaritzar-te amb l'ecosistema de JavaScript,
+          i potser fins i tot de mantenir una conversa amb altres desenvolupadors amb idees similars.
     
     - key: tshirt.about
-      t: About the T-shirt
+      t: Sobre la samarreta
 
     - key: tshirt.description
       t: |
-          The design is printed on a black heather [Bella+Canvas 3001 unisex premium 
-          t-shirt](https://www.printful.com/custom/mens/t-shirts/unisex-premium-t-shirt-bella-canvas-3001) (men’s) with a semi-slim fit; 
-          or a heather dark grey [Anvil 880 Women's Fashion Fit T-Shirt](https://www.printful.com/custom/womens/t-shirts/womens-fashion-fit-t-shirt) (women‘s). 
-          Sizing uses U.S. sizes.
+          El disseny s'ha imprès en un fons negre [Bella+Canvas 3001 unisex premium T-Shirt](https://www.printful.com/custom/mens/t-shirts/unisex-premium-t-shirt-bella-canvas-3001) (per a homes) en forma semi ajustada;
+          o un fons gris fosc [Anvil 880 Women's Fashion Fit T-Shirt](https://www.printful.com/custom/womens/t-shirts/womens-fashion-fit-t-shirt) (per a dones).
+          Les mesures utilitzen el sistema d'EEUU.
 
     - key: tshirt.getit
-      t: Get It
+      t: Aconsegueix-la
 
     - key: tshirt.price
-      t: USD $24 + shipping
+      t: 24 dòlars + transport
 
     ###########################################################################
     # Sections Introductions
@@ -92,75 +89,72 @@ translations:
 
     - key: sections.user_info.description
       t: |
-          TODO
-
-          This year's survey reached **11,492** people in **102** countries. For the first time this year,
-          we were able to translate the survey questions in multiple languages thanks to an awesome team of volunteers.
+          L'enquesta d'aquest any ha arribat a **11.492** persones a **102** països. Per primer cop aquest any,
+          hem estat capaços de traduir les preguntes de l'enquesta a múltiples idiomes gràcies a un fantàstic equip de persones voluntàries.
 
     - key: sections.features.description
       t: |
-          While most respondents were aware of the majority of JavaScript features 
-          mentioned in the survey, many still have yet to actually use most of them. 
+          Tot i que la majoria de participants tenien coneixement de la majoria de característiques
+          de JavaScript mencionades a l'enquesta, a alguns encara els en queden unes quantes per utilitzar.
 
     - key: sections.technologies.description
       t: |
-          The typical new JavaScript library shows high satisfaction but low usage, which can sometimes make
-          selecting the right technology for your needs a bit tricky. This is where looking at
-          the data can really help point you in the right direction. 
+          La nova llibreria de JavaScript ens mostra una alta satisfacció però poc ús, cosa que fa que
+          algunes vegades sigui difícil escollir la tecnologia que necessites. És en aquest punt on
+          el fet de mirar les dades et pot ajudar a orientar-vos cap a la bona direcció.
 
     - key: sections.javascript_flavors.description
       t: |
-          The trend of “flavors” of JavaScript that compile down to standard code started all these
-          years ago with CoffeeScript, but it's now clear that TypeScript is the uncontested leader in
-          that category. 
+          La tendència dels "savors" de JavaScript que compilen fins el codi estàndard va començar
+          anys enrere amb CoffeeScript, però ha quedat clar que TypeScript és el líder incondicional en
+          aquesta categoria.
 
     - key: sections.front_end_frameworks.description
       t: |
-          As usual React and Vue lead the pack, but Svelte is quickly establishing itself as a very 
-          serious contender for the front-end crown. 
+          Com és habitual, React i Vue lideren el grup, però Svelte s'està establint ràpidament com a un
+          aspirant estable per aconseguir escalar posicions en el món front-end.
 
     - key: sections.datalayer.description
       t: |
-          While the datalayer space is still in constant movement, one thing seems clear: GraphQL and
-          its related technologies are here to stay. 
+          Tot i que l'espai del datalayer és encara en constant moviment, una cosa sí que és clara:
+          GraphQL i les tecnologies que s'hi relacionen han vingut per quedar-se.
 
     - key: sections.back_end_frameworks.description
       t: |
-          The back-end space is still very fragmented, but Express stands out as the one dominant
-          tool, while Next.js maintains its high satisfaction ratio. 
+          L'espai back-end encara és molt fragmentat, però Express destaca com l'eina dominant,
+          mentre que Next.js manté el seu alt nivell de satisfacció.
 
     - key: sections.testing.description
       t: |
-          The testing ecosystem keeps getting richer, with new entrants Testing Library and Playwright both
-          scoring high marks on the satisfaction index. 
+          L'ecosistema de test segueix enriquint-se, amb nous candidats com Testing Library i Playwright,
+          ambdós obtenint una puntuació alta en l'índex de satisfacció.
 
     - key: sections.build_tools.description
       t: |
-          Just when it seemed like Webpack's dominance had settled the debate, the build tools scene
-          has again exploded with new entrants like Snowpack and ESBuild, leading us to give it a full 
-          section for the first time since 2017. 
+          Just quan semblava que el domini de Webpack havia resolt el debat, el marc d'eines de build
+          ha tornat a explotar amb nous candidats com Snowpack i ESBuild, portant-nos a dedicar-los una
+          secció sencera per primer cop des de 2017.
 
     - key: sections.mobile_desktop.description
       t: |
-          JavaScript is not just for the browser, and while Electron and React Native are the two 
-          best-known names in this category, other solutions like Expo and Capacitor are also starting 
-          to make waves. 
+          JavaScript no és només pels navegadors, i si bé Electron i React Native són els dos noms
+          més coneguts d'aquesta categoria, altres solucions com Expo i Capacitor també estan començant
+          a fer soroll.
 
     - key: sections.other_tools.description
       t: |
-          The diversity and quantity of libraries, utilities, and other tools highlights how vast the JavaScript
-          ecosystem has become, and for the first time this year we're also tracking JavaScript runtimes 
-          such as Deno and Hermes. 
+          La diversitat i quantitat de llibreries, utilitats i altres eines ressalten l'extensió de l'ecosistema
+          de JavaScript, i, per primera vegada aquest any, també fem un seguiment de runtimes de JavaScript
+          com Deno i Hermes.
 
     - key: sections.resources.description
       t: |
-          Many great resources are listed here, and we're sure that you'll find at least a few new 
-          blogs or podcasts to follow!
+          Aquí s'enumeren molts bons recursos, i segur que trobaràs almenys alguns blogs i podcasts nous per seguir!
 
     - key: sections.opinions.description
       t: |
-          While things are generally looking good in JavaScript land, there does seem to be a bit of a
-          come-down from the positivity high-point of 2018. Will the trend persist? Tune in next year to find out!
+          Tot i que les coses es veuen generalment bé al terreny de JavaScript, sembla que hi ha certa
+          desacceleració de la positivitat de 2018. Persistirà aquesta tendència? Atén al proper any per descobrir-ho!
 
           
     ###########################################################################
@@ -169,35 +163,32 @@ translations:
 
     - key: blocks.source.note
       t: >
-      
-        TODO
+        Aquest gràfic agrupa una combinació de referents, paràmetres d'URL i respostes de forma lliure.
 
-        This chart aggregates a mix of referrers, URL parameters, and freeform answers. 
+        - Estat de JS: la llista de correu de l'[Estat de JS](https://stateofjs.com).
 
-        - State of JS: the [State of JS](https://stateofjs.com) mailing list.
+        - Estat de CSS: la llista de correu de l'[Estat de CSS](https://stateofcss.com/); també coincideix amb `correu electrònic`, `per correu electrònic`, etc.
 
-        - State of CSS: the [State of CSS](https://stateofcss.com/) mailing list; also matches `email`, `by email`, etc.
-
-        - Work: matches `work`, `colleagues`, `coworkers`, etc.
+        - Feina: coincideix `feina`, `col·legues`, `companys de feina`, etc.
 
     ###########################################################################
     # Awards
     ###########################################################################
 
     # - key: award.feature_adoption_delta_award.comment
-    #   t: With a **${value}** progression in 2020, this was the year CSS Grid crossed over from new technology to established tool.
+    #   t: Amb una progressió de **${value}** el 2020, aquest ha estat l'any en què CSS Grid ha passat de ser una nova tecnologia a una eina establerta.
 
     - key: award.tool_usage_delta_award.comment
-      t: TypeScript was already popular, and with a **${value}** growth in usage it looks like it's only going to get more ubiquitous going forward.
+      t: TypeScript ja era popular, i amb un creixement d'ús del **${value}** sembla que tendeix a ser més omnipresent en el futur.
 
     - key: award.tool_satisfaction_award.comment
-      t: With a sky-high satisfaction rating of **${value}**, Testing Library is 2020's overall most beloved tool. 
+      t: Amb una qualificació de satisfacció màxima de **${value}**, Testing Library és l'eina més estimada de 2020.
 
     - key: award.tool_interest_award.comment
-      t: GraphQL continues to be the one thing developers want to learn more about, as soon as they can finally find the time. 
+      t: GraphQL segueix sent l'única cosa que els desenvolupadors volen aprendre, sempre i quan puguin trobar el temps per fer-ho.
 
     # - key: award.most_write_ins_award.comment
-    #   t: Many questions also accepted write-in answers, and with **${value}** mentions PhpStorm was the most popular item overall.
+    #   t: Moltes preguntes acceptaven també respostes de tipus escrites i, amb **${value}** mencions, PhpStorm ha estat el més popular en general.
 
       
     ###########################################################################
@@ -206,23 +197,23 @@ translations:
 
     - key: sections.conclusion.description
       t: |
-            Since ancient times, philosophers have pondered the Paradox of JavaScript: on one hand, you can't wait for exciting new language features and libraries that promise to make your developer experience so much better. 
+            Des de l'antiguitat, els filòsofs han reflexionat sobre la paradoxa de JavaScript: per una banda, no pots esperar noves característiques i llibreries excitants que et prometin millorar la teva experiència en el desenvolupament.
 
-            But at the same time, you crave stability and simplicity so you can finally get things done without having to spend half your time browsing through convoluted GitHub issues threads and outdated Stack Overflow questions. 
+            Però al mateix temps, demanes estabilitat i senzillesa per poder fer les coses sense haver d'invertir la meitat del teu temps en navegar per fils de GitHub i preguntes desfassades de Stack Overflow.
 
-            So which is it? Do we want the new shiny, or the old reliable? More than ever, 2020 shows that we won't settle for anything less than *both*. The good news is that the JavaScript community has risen up to the challenge, which promises an exciting 2021!
+            Així doncs, de què parlem? Volem el nou i brillant, o el vell però fiable? Més que mai, el 2020 ens mostra que no ens conformarem amb menys que *ambdós*. La bona notícia és que la comunitat JavaScript ha assumit el repte, cosa que promet un 2021 emocionant!
 
     ###########################################################################
     # Picks
     ###########################################################################
 
     - key: picks.my_2020_pick
-      t: 'My 2020 Pick: '
+      t: 'La meva selecció de 2020: '
     - key: picks.intro
-      t: We asked members of the JavaScript community to share their “pick of the year”
+      t: Hem demanat a membres de la comunitat de JavaScript que comparteixin la seva "selecció de l'any"
 
     - key: picks.joshwcomeau.bio
-      t: Software-engineer-turned-educator
+      t: Enginyer de software convertit a educador
     - key: picks.joshwcomeau.description
       t: |
             This is a fantastic intro resource for learning about web accessibility! 

@@ -1,4 +1,4 @@
-locale: en-US
+locale: ca-ES
 translations:
     ###########################################################################
     # General
@@ -6,176 +6,176 @@ translations:
 
     # homepage
     - key: general.why_create_account
-      t: Why do I need to create an account?
+      t: Per què necessito crear un compte?
     - key: general.create_account_reasons
       t: >
-          We ask you to create an account in order to:
+          Et demanem que et creïs un compte per:
 
-          - Avoid duplicate responses
+          - Evitar respostes duplicades
 
-          - Give you access to your data
+          - Donar-te accés a les teves dades
 
-          - Save your session as you go
+          - Guardar la sessió a mesura que avances
 
-          - Notify you when results are live
+          - Notificar-te quan es publiquin els resultats
     - key: general.survey_closed
       t: >
-          Sorry, the survey is now closed! You can still review your data but you won't be able to modify it.
+          Ho sentim, l'enquesta ja s'ha tancat! Encara pots revisar les teves respostes però no les podràs modificar.
     - key: general.survey_read_only
       t: >
-          You are currently viewing this survey in read-only mode.
+          Actualment estàs veient l'enquesta en mode lectura.
     - key: general.survey_read_only_back
       t: >
-          <a href="${link}">Go back</a> to the main survey page to start or resume a session.
+          <a href="${link}">Tornar</a> a la pàgina principal de l'enquesta per començar o reprendre una sessió.
 
     # surveys
     - key: general.open_surveys
-      t: Open Surveys
+      t: Enquestes obertes
     - key: general.no_open_surveys
-      t: No surveys are currently open.
+      t: Actualment no hi ha enquestes obertes.
     - key: general.closed_surveys
-      t: Closed Surveys
+      t: Enquestes tancades
     - key: general.no_closed_surveys
-      t: No surveys are currently closed.
+      t: Actualment no hi ha cap enquesta tancada.
     - key: general.preview_surveys
-      t: Preview Surveys
+      t: Previsualitzar Enquestes
     - key: general.no_preview_surveys
-      t: No surveys available to preview.
+      t: No hi ha cap enquesta disponible per previsuaitzar.
     - key: general.start_survey
-      t: Start Survey »
+      t: Començar l'Enquesta »
     - key: general.continue_survey
-      t: Continue Survey »
+      t: Continuar l'Enquesta »
     - key: general.review_survey
-      t: Review Survey »
+      t: Revisar l'Enquesta »
     - key: general.preview_survey
-      t: Preview Survey »
+      t: Previsualitzar l'Enquesta »
     - key: general.finish_survey
-      t: Finish Survey »
+      t: Finalitzar l'Enquesta »
     - key: general.survey_closed
-      t: This survey is now closed.
+      t: Aquesta enquesta és tancada.
     - key: general.survey_results
-      t: View Survey Results »
+      t: Visualitzar els resultats de l'Enquesta »
     - key: general.surveys_available_languages
-      t: 'Surveys available in:'
+      t: 'Enquestes disponibles en:'
     - key: general.help_us_translate
-      t: Help us translate the surveys »
+      t: Ajuda'ns a traduir les enquestes »
     - key: general.translators
-      t: Translators
+      t: Traductors
     - key: general.translation_help
-      t: Translation Help
+      t: Ajuda amb les traduccions
 
     # footer
     - key: general.privacy_policy
-      t: Privacy Policy
+      t: Política de Privacitat
     - key: general.leave_issue
-      t: Questions? Found a bug? <a href="${link}" target="_blank">Leave an issue</a>.
+      t: Tens preguntes? Has trobat un error? <a href="${link}" target="_blank">Obre'ns una incidència</a>.
     - key: general.emoji_icons
-      t: Emoji icons by <a target="_blank" rel="noreferrer" href="https://icons8.com">Icons8</a>
+      t: Emojis per <a target="_blank" rel="noreferrer" href="https://icons8.com">Icons8</a>
 
     # navigation
     - key: general.table_of_contents
-      t: Table of Contents
+      t: Taula de Continguts
     - key: general.all_questions_optional
       t: >
-          Note: all questions are optional, reaching 100% completion is not required.
+          Nota: totes les preguntes són opcionals, no es requereix respondre-les al 100%.
     - key: general.data_is_saved
-      t: Your data is saved whenever you navigate to the previous or next section.
+      t: Les teves respostes es guarden quan navegues cap a les diferents seccions.
 
     # thanks
     - key: general.back
-      t: Back
+      t: Enrere
     - key: general.thanks
       t: >
-          Thanks for filling out the survey!
+          Gràcies per omplir l'enquesta!
 
-          Your data is saved. You can review or modify it until the survey closes.
+          Les teves respostes s'han guardat. Pots revisar-les o modificar-les mentre l'enquesta no es tanqui.
 
-          Also, you can help us get the word out by sharing this survey. Every bit counts, and it'll help make our data even
-          more representative:
+          A més a més, pots ajudar-nos a difondre el missatge compartint aquesta enquesta.
+          Cada petit gest compta, i ens ajudarà a tenir uns resultats encara més representatius:
     - key: thanks.learn_more_about
-      t: 'Some of the features you might want to learn more about:'
+      t: 'Algunes de les característiques de les quals vols aprendre més:'
     - key: thanks.knowledge_score
-      t: Knowledge Score
+      t: Puntuació del Coneixement
     - key: thanks.score_explanation
       t: >
-          You’ve heard or used <span class="score-number score-number-known">{known}</span> out of
-          <span class="score-number score-number-total">{total}</span> features mentioned in the survey, which
-          puts you in the top <span class="score-number score-number-ranking">{knowledgeRankingFromTop}%</span>
-          of all respondents.
+          Et sonen o has usat <span class="score-number score-number-known">{known}</span> característiques de
+          <span class="score-number score-number-total">{total}</span> mencionades a l'enquesta, cosa que
+          et posa al capdamunt de <span class="score-number score-number-ranking">{knowledgeRankingFromTop}%</span>
+          de tothom que ha respòs.
     - key: thanks.share_on_twitter
-      t: Share on Twitter
+      t: Comparteix-ho a Twitter
     - key: thanks.share_score_message
       t: >
-          I got a {score}% knowledge score on this year's #{hashtag} survey! Take the survey here: {shareUrl}
+          He obtingut una puntuació de {score}% en l'enquesta #{hashtag} d'aquest any! Fes l'enquesta aquí: {shareUrl}
     # share
     - key: general.share_subject
       t: >
-          {surveyName} survey
+          Enquesta {surveyName}
     - key: general.share_text
       t: >
-          This year's {surveyName} survey is now open! {link}
+          L'enquesta {surveyName} d'aquest any ja és oberta! {link}
 
     # forms
     - key: forms.select_option
-      t: Select option
+      t: Selecciona una opció
 
     # partners
     - key: partners.our_partners
-      t: Our Partners
+      t: Els nostres Socis
     - key: partners.become_partner
-      t: Become a partner
+      t: Converteix-te en soci
 
     # 404
     - key: notfound.title
-      t: 404 Not Found
+      t: 404 Not Trobat
     - key: notfound.description
-      t: Sorry, we couldn't find what you were looking for. 
+      t: Ho sentim, no podem trobar el que estàs buscant.
 
     # other
     - key: general.join_discord
-      t: Join us on <a href="${link}">Discord</a>. 
+      t: Uneix-te a <a href="${link}">Discord</a>.
     - key: general.translator_mode
-      t: Press option/alt to enable translator mode. 
+      t: Prem option/alt per habilitar el mode de traducció.
     - key: general.charts_nivo
-      t: Charts built with <a href="${link}">Nivo</a>.
+      t: Gràfics creats amb <a href="${link}">Nivo</a>.
       
     ###########################################################################
     # Nav
     ###########################################################################
 
     - key: nav.surveys
-      t: Surveys
+      t: Enquestes
     - key: nav.account
-      t: Account
+      t: Compte
 
     ###########################################################################
     # Sections
     ###########################################################################
 
     - key: sections.user_info.title
-      t: About You
+      t: Sobre tu
     - key: sections.user_info.description
-      t: Let's get to know the real you.
+      t: Deixa'ns coneixer l'autèntic tu.
 
     - key: sections.features.title
-      t: Features
+      t: Característiques
     - key: sections.features.description
-      t: Syntax, keywords, and other language features.
+      t: Sintaxi, paraules clau i altres característiques del llenguatge.
 
     - key: sections.resources.title
-      t: Resources
+      t: Recursos
     - key: sections.resources.description
-      t: What {topic} resources do you consult?
+      t: Quins recursos consultes en relació a {topic}?
 
     - key: sections.opinions.title
       t: Opinions
     - key: sections.opinions.description
-      t: How do you feel about the state of {topic}?
+      t: Com et sents en relació a l'estat de {topic}?
 
     - key: sections.other_tools.title
-      t: Other Tools
+      t: Altres Eines
     - key: sections.other_tools.description
-      t: For these tools & technologies, just check the ones that you use regularly.
+      t: D'aquestes eines i tecnologies, marca només aquelles que uses amb regularitat.
 
     ###########################################################################
     # Options
@@ -183,129 +183,129 @@ translations:
 
     # features
     - key: options.features.never_heard
-      t: 🤷 Never heard of it/Not sure what it is
+      t: 🤷 No n'he sentit a parlar mai/No tinc clar què és
     - key: options.features.heard
-      t: ✅ Know what it is, but haven't used it
+      t: ✅ Sé el que és però no ho he usat
     - key: options.features.used
-      t: 👍 I've used it
+      t: 👍 Ho he usat
 
     # features (no emoji)
     - key: options.features.never_heard.label
-      t: Never heard of it/Not sure what it is
+      t: No n'he sentit a parlar mai/No tinc clar què és
     - key: options.features.heard.label
-      t: Know what it is, but haven't used it
+      t: Sé el que és però no ho he usat
     - key: options.features.used.label
-      t: I've used it
+      t: Ho he usat
 
     # features (short versions)
     - key: options.features.never_heard.short
-      t: Never heard of it
+      t: No n'he sentit a parlar mai
     - key: options.features.heard.short
-      t: Know about it
+      t: Ho conec
     - key: options.features.used.short
-      t: Have used it
+      t: Ho he usat
 
     # patterns
     - key: options.patterns.use_never
-      t: Almost always avoid
+      t: Gairebé sempre ho evito
     - key: options.patterns.use_sparingly
-      t: Use sparingly
+      t: Ho utilitzo amb moderació
     - key: options.patterns.use_neutral
       t: Neutral
     - key: options.patterns.use_frequently
-      t: Use frequently
+      t: Ho utilitzo amb freqüència
     - key: options.patterns.use_always
-      t: Use as much as I can
+      t: Ho utilitzo sempre que puc
 
     # tools experience
     - key: options.tools.never_heard
-      t: 🤷 Never heard of it/Not sure what it is
+      t: 🤷 No n'he sentit a parlar mai/No tinc clar què és
     - key: options.tools.interested
-      t: ✅ Heard of it > Would like to learn
+      t: ✅ N'he sentit a parlar > M'agradaria aprendre'n
     - key: options.tools.not_interested
-      t: 🚫 Heard of it > Not interested
+      t: 🚫 N'he sentit a parlar > No m'interessa
     - key: options.tools.would_use
-      t: 👍 Used it > Would use again
+      t: 👍 Ho he usat > Ho tornaria a fer
     - key: options.tools.would_not_use
-      t: 👎 Used it > Would not use again
+      t: 👎 Ho he usat > No ho tornaria a fer
 
     # tools experience (no emoji)
     - key: options.tools.never_heard.legend
-      t: Never heard of it/Not sure what it is
+      t: No n'he sentit a parlar mai/No tinc clar què és
     - key: options.tools.interested.legend
-      t: Heard of it > Would like to learn
+      t: N'he sentit a parlar > M'agradaria aprendre'n
     - key: options.tools.not_interested.legend
-      t: Heard of it > Not interested
+      t: N'he sentit a parlar > No m'interessa
     - key: options.tools.would_use.legend
-      t: Used it > Would use again
+      t: Ho he usat > Ho tornaria a fer
     - key: options.tools.would_not_use.legend
-      t: Used it > Would not use again
+      t: Ho he usat > No ho tornaria a fer
 
     # tools experience (short versions)
     - key: options.tools.never_heard.short
-      t: Never heard
+      t: No em sona
     - key: options.tools.interested.short
-      t: Interested
+      t: M'interessa
     - key: options.tools.not_interested.short
-      t: Not interested
+      t: No m'interessa
     - key: options.tools.would_use.short
-      t: Would use again
+      t: Ho tornaria a usar
     - key: options.tools.would_not_use.short
-      t: Would not use
+      t: No ho usaria
 
     # happiness
     - key: options.happiness.0
-      t: Very Unhappy
+      t: Molta insatisfacció
     - key: options.happiness.1
-      t: Unhappy
+      t: Insatisfacció
     - key: options.happiness.2
       t: Neutral
     - key: options.happiness.3
-      t: Happy
+      t: Satisfacció
     - key: options.happiness.4
-      t: Very Happy
+      t: Molta satisfacció
 
     # happiness (short version)
     - key: options.happiness.0.short
-      t: Very Unhappy
+      t: Molta insatisfacció
     - key: options.happiness.1.short
-      t: Unhappy
+      t: Insatisfacció
     - key: options.happiness.2.short
       t: Neutral
     - key: options.happiness.3.short
-      t: Happy
+      t: Satisfacció
     - key: options.happiness.4.short
-      t: Very Happy
+      t: Molta satisfacció
 
     # opinions
     - key: options.opinions.0
-      t: Disagree Strongly
+      t: Molt en desacord
     - key: options.opinions.1
-      t: Disagree
+      t: En desacord
     - key: options.opinions.2
       t: Neutral
     - key: options.opinions.3
-      t: Agree
+      t: D'acord
     - key: options.opinions.4
-      t: Agree Strongly
+      t: Molt d'acord
 
     # years of experience
     - key: options.years_of_experience.range_less_than_1
-      t: Less than one year
+      t: Menys d'1 any
     - key: options.years_of_experience.range_1_2
-      t: 1 to 2 years
+      t: Entre 1 i 2 anys
     - key: options.years_of_experience.range_2_5
-      t: 2 to 5 years
+      t: Entre 2 i 5 anys
     - key: options.years_of_experience.range_5_10
-      t: 5 to 10 years
+      t: Entre 5 i 10 anys
     - key: options.years_of_experience.range_10_20
-      t: 10 to 20 years
+      t: Entre 10 i 20 anys
     - key: options.years_of_experience.range_more_than_20
-      t: More than 20 years
+      t: Més de 20 anys
 
     # years of experience (short versions)
     - key: options.years_of_experience.range_less_than_1.short
-      t: '<1'
+      t: <1
     - key: options.years_of_experience.range_1_2.short
       t: 1-2
     - key: options.years_of_experience.range_2_5.short
@@ -319,25 +319,25 @@ translations:
 
     # company size
     - key: options.company_size.range_1
-      t: One employee
+      t: 1 empleat
     - key: options.company_size.range_1_5
-      t: 1 to 5 employees
+      t: Entre 1 i 5 empleats
     - key: options.company_size.range_5_10
-      t: 5 to 10 employees
+      t: Entre 5 i 10 empleats
     - key: options.company_size.range_10_20
-      t: 10 to 20 employees
+      t: Entre 10 i 20 empleats
     - key: options.company_size.range_20_50
-      t: 20 to 50 employees
+      t: Entre 20 i 50 empleats
     - key: options.company_size.range_50_100
-      t: 50 to 100 employees
+      t: Entre 50 i 100 empleats
     - key: options.company_size.range_100_1000
-      t: 100 to 1000 employees
+      t: Entre 100 i 1000 empleats
     - key: options.company_size.range_more_than_1000
-      t: More than 1000 employees
+      t: Més de 1000 empleats
 
     # company size (short versions)
     - key: options.company_size.range_1.short
-      t: 1
+      t: '1'
     - key: options.company_size.range_1_5.short
       t: 1-5
     - key: options.company_size.range_5_10.short
@@ -355,19 +355,19 @@ translations:
 
     # salary
     - key: options.yearly_salary.range_work_for_free
-      t: I work for free
+      t: Treballo de franc
     - key: options.yearly_salary.range_0_10
-      t: $0k-$10k
+      t: Entre 0 i 10.000 dòlars
     - key: options.yearly_salary.range_10_30
-      t: $10k-$30k
+      t: Entre 10.000 i 30.000 dòlars
     - key: options.yearly_salary.range_30_50
-      t: $30k-$50k
+      t: Entre 30.000 i 50.000 dòlars
     - key: options.yearly_salary.range_50_100
-      t: $50k-$100k
+      t: Entre 50.000 i 100.000 dòlars
     - key: options.yearly_salary.range_100_200
-      t: $100k-$200k
+      t: Entre 100.000 i 200.000 dòlars
     - key: options.yearly_salary.range_more_than_200
-      t: More than $200k
+      t: Més de 200.000 dòlars
 
     # salary (short versions)
     - key: options.yearly_salary.range_work_for_free.short
@@ -389,162 +389,163 @@ translations:
     - key: options.job_title.cto
       t: CTO
     - key: options.job_title.front_end_developer
-      t: Front End Developer/Engineer
+      t: Enginyer o Desenvolupador Front End
     - key: options.job_title.back_end_developer
-      t: Back End Developer/Engineer
+      t: Enginyer o Desenvolupador Back End
     - key: options.job_title.full_stack_developer
-      t: Full Stack Developer/Engineer
+      t: Enginyer o Desenvolupador Full Stack
     - key: options.job_title.web_developer
-      t: Web Developer
+      t: Desenvolupador Web
     - key: options.job_title.web_designer
-      t: Web Designer
+      t: Dissenyador Web
     - key: options.job_title.ux_designer
-      t: UX Designer
+      t: Dissenyador UX
     - key: options.job_title.ui_designer
-      t: UI Designer
+      t: Dissenyador UI
     - key: options.job_title.back_end_dev
-      t: Back-end Developer/Engineer
+      t: Enginyer o Desenvolupador Back-end
 
     # JavaScript proficiency
     - key: options.javascript_proficiency.0
-      t: Not able to write any JavaScript
+      t: Incapaç d'escriure res en JavaScript
     - key: options.javascript_proficiency.1
-      t: Writing short, simple JavaScript or jQuery statements
+      t: Sé escriure declaracions senzilles en Javascript o jQuery
     - key: options.javascript_proficiency.2
-      t: Working on existing front-end codebases using modern frameworks (React, Vue, etc.)
+      t: Treballo en bases de codi front-end existents utilitzant frameworks moderns (React, Vue, etc.)
     - key: options.javascript_proficiency.3
-      t: Architecturing entire front-end codebases from scratch
+      t: Sóc capaç de construir una base arquitectònica des de zero
     - key: options.javascript_proficiency.4
-      t: Handling advanced front-end patterns (state management, data loading, etc.)
+      t: Gestiono patrons avançats de front-end (gestió de l'estat, càrrega de dades, etc.)
 
     # CSS proficiency
     - key: options.css_proficiency.0
-      t: Virtually no knowledge of CSS
+      t: No tinc cap coneixement de CSS
     - key: options.css_proficiency.1
-      t: Using CSS frameworks and tweaking existing styles
+      t: Uso frameworks de CSS i retoco estils ja existents
     - key: options.css_proficiency.2
-      t: Knowing specificity rules, being able to create layouts
+      t: Conec regles específiques i sóc capaç de crear maquetacions
     - key: options.css_proficiency.3
-      t: Mastering animations, interactions, transitions, etc.
+      t: Domino les animacions, interaccions, transicions, etc.
     - key: options.css_proficiency.4
-      t: Able to style an entire front-end from scratch following a consistent methodology
+      t: Sóc capaç de posar estils des de zero seguint una metodologia consistent
 
     # Back-end proficiency
     - key: options.backend_proficiency.0
-      t: Not able to handle any back-end work
+      t: No sóc capaç de gestionar cap projecte de back-end
     - key: options.backend_proficiency.1
-      t: Able to set up all-in-one CMSs (WordPress, etc.) or static site generators (Jekyll, etc.)
+      t: Sóc capaç de configurar un CMS (WordPress, etc.) o generar llocs web estàtics (Jekyll, etc.)
     - key: options.backend_proficiency.2
-      t: Able to develop apps using pre-existing frameworks (Rails, Laravel, etc.)
+      t: Sóc capaç de desenvolupar aplicacions utilitzant frameworks ja existents (Rails, Laravel, etc.)
     - key: options.backend_proficiency.3
-      t: Setting up an entire back-end from scratch (Go, Node.js, etc.)
+      t: Sóc capaç de confirugrar un back-end complet des de zero (Go, Node.js, etc.)
     - key: options.backend_proficiency.4
-      t: Able to handle complex multi-server or microservices architectures
+      t: Sóc capaç de gestionar arquitectures complexes de multi-server o microserveis
 
     # Proficiency (generic versions)
     - key: options.proficiency.0
-      t: None
+      t: Cap
     - key: options.proficiency.1
-      t: Beginner
+      t: Principiant
     - key: options.proficiency.2
-      t: Intermediate
+      t: Intermig
     - key: options.proficiency.3
-      t: Advanced
+      t: Avançat
     - key: options.proficiency.4
       t: Expert
 
     # Gender
 
     - key: options.gender.female
-      t: Female
+      t: Dona
     - key: options.gender.male
-      t: Male
+      t: Home
     - key: options.gender.non_binary
-      t: Non-Binary/Third Gender
+      t: No binari/Tercer gènere
     - key: options.gender.prefer_not_to_say
-      t: Prefer not to say
+      t: Prefereixo no dir-ho
 
     # Race & Ethnicity
 
     - key: options.race_ethnicity.white_european
-      t: White or of European descent
+      t: Blanca o descendent d'europeus
     - key: options.race_ethnicity.south_asian
-      t: South Asian
+      t: Sud-asiàtica
     - key: options.race_ethnicity.hispanic_latin
-      t: Hispanic or Latino/Latina
+      t: Hispna o llatina
     - key: options.race_ethnicity.east_asian
-      t: East Asian
+      t: Àsia Oriental
     - key: options.race_ethnicity.middle_eastern
-      t: Middle Eastern
+      t: Orient Mitjà
     - key: options.race_ethnicity.black_african
-      t: Black or of African descent
+      t: Negra o descendents d'africans
     - key: options.race_ethnicity.multiracial
       t: Multiracial
     - key: options.race_ethnicity.biracial
       t: Biracial
     - key: options.race_ethnicity.native_american_islander_australian
-      t: Native American, Pacific Islander, or Indigenous Australian
+      t: Nativa americana, illenca del Pacífic o indígena australiana
 
     # Form Factors
     - key: options.form_factors.desktop
-      t: Desktop
+      t: Escriptori
     - key: options.form_factors.smartphone
       t: Smartphone
     - key: options.form_factors.feature_phone
-      t: Feature phone
+      t: Telèfon mòbil
     - key: options.form_factors.tablet
-      t: Tablet
+      t: Tauleta
     - key: options.form_factors.smart_watch
       t: Smartwatch
     - key: options.form_factors.tv
       t: TV
     - key: options.form_factors.gaming_console
-      t: Gaming console
+      t: Vídeoconsola
     - key: options.form_factors.screen_reader
-      t: Screen reader
+      t: Lector de pantalla
     - key: options.form_factors.print
-      t: Print
+      t: Versió impresa
 
     # Industry Sector
     - key: options.industry_sector.ecommerce
-      t: Ecommerce & Retail
+      t: Comerç electrònic i venda al detall
     - key: options.industry_sector.news_media
-      t: News, Media, & Blogging
+      t: Notícies, mitjans de comunicació i blogs
     - key: options.industry_sector.healthcare
-      t: Healthcare
+      t: Salut
     - key: options.industry_sector.finance
-      t: Finance
+      t: Finances
     - key: options.industry_sector.programming_tools
-      t: Programming & Technical Tools
+      t: Programació i eines tècniques
     - key: options.industry_sector.socialmedia
-      t: Social Media
+      t: Mitjans de comunicació
     - key: options.industry_sector.marketing_tools
-      t: Marketing/Sales/Analytics Tools
+      t: Eines de màrqueting, vendes i anàlisi
     - key: options.industry_sector.education
-      t: Education
+      t: Educació
     - key: options.industry_sector.real_estate
-      t: Real Estate
+      t: Immobiliària
     - key: options.industry_sector.government
-      t: Government
+      t: Govern
     - key: options.industry_sector.entertainment
-      t: Entertainment
+      t: Entreteniment
     - key: options.industry_sector.consulting
-      t: Consulting & Services
+      t: Consultoria i serveis
 
     ###########################################################################
     # Tools
     ###########################################################################
 
     - key: tools.other_tools
-      t: Other Options
+      t: Altres opcions
     - key: tools.other_tools.description
       t: Other options you use for the current section not mentioned in the list above
+      Altres opcions que utilitzes en aquesta secció no mencionades a la llista anterior
     - key: tools.happiness
-      t: Overall Happiness
+      t: Satisfacció general
     - key: tools.happiness.description
       t: >
-          On a scale of one (very unhappy) to five (very happy), how happy are
-          you with the current overall state of things as it relates to the options listed above?
+          En una escala de l'u (cap satisfacció) al cinx (satisfacció total), quina satisfacció sents
+          sobre l'estat general dels elements relacionats amb les opcions llistades anteriorment?
 
     ###########################################################################
     # Demographics (About You/User Info)
@@ -552,133 +553,133 @@ translations:
 
     # years of experience
     - key: user_info.years_of_experience
-      t: Years of Experience
+      t: Anys d'experiència
     - key: user_info.years_of_experience.description
-      t: How long you've been working or studying in this field.
+      t: Quant de temps fa que treballes o estudies en aquest camp.
 
     # company size
     - key: user_info.company_size
-      t: Company Size
+      t: Mida de la companyia
     - key: user_info.company_size.description
-      t: How big your company is.
+      t: Com de gran és l'empresa.
 
     # salary ranges
     - key: user_info.yearly_salary
-      t: Yearly Salary
+      t: Salari anual
     - key: user_info.yearly_salary.description
-      t: In USD.
+      t: En dòlars americans.
 
     # job title
     - key: user_info.job_title
-      t: Job Title
+      t: Títol de la feina
     - key: user_info.job_title.description
-      t: How do you introduce yourself at parties?
+      t: Com et presentes als esdeveniments?
 
     # javascript proficiency
     - key: user_info.javascript_proficiency
-      t: JavaScript Proficiency
+      t: Domini de JavaScript
     - key: user_info.javascript_proficiency.description
-      t: How proficient are you at JavaScript?
+      t: Quina experiència tens en JavaScript?
 
     # css proficiency
     - key: user_info.css_proficiency
-      t: CSS Proficiency
+      t: Domini de CSS
     - key: user_info.css_proficiency.description
-      t: How proficient are you at CSS?
+      t: Quina experiència tens en CSS?
 
     # backend proficiency
     - key: user_info.backend_proficiency
-      t: Back-end Proficiency
+      t: Domini en el Back-end
     - key: user_info.backend_proficiency.description
-      t: How proficient are you at back-end development?
+      t: Quina experiència tens en el desenvolupament back-end?
 
     # gender
     - key: user_info.gender
-      t: Gender
+      t: Gènere
 
     # skin tone/appearance
     - key: user_info.race_ethnicity
-      t: Race & Ethnicity
+      t: Raça i ètnia
 
     # other info
     - key: user_info.how_did_user_find_out_about_the_survey
-      t: How did you find out about this survey?
+      t: Com t'has assabentat d'aquesta enquesta?
     - key: user_info.email
-      t: Your Email
+      t: El teu correu electrònic
     - key: user_info.country
-      t: Your Country or Region
+      t: El teu país o regió
     - key: user_info.github_username
-      t: Your GitHub Username
+      t: El teu nom d'usuari a GitHub
     - key: user_info.github_username.description
       t: >
-        We might use GitHub usernames in the future to look at
-        repos and cross-reference publicly available information. 
+        En un futur podríem utilitzar els noms d'usuari de GitHub per examinar
+        repositoris i fer referències creuades a la informació pública disponible.
     - key: user_info.industry_sector
-      t: Industry Sector
+      t: Sector de la indústria
     - key: user_info.industry_sector.description
-      t: Which industry sector(s) do you work in?
+      t: En quin sector de la indústria treballes?
     - key: user_info.industry_sector.others
-      t: Other Industry Sectors
+      t: Altres sectors de la indústria
     - key: user_info.industry_sector.others.description
-      t: Other industry sector(s) you work in not mentioned above.
+      t: Altres sectors de la indústria als que treballis i no s'hagin mencionat anteriorment.
 
     ###########################################################################
     # Other Tools
     ###########################################################################
 
     - key: tools_others.libraries
-      t: Libraries
+      t: Llibreries
     - key: tools_others.libraries.description
-      t: Which libraries do you regularly use?
+      t: Quines llibreries utilitzes habitualment?
     - key: tools_others.libraries.others
-      t: Other Libraries
+      t: Altres llibreries
     - key: tools_others.libraries.others.description
-      t: Other answers (freeform field).
+      t: Altres respostes (camp lliure).
 
     - key: tools_others.text_editors
-      t: Text Editors
+      t: Editors de text
     - key: tools_others.text_editors.description
-      t: Which text editor(s) do you regularly use?
+      t: Quins editors de text utilitzes habitualment?
     - key: tools_others.text_editors.others
-      t: Other Text Editors
+      t: Altres editors de text
     - key: tools_others.text_editors.others.description
-      t: Other answers (freeform field).
+      t: Altres respostes (camp lliure).
 
     - key: tools_others.utilities
-      t: Utilities
+      t: Utilitats
     - key: tools_others.utilities.description
-      t: Which utilities or tools do you regularly use?
+      t: Quines utilitats o eines utilitzes habitualment?
     - key: tools_others.utilities.others
-      t: Other Utilities
+      t: Altres utilitats
     - key: tools_others.utilities.others.description
-      t: Other utilities (freeform field).
+      t: Altres respostes (camp lliure).
 
     - key: tools_others.browsers
-      t: Browsers
+      t: Navegadors
     - key: tools_others.browsers.description
-      t: Which browser(s) do you primarily work in during initial development?
+      t: Quins navegadors utilitzes principalment durant el desenvolupament inicial?
     - key: tools_others.browsers.others
-      t: Other Browsers
+      t: Altres navegadors
     - key: tools_others.browsers.others.description
-      t: Other answers (freeform field).
+      t: Altres respostes (camp lliure).
 
     - key: tools_others.build_tools
-      t: Build Tools
+      t: Eines de construcció
     - key: tools_others.build_tools.description
-      t: Which build tools do you use?
+      t: Quines eines de construcció utilitzes?
     - key: tools_others.build_tools.others
-      t: Other Build Tools
+      t: Altres eines de construcció
     - key: tools_others.build_tools.others.description
-      t: Other answers (freeform field).
+      t: Altres respostes (camp lliure).
 
     - key: tools_others.non_js_languages
-      t: Non-JavaScript Languages
+      t: Altres llenguatges (que no siguin JavaScript)
     - key: tools_others.non_js_languages.description
-      t: Which other programming languages do you use?
+      t: Quins altres llenguatges de programació utilitzes?
     - key: tools_others.non_js_languages.others
-      t: Other Languages
+      t: Altres llenguatges
     - key: tools_others.non_js_languages.others.description
-      t: Other answers (freeform field).
+      t: Altres respostes (camp lliure).
 
     ###########################################################################
     # Resources
@@ -686,30 +687,30 @@ translations:
 
     # blogs & magazines
     - key: resources.blogs_news_magazines
-      t: Blogs & Magazines
+      t: Blogs i revistes
     - key: resources.blogs_news_magazines.description
-      t: Which blogs/magazines/etc. do you read?
+      t: Quins blogs/revistes/etc. llegeixes?
     - key: resources.blogs_news_magazines.others
-      t: Other Blogs & Magazines
+      t: Other blogs i revistes
     - key: resources.blogs_news_magazines.others.description
-      t: Other answers (freeform field).
+      t: Altres respostes (camp lliure).
 
     # sites & courses
     - key: resources.sites_courses
-      t: Sites & Courses
+      t: Llocs web i cursos
     - key: resources.sites_courses.description
-      t: Which sites/courses/etc. do you consult?
+      t: Quins llocs web/cursos/etc. consultes?
     - key: resources.sites_courses.others
-      t: Other Sites & Courses
+      t: Altres llocs web i cursos
     - key: resources.sites_courses.others.description
-      t: Other answers (freeform field).
+      t: Altres respostes (camp lliure).
 
     # podcasts
     - key: resources.podcasts
       t: Podcasts
     - key: resources.podcasts.description
-      t: Which programming-related podcasts do you listen to?
+      t: Quins podcasts sobre programació escoltes?
     - key: resources.podcasts.others
-      t: Other Podcasts
+      t: Altres Podcasts
     - key: resources.podcasts.others.description
-      t: Other answers (freeform field).
+      t: Altres respostes (camp lliure).
