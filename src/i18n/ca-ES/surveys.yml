@@ -1,8 +1,8 @@
-locale: en-US
+locale: ca-ES
 translations:
     ###########################################################################
     # General
     ###########################################################################
 
     - key: general.no_preview_surveys
-      t: No surveys to preview
+      t: No hi ha enquestes per previsualitzar

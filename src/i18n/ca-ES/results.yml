@@ -1,184 +1,184 @@
-locale: en-US
+locale: ca-ES
 translations:
     ###########################################################################
     # General
     ###########################################################################
 
     - key: results.start
-      t: Start
+      t: Començar
 
     - key: page.previous
-      t: 'Previous:'
+      t: 'Anterior:'
     - key: page.next
-      t: 'Next:'
+      t: 'Següent:'
 
     - key: general.state_of_css_link
-      t: State of CSS
+      t: Estat de CSS
 
     - key: general.netlify_link
-      t: Hosted by <a href="${link}">Netlify</a>.
+      t: Allotjat per <a href="${link}">Netlify</a>.
 
     - key: general.completion_percentage
-      t: 'Completion percentage:'
+      t: 'Percentatge completat:'
 
     - key: partners.thanks
-      t: Thanks to our partners for supporting us!
+      t: Gràcies als nostres socis per donar-nos suport!
 
     - key: partners.learn_more
-      t: Learn more.
+      t: Més informació.
 
     ###########################################################################
     # Options
     ###########################################################################
 
     - key: options.experience_ranking.satisfaction
-      t: Satisfaction
+      t: Satisfacció
     - key: options.experience_ranking.interest
-      t: Interest
+      t: Interès
     - key: options.experience_ranking.usage
-      t: Usage
+      t: Ús
     - key: options.experience_ranking.awareness
-      t: Awareness
+      t: Consciència
 
     - key: options.features_simplified.know_it
-      t: Know about it
+      t: Conegut
     - key: options.features_simplified.used_it
-      t: Have used it
+      t: Usat
     - key: options.features_simplified.usage_ratio
-      t: Usage ratio
+      t: Proporció d'ús
 
     - key: options.quadrant.assess
-      t: ASSESS
+      t: AVALUAR
     - key: options.quadrant.assess.long
       t: |
-        ASSESS: Low usage, high satisfaction. Technologies worth keeping an eye on.
+        Poc ús, alta satisfacció. Tecnologies que val la pena tenir en compte.
     - key: options.quadrant.adopt
-      t: ADOPT
+      t: ADOPTAR
     - key: options.quadrant.adopt.long
       t: |
-        ADOPT: High usage, high satisfaction. Safe technologies to adopt.
+        ADOPTAR: Üs elevat, alta satisfacció. Tecnologies segures per adoptar.
     - key: options.quadrant.avoid
-      t: AVOID
+      t: EVITAR
     - key: options.quadrant.avoid.long
       t: |
-        AVOID: Low usage, low satisfaction. Technologies probably best avoided currently.
+        EVITAR: Poc ús, baixa satisfacció. Tecnologies a evitar actualment.
     - key: options.quadrant.analyze
-      t: ANALYZE
+      t: ANALITZAR
     - key: options.quadrant.analyze.long
       t: |
-        ANALYZE: High usage, low satisfaction. Reassess these technologies if you're currently using them.
+        ANALITZAR: Alt ús, baixa satisfacció. Fer una revisió d'aquestes tecnologies si les fas servir actualment.
 
     - key: ranges.selector.years_of_experience
-      t: Experience
+      t: Experiència
     - key: ranges.selector.yearly_salary
-      t: Salary
+      t: Salari
     - key: ranges.selector.company_size
-      t: Company Size
+      t: Mida de l'empresa
 
     ###########################################################################
     # Sections
     ###########################################################################
 
     - key: sections.introduction.title
-      t: Introduction
+      t: Introducció
 
     - key: sections.demographics.title
-      t: Demographics
+      t: Demografia
 
     - key: sections.tshirt.title
-      t: T-shirt
+      t: Samarreta
 
     - key: sections.technologies.title
-      t: Technologies
+      t: Tecnologies
 
     - key: sections.conclusion.title
-      t: Conclusion
+      t: Conclusió
 
     - key: sections.support.title
-      t: Support Us
+      t: Ajuda'ns
     - key: sections.support.description
       t: >
-        We run this survey as a side project, but in order to make the
-        project sustainable we’re always looking for partners who can help support us,
-        either financially or by helping us spread the word.
-        If you think you could help in any way, please don’t hesitate to [get in touch](mailto:hello@stateofjs.com)!
+        Realitzem aquesta enquesta com a projecte paral·lel, però per tal de fer-lo més sostenible
+        sempre busquem socis que ens puguin ajudar, ja sigui econòmicament com difonent el missatge.
+        Si creus que ens pots ajudar d'alguna manera, si us plau,
+        no dubtis en [posar-te en contacte amb nosaltres](mailto:hello@stateofjs.com)!
 
     - key: sections.awards.title
-      t: Awards
+      t: Premis
     - key: sections.awards.description
-      t: Things that stood out this year.
+      t: Coses destacables d'aquest any.
 
     ###########################################################################
     # User Info
     ###########################################################################
 
     - key: user_info.locale
-      t: Language
+      t: Idioma
     - key: user_info.locale.description
-      t: What language did respondents select to fill out the survey?
+      t: Quin idioma s'ha seleccionat per respondre l'enquesta?
 
     - key: user_info.source
-      t: Source
+      t: Font
     - key: user_info.source.description
-      t: How did respondents find out about the survey?
+      t: Com s'ha arribat a conèixer l'enquesta?
 
     ###########################################################################
     # Locales
     ###########################################################################
 
     - key: options.locale.en-US
-      t: English
+      t: Anglès
+    - key: options.locale.ca-ES
+      t: Català
     - key: options.locale.es-ES
-      t: Spanish
+      t: Castellà
     - key: options.locale.ru-RU
-      t: Russian
-    - key: options.locale.ua-UA
-      t: Ukrainian
+      t: Rus
     - key: options.locale.fr-FR
-      t: French
+      t: Francès
     - key: options.locale.zh-Hant
-      t: Chinese (Traditional)
+      t: Xinès (Tradicional)
     - key: options.locale.de-DE
-      t: German
+      t: Alemany
     - key: options.locale.cs-CZ
-      t: Czech
+      t: Txec
     - key: options.locale.pt-PT
-      t: Portuguese
+      t: Portuguès
     - key: options.locale.it-IT
-      t: Italian
+      t: Italià
     - key: options.locale.sv-SE
-      t: Swedish
+      t: Suec
     - key: options.locale.tr-TR
-      t: Turkish
+      t: Turc
     - key: options.locale.id-ID
-      t: Indonesian
+      t: Indonesi
     - key: options.locale.hi-IN
       t: Hindi
     - key: options.locale.zh-Hans
-      t: Chinese (Simplified)
+      t: Xinès (Simplificat)
     - key: options.locale.ja-JP
-      t: Japanese
+      t: Japonès
     - key: options.locale.ua-UA
-      t: Ukrainian
+      t: Ucraïnès
 
     ###########################################################################
     # Features
     ###########################################################################
 
     - key: features.learn_more
-      t: Learn More (MDN)
+      t: Més informació (MDN)
     - key: features.mdn_link
       t: MDN
     - key: features.caniuse_link
       t: CanIUse
     - key: features.specification_link
-      t: W3C Specification
+      t: Especificació de W3C
 
     # knowledge score
     - key: features.knowledge_score
-      t: Knowledge Score
+      t: Puntuació del coneixement
     - key: features.knowledge_score.description
-      t: Out of all the features mentioned in the survey, how many did the respondent know about?
+      t: De totes les característiques mencionades a l'enquesta, quantes han estat respostes correctament?
 
     ###########################################################################
     # Tools & Methodologies
@@ -186,13 +186,13 @@ translations:
 
     # general
     - key: tools.links
-      t: Links
+      t: Enllaços
     - key: tools.github_link
       t: GitHub
     - key: tools.github_stars
-      t: stars
+      t: estrelles
     - key: tools.homepage_link
-      t: Homepage
+      t: Pàgina principal
     - key: tools.npm_link
       t: NPM
 
@@ -202,302 +202,303 @@ translations:
 
     # heatmaps
     - key: blocks.tools_company_size_heatmap.title
-      t: Usage by Company Size
+      t: Ús en funció de la mida de l'empresa
     - key: blocks.tools_company_size_heatmap.description
       t: |
-        For each technology, how usage is spread among respondents
-        who picked different company size ranges.
+        Per a cada tecnologia, com es distribueix l'ús entre les persones enquestades
+        que varen escollir diferents rangs de mida de l'empresa.
 
     - key: blocks.tools_yearly_salary_heatmap.title
-      t: Usage by Salary Range
+      t: Ús en funció del rang salarial
     - key: blocks.tools_yearly_salary_heatmap.description
       t: |
-        For each technology, how usage is spread among respondents
-        who picked different salary ranges.
+        Per a cada tecnologia, com es distribueix l'ús entre les persones enquestades
+        que varen escollir diferents rangs salarials.
 
     - key: blocks.tools_years_of_experience_heatmap.title
-      t: Usage by Years Of Experience
+      t: Ús en funció dels anys d'experiència
     - key: blocks.tools_years_of_experience_heatmap.description
       t: |
-        For each technology, how usage is spread among respondents who picked different experience ranges.
-        Note that the experience in question here is general experience, not experience with a specific technology.
+        Per a cada tecnologia, com es distribueix l'ús entre les persones enquestades
+        que varen escollir diferents rangs d'experiència.
+        Tingues en compte que l'experiència en qüestió aquí és en experiència general,
+        no l'experiència en una tectnologia específica.
 
     # tool
     - key: blocks.entity.homepage_link
-      t: Homepage
+      t: Pàgina principal
     - key: blocks.entity.github_link
       t: GitHub
 
     # tools quadrant
     - key: blocks.tools_quadrant.title
-      t: Satisfaction vs Usage
+      t: Satisfacció vs Ús
     - key: blocks.tools_quadrant.satisfaction.description
       t: |
-        This chart shows each technology’s **satisfaction ratio** over its total **user count**.
-        It can be divided into four quadrants:
+          Aquest gràfic mostra la **proporció de satisfacció** de cada tecnologia sobre el **nombre d'usuaris** total.
+          El podem dividir en quatre quadrants:
 
-          - **ASSESS**: Low usage, high satisfaction. Technologies worth keeping an eye on.
+          - **AVALUACIÓ**: Poc ús, alta satisfacció. Tecnologies que val la pena tenir en compte.
 
-          - **ADOPT**: High usage, high satisfaction. Safe technologies to adopt.
+          - **ADOPTAR**: Üs elevat, alta satisfacció. Tecnologies segures per adoptar.
 
-          - **AVOID**: Low usage, low satisfaction. Technologies probably best avoided currently.
+          - **EVITAR**: Poc ús, baixa satisfacció. Tecnologies a evitar actualment.
 
-          - **ANALYZE**: High usage, low satisfaction. Reassess these technologies if you're currently using them.
+          - **ANALITZAR**: Alt ús, baixa satisfacció. Fer una revisió d'aquestes tecnologies si les fas servir actualment.
 
     - key: blocks.tools_quadrant.interest.description
       t: |
-        This chart shows each technology’s **interest ratio** over its total **user count** (as defined by respondents who are aware of a technology but *haven't* used it yet).
+        Aquest gràfic mostra la **proporció d'interès** de cada tecnologia sobre el **nombre d'usuaris** total (definit per les persones que han respòs que la coneixen però encara **no** l'han usat).
 
-        (Note that low user numbers can be due to either an unknown technology; or a technology with a lot of respondents already using it.)
+        (Tingues en compte que un resultat baix pot ser degut a una tecnologia desconeguda o una tecnologia amb moltes persones que ja l'utilitzen.)
 
     # category other tools
     - key: blocks.category_other_tools.title
-      t: Other Tools
+      t: Altres eines
     - key: blocks.category_other_tools.description
-      t: Other tools in this category (freeform answers).
+      t: Altres eines d'aquesta categoria (resposta lliure).
 
     # tool experience
     - key: blocks.tool_experience.title
-      t: ${name} Experience
+      t: Experiència en ${name}
     - key: blocks.tool_experience.description
-      t: Respondent's experience with ${name}.
+      t: Experiència de la persona enquestada en ${name}.
 
     # tool positive/negative split ("marimekko" chart)
     - key: blocks.tools_experience_marimekko.title
-      t: Positive/Negative Split
+      t: Divisió positiva/negativa
     - key: blocks.tools_experience_marimekko.description
       t: |
-          This chart splits positive (“want to learn”, ”would use again”) vs
-          negative (“not interested”, “would not use again”) experiences on
-          both sides of a central axis.
+          Aquest gràfic divideix experiències positives ("vull aprendre'n", "ho tornaria a utilitzar") vs
+          negatives ("sense interès", "no ho tornaria a utilitzar") a banda i banda d'un eix central.
 
-          Bar thickness represents the number of respondents aware of a technology.
+          El gruix de la barra representa el nombre de persones que han respòs que coneixen una tecnologia.
 
     # tools section streams
     - key: blocks.tools_section_streams.title
-      t: Experience Over Time
+      t: Experiència al llarg del temps
     - key: blocks.tools_section_streams.description
       t: |
-        Overview of opinions on the technologies surveyed over time.
+        Visió general de les opinions sobre les tecnologies enquestades al llarg del temps.
     - key: blocks.tools_section_streams.note
       t: |
-        Technologies with only one year of data are not included.
+        No s'hi inclouen les tecnologies amb dades de fa només un any.
 
     # tools section overview
     - key: blocks.tools_section_overview.title
-      t: Category Overview
+      t: Visió general de la categoria
     - key: blocks.tools_section_overview.description
       t: |
-        Overview of opinions on the technologies surveyed. Darker segments represent positive opinions,
-        while lighter segments correspond to negative sentiment.
+        Visió general de les opinions de les tecnologies enquestades. Els segments més foscos representen opinions positives,
+        mentre que els més clars es corresponen a sentiments negatius.
 
     # tools experience ranking
     - key: blocks.tools_experience_ranking.title
-      t: Rankings
+      t: Classificacions
     - key: blocks.tools_experience_ranking.description
-      t: Satisfaction, interest, usage, and awareness ratio rankings.
+      t: Classificacions de les proporcions de satisfacció, interès, ús i consciència.
     - key: blocks.tools_experience_ranking.note
       t: |
-        Technologies with less than 10% awareness not included. Each ratio is defined as follows:
+        No s'inclouen les tecnologies amb menys del 10% de consciència. Cada proporció es defineix de la següent manera:
 
-        - Satisfaction: **would use again** / (**would use again** + **would not use again**)
-        - Interest: **want to learn** / (**want to learn** + **not interested**)
-        - Usage: (**would use again** + **would not use again**) / **total**
-        - Awareness: (**total** - **never heard**) / **total**
+        - Satisfacció: **ho tornaria a usar** / (**ho tornaria a usar** + **no ho tornaria a usar**)
+        - Interès: **en vull aprendre** / (**en vull aprendre** + **no m'interessa**)
+        - Ús: (**ho tornaria a usar** + **no ho tornaria a usar**) / **total**
+        - Consciència: (**total** - **mai n'he sentit a parlar**) / **total**
 
     # happiness
     - key: blocks.happiness.title
-      t: Overall Happiness
+      t: Satisfacció general
     - key: blocks.happiness.description
       t: |
-        On a scale of one (very unhappy) to five (very happy), how happy are developers
-        with the current overall state of this category?
+        En una escala d'entre u (cap satisfacció) i cinc (satisfacció total), quina és la satisfacció
+        amb l'estat general de la categoria actual?
 
     # newsletter
     - key: blocks.newsletter.title
-      t: Stay Tuned
+      t: Atenció a nova informació
     - key: blocks.newsletter.description
       t: |
-        If you'd like to know when we release additional results or announce next year's edition,
-        just leave us your email below:
+        Si t'agradaria saber quan publiquem nous resultats o anunciem l'edició del proper any,
+        facilita'ns el teu correu electrònic a continuació:
     - key: blocks.newsletter.email
-      t: Your Email
+      t: El teu correu electrònic
     - key: blocks.newsletter.submit
-      t: Notify Me
+      t: Aviseu-me
 
     # features_overview
     - key: blocks.features_overview.title
-      t: Usage Overview
+      t: Visió general de l'ús
     - key: blocks.features_overview.description
       t: |
-        This chart presents the various adoption rates for all features, grouped by category.
+        Aquest gràfic presenta els diversos percentatges d'adopció de totes les característiques, agrupades per categoria.
 
-        The size of the <span class="text-teal-darker text-bold">outer circle</span>
-        corresponds to the total number of users who know about a feature, while
-        the <span class="text-teal text-bold">inner one</span> represents those who have actually used it.
+        La mida del <span class="text-teal-darker text-bold">cercle exterior</span>
+        correspon al nombre total de persones que coneixen la característica, mentre que el de l'
+        <span class="text-teal text-bold">interior</span> representa aquelles que l'han usat realment.
 
-        Hover on each node to view detailed data along with an <span class="text-blackpink text-bold">overlay</span>
-        representing the total number of survey respondents.
+        Passeu el cursor per cada node per visualitzar les dades detallades juntament amb una <span class="text-blackpink text-bold">superposició</span>
+        que representa el nombre total de persones enquestades.
 
     # export
     - key: export.export
-      t: Export
+      t: Exporta
     - key: export.title
-      t: Export data for ${title}
+      t: Exporta les dades de ${title}
     - key: export.nocsv
-      t: Sorry, CSV export is not available for this dataset.
+      t: Ho sentim, l'exportació CSV no està disponible per aquest conjunt de dades.
     - key: export.graphql
       t: >
-          You can copy paste this query into our <a target="_blank" rel="nofollow" href="http://graphiql.stateofjs.com/">public GraphQL API</a>.
+          Pots copiar i enganxar aquesta consula a la nostra <a target="_blank" rel="nofollow" href="http://graphiql.stateofjs.com/">API GraphQL pública</a>.
 
     # Tools usage variations
     - key: blocks.tools_usage_variations.title
-      t: Usage Variations
+      t: Variacions d'ús
     - key: blocks.tools_usage_variations.description
       t: |
-        How different factors such as salary range, years of experience
-        or company size influence usage (participants who answered either
-        ”would use again” or “would not use again”).
+        Com els diferents factors, com el rang salarial, els anys d'experiència
+        o la mida de l'empresa, influeixen en l'ús (participants que han respòs
+        "ho tornaria a usar" o "no ho tornaria a usar").
 
-        The baseline represents the base usage for each tool and the offsets
-        correspond to the delta from this baseline in each range. Let's say
-        tool X has an overall usage of 10% across all respondents (the baseline),
-        then if the percentage of users having from 1 to 2 years of experience
-        using this tool is 13% (compared to all users having from 1 to 2 years
-        of experience), then we have a positive delta of +3%.
+        La línia de base representa l'ús base de cada eina i les compensacions
+        corresponen al delta d'aquesta línia de base en cada interval. Suposem que
+        l'eina X té un ús global del 10% en totes les persones enquestades (la línia de base),
+        llavors si el percentatge de persones que tenen entre 1 i 2 anys d'experiència
+        en utilitzar aquesta eina és del 13% (en comparació amb totes les persones que tenen entre 1 i 2 anys
+        d'experiència), tenim un delta positiu del + 3%.
     - key: blocks.tools_usage_variations.note
       t: |
-        Please keep in mind that tools having a lower overall usage tends to vary more.
+        Tingues en compte que les eines que tenen un menor ús general tendeixen a variar més.
 
     # Recommended Resources
     - key: blocks.recommended_resources.title
-      t: Recommended Resources
+      t: Recursos recomanats
 
     ###########################################################################
     # Charts
     ###########################################################################
 
     - key: chart_units.percentage
-      t: Percents
+      t: Percentatges
     - key: chart_units.count
-      t: Count
+      t: Quantitat
 
     - key: charts.axis_legends.years_of_experience
-      t: Years of Experience
+      t: Anys d'experiència
     - key: charts.axis_legends.yearly_salary
-      t: Salary Range (USD)
+      t: Rang salarial (dòlars americans)
     - key: charts.axis_legends.company_size
-      t: Number of Employees
+      t: Nombre de persones empleades
     - key: charts.axis_legends.backend_proficiency
-      t: Back-end Proficiency
+      t: Competència en back-end
     - key: charts.axis_legends.css_proficiency
-      t: CSS Proficiency
+      t: Competència en CSS
     - key: charts.axis_legends.javascript_proficiency
-      t: JavaScript Proficiency
+      t: Competència en JavaScript
     - key: charts.axis_legends.users_percentage
-      t: Percentage of Users
+      t: Percentatge d'usuaris
     - key: charts.axis_legends.users_count
-      t: User Count
+      t: Nombre d'usuaris
     - key: charts.axis_legends.interest_percentage
-      t: Interest Percentage
+      t: Percentatge d'interès
     - key: charts.axis_legends.satisfaction_percentage
-      t: Satisfaction Percentage
+      t: Percentatge de satisfacció
     - key: charts.axis_legends.happiness
-      t: Happiness
+      t: Satisfacció
     - key: charts.axis_legends.knowledge_score
-      t: Known Features
+      t: Característiques conegudes
     - key: charts.axis_legends.frequency
-      t: Frequency
+      t: Freqüència
 
     - key: charts.ranges_multiple_diverging_lines.baseline
-      t: baseline
+      t: línia de base
     - key: charts.ranges_multiple_diverging_lines.positive_offset
-      t: positive offset
+      t: compensació positiva
     - key: charts.ranges_multiple_diverging_lines.negative_offset
-      t: negative offset
+      t: compensació negativa
 
     ###########################################################################
     # Sharing
     ###########################################################################
 
     - key: share.share
-      t: Share
+      t: Camparteix-ho
     - key: share.site.title
-      t: Discover the StateOf CSS 2020 results
+      t: Descobreix els resultats de l'Estat de CSS 2020
     - key: share.site.twitter_text
-      t: 'Discover the State Of CSS 2020 results ${link} #StateOfCSS'
+      t: "Descobreix els resultats de l'Estat de CSS 2020 ${link} #StateOfCSS"
     - key: share.site.subject
-      t: State Of JavaScript Survey Results
+      t: Resultats de l'enquesta de l'Estat de JavaScript
     - key: share.site.body
-      t: 'Here are some interesting CSS survey results: ${link}'
+      t: "Aquí hi ha alguns resultats interessants de l'enquesta de CSS: ${link}"
     - key: share.block.twitter_text
       t: '#StateOfCSS 2020: ${title} ${link}'
     - key: share.block.subject
-      t: State Of CSS Survey Results
+      t: Resultats de l'enquesta de l'Estat de CSS
     - key: share.block.body
-      t: 'Here are some interesting CSS survey results (${title}): ${link}'
+      t: "Aquí hi ha alguns resultats interessants de l'enquesta de CSS (${title}): ${link}"
     - key: share.twitter
-      t: Share on Twitter
+      t: Comparteix-ho a  Twitter
     - key: share.facebook
-      t: Share on Facebook
+      t: Comparteix-ho a Facebook
     - key: share.linkedin
-      t: Share on LinkedIn
+      t: Comparteix-ho a LinkedIn
     - key: share.email
-      t: Share by email
+      t: Comparteix-ho per correu electrònic
     - key: share.image
-      t: Get image
+      t: Obtingues la imatge
 
     ###########################################################################
     # Awards
     ###########################################################################
 
     - key: awards.runner_ups
-      t: Runner Ups
+      t: Finalistes
 
     - key: award.feature_adoption_award.title
-      t: Most Used Feature
+      t: Característica més adoptada
     - key: award.feature_adoption_award.description
-      t: Awarded to the most adopted feature.
+      t: Atorgat a la característica més adoptada.
 
     - key: award.feature_adoption_delta_award.title
-      t: Most Adopted Feature
+      t: Característica més adoptada
     - key: award.feature_adoption_delta_award.description
-      t: Awarded to the feature with the largest year-over-year ”have used” progression.
+      t: Atorgat a la característica amb la progressió més gran d'"haver estat usada" any rere any.
 
     - key: award.tool_usage_award.title
-      t: Most Used Technology
+      t: Tecnologia més usada
     - key: award.tool_usage_award.description
-      t: Awarded to the technology with the largest user base.
+      t: Atorgat a la tecnologia amb la base d'usuaris més gran.
 
     - key: award.tool_usage_delta_award.title
-      t: Most Adopted Technology
+      t: Tecnologia més adoptada
     - key: award.tool_usage_delta_award.description
-      t: Awarded to the technology with the largest year-over-year “would use again” progression.
+      t: Atorgat a la tecnologia amb la progressió més gran de "ho tornaria a usar" any rere any.
 
     - key: award.tool_satisfaction_award.title
-      t: Highest Satisfaction
+      t: Satisfacció més alta
     - key: award.tool_satisfaction_award.description
-      t: Awarded to the technology with the highest percentage of satisfied users.
+      t: Atorgat a la tecnologia amb el percentatge més alt d'usuaris satisfets.
 
     - key: award.tool_interest_award.title
-      t: Highest Interest
+      t: Interès més alt
     - key: award.tool_interest_award.description
-      t: Awarded to the technology developers are most interested in learning once they know about it.
+      t: Atorgat a la tecnologia que més interès desperta per ser apresa un cop se'n té el coneixement.
 
     - key: award.resource_usage_award.title
-      t: Most Used Resource
+      t: Recurs més utilitzat
     - key: award.resource_usage_award.description
-      t: Awarded to the resource with the largest user base.
+      t: Atorgat al recurs amb la base d'usuaris més gran.
 
     - key: award.prediction_award.title
-      t: Prediction Award
+      t: Premi de predicció
     - key: award.prediction_award.description
-      t: Awarded to an up-and-coming technology that might take over… or not?
+      t: Atorgat a una tecnologia pròxima que podria assumir el control… o no?
 
     - key: award.most_write_ins_award.title
-      t: Most Write-Ins
+      t: Major respostes escrites
     - key: award.most_write_ins_award.description
-      t: Awarded to the item with the most write-in answers
+      t: Atorgat a l'element amb el major nombre de respostes escrites
 
     ###########################################################################
     # Hints
@@ -505,42 +506,42 @@ translations:
 
     - key: hints.hint_hint
       t: >
-          You'll find little hints like this one throughout the survey results
-          that will point out extra features and details. 
+          Aniràs trobant petits suggeriments com aquest al llarg dels resultats de l'enquesta
+          que assenyalaran funcions i detalls addicionals.
 
     - key: hints.units_switcher_hint
       t: >
-          You can use the segmented control at the top right of each block to switch 
-          between relative percentages and absolute counts to get a different view of the
-          same data.
+          Pots utilitzar el control segmentat a la part superior dreta de cada bloc per canviar
+          entre percentatges relatius i recomptes absoluts per obtenir una visualització
+          diferent de les mateixes dades.
 
     - key: hints.export_hint
       t: >
-          The <span class="hint-export-button">Export</span> button at the top of each block
-          lets you get the raw JSON data for any chart, or a GraphQL
-          query you can run against our public API. 
+          El botó <span class="hint-export-button">Exportar</span> a la part superior de cada bloc
+          et permet obtenir les dades en cru en format JSON per a qualsevol gràfic,
+          o una consulta GraphQL que pots executar contra la nostra API pública.
 
     - key: hints.completion_hint
       t: >
-          Since all questions are optional, some of them got fewer responses than others. 
-          The completion indicator (<span class="hint-completion-indicator">◕</span>) tells you exactly how many people answered any given question.
+          Donat que totes les preguntes són opcionals, algunes d'elles poden tenir menys respostes que d'altres.
+          L'indicador de completesa (<span class="hint-completion-indicator">◕</span>) et diu exactament quanta gent ha respòs una determinada pregunta.
 
     - key: hints.tool_modal_hint
       t: >
-          You can click on any technology name to get extra details and 
-          a more in-depth look at its related data. 
+          Pots fer clic a qualsevol nom de tecnologia per obtenir detalls addicionals i
+          una visió més profunda de les seves dades relacionades.
 
     - key: hints.rankings_modes_hint
       t: >
-          The Rankings chart can be toggled between satisfaction, interest, usage, and awareness
-          to give you a fuller picture of a category's rankings. 
+          El gràfic de Rànquings es pot alternar entre satisfacció, interès, ús i consciència
+          per donar-te una imatge més completa del rànquing d'una categoria.
 
     - key: hints.sharing_hint
       t: >
-          Sharing this survey on Twitter, Facebook, or by email is scientifically proven to 
-          improve your JavaScript performance by up to 15%. 
+          Està demostrat científicament que el fet de compartir aquesta enquesta a Twitter, Facebook
+          o per correu electrònic millora el teu rendiment en JavaScript fins un 15%.
 
     - key: hints.tshirt_hint
       t: >
-          Another guaranteed scientific finding: buying our t-shirt will 
-          increase your JavaScript knowledge by over 9000!
+          Una altra troballa garantida científicament: si compres la nostra samarreta
+          incrementaràs el teu coneixement de JavaScript per sobre de 9000!
