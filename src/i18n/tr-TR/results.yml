@@ -135,6 +135,8 @@ translations:
       t: Endonezya dili
     - key: options.locale.hi-IN
       t: Hintçe
+    - key: options.locale.pl-PL
+      t: Lehçe
 
     ###########################################################################
     # Features
