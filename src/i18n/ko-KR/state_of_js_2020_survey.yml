@@ -1,0 +1,16 @@
+locale: en-US
+namespace: js
+translations:
+    ###########################################################################
+    # General
+    ###########################################################################
+
+    - key: general.survey_intro_js2020
+      t: >
+          2020 has been a tough year for everyone, one that makes worrying about the
+          latest JavaScript frameworks seem pretty futile in comparison. 
+
+          
+          Still, the world has to move on, and so does JavaScript. And once again, with your help
+          we'll try to build a comprehensive picture of the ecosystem to find out a little bit more
+          about where it's going. 
