@@ -178,8 +178,8 @@ translations:
       t: For these tools & technologies, just check the ones that you use regularly.
 
     - key: sections.report.title
-      t: Report
-      
+      t: Trend Report
+
     ###########################################################################
     # Options
     ###########################################################################

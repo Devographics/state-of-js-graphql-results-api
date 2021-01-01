@@ -538,8 +538,7 @@ translations:
     - key: tools.other_tools
       t: Altres opcions
     - key: tools.other_tools.description
-      t: Other options you use for the current section not mentioned in the list above
-      Altres opcions que utilitzes en aquesta secció no mencionades a la llista anterior
+      t: Altres opcions que utilitzes en aquesta secció no mencionades a la llista anterior
     - key: tools.happiness
       t: Satisfacció general
     - key: tools.happiness.description

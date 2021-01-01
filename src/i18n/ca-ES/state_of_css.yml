@@ -472,14 +472,12 @@ translations:
     - key: environments.form_factors
       t: Form Factors
     - key: environments.form_factors.description
-      t: Which form factors do you test on?
-      En quines mides i formats de pantalla fas els teus tests?
+      t: En quines mides i formats de pantalla fas els teus tests?
 
     - key: environments.css_for_print
       t: CSS per a impressió
     - key: environments.css_for_print.description
-      t: Do you write print styles?
-      Escrius CSS per ser imprès?
+      t: Escrius CSS per ser imprès?
 
     - key: environments.css_for_email
       t: CSS per a clients de correu electrònic
