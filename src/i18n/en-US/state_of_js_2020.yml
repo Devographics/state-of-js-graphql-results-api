@@ -92,9 +92,7 @@ translations:
 
     - key: sections.user_info.description
       t: |
-          TODO
-
-          This year's survey reached **11,492** people in **102** countries. For the first time this year,
+          This year's survey reached **23,765** people in **137** countries. For the first time this year,
           we were able to translate the survey questions in multiple languages thanks to an awesome team of volunteers.
 
     - key: sections.features.description
@@ -243,3 +241,34 @@ translations:
             Remix is a different approach to React frameworks with an emphasis on progressive 
             enhancement. It embraces the web platform in a way that no existing frameworks do 
             and I'm excited by its potential.
+
+    - key: picks.sarah_edo.bio
+      t: Core Team Vue.js
+    - key: picks.sarah_edo.description
+      t: |
+            Insomnia is an app that allows you to design, test, and deploy API 
+            Workflows with a clean, simplified UX- it has both REST and GraphQL support, 
+            though clearly the puns are better if you're using REST.
+    
+    - key: picks.ladyleet.bio
+      t: This Dot Labs, GDE, MVP
+    - key: picks.ladyleet.description
+      t: |
+            RedwoodJS and frameworks like it are starting to change how we think about development. 
+            It’s bringing the ease of rails to the front end ecosystem.
+
+    - key: picks.midudev.bio
+      t: Lead Frontend @Adevinta & Content Creator
+    - key: picks.midudev.description
+      t: |
+            Working with modules on the Javascript ecosystem has been messy. 
+            ES2020 came with ESModules to end that. Even it's stable on Node.js. Yei!
+    
+    - key: picks.cassidoo.bio
+      t: Principal Developer Experience Engineer at Netlify
+    - key: picks.cassidoo.description
+      t: |
+            Ben is one of the most generous people in the JS community. 
+            He's active in open source (on the Vue core team), 
+            consistently makes useful content for developers to learn, and is very giving with his time.
+            
