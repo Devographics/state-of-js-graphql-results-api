@@ -1852,3 +1852,49 @@
   github: motdotla/dotenv
   description: Loads environment variables from .env for nodejs projects.
   homepage: https://github.com/motdotla/dotenv
+
+- id: chartjs
+  name: Chart.js
+  npm: chart.js
+  github: chartjs/Chart.js
+  description: Simple HTML5 Charts using the <canvas> tag
+  homepage: 'https://www.chartjs.org/'
+
+- id: joi
+  name: joi
+  npm: '@hapi/joi'
+  github: sideway/joi
+  description: The most powerful data validation library for JS
+  homepage: https://github.com/sideway/joi
+
+- id: i18next
+  name: i18next
+  npm: i18next
+  github: i18next/i18next
+  description: 'i18next: learn once - translate everywhere'
+  homepage: 'https://www.i18next.com'
+
+- id: io_ts
+  name: io-ts
+  homepage: https://gcanti.github.io/io-ts/
+
+- id: rush
+  name: Rush
+  npm: '@microsoft/rush'
+  github: microsoft/rushstack
+  description: Monorepo for tools developed by the Rush Stack community
+  homepage: 'https://rushjs.io/'
+
+- id: pm2
+  name: PM2
+  npm: pm2
+  github: Unitech/pm2
+  description: Node.js Production Process Manager with a built-in Load Balancer.
+  homepage: 'https://pm2.io'
+
+- id: vue_cli
+  name: vue-cli
+  npm: '@vue/cli'
+  github: vuejs/vue-cli
+  description: Standard Tooling for Vue.js Development
+  homepage: 'https://cli.vuejs.org/'

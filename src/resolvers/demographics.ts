@@ -2,9 +2,7 @@ import { Db } from 'mongodb'
 import { RequestContext, SurveyConfig, ResolverStaticConfig } from '../types'
 import { Filters } from '../filters'
 import { useCache } from '../caching'
-import {
-    computeParticipationByYear,
-} from '../compute'
+import { computeParticipationByYear } from '../compute'
 import { getStaticResolvers } from '../helpers'
 
 const computeParticipation = async (
@@ -26,8 +24,8 @@ export default {
             { year }: { year: number },
             { db }: RequestContext
         ) => {
-            const oneYear = await computeParticipation(db, survey, filters, year)
-            return oneYear[0]
+            const allYears = await computeParticipation(db, survey, filters)
+            return allYears.find(y => y.year === year)
         }
     },
 
