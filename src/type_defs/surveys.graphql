@@ -52,6 +52,10 @@ type Survey @cacheControl(maxAge: 600) {
     """
     tools_rankings(ids: [ToolID]!): ToolsRankings
     """
+    Cardinality By User (by-users tool count breakdown for a specific set of tools and specific criteria)
+    """
+    tools_cardinality_by_user(ids: [ToolID]!, experienceId: ExperienceID): ToolsCardinalityByUser
+    """
     Usage results for a specific feature
     """
     feature(id: FeatureID!): Feature
