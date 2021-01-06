@@ -7,11 +7,11 @@ translations:
     - key: sections.introduction.description
       t: |
 
-            <span class="first-letter">可</span>以忘掉你所知道的 CSS。或者，至少準備好重新看待。如果像我一樣，已經撰寫 CSS 超過 10 年，2020 的 CSS 已經完全不是習以為常的樣子了。
+            <span class="first-letter">可</span>以忘掉你所知道的 CSS。或者，至少準備好重新看待它。如果你和我一樣，已經寫 CSS 超過 10 年，相信我，2020 的 CSS 已經不是我們習以為常的樣子了。
 
             現在可以利用 CSS Grid 取代斷點 (breakpoint)，以更少程式碼打造任何裝置大小皆能使用的動態、響應式版面。CSS-in-JS 取代全域樣式表，讓元件都有相對應的位置，方便打造能切換主題的設計系統。
 
-            Tailwind CSS 這樣以 utility 優先的 CSS 俯衝至舞台上，強迫我們重新審視傳統情境式 class 名稱的教條。
+            Tailwind CSS 這樣以 utility 優先的 CSS 俯衝至舞台上，迫使我們重新審視傳統情境式 class 名稱的教條。
 
             不管這些改變讓你想要在部落格寫篇激賞文，還是震怒的抱怨推文，這裡呈現資料、標示趨勢，希望能帶你走過下一年充滿話題的 CSS。
 
@@ -28,8 +28,8 @@ translations:
 
             ### 其他連結
 
-            - [State of CSS 首頁](https://stateofcss.com)
-            - [State of JS](https://stateofjs.com)
+            - [CSS 現況調查首頁](https://stateofcss.com)
+            - [JS 現況調查](https://stateofjs.com)
 
             ### 致謝
 
@@ -87,7 +87,7 @@ translations:
 
     - key: sections.features.description
       t: |
-          近年來，CSS 湧起新功能。因此，也可以預料到社群還在慢慢地吸收新屬性，採用程度有點落後。
+          近年來，CSS 的新功能如雨後春筍般出現。通常社群需要一些時間消化，因此，可以預料還不會那麼快廣泛採用。
 
     - key: sections.units_selectors.description
       t: |

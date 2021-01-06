@@ -16,7 +16,7 @@ translations:
           因此，每年舉辦的 [JavaScript 現況調查](https://stateofjs.com) 成功後，我們決定發掘樣式與選擇器的世界，幫助大家找到最新的潮流，知道接下來要學習和使用的工具！
 
     - key: general.results.description
-      t: 每年舉辦一次的 CSS 最新趨勢調查。
+      t: 每年舉辦的 CSS 最新趨勢調查。
 
     ###########################################################################
     # Sections
@@ -68,7 +68,7 @@ translations:
       t: 強化 CSS 的工具。
 
     - key: sections.pre_post_processors_others.title
-      t: 其他預 & 後處理器
+      t: 其他預/後處理器
 
     - key: sections.css_frameworks.title
       t: CSS 框架
