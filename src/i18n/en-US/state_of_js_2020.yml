@@ -231,7 +231,7 @@ translations:
     - key: picks.swyx.description
       t: |
             Svelte is the Space Elevator of frontend frameworks. 
-            It helps you ship apps extremely fast apps extremely fast. 
+            It helps you ship apps extremely fast. 
 
     - key: picks.kentcdodds.bio
       t: Improving the world with quality software
@@ -254,13 +254,13 @@ translations:
     - key: picks.ladyleet.description
       t: |
             RedwoodJS and frameworks like it are starting to change how we think about development. 
-            It’s bringing the ease of rails to the front end ecosystem.
+            It’s bringing the ease of Ruby on Rails to the front-end ecosystem.
 
     - key: picks.midudev.bio
-      t: Lead Frontend @Adevinta & Content Creator
+      t: Lead Frontend @ Adevinta & Content Creator
     - key: picks.midudev.description
       t: |
-            Working with modules on the Javascript ecosystem has been messy. 
+            Working with modules on the JavaScript ecosystem has been messy. 
             ES2020 came with ESModules to end that. Even it's stable on Node.js. Yei!
     
     - key: picks.cassidoo.bio
@@ -272,7 +272,7 @@ translations:
             consistently makes useful content for developers to learn, and is very giving with his time.
             
     - key: picks.lauragift_.bio
-      t: Frontend Developer @PassionatePeople
+      t: Frontend Developer @ PassionatePeople
     - key: picks.lauragift_.description
       t: |
             Josh Comeau has been an inspiration to me, and I can say the JS community in general. 
