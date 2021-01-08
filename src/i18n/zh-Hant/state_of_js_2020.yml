@@ -25,16 +25,16 @@ translations:
 
             ### 團隊
 
-            State of JavaScript Survey 由 [Sacha Greif](https://twitter.com/sachagreif) 與 [Raphaël Benitte](https://twitter.com/benitteraphael) 共同發起與維護。
+            JavaScript 現況調查由 [Sacha Greif](https://twitter.com/sachagreif) 與 [Raphaël Benitte](https://twitter.com/benitteraphael) 共同發起與維護。
 
             ### 下載資料
 
-            你可以[下載本次調查的原始 JSON 資料](https://www.kaggle.com/sachag/state-of-js)。如果你也對這些資料作了視覺化，歡迎讓我們知道！
+            本次調查提供[原始 JSON 資料下載](https://www.kaggle.com/sachag/state-of-js)。如果你以此做出自己的資料視覺化，跟我們說一聲吧！
 
             ### 相關連結
 
-            - [State of CSS Homepage](https://stateofcss.com)
-            - [State of JS Homepage](https://stateofjs.com)
+            - [CSS 現況調查首頁](https://stateofcss.com)
+            - [JS 現況調查首頁](https://stateofjs.com)
 
             ### 致謝
 
@@ -42,7 +42,7 @@ translations:
 
             ### 其他資訊
 
-            本站架設於 IBM Plex Mono。有任何問題或意見回饋嗎？[聯絡我們！](mailto:hello@stateofjs.com)
+            此網站使用 IBM Plex Mono。有問題或回饋嗎？[立刻聯繫！](mailto:hello@stateofjs.com)
 
             接下來就讓我們一起瞧瞧 JavaScript 今年在忙些什麼吧！
 

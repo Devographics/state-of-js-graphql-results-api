@@ -100,6 +100,11 @@ translations:
       t: >
         這份調查是我們的閒暇專案。為了讓它可以持續進行，也持續徵求可以幫助我們的伙伴。不管是資金或幫忙宣傳都可以。如果你有任何可以幫助的方式，請[立即聯繫](mailto:hello@stateofjs.com)！
 
+    - key: sections.awards.title
+      t: 獎項
+    - key: sections.awards.description
+      t: 今年令人矚目的事情。
+
     ###########################################################################
     # User Info
     ###########################################################################
@@ -156,6 +161,8 @@ translations:
       t: Ukrainian
     - key: options.locale.pl-PL
       t: Polish
+    - key: options.locales.fa-IR
+      t: Farsi
 
     ###########################################################################
     # Features
@@ -239,6 +246,8 @@ translations:
     - key: blocks.tools_quadrant.interest.description
       t: |
         這張圖表是每個技術根據**總使用者數量**顯示**有興趣比例**（定義是答題者知道某個技術，但*尚未*使用）。
+
+        （附帶一提：使用者數量很少的原因是未知技術，或已經有很多答題者已經在使用該技術。）
 
     # category other tools
     - key: blocks.category_other_tools.title
