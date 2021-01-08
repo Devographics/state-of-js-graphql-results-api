@@ -261,7 +261,7 @@ translations:
     - key: picks.midudev.description
       t: |
             Working with modules on the JavaScript ecosystem has been messy. 
-            ES2020 came with ESModules to end that. Even it's stable on Node.js. Yei!
+            ES2020 came with ES Modules to end that. Even it's stable on Node.js. Yei!
     
     - key: picks.cassidoo.bio
       t: Principal Developer Experience Engineer at Netlify
