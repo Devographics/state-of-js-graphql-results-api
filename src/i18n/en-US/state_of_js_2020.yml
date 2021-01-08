@@ -192,12 +192,11 @@ translations:
       t: With a sky-high satisfaction rating of **{value}**, Testing Library is 2020's overall most beloved tool. 
 
     - key: award.tool_interest_award.comment
-      t: GraphQL continues to be the one thing developers want to learn more about, as soon as they can finally find the time. 
+      t: GraphQL continues to be the one thing developers want to learn more about with an interest ratio of **{value}**, as soon as they can finally find the time. 
 
-    # - key: award.most_write_ins_award.comment
-    #   t: Many questions also accepted write-in answers, and with **{value}** mentions PhpStorm was the most popular item overall.
+    - key: award.most_write_ins_award.comment
+      t: People are always passionate about text editors, and with **{value}** mentions IntelliJ IDEA wins the award for the most write-in answers. 
 
-      
     ###########################################################################
     # Conclusion
     ###########################################################################
