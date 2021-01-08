@@ -26,7 +26,7 @@ translations:
           你当前正在以只读模式查看此问卷。
     - key: general.survey_read_only_back
       t: >
-          <a href="${link}">返回问卷主页</a> 以继续（重新）填写。
+          <a href="{link}">返回问卷主页</a> 以继续（重新）填写。
 
     # surveys
     - key: general.open_surveys
@@ -62,7 +62,7 @@ translations:
     - key: general.privacy_policy
       t: 隐私政策
     - key: general.leave_issue
-      t: 遇到问题，发生bug？ 请<a href="${link}" target="_blank">提交 issue</a>。
+      t: 遇到问题，发生bug？ 请<a href="{link}" target="_blank">提交 issue</a>。
     - key: general.emoji_icons
       t: Emoji 图标来自 <a target="_blank" rel="noreferrer" href="https://icons8.com">Icons8</a>
 

@@ -26,7 +26,7 @@ translations:
           در حال حاضر به صورت فقط خواندنی درحال دیدن این همه پرسی هستید.
     - key: general.survey_read_only_back
       t: >
-          <a href="${link}">بازگشت به قبل</a> به صفحه اصلی همه پرسی برای شروع و یا ادامه پاسخگویی.
+          <a href="{link}">بازگشت به قبل</a> به صفحه اصلی همه پرسی برای شروع و یا ادامه پاسخگویی.
 
     # surveys
     - key: general.open_surveys
@@ -68,7 +68,7 @@ translations:
     - key: general.privacy_policy
       t: حریم خصوصی
     - key: general.leave_issue
-      t: سوال؟ مشکلی در برنامه دیده اید؟ <a href="${link}" target="_blank">تیکتی برای ما ایجاد کنید</a>.
+      t: سوال؟ مشکلی در برنامه دیده اید؟ <a href="{link}" target="_blank">تیکتی برای ما ایجاد کنید</a>.
     - key: general.emoji_icons
       t: آیکونهای Emoji توسط <a target="_blank" rel="noreferrer" href="https://icons8.com">Icons8</a>
 
@@ -132,11 +132,11 @@ translations:
 
     # other
     - key: general.join_discord
-      t: به ما ملحق شوید <a href="${link}">Discord</a>. 
+      t: به ما ملحق شوید <a href="{link}">Discord</a>. 
     - key: general.translator_mode
       t: دکمه option/alt را برای فعالسازی مود ترجمه فشار دهید.
     - key: general.charts_nivo
-      t: گرافهای این سایت توسط <a href="${link}">Nivo</a>.
+      t: گرافهای این سایت توسط <a href="{link}">Nivo</a>.
       
     ###########################################################################
     # Nav

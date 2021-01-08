@@ -26,7 +26,7 @@ translations:
           Przeglądasz aktualnie ankietę w trybie tylko do odczytu.
     - key: general.survey_read_only_back
       t: >
-          <a href="${link}">Wróć</a> do głównej strony ankiety, aby rozpocząć lub wnowić sesję.
+          <a href="{link}">Wróć</a> do głównej strony ankiety, aby rozpocząć lub wnowić sesję.
 
     # surveys
     - key: general.open_surveys
@@ -68,7 +68,7 @@ translations:
     - key: general.privacy_policy
       t: Polityka prywatności
     - key: general.leave_issue
-      t: Pytania? Znalazłeś błąd? <a href="${link}" target="_blank">Zgłoś uwagę</a>.
+      t: Pytania? Znalazłeś błąd? <a href="{link}" target="_blank">Zgłoś uwagę</a>.
     - key: general.emoji_icons
       t: Emoji icons by <a target="_blank" rel="noreferrer" href="https://icons8.com">Icons8</a>
 
@@ -132,11 +132,11 @@ translations:
 
     # other
     - key: general.join_discord
-      t: Dołącz do nas na <a href="${link}">Discord</a>.
+      t: Dołącz do nas na <a href="{link}">Discord</a>.
     - key: general.translator_mode
       t: Wciśnij option/alt, by uruchomić tryb tłumacza.
     - key: general.charts_nivo
-      t: Wykresy zbudowane przy użyciu <a href="${link}">Nivo</a>.
+      t: Wykresy zbudowane przy użyciu <a href="{link}">Nivo</a>.
 
     ###########################################################################
     # Nav

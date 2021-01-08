@@ -26,7 +26,7 @@ translations:
           Зараз ви переглядаєте опитування в режимі тільки для читання.
     - key: general.survey_read_only_back
       t: >
-          <a href="${link}">Поверніться</a> на головну сторінку опитування, щоб почати або відновити сесію.
+          <a href="{link}">Поверніться</a> на головну сторінку опитування, щоб почати або відновити сесію.
 
     # surveys
     - key: general.open_surveys
@@ -64,7 +64,7 @@ translations:
     - key: general.privacy_policy
       t: Політика конфіденційності
     - key: general.leave_issue
-      t: Є питання? Знайшли помилку? <a href="${link}" target="_blank">Створіть ішью</a>.
+      t: Є питання? Знайшли помилку? <a href="{link}" target="_blank">Створіть ішью</a>.
     - key: general.emoji_icons
       t: Емодзі-іконки від <a target="_blank" rel="noreferrer" href="https://icons8.com">Icons8</a>
 
@@ -130,12 +130,12 @@ translations:
 
     # other
     - key: general.join_discord
-      t: Заходьте до нас в <a href="${link}">Discord-чат</a>.
+      t: Заходьте до нас в <a href="{link}">Discord-чат</a>.
     - key: general.translator_mode
       t: Натисніть option/alt, щоб активувати режим перекладача.
 
     - key: general.charts_nivo
-      t: Візуалізація даних зроблена за допомогою <a href="${link}">Nivo</a>.
+      t: Візуалізація даних зроблена за допомогою <a href="{link}">Nivo</a>.
 
     ###########################################################################
     # Nav

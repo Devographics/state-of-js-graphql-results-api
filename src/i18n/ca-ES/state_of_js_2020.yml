@@ -176,19 +176,19 @@ translations:
     ###########################################################################
 
     # - key: award.feature_adoption_delta_award.comment
-    #   t: Amb una progressió de **${value}** el 2020, aquest ha estat l'any en què CSS Grid ha passat de ser una nova tecnologia a una eina establerta.
+    #   t: Amb una progressió de **{value}** el 2020, aquest ha estat l'any en què CSS Grid ha passat de ser una nova tecnologia a una eina establerta.
 
     - key: award.tool_usage_delta_award.comment
-      t: TypeScript ja era popular, i amb un creixement d'ús del **${value}** sembla que tendeix a ser més omnipresent en el futur.
+      t: TypeScript ja era popular, i amb un creixement d'ús del **{value}** sembla que tendeix a ser més omnipresent en el futur.
 
     - key: award.tool_satisfaction_award.comment
-      t: Amb una qualificació de satisfacció màxima de **${value}**, Testing Library és l'eina més estimada de 2020.
+      t: Amb una qualificació de satisfacció màxima de **{value}**, Testing Library és l'eina més estimada de 2020.
 
     - key: award.tool_interest_award.comment
       t: GraphQL segueix sent l'única cosa que els desenvolupadors volen aprendre, sempre i quan puguin trobar el temps per fer-ho.
 
     # - key: award.most_write_ins_award.comment
-    #   t: Moltes preguntes acceptaven també respostes de tipus escrites i, amb **${value}** mencions, PhpStorm ha estat el més popular en general.
+    #   t: Moltes preguntes acceptaven també respostes de tipus escrites i, amb **{value}** mencions, PhpStorm ha estat el més popular en general.
 
       
     ###########################################################################

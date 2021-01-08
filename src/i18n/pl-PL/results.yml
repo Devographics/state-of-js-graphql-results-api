@@ -16,7 +16,7 @@ translations:
       t: State of CSS
 
     - key: general.netlify_link
-      t: Hosted by <a href="${link}">Netlify</a>.
+      t: Hosted by <a href="{link}">Netlify</a>.
 
     - key: general.completion_percentage
       t: 'Procent ukończenia:'
@@ -252,9 +252,9 @@ translations:
 
     # tool experience
     - key: blocks.tool_experience.title
-      t: Doświadczenie z ${name}
+      t: Doświadczenie z {name}
     - key: blocks.tool_experience.description
-      t: Doświadczenie ankietowanych z ${name}.
+      t: Doświadczenie ankietowanych z {name}.
 
     # tool positive/negative split ("marimekko" chart)
     - key: blocks.tools_experience_marimekko.title
@@ -332,7 +332,7 @@ translations:
     - key: export.export
       t: Eksport
     - key: export.title
-      t: Eksport danych z ${title}
+      t: Eksport danych z {title}
     - key: export.nocsv
       t: Przepraszam, eksport CSV nie jest dostępny dla tego zestawu danych.
     - key: export.graphql
@@ -407,17 +407,17 @@ translations:
     - key: share.site.title
       t: Poznaj wyniki StateOf CSS 2020
     - key: share.site.twitter_text
-      t: 'Poznaj Wyniki State Of CSS 2020 ${link} #StateOfCSS'
+      t: 'Poznaj Wyniki State Of CSS 2020 {link} #StateOfCSS'
     - key: share.site.subject
       t: Wyniki Sondażu State Of JavaScript
     - key: share.site.body
-      t: 'Interesujące wyniki sondażu o CSS: ${link}'
+      t: 'Interesujące wyniki sondażu o CSS: {link}'
     - key: share.block.twitter_text
-      t: '#StateOfCSS 2020: ${title} ${link}'
+      t: '#StateOfCSS 2020: {title} {link}'
     - key: share.block.subject
       t: Wyniki Sondażu State Of CSS
     - key: share.block.body
-      t: 'Interesujące wyniki sondażu o CSS (${title}): ${link}'
+      t: 'Interesujące wyniki sondażu o CSS ({title}): {link}'
     - key: share.twitter
       t: Udostępnij na Twitterze
     - key: share.facebook

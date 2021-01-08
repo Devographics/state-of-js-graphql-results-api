@@ -26,7 +26,7 @@ translations:
           アンケートを読み込み専用モードで見ています。
     - key: general.survey_read_only_back
       t: >
-          <a href="${link}">メインページへ戻る</a>。アンケートへの回答や、回答中のアンケートを再開できます。
+          <a href="{link}">メインページへ戻る</a>。アンケートへの回答や、回答中のアンケートを再開できます。
 
     # surveys
     - key: general.open_surveys
@@ -68,7 +68,7 @@ translations:
     - key: general.privacy_policy
       t: プライバシーポリシー
     - key: general.leave_issue
-      t: 質問があったり、バグを見つけたときは<a href="${link}" target="_blank">issueを立ててください</a>。
+      t: 質問があったり、バグを見つけたときは<a href="{link}" target="_blank">issueを立ててください</a>。
     - key: general.emoji_icons
       t: Emoji icons by <a target="_blank" rel="noreferrer" href="https://icons8.com">Icons8</a>
 
@@ -129,11 +129,11 @@ translations:
 
     # other
     - key: general.join_discord
-      t: <a href="${link}">Discord</a>に参加。
+      t: <a href="{link}">Discord</a>に参加。
     - key: general.translator_mode
       t: option/altを押して翻訳モードにする。
     - key: general.charts_nivo
-      t: Charts built with <a href="${link}">Nivo</a>.
+      t: Charts built with <a href="{link}">Nivo</a>.
       
     ###########################################################################
     # Nav

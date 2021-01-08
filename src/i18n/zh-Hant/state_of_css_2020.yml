@@ -141,19 +141,19 @@ translations:
     ###########################################################################
 
     - key: award.feature_adoption_delta_award.comment
-      t: CSS Grid 在 2020 年進展 **${value}**，是從新技術跨越到具備規模的一年。
+      t: CSS Grid 在 2020 年進展 **{value}**，是從新技術跨越到具備規模的一年。
 
     - key: award.tool_usage_delta_award.comment
-      t: 其他工具都沒有辦法接近 Tailwind CSS 這樣從去年劇烈成長 **${value}**。
+      t: 其他工具都沒有辦法接近 Tailwind CSS 這樣從去年劇烈成長 **{value}**。
 
     - key: award.tool_satisfaction_award.comment
-      t: PostCSS 的 **${value}** 滿意比例代表非常認真地做好一件事，仍是無懈可擊的。
+      t: PostCSS 的 **{value}** 滿意比例代表非常認真地做好一件事，仍是無懈可擊的。
 
     - key: award.tool_interest_award.comment
-      t: CSS Module 的有興趣比例是 **${value}**，今年度在 CSS 開發者之間產生最多興趣。
+      t: CSS Module 的有興趣比例是 **{value}**，今年度在 CSS 開發者之間產生最多興趣。
 
     - key: award.most_write_ins_award.comment
-      t: 許多問題可以自行填答。整體來說，提到 **${value}** 次的 PhpStorm 是最受歡迎的。
+      t: 許多問題可以自行填答。整體來說，提到 **{value}** 次的 PhpStorm 是最受歡迎的。
 
       
     ###########################################################################

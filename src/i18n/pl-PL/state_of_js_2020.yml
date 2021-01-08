@@ -162,19 +162,19 @@ translations:
     ###########################################################################
 
     # - key: award.feature_adoption_delta_award.comment
-    #   t: With a **${value}** progression in 2020, this was the year CSS Grid crossed over from new technology to established tool.
+    #   t: With a **{value}** progression in 2020, this was the year CSS Grid crossed over from new technology to established tool.
 
     - key: award.tool_usage_delta_award.comment
       t: TypeScript był już popularny i wygląda na to, że w przyszłości stanie się jeszcze bardziej wszechobecny.
 
     - key: award.tool_satisfaction_award.comment
-      t: Z niebotycznym współczynnikiem zadowolenia **${value}**, Testing Library jest najbardziej lubianym narzędziem w 2020 roku.
+      t: Z niebotycznym współczynnikiem zadowolenia **{value}**, Testing Library jest najbardziej lubianym narzędziem w 2020 roku.
 
     - key: award.tool_interest_award.comment
       t: GraphQL jest nadal tą rzeczą, o której programiści chcą dowiedzieć się więcej, gdy tylko znajdą na to czas.
 
     # - key: award.most_write_ins_award.comment
-    #   t: Many questions also accepted write-in answers, and with **${value}** mentions PhpStorm was the most popular item overall.
+    #   t: Many questions also accepted write-in answers, and with **{value}** mentions PhpStorm was the most popular item overall.
 
     ###########################################################################
     # Conclusion

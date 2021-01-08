@@ -16,7 +16,7 @@ translations:
       t: Estat de CSS
 
     - key: general.netlify_link
-      t: Allotjat per <a href="${link}">Netlify</a>.
+      t: Allotjat per <a href="{link}">Netlify</a>.
 
     - key: general.completion_percentage
       t: 'Percentatge completat:'
@@ -260,9 +260,9 @@ translations:
 
     # tool experience
     - key: blocks.tool_experience.title
-      t: Experiència en ${name}
+      t: Experiència en {name}
     - key: blocks.tool_experience.description
-      t: Experiència de la persona enquestada en ${name}.
+      t: Experiència de la persona enquestada en {name}.
 
     # tool positive/negative split ("marimekko" chart)
     - key: blocks.tools_experience_marimekko.title
@@ -344,7 +344,7 @@ translations:
     - key: export.export
       t: Exporta
     - key: export.title
-      t: Exporta les dades de ${title}
+      t: Exporta les dades de {title}
     - key: export.nocsv
       t: Ho sentim, l'exportació CSV no està disponible per aquest conjunt de dades.
     - key: export.graphql
@@ -426,17 +426,17 @@ translations:
     - key: share.site.title
       t: Descobreix els resultats de l'Estat de CSS 2020
     - key: share.site.twitter_text
-      t: "Descobreix els resultats de l'Estat de CSS 2020 ${link} #StateOfCSS"
+      t: "Descobreix els resultats de l'Estat de CSS 2020 {link} #StateOfCSS"
     - key: share.site.subject
       t: Resultats de l'enquesta de l'Estat de JavaScript
     - key: share.site.body
-      t: "Aquí hi ha alguns resultats interessants de l'enquesta de CSS: ${link}"
+      t: "Aquí hi ha alguns resultats interessants de l'enquesta de CSS: {link}"
     - key: share.block.twitter_text
-      t: '#StateOfCSS 2020: ${title} ${link}'
+      t: '#StateOfCSS 2020: {title} {link}'
     - key: share.block.subject
       t: Resultats de l'enquesta de l'Estat de CSS
     - key: share.block.body
-      t: "Aquí hi ha alguns resultats interessants de l'enquesta de CSS (${title}): ${link}"
+      t: "Aquí hi ha alguns resultats interessants de l'enquesta de CSS ({title}): {link}"
     - key: share.twitter
       t: Comparteix-ho a  Twitter
     - key: share.facebook

@@ -26,7 +26,7 @@ translations:
           Actualment estàs veient l'enquesta en mode lectura.
     - key: general.survey_read_only_back
       t: >
-          <a href="${link}">Tornar</a> a la pàgina principal de l'enquesta per començar o reprendre una sessió.
+          <a href="{link}">Tornar</a> a la pàgina principal de l'enquesta per començar o reprendre una sessió.
 
     # surveys
     - key: general.open_surveys
@@ -68,7 +68,7 @@ translations:
     - key: general.privacy_policy
       t: Política de Privacitat
     - key: general.leave_issue
-      t: Tens preguntes? Has trobat un error? <a href="${link}" target="_blank">Obre'ns una incidència</a>.
+      t: Tens preguntes? Has trobat un error? <a href="{link}" target="_blank">Obre'ns una incidència</a>.
     - key: general.emoji_icons
       t: Emojis per <a target="_blank" rel="noreferrer" href="https://icons8.com">Icons8</a>
 
@@ -133,11 +133,11 @@ translations:
 
     # other
     - key: general.join_discord
-      t: Uneix-te a <a href="${link}">Discord</a>.
+      t: Uneix-te a <a href="{link}">Discord</a>.
     - key: general.translator_mode
       t: Prem option/alt per habilitar el mode de traducció.
     - key: general.charts_nivo
-      t: Gràfics creats amb <a href="${link}">Nivo</a>.
+      t: Gràfics creats amb <a href="{link}">Nivo</a>.
       
     ###########################################################################
     # Nav

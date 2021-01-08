@@ -16,7 +16,7 @@ translations:
       t: |
 
             <span class="first-letter">A</span>s crappy as 2020 was, JavaScript as a whole still managed to somehow move forward. As the language itself keeps improving
-            thanks to new features like Optional Chaining and Nullish Coalescing, TypeScript's widespread adoption is taking things to a whole other level by popularizing static typing (cue non-JS devs everywhere laughing –or crying– quietly). 
+            thanks to new features like Optional Chaining and Nullish Coalescing, TypeScript's widespread adoption is taking things to a whole other level by popularizing static typing. 
 
             And on the framework side, just when we though things were settling down, Svelte comes in and promises to shake everything up with a fresh take on the front-end. And even build tools are showing signs of new activity after years of Webpack hegemony. 
 
@@ -183,19 +183,19 @@ translations:
     ###########################################################################
 
     # - key: award.feature_adoption_delta_award.comment
-    #   t: With a **${value}** progression in 2020, this was the year CSS Grid crossed over from new technology to established tool.
+    #   t: With a **{value}** progression in 2020, this was the year CSS Grid crossed over from new technology to established tool.
 
     - key: award.tool_usage_delta_award.comment
-      t: TypeScript was already popular, and with a **${value}** growth in usage it looks like it's only going to get more ubiquitous going forward.
+      t: TypeScript was already popular, and with a **{value}** growth in usage it looks like it's only going to get more ubiquitous going forward.
 
     - key: award.tool_satisfaction_award.comment
-      t: With a sky-high satisfaction rating of **${value}**, Testing Library is 2020's overall most beloved tool. 
+      t: With a sky-high satisfaction rating of **{value}**, Testing Library is 2020's overall most beloved tool. 
 
     - key: award.tool_interest_award.comment
       t: GraphQL continues to be the one thing developers want to learn more about, as soon as they can finally find the time. 
 
     # - key: award.most_write_ins_award.comment
-    #   t: Many questions also accepted write-in answers, and with **${value}** mentions PhpStorm was the most popular item overall.
+    #   t: Many questions also accepted write-in answers, and with **{value}** mentions PhpStorm was the most popular item overall.
 
       
     ###########################################################################
@@ -272,3 +272,20 @@ translations:
             He's active in open source (on the Vue core team), 
             consistently makes useful content for developers to learn, and is very giving with his time.
             
+    - key: picks.lauragift_.bio
+      t: Frontend Developer @PassionatePeople
+    - key: picks.lauragift_.description
+      t: |
+            Josh Comeau has been an inspiration to me, and I can say the JS community in general. 
+            He writes very thoughtful articles on his blog, and they are some of the best I read in 
+            2020 because they either helped me stay on top of the latest in JavaScript 
+            or helped me learn something new.
+
+    - key: picks.tomdale.bio
+      t: JavaScript Thinkfluencer
+    - key: picks.tomdale.description
+      t: |
+            Volta helps manage your entire JavaScript toolchain – think nvm, but it also helps 
+            you and your team stay on the same versions of Node, npm, CLI tools, etc. 
+            I love it because it's so darn nice to use, and is pioneering the use of 
+            Rust to build speedy tools for JS.

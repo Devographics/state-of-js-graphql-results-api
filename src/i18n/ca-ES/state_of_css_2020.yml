@@ -151,19 +151,19 @@ translations:
     ###########################################################################
 
     - key: award.feature_adoption_delta_award.comment
-      t: Amb una progressió de **${value}** el 2020, aquest ha estat l'any en què CSS Grid ha passat de ser una nova tecnologia a una eina establerta.
+      t: Amb una progressió de **{value}** el 2020, aquest ha estat l'any en què CSS Grid ha passat de ser una nova tecnologia a una eina establerta.
 
     - key: award.tool_usage_delta_award.comment
-      t: Cap altra eina s'acosta a la ràpida progressió de **${value}** durant l'últim any.
+      t: Cap altra eina s'acosta a la ràpida progressió de **{value}** durant l'últim any.
 
     - key: award.tool_satisfaction_award.comment
-      t: La proporció de satisfacció de **${value}** de PostCSS mostra que no es pot superar fent les coses realment bé.
+      t: La proporció de satisfacció de **{value}** de PostCSS mostra que no es pot superar fent les coses realment bé.
 
     - key: award.tool_interest_award.comment
-      t: Amb una proporció de **${value}**, CSS Modules ha generat el més gran interès aquest any.
+      t: Amb una proporció de **{value}**, CSS Modules ha generat el més gran interès aquest any.
 
     - key: award.most_write_ins_award.comment
-      t: Moltes preguntes acceptaven també respostes de tipus escrites i, amb **${value}** mencions, PhpStorm ha estat el més popular en general.
+      t: Moltes preguntes acceptaven també respostes de tipus escrites i, amb **{value}** mencions, PhpStorm ha estat el més popular en general.
 
       
     ###########################################################################

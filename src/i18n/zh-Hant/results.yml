@@ -16,7 +16,7 @@ translations:
       t: CSS 現況調查
 
     - key: general.netlify_link
-      t: 存放在 <a href="${link}">Netlify</a>。
+      t: 存放在 <a href="{link}">Netlify</a>。
 
     - key: general.completion_percentage
       t: '完成百分比：'
@@ -248,9 +248,9 @@ translations:
 
     # tool experience
     - key: blocks.tool_experience.title
-      t: ${name} 體驗
+      t: '{name} 體驗'
     - key: blocks.tool_experience.description
-      t: 填答者的 ${name} 體驗。
+      t: 填答者的 {name} 體驗。
 
     # tool positive/negative split ("marimekko" chart)
     - key: blocks.tools_experience_marimekko.title
@@ -322,7 +322,7 @@ translations:
     - key: export.export
       t: 輸出
     - key: export.title
-      t: 輸出 ${title} 的資料
+      t: 輸出 {title} 的資料
     - key: export.nocsv
       t: 抱歉，這組資料還沒有辦法輸出 CSV。
     - key: export.graphql
@@ -402,17 +402,17 @@ translations:
     - key: share.site.title
       t: 探索 CSS 現況調查 2020 結果
     - key: share.site.twitter_text
-      t: '探索 CSS 現況調查 2020 結果 ${link} #StateOfCSS'
+      t: '探索 CSS 現況調查 2020 結果 {link} #StateOfCSS'
     - key: share.site.subject
       t: JavaScript 現況調查結果
     - key: share.site.body
-      t: 'CSS 現況調查的有趣結果看這裡：${link}'
+      t: 'CSS 現況調查的有趣結果看這裡：{link}'
     - key: share.block.twitter_text
-      t: '#StateOfCSS 2020: ${title} ${link}'
+      t: '#StateOfCSS 2020: {title} {link}'
     - key: share.block.subject
       t: CSS 現況調查結果
     - key: share.block.body
-      t: 'CSS 現況調查的有趣結果看這裡 (${title}): ${link}'
+      t: 'CSS 現況調查的有趣結果看這裡 ({title}): {link}'
     - key: share.twitter
       t: 分享至 Twitter
     - key: share.facebook

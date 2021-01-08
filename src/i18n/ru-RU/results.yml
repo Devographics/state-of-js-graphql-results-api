@@ -16,7 +16,7 @@ translations:
       t: State of CSS
 
     - key: general.netlify_link
-      t: Сайт размещён на <a href="${link}">Netlify</a>.
+      t: Сайт размещён на <a href="{link}">Netlify</a>.
 
     - key: general.completion_percentage
       t: 'Процент заполнения:'
@@ -243,9 +243,9 @@ translations:
 
     # tool experience
     - key: blocks.tool_experience.title
-      t: ${name} Опыт работы
+      t: '{name} Опыт работы'
     - key: blocks.tool_experience.description
-      t: Опыт участника опроса с ${name}.
+      t: Опыт участника опроса с {name}.
 
     # tool positive/negative split ("marimekko" chart)
     - key: blocks.tools_experience_marimekko.title
@@ -322,7 +322,7 @@ translations:
     - key: export.export
       t: Экспорт
     - key: export.title
-      t: "Экспорт данных: ${title}"
+      t: "Экспорт данных: {title}"
     - key: export.nocsv
       t: К сожалению, экспорт в CSV недоступен для этого набора данных.
     - key: export.graphql
@@ -400,17 +400,17 @@ translations:
     - key: share.site.title
       t: Узнайте результаты опроса State Of CSS 2020
     - key: share.site.twitter_text
-      t: 'Узнайте результаты опроса CSS 2020 ${link} #StateOfCSS'
+      t: 'Узнайте результаты опроса CSS 2020 {link} #StateOfCSS'
     - key: share.site.subject
       t: Результаты опроса State Of JavaScript
     - key: share.site.body
-      t: 'Лишь некоторые интересные результаты опроса по CSS: ${link}'
+      t: 'Лишь некоторые интересные результаты опроса по CSS: {link}'
     - key: share.block.twitter_text
-      t: '#StateOfCSS 2020: ${title} ${link}'
+      t: '#StateOfCSS 2020: {title} {link}'
     - key: share.block.subject
       t: Результаты опроса State Of CSS
     - key: share.block.body
-      t: 'Лишь некоторые интересные результаты опроса по CSS (${title}): ${link}'
+      t: 'Лишь некоторые интересные результаты опроса по CSS ({title}): {link}'
     - key: share.twitter
       t: Поделиться в Twitter
     - key: share.facebook
