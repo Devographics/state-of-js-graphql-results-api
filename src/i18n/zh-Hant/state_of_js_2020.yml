@@ -17,9 +17,9 @@ translations:
 
             <span class="first-letter">儘</span>管 2020 年不是那麼順遂，整體來說 JavaScript 仍舊持續向上發展。Optional Chaining 和 Nullish Coalescing 這些新功能持續釋出，另一方面 TypeScript 將靜態型別的應用推展至新的境界。
 
-            接著看到框架，正當我們認為事情不會有什麼變動時，Svelte 展露頭角，誓言撼動前端開發的現狀。甚至連 Webpack 獨霸多年的建置工具界，最近也頻頻有新的活動。
+            接著看到框架，正當我們認為事情不會有什麼變動時，Svelte 展露頭角，誓言撼動前端開發的現狀。甚至連 webpack 獨霸多年的建置工具界，最近也頻頻有新的活動。
 
-            但俗話說得好，薑還是老得辣。Svelte 和 Snowpack 讓人眼睛一亮，但 React 和 Webpack 仍舊十分耀眼。新的技術很酷，但既有的工具也不會那麼快消失。當然，未來某一天它們終將被劇烈變動的 JavaScript 埋沒，化為時代的眼淚。不過，或許在那天到來之前我們還有得等。
+            但俗話說得好，薑還是老得辣。Svelte 和 Snowpack 讓人眼睛一亮，但 React 和 webpack 仍舊十分耀眼。新的技術很酷，但既有的工具也不會那麼快消失。當然，未來某一天它們終將被劇烈變動的 JavaScript 埋沒，化為時代的眼淚。不過，或許在那天到來之前我們還有得等。
 
             那，不如珍視我們目前有的吧：良好、持續進步的生態圈！
 
@@ -118,7 +118,7 @@ translations:
 
     - key: sections.build_tools.description
       t: |
-          正當我們覺得 Webpack 稱霸建置工具界時，像是 Snowpack and ESBuild 這些新工具百花齊放，於是我們決定從 2017 年以來，第一次給他們專屬的調查欄位。
+          正當我們覺得 webpack 稱霸建置工具界時，像是 Snowpack and esbuild 這些新工具百花齊放，於是我們決定從 2017 年以來，第一次給他們專屬的調查欄位。
 
     - key: sections.mobile_desktop.description
       t: |

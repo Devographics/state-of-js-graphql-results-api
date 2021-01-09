@@ -1310,7 +1310,7 @@
 #################################################
 
 - id: webpack
-  name: Webpack
+  name: webpack
   npm: webpack
   github: webpack/webpack
   description: >-
