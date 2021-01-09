@@ -75,16 +75,13 @@ translations:
 
     - key: tshirt.description
       t: |
-          The design is printed on a black heather [Bella+Canvas 3001 unisex premium 
-          t-shirt](https://www.printful.com/custom/mens/t-shirts/unisex-premium-t-shirt-bella-canvas-3001) (men’s) with a semi-slim fit; 
-          or a heather dark grey [Anvil 880 Women's Fashion Fit T-Shirt](https://www.printful.com/custom/womens/t-shirts/womens-fashion-fit-t-shirt) (women‘s). 
-          Sizing uses U.S. sizes.
+          Printing and shipping is handled by [Cotton Bureau](https://cottonbureau.com/people/state-of-js). The design is printed on a premium Next Level black super-soft, tri-blend shirt. 
 
     - key: tshirt.getit
       t: Get It
 
     - key: tshirt.price
-      t: USD $24 + shipping
+      t: USD ${price} + shipping
 
     ###########################################################################
     # Sections Introductions
@@ -288,3 +285,15 @@ translations:
             you and your team stay on the same versions of Node, npm, CLI tools, etc. 
             I love it because it's so darn nice to use, and is pioneering the use of 
             Rust to build speedy tools for JS.
+
+    - key: picks.markdalgleish.bio
+      t: Co-creator of CSS Modules, creator of Playroom
+    - key: picks.markdalgleish.description
+      t: |
+            Automates npm publishing with the ability to tie markdown release notes to every change. Changesets has really leveled up the quality of our release notes and version management this year.
+
+    - key: picks.sachagreif.bio
+      t: Creator of the State of JS survey
+    - key: picks.sachagreif.description
+      t: |
+            Best Of JS tracks GitHub stats about virtually every major JavaScript project, and it has been an invaluable resource for helping us decide what to include in the survey!
