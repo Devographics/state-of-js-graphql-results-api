@@ -133,7 +133,7 @@ translations:
 
     - key: sections.mobile_desktop.description
       t: |
-          JavaScript — язык не только для браузеров, Electron и React Native — два самых известных имени
+          JavaScript — язык не только для браузеров, Electron и React Native — два самых известных названия
           в этой категории, хотя другие решения вроде Expo и Capacitor
           уже начинают нагонять волну.
 
