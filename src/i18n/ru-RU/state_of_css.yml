@@ -106,11 +106,6 @@ translations:
     - key: sections.environments.description
       t: Для каких окружений вы пишете CSS?
 
-    - key: sections.awards.title
-      t: Награды
-    - key: sections.awards.description
-      t: Что привлекло большее внимание в этом году.
-
     ###########################################################################
     # Options
     ###########################################################################
@@ -279,12 +274,6 @@ translations:
       t: Функции сравнения CSS
     - key: features.comparison_functions.description
       t: <code>min()</code>, <code>max()</code> и <code>clamp()</code>
-
-    # knowledge score
-    - key: features.knowledge_score
-      t: Оценка знаний
-    - key: features.knowledge_score.description
-      t: Сколько CSS-возможностей знали участники опроса?
 
     ###########################################################################
     # Units & Selectors
