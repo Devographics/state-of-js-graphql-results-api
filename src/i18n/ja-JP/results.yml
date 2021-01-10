@@ -25,7 +25,7 @@ translations:
 
     - key: general.completion_percentage
       t: 'Completion percentage:'
-      t: 'Completion percentage:'
+      t: '回答記入率：'
 
     - key: partners.thanks
       t: Thanks to our partners for supporting us!
@@ -69,7 +69,7 @@ translations:
       t: |
         ASSESS: Low usage, high satisfaction. Technologies worth keeping an eye on.
       t: |
-        ASSESS: Low usage, high satisfaction. Technologies worth keeping an eye on.
+        ASSESS: 利用率は低いが、満足度が高い。チェックしておくとよさそうな技術。
     - key: options.quadrant.adopt
       t: ADOPT
       t: ADOPT
@@ -77,7 +77,7 @@ translations:
       t: |
         ADOPT: High usage, high satisfaction. Safe technologies to adopt.
       t: |
-        ADOPT: High usage, high satisfaction. Safe technologies to adopt.
+        ADOPT: 利用率も満足度も高い。使っても大丈夫な技術。
     - key: options.quadrant.avoid
       t: AVOID
       t: AVOID
@@ -85,7 +85,7 @@ translations:
       t: |
         AVOID: Low usage, low satisfaction. Technologies probably best avoided currently.
       t: |
-        AVOID: Low usage, low satisfaction. Technologies probably best avoided currently.
+        AVOID: 利用率も満足度も低い。いまは避けておいた方がよさそうな技術。
     - key: options.quadrant.analyze
       t: ANALYZE
       t: ANALYZE
@@ -93,7 +93,7 @@ translations:
       t: |
         ANALYZE: High usage, low satisfaction. Reassess these technologies if you're currently using them.
       t: |
-        ANALYZE: High usage, low satisfaction. Reassess these technologies if you're currently using them.
+        ANALYZE: 利用率は高いが、満足度は低い。現在使っているなら、見直すとよさそうな技術。
 
     - key: ranges.selector.years_of_experience
       t: Experience
@@ -254,7 +254,7 @@ translations:
         For each technology, how usage is spread among respondents
         who picked different company size ranges.
       t: |
-        企業の従業員数によって、その技術の利用率が変化しているかを見ています。
+        企業の従業員数によって、技術の利用率が変化しているかを見ています。
 
     - key: blocks.tools_yearly_salary_heatmap.title
       t: Usage by Salary Range
@@ -264,7 +264,7 @@ translations:
         For each technology, how usage is spread among respondents
         who picked different salary ranges.
       t: |
-        給与によって、その技術の利用率が変化しているかを見ています。
+        給与によって、技術の利用率が変化しているかを見ています。
 
     - key: blocks.tools_years_of_experience_heatmap.title
       t: Usage by Years Of Experience
@@ -274,7 +274,7 @@ translations:
         For each technology, how usage is spread among respondents who picked different experience ranges.
         Note that the experience in question here is general experience, not experience with a specific technology.
       t: |
-        経験年数によって、その技術の利用率が変化しているかを見ています。なお、経験年数とは職務経験であり、その技術の経験ではありません。
+        経験年数によって、技術の利用率が変化しているかを見ています。なお、経験年数とは職務経験であり、その技術の経験ではありません。
 
     # tool
     - key: blocks.entity.homepage_link
@@ -356,7 +356,7 @@ translations:
     # tools section streams
     - key: blocks.tools_section_streams.title
       t: Experience Over Time
-      t: Experience Over Time
+      t: 評価の移ろい
     - key: blocks.tools_section_streams.description
       t: |
         Overview of opinions on the technologies surveyed over time.
@@ -366,7 +366,7 @@ translations:
       t: |
         Technologies with only one year of data are not included.
       t: |
-        データが1年しかないものは含めていません。
+        1年ぶんのデータしかないものは含めていません。
 
     # tools section overview
     - key: blocks.tools_section_overview.title
@@ -445,14 +445,11 @@ translations:
         Hover on each node to view detailed data along with an <span class="text-blackpink text-bold">overlay</span>
         representing the total number of survey respondents.
       t: |
-        This chart presents the various adoption rates for all features, grouped by category.
+        このチャートは各機能の採用度合いを示しています。各機能はカテゴリごとに分けられています。
 
-        The size of the <span class="text-teal-darker text-bold">outer circle</span>
-        corresponds to the total number of users who know about a feature, while
-        the <span class="text-teal text-bold">inner one</span> represents those who have actually used it.
+        <span class="text-teal-darker text-bold">外の円</span>は機能を知っている人の数を、<span class="text-teal text-bold">内の円</span>は実際に使った人の数をそれぞれ表します。
 
-        Hover on each node to view detailed data along with an <span class="text-blackpink text-bold">overlay</span>
-        representing the total number of survey respondents.
+        回答者の人数など詳細は、ノードにカーソルをあわせると表示される<span class="text-blackpink text-bold">オーバーレイ</span>から確認できます。
 
     # export
     - key: export.export
@@ -473,7 +470,7 @@ translations:
     # Tools usage variations
     - key: blocks.tools_usage_variations.title
       t: Usage Variations
-      t: Usage Variations
+      t: 利用率の変動
     - key: blocks.tools_usage_variations.description
       t: |
         How different factors such as salary range, years of experience
@@ -487,21 +484,14 @@ translations:
         using this tool is 13% (compared to all users having from 1 to 2 years
         of experience), then we have a positive delta of +3%.
       t: |
-        How different factors such as salary range, years of experience
-        or company size influence usage (participants who answered either
-        ”would use again” or “would not use again”).
+        給与、経験年数、従業員の数などが、技術の利用にどんな差（回答者の「また使いたい」「もう使わない」の選択）を及ぼしたかを調べます。
 
-        The baseline represents the base usage for each tool and the offsets
-        correspond to the delta from this baseline in each range. Let's say
-        tool X has an overall usage of 10% across all respondents (the baseline),
-        then if the percentage of users having from 1 to 2 years of experience
-        using this tool is 13% (compared to all users having from 1 to 2 years
-        of experience), then we have a positive delta of +3%.
+        ベースラインはそれぞれのツールについての利用率を示します。オフセットはベースラインからの差分を表します。たとえば、Xというツールが全回答者のうち10％で使われているとします（これがベースラインです）。そのツールを使っている人のうち、経験年数1～2年の人の割合が13％の場合（ほかのすべての経験年数1～2年の人と比較し）は、肯定の差分が＋3％となります。
     - key: blocks.tools_usage_variations.note
       t: |
         Please keep in mind that tools having a lower overall usage tends to vary more.
       t: |
-        Please keep in mind that tools having a lower overall usage tends to vary more.
+        利用率の低いツールほど変動が大きくなりやすいことに注意してください。
 
     # Recommended Resources
     - key: blocks.recommended_resources.title
@@ -554,20 +544,20 @@ translations:
       t: 満足度
     - key: charts.axis_legends.knowledge_score
       t: Known Features
-      t: Known Features
+      t: 知識の度合い
     - key: charts.axis_legends.frequency
       t: Frequency
       t: 頻度
 
     - key: charts.ranges_multiple_diverging_lines.baseline
       t: baseline
-      t: baseline
+      t: ベースライン
     - key: charts.ranges_multiple_diverging_lines.positive_offset
       t: positive offset
-      t: positive offset
+      t: 肯定のオフセット
     - key: charts.ranges_multiple_diverging_lines.negative_offset
       t: negative offset
-      t: negative offset
+      t: 否定のオフセット
 
     ###########################################################################
     # Sharing
@@ -587,7 +577,7 @@ translations:
       t: State Of JavaScriptの結果
     - key: share.site.body
       t: 'Here are some interesting CSS survey results: ${link}'
-      t: 'Here are some interesting CSS survey results: ${link}'
+      t: 'CSSに関するアンケートの興味深い結果です: ${link}'
     - key: share.block.twitter_text
       t: '#StateOfCSS 2020: ${title} ${link}'
       t: '#StateOfCSS 2020: ${title} ${link}'
@@ -596,7 +586,7 @@ translations:
       t: State Of CSSの結果
     - key: share.block.body
       t: 'Here are some interesting CSS survey results (${title}): ${link}'
-      t: 'Here are some interesting CSS survey results (${title}): ${link}'
+      t: 'CSSに関するアンケートの興味深い結果です (${title}): ${link}'
     - key: share.twitter
       t: Share on Twitter
       t: Twitterにシェア
@@ -611,7 +601,7 @@ translations:
       t: メールで共有
     - key: share.image
       t: Get image
-      t: Get image
+      t: 画像を取得
 
     ###########################################################################
     # Awards
