@@ -107,15 +107,15 @@ translations:
 
     # partners
     - key: partners.our_partners
-      t: Our Partners
+      t: Nos partenaires
     - key: partners.become_partner
-      t: Become a partner
+      t: Devenir un partenaire
 
     # 404
     - key: notfound.title
-      t: 404 Not Found
+      t: 404 Page non trouvée
     - key: notfound.description
-      t: Sorry, we couldn't find what you were looking for. 
+      t: Désolé, nous n'avons pu trouver ce que vous cherchez. 
 
     # other
     - key: general.join_discord
