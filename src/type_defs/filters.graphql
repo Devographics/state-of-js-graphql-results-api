@@ -16,6 +16,12 @@ input RaceEthnicityFilter {
     # nin: [RaceEthnicityID]
 }
 
+input IndustrySectorFilter {
+    eq: IndustrySectorID
+    # in: [IndustrySectorID]
+    # nin: [IndustrySectorID]
+}
+
 input YearlySalaryRangeFilter {
     eq: SalaryRange
     in: [SalaryRange]
@@ -48,4 +54,5 @@ input Filters {
     company_size: CompanySizeFilter
     years_of_experience: YearsOfExperienceFilter
     source: SourceFilter
+    industry_sector: IndustrySectorFilter
 }

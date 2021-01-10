@@ -11,6 +11,7 @@ export interface Filters {
     gender?: Filter<string>
     country?: Filter<string>
     race_ethnicity?: Filter<string>
+    industry_sector?: Filter<string>
     salary?: Filter<string>
     companySize?: Filter<string>
     workExperience?: Filter<string>
@@ -30,6 +31,7 @@ export interface FiltersQuery {
     'user_info.gender'?: FilterQuery<string>
     'user_info.country_alpha3'?: FilterQuery<string>
     'user_info.race_ethnicity.choices'?: FilterQuery<string>
+    'user_info.industry_sector.choices'?: FilterQuery<string>
     'user_info.company_size'?: FilterQuery<string>
     'user_info.yearly_salary'?: FilterQuery<string>
     'user_info.years_of_experience'?: FilterQuery<string>
@@ -74,6 +76,9 @@ export const generateFiltersQuery = (filters?: Filters): FiltersQuery => {
         }
         if (filters.race_ethnicity !== undefined) {
             match['user_info.race_ethnicity.choices'] = mapFilter<string>(filters.race_ethnicity)
+        }
+        if (filters.industry_sector !== undefined) {
+            match['user_info.industry_sector.choices'] = mapFilter<string>(filters.industry_sector)
         }
         if (filters.companySize !== undefined) {
             match['user_info.company_size'] = mapFilter<string>(filters.companySize)
