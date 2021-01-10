@@ -1,55 +1,53 @@
 import { getEntity, getGraphQLEnumValues, getDemographicsResolvers } from '../helpers'
 import { RequestContext, SurveyConfig } from '../types'
 import { Filters } from '../filters'
-import { computeToolExperienceGraph } from '../compute'
+import {computeToolExperienceGraph, computeToolsCardinalityByUser, ToolExperienceId} from '../compute'
 import { useCache } from '../caching'
 
 const toolIds = getGraphQLEnumValues('ToolID')
 const featureIds = getGraphQLEnumValues('FeatureID')
 
+/**
+ * Please maintain the same order as the one shown in the explorer,
+ * it makes it easier to find a specific query and ensures consistency.
+ */
 export default {
     Survey: {
         surveyName: (survey: SurveyConfig) => {
             return survey.survey
         },
-        totals: (survey: SurveyConfig) => survey,
-        demographics: (survey: SurveyConfig) => ({
-            participation: { survey },
-            ...getDemographicsResolvers(survey)
-        }),
-        tool: (survey: SurveyConfig, { id }: { id: string }) => ({
+        category: (survey: SurveyConfig, { id }: { id: string }) => ({
             survey,
             id,
-            entity: getEntity({ id }),
-            experience: ({ filters }: { filters?: Filters }) => ({
+            happiness: ({ filters }: { filters: Filters }) => ({
                 survey,
                 id,
                 filters
             }),
-            experienceGraph: async ({ filters }: { filters?: Filters }, { db }: RequestContext) =>
-                useCache(computeToolExperienceGraph, db, [survey, id, filters])
-        }),
-        tools: (survey: SurveyConfig, { ids = toolIds }: { ids?: string[] }) =>
-            ids.map(id => ({
+            otherTools: ({ filters }: { filters: Filters }) => ({
                 survey,
                 id,
-                entity: getEntity({ id }),
-                experience: ({ filters }: { filters?: Filters }) => ({
-                    survey,
-                    id,
-                    filters
-                }),
-                experienceGraph: async (
-                    { filters }: { filters?: Filters },
-                    { db }: RequestContext
-                ) => useCache(computeToolExperienceGraph, db, [survey, id, filters])
-            })),
-        tools_rankings: (
+                filters
+            })
+        }),
+        demographics: (survey: SurveyConfig) => ({
+            participation: { survey },
+            ...getDemographicsResolvers(survey)
+        }),
+        environments: (
             survey: SurveyConfig,
-            { ids, filters }: { ids: string[]; filters: Filters }
+            { id, filters }: { id: string; filters?: Filters }
         ) => ({
             survey,
-            ids,
+            id,
+            filters
+        }),
+        environments_ratings: (
+            survey: SurveyConfig,
+            { id, filters }: { id: string; filters?: Filters }
+        ) => ({
+            survey,
+            id,
             filters
         }),
         feature: (survey: SurveyConfig, { id }: { id: string }) => ({
@@ -79,28 +77,10 @@ export default {
             id,
             filters
         }),
-        opinion: (survey: SurveyConfig, { id, filters }: { id: string; filters?: Filters }) => ({
-            survey,
-            id,
-            filters
-        }),
-        opinions_others: (
+        happiness: (
             survey: SurveyConfig,
             { id, filters }: { id: string; filters?: Filters }
         ) => ({
-            survey,
-            id,
-            filters
-        }),
-        tools_others: (
-            survey: SurveyConfig,
-            { id, filters }: { id: string; filters?: Filters }
-        ) => ({
-            survey,
-            id,
-            filters
-        }),
-        resources: (survey: SurveyConfig, { id, filters }: { id: string; filters?: Filters }) => ({
             survey,
             id,
             filters
@@ -108,29 +88,12 @@ export default {
         matrices: (survey: SurveyConfig) => ({
             survey
         }),
-        category: (survey: SurveyConfig, { id }: { id: string }) => ({
-            survey,
-            id,
-            happiness: ({ filters }: { filters: Filters }) => ({
-                survey,
-                id,
-                filters
-            }),
-            otherTools: ({ filters }: { filters: Filters }) => ({
-                survey,
-                id,
-                filters
-            })
-        }),
-        environments: (
-            survey: SurveyConfig,
-            { id, filters }: { id: string; filters?: Filters }
-        ) => ({
+        opinion: (survey: SurveyConfig, { id, filters }: { id: string; filters?: Filters }) => ({
             survey,
             id,
             filters
         }),
-        environments_ratings: (
+        opinions_others: (
             survey: SurveyConfig,
             { id, filters }: { id: string; filters?: Filters }
         ) => ({
@@ -146,10 +109,68 @@ export default {
             id,
             filters
         }),
-        happiness: (survey: SurveyConfig, { id, filters }: { id: string; filters?: Filters }) => ({
+        resources: (survey: SurveyConfig, { id, filters }: { id: string; filters?: Filters }) => ({
             survey,
             id,
             filters
-        })
+        }),
+        tool: (survey: SurveyConfig, { id }: { id: string }) => ({
+            survey,
+            id,
+            entity: getEntity({ id }),
+            experience: ({ filters }: { filters?: Filters }) => ({
+                survey,
+                id,
+                filters
+            }),
+            experienceGraph: async ({ filters }: { filters?: Filters }, { db }: RequestContext) =>
+                useCache(computeToolExperienceGraph, db, [survey, id, filters])
+        }),
+        tools: (survey: SurveyConfig, { ids = toolIds }: { ids?: string[] }) =>
+            ids.map(id => ({
+                survey,
+                id,
+                entity: getEntity({ id }),
+                experience: ({ filters }: { filters?: Filters }) => ({
+                    survey,
+                    id,
+                    filters
+                }),
+                experienceGraph: async (
+                    { filters }: { filters?: Filters },
+                    { db }: RequestContext
+                ) => useCache(computeToolExperienceGraph, db, [survey, id, filters])
+            })),
+        tools_cardinality_by_user: (survey: SurveyConfig, {
+            year,
+            // tool IDs
+            ids,
+            experienceId,
+        }: {
+            year: number
+            ids: string[]
+            experienceId: ToolExperienceId
+        }, context: RequestContext) => useCache(
+            computeToolsCardinalityByUser,
+            context.db,
+            [survey.survey, year, ids, experienceId]
+        ),
+        tools_others: (
+            survey: SurveyConfig,
+            { id, filters }: { id: string; filters?: Filters }
+        ) => ({
+            survey,
+            id,
+            filters
+        }),
+        tools_rankings: (
+            survey: SurveyConfig,
+            { ids, filters }: { ids: string[]; filters: Filters }
+        ) => ({
+            survey,
+            ids,
+            filters
+        }),
+        totals: (survey: SurveyConfig) => survey,
     }
 }

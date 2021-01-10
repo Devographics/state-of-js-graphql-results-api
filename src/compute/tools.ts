@@ -1,8 +1,9 @@
+import { inspect } from 'util'
 import { Db } from 'mongodb'
 import { SurveyConfig } from '../types'
 import { Filters } from '../filters'
+import config from "../config";
 import { computeChoicesOverYearsGraph } from './choices_over_years_graph'
-import config from '../config'
 
 export const allToolExperienceIds = [
     'would_use',
@@ -113,4 +114,70 @@ export async function computeToolExperienceGraph(
         })),
         links
     }
+}
+
+export async function computeToolsCardinalityByUser(
+    db: Db,
+    survey: string,
+    year: number,
+    toolIds: string[],
+    experienceId: ToolExperienceId
+) {
+    const pipeline = [
+        {
+            // filter on specific survey and year.
+            $match: { survey, year }
+        },
+        {
+            // for each specified tool ID, convert to 1
+            // if the experience matches `experienceId`,
+            // 0 otherwise.
+            $project: toolIds.reduce((acc, toolId) => {
+                return {
+                    ...acc,
+                    [toolId]: {
+                        $cond: {
+	                        if: {
+	                            $eq: [
+	                                `$tools.${toolId}.experience`,
+                                    experienceId
+                                ]
+                            },
+	                        then: 1,
+                            else: 0
+	                    }
+                    },
+                }
+            }, {})
+        },
+        {
+            // compute cardinality for each document
+            $project: {
+                cardinality: {
+                    $sum: toolIds.map(toolId => `$${toolId}`)
+                }
+            }
+        },
+        {
+            // aggregate cardinality
+            $group: {
+                _id: "$cardinality",
+                count: { $sum: 1 }
+            }
+        },
+        {
+            // rename fields
+            $project: {
+                cardinality: '$_id',
+                count: '$count'
+            }
+        }
+    ]
+
+    console.log(inspect(pipeline, { colors: true, depth: null }))
+
+    return db.collection(config.mongo.normalized_collection).aggregate<{
+        cardinality: number
+        count: number
+    }[]>(pipeline).toArray()
 }
