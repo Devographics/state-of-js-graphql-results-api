@@ -533,6 +533,32 @@ translations:
       t: Развлечения
     - key: options.industry_sector.consulting
       t: Консалтинг и услуги
+    - key: options.industry_sector.travel
+      t: Путешествия
+    - key: options.industry_sector.insurance
+      t: Страхование
+    - key: options.industry_sector.logistics
+      t: Логистика
+    - key: options.industry_sector.energy
+      t: Энергетика
+    - key: options.industry_sector.telecommunications
+      t: Телекоммуникационный сектор
+    - key: options.industry_sector.student
+      t: Я студент
+    - key: options.industry_sector.hospitality
+      t: Сфере обслуживания
+    - key: options.industry_sector.cyber_security
+      t: Кибербезопасность
+    - key: options.industry_sector.construction
+      t: Строительство
+    - key: options.industry_sector.automotive
+      t: Автомобильная промышленность
+    - key: options.industry_sector.agriculture
+      t: Сельское хозяйство
+    - key: options.industry_sector.transport
+      t: Транспортный сектор
+    - key: options.industry_sector.manufacturing
+      t: Производственный сектор
 
     ###########################################################################
     # Tools
