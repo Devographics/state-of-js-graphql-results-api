@@ -164,7 +164,7 @@ translations:
       t: Ukrainian
     - key: options.locale.pl-PL
       t: Polish
-    - key: options.locales.fa-IR
+    - key: options.locale.fa-IR
       t: Farsi
 
     ###########################################################################

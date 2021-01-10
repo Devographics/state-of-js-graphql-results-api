@@ -163,7 +163,7 @@ translations:
       t: Китайский (упрощённый)
     - key: options.locale.ja-JP
       t: Японский
-    - key: options.locales.fa-IR
+    - key: options.locale.fa-IR
       t: Персидский
 
     ###########################################################################
