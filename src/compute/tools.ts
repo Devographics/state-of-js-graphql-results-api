@@ -171,13 +171,30 @@ export async function computeToolsCardinalityByUser(
                 cardinality: '$_id',
                 count: '$count'
             }
+        },
+        {
+            // exclude 0 cardinality
+            $match: {
+                cardinality: {
+                    $gt: 0,
+                },
+            },
+        },
+        {
+            // higher cardinality first
+            $sort: {
+                cardinality: -1
+            }
         }
     ]
 
-    console.log(inspect(pipeline, { colors: true, depth: null }))
-
-    return db.collection(config.mongo.normalized_collection).aggregate<{
+    const results = await db.collection(config.mongo.normalized_collection).aggregate<{
+        _id: number
         cardinality: number
         count: number
     }[]>(pipeline).toArray()
+
+    console.log(inspect({ pipeline, results }, { colors: true, depth: null }))
+
+    return results
 }
