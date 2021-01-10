@@ -1,0 +1,75 @@
+locale: ca-ES
+translations:
+    - key: accounts.error_incorrect_password
+      t: Contrasenya incorrecta
+    - key: accounts.error_email_required
+      t: Es requereix el correu electrònic
+    - key: accounts.error_email_already_exists
+      t: Correu electrònic ja existent
+    - key: accounts.error_invalid_email
+      t: El correu electrònic no és vàlid
+    - key: accounts.error_minchar
+      t: La contrasenya és massa curta
+    - key: accounts.error_unknown
+      t: Error desconegut
+    - key: accounts.error_user_not_found
+      t: Usuari no trobat
+    - key: accounts.error_username_already_exists
+      t: Nom d'usuari ja existent
+    - key: accounts.enter_username_or_email
+      t: Introdueix un nom d'usuari o correu electrònic
+    - key: accounts.error_internal_server_error
+      t: Error intern del servidor
+    - key: accounts.error_token_expired
+      t: Token invàlid per a renovar la contrasenya
+    - key: accounts.username_or_email
+      t: Nom d'usuari o correu electrònic
+    - key: accounts.enter_username
+      t: Introdueix un nom d'usuari
+    - key: accounts.username
+      t: Nom d'usuari
+    - key: accounts.enter_email
+      t: Introdueix un correu electrònic
+    - key: accounts.email
+      t: Correu electrònic
+    - key: accounts.enter_password
+      t: Introdueix una contrasenya
+    - key: accounts.password
+      t: Contrasenya
+    - key: accounts.choose_password
+      t: Escull una contrasenya
+    - key: accounts.change_password
+      t: Canvia la contrasenya
+    - key: accounts.reset_your_password
+      t: Restaura la contrasenya
+    - key: accounts.set_password
+      t: Introdueix una contrasenya
+    - key: accounts.enter_new_password
+      t: Introdueix una nova contrasenya
+    - key: accounts.new_password
+      t: Nova contrasenya
+    - key: accounts.forgot_password
+      t: Contrasenya oblidada
+    - key: accounts.sign_up
+      t: Registrar-me
+    - key: accounts.sign_in
+      t: Iniciar la sessió
+    - key: accounts.sign_out
+      t: Tancar la sessió
+    - key: accounts.cancel
+      t: Cancel·lar
+    - key: accounts.info_email_sent
+      t: Correu electrònic enviat
+    - key: accounts.info_password_changed
+      t: Contrasenya canviada
+    - key: accounts.please_pick_password
+      t: Si us plau, escull una nova contrasenya per a continuar
+    - key: accounts.please_log_in
+      t: Si us plau, inicia la sessió o registra't per començar
+    - key: accounts.logged_in_as
+      t: Sessió iniciada com a {email}
+    - key: accounts.questions
+      t: >
+          Si tens alguna pregunta sobre com utilitzem les teves dades,
+          o t'agradaria que les eliminéssim dels nostres registres,
+          si us plau, <a href="mailto:hello@stateofjs.com">posa't en contacte</a>.

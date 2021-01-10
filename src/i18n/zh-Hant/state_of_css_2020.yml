@@ -7,11 +7,11 @@ translations:
     - key: sections.introduction.description
       t: |
 
-            <span class="first-letter">忘</span>記你已經知道的 CSS。或者，至少很多部分要準備好重新考量。如果像我一樣已經撰寫 CSS 超過 10 年，2020 的 CSS 長得跟習以為常的樣子完全不同了。
+            <span class="first-letter">可</span>以忘掉你所知道的 CSS。或者，至少準備好重新看待它。如果你和我一樣，已經寫 CSS 超過 10 年，相信我，2020 的 CSS 已經不是我們習以為常的樣子了。
 
             現在可以利用 CSS Grid 取代斷點 (breakpoint)，以更少程式碼打造任何裝置大小皆能使用的動態、響應式版面。CSS-in-JS 取代全域樣式表，讓元件都有相對應的位置，方便打造能切換主題的設計系統。
 
-            Tailwind CSS 這樣以 utility 優先的 CSS 俯衝至舞台上，強迫我們重新考量傳統情境式 class 名稱的教條。
+            Tailwind CSS 這樣以 utility 優先的 CSS 俯衝至舞台上，迫使我們重新審視傳統情境式 class 名稱的教條。
 
             不管這些改變讓你想要在部落格寫篇激賞文，還是震怒的抱怨推文，這裡呈現資料、標示趨勢，希望能帶你走過下一年充滿話題的 CSS。
 
@@ -28,8 +28,8 @@ translations:
 
             ### 其他連結
 
-            - [State of CSS 首頁](https://stateofcss.com)
-            - [State of JS](https://stateofjs.com)
+            - [CSS 現況調查首頁](https://stateofcss.com)
+            - [JS 現況調查](https://stateofjs.com)
 
             ### 致謝
 
@@ -83,11 +83,11 @@ translations:
 
     - key: sections.user_info.description
       t: |
-          今年的調查來自 **102** 個國家的 **11,492** 人。感謝超棒的志工團隊，今年首次將調查翻譯成各種語言。
+          今年有來自 **102** 個國家的 **11,492** 人參與調查。感謝超棒的志工團隊，首次將調查翻譯成各種語言。
 
     - key: sections.features.description
       t: |
-          近年來，CSS 湧起新功能。因此，也可以預料到社群還在慢慢地吸收新屬性，採用有點落後。
+          近年來，CSS 的新功能如雨後春筍般出現。通常社群需要一些時間消化，因此，可以預料還不會那麼快廣泛採用。
 
     - key: sections.units_selectors.description
       t: |
@@ -103,7 +103,7 @@ translations:
 
     - key: sections.environments.description
       t: |
-          CSS 的核心強項之一是適應於不同環境的能力。只不過，像是列印和 Email 媒介，基於各種原因，大多數的 CSS 開發者還未進行探索。有可能成為下個 CSS 戰場前線嗎…？
+          能夠適應於不同環境是 CSS 的核心強項之一。只不過，像是列印和 Email 媒介，基於各種原因，大多數的 CSS 開發者還未進行探索。有可能成為下個 CSS 戰場前線嗎…？
 
     - key: sections.resources.description
       t: |
@@ -120,7 +120,7 @@ translations:
 
     - key: blocks.gender.note
       t: |
-          如果還有興趣知道更深入的，我們[寫了篇文章](https://dev.to/sachagreif/is-our-survey-biased-against-women-49oj)，談這次調查的性別差距。
+          如果還有興趣深入瞭解，我們[寫了篇文章](https://dev.to/sachagreif/is-our-survey-biased-against-women-49oj)，談這次調查的性別差距。
     - key: blocks.currently_missing_from_css.note
       t: |
           在此[閒暇專案](https://whatsmissingfromcss.com/)可以翻閱這問題的完整答案 Dataset。
@@ -130,7 +130,7 @@ translations:
 
         這張圖表整合各種參照頁面、網址參數和自由填寫回答。
 
-        - State of JS: [JS 現況調查](https://stateofjs.com) 的訂閱名單。
+        - State of JS: [JS 現況調查](https://stateofjs.com)的訂閱名單。
 
         - State of CSS: CSS 現況調查訂閱名單，還有包含 `email`、`by email`…等。
 
@@ -141,19 +141,19 @@ translations:
     ###########################################################################
 
     - key: award.feature_adoption_delta_award.comment
-      t: CSS Grid 在 2020 年進展 **${value}**，是從新技術跨越到具備規模的一年。
+      t: CSS Grid 在 2020 年進展 **{value}**，是從新技術跨越到具備規模的一年。
 
     - key: award.tool_usage_delta_award.comment
-      t: 其他工具都沒有辦法接近 Tailwind CSS 這樣從去年劇烈成長 **${value}**。
+      t: 其他工具都沒有辦法接近 Tailwind CSS 這樣從去年劇烈成長 **{value}**。
 
     - key: award.tool_satisfaction_award.comment
-      t: PostCSS 的 **${value}** 滿意比例代表非常認真地做好一件事，仍是無懈可擊的。
+      t: PostCSS 的 **{value}** 滿意比例代表非常認真地做好一件事，仍是無懈可擊的。
 
     - key: award.tool_interest_award.comment
-      t: CSS Module 的有興趣比例是 **${value}**，今年度在 CSS 開發者之間產生最多興趣。
+      t: CSS Module 的有興趣比例是 **{value}**，今年度在 CSS 開發者之間產生最多興趣。
 
     - key: award.most_write_ins_award.comment
-      t: 許多問題可以自行填答。整體來說，提到 **${value}** 次的 PhpStorm 是最受歡迎的。
+      t: 許多問題可以自行填答。整體來說，提到 **{value}** 次的 PhpStorm 是最受歡迎的。
 
       
     ###########################################################################
@@ -192,7 +192,7 @@ translations:
 
 
     - key: picks.argyleink.bio
-      t: Google 的 CSS
+      t: 在 Google 任職 CSS
     - key: picks.argyleink.description
       t: |
             The humble CSS box is more dynamic every year, and for me 2020 was about logical sides, instead of physical sides. Free internationally contextual content flow, spacing and shorthands? pls & ty 
@@ -205,13 +205,13 @@ translations:
             With this blog post, Amelia Wattenberger didn't just go the extra mile, she ran a whole marathon! The animations and quiz will ensure you finally understand the CSS cascade. 
     
     - key: picks.christianoliff.bio
-      t: Trimble MAPS 的前端開發者
+      t: Trimble MAPS 前端開發者
     - key: picks.christianoliff.description
       t: |
           One thing I've really started using and appreciating this year though is Purge CSS- an awesome tool for removing unused CSS. It can greatly reduce the size of your CSS, and its fast and easy to use.
     
     - key: picks.kilianvalkhof.bio
-      t: Polypane 的網頁開發者、作者
+      t: Polypane 網頁開發者、作者
     - key: picks.kilianvalkhof.description
       t: |
           `content-visibility` is making a huge difference in the performance of my web apps already, but at the same time I think it should be the job of browsers to optimize this, not devs.
@@ -235,7 +235,7 @@ translations:
           My pick is a person, namely Rachel Andrew. She taught CSS Grid to a whole generation of developers.
 
     - key: picks.5t3ph.bio
-      t: Microsoft 的軟體工程師
+      t: Microsoft 軟體工程師
     - key: picks.5t3ph.description
       t: |
           In this conference talk, Manuel Matuzovic provides thoughtfully 
@@ -249,7 +249,7 @@ translations:
           It’s pretty powerful, relatively easy to use and very performant
 
     - key: picks.foolip.bio
-      t: Google 的軟體工程師
+      t: Google 軟體工程師
     - key: picks.foolip.description
       t: |
           Sergio has recently fixed lots of Flexbox in WebKit and even some in Chromium, 

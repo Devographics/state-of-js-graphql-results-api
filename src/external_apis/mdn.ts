@@ -1,31 +1,38 @@
 import fetch from 'node-fetch'
 
+interface MDNJSONRes {
+    doc: TranslatedMDNInfo
+}
+
 interface TranslatedMDNInfo {
     locale: string
     title: string
     summary: string
-    url: string
+    mdn_url?: string
+    url?: string
 }
 
 interface MDNInfo extends TranslatedMDNInfo {
     translations: TranslatedMDNInfo[]
 }
 
-export const normalizeMdnResource = (res: MDNInfo): TranslatedMDNInfo[] => {
-    return [res, ...res.translations].map(translation => {
-        return {
-            locale: translation.locale,
-            title: translation.title,
-            summary: translation.summary,
-            url: translation.url
+export const normalizeMdnResource = (res: MDNJSONRes): TranslatedMDNInfo[] => {
+    const { locale, title, summary, mdn_url } = res.doc
+    return [
+        {
+            locale,
+            title,
+            summary,
+            url: mdn_url
         }
-    })
+    ]
 }
 
 export const fetchMdnResource = async (path: string) => {
     try {
-        const res = await fetch(`https://developer.mozilla.org${path}$json`)
-        const json: MDNInfo = await res.json()
+        const url = `https://developer.mozilla.org${path}/index.json`
+        const res = await fetch(url)
+        const json: MDNJSONRes = await res.json()
 
         return normalizeMdnResource(json)
     } catch (error) {

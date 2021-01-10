@@ -22,13 +22,14 @@ const computeAwareness = (buckets: ExperienceBucket[], total: number) => {
 }
 
 const computeUsage = (buckets: ExperienceBucket[]) => {
+    const neverHeardCount = buckets.find(bucket => bucket.id === 'never_heard')?.count ?? 0
     const interestedCount = buckets.find(bucket => bucket.id === 'interested')?.count ?? 0
     const notInterestedCount = buckets.find(bucket => bucket.id === 'not_interested')?.count ?? 0
     const wouldUseCount = buckets.find(bucket => bucket.id === 'would_use')?.count ?? 0
     const wouldNotUseCount = buckets.find(bucket => bucket.id === 'would_not_use')?.count ?? 0
 
     const usageCount = wouldUseCount + wouldNotUseCount
-    const total = usageCount + interestedCount + notInterestedCount
+    const total = usageCount + interestedCount + notInterestedCount + neverHeardCount
 
     return ratioToPercentage(usageCount / total)
 }

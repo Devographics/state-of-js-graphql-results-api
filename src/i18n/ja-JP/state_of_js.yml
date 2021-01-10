@@ -1,4 +1,4 @@
-locale: en-US
+locale: ja-JP
 namespace: js
 translations:
     ###########################################################################
@@ -7,84 +7,82 @@ translations:
 
     - key: general.survey_intro_js2019
       t: >
-          The JavaScript world could use a bit of classification.
+          JavaScriptまわりは、もう少し情報が整理されているとよさそうです。
 
 
-          Since 2016, this survey has collected 
-          data from over 20,000 developers each year to identify current and upcoming trends.
+          このアンケートは2016年から、20000人以上の開発者に対し、現在やこれからのトレンドについてデータを集めてきました。
 
 
-          Take the survey and help us find out which libraries developers 
-          want to learn next, which have the best satisfaction ratings, and much more.
+          開発者が次はどのライブラリを学びたいか、またはどのライブラリが最も満足度が高いかなどを知るために、このアンケートへの回答にご協力ください。
 
     ###########################################################################
     # Sections
     ###########################################################################
 
     - key: sections.syntax.title
-      t: Syntax
+      t: 構文
     - key: sections.syntax.description
-      t: The grammar of JavaScript.
+      t: JavaScriptの文法
 
     - key: sections.language.title
-      t: Language
+      t: 言語
     - key: sections.language.description
-      t: The vocabulary of JavaScript.
+      t: JavaScriptの語彙
 
     - key: sections.data_structures.title
-      t: Data Structures
+      t: データ構造
     - key: sections.data_structures.description
-      t: How you store and manipulate data.
+      t: データの保持と変更のやりかた
 
     - key: sections.browser_apis.title
-      t: Browser APIs
+      t: ブラウザのAPI
     - key: sections.browser_apis.description
-      t: The features provided by the browser.
+      t: ブラウザが提供する機能
 
     - key: sections.other_features.title
-      t: Other Features
+      t: そのほかの機能
     - key: sections.other_features.description
-      t: Other technologies and patterns
+      t: ほかの技術やパターン
 
     - key: sections.patterns.title
-      t: Patterns
+      t: パターン
     - key: sections.patterns.description
-      t: How you prefer writing code
+      t: どんな風にコードを書くか
 
     - key: sections.javascript_flavors.title
-      t: JavaScript Flavors
+      t: JavaScriptフレーバー
     - key: sections.javascript_flavors.description
-      t: Languages that compile to JavaScript
+      t: JavaScriptにコンパイルされる言語
 
     - key: sections.front_end_frameworks.title
-      t: Front-end Frameworks
+      t: フロントエンドフレームワーク
     - key: sections.front_end_frameworks.description
-      t: Front-end frameworks and libraries
+      t: フロントエンドのフレームワークやライブラリ
 
     - key: sections.datalayer.title
-      t: Data Layer
+      t: データ層
     - key: sections.datalayer.description
-      t: Loading and managing data in your app
+      t: アプリでのデータの読み込みや管理
 
     - key: sections.back_end_frameworks.title
-      t: Back-end Frameworks
+      t: バックエンドフレームワーク
     - key: sections.back_end_frameworks.description
-      t: JavaScript on the server
+      t: サーバーでのJavaScript
 
     - key: sections.testing.title
-      t: Testing
+      t: テスト
     - key: sections.testing.description
-      t: Tools for testing your code
+      t: コードのテストに使うツール
 
     - key: sections.mobile_desktop.title
-      t: Mobile & Desktop
+      t: モバイル＆デスクトップ
     - key: sections.mobile_desktop.description
-      t: JavaScript for mobile devices and desktop apps
+      t: モバイルやデスクトップアプリでのJavaScript
 
     - key: sections.build_tools.title
-      t: Build Tools
+      t: ビルドツール
     - key: sections.build_tools.description
-      t: Compiling & bundling code
+      t: コードのコンパイルとビルド
 
     ###########################################################################
     # Options
@@ -96,32 +94,29 @@ translations:
 
     # syntax
     - key: features.destructuring
-      t: Destructuring
+      t: 分割代入（destructuring）
     - key: features.destructuring.description
-      t: 'Example: `const { foo } = bar`'
+      t: '例：`const { foo } = bar`'
     - key: features.spread_operator
-      t: Spread operator
+      t: スプレッド構文
     - key: features.spread_operator.description
-      t: 'Example: `[...array1, ...array2]`'
+      t: '例：`[...array1, ...array2]`'
     - key: features.arrow_functions
-      t: Arrow Functions
+      t: アロー関数（arrow functions）
     - key: features.arrow_functions.description
-      t: 'Example: `const foo = () => {}`'
+      t: '例：`const foo = () => {}`'
     - key: features.nullish_coalescing
       t: Nullish Coalescing
     - key: features.nullish_coalescing.description
-      t: >
-        Example: `const foo = 0 ?? 42`
+      t: '例：`const foo = 0 ?? 42`'
     - key: features.optional_chaining
       t: Optional Chaining
     - key: features.optional_chaining.description
-      t: >
-        Example: `const dogName = adventurer.dog?.name`
+      t: '例：`const dogName = adventurer.dog?.name`'
     - key: features.private_fields
       t: Private Fields
     - key: features.private_fields.description
-      t: >
-        Example: `class ClassWithPrivateField { #privateField }`
+      t: '例：`class ClassWithPrivateField { #privateField }`'
 
     # language
     - key: features.proxies
@@ -133,14 +128,12 @@ translations:
     - key: features.decorators
       t: Decorators
     - key: features.decorators.description
-      t: >
-          In its simplest form, a decorator is simply a way of 
-          wrapping one piece of code with another — literally “decorating” it.
+      t: デコレータを簡単に言うと、コードの一部を別のコードでラップする（文字通り「デコレート」する）仕組みです。
     - key: features.dynamic_import
       t: Dynamic Import
     - key: features.dynamic_import.description
       t: >
-        Example: <code>await import('/modules/my-module.js')</code>
+        例：`await import('/modules/my-module.js')`
 
     # data structures
     - key: features.maps
@@ -174,84 +167,83 @@ translations:
     - key: features.webvr
       t: WebVR
     - key: features.websocket
-      t: Websocket
+      t: WebSocket
     - key: features.fetch
       t: Fetch API
 
     # other features
     - key: features.pwa
-      t: Progressive Web Apps (PWA)
+      t: プログレッシブ・ウェブアプリ（PWA）
     - key: features.wasm
       t: WebAssembly (WASM)
 
     # patterns
     - key: patterns.object_oriented_programming
-      t: Object-Oriented Programming
+      t: オブジェクト指向プログラミング
     - key: features.functional_programming
-      t: Functional Programming
+      t: 関数型プログラミング
     - key: features.reactive_programming
-      t: Reactive Programming
+      t: リアクティブプログラミング
 
     ###########################################################################
     # Tools
     ###########################################################################
 
     - key: tools.angular.description
-      t: >
-        Note that this question only targets [Angular](https://angular.io/) experience,
-        and specifically does *not* apply to the deprecated [AngularJS](https://angularjs.org/).
+      t: これは[Angular](https://angular.io/)についてで、非推奨になった[AngularJS](https://angularjs.org/)のものではないことに注意してください。
    
     ###########################################################################
     # Other Tools
     ###########################################################################
 
     - key: tools_others.runtimes
-      t: JavaScript Runtimes
+      t: JavaScriptランタイム
     - key: tools_others.runtimes.description
-      t: Which engines/runtimes/execution environments do you regularly use?
+      t: いつもどのエンジン・ランタイム・実行環境を使っていますか？
     - key: tools_others.runtimes.others
-      t: Other Runtimes
+      t: そのほかのランタイム
     - key: tools_others.runtimes.others.description
-      t: Other answers (freeform field).
+      t: そのほかの回答（自由入力欄）
 
     - key: tools_others.package_registries
-      t: Package Registries
+      t: パッケージレジストリ
     - key: tools_others.package_registries.description
-      t: Which package registries do you regularly fetch packages from?
+      t: いつもどのレジストリからパッケージを取得していますか？
     - key: tools_others.package_registries.others
-      t: Other Package Registries
+      t: そのほかのパッケージレジストリ
     - key: tools_others.package_registries.others.description
-      t: Other answers (freeform field).
+      t: そのほかの回答（自由入力欄）
 
     ###########################################################################
     # Opinions
     ###########################################################################
 
     - key: opinions.js_moving_in_right_direction
-      t: JavaScript is moving in the right direction
+      t: JavaScriptは正しい方向に進んでいる
 
     - key: opinions.building_js_apps_overly_complex
-      t: Building JavaScript apps is overly complex right now
+      t: JavaScriptアプリの開発はいまやとても複雑になった
 
     - key: opinions.js_over_used_online
-      t: JavaScript is over-used online
+      t: JavaScriptは過剰に使われている
 
     - key: opinions.enjoy_building_js_apps
-      t: I enjoy building JavaScript apps
+      t: JavaScriptアプリの開発は楽しい
 
     - key: opinions.would_like_js_to_be_main_lang
-      t: I would like JavaScript to be my main programming language
+      t: JavaScriptをメインのプログラミング言語にしたい
 
     - key: opinions.js_ecosystem_changing_to_fast
-      t: The JavaScript ecosystem is changing too fast
+      t: JavaScriptエコシステムの変化は速すぎる
 
     - key: opinions_others.missing_from_js.others
-      t: What do you feel is currently missing from JavaScript?
+      t: いまのJavaScriptに足りないと感じるものは？
+
     - key: opinions_others.missing_from_js.others.description
-      t: Features you'd like to see in JavaScript one day.
+      t: JavaScriptにいつか追加されてほしい機能
 
     - key: happiness.state_of_the_web
-      t: How happy are you with the general state of web technologies?
+      t: ウェブ技術の現状に満足していますか？
 
     - key: happiness.state_of_js
-      t: How happy are you with the general state of JavaScript?
+      t: JavaScriptの現状に満足していますか？

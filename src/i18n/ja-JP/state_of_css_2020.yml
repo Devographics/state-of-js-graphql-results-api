@@ -153,19 +153,19 @@ translations:
     ###########################################################################
 
     - key: award.feature_adoption_delta_award.comment
-      t: With a **${value}** progression in 2020, this was the year CSS Grid crossed over from new technology to established tool.
+      t: With a **{value}** progression in 2020, this was the year CSS Grid crossed over from new technology to established tool.
 
     - key: award.tool_usage_delta_award.comment
-      t: No other tool comes even close to Tailwind CSS's dramatic **${value}** progression over the last year.
+      t: No other tool comes even close to Tailwind CSS's dramatic **{value}** progression over the last year.
 
     - key: award.tool_satisfaction_award.comment
-      t: PostCSS's **${value}** satisfaction ratio shows that you can't beat doing one thing really, really well.
+      t: PostCSS's **{value}** satisfaction ratio shows that you can't beat doing one thing really, really well.
 
     - key: award.tool_interest_award.comment
-      t: With a **${value}** ratio, CSS Modules have generated the most interest among CSS developers this year.
+      t: With a **{value}** ratio, CSS Modules have generated the most interest among CSS developers this year.
 
     - key: award.most_write_ins_award.comment
-      t: Many questions also accepted write-in answers, and with **${value}** mentions PhpStorm was the most popular item overall.
+      t: Many questions also accepted write-in answers, and with **{value}** mentions PhpStorm was the most popular item overall.
 
       
     ###########################################################################

@@ -195,3 +195,27 @@
 - id: the_bike_shed
   name: The Bike Shed
   homepage: https://www.bikeshed.fm/
+
+- id: angular_show
+  name: The Angular Show
+  homepage: https://www.spreaker.com/show/angular-show
+
+- id: svelte_radio
+  name: Svelte Radio
+  homepage: https://www.svelteradio.com/
+
+- id: elm_radio
+  name: Elm Radio
+  homepage: https://elm-radio.com/
+
+- id: remotely_interesting
+  name: Remotely Interesting
+  homepage: https://remotelyinteresting.transistor.fm/
+
+- id: angular_air
+  name: Angular Air
+  homepage: https://angularair.com/
+
+- id: enjoy_the_vue
+  name: Enjoy The Vue
+  homepage: https://enjoythevue.io/

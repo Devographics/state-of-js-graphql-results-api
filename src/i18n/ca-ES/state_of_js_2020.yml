@@ -1,0 +1,236 @@
+locale: ca-ES
+namespace: js
+translations:
+    ###########################################################################
+    # General
+    ###########################################################################
+
+    - key: general.results.description
+      t: L'enquesta anual sobre les últimes tendències en l'ecosistema JavaScript.
+
+    ###########################################################################
+    # Introduction
+    ###########################################################################
+
+    - key: sections.introduction.description
+      t: |
+
+            <span class="first-letter">P</span>er molt merda que hagi estat el 2020, JavaScript encara ha aconseguit avançar d'alguna manera. A mesura que el llenguatge en sí continua millorant
+            gràcies a les noves característiques com Optional Chaining i Nullish Coalescing, l'adopció generalitzada de TypeScript està portant les coses a un altre nivell popularitzant la tipificació estàtica (persones que no desenvolupen en JS silenciosament rient -o plorant- arreu).
+
+            I pel que fa al framework, just quan pensàvem que les coses s'anaven establint, arriba Svelte i promet remoure-ho tot amb una nova visió de front-end. I fins i tot eines de build mostren signes de nova activitat després d'anys d'hegemonia de webpack.
+
+            Però la diferència aquest cop és que la "vella" guàrdia -parlant en termes relatius- no va enlloc. Svelte i Snowpack són fantàstics, per també ho són React i webpack. I segur que també acabaran sent presa de la Great JavaScript Churn, però no per massa anys.
+
+            Per tant, gaudim del que tenim aquí: un gran ecosistema que no para de millorar!
+
+            ### Team
+
+            L'enquesta de l'Estat de JavaScript ha estat creada i és mantinguda per [Sacha Greif](https://twitter.com/sachagreif) i [Raphaël Benitte](https://twitter.com/benitteraphael).
+
+            ### Download Our Data
+
+            Et pots [descarregar les dades en cru en format JSON d'aquesta enquesta](https://www.kaggle.com/sachag/state-of-js). Fes-nos saber is has acabat fent les teves pròpies visualizations de les dades!
+
+            ### Other Links
+
+            - [Pàgina principal de l'Estat de CSS](https://stateofcss.com)
+            - [Pàgina principal de l'Estat de JS](https://stateofjs.com)
+
+            ### Thanks
+
+            Agrïments a [Alexey Pyltsyn](https://github.com/lex111) per la seva ajuda en les traduccions.
+
+            ### Credits & Stuff
+
+            El lloc web està configurat a IBM Plex Mono. Tens preguntes? Comentaris? [Posa't en contacte amb nosaltres!](mailto:hello@stateofjs.com)
+
+            I ara, vegem què ha passat amb JavaScript aquest any!
+
+            <span class="conclusion__byline">– Sacha i Raphaël</span>
+
+    ###########################################################################
+    # Tshirt
+    ###########################################################################
+
+    - key: sections.tshirt.title
+      t: Samarreta
+
+    - key: sections.tshirt.description
+      t: |
+          ## Dóna suport a l'enquesta i queda bé en el procéss!
+
+          Hem actualitzat la popular 👕 samarreta de l'Estat de JavaScript 👕 de l'any passat amb el nou panorama de 2020.
+
+          La samarreta inclou una "taula periòdica de JavaScript" que llista les llibreries més populars
+          agrupades per categoria, juntament amb el recompte d'estrelles a GitHub (expressades en milers).
+
+          Aquesta samarreta és una bona manera de familiaritzar-te amb l'ecosistema de JavaScript,
+          i potser fins i tot de mantenir una conversa amb altres desenvolupadors amb idees similars.
+    
+    - key: tshirt.about
+      t: Sobre la samarreta
+
+    - key: tshirt.description
+      t: |
+          El disseny s'ha imprès en un fons negre [Bella+Canvas 3001 unisex premium T-Shirt](https://www.printful.com/custom/mens/t-shirts/unisex-premium-t-shirt-bella-canvas-3001) (per a homes) en forma semi ajustada;
+          o un fons gris fosc [Anvil 880 Women's Fashion Fit T-Shirt](https://www.printful.com/custom/womens/t-shirts/womens-fashion-fit-t-shirt) (per a dones).
+          Les mesures utilitzen el sistema d'EEUU.
+
+    - key: tshirt.getit
+      t: Aconsegueix-la
+
+    - key: tshirt.price
+      t: 24 dòlars + transport
+
+    ###########################################################################
+    # Sections Introductions
+    ###########################################################################
+
+    - key: sections.user_info.description
+      t: |
+          L'enquesta d'aquest any ha arribat a **11.492** persones a **102** països. Per primer cop aquest any,
+          hem estat capaços de traduir les preguntes de l'enquesta a múltiples idiomes gràcies a un fantàstic equip de persones voluntàries.
+
+    - key: sections.features.description
+      t: |
+          Tot i que la majoria de participants tenien coneixement de la majoria de característiques
+          de JavaScript mencionades a l'enquesta, a alguns encara els en queden unes quantes per utilitzar.
+
+    - key: sections.technologies.description
+      t: |
+          La nova llibreria de JavaScript ens mostra una alta satisfacció però poc ús, cosa que fa que
+          algunes vegades sigui difícil escollir la tecnologia que necessites. És en aquest punt on
+          el fet de mirar les dades et pot ajudar a orientar-vos cap a la bona direcció.
+
+    - key: sections.javascript_flavors.description
+      t: |
+          La tendència dels "savors" de JavaScript que compilen fins el codi estàndard va començar
+          anys enrere amb CoffeeScript, però ha quedat clar que TypeScript és el líder incondicional en
+          aquesta categoria.
+
+    - key: sections.front_end_frameworks.description
+      t: |
+          Com és habitual, React i Vue lideren el grup, però Svelte s'està establint ràpidament com a un
+          aspirant estable per aconseguir escalar posicions en el món front-end.
+
+    - key: sections.datalayer.description
+      t: |
+          Tot i que l'espai del datalayer és encara en constant moviment, una cosa sí que és clara:
+          GraphQL i les tecnologies que s'hi relacionen han vingut per quedar-se.
+
+    - key: sections.back_end_frameworks.description
+      t: |
+          L'espai back-end encara és molt fragmentat, però Express destaca com l'eina dominant,
+          mentre que Next.js manté el seu alt nivell de satisfacció.
+
+    - key: sections.testing.description
+      t: |
+          L'ecosistema de test segueix enriquint-se, amb nous candidats com Testing Library i Playwright,
+          ambdós obtenint una puntuació alta en l'índex de satisfacció.
+
+    - key: sections.build_tools.description
+      t: |
+          Just quan semblava que el domini de webpack havia resolt el debat, el marc d'eines de build
+          ha tornat a explotar amb nous candidats com Snowpack i esbuild, portant-nos a dedicar-los una
+          secció sencera per primer cop des de 2017.
+
+    - key: sections.mobile_desktop.description
+      t: |
+          JavaScript no és només pels navegadors, i si bé Electron i React Native són els dos noms
+          més coneguts d'aquesta categoria, altres solucions com Expo i Capacitor també estan començant
+          a fer soroll.
+
+    - key: sections.other_tools.description
+      t: |
+          La diversitat i quantitat de llibreries, utilitats i altres eines ressalten l'extensió de l'ecosistema
+          de JavaScript, i, per primera vegada aquest any, també fem un seguiment de runtimes de JavaScript
+          com Deno i Hermes.
+
+    - key: sections.resources.description
+      t: |
+          Aquí s'enumeren molts bons recursos, i segur que trobaràs almenys alguns blogs i podcasts nous per seguir!
+
+    - key: sections.opinions.description
+      t: |
+          Tot i que les coses es veuen generalment bé al terreny de JavaScript, sembla que hi ha certa
+          desacceleració de la positivitat de 2018. Persistirà aquesta tendència? Atén al proper any per descobrir-ho!
+
+          
+    ###########################################################################
+    # Notes
+    ###########################################################################
+
+    - key: blocks.source.note
+      t: >
+        Aquest gràfic agrupa una combinació de referents, paràmetres d'URL i respostes de forma lliure.
+
+        - Estat de JS: la llista de correu de l'[Estat de JS](https://stateofjs.com).
+
+        - Estat de CSS: la llista de correu de l'[Estat de CSS](https://stateofcss.com/); també coincideix amb `correu electrònic`, `per correu electrònic`, etc.
+
+        - Feina: coincideix `feina`, `col·legues`, `companys de feina`, etc.
+
+    ###########################################################################
+    # Awards
+    ###########################################################################
+
+    # - key: award.feature_adoption_delta_award.comment
+    #   t: Amb una progressió de **{value}** el 2020, aquest ha estat l'any en què CSS Grid ha passat de ser una nova tecnologia a una eina establerta.
+
+    - key: award.tool_usage_delta_award.comment
+      t: TypeScript ja era popular, i amb un creixement d'ús del **{value}** sembla que tendeix a ser més omnipresent en el futur.
+
+    - key: award.tool_satisfaction_award.comment
+      t: Amb una qualificació de satisfacció màxima de **{value}**, Testing Library és l'eina més estimada de 2020.
+
+    - key: award.tool_interest_award.comment
+      t: GraphQL segueix sent l'única cosa que els desenvolupadors volen aprendre, sempre i quan puguin trobar el temps per fer-ho.
+
+    # - key: award.most_write_ins_award.comment
+    #   t: Moltes preguntes acceptaven també respostes de tipus escrites i, amb **{value}** mencions, PhpStorm ha estat el més popular en general.
+
+      
+    ###########################################################################
+    # Conclusion
+    ###########################################################################
+
+    - key: sections.conclusion.description
+      t: |
+            Des de l'antiguitat, els filòsofs han reflexionat sobre la paradoxa de JavaScript: per una banda, no pots esperar noves característiques i llibreries excitants que et prometin millorar la teva experiència en el desenvolupament.
+
+            Però al mateix temps, demanes estabilitat i senzillesa per poder fer les coses sense haver d'invertir la meitat del teu temps en navegar per fils de GitHub i preguntes desfassades de Stack Overflow.
+
+            Així doncs, de què parlem? Volem el nou i brillant, o el vell però fiable? Més que mai, el 2020 ens mostra que no ens conformarem amb menys que *ambdós*. La bona notícia és que la comunitat JavaScript ha assumit el repte, cosa que promet un 2021 emocionant!
+
+    ###########################################################################
+    # Picks
+    ###########################################################################
+
+    - key: picks.my_2020_pick
+      t: 'La meva selecció de 2020: '
+    - key: picks.intro
+      t: Hem demanat a membres de la comunitat de JavaScript que comparteixin la seva "selecció de l'any"
+
+    - key: picks.joshwcomeau.bio
+      t: Enginyer de software convertit a educador
+    - key: picks.joshwcomeau.description
+      t: |
+            This is a fantastic intro resource for learning about web accessibility! 
+            I picked it because it's our job as JS devs to make sure that the sites 
+            we build are usable by everyone, not just sighted keyboard-and-mouse users.
+
+    - key: picks.swyx.bio
+      t: Infinite Builder
+    - key: picks.swyx.description
+      t: |
+            Svelte is the Space Elevator of frontend frameworks. 
+            It helps you ship apps extremely fast apps extremely fast. 
+
+    - key: picks.kentcdodds.bio
+      t: Improving the world with quality software
+    - key: picks.kentcdodds.description
+      t: |
+            Remix is a different approach to React frameworks with an emphasis on progressive 
+            enhancement. It embraces the web platform in a way that no existing frameworks do 
+            and I'm excited by its potential.

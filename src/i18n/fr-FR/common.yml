@@ -22,7 +22,7 @@ translations:
           Vous êtes actuellement en train de voir ce questionnaire en lecture seule.
     - key: general.survey_read_only_back
       t: >
-          <a href="${link}">Retourner</a> à la page principale du questionnaire pour commencer ou continuer à répondre.
+          <a href="{link}">Retourner</a> à la page principale du questionnaire pour commencer ou continuer à répondre.
     # surveys
     - key: general.open_surveys
       t: Questionnaires en cours
@@ -57,7 +57,7 @@ translations:
     - key: general.privacy_policy
       t: Politique de confidentialité
     - key: general.leave_issue
-      t: Une question ? Un bug ? <a href="${link}" target="_blank">Reportez un problème</a>.
+      t: Une question ? Un bug ? <a href="{link}" target="_blank">Rapportez un problème</a>.
     - key: general.emoji_icons
       t: Emoji icons by <a target="_blank" rel="noreferrer" href="https://icons8.com">Icons8</a>
 
@@ -105,6 +105,26 @@ translations:
     - key: forms.select_option
       t: Selectionnez une option
 
+    # partners
+    - key: partners.our_partners
+      t: Our Partners
+    - key: partners.become_partner
+      t: Become a partner
+
+    # 404
+    - key: notfound.title
+      t: 404 Not Found
+    - key: notfound.description
+      t: Sorry, we couldn't find what you were looking for. 
+
+    # other
+    - key: general.join_discord
+      t: Rejoignez notre <a href="{link}">Discord</a>. 
+    - key: general.translator_mode
+      t: Appuyez sur option/alt pour activer le mode traducteur. 
+    - key: general.charts_nivo
+      t: Graphes réalisés avec <a href="{link}">Nivo</a>.
+      
     ###########################################################################
     # Nav
     ###########################################################################
@@ -224,6 +244,18 @@ translations:
     - key: options.happiness.3
       t: Content
     - key: options.happiness.4
+      t: Très content
+
+    # happiness (short version)
+    - key: options.happiness.0.short
+      t: Très mécontent
+    - key: options.happiness.1.short
+      t: Mécontent
+    - key: options.happiness.2.short
+      t: Neutre
+    - key: options.happiness.3.short
+      t: Content
+    - key: options.happiness.4.short
       t: Très content
 
     # opinions
@@ -513,7 +545,7 @@ translations:
 
     # backend proficiency
     - key: user_info.backend_proficiency
-      t: Cométences en back-end
+      t: Compétences en back-end
     - key: user_info.backend_proficiency.description
       t: Quel est votre niveau de compétence en développement back-end ?
 

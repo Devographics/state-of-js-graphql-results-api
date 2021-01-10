@@ -277,6 +277,42 @@ type JobTitle @cacheControl(maxAge: 600) {
 }
 
 """
+Industry Sector
+"""
+enum IndustrySectorID {
+    ecommerce
+    news_media
+    healthcare
+    finance
+    programming_tools
+    socialmedia
+    marketing_tools
+    education
+    real_estate
+    entertainment
+    government
+    consulting
+}
+
+type IndustrySectorBucket @cacheControl(maxAge: 600) {
+    id: IndustrySectorID
+    count: Int
+    percentage: Float
+}
+
+type YearIndustrySector @cacheControl(maxAge: 600) {
+    year: Int
+    total: Int
+    completion: Completion
+    buckets: [IndustrySectorBucket] @cacheControl(maxAge: 600)
+}
+
+type IndustrySector @cacheControl(maxAge: 600) {
+    all_years: [YearIndustrySector]
+    year(year: Int!): YearIndustrySector
+}
+
+"""
 Knowledge Score
 """
 
@@ -345,6 +381,10 @@ type Demographics @cacheControl(maxAge: 600) {
     Job title
     """
     job_title(filters: Filters): JobTitle @cacheControl(maxAge: 600)
+    """
+    Industry Sector
+    """
+    industry_sector(filters: Filters): IndustrySector @cacheControl(maxAge: 600)
     """
     Knowledge Score
     """

@@ -106,11 +106,6 @@ translations:
     - key: sections.environments.description
       t: Which environments do you write CSS for?
 
-    - key: sections.awards.title
-      t: Awards
-    - key: sections.awards.description
-      t: Things that stood out this year.
-
     ###########################################################################
     # Options
     ###########################################################################

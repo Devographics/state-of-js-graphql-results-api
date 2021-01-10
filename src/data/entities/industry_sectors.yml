@@ -1,2 +1,36 @@
 - id: foo
   name: bar
+  
+# - id: human_resources
+#   name: Human Resources
+
+# - id: security
+#   name: Security
+  
+# - id: legal
+#   name: Legal
+  
+# - id: payments
+#   name: Payments
+  
+# - id: communication
+#   name: Communication
+  
+# - id: sports
+#   name: Sports
+  
+# - id: music
+#   name: Music
+  
+# - id: gaming
+#   name: Gaming
+  
+# - id: sass
+#   name: SaaS
+  
+# - id: tourism
+#   name: Tourism
+  
+# - id: energy
+#   name: Energy
+  

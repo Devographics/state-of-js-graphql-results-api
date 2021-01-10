@@ -113,7 +113,7 @@ export async function computeTermAggregationByYear(
         filters,
         sort = 'total',
         order = -1,
-        cutoff = 2,
+        cutoff = 10,
         limit = 25,
         year
     }: TermAggregationOptions = options

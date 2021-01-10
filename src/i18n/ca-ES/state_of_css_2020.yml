@@ -1,0 +1,272 @@
+locale: ca-ES
+translations:
+    ###########################################################################
+    # Introduction
+    ###########################################################################
+
+    - key: sections.introduction.description
+      t: |
+
+            <span class="first-letter">O</span>blida tot el que saps de CSS. O al menys, prepara't per reconsiderar-ne bona part. Si, com jo, has estat escrivint CSS durant més d'una dècada, CSS a 2020 no s'assembla gens al que estàvem acostumats.
+
+            Enlloc de breakpoints, ara podem aprofitar CSS Grid per fer-lo dinàmic, dissenys responsive que s'adapten a qualsevol mida de finestra amb menys línies de codi. Enlloc de confiar en stylesheets globals, CSS-in-JS ens permet col·locar els nostres estils amb els nostres components per construir sistemes de disseny temàtics.
+
+            I sobretot, Tailwind CSS ha irromput a l'escena i, mitjançant el seu ús de CSS de primera utilitat, ens ha obligat a reconsiderar el dogma tradicional dels noms de classes semàntiques.
+
+            Ja sigui que tot aquest canvi et faci voler escriure un post bomba en un blog o una piulada enrabiada a Twitter, som aquí per presentar-te les dades, ressaltar les tendències i, amb sort, guiar-te a través d'un altre any ple de CSS!
+
+            ### Team
+
+            L'enquesta de l'Estat de CSS ha estat creada i és mantinguda per:
+
+            - [Sacha Greif](https://twitter.com/sachagreif): Disseny, escriptura i codificació
+            - [Raphaël Benitte](https://twitter.com/benitteraphael): Anàlisi i visualització de dades
+
+            ### Download Our Data
+
+            Et pots [descarregar les dades en cru en format JSON d'aquesta enquesta](https://www.kaggle.com/sachag/state-of-css). Fes-nos saber is has acabat fent les teves pròpies visualizations de les dades!
+
+            ### Other Links
+
+            - [Pàgina principal de l'Estat de CSS](https://stateofcss.com)
+            - [Estat de JS](https://stateofjs.com)
+
+            ### Thanks
+
+            Gràcies a tothom qui ens ha ajudat a dissenyar l'enquesta, incloent [Chen Hui-Jing](http://chenhuijing.com/), [Philip Jägenstedt](https://blog.foolip.org/), [Adam Argyke](https://nerdy.dev/), [Ahmad Shadeed](https://www.ishadeed.com/), [Robert Flack](https://github.com/flackr), [Dominic Nguyen](https://www.chromatic.com/), [Fantasai](http://fantasai.inkedblade.net/) i [Kilian Valkhof](https://kilianvalkhof.com/).
+
+            Agrïments addicionals a [Alexey Pyltsyn](https://github.com/lex111) per la seva ajuda en les traduccions.
+
+            ### Credits & Stuff
+
+            El lloc web està configurat a IBM Plex Mono. Tens preguntes? Comentaris? [Posa't en contacte amb nosaltres!](mailto:hello@stateofjs.com)
+
+            I ara, vegem què ha passat amb CSS aquest any!
+
+            <span class="conclusion__byline">– Sacha i Raphaël</span>
+
+    ###########################################################################
+    # Tshirt
+    ###########################################################################
+
+    - key: sections.tshirt.title
+      t: Samarreta
+
+    - key: sections.tshirt.description
+      t: |
+          ## Dóna suport a l'enquesta i queda bé en el procéss!
+
+          Un anunci ràpid abans de veure els resultats de l'enquesta. Et presentem la nostra pròpia 🎈🎉👕 Samarreta de l'Estat de CSS 👕🎉🎈!
+
+          El que fa realment especial aquesta samarreta és que és l'única peça de roba que a més a més t'ensenya tècniques de CSS pràctiques i del món real.
+
+          Així que tant si vas a una conferència, a una entrevista de feina o, simplement, a treballar, aquesta samarreta demostrarà el teu domini de CSS com cap altra peça de roba pot!
+    
+    - key: tshirt.about
+      t: Sobre la samarreta
+
+    - key: tshirt.description
+      t: |
+          La samarreta inclou el logotip de l'Estat de CSS juntament amb fragments de codi CSS real per crear cada forma. Qui sap, potser n'aprens alguna cosa!
+
+          Utilitzem una samarreta ajustada d'alta qualitat i amb un teixit molt suau.
+          Aquesta samarreta resulta petita, així que si prefereixes que et quedi més ampla et recomanem que en demanis una d'una talla més gran del que normalment portes (jo porto una M a les fotografies).
+
+    - key: tshirt.getit
+      t: Aconsegueix-la
+
+    - key: tshirt.price
+      t: 24 dòlars + transport
+
+    ###########################################################################
+    # Sections Introductions
+    ###########################################################################
+
+    - key: sections.user_info.description
+      t: |
+          L'enquesta d'aquest any ha arribat a **11.492** persones a **102** països. Per primer cop aquest any,
+          hem estat capaços de traduir les preguntes de l'enquesta a múltiples idiomes gràcies a un fantàstic equip de persones voluntàries.
+
+    - key: sections.features.description
+      t: |
+          CSS ha experimentat un augment de noves funcions en els darrers anys, de manera que, com era d'esperar,
+          l'adopció quea una mica enrere, ja que la comunitat pren el seu temps per absorbir noves propietats.
+
+    - key: sections.units_selectors.description
+      t: |
+          Esperem que trobareu algunes coses que no sabies en aquesta secció!
+
+    - key: sections.technologies.description
+      t: |
+          L'ecosistema CSS està passant per una mena de renovació, ja que els pilars més antics com Bootstrap
+          ara han d'acollir nous entrants com Tailwind CSS. Per no parlar de tot el moviment CSS-in-JS
+          que, tot i que encara no ha passat pel corrent principal, és tantmateix força dinàmic.
+
+    - key: sections.other_tools.description
+      t: |
+          No hi ha grans sorpreses aquí, però val la pena destacar l'aparició de navegadors centrats en el desenvolupament
+          com Polypane i Sizzy, que van un pas més enllà de les eines de desenvolupament tradicionals.
+
+    - key: sections.environments.description
+      t: |
+          Un dels punts forts bàsics de CSS és la seva capacitat d'adaptació a diferents entorns, però, per diversos motius,
+          la majoria de les persones que desenvolupen CSS no exploren els suports com la iimpressió i el correu electrònic.
+          Podrien resultar ser la propera frontera de CSS…?
+
+    - key: sections.resources.description
+      t: |
+          Els resultats d'"altres respostes" d'aquesta secció ressalten la riquesa i diversitat de la comunitat CSS
+          i presenten altres blogs i podcasts excel·lents que esperem afegir oficialment a l'enquesta de l'any vinent.
+
+    - key: sections.opinions.description
+      t: |
+          Aquestes opinions dibuixen un quadre d'un llenguatge cada cop més madur, però també més complex. I, potser,
+          -almenys mentre lluitem per seguir el ritme del canvi- una mica menys agradable?
+
+          
+    ###########################################################################
+    # Notes
+    ###########################################################################
+
+    - key: blocks.gender.note
+      t: |
+          Si t'interessa aprendre'n més, hem [escrit aquest article](https://dev.to/sachagreif/is-our-survey-biased-against-women-49oj) que aborda la dinàmica de gènere de l'enquesta.
+
+    - key: blocks.currently_missing_from_css.note
+      t: |
+          Pots explorar el conjunt de respostes complet per a aquesta pregunta a [aquest projecte paral·lel](https://whatsmissingfromcss.com/).
+
+    - key: blocks.source.note
+      t: >
+        Aquest gràfic agrupa una combinació de referents, paràmetres d'URL i respostes de forma lliure.
+
+        - Estat de JS: la llista de correu de l'[Estat de JS](https://stateofjs.com).
+
+        - Estat de CSS: la llista de correu de l'Estat de CSS; també coincideix amb `correu electrònic`, `per correu electrònic`, etc.
+
+        - Feina: coincideix `feina`, `col·legues`, `companys de feina`, etc.
+
+    ###########################################################################
+    # Awards
+    ###########################################################################
+
+    - key: award.feature_adoption_delta_award.comment
+      t: Amb una progressió de **{value}** el 2020, aquest ha estat l'any en què CSS Grid ha passat de ser una nova tecnologia a una eina establerta.
+
+    - key: award.tool_usage_delta_award.comment
+      t: Cap altra eina s'acosta a la ràpida progressió de **{value}** durant l'últim any.
+
+    - key: award.tool_satisfaction_award.comment
+      t: La proporció de satisfacció de **{value}** de PostCSS mostra que no es pot superar fent les coses realment bé.
+
+    - key: award.tool_interest_award.comment
+      t: Amb una proporció de **{value}**, CSS Modules ha generat el més gran interès aquest any.
+
+    - key: award.most_write_ins_award.comment
+      t: Moltes preguntes acceptaven també respostes de tipus escrites i, amb **{value}** mencions, PhpStorm ha estat el més popular en general.
+
+      
+    ###########################################################################
+    # Conclusion
+    ###########################################################################
+
+    - key: sections.conclusion.description
+      t: |
+            Si una persona que desenvolupa en JavaScript escriu una línia de codi CSS, és ja desenvolupadora de CSS?
+
+            Aquesta programació *kōan* il·lustra una clara tendència en el món del desenvolupament web: a mesura que es demana que desenvolupadors CSS aprenguin JavaScript, també hi ha més desenvolupadors en JavaScript que s'adonen que CSS és més que `font-weight: bold;`.
+
+            Per tant, preguntar-se sobre "l'Estat de CSS" és inherentment una proposta controvertida: depenent a qui preguntis pots obtenir respostes completament contraposades! I com saps quina és la correcta?
+
+            Aquí un altre kōan per a tu: la resposta correcta és que *no hi ha* resposta correcta. Cadascuna de les eines, metodologies, frameworks i llibreries exposades aquí té el seu propi lloc dins el vast ecosistema de front-end.
+
+            Estàs implementant una aplicació complexa amb React? Una bona opció és Styled Components. Estàs dissenyant una landing page estàtica? No t'equivocaràs pas amb Sass! I tot i que Bootstrap ha perdut tot el seu hype original, no el pots superar si ens referim al seu gran nombre de temes i plugins.
+
+            Així que mentre seguim de ben de prop les noves joguines que van emergint a GitHub cada setmana, no ens oblidem de les eines, tècniques i, sobretot, la gent que ha portat la torxa de CSS fins a dia d'avui. Necessitarem a tothom si volem que CSS segueixi creixent durant el 2021 i més enllà!
+
+    ###########################################################################
+    # Picks
+    ###########################################################################
+
+    - key: picks.my_2020_pick
+      t: 'La meva selecció de 2020: '
+    - key: picks.intro
+      t: Hem demanat a membres de la comunitat CSS que comparteixin la seva "selecció de l'any"
+
+    - key: picks.shadeed9.bio
+      t: Autor de debuggingcss.com
+    - key: picks.shadeed9.description
+      t: |
+            Container queries are a long-time awaited feature for us, 
+            and I’m thrilled that the Chrome team is working on support for it natively!
+
+    - key: picks.argyleink.bio
+      t: CSS a Google
+    - key: picks.argyleink.description
+      t: |
+            The humble CSS box is more dynamic every year, and for me 2020 was about logical sides, instead of physical sides. Free internationally contextual content flow, spacing and shorthands? pls & ty 
+
+    - key: picks.sachagreif.bio
+      t: Creador d'aquesta enquesta
+    - key: picks.sachagreif.description
+      t: |
+            With this blog post, Amelia Wattenberger didn't just go the extra mile, she ran a whole marathon! The animations and quiz will ensure you finally understand the CSS cascade. 
+    
+    - key: picks.christianoliff.bio
+      t: Desenvolupador front-end a Trimble MAPS
+    - key: picks.christianoliff.description
+      t: |
+          One thing I've really started using and appreciating this year though is Purge CSS- an awesome tool for removing unused CSS. It can greatly reduce the size of your CSS, and its fast and easy to use.
+    
+    - key: picks.kilianvalkhof.bio
+      t: Desenvolupador web i creador de Polypane
+    - key: picks.kilianvalkhof.description
+      t: |
+          `content-visibility` is making a huge difference in the performance of my web apps already, but at the same time I think it should be the job of browsers to optimize this, not devs.
+
+    - key: picks.walterstephanie.bio
+      t: Dissenyador centrat en l'usuari i amant de CSS
+    - key: picks.walterstephanie.description
+      t: |
+          A series of YouTube videos that explain all the new cool CSS features to build modern designs.
+
+    - key: picks.piccalilli_.bio
+      t: Dissenyador i desenvolupador freelance que dirigeix piccalil.li
+    - key: picks.piccalilli_.description
+      t: |
+          This blog is an absolute gold mine of CSS knowledge. Michelle is a CSS legend and every post or tutorial they write is heaped with useful content.
+
+    - key: picks.sarasoueidan.bio
+      t: Enginyer UI/dissenyador independent
+    - key: picks.sarasoueidan.description
+      t: |
+          My pick is a person, namely Rachel Andrew. She taught CSS Grid to a whole generation of developers.
+
+    - key: picks.5t3ph.bio
+      t: Engineer de software @ Microsoft
+    - key: picks.5t3ph.description
+      t: |
+          In this conference talk, Manuel Matuzovic provides thoughtfully 
+          crafted examples that are engaging, approachable, and actionable.
+
+    - key: picks.hugogiraudel.bio
+      t: Defensor de l'accessibilitat i la diversitat no binaris
+    - key: picks.hugogiraudel.description
+      t: |
+          Fela is an amazing piece of software. 
+          It’s pretty powerful, relatively easy to use and very performant
+
+    - key: picks.foolip.bio
+      t: Engineer de software @ Google
+    - key: picks.foolip.description
+      t: |
+          Sergio has recently fixed lots of Flexbox in WebKit and even some in Chromium, 
+          notably bringing flex gap to WebKit, 
+          which means that soon it will be available on all modern browsers. 
+    
+    - key: picks.jina.bio
+      t: Advocat i professional de sistemes de disseny
+    - key: picks.jina.description
+      t: |
+          The media query to reduce motion, which helps avoid 
+          triggering dizziness and discomfort.

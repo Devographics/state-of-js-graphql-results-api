@@ -101,3 +101,11 @@
   patterns:
     - gnome
     - epiphany
+
+- id: duckduckgo
+  name: DuckDuckGo Browser
+  homepage: https://duckduckgo.com/app
+
+- id: sidekick
+  name: Sidekick
+  homepage: https://www.meetsidekick.com/
