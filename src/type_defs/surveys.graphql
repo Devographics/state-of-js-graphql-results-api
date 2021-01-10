@@ -12,6 +12,7 @@
 #import "./resources.graphql"
 #import "./tools.graphql"
 #import "./tools_others.graphql"
+#import "./tools_cardinality_by_user.graphql"
 #import "./translations.graphql"
 #import "./environments.graphql"
 #import "./proficiency.graphql"
@@ -54,7 +55,11 @@ type Survey @cacheControl(maxAge: 600) {
     """
     Cardinality By User (by-users tool count breakdown for a specific set of tools and specific criteria)
     """
-    tools_cardinality_by_user(ids: [ToolID]!, experienceId: ExperienceID): ToolsCardinalityByUser
+    tools_cardinality_by_user(
+        year: Int!,
+        ids: [ToolID]!,
+        experienceId: ExperienceID!
+    ): [ToolsCardinalityByUser] @cacheControl(maxAge: 600)
     """
     Usage results for a specific feature
     """

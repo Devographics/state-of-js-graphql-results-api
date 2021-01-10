@@ -1,0 +1,4 @@
+type ToolsCardinalityByUser @cacheControl(maxAge: 600) {
+    cardinality: Int
+    count: Int
+}
