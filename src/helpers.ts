@@ -1,7 +1,7 @@
 import { EnumTypeDefinitionNode } from 'graphql'
 import typeDefs from './type_defs/schema.graphql'
 import allEntities from './data/entities/index'
-import { RequestContext, SurveyConfig, ResolverDynamicConfig } from './types'
+import { RequestContext, ResolverDynamicConfig } from './types'
 import {
     computeTermAggregationAllYearsWithCache,
     computeTermAggregationSingleYearWithCache

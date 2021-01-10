@@ -153,7 +153,7 @@ export default {
         }, context: RequestContext) => useCache(
             computeToolsCardinalityByUser,
             context.db,
-            [survey.survey, year, ids, experienceId]
+            [survey, year, ids, experienceId]
         ),
         tools_others: (
             survey: SurveyConfig,

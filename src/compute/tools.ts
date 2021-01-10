@@ -2,8 +2,9 @@ import { inspect } from 'util'
 import { Db } from 'mongodb'
 import { SurveyConfig } from '../types'
 import { Filters } from '../filters'
-import config from "../config";
+import config from '../config'
 import { computeChoicesOverYearsGraph } from './choices_over_years_graph'
+import { getParticipationByYearMap } from './demographics'
 
 export const allToolExperienceIds = [
     'would_use',
@@ -118,7 +119,7 @@ export async function computeToolExperienceGraph(
 
 export async function computeToolsCardinalityByUser(
     db: Db,
-    survey: string,
+    survey: SurveyConfig,
     year: number,
     toolIds: string[],
     experienceId: ToolExperienceId
@@ -126,7 +127,10 @@ export async function computeToolsCardinalityByUser(
     const pipeline = [
         {
             // filter on specific survey and year.
-            $match: { survey, year }
+            $match: {
+                survey: survey.survey,
+                year,
+            }
         },
         {
             // for each specified tool ID, convert to 1
@@ -192,9 +196,25 @@ export async function computeToolsCardinalityByUser(
         _id: number
         cardinality: number
         count: number
-    }[]>(pipeline).toArray()
+    }>(pipeline).toArray()
 
-    console.log(inspect({ pipeline, results }, { colors: true, depth: null }))
+    if (results.length === 0) {
+        return []
+    }
 
-    return results
+    const totalRespondentsByYear = await getParticipationByYearMap(db, survey)
+    const numberOfRespondents = totalRespondentsByYear[year]
+    if (numberOfRespondents === undefined) {
+        throw new Error(`unable to find number of respondents for year: ${year}`)
+    }
+
+    const resultsWithPercentage = results.map(result => ({
+        cardinality: result.cardinality,
+        count: result.count,
+        percentage: result.count / numberOfRespondents * 100
+    }))
+
+    // console.log(inspect({ numberOfRespondents, pipeline, results, resultsWithPercentage }, { colors: true, depth: null }))
+
+    return resultsWithPercentage
 }
