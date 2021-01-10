@@ -16,7 +16,7 @@ translations:
       t: State of CSS
 
     - key: general.netlify_link
-      t: Hosted by <a href="${link}">Netlify</a>.
+      t: Hosted by <a href="{link}">Netlify</a>.
 
     - key: general.completion_percentage
       t: '回答記入率：'
@@ -232,9 +232,9 @@ translations:
 
     # tool experience
     - key: blocks.tool_experience.title
-      t: ${name}の経験年数
+      t: '{name}の経験年数'
     - key: blocks.tool_experience.description
-      t: 回答者の${name}の経験。
+      t: '回答者の{name}の経験。'
 
     # tool positive/negative split ("marimekko" chart)
     - key: blocks.tools_experience_marimekko.title
@@ -309,7 +309,7 @@ translations:
     - key: export.export
       t: 出力
     - key: export.title
-      t: ${title}のデータを出力
+      t: '{title}のデータを出力'
     - key: export.nocsv
       t: ごめんなさい。このデータセットはCSVに出力できません。
     - key: export.graphql
@@ -384,17 +384,17 @@ translations:
     - key: share.site.title
       t: State Of CSS 2020の結果を見てみよう
     - key: share.site.twitter_text
-      t: 'State Of CSS 2020の結果を見てみよう ${link} #StateOfCSS'
+      t: 'State Of CSS 2020の結果を見てみよう {link} #StateOfCSS'
     - key: share.site.subject
       t: State Of JavaScriptの結果
     - key: share.site.body
-      t: 'CSSに関するアンケートの興味深い結果です: ${link}'
+      t: 'CSSに関するアンケートの興味深い結果です: {link}'
     - key: share.block.twitter_text
-      t: '#StateOfCSS 2020: ${title} ${link}'
+      t: '#StateOfCSS 2020: {title} {link}'
     - key: share.block.subject
       t: State Of CSSの結果
     - key: share.block.body
-      t: 'CSSに関するアンケートの興味深い結果です (${title}): ${link}'
+      t: 'CSSに関するアンケートの興味深い結果です ({title}): {link}'
     - key: share.twitter
       t: Twitterにシェア
     - key: share.facebook
