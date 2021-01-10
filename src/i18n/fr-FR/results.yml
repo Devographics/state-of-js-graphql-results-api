@@ -1,31 +1,31 @@
-locale: en-US
+locale: fr-FR
 translations:
     ###########################################################################
     # General
     ###########################################################################
 
     - key: results.start
-      t: Start
+      t: Démarrer
 
     - key: page.previous
-      t: 'Previous:'
+      t: 'Précédent :'
     - key: page.next
-      t: 'Next:'
+      t: 'Suivant:'
 
     - key: general.state_of_css_link
       t: State of CSS
 
     - key: general.netlify_link
-      t: Hosted by <a href="{link}">Netlify</a>.
+      t: Hébergé par <a href="{link}">Netlify</a>.
 
     - key: general.completion_percentage
-      t: 'Completion percentage:'
+      t: 'Progression:'
 
     - key: partners.thanks
-      t: Thanks to our partners for supporting us!
+      t: Merci à nos partenaires de nous soutenir !
 
     - key: partners.learn_more
-      t: Learn more.
+      t: En savoir plus.
 
     ###########################################################################
     # Options
@@ -45,7 +45,7 @@ translations:
     - key: options.features_simplified.used_it
       t: Je l'ai utilisé
     - key: options.features_simplified.usage_ratio
-      t: Usage ratio
+      t: Ratio d'utilisation
 
     - key: options.quadrant.assess
       t: JUGER
@@ -69,11 +69,11 @@ translations:
         ANALYSER: High usage, low satisfaction. Reassess these technologies if you're currently using them.
 
     - key: ranges.selector.years_of_experience
-      t: Experience
+      t: Expérience
     - key: ranges.selector.yearly_salary
-      t: Salary
+      t: Salaire
     - key: ranges.selector.company_size
-      t: Company Size
+      t: Taille de l'entreprise
 
     ###########################################################################
     # Sections
@@ -83,7 +83,7 @@ translations:
       t: Introduction
 
     - key: sections.demographics.title
-      t: Demographics
+      t: Démographies
 
     - key: sections.tshirt.title
       t: T-shirt
@@ -95,32 +95,31 @@ translations:
       t: Conclusion
 
     - key: sections.support.title
-      t: Support Us
+      t: Nous Soutenir
     - key: sections.support.description
       t: >
-        We run this survey as a side project, but in order to make the
-        project sustainable we’re always looking for partners who can help support us,
-        either financially or by helping us spread the word.
-        If you think you could help in any way, please don’t hesitate to [get in touch](mailto:hello@stateofjs.com)!
+        Nous développons cette enquête en tant que projet autonome, afin que ce projet soit pérenne nous cherchons toujours des
+        partenaires pour nous soutenir, que ce soit financièrement ou partageant à la communauté.
+        Si vous pensez pouvoir nous aider qu'importe la manière, n'hésitez pas à [nous contacter](mailto:hello@stateofjs.com)!
 
     - key: sections.awards.title
-      t: Awards
+      t: Récompenses
     - key: sections.awards.description
-      t: Things that stood out this year.
+      t: Les choses qui sont sorties cette année.
 
     ###########################################################################
     # User Info
     ###########################################################################
 
     - key: user_info.locale
-      t: Language
+      t: Langues
     - key: user_info.locale.description
-      t: What language did respondents select to fill out the survey?
+      t: Quelle langue les répondants ont sélectionné pour compléter l'enquête ?
 
     - key: user_info.source
       t: Source
     - key: user_info.source.description
-      t: How did respondents find out about the survey?
+      t: Qu'ont pensé les répondants de l'enquête ?
 
     ###########################################################################
     # Locales
@@ -182,9 +181,9 @@ translations:
 
     # knowledge score
     - key: features.knowledge_score
-      t: Knowledge Score
+      t: Score de connaissance
     - key: features.knowledge_score.description
-      t: Out of all the features mentioned in the survey, how many did the respondent know about?
+      t: Parmi toutes les connaissances mentionnées dans l'enquête, combien sont connues des répondants ?
 
     ###########################################################################
     # Tools & Methodologies
@@ -192,13 +191,13 @@ translations:
 
     # general
     - key: tools.links
-      t: Links
+      t: Liens
     - key: tools.github_link
       t: GitHub
     - key: tools.github_stars
-      t: stars
+      t: étoiles
     - key: tools.homepage_link
-      t: Homepage
+      t: Page d'accueil
     - key: tools.npm_link
       t: NPM
 
@@ -208,35 +207,35 @@ translations:
 
     # heatmaps
     - key: blocks.tools_company_size_heatmap.title
-      t: Usage by Company Size
+      t: Utilisation par taille de l'entreprise
     - key: blocks.tools_company_size_heatmap.description
       t: |
-        For each technology, how usage is spread among respondents
+        Pour chaque technologie, how usage is spread among respondents
         who picked different company size ranges.
 
     - key: blocks.tools_yearly_salary_heatmap.title
       t: Usage by Salary Range
     - key: blocks.tools_yearly_salary_heatmap.description
       t: |
-        For each technology, how usage is spread among respondents
+        Pour chaque technologie, how usage is spread among respondents
         who picked different salary ranges.
 
     - key: blocks.tools_years_of_experience_heatmap.title
       t: Usage by Years Of Experience
     - key: blocks.tools_years_of_experience_heatmap.description
       t: |
-        For each technology, how usage is spread among respondents who picked different experience ranges.
+        Pour chaque technologie, how usage is spread among respondents who picked different experience ranges.
         Note that the experience in question here is general experience, not experience with a specific technology.
 
     # tool
     - key: blocks.entity.homepage_link
-      t: Homepage
+      t: Page d'accueil
     - key: blocks.entity.github_link
       t: GitHub
 
     # tools quadrant
     - key: blocks.tools_quadrant.title
-      t: Satisfaction vs Usage
+      t: Satisfaction vs Utilisation
     - key: blocks.tools_quadrant.satisfaction.description
       t: |
         This chart shows each technology’s **satisfaction ratio** over its total **user count**.
@@ -522,31 +521,29 @@ translations:
 
     - key: hints.export_hint
       t: >
-          The <span class="hint-export-button">Export</span> button at the top of each block
-          lets you get the raw JSON data for any chart, or a GraphQL
-          query you can run against our public API. 
+          Le bouton <span class="hint-export-button">Export</span> en haut de chaque bloc
+          vous permet d'obtenir les données brutes au format JSON pour n'importe quel graphique, ou une requête GraphQL
+          que vous pouvez exécuter sur notre API publique. 
 
     - key: hints.completion_hint
       t: >
-          Since all questions are optional, some of them got fewer responses than others. 
-          The completion indicator (<span class="hint-completion-indicator">◕</span>) tells you exactly how many people answered any given question.
+          Etant donné que toutes les questions sont optionnelles, certaines ont obtenues moins de réponses que les autres. 
+          L'indicateur de progression (<span class="hint-completion-indicator">◕</span>) affiche le nombre de personne ayant répondu à une question donnée.
 
     - key: hints.tool_modal_hint
       t: >
-          You can click on any technology name to get extra details and 
-          a more in-depth look at its related data. 
+          En cliquant sur le nom d'une technologie, vous obtiendrez des informations détaillées.
 
     - key: hints.rankings_modes_hint
       t: >
-          The Rankings chart can be toggled between satisfaction, interest, usage, and awareness
-          to give you a fuller picture of a category's rankings. 
+          Les graphiques de classement peuvent être filtrés par satisfaction, intérêt, utilisation, et connaissance
+          pour donner une aperçu plus complète d'un classement par catégorie. 
 
     - key: hints.sharing_hint
       t: >
-          Sharing this survey on Twitter, Facebook, or by email is scientifically proven to 
-          improve your JavaScript performance by up to 15%. 
+          C'est scientifiquement prouvé: Partager cette enquête sur Twitter, Facebook, ou par email 
+          améliore votre performance en JavaScript jusqu'à 15%. 
 
     - key: hints.tshirt_hint
       t: >
-          Another guaranteed scientific finding: buying our t-shirt will 
-          increase your JavaScript knowledge by over 9000!
+          Autre découverte scientifique: Acheter un t-shirt State Of CSS améliorera votre JavaScript de 9000 points !
