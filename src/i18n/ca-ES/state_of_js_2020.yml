@@ -18,9 +18,9 @@ translations:
             <span class="first-letter">P</span>er molt merda que hagi estat el 2020, JavaScript encara ha aconseguit avançar d'alguna manera. A mesura que el llenguatge en sí continua millorant
             gràcies a les noves característiques com Optional Chaining i Nullish Coalescing, l'adopció generalitzada de TypeScript està portant les coses a un altre nivell popularitzant la tipificació estàtica (persones que no desenvolupen en JS silenciosament rient -o plorant- arreu).
 
-            I pel que fa al framework, just quan pensàvem que les coses s'anaven establint, arriba Svelte i promet remoure-ho tot amb una nova visió de front-end. I fins i tot eines de build mostren signes de nova activitat després d'anys d'hegemonia de Webpack.
+            I pel que fa al framework, just quan pensàvem que les coses s'anaven establint, arriba Svelte i promet remoure-ho tot amb una nova visió de front-end. I fins i tot eines de build mostren signes de nova activitat després d'anys d'hegemonia de webpack.
 
-            Però la diferència aquest cop és que la "vella" guàrdia -parlant en termes relatius- no va enlloc. Svelte i Snowpack són fantàstics, per també ho són React i Webpack. I segur que també acabaran sent presa de la Great JavaScript Churn, però no per massa anys.
+            Però la diferència aquest cop és que la "vella" guàrdia -parlant en termes relatius- no va enlloc. Svelte i Snowpack són fantàstics, per també ho són React i webpack. I segur que també acabaran sent presa de la Great JavaScript Churn, però no per massa anys.
 
             Per tant, gaudim del que tenim aquí: un gran ecosistema que no para de millorar!
 
@@ -131,8 +131,8 @@ translations:
 
     - key: sections.build_tools.description
       t: |
-          Just quan semblava que el domini de Webpack havia resolt el debat, el marc d'eines de build
-          ha tornat a explotar amb nous candidats com Snowpack i ESBuild, portant-nos a dedicar-los una
+          Just quan semblava que el domini de webpack havia resolt el debat, el marc d'eines de build
+          ha tornat a explotar amb nous candidats com Snowpack i esbuild, portant-nos a dedicar-los una
           secció sencera per primer cop des de 2017.
 
     - key: sections.mobile_desktop.description

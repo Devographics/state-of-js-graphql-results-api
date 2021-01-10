@@ -18,9 +18,9 @@ translations:
             <span class="first-letter">A</span>s crappy as 2020 was, JavaScript as a whole still managed to somehow move forward. As the language itself keeps improving
             thanks to new features like Optional Chaining and Nullish Coalescing, TypeScript's widespread adoption is taking things to a whole other level by popularizing static typing. 
 
-            And on the framework side, just when we though things were settling down, Svelte comes in and promises to shake everything up with a fresh take on the front-end. And even build tools are showing signs of new activity after years of Webpack hegemony. 
+            And on the framework side, just when we though things were settling down, Svelte comes in and promises to shake everything up with a fresh take on the front-end. And even build tools are showing signs of new activity after years of webpack hegemony. 
 
-            But the difference this time is that the “old” guard –relatively speaking– is not going anywhere. Svelte and Snowpack are great, but so are React and Webpack. And sure, they too will eventually fall prey to the Great JavaScript Churn, but not for many, many years. 
+            But the difference this time is that the “old” guard –relatively speaking– is not going anywhere. Svelte and Snowpack are great, but so are React and webpack. And sure, they too will eventually fall prey to the Great JavaScript Churn, but not for many, many years. 
 
             So let's enjoy what we have here: a great ecosystem that just keeps getting even better!
 
@@ -130,8 +130,8 @@ translations:
 
     - key: sections.build_tools.description
       t: |
-          Just when it seemed like Webpack's dominance had settled the debate, the build tools scene
-          has again exploded with new entrants like Snowpack and ESBuild, leading us to give it a full 
+          Just when it seemed like webpack's dominance had settled the debate, the build tools scene
+          has again exploded with new entrants like Snowpack and esbuild, leading us to give it a full 
           section for the first time since 2017. 
 
     - key: sections.mobile_desktop.description
@@ -289,7 +289,7 @@ translations:
       t: Co-creator of CSS Modules, creator of Playroom
     - key: picks.markdalgleish.description
       t: |
-            Automates npm publishing with the ability to tie markdown release notes to every change. Changesets has really leveled up the quality of our release notes and version management this year.
+            Automates npm publishing with the ability to tie Markdown release notes to every change. Changesets has really leveled up the quality of our release notes and version management this year.
 
     - key: picks.sachagreif.bio
       t: Creator of the State of JS survey

@@ -677,7 +677,7 @@ translations:
       t: Другие ответы (поле со свободной формой ответа).
 
     - key: tools_others.non_js_languages
-      t: Языки, помимо JavaScript
+      t: Языки помимо JavaScript
     - key: tools_others.non_js_languages.description
       t: На каких языках программирования вы ещё пишете?
     - key: tools_others.non_js_languages.others
