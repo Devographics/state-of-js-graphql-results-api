@@ -60,5 +60,9 @@ export default {
         cutoff: 1
     }),
 
+    IndustrySector: getStaticResolvers('user_info.industry_sector.choices', {
+        cutoff: 1
+    }),
+
     KnowledgeScore: getStaticResolvers('user_info.knowledge_score', { limit: 100, cutoff: 1 })
 }
