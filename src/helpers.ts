@@ -6,6 +6,7 @@ import {
     computeTermAggregationAllYearsWithCache,
     computeTermAggregationSingleYearWithCache
 } from './compute'
+import { Filters } from './filters'
 
 export const getEntities = ({ type, tag }: { type: string; tag: string }) => {
     let entities = allEntities
@@ -57,7 +58,7 @@ export const getGraphQLEnumValues = (name: string): string[] => {
 
 /**
  * Get resolvers when the db key is the same as the field id
- * 
+ *
  * @param id the field's GraphQL id
  * @param options options
  */
@@ -76,7 +77,7 @@ export const getStaticResolvers = (id: string, options: any = {}) => ({
 
 /**
  * Get resolvers when the db key is *not* the same as the field id
- * 
+ *
  * @param getId a function that takes the field's GraphQL id and returns the db key
  * @param options options
  */
@@ -97,3 +98,34 @@ export const getDynamicResolvers = (getId: (id: string) => string, options: any 
             year
         })
 })
+
+const demographicsFields = [
+    'country',
+    'locale',
+    'source',
+    'gender',
+    'race_ethnicity',
+    'yearly_salary',
+    'company_size',
+    'years_of_experience',
+    'job_title',
+    'industry_sector',
+    'industry_sector_others',
+    'knowledge_score'
+]
+
+/**
+ * Generic resolvers for passing down arguments for demographic fields
+ *
+ * @param survey current survey
+ */
+export const getDemographicsResolvers = (survey: SurveyConfig) => {
+    const resolvers: any = {}
+    demographicsFields.forEach(field => {
+        resolvers[field] = ({ filters }: { filters: Filters }) => ({
+            survey,
+            filters
+        })
+    })
+    return resolvers
+}

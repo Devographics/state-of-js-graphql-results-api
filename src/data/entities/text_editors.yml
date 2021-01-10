@@ -53,6 +53,7 @@
   homepage: https://www.jetbrains.com/idea/
   patterns:
     - idea
+    - inteliJ
 
 - id: notepad
   name: Notepad++
@@ -117,3 +118,15 @@
 - id: webstorm
   name: WebStorm
   homepage: https://www.jetbrains.com/webstorm/
+
+- id: netbeans
+  name: NetBeans
+  homepage: https://netbeans.org/features/index.html
+
+- id: oni
+  name: Onivim 2
+  homepage: https://onivim.io/
+
+- id: rider
+  name: Rider
+  homepage: https://www.jetbrains.com/rider/

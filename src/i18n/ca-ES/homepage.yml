@@ -1,0 +1,54 @@
+locale: ca-ES
+translations:
+    ###########################################################################
+    # Homepage
+    ###########################################################################
+
+    - key: homepage.hand_coded
+      t: Codificat a Japan.
+    - key: homepage.leave_issue
+      t: Deixa'ns un suggeriment
+    - key: homepage.get_in_touch
+      t: Contacta amb nosaltres
+
+    - key: homepage.made_by
+      t: "L'Estat de CSS ha estat realitzat per:"
+    - key: homepage.leave_issue
+    - key: homepage.get_in_touch
+
+    - key: homepage.previous_years
+      t: 'Anys anteriors:'
+
+    - key: homepage.intro
+      t: >
+          ## CSS està evolucionant més de pressa que mai.
+
+          Flexbox, Grid, Multi-Column… Per no parlar de nous paradigmes com CSS-in-JS.
+
+          Així que, després de l'èxit de l'enquesta anual [Estat de JavaScript](https://stateofjs.com),
+          hem decidit adoptar el món dels estils i els selectors per ajudar a identificar les últimes tendències…
+          i així intentar salvar la sempre creixent "gran divisió de front-end"
+
+    - key: homepage.take_survey
+      t: Comença l'enquesta
+
+    - key: homepage.view_results
+      t: Visualitza els resultats de 2019
+
+    - key: share.help_spread
+      t: Ajuda'ns a divulgar-la!
+
+    - key: newsletter.stay_tuned
+      t: Atenció a nova informació
+    - key: newsletter.leave_your_email
+      t: Deixa'ns el teu correu electrònic i t'avisarem quan es faci la propera enquesta.
+
+    - key: author.sacha.bio
+      t: >
+          Creador de la llibreria de visualització de dades de JavaScript [Nivo](http://nivo.rocks/),
+          així com [Mozaik](http://mozaik.rocks/), una eina per construir taulers elegants.
+
+    - key: author.raphael.bio
+      t: >
+          Creador del butlletí diari [Sidebar](http://sidebar.io) i
+          [VulcanJS](http://vulcanjs.org), un framework de codi obert fet amb React+GraphQL.

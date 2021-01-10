@@ -22,6 +22,8 @@
 - id: frontend_horse
   name: Frontend Horse
   homepage: https://frontend.horse/
+  pattenrs:
+    - front( |-)?end( |-)?horse
 
 - id: css_layout_news
   name: CSS Layout News

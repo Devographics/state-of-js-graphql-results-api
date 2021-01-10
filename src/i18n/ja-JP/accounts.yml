@@ -1,75 +1,73 @@
-locale: en-US
+locale: ja-JP
 translations:
     - key: accounts.error_incorrect_password
-      t: Incorrect password
+      t: パスワードが違います
     - key: accounts.error_email_required
-      t: Email required
+      t: メールアドレスが必要です
     - key: accounts.error_email_already_exists
-      t: Email already exists
+      t: メールアドレスはすでに使われています
     - key: accounts.error_invalid_email
-      t: Invalid email
+      t: 無効なメールアドレスです
     - key: accounts.error_minchar
-      t: Your password is too short
+      t: パスワードが短すぎます
     - key: accounts.error_unknown
-      t: Unknown error
+      t: 不明なエラーです
     - key: accounts.error_user_not_found
-      t: User not found
+      t: ユーザーが見つかりません
     - key: accounts.error_username_already_exists
-      t: Username already exists
+      t: ユーザー名がすでに使われています
     - key: accounts.enter_username_or_email
-      t: Enter username or email
+      t: ユーザー名かメールアドレスを入力してください
     - key: accounts.error_internal_server_error
       t: Internal server error
     - key: accounts.error_token_expired
-      t: Invalid password reset token
+      t: パスワードリセットトークンが無効です
     - key: accounts.username_or_email
-      t: Username or email
+      t: ユーザー名かメールアドレス
     - key: accounts.enter_username
-      t: Enter username
+      t: ユーザー名を入力してください
     - key: accounts.username
-      t: Username
+      t: ユーザー名
     - key: accounts.enter_email
-      t: Enter email
+      t: メールアドレスを入力してください
     - key: accounts.email
-      t: Email
+      t: メールアドレス
     - key: accounts.enter_password
-      t: Enter password
+      t: パスワードを入力してください
     - key: accounts.password
-      t: Password
+      t: パスワード
     - key: accounts.choose_password
-      t: Choose password
+      t: パスワードを選んでください
     - key: accounts.change_password
-      t: Change password
+      t: パスワードを変更
     - key: accounts.reset_your_password
-      t: Reset your password
+      t: パスワードをリセット
     - key: accounts.set_password
-      t: Set password
+      t: パスワードを設定
     - key: accounts.enter_new_password
-      t: Enter new password
+      t: 新しいパスワードを入力してください
     - key: accounts.new_password
-      t: New password
+      t: 新しいパスワード
     - key: accounts.forgot_password
-      t: Forgot password
+      t: パスワードを忘れた場合
     - key: accounts.sign_up
-      t: Sign up
+      t: サインアップ
     - key: accounts.sign_in
-      t: Sign in
+      t: ログイン
     - key: accounts.sign_out
-      t: Sign out
+      t: ログアウト
     - key: accounts.cancel
-      t: Cancel
+      t: キャンセル
     - key: accounts.info_email_sent
-      t: Email sent.
+      t: メールが送信されました。
     - key: accounts.info_password_changed
-      t: Password changed.
+      t: パスワードが変更されました。
     - key: accounts.please_pick_password
-      t: Please pick a new password to continue.
+      t: 続けるために新しいパスワードを選んでください
     - key: accounts.please_log_in
-      t: Please log in or sign up to begin.
+      t: 始めるためにはサインアップかログインが必要です。
     - key: accounts.logged_in_as
-      t: Logged in as {email}
+      t: '{email}としてログインしました。'
     - key: accounts.questions
       t: >
-          If you have any questions about how we use your data, or would like
-          us to remove your data from our records,
-          please <a href="mailto:hello@stateofjs.com">get in touch</a>.
+          個人データをどのように扱うかの質問や、個人情報の削除がしたい場合は<a href="mailto:hello@stateofjs.com">メールでお問い合わせ</a>ください。

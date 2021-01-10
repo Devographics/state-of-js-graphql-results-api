@@ -42,3 +42,31 @@
   name: Swift
 - id: go
   name: Go
+- id: bash
+  name: Bash
+- id: perl
+  name: Perl
+- id: fsharp
+  name: F#
+  patterns: 
+    - f#
+- id: sql
+  name: SQL
+- id: html
+  name: HTML
+- id: css
+  name: CSS
+- id: elm
+  name: Elm
+- id: reason
+  name: Reason
+- id: clojure
+  name: Clojure
+- id: lua
+  name: Lua
+- id: lisp
+  name: Lisp
+- id: julia
+  name: Julia
+- id: groovy
+  name: Groovy

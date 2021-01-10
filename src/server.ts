@@ -43,8 +43,8 @@ const start = async () => {
     const db = mongoClient.db(process.env.MONGO_DB_NAME)
 
     // purge db cache
-    const collection = db.collection(config.mongo.cache_collection)
-    collection.deleteMany({})
+    // const collection = db.collection(config.mongo.cache_collection)
+    // collection.deleteMany({})
 
     const server = new ApolloServer({
         typeDefs,

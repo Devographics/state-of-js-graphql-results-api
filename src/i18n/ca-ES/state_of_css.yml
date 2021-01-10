@@ -1,0 +1,544 @@
+locale: ca-ES
+namespace: css
+translations:
+    ###########################################################################
+    # General
+    ###########################################################################
+
+    - key: general.survey_intro_css2020
+      t: >
+          CSS està evolucionant més ràpid que mai.
+
+
+          Flexbox, Grid, Multi-Column… Per no parlar sobre tots els nous paradigmes com CSS-in-JS.
+
+
+          Així que després de l'èxit de l'enquesta anual sobre l'Estat de JavaScript,
+          hem decidit abordar el món dels estils i selectors. Esperem que ens ajudaràs
+          a identificar les últimes tendències i a esbrinar quines eines podem aprendre
+          i començar a utilitzar a partir d'ara!
+
+    - key: general.results.description
+      t: L'enquesta anual sobre les últimes tendències en CSS.
+
+    ###########################################################################
+    # Sections
+    ###########################################################################
+
+    - key: sections.layout.title
+      t: Disseny
+    - key: sections.layout.description
+      t: Com posiciones els elements a la pantalla?
+
+    - key: sections.shapes_graphics.title
+      t: Formes i gràfics
+    - key: sections.shapes_graphics.description
+      t: Control de la forma i visualització dels elements.
+
+    - key: sections.interactions.title
+      t: Interaccions
+    - key: sections.interactions.description
+      t: Control sobre la interacció de l'usuari amb la pàgina.
+
+    - key: sections.typography.title
+      t: Tipografia
+    - key: sections.typography.description
+      t: Configuració i distribució del text.
+
+    - key: sections.animations_transforms.title
+      t: Animacions i transformacions
+    - key: sections.animations_transforms.description
+      t: Animació i transformació dels elements.
+
+    - key: sections.media_queries.title
+      t: Media Queries
+    - key: sections.media_queries.description
+      t: Maneres d'adaptar el lloc web al dispositiu o preferències de l'usuari.
+
+    - key: sections.other_features.title
+      t: Altres característiques
+    - key: sections.other_features.description
+      t: Altres característiques CSS.
+
+    - key: sections.units_selectors.title
+      t: Unitats i selectors
+    - key: sections.units_selectors.description
+      t: Testeig del teu coneixement sobre unitats i selectors CSS.
+
+    - key: sections.pre_post_processors.title
+      t: Pre i post processadors
+    - key: sections.pre_post_processors.description
+      t: Utilitats que augmenten CSS.
+
+    - key: sections.pre_post_processors_others.title
+      t: Altres pre i post processadors
+
+    - key: sections.css_frameworks.title
+      t: Frameworks CSS
+    - key: sections.css_frameworks.description
+      t: Llibreries que et proporcionen components i estils prefabricats.
+
+    - key: sections.css_frameworks_others.title
+      t: Altres frameworks CSS
+
+    - key: sections.css_methodologies.title
+      t: Metodologies CSS
+    - key: sections.css_methodologies.description
+      t: Codificacions per escriure CSS més net.
+
+    - key: sections.css_methodologies_others.title
+      t: Altres metodologies CSS.
+
+    - key: sections.css_in_js.title
+      t: CSS-in-JS
+    - key: sections.css_in_js.description
+      t: Llibraries que t'ajuden a integrar CSS a codi JavaScript.
+
+    - key: sections.css_in_js_others.title
+      t: Altres llibreries CSS-in-JS.
+
+    - key: sections.tools_others.title
+      t: Altres eines
+    - key: sections.tools_others.description
+      t: Altres eines CSS.
+
+    - key: sections.environments.title
+      t: Entorns
+    - key: sections.environments.description
+      t: Per a quins entorns escrius CSS?
+
+    ###########################################################################
+    # Options
+    ###########################################################################
+
+    # CSS for print
+    - key: options.css_for_print.0
+      t: (Gairebé) mai escric CSS per ser imprès
+    - key: options.css_for_print.0.short
+      t: Mai
+
+    - key: options.css_for_print.1
+      t: Ocasionalment escric CSS per ser imprès
+    - key: options.css_for_print.1.short
+      t: Ocasionalment
+
+    - key: options.css_for_print.2
+      t: Escric CSS per ser imprès com a part de la majoria de projectes
+    - key: options.css_for_print.2.short
+      t: Sovint
+
+    - key: options.css_for_print.3
+      t: Em focalitzo bàsicament en CSS per ser imprès
+    - key: options.css_for_print.3.short
+      t: Principalment
+
+    # CSS for email
+    - key: options.css_for_email.0
+      t: (Gairebé) mai escric CSS per a clients de correu electrònic
+    - key: options.css_for_email.0.short
+      t: Mai
+
+    - key: options.css_for_email.1
+      t: Ocasionalment escric CSS per a clients de correu electrònic
+    - key: options.css_for_email.1.short
+      t: Ocasionalment
+
+    - key: options.css_for_email.2
+      t: Escric CSS per a clients de correu electrònic com a part de la majoria de projectes
+    - key: options.css_for_email.2.short
+      t: Sovint
+
+    - key: options.css_for_email.3
+      t: Em focalitzo bàsicament en CSS per a clients de correu electrònic
+    - key: options.css_for_email.3.short
+      t: Principalment
+
+    ###########################################################################
+    # Features
+    ###########################################################################
+
+    # layout
+
+    - key: features.grid
+      t: CSS Grid
+    - key: features.subgrid
+      t: Subgrid
+    - key: features.regions
+      t: Regions CSS
+    - key: features.flexbox
+      t: Flexbox
+    - key: features.multi_column
+      t: CSS Multi columna
+    - key: features.writing_modes
+      t: Modes d'escriptura CSS
+    - key: features.exclusions
+      t: Exclusions CSS
+    - key: features.position_sticky
+      t: '<code>position: sticky</code>'
+    - key: features.logical_properties
+      t: Propietats lògiques
+    - key: features.logical_properties.description
+      t: <code>margin-block-start</code>, <code>padding-inline-end</code>, etc.
+    - key: features.aspect_ratio
+      t: <code>aspect-ratio</code>
+    - key: features.content_visibility
+      t: <code>content-visibility</code>
+
+    # shapes & graphics
+    - key: features.shapes
+      t: Formes CSS
+    - key: features.object_fit
+      t: <code>object-fit</code>
+    - key: features.clip_path
+      t: <code>clip-path</code>
+    - key: features.masks
+      t: Màscares CSS
+    - key: features.blend_modes
+      t: Modes de fusió
+    - key: features.blend_modes.description
+      t: La propietat <code>mix-blend-mode</code>
+    - key: features.filter_effects
+      t: Filtres CSS
+    - key: features.backdrop_filter
+      t: <code>backdrop-filter</code>
+
+    # interactions
+    - key: features.scroll_snap
+      t: CSS Scroll Snap
+    - key: features.overscroll_behavior
+      t: <code>overscroll-behavior</code>
+    - key: features.overflow_anchor
+      t: <code>overflow-anchor</code>
+    - key: features.touch_action
+      t: <code>touch-action</code>
+    - key: features.pointer_events
+      t: <code>pointer-events</code>
+
+    # typography
+    - key: features.web_fonts
+      t: Tipografies de lletra web (@font-face)
+    - key: features.variables_fonts
+      t: Tipografies de lletra variables
+    - key: features.line_breaking
+      t: Propietats de salts de línia
+    - key: features.line_breaking.description
+      t: <code>overflow-wrap</code>, <code>word-break</code>, <code>line-break</code>, <code>hyphens</code>
+    - key: features.font_variant
+      t: <code>font-variant-*</code>
+    - key: features.initial_letter
+      t: <code>initial-letter</code>
+    - key: features.font_variant_numeric
+      t: <code>font-variant-numeric</code>
+    - key: features.font_display
+      t: <code>font-display</code>
+    - key: features.line_clamp
+      t: <code>line-clamp</code>
+    - key: features.leading_trim
+      t: <code>leading-trim</code>
+    - key: features.direction
+      t: <code>direction</code>
+    - key: features.direction.description
+      t: També inclou l'atribut HTML <code>dir</code>.
+
+    # animations & transforms
+    - key: features.transitions
+      t: Transicions CSS
+    - key: features.transforms
+      t: Transformacions CSS
+    - key: features.animations
+      t: Animacions CSS
+    - key: features.perspective
+      t: <code>perspective</code>
+
+    # media queries
+    - key: features.feature_support_queries
+      t: Feature Support Queries (<code>@supports</code>)
+    - key: features.prefers_reduced_motion
+      t: <code>prefers-reduced-motion</code>
+    - key: features.prefers_color_scheme
+      t: <code>prefers-color-scheme</code>
+    - key: features.color_gamut
+      t: <code>color-gamut</code>
+
+    # other features
+    - key: features.variables
+      t: Variables CSS (Propietats personalitzades)
+    - key: features.containment
+      t: Contenció CSS
+    - key: features.will_change
+      t: <code>will-change</code>
+    - key: features.calc
+      t: <code>calc()</code>
+    - key: features.houdini
+      t: Houdini
+    - key: features.comparison_functions
+      t: Funcions de comparació CSS
+    - key: features.comparison_functions.description
+      t: <code>min()</code>, <code>max()</code> i <code>clamp()</code>
+
+    ###########################################################################
+    # Units & Selectors
+    ###########################################################################
+
+    - key: features_others.units
+      t: Unitats
+    - key: features_others.units.description
+      t: Quines de les següents unitats CSS has utilitzat?
+
+    - key: options.units.px
+      t: px
+    - key: options.units.pt
+      t: pt
+    - key: options.units.percent
+      t: '%'
+    - key: options.units.em
+      t: em
+    - key: options.units.rem
+      t: rem
+    - key: options.units.vh_vw
+      t: vh, vw
+    - key: options.units.vmin_vmax
+      t: vmin, vmax
+    - key: options.units.ch
+      t: ch
+    - key: options.units.ex
+      t: ex
+    - key: options.units.mm
+      t: mm
+    - key: options.units.cm
+      t: cm
+    - key: options.units.in
+      t: in
+
+    - key: features_others.pseudo_elements
+      t: Pseudo elements
+    - key: features_others.pseudo_elements.description
+      t: Quins dels següents pseudo-elements CSS has utilitzat
+
+    - key: options.pseudo_elements.before
+      t: '::before'
+    - key: options.pseudo_elements.after
+      t: '::after'
+    - key: options.pseudo_elements.first_line
+      t: '::first-line'
+    - key: options.pseudo_elements.first_letter
+      t: '::first-letter'
+    - key: options.pseudo_elements.selection
+      t: '::selection'
+    - key: options.pseudo_elements.placeholder
+      t: '::placeholder'
+    - key: options.pseudo_elements.marker
+      t: '::marker'
+    - key: options.pseudo_elements.backdrop
+      t: '::backdrop'
+
+    - key: features_others.combinators
+      t: Combinadors
+    - key: features_others.combinators.description
+      t: Quins dels següents selectors combinadors CSS has utilitzat?
+
+    - key: options.combinators.descendant
+      t: div span (descendent)
+    - key: options.combinators.child
+      t: div > span (fill)
+    - key: options.combinators.next_sibling
+      t: div + div (següent germà)
+    - key: options.combinators.subsequent_sibling
+      t: div ~ div (germà posterior)
+
+    - key: features_others.tree_document_structure
+      t: Estructura del document / Arbre
+    - key: features_others.tree_document_structure.description
+      t: Quins dels següents selectors d'estructura CSS has utilitzat?
+
+    - key: options.tree_document_structure.root
+      t: :root
+    - key: options.tree_document_structure.empty
+      t: :empty
+    - key: options.tree_document_structure.not
+      t: :not()
+    - key: options.tree_document_structure.nth_child
+      t: :nth-child()
+    - key: options.tree_document_structure.nth_last_child
+      t: :nth-last-child()
+    - key: options.tree_document_structure.first_child
+      t: :first-child
+    - key: options.tree_document_structure.last_child
+      t: :last-child
+    - key: options.tree_document_structure.only_child
+      t: :only-child
+    - key: options.tree_document_structure.nth_of_type
+      t: :nth-of-type()
+    - key: options.tree_document_structure.nth_last_of_type
+      t: :nth-last-of-type()
+    - key: options.tree_document_structure.first_of_type
+      t: :first-of-type
+    - key: options.tree_document_structure.last_of_type
+      t: :last-of-type
+    - key: options.tree_document_structure.only_of_type
+      t: :only-of-type
+    - key: options.tree_document_structure.lang
+      t: :lang()
+    - key: options.tree_document_structure.is
+      t: :is()
+    - key: options.tree_document_structure.where
+      t: :where()
+    - key: options.tree_document_structure.has
+      t: :has()
+
+    - key: features_others.attributes
+      t: Atributs
+    - key: features_others.attributes.description
+      t: Quins dels següents atributs CSS has utilitzat?
+
+    - key: options.attributes.presence
+      t: div[foo] (Presència)
+    - key: options.attributes.equality
+      t: div[foo="bar"] (Igualtat)
+    - key: options.attributes.starts_with
+      t: div[foo^="bar"] (Comença amb)
+    - key: options.attributes.ends_with
+      t: div[foo$="bar"] (Acaba amb)
+    - key: options.attributes.contains_word
+      t: div[foo~="bar"] (Conté la paraula)
+    - key: options.attributes.contains_substring
+      t: div[foo*="bar"] (Conté la subcadena de caràcters)
+
+    - key: features_others.links_urls
+      t: Enllaços/URLs
+    - key: features_others.links_urls.description
+      t: Quins dels següents selectors d'enllaços i URLs de CSS has utilitzat?
+
+    - key: options.links_urls.any_link
+      t: :any-link
+    - key: options.links_urls.link_visited
+      t: :link i :visited
+    - key: options.links_urls.local_link
+      t: :local-link
+    - key: options.links_urls.target
+      t: :target
+
+    - key: features_others.interaction
+      t: Interacció
+    - key: features_others.interaction.description
+      t: Quins dels següents selectors d'interacció CSS has utilitzat?
+
+    - key: options.interaction.hover
+      t: :hover
+    - key: options.interaction.active
+      t: :active
+    - key: options.interaction.focus
+      t: :focus
+    - key: options.interaction.focus_within
+      t: :focus-within
+    - key: options.interaction.focus_visible
+      t: :focus-visible
+
+    - key: features_others.form_controls
+      t: Controladors de forumaris
+    - key: features_others.form_controls.description
+      t: Quins dels següents selectors CSS relacionats amb formularis has utilitzat?
+
+    - key: options.form_controls.enabled_disabled
+      t: :enabled i :disabled
+    - key: options.form_controls.read_only_write
+      t: :read-only i :read-write
+    - key: options.form_controls.placeholder_shown
+      t: :placeholder-shown
+    - key: options.form_controls.default
+      t: :default
+    - key: options.form_controls.checked
+      t: :checked
+    - key: options.form_controls.indeterminate
+      t: :indeterminate
+    - key: options.form_controls.valid_invalid
+      t: :valid i :invalid
+    - key: options.form_controls.user_invalid
+      t: :user-invalid
+    - key: options.form_controls.in_out_range
+      t: :in-range i :out-of-range
+    - key: options.form_controls.required_optional
+      t: :required i :optional
+
+    ###########################################################################
+    # Environments
+    ###########################################################################
+
+    - key: environments.browsers
+      t: Navegadors
+    - key: environments.browsers.description
+      t: En quins navegadors fas els teus tests?
+
+    - key: environments.form_factors
+      t: Form Factors
+    - key: environments.form_factors.description
+      t: En quines mides i formats de pantalla fas els teus tests?
+
+    - key: environments.css_for_print
+      t: CSS per a impressió
+    - key: environments.css_for_print.description
+      t: Escrius CSS per ser imprès?
+
+    - key: environments.css_for_email
+      t: CSS per a clients de correu electrònic
+    - key: environments.css_for_email.description
+      t: Escrius CSS per a clients de correu electrònic?
+
+    - key: charts.axis_legends.css_for_print
+      t: Freqüència
+    - key: charts.axis_legends.css_for_email
+      t: Freqüència
+
+    ###########################################################################
+    # Opinions
+    ###########################################################################
+
+    - key: opinions.css_easy_to_learn
+      t: CSS és fàcil d'aprendre
+    - key: opinions.css_easy_to_learn.title
+      t: Corba d'aprenentatge
+
+    - key: opinions.css_evolving_slowly
+      t: CSS està evolucionant massa lentament
+    - key: opinions.css_evolving_slowly.title
+      t: Taxa de canvi
+
+    - key: opinions.utility_classes_to_be_avoided
+      t: S'haurien d'evitar les classes d'utilitat (no semàntiques) (.center, .large-text, etc.)
+    - key: opinions.utility_classes_to_be_avoided.title
+      t: Classes no semàntiques
+
+    - key: opinions.selector_nesting_to_be_avoided
+      t: S'hauria d'evitar la nidificació de selectors (.foo .bar ul li {...})
+    - key: opinions.selector_nesting_to_be_avoided.title
+      t: Nidificació de selectors
+
+    - key: opinions.css_is_programming_language
+      t: CSS és un llenguatge de programació
+    - key: opinions.css_is_programming_language.title
+      t: Llenguatge de programació
+
+    - key: opinions.enjoy_writing_css
+      t: Gaudeixo escrivint CSS
+    - key: opinions.enjoy_writing_css.title
+      t: Gaudi
+
+    - key: opinions_others.currently_missing_from_css.others
+      t: Què sents que li falta actualment al CSS?
+    - key: opinions_others.currently_missing_from_css.others.description
+      t: Característiques que t'agradaria veure algun dia a CSS.
+    - key: opinions_others.currently_missing_from_css.others.note
+      t: >
+          Aquests resultats han estat normalitzats basant-se en el contingut d'un camp de text lliure.
+          Per veure les respostes sense processar consulteu [whatsmissingfromcss.com](http://whatsmissingfromcss.com/).
+    
+    - key: opinions.sum_up_one_word_css
+      t: CSS en una paraula
+    - key: opinions.sum_up_one_word_css.description
+      t: Com resumiries la teva opinió sobre CSS en una sola paraula?
+
+    - key: happiness.state_of_the_web
+      t: Quina satisfacció sents sobre l'estat general de les tecnologies web?
+
+    - key: happiness.state_of_css
+      t: Quina satisfacció sents sobre l'estat general de CSS?

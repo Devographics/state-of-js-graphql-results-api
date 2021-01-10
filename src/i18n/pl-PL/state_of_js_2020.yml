@@ -1,0 +1,216 @@
+locale: pl-PL
+namespace: js
+translations:
+    ###########################################################################
+    # General
+    ###########################################################################
+
+    - key: general.results.description
+      t: Coroczne badanie dotyczące najnowszych trendów w ekosystemie JavaScript.
+
+    ###########################################################################
+    # Introduction
+    ###########################################################################
+
+    - key: sections.introduction.description
+      t: |
+
+            <span class="first-letter">C</span>hoć rok 2020 był kiepski, JavaScript jako całość wciąż jakoś ruszał się do przodu. Podczas gdy sam język cały czas się rozwija, dzięki funkcjom takim jak Optional Chaining i Nullish Coalescing, powszechna adopcja TypeScript-u podnosi poprzeczkę na całkiem nowy poziom, popularyzując static typing (podczas gdy nie-Javascriptowi developerzy całego świata śmieją się, lub płaczą, po cichu). 
+
+            Jeśli chodzi o frameworki, kiedy już myśleliśmy, że sytuacja się uspokaja, na scenę wkroczył Svelte z obietnicami wstrząśnięcia wszystkim nowym spojrzeniem na front-end. Nawet narzędzia do budowania wykazują oznaki nowej aktywności po latach hegemonii webpack. 
+
+            Ale tym razem różnica polega na tym, że „stara” gwardia - właściwie mówiąc - nigdzie się nie wybiera. Svelte i Snowpack są świetne, ale tak samo jak React i webpack. I oczywiście, oni też w końcu padną ofiarą wielkiego pędu JavaScript, ale jeszcze nie przez wiele, wiele lat. 
+
+            Cieszmy się więc tym, co mamy: wspaniałym ekosystemem, który cały czas staje się coraz lepszy!
+
+            ### Team
+
+            Anketa State of CSS jest tworzona i utrzymywana przez [Sacha Greif](https://twitter.com/sachagreif) i [Raphaël Benitte](https://twitter.com/benitteraphael).
+
+            ### Download Our Data
+
+            Możesz [ściągnąć surowe dane z ankiety w JSON](https://www.kaggle.com/sachag/state-of-js). Daj nam znać jeśli stworzysz swoje własne wizualizacje na ich podstawie!
+
+            ### Other Links
+
+            - [Strona Główna State of CSS](https://stateofcss.com)
+            - [Strona Główna State of JS](https://stateofjs.com)
+
+            ### Thanks
+
+            Podziękowania dla [Alexey Pyltsyn](https://github.com/lex111) za pomoc przy tłumaczeniach.  
+
+            ### Credits & Stuff
+
+            Witryna oparta na IBM Plex Mono. Pytania? Feedback? [Odezwij się!](mailto:hello@stateofjs.com)
+
+            A teraz, zobaczmy czym JavaScript zajmował się w tym roku!
+
+            <span class="conclusion__byline">– Sacha i Raphaël</span>
+
+    ###########################################################################
+    # Tshirt
+    ###########################################################################
+
+    - key: sections.tshirt.title
+      t: T-shirt
+
+    - key: sections.tshirt.description
+      t: |
+          ## Wesprzyj ankietę i swój wygląd w jednym!
+
+          Zaktualizowaliśmy zeszłoroczny, bardzo popularny 👕 T-shirt State of JavaScript 👕, aby dostosować go do krajobrazu JavaScript 2020!
+
+          T-Shirt przedstawia „układ okresowy JavaScript”, który zawiera listę najpopularniejszych bibliotek pogrupowanych według kategorii, wraz z ich liczbą gwiazdek na GitHub (w tysiącach).
+
+          Ta koszulka to świetny sposób na zapoznanie się z ekosystemem JavaScript, a może nawet nawiązanie rozmowy z innymi, podobnie myślącymi programistami JavaScript!
+
+    - key: tshirt.about
+      t: O t-shircie
+
+    - key: tshirt.description
+      t: |
+          Projekt jest nadrukowany na koszulce black heather [Bella+Canvas 3001 unisex premium 
+          t-shirt](https://www.printful.com/custom/mens/t-shirts/unisex-premium-t-shirt-bella-canvas-3001) (męskiej) o kroju semi-slim; 
+          albo heather dark grey [Anvil 880 Women's Fashion Fit T-Shirt](https://www.printful.com/custom/womens/t-shirts/womens-fashion-fit-t-shirt) (damskiej). 
+          Rozmiarówka wykorzystuje rozmiary amerykańskie.
+
+    - key: tshirt.getit
+      t: Zdobądź Ją
+
+    - key: tshirt.price
+      t: $24 USD + przesyłka
+
+    ###########################################################################
+    # Sections Introductions
+    ###########################################################################
+
+    - key: sections.user_info.description
+      t: |
+          TODO
+
+          Tegoroczna ankieta dotarła do **11,492** osób w **102** krajach. W tym roku, po raz pierwszy, dzięki niesamowitemu zespołowi
+          wolontariuszy mogliśmy przetłumaczyć pytania ankiety na wiele języków.
+
+    - key: sections.features.description
+      t: |
+          Chociaż większość respondentów była świadoma większości funkcji JavaScript wymienionych w ankiecie, wielu z nich nie używało nigdy wielu z nich.
+
+    - key: sections.technologies.description
+      t: |
+          Typowa nowa biblioteka JavaScript wykazuje dużą satysfakcję, ale niewielkie wykorzystanie, co może czasami utrudniać wybór odpowiedniej technologii dla twoich potrzeb. W tym miejscu spojrzenie na dane może naprawdę pomóc wskazać właściwy kierunek.
+
+    - key: sections.javascript_flavors.description
+      t: |
+          Trend „wariantów” JavaScript, które kompilują się do standardowego kodu, rozpoczął się wiele lat temu od CoffeeScript, ale teraz jest już jasne, że TypeScript jest niekwestionowanym liderem w tej kategorii.
+
+    - key: sections.front_end_frameworks.description
+      t: |
+          Jak zwykle React i Vue na prowadzeniu, ale Svelte szybko staje się bardzo poważnym pretendentem do czołówki.
+
+    - key: sections.datalayer.description
+      t: |
+          Podczas gdy przestrzeń warstwy danych jest w ciągłym ruchu, jedno wydaje się jasne: GraphQL i powiązane z nim technologie pozostaną tu na dłużej.
+
+    - key: sections.back_end_frameworks.description
+      t: |
+          Przestrzeń back-endu jest nadal bardzo podzielona, ale Express wyróżnia się jako jedno z dominujących narzędzi, podczas gdy Next.js utrzymuje wysoki współczynnik satysfakcji.
+
+    - key: sections.testing.description
+      t: |
+          W coraz bogatszym ekosystemie testowania, nowi kandydaci Testing Library i Playwright uzyskują wysokie oceny w indeksie satysfakcji.
+
+    - key: sections.build_tools.description
+      t: |
+          Gdy wydawało się, że dominacja webpacka rozstrzygnęła debatę, scena narzędzi do budowania ponownie eksplodowała nowymi uczestnikami, takimi jak Snowpack i esbuild, co doprowadziło nas do oddania im własnej sekcji po raz pierwszy od 2017 roku.
+
+    - key: sections.mobile_desktop.description
+      t: |
+          JavaScript to język nie tylko dla przeglądarek i chociaż Electron i React Native to dwie najbardziej znane nazwy w tej kategorii, inne rozwiązania, takie jak Expo i Capacitor, również zaczynają budzić emocje.
+
+    - key: sections.other_tools.description
+      t: |
+          Różnorodność i ilość bibliotek i innych narzędzi podkreśla, jak rozległy stał się ekosystem JavaScript. Po raz pierwszy w tym roku śledzimy również środowiska wykonawcze JavaScript, takie jak Deno i Hermes.
+
+    - key: sections.resources.description
+      t: |
+          Poniżej wymieniono wiele wspaniałych zasobów. Jesteśmy pewni, że znajdziesz co najmniej kilka nowych blogów lub podcastów do śledzenia!
+
+    - key: sections.opinions.description
+      t: |
+          Chociaż ogólnie rzecz biorąc, w krainie JavaScript wszystko wygląda dobrze, wydaje się, że nastąpił niewielki spadek po pozytywnym szczycie w 2018. Czy ten trend się utrzyma? Odwiedź nas w przyszłym roku, aby się dowiedzieć!
+
+    ###########################################################################
+    # Notes
+    ###########################################################################
+
+    - key: blocks.source.note
+      t: >
+
+          TODO
+
+          Ten wykres zawiera miks odwołań, parametrów URL i wolnych odpowiedzi.
+
+          - State of JS: lista mailingowa [State of JS](https://stateofjs.com).
+
+          - State of CSS: lista mailingowa State of CSS; odpowiada również `email`, `by email`, itp.
+
+          - Work: odpowiada `work`, `colleagues`, `coworkers`, itp.
+
+    ###########################################################################
+    # Awards
+    ###########################################################################
+
+    # - key: award.feature_adoption_delta_award.comment
+    #   t: With a **{value}** progression in 2020, this was the year CSS Grid crossed over from new technology to established tool.
+
+    - key: award.tool_usage_delta_award.comment
+      t: TypeScript był już popularny i wygląda na to, że w przyszłości stanie się jeszcze bardziej wszechobecny.
+
+    - key: award.tool_satisfaction_award.comment
+      t: Z niebotycznym współczynnikiem zadowolenia **{value}**, Testing Library jest najbardziej lubianym narzędziem w 2020 roku.
+
+    - key: award.tool_interest_award.comment
+      t: GraphQL jest nadal tą rzeczą, o której programiści chcą dowiedzieć się więcej, gdy tylko znajdą na to czas.
+
+    # - key: award.most_write_ins_award.comment
+    #   t: Many questions also accepted write-in answers, and with **{value}** mentions PhpStorm was the most popular item overall.
+
+    ###########################################################################
+    # Conclusion
+    ###########################################################################
+
+    - key: sections.conclusion.description
+      t: |
+            Od czasów starożytnych filozofowie zastanawiali się nad paradoksem JavaScript: z jednej strony nie możesz się doczekać nowych, ekscytujących funkcji i bibliotek, które obiecują znacznie polepszyć doświadczenie programistyczne.
+
+            Ale jednocześnie pragniesz stabilności i prostoty, aby w końcu móc załatwić sprawy bez konieczności spędzania połowy czasu na przeglądaniu zawiłych GitHub issues i nieaktualnych pytań na Stack Overflow.
+
+            Więc o co chodzi? Czy chcemy nowej błyskotki czy tego co stare i niezawodne? Bardziej niż kiedykolwiek, rok 2020 pokazuje nam, że nie poprzestaniemy na niczym mniej niż *i to i to*. Dobra wiadomość jest taka, że społeczność JavaScript podjęła wyzwanie, co zagwarantuje z pewnością ekscytujący rok 2021!
+
+    ###########################################################################
+    # Picks
+    ###########################################################################
+
+    - key: picks.my_2020_pick
+      t: 'Mój Pick 2020: '
+    - key: picks.intro
+      t: Poprosiliśmy członków społeczności JavaScript o ich “wybór roku”
+
+    - key: picks.joshwcomeau.bio
+      t: Software-engineer-turned-educator
+    - key: picks.joshwcomeau.description
+      t: |
+            To fantastyczne źródło wprowadzające do nauki o accessibility! Wybrałem je, ponieważ naszym zadaniem jako programistów JS jest upewnienie się, że strony, które tworzymy, są dostępne dla wszystkich, nie tylko dla widzących użytkowników klawiatury i myszy.
+
+    - key: picks.swyx.bio
+      t: Infinite Builder
+    - key: picks.swyx.description
+      t: |
+            Svelte to Space Elevator frameworków frontendowych. Pomaga w niezwykle szybkim wykańczaniu niezwykle szybkich aplikacji.
+
+    - key: picks.kentcdodds.bio
+      t: Improving the world with quality software
+    - key: picks.kentcdodds.description
+      t: |
+            Remix to nowe podejście do frameworków React, z naciskiem na stopniowe ulepszanie. Ujmuje platformę webową w sposób inny niż jakiekolwiek istniejące frameworki i jestem podekscytowany jego potencjałem.

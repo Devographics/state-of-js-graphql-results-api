@@ -12,6 +12,7 @@
         "dotenv": "^8.2.0",
         "express": "^4.17.1",
         "graphql": "^15.3.0",
+        "js-yaml": "^3.14.1",
         "lodash": "^4.17.20",
         "mongodb": "^3.6.2",
         "write-file-webpack-plugin": "^4.5.1"

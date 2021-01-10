@@ -1,215 +1,258 @@
-locale: ADD LOCALE HERE
+locale: pl-PL
 namespace: js
 translations:
     ###########################################################################
     # General
     ###########################################################################
 
-    - key: general.survey_intro_js2019 # TODO
+    - key: general.survey_intro_js2019
       t: >
-          The JavaScript world could use a bit of classification.
+          Światu JavaScript przydałoby się trochę klasyifkacji.
 
 
-          Since 2016, this survey has collected 
-          data from over 20,000 developers each year to identify current and upcoming trends.
+          Od 2016, w ramach tej ankiety każdego roku gromadzimy dane od ponad 20 000 deweloperów w celu określenia obecnych i nadchodzących trendów.
 
 
-          Take the survey and help us find out which libraries developers 
-          want to learn next, which have the best satisfaction ratings, and much more.
+          Wypełnij ankietę i pomóż nam dowiedzieć się, jakich bibliotek chcą uczyć się programiści, które mają największy wspólczynnik zadowolenia i nie tylko.
 
     ###########################################################################
     # Sections
     ###########################################################################
 
-    - key: sections.syntax.title # TODO
-      t: Syntax
-    - key: sections.syntax.description # TODO
-      t: The grammar of JavaScript.
+    - key: sections.syntax.title
+      t: Składnia
+    - key: sections.syntax.description
+      t: Gramatyka JavaScript-u.
 
-    - key: sections.language.title # TODO
-      t: Language
-    - key: sections.language.description # TODO
-      t: The vocabulary of JavaScript.
+    - key: sections.language.title
+      t: Język
+    - key: sections.language.description
+      t: Słownictwo JavaScript.
 
-    - key: sections.data_structures.title # TODO
-      t: Data Structures
-    - key: sections.data_structures.description # TODO
-      t: How you store and manipulate data.
+    - key: sections.data_structures.title
+      t: Struktury Danych
+    - key: sections.data_structures.description
+      t: Sposób przechowywania i przetwarzania danych.
 
-    - key: sections.browser_apis.title # TODO
-      t: Browser APIs
-    - key: sections.browser_apis.description # TODO
-      t: The features provided by the browser.
+    - key: sections.browser_apis.title
+      t: API Przeglądarek
+    - key: sections.browser_apis.description
+      t: Funkcjonalność oferowana przez przeglądarkę.
 
-    - key: sections.other_features.title # TODO
-      t: Other Features
-    - key: sections.other_features.description # TODO
-      t: Other technologies and patterns
+    - key: sections.other_features.title
+      t: Inna Funkcjonalność
+    - key: sections.other_features.description
+      t: Inne technologie i wzorce
 
-    - key: sections.patterns.title # TODO
-      t: Patterns
-    - key: sections.patterns.description # TODO
-      t: How you prefer writing code
+    - key: sections.patterns.title
+      t: Wzorce
+    - key: sections.patterns.description
+      t: Jaki sposób pisania kodu preferujesz
 
-    - key: sections.javascript_flavors.title # TODO
-      t: JavaScript Flavors
-    - key: sections.javascript_flavors.description # TODO
-      t: Languages that compile to JavaScript
+    - key: sections.javascript_flavors.title
+      t: Odmiany JavaScript
+    - key: sections.javascript_flavors.description
+      t: Języki, które kompilują się do JavaScript
 
-    - key: sections.front_end_frameworks.title # TODO
-      t: Front-end Frameworks
-    - key: sections.front_end_frameworks.description # TODO
-      t: Front-end frameworks and libraries
+    - key: sections.front_end_frameworks.title
+      t: Frameworki Front-endowe
+    - key: sections.front_end_frameworks.description
+      t: Frameworki i biblioteki front-endowe
 
-    - key: sections.datalayer.title # TODO
-      t: Data Layer
-    - key: sections.datalayer.description # TODO
-      t: Loading and managing data in your app
+    - key: sections.datalayer.title
+      t: Warstwa Danych
+    - key: sections.datalayer.description
+      t: Ładowanie i zarządzanie danymi w twojej aplikacji
 
-    - key: sections.back_end_frameworks.title # TODO
-      t: Back-end Frameworks
-    - key: sections.back_end_frameworks.description # TODO
-      t: JavaScript on the server
+    - key: sections.back_end_frameworks.title
+      t: Frameworki Back-endowe
+    - key: sections.back_end_frameworks.description
+      t: JavaScript na serwerze
 
-    - key: sections.testing.title # TODO
-      t: Testing
-    - key: sections.testing.description # TODO
-      t: Tools for testing your code
+    - key: sections.testing.title
+      t: Testowanie
+    - key: sections.testing.description
+      t: Narzędzia do testowania kodu
 
-    - key: sections.mobile_desktop.title # TODO
-      t: Mobile & Desktop
-    - key: sections.mobile_desktop.description # TODO
-      t: JavaScript for mobile devices and desktop apps
+    - key: sections.mobile_desktop.title
+      t: Urządzenia Mobilne i Stacjonarne
+    - key: sections.mobile_desktop.description
+      t: JavaScript dla urządzeń mobilnych i aplikacji desktopowych
+
+    - key: sections.build_tools.title
+      t: Narzędzia Buildujące
+    - key: sections.build_tools.description
+      t: Kompilowanie i bundlowanie kodu
+
+    - key: sections.tools_others.title
+      t: Inne Narzędzia
+    - key: sections.tools_others.description
+      t: Inne narzędzia JavaScript.
 
     ###########################################################################
     # Options
     ###########################################################################
-
-    # CSS for print
-    - key: options.css_for_print.0 # TODO
-      t: I (almost) never write print styles
-    - key: options.css_for_print.1 # TODO
-      t: I occasionally write print styles
-    - key: options.css_for_print.2 # TODO
-      t: I write print styles as part of most projects
-    - key: options.css_for_print.3 # TODO
-      t: I focus mainly on CSS for print
-
-    # CSS for email
-    - key: options.css_for_email.0 # TODO
-      t: I (almost) never write CSS for email clients
-    - key: options.css_for_email.1 # TODO
-      t: I occasionally write CSS for email clients
-    - key: options.css_for_email.2 # TODO
-      t: I write CSS for email clients as part of most projects
-    - key: options.css_for_email.3 # TODO
-      t: I focus mainly on CSS for email clients
 
     ###########################################################################
     # Features
     ###########################################################################
 
     # syntax
-    - key: features.destructuring # TODO
-      t: Destructuring
-    - key: features.destructuring.description # TODO
-      t: 'Example: `const { foo } = bar`'
-    - key: features.spread_operator # TODO
+    - key: features.destructuring
+      t: Destrukturyzacja
+    - key: features.destructuring.description
+      t: 'Przykład: `const { foo } = bar`'
+    - key: features.spread_operator
       t: Spread operator
-    - key: features.spread_operator.description # TODO
-      t: 'Example: `[...array1, ...array2]`'
-    - key: features.arrow_functions # TODO
-      t: Arrow Functions
-    - key: features.arrow_functions.description # TODO
-      t: 'Example: `const foo = () => {}`'
+    - key: features.spread_operator.description
+      t: 'Przykład: `[...array1, ...array2]`'
+    - key: features.arrow_functions
+      t: Funkcje Strzałkowe
+    - key: features.arrow_functions.description
+      t: 'Przykład: `const foo = () => {}`'
+    - key: features.nullish_coalescing
+      t: Nullish Coalescing
+    - key: features.nullish_coalescing.description
+      t: >
+          Przykład: `const foo = 0 ?? 42`
+    - key: features.optional_chaining
+      t: Optional Chaining
+    - key: features.optional_chaining.description
+      t: >
+          Przykład: `const dogName = adventurer.dog?.name`
+    - key: features.private_fields
+      t: Private Fields
+    - key: features.private_fields.description
+      t: >
+          Przykład: `class ClassWithPrivateField { #privateField }`
 
     # language
-    - key: features.proxies # TODO
-      t: Proxies
-    - key: features.async_await # TODO
+    - key: features.proxies
+      t: Proxy
+    - key: features.async_await
       t: Async/Await
-    - key: features.promises # TODO
+    - key: features.promises
       t: Promises
-    - key: features.decorators # TODO
-      t: Decorators
-    - key: features.decorators.description # TODO
+    - key: features.decorators
+      t: Dekoratory
+    - key: features.decorators.description
       t: >
-          In its simplest form, a decorator is simply a way of 
-          wrapping one piece of code with another — literally “decorating” it.
+          W najprostszej formie dekorator to po prostu sposób na owinięcie jednego kawałka kodu drugim - dosłownie „dekorowanie” go.
+    - key: features.dynamic_import
+      t: Import Dynamiczny
+    - key: features.dynamic_import.description
+      t: >
+          Przykład: <code>await import('/modules/my-module.js')</code>
 
     # data structures
-    - key: features.maps # TODO
-      t: Maps
-    - key: features.sets # TODO
-      t: Sets
-    - key: features.typed_arrays # TODO
-      t: Typed Arrays
-    - key: array_prototype_flat # TODO
+    - key: features.maps
+      t: Mapy
+    - key: features.sets
+      t: Sety
+    - key: features.typed_arrays
+      t: Tablice Typowane
+    - key: array_prototype_flat
       t: Array.prototype.flat
 
     # browser apis
-    - key: features.service_workers # TODO
+    - key: features.service_workers
       t: Service Workers
-    - key: features.local_storage # TODO
+    - key: features.local_storage
       t: LocalStorage
-    - key: features.i18n # TODO
+    - key: features.i18n
       t: i18n
-    - key: features.web_components # TODO
+    - key: features.web_components
       t: Web Components
-    - key: features.web_audio # TODO
+    - key: features.web_audio
       t: Web Audio API
-    - key: features.webgl # TODO
+    - key: features.webgl
       t: WebGL
-    - key: features.web_animations # TODO
+    - key: features.web_animations
       t: Web Animations API
-    - key: features.webrtc # TODO
+    - key: features.webrtc
       t: WebRTC
-    - key: features.web_speech # TODO
+    - key: features.web_speech
       t: Web Speech API
-    - key: features.webvr # TODO
+    - key: features.webvr
       t: WebVR
-    - key: features.websocket # TODO
+    - key: features.websocket
       t: Websocket
-    - key: features.fetch # TODO
+    - key: features.fetch
       t: Fetch API
 
     # other features
-    - key: features.pwa # TODO
+    - key: features.pwa
       t: Progressive Web Apps (PWA)
-    - key: features.wasm # TODO
+    - key: features.wasm
       t: WebAssembly (WASM)
 
     # patterns
-    - key: patterns.object_oriented_programming # TODO
-      t: Object-Oriented Programming
-    - key: features.functional_programming # TODO
-      t: Functional Programming
-    - key: features.reactive_programming # TODO
-      t: Reactive Programming
+    - key: patterns.object_oriented_programming
+      t: Programowanie Obiektowe
+    - key: features.functional_programming
+      t: Programowanie Funkcjonalne
+    - key: features.reactive_programming
+      t: Programowanie Reaktywne
+
+    ###########################################################################
+    # Tools
+    ###########################################################################
+
+    - key: tools.angular.description
+      t: >
+          Zwróć uwagę, że to pytanie dotyczy tylko środowiska [Angular](https://angular.io/), a konkretnie *nie* dotyczy przestarzałego [AngularJS](https://angularjs.org/).
+
+    ###########################################################################
+    # Other Tools
+    ###########################################################################
+
+    - key: tools_others.runtimes
+      t: Runtime-y JavaScript
+    - key: tools_others.runtimes.description
+      t: Z jakich silników/runtime-ów/środowisk wykonawczych regularnie korzystasz?
+    - key: tools_others.runtimes.others
+      t: Inne Runtime-y
+    - key: tools_others.runtimes.others.description
+      t: Inne odpowiedzi (wolne pole).
+
+    - key: tools_others.package_registries
+      t: Rejestry Pakietów
+    - key: tools_others.package_registries.description
+      t: Z których rejestrów pakietów regularnie pobierasz pakiety?
+    - key: tools_others.package_registries.others
+      t: Inne Rejestry Pakietów
+    - key: tools_others.package_registries.others.description
+      t: Inne odpowiedzi (wolne pole).
 
     ###########################################################################
     # Opinions
     ###########################################################################
 
-    - key: opinions.js_moving_in_right_direction # TODO
-      t: JavaScript is moving in the right direction
+    - key: opinions.js_moving_in_right_direction
+      t: JavaScript idzie w dobrym kierunku
 
-    - key: opinions.building_js_apps_overly_complex # TODO
-      t: Building JavaScript apps is overly complex right now
+    - key: opinions.building_js_apps_overly_complex
+      t: Tworzenie aplikacji JavaScript jest obecnie zbyt skomplikowane
 
-    - key: opinions.js_over_used_online # TODO
-      t: JavaScript is over-used online
+    - key: opinions.js_over_used_online
+      t: JavaScript jest nadużywany w Internecie
 
-    - key: opinions.enjoy_building_js_apps # TODO
-      t: I enjoy building JavaScript apps
+    - key: opinions.enjoy_building_js_apps
+      t: Lubię tworzyć aplikacje JavaScript
 
-    - key: opinions.would_like_js_to_be_main_lang # TODO
-      t: I would like JavaScript to be my main programming language
+    - key: opinions.would_like_js_to_be_main_lang
+      t: Chciałbym, aby JavaScript był moim głównym językiem programowania
 
-    - key: opinions.js_ecosystem_changing_to_fast # TODO
-      t: The JavaScript ecosystem is changing too fast
+    - key: opinions.js_ecosystem_changing_to_fast
+      t: Ekosystem JavaScript zmienia się zbyt szybko
 
-    - key: opinions.missing_from_js # TODO
-      t: What do you feel is currently missing from JavaScript?
-    - key: opinions.missing_from_js.description # TODO
-      t: Features you'd like to see in JavaScript one day.
+    - key: opinions_others.missing_from_js.others
+      t: Czego Twoim zdaniem obecnie brakuje w JavaScript?
+    - key: opinions_others.missing_from_js.others.description
+      t: Funkcjonalność, którą chciałbyś kiedyś zobaczyć w JavaScript.
+
+    - key: happiness.state_of_the_web
+      t: Jak bardzo jesteś zadowolony z ogólnego stanu technologii web-owych?
+
+    - key: happiness.state_of_js
+      t: Jak bardzo jesteś zadowolony z ogólnego stanu JavaScript?

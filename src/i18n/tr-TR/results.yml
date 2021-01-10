@@ -16,7 +16,7 @@ translations:
       t: State of CSS
 
     - key: general.netlify_link
-      t: <a href="${link}">Netlify</a> tarafından barındırlıyor.
+      t: <a href="{link}">Netlify</a> tarafından barındırlıyor.
 
     - key: general.completion_percentage
       t: 'Tamamlanma yüzdesi:'
@@ -109,6 +109,8 @@ translations:
 
     - key: options.locale.en-US
       t: İngilizce
+    - key: options.locale.ca-ES
+      t: Katalanca
     - key: options.locale.es-ES
       t: İspanyolca
     - key: options.locale.ru-RU
@@ -135,6 +137,8 @@ translations:
       t: Endonezya dili
     - key: options.locale.hi-IN
       t: Hintçe
+    - key: options.locale.pl-PL
+      t: Lehçe
 
     ###########################################################################
     # Features
@@ -228,9 +232,9 @@ translations:
 
     # tool experience
     - key: blocks.tool_experience.title
-      t: ${name} Deneyimi
+      t: '{name} Deneyimi'
     - key: blocks.tool_experience.description
-      t: Yanıtlayanların ${name} ile olan deneyimi.
+      t: Yanıtlayanların {name} ile olan deneyimi.
 
     # tools section streams
     - key: blocks.tools_section_streams.title
@@ -291,7 +295,7 @@ translations:
     - key: export.export
       t: Dışa Aktar
     - key: export.title
-      t: ${title} için verileri dışa aktar
+      t: '{title} için verileri dışa aktar'
     - key: export.nocsv
       t: Maalesef bu veri kümesi için CSV dışa aktarımı yapılamaz.
     - key: export.graphql
@@ -343,17 +347,17 @@ translations:
     - key: share.site.title
       t: State Of CSS 2020 sonuçlarını keşfedin
     - key: share.site.twitter_text
-      t: 'State Of CSS 2020 sonuçlarını keşfedin ${link} #StateOfCSS'
+      t: 'State Of CSS 2020 sonuçlarını keşfedin {link} #StateOfCSS'
     - key: share.site.subject
       t: State Of JavaScript Anket Sonuçları
     - key: share.site.body
-      t: 'İşte bazı ilginç CSS anket sonuçları: ${link}'
+      t: 'İşte bazı ilginç CSS anket sonuçları: {link}'
     - key: share.block.twitter_text
-      t: '#StateOfCSS 2020: ${title} ${link}'
+      t: '#StateOfCSS 2020: {title} {link}'
     - key: share.block.subject
       t: State Of CSS Anket Sonuçları
     - key: share.block.body
-      t: 'İşte bazı ilginç CSS anket sonuçları (${title}): ${link}'
+      t: 'İşte bazı ilginç CSS anket sonuçları ({title}): {link}'
     - key: share.twitter
       t: Twitter'da paylaş
     - key: share.facebook

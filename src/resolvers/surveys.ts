@@ -1,4 +1,4 @@
-import { getEntity, getGraphQLEnumValues } from '../helpers'
+import { getEntity, getGraphQLEnumValues, getDemographicsResolvers } from '../helpers'
 import { RequestContext, SurveyConfig } from '../types'
 import { Filters } from '../filters'
 import { computeToolExperienceGraph } from '../compute'
@@ -15,46 +15,7 @@ export default {
         totals: (survey: SurveyConfig) => survey,
         demographics: (survey: SurveyConfig) => ({
             participation: { survey },
-            country: ({ filters }: { filters: Filters }) => ({
-                survey,
-                filters
-            }),
-            locale: ({ filters }: { filters: Filters }) => ({
-                survey,
-                filters
-            }),
-            source: ({ filters }: { filters: Filters }) => ({
-                survey,
-                filters
-            }),
-            gender: ({ filters }: { filters: Filters }) => ({
-                survey,
-                filters
-            }),
-            race_ethnicity: ({ filters }: { filters: Filters }) => ({
-                survey,
-                filters
-            }),
-            yearly_salary: ({ filters }: { filters: Filters }) => ({
-                survey,
-                filters
-            }),
-            company_size: ({ filters }: { filters: Filters }) => ({
-                survey,
-                filters
-            }),
-            years_of_experience: ({ filters }: { filters: Filters }) => ({
-                survey,
-                filters
-            }),
-            job_title: ({ filters }: { filters: Filters }) => ({
-                survey,
-                filters
-            }),
-            knowledge_score: ({ filters }: { filters: Filters }) => ({
-                survey,
-                filters
-            })
+            ...getDemographicsResolvers(survey)
         }),
         tool: (survey: SurveyConfig, { id }: { id: string }) => ({
             survey,
@@ -123,7 +84,10 @@ export default {
             id,
             filters
         }),
-        opinions_others: (survey: SurveyConfig, { id, filters }: { id: string; filters?: Filters }) => ({
+        opinions_others: (
+            survey: SurveyConfig,
+            { id, filters }: { id: string; filters?: Filters }
+        ) => ({
             survey,
             id,
             filters
@@ -182,10 +146,7 @@ export default {
             id,
             filters
         }),
-        happiness: (
-            survey: SurveyConfig,
-            { id, filters }: { id: string; filters?: Filters }
-        ) => ({
+        happiness: (survey: SurveyConfig, { id, filters }: { id: string; filters?: Filters }) => ({
             survey,
             id,
             filters
