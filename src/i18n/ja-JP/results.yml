@@ -609,67 +609,67 @@ translations:
 
     - key: awards.runner_ups
       t: Runner Ups
-      t: Runner Ups
+      t: 次点
 
     - key: award.feature_adoption_award.title
       t: Most Used Feature
-      t: Most Used Feature
+      t: 最優秀利用機能賞
     - key: award.feature_adoption_award.description
       t: Awarded to the most adopted feature.
-      t: Awarded to the most adopted feature.
+      t: 一番多く使われた機能に贈られます。
 
     - key: award.feature_adoption_delta_award.title
       t: Most Adopted Feature
-      t: Most Adopted Feature
+      t: 最優秀採用機能賞
     - key: award.feature_adoption_delta_award.description
       t: Awarded to the feature with the largest year-over-year ”have used” progression.
-      t: Awarded to the feature with the largest year-over-year ”have used” progression.
+      t: 「使った」と答えた人がこの1年で一番増加した機能に贈られます。
 
     - key: award.tool_usage_award.title
       t: Most Used Technology
-      t: Most Used Technology
+      t: 最優秀利用技術賞
     - key: award.tool_usage_award.description
       t: Awarded to the technology with the largest user base.
-      t: Awarded to the technology with the largest user base.
+      t: ユーザーベースの一番多い技術に贈られます。
 
     - key: award.tool_usage_delta_award.title
       t: Most Adopted Technology
-      t: Most Adopted Technology
+      t: 最優秀採用技術賞
     - key: award.tool_usage_delta_award.description
       t: Awarded to the technology with the largest year-over-year “would use again” progression.
-      t: Awarded to the technology with the largest year-over-year “would use again” progression.
+      t: 「また使いたい」と答えた人がこの1年で一番増加した機能に贈られます。
 
     - key: award.tool_satisfaction_award.title
       t: Highest Satisfaction
-      t: Highest Satisfaction
+      t: 最優秀満足度賞
     - key: award.tool_satisfaction_award.description
       t: Awarded to the technology with the highest percentage of satisfied users.
-      t: Awarded to the technology with the highest percentage of satisfied users.
+      t: 満足と答えた度合いが一番大きい技術に贈られます。
 
     - key: award.tool_interest_award.title
       t: Highest Interest
-      t: Highest Interest
+      t: 最優秀関心度賞
     - key: award.tool_interest_award.description
       t: Awarded to the technology developers are most interested in learning.
-      t: Awarded to the technology developers are most interested in learning.
+      t: 開発者が学びたいと答えた度合いが一番大きい技術に贈られます。
 
     - key: award.resource_usage_award.title
       t: Most Used Resource
-      t: Most Used Resource
+      t: 最優秀リソース賞
     - key: award.resource_usage_award.description
       t: Awarded to the resource with the largest user base.
-      t: Awarded to the resource with the largest user base.
+      t: ユーザーベースの一番多いリソースに贈られます。
 
     - key: award.prediction_award.title
       t: Prediction Award
-      t: Prediction Award
+      t: 最優秀新人賞
     - key: award.prediction_award.description
       t: Awarded to an up-and-coming technology that might take over… or not?
-      t: Awarded to an up-and-coming technology that might take over… or not?
+      t: 将来有望で、次の世代を担うかもしれない技術に贈られます。
 
     - key: award.most_write_ins_award.title
       t: Most Write-Ins
-      t: Most Write-Ins
+      t: 最頻記入投票賞
     - key: award.most_write_ins_award.description
       t: Awarded to the item with the most write-in answers
-      t: Awarded to the item with the most write-in answers
+      t: 自由入力欄に書かれた回答が最も多かったものに贈られます。
