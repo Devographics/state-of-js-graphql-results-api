@@ -33,7 +33,7 @@ translations:
 
     - key: partners.learn_more
       t: Learn more.
-      t: Learn more.
+      t: 詳細をみる。
 
     ###########################################################################
     # Options
