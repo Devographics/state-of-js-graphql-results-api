@@ -1,0 +1,48 @@
+locale: ko-KR
+translations:
+    ###########################################################################
+    # Homepage
+    ###########################################################################
+
+    - key: homepage.hand_coded
+      t: 일본에서 직접 코딩함.
+    - key: homepage.leave_issue
+      t: 이슈 남기기
+    - key: homepage.get_in_touch
+      t: 연락하기
+
+    - key: homepage.made_by
+      t: 'State of CSS 제작자:'
+
+    - key: homepage.previous_years
+      t: '지난 연도:'
+
+    - key: homepage.intro
+      t: >
+          ## CSS 는 그 어느때보다 빠르게 진화하고 있습니다.
+
+          Flexbox, Grid, Multi-Column… 게다가, CSS-in-JS와 같은 완전히 새로운 패러다임은 말할 것도 없죠.
+
+          따라서 우리의 연례 [State Of JavaScript](https://stateofjs.com) 조사를 성공적으로 끝낸 후에, 우리는 최신 트렌드를 파악하고 점점 커지는 "엄청난 프론트엔드 격차" 사이에 다리를 놓기 위해 스타일과 셀렉터의 세계를 다루기로 결정했습니다!
+
+    - key: homepage.take_survey
+      t: 설문 조사 참여
+
+    - key: homepage.view_results
+      t: 2019 결과 보기
+
+    - key: share.help_spread
+      t: 입소문을 널리 퍼트려 주세요!
+
+    - key: newsletter.stay_tuned
+      t: 채널 고정
+    - key: newsletter.leave_your_email
+      t: 이메일을 남겨주시면 다음 설문 조사가 실시될 때 알려드리겠습니다.
+
+    - key: author.sacha.bio
+      t: >
+          자바스크립트 데이터 시각화 라이브러리 [Nivo](http://nivo.rocks/) 및 멋진 대시보드를 만드는 도구 [Mozaik](http://mozaik.rocks/) 의 제작자입니다.
+
+    - key: author.raphael.bio
+      t: >
+          일간 뉴스레터 [Sidebar](http://sidebar.io) 및 React+GraphQL 오픈소스 프레임워크 [VulcanJS](http://vulcanjs.org) 의 제작자입니다.
