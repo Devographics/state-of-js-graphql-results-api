@@ -73,3 +73,7 @@
 - id: pl-PL
   label: Polski
   translators: ['luk-str']
+
+- id: ko-KR
+  label: 한국어
+  translators: ['eterv']

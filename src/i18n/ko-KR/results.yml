@@ -1,0 +1,526 @@
+locale: ko-KR
+translations:
+    ###########################################################################
+    # General
+    ###########################################################################
+
+    - key: results.start
+      t: 시작하기
+
+    - key: page.previous
+      t: '이전:'
+    - key: page.next
+      t: '다음:'
+
+    - key: general.state_of_css_link
+      t: State of CSS
+
+    - key: general.netlify_link
+      t: <a href="{link}">Netlify</a>가 호스팅합니다.
+
+    - key: general.completion_percentage
+      t: '완료율:'
+
+    - key: partners.thanks
+      t: 우리를 지원해 준 파트너들께 감사 드립니다!
+
+    - key: partners.learn_more
+      t: 더 알아보기.
+
+    ###########################################################################
+    # Options
+    ###########################################################################
+
+    - key: options.experience_ranking.satisfaction
+      t: 만족도
+    - key: options.experience_ranking.interest
+      t: 관심도
+    - key: options.experience_ranking.usage
+      t: 사용량
+    - key: options.experience_ranking.awareness
+      t: 인지도
+
+    - key: options.features_simplified.know_it
+      t: 알고 있음
+    - key: options.features_simplified.used_it
+      t: 사용한 적 있음
+    - key: options.features_simplified.usage_ratio
+      t: 사용률
+
+    - key: options.quadrant.assess
+      t: 평가
+    - key: options.quadrant.assess.long
+      t: |
+        평가: 낮은 사용량, 높은 만족도. 지켜볼 만한 기술.
+    - key: options.quadrant.adopt
+      t: 적용
+    - key: options.quadrant.adopt.long
+      t: |
+        적용: 높은 사용량, 높은 만족도. 적용하기에 안전한 기술.
+    - key: options.quadrant.avoid
+      t: 기피
+    - key: options.quadrant.avoid.long
+      t: |
+        기피: 낮은 사용량, 낮은 만족도. 현재는 피하는게 좋은 기술.
+    - key: options.quadrant.analyze
+      t: 검토
+    - key: options.quadrant.analyze.long
+      t: |
+        검토: 높은 사용량, 낮은 만족도. 이러한 기술을 현재 사용 중이라면 재검토해 볼 것.
+
+    - key: ranges.selector.years_of_experience
+      t: 경험
+    - key: ranges.selector.yearly_salary
+      t: 급여
+    - key: ranges.selector.company_size
+      t: 직장 규모
+
+    ###########################################################################
+    # Sections
+    ###########################################################################
+
+    - key: sections.introduction.title
+      t: 소개
+
+    - key: sections.demographics.title
+      t: 인구 통계
+
+    - key: sections.tshirt.title
+      t: 티셔츠
+
+    - key: sections.technologies.title
+      t: 기술
+
+    - key: sections.conclusion.title
+      t: 결론
+
+    - key: sections.support.title
+      t: 지원
+    - key: sections.support.description
+      t: >
+        저희는 이 설문조사를 사이드 프로젝트로 운영하고 있습니다. 하지만 프로젝트가 지속 가능하도록 하기 위해 항상 재정적으로 지원하거나 또는 널리 알리는 데 도움을 줄 수 있는 파트너를 찾고 있습니다. 귀하가 어떤 식으로든 도움이 될 수 있다면 주저하지 말고 [연락](mailto:hello@stateofjs.com)해 주세요!
+
+    - key: sections.awards.title
+      t: 시상식
+    - key: sections.awards.description
+      t: 올해 눈에 띄는 것들입니다.
+
+    ###########################################################################
+    # User Info
+    ###########################################################################
+
+    - key: user_info.locale
+      t: 언어
+    - key: user_info.locale.description
+      t: 응답자들은 설문조사를 작성하기 위해 어떤 언어를 선택했습니까?
+
+    - key: user_info.source
+      t: 알게된 경로
+    - key: user_info.source.description
+      t: 응답자들은 이 설문 조사에 대해 어떻게 알게 되었습니까?
+
+    ###########################################################################
+    # Locales
+    ###########################################################################
+
+    - key: options.locale.en-US
+      t: English
+    - key: options.locale.ca-ES
+      t: Catalan
+    - key: options.locale.es-ES
+      t: Spanish
+    - key: options.locale.ru-RU
+      t: Russian
+    - key: options.locale.ua-UA
+      t: Ukrainian
+    - key: options.locale.fr-FR
+      t: French
+    - key: options.locale.zh-Hant
+      t: Chinese (Traditional)
+    - key: options.locale.de-DE
+      t: German
+    - key: options.locale.cs-CZ
+      t: Czech
+    - key: options.locale.pt-PT
+      t: Portuguese
+    - key: options.locale.it-IT
+      t: Italian
+    - key: options.locale.sv-SE
+      t: Swedish
+    - key: options.locale.tr-TR
+      t: Turkish
+    - key: options.locale.id-ID
+      t: Indonesian
+    - key: options.locale.hi-IN
+      t: Hindi
+    - key: options.locale.zh-Hans
+      t: Chinese (Simplified)
+    - key: options.locale.ja-JP
+      t: Japanese
+    - key: options.locale.ua-UA
+      t: Ukrainian
+    - key: options.locale.pl-PL
+      t: Polish
+    - key: options.locale.fa-IR
+      t: Farsi
+    - key: options.locale.ko-KR
+      t: Korean
+
+    ###########################################################################
+    # Features
+    ###########################################################################
+
+    - key: features.learn_more
+      t: 더 알아보기 (MDN)
+    - key: features.mdn_link
+      t: MDN
+    - key: features.caniuse_link
+      t: CanIUse
+    - key: features.specification_link
+      t: W3C Specification
+
+    # knowledge score
+    - key: features.knowledge_score
+      t: 지식 점수
+    - key: features.knowledge_score.description
+      t: 설문조사에 언급된 모든 기능 중에서 응답자가 알고 있는 기능은 몇 가지입니까?
+
+    ###########################################################################
+    # Tools & Methodologies
+    ###########################################################################
+
+    # general
+    - key: tools.links
+      t: 링크
+    - key: tools.github_link
+      t: GitHub
+    - key: tools.github_stars
+      t: 스타
+    - key: tools.homepage_link
+      t: 홈페이지
+    - key: tools.npm_link
+      t: NPM
+
+    ###########################################################################
+    # Blocks
+    ###########################################################################
+
+    # heatmaps
+    - key: blocks.tools_company_size_heatmap.title
+      t: 직장 규모별 사용량
+    - key: blocks.tools_company_size_heatmap.description
+      t: |
+        각 기술에 대해, 다양한 직장 규모 범위를 선택한 응답자 간에 사용량이 어떻게 분산되는지를 나타냅니다.
+
+    - key: blocks.tools_yearly_salary_heatmap.title
+      t: 급여 범위별 사용량
+    - key: blocks.tools_yearly_salary_heatmap.description
+      t: |
+        각 기술에 대해, 서로 다른 급여 범위를 선택한 응답자들 사이에 사용량이 어떻게 분산되는지를 나타냅니다.
+
+    - key: blocks.tools_years_of_experience_heatmap.title
+      t: 업무 연차별 사용량
+    - key: blocks.tools_years_of_experience_heatmap.description
+      t: |
+        각 기술에 대해, 서로 다른 경험 범위를 선택한 응답자들 간에 사용량이 어떻게 분산되는지 설명합니다.
+        여기서의 경험은 특정 기술에 대한 것이 아니라 일반적인 경험이라는 점에 유의하십시오.
+
+    # tool
+    - key: blocks.entity.homepage_link
+      t: 홈페이지
+    - key: blocks.entity.github_link
+      t: GitHub
+
+    # tools quadrant
+    - key: blocks.tools_quadrant.title
+      t: 만족도 vs 사용량
+    - key: blocks.tools_quadrant.satisfaction.description
+      t: |
+        이 차트는 각 기술의 전체 **사용자 수** 대비 **만족도 비율**을 보여줍니다.
+        차트를 사분면으로 나누면:
+
+          - **평가**: 낮은 사용량, 높은 만족도. 지켜볼 만한 기술.
+
+          - **적용**: 높은 사용량, 높은 만족도. 적용하기에 안전한 기술.
+
+          - **기피**: 낮은 사용량, 낮은 만족도. 현재는 피하는게 좋은 기술.
+
+          - **검토**: 높은 사용량, 낮은 만족도. 이러한 기술을 현재 사용 중이라면 재검토해 볼 것.
+
+    - key: blocks.tools_quadrant.interest.description
+      t: |
+        이 차트는 각 기술의 전체 **사용자 수** 대비 **관심도 비율**을 보여줍니다. (사용자란 기술에 대해 알고 있지만, 사용해 본 적은 없는 응답자로 정의됨)
+
+        (여기의 사용자 수가 낮은 이유는 해당 기술이 잘 알려지지 않은 것이거나 혹은 많은 응답자가 이미 사용하고 있는 기술이기 때문일 수 있습니다.)
+
+    # category other tools
+    - key: blocks.category_other_tools.title
+      t: 기타 도구
+    - key: blocks.category_other_tools.description
+      t: 이 카테고리의 기타 도구 (자유 입력).
+
+    # tool experience
+    - key: blocks.tool_experience.title
+      t: '{name} 사용 경험'
+    - key: blocks.tool_experience.description
+      t: 응답자의 {name} 사용 경험.
+
+    # tool positive/negative split ("marimekko" chart)
+    - key: blocks.tools_experience_marimekko.title
+      t: 긍정/부정 구분
+    - key: blocks.tools_experience_marimekko.description
+      t: |
+          이 차트는 중심축을 기점으로 긍정적인 경험 ("배우길 원함", "다시 사용할 예정") 과 부정적인 경험 ("관심 없음", "다시 사용 안함") 을 구분합니다.
+
+          막대의 두께는 기술을 알고 있는 응답자 수를 나타냅니다.
+
+    # tools section streams
+    - key: blocks.tools_section_streams.title
+      t: 시간에 따른 경험
+    - key: blocks.tools_section_streams.description
+      t: |
+        시간 경과에 따라 조사된 기술에 대한 의견의 개요입니다.
+    - key: blocks.tools_section_streams.note
+      t: |
+        최근 1년의 데이터만 있는 기술은 포함되지 않습니다.
+
+    # tools section overview
+    - key: blocks.tools_section_overview.title
+      t: 카테고리 개요
+    - key: blocks.tools_section_overview.description
+      t: |
+        조사된 기술에 대한 의견의 개요입니다. 어두운 부분은 긍정적인 의견을 나타내며, 밝은 부분은 부정적인 감정을 나타냅니다.
+
+    # tools experience ranking
+    - key: blocks.tools_experience_ranking.title
+      t: 순위
+    - key: blocks.tools_experience_ranking.description
+      t: 만족도, 관심도, 사용량 및 인지도 비율 순위.
+    - key: blocks.tools_experience_ranking.note
+      t: |
+        인지도가 10% 미만인 기술은 포함되지 않습니다. 각 비율은 다음과 같이 정의됩니다.
+        Technologies with less than 10% awareness not included. Each ratio is defined as follows:
+
+        - 만족도: **다시 사용할 예정** / (**다시 사용할 예정** + **다시 사용 안함**)
+        - 관심도: **배우길 원함** / (**배우길 원함** + **관심 없음**)
+        - 사용량: (**다시 사용할 예정** + **다시 사용 안함**) / **전부**
+        - 인지도: (**전부** - **들어본 적 없음**) / **전부**
+
+    # happiness
+    - key: blocks.happiness.title
+      t: 종합 행복도
+    - key: blocks.happiness.description
+      t: |
+        1(매우 불행함)에서 5(매우 행복함)까지의 척도로, 개발자들은 이 카테고리의 종합적인 현재 상태에 얼마나 행복한가요?
+
+    # newsletter
+    - key: blocks.newsletter.title
+      t: 채널 고정
+    - key: blocks.newsletter.description
+      t: |
+        설문 결과가 추가되거나 내년의 설문을 언제 발표하는지 알고 싶으시다면, 아래에 이메일을 남겨주세요:
+    - key: blocks.newsletter.email
+      t: 이메일
+    - key: blocks.newsletter.submit
+      t: 알림 받기
+
+    # features_overview
+    - key: blocks.features_overview.title
+      t: 사용량 개요
+    - key: blocks.features_overview.description
+      t: |
+        이 차트는 모든 기능에 대한 다양한 적용률을 카테고리별로 그룹화하여 보여줍니다.
+
+        <span class="text-teal-darker text-bold">바깥 원</span>의 크기는 해당 기능을 아는 모든 사람, <span class="text-teal text-bold">안쪽 원</span>은 실제로 기능을 사용한 사람의 수에 해당합니다.
+
+        각 노드를 마우스로 가리키면 전체 설문 조사 응답자 수를 나타내는 <span class="text-blackpink text-bold">오버레이</span>와 함께 자세한 데이터를 볼 수 있습니다.
+
+    # export
+    - key: export.export
+      t: 내보내기
+    - key: export.title
+      t: {title} 데이터 내보내기
+    - key: export.nocsv
+      t: 죄송합니다, CSV 내보내기는 이 데이터셋에서 사용할 수 없습니다.
+    - key: export.graphql
+      t: >
+          이 쿼리를 복사하여 저희의 <a target="_blank" rel="nofollow" href="http://graphiql.stateofjs.com/">공용 GraphQL API</a> 사이트에서 붙여넣으실 수 있습니다.
+
+    # Tools usage variations
+    - key: blocks.tools_usage_variations.title
+      t: 사용량 변화
+    - key: blocks.tools_usage_variations.description
+      t: |
+        급여 범위, 경력 또는 직장 규모와 같은 여러 요소가 사용에 미치는 영향입니다. ("다시 사용할 예정" 또는 "다시 사용 안함"으로 대답한 참가자)
+
+        기준선은 각 도구의 기본 사용량을 나타내며 오프셋은 각 범위에서 이 기준선의 델타에 해당합니다. 툴 X의 전체 사용량은 전체 응답자(기준)에서 10%라고 가정해 봅시다. 이 툴 사용 경험이 1~2년인 사용자의 비율이 13%인 경우(1~2년 경력을 가진 모든 사용자와 비교) +3%가 됩니다.
+    - key: blocks.tools_usage_variations.note
+      t: |
+        전반적인 사용률이 낮은 툴은 더욱 다양한 경향이 있음을 참고할 수 있습니다.
+
+    # Recommended Resources
+    - key: blocks.recommended_resources.title
+      t: 추천하는 리소스
+
+    ###########################################################################
+    # Charts
+    ###########################################################################
+
+    - key: chart_units.percentage
+      t: 백분율
+    - key: chart_units.count
+      t: 총계
+
+    - key: charts.axis_legends.years_of_experience
+      t: 경력
+    - key: charts.axis_legends.yearly_salary
+      t: 급여 범위 (미화 USD)
+    - key: charts.axis_legends.company_size
+      t: 직원 수
+    - key: charts.axis_legends.backend_proficiency
+      t: 백엔드 숙련도
+    - key: charts.axis_legends.css_proficiency
+      t: CSS 숙련도
+    - key: charts.axis_legends.javascript_proficiency
+      t: 자바스크립트 숙련도
+    - key: charts.axis_legends.users_percentage
+      t: 사용자 백분율
+    - key: charts.axis_legends.users_count
+      t: 사용자 수
+    - key: charts.axis_legends.interest_percentage
+      t: 관심도 백분율
+    - key: charts.axis_legends.satisfaction_percentage
+      t: 만족도 백분율
+    - key: charts.axis_legends.happiness
+      t: 행복도
+    - key: charts.axis_legends.knowledge_score
+      t: 알려진 기능
+    - key: charts.axis_legends.frequency
+      t: 빈도
+
+    - key: charts.ranges_multiple_diverging_lines.baseline
+      t: 기준선
+    - key: charts.ranges_multiple_diverging_lines.positive_offset
+      t: 긍정적 오프셋
+    - key: charts.ranges_multiple_diverging_lines.negative_offset
+      t: 부정적 오프셋
+
+    ###########################################################################
+    # Sharing
+    ###########################################################################
+
+    - key: share.share
+      t: 공유
+    - key: share.site.title
+      t: StateOf CSS 2020 결과의 발견
+    - key: share.site.twitter_text
+      t: 'State Of CSS 2020 결과의 발견 {link} #StateOfCSS'
+    - key: share.site.subject
+      t: State Of JavaScript 조사 결과
+    - key: share.site.body
+      t: '여기에 얼마의 흥미로운 CSS 조사 결과가 있습니다: {link}'
+    - key: share.block.twitter_text
+      t: '#StateOfCSS 2020: {title} {link}'
+    - key: share.block.subject
+      t: State Of CSS 조사 결과
+    - key: share.block.body
+      t: '여기에 얼마의 흥미로운 CSS 조사 결과가 있습니다. ({title}): {link}'
+    - key: share.twitter
+      t: 트위터에 공유
+    - key: share.facebook
+      t: 페이스북에 공유
+    - key: share.linkedin
+      t: 링크드인에 공유
+    - key: share.email
+      t: 이메일에 공유
+    - key: share.image
+      t: 이미지 보기
+
+    ###########################################################################
+    # Awards
+    ###########################################################################
+
+    - key: awards.runner_ups
+      t: 2, 3위
+
+    - key: award.feature_adoption_award.title
+      t: 최다 사용 기능
+    - key: award.feature_adoption_award.description
+      t: 가장 많이 사용된 기능에 수여됩니다.
+
+    - key: award.feature_adoption_delta_award.title
+      t: 최다 적용 기능
+    - key: award.feature_adoption_delta_award.description
+      t: 해가 지남에 따라 "사용한 적 있음"의 진행이 가장 큰 기능에 수여됩니다.
+
+    - key: award.tool_usage_award.title
+      t: 최다 사용 기술
+    - key: award.tool_usage_award.description
+      t: 가장 넓은 사용자층을 가진 기술에 수여됩니다.
+
+    - key: award.tool_usage_delta_award.title
+      t: 최다 적용 기술
+    - key: award.tool_usage_delta_award.description
+      t: 해가 지남에 따라 "다시 사용할 예정"의 진행이 가장 큰 기술에 수여됩니다.
+
+    - key: award.tool_satisfaction_award.title
+      t: 최고 만족도
+    - key: award.tool_satisfaction_award.description
+      t: 사용자 만족도가 가장 높은 기술에 수여됩니다.
+
+    - key: award.tool_interest_award.title
+      t: 최고 관심도
+    - key: award.tool_interest_award.description
+      t: 개발자들이 일단 알게 되면 학습에 가장 큰 관심을 갖게 된 기술에 수여됩니다.
+
+    - key: award.resource_usage_award.title
+      t: 최다 사용 리소스
+    - key: award.resource_usage_award.description
+      t: 가장 넓은 사용자층을 가진 리소스에 수여됩니다.
+
+    - key: award.prediction_award.title
+      t: 예측상
+    - key: award.prediction_award.description
+      t: 어쩌면 많은 것을 대체할지 모르는 떠오르는 기술에 수여됩니다.
+
+    - key: award.most_write_ins_award.title
+      t: 최다 투표 아이템
+    - key: award.most_write_ins_award.description
+      t: 후보에는 없지만 가장 많이 응답된 아이템에 수여됩니다.
+
+    ###########################################################################
+    # Hints
+    ###########################################################################
+
+    - key: hints.hint_hint
+      t: >
+          설문 조사 결과 전반에 걸쳐 이와 같은 힌트를 얻을 수 있는 추가적인 특징과 세부 사항을 지적할 수 있는 작은 힌트를 얻을 수 있습니다.
+
+    - key: hints.units_switcher_hint
+      t: >
+          각 블록의 오른쪽 상단에 있는 세그먼트화된 컨트롤을 사용하여 상대값인 백분율과 절대값인 총 숫자 사이를 전환하여 동일한 데이터를 다른 보기로 볼 수 있습니다.
+
+    - key: hints.export_hint
+      t: >
+          각 블록 상단에 있는 <span class="hint-export-button">내보내기</span> 버튼을 사용하면 모든 차트에 대한 원시 JSON 데이터나 우리의 공개 API로 실행할 수 있는 GraphQL 쿼리를 얻을 수 있습니다.
+
+    - key: hints.completion_hint
+      t: >
+          모든 질문은 선택적이라서, 그것 중 일부는 다른 질문들보다 더 적은 응답을 받았습니다.
+          완료표시기 (<span class="hint-completion-indicator">◕</span>) 주어진 질문에 대답한 사람의 수를 정확하게 알려줍니다.
+
+    - key: hints.tool_modal_hint
+      t: >
+          기술 이름을 클릭하면 자세한 정보를 확인하고 관련 데이터를 자세히 볼 수 있습니다.
+
+    - key: hints.rankings_modes_hint
+      t: >
+          순위 차트는 만족도, 관심도, 사용량 및 인지도 간에 전환하여 카테고리의 순위를 보다 상세히 파악할 수 있습니다.
+
+    - key: hints.sharing_hint
+      t: >
+          트위터, 페이스북 또는 이메일로 이 설문 조사를 공유하면 자바스크립트 성능이 최대 15% 향상된 것으로 과학적으로 입증되었습니다.
+
+    - key: hints.tshirt_hint
+      t: >
+          또 다른 확실한 과학적 발견: 우리의 티셔츠를 구입하면 당신의 자바스크립트 지식이 9000배 이상 증가할 것입니다!
