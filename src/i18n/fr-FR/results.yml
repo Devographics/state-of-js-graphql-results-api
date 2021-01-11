@@ -34,7 +34,7 @@ translations:
     - key: options.experience_ranking.satisfaction
       t: Satisfaction
     - key: options.experience_ranking.interest
-      t: Intêret
+      t: Intérêt
     - key: options.experience_ranking.usage
       t: Utilisation
     - key: options.experience_ranking.awareness
@@ -45,28 +45,28 @@ translations:
     - key: options.features_simplified.used_it
       t: Je l'ai utilisé
     - key: options.features_simplified.usage_ratio
-      t: Ratio d'utilisation
+      t: Taux d'utilisation
 
     - key: options.quadrant.assess
       t: JUGER
     - key: options.quadrant.assess.long
       t: |
-        JUGER: Low usage, high satisfaction. Technologies worth keeping an eye on.
+        JUGER: Utilisation basse, satisfaction haute. Technologies sur lesquelles il faut garder un oeil.
     - key: options.quadrant.adopt
       t: ADOPTER
     - key: options.quadrant.adopt.long
       t: |
-        ADOPTER: High usage, high satisfaction. Safe technologies to adopt.
+        ADOPTER: Utilisation haute, satisfaction haute. Technologies à adopter.
     - key: options.quadrant.avoid
       t: EVITER
     - key: options.quadrant.avoid.long
       t: |
-        EVITER: Low usage, low satisfaction. Technologies probably best avoided currently.
+        EVITER: Utilisation basse, satisfaction basse. Technologies qu'il vaudrait mieux éviter actuellement.
     - key: options.quadrant.analyze
       t: ANALYSER
     - key: options.quadrant.analyze.long
       t: |
-        ANALYSER: High usage, low satisfaction. Reassess these technologies if you're currently using them.
+        ANALYSER: Utilisation haute, satisfaction basse. Technologies à réévaluer si vous êtes en train de les utiliser.
 
     - key: ranges.selector.years_of_experience
       t: Expérience
@@ -83,7 +83,7 @@ translations:
       t: Introduction
 
     - key: sections.demographics.title
-      t: Démographies
+      t: Démographie
 
     - key: sections.tshirt.title
       t: T-shirt
@@ -456,7 +456,7 @@ translations:
     ###########################################################################
 
     - key: awards.runner_ups
-      t: Les seconds
+      t: Les Récompensés
 
     - key: award.feature_adoption_award.title
       t: Fonctionnalité la plus utilisée
@@ -499,7 +499,7 @@ translations:
       t: Accordée à la technologie la plus en vogue qui pourrait exploser… ou pas ?
 
     - key: award.most_write_ins_award.title
-      t: Le plus de rédactions
+      t: Le plus de commentaires
     - key: award.most_write_ins_award.description
       t: Accordée à l'item ayant reçu le plus de réponses écrites
 
