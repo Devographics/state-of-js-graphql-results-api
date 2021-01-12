@@ -250,9 +250,12 @@ translations:
       t: Changes Over Time
     - key: blocks.tools_arrows.description
       t: |
-          Each line goes from 2016 to 2020 (note that some lines skip years). A higher point means a technology has been used by more people,
+          Each line goes from 2016 to 2020. A higher point means a technology has been used by more people,
           and a point further to the right means more users want to learn it; or have used it and would use it again. 
-          Note that technologies with only one year of data are not shown. 
+    - key: blocks.tools_arrows.note
+      t: |
+          - Some lines skip years.
+          - Technologies with only one year of data are not shown. 
 
     # tools quadrant
     - key: blocks.tools_quadrant.title
