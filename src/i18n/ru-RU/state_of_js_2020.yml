@@ -106,7 +106,7 @@ translations:
 
     - key: sections.front_end_frameworks.description
       t: |
-          Как обычно, в лидерах — React и Vue, однако Svelte
+          Как обычно, в лидерах React и Vue, однако Svelte
           быстро становится весьма серьёзным претендентом на фронтенд-корону.
 
     - key: sections.datalayer.description
