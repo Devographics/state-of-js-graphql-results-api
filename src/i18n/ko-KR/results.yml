@@ -484,9 +484,9 @@ translations:
       t: 어쩌면 많은 것을 대체할지 모르는 떠오르는 기술에 수여됩니다.
 
     - key: award.most_write_ins_award.title
-      t: 최다 투표 아이템
+      t: 최다 투표 항목
     - key: award.most_write_ins_award.description
-      t: 후보에는 없지만 가장 많이 응답된 아이템에 수여됩니다.
+      t: 후보에는 없지만 가장 많이 응답된 항목에 수여됩니다.
 
     ###########################################################################
     # Hints

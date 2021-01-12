@@ -7,104 +7,102 @@ translations:
 
     - key: general.survey_intro_css2020
       t: >
-          CSS is evolving faster than ever.
+          CSS는 그 어느 때보다 빠르게 발전하고 있습니다.
 
 
-          Flexbox, Grid, Multi-Column… To say nothing of whole new paradigms like CSS-in-JS.
+          Flexbox, Grid, Multi-Column… CSS-in-JS와 같은 완전히 새로운 패러다임은 말할 것도 없죠.
 
 
-          So after the success of our annual State Of JavaScript survey,
-          we’ve decided to take on the world of styles and selectors. We're hoping you’ll help
-          us identify the latest trends, and figure out what tools to learn and use next!
+          그래서 연례 State Of JavaScript 설문 조사가 성공한 후 우리는 스타일과 셀렉터 분야를 다루기로 결정했습니다. 따라서 우리가 최신 트렌드를 확인하고 다음에 학습하고 사용할 도구를 잘 파악할 수 있도록 도움을 주시기를 바랍니다!
 
     - key: general.results.description
-      t: The annual survey about the latest trends in CSS.
+      t: CSS의 최신 트렌드에 대한 연례 조사입니다.
 
     ###########################################################################
     # Sections
     ###########################################################################
 
     - key: sections.layout.title
-      t: Layout
+      t: 레이아웃
     - key: sections.layout.description
-      t: How do you position elements on the screen?
+      t: 어떻게 화면에 요소를 배치하나요?
 
     - key: sections.shapes_graphics.title
-      t: Shapes & Graphics
+      t: 모양 & 그래픽
     - key: sections.shapes_graphics.description
-      t: Controlling the shape and display of elements.
+      t: 요소의 모양과 표시를 제어합니다.
 
     - key: sections.interactions.title
-      t: Interactions
+      t: 상호작용
     - key: sections.interactions.description
-      t: Controlling how the user interacts with the page.
+      t: 사용자가 페이지와 상호 작용하는 방식을 제어합니다.
 
     - key: sections.typography.title
-      t: Typography
+      t: 타이포그래피
     - key: sections.typography.description
-      t: Setting and laying out text.
+      t: 텍스트를 설정하고 배치합니다.
 
     - key: sections.animations_transforms.title
-      t: Animations & Transforms
+      t: 애니메이션 & 변형
     - key: sections.animations_transforms.description
-      t: Animating and transforming elements.
+      t: 요소에 애니메이션과 변형을 적용합니다.
 
     - key: sections.media_queries.title
-      t: Media Queries
+      t: 미디어 쿼리
     - key: sections.media_queries.description
-      t: Ways of adapting your site to the user's device or preferences.
+      t: 사용자의 장치 또는 선호도에 맞게 사이트를 적응시키는 방법입니다.
 
     - key: sections.other_features.title
-      t: Other Features
+      t: 기타 기능
     - key: sections.other_features.description
-      t: Other CSS features.
+      t: 기타 CSS 기능들입니다.
 
     - key: sections.units_selectors.title
-      t: Units & Selectors
+      t: 단위 & 선택자
     - key: sections.units_selectors.description
-      t: Test your knowledge of CSS units and selectors.
+      t: CSS 단위 및 선택자에 대한 지식을 테스트합니다.
 
     - key: sections.pre_post_processors.title
-      t: Pre-/Post-processors
+      t: 전/후처리기
     - key: sections.pre_post_processors.description
-      t: Utilities that augment CSS.
+      t: CSS를 보강하는 유틸리티입니다.
 
     - key: sections.pre_post_processors_others.title
-      t: Other Pre-/Post-processors
+      t: 기타 전/후처리기
 
     - key: sections.css_frameworks.title
-      t: CSS Frameworks
+      t: CSS 프레임워크
     - key: sections.css_frameworks.description
-      t: Libraries that give you pre-made components and styles.
+      t: 미리 만들어진 컴포넌트와 스타일을 제공하는 라이브러리.
 
     - key: sections.css_frameworks_others.title
-      t: Other CSS Frameworks
+      t: 기타 CSS 프레임워크
 
     - key: sections.css_methodologies.title
-      t: CSS Methodologies
+      t: CSS 방법론
     - key: sections.css_methodologies.description
-      t: Codified ways to write cleaner CSS.
+      t: 더 명확한 CSS를 작성하는 코드화된 방법.
 
     - key: sections.css_methodologies_others.title
-      t: Other CSS Methodologies.
+      t: 기타 CSS 방법론
 
     - key: sections.css_in_js.title
       t: CSS-in-JS
     - key: sections.css_in_js.description
-      t: Libraries that help integrate CSS into JavaScript code.
+      t: CSS를 자바스크립트 코드에 통합하는 데 도움이 되는 라이브러리입니다.
 
     - key: sections.css_in_js_others.title
-      t: Other CSS-in-JS Libraries.
+      t: 기타 CSS-in-JS 라이브러리
 
     - key: sections.tools_others.title
-      t: Other Tools
+      t: 기타 도구
     - key: sections.tools_others.description
-      t: Other CSS tools.
+      t: 기타 도구들 입니다.
 
     - key: sections.environments.title
-      t: Environments
+      t: 환경
     - key: sections.environments.description
-      t: Which environments do you write CSS for?
+      t: CSS를 어떤 환경에 쓰나요?
 
     ###########################################################################
     # Options
@@ -112,45 +110,45 @@ translations:
 
     # CSS for print
     - key: options.css_for_print.0
-      t: I (almost) never write print styles
+      t: 인쇄 스타일을 (거의) 전혀 작성하지 않음
     - key: options.css_for_print.0.short
-      t: Never
+      t: 전혀안함
 
     - key: options.css_for_print.1
-      t: I occasionally write print styles
+      t: 인쇄 스타일을 가끔 작성함
     - key: options.css_for_print.1.short
-      t: Occasionally
+      t: 가끔
 
     - key: options.css_for_print.2
-      t: I write print styles as part of most projects
+      t: 대부분의 프로젝트의 일부로 인쇄 스타일을 작성
     - key: options.css_for_print.2.short
-      t: Often
+      t: 종종
 
     - key: options.css_for_print.3
-      t: I focus mainly on CSS for print
+      t: 인쇄를 위한 CSS에 주로 초점을 맞춤
     - key: options.css_for_print.3.short
-      t: Mainly
+      t: 대부분
 
     # CSS for email
     - key: options.css_for_email.0
-      t: I (almost) never write CSS for email clients
+      t: 이메일 클라이언트를 위한 CSS 작성을 (거의) 전혀 안함
     - key: options.css_for_email.0.short
-      t: Never
+      t: 전혀안함
 
     - key: options.css_for_email.1
-      t: I occasionally write CSS for email clients
+      t: 이메일 클라이언트를 위한 CSS를 가끔 작성함
     - key: options.css_for_email.1.short
-      t: Occasionally
+      t: 가끔
 
     - key: options.css_for_email.2
-      t: I write CSS for email clients as part of most projects
+      t: 대부분의 프로젝트의 일부로 이메일 클라이언트를 위한 CSS를 작성
     - key: options.css_for_email.2.short
-      t: Often
+      t: 종종
 
     - key: options.css_for_email.3
-      t: I focus mainly on CSS for email clients
+      t: 이메일 클라이언트를 위한 CSS에 주로 초점을 맞춤
     - key: options.css_for_email.3.short
-      t: Mainly
+      t: 대부분
 
     ###########################################################################
     # Features
@@ -159,7 +157,7 @@ translations:
     # layout
 
     - key: features.grid
-      t: CSS Grid
+      t: CSS 그리드
     - key: features.subgrid
       t: Subgrid
     - key: features.regions
@@ -215,11 +213,11 @@ translations:
 
     # typography
     - key: features.web_fonts
-      t: Web fonts (@font-face)
+      t: 웹 폰트 (@font-face)
     - key: features.variables_fonts
-      t: Variable fonts
+      t: 가변 글꼴
     - key: features.line_breaking
-      t: Line breaking properties
+      t: 줄 바꿈 속성
     - key: features.line_breaking.description
       t: <code>overflow-wrap</code>, <code>word-break</code>, <code>line-break</code>, <code>hyphens</code>
     - key: features.font_variant
@@ -237,21 +235,21 @@ translations:
     - key: features.direction
       t: <code>direction</code>
     - key: features.direction.description
-      t: Also includes <code>dir</code> HTML attribute.
+      t: 또한 <code>dir</code> HTML 속성을 포함합니다.
 
     # animations & transforms
     - key: features.transitions
-      t: CSS Transitions
+      t: CSS 트랜지션
     - key: features.transforms
-      t: CSS Transforms
+      t: CSS 변형
     - key: features.animations
-      t: CSS Animations
+      t: CSS 애니메이션
     - key: features.perspective
       t: <code>perspective</code>
 
     # media queries
     - key: features.feature_support_queries
-      t: Feature Support Queries (<code>@supports</code>)
+      t: 기능 지원 쿼리 (<code>@supports</code>)
     - key: features.prefers_reduced_motion
       t: <code>prefers-reduced-motion</code>
     - key: features.prefers_color_scheme
@@ -261,7 +259,7 @@ translations:
 
     # other features
     - key: features.variables
-      t: CSS Variables (Custom Properties)
+      t: CSS 변수 (사용자 정의 속성)
     - key: features.containment
       t: CSS Containment
     - key: features.will_change
@@ -269,9 +267,9 @@ translations:
     - key: features.calc
       t: <code>calc()</code>
     - key: features.houdini
-      t: Houdini
+      t: 후디니 (Houdini)
     - key: features.comparison_functions
-      t: CSS Comparison Functions
+      t: CSS 비교 함수
     - key: features.comparison_functions.description
       t: <code>min()</code>, <code>max()</code>, and <code>clamp()</code>
 
@@ -280,9 +278,9 @@ translations:
     ###########################################################################
 
     - key: features_others.units
-      t: Units
+      t: 단위
     - key: features_others.units.description
-      t: Which of these CSS units have you used?
+      t: 어떤 CSS 단위를 사용해 왔나요?
 
     - key: options.units.px
       t: px
@@ -310,9 +308,9 @@ translations:
       t: in
 
     - key: features_others.pseudo_elements
-      t: Pseudo Elements
+      t: 의사 요소 (Pseudo Element)
     - key: features_others.pseudo_elements.description
-      t: Which of these CSS pseudo-elements have you used?
+      t: 어떤 CSS 의사 요소를 사용해 왔나요?
 
     - key: options.pseudo_elements.before
       t: '::before'
@@ -332,23 +330,23 @@ translations:
       t: '::backdrop'
 
     - key: features_others.combinators
-      t: Combinators
+      t: 연결자
     - key: features_others.combinators.description
-      t: Which of these combinations CSS selectors have you used?
+      t: 어떤 CSS 선택자 조합을 사용해 왔나요?
 
     - key: options.combinators.descendant
-      t: div span (descendant)
+      t: div span (자손)
     - key: options.combinators.child
-      t: div > span (child)
+      t: div > span (자녀)
     - key: options.combinators.next_sibling
-      t: div + div (next sibling)
+      t: div + div (다음 형제)
     - key: options.combinators.subsequent_sibling
-      t: div ~ div (subsequent sibling)
+      t: div ~ div (뒤이은 형제)
 
     - key: features_others.tree_document_structure
-      t: Tree / Document Structure
+      t: 트리 / 문서 구조
     - key: features_others.tree_document_structure.description
-      t: Which of these structure related CSS selectors have you used?
+      t: 구조와 관련된 어떤 CSS 선택자를 사용해 왔나요?
 
     - key: options.tree_document_structure.root
       t: :root
@@ -386,9 +384,9 @@ translations:
       t: :has()
 
     - key: features_others.attributes
-      t: Attributes
+      t: 속성
     - key: features_others.attributes.description
-      t: Which of these CSS attributes selectors have you used?
+      t: 어떤 CSS 속성 선택자를 사용해 왔나요?
 
     - key: options.attributes.presence
       t: div[foo] (Presence)
@@ -404,9 +402,9 @@ translations:
       t: div[foo*="bar"] (Contains substring)
 
     - key: features_others.links_urls
-      t: Links/URLs
+      t: 링크/주소
     - key: features_others.links_urls.description
-      t: Which of these links & URLs related CSS selectors have you used?
+      t: 링크 및 주소와 관련된 어떤 CSS 선택자를 사용해 왔나요?
 
     - key: options.links_urls.any_link
       t: :any-link
@@ -418,9 +416,9 @@ translations:
       t: :target
 
     - key: features_others.interaction
-      t: Interaction
+      t: 상호작용
     - key: features_others.interaction.description
-      t: Which of these interaction CSS selectors have you used?
+      t: 상호 작용과 관련된 어떤 CSS 선택자를 사용해 왔나요?
 
     - key: options.interaction.hover
       t: :hover
@@ -434,9 +432,9 @@ translations:
       t: :focus-visible
 
     - key: features_others.form_controls
-      t: Form Controls
+      t: 폼 컨트롤
     - key: features_others.form_controls.description
-      t: Which of these form related CSS selectors have you used?
+      t: 폼과 관련된 어떤 CSS 선택자를 사용해 왔나요?
 
     - key: options.form_controls.enabled_disabled
       t: :enabled and :disabled
@@ -464,80 +462,80 @@ translations:
     ###########################################################################
 
     - key: environments.browsers
-      t: Browsers
+      t: 브라우저
     - key: environments.browsers.description
-      t: Which browsers do you test in?
+      t: 어떤 브라우저에서 테스트하나요?
 
     - key: environments.form_factors
-      t: Form Factors
+      t: 폼 팩터
     - key: environments.form_factors.description
-      t: Which form factors do you test on?
+      t: 어떤 폼 팩터에서 테스트하나요?
 
     - key: environments.css_for_print
-      t: CSS for Print
+      t: 인쇄를 위한 CSS
     - key: environments.css_for_print.description
-      t: Do you write print styles?
+      t: 인쇄 스타일을 작성하나요?
 
     - key: environments.css_for_email
-      t: CSS for Email Clients
+      t: 이메일 클라이언트를 위한 CSS
     - key: environments.css_for_email.description
-      t: Do you write CSS for email clients?
+      t: 이메일 클라이언트를 위한 CSS를 작성하나요?
 
     - key: charts.axis_legends.css_for_print
-      t: Frequency
+      t: 빈도
     - key: charts.axis_legends.css_for_email
-      t: Frequency
+      t: 빈도
 
     ###########################################################################
     # Opinions
     ###########################################################################
 
     - key: opinions.css_easy_to_learn
-      t: CSS is easy to learn
+      t: CSS는 배우기 쉽다
     - key: opinions.css_easy_to_learn.title
-      t: Learning Curve
+      t: 학습 곡선
 
     - key: opinions.css_evolving_slowly
-      t: CSS is evolving too slowly
+      t: CSS는 너무 느리게 진화하고 있다
     - key: opinions.css_evolving_slowly.title
-      t: Rate of Change
+      t: 변화율
 
     - key: opinions.utility_classes_to_be_avoided
-      t: Utility (non-semantic) classes (.center, .large-text, etc.) should be avoided
+      t: 유틸리티(무의미한) 클래스(.center, .large-text 등)의 사용을 피해야 한다
     - key: opinions.utility_classes_to_be_avoided.title
-      t: Non-Semantic Classes
+      t: 무의미한 클래스들
 
     - key: opinions.selector_nesting_to_be_avoided
-      t: Selector nesting (.foo .bar ul li {...}) should be avoided
+      t: 선택자 중첩(.foo .bar ul li {...})을 피해야 한다
     - key: opinions.selector_nesting_to_be_avoided.title
-      t: Selector Nesting
+      t: 선택자 중첩
 
     - key: opinions.css_is_programming_language
-      t: CSS is a programming language
+      t: CSS는 프로그래밍 언어이다
     - key: opinions.css_is_programming_language.title
-      t: Programming Language
+      t: 프로그래밍 언어
 
     - key: opinions.enjoy_writing_css
-      t: I enjoy writing CSS
+      t: CSS 작성을 즐긴다
     - key: opinions.enjoy_writing_css.title
-      t: Enjoyment
+      t: 즐거움
 
     - key: opinions_others.currently_missing_from_css.others
-      t: What do you feel is currently missing from CSS?
+      t: 현재 CSS의 부족한 점이 무엇이라고 생각하나요?
     - key: opinions_others.currently_missing_from_css.others.description
-      t: Features you'd like to see in CSS one day.
+      t: 언젠가 CSS에서 보고 싶은 기능.
     - key: opinions_others.currently_missing_from_css.others.note
       t: >
-          These results were normalized based on the contents of a freeform field.
-          To view the raw, unprocessed responses check out [whatsmissingfromcss.com](http://whatsmissingfromcss.com/).
+          이러한 결과는 자유 양식 필드의 내용을 기준으로 일반화되었습니다.
+          처리되지 않은 원래의 응답을 보려면 [whatsmissingfromcss.com](http://whatsmissingfromcss.com/)을 확인하세요.
     
     - key: opinions.sum_up_one_word_css
-      t: CSS in one word
+      t: 한 단어로 된 CSS
     - key: opinions.sum_up_one_word_css.description
-      t: How would you sum up your opinion of CSS in one word?
+      t: CSS에 대한 당신의 의견을 한 마디로 요약한다면요?
 
     - key: happiness.state_of_the_web
-      t: How happy are you with the general state of web technologies?
+      t: 일반적인 웹 기술 상태에 대해 얼마나 만족하나요?
 
     - key: happiness.state_of_css
-      t: How happy are you with the general state of CSS?
+      t: CSS의 일반적인 상태에 대해 얼마나 만족하나요?

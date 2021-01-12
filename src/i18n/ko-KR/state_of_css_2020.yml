@@ -7,76 +7,76 @@ translations:
     - key: sections.introduction.description
       t: |
 
-            <span class="first-letter">F</span>orget everything you know about CSS. Or at least, be ready to reconsider a lot of it. If like me you've been writing CSS for over a decade, CSS in 2020 looks nothing like what you were used to.
+            <span class="first-letter">C</span>ss에 대해 알고 있는 모든 것을 잊어버리세요. 아니면 적어도, 많은 것을 재고할 준비가 되어 있어야 합니다. 저처럼 10년 이상 CSS를 써오셨다면, 2020년의 CSS는 여러분이 익숙했던 것과 전혀 달라 보입니다.
 
-            Instead of breakpoints, we can now leverage CSS Grid to make dynamic, responsive layouts that adapt to any viewport size with fewer lines of code. Instead of relying on global stylesheets, CSS-in-JS lets us colocate our styles with our components to build themeable design systems.
+            브레이크포인트 대신, CSS 그리드를 활용하여 더 적은 양의 코드로 모든 뷰포트 크기에 적응하는 동적 반응형 레이아웃을 만들 수 있습니다. 전역 스타일시트에 의존하는 대신, CSS-in-JS를 사용하면 스타일을 구성 요소와 함께 배치하여 테마 가능한 디자인 시스템을 만들 수 있습니다.
 
-            And most of all, Tailwind CSS has burst onto the scene and, through its use of utility-first CSS, forced us to reconsider the traditional dogma of semantic class names.
+            그리고 무엇보다도, Tailwind CSS가 등장했고, 이것의 유틸리티-우선 CSS 사용은 우리로 하여금 의미론적인 클래스 이름에 대한 전통적인 신조를 다시 생각해보게 하였습니다.
 
-            Whether all this change makes you want to write a hyped-up blog post or an angry Twitter rant, we are here to present the data, highlight the trends, and hopefully guide you through another eventful year of CSS!
+            이 모든 변화가 여러분이 과장된 블로그 글을 쓰도록 만들든, 화가 난 트위터를 쓰도록 만들든 관계없이, 우리는 CSS의 또 다른 파란만장한 한 해를 통해 데이터를 제시하고, 트렌드를 강조하며, 바라건데 여러분을 안내하기 위해 여기에 있습니다!
 
-            ### Team
+            ### 팀
 
-            The State of CSS Survey is created and maintained by:
+            State of CSS 설문 조사를 제작 및 유지하는 팀:
 
-            - [Sacha Greif](https://twitter.com/sachagreif): Design, writing, coding
-            - [Raphaël Benitte](https://twitter.com/benitteraphael): Data analysis, data visualizations
+            - [Sacha Greif](https://twitter.com/sachagreif): 디자인, 작성, 코딩
+            - [Raphaël Benitte](https://twitter.com/benitteraphael): 데이터 분석, 데이터 시각화
 
-            ### Download Our Data
+            ### 조사 데이터 다운로드
 
-            You can [download the raw JSON data for this survey](https://www.kaggle.com/sachag/state-of-css). Let us know if you end up making your own data visualizations!
+            이 조사에 대한 원시 JSON 데이터를 [다운로드](https://www.kaggle.com/sachag/state-of-css)할 수 있습니다. 만약 직접 데이터를 시각화하는 무언가를 만들게 된다면 우리에게 알려주세요!
 
-            ### Other Links
+            ### 기타 링크
 
-            - [State of CSS Homepage](https://stateofcss.com)
+            - [State of CSS 홈페이지](https://stateofcss.com)
             - [State of JS](https://stateofjs.com)
 
-            ### Thanks
+            ### 감사
 
-            Thanks to all the people who helped us design the survey, including [Chen Hui-Jing](http://chenhuijing.com/), [Philip Jägenstedt](https://blog.foolip.org/), [Adam Argyke](https://nerdy.dev/), [Ahmad Shadeed](https://www.ishadeed.com/), [Robert Flack](https://github.com/flackr), [Dominic Nguyen](https://www.chromatic.com/), [Fantasai](http://fantasai.inkedblade.net/), and [Kilian Valkhof](https://kilianvalkhof.com/).
+            [Chen Hui-Jing](http://chenhuijing.com/), [Philip Jägenstedt](https://blog.foolip.org/), [Adam Argyke](https://nerdy.dev/), [Ahmad Shadeed](https://www.ishadeed.com/), [Robert Flack](https://github.com/flackr), [Dominic Nguyen](https://www.chromatic.com/), [Fantasai](http://fantasai.inkedblade.net/), [Kilian Valkhof](https://kilianvalkhof.com/)를 포함하여 저희를 도와 설문을 디자인해주신 모든 분들께 감사드립니다.
 
-            Additional thanks to [Alexey Pyltsyn](https://github.com/lex111) for his help with translations.  
+            번역과 관련하여 [Alexey Pyltsyn](https://github.com/lex111) 님의 도움에 감사드립니다.
 
             ### Credits & Stuff
 
-            The site is set in IBM Plex Mono. Questions? Feedback? [Get in touch!](mailto:hello@stateofjs.com)
+            이 사이트는 IBM Plex Mono 폰트로 구성되어 있습니다. 질문이나 피드백이 있다면 [연락주세요!](mailto:hello@stateofjs.com)
 
-            And now, let's see what CSS has been up to this year!
+            이제, 올해 CSS가 어떤 성과를 거두었는지 알아보도록 하겠습니다!
 
-            <span class="conclusion__byline">– Sacha and Raphaël</span>
+            <span class="conclusion__byline">– Sacha 와 Raphaël</span>
 
     ###########################################################################
     # Tshirt
     ###########################################################################
 
     - key: sections.tshirt.title
-      t: T-shirt
+      t: 티셔츠
 
     - key: sections.tshirt.description
       t: |
-          ## Support the survey and look good in the process!
+          ## 설문 조사에 참여하고 그 과정에서 멋지게 보이세요!
 
-          A quick announcement before the survey results. Introducing our very own 🎈🎉👕 State of CSS T-shirt 👕🎉🎈!
+          설문 결과 전에 빠르게 알려드립니다. 우리만의 🎈🎉👕 State of CSS 티셔츠 👕🎉🎈 를 소개합니다!
 
-          What makes this shirt truly special is that it's the only piece of clothing that also teaches you practical, real-world CSS techniques.
+          이 셔츠를 정말 특별하게 만드는 것은 이 셔츠가 여러분에게 실용적인 실제 CSS 기술을 가르쳐주는 유일한 옷이라는 것입니다.
 
-          So whether you're going to a conference, a job interview, or just work, this shirt will demonstrate your CSS mastery like no other garment can!
+          따라서 회의에 가든지, 취업 면접에 가든지, 아니면 직장에 가든지, 이 셔츠는 다른 옷과는 달리 여러분이 CSS에 빠삭함을 보여줄 것입니다!
     
     - key: tshirt.about
-      t: About the T-shirt
+      t: 티셔츠에 관해
 
     - key: tshirt.description
       t: |
-          The shirt features the State of CSS logo along with snippets of the actual CSS code used to create each shape. Who knows, you might learn a thing or two!
+          셔츠는 각각의 모양을 만들기 위해 사용된 실제 CSS 코드의 조각과 함께 [State of CSS] 로고를 특징으로 합니다. 누가 알겠어요, 아마 당신은 한 두 가지를 배울지도 몰라요!
 
-          We use a high-quality, super-soft tri-blend shirt with a slim fit. 
-          This shirt sizes small, so if you prefer a looser fit we recommend ordering one size up from what you usually wear (I'm wearing an M in the photos).
+          저희는 고품질의 매우 부드러운 트라이 블렌드 셔츠를 슬림핏으로 제작합니다. 
+          이 셔츠는 사이즈가 작게 나와서, 만약 좀 헐렁한 핏을 원하신다면 평소에 입던 사이즈보다 한 사이즈 큰 것을 주문하는 것이 좋습니다. (참고로 사진에서 제가 입은 것은 M 사이즈 입니다.)
 
     - key: tshirt.getit
-      t: Get It
+      t: 주문하기
 
     - key: tshirt.price
-      t: USD $24 + shipping
+      t: USD $24 + 배송비 별도
 
     ###########################################################################
     # Sections Introductions
@@ -84,45 +84,35 @@ translations:
 
     - key: sections.user_info.description
       t: |
-          This year's survey reached **11,492** people in **102** countries. For the first time this year,
-          we were able to translate the survey questions in multiple languages thanks to an awesome team of volunteers.
+          올해의 설문 조사는 **102**개의 나라에서 **11,492**명이 응답해 주셨습니다. 올해 처음으로, 우리는 훌륭한 자원봉사자 팀 덕분에 설문을 여러 언어로 번역할 수 있었습니다.
 
     - key: sections.features.description
       t: |
-          CSS has seen a surge of new features in recent years, so as you'd expect adoption is
-          lagging a bit behind as the community takes its time to absorb new properties.
+          CSS는 최근 몇 년 동안 새로운 기능이 급증해 왔으며, 그로 인해 커뮤니티가 새로운 속성을 흡수하는 데 시간이 걸리기 때문에 다소 적용이 뒤처질 것으로 예상할 수 있습니다.
 
     - key: sections.units_selectors.description
       t: |
-          We're willing to bet you'll find a few things you didn't know about in this section!
+          이 섹션에서 여러분이 몰랐던 몇 가지 것들을 찾게 되실 거라고 저희는 장담합니다!
 
     - key: sections.technologies.description
       t: |
-          The CSS ecosystem is going through a renewal of sorts, as older mainstays like Bootstrap 
-          now have to accomodate newer entrants like Tailwind CSS. To say nothing of the whole CSS-in-JS
-          movement which, while it has yet to cross over to the CSS mainstream, is nonetheless quite dynamic. 
+          CSS 생태계는 Bootstrap과 같은 오래된 주류가 이제 Tailwind CSS와 같은 새로운 참가자를 받아들여야 하기 때문에, 일종의 새로운 경험을 하고 있습니다. 전체 CSS-in-JS 의 움직임이 CSS 주류로 받아들여진다고 아직 말할 수는 없지만, 그럼에도 불구하고 매우 역동적입니다.
 
     - key: sections.other_tools.description
       t: |
-          No big surprises here, but it's worth highlighting the appearance of development-focused browsers
-          like Polypane and Sizzy, which go a step further than traditional devtools.
+          여기에 큰 놀라움은 없지만, 기존 개발 도구보다 한 단계 더 발전한 Polypane 및 Sizzy와 같은 개발 중심 브라우저의 모습을 강조할 가치가 있습니다.
 
     - key: sections.environments.description
       t: |
-          One of CSS's core strengths is its ability to adapt to different environment, yet for a variety
-          of reasons media like print and email remain unexplored by a majority of CSS developers. Might they
-          turn out to be the next frontier of CSS…?
+          CSS의 핵심 강점 중 하나는 다양한 환경에 적응할 수 있는 능력이지만, 인쇄 및 이메일과 같은 미디어는 대다수의 CSS 개발자가 여전히 잘 모르는 영역입니다. 그들이 CSS의 다음 개척지가 될 수 있을까요…?
 
     - key: sections.resources.description
       t: |
-          The “other answers” results in this section highlight the richness and diversity of the CSS community,
-          and feature many outstanding blogs and podcasts which we are looking forward to officially adding
-          to the survey next year!
+          이 섹션의 "기타 답변" 결과는 CSS 커뮤니티의 풍부함과 다양성을 강조하며, 내년에 공식적으로 설문 조사에 추가하기를 기대하는 많은 뛰어난 블로그와 팟캐스트를 특징으로 합니다!
 
     - key: sections.opinions.description
       t: |
-          These opinions paint a picture of a language getting more mature, but also more complex. And perhaps
-          –at least while we struggle to keep up with the pace of change– a little less enjoyable?
+          이러한 의견들은 언어가 점점 성숙해지면서도 한편으론 더 복잡해지는 모습을 그리고 있습니다. 그리고 적어도 우리가 변화의 속도를 따라 잡기 위해 애쓰는 동안 아마 조금은 즐거움이 덜하겠죠?
 
           
     ###########################################################################
@@ -131,41 +121,41 @@ translations:
 
     - key: blocks.gender.note
       t: |
-          If you're interested in learning more, we [wrote a blog post](https://dev.to/sachagreif/is-our-survey-biased-against-women-49oj) that addresses the survey's gender dynamics.
+          더 자세한 내용을 알고 싶으시면, 조사의 성별 역학을 다룬 [블로그 포스트](https://dev.to/sachagreif/is-our-survey-biased-against-women-49oj)를 참조하십시오.
 
     - key: blocks.currently_missing_from_css.note
       t: |
-          You can explore the full dataset of answers to this question in [this side project](https://whatsmissingfromcss.com/).
+          [이 사이드 프로젝트](https://whatsmissingfromcss.com/)에서 이 질문에 대한 전체 데이터 집합을 살펴볼 수 있습니다.
 
     - key: blocks.source.note
       t: >
       
-        This chart aggregates a mix of referrers, URL parameters, and freeform answers. 
+        이 차트는 리퍼러, URL 매개변수 및 자유 형식 답변의 조합을 집계합니다.
 
-        - State of JS: the [State of JS](https://stateofjs.com) mailing list.
+        - State of JS: [State of JS](https://stateofjs.com) 메일링 목록.
 
-        - State of CSS: the State of CSS mailing list; also matches `email`, `by email`, etc.
+        - State of CSS: State of CSS 메일링 목록; 또한 `email`, `by email` 등과 일치한 것.
 
-        - Work: matches `work`, `colleagues`, `coworkers`, etc.
+        - 직업: `work`, `colleagues`, `coworkers` 등과 일치하는 것.
 
     ###########################################################################
     # Awards
     ###########################################################################
 
     - key: award.feature_adoption_delta_award.comment
-      t: With a **{value}** progression in 2020, this was the year CSS Grid crossed over from new technology to established tool.
+      t: 2020년에 **{value}** 의 발전을 이루면서, 올해는 CSS 그리드가 신기술에서 확립된 도구로 넘어가는 해였습니다.
 
     - key: award.tool_usage_delta_award.comment
-      t: No other tool comes even close to Tailwind CSS's dramatic **{value}** progression over the last year.
+      t: 작년의 Tailwind CSS의 극적인 **{value}** 상승에 근접한 도구는 없습니다.
 
     - key: award.tool_satisfaction_award.comment
-      t: PostCSS's **{value}** satisfaction ratio shows that you can't beat doing one thing really, really well.
+      t: PostCSS의 **{value}** 만족도 비율을 보면 한 가지 일은 정말, 정말 잘 해내고 있다는 것을 결코 부인할 수 없습니다.
 
     - key: award.tool_interest_award.comment
-      t: With a **{value}** ratio, CSS Modules have generated the most interest among CSS developers this year.
+      t: **{value}** 비율의 CSS Modules는 올해 CSS 개발자들 사이에서 가장 많은 관심을 끌었습니다.
 
     - key: award.most_write_ins_award.comment
-      t: Many questions also accepted write-in answers, and with **{value}** mentions PhpStorm was the most popular item overall.
+      t: 많은 질문들에서 직접 작성 응답이 가능하며, **{value}** 명이 언급한 PhpStorm이 전반적으로 가장 인기 있는 항목이었습니다.
 
       
     ###########################################################################
@@ -174,103 +164,98 @@ translations:
 
     - key: sections.conclusion.description
       t: |
-            If a JavaScript developer writes a line of CSS code, are they now a CSS developer?
+            만약 자바스크립트 개발자가 CSS 코드 한 줄을 쓴다면, 그들은 지금 CSS 개발자가 되는 것일까요?
             
-            This programming *kōan* illustrates a clear trend in the web development world: as more and more CSS developers are tasked with learning JavaScript, so are JavaScript developers starting to realize there might be more to this whole CSS thing than just `font-weight: bold;`. 
+            이 프로그래밍 *kōan*은 웹 개발 세계의 분명한 트렌드를 보여줍니다. 점점 더 많은 CSS 개발자들이 자바스크립트를 학습하고 있기 때문에 자바스크립트 개발자들은 단순히 'font-weight: bold;'이 아니라 이 모든 CSS에 더 많은 것이 있을 수 있다는 것을 깨닫기 시작했습니다. 
 
-            So asking about “the State of CSS” is inherently a tricky proposition: depending on who you ask you might get completely different answers! And how do you know which one's right?
+            따라서 "CSS의 상태"에 대해 묻는 것은 본질적으로 까다로운 문제입니다. 누구에게 묻느냐에 따라 완전히 다른 답을 얻을 수도 있습니다! 그리고 어떤 것이 옳은지 어떻게 알 수 있나요?
 
-            Here's another kōan for you: the right answer is that there *is* no right answer. Each of the many tools, methodologies, frameworks, and libraries featured here has its place in the vast front-end ecosystem. 
+            여기 또 다른 문제가 있습니다. 정답은 바로 정답이 *없다*는 것입니다. 여기에 포함된 여러 도구, 방법론, 프레임워크 및 라이브러리는 모두 방대한 프론트엔드 생태계 안에 있는 것입니다. 
 
-            Building a complex React app? Styled Components is a great option. Designing a static landing page? You can't go wrong with Sass! And even though Bootstrap has lost some of its original hype factor, you can't beat it when it comes to sheer number of themes and plugins.
+            복잡한 React 앱을 만드나요? 그렇다면 Styled Components 가 훌륭한 선택지일겁니다. 정적 랜딩 페이지를 디자인하고 있나요? Sass와 함께라면 문제없죠! 또한 Bootstrap이 본래의 과장된 요소를 일부 잃었음에도 불구하고, 테마와 플러그인의 수가 엄청나게 많기에 이를 무너뜨릴 수 없습니다.
 
-            So while we keep an eye on the shiny new toys popping up on GitHub every week, let's not forget the tools, techniques, and most of all people who have carried the CSS torch up to now. We'll need everybody if we're to keep CSS moving forward into 2021 and beyond!
+            물론 우리가 매주 GitHub에 나오는 반짝이는 새로운 장난감들을 주시하고 있기는 하지만, 그렇다 해도 도구, 기술, 그리고 지금까지 CSS를 해온 대부분의 사람들을 잊지는 말아야 겠죠. 2021년 그리고 그 너머까지 계속 CSS를 발전시키기 위해서, 여러분 모두가 필요합니다!
 
     ###########################################################################
     # Picks
     ###########################################################################
 
     - key: picks.my_2020_pick
-      t: 'My 2020 Pick: '
+      t: '2020 저의 선택: '
     - key: picks.intro
-      t: We asked members of the CSS community to share their “pick of the year”
+      t: 우리는 CSS 커뮤니티 회원들에게 "올해의 선택"을 공유해 줄 것을 요청했습니다.
 
     - key: picks.shadeed9.bio
-      t: Author of debuggingcss.com
+      t: debuggingcss.com 제작자
     - key: picks.shadeed9.description
       t: |
-            Container queries are a long-time awaited feature for us, 
-            and I’m thrilled that the Chrome team is working on support for it natively!
+            컨테이너 쿼리는 오랫동안 기다려온 기능이며, Chrome 팀이 기본적으로 이를 지원하기 위해 노력하고 있다는 사실이 기쁩니다!
 
 
     - key: picks.argyleink.bio
-      t: CSS at Google
+      t: 구글의 CSS
     - key: picks.argyleink.description
       t: |
-            The humble CSS box is more dynamic every year, and for me 2020 was about logical sides, instead of physical sides. Free internationally contextual content flow, spacing and shorthands? pls & ty 
+            초라한 CSS 상자는 매년 더 동적으로 바뀝니다, 특히 저에게 2020년은 물리적인 면보다는 논리적인 면에서 그렇습니다. 자유롭고 국제적인 문맥상의 흐름, 스페이싱 그리고 약칭들? pls & ty 
 
 
     - key: picks.sachagreif.bio
-      t: Creator of this survey
+      t: 이 설문 조사 제작자
     - key: picks.sachagreif.description
       t: |
-            With this blog post, Amelia Wattenberger didn't just go the extra mile, she ran a whole marathon! The animations and quiz will ensure you finally understand the CSS cascade. 
+            이 블로그 게시물로, Amelia Wattenberger는 단지 1마일을 더 나아간 것이 아니라, 마라톤을 완주했습니다! 애니메이션과 퀴즈는 당신이 마침내 CSS 캐스케이드를 이해하도록 보장할 것입니다.
     
     - key: picks.christianoliff.bio
-      t: Front-end developer for Trimble MAPS
+      t: Trimble MAPS 프론트엔드 개발자
     - key: picks.christianoliff.description
       t: |
-          One thing I've really started using and appreciating this year though is Purge CSS- an awesome tool for removing unused CSS. It can greatly reduce the size of your CSS, and its fast and easy to use.
+          하지만 올해 제가 정말 사용하기 시작하고 또 감사하게 여기는 것은 바로, 사용하지 않는 CSS를 제거하는 훌륭한 도구인 Purge CSS 입니다. 그것은 여러분의 CSS 크기를 크게 줄일 수 있으며 빠르고 사용하기 쉽습니다.
     
     - key: picks.kilianvalkhof.bio
-      t: Web developer and creator of Polypane
+      t: 웹 개발자 및 Polypane 제작자
     - key: picks.kilianvalkhof.description
       t: |
-          `content-visibility` is making a huge difference in the performance of my web apps already, but at the same time I think it should be the job of browsers to optimize this, not devs.
+          `콘텐츠 가시성`은 이미 내 웹 앱의 성능에 큰 변화를 주고 있지만 동시에 이를 최적화하는 것은 개발자가 아니라 브라우저가 해야 할 일이라고 생각합니다.
 
     - key: picks.walterstephanie.bio
-      t: User Centered Designer & CSS Lover
+      t: 사용자 중심 디자이너 & CSS 애호가
     - key: picks.walterstephanie.description
       t: |
-          A series of YouTube videos that explain all the new cool CSS features to build modern designs.
+          최신 디자인을 구축하기 위한 모든 멋진 CSS 기능을 설명하는 일련의 유튜브 비디오 입니다.
 
     - key: picks.piccalilli_.bio
-      t: Freelance designer & dev who runs piccalil.li
+      t: 프리랜서 디자이너 & piccalil.li 를 운영하는 개발자
     - key: picks.piccalilli_.description
       t: |
-          This blog is an absolute gold mine of CSS knowledge. Michelle is a CSS legend and every post or tutorial they write is heaped with useful content.
+          이 블로그는 CSS 지식의 절대 금광입니다. Michelle은 CSS의 전설이고 그들이 쓰는 모든 게시물이나 자습서는 유용한 내용으로 가득 차 있습니다.
 
     - key: picks.sarasoueidan.bio
-      t: Independent UI/design engineer
+      t: 독립 UI/디자인 엔지니어
     - key: picks.sarasoueidan.description
       t: |
-          My pick is a person, namely Rachel Andrew. She taught CSS Grid to a whole generation of developers.
+          저는 Rachel Andrew라는 사람을 골랐습니다. 그녀는 모든 세대의 개발자들에게 CSS 그리드를 가르쳤다.
 
     - key: picks.5t3ph.bio
-      t: Software Engineer @ Microsoft
+      t: 소프트웨어 엔지니어 @ 마이크로소프트
     - key: picks.5t3ph.description
       t: |
-          In this conference talk, Manuel Matuzovic provides thoughtfully 
-          crafted examples that are engaging, approachable, and actionable.
+          이 컨퍼런스 강연에서 Manuel Matuzovic은 매력적이고 접근하기 쉽고 행동하기 쉬운, 사려깊게 만들어진 예를 제공합니다.
 
     - key: picks.hugogiraudel.bio
-      t: Non-binary accessibility & diversity advocate
+      t: 논바이너리 접근성 & 다양성 옹호자
     - key: picks.hugogiraudel.description
       t: |
-          Fela is an amazing piece of software. 
-          It’s pretty powerful, relatively easy to use and very performant
+          펠라는 놀라운 소프트웨어입니다. 
+          매우 강력하고 비교적 사용하기 쉬우며 성능이 우수합니다.
 
     - key: picks.foolip.bio
-      t: Software Engineer @ Google
+      t: 소프트웨어 엔지니어 @ 구글
     - key: picks.foolip.description
       t: |
-          Sergio has recently fixed lots of Flexbox in WebKit and even some in Chromium, 
-          notably bringing flex gap to WebKit, 
-          which means that soon it will be available on all modern browsers. 
+          Sergio는 최근에 WebKit 및 Chromium에서 Flexbox를 많이 고쳤으며, 특히 WebKit에 유연한 차이를 가져왔죠. 곧 모든 최신 브라우저에서 그것을 사용할 수 있을 것입니다.
     
     - key: picks.jina.bio
-      t: Design systems advocate and practitioner
+      t: 디자인 시스템 옹호자 및 실무자
     - key: picks.jina.description
       t: |
-          The media query to reduce motion, which helps avoid 
-          triggering dizziness and discomfort.
+          작업을 줄이는 미디어 쿼리는 현기증과 불편함을 유발하지 않도록 도와줍니다.
