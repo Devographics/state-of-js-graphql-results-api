@@ -234,6 +234,17 @@ translations:
     - key: blocks.entity.github_link
       t: GitHub
 
+    # cardinality
+    - key: blocks.all_sections_tools_cardinality_by_user.title
+      t: Technology Usage Cardinality
+    - key: blocks.all_sections_tools_cardinality_by_user.description
+      t: For each section, which percentage of respondents use (defined as having answered “would use again”) one, two, three, etc. technologies.
+
+    - key: blocks.front_end_frameworks_tools_cardinality_by_user.title
+      t: Technology Usage Cardinality
+    - key: blocks.front_end_frameworks_tools_cardinality_by_user.description
+      t: Which percentage of respondents use (defined as having answered “would use again”) one, two, three, etc. items in this section.
+
     # tools quadrant
     - key: blocks.tools_quadrant.title
       t: Satisfaction vs Usage
@@ -249,6 +260,8 @@ translations:
           - **AVOID**: Low usage, low satisfaction. Technologies probably best avoided currently.
 
           - **ANALYZE**: High usage, low satisfaction. Reassess these technologies if you're currently using them.
+    - key: blocks.tools_quadrant.satisfaction.node
+      t: Note that TypeScript appears twice in the chart because it's included in both the JavaScript Flavors and Build Tools sections. 
 
     - key: blocks.tools_quadrant.interest.description
       t: |
