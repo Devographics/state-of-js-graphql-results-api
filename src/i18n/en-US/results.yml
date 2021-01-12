@@ -245,6 +245,15 @@ translations:
     - key: blocks.front_end_frameworks_tools_cardinality_by_user.description
       t: Which percentage of respondents use (defined as having answered “would use again”) one, two, three, etc. items in this section.
 
+    # tools arrows
+    - key: blocks.tools_arrows.title
+      t: Changes Over Time
+    - key: blocks.tools_arrows.description
+      t: |
+          Each line goes from 2016 to 2020 (note that some lines skip years). A higher point means a technology has been used by more people,
+          and a point further to the right means more users want to learn it; or have used it and would use it again. 
+          Note that technologies with only one year of data are not shown. 
+
     # tools quadrant
     - key: blocks.tools_quadrant.title
       t: Satisfaction vs Usage
@@ -434,6 +443,16 @@ translations:
       t: positive offset
     - key: charts.ranges_multiple_diverging_lines.negative_offset
       t: negative offset
+
+
+    - key: charts.tools_arrows.negative_opinion
+      t: Negative opinions
+    - key: charts.tools_arrows.positive_opinion
+      t: Positive opinions
+    - key: charts.tools_arrows.have_not_used
+      t: Have not used
+    - key: charts.tools_arrows.have_used
+      t: Have used
 
     ###########################################################################
     # Sharing
