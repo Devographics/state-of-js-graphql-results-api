@@ -1,31 +1,31 @@
-locale: en-US
+locale: fr-FR
 translations:
     ###########################################################################
     # General
     ###########################################################################
 
     - key: results.start
-      t: Start
+      t: Démarrer
 
     - key: page.previous
-      t: 'Previous:'
+      t: 'Précédent :'
     - key: page.next
-      t: 'Next:'
+      t: 'Suivant:'
 
     - key: general.state_of_css_link
       t: State of CSS
 
     - key: general.netlify_link
-      t: Hosted by <a href="{link}">Netlify</a>.
+      t: Hébergé par <a href="{link}">Netlify</a>.
 
     - key: general.completion_percentage
-      t: 'Completion percentage:'
+      t: 'Progression:'
 
     - key: partners.thanks
-      t: Thanks to our partners for supporting us!
+      t: Merci à nos partenaires de nous soutenir !
 
     - key: partners.learn_more
-      t: Learn more.
+      t: En savoir plus.
 
     ###########################################################################
     # Options
@@ -34,7 +34,7 @@ translations:
     - key: options.experience_ranking.satisfaction
       t: Satisfaction
     - key: options.experience_ranking.interest
-      t: Intêret
+      t: Intérêt
     - key: options.experience_ranking.usage
       t: Utilisation
     - key: options.experience_ranking.awareness
@@ -45,35 +45,35 @@ translations:
     - key: options.features_simplified.used_it
       t: Je l'ai utilisé
     - key: options.features_simplified.usage_ratio
-      t: Usage ratio
+      t: Taux d'utilisation
 
     - key: options.quadrant.assess
       t: JUGER
     - key: options.quadrant.assess.long
       t: |
-        JUGER: Low usage, high satisfaction. Technologies worth keeping an eye on.
+        JUGER: Utilisation basse, satisfaction haute. Technologies sur lesquelles il faut garder un oeil.
     - key: options.quadrant.adopt
       t: ADOPTER
     - key: options.quadrant.adopt.long
       t: |
-        ADOPTER: High usage, high satisfaction. Safe technologies to adopt.
+        ADOPTER: Utilisation haute, satisfaction haute. Technologies à adopter.
     - key: options.quadrant.avoid
       t: EVITER
     - key: options.quadrant.avoid.long
       t: |
-        EVITER: Low usage, low satisfaction. Technologies probably best avoided currently.
+        EVITER: Utilisation basse, satisfaction basse. Technologies qu'il vaudrait mieux éviter actuellement.
     - key: options.quadrant.analyze
       t: ANALYSER
     - key: options.quadrant.analyze.long
       t: |
-        ANALYSER: High usage, low satisfaction. Reassess these technologies if you're currently using them.
+        ANALYSER: Utilisation haute, satisfaction basse. Technologies à réévaluer si vous êtes en train de les utiliser.
 
     - key: ranges.selector.years_of_experience
-      t: Experience
+      t: Expérience
     - key: ranges.selector.yearly_salary
-      t: Salary
+      t: Salaire
     - key: ranges.selector.company_size
-      t: Company Size
+      t: Taille de l'entreprise
 
     ###########################################################################
     # Sections
@@ -83,7 +83,7 @@ translations:
       t: Introduction
 
     - key: sections.demographics.title
-      t: Demographics
+      t: Démographie
 
     - key: sections.tshirt.title
       t: T-shirt
@@ -95,32 +95,31 @@ translations:
       t: Conclusion
 
     - key: sections.support.title
-      t: Support Us
+      t: Nous Soutenir
     - key: sections.support.description
       t: >
-        We run this survey as a side project, but in order to make the
-        project sustainable we’re always looking for partners who can help support us,
-        either financially or by helping us spread the word.
-        If you think you could help in any way, please don’t hesitate to [get in touch](mailto:hello@stateofjs.com)!
+        Nous développons cette enquête en tant que projet autonome, afin que ce projet soit pérenne nous cherchons toujours des
+        partenaires pour nous soutenir, que ce soit financièrement ou partageant à la communauté.
+        Si vous pensez pouvoir nous aider qu'importe la manière, n'hésitez pas à [nous contacter](mailto:hello@stateofjs.com)!
 
     - key: sections.awards.title
-      t: Awards
+      t: Récompenses
     - key: sections.awards.description
-      t: Things that stood out this year.
+      t: Les choses qui sont sorties cette année.
 
     ###########################################################################
     # User Info
     ###########################################################################
 
     - key: user_info.locale
-      t: Language
+      t: Langues
     - key: user_info.locale.description
-      t: What language did respondents select to fill out the survey?
+      t: Quelle langue les répondants ont sélectionné pour compléter l'enquête ?
 
     - key: user_info.source
       t: Source
     - key: user_info.source.description
-      t: How did respondents find out about the survey?
+      t: Qu'ont pensé les répondants de l'enquête ?
 
     ###########################################################################
     # Locales
@@ -172,7 +171,7 @@ translations:
     ###########################################################################
 
     - key: features.learn_more
-      t: Learn More (MDN)
+      t: En savoir plus (MDN)
     - key: features.mdn_link
       t: MDN
     - key: features.caniuse_link
@@ -182,9 +181,9 @@ translations:
 
     # knowledge score
     - key: features.knowledge_score
-      t: Knowledge Score
+      t: Score de connaissance
     - key: features.knowledge_score.description
-      t: Out of all the features mentioned in the survey, how many did the respondent know about?
+      t: Parmi toutes les connaissances mentionnées dans l'enquête, combien sont connues des répondants ?
 
     ###########################################################################
     # Tools & Methodologies
@@ -192,13 +191,13 @@ translations:
 
     # general
     - key: tools.links
-      t: Links
+      t: Liens
     - key: tools.github_link
       t: GitHub
     - key: tools.github_stars
-      t: stars
+      t: étoiles
     - key: tools.homepage_link
-      t: Homepage
+      t: Page d'accueil
     - key: tools.npm_link
       t: NPM
 
@@ -208,219 +207,218 @@ translations:
 
     # heatmaps
     - key: blocks.tools_company_size_heatmap.title
-      t: Usage by Company Size
+      t: Utilisation par taille de l'entreprise
     - key: blocks.tools_company_size_heatmap.description
       t: |
-        For each technology, how usage is spread among respondents
-        who picked different company size ranges.
+        Pour chaque technologie, comment l'utilisation est-elle répartie parmi les répondants
+        qui ont choisi différente taille d'entreprise.
 
     - key: blocks.tools_yearly_salary_heatmap.title
-      t: Usage by Salary Range
+      t: Utilisation par Tranche de Salaire
     - key: blocks.tools_yearly_salary_heatmap.description
       t: |
-        For each technology, how usage is spread among respondents
-        who picked different salary ranges.
+        Pour chaque technologie, comment l'utilisation est-elle répartie parmi les répondants
+        qui ont choisi différentes tranches de salaire.
 
     - key: blocks.tools_years_of_experience_heatmap.title
-      t: Usage by Years Of Experience
+      t: Utilisation par Années d'Expérience
     - key: blocks.tools_years_of_experience_heatmap.description
       t: |
-        For each technology, how usage is spread among respondents who picked different experience ranges.
-        Note that the experience in question here is general experience, not experience with a specific technology.
+        Pour chaque technologie, comment l'utilisation est-elle répartie parmi les répondants qui ont choisi différentes tranches d'expérience.
+        Notez que les expériences en question ici sont l'expérience générale, pas l'expérience avec une technologie spécifique.
 
     # tool
     - key: blocks.entity.homepage_link
-      t: Homepage
+      t: Page d'accueil
     - key: blocks.entity.github_link
       t: GitHub
 
     # tools quadrant
     - key: blocks.tools_quadrant.title
-      t: Satisfaction vs Usage
+      t: Satisfaction vs Utilisation
     - key: blocks.tools_quadrant.satisfaction.description
       t: |
-        This chart shows each technology’s **satisfaction ratio** over its total **user count**.
-        It can be divided into four quadrants:
+        Ce graphique montre le **taux de satisfaction** de chaque technologie sur son **nombre d'utilisateur** total.
+        Cela peut être divisé en 4 quadrants:
 
-          - **ASSESS**: Low usage, high satisfaction. Technologies worth keeping an eye on.
+          - **EVALUE**: Utilisation basse, satisfaction haute. Technologies sur lesquelles il faut garder un oeil.
 
-          - **ADOPT**: High usage, high satisfaction. Safe technologies to adopt.
+          - **ADOPTE**: Utilisation haute, satisfaction haute. Technologies à adopter.
 
-          - **AVOID**: Low usage, low satisfaction. Technologies probably best avoided currently.
+          - **EVITE**: Utilisation basse, satisfaction basse. Technologies qu'il vaudrait mieux éviter actuellement.
 
-          - **ANALYZE**: High usage, low satisfaction. Reassess these technologies if you're currently using them.
+          - **ANALYSE**: Utilisation haute, satisfaction basse. Technologies à réévaluer si vous êtes en train de les utiliser.
 
     - key: blocks.tools_quadrant.interest.description
       t: |
-        This chart shows each technology’s **interest ratio** over its total **user count** (as defined by respondents who are aware of a technology but *haven't* used it yet).
+        Ce graphique montre le **taux d'intérêt** de chaque technologie sur le **nombre d'utilisateur** total (défini par les répondants qui connaissent une technologie mais *ne l'ont pas* encore utilisé).
 
-        (Note that low user numbers can be due to either an unknown technology; or a technology with a lot of respondents already using it.)
+        (Notez que les nombres d'utilisateurs faibles peuvent être dus soit à une technologie inconnue; soit une technologie avec beaucoup de répondants l'utilisant déjà.)
 
     # category other tools
     - key: blocks.category_other_tools.title
-      t: Other Tools
+      t: Autres outils
     - key: blocks.category_other_tools.description
-      t: Other tools in this category (freeform answers).
+      t: Autres outils dans cette catégorie (réponse libre).
 
     # tool experience
     - key: blocks.tool_experience.title
-      t: '{name} Experience'
+      t: 'Expérience pour {name}'
     - key: blocks.tool_experience.description
-      t: Respondent's experience with {name}.
+      t: Expérience des répondants avec {name}.
 
     # tool positive/negative split ("marimekko" chart)
     - key: blocks.tools_experience_marimekko.title
-      t: Positive/Negative Split
+      t: Répartition Positive/Négative
     - key: blocks.tools_experience_marimekko.description
       t: |
-          This chart splits positive (“want to learn”, ”would use again”) vs
-          negative (“not interested”, “would not use again”) experiences on
-          both sides of a central axis.
+          Ce graphique sépare les expériences positives (“Je voudrai l'apprendre”, ”Je l'utiliserai à nouveau”) vs
+          négatives (“Je ne suis pas intéressé”, “Je ne l'utiliserai plus”) de chaque côté de l'axe central.
 
-          Bar thickness represents the number of respondents aware of a technology.
+          L'épaisseur de la barre représente le nombre de répondants connaissant la technologie.
 
     # tools section streams
     - key: blocks.tools_section_streams.title
-      t: Experience Over Time
+      t: Expérience dans le Temps
     - key: blocks.tools_section_streams.description
       t: |
-        Overview of opinions on the technologies surveyed over time.
+        Aperçu des opinions sur les technologies de l'enquête dans le temps.
     - key: blocks.tools_section_streams.note
       t: |
-        Technologies with only one year of data are not included.
+        Technologies avec seulement un an de données ne sont pas incluses.
 
     # tools section overview
     - key: blocks.tools_section_overview.title
-      t: Category Overview
+      t: Aperçu des catégories
     - key: blocks.tools_section_overview.description
       t: |
-        Overview of opinions on the technologies surveyed. Darker segments represent positive opinions,
-        while lighter segments correspond to negative sentiment.
+        Aperçu des opinions sur les technologies de l'enquête. Les segments les plus sombres représentent des opinions positives,
+        alors que les segments les plus clairs correspondent au sentiment négatif.
 
     # tools experience ranking
     - key: blocks.tools_experience_ranking.title
-      t: Rankings
+      t: Classements
     - key: blocks.tools_experience_ranking.description
-      t: Satisfaction, interest, usage, and awareness ratio rankings.
+      t: Classements des ratio de satisfaction, intérêt, utilisation et connaissance.
     - key: blocks.tools_experience_ranking.note
       t: |
-        Technologies with less than 10% awareness not included. Each ratio is defined as follows:
+        Technologies ayant moins de 10% de connaissance non incluses. Chaque ratio est défini comme suit:
 
-        - Satisfaction: **would use again** / (**would use again** + **would not use again**)
-        - Interest: **want to learn** / (**want to learn** + **not interested**)
-        - Usage: (**would use again** + **would not use again**) / **total**
-        - Awareness: (**total** - **never heard**) / **total**
+        - Satisfaction: **Je l'utiliserai à nouveau** / (**Je l'utiliserai à nouveau** + **Je ne l'utiliserai plus**)
+        - Intérêt: **Je voudrai l'apprendre** / (**Je voudrai l'apprendre** + **Je ne suis pas intéressé**)
+        - Utilisation: (**Je l'utiliserai à nouveau** + **Je ne l'utiliserai plus**) / **total**
+        - Connaissance: (**total** - **Je n'en ai jamais entendu parler**) / **total**
 
     # happiness
     - key: blocks.happiness.title
-      t: Overall Happiness
+      t: Satisfaction Globale
     - key: blocks.happiness.description
       t: |
-        On a scale of one (very unhappy) to five (very happy), how happy are developers
-        with the current overall state of this category?
+        Sur une échelle de 1 (très insatisfait) à 5 (très satisfait), dans quelle mesure les développeurs sont-ils
+        satisfait avec l'état global de cette catégorie ?
 
     # newsletter
     - key: blocks.newsletter.title
-      t: Stay Tuned
+      t: Rester connecté.e
     - key: blocks.newsletter.description
       t: |
-        If you'd like to know when we release additional results or announce next year's edition,
-        just leave us your email below:
+        Si vous aimeriez savoir quand nous publions des résultats complémentaires ou nous annonçons l'édition de l'année suivante,
+        laissez-nous donc votre email :
     - key: blocks.newsletter.email
-      t: Your Email
+      t: Votre Email
     - key: blocks.newsletter.submit
-      t: Notify Me
+      t: Me notifier
 
     # features_overview
     - key: blocks.features_overview.title
-      t: Usage Overview
+      t: Aperçu des utilisations
     - key: blocks.features_overview.description
       t: |
-        This chart presents the various adoption rates for all features, grouped by category.
+        Ce graphique présente les différents taux d'adoption pour chaque fonctionnalité, groupé par catégorie.
 
-        The size of the <span class="text-teal-darker text-bold">outer circle</span>
-        corresponds to the total number of users who know about a feature, while
-        the <span class="text-teal text-bold">inner one</span> represents those who have actually used it.
+        La taille du <span class="text-teal-darker text-bold">cercle externe</span>
+        correspond au nombre total d'utilisateurs qui connaissent une fonctionnalité, alors que le
+        <span class="text-teal text-bold">celui interne</span> représente ceux qui l'utilisent actuellement.
 
-        Hover on each node to view detailed data along with an <span class="text-blackpink text-bold">overlay</span>
-        representing the total number of survey respondents.
+        Survolez chaque noeud pour voir la donnée détaillée avec une <span class="text-blackpink text-bold">superposition</span>
+        représentant le nombre total de répondants de l'enquête.
 
     # export
     - key: export.export
       t: Export
     - key: export.title
-      t: Export data for {title}
+      t: Exporter les données pour {title}
     - key: export.nocsv
-      t: Sorry, CSV export is not available for this dataset.
+      t: Désolé, l'export CSV n'est pas disponible pour ce jeu de données.
     - key: export.graphql
       t: >
-          You can copy paste this query into our <a target="_blank" rel="nofollow" href="http://graphiql.stateofjs.com/">public GraphQL API</a>.
+          Vous pouvez copier-coller cette requête dans notre <a target="_blank" rel="nofollow" href="http://graphiql.stateofjs.com/">API GraphQL publique</a>.
 
     # Tools usage variations
     - key: blocks.tools_usage_variations.title
-      t: Usage Variations
+      t: Variations d'utilisation
     - key: blocks.tools_usage_variations.description
       t: |
-        How different factors such as salary range, years of experience
-        or company size influence usage (participants who answered either
-        ”would use again” or “would not use again”).
+        Comment différents facteurs tels que la tranche de salaire, les années d'expérience
+        ou la taille de l'entreprise influencent l'utilisation (participants qui ont répondu soit
+        ”Je l'utiliserai à nouveau” ou “Je ne l'utiliserai plus”).
 
-        The baseline represents the base usage for each tool and the offsets
-        correspond to the delta from this baseline in each range. Let's say
-        tool X has an overall usage of 10% across all respondents (the baseline),
-        then if the percentage of users having from 1 to 2 years of experience
-        using this tool is 13% (compared to all users having from 1 to 2 years
-        of experience), then we have a positive delta of +3%.
+        La ligne de base est la base d'utilisation pour chaque outil et les écarts
+        correspondent aux deltas avec la ligne de base dans chaque tranche. Disons qu'un
+        outil X a une utilisation globale de 10% pour tous les répondants (la ligne de base),
+        ensuite si le pourcentage d'utilisateurs ayant d'1 à 2 année.s d'expérience
+        en utilisant cet outil est 13% (comparé à tous les utilisateurs ayant d'1 à 2 années
+        d'expérience), nous avons un delta positif de +3%.
     - key: blocks.tools_usage_variations.note
       t: |
-        Please keep in mind that tools having a lower overall usage tends to vary more.
+        Gardez en tête que les outils ayant une utilisation globale plus basse tendent à varier plus.
 
     # Recommended Resources
     - key: blocks.recommended_resources.title
-      t: Recommended Resources
+      t: Ressources Recommandées
 
     ###########################################################################
     # Charts
     ###########################################################################
 
     - key: chart_units.percentage
-      t: Percents
+      t: Pourcentages
     - key: chart_units.count
-      t: Count
+      t: Nombre
 
     - key: charts.axis_legends.years_of_experience
-      t: Years of Experience
+      t: Années d'Experience
     - key: charts.axis_legends.yearly_salary
-      t: Salary Range (USD)
+      t: Tranche de Salaire (USD)
     - key: charts.axis_legends.company_size
-      t: Number of Employees
+      t: Nombre d'Employés
     - key: charts.axis_legends.backend_proficiency
-      t: Back-end Proficiency
+      t: Compétences Back-end
     - key: charts.axis_legends.css_proficiency
-      t: CSS Proficiency
+      t: Compétences CSS
     - key: charts.axis_legends.javascript_proficiency
-      t: JavaScript Proficiency
+      t: Compétences JavaScript
     - key: charts.axis_legends.users_percentage
-      t: Percentage of Users
+      t: Pourcentage d'Utilisateurs
     - key: charts.axis_legends.users_count
       t: Nombre d'Utilisateurs
     - key: charts.axis_legends.interest_percentage
-      t: Interest Percentage
+      t: Pourcentage d'intérêt
     - key: charts.axis_legends.satisfaction_percentage
       t: Taux de Satisfaction
     - key: charts.axis_legends.happiness
       t: Satisfaction
     - key: charts.axis_legends.knowledge_score
-      t: Known Features
+      t: Fonctionnalités connues
     - key: charts.axis_legends.frequency
-      t: Frequency
+      t: Fréquence
 
     - key: charts.ranges_multiple_diverging_lines.baseline
-      t: baseline
+      t: Ligne de base
     - key: charts.ranges_multiple_diverging_lines.positive_offset
-      t: positive offset
+      t: Ecart positif
     - key: charts.ranges_multiple_diverging_lines.negative_offset
-      t: negative offset
+      t: Ecart négatif
 
     ###########################################################################
     # Sharing
@@ -429,81 +427,81 @@ translations:
     - key: share.share
       t: Partager
     - key: share.site.title
-      t: Discover the StateOf CSS 2020 results
+      t: Découvrir les résultats de StateOf CSS 2020
     - key: share.site.twitter_text
-      t: 'Discover the State Of CSS 2020 results {link} #StateOfCSS'
+      t: 'Découvrir les résultats de State Of CSS 2020 {link} #StateOfCSS'
     - key: share.site.subject
-      t: State Of JavaScript Survey Results
+      t: Résultats de l'enquête State Of JavaScript
     - key: share.site.body
-      t: 'Here are some interesting CSS survey results: {link}'
+      t: "Voici quelques résultats intéressants de l'enquête: {link}"
     - key: share.block.twitter_text
       t: '#StateOfCSS 2020: {title} {link}'
     - key: share.block.subject
-      t: State Of CSS Survey Results
+      t: Résultats de l'enquête State Of CSS
     - key: share.block.body
-      t: 'Here are some interesting CSS survey results ({title}): {link}'
+      t: "Voici quelques résultats intéressants de l'enquête ({title}): {link}"
     - key: share.twitter
-      t: Share on Twitter
+      t: Partager sur Twitter
     - key: share.facebook
-      t: Share on Facebook
+      t: Partager sur Facebook
     - key: share.linkedin
-      t: Share on LinkedIn
+      t: Partager sur LinkedIn
     - key: share.email
-      t: Share by email
+      t: Partager par email
     - key: share.image
-      t: Get image
+      t: Obtenir l'image
 
     ###########################################################################
     # Awards
     ###########################################################################
 
     - key: awards.runner_ups
-      t: Runner Ups
+      t: Les Récompensés
 
     - key: award.feature_adoption_award.title
-      t: Most Used Feature
+      t: Fonctionnalité la plus utilisée
     - key: award.feature_adoption_award.description
-      t: Awarded to the most adopted feature.
+      t: Accordée à la fonctionnalité la plus adoptée.
 
     - key: award.feature_adoption_delta_award.title
-      t: Most Adopted Feature
+      t: Fonctionnalité la plus adoptée
     - key: award.feature_adoption_delta_award.description
-      t: Awarded to the feature with the largest year-over-year ”have used” progression.
+      t: Accordée à la fonctionnalité ayant la mention ”Je l'ai utilisé” progressant le plus rapidement année après année.
 
     - key: award.tool_usage_award.title
-      t: Most Used Technology
+      t: Technologie la plus utilisée
     - key: award.tool_usage_award.description
-      t: Awarded to the technology with the largest user base.
+      t: Accordée à la technologie avec la base d'utilisateur la plus large.
 
     - key: award.tool_usage_delta_award.title
-      t: Most Adopted Technology
+      t: Technologie la plus adoptée
     - key: award.tool_usage_delta_award.description
-      t: Awarded to the technology with the largest year-over-year “would use again” progression.
+      t: Accordée à la technologie ayant la mention “Je l'utiliserai à nouveau” progressant le plus rapidement année après année.
 
     - key: award.tool_satisfaction_award.title
-      t: Highest Satisfaction
+      t: Satisfaction la plus haute
     - key: award.tool_satisfaction_award.description
-      t: Awarded to the technology with the highest percentage of satisfied users.
+      t: Accordée à la technologie avec le plus haut pourcentage d'utilisateurs satisfaits.
 
     - key: award.tool_interest_award.title
-      t: Highest Interest
+      t: Intérêt le plus élevé
     - key: award.tool_interest_award.description
-      t: Awarded to the technology developers are most interested in learning once they know about it.
+      t: Accordée à la technologie la plus intéressante selon les développeurs qui l'ont découverte.
 
     - key: award.resource_usage_award.title
-      t: Most Used Resource
+      t: Ressource la plus utilisé
     - key: award.resource_usage_award.description
-      t: Awarded to the resource with the largest user base.
+      t: Accordée à la ressource avec la base d'utilisateur la plus large.
 
     - key: award.prediction_award.title
-      t: Prediction Award
+      t: Prix de la prédiction
     - key: award.prediction_award.description
-      t: Awarded to an up-and-coming technology that might take over… or not?
+      t: Accordée à la technologie la plus en vogue qui pourrait exploser… ou pas ?
 
     - key: award.most_write_ins_award.title
-      t: Most Write-Ins
+      t: Le plus de commentaires
     - key: award.most_write_ins_award.description
-      t: Awarded to the item with the most write-in answers
+      t: Accordée à l'item ayant reçu le plus de réponses écrites
 
     ###########################################################################
     # Hints
@@ -511,42 +509,40 @@ translations:
 
     - key: hints.hint_hint
       t: >
-          You'll find little hints like this one throughout the survey results
-          that will point out extra features and details. 
+          Vous trouverez de petites astuces comme celle-ci à travers les résultats de notre enquête
+          qui cibleront des fonctionnalités et détails étendus. 
 
     - key: hints.units_switcher_hint
       t: >
-          You can use the segmented control at the top right of each block to switch 
-          between relative percentages and absolute counts to get a different view of the
-          same data.
+          Vous pouvez utiliser le composant segmenté en haut à droite de chaque bloc pour alterner 
+          entre pourcentages relatifs et comptages absolus pour obtenir un point de vue différent
+          de la même donnée.
 
     - key: hints.export_hint
       t: >
-          The <span class="hint-export-button">Export</span> button at the top of each block
-          lets you get the raw JSON data for any chart, or a GraphQL
-          query you can run against our public API. 
+          Le bouton <span class="hint-export-button">Export</span> en haut de chaque bloc
+          vous permet d'obtenir les données brutes au format JSON pour n'importe quel graphique, ou une requête GraphQL
+          que vous pouvez exécuter sur notre API publique. 
 
     - key: hints.completion_hint
       t: >
-          Since all questions are optional, some of them got fewer responses than others. 
-          The completion indicator (<span class="hint-completion-indicator">◕</span>) tells you exactly how many people answered any given question.
+          Etant donné que toutes les questions sont optionnelles, certaines ont obtenues moins de réponses que les autres. 
+          L'indicateur de progression (<span class="hint-completion-indicator">◕</span>) affiche le nombre de personne ayant répondu à une question donnée.
 
     - key: hints.tool_modal_hint
       t: >
-          You can click on any technology name to get extra details and 
-          a more in-depth look at its related data. 
+          En cliquant sur le nom d'une technologie, vous obtiendrez des informations détaillées.
 
     - key: hints.rankings_modes_hint
       t: >
-          The Rankings chart can be toggled between satisfaction, interest, usage, and awareness
-          to give you a fuller picture of a category's rankings. 
+          Les graphiques de classement peuvent être filtrés par satisfaction, intérêt, utilisation, et connaissance
+          pour donner une aperçu plus complète d'un classement par catégorie. 
 
     - key: hints.sharing_hint
       t: >
-          Sharing this survey on Twitter, Facebook, or by email is scientifically proven to 
-          improve your JavaScript performance by up to 15%. 
+          C'est scientifiquement prouvé: Partager cette enquête sur Twitter, Facebook, ou par email 
+          améliore votre performance en JavaScript jusqu'à 15%. 
 
     - key: hints.tshirt_hint
       t: >
-          Another guaranteed scientific finding: buying our t-shirt will 
-          increase your JavaScript knowledge by over 9000!
+          Autre découverte scientifique: Acheter un t-shirt State Of CSS améliorera votre JavaScript de 9000 points !
