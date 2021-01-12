@@ -424,19 +424,19 @@ translations:
     - key: share.share
       t: Camparteix-ho
     - key: share.site.title
-      t: Descobreix els resultats de l'Estat de CSS 2020
+      t: Descobreix els resultats de {siteTitle}
     - key: share.site.twitter_text
-      t: "Descobreix els resultats de l'Estat de CSS 2020 {link} #StateOfCSS"
+      t: "Descobreix els resultats de {siteTitle} {link} {hashtag}"
     - key: share.site.subject
-      t: Resultats de l'enquesta de l'Estat de JavaScript
+      t: Resultats de l'enquesta de {siteTitle}
     - key: share.site.body
-      t: "Aquí hi ha alguns resultats interessants de l'enquesta de CSS: {link}"
+      t: "Aquí hi ha alguns resultats interessants de una enquesta: {link}"
     - key: share.block.twitter_text
-      t: '#StateOfCSS 2020: {title} {link}'
+      t: '{hashtag} {year}: {title} {link}'
     - key: share.block.subject
-      t: Resultats de l'enquesta de l'Estat de CSS
+      t: Resultats de l'enquesta de {siteTitle}
     - key: share.block.body
-      t: "Aquí hi ha alguns resultats interessants de l'enquesta de CSS ({title}): {link}"
+      t: "Aquí hi ha alguns resultats interessants de una enquesta ({title}): {link}"
     - key: share.twitter
       t: Comparteix-ho a  Twitter
     - key: share.facebook

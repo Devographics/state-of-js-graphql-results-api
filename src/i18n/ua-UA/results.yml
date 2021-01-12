@@ -400,19 +400,19 @@ translations:
     - key: share.share
       t: Поділитись
     - key: share.site.title
-      t: Дізнайтеся результати опитування State Of CSS 2020
+      t: Дізнайтеся результати опитування {siteTitle}
     - key: share.site.twitter_text
-      t: 'Дізнайтеся результати опитування CSS 2020 {link} #StateOfCSS'
+      t: 'Дізнайтеся результати опитування {siteTitle} {link} {hashtag}'
     - key: share.site.subject
-      t: Результати опитування State Of JavaScript
+      t: Результати опитування {siteTitle}
     - key: share.site.body
-      t: 'Лише деякі цікаві результати опитування по CSS: $ {link}'
+      t: 'Лише деякі цікаві результати опитування: $ {link}'
     - key: share.block.twitter_text
-      t: '#StateOfCSS 2020: {title} {link}'
+      t: '{hashtag} {year}: {title} {link}'
     - key: share.block.subject
-      t: Результати опитування State Of CSS
+      t: Результати опитування {siteTitle}
     - key: share.block.body
-      t: 'Лише деякі цікаві результати опитування по CSS ({title}): {link}'
+      t: 'Лише деякі цікаві результати опитування ({title}): {link}'
     - key: share.twitter
       t: Поділитись в Twitter
     - key: share.facebook

@@ -345,19 +345,19 @@ translations:
     - key: share.share
       t: Paylaş
     - key: share.site.title
-      t: State Of CSS 2020 sonuçlarını keşfedin
+      t: '{siteTitle} sonuçlarını keşfedin'
     - key: share.site.twitter_text
-      t: 'State Of CSS 2020 sonuçlarını keşfedin {link} #StateOfCSS'
+      t: '{siteTitle} sonuçlarını keşfedin {link} {hashtag}'
     - key: share.site.subject
-      t: State Of JavaScript Anket Sonuçları
+      t: '{siteTitle} Anket Sonuçları'
     - key: share.site.body
-      t: 'İşte bazı ilginç CSS anket sonuçları: {link}'
+      t: 'İşte bazı ilginç anket sonuçları: {link}'
     - key: share.block.twitter_text
-      t: '#StateOfCSS 2020: {title} {link}'
+      t: '{hashtag} {year}: {title} {link}'
     - key: share.block.subject
-      t: State Of CSS Anket Sonuçları
+      t: '{siteTitle} Anket Sonuçları'
     - key: share.block.body
-      t: 'İşte bazı ilginç CSS anket sonuçları ({title}): {link}'
+      t: 'İşte bazı ilginç anket sonuçları ({title}): {link}'
     - key: share.twitter
       t: Twitter'da paylaş
     - key: share.facebook

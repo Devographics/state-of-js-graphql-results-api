@@ -409,19 +409,19 @@ translations:
     - key: share.share
       t: 分享
     - key: share.site.title
-      t: 探索 CSS 現況調查 2020 結果
+      t: 探索 {siteTitle} 現況調查結果
     - key: share.site.twitter_text
-      t: '探索 CSS 現況調查 2020 結果 {link} #StateOfCSS'
+      t: '探索 {siteTitle} 現況調查 結果 {link} {hashtag}'
     - key: share.site.subject
-      t: JavaScript 現況調查結果
+      t: '{siteTitle} 現況調查結果'
     - key: share.site.body
-      t: 'CSS 現況調查的有趣結果看這裡：{link}'
+      t: '{siteTitle} 現況調查的有趣結果看這裡：{link}'
     - key: share.block.twitter_text
-      t: '#StateOfCSS 2020: {title} {link}'
+      t: '{hashtag} {year}: {title} {link}'
     - key: share.block.subject
-      t: CSS 現況調查結果
+      t: '{siteTitle} 現況調查結果'
     - key: share.block.body
-      t: 'CSS 現況調查的有趣結果看這裡 ({title}): {link}'
+      t: '{siteTitle} 現況調查的有趣結果看這裡 ({title}): {link}'
     - key: share.twitter
       t: 分享至 Twitter
     - key: share.facebook

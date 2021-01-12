@@ -405,19 +405,19 @@ translations:
     - key: share.share
       t: Udostępnij
     - key: share.site.title
-      t: Poznaj wyniki StateOf CSS 2020
+      t: Poznaj wyniki {siteTitle}
     - key: share.site.twitter_text
-      t: 'Poznaj Wyniki State Of CSS 2020 {link} #StateOfCSS'
+      t: 'Poznaj Wyniki {siteTitle} {link} {hashtag}'
     - key: share.site.subject
-      t: Wyniki Sondażu State Of JavaScript
+      t: Wyniki Sondażu {siteTitle}
     - key: share.site.body
-      t: 'Interesujące wyniki sondażu o CSS: {link}'
+      t: 'Interesujące wyniki sondażu: {link}'
     - key: share.block.twitter_text
-      t: '#StateOfCSS 2020: {title} {link}'
+      t: '{hashtag} {year}: {title} {link}'
     - key: share.block.subject
-      t: Wyniki Sondażu State Of CSS
+      t: Wyniki Sondażu {siteTitle}
     - key: share.block.body
-      t: 'Interesujące wyniki sondażu o CSS ({title}): {link}'
+      t: 'Interesujące wyniki sondażu ({title}): {link}'
     - key: share.twitter
       t: Udostępnij na Twitterze
     - key: share.facebook
