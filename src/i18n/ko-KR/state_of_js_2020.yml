@@ -45,7 +45,7 @@ translations:
 
             이제, 올해 자바스크립트가 어떤 성과를 거두었는지 알아보도록 하겠습니다!
 
-            <span class="conclusion__byline">– Sacha and Raphaël</span>
+            <span class="conclusion__byline">– Sacha 와 Raphaël</span>
 
     ###########################################################################
     # Tshirt
@@ -145,7 +145,7 @@ translations:
 
         - State of JS: [State of JS](https://stateofjs.com) 메일링 목록; 또한 `email`, `by email` 등과 일치한 것.
 
-        - State of CSS: [State of CSS](https://stateofcss.com/) 메일링 목록
+        - State of CSS: [State of CSS](https://stateofcss.com/) 메일링 목록.
 
         - 직업: `work`, `colleagues`, `coworkers` 등과 일치하는 것.
 
@@ -166,7 +166,7 @@ translations:
       t: GraphQL은 개발자들의 관심도 비율이 **{value}**이며, 그들이 시간을 낼 수 있는 즉시 더 자세히 알고자 하는 그런 기술입니다.
 
     - key: award.most_write_ins_award.comment
-      t: 사람들은 항상 텍스트 편집기에 열광하며, **{value}*** 와 함께 IntelliJ IDEA가 가장 많은 답변을 얻어 상을 수상합니다.
+      t: 사람들은 항상 텍스트 편집기에 열광하며, **{value}*** 명이 언급한 IntelliJ IDEA가 가장 많은 답변을 얻은 상을 수상합니다.
 
     ###########################################################################
     # Conclusion
@@ -187,7 +187,7 @@ translations:
     ###########################################################################
 
     - key: picks.my_2020_pick
-      t: '내 2020 선택: '
+      t: '2020 저의 선택: '
     - key: picks.intro
       t: 우리는 자바스크립트 커뮤니티 회원들에게 "올해의 선택"을 공유해 줄 것을 요청했습니다.
 
@@ -202,7 +202,7 @@ translations:
       t: 무한한 빌더
     - key: picks.swyx.description
       t: |
-            Svelte는 프론트엔드 프레임워크의 우주 엘리베이터입니다.
+            Svelte는 프론트엔드 프레임워크의 우주 엘리베이터 수준입니다.
             이것은 매우 신속하게 앱을 만들게 도와줍니다.
 
     - key: picks.kentcdodds.bio
