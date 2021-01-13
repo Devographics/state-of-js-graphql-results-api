@@ -235,12 +235,25 @@ translations:
     - key: blocks.all_sections_tools_cardinality_by_user.title
       t: Кардинальность использования технологии
     - key: blocks.all_sections_tools_cardinality_by_user.description
-      t: Сколько процентов опрошенных используют определённое количество технологий по каждому разделу.
+      t: Сколько процентов опрошенных используют определённое количество технологий в каждом разделе.
 
     - key: blocks.front_end_frameworks_tools_cardinality_by_user.title
       t: Кардинальность использования технологии
     - key: blocks.front_end_frameworks_tools_cardinality_by_user.description
-      t: Какой процент опрошенных используют определённое количество элементов в этом разделе (учитываются ответы за вариант «Буду использовать снова»).
+      t: Сколько процентов опрошенных используют определённое количество технологий  в каждом разделе (учитываются ответы за вариант «Буду использовать снова»).
+
+    # tools arrows
+    - key: blocks.tools_arrows.title
+      t: Изменения во времени
+    - key: blocks.tools_arrows.description
+      t: |
+          Каждая линия проходит с 2016 по 2020 год. Чем выше точка, тем больше людей использовало технологию.
+          Чем правее точка, тем больше людей хотят изучить её или уже использовали и будут снова пользоваться ей.
+
+    - key: blocks.tools_arrows.note
+      t: |
+          - В некоторых линий пропущены года.
+          - Не показываются технологии с данными только за один год.
 
     # tools quadrant
     - key: blocks.tools_quadrant.title
@@ -425,6 +438,15 @@ translations:
       t: позитивное отклонение
     - key: charts.ranges_multiple_diverging_lines.negative_offset
       t: отрицательное отклонение
+
+    - key: charts.tools_arrows.negative_opinion
+      t: Негативное отношение
+    - key: charts.tools_arrows.positive_opinion
+      t: Положительное отношение
+    - key: charts.tools_arrows.have_not_used
+      t: Не использовал
+    - key: charts.tools_arrows.have_used
+      t: Использовал
 
     ###########################################################################
     # Sharing
