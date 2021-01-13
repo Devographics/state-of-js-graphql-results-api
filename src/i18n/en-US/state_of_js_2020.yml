@@ -24,10 +24,10 @@ translations:
 
             So let's enjoy what we have here: a great ecosystem that just keeps getting even better!
 
-            ### Team
+            ### Join Our Launch Livestream!
 
-            The State of JavaScript Survey is created and maintained by [Sacha Greif](https://twitter.com/sachagreif) and [Raphaël Benitte](https://twitter.com/benitteraphael).
-
+            We'll be doing a [special launch livestream](https://stateofjs.com/2020stream/) in collaboration with the folks at the CodeItLive Twitch channel. Join us along with guests such as Sarah Drasner, Josh W. Comeau, and Trent C. Dodds to discuss this past year's JavaScript trends!
+            
             ### Download Our Data
 
             You can [download the raw JSON data for this survey](https://www.kaggle.com/sachag/state-of-js). Let us know if you end up making your own data visualizations!
@@ -38,11 +38,15 @@ translations:
 
             ### Thanks
 
-            Thanks to [Alexey Pyltsyn](https://github.com/lex111) for his help with translations.  
+            Many thanks to [Alexey Pyltsyn](https://github.com/lex111) for his help with translations.  
 
+            Thanks as well to [Amelia Wattenberger](https://wattenberger.com/) for helping us update her original “Changes Over Time” chart from last year. If you want to learn how to build your own amazing data visualizations there's no better way than her [D3 video course](https://www.newline.co/fullstack-d3).
+            
             ### Credits & Stuff
 
-            The site is set in IBM Plex Mono. Questions? Feedback? [Get in touch!](mailto:hello@stateofjs.com)
+            The State of JavaScript Survey is created and maintained by [Sacha Greif](https://twitter.com/sachagreif) and [Raphaël Benitte](https://twitter.com/benitteraphael).
+
+            Watch [this video overview](https://www.youtube.com/watch?v=o4w1qEnZxbM) to learn more about the technical aspects of the project, from data collection to data visualizations. Questions? Feedback? [Get in touch](mailto:hello@stateofjs.com) or [join our Discord](https://discord.gg/zRDb35jfrt).
 
             And now, let's see what JavaScript has been up to this year!
 
