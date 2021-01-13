@@ -1,0 +1,8 @@
+locale: es-ES
+translations:
+    ###########################################################################
+    # General
+    ###########################################################################
+
+    - key: general.no_preview_surveys
+      t: No hay encuestas que visualizar
