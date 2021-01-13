@@ -6,7 +6,7 @@ translations:
     ###########################################################################
 
     - key: general.results.description
-      t: The annual survey about the latest trends in the JavaScript ecosystem.
+      t: 关于JavaScript生态系统最新趋势的年度调查。
 
     ###########################################################################
     # Introduction
@@ -15,40 +15,39 @@ translations:
     - key: sections.introduction.description
       t: |
 
-            <span class="first-letter">A</span>s crappy as 2020 was, JavaScript as a whole still managed to somehow move forward. As the language itself keeps improving
-            thanks to new features like Optional Chaining and Nullish Coalescing, TypeScript's widespread adoption is taking things to a whole other level by popularizing static typing. 
+            <span class="first-letter">尽</span>管2020年很糟糕，但 JavaScript 整体上仍然在设法向前发展。得益于像可选链(Optional Chaining)和空值合并运算符(Nullish Coalescing)这样的新特性，语言本身在不断改进，而 TypeScript 的广泛使用将静态类型化普及到了一个新的高度。 
 
-            And on the framework side, just when we thought things were settling down, Svelte comes in and shakes everything up with a fresh take on the front-end. And even build tools are showing signs of new activity after years of webpack dominance. 
+            在框架方面，就在我们以为一切都已经稳定下来的时候，Svelte 的出现以一种全新的方式撼动了前端的一切。甚至连构建工具在经历了多年的 webpack 统治之后，也出现了新的活动迹象。 
 
-            But the difference this time is that the “old” guard –relatively speaking– is not going anywhere. Svelte and Snowpack are great, but so are React and webpack. And sure, they too will eventually fall prey to the Great JavaScript Churn, but not for many, many years. 
+            但这次不同的是，"老牌"后卫-相对而言-不会消失。Svelte 和 Snowpack 很优秀，但 React 和 webpack 也同样如此。当然，它们最终也会成为JavaScript变革的牺牲品，但至少很多很多年内不会。 
 
-            So let's enjoy what we have here: a great ecosystem that just keeps getting even better!
+            所以，让我们享受我们所拥有的:一个不断变得更好的伟大的生态系统! 
 
-            ### Join Our Launch Livestream!
+            ### 加入我们的发布直播！
 
-            We'll be doing a [special launch livestream](https://stateofjs.com/2020stream/) in collaboration with the folks at the CodeItLive Twitch channel. Join us along with guests such as Sarah Drasner, Josh W. Comeau, and Trent C. Dodds to discuss this past year's JavaScript trends!
+            我们将与 CodeItLive Twitch 频道的人合作，做一个[特别发布直播]（https://stateofjs.com/2020stream/）。加入我们，与Sarah Drasner 、 Josh W. Comeau 和 Trent C. Dodds 等嘉宾一起讨论过去一年的 JavaScript 趋势。
             
-            ### Download Our Data
+            ### 下载我们的数据
 
-            You can [download the raw JSON data for this survey](https://www.kaggle.com/sachag/state-of-js). Let us know if you end up making your own data visualizations!
+            你可以[下载本调查的原始 JSON 数据](https://www.kaggle.com/sachag/state-of-js). 如果你最终做出了自己的数据可视化，请告诉我们!
 
             ### State of CSS
 
-            If you haven't seen it already, we strongly recommend checking out the [State of CSS 2020 Trend Report](https://2020.stateofcss.com/en-US/report/) to get up to date on the past year's three main CSS trends. 
+            如果你还没看过，我们强烈建议你去看看 [State of CSS 2020 趋势报告](https://2020.stateofcss.com/en-US/report/)，了解一下过去一年CSS的三大趋势。 
 
-            ### Thanks
+            ### 鸣谢
 
-            Many thanks to [Alexey Pyltsyn](https://github.com/lex111) for his help with translations.  
+            非常感谢 [Alexey Pyltsyn](https://github.com/lex111) 对翻译的帮助。 
 
-            Thanks as well to [Amelia Wattenberger](https://wattenberger.com/) for helping us update her original “Changes Over Time” chart from last year. If you want to learn how to build your own amazing data visualizations there's no better way than her [D3 video course](https://www.newline.co/fullstack-d3).
+            还要感谢 [Amelia Wattenberger](https://wattenberger.com/) 帮助我们更新了她去年原创的"随时间变化"图表。如果你想学习如何建立自己的数据可视化，没有比她的 [D3视频课程](https://www.newline.co/fullstack-d3) 更好的方法了。
             
             ### Credits & Stuff
 
-            The State of JavaScript Survey is created and maintained by [Sacha Greif](https://twitter.com/sachagreif) and [Raphaël Benitte](https://twitter.com/benitteraphael).
+            State of JavaScript 调查由 [Sacha Greif](https://twitter.com/sachagreif) 和 [Raphaël Benitte](https://twitter.com/benitteraphael) 创建并维护。
 
-            Watch [this video overview](https://www.youtube.com/watch?v=o4w1qEnZxbM) to learn more about the technical aspects of the project, from data collection to data visualizations. Questions? Feedback? [Get in touch](mailto:hello@stateofjs.com) or [join our Discord](https://discord.gg/zRDb35jfrt).
+            观看 [这个视频](https://www.youtube.com/watch?v=o4w1qEnZxbM) 以了解更多关于本项目的技术, 从数据收集到数据可视化。 有问题？ 有反馈？ [联系我们](mailto:hello@stateofjs.com) 或 [加入我们的 Discord](https://discord.gg/zRDb35jfrt)。
 
-            And now, let's see what JavaScript has been up to this year!
+            现在，让我们来看看 JavaScript 在今年怎么样了！ 
 
             <span class="conclusion__byline">– Sacha and Raphaël</span>
 
@@ -57,34 +56,30 @@ translations:
     ###########################################################################
 
     - key: sections.tshirt.title
-      t: T-shirt
+      t: T恤衫
 
     - key: sections.tshirt.description
       t: |
-          ## Support the survey and look good in the process!
+          ## 支持调查，并在此过程中保持良好的形象!
 
-          We've updated last year's very popular 👕 State of JavaScript T-shirt 👕 for 
-          the 2020 JavaScript landscape!
+          我们已经为2020年的 JavaScript 更新了去年非常流行的 👕 State of JavaScript T恤衫 👕
 
-          The shirt features a ”periodic table of JavaScript” that lists the most popular 
-          libraries grouped by category, along with their GitHub stars counts (in thousands).
+          这件衬衫的特点是，以"JavaScript 周期表"的形式，按类别列出了最流行的库，以及它们在 GitHub 上的 star 数（以千为单位）。
 
-          This shirt is a great way to familiarize yourself with the JavaScript ecosystem, 
-          and maybe even strike up a conversation with other like-minded 
-          JavaScript developers!
+          这件衬衫是让你熟悉 JavaScript 生态系统的好方法，甚至可以令你和其他志同道合的 JavaScript 开发者邂逅。
     
     - key: tshirt.about
-      t: About the T-shirt
+      t: 关于 T恤衫
 
     - key: tshirt.description
       t: |
-          Printing and shipping is handled by [Cotton Bureau](https://cottonbureau.com/people/state-of-js). The design is printed on a premium Next Level black super-soft, tri-blend shirt. 
+          印刷和运输由 [Cotton Bureau](https://cottonbureau.com/people/state-of-js) 负责. 整体设计被印刷在优质的黑色柔软的三层混纺衬衫上。 
 
     - key: tshirt.getit
-      t: Get It
+      t: 购买
 
     - key: tshirt.price
-      t: USD ${price} + shipping
+      t: ${price} 美元 + 邮费
 
     ###########################################################################
     # Sections Introductions
@@ -290,13 +285,13 @@ translations:
             Rust to build speedy tools for JS.
 
     - key: picks.markdalgleish.bio
-      t: Co-creator of CSS Modules, creator of Playroom
+      t: CSS 模块的联合创始人，Playroom 的创始人
     - key: picks.markdalgleish.description
       t: |
             Automates npm publishing with the ability to tie Markdown release notes to every change. Changesets has really leveled up the quality of our release notes and version management this year.
 
     - key: picks.sachagreif.bio
-      t: Creator of the State of JS survey
+      t: State of JS 调查的创始人
     - key: picks.sachagreif.description
       t: |
             Best Of JS tracks GitHub stats about virtually every major JavaScript project, and it has been an invaluable resource for helping us decide what to include in the survey!
