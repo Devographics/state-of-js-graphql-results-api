@@ -272,7 +272,7 @@ translations:
 
           - **ОЦЕНИВАЮТ**: Высокая степень использования, низкая степень удовлетворённости. Технологии, от которых, возможно, стоит отказаться.
 
-    - key: blocks.tools_quadrant.satisfaction.node
+    - key: blocks.tools_quadrant.satisfaction.note
       t: Стоит отметить, что TypeScript отображается на графике дважды, потому что он рассматривается как в разделе «Разновидности JavaScript», так и в разделе «Сборщики».
 
     - key: blocks.tools_quadrant.interest.description
