@@ -152,7 +152,7 @@ translations:
       t: PostCSS의 **{value}** 만족도 비율을 보면 한 가지 일은 정말, 정말 잘 해내고 있다는 것을 결코 부인할 수 없습니다.
 
     - key: award.tool_interest_award.comment
-      t: **{value}** 비율의 CSS Modules는 올해 CSS 개발자들 사이에서 가장 많은 관심을 끌었습니다.
+      t: '**{value}** 비율의 CSS Modules는 올해 CSS 개발자들 사이에서 가장 많은 관심을 끌었습니다.'
 
     - key: award.most_write_ins_award.comment
       t: 많은 질문들에서 직접 작성 응답이 가능하며, **{value}** 명이 언급한 PhpStorm이 전반적으로 가장 인기 있는 항목이었습니다.

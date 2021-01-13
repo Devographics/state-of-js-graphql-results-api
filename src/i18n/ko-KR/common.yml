@@ -166,7 +166,7 @@ translations:
     - key: sections.opinions.title
       t: 의견
     - key: sections.opinions.description
-      t: {topic}에 대해 어떻게 생각하십니까?
+      t: '{topic}에 대해 어떻게 생각하십니까?'
 
     - key: sections.other_tools.title
       t: 기타 도구

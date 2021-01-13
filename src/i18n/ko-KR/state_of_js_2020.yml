@@ -160,7 +160,7 @@ translations:
       t: 타입스크립트는 이미 인기를 끌었으며, 사용량이 **{value}** 증가함에 따라 앞으로 더 많은 유비쿼터스 환경을 구축할 수 있을 것으로 보입니다.
 
     - key: award.tool_satisfaction_award.comment
-      t: **{value}**의 높은 만족도를 자랑하는 Testing Library는 2020년에 가장 사랑받는 툴입니다.
+      t: '**{value}**의 높은 만족도를 자랑하는 Testing Library는 2020년에 가장 사랑받는 툴입니다.'
 
     - key: award.tool_interest_award.comment
       t: GraphQL은 개발자들의 관심도 비율이 **{value}**이며, 그들이 시간을 낼 수 있는 즉시 더 자세히 알고자 하는 그런 기술입니다.

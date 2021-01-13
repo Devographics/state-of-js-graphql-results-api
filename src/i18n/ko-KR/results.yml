@@ -339,7 +339,7 @@ translations:
     - key: export.export
       t: 내보내기
     - key: export.title
-      t: {title} 데이터 내보내기
+      t: '{title} 데이터 내보내기'
     - key: export.nocsv
       t: 죄송합니다, CSV 내보내기는 이 데이터셋에서 사용할 수 없습니다.
     - key: export.graphql
