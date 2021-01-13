@@ -1,16 +1,16 @@
-locale: en-US
+locale: ja-JP
 translations:
     ###########################################################################
     # General
     ###########################################################################
 
     - key: results.start
-      t: Start
+      t: はじめる
 
     - key: page.previous
-      t: 'Previous:'
+      t: '前：'
     - key: page.next
-      t: 'Next:'
+      t: '次：'
 
     - key: general.state_of_css_link
       t: State of CSS
@@ -19,103 +19,100 @@ translations:
       t: Hosted by <a href="{link}">Netlify</a>.
 
     - key: general.completion_percentage
-      t: 'Completion percentage:'
+      t: '回答記入率：'
 
     - key: partners.thanks
-      t: Thanks to our partners for supporting us!
+      t: パートナーのサポートに感謝しています！
 
     - key: partners.learn_more
-      t: Learn more.
+      t: 詳細をみる。
 
     ###########################################################################
     # Options
     ###########################################################################
 
     - key: options.experience_ranking.satisfaction
-      t: Satisfaction
+      t: 満足度
     - key: options.experience_ranking.interest
-      t: Interest
+      t: 興味
     - key: options.experience_ranking.usage
-      t: Usage
+      t: 利用度
     - key: options.experience_ranking.awareness
-      t: Awareness
+      t: 認知度
 
     - key: options.features_simplified.know_it
-      t: Know about it
+      t: 知っている
     - key: options.features_simplified.used_it
-      t: Have used it
+      t: 使ったことがある
     - key: options.features_simplified.usage_ratio
-      t: Usage ratio
+      t: 利用率
 
     - key: options.quadrant.assess
       t: ASSESS
     - key: options.quadrant.assess.long
       t: |
-        ASSESS: Low usage, high satisfaction. Technologies worth keeping an eye on.
+        ASSESS: 利用率は低いが、満足度が高い。チェックしておくとよさそうな技術。
     - key: options.quadrant.adopt
       t: ADOPT
     - key: options.quadrant.adopt.long
       t: |
-        ADOPT: High usage, high satisfaction. Safe technologies to adopt.
+        ADOPT: 利用率も満足度も高い。使っても大丈夫な技術。
     - key: options.quadrant.avoid
       t: AVOID
     - key: options.quadrant.avoid.long
       t: |
-        AVOID: Low usage, low satisfaction. Technologies probably best avoided currently.
+        AVOID: 利用率も満足度も低い。いまは避けておいた方がよさそうな技術。
     - key: options.quadrant.analyze
       t: ANALYZE
     - key: options.quadrant.analyze.long
       t: |
-        ANALYZE: High usage, low satisfaction. Reassess these technologies if you're currently using them.
+        ANALYZE: 利用率は高いが、満足度は低い。現在使っているなら、見直すとよさそうな技術。
 
     - key: ranges.selector.years_of_experience
-      t: Experience
+      t: 経験年数
     - key: ranges.selector.yearly_salary
-      t: Salary
+      t: 給与
     - key: ranges.selector.company_size
-      t: Company Size
+      t: 従業員数
 
     ###########################################################################
     # Sections
     ###########################################################################
 
     - key: sections.introduction.title
-      t: Introduction
+      t: はじめに
 
     - key: sections.demographics.title
-      t: Demographics
+      t: 回答者の属性
 
     - key: sections.tshirt.title
-      t: T-shirt
+      t: Tシャツ
 
     - key: sections.technologies.title
-      t: Technologies
+      t: 技術
 
     - key: sections.conclusion.title
-      t: Conclusion
+      t: おわりに
 
     - key: sections.support.title
-      t: Support Us
+      t: サポートする
     - key: sections.support.description
       t: >
-        We run this survey as a side project, but in order to make the
-        project sustainable we’re always looking for partners who can help support us,
-        either financially or by helping us spread the word.
-        If you think you could help in any way, please don’t hesitate to [get in touch](mailto:hello@stateofjs.com)!
+        このアンケートはサイドプロジェクトです。私たちはプロジェクトを続けていくため、活動をサポートしてくれるパートナーを探しています。サポートは金銭的なものだけでなく、この活動を広めてくれるのも含みます。何か協力できそうと思ったら、ぜひ[連絡してください](mailto:hello@stateofjs.com)！
 
     ###########################################################################
     # User Info
     ###########################################################################
 
     - key: user_info.locale
-      t: Language
+      t: 言語
     - key: user_info.locale.description
-      t: What language did respondents select to fill out the survey?
+      t: どの言語で回答したか？
 
     - key: user_info.source
-      t: Source
+      t: ソース
     - key: user_info.source.description
-      t: How did respondents find out about the survey?
+      t: このアンケートをどこで知ったか？
 
     ###########################################################################
     # Locales
@@ -163,7 +160,7 @@ translations:
     - key: features.caniuse_link
       t: CanIUse
     - key: features.specification_link
-      t: W3C Specification
+      t: W3C仕様
 
     ###########################################################################
     # Tools & Methodologies
@@ -171,13 +168,13 @@ translations:
 
     # general
     - key: tools.links
-      t: Links
+      t: リンク
     - key: tools.github_link
       t: GitHub
     - key: tools.github_stars
       t: stars
     - key: tools.homepage_link
-      t: Homepage
+      t: ホームページ
     - key: tools.npm_link
       t: NPM
 
@@ -187,299 +184,280 @@ translations:
 
     # heatmaps
     - key: blocks.tools_company_size_heatmap.title
-      t: Usage by Company Size
+      t: 従業員数でみた利用率
     - key: blocks.tools_company_size_heatmap.description
       t: |
-        For each technology, how usage is spread among respondents
-        who picked different company size ranges.
+        企業の従業員数によって、技術の利用率が変化しているかを見ています。
 
     - key: blocks.tools_yearly_salary_heatmap.title
-      t: Usage by Salary Range
+      t: 給与でみた利用率
     - key: blocks.tools_yearly_salary_heatmap.description
       t: |
-        For each technology, how usage is spread among respondents
-        who picked different salary ranges.
+        給与によって、技術の利用率が変化しているかを見ています。
 
     - key: blocks.tools_years_of_experience_heatmap.title
-      t: Usage by Years Of Experience
+      t: 経験年数で見た利用率
     - key: blocks.tools_years_of_experience_heatmap.description
       t: |
-        For each technology, how usage is spread among respondents who picked different experience ranges.
-        Note that the experience in question here is general experience, not experience with a specific technology.
+        経験年数によって、技術の利用率が変化しているかを見ています。なお、経験年数とは職務経験であり、その技術の経験ではありません。
 
     # tool
     - key: blocks.entity.homepage_link
-      t: Homepage
+      t: ホームページ
     - key: blocks.entity.github_link
       t: GitHub
 
     # tools quadrant
     - key: blocks.tools_quadrant.title
-      t: Satisfaction vs Usage
+      t: 満足度 vs 利用率
     - key: blocks.tools_quadrant.satisfaction.description
       t: |
-        This chart shows each technology’s **satisfaction ratio** over its total **user count**.
-        It can be divided into four quadrants:
+        このチャートは技術ごとにその**満足度**と**総利用数**でプロットしたものです。4つの領域は、次のように読み取れます。
 
-          - **ASSESS**: Low usage, high satisfaction. Technologies worth keeping an eye on.
+          - **ASSESS**: 利用率は低いが、満足度が高い。チェックしておくとよさそうな技術。
 
-          - **ADOPT**: High usage, high satisfaction. Safe technologies to adopt.
+          - **ADOPT**: 利用率も満足度も高い。使っても大丈夫な技術。
 
-          - **AVOID**: Low usage, low satisfaction. Technologies probably best avoided currently.
+          - **AVOID**: 利用率も満足度も低い。いまは避けておいた方がよさそうな技術。
 
-          - **ANALYZE**: High usage, low satisfaction. Reassess these technologies if you're currently using them.
+          - **ANALYZE**: 利用率は高いが、満足度は低い。現在使っているなら、見直すとよさそうな技術。
 
     - key: blocks.tools_quadrant.interest.description
       t: |
-        This chart shows each technology’s **interest ratio** over its total **user count** (as defined by respondents who are aware of a technology but *haven't* used it yet).
+        このチャートは技術ごとにその**関心度**と**総利用数**でプロットしたものです（その技術を知っているものの**使ったことがない**人が回答しています）。
 
-        (Note that low user numbers can be due to either an unknown technology; or a technology with a lot of respondents already using it.)
+        （注：利用数が少ないのは、知られていない技術ということもあれば、多くの人がすでに使っている技術ということもあります。）
 
     # category other tools
     - key: blocks.category_other_tools.title
-      t: Other Tools
+      t: そのほかのツール
     - key: blocks.category_other_tools.description
-      t: Other tools in this category (freeform answers).
+      t: このカテゴリ内でそのほかのツール（自由回答）。
 
     # tool experience
     - key: blocks.tool_experience.title
-      t: '{name} Experience'
+      t: '{name}の経験年数'
     - key: blocks.tool_experience.description
-      t: Respondent's experience with {name}.
+      t: '回答者の{name}の経験。'
 
     # tool positive/negative split ("marimekko" chart)
     - key: blocks.tools_experience_marimekko.title
-      t: Positive/Negative Split
+      t: 肯定的か否定的か
     - key: blocks.tools_experience_marimekko.description
       t: |
-          This chart splits positive (“want to learn”, ”would use again”) vs
-          negative (“not interested”, “would not use again”) experiences on
-          both sides of a central axis.
+          このチャートは回答を肯定的なもの（「学びたい」「また使いたい」）と否定的なもの（「興味がない」「もう使わない」）に分けています。
 
-          Bar thickness represents the number of respondents aware of a technology.
+          棒の太さは、その技術を知っている人の数を表しています。
 
     # tools section streams
     - key: blocks.tools_section_streams.title
-      t: Experience Over Time
+      t: 評価の移ろい
     - key: blocks.tools_section_streams.description
       t: |
-        Overview of opinions on the technologies surveyed over time.
+        技術について、この数年で評価がどう変わったかを示します。
     - key: blocks.tools_section_streams.note
       t: |
-        Technologies with only one year of data are not included.
+        1年ぶんのデータしかないものは含めていません。
 
     # tools section overview
     - key: blocks.tools_section_overview.title
-      t: Category Overview
+      t: カテゴリーの概要
     - key: blocks.tools_section_overview.description
       t: |
-        Overview of opinions on the technologies surveyed. Darker segments represent positive opinions,
-        while lighter segments correspond to negative sentiment.
+        アンケートした技術の評価のまとめです。暗い色が肯定的、明るい色が否定的な評価となっています。
 
     # tools experience ranking
     - key: blocks.tools_experience_ranking.title
-      t: Rankings
+      t: ランキング
     - key: blocks.tools_experience_ranking.description
-      t: Satisfaction, interest, usage, and awareness ratio rankings.
+      t: 満足度、興味、利用率、認知度のランキングです。
     - key: blocks.tools_experience_ranking.note
       t: |
-        Technologies with less than 10% awareness not included. Each ratio is defined as follows:
+        認知度が10％以下の技術は含めていません。度合いは次のように定義しています。
 
-        - Satisfaction: **would use again** vs **would not use again**.
-        - Interest: **want to learn** vs **not interested**.
-        - Usage: **would use again** + **would not use again** vs awareness.
-        - Awareness: total - **never heard**.
+        - 満足度：**また使いたい** vs **もう使わない**
+        - 興味：**学びたい** vs **興味がない**
+        - 利用率：**また使いたい** + **もう使わない** vs 認知度
+        - 認知度：総数 － **聞いたことがない**
 
     # happiness
     - key: blocks.happiness.title
-      t: Overall Happiness
+      t: 総合的な満足度
     - key: blocks.happiness.description
       t: |
-        On a scale of one (very unhappy) to five (very happy), how happy are developers
-        with the current overall state of this category?
+        このカテゴリについて、現状について開発者が総合的に満足しているかを、1（とても不満）から5（とても満足）で表します。
 
     # newsletter
     - key: blocks.newsletter.title
-      t: Stay Tuned
+      t: 乞うご期待
     - key: blocks.newsletter.description
       t: |
-        If you'd like to know when we release additional results or announce next year's edition,
-        just leave us your email below:
+        回答結果の発表や、来年のアンケートのお知らせを受け取りたい方はメールアドレスを入力してください。
     - key: blocks.newsletter.email
-      t: Your Email
+      t: メールアドレス
     - key: blocks.newsletter.submit
-      t: Notify Me
+      t: お知らせを受け取る
 
     # features_overview
     - key: blocks.features_overview.title
-      t: Usage Overview
+      t: 利用率の概要
     - key: blocks.features_overview.description
       t: |
-        This chart presents the various adoption rates for all features, grouped by category.
+        このチャートは各機能の採用度合いを示しています。各機能はカテゴリごとに分けられています。
 
-        The size of the <span class="text-teal-darker text-bold">outer circle</span>
-        corresponds to the total number of users who know about a feature, while
-        the <span class="text-teal text-bold">inner one</span> represents those who have actually used it.
+        <span class="text-teal-darker text-bold">外の円</span>は機能を知っている人の数を、<span class="text-teal text-bold">内の円</span>は実際に使った人の数をそれぞれ表します。
 
-        Hover on each node to view detailed data along with an <span class="text-blackpink text-bold">overlay</span>
-        representing the total number of survey respondents.
+        回答者の人数など詳細は、ノードにカーソルをあわせると表示される<span class="text-blackpink text-bold">オーバーレイ</span>から確認できます。
 
     # export
     - key: export.export
-      t: Export
+      t: 出力
     - key: export.title
-      t: Export data for {title}
+      t: '{title}のデータを出力'
     - key: export.nocsv
-      t: Sorry, CSV export is not available for this dataset.
+      t: ごめんなさい。このデータセットはCSVに出力できません。
     - key: export.graphql
       t: >
-          You can copy paste this query into our <a target="_blank" rel="nofollow" href="http://graphiql.stateofjs.com/">public GraphQL API</a>.
+          このクエリーは<a target="_blank" rel="nofollow" href="http://graphiql.stateofjs.com/">公開しているGraphQL API</a>にコピー＆ペーストできます。
 
     # Tools usage variations
     - key: blocks.tools_usage_variations.title
-      t: Usage Variations
+      t: 利用率の変動
     - key: blocks.tools_usage_variations.description
       t: |
-        How different factors such as salary range, years of experience
-        or company size influence usage (participants who answered either
-        ”would use again” or “would not use again”).
+        給与、経験年数、従業員の数などが、技術の利用にどんな差（回答者の「また使いたい」「もう使わない」の選択）を及ぼしたかを調べます。
 
-        The baseline represents the base usage for each tool and the offsets
-        correspond to the delta from this baseline in each range. Let's say
-        tool X has an overall usage of 10% across all respondents (the baseline),
-        then if the percentage of users having from 1 to 2 years of experience
-        using this tool is 13% (compared to all users having from 1 to 2 years
-        of experience), then we have a positive delta of +3%.
+        ベースラインはそれぞれのツールについての利用率を示します。オフセットはベースラインからの差分を表します。たとえば、Xというツールが全回答者のうち10％で使われているとします（これがベースラインです）。そのツールを使っている人のうち、経験年数1～2年の人の割合が13％の場合（ほかのすべての経験年数1～2年の人と比較し）は、肯定の差分が＋3％となります。
     - key: blocks.tools_usage_variations.note
       t: |
-        Please keep in mind that tools having a lower overall usage tends to vary more.
+        利用率の低いツールほど変動が大きくなりやすいことに注意してください。
 
     # Recommended Resources
     - key: blocks.recommended_resources.title
-      t: Recommended Resources
+      t: おすすめのリソース
 
     ###########################################################################
     # Charts
     ###########################################################################
 
     - key: chart_units.percentage
-      t: Percents
+      t: パーセント
     - key: chart_units.count
-      t: Count
+      t: 数
 
     - key: charts.axis_legends.years_of_experience
-      t: Years of Experience
+      t: 経験年数
     - key: charts.axis_legends.yearly_salary
-      t: Salary Range (USD)
+      t: 給与レンジ（米ドル）
     - key: charts.axis_legends.company_size
-      t: Number of Employees
+      t: 従業員数
     - key: charts.axis_legends.backend_proficiency
-      t: Back-end Proficiency
+      t: バックエンドの習熟度
     - key: charts.axis_legends.css_proficiency
-      t: CSS Proficiency
+      t: CSSの習熟度
     - key: charts.axis_legends.javascript_proficiency
-      t: JavaScript Proficiency
+      t: JavaScriptの習熟度
     - key: charts.axis_legends.users_percentage
-      t: Percentage of Users
+      t: ユーザーの割合（％）
     - key: charts.axis_legends.users_count
-      t: User Count
+      t: ユーザー数
     - key: charts.axis_legends.interest_percentage
-      t: Interest Percentage
+      t: 興味の度合い（％）
     - key: charts.axis_legends.satisfaction_percentage
-      t: Satisfaction Percentage
+      t: 満足度（％）
     - key: charts.axis_legends.happiness
-      t: Happiness
+      t: 満足度
     - key: charts.axis_legends.knowledge_score
-      t: Known Features
+      t: 知識の度合い
     - key: charts.axis_legends.frequency
-      t: Frequency
+      t: 頻度
 
     - key: charts.ranges_multiple_diverging_lines.baseline
-      t: baseline
+      t: ベースライン
     - key: charts.ranges_multiple_diverging_lines.positive_offset
-      t: positive offset
+      t: 肯定のオフセット
     - key: charts.ranges_multiple_diverging_lines.negative_offset
-      t: negative offset
+      t: 否定のオフセット
 
     ###########################################################################
     # Sharing
     ###########################################################################
 
     - key: share.share
-      t: Share
+      t: シェア
     - key: share.site.title
-      t: Discover the {siteTitle} results
+      t: '{siteTitle}の結果を見てみよう'
     - key: share.site.twitter_text
-      t: 'Discover the {siteTitle} results {link} {hashtag}'
+      t: '{siteTitle}の結果を見てみよう {link} {hashTag}'
     - key: share.site.subject
-      t: '{siteTitle} Survey Results'
+      t: '{siteTitle}の結果'
     - key: share.site.body
-      t: 'Here are some interesting survey results: {link}'
+      t: '{siteTitle}に関するアンケートの興味深い結果です: {link}'
     - key: share.block.twitter_text
       t: '{hashtag} {year}: {title} {link}'
     - key: share.block.subject
-      t: '{siteTitle} Survey Results'
+      t: '{siteTitle}の結果'
     - key: share.block.body
-      t: 'Here are some interesting survey results ({title}): {link}'
+      t: '{siteTitle}に関するアンケートの興味深い結果です ({title}): {link}'
     - key: share.twitter
-      t: Share on Twitter
+      t: Twitterにシェア
     - key: share.facebook
-      t: Share on Facebook
+      t: Facebookにシェア
     - key: share.linkedin
-      t: Share on LinkedIn
+      t: LinkedInにシェア
     - key: share.email
-      t: Share by email
+      t: メールで共有
     - key: share.image
-      t: Get image
+      t: 画像を取得
 
     ###########################################################################
     # Awards
     ###########################################################################
 
     - key: awards.runner_ups
-      t: Runner Ups
+      t: 次点
 
     - key: award.feature_adoption_award.title
-      t: Most Used Feature
+      t: 最優秀利用機能賞
     - key: award.feature_adoption_award.description
-      t: Awarded to the most adopted feature.
+      t: 一番多く使われた機能に贈られます。
 
     - key: award.feature_adoption_delta_award.title
-      t: Most Adopted Feature
+      t: 最優秀採用機能賞
     - key: award.feature_adoption_delta_award.description
-      t: Awarded to the feature with the largest year-over-year ”have used” progression.
+      t: 「使った」と答えた人がこの1年で一番増加した機能に贈られます。
 
     - key: award.tool_usage_award.title
-      t: Most Used Technology
+      t: 最優秀利用技術賞
     - key: award.tool_usage_award.description
-      t: Awarded to the technology with the largest user base.
+      t: ユーザーベースの一番多い技術に贈られます。
 
     - key: award.tool_usage_delta_award.title
-      t: Most Adopted Technology
+      t: 最優秀採用技術賞
     - key: award.tool_usage_delta_award.description
-      t: Awarded to the technology with the largest year-over-year “would use again” progression.
+      t: 「また使いたい」と答えた人がこの1年で一番増加した機能に贈られます。
 
     - key: award.tool_satisfaction_award.title
-      t: Highest Satisfaction
+      t: 最優秀満足度賞
     - key: award.tool_satisfaction_award.description
-      t: Awarded to the technology with the highest percentage of satisfied users.
+      t: 満足と答えた度合いが一番大きい技術に贈られます。
 
     - key: award.tool_interest_award.title
-      t: Highest Interest
+      t: 最優秀関心度賞
     - key: award.tool_interest_award.description
-      t: Awarded to the technology developers are most interested in learning.
+      t: 開発者が学びたいと答えた度合いが一番大きい技術に贈られます。
 
     - key: award.resource_usage_award.title
-      t: Most Used Resource
+      t: 最優秀リソース賞
     - key: award.resource_usage_award.description
-      t: Awarded to the resource with the largest user base.
+      t: ユーザーベースの一番多いリソースに贈られます。
 
     - key: award.prediction_award.title
-      t: Prediction Award
+      t: 最優秀新人賞
     - key: award.prediction_award.description
-      t: Awarded to an up-and-coming technology that might take over… or not?
+      t: 将来有望で、次の世代を担うかもしれない技術に贈られます。
 
     - key: award.most_write_ins_award.title
-      t: Most Write-Ins
+      t: 最頻記入投票賞
     - key: award.most_write_ins_award.description
-      t: Awarded to the item with the most write-in answers
+      t: 自由入力欄に書かれた回答が最も多かったものに贈られます。

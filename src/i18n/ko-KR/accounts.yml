@@ -67,7 +67,7 @@ translations:
     - key: accounts.please_log_in
       t: 시작하시려면 로그인 하거나 또는 가입해 주세요.
     - key: accounts.logged_in_as
-      t: {email} 으로 로그인 됨
+      t: '{email} 으로 로그인 됨'
     - key: accounts.questions
       t: >
           우리가 귀하의 정보를 어떻게 사용하는지 궁금하시거나, 또는 우리의 기록에서 귀하의 정보를 제거하시길 원한다면, <a href="mailto:hello@stateofjs.com">이메일로 연락</a>해 주세요.
