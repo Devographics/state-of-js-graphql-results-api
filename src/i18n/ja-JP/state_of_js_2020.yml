@@ -15,37 +15,36 @@ translations:
     - key: sections.introduction.description
       t: |
 
-          <span class="first-letter">A</span>s crappy as 2020 was, JavaScript as a whole still managed to somehow move forward. As the language itself keeps improving
-          thanks to new features like Optional Chaining and Nullish Coalescing, TypeScript's widespread adoption is taking things to a whole other level by popularizing static typing (cue non-JS devs everywhere laughing –or crying– quietly). 
+          <span class="first-letter">2</span>020年と同じように、JavaScriptはなんとかして前進しました。Optional ChainingやNullish Coalescingなどの新機能のおかげで言語自体も成長を続けていますし、TypeScriptの普及は、静的型付けを普及させることで、物事をまったく別のレベルに引き上げています。
 
-          And on the framework side, just when we though things were settling down, Svelte comes in and promises to shake everything up with a fresh take on the front-end. And even build tools are showing signs of new activity after years of Webpack hegemony. 
+          そしてフレームワークの面では,落ち着いたと思ったところにSvelteが現れ、フロントエンドに新たな手法を取り入れることで全てを揺るがしています。そしてビルドツールにおいても、数年にわたるWebpackの覇権の後、新しい傾向が見られるようになりました。 
 
-          But the difference this time is that the “old” guard –relatively speaking– is not going anywhere. Svelte and Snowpack are great, but so are React and Webpack. And sure, they too will eventually fall prey to the Great JavaScript Churn, but not for many, many years. 
+          しかし、これまでと今回の違いは「古い」もの–相対的に言って–が、どこにも行ってないことです。SvelteとSnowpackはよいものですが、それはReactとWebpackも同じです。そして確かに、それらは最終的に偉大なJavaScript Churnの犠牲にになりますが、何年も何年もそれが続くわけではありません。
 
-          So let's enjoy what we have here: a great ecosystem that just keeps getting even better!
+          だから、今ここで起きていることを楽しみましょう: 偉大なエコシステムが、さらに良くなっています！
 
           ### Team
 
-          The State of JavaScript Survey is created and maintained by [Sacha Greif](https://twitter.com/sachagreif) and [Raphaël Benitte](https://twitter.com/benitteraphael).
+          「The State of JavaScript Survey」は[Sacha Greif](https://twitter.com/sachagreif)と[Raphaël Benitte](https://twitter.com/benitteraphael)によって作られ、運用されています。
 
           ### Download Our Data
 
-          You can [download the raw JSON data for this survey](https://www.kaggle.com/sachag/state-of-js). Let us know if you end up making your own data visualizations!
+          [このアンケートのJSONデータがダウンロードできます](https://www.kaggle.com/sachag/state-of-js)。データのビジュアライゼーションをしたらぜひ教えてください！
 
           ### Other Links
 
-          - [State of CSS Homepage](https://stateofcss.com)
-          - [State of JS Homepage](https://stateofjs.com)
+          - [State of CSS ホームページ](https://stateofcss.com)
+          - [State of JS ホームページ](https://stateofjs.com)
 
           ### Thanks
 
-          Thanks to [Alexey Pyltsyn](https://github.com/lex111) for his help with translations.  
+          [Alexey Pyltsyn](https://github.com/lex111)に翻訳の感謝を。
 
           ### Credits & Stuff
 
-          The site is set in IBM Plex Mono. Questions? Feedback? [Get in touch!](mailto:hello@stateofjs.com)
+          このサイトはIBM Plex Monoを使っています。質問やフィードバックがあれば[ぜひ連絡してください！](mailto:hello@stateofjs.com)
 
-          And now, let's see what JavaScript has been up to this year!
+          さあ、JavaScriptに今年どのような変化が起きたか見ていきましょう！
 
           <span class="conclusion__byline">– Sacha and Raphaël</span>
 
@@ -54,37 +53,34 @@ translations:
     ###########################################################################
 
     - key: sections.tshirt.title
-      t: T-shirt
+      t: Tシャツ
 
     - key: sections.tshirt.description
       t: |
-          ## Support the survey and look good in the process!
+          ## アンケートをサポートして、Support the survey and look good in the process!
 
-          We've updated last year's very popular 👕 State of JavaScript T-shirt 👕 for 
-          the 2020 JavaScript landscape!
+          2020年のJavaScriptの景色に合うよう、去年とても人気だった👕 State of JavaScript Tシャツ 👕を新しくしました！
 
-          The shirt features a ”periodic table of JavaScript” that lists the most popular 
+          このシャツThe shirt features a ”periodic table of JavaScript” GitHubのスター数にしたがって選んだ人気のライブラリをカテゴリごとにリストthat lists the most popular 
           libraries grouped by category, along with their GitHub stars counts (in thousands).
 
-          This shirt is a great way to familiarize yourself with the JavaScript ecosystem, 
-          and maybe even strike up a conversation with other like-minded 
-          JavaScript developers!
+          このシャツはJavaScriptのエコシステムに習熟するため良い方法のひとつであり、きっと同じ熱意を持った他のJavaScriptユーザーとの会話のきっかけになってくれるでしょう！
 
     - key: tshirt.about
-      t: About the T-shirt
+      t: Tシャツについて
 
     - key: tshirt.description
       t: |
-          The design is printed on a black heather [Bella+Canvas 3001 unisex premium 
+          デザインは printed on a black heather [Bella+Canvas 3001 unisex premium 
           t-shirt](https://www.printful.com/custom/mens/t-shirts/unisex-premium-t-shirt-bella-canvas-3001) (men’s) with a semi-slim fit; 
           or a heather dark grey [Anvil 880 Women's Fashion Fit T-Shirt](https://www.printful.com/custom/womens/t-shirts/womens-fashion-fit-t-shirt) (women‘s). 
           Sizing uses U.S. sizes.
 
     - key: tshirt.getit
-      t: Get It
+      t: 手に入れる
 
     - key: tshirt.price
-      t: USD $24 + shipping
+      t: USD $24 + 送料
 
     ###########################################################################
     # Sections Introductions
@@ -94,73 +90,58 @@ translations:
       t: |
           TODO
 
-          This year's survey reached **11,492** people in **102** countries. For the first time this year,
-          we were able to translate the survey questions in multiple languages thanks to an awesome team of volunteers.
+          今年のアンケートは**102**ヵ国にわたる**11492**人の回答が得られました！素晴らしいチームとボランティアの手によって、今年は初めてアンケートの質問を多言語に翻訳できました。
 
     - key: sections.features.description
       t: |
-          While most respondents were aware of the majority of JavaScript features 
-          mentioned in the survey, many still have yet to actually use most of them.
+          回答の多くはアンケートで触れられたJavascriptの新機能の多くを知っていましたが、多くの人はまだそれらの機能を実際に使ったことがありませんでした。
 
     - key: sections.technologies.description
       t: |
-          The typical new JavaScript library shows high satisfaction but low usage, which can sometimes make
-          selecting the right technology for your needs a bit tricky. This is where looking at
-          the data can really help point you in the right direction.
+          代表的なJavaScriptの新しいライブラリは高い満足度を得ていましたが、使用率は低いようなので、ニーズ合わせた正しい技術を選ぶのは一筋縄ではいかなさそうです。
+          このデータが、あなたを正しい方向へ導く手助けになるでしょう。
 
     - key: sections.javascript_flavors.description
       t: |
-          The trend of “flavors” of JavaScript that compile down to standard code started all these
-          years ago with CoffeeScript, but it's now clear that TypeScript is the uncontested leader in
-          that category.
+          標準的なコードにコンパイルするJavaScriptの「フレーバー」のトレンドは何年か前にCoffeeScriptから始まりましたが、今や間違いなくTypeScriptがこのカテゴリのリーダーであると言えます。
 
     - key: sections.front_end_frameworks.description
       t: |
-          As usual React and Vue lead the pack, but Svelte is quickly establishing itself as a very 
-          serious contender for the front-end crown.
+          いつも通りReactとVueが群を抜いていますが、Svelteがフロントエンドの頂点を担う候補としての地位を早くも確立させようとしています。
 
     - key: sections.datalayer.description
       t: |
-          While the datalayer space is still in constant movement, one thing seems clear: GraphQL and
-          its related technologies are here to stay.
+          データレイヤーのスペースはいまだ流動的ですが、あることがあきらかになりつつあります: GraphQLとその周辺の技術がここに留まっているようです。
 
     - key: sections.back_end_frameworks.description
       t: |
-          The back-end space is still very fragmented, but Express stands out as the one dominant
-          tool, while Next.js maintains its high satisfaction ratio.
+          バックエンドのスペースはまだとても断片的ですが、Expressが有力なものとして群を抜いているようです。一方、Next.jsは高い満足度を保っています。
 
     - key: sections.testing.description
       t: |
-          The testing ecosystem keeps getting richer, with new entrants Testing Library and Playwright both
-          scoring high marks on the satisfaction index.
+          高い満足度をつけるTesting LibraryやPlaywrigtによって、テストについてのエコシステムはリッチになり続けています。
 
     - key: sections.build_tools.description
       t: |
-          Just when it seemed like Webpack's dominance had settled the debate, the build tools scene
-          has again exploded with new entrants like Snowpack and ESBuild, leading us to give it a full 
-          section for the first time since 2017.
+          Webpackの優位性が議論の結論になったように見えたところでしたが、ビルドツールは the build tools scene
+          has again exploded with SnowpackやESBuildのような新参者によって、 2017年以来初めての場面に導きました。leading us to give it a full 
+          section .
 
     - key: sections.mobile_desktop.description
       t: |
-          JavaScript is not just for the browser, and while Electron and React Native are the two 
-          best-known names in this category, other solutions like Expo and Capacitor are also starting 
-          to make waves.
+          JavaScriptはブラウザだけのためのものではありません。ElectronとReact Nativeがこのカテゴリで最も知られているものになっていて、ExpoやCapacitorなどの他の解決策が次の波を作ろうとしています。
 
     - key: sections.other_tools.description
       t: |
-          The diversity and quantity of libraries, utilities, and other tools highlights how vast the JavaScript
-          ecosystem has become, and for the first time this year we're also tracking JavaScript runtimes 
-          such as Deno and Hermes.
+          ライブラリやユーティリティ、その他のツールなどの多様性と量は、JavaScriptのエコシステムがどれだけ広大になったのかを浮き彫りにしています。そして今年はDenoやHermesなどのJavaScriptランタイムについても調査しました、
 
     - key: sections.resources.description
       t: |
-          Many great resources are listed here, and we're sure that you'll find at least a few new 
-          blogs or podcasts to follow!
+          多くの偉大なリソースがここに記されています。フォローすべきブログやポッドキャストがかならず見つかるはずです！
 
     - key: sections.opinions.description
       t: |
-          While things are generally looking good in JavaScript land, there does seem to be a bit of a
-          come-down from the positivity high-point of 2018. Will the trend persist? Tune in next year to find out!
+          JavaScriptの世界の状況は良好にみえますが、2018年のポジティブが高かった点からは少し下降気味のようです。このトレンドは続いていくのでしょうか？それがわかる来年まで乞うご期待！
 
     ###########################################################################
     # Notes
@@ -187,7 +168,7 @@ translations:
     #   t: With a **${value}** progression in 2020, this was the year CSS Grid crossed over from new technology to established tool.
 
     - key: award.tool_usage_delta_award.comment
-      t: TypeScript was already popular, and with a **${value}** growth in usage it looks like it's only going to get more ubiquitous going forward.
+      t: TypeScriptがすでに人気でしたが、利用率において**${value}**にも成長しており、到るところで使われることが多くなりそうです。
 
     - key: award.tool_satisfaction_award.comment
       t: With a sky-high satisfaction rating of **${value}**, Testing Library is 2020's overall most beloved tool.
@@ -204,11 +185,11 @@ translations:
 
     - key: sections.conclusion.description
       t: |
-          Since ancient times, philosophers have pondered the Paradox of JavaScript: on one hand, you can't wait for exciting new language features and libraries that promise to make your developer experience so much better. 
+          古来より、哲学者たちはJavascriptのパラドクスについて塾講してきました。一方で、開発者の経験をこれほどまでに向上させることを約束してくれるエキサイティングな新しい言語機能やライブラリを待ちきれないということ。
 
-          But at the same time, you crave stability and simplicity so you can finally get things done without having to spend half your time browsing through convoluted GitHub issues threads and outdated Stack Overflow questions. 
+          しかし同時に、半分以上の時間を複雑なGitHubのイシューやStack Overflowの質問を読み込んだりせずに物事を成し遂げるための安定さとシンプルさを渇望しているということ。
 
-          So which is it? Do we want the new shiny, or the old reliable? More than ever, 2020 shows that we won't settle for anything less than *both*. The good news is that the JavaScript community has risen up to the challenge, which promises an exciting 2021!
+          どちらがいいのでしょう？私たちは新しく輝いているものがほしいのか、古くて安定しているものがほしいのか？ More than ever, 2020年は shows that we won't settle for anything less than *both*. The good news is that the JavaScript community has risen up to the challenge, which promises an exciting 2021!
 
     ###########################################################################
     # Picks
@@ -217,27 +198,25 @@ translations:
     - key: picks.my_2020_pick
       t: 'My 2020 Pick: '
     - key: picks.intro
-      t: We asked members of the JavaScript community to share their “pick of the year”
+      t: JavaScriptコミュニティのメンバーに、彼らの「pick of the year」を共有してもらうようお願いしました！
 
     - key: picks.joshwcomeau.bio
       t: Software-engineer-turned-educator
     - key: picks.joshwcomeau.description
       t: |
-          This is a fantastic intro resource for learning about web accessibility! 
-          I picked it because it's our job as JS devs to make sure that the sites 
-          we build are usable by everyone, not just sighted keyboard-and-mouse users.
+          これはWebアクセシビリティについての素晴らしい入門リソースです！私たちが作るサイトをキーボードとマウスを使う目が見える方だけでなく、誰にとっても利用できるものにするのがJavaScriptを使う私たちの仕事なので、これを選びました。
 
     - key: picks.swyx.bio
       t: Infinite Builder
     - key: picks.swyx.description
       t: |
-          Svelte is the Space Elevator of frontend frameworks. 
-          It helps you ship apps extremely fast apps extremely fast.
+          SvelteがフロントエンドのフレームワークにおけるSpace Elevatorです。
+          とても早いアプリをとても早くリリースする助けになるでしょう。
 
     - key: picks.kentcdodds.bio
       t: Improving the world with quality software
     - key: picks.kentcdodds.description
       t: |
-          Remix is a different approach to React frameworks with an emphasis on progressive 
-          enhancement. It embraces the web platform in a way that no existing frameworks do 
-          and I'm excited by its potential.
+          Remixはプログレッシブエンハンスメントに重点を置いた、Reactへの異なるアプローチです。 emphasis on progressive 
+          enhancement.既存のフレームワークにはない方法でwebプラットフォームを内包していて、私はそのポテンシャルに期待してます。
+      
