@@ -1,0 +1,261 @@
+locale: ko-KR
+namespace: js
+translations:
+    ###########################################################################
+    # General
+    ###########################################################################
+
+    - key: general.results.description
+      t: 자바스크립트 생태계의 최신 동향에 대한 연례 설문 조사입니다.
+
+    ###########################################################################
+    # Introduction
+    ###########################################################################
+
+    - key: sections.introduction.description
+      t: |
+
+            <span class="first-letter">어</span>려움이 많았던 2020년에도 자바스크립트는 여전히 발전해 나가고 있습니다. Optional Chaining과 Nullish Coalescing과 같은 새로운 기능 덕분에 언어 자체가 계속 향상되고 있으며, 타입스크립트의 광범위한 적용은 정적 타입을 대중화함으로써 완전히 다른 수준으로 끌어올리고 있습니다.
+
+            또한 프레임워크 측면에서, 우리가 상황이 안정되고 있다 생각했을 때 Svelte가 들어와서 프론트엔드에 대한 신선한 해석으로 모든 것을 흔들어 놓으려 했습니다. 심지어 빌드 도구도 Webpack 패권 이후 새로운 활동의 조짐을 보이고 있습니다.
+
+            그러나 이번에 다른점은 상대적으로 말하자면 "오래된" 경비원이 아무데도 가지 않는다는 것입니다. Svelte와 Snowpack은 훌륭하지만, React와 Webpack 역시 마찬가지입니다. 물론 그들도 결국 '위대한 자바스크립트 이탈'의 희생양이 되겠지만, 수년 동안은 그렇지 않을 것입니다.
+
+            이제 우리가 갖고 있는 것을 즐깁시다: 바로 점점 더 나아지고 있는 훌륭한 생태계를!
+
+            ### 팀
+
+            State of JavaScript 설문 조사는 [Sacha Greif](https://twitter.com/sachagreif)와 [Raphaël Benitte](https://twitter.com/benitteraphael)에 의해 제작되었고 유지됩니다.
+
+            ### 조사 데이터 다운로드
+
+            이 조사에 대한 원시 JSON 데이터를 [다운로드](https://www.kaggle.com/sachag/state-of-js)할 수 있습니다. 만약 직접 데이터를 시각화하는 무언가를 만들게 된다면 우리에게 알려주세요!
+
+            ### State of CSS
+
+            아직 보지 못하셨다면 [State of CSS 2020 트렌드 보고](https://2020.stateofcss.com/en-US/report/)를 확인해 보시고 지난 해의 세 가지 주요 CSS 트렌드에 대해 최신 정보를 얻으시기 바랍니다.
+
+            ### 감사
+
+            번역과 관련하여 [Alexey Pyltsyn](https://github.com/lex111) 님의 도움에 감사드립니다.
+
+            ### Credits & Stuff
+
+            이 사이트는 IBM Plex Mono 폰트로 구성되어 있습니다. 질문이나 피드백이 있다면 [연락주세요!](mailto:hello@stateofjs.com)
+
+            이제, 올해 자바스크립트가 어떤 성과를 거두었는지 알아보도록 하겠습니다!
+
+            <span class="conclusion__byline">– Sacha 와 Raphaël</span>
+
+    ###########################################################################
+    # Tshirt
+    ###########################################################################
+
+    - key: sections.tshirt.title
+      t: 티셔츠
+
+    - key: sections.tshirt.description
+      t: |
+          ## 설문 조사에 참여하고 그 과정에서 멋지게 보이세요!
+
+          작년에 매우 인기 있었던 👕 State of JavaScript 티셔츠 👕 를 2020년형 자바스크립트 환경에 맞게 업데이트 했습니다!
+
+          이 셔츠에는 GitHub 스타 개수(단위 천)와 함께 카테고리별로 그룹화된 가장 인기 있는 라이브러리를 나열한 "자바스크립트 주기율표"가 표시되어 있습니다.
+
+          이 셔츠는 자바스크립트 생태계에 익숙해지고, 다른 비슷한 생각을 가진 자바스크립트 개발자들과도 대화를 나눌 수 있는 좋은 방법입니다!
+    
+    - key: tshirt.about
+      t: 티셔츠에 관해
+
+    - key: tshirt.description
+      t: |
+          프린팅 및 배송은 [Cotton Bureau](https://cottonbureau.com/people/state-of-js)에 의해 처리됩니다. 디자인은 premium Next Level black super-soft, tri-blend 셔츠에 프린팅됩니다. 
+
+    - key: tshirt.getit
+      t: 주문하기
+
+    - key: tshirt.price
+      t: USD ${price} + 배송비 별도
+
+    ###########################################################################
+    # Sections Introductions
+    ###########################################################################
+
+    - key: sections.user_info.description
+      t: |
+          올해의 설문 조사는 **137**개의 나라에서 **23,765**명이 응답해 주셨습니다. 올해 처음으로, 우리는 훌륭한 자원봉사자 팀 덕분에 설문을 여러 언어로 번역할 수 있었습니다.
+
+    - key: sections.features.description
+      t: |
+          대부분의 응답자들은 설문 조사에 언급된 대부분의 자바스크립트 기능에 대해 알고 있었지만, 여전히 많은 응답자들이 대부분의 기능을 실제로 사용하지 못하고 있었습니다.
+
+    - key: sections.technologies.description
+      t: |
+          일반적인 새 자바스크립트 라이브러리는 만족도는 높지만 사용량은 낮기 때문에 필요에 적합한 기술을 선택하는 것이 다소 까다로울 수 있습니다. 여기의 데이터를 보면 올바른 방향을 찾는 데 도움이 될 수 있습니다.
+
+    - key: sections.javascript_flavors.description
+      t: |
+          표준 코드로 컴파일되는 자바스크립트 "취향" 트렌드는 수년 전에 CoffeeScript에서 시작되었지만, 이제 타입스크립트가 그 카테고리에서 절대적인 선두주자임이 명백해졌습니다.
+
+    - key: sections.front_end_frameworks.description
+      t: |
+          늘 그래왔듯이 React와 Vue가 선두를 달리고 있지만, Svelte는 빠르게 선두 자리를 차지하기 위한 매우 진지한 경쟁자로 자리매김하고 있습니다.
+
+    - key: sections.datalayer.description
+      t: |
+          데이터 계층 공간은 여전히 계속해서 변화하고 있지만 한 가지는 분명해 보입니다. 바로 GraphQL과 관련 기술은 여기에 남아 있습니다.
+
+    - key: sections.back_end_frameworks.description
+      t: |
+          백엔드 공간은 여전히 매우 단편적이지만, Express는 하나의 지배적인 도구로 두드러지게 서 있으며, 또한 Next.js는 높은 만족도를 유지하고 있습니다.
+
+    - key: sections.testing.description
+      t: |
+          새로 등장한 Testing Library와 Playwright는 모두 만족도 지수에서 높은 점은를 기록하면서 테스팅 생태계가 계속해서 풍부해지고 있습니다.
+
+    - key: sections.build_tools.description
+      t: |
+          Webpack의 독주가 빌드 도구의 논쟁을 해결한 것처럼 보였을 때, 이 장면은 Snowpack 및 Esbuild 같은 새로운 참가자들로 인해 다시 폭발하여, 2017년 이후 처음으로 전체 섹션을 제공하게 되었습니다.
+
+    - key: sections.mobile_desktop.description
+      t: |
+          자바스크립트는 단순히 브라우저만을 위한 것이 아닙니다. Electron과 React Native가 이 카테고리에서 가장 잘 알려진 두 가지 이름이긴 하지만, Expo와 Capacitor와 같은 다른 솔루션들도 파장을 일으키기 시작했습니다.
+
+    - key: sections.other_tools.description
+      t: |
+          라이브러리, 유틸리티 및 기타 도구의 다양성과 양은 자바스크립트 생태계가 얼마나 광대해졌는지를 강조하며, 또한 올해 처음으로 우리는 Deno와 Hermes와 같은 자바스크립트 런타임도 추적하고 있습니다.
+
+    - key: sections.resources.description
+      t: |
+          많은 훌륭한 리소스가 여기에 나열되어 있으며, 팔로우 할 새로운 블로그나 팟캐스트를 적어도 몇 개는 찾을 수 있을 것입니다!
+
+    - key: sections.opinions.description
+      t: |
+          자바스크립트 영역의 상황은 대체로 좋아보이지만, 2018년의 긍정적인 고점에서 약간의 하락이 있는 것 같아보입니다. 이러한 트렌드는 지속될까요? 내년에 시청하여 확인해 보세요!
+
+          
+    ###########################################################################
+    # Notes
+    ###########################################################################
+
+    - key: blocks.source.note
+      t: >
+      
+        이 차트는 리퍼러, URL 매개변수 및 자유 형식 답변의 조합을 집계합니다.
+
+        - State of JS: [State of JS](https://stateofjs.com) 메일링 목록; 또한 `email`, `by email` 등과 일치한 것.
+
+        - State of CSS: [State of CSS](https://stateofcss.com/) 메일링 목록.
+
+        - 직업: `work`, `colleagues`, `coworkers` 등과 일치하는 것.
+
+    ###########################################################################
+    # Awards
+    ###########################################################################
+
+    # - key: award.feature_adoption_delta_award.comment
+    #   t: With a **{value}** progression in 2020, this was the year CSS Grid crossed over from new technology to established tool.
+
+    - key: award.tool_usage_delta_award.comment
+      t: 타입스크립트는 이미 인기를 끌었으며, 사용량이 **{value}** 증가함에 따라 앞으로 더 많은 유비쿼터스 환경을 구축할 수 있을 것으로 보입니다.
+
+    - key: award.tool_satisfaction_award.comment
+      t: '**{value}**의 높은 만족도를 자랑하는 Testing Library는 2020년에 가장 사랑받는 툴입니다.'
+
+    - key: award.tool_interest_award.comment
+      t: GraphQL은 개발자들의 관심도 비율이 **{value}**이며, 그들이 시간을 낼 수 있는 즉시 더 자세히 알고자 하는 그런 기술입니다.
+
+    - key: award.most_write_ins_award.comment
+      t: 사람들은 항상 텍스트 편집기에 열광하며, **{value}*** 명이 언급한 IntelliJ IDEA가 가장 많은 답변을 얻은 상을 수상합니다.
+
+    ###########################################################################
+    # Conclusion
+    ###########################################################################
+
+    - key: sections.conclusion.description
+      t: |
+            고대부터 철학자들은 자바스크립트의 역설에 대해 고민해 왔습니다. 한편으로는 개발자의 경험을 훨씬 더 좋게 만들어 줄 흥미로운 새로운 언어 기능과 라이브러리들이 기대됩니다.
+
+            그러나 동시에 복잡한 GitHub 이슈 및 오래된 스택 오버플로우 질문을 검색하느라 절반의 시간을 소비하지 않고도 작업을 완료할 수 있도록 안정성과 단순함을 원합니다.
+
+            그래서 어느 쪽이죠? 우리는 새롭게 빛나는 것을 원하나요, 아니면 오래된 믿을 만한 것을 원하나요? 그 어느 때보다도 2020년에는 *둘 다* 이하의 것에는 만족하지 않을 것임을 보여줍니다. 좋은 소식은 자바스크립트 커뮤니티가 흥미진진한 2021년을 약속하는 도전에 직면했다는 것입니다!
+
+            추신: 여전히 더 많은 자바스크립트 통계가 궁금하다면 [Best Of JS](https://bestofjs.org/)에서 연간 [Rising Stars](https://risingstars.js.org/2020/en/) 순위를 확인해 보시기를 추천합니다.
+            
+    ###########################################################################
+    # Picks
+    ###########################################################################
+
+    - key: picks.my_2020_pick
+      t: '2020 저의 선택: '
+    - key: picks.intro
+      t: 우리는 자바스크립트 커뮤니티 회원들에게 "올해의 선택"을 공유해 줄 것을 요청했습니다.
+
+    - key: picks.joshwcomeau.bio
+      t: Software-engineer-turned-educator
+    - key: picks.joshwcomeau.description
+      t: |
+            이것은 웹 접근성에 대해 배우기 위한 환상적인 소개 리소스입니다! 
+            저는 JS 개발자로서 우리가 만든 사이트가 단순히 키보드, 마우스 사용자만 보는 것이 아니라 모든 사람이 사용할 수 있도록 하는 일이기 때문에 이것을 선택했습니다.
+
+    - key: picks.swyx.bio
+      t: 무한한 빌더
+    - key: picks.swyx.description
+      t: |
+            Svelte는 프론트엔드 프레임워크의 우주 엘리베이터 수준입니다.
+            이것은 매우 신속하게 앱을 만들게 도와줍니다.
+
+    - key: picks.kentcdodds.bio
+      t: 고품질 소프트웨어로 세계를 발전시킴
+    - key: picks.kentcdodds.description
+      t: |
+            Remix는 점진적 향상을 강조하는 React 프레임워크에 대한 다른 접근 방식입니다. 기존 프레임워크가 하지 않는 방식으로 웹 플랫폼을 수용하고 있으며 저는 그 잠재력에 흥미를 느끼고 있습니다.
+
+    - key: picks.sarah_edo.bio
+      t: Vue.js 코어 팀
+    - key: picks.sarah_edo.description
+      t: |
+            Insomnia는 명확하고 단순화된 UX를 사용하여 API 워크플로우를 설계, 테스트 및 배포할 수 있도록 해주는 앱입니다. REST와 GraphQL을 모두 지원하지만 REST를 사용하는 경우에는 더 나은 말장난입니다. (역자주: Rest 휴식/수면 <-> Insomnia 불면증)
+    
+    - key: picks.ladyleet.bio
+      t: This Dot Labs, GDE, MVP
+    - key: picks.ladyleet.description
+      t: |
+            RedwoodJS와 같은 프레임워크들은 우리가 개발에 대해 생각하는 방식을 바꾸기 시작하고 있습니다. 이것은 Ruby on Rails의 편리함을 프론트엔드 생태계에 가져다 줍니다.
+
+    - key: picks.midudev.bio
+      t: 수석 프론트엔드 @ Adevinta & 컨텐츠 제작자
+    - key: picks.midudev.description
+      t: |
+            자바스크립트 생태계에서 모듈과의 작업은 복잡해졌습니다.
+            ES2020은 그것을 끝내기 위해 ES Modules와 함께 왔습니다. 심지어 Node.js에서도 안정적입니다. 와우!
+    
+    - key: picks.cassidoo.bio
+      t: Netlify의 수석 개발자 경험 엔지니어
+    - key: picks.cassidoo.description
+      t: |
+            벤은 JS 커뮤니티에서 가장 관대한 사람들 중 한 명입니다. 그는 (Vue 코어 팀에서) 오픈 소스에서 활동하고 있으며, 개발자들이 학습할 수 있는 유용한 콘텐츠를 지속적으로 만들고 있으며, 자신의 시간을 매우 아낌없이 할애하고 있습니다.
+            
+    - key: picks.lauragift_.bio
+      t: 프론트엔드 개발자 @ PassionatePeople
+    - key: picks.lauragift_.description
+      t: |
+            Josh Comeau는 저에게 영감을 주었고, 저는 JS 커뮤니티에 대해 전반적으로 말할 수 있습니다. 그는 그의 블로그에 매우 깊은 내용의 기사를 쓰는데, 그것들은 내가 2020년에 읽은 것 중 가장 좋은 기사들 중 일부입니다. 왜냐하면 그것은 내가 자바스크립트에서 가장 최신의 위치를 유지하도록 도와주거나 내가 새로운 것을 배우도록 도와주었기 때문입니다.
+
+    - key: picks.tomdale.bio
+      t: JavaScript Thinkfluencer
+    - key: picks.tomdale.description
+      t: |
+            Volta는 전체 자바스크립트 툴체인을 관리하는 데 도움이 됩니다. 즉, nvm이라고 생각할 수 있지만, Node, npm, CLI 도구 등의 동일한 버전을 유지하도록 여러분과 여러분의 팀을 도와줍니다. 저는 이 제품이 너무 사용하기 좋고, JS를 위한 빠른 도구를 만들기 위해 Rust의 사용을 개척하고 있기 때문에 좋아합니다.
+
+    - key: picks.markdalgleish.bio
+      t: CSS Modules의 공동 제작자, Playroom의 제작자
+    - key: picks.markdalgleish.description
+      t: |
+            모든 변경 사항에 Markdown 릴리스 노트를 연결할 수 있는 기능으로 npm 게시를 자동화합니다. Changesets은 올해 우리의 릴리스 노트의 버전 관리 품질 수준을 크게 향상시켜 주었습니다.
+
+    - key: picks.sachagreif.bio
+      t: State of JS 설문 조사 제작자
+    - key: picks.sachagreif.description
+      t: |
+            Best Of JS는 거의 모든 주요 JavaScript 프로젝트에 대한 GitHub 통계를 추적하고 있으며, 이는 설문 조사에 포함할 항목을 결정하는 데 매우 유용한 자료입니다!

@@ -48,7 +48,7 @@ translations:
 
           A teraz, zobaczmy co CSS wyrabiał w tym roku!
 
-          <span class="conclusion__byline">– Sacha and Raphaël</span>
+          <span class="conclusion__byline">– Sacha i Raphaël</span>
 
     ###########################################################################
     # Tshirt
@@ -151,19 +151,19 @@ translations:
     ###########################################################################
 
     - key: award.feature_adoption_delta_award.comment
-      t: Z postępem wielkości **${value}** w 2020, był to rok, w którym CSS Grid przeszedł z nowej technologii do sprawdzonego narzędzia.
+      t: Z postępem wielkości **{value}** w 2020, był to rok, w którym CSS Grid przeszedł z nowej technologii do sprawdzonego narzędzia.
 
     - key: award.tool_usage_delta_award.comment
-      t: Żadne inne narzędzie nie dorównuje ogromnemu, **${value}** postępowi Tailwind CSS w ciągu ostatniego roku.
+      t: Żadne inne narzędzie nie dorównuje ogromnemu, **{value}** postępowi Tailwind CSS w ciągu ostatniego roku.
 
     - key: award.tool_satisfaction_award.comment
-      t: Współczynnik zadowolenia z PostCSS **${value}** pokazuje, że nie ma nic lepszego niż robienie jednej rzeczy bardzo, bardzo dobrze.
+      t: Współczynnik zadowolenia z PostCSS **{value}** pokazuje, że nie ma nic lepszego niż robienie jednej rzeczy bardzo, bardzo dobrze.
 
     - key: award.tool_interest_award.comment
-      t: Z **${value}** współczynnikiem, Moduły CSS wzbudziły w tym roku największe zainteresowanie wśród programistów CSS.
+      t: Z **{value}** współczynnikiem, Moduły CSS wzbudziły w tym roku największe zainteresowanie wśród programistów CSS.
 
     - key: award.most_write_ins_award.comment
-      t: Wiele pytań akceptowało również odpowiedzi pisemne. Z **${value}** wspomnień, PhpStorm był najpopularniejszą pozycją z wszystkich.
+      t: Wiele pytań akceptowało również odpowiedzi pisemne. Z **{value}** wspomnień, PhpStorm był najpopularniejszą pozycją z wszystkich.
 
     ###########################################################################
     # Conclusion

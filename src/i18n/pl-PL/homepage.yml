@@ -39,11 +39,11 @@ translations:
     - key: newsletter.stay_tuned
       t: Stay Tuned
     - key: newsletter.leave_your_email
-      t: Zostaj swój email jeśli chcesz być powiadamiany o kolejnych ankietach.
+      t: Zostaw swój email jeśli chcesz być powiadamiany o kolejnych ankietach.
 
     - key: author.sacha.bio
       t: >
-          Twórczyni JavaScriptowej bibliotekii wizualizacji danych [Nivo](http://nivo.rocks/) oraz [Mozaik](http://mozaik.rocks/), narzędzia do budowania pięknych dashboardów.
+          Twórca JavaScriptowej bibliotekii wizualizacji danych [Nivo](http://nivo.rocks/) oraz [Mozaik](http://mozaik.rocks/), narzędzia do budowania pięknych dashboardów.
 
     - key: author.raphael.bio
       t: >

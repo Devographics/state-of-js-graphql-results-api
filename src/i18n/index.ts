@@ -5,6 +5,7 @@ import { Locale } from '../types'
 const locales: Locale[] = localesYAML.map((l: any) => ({ ...l, stringFiles: [] }))
 
 const localeDirectories: any = {
+    'ca-ES': require.context('./ca-ES/', true, /\.yml$/),
     'cs-CZ': require.context('./cs-CZ/', true, /\.yml$/),
     'de-DE': require.context('./de-DE/', true, /\.yml$/),
     'en-US': require.context('./en-US/', true, /\.yml$/),
@@ -15,6 +16,7 @@ const localeDirectories: any = {
     'id-ID': require.context('./id-ID/', true, /\.yml$/),
     'it-IT': require.context('./it-IT/', true, /\.yml$/),
     'ja-JP': require.context('./ja-JP/', true, /\.yml$/),
+    'ko-KR': require.context('./ko-KR/', true, /\.yml$/),
     'pl-PL': require.context('./pl-PL/', true, /\.yml$/),
     'pt-PT': require.context('./pt-PT/', true, /\.yml$/),
     'ru-RU': require.context('./ru-RU/', true, /\.yml$/),

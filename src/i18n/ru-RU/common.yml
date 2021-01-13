@@ -26,7 +26,7 @@ translations:
           Сейчас вы просматриваете опрос в режиме только для чтения.
     - key: general.survey_read_only_back
       t: >
-          <a href="${link}">Вернитесь</a> на главную страницу опроса, чтобы начать или возобновить сессию.
+          <a href="{link}">Вернитесь</a> на главную страницу опроса, чтобы начать или возобновить сессию.
 
     # surveys
     - key: general.open_surveys
@@ -66,7 +66,7 @@ translations:
     - key: general.privacy_policy
       t: Политика конфиденциальности
     - key: general.leave_issue
-      t: Есть вопрос? Нашли ошибку? <a href="${link}" target="_blank">Создайте ишью</a>.
+      t: Есть вопрос? Нашли ошибку? <a href="{link}" target="_blank">Создайте ишью</a>.
     - key: general.emoji_icons
       t: Эмодзи-иконки от <a target="_blank" rel="noreferrer" href="https://icons8.com">Icons8</a>
 
@@ -132,12 +132,12 @@ translations:
 
     # other
     - key: general.join_discord
-      t: Заходите к нам в <a href="${link}">Discord-чат</a>.
+      t: Заходите к нам в <a href="{link}">Discord-чат</a>.
     - key: general.translator_mode
       t: Нажмите option/alt, чтобы активировать режим переводчика.
 
     - key: general.charts_nivo
-      t: Визуализация данных сделана с помощью <a href="${link}">Nivo</a>.
+      t: Визуализация данных сделана с помощью <a href="{link}">Nivo</a>.
 
     ###########################################################################
     # Nav
@@ -533,6 +533,32 @@ translations:
       t: Развлечения
     - key: options.industry_sector.consulting
       t: Консалтинг и услуги
+    - key: options.industry_sector.travel
+      t: Путешествия
+    - key: options.industry_sector.insurance
+      t: Страхование
+    - key: options.industry_sector.logistics
+      t: Логистика
+    - key: options.industry_sector.energy
+      t: Энергетика
+    - key: options.industry_sector.telecommunications
+      t: Телекоммуникационный сектор
+    - key: options.industry_sector.student
+      t: Я студент
+    - key: options.industry_sector.hospitality
+      t: Сфере обслуживания
+    - key: options.industry_sector.cyber_security
+      t: Кибербезопасность
+    - key: options.industry_sector.construction
+      t: Строительство
+    - key: options.industry_sector.automotive
+      t: Автомобильная промышленность
+    - key: options.industry_sector.agriculture
+      t: Сельское хозяйство
+    - key: options.industry_sector.transport
+      t: Транспортный сектор
+    - key: options.industry_sector.manufacturing
+      t: Производственный сектор
 
     ###########################################################################
     # Tools
@@ -677,7 +703,7 @@ translations:
       t: Другие ответы (поле со свободной формой ответа).
 
     - key: tools_others.non_js_languages
-      t: Языки, помимо JavaScript
+      t: Языки помимо JavaScript
     - key: tools_others.non_js_languages.description
       t: На каких языках программирования вы ещё пишете?
     - key: tools_others.non_js_languages.others

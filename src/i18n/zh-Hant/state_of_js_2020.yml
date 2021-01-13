@@ -17,24 +17,24 @@ translations:
 
             <span class="first-letter">儘</span>管 2020 年不是那麼順遂，整體來說 JavaScript 仍舊持續向上發展。Optional Chaining 和 Nullish Coalescing 這些新功能持續釋出，另一方面 TypeScript 將靜態型別的應用推展至新的境界。
 
-            接著看到框架，正當我們認為事情不會有什麼變動時，Svelte 展露頭角，誓言撼動前端開發的現狀。甚至連 Webpack 獨霸多年的建置工具界，最近也頻頻有新的活動。
+            接著看到框架，正當我們認為事情不會有什麼變動時，Svelte 展露頭角，誓言撼動前端開發的現狀。甚至連 webpack 獨霸多年的建置工具界，最近也頻頻有新的活動。
 
-            但俗話說得好，薑還是老得辣。Svelte 和 Snowpack 讓人眼睛一亮，但 React 和 Webpack 仍舊十分耀眼。新的技術很酷，但既有的工具也不會那麼快消失。當然，未來某一天它們終將被劇烈變動的 JavaScript 埋沒，化為時代的眼淚。不過，或許在那天到來之前我們還有得等。
+            但俗話說得好，薑還是老得辣。Svelte 和 Snowpack 讓人眼睛一亮，但 React 和 webpack 仍舊十分耀眼。新的技術很酷，但既有的工具也不會那麼快消失。當然，未來某一天它們終將被劇烈變動的 JavaScript 埋沒，化為時代的眼淚。不過，或許在那天到來之前我們還有得等。
 
             那，不如珍視我們目前有的吧：良好、持續進步的生態圈！
 
             ### 團隊
 
-            State of JavaScript Survey 由 [Sacha Greif](https://twitter.com/sachagreif) 與 [Raphaël Benitte](https://twitter.com/benitteraphael) 共同發起與維護。
+            JavaScript 現況調查由 [Sacha Greif](https://twitter.com/sachagreif) 與 [Raphaël Benitte](https://twitter.com/benitteraphael) 共同發起與維護。
 
             ### 下載資料
 
-            你可以[下載本次調查的原始 JSON 資料](https://www.kaggle.com/sachag/state-of-js)。如果你也對這些資料作了視覺化，歡迎讓我們知道！
+            本次調查提供[原始 JSON 資料下載](https://www.kaggle.com/sachag/state-of-js)。如果你以此做出自己的資料視覺化，跟我們說一聲吧！
 
             ### 相關連結
 
-            - [State of CSS Homepage](https://stateofcss.com)
-            - [State of JS Homepage](https://stateofjs.com)
+            - [CSS 現況調查首頁](https://stateofcss.com)
+            - [JS 現況調查首頁](https://stateofjs.com)
 
             ### 致謝
 
@@ -42,7 +42,7 @@ translations:
 
             ### 其他資訊
 
-            本站架設於 IBM Plex Mono。有任何問題或意見回饋嗎？[聯絡我們！](mailto:hello@stateofjs.com)
+            此網站使用 IBM Plex Mono。有問題或回饋嗎？[立刻聯繫！](mailto:hello@stateofjs.com)
 
             接下來就讓我們一起瞧瞧 JavaScript 今年在忙些什麼吧！
 
@@ -118,7 +118,7 @@ translations:
 
     - key: sections.build_tools.description
       t: |
-          正當我們覺得 Webpack 稱霸建置工具界時，像是 Snowpack and ESBuild 這些新工具百花齊放，於是我們決定從 2017 年以來，第一次給他們專屬的調查欄位。
+          正當我們覺得 webpack 稱霸建置工具界時，像是 Snowpack and esbuild 這些新工具百花齊放，於是我們決定從 2017 年以來，第一次給他們專屬的調查欄位。
 
     - key: sections.mobile_desktop.description
       t: |
@@ -159,20 +159,19 @@ translations:
     ###########################################################################
 
     # - key: award.feature_adoption_delta_award.comment
-    #   t: With a **${value}** progression in 2020, this was the year CSS Grid crossed over from new technology to established tool.
+    #   t: With a **{value}** progression in 2020, this was the year CSS Grid crossed over from new technology to established tool.
 
     - key: award.tool_usage_delta_award.comment
       t: TypeScript 早已是一時之選，而看來它會變得更普遍、無所不在。
 
     - key: award.tool_satisfaction_award.comment
-      t: 有著超高的 **${value}** 滿意度，Testing Library 無疑是 2020 年最受喜愛的工具。
+      t: 有著超高的 **{value}** 滿意度，Testing Library 無疑是 2020 年最受喜愛的工具。
 
     - key: award.tool_interest_award.comment
       t: 只要開發者有時間進修，GraphQL 依舊是他們的首選。
 
     # - key: award.most_write_ins_award.comment
-    #   t: Many questions also accepted write-in answers, and with **${value}** mentions PhpStorm was the most popular item overall.
-
+    #   t: Many questions also accepted write-in answers, and with **{value}** mentions    PhpStorm was the most popular item overall.
 
     ###########################################################################
     # Conclusion
@@ -180,7 +179,7 @@ translations:
 
     - key: sections.conclusion.description
       t: |
-            自古以來，哲學家便在思考一則 JavaScript 悖論：一方面，我們這些開發者迫不及待想使用新的功能，以及宣稱能夠大幅改善開發體驗的新套件。但另一方面，我們卻又嚮往穩定、簡單的工具，不想浪費時間查看 GitHub issue 或過時的 Stack Overflow 問題。
+            自古以來，哲學家便在思考一則 JavaScript 悖論：一方面，我們這些開發者迫不及待想使用新的功能，以及宣稱能夠大幅改善開發體驗的新套件。但另一方面，我們卻又嚮往穩定、簡單的工具，不想浪費時間查看 GitHub issue 或過時的 Stack Overflow 問題。
 
             怎麼辦？我們要用潮到出水的新技術，還是選安定可靠的舊工具？前所未見地，2020 年的調查顯示我們「全都要」。不過，好消息是，JavaScript 社群已經準備好迎接這項挑戰，讓我們一同期待 2021 年到來吧！
 

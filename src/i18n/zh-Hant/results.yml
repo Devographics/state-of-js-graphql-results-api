@@ -16,7 +16,7 @@ translations:
       t: CSS 現況調查
 
     - key: general.netlify_link
-      t: 存放在 <a href="${link}">Netlify</a>。
+      t: 存放在 <a href="{link}">Netlify</a>。
 
     - key: general.completion_percentage
       t: '完成百分比：'
@@ -100,6 +100,11 @@ translations:
       t: >
         這份調查是我們的閒暇專案。為了讓它可以持續進行，也持續徵求可以幫助我們的伙伴。不管是資金或幫忙宣傳都可以。如果你有任何可以幫助的方式，請[立即聯繫](mailto:hello@stateofjs.com)！
 
+    - key: sections.awards.title
+      t: 獎項
+    - key: sections.awards.description
+      t: 今年令人矚目的事情。
+
     ###########################################################################
     # User Info
     ###########################################################################
@@ -120,6 +125,8 @@ translations:
 
     - key: options.locale.en-US
       t: English
+    - key: options.locale.ca-ES
+      t: Catalan
     - key: options.locale.es-ES
       t: Spanish
     - key: options.locale.ru-RU
@@ -146,6 +153,16 @@ translations:
       t: Indonesian
     - key: options.locale.hi-IN
       t: Hindi
+    - key: options.locale.zh-Hans
+      t: Chinese (Simplified)
+    - key: options.locale.ja-JP
+      t: Japanese
+    - key: options.locale.ua-UA
+      t: Ukrainian
+    - key: options.locale.pl-PL
+      t: Polish
+    - key: options.locale.fa-IR
+      t: Farsi
 
     ###########################################################################
     # Features
@@ -159,6 +176,12 @@ translations:
       t: CanIUse
     - key: features.specification_link
       t: W3C 規格
+
+    # knowledge score
+    - key: features.knowledge_score
+      t: 知道的功能
+    - key: features.knowledge_score.description
+      t: 答題者知道多少問卷中提及的功能？
 
     ###########################################################################
     # Tools & Methodologies
@@ -224,6 +247,8 @@ translations:
       t: |
         這張圖表是每個技術根據**總使用者數量**顯示**有興趣比例**（定義是答題者知道某個技術，但*尚未*使用）。
 
+        （附帶一提：使用者數量很少的原因是未知技術，或已經有很多答題者已經在使用該技術。）
+
     # category other tools
     - key: blocks.category_other_tools.title
       t: 其他工具
@@ -232,9 +257,9 @@ translations:
 
     # tool experience
     - key: blocks.tool_experience.title
-      t: ${name} 體驗
+      t: '{name} 體驗'
     - key: blocks.tool_experience.description
-      t: 填答者的 ${name} 體驗。
+      t: 填答者的 {name} 體驗。
 
     # tool positive/negative split ("marimekko" chart)
     - key: blocks.tools_experience_marimekko.title
@@ -271,10 +296,10 @@ translations:
       t: |
         少於 10% 聽過的技術不算在內。每個比例的根據：
 
-        - 滿意度： **還會再用** vs **不會再用**。
-        - 有興趣：**想要學** vs **沒興趣**。
-        - 實際使用：**還會再用** + **不會再用** vs 有聽過。
-        - 有聽過：全部 - **沒聽過**。
+        - 滿意度： **還會再用** / (**還會再用** + **不會再用**)
+        - 有興趣：**想要學** / (**想要學** + **沒興趣**)
+        - 實際使用：(**還會再用** + **不會再用**) / **全部**
+        - 有聽過：(**全部** - **沒聽過**) / **全部**
 
     # happiness
     - key: blocks.happiness.title
@@ -306,7 +331,7 @@ translations:
     - key: export.export
       t: 輸出
     - key: export.title
-      t: 輸出 ${title} 的資料
+      t: 輸出 {title} 的資料
     - key: export.nocsv
       t: 抱歉，這組資料還沒有辦法輸出 CSV。
     - key: export.graphql
@@ -384,19 +409,19 @@ translations:
     - key: share.share
       t: 分享
     - key: share.site.title
-      t: 探索 CSS 現況調查 2020 結果
+      t: 探索 {siteTitle} 現況調查結果
     - key: share.site.twitter_text
-      t: '探索 CSS 現況調查 2020 結果 ${link} #StateOfCSS'
+      t: '探索 {siteTitle} 現況調查 結果 {link} {hashtag}'
     - key: share.site.subject
-      t: JavaScript 現況調查結果
+      t: '{siteTitle} 現況調查結果'
     - key: share.site.body
-      t: 'CSS 現況調查的有趣結果看這裡：${link}'
+      t: '{siteTitle} 現況調查的有趣結果看這裡：{link}'
     - key: share.block.twitter_text
-      t: '#StateOfCSS 2020: ${title} ${link}'
+      t: '{hashtag} {year}: {title} {link}'
     - key: share.block.subject
-      t: CSS 現況調查結果
+      t: '{siteTitle} 現況調查結果'
     - key: share.block.body
-      t: 'CSS 現況調查的有趣結果看這裡 (${title}): ${link}'
+      t: '{siteTitle} 現況調查的有趣結果看這裡 ({title}): {link}'
     - key: share.twitter
       t: 分享至 Twitter
     - key: share.facebook
@@ -443,7 +468,7 @@ translations:
     - key: award.tool_interest_award.title
       t: 最有興趣
     - key: award.tool_interest_award.description
-      t: 頒發給開發者們最有興趣學習的技術。
+      t: 頒發給開發者聽過後，最有興趣學習的技術。
 
     - key: award.resource_usage_award.title
       t: 最多使用的資源
@@ -459,3 +484,39 @@ translations:
       t: 最多自行填答
     - key: award.most_write_ins_award.description
       t: 頒發給最多自行填答的項目。
+
+    ###########################################################################
+    # Hints
+    ###########################################################################
+
+    - key: hints.hint_hint
+      t: >
+          整份調查問卷結果都有這樣的小提示，會顯示額外的功能和細節。
+
+    - key: hints.units_switcher_hint
+      t: >
+          每區右上角的分段控制器（segmented control）可以切換顯示百分比或原始計數。
+
+    - key: hints.export_hint
+      t: >
+          每區上方的<span class="hint-export-button">匯出</span>按鈕可以取得圖表的原始 JSON 資料或 GraphQL query。
+
+    - key: hints.completion_hint
+      t: >
+          問題都是選填，所以有些回答數可能比較少。完成比例圖示（<span class="hint-completion-indicator">◕</span>）會註明確切的答題人數。
+
+    - key: hints.tool_modal_hint
+      t: >
+          點選技術的名稱後，可以看到更多細節，並深入檢視相關資料。
+
+    - key: hints.rankings_modes_hint
+      t: >
+          自由勾選排名圖表是否顯示滿意度、有興趣、實際使用、有聽過比例，使各類別的排名一目了然。
+
+    - key: hints.sharing_hint
+      t: >
+          科學研究顯示，透過 Twitter、Facebook 或 email 分享本研究調查，最高可以讓 JavaScript 功力增加 15%。
+
+    - key: hints.tshirt_hint
+      t: >
+          另一項科學研究發現：購買我們的 T-shirt 可以讓 JavaScript 知識增加 9000 分！

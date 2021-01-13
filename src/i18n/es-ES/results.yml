@@ -16,7 +16,7 @@ translations:
       t: Estado de CSS
 
     - key: general.netlify_link
-      t: Alojado por <a href="${link}">Netlify</a>.
+      t: Alojado por <a href="{link}">Netlify</a>.
 
     - key: general.completion_percentage
       t: 'Porcentaje completado:'
@@ -109,6 +109,8 @@ translations:
 
     - key: options.locale.en-US
       t: Inglés
+    - key: options.locale.ca-ES
+      t: Catalán
     - key: options.locale.es-ES
       t: Español
     - key: options.locale.ru-RU
@@ -135,6 +137,8 @@ translations:
       t: Indonesio
     - key: options.locale.hi-IN
       t: Hindi
+    - key: options.locale.pl-PL
+      t: Polaco
 
     ###########################################################################
     # Features
@@ -227,9 +231,9 @@ translations:
 
     # tool experience
     - key: blocks.tool_experience.title
-      t: ${name} Experiencia en el Tiempo
+      t: '{name} Experiencia en el Tiempo'
     - key: blocks.tool_experience.description
-      t: Experiencia con ${name}.
+      t: Experiencia con {name}.
 
     # tools section streams
     - key: blocks.tools_section_streams.title
@@ -290,7 +294,7 @@ translations:
     - key: export.export
       t: Exportar
     - key: export.title
-      t: Exportar información para ${title}
+      t: Exportar información para {title}
     - key: export.nocsv
       t: Lo sentimo pero no está disponible exportar a CSV para estos datos.
     - key: export.graphql
@@ -340,19 +344,19 @@ translations:
     - key: share.share
       t: Compartir
     - key: share.site.title
-      t: Descubra los resultados del Estado de CSS 2020
+      t: Descubra los resultados de {siteTitle}
     - key: share.site.twitter_text
-      t: 'Descubra los resultados del Estado de CSS 2020 ${link} #StateOfCSS'
+      t: 'Descubra los resultados de {siteTitle} {link} {hashtag}'
     - key: share.site.subject
-      t: Resultados de la Encuesta sobre el Estado de JavaScript
+      t: Resultados de la Encuesta {siteTitle}
     - key: share.site.body
-      t: 'Aquí hay algunos resultados interesantes sobre la encuesta de CSS: ${link}'
+      t: 'Aquí hay algunos resultados interesantes de una encuesta: {link}'
     - key: share.block.twitter_text
-      t: '#StateOfCSS 2020: ${title} ${link}'
+      t: '{hashtag} {year}: {title} {link}'
     - key: share.block.subject
-      t: Resultados de la Encuesta sobre el Estado de CSS
+      t: Resultados de la Encuesta {siteTitle}
     - key: share.block.body
-      t: 'Aquí hay algunos resultados interesantes sobre la encuesta de CSS (${title}): ${link}'
+      t: 'Aquí hay algunos resultados interesantes de una encuesta ({title}): {link}'
     - key: share.twitter
       t: Compartir en Twitter
     - key: share.facebook

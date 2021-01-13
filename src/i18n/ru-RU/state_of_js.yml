@@ -39,52 +39,57 @@ translations:
     - key: sections.browser_apis.title
       t: API браузера
     - key: sections.browser_apis.description
-      t: Встроенные возможности браузера
+      t: Встроенные возможности браузера.
 
     - key: sections.other_features.title
       t: Другие возможности
     - key: sections.other_features.description
-      t: Другие технологии и паттерны
+      t: Другие технологии и паттерны.
 
     - key: sections.patterns.title
       t: Паттерны
     - key: sections.patterns.description
-      t: Как вы пишете код
+      t: Как вы пишете код.
 
     - key: sections.javascript_flavors.title
       t: Разновидности JavaScript
     - key: sections.javascript_flavors.description
-      t: Языки, компилируемые в JavaScript
+      t: Языки, компилируемые в JavaScript.
 
     - key: sections.front_end_frameworks.title
       t: Фронтенд-фреймворки
     - key: sections.front_end_frameworks.description
-      t: Фронтенд-фреймворки и библиотеки
+      t: Фронтенд-фреймворки и библиотеки.
 
     - key: sections.datalayer.title
       t: Слой доступа к данным
     - key: sections.datalayer.description
-      t: Загрузка и управление данными в приложении
+      t: Загрузка и управление данными в приложении.
 
     - key: sections.back_end_frameworks.title
       t: Бэкенд-фреймворки
     - key: sections.back_end_frameworks.description
-      t: JavaScript на сервере
+      t: JavaScript на сервере.
 
     - key: sections.testing.title
       t: Тестирование
     - key: sections.testing.description
-      t: Инструменты для тестирования кода
+      t: Инструменты для тестирования кода.
 
     - key: sections.mobile_desktop.title
       t: Мобильные устройства и десктоп
     - key: sections.mobile_desktop.description
-      t: JavaScript для мобильных устройств и десктопные приложения
+      t: JavaScript для мобильных устройств и десктопные приложения.
 
     - key: sections.build_tools.title
       t: Сборщики
     - key: sections.build_tools.description
-      t: Компиляция и сборка кода
+      t: Компиляция и сборка кода.
+
+    - key: sections.tools_others.title
+      t: Другие инструменты
+    - key: sections.tools_others.description
+      t: Другие JavaScript-инструменты.
 
     ###########################################################################
     # Options

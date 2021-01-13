@@ -4,14 +4,15 @@
 #import "./countries.graphql"
 #import "./entity.graphql"
 #import "./features.graphql"
+#import "./features_others.graphql"
 #import "./github.graphql"
 #import "./matrices.graphql"
 #import "./mdn.graphql"
 #import "./opinions.graphql"
-#import "./other_features.graphql"
-#import "./other_tools.graphql"
 #import "./resources.graphql"
 #import "./tools.graphql"
+#import "./tools_others.graphql"
+#import "./tools_cardinality_by_user.graphql"
 #import "./translations.graphql"
 #import "./environments.graphql"
 #import "./proficiency.graphql"
@@ -51,6 +52,14 @@ type Survey @cacheControl(maxAge: 600) {
     Rankings (awareness, interest, satisfaction) for a range of tools
     """
     tools_rankings(ids: [ToolID]!): ToolsRankings
+    """
+    Cardinality By User (by-users tool count breakdown for a specific set of tools and specific criteria)
+    """
+    tools_cardinality_by_user(
+        year: Int!,
+        ids: [ToolID]!,
+        experienceId: ExperienceID!
+    ): [ToolsCardinalityByUser] @cacheControl(maxAge: 600)
     """
     Usage results for a specific feature
     """

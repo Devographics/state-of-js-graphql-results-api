@@ -16,7 +16,7 @@ translations:
       t: State of CSS
 
     - key: general.netlify_link
-      t: Hosted by <a href="${link}">Netlify</a>.
+      t: Hosted by <a href="{link}">Netlify</a>.
 
     - key: general.completion_percentage
       t: 'Completion percentage:'
@@ -128,6 +128,8 @@ translations:
 
     - key: options.locale.en-US
       t: English
+    - key: options.locale.ca-ES
+      t: Catalan
     - key: options.locale.es-ES
       t: Spanish
     - key: options.locale.ru-RU
@@ -160,6 +162,10 @@ translations:
       t: Japanese
     - key: options.locale.ua-UA
       t: Ukrainian
+    - key: options.locale.pl-PL
+      t: Polish
+    - key: options.locale.fa-IR
+      t: Farsi
 
     ###########################################################################
     # Features
@@ -228,6 +234,29 @@ translations:
     - key: blocks.entity.github_link
       t: GitHub
 
+    # cardinality
+    - key: blocks.all_sections_tools_cardinality_by_user.title
+      t: Technology Usage Cardinality
+    - key: blocks.all_sections_tools_cardinality_by_user.description
+      t: For each section, which percentage of respondents use (defined as having answered “would use again”) one, two, three, etc. technologies.
+
+    - key: blocks.front_end_frameworks_tools_cardinality_by_user.title
+      t: Technology Usage Cardinality
+    - key: blocks.front_end_frameworks_tools_cardinality_by_user.description
+      t: Which percentage of respondents use (defined as having answered “would use again”) one, two, three, etc. items in this section.
+
+    # tools arrows
+    - key: blocks.tools_arrows.title
+      t: Changes Over Time
+    - key: blocks.tools_arrows.description
+      t: |
+          Each line goes from 2016 to 2020. A higher point means a technology has been used by more people,
+          and a point further to the right means more users want to learn it; or have used it and would use it again. 
+    - key: blocks.tools_arrows.note
+      t: |
+          - Some lines skip years.
+          - Technologies with only one year of data are not shown. 
+
     # tools quadrant
     - key: blocks.tools_quadrant.title
       t: Satisfaction vs Usage
@@ -243,6 +272,8 @@ translations:
           - **AVOID**: Low usage, low satisfaction. Technologies probably best avoided currently.
 
           - **ANALYZE**: High usage, low satisfaction. Reassess these technologies if you're currently using them.
+    - key: blocks.tools_quadrant.satisfaction.note
+      t: Note that TypeScript appears twice in the chart because it's included in both the JavaScript Flavors and Build Tools sections. 
 
     - key: blocks.tools_quadrant.interest.description
       t: |
@@ -258,9 +289,9 @@ translations:
 
     # tool experience
     - key: blocks.tool_experience.title
-      t: ${name} Experience
+      t: '{name} Experience'
     - key: blocks.tool_experience.description
-      t: Respondent's experience with ${name}.
+      t: Respondent's experience with {name}.
 
     # tool positive/negative split ("marimekko" chart)
     - key: blocks.tools_experience_marimekko.title
@@ -343,7 +374,7 @@ translations:
     - key: export.export
       t: Export
     - key: export.title
-      t: Export data for ${title}
+      t: Export data for {title}
     - key: export.nocsv
       t: Sorry, CSV export is not available for this dataset.
     - key: export.graphql
@@ -416,6 +447,16 @@ translations:
     - key: charts.ranges_multiple_diverging_lines.negative_offset
       t: negative offset
 
+
+    - key: charts.tools_arrows.negative_opinion
+      t: Negative opinions
+    - key: charts.tools_arrows.positive_opinion
+      t: Positive opinions
+    - key: charts.tools_arrows.have_not_used
+      t: Have not used
+    - key: charts.tools_arrows.have_used
+      t: Have used
+
     ###########################################################################
     # Sharing
     ###########################################################################
@@ -423,19 +464,19 @@ translations:
     - key: share.share
       t: Share
     - key: share.site.title
-      t: Discover the StateOf CSS 2020 results
+      t: Discover the {siteTitle} results
     - key: share.site.twitter_text
-      t: 'Discover the State Of CSS 2020 results ${link} #StateOfCSS'
+      t: 'Discover the {siteTitle} results {link} {hashtag}'
     - key: share.site.subject
-      t: State Of JavaScript Survey Results
+      t: '{siteTitle} Survey Results'
     - key: share.site.body
-      t: 'Here are some interesting CSS survey results: ${link}'
+      t: 'Here are some interesting survey results: {link}'
     - key: share.block.twitter_text
-      t: '#StateOfCSS 2020: ${title} ${link}'
+      t: '{hashtag} {year}: {title} {link}'
     - key: share.block.subject
-      t: State Of CSS Survey Results
+      t: '{siteTitle} Survey Results'
     - key: share.block.body
-      t: 'Here are some interesting CSS survey results (${title}): ${link}'
+      t: 'Here are some interesting survey results ({title}): {link}'
     - key: share.twitter
       t: Share on Twitter
     - key: share.facebook
@@ -482,7 +523,7 @@ translations:
     - key: award.tool_interest_award.title
       t: Highest Interest
     - key: award.tool_interest_award.description
-      t: Awarded to the technology developers are most interested in learning once they know about it.
+      t: Awarded to the technology developers are most interested in learning once they are aware of it.
 
     - key: award.resource_usage_award.title
       t: Most Used Resource

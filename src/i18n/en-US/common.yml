@@ -26,7 +26,7 @@ translations:
           You are currently viewing this survey in read-only mode.
     - key: general.survey_read_only_back
       t: >
-          <a href="${link}">Go back</a> to the main survey page to start or resume a session.
+          <a href="{link}">Go back</a> to the main survey page to start or resume a session.
 
     # surveys
     - key: general.open_surveys
@@ -68,7 +68,7 @@ translations:
     - key: general.privacy_policy
       t: Privacy Policy
     - key: general.leave_issue
-      t: Questions? Found a bug? <a href="${link}" target="_blank">Leave an issue</a>.
+      t: Questions? Found a bug? <a href="{link}" target="_blank">Leave an issue</a>.
     - key: general.emoji_icons
       t: Emoji icons by <a target="_blank" rel="noreferrer" href="https://icons8.com">Icons8</a>
 
@@ -133,11 +133,11 @@ translations:
 
     # other
     - key: general.join_discord
-      t: Join us on <a href="${link}">Discord</a>. 
+      t: Join us on <a href="{link}">Discord</a>. 
     - key: general.translator_mode
       t: Press option/alt to enable translator mode. 
     - key: general.charts_nivo
-      t: Charts built with <a href="${link}">Nivo</a>.
+      t: Charts built with <a href="{link}">Nivo</a>.
       
     ###########################################################################
     # Nav
@@ -176,6 +176,9 @@ translations:
       t: Other Tools
     - key: sections.other_tools.description
       t: For these tools & technologies, just check the ones that you use regularly.
+
+    - key: sections.report.title
+      t: Trend Report
 
     ###########################################################################
     # Options
@@ -530,6 +533,32 @@ translations:
       t: Entertainment
     - key: options.industry_sector.consulting
       t: Consulting & Services
+    - key: options.industry_sector.travel
+      t: Travel
+    - key: options.industry_sector.insurance
+      t: Insurance
+    - key: options.industry_sector.logistics
+      t: Logistics
+    - key: options.industry_sector.energy
+      t: Energy
+    - key: options.industry_sector.telecommunications
+      t: Telecommunications
+    - key: options.industry_sector.student
+      t: Student
+    - key: options.industry_sector.hospitality
+      t: Hospitality
+    - key: options.industry_sector.cyber_security
+      t: Cyber Security
+    - key: options.industry_sector.construction
+      t: Construction
+    - key: options.industry_sector.automotive
+      t: Automotive
+    - key: options.industry_sector.agriculture
+      t: Agriculture
+    - key: options.industry_sector.transport
+      t: Transport
+    - key: options.industry_sector.manufacturing
+      t: Manufacturing
 
     ###########################################################################
     # Tools

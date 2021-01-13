@@ -1,0 +1,259 @@
+locale: ko-KR
+namespace: js
+translations:
+    ###########################################################################
+    # General
+    ###########################################################################
+
+    - key: general.survey_intro_js2019
+      t: >
+          자바스크립트 월드에서는 얼마의 분류가 필요합니다.
+
+
+          2016년부터 이 설문조사는 매년 20,000명이 넘는 개발자로부터 데이터를 수집하여 현재와 향후의 트렌드를 파악하고 있습니다.
+
+
+          설문조사에 참여하여 개발자들이 어떤 라이브러리들을 다음에 배우고 싶어하는지, 어떤 것이 가장 만족스러운지, 그 외 많은 것들을 알 수 있도록 도와 주십시오.
+
+    ###########################################################################
+    # Sections
+    ###########################################################################
+
+    - key: sections.syntax.title
+      t: 구문
+    - key: sections.syntax.description
+      t: 자바스크립트의 문법입니다.
+
+    - key: sections.language.title
+      t: 언어
+    - key: sections.language.description
+      t: 자바스크립트의 어휘들입니다.
+
+    - key: sections.data_structures.title
+      t: 자료 구조
+    - key: sections.data_structures.description
+      t: 데이터를 저장하고 조작하는 방법들입니다.
+
+    - key: sections.browser_apis.title
+      t: 브라우저 API
+    - key: sections.browser_apis.description
+      t: 브라우저에서 제공하는 기능입니다.
+
+    - key: sections.other_features.title
+      t: 기타 기능
+    - key: sections.other_features.description
+      t: 기타 기술과 패턴들입니다.
+
+    - key: sections.patterns.title
+      t: 패턴
+    - key: sections.patterns.description
+      t: 선호하는 코드 작성 방식
+
+    - key: sections.javascript_flavors.title
+      t: 자바스크립트 취향
+    - key: sections.javascript_flavors.description
+      t: 자바스크립트로 컴파일되는 언어들
+
+    - key: sections.front_end_frameworks.title
+      t: 프론트엔드 프레임워크
+    - key: sections.front_end_frameworks.description
+      t: 프론트엔드 프레임워크와 라이브러리
+
+    - key: sections.datalayer.title
+      t: 데이터 계층
+    - key: sections.datalayer.description
+      t: 앱에서 데이터를 가져오고 관리하기
+
+    - key: sections.back_end_frameworks.title
+      t: 백엔드 프레임워크
+    - key: sections.back_end_frameworks.description
+      t: 서버에서의 자바스크립트
+
+    - key: sections.testing.title
+      t: 테스팅
+    - key: sections.testing.description
+      t: 코드를 테스팅하는 도구
+
+    - key: sections.mobile_desktop.title
+      t: 모바일 & 데스크탑
+    - key: sections.mobile_desktop.description
+      t: 모바일 장치와 데스크탑 앱을 위한 자바스크립트
+
+    - key: sections.build_tools.title
+      t: 빌드 도구
+    - key: sections.build_tools.description
+      t: 코드 컴파일링 & 번들링
+
+    - key: sections.tools_others.title
+      t: 기타 도구
+    - key: sections.tools_others.description
+      t: 기타 자바스크립트 도구
+
+    ###########################################################################
+    # Options
+    ###########################################################################
+
+    ###########################################################################
+    # Features
+    ###########################################################################
+
+    # syntax
+    - key: features.destructuring
+      t: 구조 분해
+    - key: features.destructuring.description
+      t: '예제: `const { foo } = bar`'
+    - key: features.spread_operator
+      t: 스프레드 연산자
+    - key: features.spread_operator.description
+      t: '예제: `[...array1, ...array2]`'
+    - key: features.arrow_functions
+      t: 화살표 함수
+    - key: features.arrow_functions.description
+      t: '예제: `const foo = () => {}`'
+    - key: features.nullish_coalescing
+      t: Nullish Coalescing (Null 병합)
+    - key: features.nullish_coalescing.description
+      t: >
+        예제: `const foo = 0 ?? 42`
+    - key: features.optional_chaining
+      t: 옵셔널 체이닝
+    - key: features.optional_chaining.description
+      t: >
+        예제: `const dogName = adventurer.dog?.name`
+    - key: features.private_fields
+      t: Private Fields
+    - key: features.private_fields.description
+      t: >
+        예제: `class ClassWithPrivateField { #privateField }`
+
+    # language
+    - key: features.proxies
+      t: Proxy (프록시)
+    - key: features.async_await
+      t: Async/Await
+    - key: features.promises
+      t: Promise (프로미스)
+    - key: features.decorators
+      t: Decorator (데코레이터)
+    - key: features.decorators.description
+      t: >
+          가장 간단한 형태에서, 데코레이터는 단순히 코드 조각 하나를 다른 코드 조각으로 감싸는 방식입니다. 문자 그대로 "장식(데코레이팅)"하는 방식이죠.
+    - key: features.dynamic_import
+      t: Dynamic Import (동적 모듈 가져오기)
+    - key: features.dynamic_import.description
+      t: >
+        예제: <code>await import('/modules/my-module.js')</code>
+
+    # data structures
+    - key: features.maps
+      t: Maps
+    - key: features.sets
+      t: Sets
+    - key: features.typed_arrays
+      t: Typed Arrays
+    - key: array_prototype_flat
+      t: Array.prototype.flat
+
+    # browser apis
+    - key: features.service_workers
+      t: 서비스 워커
+    - key: features.local_storage
+      t: 로컬스토리지
+    - key: features.i18n
+      t: 국제화 (i18n)
+    - key: features.web_components
+      t: 웹 컴포넌트
+    - key: features.web_audio
+      t: 웹 오디오 API
+    - key: features.webgl
+      t: WebGL
+    - key: features.web_animations
+      t: 웹 애니메이션 API
+    - key: features.webrtc
+      t: WebRTC
+    - key: features.web_speech
+      t: Web Speech API
+    - key: features.webvr
+      t: WebVR
+    - key: features.websocket
+      t: 웹소켓
+    - key: features.fetch
+      t: Fetch API
+
+    # other features
+    - key: features.pwa
+      t: 프로그레시브 웹 앱 (PWA)
+    - key: features.wasm
+      t: 웹어셈블리 (WASM)
+
+    # patterns
+    - key: patterns.object_oriented_programming
+      t: 객체 지향 프로그래밍 (OOP)
+    - key: features.functional_programming
+      t: 함수형 프로그래밍
+    - key: features.reactive_programming
+      t: 반응형 프로그래밍
+
+    ###########################################################################
+    # Tools
+    ###########################################################################
+
+    - key: tools.angular.description
+      t: >
+        참고: 이 질문은 오직 [Angular](https://angular.io/) 경험만을 대상으로 하며,
+        특히 더 이상 사용되지 않는 [AngularJS](https://angularjs.org/) 에는 적용되지 *않습니다*.
+   
+    ###########################################################################
+    # Other Tools
+    ###########################################################################
+
+    - key: tools_others.runtimes
+      t: 자바스크립트 런타임
+    - key: tools_others.runtimes.description
+      t: 어느 엔진/런타임/실행 환경을 주로 사용하나요?
+    - key: tools_others.runtimes.others
+      t: 기타 런타임
+    - key: tools_others.runtimes.others.description
+      t: 기타 대답 (자유 입력).
+
+    - key: tools_others.package_registries
+      t: 패키지 저장소
+    - key: tools_others.package_registries.description
+      t: 주로 어느 패키지 저장소에서 패키지를 가져오나요?
+    - key: tools_others.package_registries.others
+      t: 기타 패키지 Other Package Registries
+    - key: tools_others.package_registries.others.description
+      t: 기타 대답 (자유 입력).
+
+    ###########################################################################
+    # Opinions
+    ###########################################################################
+
+    - key: opinions.js_moving_in_right_direction
+      t: 자바스크립트는 올바른 방향으로 나아가는 중이다
+
+    - key: opinions.building_js_apps_overly_complex
+      t: 현재 자바스크립트 앱 제작은 너무 복잡하다
+
+    - key: opinions.js_over_used_online
+      t: 자바스크립트가 온라인에서 과도하게 사용된다
+
+    - key: opinions.enjoy_building_js_apps
+      t: 자바스크립트 앱을 만드는 것을 즐긴다
+
+    - key: opinions.would_like_js_to_be_main_lang
+      t: 자바스크립트가 내 주요 프로그래밍 언어가 되기를 원한다
+
+    - key: opinions.js_ecosystem_changing_to_fast
+      t: 자바스크립트 생태계의 변화는 너무 빠르다
+
+    - key: opinions_others.missing_from_js.others
+      t: 현재 자바스크립트에 무엇이 부족하다고 생각하나요?
+    - key: opinions_others.missing_from_js.others.description
+      t: 언젠가 자바스크립트에서 보고 싶은 기능
+
+    - key: happiness.state_of_the_web
+      t: 일반적인 웹 기술 상태에 대해 얼마나 만족하나요?
+
+    - key: happiness.state_of_js
+      t: 자바스크립트의 일반적인 상태에 대해 얼마나 만족하나요?

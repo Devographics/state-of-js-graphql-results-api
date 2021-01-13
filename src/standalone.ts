@@ -3,12 +3,6 @@ dotenv.config()
 import { MongoClient } from 'mongodb'
 import { inspect } from 'util'
 import {
-    computeParticipationByYear,
-    computeExperienceOverYears,
-    getParticipationByYearMap,
-    computeHappinessByYear,
-    computeToolsExperienceRanking,
-    computeToolsMatrix,
     computeChoicesOverYearsGraph
 } from './compute'
 

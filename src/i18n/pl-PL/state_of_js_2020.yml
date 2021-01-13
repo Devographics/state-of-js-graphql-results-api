@@ -17,9 +17,9 @@ translations:
 
             <span class="first-letter">C</span>hoć rok 2020 był kiepski, JavaScript jako całość wciąż jakoś ruszał się do przodu. Podczas gdy sam język cały czas się rozwija, dzięki funkcjom takim jak Optional Chaining i Nullish Coalescing, powszechna adopcja TypeScript-u podnosi poprzeczkę na całkiem nowy poziom, popularyzując static typing (podczas gdy nie-Javascriptowi developerzy całego świata śmieją się, lub płaczą, po cichu). 
 
-            Jeśli chodzi o frameworki, kiedy już myśleliśmy, że sytuacja się uspokaja, na scenę wkroczył Svelte z obietnicami wstrząśnięcia wszystkim nowym spojrzeniem na front-end. Nawet narzędzia do budowania wykazują oznaki nowej aktywności po latach hegemonii Webpack. 
+            Jeśli chodzi o frameworki, kiedy już myśleliśmy, że sytuacja się uspokaja, na scenę wkroczył Svelte z obietnicami wstrząśnięcia wszystkim nowym spojrzeniem na front-end. Nawet narzędzia do budowania wykazują oznaki nowej aktywności po latach hegemonii webpack. 
 
-            Ale tym razem różnica polega na tym, że „stara” gwardia - właściwie mówiąc - nigdzie się nie wybiera. Svelte i Snowpack są świetne, ale tak samo jak React i Webpack. I oczywiście, oni też w końcu padną ofiarą wielkiego pędu JavaScript, ale jeszcze nie przez wiele, wiele lat. 
+            Ale tym razem różnica polega na tym, że „stara” gwardia - właściwie mówiąc - nigdzie się nie wybiera. Svelte i Snowpack są świetne, ale tak samo jak React i webpack. I oczywiście, oni też w końcu padną ofiarą wielkiego pędu JavaScript, ale jeszcze nie przez wiele, wiele lat. 
 
             Cieszmy się więc tym, co mamy: wspaniałym ekosystemem, który cały czas staje się coraz lepszy!
 
@@ -122,7 +122,7 @@ translations:
 
     - key: sections.build_tools.description
       t: |
-          Gdy wydawało się, że dominacja Webpacka rozstrzygnęła debatę, scena narzędzi do budowania ponownie eksplodowała nowymi uczestnikami, takimi jak Snowpack i ESBuild, co doprowadziło nas do oddania im własnej sekcji po raz pierwszy od 2017 roku.
+          Gdy wydawało się, że dominacja webpacka rozstrzygnęła debatę, scena narzędzi do budowania ponownie eksplodowała nowymi uczestnikami, takimi jak Snowpack i esbuild, co doprowadziło nas do oddania im własnej sekcji po raz pierwszy od 2017 roku.
 
     - key: sections.mobile_desktop.description
       t: |
@@ -162,19 +162,19 @@ translations:
     ###########################################################################
 
     # - key: award.feature_adoption_delta_award.comment
-    #   t: With a **${value}** progression in 2020, this was the year CSS Grid crossed over from new technology to established tool.
+    #   t: With a **{value}** progression in 2020, this was the year CSS Grid crossed over from new technology to established tool.
 
     - key: award.tool_usage_delta_award.comment
       t: TypeScript był już popularny i wygląda na to, że w przyszłości stanie się jeszcze bardziej wszechobecny.
 
     - key: award.tool_satisfaction_award.comment
-      t: Z niebotycznym współczynnikiem zadowolenia **${value}**, Testing Library jest najbardziej lubianym narzędziem w 2020 roku.
+      t: Z niebotycznym współczynnikiem zadowolenia **{value}**, Testing Library jest najbardziej lubianym narzędziem w 2020 roku.
 
     - key: award.tool_interest_award.comment
       t: GraphQL jest nadal tą rzeczą, o której programiści chcą dowiedzieć się więcej, gdy tylko znajdą na to czas.
 
     # - key: award.most_write_ins_award.comment
-    #   t: Many questions also accepted write-in answers, and with **${value}** mentions PhpStorm was the most popular item overall.
+    #   t: Many questions also accepted write-in answers, and with **{value}** mentions PhpStorm was the most popular item overall.
 
     ###########################################################################
     # Conclusion

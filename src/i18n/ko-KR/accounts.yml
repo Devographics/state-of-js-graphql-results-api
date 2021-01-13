@@ -1,0 +1,73 @@
+locale: ko-KR
+translations:
+    - key: accounts.error_incorrect_password
+      t: 비밀번호가 올바르지 않습니다
+    - key: accounts.error_email_required
+      t: 이메일이 필요합니다
+    - key: accounts.error_email_already_exists
+      t: 이메일이 이미 존재합니다
+    - key: accounts.error_invalid_email
+      t: 이메일이 올바르지 않습니다
+    - key: accounts.error_minchar
+      t: 비밀번호가 너무 짧습니다
+    - key: accounts.error_unknown
+      t: 알 수 없는 오류입니다
+    - key: accounts.error_user_not_found
+      t: 사용자를 찾을 수 없습니다
+    - key: accounts.error_username_already_exists
+      t: 사용자 이름이 이미 존재합니다
+    - key: accounts.enter_username_or_email
+      t: 사용자 이름 또는 이메일을 입력하세요
+    - key: accounts.error_internal_server_error
+      t: 내부 서버 오류
+    - key: accounts.error_token_expired
+      t: 올바르지 않은 비밀번호 초기화 토큰입니다
+    - key: accounts.username_or_email
+      t: 사용자 이름 또는 이메일
+    - key: accounts.enter_username
+      t: 사용자 이름을 입력해 주세요
+    - key: accounts.username
+      t: 사용자 이름
+    - key: accounts.enter_email
+      t: 이메일을 입력하세요
+    - key: accounts.email
+      t: 이메일
+    - key: accounts.enter_password
+      t: 비밀번호를 입력하세요
+    - key: accounts.password
+      t: 비밀번호
+    - key: accounts.choose_password
+      t: 비밀번호를 선택하세요
+    - key: accounts.change_password
+      t: 비밀번호 변경
+    - key: accounts.reset_your_password
+      t: 비밀번호 초기화
+    - key: accounts.set_password
+      t: 비밀번호 설정
+    - key: accounts.enter_new_password
+      t: 새 비밀번호를 입력하세요
+    - key: accounts.new_password
+      t: 새 비밀번호
+    - key: accounts.forgot_password
+      t: 비밀번호가 기억나지 않습니다
+    - key: accounts.sign_up
+      t: 가입하기
+    - key: accounts.sign_in
+      t: 로그인
+    - key: accounts.sign_out
+      t: 로그아웃
+    - key: accounts.cancel
+      t: 취소
+    - key: accounts.info_email_sent
+      t: 이메일을 발송하였습니다.
+    - key: accounts.info_password_changed
+      t: 비밀번호가 변경되었습니다.
+    - key: accounts.please_pick_password
+      t: 계속하기 위해 새 비밀번호를 골라주세요.
+    - key: accounts.please_log_in
+      t: 시작하시려면 로그인 하거나 또는 가입해 주세요.
+    - key: accounts.logged_in_as
+      t: '{email} 으로 로그인 됨'
+    - key: accounts.questions
+      t: >
+          우리가 귀하의 정보를 어떻게 사용하는지 궁금하시거나, 또는 우리의 기록에서 귀하의 정보를 제거하시길 원한다면, <a href="mailto:hello@stateofjs.com">이메일로 연락</a>해 주세요.

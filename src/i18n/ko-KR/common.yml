@@ -1,0 +1,738 @@
+locale: ko-KR
+translations:
+    ###########################################################################
+    # General
+    ###########################################################################
+
+    # homepage
+    - key: general.why_create_account
+      t: 왜 계정을 만들어야 하나요?
+    - key: general.create_account_reasons
+      t: >
+          다음과 같은 이유로 계정 만들기를 요청드립니다:
+
+          - 중복된 응답 방지
+
+          - 자신의 정보에 접근할 권한 할당
+
+          - 귀하의 세션 (중간 정보) 저장
+
+          - 결과 공개시 알림
+    - key: general.survey_closed
+      t: >
+          죄송합니다, 설문 조사가 이미 종료되었습니다! 제출하신 조사의 응답을 보실수는 있지만, 수정하실 수는 없습니다.
+    - key: general.survey_read_only
+      t: >
+          현재 읽기 전용 모드에서 설문을 보고 계십니다.
+    - key: general.survey_read_only_back
+      t: >
+          설문을 다시 시작하거나 계속하시려면 <a href="{link}">뒤로 가기</a>를 눌러주세요.
+
+    # surveys
+    - key: general.open_surveys
+      t: 진행중인 설문
+    - key: general.no_open_surveys
+      t: 진행중인 설문이 없습니다.
+    - key: general.closed_surveys
+      t: 종료된 설문
+    - key: general.no_closed_surveys
+      t: 종료된 설문이 없습니다.
+    - key: general.preview_surveys
+      t: 설문 미리보기
+    - key: general.no_preview_surveys
+      t: 미리볼 수 있는 설문이 없습니다.
+    - key: general.start_survey
+      t: 설문 시작 »
+    - key: general.continue_survey
+      t: 설문 계속하기 »
+    - key: general.review_survey
+      t: 설문 다시보기 »
+    - key: general.preview_survey
+      t: 설문 미리보기 »
+    - key: general.finish_survey
+      t: 설문 마치기 »
+    - key: general.survey_closed
+      t: 이 설문은 종료되었습니다.
+    - key: general.survey_results
+      t: 설문 결과 보기 »
+    - key: general.surveys_available_languages
+      t: '진행중인 설문의 언어:'
+    - key: general.help_us_translate
+      t: 설문 번역을 도와주세요 »
+    - key: general.translators
+      t: 번역자
+    - key: general.translation_help
+      t: 번역 도움
+
+    # footer
+    - key: general.privacy_policy
+      t: 개인 정보 정책
+    - key: general.leave_issue
+      t: 질문이 있나요? 버그를 발견하셨나요? <a href="{link}" target="_blank">이슈를 남겨주세요</a>.
+    - key: general.emoji_icons
+      t: 이모티콘 by <a target="_blank" rel="noreferrer" href="https://icons8.com">Icons8</a>
+
+    # navigation
+    - key: general.table_of_contents
+      t: 목차
+    - key: general.all_questions_optional
+      t: >
+          참고: 모든 질문은 선택적입니다. 100% 응답하지 않으셔도 됩니다.
+    - key: general.data_is_saved
+      t: 페이지가 이전 또는 이후로 변경되어도 귀하의 데이터는 자동으로 저장됩니다.
+
+    # thanks
+    - key: general.back
+      t: 뒤로가기
+    - key: general.thanks
+      t: >
+          저희 설문에 응답해 주셔서 감사합니다!
+
+          제출하신 설문이 저장되었습니다. 설문이 종료될 때까지 제출하신 설문을 다시보거나 수정하실 수 있습니다.
+
+          또한, 이 설문을 공유하여 퍼뜨려주실 수 있습니다. 한분한분의 응답이, 우리의 데이터를 더욱 신뢰할 만하고 완성도 있게 만들 수 있습니다:
+    - key: thanks.learn_more_about
+      t: '더 알기를 원하는 얼마의 기능이 있을지 모릅니다:'
+    - key: thanks.knowledge_score
+      t: 지식 점수
+    - key: thanks.score_explanation
+      t: >
+          설문 조사에 언급된 <span class="score-number score-number-total">{total}</span> 가지 기능 중에 <span class="score-number score-number-known">{known}</span> 가지를 들어보셨거나 사용해 보신적이 있으므로, 전체 응답자 중 상위 <span class="score-number score-number-ranking">{knowledgeRankingFromTop}%</span>에 해당되십니다.
+    - key: thanks.share_on_twitter
+      t: 트위터에 공유
+    - key: thanks.share_score_message
+      t: >
+          저는 올해 #{hashtag} 조사에서 {score}% 지식 점수를 얻었습니다! 여기에서 설문 조사를 실시합니다: {shareUrl}
+    # share
+    - key: general.share_subject
+      t: >
+          {surveyName} 설문
+    - key: general.share_text
+      t: >
+          올해의 {surveyName} 설문 조사가 시작되었습니다! {link}
+
+    # forms
+    - key: forms.select_option
+      t: 옵션 선택
+
+    # partners
+    - key: partners.our_partners
+      t: 우리의 파트너들
+    - key: partners.become_partner
+      t: 파트너가 되어주세요
+
+    # 404
+    - key: notfound.title
+      t: 404 찾을 수 없음
+    - key: notfound.description
+      t: 죄송합니다, 페이지를 찾을 수 없습니다. 
+
+    # other
+    - key: general.join_discord
+      t: <a href="{link}">디스코드</a> 에서 함께 해 주세요. 
+    - key: general.translator_mode
+      t: option/alt 키를 누르시면 번역 모드가 활성화 됩니다. 
+    - key: general.charts_nivo
+      t: 차트는 <a href="{link}">Nivo</a>로 만들어졌습니다.
+      
+    ###########################################################################
+    # Nav
+    ###########################################################################
+
+    - key: nav.surveys
+      t: 설문
+    - key: nav.account
+      t: 계정
+
+    ###########################################################################
+    # Sections
+    ###########################################################################
+
+    - key: sections.user_info.title
+      t: 내 페이지
+    - key: sections.user_info.description
+      t: 진짜 당신이 누구인지 함께 알아갑시다.
+
+    - key: sections.features.title
+      t: 기능
+    - key: sections.features.description
+      t: 구문, 키워드 및 다른 언어 기능들.
+
+    - key: sections.resources.title
+      t: 리소스
+    - key: sections.resources.description
+      t: 어떤 {topic} 리소스를 찾아보겠습니까?
+
+    - key: sections.opinions.title
+      t: 의견
+    - key: sections.opinions.description
+      t: '{topic}에 대해 어떻게 생각하십니까?'
+
+    - key: sections.other_tools.title
+      t: 기타 도구
+    - key: sections.other_tools.description
+      t: 이 도구와 기술 중에, 평소 사용하는 것들을 체크해 주세요.
+
+    - key: sections.report.title
+      t: 트렌드 보고
+
+    ###########################################################################
+    # Options
+    ###########################################################################
+
+    # features
+    - key: options.features.never_heard
+      t: 🤷 들어본 적도 없고/무엇인지도 모름
+    - key: options.features.heard
+      t: ✅ 무엇인지는 아는데, 사용해본 적은 없음
+    - key: options.features.used
+      t: 👍 사용해 본 적 있음
+
+    # features (no emoji)
+    - key: options.features.never_heard.label
+      t: 들어본 적도 없고/무엇인지도 모름
+    - key: options.features.heard.label
+      t: 무엇인지는 아는데, 사용해본 적은 없음
+    - key: options.features.used.label
+      t: 사용해 본 적 있음
+
+    # features (short versions)
+    - key: options.features.never_heard.short
+      t: 들어본 적 없음
+    - key: options.features.heard.short
+      t: 조금 알고 있음
+    - key: options.features.used.short
+      t: 사용해본 적 있음
+
+    # patterns
+    - key: options.patterns.use_never
+      t: 사용 안함
+    - key: options.patterns.use_sparingly
+      t: 아주 가끔 사용
+    - key: options.patterns.use_neutral
+      t: 어느정도 사용
+    - key: options.patterns.use_frequently
+      t: 자주 사용
+    - key: options.patterns.use_always
+      t: 최대한 많이 사용
+
+    # tools experience
+    - key: options.tools.never_heard
+      t: 🤷 들어본 적도 없고/무엇인지도 모름
+    - key: options.tools.interested
+      t: ✅ 들어봤고 > 배우고 싶음
+    - key: options.tools.not_interested
+      t: 🚫 들어는 봤으나 > 관심 없음
+    - key: options.tools.would_use
+      t: 👍 사용해 봤고 > 다시 사용할 예정
+    - key: options.tools.would_not_use
+      t: 👎 사용해 봤지만 > 다시 사용 안함
+
+    # tools experience (no emoji)
+    - key: options.tools.never_heard.legend
+      t: 들어본 적도 없고/무엇인지도 모름
+    - key: options.tools.interested.legend
+      t: 들어봤고 > 배우고 싶음
+    - key: options.tools.not_interested.legend
+      t: 들어는 봤으나 > 관심 없음
+    - key: options.tools.would_use.legend
+      t: 사용해 봤고 > 다시 사용할 예정
+    - key: options.tools.would_not_use.legend
+      t: 사용해 봤지만 > 다시 사용 안함
+
+    # tools experience (short versions)
+    - key: options.tools.never_heard.short
+      t: 들어본 적 없음
+    - key: options.tools.interested.short
+      t: 관심 있음
+    - key: options.tools.not_interested.short
+      t: 관심 없음
+    - key: options.tools.would_use.short
+      t: 다시 사용할 예정
+    - key: options.tools.would_not_use.short
+      t: 사용 안함
+
+    # happiness
+    - key: options.happiness.0
+      t: 매우 불행함
+    - key: options.happiness.1
+      t: 불행함
+    - key: options.happiness.2
+      t: 보통
+    - key: options.happiness.3
+      t: 행복함
+    - key: options.happiness.4
+      t: 매우 행복함
+
+    # happiness (short version)
+    - key: options.happiness.0.short
+      t: 매우 불행함
+    - key: options.happiness.1.short
+      t: 불행함
+    - key: options.happiness.2.short
+      t: 보통
+    - key: options.happiness.3.short
+      t: 행복함
+    - key: options.happiness.4.short
+      t: 매우 행복함
+
+    # opinions
+    - key: options.opinions.0
+      t: 전혀 그렇지 않습니다
+    - key: options.opinions.1
+      t: 그렇지 않습니다
+    - key: options.opinions.2
+      t: 보통입니다
+    - key: options.opinions.3
+      t: 그렇습니다
+    - key: options.opinions.4
+      t: 매우 그렇습니다
+
+    # years of experience
+    - key: options.years_of_experience.range_less_than_1
+      t: 1년 이하
+    - key: options.years_of_experience.range_1_2
+      t: 1 ~ 2년
+    - key: options.years_of_experience.range_2_5
+      t: 2 ~ 5년
+    - key: options.years_of_experience.range_5_10
+      t: 5 ~ 10년
+    - key: options.years_of_experience.range_10_20
+      t: 10 ~ 20년
+    - key: options.years_of_experience.range_more_than_20
+      t: 20년 이상
+
+    # years of experience (short versions)
+    - key: options.years_of_experience.range_less_than_1.short
+      t: '<1'
+    - key: options.years_of_experience.range_1_2.short
+      t: 1-2
+    - key: options.years_of_experience.range_2_5.short
+      t: 2-5
+    - key: options.years_of_experience.range_5_10.short
+      t: 5-10
+    - key: options.years_of_experience.range_10_20.short
+      t: 10-20
+    - key: options.years_of_experience.range_more_than_20.short
+      t: '>20'
+
+    # company size
+    - key: options.company_size.range_1
+      t: 1명
+    - key: options.company_size.range_1_5
+      t: 1 ~ 5명
+    - key: options.company_size.range_5_10
+      t: 5 ~ 10명
+    - key: options.company_size.range_10_20
+      t: 10 ~ 20명
+    - key: options.company_size.range_20_50
+      t: 20 ~ 50명
+    - key: options.company_size.range_50_100
+      t: 50 ~ 100명
+    - key: options.company_size.range_100_1000
+      t: 100 ~ 1000명
+    - key: options.company_size.range_more_than_1000
+      t: 1000명 이상
+
+    # company size (short versions)
+    - key: options.company_size.range_1.short
+      t: 1
+    - key: options.company_size.range_1_5.short
+      t: 1-5
+    - key: options.company_size.range_5_10.short
+      t: 5-10
+    - key: options.company_size.range_10_20.short
+      t: 10-20
+    - key: options.company_size.range_20_50.short
+      t: 20-50
+    - key: options.company_size.range_50_100.short
+      t: 50-100
+    - key: options.company_size.range_100_1000.short
+      t: 100-1000
+    - key: options.company_size.range_more_than_1000.short
+      t: '>1000'
+
+    # salary
+    - key: options.yearly_salary.range_work_for_free
+      t: 무직
+    - key: options.yearly_salary.range_0_10
+      t: $0k-$10k
+    - key: options.yearly_salary.range_10_30
+      t: $10k-$30k
+    - key: options.yearly_salary.range_30_50
+      t: $30k-$50k
+    - key: options.yearly_salary.range_50_100
+      t: $50k-$100k
+    - key: options.yearly_salary.range_100_200
+      t: $100k-$200k
+    - key: options.yearly_salary.range_more_than_200
+      t: $200k 이상
+
+    # salary (short versions)
+    - key: options.yearly_salary.range_work_for_free.short
+      t: '0'
+    - key: options.yearly_salary.range_0_10.short
+      t: 0~10k
+    - key: options.yearly_salary.range_10_30.short
+      t: 10~30k
+    - key: options.yearly_salary.range_30_50.short
+      t: 30~50k
+    - key: options.yearly_salary.range_50_100.short
+      t: 50~100k
+    - key: options.yearly_salary.range_100_200.short
+      t: 100~200k
+    - key: options.yearly_salary.range_more_than_200.short
+      t: '>200k'
+
+    # job titles
+    - key: options.job_title.cto
+      t: CTO
+    - key: options.job_title.front_end_developer
+      t: 프론트엔드 개발자/엔지니어
+    - key: options.job_title.back_end_developer
+      t: 백엔드 개발자/엔지니어
+    - key: options.job_title.full_stack_developer
+      t: 풀스택 개발자/엔지니어
+    - key: options.job_title.web_developer
+      t: 웹 개발자
+    - key: options.job_title.web_designer
+      t: 웹 디자이너
+    - key: options.job_title.ux_designer
+      t: UX 디자이너
+    - key: options.job_title.ui_designer
+      t: UI 디자이너
+    - key: options.job_title.back_end_dev
+      t: 백엔드 개발자/엔지니어
+
+    # JavaScript proficiency
+    - key: options.javascript_proficiency.0
+      t: 자바스크립트를 사용해본 적 없음
+    - key: options.javascript_proficiency.1
+      t: 짧고 간단한 자바스크립트나 jQuery를 사용함
+    - key: options.javascript_proficiency.2
+      t: React, Vue 등의 모던 프레임워크를 사용하는 기존 프론트엔드 코드를 편집함
+    - key: options.javascript_proficiency.3
+      t: 기초부터 전체의 프론트엔드 코드 아키텍쳐를 구성함
+    - key: options.javascript_proficiency.4
+      t: 고급 프론트엔드 패턴들을 자유롭게 활용함 (상태 관리, 데이터 로딩 등)
+
+    # CSS proficiency
+    - key: options.css_proficiency.0
+      t: 사실상 CSS에 대한 지식이 없음
+    - key: options.css_proficiency.1
+      t: CSS 프레임워크를 사용하며 기존 스타일을 수정함
+    - key: options.css_proficiency.2
+      t: 특별한 기능과 규칙들을 알고, 레이아웃을 생성할 수 있음
+    - key: options.css_proficiency.3
+      t: 애니메이션, 인터랙션, 트랜지션 등에 자신있음
+    - key: options.css_proficiency.4
+      t: 일관된 방법론에 따라 프론트엔드 전체를 기초부터 스타일링할 수 있음
+
+    # Back-end proficiency
+    - key: options.backend_proficiency.0
+      t: 어떠한 백엔드 작업도 처리할 수 없음
+    - key: options.backend_proficiency.1
+      t: 올인원 CMS(워드프레스 등) 또는 정적 사이트 생성기(SSG) (Jekyll 등)를 설치할 수 있음
+    - key: options.backend_proficiency.2
+      t: 이미 존재하는 프레임워크(Rails, Laravel 등)를 사용하여 앱을 개발할 수 있음
+    - key: options.backend_proficiency.3
+      t: Go, Node.js 등의 기초로부터 백엔드 전체를 구성할 수 있음
+    - key: options.backend_proficiency.4
+      t: 복잡한 멀티 서버 또는 마이크로서비스 아키텍쳐를 처리할 수 있음
+
+    # Proficiency (generic versions)
+    - key: options.proficiency.0
+      t: 없음
+    - key: options.proficiency.1
+      t: 초보자
+    - key: options.proficiency.2
+      t: 중급자
+    - key: options.proficiency.3
+      t: 상급자
+    - key: options.proficiency.4
+      t: 전문가
+
+    # Gender
+
+    - key: options.gender.female
+      t: 여자
+    - key: options.gender.male
+      t: 남자
+    - key: options.gender.non_binary
+      t: 중성/제 3의 성
+    - key: options.gender.prefer_not_to_say
+      t: 말하고 싶지 않음
+
+    # Race & Ethnicity
+
+    - key: options.race_ethnicity.white_european
+      t: 백인 또는 유럽계
+    - key: options.race_ethnicity.south_asian
+      t: 남아시안
+    - key: options.race_ethnicity.hispanic_latin
+      t: 히스패닉 혹은 라틴계
+    - key: options.race_ethnicity.east_asian
+      t: 동아시안
+    - key: options.race_ethnicity.middle_eastern
+      t: 중동
+    - key: options.race_ethnicity.black_african
+      t: 흑인 또는 아프리카계
+    - key: options.race_ethnicity.multiracial
+      t: 혼혈
+    - key: options.race_ethnicity.biracial
+      t: 흑백혼혈
+    - key: options.race_ethnicity.native_american_islander_australian
+      t: 미국계, 태평양 제도 및 호주 원주민
+
+    # Form Factors
+    - key: options.form_factors.desktop
+      t: 컴퓨터
+    - key: options.form_factors.smartphone
+      t: 스마트폰
+    - key: options.form_factors.feature_phone
+      t: 피쳐폰
+    - key: options.form_factors.tablet
+      t: 태블릿
+    - key: options.form_factors.smart_watch
+      t: 스마트워치
+    - key: options.form_factors.tv
+      t: TV
+    - key: options.form_factors.gaming_console
+      t: 게이밍 콘솔
+    - key: options.form_factors.screen_reader
+      t: 스크린 리더
+    - key: options.form_factors.print
+      t: 프린터
+
+    # Industry Sector
+    - key: options.industry_sector.ecommerce
+      t: 전자상거래 & 소매업
+    - key: options.industry_sector.news_media
+      t: 뉴스, 미디어 & 블로깅
+    - key: options.industry_sector.healthcare
+      t: 의료
+    - key: options.industry_sector.finance
+      t: 금융
+    - key: options.industry_sector.programming_tools
+      t: 프로그래밍 & 기술적 도구
+    - key: options.industry_sector.socialmedia
+      t: SNS
+    - key: options.industry_sector.marketing_tools
+      t: 마케팅/영업/분석 도구
+    - key: options.industry_sector.education
+      t: 교율
+    - key: options.industry_sector.real_estate
+      t: 부동산
+    - key: options.industry_sector.government
+      t: 정부관계자
+    - key: options.industry_sector.entertainment
+      t: 엔터테인먼트
+    - key: options.industry_sector.consulting
+      t: 컨설팅 & 서비스
+    - key: options.industry_sector.travel
+      t: 여행
+    - key: options.industry_sector.insurance
+      t: 보험
+    - key: options.industry_sector.logistics
+      t: 택배
+    - key: options.industry_sector.energy
+      t: 에너지
+    - key: options.industry_sector.telecommunications
+      t: 통신
+    - key: options.industry_sector.student
+      t: 학생
+    - key: options.industry_sector.hospitality
+      t: 접대원
+    - key: options.industry_sector.cyber_security
+      t: 사이버 보안
+    - key: options.industry_sector.construction
+      t: 건설
+    - key: options.industry_sector.automotive
+      t: 자동차
+    - key: options.industry_sector.agriculture
+      t: 농업
+    - key: options.industry_sector.transport
+      t: 운송
+    - key: options.industry_sector.manufacturing
+      t: 제조
+
+    ###########################################################################
+    # Tools
+    ###########################################################################
+
+    - key: tools.other_tools
+      t: 기타 옵션
+    - key: tools.other_tools.description
+      t: 현재 섹션에서 사용하는 기타 옵션은 위의 목록에 언급되어 있지 않습니다
+    - key: tools.happiness
+      t: 전반적인 만족도
+    - key: tools.happiness.description
+      t: >
+          1점 (매우 불행함)에서 5점 (매우 행복함) 일 때, 위에 나열된 옵션과 관련된 현재 전반적인 상태에 얼마나 행복하십니까?
+
+    ###########################################################################
+    # Demographics (About You/User Info)
+    ###########################################################################
+
+    # years of experience
+    - key: user_info.years_of_experience
+      t: 경력
+    - key: user_info.years_of_experience.description
+      t: 이 분야에서 얼마나 일하거나 학습해오셨나요?
+
+    # company size
+    - key: user_info.company_size
+      t: 직장 규모
+    - key: user_info.company_size.description
+      t: 직장의 크기가 어느정도인가요?
+
+    # salary ranges
+    - key: user_info.yearly_salary
+      t: 연봉
+    - key: user_info.yearly_salary.description
+      t: 달러 기준.
+
+    # job title
+    - key: user_info.job_title
+      t: 직업
+    - key: user_info.job_title.description
+      t: 직장에서 어떤 업무를 하시나요?
+
+    # javascript proficiency
+    - key: user_info.javascript_proficiency
+      t: 자바스크립트 숙련도
+    - key: user_info.javascript_proficiency.description
+      t: 자바스크립트에 얼마나 능숙한가요?
+
+    # css proficiency
+    - key: user_info.css_proficiency
+      t: CSS 숙련도
+    - key: user_info.css_proficiency.description
+      t: CSS에 얼마나 능숙한가요?
+
+    # backend proficiency
+    - key: user_info.backend_proficiency
+      t: 백엔드 숙련도
+    - key: user_info.backend_proficiency.description
+      t: 백엔드 개발에 얼마나 능숙한가요?
+
+    # gender
+    - key: user_info.gender
+      t: 성별
+
+    # skin tone/appearance
+    - key: user_info.race_ethnicity
+      t: 인종 & 민족
+
+    # other info
+    - key: user_info.how_did_user_find_out_about_the_survey
+      t: 이 설문 조사를 어떻게 알게 되셨나요?
+    - key: user_info.email
+      t: 이메일
+    - key: user_info.country
+      t: 나라 또는 지역
+    - key: user_info.github_username
+      t: GitHub 사용자 이름
+    - key: user_info.github_username.description
+      t: >
+        나중에 GitHub 사용자 이름을 사용하여 리포지토리를 살펴보고 공개적으로 사용 가능한 정보를 상호 참조할 수 있습니다.
+    - key: user_info.industry_sector
+      t: 직종
+    - key: user_info.industry_sector.description
+      t: 어느 직종에서 일하고 있습니까?
+    - key: user_info.industry_sector.others
+      t: 다른 직종
+    - key: user_info.industry_sector.others.description
+      t: 위에 언급되지 않은 또 다른 직종.
+
+    ###########################################################################
+    # Other Tools
+    ###########################################################################
+
+    - key: tools_others.libraries
+      t: 라이브러리
+    - key: tools_others.libraries.description
+      t: 어느 라이브러리를 주로 사용하나요?
+    - key: tools_others.libraries.others
+      t: 기타 라이브러리
+    - key: tools_others.libraries.others.description
+      t: 기타 대답 (자유 입력).
+
+    - key: tools_others.text_editors
+      t: 텍스트 편집기
+    - key: tools_others.text_editors.description
+      t: 어느 텍스트 편집기를 자주 사용하나요?
+    - key: tools_others.text_editors.others
+      t: 기타 텍스트 편집기
+    - key: tools_others.text_editors.others.description
+      t: 기타 대답 (자유 입력).
+
+    - key: tools_others.utilities
+      t: 유틸리티
+    - key: tools_others.utilities.description
+      t: 어느 유틸리티 또는 도구를 자주 사용하나요?
+    - key: tools_others.utilities.others
+      t: 기타 유틸리티
+    - key: tools_others.utilities.others.description
+      t: 기타 유틸리티 (자유 입력).
+
+    - key: tools_others.browsers
+      t: 브라우저
+    - key: tools_others.browsers.description
+      t: 초기 개발시 주로 어떤 브라우저에서 작업하나요?
+    - key: tools_others.browsers.others
+      t: 기타 브라우저
+    - key: tools_others.browsers.others.description
+      t: 기타 대답 (자유 입력).
+
+    - key: tools_others.build_tools
+      t: 빌드 도구
+    - key: tools_others.build_tools.description
+      t: 어느 빌드 도구를 사용하나요?
+    - key: tools_others.build_tools.others
+      t: 기타 빌드 도구
+    - key: tools_others.build_tools.others.description
+      t: 기타 대답 (자유 입력).
+
+    - key: tools_others.non_js_languages
+      t: 자바스크립트 이외의 언어
+    - key: tools_others.non_js_languages.description
+      t: 어느 프로그래밍 언어를 사용하나요?
+    - key: tools_others.non_js_languages.others
+      t: 기타 언어
+    - key: tools_others.non_js_languages.others.description
+      t: 기타 대답 (자유 입력).
+
+    ###########################################################################
+    # Resources
+    ###########################################################################
+
+    # blogs & magazines
+    - key: resources.blogs_news_magazines
+      t: 블로그 & 잡지
+    - key: resources.blogs_news_magazines.description
+      t: 어떤 블로그/잡지/그 밖의 것을 읽으시나요?
+    - key: resources.blogs_news_magazines.others
+      t: 기타 블로그 & 잡지
+    - key: resources.blogs_news_magazines.others.description
+      t: 기타 대답 (자유 입력).
+
+    # sites & courses
+    - key: resources.sites_courses
+      t: 사이트 & 코스
+    - key: resources.sites_courses.description
+      t: 어떤 사이트/코스/그 밖의 것에서 정보를 얻습니까?
+    - key: resources.sites_courses.others
+      t: 기타 사이트 & 코스
+    - key: resources.sites_courses.others.description
+      t: 기타 대답 (자유 입력).
+
+    # podcasts
+    - key: resources.podcasts
+      t: 팟캐스트
+    - key: resources.podcasts.description
+      t: 어떤 프로그래밍 관련 팟캐스트를 들으시나요?
+    - key: resources.podcasts.others
+      t: 기타 팟캐스트
+    - key: resources.podcasts.others.description
+      t: 기타 대답 (자유 입력).

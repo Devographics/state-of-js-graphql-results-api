@@ -1,3 +1,7 @@
+- id: ca-ES
+  label: Català
+  translators: ['socunanena']
+
 - id: cs-CZ
   label: Česky
   translators: ['adamkudrna']
@@ -60,8 +64,16 @@
 
 - id: 'zh-Hant'
   label: 正體中文
-  translators: ['ymcheung']
+  translators: ['ymcheung', 'mingjunlu']
 
 - id: ja-JP
   label: 日本語
   translators: ['myakura', 'Spice-Z']
+
+- id: pl-PL
+  label: Polski
+  translators: ['luk-str']
+
+- id: ko-KR
+  label: 한국어
+  translators: ['eterv']

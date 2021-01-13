@@ -16,7 +16,7 @@ translations:
       t: State of CSS
 
     - key: general.netlify_link
-      t: Hosted by <a href="${link}">Netlify</a>.
+      t: Hosted by <a href="{link}">Netlify</a>.
 
     - key: general.completion_percentage
       t: 'Completion percentage:'
@@ -123,6 +123,8 @@ translations:
 
     - key: options.locale.en-US
       t: English
+    - key: options.locale.ca-ES
+      t: Catalan
     - key: options.locale.es-ES
       t: Spanish
     - key: options.locale.ru-RU
@@ -147,6 +149,8 @@ translations:
       t: Indonesian
     - key: options.locale.hi-IN
       t: Hindi
+    - key: options.locale.pl-PL
+      t: Polish
 
     ###########################################################################
     # Features
@@ -239,9 +243,9 @@ translations:
 
     # tool experience
     - key: blocks.tool_experience.title
-      t: ${name} Experience
+      t: '{name} Experience'
     - key: blocks.tool_experience.description
-      t: Respondent's experience with ${name}.
+      t: Respondent's experience with {name}.
 
     # tool positive/negative split ("marimekko" chart)
     - key: blocks.tools_experience_marimekko.title
@@ -324,7 +328,7 @@ translations:
     - key: export.export
       t: Export
     - key: export.title
-      t: Export data for ${title}
+      t: Export data for {title}
     - key: export.nocsv
       t: Sorry, CSV export is not available for this dataset.
     - key: export.graphql
@@ -404,19 +408,19 @@ translations:
     - key: share.share
       t: Share
     - key: share.site.title
-      t: Discover the StateOf CSS 2020 results
+      t: Discover the {siteTitle} results
     - key: share.site.twitter_text
-      t: 'Discover the State Of CSS 2020 results ${link} #StateOfCSS'
+      t: 'Discover the {siteTitle} results {link} {hashtag}'
     - key: share.site.subject
-      t: State Of JavaScript Survey Results
+      t: '{siteTitle} Survey Results'
     - key: share.site.body
-      t: 'Here are some interesting CSS survey results: ${link}'
+      t: 'Here are some interesting survey results: {link}'
     - key: share.block.twitter_text
-      t: '#StateOfCSS 2020: ${title} ${link}'
+      t: '{hashtag} {year}: {title} {link}'
     - key: share.block.subject
-      t: State Of CSS Survey Results
+      t: '{siteTitle} Survey Results'
     - key: share.block.body
-      t: 'Here are some interesting CSS survey results (${title}): ${link}'
+      t: 'Here are some interesting survey results ({title}): {link}'
     - key: share.twitter
       t: Share on Twitter
     - key: share.facebook
