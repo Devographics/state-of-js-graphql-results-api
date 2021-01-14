@@ -179,7 +179,7 @@ translations:
     - key: award.tool_interest_award.comment
       t: GraphQL sigue siendo lo que los desarrolladores más quieren aprender, con un ratio de interés del **{value}**, en cuanto puedan encontrar tiempo libre.
 
-    # - key: award.most_write_ins_award.comment
+    - key: award.most_write_ins_award.comment
       t: La gente siempre se apasiona hablando de IDEs, y con **{value}** menciones, IntelliJ gana el premio como la respuesta más escrita.
 
       
