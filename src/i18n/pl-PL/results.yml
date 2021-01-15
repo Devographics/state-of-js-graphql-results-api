@@ -225,7 +225,7 @@ translations:
     # tools quadrant
     - key: blocks.tools_quadrant.title
       t: Satysfakcja vs Wykorzystanie
-    - key: blocks.tools_quadrant.satisfaction.description
+    - key: blocks.tools_quadrant.description
       t: |
           Ten diagram pokazuje **poziom zadowolenia** w stosunku do całkowitej **ilości użytkowników**.
           Można go podzielić na cztery kwadranty:

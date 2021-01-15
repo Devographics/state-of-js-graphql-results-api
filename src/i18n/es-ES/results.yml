@@ -204,7 +204,7 @@ translations:
     # tools quadrant
     - key: blocks.tools_quadrant.title
       t: Satisfacción contra Uso
-    - key: blocks.tools_quadrant.satisfaction.description
+    - key: blocks.tools_quadrant.description
       t: |
           Este gráfico muestra el **ratio de satisfacción** frente al **número total de usuarios** de cada tecnología.
           Se puede dividir en cuatro cuadrantes:

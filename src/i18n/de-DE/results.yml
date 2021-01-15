@@ -202,7 +202,7 @@ translations:
     # tools quadrant
     - key: blocks.tools_quadrant.title
       t: Zufriedenheit im Vergleich zur Nutzung
-    - key: blocks.tools_quadrant.satisfaction.description
+    - key: blocks.tools_quadrant.description
       t: |
         Dieses Chart zeigt für jede Technologie den **Zufriedenheitswert** für die gesamte **Nutzerzahl**.
         Es kann in Vier Bereiche unterteilt werden:

@@ -236,7 +236,7 @@ translations:
     # tools quadrant
     - key: blocks.tools_quadrant.title
       t: Satisfaction vs Utilisation
-    - key: blocks.tools_quadrant.satisfaction.description
+    - key: blocks.tools_quadrant.description
       t: |
         Ce graphique montre le **taux de satisfaction** de chaque technologie sur son **nombre d'utilisateur** total.
         Cela peut être divisé en 4 quadrants:

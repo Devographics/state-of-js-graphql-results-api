@@ -234,7 +234,7 @@ translations:
     # tools quadrant
     - key: blocks.tools_quadrant.title
       t: 만족도 vs 사용량
-    - key: blocks.tools_quadrant.satisfaction.description
+    - key: blocks.tools_quadrant.description
       t: |
         이 차트는 각 기술의 전체 **사용자 수** 대비 **만족도 비율**을 보여줍니다.
         차트를 사분면으로 나누면:

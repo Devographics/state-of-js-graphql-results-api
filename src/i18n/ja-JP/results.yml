@@ -210,7 +210,7 @@ translations:
     # tools quadrant
     - key: blocks.tools_quadrant.title
       t: 満足度 vs 利用率
-    - key: blocks.tools_quadrant.satisfaction.description
+    - key: blocks.tools_quadrant.description
       t: |
         このチャートは技術ごとにその**満足度**と**総利用数**でプロットしたものです。4つの領域は、次のように読み取れます。
 
