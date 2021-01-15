@@ -5,161 +5,159 @@ translations:
     ###########################################################################
 
     - key: results.start
-      t: Start
+      t: Έναρξη
 
     - key: page.previous
-      t: 'Previous:'
+      t: 'Προηγούμενο:'
     - key: page.next
-      t: 'Next:'
+      t: 'Επόμενο:'
 
     - key: general.state_of_css_link
       t: State of CSS
 
     - key: general.netlify_link
-      t: Hosted by <a href="${link}">Netlify</a>.
+      t: Φιλοξενείται από <a href="${link}">Netlify</a>.
 
     - key: general.completion_percentage
-      t: 'Completion percentage:'
+      t: 'Ποσοστό ολοκλήρωσης:'
 
     - key: partners.thanks
-      t: Thanks to our partners for supporting us!
+      t: Ευχαριστούμε τους συνεργάτες μας για την υποστήριξη τους!
 
     - key: partners.learn_more
-      t: Learn more.
+      t: Για περισσότερα.
 
     ###########################################################################
     # Options
     ###########################################################################
 
     - key: options.experience_ranking.satisfaction
-      t: Satisfaction
+      t: Ικανοποίηση
     - key: options.experience_ranking.interest
-      t: Interest
+      t: Ενδιαφέρον
     - key: options.experience_ranking.usage
-      t: Usage
+      t: Χρήση
     - key: options.experience_ranking.awareness
-      t: Awareness
-
+      t: Επίγνωση
     - key: options.features_simplified.know_it
-      t: Know about it
+      t: Μάθετε για αυτό
     - key: options.features_simplified.used_it
-      t: Have used it
+      t: Το έχετε χρησιμοποιήσει
     - key: options.features_simplified.usage_ratio
-      t: Usage ratio
+      t: Αναλογία χρήσης
 
     - key: options.quadrant.assess
-      t: ASSESS
+      t: ΕΚΤΙΜΗΣΗ
     - key: options.quadrant.assess.long
       t: |
-        ASSESS: Low usage, high satisfaction. Technologies worth keeping an eye on.
+        ΕΚΤΙΜΗΣΗ: Χαμηλή χρήση, υψηλή ικανοποίηση. Τεχνολογίες που αξίζει για παρακολούθηση.
     - key: options.quadrant.adopt
-      t: ADOPT
+      t: ΠΡΟΣΑΡΜΟΖΩ
     - key: options.quadrant.adopt.long
       t: |
-        ADOPT: High usage, high satisfaction. Safe technologies to adopt.
+        ΠΡΟΣΑΡΜΟΖΩ: Υψηλή χρήση, υψηλή ικανοποίηση. Ασφαλείς τεχνολογίες για υιοθέτηση.
     - key: options.quadrant.avoid
-      t: AVOID
+      t: ΑΠΟΦΥΓΕΙ
     - key: options.quadrant.avoid.long
       t: |
-        AVOID: Low usage, low satisfaction. Technologies probably best avoided currently.
+        ΑΠΟΦΥΓΕΙ: Χαμηλή χρήση, χαμηλή ικανοποίηση. Οι τεχνολογίες που θα αποφεύγονται πιθανότατα αυτήν τη στιγμή.
     - key: options.quadrant.analyze
-      t: ANALYZE
+      t: ΑΝΑΛΥΣΗ
     - key: options.quadrant.analyze.long
       t: |
-        ANALYZE: High usage, low satisfaction. Reassess these technologies if you're currently using them.
+        ΑΝΑΛΥΣΗ: Υψηλή χρήση, χαμηλή ικανοποίηση. Επαναξιολογήστε τις τεχνολογίες εάν τις χρησιμοποιείτε αυτήν τη στιγμή.
 
     - key: ranges.selector.years_of_experience
-      t: Experience
+      t: Εμπειρία
     - key: ranges.selector.yearly_salary
-      t: Salary
+      t: Μισθός
     - key: ranges.selector.company_size
-      t: Company Size
+      t: Μέγεθος εταιρείας
 
     ###########################################################################
     # Sections
     ###########################################################################
 
     - key: sections.introduction.title
-      t: Introduction
+      t: Εισαγωγή
 
     - key: sections.demographics.title
-      t: Demographics
+      t: Δημογραφικά στοιχεία
 
     - key: sections.tshirt.title
       t: T-shirt
 
     - key: sections.technologies.title
-      t: Technologies
+      t: Τεχνολογίες
 
     - key: sections.conclusion.title
-      t: Conclusion
+      t: Συμπέρασμα
 
     - key: sections.support.title
-      t: Support Us
+      t: Υποστήριξε μας
     - key: sections.support.description
       t: >
-        We run this survey as a side project, but in order to make the
-        project sustainable we’re always looking for partners who can help support us,
-        either financially or by helping us spread the word.
-        If you think you could help in any way, please don’t hesitate to [get in touch](mailto:hello@stateofjs.com)!
+         Τρέχουμε αυτήν την έρευνα ως δευτερεύον έργο, αλλά για να το κάνουμε
+         βιώσιμο αναζητάμε πάντα συνεργάτες που μπορούν να μας βοηθήσουν,
+         είτε οικονομικά είτε βοηθώντας μας να το διαδώσουμε.
+         Αν νομίζετε ότι θα μπορούσατε να μας βοηθήσετε με οποιονδήποτε τρόπο, μην διστάσετε να το κάνετε [έρθετε σε επαφή](mailto:hello@stateofjs.com)!
 
     ###########################################################################
     # User Info
     ###########################################################################
 
     - key: user_info.locale
-      t: Language
+      t: Γλώσσα
     - key: user_info.locale.description
-      t: What language did respondents select to fill out the survey?
-
+      t: Ποια γλώσσα επέλεξαν οι ερωτηθέντες για να συμπληρώσουν την έρευνα;
     - key: user_info.source
-      t: Source
+      t: Πηγή
     - key: user_info.source.description
-      t: How did respondents find out about the survey?
+      t: Πώς έμαθαν οι ερωτηθέντες για την έρευνα?
 
     ###########################################################################
     # Locales
     ###########################################################################
 
     - key: options.locale.en-US
-      t: English
+      t: Αγγλικά
     - key: options.locale.es-ES
-      t: Spanish
+      t: Ισπανικά
     - key: options.locale.ru-RU
-      t: Russian
+      t: Ρώσσικα
     - key: options.locale.fr-FR
-      t: French
+      t: Γαλλικά
     - key: options.locale.zh-Hant
-      t: Chinese (Traditional)
+      t: Κινέζικα (Παραδοσιακά)
     - key: options.locale.de-DE
-      t: German
+      t: Γερμανικά
     - key: options.locale.cs-CZ
-      t: Czech
+      t: Τσέχικα
     - key: options.locale.pt-PT
-      t: Portuguese
+      t: Πορτογαλικά
     - key: options.locale.it-IT
-      t: Italian
+      t: Ιταλικά
     - key: options.locale.sv-SE
-      t: Swedish
+      t: Σουηδικά
     - key: options.locale.tr-TR
-      t: Turkish
+      t: Τούρκικα
     - key: options.locale.id-ID
-      t: Indonesian
+      t: Ινδονησιακά
     - key: options.locale.hi-IN
-      t: Hindi
+      t: Ινδικά
 
     ###########################################################################
     # Features
     ###########################################################################
 
     - key: features.learn_more
-      t: Learn More (MDN)
+      t: Μάθε περισσότερα (MDN)
     - key: features.mdn_link
       t: MDN
     - key: features.caniuse_link
       t: CanIUse
     - key: features.specification_link
-      t: W3C Specification
+      t: W3C Προδιαγραφές
 
     ###########################################################################
     # Tools & Methodologies
@@ -167,13 +165,13 @@ translations:
 
     # general
     - key: tools.links
-      t: Links
+      t: Συνδέσεις
     - key: tools.github_link
       t: GitHub
     - key: tools.github_stars
-      t: stars
+      t: Αστέρια
     - key: tools.homepage_link
-      t: Homepage
+      t: Αρχική
     - key: tools.npm_link
       t: NPM
 
