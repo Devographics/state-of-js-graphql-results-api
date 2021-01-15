@@ -1,0 +1,8 @@
+locale: ro-RO
+translations:
+    ###########################################################################
+    # General
+    ###########################################################################
+
+    - key: general.no_preview_surveys
+      t: Niciun sondaj disponibil
