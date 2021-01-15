@@ -77,3 +77,7 @@
 - id: ko-KR
   label: 한국어
   translators: ['eterv']
+
+- id: ro-RO
+  label: Romanian
+  translators: ['magdaavram']
