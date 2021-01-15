@@ -1,0 +1,16 @@
+locale: ro-RO
+namespace: js
+translations:
+    ###########################################################################
+    # General
+    ###########################################################################
+
+    - key: general.survey_intro_js2020
+      t: >
+          2020 a fost un an dificil pentru noi toți, ceea ce, prin comparație, face ca
+          îngrijorarea legată de cele mai noi framework-uri Javascript să pară inoportună.
+
+          
+          Cu toate acestea, lumea trebuie să-și urmeze cursul, la fel și universul Javascript. Cu ajutorul tău,
+          vom încerca să creăm din nou o imagine comprehensivă a ecosistemului, în încercarea de a afla puțin mai
+          bine încotro se îndreaptă.
