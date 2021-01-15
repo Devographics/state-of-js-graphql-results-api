@@ -24,9 +24,9 @@ translations:
 
             А пока давайте наслаждаться тем, что есть — хорошей и постоянно улучшающейся экосистемой!
 
-            ### Команда
+            ### Заходите к нам на стрим!
 
-            Опрос State of JavaScript создан и развивается [Сашей Грайф (Sacha Greif)](https://twitter.com/sachagreif) и [Рафаэлем Бенитт (Raphaël Benitte)](https://twitter.com/benitteraphael).
+            Вместе с ребятами из Twitch-канала CodeItLive мы будем проводить [специальный стрим, посвящённый результатам опроса](https://stateofjs.com/2020stream/). Заходите к нам на огонёк, где мы с Сарой Драснер (Sarah Drasner), Джошем Комо (Josh W. Comeau,) и Кентом Доддсом (Kent C. Dodds) обсудим тенденции развития JavaScript в этом году!
 
             ### Загрузка данных
 
@@ -40,9 +40,13 @@ translations:
 
             Отдельная благодарность [Алексею Пыльцыну (Alexey Pyltsyn)](https://github.com/lex111) за помощь над переводами.
 
+            Также спасибо [Амелии Ваттенбергер (Amelia Wattenberger)](https://wattenberger.com/) за улучшение созданной ею диаграммы «Изменения во времени» в прошлом году. Если вы хотите научиться создавать собственные крутые визуализации данных, то вряд ли найдёте что-либо лучшее, чем её [видеокурс по D3](https://www.newline.co/fullstack-d3).
+
             ### Дополнительная информация
 
-            Сайт использует шрифт IBM Plex Mono. Есть вопрос? Хотите поделиться своим мнением? [Напишите нам!](mailto:hello@stateofjs.com)
+            Опрос State of JavaScript создан и развивается [Сашей Грайф (Sacha Greif)](https://twitter.com/sachagreif) и [Рафаэлем Бенитт (Raphaël Benitte)](https://twitter.com/benitteraphael).
+
+            Посмотрите [данный видеообзор](https://www.youtube.com/watch?v=o4w1qEnZxbM), чтобы узнать больше о технических деталях опроса — от сбора данных до визуализации данных. Есть вопрос? Хотите поделиться своим мнением? [Напишите нам](mailto:hello@stateofjs.com) или [загляните в наш чат на Discord](https://discord.gg/zRDb35jfrt).
 
             А теперь давайте посмотрим, каким был CSS в этом году!
 
