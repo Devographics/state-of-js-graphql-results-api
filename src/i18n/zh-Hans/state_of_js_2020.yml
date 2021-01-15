@@ -25,7 +25,7 @@ translations:
 
             ### 加入我们的发布直播！
 
-            我们将与 CodeItLive Twitch 频道的人合作，做一个[特别发布直播]（https://stateofjs.com/2020stream/）。加入我们，与Sarah Drasner 、 Josh W. Comeau 和 Trent C. Dodds 等嘉宾一起讨论过去一年的 JavaScript 趋势。
+            我们将与 CodeItLive Twitch 频道的人合作，做一个[特别发布直播]（https://stateofjs.com/2020stream/）。加入我们，与 Sarah Drasner 、 Josh W. Comeau 和 Trent C. Dodds 等嘉宾一起讨论过去一年的 JavaScript 趋势。
             
             ### 下载我们的数据
 
@@ -87,73 +87,55 @@ translations:
 
     - key: sections.user_info.description
       t: |
-          This year's survey reached **23,765** people in **137** countries. For the first time this year,
-          we were able to translate the survey questions in multiple languages thanks to an awesome team of volunteers.
+          今年的调查覆盖率了 **137** 个国家的 **23,765** 个人。今年，归功于一个了不起的志愿者团队，我们首次能够将调查问题翻译成多种语言。
 
     - key: sections.features.description
       t: |
-          While most respondents were aware of the majority of JavaScript features 
-          mentioned in the survey, many still have yet to actually use most of them. 
+          尽管大多数受访者都知道调查中提到的大部分 JavaScript 功能，许多人仍未实际使用其中的大部分功能。
 
     - key: sections.technologies.description
       t: |
-          The typical new JavaScript library shows high satisfaction but low usage, which can sometimes make
-          selecting the right technology for your needs a bit tricky. This is where looking at
-          the data can really help point you in the right direction. 
+          典型的新 JavaScript 库满意度较高，但使用率较低，这有时会使选择适合您需要的技术变得有点棘手。在这里，查看数据可以真正帮助你找到正确的方向。
 
     - key: sections.javascript_flavors.description
       t: |
-          The trend of “flavors” of JavaScript that compile down to standard code started all these
-          years ago with CoffeeScript, but it's now clear that TypeScript is the uncontested leader in
-          that category. 
+          编译成标准代码的"JavaScript Flavors"趋势从多年前的 CoffeeScript 就开始了，但现在很明显，TypeScript是这个类别中无可争议的领导者。
 
     - key: sections.front_end_frameworks.description
       t: |
-          As usual React and Vue lead the pack, but Svelte is quickly establishing itself as a very 
-          serious contender for the front-end crown. 
+          像以往一样，React 和 Vue 领先，但 Svelte 很快成为了强有力的竞争者。
 
     - key: sections.datalayer.description
       t: |
-          While the datalayer space is still in constant movement, one thing seems clear: GraphQL and
-          its related technologies are here to stay. 
+          虽然数据层领域仍在不断变动，但有一点似乎是明确的：GraphQL 及其相关技术将一直存在。
 
     - key: sections.back_end_frameworks.description
       t: |
-          The back-end space is still very fragmented, but Express stands out as the one dominant
-          tool, while Next.js maintains its high satisfaction ratio. 
+          后端领域仍然非常分散，但Express作为一个主流工具脱颖而出，而Next.js则保持着较高的满意度。
 
     - key: sections.testing.description
       t: |
-          The testing ecosystem keeps getting richer, with new entrants Testing Library and Playwright both
-          scoring high marks on the satisfaction index. 
+          测试生态圈不断丰富，新进入的 Testing Library 和 Playwright 都在满意度指数上获得了高分。
 
     - key: sections.build_tools.description
       t: |
-          Just when it seemed like webpack's dominance had settled the debate, the build tools scene
-          has again exploded with new entrants like Snowpack and esbuild, leading us to give it a full 
-          section for the first time since 2017. 
+          正当 webpack 的优势似乎已经解决了争论的时候，构建工具领域又出现了像 Snowpack 和 esbuild 这样的新工具，这使得我们自2017年调查以来首次给了它一个完整的章节。
 
     - key: sections.mobile_desktop.description
       t: |
-          JavaScript is not just for the browser, and while Electron and React Native are the two 
-          best-known names in this category, other solutions like Expo and Capacitor are also starting 
-          to make waves. 
+          JavaScript 不仅仅是为浏览器服务的，Electron 和 React Native 是这个类应用中最著名的两个，但其他的解决方案，例如 Expo 和 Capacitor 也开始掀起波澜。
 
     - key: sections.other_tools.description
       t: |
-          The diversity and quantity of libraries, utilities, and other tools highlights how vast the JavaScript
-          ecosystem has become, and for the first time this year we're also tracking JavaScript runtimes 
-          such as Deno and Hermes. 
+          库、实用程序和其他工具的多样性和数量凸显了 JavaScript 生态系统已经变得多么庞大，今年的调查中我们还首次对 Deno 和 Hermes 等 JavaScript 运行时环境进行了跟踪。
 
     - key: sections.resources.description
       t: |
-          Many great resources are listed here, and we're sure that you'll find at least a few new 
-          blogs or podcasts to follow!
+          这里列出了许多优秀的资源，我们相信你会找到一些新的博客或播客来关注!
 
     - key: sections.opinions.description
       t: |
-          While things are generally looking good in JavaScript land, there does seem to be a bit of a
-          come-down from the positivity high-point of 2018. Will the trend persist? Tune in next year to find out!
+          虽然今年 JavaScript 领域的情况总体上看起来不错，但与2018年的积极性高点相比，似乎确实有些回落。这种趋势会持续下去吗？明年收看就知道了!
 
           
     ###########################################################################
@@ -179,16 +161,16 @@ translations:
     #   t: With a **{value}** progression in 2020, this was the year CSS Grid crossed over from new technology to established tool.
 
     - key: award.tool_usage_delta_award.comment
-      t: TypeScript was already popular, and with a **{value}** growth in usage it looks like it's only going to get more ubiquitous going forward.
+      t: TypeScript已经很流行了，而且随着使用量 **{value}** 的增长，看起来今后只会越来越普及。
 
     - key: award.tool_satisfaction_award.comment
-      t: With a sky-high satisfaction rating of **{value}**, Testing Library is 2020's overall most beloved tool. 
+      t: 测试工具库的满意度高达 **{value}**，是2020年整体最受欢迎的工具。 
 
     - key: award.tool_interest_award.comment
-      t: GraphQL continues to be the one thing developers want to learn more about with an interest ratio of **{value}**, as soon as they can finally find the time. 
+      t: GraphQL仍然是开发者们最想了解的东西，兴趣比例为 **{value}**，只要他们能找到时间。
 
     - key: award.most_write_ins_award.comment
-      t: People are always passionate about text editors, and with **{value}** mentions IntelliJ IDEA wins the award for the most write-in answers. 
+      t: People are always passionate about text editors, and with **{value}** mentions IntelliJ IDEA wins the award for the most write-in answers. 人们对文本编辑器总是充满热情，凭借 **{value}** 次提及，IntelliJ IDEA 获得了提及最多的奖项。
 
     ###########################################################################
     # Conclusion
@@ -197,21 +179,24 @@ translations:
     - key: sections.conclusion.description
       t: |
             Since ancient times, philosophers have pondered the Paradox of JavaScript: on one hand, you can't wait for exciting new language features and libraries that promise to make your developer experience so much better. 
+            自古以来，哲学家们就一直在思考 JavaScript 的悖论：一方面，你迫不及待地想要获得令人兴奋的新语言功能和库，这些功能和库有望让开发者体验变得更好。
 
             But at the same time, you crave stability and simplicity so you can finally get things done without having to spend half your time browsing through convoluted GitHub issues threads and outdated Stack Overflow questions. 
+            但同时，你又渴望稳定和简单，这样你就可以不用花一半的时间去浏览复杂的 GitHub issue 和过时的 Stack Overflow 问题来完成任务。
 
             So which is it? Do we want the new shiny, or the old reliable? More than ever, 2020 shows that we won't settle for anything less than *both*. The good news is that the JavaScript community has risen up to the challenge, which promises an exciting 2021!
+            那么到底是哪一种呢？我们想要新的闪亮的，还是可靠的旧的？2020年比以往任何时候都更表明，我们不会满足于*两者*。好消息是JavaScript社区已经奋起迎接挑战，这将是令人兴奋的2021年
 
-            P.S. if you're still hungry for more JavaScript stats we recommend checking out the yearly [Rising Stars](https://risingstars.js.org/2020/en/) rankings from [Best Of JS](https://bestofjs.org/).
+            P.S. 如果你仍然渴望更多的 JavaScript 统计数据，我们建议你看看 [Best Of JS](https://bestofjs.org/) 的年度 [新秀](https://risingstars.js.org/2020/en/) 排名。
             
     ###########################################################################
     # Picks
     ###########################################################################
 
     - key: picks.my_2020_pick
-      t: 'My 2020 Pick: '
+      t: '我的 2020 精选: '
     - key: picks.intro
-      t: We asked members of the JavaScript community to share their “pick of the year”
+      t: 我们请JavaScript社区的成员分享他们的"年度精选"
 
     - key: picks.joshwcomeau.bio
       t: Software-engineer-turned-educator
@@ -225,8 +210,8 @@ translations:
       t: Infinite Builder
     - key: picks.swyx.description
       t: |
-            Svelte is the Space Elevator of frontend frameworks. 
-            It helps you ship apps extremely fast. 
+            Svelte是前端框架中的空间电梯。 
+            它能帮助你极快地发布应用。 
 
     - key: picks.kentcdodds.bio
       t: Improving the world with quality software
