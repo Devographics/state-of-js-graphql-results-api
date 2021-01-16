@@ -16,8 +16,19 @@ translations:
           So after the success of our annual State Of JavaScript survey,
           we’ve decided to take on the world of styles and selectors. We're hoping you’ll help
           us identify the latest trends, and figure out what tools to learn and use next!
+      t: >
+          CSS is evolving faster than ever.
+
+
+          Flexbox, Grid, Multi-Column… To say nothing of whole new paradigms like CSS-in-JS.
+
+
+          So after the success of our annual State Of JavaScript survey,
+          we’ve decided to take on the world of styles and selectors. We're hoping you’ll help
+          us identify the latest trends, and figure out what tools to learn and use next!
 
     - key: general.results.description
+      t: The annual survey about the latest trends in CSS.
       t: The annual survey about the latest trends in CSS.
 
     ###########################################################################
@@ -26,89 +37,123 @@ translations:
 
     - key: sections.layout.title
       t: Layout
+      t: Layout
     - key: sections.layout.description
+      t: How do you position elements on the screen?
       t: How do you position elements on the screen?
 
     - key: sections.shapes_graphics.title
       t: Shapes & Graphics
+      t: Shapes & Graphics
     - key: sections.shapes_graphics.description
+      t: Controlling the shape and display of elements.
       t: Controlling the shape and display of elements.
 
     - key: sections.interactions.title
       t: Interactions
+      t: Interactions
     - key: sections.interactions.description
+      t: Controlling how the user interacts with the page.
       t: Controlling how the user interacts with the page.
 
     - key: sections.typography.title
       t: Typography
+      t: Typography
     - key: sections.typography.description
+      t: Setting and laying out text.
       t: Setting and laying out text.
 
     - key: sections.animations_transforms.title
       t: Animations & Transforms
+      t: Animations & Transforms
     - key: sections.animations_transforms.description
+      t: Animating and transforming elements.
       t: Animating and transforming elements.
 
     - key: sections.media_queries.title
       t: Media Queries
+      t: Media Queries
     - key: sections.media_queries.description
+      t: Ways of adapting your site to the user's device or preferences.
       t: Ways of adapting your site to the user's device or preferences.
 
     - key: sections.other_features.title
       t: Other Features
+      t: Other Features
     - key: sections.other_features.description
+      t: Other CSS features.
       t: Other CSS features.
 
     - key: sections.units_selectors.title
       t: Units & Selectors
+      t: Units & Selectors
     - key: sections.units_selectors.description
+      t: Test your knowledge of CSS units and selectors.
       t: Test your knowledge of CSS units and selectors.
 
     - key: sections.pre_post_processors.title
       t: Pre-/Post-processors
+      t: Pre-/Post-processors
     - key: sections.pre_post_processors.description
+      t: Utilities that augment CSS.
       t: Utilities that augment CSS.
 
     - key: sections.pre_post_processors_others.title
       t: Other Pre-/Post-processors
+      t: Other Pre-/Post-processors
 
     - key: sections.css_frameworks.title
       t: CSS Frameworks
+      t: CSS Frameworks
     - key: sections.css_frameworks.description
+      t: Libraries that give you pre-made components and styles.
       t: Libraries that give you pre-made components and styles.
 
     - key: sections.css_frameworks_others.title
       t: Other CSS Frameworks
+      t: Other CSS Frameworks
 
     - key: sections.css_methodologies.title
       t: CSS Methodologies
+      t: CSS Methodologies
     - key: sections.css_methodologies.description
+      t: Codified ways to write cleaner CSS.
       t: Codified ways to write cleaner CSS.
 
     - key: sections.css_methodologies_others.title
       t: Other CSS Methodologies.
+      t: Other CSS Methodologies.
 
     - key: sections.css_in_js.title
       t: CSS-in-JS
+      t: CSS-in-JS
     - key: sections.css_in_js.description
+      t: Libraries that help integrate CSS into JavaScript code.
       t: Libraries that help integrate CSS into JavaScript code.
 
     - key: sections.css_in_js_others.title
       t: Other CSS-in-JS Libraries.
+      t: Other CSS-in-JS Libraries.
 
     - key: sections.tools_others.title
       t: Other Tools
+      t: Other Tools
     - key: sections.tools_others.description
+      t: Other CSS tools.
       t: Other CSS tools.
 
     - key: sections.environments.title
       t: Environments
+      t: Environments
     - key: sections.environments.description
+      t: Which environments do you write CSS for?
       t: Which environments do you write CSS for?
 
     - key: sections.awards.title
       t: Awards
+      t: Awards
     - key: sections.awards.description
+      t: Things that stood out this year.
       t: Things that stood out this year.
 
     ###########################################################################
@@ -118,43 +163,59 @@ translations:
     # CSS for print
     - key: options.css_for_print.0
       t: I (almost) never write print styles
+      t: I (almost) never write print styles
     - key: options.css_for_print.0.short
+      t: Never
       t: Never
 
     - key: options.css_for_print.1
       t: I occasionally write print styles
+      t: I occasionally write print styles
     - key: options.css_for_print.1.short
+      t: Occasionally
       t: Occasionally
 
     - key: options.css_for_print.2
       t: I write print styles as part of most projects
+      t: I write print styles as part of most projects
     - key: options.css_for_print.2.short
+      t: Often
       t: Often
 
     - key: options.css_for_print.3
       t: I focus mainly on CSS for print
+      t: I focus mainly on CSS for print
     - key: options.css_for_print.3.short
+      t: Mainly
       t: Mainly
 
     # CSS for email
     - key: options.css_for_email.0
       t: I (almost) never write CSS for email clients
+      t: I (almost) never write CSS for email clients
     - key: options.css_for_email.0.short
+      t: Never
       t: Never
 
     - key: options.css_for_email.1
       t: I occasionally write CSS for email clients
+      t: I occasionally write CSS for email clients
     - key: options.css_for_email.1.short
+      t: Occasionally
       t: Occasionally
 
     - key: options.css_for_email.2
       t: I write CSS for email clients as part of most projects
+      t: I write CSS for email clients as part of most projects
     - key: options.css_for_email.2.short
+      t: Often
       t: Often
 
     - key: options.css_for_email.3
       t: I focus mainly on CSS for email clients
+      t: I focus mainly on CSS for email clients
     - key: options.css_for_email.3.short
+      t: Mainly
       t: Mainly
 
     ###########################################################################
@@ -283,7 +344,9 @@ translations:
     # knowledge score
     - key: features.knowledge_score
       t: Knowledge Score
+      t: Knowledge Score
     - key: features.knowledge_score.description
+      t: Out of all the CSS features mentioned in the survey, how many did the respondent know about?
       t: Out of all the CSS features mentioned in the survey, how many did the respondent know about?
       
     ###########################################################################
@@ -292,7 +355,9 @@ translations:
 
     - key: features_others.units
       t: Units
+      t: Units
     - key: features_others.units.description
+      t: Which of these CSS units have you used?
       t: Which of these CSS units have you used?
 
     - key: options.units.px
@@ -322,7 +387,9 @@ translations:
 
     - key: features_others.pseudo_elements
       t: Pseudo Elements
+      t: Pseudo Elements
     - key: features_others.pseudo_elements.description
+      t: Which of these CSS pseudo-elements have you used?
       t: Which of these CSS pseudo-elements have you used?
 
     - key: options.pseudo_elements.before
@@ -344,21 +411,29 @@ translations:
 
     - key: features_others.combinators
       t: Combinators
+      t: Combinators
     - key: features_others.combinators.description
+      t: Which of these combinations CSS selectors have you used?
       t: Which of these combinations CSS selectors have you used?
 
     - key: options.combinators.descendant
       t: div span (descendant)
+      t: div span (descendant)
     - key: options.combinators.child
+      t: div > span (child)
       t: div > span (child)
     - key: options.combinators.next_sibling
       t: div + div (next sibling)
+      t: div + div (next sibling)
     - key: options.combinators.subsequent_sibling
+      t: div ~ div (subsequent sibling)
       t: div ~ div (subsequent sibling)
 
     - key: features_others.tree_document_structure
       t: Tree / Document Structure
+      t: Tree / Document Structure
     - key: features_others.tree_document_structure.description
+      t: Which of these structure related CSS selectors have you used?
       t: Which of these structure related CSS selectors have you used?
 
     - key: options.tree_document_structure.root
@@ -398,25 +473,35 @@ translations:
 
     - key: features_others.attributes
       t: Attributes
+      t: Attributes
     - key: features_others.attributes.description
+      t: Which of these CSS attributes selectors have you used?
       t: Which of these CSS attributes selectors have you used?
 
     - key: options.attributes.presence
       t: div[foo] (Presence)
+      t: div[foo] (Presence)
     - key: options.attributes.equality
+      t: div[foo="bar"] (Equality)
       t: div[foo="bar"] (Equality)
     - key: options.attributes.starts_with
       t: div[foo^="bar"] (Starts with)
+      t: div[foo^="bar"] (Starts with)
     - key: options.attributes.ends_with
+      t: div[foo$="bar"] (Ends with)
       t: div[foo$="bar"] (Ends with)
     - key: options.attributes.contains_word
       t: div[foo~="bar"] (Contains word)
+      t: div[foo~="bar"] (Contains word)
     - key: options.attributes.contains_substring
+      t: div[foo*="bar"] (Contains substring)
       t: div[foo*="bar"] (Contains substring)
 
     - key: features_others.links_urls
       t: Links/URLs
+      t: Links/URLs
     - key: features_others.links_urls.description
+      t: Which of these links & URLs related CSS selectors have you used?
       t: Which of these links & URLs related CSS selectors have you used?
 
     - key: options.links_urls.any_link
@@ -430,7 +515,9 @@ translations:
 
     - key: features_others.interaction
       t: Interaction
+      t: Interaction
     - key: features_others.interaction.description
+      t: Which of these interaction CSS selectors have you used?
       t: Which of these interaction CSS selectors have you used?
 
     - key: options.interaction.hover
@@ -446,7 +533,9 @@ translations:
 
     - key: features_others.form_controls
       t: Form Controls
+      t: Form Controls
     - key: features_others.form_controls.description
+      t: Which of these form related CSS selectors have you used?
       t: Which of these form related CSS selectors have you used?
 
     - key: options.form_controls.enabled_disabled
@@ -476,27 +565,37 @@ translations:
 
     - key: environments.browsers
       t: Browsers
+      t: Browsers
     - key: environments.browsers.description
+      t: Which browsers do you test in?
       t: Which browsers do you test in?
 
     - key: environments.form_factors
       t: Form Factors
+      t: Form Factors
     - key: environments.form_factors.description
+      t: Which form factors do you test on?
       t: Which form factors do you test on?
 
     - key: environments.css_for_print
       t: CSS for Print
+      t: CSS for Print
     - key: environments.css_for_print.description
+      t: Do you write print styles?
       t: Do you write print styles?
 
     - key: environments.css_for_email
       t: CSS for Email Clients
+      t: CSS for Email Clients
     - key: environments.css_for_email.description
+      t: Do you write CSS for email clients?
       t: Do you write CSS for email clients?
 
     - key: charts.axis_legends.css_for_print
       t: Frequency
+      t: Frequency
     - key: charts.axis_legends.css_for_email
+      t: Frequency
       t: Frequency
 
     ###########################################################################
@@ -505,37 +604,51 @@ translations:
 
     - key: opinions.css_easy_to_learn
       t: CSS is easy to learn
+      t: CSS is easy to learn
     - key: opinions.css_easy_to_learn.title
+      t: Learning Curve
       t: Learning Curve
 
     - key: opinions.css_evolving_slowly
       t: CSS is evolving too slowly
+      t: CSS is evolving too slowly
     - key: opinions.css_evolving_slowly.title
+      t: Rate of Change
       t: Rate of Change
 
     - key: opinions.utility_classes_to_be_avoided
       t: Utility (non-semantic) classes (.center, .large-text, etc.) should be avoided
+      t: Utility (non-semantic) classes (.center, .large-text, etc.) should be avoided
     - key: opinions.utility_classes_to_be_avoided.title
+      t: Non-Semantic Classes
       t: Non-Semantic Classes
 
     - key: opinions.selector_nesting_to_be_avoided
       t: Selector nesting (.foo .bar ul li {...}) should be avoided
+      t: Selector nesting (.foo .bar ul li {...}) should be avoided
     - key: opinions.selector_nesting_to_be_avoided.title
+      t: Selector Nesting
       t: Selector Nesting
 
     - key: opinions.css_is_programming_language
       t: CSS is a programming language
+      t: CSS is a programming language
     - key: opinions.css_is_programming_language.title
+      t: Programming Language
       t: Programming Language
 
     - key: opinions.enjoy_writing_css
       t: I enjoy writing CSS
+      t: I enjoy writing CSS
     - key: opinions.enjoy_writing_css.title
+      t: Enjoyment
       t: Enjoyment
 
     - key: opinions_others.currently_missing_from_css.others
       t: What do you feel is currently missing from CSS?
+      t: What do you feel is currently missing from CSS?
     - key: opinions_others.currently_missing_from_css.others.description
+      t: Features you'd like to see in CSS one day.
       t: Features you'd like to see in CSS one day.
     - key: opinions_others.currently_missing_from_css.others.note
       t: >
@@ -544,11 +657,15 @@ translations:
     
     - key: opinions.sum_up_one_word_css
       t: CSS in one word
+      t: CSS in one word
     - key: opinions.sum_up_one_word_css.description
+      t: How would you sum up your opinion of CSS in one word?
       t: How would you sum up your opinion of CSS in one word?
 
     - key: happiness.state_of_the_web
       t: How happy are you with the general state of web technologies?
+      t: How happy are you with the general state of web technologies?
 
     - key: happiness.state_of_css
+      t: How happy are you with the general state of CSS?
       t: How happy are you with the general state of CSS?
