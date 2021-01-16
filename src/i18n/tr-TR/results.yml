@@ -204,7 +204,7 @@ translations:
     # tools quadrant
     - key: blocks.tools_quadrant.title
       t: Memnuniyet ve Kullanım Analizi
-    - key: blocks.tools_quadrant.satisfaction.description
+    - key: blocks.tools_quadrant.description
       t: |
         Bu grafik, her bir teknolojinin **toplam kullanıcı sayısı** üzerindeki **memnuniyet oranını** gösterir. 
         Dört bölüme ayrılabilir:

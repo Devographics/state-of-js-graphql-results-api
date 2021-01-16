@@ -258,7 +258,7 @@ translations:
     # tools quadrant
     - key: blocks.tools_quadrant.title
       t: Сравнение удовлетворённости и использования
-    - key: blocks.tools_quadrant.satisfaction.description
+    - key: blocks.tools_quadrant.description
       t: |
         Эта диаграмма показывает **процент удовлетворённости** каждой технологией относительно её общего **количества пользователей**.
 
@@ -272,7 +272,7 @@ translations:
 
           - **ОЦЕНИВАЮТ**: Высокая степень использования, низкая степень удовлетворённости. Технологии, от которых, возможно, стоит отказаться.
 
-    - key: blocks.tools_quadrant.satisfaction.note
+    - key: blocks.tools_quadrant.note
       t: Стоит отметить, что TypeScript отображается на графике дважды, потому что он рассматривается как в разделе «Разновидности JavaScript», так и в разделе «Сборщики».
 
     - key: blocks.tools_quadrant.interest.description

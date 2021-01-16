@@ -231,7 +231,7 @@ translations:
     # tools quadrant
     - key: blocks.tools_quadrant.title
       t: 滿意度 vs 使用程度
-    - key: blocks.tools_quadrant.satisfaction.description
+    - key: blocks.tools_quadrant.description
       t: |
         此圖表根據每項技術的全部**使用人數**顯示**滿意比例**，劃分成 4 個象限：
 

@@ -260,7 +260,7 @@ translations:
     # tools quadrant
     - key: blocks.tools_quadrant.title
       t: Satisfaction vs Usage
-    - key: blocks.tools_quadrant.satisfaction.description
+    - key: blocks.tools_quadrant.description
       t: |
         This chart shows each technology’s **satisfaction ratio** over its total **user count**.
         It can be divided into four quadrants:
@@ -272,7 +272,7 @@ translations:
           - **AVOID**: Low usage, low satisfaction. Technologies probably best avoided currently.
 
           - **ANALYZE**: High usage, low satisfaction. Reassess these technologies if you're currently using them.
-    - key: blocks.tools_quadrant.satisfaction.note
+    - key: blocks.tools_quadrant.note
       t: Note that TypeScript appears twice in the chart because it's included in both the JavaScript Flavors and Build Tools sections. 
 
     - key: blocks.tools_quadrant.interest.description

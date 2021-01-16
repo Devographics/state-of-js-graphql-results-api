@@ -217,7 +217,7 @@ translations:
     # tools quadrant
     - key: blocks.tools_quadrant.title
       t: Порівняння задоволеності і використання
-    - key: blocks.tools_quadrant.satisfaction.description
+    - key: blocks.tools_quadrant.description
       t: |
         Ця діаграма показує **відсоток задоволеності** кожної технологією щодо її загальної **кількості користувачів**.
 
