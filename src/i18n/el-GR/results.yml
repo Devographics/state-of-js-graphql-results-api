@@ -181,29 +181,29 @@ translations:
 
     # heatmaps
     - key: blocks.tools_company_size_heatmap.title
-      t: Usage by Company Size
+      t: Χρήση με βάση το μέγεθος εταιρείας
     - key: blocks.tools_company_size_heatmap.description
       t: |
-        For each technology, how usage is spread among respondents
-        who picked different company size ranges.
+         Αναλόγος την χρήση της τεχνολογίας που διαδίδεται μεταξύ των ερωτηθέντων,
+         που έχουν επέλεξει διαφορετικά μεγέθοι εταιρειών.
 
     - key: blocks.tools_yearly_salary_heatmap.title
-      t: Usage by Salary Range
+      t: Χρήση αναλόγος τον μισθό
     - key: blocks.tools_yearly_salary_heatmap.description
       t: |
-        For each technology, how usage is spread among respondents
-        who picked different salary ranges.
+         Αναλόγος την χρήση της τεχνολογίας που διαδίδεται μεταξύ των ερωτηθέντων,
+         που έχουν διαφορετικούς μισθούς.
 
     - key: blocks.tools_years_of_experience_heatmap.title
-      t: Usage by Years Of Experience
+      t: Χρήση αναλόγος την εμπειρία
     - key: blocks.tools_years_of_experience_heatmap.description
       t: |
-        For each technology, how usage is spread among respondents who picked different experience ranges.
-        Note that the experience in question here is general experience, not experience with a specific technology.
+        Αναλόγος την χρήση της τεχνολογίας που διαδίδεται μεταξύ των ερωτηθέντων, που έχουν διαφορετικές εμπειρίες.
+        Σημειώστε ότι η εν λόγω εμπειρία είναι γενική εμπειρία και όχι εμπειρία στην συγκεκριμένη τεχνολογία.
 
     # tool
     - key: blocks.entity.homepage_link
-      t: Homepage
+      t: Αρχική
     - key: blocks.entity.github_link
       t: GitHub
 
