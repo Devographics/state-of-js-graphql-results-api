@@ -25,11 +25,11 @@ translations:
 
             ### 加入我们的发布直播！
 
-            我们将与 CodeItLive Twitch 频道的人合作，做一个[特别发布直播]（https://stateofjs.com/2020stream/）。加入我们，与 Sarah Drasner 、 Josh W. Comeau 和 Trent C. Dodds 等嘉宾一起讨论过去一年的 JavaScript 趋势。
+            我们将与 CodeItLive Twitch 频道的人合作，做一个[特别发布直播](https://stateofjs.com/2020stream/)。加入我们，与 Sarah Drasner 、 Josh W. Comeau 和 Trent C. Dodds 等嘉宾一起讨论过去一年的 JavaScript 趋势。
             
             ### 下载我们的数据
 
-            你可以[下载本调查的原始 JSON 数据](https://www.kaggle.com/sachag/state-of-js). 如果你最终做出了自己的数据可视化，请告诉我们!
+            你可以[下载本调查的原始 JSON 数据](https://www.kaggle.com/sachag/state-of-js)。 如果你最终做出了自己的数据可视化，请告诉我们!
 
             ### State of CSS
 
@@ -41,7 +41,7 @@ translations:
 
             还要感谢 [Amelia Wattenberger](https://wattenberger.com/) 帮助我们更新了她去年原创的"随时间变化"图表。如果你想学习如何建立自己的数据可视化，没有比她的 [D3视频课程](https://www.newline.co/fullstack-d3) 更好的方法了。
             
-            ### Credits & Stuff
+            ### 团队
 
             State of JavaScript 调查由 [Sacha Greif](https://twitter.com/sachagreif) 和 [Raphaël Benitte](https://twitter.com/benitteraphael) 创建并维护。
 
@@ -95,7 +95,7 @@ translations:
 
     - key: sections.technologies.description
       t: |
-          典型的新 JavaScript 库满意度较高，但使用率较低，这有时会使选择适合您需要的技术变得有点棘手。在这里，查看数据可以真正帮助你找到正确的方向。
+          典型的新JavaScript库满意度较高，但使用率较低，这有时会使选择适合您需要的技术变得有点棘手。在这里查看数据，可以真正帮助你找到正确的方向。
 
     - key: sections.javascript_flavors.description
       t: |
@@ -145,13 +145,13 @@ translations:
     - key: blocks.source.note
       t: >
       
-        This chart aggregates a mix of referrers, URL parameters, and freeform answers. 
+        这个图表汇集了参考、URL和自由填写的答案。
 
-        - State of JS: the [State of JS](https://stateofjs.com) mailing list; also matches `email`, `by email`, etc.
+        - State of JS: [State of JS](https://stateofjs.com) 的邮件列表; 也匹配了 `email`, `by email`, 等关键词。
 
-        - State of CSS: the [State of CSS](https://stateofcss.com/) mailing list
+        - State of CSS: [State of CSS](https://stateofcss.com/) 邮件列表。
 
-        - Work: matches `work`, `colleagues`, `coworkers`, etc.
+        - Work: 匹配了 `work`, `colleagues`, `coworkers`, 等关键词。
 
     ###########################################################################
     # Awards
@@ -170,7 +170,7 @@ translations:
       t: GraphQL仍然是开发者们最想了解的东西，兴趣比例为 **{value}**，只要他们能找到时间。
 
     - key: award.most_write_ins_award.comment
-      t: People are always passionate about text editors, and with **{value}** mentions IntelliJ IDEA wins the award for the most write-in answers. 人们对文本编辑器总是充满热情，凭借 **{value}** 次提及，IntelliJ IDEA 获得了提及最多的奖项。
+      t: 人们对文本编辑器总是充满热情，凭借 **{value}** 次提及，IntelliJ IDEA 获得了提及最多的奖项。
 
     ###########################################################################
     # Conclusion
@@ -178,13 +178,10 @@ translations:
 
     - key: sections.conclusion.description
       t: |
-            Since ancient times, philosophers have pondered the Paradox of JavaScript: on one hand, you can't wait for exciting new language features and libraries that promise to make your developer experience so much better. 
             自古以来，哲学家们就一直在思考 JavaScript 的悖论：一方面，你迫不及待地想要获得令人兴奋的新语言功能和库，这些功能和库有望让开发者体验变得更好。
 
-            But at the same time, you crave stability and simplicity so you can finally get things done without having to spend half your time browsing through convoluted GitHub issues threads and outdated Stack Overflow questions. 
             但同时，你又渴望稳定和简单，这样你就可以不用花一半的时间去浏览复杂的 GitHub issue 和过时的 Stack Overflow 问题来完成任务。
 
-            So which is it? Do we want the new shiny, or the old reliable? More than ever, 2020 shows that we won't settle for anything less than *both*. The good news is that the JavaScript community has risen up to the challenge, which promises an exciting 2021!
             那么到底是哪一种呢？我们想要新的闪亮的，还是可靠的旧的？2020年比以往任何时候都更表明，我们不会满足于*两者*。好消息是JavaScript社区已经奋起迎接挑战，这将是令人兴奋的2021年
 
             P.S. 如果你仍然渴望更多的 JavaScript 统计数据，我们建议你看看 [Best Of JS](https://bestofjs.org/) 的年度 [新秀](https://risingstars.js.org/2020/en/) 排名。
@@ -199,70 +196,65 @@ translations:
       t: 我们请JavaScript社区的成员分享他们的"年度精选"
 
     - key: picks.joshwcomeau.bio
-      t: Software-engineer-turned-educator
+      t: 软件工程师出身教育者
     - key: picks.joshwcomeau.description
       t: |
-            This is a fantastic intro resource for learning about web accessibility! 
-            I picked it because it's our job as JS devs to make sure that the sites 
-            we build are usable by everyone, not just sighted keyboard-and-mouse users.
+            这是学习web无障碍的极好的入门资源！我之所以选择它，是因为作为JS开发者，我们的工作就是确保我们构建的站点对所有人都可用，而不仅仅是那些有视觉的使用键盘和鼠标的用户。
 
     - key: picks.swyx.bio
-      t: Infinite Builder
+      t: 持续构建者
     - key: picks.swyx.description
       t: |
             Svelte是前端框架中的空间电梯。 
             它能帮助你极快地发布应用。 
 
     - key: picks.kentcdodds.bio
-      t: Improving the world with quality software
+      t: 用高质量的软件改善世界
     - key: picks.kentcdodds.description
       t: |
-            Remix is a different approach to React frameworks with an emphasis on progressive 
-            enhancement. It embraces the web platform in a way that no existing frameworks do 
-            and I'm excited by its potential.
+            Remix 是 React 框架的另一种方式，强调渐进增强。
+            它以一种现有框架无法做到的方式拥抱了 web 平台，我对它的潜力感到兴奋。
 
     - key: picks.sarah_edo.bio
-      t: Core Team Vue.js
+      t: Vue.js 核心团队成员
     - key: picks.sarah_edo.description
       t: |
-            Insomnia is an app that allows you to design, test, and deploy API 
-            Workflows with a clean, simplified UX- it has both REST and GraphQL support, 
-            though clearly the puns are better if you're using REST.
+            Insomnia 是一个允许你设计、测试和部署API工作流的应用程序，它用户纯净、简单的用户体验——它同时支持 REST 和 GraphQL。
     
-    - key: picks.ladyleet.bio
+    - key: picks.ladyleet.bio #TODO
       t: This Dot Labs, GDE, MVP
-    - key: picks.ladyleet.description
+    - key: picks.ladyleet.description #TODO
       t: |
             RedwoodJS and frameworks like it are starting to change how we think about development. 
             It’s bringing the ease of Ruby on Rails to the front-end ecosystem.
 
-    - key: picks.midudev.bio
+    - key: picks.midudev.bio #TODO
       t: Lead Frontend @ Adevinta & Content Creator
-    - key: picks.midudev.description
+    - key: picks.midudev.description #TODO
       t: |
             Working with modules on the JavaScript ecosystem has been messy. 
             ES2020 came with ES Modules to end that. Even it's stable on Node.js. Yei!
     
-    - key: picks.cassidoo.bio
+    - key: picks.cassidoo.bio #TODO
       t: Principal Developer Experience Engineer at Netlify
-    - key: picks.cassidoo.description
+    - key: picks.cassidoo.description #TODO
       t: |
             Ben is one of the most generous people in the JS community. 
             He's active in open source (on the Vue core team), 
             consistently makes useful content for developers to learn, and is very giving with his time.
             
-    - key: picks.lauragift_.bio
+    - key: picks.lauragift_.bio #TODO
       t: Frontend Developer @ PassionatePeople
-    - key: picks.lauragift_.description
+    - key: picks.lauragift_.description #TODO
       t: |
             Josh Comeau has been an inspiration to me, and I can say the JS community in general. 
             He writes very thoughtful articles on his blog, and they are some of the best I read in 
             2020 because they either helped me stay on top of the latest in JavaScript 
             or helped me learn something new.
 
-    - key: picks.tomdale.bio
+    - key: picks.tomdale.bio #TODO
       t: JavaScript Thinkfluencer
-    - key: picks.tomdale.description
+    - key: picks.tomdale.description #TODO
       t: |
             Volta helps manage your entire JavaScript toolchain – think nvm, but it also helps 
             you and your team stay on the same versions of Node, npm, CLI tools, etc. 
@@ -270,13 +262,13 @@ translations:
             Rust to build speedy tools for JS.
 
     - key: picks.markdalgleish.bio
-      t: CSS 模块的联合创始人，Playroom 的创始人
-    - key: picks.markdalgleish.description
+      t: 本调查CSS 模块的联合创始人，Playroom 的创始人
+    - key: picks.markdalgleish.description #TODO
       t: |
             Automates npm publishing with the ability to tie Markdown release notes to every change. Changesets has really leveled up the quality of our release notes and version management this year.
 
     - key: picks.sachagreif.bio
       t: State of JS 调查的创始人
-    - key: picks.sachagreif.description
+    - key: picks.sachagreif.description #TODO
       t: |
             Best Of JS tracks GitHub stats about virtually every major JavaScript project, and it has been an invaluable resource for helping us decide what to include in the survey!

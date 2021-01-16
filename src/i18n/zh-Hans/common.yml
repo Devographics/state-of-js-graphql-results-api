@@ -110,6 +110,19 @@ translations:
     - key: forms.select_option
       t: 选项
 
+    # partners
+    - key: partners.our_partners
+      t: 我们的合作伙伴
+    - key: partners.become_partner
+      t: 成为我的伙伴
+
+    # other
+    - key: general.join_discord
+      t: 在 <a href="{link}">Discord</a> 中加入我们.
+    - key: general.translator_mode
+      t: 按住 option/alt 键开启翻译模式 .
+    - key: general.charts_nivo
+      t: 图表使用 <a href="{link}">Nivo</a> 构建.
     ###########################################################################
     # Nav
     ###########################################################################
@@ -128,6 +141,11 @@ translations:
     - key: sections.user_info.description
       t: 让我们了解真实的你。
 
+    - key: sections.features.title
+      t: 特性
+    - key: sections.features.description
+      t: 语法，关键字，和其它语言特性。
+
     - key: sections.resources.title
       t: 资料
     - key: sections.resources.description
@@ -142,6 +160,9 @@ translations:
       t: 其他工具
     - key: sections.other_tools.description # TODO
       t: 请在这些工具和技术里，勾上你常用的。
+
+    - key: sections.report.title
+      t: 趋势报告
 
     ###########################################################################
     # Options
@@ -230,6 +251,18 @@ translations:
       t: 不错
     - key: options.happiness.4
       t: 非常不错
+
+    # happiness (short version)
+    - key: options.happiness.0.short
+      t: 很不开心
+    - key: options.happiness.1.short
+      t: 不开心
+    - key: options.happiness.2.short
+      t: 中立
+    - key: options.happiness.3.short
+      t: 开心
+    - key: options.happiness.4.short
+      t: 很开心
 
     # opinions
     - key: options.opinions.0
@@ -538,11 +571,32 @@ translations:
       t: 你的邮箱地址
     - key: user_info.country
       t: 你的国家或地区
+    - key: user_info.github_username
+      t: 你的 GitHub 用户名
+    - key: user_info.github_username.description
+      t: >
+        我们将来可能会使用GitHub用户名来查看仓库和公开信息。 
+    - key: user_info.industry_sector
+      t: 行业
+    - key: user_info.industry_sector.description
+      t: 你在哪个行业工作？
+    - key: user_info.industry_sector.others
+      t: 其他行业
+    - key: user_info.industry_sector.others.description
+      t: 上述未提及的行业。
 
     ###########################################################################
     # Other Tools
     ###########################################################################
 
+    - key: tools_others.libraries
+      t: 工具类库
+    - key: tools_others.libraries.description
+      t: 你常用那些工具类库?
+    - key: tools_others.libraries.others
+      t: 其他工具类库
+    - key: tools_others.libraries.others.description
+      t: 其他答案 (自由填写答案)。
     - key: tools_others.text_editors
       t: 文本编辑器
     - key: tools_others.text_editors.description
