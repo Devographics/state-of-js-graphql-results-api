@@ -298,7 +298,7 @@ translations:
       t: Positive/Negative Split
     - key: blocks.tools_experience_marimekko.description
       t: |
-          This chart splits positive (“want to learn”, ”would use again”) vs
+          This chart splits positive (“want to learn”, “would use again”) vs
           negative (“not interested”, “would not use again”) experiences on
           both sides of a central axis.
 
@@ -388,7 +388,7 @@ translations:
       t: |
         How different factors such as salary range, years of experience
         or company size influence usage (participants who answered either
-        ”would use again” or “would not use again”).
+        “would use again” or “would not use again”).
 
         The baseline represents the base usage for each tool and the offsets
         correspond to the delta from this baseline in each range. Let's say

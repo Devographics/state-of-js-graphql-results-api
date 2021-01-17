@@ -35,6 +35,12 @@ translations:
       t: No hay encuestas abiertas actualmente.
     - key: general.closed_surveys
       t: Encuestas Cerradas
+    - key: general.no_closed_surveys
+      t: No hay encuestas cerradas actualmente.
+    - key: general.preview_surveys
+      t: Vista Previa de Encuestas
+    - key: general.no_preview_surveys
+      t: No hay encuestas disponibles para ver.
     - key: general.start_survey
       t: Empezar Encuesta »
     - key: general.continue_survey
@@ -113,11 +119,25 @@ translations:
     - key: forms.select_option
       t: Elige una opción
 
+    # partners
+    - key: partners.our_partners
+      t: Nuestros Colaboradores
+    - key: partners.become_partner
+      t: Conviértete en colaborador
+
     # 404
     - key: notfound.title
       t: 404 No Encontrado
     - key: notfound.description
       t: Lo sentimos pero no hemos podido encontrar lo que estabas buscando.
+
+    # other
+    - key: general.join_discord
+      t: Únete a nosotros en <a href="{link}">Discord</a>.
+    - key: general.translator_mode
+      t: Presiona option/alt para activar el modo de traductor. 
+    - key: general.charts_nivo
+      t: Las gráficas se han creado con <a href="{link}">Nivo</a>.
 
     ###########################################################################
     # Nav
@@ -156,6 +176,9 @@ translations:
       t: Otras Herramientas
     - key: sections.other_tools.description
       t: De estas herramientas y tecnologías, selecciona las que uses habitualmente.
+
+    - key: sections.report.title
+      t: Informe de Tendencias
 
     ###########################################################################
     # Options
@@ -485,6 +508,58 @@ translations:
     - key: options.form_factors.print
       t: Para imprimir
 
+    # Industry Sector
+    - key: options.industry_sector.ecommerce
+      t: Comercio Electrónico y al por menor
+    - key: options.industry_sector.news_media
+      t: Noticias, Multimedia y Blogging
+    - key: options.industry_sector.healthcare
+      t: Cuidado de la Salud
+    - key: options.industry_sector.finance
+      t: Finanzas
+    - key: options.industry_sector.programming_tools
+      t: Programación y Herramientas Técnicas
+    - key: options.industry_sector.socialmedia
+      t: Social Media
+    - key: options.industry_sector.marketing_tools
+      t: Marketing/Ventas/Herramientas de Análisis
+    - key: options.industry_sector.education
+      t: Educación
+    - key: options.industry_sector.real_estate
+      t: Real Estate
+    - key: options.industry_sector.government
+      t: Gobierno
+    - key: options.industry_sector.entertainment
+      t: Entretenimiento
+    - key: options.industry_sector.consulting
+      t: Consultoría y Servicios
+    - key: options.industry_sector.travel
+      t: Viajes
+    - key: options.industry_sector.insurance
+      t: Seguros
+    - key: options.industry_sector.logistics
+      t: Logística
+    - key: options.industry_sector.energy
+      t: Energía
+    - key: options.industry_sector.telecommunications
+      t: Telecomunicaciones
+    - key: options.industry_sector.student
+      t: Estudiante
+    - key: options.industry_sector.hospitality
+      t: Hospitalidad
+    - key: options.industry_sector.cyber_security
+      t: Cyber-seguridad
+    - key: options.industry_sector.construction
+      t: Construcción
+    - key: options.industry_sector.automotive
+      t: Automóvil
+    - key: options.industry_sector.agriculture
+      t: Agricultura
+    - key: options.industry_sector.transport
+      t: Transpòrte
+    - key: options.industry_sector.manufacturing
+      t: Fabricación
+
     ###########################################################################
     # Tools
     ###########################################################################
@@ -560,11 +635,34 @@ translations:
     - key: user_info.email
       t: Tu Correo Electrónico
     - key: user_info.country
-      t: Tu País
+      t: Tu País o Región
+    - key: user_info.github_username
+      t: Tu usuario de GitHub
+    - key: user_info.github_username.description
+      t: >
+        Usaremos tu usuarios de GitHub en el futuro para analizar
+        tus repositorios y cruzar información públicamente disponible.
+    - key: user_info.industry_sector
+      t: Sector Industrial
+    - key: user_info.industry_sector.description
+      t: ¿En que sector(es) industrial(es) trabajas?
+    - key: user_info.industry_sector.others
+      t: Otros Sectores Industriales
+    - key: user_info.industry_sector.others.description
+      t: Otros sector(es) industrial(es) en los que trabajes, que no hayamos mencionado.
 
     ###########################################################################
     # Other Tools
     ###########################################################################
+
+    - key: tools_others.libraries
+      t: Librerías
+    - key: tools_others.libraries.description
+      t: ¿Qué librerías usas con regularidad?
+    - key: tools_others.libraries.others
+      t: Otras Librerías
+    - key: tools_others.libraries.others.description
+      t: Otras respuestas (campo de texto libre).
 
     - key: tools_others.text_editors
       t: Editores de Texto
