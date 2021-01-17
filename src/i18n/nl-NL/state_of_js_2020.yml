@@ -81,10 +81,10 @@ translations:
           Afdrukken en verzenden wordt afgehandeld door [Cotton Bureau](https://cottonbureau.com/people/state-of-js). Het ontwerp is gedrukt op een premium volgend level zwart superzacht, tri-blend shirt.
 
     - key: tshirt.getit
-      t: Koop het
+      t: Bestellen
 
     - key: tshirt.price
-      t: USD ${price} + verzending
+      t: USD ${price} + verzendkosten
 
     ###########################################################################
     # Sections Introductions
