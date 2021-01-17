@@ -51,22 +51,22 @@ translations:
       t: 评估
     - key: options.quadrant.assess.long
       t: |
-        评估: 使用率较低，满意度较高。值得关注的技术。
+          评估: 使用率较低，满意度较高。值得关注的技术。
     - key: options.quadrant.adopt
       t: 采用
     - key: options.quadrant.adopt.long
       t: |
-        采用: 使用率高，满意度高。可采用安全技术。
+          采用: 使用率高，满意度高。可采用安全技术。
     - key: options.quadrant.avoid
       t: 规避
     - key: options.quadrant.avoid.long
       t: |
-        规避: 使用率低，满意度低。目前最好避免使用的技术。
+          规避: 使用率低，满意度低。目前最好避免使用的技术。
     - key: options.quadrant.analyze
       t: 待定
     - key: options.quadrant.analyze.long
       t: |
-        待定: 使用率高，满意度低。如果您正在使用这些技术，请重新评估它们。
+          待定: 使用率高，满意度低。如果您正在使用这些技术，请重新评估它们。
 
     - key: ranges.selector.years_of_experience
       t: 经验年限
@@ -98,14 +98,14 @@ translations:
       t: 支持我们
     - key: sections.support.description
       t: >
-        我们将这个调查作为一个副业项目进行，但为了使这个项目可持续发展，我们一直在寻找能够支持我们的合作伙伴，无论是在经济上还是帮助我们传播信息。
-        如果您认为您能在任何方面提供帮助，请不要犹豫[联系我们](mailto:hello@stateofjs.com)！
+          我们将这个调查作为一个副业项目进行，但为了使这个项目可持续发展，我们一直在寻找能够支持我们的合作伙伴，无论是在经济上还是帮助我们传播信息。
+          如果您认为您能在任何方面提供帮助，请不要犹豫[联系我们](mailto:hello@stateofjs.com)！
 
     - key: sections.awards.title
       t: 大奖
     - key: sections.awards.description
       t: 今年的亮点
-      
+
     ###########################################################################
     # User Info
     ###########################################################################
@@ -162,6 +162,8 @@ translations:
       t: 波兰语
     - key: options.locale.fa-IR
       t: 波斯语
+    - key: options.locale.nl-NL
+      t: 荷兰语
 
     ###########################################################################
     # Features
@@ -181,7 +183,6 @@ translations:
       t: Knowledge Score
     - key: features.knowledge_score.description
       t: 在调查中提到的所有特性中，受访者知道多少？
-
 
     ###########################################################################
     # Tools & Methodologies
@@ -208,20 +209,20 @@ translations:
       t: 按公司规模划分的使用情况
     - key: blocks.tools_company_size_heatmap.description
       t: |
-        对于每种技术，在不同公司规模范围的受访者中，使用情况如何。
+          对于每种技术，在不同公司规模范围的受访者中，使用情况如何。
 
     - key: blocks.tools_yearly_salary_heatmap.title
       t: 按薪水范围划分的使用情况
     - key: blocks.tools_yearly_salary_heatmap.description
       t: |
-        对于每种技术，在选择不同薪资范围的受访者中，使用情况如何。
+          对于每种技术，在选择不同薪资范围的受访者中，使用情况如何。
 
     - key: blocks.tools_years_of_experience_heatmap.title
       t: 按经验年限划分的使用情况
     - key: blocks.tools_years_of_experience_heatmap.description
       t: |
-        对于每种技术，在选择不同经验年限范围的受访者中，使用情况如何。
-        请注意，这里讨论的经验是一般经验，而不是特定技术的经验。
+          对于每种技术，在选择不同经验年限范围的受访者中，使用情况如何。
+          请注意，这里讨论的经验是一般经验，而不是特定技术的经验。
 
     # tool
     - key: blocks.entity.homepage_link
@@ -256,23 +257,23 @@ translations:
       t: 满意度 对比 使用率
     - key: blocks.tools_quadrant.satisfaction.description
       t: |
-        这张图表显示了每种技术对其总 **用户数量** 的 **满意率**。它可以分为四个象限：
+          这张图表显示了每种技术对其总 **用户数量** 的 **满意率**。它可以分为四个象限：
 
-          - **评估**: 使用率较低，满意度较高。值得关注的技术。
+            - **评估**: 使用率较低，满意度较高。值得关注的技术。
 
-          - **采用**: 使用率高，满意度高。可采用安全技术。
+            - **采用**: 使用率高，满意度高。可采用安全技术。
 
-          - **规避**: 使用率低，满意度低。目前最好避免使用的技术。
+            - **规避**: 使用率低，满意度低。目前最好避免使用的技术。
 
-          - **待定**: 使用率高，满意度低。如果您正在使用这些技术，请重新评估它们。
+            - **待定**: 使用率高，满意度低。如果您正在使用这些技术，请重新评估它们。
     - key: blocks.tools_quadrant.satisfaction.note
       t: 注意，TypeScript 在图表中出现了两次，因为它同时包含在JavaScript 偏好和构建工具部分。
 
     - key: blocks.tools_quadrant.interest.description
       t: |
-        这张图表显示了每种技术对其总 **用户数量** 的 **关注率** (关注定义为了解某一技术但尚未使用该技术的受访者)。
+          这张图表显示了每种技术对其总 **用户数量** 的 **关注率** (关注定义为了解某一技术但尚未使用该技术的受访者)。
 
-        (请注意，低用户数量可能是由于非著名的技术，也可能是该技术很多受访者已经在使用。)
+          (请注意，低用户数量可能是由于非著名的技术，也可能是该技术很多受访者已经在使用。)
 
     # category other tools
     - key: blocks.category_other_tools.title
@@ -292,7 +293,7 @@ translations:
     - key: blocks.tools_experience_marimekko.description
       t: |
           这张图表将用户的积极体验(想学习，会再次使用)和消极体验(不感兴趣，不会再次使用)分在中轴两侧。
-          
+
           柱状的厚度代表了解某一技术的访问者数量。
 
     # tools section streams
@@ -300,17 +301,17 @@ translations:
       t: 随时间变化的体验
     - key: blocks.tools_section_streams.description
       t: |
-        技术体验随时间变化的概览。
+          技术体验随时间变化的概览。
     - key: blocks.tools_section_streams.note
       t: |
-        不包含只有一年数据的技术。
+          不包含只有一年数据的技术。
 
     # tools section overview
     - key: blocks.tools_section_overview.title
       t: 分类概览
     - key: blocks.tools_section_overview.description
       t: |
-        对所调查技术的态度的概览。较深的部分代表积极的观点，而较浅的部分对应消极的情绪。
+          对所调查技术的态度的概览。较深的部分代表积极的观点，而较浅的部分对应消极的情绪。
 
     # tools experience ranking
     - key: blocks.tools_experience_ranking.title
@@ -319,27 +320,27 @@ translations:
       t: 满意度, 关注度, 使用率, 和认知率的排行。
     - key: blocks.tools_experience_ranking.note
       t: |
-        不包含认知率低于10％的技术。 每个比率定义如下：
+          不包含认知率低于10％的技术。 每个比率定义如下：
 
-        - 满意率：**会再次使用** / (**会再次使用** + **不会再次使用**)
-        - 关注率：**想学习** / (**想学习** + **不感兴趣**)
-        - 使用率：(**将再次使用** + **将不再使用**) / **总计**
-        - 认知率：(**总计** - **从未听说过**) / **总计**
+          - 满意率：**会再次使用** / (**会再次使用** + **不会再次使用**)
+          - 关注率：**想学习** / (**想学习** + **不感兴趣**)
+          - 使用率：(**将再次使用** + **将不再使用**) / **总计**
+          - 认知率：(**总计** - **从未听说过**) / **总计**
 
     # happiness
     - key: blocks.happiness.title
       t: 总体满意度
     - key: blocks.happiness.description
       t: |
-        从1(非常不高兴)到5(非常高兴)，开发者对这一类别的整体满意度。
+          从1(非常不高兴)到5(非常高兴)，开发者对这一类别的整体满意度。
 
     # newsletter
     - key: blocks.newsletter.title
       t: 持续关注
     - key: blocks.newsletter.description
       t: |
-        如果你想知道我们何时发布额外的结果或宣布明年的版本,
-        请在下面留下你的邮箱:
+          如果你想知道我们何时发布额外的结果或宣布明年的版本,
+          请在下面留下你的邮箱:
     - key: blocks.newsletter.email
       t: 你的邮箱
     - key: blocks.newsletter.submit
@@ -350,11 +351,11 @@ translations:
       t: 使用情况概览
     - key: blocks.features_overview.description
       t: |
-        这张图根据分类划分，显示了各种特性的采用率。
+          这张图根据分类划分，显示了各种特性的采用率。
 
-        <span class="text-teal-darker text-bold">外圈</span>的尺寸代表了了解这个特性的用户数量, 而<span class="text-teal text-bold">内圈</span>的尺寸代表了实际使用这个特性的用户数量。
+          <span class="text-teal-darker text-bold">外圈</span>的尺寸代表了了解这个特性的用户数量, 而<span class="text-teal text-bold">内圈</span>的尺寸代表了实际使用这个特性的用户数量。
 
-        鼠标悬浮在每个节点上，可以查看详细数据。
+          鼠标悬浮在每个节点上，可以查看详细数据。
 
     # export
     - key: export.export
@@ -372,14 +373,14 @@ translations:
       t: 使用率变化
     - key: blocks.tools_usage_variations.description
       t: |
-        不同的因素，如薪资范围，经验年限或公司规模会如何影响使用率(依据受访者“会再次使用”或“不会再次使用”的答案)。
+          不同的因素，如薪资范围，经验年限或公司规模会如何影响使用率(依据受访者“会再次使用”或“不会再次使用”的答案)。
 
-        基准代表每个工具的基本使用率，偏移量对应于每个范围中相对基线的的增量。
-        比方说工具X在所有受访者中的总体使用率为10％（基准），那么如果拥有1至2年经验的用户使用此工具的比例为13％（相对于拥有1-2年经验的所有用户），那么我们的增量为 +3％。
+          基准代表每个工具的基本使用率，偏移量对应于每个范围中相对基线的的增量。
+          比方说工具X在所有受访者中的总体使用率为10％（基准），那么如果拥有1至2年经验的用户使用此工具的比例为13％（相对于拥有1-2年经验的所有用户），那么我们的增量为 +3％。
 
     - key: blocks.tools_usage_variations.note
       t: |
-        请记住，总体使用率较低的工具往往变化更大。
+          请记住，总体使用率较低的工具往往变化更大。
 
     # Recommended Resources
     - key: blocks.recommended_resources.title
@@ -427,7 +428,6 @@ translations:
       t: 正偏移量
     - key: charts.ranges_multiple_diverging_lines.negative_offset
       t: 负偏移量
-
 
     - key: charts.tools_arrows.negative_opinion
       t: 消极观点

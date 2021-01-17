@@ -1,4 +1,4 @@
-locale: fa-IR
+locale: nl-NL
 translations:
     ###########################################################################
     # General
@@ -103,6 +103,11 @@ translations:
           either financially or by helping us spread the word.
           If you think you could help in any way, please don’t hesitate to [get in touch](mailto:hello@stateofjs.com)!
 
+    - key: sections.awards.title
+      t: Awards
+    - key: sections.awards.description
+      t: Things that stood out this year.
+
     ###########################################################################
     # User Info
     ###########################################################################
@@ -129,6 +134,8 @@ translations:
       t: Spanish
     - key: options.locale.ru-RU
       t: Russian
+    - key: options.locale.ua-UA
+      t: Ukrainian
     - key: options.locale.fr-FR
       t: French
     - key: options.locale.zh-Hant
@@ -149,8 +156,16 @@ translations:
       t: Indonesian
     - key: options.locale.hi-IN
       t: Hindi
+    - key: options.locale.zh-Hans
+      t: Chinese (Simplified)
+    - key: options.locale.ja-JP
+      t: Japanese
+    - key: options.locale.ua-UA
+      t: Ukrainian
     - key: options.locale.pl-PL
       t: Polish
+    - key: options.locale.fa-IR
+      t: Farsi
     - key: options.locale.nl-NL
       t: Dutch
 
@@ -166,6 +181,12 @@ translations:
       t: CanIUse
     - key: features.specification_link
       t: W3C Specification
+
+    # knowledge score
+    - key: features.knowledge_score
+      t: Knowledge Score
+    - key: features.knowledge_score.description
+      t: Out of all the features mentioned in the survey, how many did the respondent know about?
 
     ###########################################################################
     # Tools & Methodologies
@@ -215,6 +236,29 @@ translations:
     - key: blocks.entity.github_link
       t: GitHub
 
+    # cardinality
+    - key: blocks.all_sections_tools_cardinality_by_user.title
+      t: Technology Usage Cardinality
+    - key: blocks.all_sections_tools_cardinality_by_user.description
+      t: For each section, which percentage of respondents use (defined as having answered “would use again”) one, two, three, etc. technologies.
+
+    - key: blocks.front_end_frameworks_tools_cardinality_by_user.title
+      t: Technology Usage Cardinality
+    - key: blocks.front_end_frameworks_tools_cardinality_by_user.description
+      t: Which percentage of respondents use (defined as having answered “would use again”) one, two, three, etc. items in this section.
+
+    # tools arrows
+    - key: blocks.tools_arrows.title
+      t: Changes Over Time
+    - key: blocks.tools_arrows.description
+      t: |
+          Each line goes from 2016 to 2020. A higher point means a technology has been used by more people,
+          and a point further to the right means more users want to learn it; or have used it and would use it again.
+    - key: blocks.tools_arrows.note
+      t: |
+          - Some lines skip years.
+          - Technologies with only one year of data are not shown.
+
     # tools quadrant
     - key: blocks.tools_quadrant.title
       t: Satisfaction vs Usage
@@ -230,6 +274,8 @@ translations:
             - **AVOID**: Low usage, low satisfaction. Technologies probably best avoided currently.
 
             - **ANALYZE**: High usage, low satisfaction. Reassess these technologies if you're currently using them.
+    - key: blocks.tools_quadrant.note
+      t: Note that TypeScript appears twice in the chart because it's included in both the JavaScript Flavors and Build Tools sections.
 
     - key: blocks.tools_quadrant.interest.description
       t: |
@@ -287,10 +333,10 @@ translations:
       t: |
           Technologies with less than 10% awareness not included. Each ratio is defined as follows:
 
-          - Satisfaction: **would use again** vs **would not use again**.
-          - Interest: **want to learn** vs **not interested**.
-          - Usage: **would use again** + **would not use again** vs awareness.
-          - Awareness: total - **never heard**.
+          - Satisfaction: **would use again** / (**would use again** + **would not use again**)
+          - Interest: **want to learn** / (**want to learn** + **not interested**)
+          - Usage: (**would use again** + **would not use again**) / **total**
+          - Awareness: (**total** - **never heard**) / **total**
 
     # happiness
     - key: blocks.happiness.title
@@ -403,6 +449,15 @@ translations:
     - key: charts.ranges_multiple_diverging_lines.negative_offset
       t: negative offset
 
+    - key: charts.tools_arrows.negative_opinion
+      t: Negative opinions
+    - key: charts.tools_arrows.positive_opinion
+      t: Positive opinions
+    - key: charts.tools_arrows.have_not_used
+      t: Have not used
+    - key: charts.tools_arrows.have_used
+      t: Have used
+
     ###########################################################################
     # Sharing
     ###########################################################################
@@ -469,7 +524,7 @@ translations:
     - key: award.tool_interest_award.title
       t: Highest Interest
     - key: award.tool_interest_award.description
-      t: Awarded to the technology developers are most interested in learning.
+      t: Awarded to the technology developers are most interested in learning once they are aware of it.
 
     - key: award.resource_usage_award.title
       t: Most Used Resource
@@ -485,3 +540,49 @@ translations:
       t: Most Write-Ins
     - key: award.most_write_ins_award.description
       t: Awarded to the item with the most write-in answers
+
+    ###########################################################################
+    # Hints
+    ###########################################################################
+
+    - key: hints.hint_hint
+      t: >
+          You'll find little hints like this one throughout the survey results
+          that will point out extra features and details.
+
+    - key: hints.units_switcher_hint
+      t: >
+          You can use the segmented control at the top right of each block to switch
+          between relative percentages and absolute counts to get a different view of the
+          same data.
+
+    - key: hints.export_hint
+      t: >
+          The <span class="hint-export-button">Export</span> button at the top of each block
+          lets you get the raw JSON data for any chart, or a GraphQL
+          query you can run against our public API.
+
+    - key: hints.completion_hint
+      t: >
+          Since all questions are optional, some of them got fewer responses than others.
+          The completion indicator (<span class="hint-completion-indicator">◕</span>) tells you exactly how many people answered any given question.
+
+    - key: hints.tool_modal_hint
+      t: >
+          You can click on any technology name to get extra details and
+          a more in-depth look at its related data.
+
+    - key: hints.rankings_modes_hint
+      t: >
+          The Rankings chart can be toggled between satisfaction, interest, usage, and awareness
+          to give you a fuller picture of a category's rankings.
+
+    - key: hints.sharing_hint
+      t: >
+          Sharing this survey on Twitter, Facebook, or by email is scientifically proven to
+          improve your JavaScript performance by up to 15%.
+
+    - key: hints.tshirt_hint
+      t: >
+          Another guaranteed scientific finding: buying our t-shirt will
+          increase your JavaScript knowledge by over 9000!

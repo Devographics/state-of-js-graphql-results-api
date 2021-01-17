@@ -24,7 +24,7 @@ translations:
     ###########################################################################
     # Options
     ###########################################################################
-  
+
     - key: options.experience_ranking.satisfaction
       t: Memnuniyet
     - key: options.experience_ranking.interest
@@ -43,27 +43,27 @@ translations:
       t: DEĞER BİÇ
     - key: options.quadrant.assess.long
       t: |
-        DEĞER BİÇ: Düşük kullanım, Yüksek memnuniyet. Göz atmaya değer teknolojiler.
+          DEĞER BİÇ: Düşük kullanım, Yüksek memnuniyet. Göz atmaya değer teknolojiler.
     - key: options.quadrant.adopt
       t: BENİMSE
     - key: options.quadrant.adopt.long
       t: |
-        BENİMSE: Yüksek kullanım, yüksek memnuniyet. Benimsenecek güvenli teknolojiler.
+          BENİMSE: Yüksek kullanım, yüksek memnuniyet. Benimsenecek güvenli teknolojiler.
     - key: options.quadrant.avoid
       t: KAÇIN
     - key: options.quadrant.avoid.long
       t: |
-        KAÇIN: Düşük kullanım, düşük memnuniyet. Muhtemelen şu an için bu teknolojilerden kaçınılması en iyisi.
+          KAÇIN: Düşük kullanım, düşük memnuniyet. Muhtemelen şu an için bu teknolojilerden kaçınılması en iyisi.
     - key: options.quadrant.analyze
       t: DEĞERLENDİR
     - key: options.quadrant.analyze.long
       t: |
-        DEĞERLENDİR: Yüksek kullanım, düşük memnuniyet. Şu anda kullanıyorsanız bu teknolojileri yeniden değerlendirin.
+          DEĞERLENDİR: Yüksek kullanım, düşük memnuniyet. Şu anda kullanıyorsanız bu teknolojileri yeniden değerlendirin.
 
     ###########################################################################
     # Sections
     ###########################################################################
- 
+
     - key: sections.introduction.title
       t: Önsöz
 
@@ -94,14 +94,14 @@ translations:
       t: Katılımcılar anketi nereden duydu?
     - key: user_info.source.note
       t: >
-      
-        Bu grafik, yönlendirmelerin, URL parametrelerinin ve serbest yanıtların bir karışımını toplar.
 
-        - State of JS: [State of JS](https://stateofjs.com) e-posta listesi.
+          Bu grafik, yönlendirmelerin, URL parametrelerinin ve serbest yanıtların bir karışımını toplar.
 
-        - State of CSS: State of CSS e-posta listesi; ayrıca `email`, `email ile` gibi eşleşmeler.
+          - State of JS: [State of JS](https://stateofjs.com) e-posta listesi.
 
-        - İş ve Çalışma: `çalışma`, `meslektaşlar`, `iş arkadaşları`, gibi eşleşmeler.
+          - State of CSS: State of CSS e-posta listesi; ayrıca `email`, `email ile` gibi eşleşmeler.
+
+          - İş ve Çalışma: `çalışma`, `meslektaşlar`, `iş arkadaşları`, gibi eşleşmeler.
 
     ###########################################################################
     # Locales
@@ -139,18 +139,20 @@ translations:
       t: Hintçe
     - key: options.locale.pl-PL
       t: Lehçe
+    - key: options.locale.nl-NL
+      t: Flemenkçe
 
     ###########################################################################
     # Features
     ###########################################################################
 
-    - key: features.learn_more 
+    - key: features.learn_more
       t: Daha fazla bilgi edin (MDN)
-    - key: features.mdn_link 
+    - key: features.mdn_link
       t: MDN
-    - key: features.caniuse_link 
+    - key: features.caniuse_link
       t: CanIUse
-    - key: features.specification_link 
+    - key: features.specification_link
       t: W3C Tanımlaması
 
     ###########################################################################
@@ -158,15 +160,15 @@ translations:
     ###########################################################################
 
     # general
-    - key: tools.links 
+    - key: tools.links
       t: Bağlantılar
-    - key: tools.github_link 
+    - key: tools.github_link
       t: GitHub
-    - key: tools.github_stars 
+    - key: tools.github_stars
       t: yıldız
-    - key: tools.homepage_link 
+    - key: tools.homepage_link
       t: Anasayfa
-    - key: tools.npm_link 
+    - key: tools.npm_link
       t: NPM
 
     ###########################################################################
@@ -178,22 +180,22 @@ translations:
       t: Şirket Büyüklüğüne Göre Kullanım
     - key: blocks.tools_company_size_heatmap.description
       t: |
-        Her teknoloji için, farklı şirket büyüklüğü aralıklarını seçen 
-        katılımcılar arasında kullanımın nasıl yayıldığı.
+          Her teknoloji için, farklı şirket büyüklüğü aralıklarını seçen
+          katılımcılar arasında kullanımın nasıl yayıldığı.
 
     - key: blocks.tools_yearly_salary_heatmap.title
       t: Maaş Aralığına Göre Kullanım
     - key: blocks.tools_yearly_salary_heatmap.description
       t: |
-        Her teknoloji için, farklı maaş aralıklarını seçen katılımcılar 
-        arasında kullanımın nasıl yayıldığı.
+          Her teknoloji için, farklı maaş aralıklarını seçen katılımcılar
+          arasında kullanımın nasıl yayıldığı.
 
     - key: blocks.tools_years_of_experience_heatmap.title
       t: Yıllık Deneyime Göre Kullanım
     - key: blocks.tools_years_of_experience_heatmap.description
       t: |
-        Her teknoloji için, farklı deneyim aralıklarını seçen katılımcılar arasında kullanımın nasıl yayıldığı. 
-        Buradaki söz konusu deneyimin, belirli bir teknolojiyle ilgili deneyim değil, genel deneyim olduğunu unutmayın.
+          Her teknoloji için, farklı deneyim aralıklarını seçen katılımcılar arasında kullanımın nasıl yayıldığı.
+          Buradaki söz konusu deneyimin, belirli bir teknolojiyle ilgili deneyim değil, genel deneyim olduğunu unutmayın.
 
     # tool
     - key: blocks.entity.homepage_link
@@ -206,23 +208,23 @@ translations:
       t: Memnuniyet ve Kullanım Analizi
     - key: blocks.tools_quadrant.description
       t: |
-        Bu grafik, her bir teknolojinin **toplam kullanıcı sayısı** üzerindeki **memnuniyet oranını** gösterir. 
-        Dört bölüme ayrılabilir:
+          Bu grafik, her bir teknolojinin **toplam kullanıcı sayısı** üzerindeki **memnuniyet oranını** gösterir.
+          Dört bölüme ayrılabilir:
 
-          - **DEĞER BİÇ**: Düşük kullanım, Yüksek memnuniyet. Göz atmaya değer teknolojiler.
+            - **DEĞER BİÇ**: Düşük kullanım, Yüksek memnuniyet. Göz atmaya değer teknolojiler.
 
-          - **BENİMSE**: Yüksek kullanım, yüksek memnuniyet. Benimsenecek güvenli teknolojiler.
+            - **BENİMSE**: Yüksek kullanım, yüksek memnuniyet. Benimsenecek güvenli teknolojiler.
 
-          - **KAÇIN**: Düşük kullanım, düşük memnuniyet. Muhtemelen şu an için bu teknolojilerden kaçınılması en iyisi.
+            - **KAÇIN**: Düşük kullanım, düşük memnuniyet. Muhtemelen şu an için bu teknolojilerden kaçınılması en iyisi.
 
-          - **DEĞERLENDİR**: Yüksek kullanım, düşük memnuniyet. Şu anda kullanıyorsanız bu teknolojileri yeniden değerlendirin.
+            - **DEĞERLENDİR**: Yüksek kullanım, düşük memnuniyet. Şu anda kullanıyorsanız bu teknolojileri yeniden değerlendirin.
 
     - key: blocks.tools_quadrant.interest.description
       t: |
-        This chart shows each technology’s **interest ratio** over its total **user count** (as defined by respondents who are aware of a technology but *haven't* used it yet).
-        Bu grafik, her bir teknolojinin toplam **kullanıcı sayısı** üzerinden **ilgi oranını** gösterir (Bir teknolojinin farkında olan ancak henüz kullanmayan katılımcılar tarafından tanımlandığı şekliyle).
+          This chart shows each technology’s **interest ratio** over its total **user count** (as defined by respondents who are aware of a technology but *haven't* used it yet).
+          Bu grafik, her bir teknolojinin toplam **kullanıcı sayısı** üzerinden **ilgi oranını** gösterir (Bir teknolojinin farkında olan ancak henüz kullanmayan katılımcılar tarafından tanımlandığı şekliyle).
 
-        (Düşük kullanıcı sayılarının bilinmeyen bir teknolojiden ya da tam tersi birçok katılımcının zaten kullandığı bir teknolojiden kaynaklanıyor olabileceğini unutmayın.)
+          (Düşük kullanıcı sayılarının bilinmeyen bir teknolojiden ya da tam tersi birçok katılımcının zaten kullandığı bir teknolojiden kaynaklanıyor olabileceğini unutmayın.)
 
     # category other tools
     - key: blocks.category_other_tools.title
@@ -241,15 +243,15 @@ translations:
       t: Zamana Göre Değişen Deneyim
     - key: blocks.tools_section_streams.description
       t: |
-        Zaman içinde aketteki teknolojiler hakkındaki görüşlerin değişimine genel bir bakış.
+          Zaman içinde aketteki teknolojiler hakkındaki görüşlerin değişimine genel bir bakış.
 
     # tools section overview
     - key: blocks.tools_section_overview.title
       t: Kategoriye Genel Bakış
     - key: blocks.tools_section_overview.description
       t: |
-        İncelenen teknolojiler hakkındaki görüşlere genel bakış. Daha koyu bölümler olumlu görüşleri temsil ederken, 
-        daha açık bölümler olumsuz düşünceleri temsil eder.
+          İncelenen teknolojiler hakkındaki görüşlere genel bakış. Daha koyu bölümler olumlu görüşleri temsil ederken,
+          daha açık bölümler olumsuz düşünceleri temsil eder.
 
     # tools experience ranking
     - key: blocks.tools_experience_ranking.title
@@ -262,16 +264,16 @@ translations:
       t: Genel Memnuniyet
     - key: blocks.happiness.description
       t: |
-        Bir (hiç memnun değil) ile beş (çok memnun) arasında bir ölçekte, 
-        geliştiriciler bu kategorinin mevcut genel durumundan ne kadar memnun?
+          Bir (hiç memnun değil) ile beş (çok memnun) arasında bir ölçekte,
+          geliştiriciler bu kategorinin mevcut genel durumundan ne kadar memnun?
 
     # newsletter
     - key: blocks.newsletter.title
       t: Bizi izlemeye devam edin
     - key: blocks.newsletter.description
       t: |
-        Ek sonuçları ne zaman yayınlayacağımızı veya gelecek yılki anketi ne zaman duyuracağımızı öğrenmek isterseniz, 
-        e-postanızı bizim için aşağıya bırakın:
+          Ek sonuçları ne zaman yayınlayacağımızı veya gelecek yılki anketi ne zaman duyuracağımızı öğrenmek isterseniz,
+          e-postanızı bizim için aşağıya bırakın:
     - key: blocks.newsletter.email
       t: E-posta Adresiniz
     - key: blocks.newsletter.submit
@@ -282,16 +284,16 @@ translations:
       t: Kullanıma Genel Bakış
     - key: blocks.features_overview.description
       t: |
-        Bu grafik, kategoriye göre gruplandırılmış olarak tüm özellikler için çeşitli benimseme oranlarını göstermektedir.  
+          Bu grafik, kategoriye göre gruplandırılmış olarak tüm özellikler için çeşitli benimseme oranlarını göstermektedir.
 
-        <span class="text-teal-darker text-bold">Dış çemberin</span> boyutu, 
-        bir özelliği bilen toplam kullanıcı sayısına karşılık gelirken, 
-        <span class="text-teal text-bold">iç çember</span> onu gerçekten kullananları temsil eder.
+          <span class="text-teal-darker text-bold">Dış çemberin</span> boyutu,
+          bir özelliği bilen toplam kullanıcı sayısına karşılık gelirken,
+          <span class="text-teal text-bold">iç çember</span> onu gerçekten kullananları temsil eder.
 
-        Ankete katılanların toplam sayısını temsil eden bir <span class="text-blackpink text-bold">katmanın</span> yanı sıra 
-        ayrıntılı verileri görüntülemek için fareyle her bir düğümün üzerine gelin.
+          Ankete katılanların toplam sayısını temsil eden bir <span class="text-blackpink text-bold">katmanın</span> yanı sıra
+          ayrıntılı verileri görüntülemek için fareyle her bir düğümün üzerine gelin.
 
-  # export
+    # export
     - key: export.export
       t: Dışa Aktar
     - key: export.title
@@ -375,7 +377,7 @@ translations:
 
     - key: awards.runner_ups
       t: Arkasından Gelenler
-      
+
     - key: award.feature_adoption_award.title
       t: En Çok Benimsenen Edilen Özellik
     - key: award.feature_adoption_award.description
