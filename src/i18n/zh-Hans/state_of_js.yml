@@ -7,10 +7,10 @@ translations:
 
     - key: general.survey_intro_js2019
       t: >
-          The JavaScript world could use a bit of classification. # TODO
+          The JavaScript world could use a bit of classification.
 
 
-          自2016年以来，本调查每年从20,000多名开发人员那里获取了数据，以确定当前和未来的趋势。
+          自2016年以来，本调查每年从20,000多名开发人员中获取调查数据，以确定JavaScript当前和未来的趋势。
 
 
           参加调查并帮助我们寻找开发人员接下来需要学习的库，满意度最高的库等等。
@@ -49,10 +49,11 @@ translations:
     - key: sections.patterns.description
       t: 你喜欢如何编写代码？
 
+    # 在中文中，很难找到一个准确形容JavaScript_flavors的词，因此只能简单翻译为「开发语言」，但「JavaScript 偏好」明显是翻译错误的
     - key: sections.javascript_flavors.title
-      t: JavaScript 偏好
+      t: 开发语言
     - key: sections.javascript_flavors.description
-      t: 编译为 JavaScript 的语言
+      t: 可以编译为 JavaScript 的，用于开发的语言
 
     - key: sections.front_end_frameworks.title
       t: 前端框架
@@ -85,33 +86,33 @@ translations:
       t: 编译和打包代码
 
     - key: sections.tools_others.title
-      t: Other Tools
+      t: 其他工具
     - key: sections.tools_others.description
-      t: Other JavaScript tools.
+      t: 其他JavaScript工具.
 
     ###########################################################################
     # Options
     ###########################################################################
 
     # CSS for print
-    - key: options.css_for_print.0 # TODO
-      t: I (almost) never write print styles
-    - key: options.css_for_print.1 # TODO
-      t: I occasionally write print styles
-    - key: options.css_for_print.2 # TODO
-      t: I write print styles as part of most projects
-    - key: options.css_for_print.3 # TODO
-      t: I focus mainly on CSS for print
+    - key: options.css_for_print.0
+      t: 我（几乎）没写过打印的样式
+    - key: options.css_for_print.1
+      t: 我偶尔写打印的样式
+    - key: options.css_for_print.2
+      t: 我在许多项目中会把打印用的样式当作一部分来编写
+    - key: options.css_for_print.3
+      t: 我主要就是在写打印用的 CSS
 
     # CSS for email
-    - key: options.css_for_email.0 # TODO
-      t: I (almost) never write CSS for email clients
-    - key: options.css_for_email.1 # TODO
-      t: I occasionally write CSS for email clients
-    - key: options.css_for_email.2 # TODO
-      t: I write CSS for email clients as part of most projects
-    - key: options.css_for_email.3 # TODO
-      t: I focus mainly on CSS for email clients
+    - key: options.css_for_email.0
+      t:  我（几乎）没写过电子邮件客户端的 CSS
+    - key: options.css_for_email.1
+      t: 我偶尔写电子邮件客户端的 CSS
+    - key: options.css_for_email.2
+      t: 我在许多项目里会把电子邮件客户端的 CSS 当作一部分来编写
+    - key: options.css_for_email.3
+      t: 我主要就是在做电子邮件客户端的 CSS
 
     ###########################################################################
     # Features

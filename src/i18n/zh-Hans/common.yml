@@ -158,8 +158,8 @@ translations:
 
     - key: sections.other_tools.title
       t: 其他工具
-    - key: sections.other_tools.description # TODO
-      t: 请在这些工具和技术里，勾上你常用的。
+    - key: sections.other_tools.description
+      t: 请在这些工具和技术中，选择你常用的。
 
     - key: sections.report.title
       t: 趋势报告
@@ -394,15 +394,15 @@ translations:
 
     # JavaScript proficiency
 
-    - key: options.javascript_proficiency.0 # TODO
+    - key: options.javascript_proficiency.0
       t: 不会 JavaScript
-    - key: options.javascript_proficiency.1 # TODO
+    - key: options.javascript_proficiency.1
       t: 会一点 JavaScript 或 jQuery 代码
-    - key: options.javascript_proficiency.2 # TODO
+    - key: options.javascript_proficiency.2
       t: 会用一些现成的前端流行框架，如 （React、 Vue、 等)
-    - key: options.javascript_proficiency.3 # TODO
+    - key: options.javascript_proficiency.3
       t: 从 0 到 1 构建前端技术栈
-    - key: options.javascript_proficiency.4 # TODO
+    - key: options.javascript_proficiency.4
       t: 能处理复杂的前端业务（状态管理，数据管理等）
 
     # CSS proficiency
