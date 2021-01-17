@@ -209,19 +209,19 @@ translations:
 
     # tools quadrant
     - key: blocks.tools_quadrant.title
-      t: Satisfaction vs Usage
+      t: Ικανοποίηση vs χρήσης
     - key: blocks.tools_quadrant.satisfaction.description
       t: |
-        This chart shows each technology’s **satisfaction ratio** over its total **user count**.
-        It can be divided into four quadrants:
+        Αυτό το γράφημα δείχνει την **αναλογία ικανοποίησης τεχνολογίας** έναντι του συνολικού **αριθμού χρηστών**.
+         Χωρίζεται σε τέσσερα τεταρτημόρια:
 
-          - **ASSESS**: Low usage, high satisfaction. Technologies worth keeping an eye on.
+          - **ASSESS**: Χαμηλή χρήση, υψηλή ικανοποίηση. Οι τεχνολογίες που αξίζει να ασχοληθείτε.
 
-          - **ADOPT**: High usage, high satisfaction. Safe technologies to adopt.
+          - **ADOPT**: Υψηλή χρήση, υψηλή ικανοποίηση. Οι ασφαλείς τεχνολογίες για υιοθέτηση.
 
-          - **AVOID**: Low usage, low satisfaction. Technologies probably best avoided currently.
+          - **AVOID**: Χαμηλή χρήση, χαμηλή ικανοποίηση. Οι τεχνολογίες που αποφεύγατε αυτήν τη στιγμή.
 
-          - **ANALYZE**: High usage, low satisfaction. Reassess these technologies if you're currently using them.
+          - **ANALYZE**: Υψηλή χρήση, χαμηλή ικανοποίηση. Οι τεχνολογίες που θα επανεξετάσετε τις οποίες χρησιμοποιείτε αυτήν τη στιγμή.
 
     - key: blocks.tools_quadrant.interest.description
       t: |
