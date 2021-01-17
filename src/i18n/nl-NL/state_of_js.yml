@@ -7,15 +7,15 @@ translations:
 
     - key: general.survey_intro_js2019
       t: >
-          The JavaScript world could use a bit of classification.
+          De JavaScript-wereld kan een beetje classificatie gebruiken.
 
 
-          Since 2016, this survey has collected
-          data from over 20,000 developers each year to identify current and upcoming trends.
+          Sinds 2016 heeft deze enquête elk jaar gegevens verzameld
+          van meer dan 20.000 ontwikkelaars om huidige en toekomstige trends te identificeren.
 
 
-          Take the survey and help us find out which libraries developers
-          want to learn next, which have the best satisfaction ratings, and much more.
+          Vul de enquête in en help ons erachter te komen welke libraries ontwikkelaars
+          nog willen leren, welke de beste tevredenheidsbeoordelingen hebben en nog veel meer.
 
     ###########################################################################
     # Sections
@@ -24,72 +24,72 @@ translations:
     - key: sections.syntax.title
       t: Syntax
     - key: sections.syntax.description
-      t: The grammar of JavaScript.
+      t: De grammatica van JavaScript.
 
     - key: sections.language.title
-      t: Language
+      t: Taal
     - key: sections.language.description
-      t: The vocabulary of JavaScript.
+      t: Het vocabulaire van JavaScript.
 
     - key: sections.data_structures.title
-      t: Data Structures
+      t: Data Structuren
     - key: sections.data_structures.description
-      t: How you store and manipulate data.
+      t: Hoe je gegevens opslaat en manipuleert.
 
     - key: sections.browser_apis.title
       t: Browser APIs
     - key: sections.browser_apis.description
-      t: The features provided by the browser.
+      t: De functies die door de browser worden geboden.
 
     - key: sections.other_features.title
-      t: Other Features
+      t: Andere Features
     - key: sections.other_features.description
-      t: Other technologies and patterns
+      t: Andere technologieën en patronen.
 
     - key: sections.patterns.title
-      t: Patterns
+      t: Patronen
     - key: sections.patterns.description
-      t: How you prefer writing code
+      t: Hoe je het liefst code schrijft.
 
     - key: sections.javascript_flavors.title
-      t: JavaScript Flavors
+      t: JavaScript-smaken
     - key: sections.javascript_flavors.description
-      t: Languages that compile to JavaScript
+      t: Talen die naar JavaScript compileren.
 
     - key: sections.front_end_frameworks.title
       t: Front-end Frameworks
     - key: sections.front_end_frameworks.description
-      t: Front-end frameworks and libraries
+      t: Front-end frameworks en libraries.
 
     - key: sections.datalayer.title
       t: Data Layer
     - key: sections.datalayer.description
-      t: Loading and managing data in your app
+      t: Gegevens laden en beheren in je app.
 
     - key: sections.back_end_frameworks.title
       t: Back-end Frameworks
     - key: sections.back_end_frameworks.description
-      t: JavaScript on the server
+      t: JavaScript op de server.
 
     - key: sections.testing.title
-      t: Testing
+      t: Testen
     - key: sections.testing.description
-      t: Tools for testing your code
+      t: Tools voor het testen van je code.
 
     - key: sections.mobile_desktop.title
-      t: Mobile & Desktop
+      t: Mobiel & Desktop
     - key: sections.mobile_desktop.description
-      t: JavaScript for mobile devices and desktop apps
+      t: JavaScript voor mobiele apparaten en desktop-apps.
 
     - key: sections.build_tools.title
       t: Build Tools
     - key: sections.build_tools.description
-      t: Compiling & bundling code
+      t: Code compileren en bundelen.
 
     - key: sections.tools_others.title
-      t: Other Tools
+      t: Andere Tools
     - key: sections.tools_others.description
-      t: Other JavaScript tools.
+      t: Andere JavaScript tools.
 
     ###########################################################################
     # Options
@@ -103,30 +103,30 @@ translations:
     - key: features.destructuring
       t: Destructuring
     - key: features.destructuring.description
-      t: 'Example: `const { foo } = bar`'
+      t: 'Voorbeeld: `const { foo } = bar`'
     - key: features.spread_operator
       t: Spread operator
     - key: features.spread_operator.description
-      t: 'Example: `[...array1, ...array2]`'
+      t: 'Voorbeeld: `[...array1, ...array2]`'
     - key: features.arrow_functions
       t: Arrow Functions
     - key: features.arrow_functions.description
-      t: 'Example: `const foo = () => {}`'
+      t: 'Voorbeeld: `const foo = () => {}`'
     - key: features.nullish_coalescing
       t: Nullish Coalescing
     - key: features.nullish_coalescing.description
       t: >
-          Example: `const foo = 0 ?? 42`
+          Voorbeeld: `const foo = 0 ?? 42`
     - key: features.optional_chaining
       t: Optional Chaining
     - key: features.optional_chaining.description
       t: >
-          Example: `const dogName = adventurer.dog?.name`
+          Voorbeeld: `const dogName = adventurer.dog?.name`
     - key: features.private_fields
       t: Private Fields
     - key: features.private_fields.description
       t: >
-          Example: `class ClassWithPrivateField { #privateField }`
+          Voorbeeld: `class ClassWithPrivateField { #privateField }`
 
     # language
     - key: features.proxies
@@ -139,13 +139,13 @@ translations:
       t: Decorators
     - key: features.decorators.description
       t: >
-          In its simplest form, a decorator is simply a way of
-          wrapping one piece of code with another — literally “decorating” it.
+          In zijn eenvoudigste vorm is een decorator gewoon een manier om
+          het ene stukje code met het andere in te pakken - het letterlijk "decoreren".
     - key: features.dynamic_import
       t: Dynamic Import
     - key: features.dynamic_import.description
       t: >
-          Example: <code>await import('/modules/my-module.js')</code>
+          Voorbeeld: <code>await import('/modules/my-module.js')</code>
 
     # data structures
     - key: features.maps
@@ -203,8 +203,8 @@ translations:
 
     - key: tools.angular.description
       t: >
-          Note that this question only targets [Angular](https://angular.io/) experience,
-          and specifically does *not* apply to the deprecated [AngularJS](https://angularjs.org/).
+          Let op dat deze vraag alleen gericht is op [Angular](https://angular.io/) ervaring,
+          en specifiek *niet* van toepassing is op de verouderde [AngularJS](https://angularjs.org/).
 
     ###########################################################################
     # Other Tools
@@ -213,50 +213,50 @@ translations:
     - key: tools_others.runtimes
       t: JavaScript Runtimes
     - key: tools_others.runtimes.description
-      t: Which engines/runtimes/execution environments do you regularly use?
+      t: Welke engines/runtimes/execution environments gebruik je regelmatig?
     - key: tools_others.runtimes.others
-      t: Other Runtimes
+      t: Andere Runtimes
     - key: tools_others.runtimes.others.description
-      t: Other answers (freeform field).
+      t: Andere antwoorden (veld met vrije vorm).
 
     - key: tools_others.package_registries
       t: Package Registries
     - key: tools_others.package_registries.description
-      t: Which package registries do you regularly fetch packages from?
+      t: Van welk package registries haal je regelmatig packages op?
     - key: tools_others.package_registries.others
-      t: Other Package Registries
+      t: Andere Package Registries
     - key: tools_others.package_registries.others.description
-      t: Other answers (freeform field).
+      t: Andere antwoorden (veld met vrije vorm).
 
     ###########################################################################
     # Opinions
     ###########################################################################
 
     - key: opinions.js_moving_in_right_direction
-      t: JavaScript is moving in the right direction
+      t: JavaScript beweegt zich in de goede richting
 
     - key: opinions.building_js_apps_overly_complex
-      t: Building JavaScript apps is overly complex right now
+      t: Het bouwen van JavaScript-apps is momenteel overdreven complex
 
     - key: opinions.js_over_used_online
-      t: JavaScript is over-used online
+      t: JavaScript wordt online te veel gebruikt
 
     - key: opinions.enjoy_building_js_apps
-      t: I enjoy building JavaScript apps
+      t: Ik vind het leuk om JavaScript-apps te bouwen
 
     - key: opinions.would_like_js_to_be_main_lang
-      t: I would like JavaScript to be my main programming language
+      t: Ik zou graag willen dat JavaScript mijn belangrijkste programmeertaal is
 
     - key: opinions.js_ecosystem_changing_to_fast
-      t: The JavaScript ecosystem is changing too fast
+      t: Het JavaScript-ecosysteem verandert te snel
 
     - key: opinions_others.missing_from_js.others
-      t: What do you feel is currently missing from JavaScript?
+      t: Wat ontbreekt er volgens jou momenteel in JavaScript?
     - key: opinions_others.missing_from_js.others.description
-      t: Features you'd like to see in JavaScript one day.
+      t: Functies die je ooit in JavaScript zou willen zien.
 
     - key: happiness.state_of_the_web
-      t: How happy are you with the general state of web technologies?
+      t: Hoe tevreden ben je met de algemene staat van webtechnologieën?
 
     - key: happiness.state_of_js
-      t: How happy are you with the general state of JavaScript?
+      t: Hoe tevreden ben je met de algemene staat van JavaScript?
