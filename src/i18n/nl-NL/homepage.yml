@@ -5,48 +5,48 @@ translations:
     ###########################################################################
 
     - key: homepage.hand_coded
-      t: Hand-coded in Japan.
+      t: Met de hand gecodeerd in Japan.
     - key: homepage.leave_issue
-      t: Leave an issue
+      t: Laat een probleem achter
     - key: homepage.get_in_touch
-      t: Get in touch
+      t: Kom in contact
 
     - key: homepage.made_by
-      t: 'The State of CSS is Made by:'
+      t: 'De State of CSS is gemaakt door:'
 
     - key: homepage.previous_years
-      t: 'Previous Years:'
+      t: 'Vorige jaren:'
 
     - key: homepage.intro
       t: >
-          ## CSS is evolving faster than ever.
+          ## CSS evolueert sneller dan ooit.
 
-          Flexbox, Grid, Multi-Column… To say nothing of whole new paradigms like CSS-in-JS.
+          Flexbox, Grid, Multi-Column… Om nog maar te zwijgen van geheel nieuwe paradigma's zoals CSS-in-JS.
 
-          So after the success of our annual [State Of JavaScript](https://stateofjs.com) survey, we’ve decided to take on
-          the world of styles and selectors to help identify the latest trends… and try to bridge
-          the ever-growing “great front-end divide”!
+          Dus na het succes van onze jaarlijkse [State Of JavaScript](https://stateofjs.com) enquête, hebben we besloten om
+          de wereld van stijlen en selectors aan te gaan om de nieuwste trends te identificeren... en te proberen
+          de eeuwige groeiende “grote front-end kloof” te overbruggen!
 
     - key: homepage.take_survey
-      t: Take Survey
+      t: Doe enquête
 
     - key: homepage.view_results
-      t: View 2019 Results
+      t: Bekijk de resultaten van 2019
 
     - key: share.help_spread
-      t: Help Spread the Word!
+      t: Help het woord verspreiden!
 
     - key: newsletter.stay_tuned
-      t: Stay Tuned
+      t: Blijf op de hoogte
     - key: newsletter.leave_your_email
-      t: Leave us your email and we’ll let you know when the next survey takes place.
+      t: Laat je e-mailadres achter en we laten je weten wanneer de volgende enquête plaatsvindt.
 
     - key: author.sacha.bio
       t: >
-          Creator of the [Nivo](http://nivo.rocks/) JavaScript data visualization library as well
-          as [Mozaik](http://mozaik.rocks/), a tool for building beautiful dashboards.
+          Maker van de [Nivo] (http://nivo.rocks/) JavaScript-gegevensvisualisatiebibliotheek
+          en [Mozaik] (http://mozaik.rocks/), een tool om mooie dashboards te bouwen.
 
     - key: author.raphael.bio
       t: >
-          Creator of the [Sidebar](http://sidebar.io) daily newsletter and
-          [VulcanJS](http://vulcanjs.org), a React+GraphQL open-source framework.
+          Maker van de dagelijkse nieuwsbrief [Sidebar] (http://sidebar.io) en
+          [VulcanJS] (http://vulcanjs.org), een open-source framework van React+GraphQL.
