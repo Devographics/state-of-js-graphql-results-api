@@ -35,6 +35,10 @@ translations:
       t: No hay encuestas abiertas actualmente.
     - key: general.closed_surveys
       t: Encuestas Cerradas
+    - key: general.no_closed_surveys
+      t: Actualmente no hay encuestas cerradas.
+    - key: general.preview_surveys
+      t: Previsualizar Encuestas
     - key: general.start_survey
       t: Empezar Encuesta »
     - key: general.continue_survey
@@ -118,6 +122,14 @@ translations:
       t: 404 No Encontrado
     - key: notfound.description
       t: Lo sentimos pero no hemos podido encontrar lo que estabas buscando.
+
+    # other
+    - key: general.join_discord
+      t: Únete a nosotros en <a href="{link}">Discord</a>. 
+    - key: general.translator_mode
+      t: Presiona option/alt para habilitar el modo traductor.
+    - key: general.charts_nivo
+      t: Gráficas construidas con <a href="{link}">Nivo</a>.
 
     ###########################################################################
     # Nav
