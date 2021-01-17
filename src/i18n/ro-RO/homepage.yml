@@ -1,0 +1,52 @@
+locale: ro-RO
+translations:
+    ###########################################################################
+    # Homepage
+    ###########################################################################
+
+    - key: homepage.hand_coded
+      t: Dezvoltat în Japonia.
+    - key: homepage.leave_issue
+      t: Deschide un issue
+    - key: homepage.get_in_touch
+      t: Contactează-ne
+
+    - key: homepage.made_by
+      t: 'The State of CSS este creat de:'
+
+    - key: homepage.previous_years
+      t: 'Anii trecuți:'
+
+    - key: homepage.intro
+      t: >
+          ## CSS-ul evoluează mai repede ca oricând.
+
+          Flexbox, Grid, Multi-Column… Să nu mai vorbim despre paradigmele cu totul noi, cum e CSS-in-JS.
+
+          Așa că, după succesul sondajului anual [State Of JavaScript](https://stateofjs.com), am decis să ne îndreptăm
+          atenția și asupra stilizărilor și a selectorilor pentru a putea să identificăm ultimele tendințe... și pentru
+          a încerca să mai micșorăm din „marea diviziune din front-end” care e în continuă creștere!
+
+    - key: homepage.take_survey
+      t: Participă la sondaj
+
+    - key: homepage.view_results
+      t: Vezi rezultatele din 2019
+
+    - key: share.help_spread
+      t: Ajută-ne să ducem vestea mai departe!
+
+    - key: newsletter.stay_tuned
+      t: Rămâi aproape
+    - key: newsletter.leave_your_email
+      t: Lasă-ne adresa de email și te vom anunța atunci când avem un nou sondaj.
+
+    - key: author.sacha.bio
+      t: >
+          Creator al [Nivo](http://nivo.rocks/) librăriei JavaScript de vizualizare a datelor, precum și al
+          [Mozaik](http://mozaik.rocks/), un instrument pentru crearea unor dashboard-uri minunate.
+
+    - key: author.raphael.bio
+      t: >
+          Creator al [Sidebar](http://sidebar.io) newsletter-ului zilnic și al
+          [VulcanJS](http://vulcanjs.org), un framework open-source React+GraphQL.
