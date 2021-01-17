@@ -42,7 +42,7 @@ translations:
       t: De functies die door de browser worden geboden.
 
     - key: sections.other_features.title
-      t: Andere Features
+      t: Andere Functies
     - key: sections.other_features.description
       t: Andere technologieën en patronen.
 
