@@ -140,7 +140,7 @@ translations:
     - key: features.decorators.description
       t: >
           In zijn eenvoudigste vorm is een decorator gewoon een manier om
-          het ene stukje code met het andere in te pakken - het letterlijk "decoreren".
+          het ene stukje code met het andere in te pakken - het letterlijk “decoreren”.
     - key: features.dynamic_import
       t: Dynamic Import
     - key: features.dynamic_import.description
