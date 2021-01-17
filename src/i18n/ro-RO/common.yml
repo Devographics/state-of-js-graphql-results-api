@@ -95,7 +95,7 @@ translations:
     - key: thanks.learn_more_about
       t: 'Câteva dintre funcționalitățile despre care ai vrea să afli mai multe:'
     - key: thanks.knowledge_score
-      t: Scor de cunoștințe
+      t: Scor de familiaritate
     - key: thanks.score_explanation
       t: >
           Ai auzit sau folosit <span class="score-number score-number-known">{known}</span> din
@@ -106,7 +106,7 @@ translations:
       t: Distribuie pe Twitter
     - key: thanks.share_score_message
       t: >
-          Am obținut un scor de cunoștințe de {score}% la sondajul #{hashtag} din acest an! Completează sondajul aici: {shareUrl}
+          Am obținut un scor de familiaritate de {score}% la sondajul #{hashtag} din acest an! Completează sondajul aici: {shareUrl}
     # share
     - key: general.share_subject
       t: >
@@ -595,7 +595,7 @@ translations:
     - key: user_info.yearly_salary
       t: Salariu anual
     - key: user_info.yearly_salary.description
-      t: În dolari.
+      t: În USD.
 
     # job title
     - key: user_info.job_title
@@ -702,7 +702,7 @@ translations:
       t: Alte răspunsuri (câmp deschis).
 
     - key: tools_others.non_js_languages
-      t: Alte limbaje (exceptând JavaScript)
+      t: Limbaje non-JavaScript
     - key: tools_others.non_js_languages.description
       t: Ce alte limbaje de programare folosești?
     - key: tools_others.non_js_languages.others
