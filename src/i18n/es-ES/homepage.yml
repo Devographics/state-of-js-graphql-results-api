@@ -13,8 +13,6 @@ translations:
 
     - key: homepage.made_by
       t: 'El Estado de CSS está Hecho por:'
-    - key: homepage.leave_issue
-      t: ¿Has encontrado algún problema?
 
     - key: homepage.previous_years
       t: 'Años Anteriores:'

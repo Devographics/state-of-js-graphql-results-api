@@ -81,29 +81,16 @@ translations:
     - key: sections.mobile_desktop.description
       t: JavaScript para dispositivos móviles y aplicaciones de escritorio
 
-    ###########################################################################
-    # Options
-    ###########################################################################
+    - key: sections.build_tools.title
+      t: Herramientas de Construcción
+    - key: sections.build_tools.description
+      t: Compilando y construyendo código
 
-    # CSS for print
-    - key: options.css_for_print.0
-      t: (Casi) nunca escribo CSS para ser impreso
-    - key: options.css_for_print.1
-      t: Ocasionalmente escribo CSS para ser impreso
-    - key: options.css_for_print.2
-      t: Escribo CSS para ser impreso para casi todos los proyectos
-    - key: options.css_for_print.3
-      t: Sólo me centro en CSS para ser impreso
+    - key: sections.tools_others.title
+      t: Otras herramientas
+    - key: sections.tools_others.description
+      t: Otras herramientas de JavaScript.
 
-    # CSS for email
-    - key: options.css_for_email.0
-      t: (Casi) nunca escribo CSS para correos electrónicos
-    - key: options.css_for_email.1
-      t: Ocasionalmente escribo CSS para correos electrónicos
-    - key: options.css_for_email.2
-      t: Escribo CSS para correos electrónicos para casi todos los proyectos
-    - key: options.css_for_email.3
-      t: Sólo me centro en CSS para correos electrónicos
 
     ###########################################################################
     # Features
@@ -122,6 +109,21 @@ translations:
       t: Arrow Functions
     - key: features.arrow_functions.description
       t: 'Ejemplo: `const foo = () => {}`'
+    - key: features.nullish_coalescing
+      t: Nullish Coalescing
+    - key: features.nullish_coalescing.description
+      t: >
+        Ejemplo: `const foo = 0 ?? 42`
+    - key: features.optional_chaining
+      t: Optional Chaining
+    - key: features.optional_chaining.description
+      t: >
+        Ejemplo: `const dogName = adventurer.dog?.name`
+    - key: features.private_fields
+      t: Private Fields
+    - key: features.private_fields.description
+      t: >
+        Ejemplo: `class ClassWithPrivateField { #privateField }`
 
     # language
     - key: features.proxies
@@ -136,6 +138,11 @@ translations:
       t:  >
         En su forma más sencilla, un decorador es una forma de
         envolver un trozo de código con otro, literalmente, decorándolo.
+    - key: features.dynamic_import
+      t: Importación Dinámica
+    - key: features.dynamic_import.description
+      t: >
+        Ejemplo: <code>await import('/modules/my-module.js')</code>
 
     # data structures
     - key: features.maps
@@ -188,6 +195,37 @@ translations:
       t: Programación Reactiva
 
     ###########################################################################
+    # Tools
+    ###########################################################################
+
+    - key: tools.angular.description
+      t: >
+        Date cuenta de que esta pregunta solo fija experiencia con [Angular](https://angular.io/)
+        como objetivo, y específicamente *no* aplica al obsoleto [AngularJS](https://angularjs.org/).
+   
+    ###########################################################################
+    # Other Tools
+    ###########################################################################
+
+    - key: tools_others.runtimes
+      t: JavaScript Runtimes
+    - key: tools_others.runtimes.description
+      t: ¿Qué motores/runtimes/entornos de ejecución usas con regularidad?
+    - key: tools_others.runtimes.others
+      t: Otros Runtimes
+    - key: tools_others.runtimes.others.description
+      t: Otras respuestas (campos de texto libre).
+
+    - key: tools_others.package_registries
+      t: Registros de Paquetes
+    - key: tools_others.package_registries.description
+      t: ¿De que registros de paquetes coges paquetes con regularidad?
+    - key: tools_others.package_registries.others
+      t: Otros Registros de Paquetes
+    - key: tools_others.package_registries.others.description
+      t: Otras respuestas (campos de texto libre).
+
+    ###########################################################################
     # Opinions
     ###########################################################################
 
@@ -213,3 +251,9 @@ translations:
       t: ¿Qué crees que le falta en estos momentos a JavaScript?
     - key: opinions.missing_from_js.description
       t: ¿Qué cosas nuevas te gustaría ver en JavaScript algún día?
+
+    - key: happiness.state_of_the_web
+      t: ¿Cómo de satisfecho estás con el estado general de las tecnologías web?
+
+    - key: happiness.state_of_js
+      t: ¿Cómo de satisfecho estás con el estado general de JavaScript?
