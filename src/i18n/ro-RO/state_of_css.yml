@@ -177,7 +177,7 @@ translations:
     - key: features.logical_properties
       t: Logical Properties
     - key: features.logical_properties.description
-      t: <code>margin-block-start</code>, <code>padding-inline-end</code>, etc.
+      t: <code>margin-block-start</code>, <code>padding-inline-end</code> etc.
     - key: features.aspect_ratio
       t: <code>aspect-ratio</code>
     - key: features.content_visibility
@@ -503,7 +503,7 @@ translations:
       t: Rata de schimbare
 
     - key: opinions.utility_classes_to_be_avoided
-      t: Clasele (.center, .large-text, etc.) utilitare (non-semantice) ar trebui evitate
+      t: Clasele (.center, .large-text etc.) utilitare (non-semantice) ar trebui evitate
     - key: opinions.utility_classes_to_be_avoided.title
       t: Clase non-semantice
 
