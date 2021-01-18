@@ -414,11 +414,11 @@ translations:
     - key: options.javascript_proficiency.1
       t: Știu JavaScript sau jQuery la nivel începător
     - key: options.javascript_proficiency.2
-      t: Lucrez pe proiecte front-end folosind framework-uri moderne (React, Vue, etc.)
+      t: Lucrez pe proiecte front-end folosind framework-uri moderne (React, Vue etc.)
     - key: options.javascript_proficiency.3
       t: Creez arhitecturi complete pentru proiecte front-end
     - key: options.javascript_proficiency.4
-      t: Lucrez cu pattern-uri avansate de front-end (state management, data loading, etc.)
+      t: Lucrez cu pattern-uri avansate de front-end (state management, data loading etc.)
 
     # CSS proficiency
     - key: options.css_proficiency.0
@@ -428,7 +428,7 @@ translations:
     - key: options.css_proficiency.2
       t: Știu regulile de specificitate, pot crea layout-uri
     - key: options.css_proficiency.3
-      t: Stăpânesc animații, interacțiuni, tranziții, etc.
+      t: Stăpânesc animații, interacțiuni, tranziții etc.
     - key: options.css_proficiency.4
       t: Pot stiliza un întreg proiect front-end, urmând o metodologie consistentă
 
@@ -436,11 +436,11 @@ translations:
     - key: options.backend_proficiency.0
       t: Nu am cunoștințe de back-end
     - key: options.backend_proficiency.1
-      t: Configurez CMS-uri all-in-one (WordPress, etc.) sau generatoare de site-uri statice (Jekyll, etc.)
+      t: Configurez CMS-uri all-in-one (WordPress etc.) sau generatoare de site-uri statice (Jekyll etc.)
     - key: options.backend_proficiency.2
-      t: Dezvolt aplicații folosind framework-uri existente (Rails, Laravel, etc.)
+      t: Dezvolt aplicații folosind framework-uri existente (Rails, Laravel etc.)
     - key: options.backend_proficiency.3
-      t: Creez un întreg back-end (Go, Node.js, etc.)
+      t: Creez un întreg back-end (Go, Node.js etc.)
     - key: options.backend_proficiency.4
       t: Lucrez cu arhitecturi complexe multi-server sau care folosesc microservicii
 

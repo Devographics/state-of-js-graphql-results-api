@@ -236,12 +236,12 @@ translations:
     - key: blocks.all_sections_tools_cardinality_by_user.title
       t: Cardinalitatea utilizării tehnologiei
     - key: blocks.all_sections_tools_cardinality_by_user.description
-      t: Pentru fiecare secțiune, ce procent dintre respondenți folosește (a răspuns „aș folosi din nou”) una, două, trei, etc. tehnologii.
+      t: Pentru fiecare secțiune, ce procent dintre respondenți folosește (a răspuns „aș folosi din nou”) una, două, trei etc. tehnologii.
 
     - key: blocks.front_end_frameworks_tools_cardinality_by_user.title
       t: Cardinalitatea utilizării tehnologiei
     - key: blocks.front_end_frameworks_tools_cardinality_by_user.description
-      t: Ce procent dintre respondenți folosește (a răspuns „aș folosi din nou”) unul, două, trei, etc. elemente din această secțiune.
+      t: Ce procent dintre respondenți folosește (a răspuns „aș folosi din nou”) unul, două, trei etc. elemente din această secțiune.
 
     # tools arrows
     - key: blocks.tools_arrows.title
