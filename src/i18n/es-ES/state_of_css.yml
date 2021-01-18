@@ -18,6 +18,9 @@ translations:
           que nos puedas ayudar a identificar las últimas tendencias, y las herramientas que
           debemos aprender y utilizar en el futuro!
 
+    - key: general.results.description
+      t: La encuesta anual sobre la últimas tendencias en CSS.
+
     ###########################################################################
     # Sections
     ###########################################################################
@@ -103,11 +106,6 @@ translations:
       t: Entornos
     - key: sections.environments.description
       t: ¿Para qué entornos escribes CSS?
-
-    - key: sections.awards.title
-      t: Galardones
-    - key: sections.awards.description
-      t: Cosas que han destacado este año.
 
     ###########################################################################
     # Options
@@ -277,12 +275,6 @@ translations:
       t: Funciones de Comparación
     - key: features.comparison_functions.description
       t: <code>min()</code>, <code>max()</code>, and <code>clamp()</code>
-
-    # knowledge score
-    - key: features.knowledge_score
-      t: Puntuación de tu Conocimiento
-    - key: features.knowledge_score.description
-      t: De todas las características de CSS mencionadas anteriormente en la encuesta, ¿cuantas conoces?
 
     ###########################################################################
     # Units & Selectors
@@ -491,6 +483,11 @@ translations:
       t: CSS para Correos Electrónicos
     - key: environments.css_for_email.description
       t: ¿Escribes CSS para correos electrónicos?
+
+    - key: charts.axis_legends.css_for_print
+      t: Frecuencia
+    - key: charts.axis_legends.css_for_email
+      t: Frecuencia
 
     ###########################################################################
     # Opinions

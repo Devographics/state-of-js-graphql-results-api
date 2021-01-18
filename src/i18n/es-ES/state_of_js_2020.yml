@@ -24,6 +24,10 @@ translations:
 
             Por lo tanto, vamos a disfrutar lo que tenemos aquí: un gran ecosistema que no para de mejorar!
 
+            ### Join Our Launch Livestream!
+
+            Vamos a hacer un [directo especial de lanzamiento](https://stateofjs.com/2020stream/) en colaboración con la gente del canal de Twitch, CodeItLive. ¡Únete a nosotros y a nuestros invitados Sarah Drasner, Josh W. Comeau, and Kent C. Dodds para discutir las tendencias de JavaScript el año pasado!
+
             ### Download Our Data
 
             Te puedes [descargar los datos de esta encuesta en formato JSON](https://www.kaggle.com/sachag/state-of-js). Haznoslo saber si has acabado haciendo tus propias visualizaciones de los datos!
@@ -44,7 +48,9 @@ translations:
 
             Mira [este video](https://www.youtube.com/watch?v=o4w1qEnZxbM) para aprender more sobre los aspectos técnicos del proyecto. ¿Preguntas? ¿Sugerencias? [Envía un mail](mailto:hello@stateofjs.com) o [únete a nuestro Discord](https://discord.gg/zRDb35jfrt).
 
-            Y ahora veamos que ha pasado con JavaScript este año!
+            Y ahora ¡veamos que ha pasado con JavaScript este año!
+
+            <span class="conclusion__byline">– Sacha y Raphaël</span>
 
     ###########################################################################
     # Tshirt
@@ -63,7 +69,8 @@ translations:
           agrupadas por categoría, junto con la cantidad de estrellas en GitHub (expresado en miles)
 
           Esta camiseta es una buena manera de familiarizarte con el ecosistema de JavaScript
-          y puede que hasta una forma de entablar una conversación con otros desarrolladores de JavaScript!
+          y puede que hasta una forma de entablar una conversación con otros desarrolladores
+          de JavaScript!
 
     - key: tshirt.about
       t: Sobre la camiseta
@@ -182,7 +189,6 @@ translations:
     - key: award.most_write_ins_award.comment
       t: La gente siempre se apasiona hablando de IDEs, y con **{value}** menciones, IntelliJ gana el premio como la respuesta más escrita.
 
-      
     ###########################################################################
     # Conclusion
     ###########################################################################
@@ -191,9 +197,11 @@ translations:
       t: |
             Desde tiempos antiguos, los filósofos han reflexionado sobre la Paradoja de Javascript: por un lado, no puedes esperar que saquen nuevas novedades en el lenguaje y librerías que hagan tu experiencia de desarrollador mucho mejor.
 
-            Pero a la vez, pides estabilidad y simpleza para poder hacer las cosas sin tener que gastar la mitad de tu tiempo navegando entre hilos de GitHub issues y preguntas de Stack Overflow más antiguas que Visual Basic.
+            Pero a la vez, pides estabilidad y simpleza para poder hacer las cosas sin tener que gastar la mitad de tu tiempo navegando entre hilos de GitHub y preguntas obsoletas en Stack Overflow.
 
-            Así que, que va a ser esta vez? ¿Queremos lo más nuevo y brillante, o queremos lo viejo pero fiable? Más que nunca, el 2020 que no nos conformaremos con otra cosa que *ambas*. La buena noticia es que la comunidad de JavaScript asume el reto, ¡lo cual asegura un 2021 lleno de novedades!
+            Así que, que va a ser esta vez? ¿Queremos lo más nuevo y brillante, o queremos lo viejo pero fiable? Más que nunca, el 2020 que no nos conformaremos con otra cosa que *ambas*. La buena noticia es que la comunidad de JavaScript asume el reto, ¡lo cual augura un 2021 lleno de novedades!
+
+            P.S. si aún sigues con ganas de más estadísticas sobre JavaScript te recomendamos que visites el ranking anual [Rising Stars](https://risingstars.js.org/2020/en/) de [Best Of JS](https://bestofjs.org/).
 
     ###########################################################################
     # Picks
@@ -202,87 +210,87 @@ translations:
     - key: picks.my_2020_pick
       t: 'Mi selección de 2020'
     - key: picks.intro
-      t: Hemos pedido a miembros de la comunidad de JavaScript que compartan sus "tops del año"
+      t: Hemos pedido a miembros de la comunidad de JavaScript que compartan sus “elecciones del año”
 
     - key: picks.joshwcomeau.bio
-      t: Software-engineer-turned-educator
+      t: Software-engineer-convertido-en-educador
     - key: picks.joshwcomeau.description
       t: |
-            This is a fantastic intro resource for learning about web accessibility! 
-            I picked it because it's our job as JS devs to make sure that the sites 
-            we build are usable by everyone, not just sighted keyboard-and-mouse users.
+            ¡Este es un fantástico recurso para aprender sobre accesibilidad web! Lo he elegido
+            porque es nuestro trabajo como desarrolladores JS asegurarnos de que las webs son accesibles
+            para todos, no sólo para la gente sin que ven bien y pueden usar ratón y teclado.
 
     - key: picks.swyx.bio
-      t: Infinite Builder
+      t: Constructor Infinito
     - key: picks.swyx.description
       t: |
-            Svelte is the Space Elevator of frontend frameworks. 
-            It helps you ship apps extremely fast. 
+            Svelte es el ascensor espacial de los frameworks de front-end.
+            Ayuda a lanzar aplicaciones extremadamente rápido.
 
     - key: picks.kentcdodds.bio
-      t: Improving the world with quality software
+      t: Mejorando el mundo con software de calidad
     - key: picks.kentcdodds.description
       t: |
-            Remix is a different approach to React frameworks with an emphasis on progressive 
-            enhancement. It embraces the web platform in a way that no existing frameworks do 
-            and I'm excited by its potential.
+            Remix es una aproximación diferente a los frameworks de React con un énfasis en
+            mejora progresiva. Interioriza la plataforma web de una forma en que ningún otro
+            framework lo hace y estoy emocionado con su potencial.
 
     - key: picks.sarah_edo.bio
-      t: Core Team Vue.js
+      t: Equipo Principal de Vue.js
     - key: picks.sarah_edo.description
       t: |
-            Insomnia is an app that allows you to design, test, and deploy API 
-            Workflows with a clean, simplified UX- it has both REST and GraphQL support, 
-            though clearly the puns are better if you're using REST.
+            Insomnia es una aplicación que te permite diseñar, probar y desplegar API
+            Workflows con una limpia y simplificada interfaz- soporta REST y GraphQL,
+            aunque claramente funciona mejor para REST.
     
     - key: picks.ladyleet.bio
       t: This Dot Labs, GDE, MVP
     - key: picks.ladyleet.description
       t: |
-            RedwoodJS and frameworks like it are starting to change how we think about development. 
-            It’s bringing the ease of Ruby on Rails to the front-end ecosystem.
+            RedwoodJS y frameworks similares están empezando a cambiar nuestro concepto de desarrollo.
+            Trae la facilidad de Ruby on Rails al ecosistema de front.
 
     - key: picks.midudev.bio
       t: Lead Frontend @ Adevinta & Content Creator
     - key: picks.midudev.description
       t: |
-            Working with modules on the JavaScript ecosystem has been messy. 
-            ES2020 came with ES Modules to end that. Even it's stable on Node.js. Yei!
+            Trabajar con módulos en JavaScript a sido complicado. ES2020 viene
+            con ES Modules para acabar con eso. Incluso es estable en Node.ja ¡Yei!
     
     - key: picks.cassidoo.bio
-      t: Principal Developer Experience Engineer at Netlify
+      t: Principal Developer Experience Engineer en Netlify
     - key: picks.cassidoo.description
       t: |
-            Ben is one of the most generous people in the JS community. 
-            He's active in open source (on the Vue core team), 
-            consistently makes useful content for developers to learn, and is very giving with his time.
+            Ben es una de las persona más generosas de la comunidad de JS.
+            Está activo en el código abierto (en el equipo principal de Vue), crea contenido
+            de forma consistente para que aprendan los desarrolladores, y es generoso con su tiempo.
             
     - key: picks.lauragift_.bio
       t: Frontend Developer @ PassionatePeople
     - key: picks.lauragift_.description
       t: |
-            Josh Comeau has been an inspiration to me, and I can say the JS community in general. 
-            He writes very thoughtful articles on his blog, and they are some of the best I read in 
-            2020 because they either helped me stay on top of the latest in JavaScript 
-            or helped me learn something new.
+            Josh Comeau ha sido mi inspiración, y toda la comunidad de JS en general.
+            Escribe concienzudos artículos en su blog, y son algunos de los mejores
+            que he leído en 2020 porque o me han ayudado a estar a la última en JavaScript
+            o a prender algo nuevo.
 
     - key: picks.tomdale.bio
       t: JavaScript Thinkfluencer
     - key: picks.tomdale.description
       t: |
-            Volta helps manage your entire JavaScript toolchain – think nvm, but it also helps 
-            you and your team stay on the same versions of Node, npm, CLI tools, etc. 
-            I love it because it's so darn nice to use, and is pioneering the use of 
-            Rust to build speedy tools for JS.
+            Volta ayuda a gestionar toda tu cadena de JavaScript - piensa en nvm, pero que además
+            te ayuda a ti y a tu equipo a mantener la misma versión de Node, npm, CLI, etc.
+            Me encanta porque es tan agradable de usar, y es pionera en el uso de
+            Rust para construir herramientas rápidas para JS.
 
     - key: picks.markdalgleish.bio
-      t: Co-creator of CSS Modules, creator of Playroom
+      t: Co-creador de CSS Modules, creador de Playroom
     - key: picks.markdalgleish.description
       t: |
-            Automates npm publishing with the ability to tie Markdown release notes to every change. Changesets has really leveled up the quality of our release notes and version management this year.
+            Automatiza la publicación con npm con la habilidad de vincular notas en Markdown a cada cambio. Los changesets han mejorado la calidad de nuestras notas de lanzamiento de nuevas versiones y el control de versiones este año.
 
     - key: picks.sachagreif.bio
-      t: Creator of the State of JS survey
+      t: Creador de la encuesta sobre el Estado de JS
     - key: picks.sachagreif.description
       t: |
-            Best Of JS tracks GitHub stats about virtually every major JavaScript project, and it has been an invaluable resource for helping us decide what to include in the survey!
+            ¡Best Of JS sige las estadísticas en GitHub sobre virtualmente todos los proyectos importante en JavaSCript, y ha sido un incalculable recurso ayudándonos a decidir que incluir en la encuesta!

@@ -60,7 +60,7 @@
 
 - id: 'zh-Hans'
   label: 简体中文
-  translators: ['TIOvOIT']
+  translators: ['TIOvOIT', 'scarsu', 'shadowings-zy']
 
 - id: 'zh-Hant'
   label: 正體中文

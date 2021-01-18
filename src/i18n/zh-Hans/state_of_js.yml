@@ -10,7 +10,7 @@ translations:
           The JavaScript world could use a bit of classification.
 
 
-          自2016年以来，该调查每年从20,000多名开发人员那里获取了数据，以确定当前和未来到来的趋势。
+          自2016年以来，本调查每年从20,000多名开发人员中获取调查数据，以确定JavaScript当前和未来的趋势。
 
 
           参加调查并帮助我们寻找开发人员接下来需要学习的库，满意度最高的库等等。
@@ -49,100 +49,130 @@ translations:
     - key: sections.patterns.description
       t: 你喜欢如何编写代码？
 
-    - key: sections.javascript_flavors.title # TODO
-      t: JavaScript Flavors
-    - key: sections.javascript_flavors.description # TODO
-      t: Languages that compile to JavaScript
+    # 在中文中，很难找到一个准确形容JavaScript_flavors的词，因此只能简单翻译为「开发语言」，但「JavaScript 偏好」明显是翻译错误的
+    - key: sections.javascript_flavors.title
+      t: 开发语言
+    - key: sections.javascript_flavors.description
+      t: 可以编译为 JavaScript 的，用于开发的语言
 
-    - key: sections.front_end_frameworks.title # TODO
-      t: Front-end Frameworks
-    - key: sections.front_end_frameworks.description # TODO
-      t: Front-end frameworks and libraries
+    - key: sections.front_end_frameworks.title
+      t: 前端框架
+    - key: sections.front_end_frameworks.description
+      t: 前端框架和类库
 
-    - key: sections.datalayer.title # TODO
-      t: Data Layer
-    - key: sections.datalayer.description # TODO
-      t: Loading and managing data in your app # TODO
+    - key: sections.datalayer.title
+      t: 数据层
+    - key: sections.datalayer.description
+      t: 在你的应用中加载和管理数据
 
-    - key: sections.back_end_frameworks.title # TODO
-      t: Back-end Frameworks
-    - key: sections.back_end_frameworks.description # TODO
-      t: JavaScript on the server
+    - key: sections.back_end_frameworks.title
+      t: 后端框架
+    - key: sections.back_end_frameworks.description
+      t: 服务端的 JavaScript
 
-    - key: sections.testing.title # TODO
-      t: Testing
-    - key: sections.testing.description # TODO
-      t: Tools for testing your code
+    - key: sections.testing.title
+      t: 测试
+    - key: sections.testing.description
+      t: 代码测试工具
 
-    - key: sections.mobile_desktop.title # TODO
-      t: Mobile & Desktop
-    - key: sections.mobile_desktop.description # TODO
-      t: JavaScript for mobile devices and desktop apps
+    - key: sections.mobile_desktop.title
+      t: 移动端和客户端
+    - key: sections.mobile_desktop.description
+      t: 用于移动设备和桌面端app的 JavaScript
+
+    - key: sections.build_tools.title
+      t: 构建工具
+    - key: sections.build_tools.description
+      t: 编译和打包代码
+
+    - key: sections.tools_others.title
+      t: 其他工具
+    - key: sections.tools_others.description
+      t: 其他JavaScript工具.
 
     ###########################################################################
     # Options
     ###########################################################################
 
     # CSS for print
-    - key: options.css_for_print.0 # TODO
-      t: I (almost) never write print styles
-    - key: options.css_for_print.1 # TODO
-      t: I occasionally write print styles
-    - key: options.css_for_print.2 # TODO
-      t: I write print styles as part of most projects
-    - key: options.css_for_print.3 # TODO
-      t: I focus mainly on CSS for print
+    - key: options.css_for_print.0
+      t: 我（几乎）没写过打印的样式
+    - key: options.css_for_print.1
+      t: 我偶尔写打印的样式
+    - key: options.css_for_print.2
+      t: 我在许多项目中会把打印用的样式当作一部分来编写
+    - key: options.css_for_print.3
+      t: 我主要就是在写打印用的 CSS
 
     # CSS for email
-    - key: options.css_for_email.0 # TODO
-      t: I (almost) never write CSS for email clients
-    - key: options.css_for_email.1 # TODO
-      t: I occasionally write CSS for email clients
-    - key: options.css_for_email.2 # TODO
-      t: I write CSS for email clients as part of most projects
-    - key: options.css_for_email.3 # TODO
-      t: I focus mainly on CSS for email clients
+    - key: options.css_for_email.0
+      t:  我（几乎）没写过电子邮件客户端的 CSS
+    - key: options.css_for_email.1
+      t: 我偶尔写电子邮件客户端的 CSS
+    - key: options.css_for_email.2
+      t: 我在许多项目里会把电子邮件客户端的 CSS 当作一部分来编写
+    - key: options.css_for_email.3
+      t: 我主要就是在做电子邮件客户端的 CSS
 
     ###########################################################################
     # Features
     ###########################################################################
 
     # syntax
-    - key: features.destructuring # TODO
-      t: Destructuring
-    - key: features.destructuring.description # TODO
-      t: 'Example: `const { foo } = bar`'
-    - key: features.spread_operator # TODO
-      t: Spread operator
-    - key: features.spread_operator.description # TODO
-      t: 'Example: `[...array1, ...array2]`'
-    - key: features.arrow_functions # TODO
-      t: Arrow Functions
-    - key: features.arrow_functions.description # TODO
-      t: 'Example: `const foo = () => {}`'
+    - key: features.destructuring
+      t: 结构
+    - key: features.destructuring.description
+      t: '例子: `const { foo } = bar`'
+    - key: features.spread_operator
+      t: 扩展运算符
+    - key: features.spread_operator.description
+      t: '例子: `[...array1, ...array2]`'
+    - key: features.arrow_functions
+      t: 箭头函数
+    - key: features.arrow_functions.description
+      t: '例子: `const foo = () => {}`'
+    - key: features.nullish_coalescing
+      t: 空值合并运算符 Nullish Coalescing
+    - key: features.nullish_coalescing.description
+      t: >
+        例子: `const foo = 0 ?? 42`
+    - key: features.optional_chaining
+      t: 可选链 Optional Chaining
+    - key: features.optional_chaining.description
+      t: >
+        例子: `const dogName = adventurer.dog?.name`
+    - key: features.private_fields
+      t: 私有属性
+    - key: features.private_fields.description
+      t: >
+        例子: `class ClassWithPrivateField { #privateField }`
 
     # language
-    - key: features.proxies # TODO
+    - key: features.proxies
       t: Proxies
-    - key: features.async_await # TODO
+    - key: features.async_await
       t: Async/Await
-    - key: features.promises # TODO
+    - key: features.promises
       t: Promises
-    - key: features.decorators # TODO
-      t: Decorators
-    - key: features.decorators.description # TODO
+    - key: features.decorators
+      t: Decorators 装饰器
+    - key: features.decorators.description
       t: >
-          In its simplest form, a decorator is simply a way of 
-          wrapping one piece of code with another — literally “decorating” it.
+          简单来说，Decorators装饰器是一种将一段代码包装成另一段代码的方法。
+    - key: features.dynamic_import
+      t: 动态引入
+    - key: features.dynamic_import.description
+      t: >
+        例子: <code>await import('/modules/my-module.js')</code>
 
     # data structures
-    - key: features.maps # TODO
+    - key: features.maps
       t: Maps
-    - key: features.sets # TODO
+    - key: features.sets
       t: Sets
-    - key: features.typed_arrays # TODO
+    - key: features.typed_arrays
       t: Typed Arrays
-    - key: array_prototype_flat # TODO
+    - key: array_prototype_flat
       t: Array.prototype.flat
 
     # browser apis
@@ -152,17 +182,17 @@ translations:
       t: LocalStorage
     - key: features.i18n
       t: i18n
-    - key: features.web_components # TODO
+    - key: features.web_components
       t: Web Components
-    - key: features.web_audio # TODO
+    - key: features.web_audio
       t: Web Audio API
     - key: features.webgl
       t: WebGL
-    - key: features.web_animations # TODO
+    - key: features.web_animations
       t: Web Animations API
     - key: features.webrtc
       t: WebRTC
-    - key: features.web_speech # TODO
+    - key: features.web_speech
       t: Web Speech API
     - key: features.webvr
       t: WebVR
@@ -172,42 +202,83 @@ translations:
       t: Fetch API
 
     # other features
-    - key: features.pwa # TODO
+    - key: features.pwa
       t: Progressive Web Apps (PWA)
     - key: features.wasm
       t: WebAssembly (WASM)
 
     # patterns
-    - key: patterns.object_oriented_programming # TODO
-      t: Object-Oriented Programming
-    - key: features.functional_programming # TODO
-      t: Functional Programming
-    - key: features.reactive_programming # TODO
-      t: Reactive Programming
+    - key: patterns.object_oriented_programming
+      t: 面向对象编程
+    - key: features.functional_programming
+      t: 函数式编程
+    - key: features.reactive_programming
+      t: 响应式编程
+
+    ###########################################################################
+    # Tools
+    ###########################################################################
+
+    - key: tools.angular.description
+      t: >
+        请注意，此问题仅针对 [Angular](https://angular.io/) 的用户体验，而 *不是* 已经弃用的 [AngularJS](https://angularjs.org/).
+
+    ###########################################################################
+    # Other Tools
+    ###########################################################################
+
+    - key: tools_others.runtimes
+      t: JavaScript 运行时
+    - key: tools_others.runtimes.description
+      t: 你最常使用哪个引擎/运行时/执行环境？
+    - key: tools_others.runtimes.others
+      t: 其他运行时
+    - key: tools_others.runtimes.others.description
+      t: 其他答案（自由填写的答案）。
+
+    - key: tools_others.package_registries
+      t: 包管理工具
+    - key: tools_others.package_registries.description
+      t: 你最常使用哪个包管理工具？
+    - key: tools_others.package_registries.others
+      t: 其他包管理工具
+    - key: tools_others.package_registries.others.description
+      t: 其他答案（自由填写的答案）。
 
     ###########################################################################
     # Opinions
     ###########################################################################
 
-    - key: opinions.js_moving_in_right_direction # TODO
-      t: JavaScript is moving in the right direction
+    - key: opinions.js_moving_in_right_direction
+      t: JavaScript 在向正确的方向发展
 
-    - key: opinions.building_js_apps_overly_complex # TODO
-      t: Building JavaScript apps is overly complex right now
+    - key: opinions.building_js_apps_overly_complex
+      t: 现在构建 JavaScript 应用过于复杂
 
-    - key: opinions.js_over_used_online # TODO
-      t: JavaScript is over-used online
+    - key: opinions.js_over_used_online
+      t: JavaScript 被过度使用
 
-    - key: opinions.enjoy_building_js_apps # TODO
-      t: I enjoy building JavaScript apps
+    - key: opinions.enjoy_building_js_apps
+      t: 我享受构建 JavaScript 应用程序
 
-    - key: opinions.would_like_js_to_be_main_lang # TODO
-      t: I would like JavaScript to be my main programming language
+    - key: opinions.would_like_js_to_be_main_lang
+      t: 我希望 JavaScript 成为我的主要编程语言
 
-    - key: opinions.js_ecosystem_changing_to_fast # TODO
-      t: The JavaScript ecosystem is changing too fast
+    - key: opinions.js_ecosystem_changing_to_fast
+      t: JavaScript 生态系统的变化太快了
 
-    - key: opinions.missing_from_js # TODO
-      t: What do you feel is currently missing from JavaScript?
-    - key: opinions.missing_from_js.description # TODO
-      t: Features you'd like to see in JavaScript one day.
+    - key: opinions.missing_from_js
+      t: 你觉得 JavaScript 目前还缺少什么？
+    - key: opinions.missing_from_js.description
+      t: 您希望有一天在JavaScript中看到的特性。
+      
+    - key: opinions_others.missing_from_js.others
+      t: 你觉得 JavaScript 目前还缺少什么？
+    - key: opinions_others.missing_from_js.others.description
+      t: 您希望有一天在JavaScript中看到的特性。
+
+    - key: happiness.state_of_the_web
+      t: 您对网络技术的总体状况感到满意吗？
+
+    - key: happiness.state_of_js
+      t: 您对 JavaScript 的总体状况感到满意吗？

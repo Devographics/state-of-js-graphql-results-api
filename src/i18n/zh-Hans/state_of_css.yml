@@ -5,11 +5,11 @@ translations:
     # General
     ###########################################################################
 
-    - key: general.survey_intro_css2020 # TODO
+    - key: general.survey_intro_css2020
       t: >
-          CSS 以前所未有的速度发展。
+          CSS 正在以前所未有的速度发展。
 
-          Flexbox （弹性布局）、 Grid （栅格布局）、 Multi-Column （多列布局）甚至于 CSS-in-JS 这样的全新领域。
+          Flexbox （弹性布局）、 Grid （栅格布局）、 Multi-Column （多列布局）等等……甚至出现了 CSS-in-JS 这样的全新的技术领域。
 
           也因每年举办的 [State Of JavaScript](https://stateofjs.com) 取得成功后。我们决定深入样式选择器的世界，帮助大家找到
           最新趋势，作为桥梁连接“大前端时代”洪流！
