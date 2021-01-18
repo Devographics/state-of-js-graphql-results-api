@@ -7,7 +7,7 @@ translations:
     - key: sections.introduction.description
       t: |
 
-            <span class="first-letter">U</span>ită tot ceea ce știi despre CSS. Sau cel puțin, fii gata să reconsideri multe lucruri. Dacă folosești CSS de mai bine de o decadă, la fel ca mine, CSS-ul din 2020 nu seamănă mai deloc cu ceea ce erai obișnuit.
+            <span class="first-letter">U</span>ită tot ceea ce știai despre CSS. Sau cel puțin, fii gata să reconsideri multe lucruri. Dacă folosești CSS de mai bine de o decadă, la fel ca mine, CSS-ul din 2020 nu seamănă aproape deloc cu ceea ce erai obișnuit.
 
             În loc de breakpoint-uri, putem acum să folosim CSS Grid pentru a crea layout-uri dinamice și responsive, care se adaptează la orice dimensiune a ferestrei, cu și mai puține linii de cod. În loc să folosim stylesheet-uri globale, CSS-in-JS ne permite să introducem stilizări în componente, construind astfel sisteme tematice de design.
 
@@ -76,7 +76,7 @@ translations:
       t: Cumpără
 
     - key: tshirt.price
-      t: 24 dolari + transportul
+      t: 24 USD + transportul
 
     ###########################################################################
     # Sections Introductions
@@ -99,7 +99,7 @@ translations:
     - key: sections.technologies.description
       t: |
           Ecosistemul CSS trece printr-un proces de reînnoire de toate felurile, pe măsură ce elementele centrale, cum ar fi Bootstrap,
-          trebuie acum să se adapteze noilor veniți, cum e Tailwind CSS. Să nu mai vorbim despre întreaga mișcare CSS-in-JS
+          trebuie acum să se adapteze noilor veniți, ca Tailwind CSS. Să nu mai vorbim despre întreaga mișcare CSS-in-JS
           care, deși nu a trecut încă linia spre mainstream-ul CSS, este fără îndoială destul de dinamic.
 
     - key: sections.other_tools.description
@@ -109,7 +109,7 @@ translations:
 
     - key: sections.environments.description
       t: |
-          Unul dintre punctele forte ale CSS este capacitatea sa de a se adapta la medii diferite. Totuși, din varii motive
+          Unul dintre punctele forte ale CSS este capacitatea sa de a se adapta la medii diferite. Totuși, din varii motive,
           medii ca versiunile printate sau email-ul rămân neexplorate de majoritatea programatorilor CSS. S-ar putea asta
           dovedi următoarea frontieră a CSS-ului…?
 
@@ -162,10 +162,10 @@ translations:
       t: Nivelul de satisfacție, de **{value}**, pe care PostCSS l-a înregistrat arată că nu poți învinge dacă faci doar un singur lucru foarte, foarte bine.
 
     - key: award.tool_interest_award.comment
-      t: Cu un procent de **{value}**, CSS Modules a generat în acest an cel mai mare grad de interes printre programatori.
+      t: Cu un procent de **{value}**, CSS Modules a stârnit în acest an cel mai mare grad de interes printre programatori.
 
     - key: award.most_write_ins_award.comment
-      t: Unele întrebări au acceptat răspunsuri deschise. Cu **{value}** de mențiuni, PhpStorm a fost cel mai popular element.
+      t: Unele întrebări au avut răspunsuri deschise. Cu **{value}** de mențiuni, PhpStorm a fost cel mai popular element.
 
       
     ###########################################################################
@@ -184,7 +184,7 @@ translations:
 
             Vrei să creezi o aplicație React complexă? Styled Components este o opțiune excelentă. Vrei să creezi un landing page static? Cu Sass nu ai cum să dai greș! Și chiar dacă Bootstrap și-a mai pierdut din hype-ul inițial, nu-l poți învinge când vine vorba de numărul mare de teme și plugin-uri disponibile.
 
-            Așadar, în timp ce urmărim noile jucării strălucitoare care apar pe GitHub în fiecare săptămână, să nu uităm de instrumentele, tehnicie și, mai presus de orice, de oamenii care au purtat torța CSS-ului până acum. Vom avea nevoie de toate acestea dacă ne dorim ca CSS-ul să evolueze în 2021 și după!
+            Așadar, în timp ce urmărim noile jucării strălucitoare care apar pe GitHub în fiecare săptămână, să nu uităm de instrumentele, tehnicile și, mai presus de orice, de oamenii care au purtat torța CSS-ului până acum. Vom avea nevoie de toate acestea dacă ne dorim ca CSS-ul să evolueze în 2021 și după!
 
     ###########################################################################
     # Picks
@@ -199,12 +199,12 @@ translations:
       t: Autor al debuggingcss.com
     - key: picks.shadeed9.description
       t: |
-            Container queries sunt o funcționalitate mult așteptată de noi,
+            Container queries este o funcționalitate mult așteptată de noi,
             iar eu sunt încântat de faptul că echipa Chrome lucrează la suport nativ pentru aceasta!
 
 
     - key: picks.argyleink.bio
-      t: CSS la Google
+      t: CSS at Google
     - key: picks.argyleink.description
       t: |
             The humble CSS box is more dynamic every year, and for me 2020 was about logical sides, instead of physical sides. Free internationally contextual content flow, spacing and shorthands? pls & ty
@@ -258,7 +258,7 @@ translations:
     - key: picks.hugogiraudel.description
       t: |
           Fela este un soft uimitor.
-          Este destul de puternic, relativ ușor de utilizat și foarte performant
+          Este destul de puternic, relativ ușor de utilizat și foarte performant.
 
     - key: picks.foolip.bio
       t: Software Engineer @ Google
@@ -273,4 +273,4 @@ translations:
     - key: picks.jina.description
       t: |
           Media query-ul care reduce mișcarea, ceea ce ajută la
-          diminuarea amețelilor și disconfortului.
+          diminuarea amețelilor și a disconfortului.

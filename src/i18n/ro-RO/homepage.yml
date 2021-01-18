@@ -43,10 +43,10 @@ translations:
 
     - key: author.sacha.bio
       t: >
-          Creator al [Nivo](http://nivo.rocks/) librăriei JavaScript de vizualizare a datelor, precum și al
+          Creator al librăriei JavaScript de vizualizare a datelor [Nivo](http://nivo.rocks/), precum și al
           [Mozaik](http://mozaik.rocks/), un instrument pentru crearea unor dashboard-uri minunate.
 
     - key: author.raphael.bio
       t: >
-          Creator al [Sidebar](http://sidebar.io) newsletter-ului zilnic și al
+          Creator al newsletter-ului zilnic [Sidebar](http://sidebar.io) și al
           [VulcanJS](http://vulcanjs.org), un framework open-source React+GraphQL.

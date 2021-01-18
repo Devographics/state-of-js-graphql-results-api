@@ -84,7 +84,7 @@ translations:
       t: Cumpără
 
     - key: tshirt.price
-      t: {price} dolari + transportul
+      t: {price} USD + transportul
 
     ###########################################################################
     # Sections Introductions
@@ -135,7 +135,7 @@ translations:
     - key: sections.build_tools.description
       t: |
           Tocmai când părea că dominația webpack a temperat dezbaterea, scena instrumentelor pentru build
-          a explodat iar când i s-au alăturat noi participanți, cum sunt Snowpack și esbuild. Acest lucru ne-a determinat să
+          a explodat din nou când i s-au alăturat alți participanți, cum sunt Snowpack și esbuild. Acest lucru ne-a determinat să
           le oferim o secțiune dedicată, pentru prima dată din 2017.
 
     - key: sections.mobile_desktop.description
@@ -147,7 +147,7 @@ translations:
     - key: sections.other_tools.description
       t: |
           Diversitatea și multitudinea de librării, utilitare și alte instrumente, evidențiază cât de vast a devenit
-          ecosistemul JavaScript și, pentru prima dată, în acest an am început să monitorizăm și runtimes de JavaScript,
+          ecosistemul JavaScript. Pentru prima dată, în acest an am început să monitorizăm și runtimes de JavaScript,
           cum sunt Deno și Hermes.
 
     - key: sections.resources.description
@@ -285,7 +285,7 @@ translations:
       t: |
             Volta ajută la gestionarea întregului toolchain JavaScript – gândește-te la nvm, dar te ajută pe tine
             și pe echipa ta să aveți aceleași versiuni de Node, npm, instrumente CLI etc.
-            Îmi place pentru că este atât de plăcut de folosit și pentru că este deschizător de drumuri
+            Îmi place pentru că este atât de simpatic de folosit și pentru că este deschizător de drumuri
             pentru folosirea Rust în contruirea de instrumente rapide pentru JS.
 
     - key: picks.markdalgleish.bio
