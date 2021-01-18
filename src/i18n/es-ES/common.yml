@@ -39,6 +39,8 @@ translations:
       t: Actualmente no hay encuestas cerradas.
     - key: general.preview_surveys
       t: Previsualizar Encuestas
+    - key: general.no_preview_surveys
+      t: No hay encuestas disponibles para ver.
     - key: general.start_survey
       t: Empezar Encuesta »
     - key: general.continue_survey
