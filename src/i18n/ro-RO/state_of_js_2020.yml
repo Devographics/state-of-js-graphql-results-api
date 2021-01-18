@@ -1,0 +1,301 @@
+locale: ro-RO
+namespace: js
+translations:
+    ###########################################################################
+    # General
+    ###########################################################################
+
+    - key: general.results.description
+      t: Sondajul anual despre ultimele tendințe în ecosistemul JavaScript.
+
+    ###########################################################################
+    # Introduction
+    ###########################################################################
+
+    - key: sections.introduction.description
+      t: |
+
+            <span class="first-letter">C</span>u toate că anul 2020 a fost atât de neplăcut, JavaScript a reușit cumva să meargă înainte. Pe măsură ce limbajul în sine continuă să se îmbunătățească
+            datorită noilor funcționalități, cum sunt optional chaining și nullish coalescing, adoptarea TypeScript la scară largă duce lucrurile la un alt nivel, popularizând tipurile statice.
+
+            Iar din punctul de vedere al framework-urilor, tocmai când credeam că lucrurile încep să se așeze, Svelte vine și schimbă totul, aducând o nouă viziune asupra front-end-ului. Chiar și instrumentele de build dau semne de activitate după atâția ani în care webpack a dominat.
+
+            Dar de data aceasta diferența o face faptul că „vechea” gardă - relativ vorbind - nu pleacă nicăieri. Svelte și Snowpack sunt minunate, dar la fel sunt și React și webpack. Și, bineînțeles că vor cădea și ei pradă Marelui Colimator JavaScript în cele din urmă, dar asta nu pentru mulți, mulți ani de acum încolo.
+
+            Așadar, hai să ne bucurăm de ceea ce avem: un ecosistem extraordinar care devine tot mai bun!
+
+            ### Alătură-te lansării în direct!
+
+            Vom face un [livestream special cu lansarea](https://stateofjs.com/2020stream/) în colaborare cu cei de pe canalul Twitch CodeItLive. Îi vom avea oaspeți pe Sarah Drasner, Josh W. Comeau și Kent C. Dodds cu care vom discuta tendințele JavaScript ale anului trecut!
+            
+            ### Descarcă datele tale
+
+            Poți [descărca datele sondajului în format raw JSON](https://www.kaggle.com/sachag/state-of-js). Dă-ne de veste dacă îți creezi propriile reprezentări grafice ale datelor!
+
+            ### State of CSS
+
+            Dacă nu l-ai văzut deja, îți recomandăm cu încredere să verifici și [Raportul tendințelor State of CSS 2020](https://2020.stateofcss.com/en-US/report/) pentru a te pune la curent cu principalele trei tendințe din CSS ale anului trecut.
+
+            ### Mulțumiri
+
+            Mulțumiri speciale lui [Alexey Pyltsyn](https://github.com/lex111) pentru ajutorul acordat cu traducerile.
+
+            Mulțumiri și [Ameliei Wattenberger](https://wattenberger.com/) pentru că ne-a ajutat să actualizăm graficul ei original, „Schimbări de-a lungul timpului”, de anul trecut. Dacă vrei să înveți cum să creezi propriile reprezentări grafice ale datelor, cel mai bun mod este [cursul ei video D3](https://www.newline.co/fullstack-d3).
+            
+            ### Credite și altele
+
+            Sondajul The State of JavaScript este creat și menținut de [Sacha Greif](https://twitter.com/sachagreif) și [Raphaël Benitte](https://twitter.com/benitteraphael).
+
+            Urmărește [această prezentare video](https://www.youtube.com/watch?v=o4w1qEnZxbM) pentru a afla mai multe despre aspectele tehnice ale proiectului, de la colectarea de date până la reprezentarea grafică a acestora. Întrebări? Feedback? [Contactează-ne](mailto:hello@stateofjs.com) sau [alătură-te pe Discord](https://discord.gg/zRDb35jfrt).
+
+            Iar acum, să vedem ce s-a mai întâmplat în JavaScript în acest an!
+
+            <span class="conclusion__byline">– Sacha și Raphaël</span>
+
+    ###########################################################################
+    # Tshirt
+    ###########################################################################
+
+    - key: sections.tshirt.title
+      t: Tricou
+
+    - key: sections.tshirt.description
+      t: |
+          ## Susține sondajul și arată bine în tot acest timp!
+
+          Am adus modificări popularului 👕 tricou State of JavaScript 👕 de anul trecut pentru a-l adapta
+          la peisajul JavaScript din 2020!
+
+          Tricoul are imprimat „tabelul periodic al JavaScript” care listează cele mai populare
+          librării grupate pe categorii, împreună cu numărul de stele (în mii) de pe GitHub.
+
+          Tricoul este un mod excelent de a te familiariza cu ecosistemul JavaScript,
+          și, poate chiar, un motiv în plus pentru a iniția conversații interesante cu alți
+          programatori JavaScript!
+    
+    - key: tshirt.about
+      t: Despre tricou
+
+    - key: tshirt.description
+      t: |
+          Imprimarea și livrarea sunt realizate de [Cotton Bureau](https://cottonbureau.com/people/state-of-js). Design-ul este imprimat pe materiale foarte moi, de înaltă calitate.
+
+    - key: tshirt.getit
+      t: Cumpără
+
+    - key: tshirt.price
+      t: {price} dolari + transportul
+
+    ###########################################################################
+    # Sections Introductions
+    ###########################################################################
+
+    - key: sections.user_info.description
+      t: |
+          Sondajul de anul acesta a fost completat de **23.765** de persoane din **137** de țări. Pentru prima dată, în acest an
+          am reușit să traducem întrebările în mai multe limbi, iar asta datorită unei echipe minunate de voluntari.
+
+    - key: sections.features.description
+      t: |
+          În timp ce majoritatea respondenților a fost conștientă de cele mai multe dintre funcționalitățile JavaScript
+          menționate în sondaj, mulți încă nu au folosit efectiv mare parte dintre acestea.
+
+    - key: sections.technologies.description
+      t: |
+          Tipica librărie nouă de JavaScript prezintă un grad mare de satisfacție, dar un grad scăzut de utilizare, ceea ce uneori
+          poate face ca alegerea tehnologiei potrivite nevoilor să fie cam dificilă. Acesta este punctul în care o privire peste
+          date ne poate ajuta să ne îndreptăm într-o direcție corectă.
+
+    - key: sections.javascript_flavors.description
+      t: |
+          Trendul cu flavor-urile de JS care compilează în cod standard a început acum mai mulți
+          ani cu CoffeeScript, dar acum este clar că TypeScript e liderul de necontestat
+          din această categorie.
+
+    - key: sections.front_end_frameworks.description
+      t: |
+          Cum ne-am obișnuit, React și Vue conduc haita, dar Svelte se impune rapid drept
+          un pretendent foarte serios la coroana front-end.
+
+    - key: sections.datalayer.description
+      t: |
+          În timp ce universul datalayer-elor este în continuă schimbare, un lucru pare clar: GraphQL și
+          tehnologiile asociate își păstrează locul.
+
+    - key: sections.back_end_frameworks.description
+      t: |
+          Lumea back-end este încă foarte fragmentată, dar Express se remarcă drept instrumentul
+          dominant, în timp ce Next.js își menține gradul ridicat de satisfacție.
+
+    - key: sections.testing.description
+      t: |
+          Ecosistemul de testare se îmbogățește cu noi membri, cum sunt Testing Library și Playwright, ambii
+          obținând indici crescuți ai satisfacției.
+
+    - key: sections.build_tools.description
+      t: |
+          Tocmai când părea că dominația webpack a temperat dezbaterea, scena instrumentelor pentru build
+          a explodat iar când i s-au alăturat noi participanți, cum sunt Snowpack și esbuild. Acest lucru ne-a determinat să
+          le oferim o secțiune dedicată, pentru prima dată din 2017.
+
+    - key: sections.mobile_desktop.description
+      t: |
+          JavaScript nu este doar pentru browser, iar în timp ce Electron și React Native sunt două
+          dintre cele mai cunoscute nume în această categorie, alte soluții, ca Expo și Capacitor, încep
+          de asemenea să facă valuri.
+
+    - key: sections.other_tools.description
+      t: |
+          Diversitatea și multitudinea de librării, utilitare și alte instrumente, evidențiază cât de vast a devenit
+          ecosistemul JavaScript și, pentru prima dată, în acest an am început să monitorizăm și runtimes de JavaScript,
+          cum sunt Deno și Hermes.
+
+    - key: sections.resources.description
+      t: |
+          Am listat aici o mulțime de resurse valoroase, deci suntem siguri că vei găsi cel puțin câteva
+          blog-uri sau podcast-uri noi pe care să începi să le urmărești!
+
+    - key: sections.opinions.description
+      t: |
+          În timp ce lucrurile arată bine în general în lumea JavaScript, pare să existe un mic declin
+          față de punctul culminant al pozitivității din 2018. Va continua tendința? Urmărește-ne și anul viitor pentru a afla!
+
+          
+    ###########################################################################
+    # Notes
+    ###########################################################################
+
+    - key: blocks.source.note
+      t: >
+
+        Acest grafic agregă un mix de referrers, parametri URL și răspunsuri libere.
+
+        - State of JS: lista de email-uri [State of JS](https://stateofjs.com); cuprinde și `email`, `by email` etc.
+
+        - State of CSS: lista de email-uri [State of CSS](https://stateofcss.com/)
+
+        - Work: cuprinde `work`, `colleagues`, `coworkers` etc.
+
+    ###########################################################################
+    # Awards
+    ###########################################################################
+
+    # - key: award.feature_adoption_delta_award.comment
+    #   t: With a **{value}** progression in 2020, this was the year CSS Grid crossed over from new technology to established tool.
+
+    - key: award.tool_usage_delta_award.comment
+      t: TypeScript este deja popular, iar cu o creștere de **{value}** a utilizării, se pare că în viitor va deveni omniprezent.
+
+    - key: award.tool_satisfaction_award.comment
+      t: Cu un grad al satisfacției extrem de crescut, de **{value}**, Testing Library este cel mai îndrăgit instrument în 2020.
+
+    - key: award.tool_interest_award.comment
+      t: Cu un grad de interes de **{value}**, GraphQL continuă să fie un lucru pe care programatorii își doresc să-l învețe de îndată ce vor avea timpul disponibil.
+
+    - key: award.most_write_ins_award.comment
+      t: Oamenii devin pasionați când vine vorba de editoarele de text. Cu **{value}** mențiuni, IntelliJ IDEA câștigă premiul pentru cele mai multe răspunsuri înscrise.
+
+    ###########################################################################
+    # Conclusion
+    ###########################################################################
+
+    - key: sections.conclusion.description
+      t: |
+            Încă din cele mai vechi timpuri, filozofii au meditat la Paradoxul JavaScript: pe de-o parte abia aștepți noi funcționalități și librării care promit să creeze o experiență mult mai bună.
+
+            Dar în același timp, îți dorești stabilitate și simplitate pentru a-ți putea face treaba fără să petreci jumătate din timp căutând prin issue-uri de GitHub și întrebări depăsite pe Stack Overflow.
+
+            Deci cum e mai bine? Ne dorim noul strălucitor sau vechiul de încredere? Mai mult decât oricând, 2020 ne arată că nu ne vom mulțumi cu nimic mai puțin decât *cu ambele*. Vestea bună: comunitatea JavaScript s-a ridicat la înălțimea provocării, iar asta promite un 2021 incitant!
+
+            P.S. dacă vrei să afli mai multe statistici despre JavaScript, îți recomandăm să tragi o privire peste clasamentele anuale [Rising Stars](https://risingstars.js.org/2020/en/) făcute de [Best Of JS](https://bestofjs.org/).
+            
+    ###########################################################################
+    # Picks
+    ###########################################################################
+
+    - key: picks.my_2020_pick
+      t: 'Alegerea mea pentru 2020: '
+    - key: picks.intro
+      t: Am rugat membrii comunității JavaScript să împărtășească „alegerea anului” din perspectiva lor
+
+    - key: picks.joshwcomeau.bio
+      t: Software-engineer-turned-educator
+    - key: picks.joshwcomeau.description
+      t: |
+            Aceasta este o resursă introductivă fantastică pentru studierea accesibilității web!
+            Am ales-o pentru că este treaba noastră ca programatori JS să ne asigurăm că site-urile pe care
+            le construim sunt accesibile pentru toată lumea, nu doar pentru cei care au acces la mouse și tastatură.
+
+    - key: picks.swyx.bio
+      t: Infinite Builder
+    - key: picks.swyx.description
+      t: |
+            Svelte este un fel de Lift către Spațiu al framework-urilor frontend.
+            Te ajută să livrezi aplicații extrem de rapid.
+
+    - key: picks.kentcdodds.bio
+      t: O lume mai bună prin software de calitate
+    - key: picks.kentcdodds.description
+      t: |
+            Remix reprezintă o abordare diferită a framework-urilor React, care pune accentul pe îmbunătățiri progresive.
+            Abordează platforma web într-un fel în care niciun alt framework nu o face,
+            iar eu sunt încântat de potențialul lui.
+
+    - key: picks.sarah_edo.bio
+      t: Core Team Vue.js
+    - key: picks.sarah_edo.description
+      t: |
+            Insomnia este o aplicație care îți permite să contruiești, să testezi și să faci deploy workflow-urilor API,
+            folosind un UX curat și simplificat - are atât suport REST, cât și GraphQL.
+    
+    - key: picks.ladyleet.bio
+      t: This Dot Labs, GDE, MVP
+    - key: picks.ladyleet.description
+      t: |
+            RedwoodJS și alte framework-uri asemănătoare încep să schimbe modul în care ne gândim la dezvoltare.
+            Aduce ușurința lui Ruby on Rails în ecosistemul front-end.
+
+    - key: picks.midudev.bio
+      t: Lead Frontend @ Adevinta & Content Creator
+    - key: picks.midudev.description
+      t: |
+            Să lucrezi cu module în ecosistemul JavaScript a fost cam dificil.
+            ES2020 a venit cu ES Modules pentru a pune punct acestui lucru. E stabil chiar și în Node.js. Yey!
+    
+    - key: picks.cassidoo.bio
+      t: Principal Developer Experience Engineer la Netlify
+    - key: picks.cassidoo.description
+      t: |
+            Ben este unul dintre cei mai generoși oameni din comunitatea JS.
+            El activează în open source (în echipa de bază a Vue),
+            creează conținut util pentru programatori în mod constant și este foarte darnic cu timpul lui.
+            
+    - key: picks.lauragift_.bio
+      t: Frontend Developer @ PassionatePeople
+    - key: picks.lauragift_.description
+      t: |
+            Josh Comeau este o sursă de inspirație pentru mine și, pot spune, pentru întreaga comunitate JS.
+            Scrie articole foarte interesante pe blog-ul său. Câteva dintre ele sunt printre cele mai bune pe care le-am citit
+            în 2020 pentru că fie m-au ajutat să fiu la curent cu cele mai recente noutăți din JavaScript,
+            fie m-au ajutat să învăț ceva nou.
+
+    - key: picks.tomdale.bio
+      t: JavaScript Thinkfluencer
+    - key: picks.tomdale.description
+      t: |
+            Volta ajută la gestionarea întregului toolchain JavaScript – gândește-te la nvm, dar te ajută pe tine
+            și pe echipa ta să aveți aceleași versiuni de Node, npm, instrumente CLI etc.
+            Îmi place pentru că este atât de plăcut de folosit și pentru că este deschizător de drumuri
+            pentru folosirea Rust în contruirea de instrumente rapide pentru JS.
+
+    - key: picks.markdalgleish.bio
+      t: Co-creator al CSS Modules, creator al Playroom
+    - key: picks.markdalgleish.description
+      t: |
+            Automatizează publicarea pachetelor npm cu posibilitatea de a conecta release notes în format Markdown la fiecare modificare. Changesets a îmbunătățit cu adevărat în acest an calitatea pentru release notes și versionare.
+
+    - key: picks.sachagreif.bio
+      t: Creator al sondajului State of JS
+    - key: picks.sachagreif.description
+      t: |
+            Best Of JS urmărește statisticile GitHub ale (aproape) fiecărui proiect major JavaScript și a reprezentat o resursă neprețuită atunci când am hotărât ce să includem în sondaj!
