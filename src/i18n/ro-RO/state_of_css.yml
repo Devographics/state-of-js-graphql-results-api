@@ -70,7 +70,7 @@ translations:
       t: Utilitare care extind CSS-ul.
 
     - key: sections.pre_post_processors_others.title
-      t: Alte Pre-/Post-processors
+      t: Alte pre-/post-processors
 
     - key: sections.css_frameworks.title
       t: Framework-uri CSS
@@ -534,7 +534,7 @@ translations:
     - key: opinions.sum_up_one_word_css
       t: CSS într-un cuvânt
     - key: opinions.sum_up_one_word_css.description
-      t: Cuma ai rezuma părerea ta despre CSS într-un singur cuvânt?
+      t: Cum ai rezuma părerea ta despre CSS într-un singur cuvânt?
 
     - key: happiness.state_of_the_web
       t: Cât de mulțumit(ă) ești de starea generală a tehnologiilor web?

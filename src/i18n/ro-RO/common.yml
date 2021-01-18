@@ -133,7 +133,7 @@ translations:
 
     # other
     - key: general.join_discord
-      t: Alătură-ni-te pe <a href="{link}">Discord</a>.
+      t: Alătură-te pe <a href="{link}">Discord</a>.
     - key: general.translator_mode
       t: Apasă option/alt pentru a activa modul traducere.
     - key: general.charts_nivo
@@ -728,7 +728,7 @@ translations:
     - key: resources.sites_courses
       t: Site-uri și cursuri
     - key: resources.sites_courses.description
-      t: De pe ce site-uri/cursuri/etc. te informezi?
+      t: Ce site-uri/cursuri/etc. folosești pentru informare?
     - key: resources.sites_courses.others
       t: Alte site-uri și cursuri
     - key: resources.sites_courses.others.description

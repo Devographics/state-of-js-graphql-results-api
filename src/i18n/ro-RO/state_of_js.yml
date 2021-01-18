@@ -59,7 +59,7 @@ translations:
     - key: sections.front_end_frameworks.title
       t: Framework-uri front-end
     - key: sections.front_end_frameworks.description
-      t: Framework-uri front-end și librării
+      t: Framework-uri și librării front-end
 
     - key: sections.datalayer.title
       t: Data Layer
@@ -239,7 +239,7 @@ translations:
       t: Crearea aplicațiilor JavaScript este prea complexă în acest moment
 
     - key: opinions.js_over_used_online
-      t: JavaScript este supra-utilizat online
+      t: JavaScript este suprautilizat online
 
     - key: opinions.enjoy_building_js_apps
       t: Îmi place să creez aplicații JavaScript

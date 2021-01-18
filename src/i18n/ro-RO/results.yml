@@ -66,7 +66,7 @@ translations:
       t: ANALIZARE
     - key: options.quadrant.analyze.long
       t: |
-        ANALIZARE: Utilizare ridicată, grad scăzut de satisfacție. Dacă încă le mai folosești, reevaluează aceste tehnologii.
+        ANALIZARE: Utilizare ridicată, grad scăzut de satisfacție. Dacă încă le folosești, reevaluează aceste tehnologii.
 
     - key: ranges.selector.years_of_experience
       t: Experiență
@@ -224,7 +224,7 @@ translations:
     - key: blocks.tools_years_of_experience_heatmap.description
       t: |
         Pentru fiecare tehnologie, care este distribuția utilizării printre respondenții care au ales diferite nivele de experiență.
-        De notat aici este faptul că în acest caz este vorba despre experiența generală, și nu despre experiența cu o tehnologie specifică.
+        De notat aici este faptul că în acest caz e vorba despre experiența generală, și nu despre experiența cu o tehnologie specifică.
 
     # tool
     - key: blocks.entity.homepage_link
@@ -269,7 +269,7 @@ translations:
 
           - **EVITARE**: Utilizare scăzută, grad scăzut de satisfacție. Tehnologii care trebuie evitate în acest moment.
 
-          - **ANALIZARE**: Utilizare ridicată, grad scăzut de satisfacție. Dacă încă le mai folosești, reevaluează aceste tehnologii.
+          - **ANALIZARE**: Utilizare ridicată, grad scăzut de satisfacție. Dacă încă le folosești, reevaluează aceste tehnologii.
     - key: blocks.tools_quadrant.note
       t: De menționat că TypeScript apare de două ori în grafic, fiind inclus atât în secțiunea JavaScript Favors, cât și în Instrumente pentru build.
 
@@ -395,7 +395,7 @@ translations:
         experiență), atunci vom avea un delta pozitiv de +3%.
     - key: blocks.tools_usage_variations.note
       t: |
-        De menționat că instrumentele cu un grad mai redus de utilizare tind să varieze mai mult.
+        De menționat că instrumentele cu un grad redus de utilizare tind să varieze mai mult.
 
     # Recommended Resources
     - key: blocks.recommended_resources.title
@@ -500,7 +500,7 @@ translations:
     - key: award.feature_adoption_delta_award.title
       t: Funcționalitatea cu cea mai mare adopție
     - key: award.feature_adoption_delta_award.description
-      t: Oferit funcționalității cu cea mai mare progresie de la an la an pentru indicatorul „am folosit”.
+      t: Oferit funcționalității cu cel mai mare progres de la an la an pe indicatorul „am folosit”.
 
     - key: award.tool_usage_award.title
       t: Cea mai folosită tehnologie
@@ -510,7 +510,7 @@ translations:
     - key: award.tool_usage_delta_award.title
       t: Tehnologia cu cea mai mare adopție
     - key: award.tool_usage_delta_award.description
-      t: Oferit tehnologiei cu cea mai mare progresie de la an la an pentru indicatorul „aș folosi din nou”.
+      t: Oferit tehnologiei cu cel mai mare progres de la an la an pe indicatorul „aș folosi din nou”.
 
     - key: award.tool_satisfaction_award.title
       t: Cel mai mare grad de satisfacție
@@ -543,8 +543,8 @@ translations:
 
     - key: hints.hint_hint
       t: >
-          Vei găsi mici indicii, ca acesta, pe parcursul rezultatelor sondajului
-          care vor indica mai multe detalii.
+          Vei găsi mici indicii, ca acesta, pe parcursul rezultatelor sondajului,
+          care vor oferi mai multe detalii.
 
     - key: hints.units_switcher_hint
       t: >
