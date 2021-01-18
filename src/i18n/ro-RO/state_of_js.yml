@@ -1,0 +1,262 @@
+locale: ro-RO
+namespace: js
+translations:
+    ###########################################################################
+    # General
+    ###########################################################################
+
+    - key: general.survey_intro_js2019
+      t: >
+          Lumea JavaScript ar avea nevoie de câteva clarificări.
+
+
+          Începând cu anul 2016, acest sondaj a colectat
+          date de la peste 20.000 de programatori în fiecare an, din dorința de a identifica tendințe actuale și viitoare.
+
+
+          Completează sondajul și ajută-ne să aflăm ce librării își doresc programatorii să învețe în continuare,
+          care dintre ele au un grad de satisfacție mai mare și multe altele.
+
+    ###########################################################################
+    # Sections
+    ###########################################################################
+
+    - key: sections.syntax.title
+      t: Sintaxă
+    - key: sections.syntax.description
+      t: Gramatica JavaScript.
+
+    - key: sections.language.title
+      t: Limbaj
+    - key: sections.language.description
+      t: Vocabularul JavaScript.
+
+    - key: sections.data_structures.title
+      t: Structuri de date
+    - key: sections.data_structures.description
+      t: Cum stochezi și manipulezi date.
+
+    - key: sections.browser_apis.title
+      t: API-uri de browsere
+    - key: sections.browser_apis.description
+      t: Funcționalități oferite de browser.
+
+    - key: sections.other_features.title
+      t: Alte funcționalități
+    - key: sections.other_features.description
+      t: Alte tehnologii și pattern-uri
+
+    - key: sections.patterns.title
+      t: Pattern-uri
+    - key: sections.patterns.description
+      t: Cum preferi să scrii cod
+
+    - key: sections.javascript_flavors.title
+      t: JavaScript Flavors
+    - key: sections.javascript_flavors.description
+      t: Limbaje care compilează în JavaScript
+
+    - key: sections.front_end_frameworks.title
+      t: Framework-uri front-end
+    - key: sections.front_end_frameworks.description
+      t: Framework-uri front-end și librării
+
+    - key: sections.datalayer.title
+      t: Data Layer
+    - key: sections.datalayer.description
+      t: Gestiunea datelor în aplicația ta
+
+    - key: sections.back_end_frameworks.title
+      t: Framework-uri back-end
+    - key: sections.back_end_frameworks.description
+      t: JavaScript pe server
+
+    - key: sections.testing.title
+      t: Testare
+    - key: sections.testing.description
+      t: Instrumente pentru testarea codului
+
+    - key: sections.mobile_desktop.title
+      t: Mobil și desktop
+    - key: sections.mobile_desktop.description
+      t: JavaScript pentru dispozitive mobile și aplicații desktop
+
+    - key: sections.build_tools.title
+      t: Instrumente pentru build
+    - key: sections.build_tools.description
+      t: Compilarea și împachetarea codului
+
+    - key: sections.tools_others.title
+      t: Alte instrumente
+    - key: sections.tools_others.description
+      t: Alte instrumente JavaScript.
+
+    ###########################################################################
+    # Options
+    ###########################################################################
+
+    ###########################################################################
+    # Features
+    ###########################################################################
+
+    # syntax
+    - key: features.destructuring
+      t: Destructurare
+    - key: features.destructuring.description
+      t: 'Exemplu: `const { foo } = bar`'
+    - key: features.spread_operator
+      t: Spread operator
+    - key: features.spread_operator.description
+      t: 'Exemplu: `[...array1, ...array2]`'
+    - key: features.arrow_functions
+      t: Arrow Functions
+    - key: features.arrow_functions.description
+      t: 'Exemplu: `const foo = () => {}`'
+    - key: features.nullish_coalescing
+      t: Nullish Coalescing
+    - key: features.nullish_coalescing.description
+      t: >
+        Exemplu: `const foo = 0 ?? 42`
+    - key: features.optional_chaining
+      t: Optional Chaining
+    - key: features.optional_chaining.description
+      t: >
+        Exemplu: `const dogName = adventurer.dog?.name`
+    - key: features.private_fields
+      t: Proprietăți private
+    - key: features.private_fields.description
+      t: >
+        Exemplu: `class ClassWithPrivateField { #privateField }`
+
+    # language
+    - key: features.proxies
+      t: Proxy-uri
+    - key: features.async_await
+      t: Async/Await
+    - key: features.promises
+      t: Promises
+    - key: features.decorators
+      t: Decorators
+    - key: features.decorators.description
+      t: >
+          În cea mai simplă formă a sa, un decorator este o metodă de a
+          îngloba o parte de cod într-o alta - „decorând” efectiv codul.
+    - key: features.dynamic_import
+      t: Import dinamic
+    - key: features.dynamic_import.description
+      t: >
+        Exemplu: <code>await import('/modules/my-module.js')</code>
+
+    # data structures
+    - key: features.maps
+      t: Maps
+    - key: features.sets
+      t: Sets
+    - key: features.typed_arrays
+      t: Typed Arrays
+    - key: array_prototype_flat
+      t: Array.prototype.flat
+
+    # browser apis
+    - key: features.service_workers
+      t: Service Workers
+    - key: features.local_storage
+      t: LocalStorage
+    - key: features.i18n
+      t: i18n
+    - key: features.web_components
+      t: Web Components
+    - key: features.web_audio
+      t: Web Audio API
+    - key: features.webgl
+      t: WebGL
+    - key: features.web_animations
+      t: Web Animations API
+    - key: features.webrtc
+      t: WebRTC
+    - key: features.web_speech
+      t: Web Speech API
+    - key: features.webvr
+      t: WebVR
+    - key: features.websocket
+      t: Websocket
+    - key: features.fetch
+      t: Fetch API
+
+    # other features
+    - key: features.pwa
+      t: Progressive Web Apps (PWA)
+    - key: features.wasm
+      t: WebAssembly (WASM)
+
+    # patterns
+    - key: patterns.object_oriented_programming
+      t: Object-Oriented Programming
+    - key: features.functional_programming
+      t: Functional Programming
+    - key: features.reactive_programming
+      t: Reactive Programming
+
+    ###########################################################################
+    # Tools
+    ###########################################################################
+
+    - key: tools.angular.description
+      t: >
+        De menționat că această întrebare vizează doar experiența cu [Angular](https://angular.io/)
+        și *nu* se aplică, în mod specific, vechiului [AngularJS](https://angularjs.org/).
+   
+    ###########################################################################
+    # Other Tools
+    ###########################################################################
+
+    - key: tools_others.runtimes
+      t: JavaScript Runtimes
+    - key: tools_others.runtimes.description
+      t: Ce engines/runtimes/execution environments folosești în mod frecvent?
+    - key: tools_others.runtimes.others
+      t: Alte runtimes
+    - key: tools_others.runtimes.others.description
+      t: Alte răspunsuri (câmp deschis).
+
+    - key: tools_others.package_registries
+      t: Package Registries
+    - key: tools_others.package_registries.description
+      t: Ce package registries folosești în mod frecvent?
+    - key: tools_others.package_registries.others
+      t: Alte package registries
+    - key: tools_others.package_registries.others.description
+      t: Alte răspunsuri (câmp deschis).
+
+    ###########################################################################
+    # Opinions
+    ###########################################################################
+
+    - key: opinions.js_moving_in_right_direction
+      t: JavaScript se îndreaptă în direcția bună
+
+    - key: opinions.building_js_apps_overly_complex
+      t: Crearea aplicațiilor JavaScript este prea complexă în acest moment
+
+    - key: opinions.js_over_used_online
+      t: JavaScript este supra-utilizat online
+
+    - key: opinions.enjoy_building_js_apps
+      t: Îmi place să creez aplicații JavaScript
+
+    - key: opinions.would_like_js_to_be_main_lang
+      t: Mi-aș dori ca JavaScript să fie limbajul meu principal de programare
+
+    - key: opinions.js_ecosystem_changing_to_fast
+      t: Ecosistemul JavaScript se schimbă prea repede
+
+    - key: opinions_others.missing_from_js.others
+      t: Ce simți că lipsește în JavaScript în acest moment?
+    - key: opinions_others.missing_from_js.others.description
+      t: Funcționalități JavaScript pe care ai vrea să le vezi într-o zi.
+
+    - key: happiness.state_of_the_web
+      t: Cât de mulțumit(ă) ești de starea generală a tehnologiilor web?
+
+    - key: happiness.state_of_js
+      t: Cât de mulțumit(ă) ești de starea generală a JavaScript?
