@@ -221,66 +221,57 @@ translations:
       t: Improving the world with quality software
     - key: picks.kentcdodds.description
       t: |
-          Remixはプログレッシブエンハンスメントに重点を置いた、Reactへの異なるアプローチです。 emphasis on progressive 
-          enhancement.既存のフレームワークにはない方法でwebプラットフォームを内包していて、私はそのポテンシャルに期待してます。
+          Remixはプログレッシブエンハンスメントに重点を置いた、Reactへの異なるアプローチです。既存のフレームワークにはない方法でwebプラットフォームを内包していて、私はそのポテンシャルに期待してます。
 
     - key: picks.sarah_edo.bio
       t: Core Team Vue.js
     - key: picks.sarah_edo.description
       t: |
-            Insomnia is an app that allows you to design, test, and deploy API 
-            Workflows with a clean, simplified UX- it has both REST and GraphQL support, 
-            though clearly the puns are better if you're using REST.
+          Insomniaは、きれいでシンプルなUXでAPIワークフローの設計やテスト、デプロイができるアプリです。- RESTとGraphQLをサポートしていますが、RESTを使う方が、明らかにダジャレがきいています。（訳者補足:「Insomnia=不眠症」、「REST=休む」の意味なのでダジャレになってますね）
     
     - key: picks.ladyleet.bio
       t: This Dot Labs, GDE, MVP
     - key: picks.ladyleet.description
       t: |
-            RedwoodJS and frameworks like it are starting to change how we think about development. 
-            It’s bringing the ease of Ruby on Rails to the front-end ecosystem.
+            RedwoodJS とそれに似たフレームワークは、私たちの開発についての考え方を変え始めています。
+            Ruby on Railsの使いやすさをフロントエンドのエコシステムにもたらしています。
 
     - key: picks.midudev.bio
       t: Lead Frontend @ Adevinta & Content Creator
     - key: picks.midudev.description
       t: |
-            Working with modules on the JavaScript ecosystem has been messy. 
-            ES2020 came with ES Modules to end that. Even it's stable on Node.js. Yei!
+            JavaScriptのエコシステムでモジュールを扱うのはとても複雑でした。ES ModulesをもたらしたES2020がそれを終わらせてくれました。Node.jsでも安定しています。イェイ！
     
     - key: picks.cassidoo.bio
       t: Principal Developer Experience Engineer at Netlify
     - key: picks.cassidoo.description
       t: |
-            Ben is one of the most generous people in the JS community. 
-            He's active in open source (on the Vue core team), 
-            consistently makes useful content for developers to learn, and is very giving with his time.
+            BenはJSコミュニティの中でも最も寛大な人物の一人です。
+            彼はオープンソースで(Vueのコアチームで)熱心に活動しているし、開発者の学びに有益なコンテンツを継続的に作り、時間を使ってくれています。
             
     - key: picks.lauragift_.bio
       t: Frontend Developer @ PassionatePeople
     - key: picks.lauragift_.description
       t: |
-            Josh Comeau has been an inspiration to me, and I can say the JS community in general. 
-            He writes very thoughtful articles on his blog, and they are some of the best I read in 
-            2020 because they either helped me stay on top of the latest in JavaScript 
-            or helped me learn something new.
+            Josh Comeauは私にインスピレーションを与えてくれましたし、それはJavaScriptコミュニティ全体に対しても言えるでしょう。
+            彼はとても思慮に富んだ記事をブログに書いていて、最新のJavaScriptの情報を得られたり、何か新しいことが学べるので、記事のいくつかは2020年に私が読んだものの中で最高のものです。
 
     - key: picks.tomdale.bio
       t: JavaScript Thinkfluencer
     - key: picks.tomdale.description
       t: |
-            Volta helps manage your entire JavaScript toolchain – think nvm, but it also helps 
-            you and your team stay on the same versions of Node, npm, CLI tools, etc. 
-            I love it because it's so darn nice to use, and is pioneering the use of 
-            Rust to build speedy tools for JS.
+            VoltaでJavaScriptのツールチェインの全てを管理できます。 nvmのようなものですが、これを使えばNode、npm、CLIツールなどのバージョンをチーム内で一定にできます。
+            使い心地が本当に良いし、高速なJSのツールを作るためにRustを使っている先駆者でもあり、とても気に入っています。
 
     - key: picks.markdalgleish.bio
       t: Co-creator of CSS Modules, creator of Playroom
     - key: picks.markdalgleish.description
       t: |
-            Automates npm publishing with the ability to tie Markdown release notes to every change. Changesets has really leveled up the quality of our release notes and version management this year.
+            Markdownのリリースノートを全ての変更と紐づけることでnpmのパブリッシュ作業を自動化します。 Changesetsは私たちの今年のリリースノートとバージョンマネジメントを本当に向上させてくれました。
 
     - key: picks.sachagreif.bio
       t: Creator of the State of JS survey
     - key: picks.sachagreif.description
       t: |
-            Best Of JS tracks GitHub stats about virtually every major JavaScript project, and it has been an invaluable resource for helping us decide what to include in the survey!
+            Best Of JS はほぼ全てのメジャーなJavaScriptプロジェクトのGitHubの統計を追跡するもので、アンケートに何を含むべきかを決めるための計り知れない価値を持つリソースでした！
 
