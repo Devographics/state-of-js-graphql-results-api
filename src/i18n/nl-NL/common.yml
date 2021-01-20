@@ -6,145 +6,145 @@ translations:
 
     # homepage
     - key: general.why_create_account
-      t: Why do I need to create an account?
+      t: Waarom moet ik een account aanmaken?
     - key: general.create_account_reasons
       t: >
-          We ask you to create an account in order to:
+          We vragen je om een account aan te maken om:
 
-          - Avoid duplicate responses
+          - Dubbele reacties te vermijden
 
-          - Give you access to your data
+          - Je toegang te geven tot je gegevens
 
-          - Save your session as you go
+          - Je sessie opslaan terwijl je bezig bent
 
-          - Notify you when results are live
+          - Je laten weten wanneer de resultaten live zijn
     - key: general.survey_closed
       t: >
-          Sorry, the survey is now closed! You can still review your data but you won't be able to modify it.
+          Sorry, de enquête is nu gesloten! Je kunt jke gegevens nog steeds bekijken, maar je kunt deze niet wijzigen.
     - key: general.survey_read_only
       t: >
-          You are currently viewing this survey in read-only mode.
+          Je bekijkt deze enquête momenteel in de alleen-lezen modus.
     - key: general.survey_read_only_back
       t: >
-          <a href="{link}">Go back</a> to the main survey page to start or resume a session.
+          <a href="{link}">Ga terug</a> naar de hoofdonderzoekspagina om een ​​sessie te starten of te hervatten.
 
     # surveys
     - key: general.open_surveys
-      t: Open Surveys
+      t: Open enquêtes
     - key: general.no_open_surveys
-      t: No surveys are currently open.
+      t: Er zijn momenteel geen enquêtes geopend.
     - key: general.closed_surveys
-      t: Closed Surveys
+      t: Gesloten enquêtes
     - key: general.no_closed_surveys
-      t: No surveys are currently closed.
+      t: Er zijn momenteel geen enquêtes gesloten.
     - key: general.preview_surveys
-      t: Preview Surveys
+      t: Bekijk voorbeelden van enquêtes
     - key: general.no_preview_surveys
-      t: No surveys available to preview.
+      t: Geen enquêtes beschikbaar om te bekijken.
     - key: general.start_survey
-      t: Start Survey »
+      t: Start enquête »
     - key: general.continue_survey
-      t: Continue Survey »
+      t: Doorgaan met enquête »
     - key: general.review_survey
-      t: Review Survey »
+      t: Beoordeel enquête »
     - key: general.preview_survey
-      t: Preview Survey »
+      t: Bekijk voorbeeld van enquête »
     - key: general.finish_survey
-      t: Finish Survey »
+      t: Voltooi enquête »
     - key: general.survey_closed
-      t: This survey is now closed.
+      t: Deze enquête is nu gesloten.
     - key: general.survey_results
-      t: View Survey Results »
+      t: Bekijk enquête resultaten »
     - key: general.surveys_available_languages
-      t: 'Surveys available in:'
+      t: 'Enquêtes beschikbaar in:'
     - key: general.help_us_translate
-      t: Help us translate the surveys »
+      t: Help ons de enquêtes te vertalen »
     - key: general.translators
-      t: Translators
+      t: Vertalers
     - key: general.translation_help
-      t: Translation Help
+      t: Hulp bij vertalingen
 
     # footer
     - key: general.privacy_policy
-      t: Privacy Policy
+      t: Privacybeleid
     - key: general.leave_issue
-      t: Questions? Found a bug? <a href="{link}" target="_blank">Leave an issue</a>.
+      t: Vragen? Bug gevonden? <a href="{link}" target="_blank">Laat een issue achter</a>.
     - key: general.emoji_icons
-      t: Emoji icons by <a target="_blank" rel="noreferrer" href="https://icons8.com">Icons8</a>
+      t: Emoji-pictogrammen door <a target="_blank" rel="noreferrer" href="https://icons8.com">Icons8</a>
 
     # navigation
     - key: general.table_of_contents
-      t: Table of Contents
+      t: Inhoudsopgave
     - key: general.all_questions_optional
       t: >
-          Note: all questions are optional, reaching 100% completion is not required.
+          Let op: alle vragen zijn optioneel, 100% voltooiing is niet vereist.
     - key: general.data_is_saved
-      t: Your data is saved whenever you navigate to the previous or next section.
+      t: Je gegevens worden opgeslagen wanneer je naar de vorige of volgende sectie navigeert.
 
     # thanks
     - key: general.back
-      t: Back
+      t: Terug
     - key: general.thanks
       t: >
-          Thanks for filling out the survey!
+          Bedankt voor het invullen van de enquête!
 
-          Your data is saved. You can review or modify it until the survey closes.
+          Je gegevens zijn opgeslagen. Je kunt het bekijken of wijzigen totdat de enquête wordt gesloten.
 
-          Also, you can help us get the word out by sharing this survey. Every bit counts, and it'll help make our data even
-          more representative:
+          Je kunt ons ook helpen door deze enquête te delen. Elk beetje telt, en het helpt om onze gegevens gelijk te houden
+           en ook meer representatief:
     - key: thanks.learn_more_about
-      t: 'Some of the features you might want to learn more about:'
+      t: 'Enkele van de functies waarover je wellicht meer wilt weten:'
     - key: thanks.knowledge_score
-      t: Knowledge Score
+      t: Kennis score
     - key: thanks.score_explanation
       t: >
-          You’ve heard or used <span class="score-number score-number-known">{known}</span> out of
-          <span class="score-number score-number-total">{total}</span> features mentioned in the survey, which
-          puts you in the top <span class="score-number score-number-ranking">{knowledgeRankingFromTop}%</span>
-          of all respondents.
+          Je hebt <span class="score-number score-number-known">{known}</span> uit
+           <span class="score-number score-number-total">{total}</span> functies genoemd in de enquête, dit
+           plaatst je in de top <span class="score-number score-number-ranking">{knowledgeRankingFromTop}%</span>
+           van alle respondenten.
     - key: thanks.share_on_twitter
-      t: Share on Twitter
+      t: Delen op Twitter
     - key: thanks.share_score_message
       t: >
-          I got a {score}% knowledge score on this year's #{hashtag} survey! Take the survey here: {shareUrl}
+          Ik heb een kennisscore van {score}% behaald in de #{hashtag} enquête van dit jaar! Vul de enquête hier in: {shareUrl}
     # share
     - key: general.share_subject
       t: >
-          {surveyName} survey
+          {surveyName} enquête
     - key: general.share_text
       t: >
-          This year's {surveyName} survey is now open! {link}
+          De enquête van {surveyName} van dit jaar is nu geopend! {link}
 
     # forms
     - key: forms.select_option
-      t: Select option
+      t: Selecteer optie
 
     # partners
     - key: partners.our_partners
-      t: Our Partners
+      t: Onze partners
     - key: partners.become_partner
-      t: Become a partner
+      t: Een partner worden
 
     # 404
     - key: notfound.title
-      t: 404 Not Found
+      t: 404 Niet gevonden
     - key: notfound.description
-      t: Sorry, we couldn't find what you were looking for.
+      t: Sorry, we konden niet vinden wat je zocht.
 
     # other
     - key: general.join_discord
-      t: Join us on <a href="{link}">Discord</a>.
+      t: Doe met ons mee op <a href="{link}">Discord</a>.
     - key: general.translator_mode
-      t: Press option/alt to enable translator mode.
+      t: Druk op option/alt om de vertaalmodus in te schakelen
     - key: general.charts_nivo
-      t: Charts built with <a href="{link}">Nivo</a>.
+      t: Grafieken gebouwd met <a href="{link}">Nivo</a>.
 
     ###########################################################################
     # Nav
     ###########################################################################
 
     - key: nav.surveys
-      t: Surveys
+      t: Enquêtes
     - key: nav.account
       t: Account
 
@@ -153,32 +153,32 @@ translations:
     ###########################################################################
 
     - key: sections.user_info.title
-      t: About You
+      t: Over jou
     - key: sections.user_info.description
-      t: Let's get to know the real you.
+      t: Laten we de echte jij leren kennen.
 
     - key: sections.features.title
-      t: Features
+      t: Functies
     - key: sections.features.description
-      t: Syntax, keywords, and other language features.
+      t: Syntax, trefwoorden, en andere taalfuncties.
 
     - key: sections.resources.title
-      t: Resources
+      t: Middelen
     - key: sections.resources.description
-      t: What {topic} resources do you consult?
+      t: Welke {topic} bronnen raadpleeg je?
 
     - key: sections.opinions.title
-      t: Opinions
+      t: Meningen
     - key: sections.opinions.description
-      t: How do you feel about the state of {topic}?
+      t: Wat vind je van de toestand van {topic}?
 
     - key: sections.other_tools.title
-      t: Other Tools
+      t: Andere tools
     - key: sections.other_tools.description
-      t: For these tools & technologies, just check the ones that you use regularly.
+      t: Controleer voor deze tools en technologieën degene die je regelmatig gebruikt.
 
     - key: sections.report.title
-      t: Trend Report
+      t: Trendrapport
 
     ###########################################################################
     # Options
@@ -186,125 +186,125 @@ translations:
 
     # features
     - key: options.features.never_heard
-      t: 🤷 Never heard of it/Not sure what it is
+      t: 🤷 Nooit van gehoord/Niet zeker wat het is
     - key: options.features.heard
-      t: ✅ Know what it is, but haven't used it
+      t: ✅ Weet wat het is, maar heb het niet gebruikt
     - key: options.features.used
-      t: 👍 I've used it
+      t: 👍 Ik heb het gebruikt
 
     # features (no emoji)
     - key: options.features.never_heard.label
-      t: Never heard of it/Not sure what it is
+      t: Nooit van gehoord/Niet zeker wat het is
     - key: options.features.heard.label
-      t: Know what it is, but haven't used it
+      t: Weet wat het is, maar heb het niet gebruikt
     - key: options.features.used.label
-      t: I've used it
+      t: Ik heb het gebruikt
 
     # features (short versions)
     - key: options.features.never_heard.short
-      t: Never heard of it
+      t: Nooit van gehoord
     - key: options.features.heard.short
-      t: Know about it
+      t: Weet ervan
     - key: options.features.used.short
-      t: Have used it
+      t: Heb het gebruikt
 
     # patterns
     - key: options.patterns.use_never
-      t: Almost always avoid
+      t: Vermijd bijna altijd
     - key: options.patterns.use_sparingly
-      t: Use sparingly
+      t: Spaarzaam gebruik
     - key: options.patterns.use_neutral
-      t: Neutral
+      t: Neutraal
     - key: options.patterns.use_frequently
-      t: Use frequently
+      t: Regelmatig gebruik
     - key: options.patterns.use_always
-      t: Use as much as I can
+      t: Gebruik zoveel als ik kan
 
     # tools experience
     - key: options.tools.never_heard
-      t: 🤷 Never heard of it/Not sure what it is
+      t: 🤷 Nooit van gehoord/Niet zeker wat het is
     - key: options.tools.interested
-      t: ✅ Heard of it > Would like to learn
+      t: ✅ Van gehoord > Zou graag willen leren
     - key: options.tools.not_interested
-      t: 🚫 Heard of it > Not interested
+      t: 🚫 Gehoord > Niet geïnteresseerd
     - key: options.tools.would_use
-      t: 👍 Used it > Would use again
+      t: 👍 Gebruikt > Zou opnieuw gebruiken
     - key: options.tools.would_not_use
-      t: 👎 Used it > Would not use again
+      t: 👎 Gebruikt > Zou het niet opnieuw gebruiken
 
     # tools experience (no emoji)
     - key: options.tools.never_heard.legend
-      t: Never heard of it/Not sure what it is
+      t: Nooit van gehoord/Niet zeker wat het is
     - key: options.tools.interested.legend
-      t: Heard of it > Would like to learn
+      t: Van gehoord > Zou graag willen leren
     - key: options.tools.not_interested.legend
-      t: Heard of it > Not interested
+      t: Gehoord > Niet geïnteresseerd
     - key: options.tools.would_use.legend
-      t: Used it > Would use again
+      t: Gebruikt > Zou opnieuw gebruiken
     - key: options.tools.would_not_use.legend
-      t: Used it > Would not use again
+      t: Gebruikt > Zou het niet opnieuw gebruiken
 
     # tools experience (short versions)
     - key: options.tools.never_heard.short
-      t: Never heard
+      t: Nooit gehoord
     - key: options.tools.interested.short
-      t: Interested
+      t: Geïnteresseerd
     - key: options.tools.not_interested.short
-      t: Not interested
+      t: Niet geïnteresseerd
     - key: options.tools.would_use.short
-      t: Would use again
+      t: Zou opnieuw gebruiken
     - key: options.tools.would_not_use.short
-      t: Would not use
+      t: Zou niet gebruiken
 
     # happiness
     - key: options.happiness.0
-      t: Very Unhappy
+      t: Heel ongelukkig
     - key: options.happiness.1
-      t: Unhappy
+      t: Ongelukkig
     - key: options.happiness.2
-      t: Neutral
+      t: Neutraal
     - key: options.happiness.3
-      t: Happy
+      t: Gelukkig
     - key: options.happiness.4
-      t: Very Happy
+      t: Heel gelukkig
 
     # happiness (short version)
     - key: options.happiness.0.short
-      t: Very Unhappy
+      t: Heel ongelukkig
     - key: options.happiness.1.short
-      t: Unhappy
+      t: Ongelukkig
     - key: options.happiness.2.short
-      t: Neutral
+      t: Neutraal
     - key: options.happiness.3.short
-      t: Happy
+      t: Gelukkig
     - key: options.happiness.4.short
-      t: Very Happy
+      t: Heel gelukkig
 
     # opinions
     - key: options.opinions.0
-      t: Disagree Strongly
+      t: Sterk oneens
     - key: options.opinions.1
-      t: Disagree
+      t: Oneens
     - key: options.opinions.2
-      t: Neutral
+      t: Neutraal
     - key: options.opinions.3
-      t: Agree
+      t: Eens
     - key: options.opinions.4
-      t: Agree Strongly
+      t: Sterk eens
 
     # years of experience
     - key: options.years_of_experience.range_less_than_1
-      t: Less than one year
+      t: Minder dan een jaar
     - key: options.years_of_experience.range_1_2
-      t: 1 to 2 years
+      t: 1 tot 2 jaar
     - key: options.years_of_experience.range_2_5
-      t: 2 to 5 years
+      t: 2 tot 5 jaar
     - key: options.years_of_experience.range_5_10
-      t: 5 to 10 years
+      t: 5 tot 10 jaar
     - key: options.years_of_experience.range_10_20
-      t: 10 to 20 years
+      t: 10 tot 20 jaar
     - key: options.years_of_experience.range_more_than_20
-      t: More than 20 years
+      t: Meer dan 20 jaar
 
     # years of experience (short versions)
     - key: options.years_of_experience.range_less_than_1.short
@@ -322,21 +322,21 @@ translations:
 
     # company size
     - key: options.company_size.range_1
-      t: One employee
+      t: Een werknemer
     - key: options.company_size.range_1_5
-      t: 1 to 5 employees
+      t: 1 tot 5 werknemers
     - key: options.company_size.range_5_10
-      t: 5 to 10 employees
+      t: 5 tot 10 werknemers
     - key: options.company_size.range_10_20
-      t: 10 to 20 employees
+      t: 10 tot 20 werknemers
     - key: options.company_size.range_20_50
-      t: 20 to 50 employees
+      t: 20 tot 50 werknemers
     - key: options.company_size.range_50_100
-      t: 50 to 100 employees
+      t: 50 tot 100 werknemers
     - key: options.company_size.range_100_1000
-      t: 100 to 1000 employees
+      t: 100 tot 1000 werknemers
     - key: options.company_size.range_more_than_1000
-      t: More than 1000 employees
+      t: Meer dan 1000 werknemers
 
     # company size (short versions)
     - key: options.company_size.range_1.short
@@ -358,7 +358,7 @@ translations:
 
     # salary
     - key: options.yearly_salary.range_work_for_free
-      t: I work for free
+      t: Ik werk gratis
     - key: options.yearly_salary.range_0_10
       t: $0k-$10k
     - key: options.yearly_salary.range_10_30
@@ -370,7 +370,7 @@ translations:
     - key: options.yearly_salary.range_100_200
       t: $100k-$200k
     - key: options.yearly_salary.range_more_than_200
-      t: More than $200k
+      t: Meer dan $200k
 
     # salary (short versions)
     - key: options.yearly_salary.range_work_for_free.short
@@ -410,83 +410,83 @@ translations:
 
     # JavaScript proficiency
     - key: options.javascript_proficiency.0
-      t: Not able to write any JavaScript
+      t: Kan geen JavaScript schrijven
     - key: options.javascript_proficiency.1
-      t: Writing short, simple JavaScript or jQuery statements
+      t: Korte, eenvoudige JavaScript- of jQuery-statements schrijven
     - key: options.javascript_proficiency.2
-      t: Working on existing front-end codebases using modern frameworks (React, Vue, etc.)
+      t: Werken aan bestaande front-end codebases met behulp van moderne frameworks (React, Vue, etc.)
     - key: options.javascript_proficiency.3
-      t: Architecturing entire front-end codebases from scratch
+      t: Het ontwerpen van complete front-end codebases vanaf nul
     - key: options.javascript_proficiency.4
-      t: Handling advanced front-end patterns (state management, data loading, etc.)
+      t: Omgaan met geavanceerde front-end-patronen (statusbeheer, laden van gegevens, enz.)
 
     # CSS proficiency
     - key: options.css_proficiency.0
-      t: Virtually no knowledge of CSS
+      t: Vrijwel geen kennis van CSS
     - key: options.css_proficiency.1
-      t: Using CSS frameworks and tweaking existing styles
+      t: CSS-frameworks gebruiken en bestaande stijlen aanpassen
     - key: options.css_proficiency.2
-      t: Knowing specificity rules, being able to create layouts
+      t: Specifieke regels kennen, lay-outs kunnen maken
     - key: options.css_proficiency.3
-      t: Mastering animations, interactions, transitions, etc.
+      t: Beheersing van animaties, interacties, overgangen, etc.
     - key: options.css_proficiency.4
-      t: Able to style an entire front-end from scratch following a consistent methodology
+      t: In staat om een volledige front-end helemaal opnieuw te stylen volgens een consistente methodologie
 
     # Back-end proficiency
     - key: options.backend_proficiency.0
-      t: Not able to handle any back-end work
+      t: Kan geen back-end werk aan
     - key: options.backend_proficiency.1
-      t: Able to set up all-in-one CMSs (WordPress, etc.) or static site generators (Jekyll, etc.)
+      t: In staat om alles-in-één CMS'en (WordPress, etc.) of statische sitegeneratoren (Jekyll, etc.) op te zetten
     - key: options.backend_proficiency.2
-      t: Able to develop apps using pre-existing frameworks (Rails, Laravel, etc.)
+      t: In staat om apps te ontwikkelen met behulp van reeds bestaande frameworks (Rails, Laravel, etc.)
     - key: options.backend_proficiency.3
-      t: Setting up an entire back-end from scratch (Go, Node.js, etc.)
+      t: Een volledige back-end vanaf nul opzetten (Go, Node.js, etc.)
     - key: options.backend_proficiency.4
-      t: Able to handle complex multi-server or microservices architectures
+      t: In staat om complexe multi-server of microservices architecturen te verwerken
 
     # Proficiency (generic versions)
     - key: options.proficiency.0
-      t: None
+      t: Geen
     - key: options.proficiency.1
       t: Beginner
     - key: options.proficiency.2
-      t: Intermediate
+      t: Gemiddeld
     - key: options.proficiency.3
-      t: Advanced
+      t: Geavanceerd
     - key: options.proficiency.4
       t: Expert
 
     # Gender
 
     - key: options.gender.female
-      t: Female
+      t: Vrouw
     - key: options.gender.male
-      t: Male
+      t: Man
     - key: options.gender.non_binary
-      t: Non-Binary/Third Gender
+      t: Niet-binair/Derde geslacht
     - key: options.gender.prefer_not_to_say
-      t: Prefer not to say
+      t: Zeg ik liever niet
 
     # Race & Ethnicity
 
     - key: options.race_ethnicity.white_european
-      t: White or of European descent
+      t: Wit of van Europese afkomst
     - key: options.race_ethnicity.south_asian
-      t: South Asian
+      t: Zuid-Aziatisch
     - key: options.race_ethnicity.hispanic_latin
-      t: Hispanic or Latino/Latina
+      t: Hispanic of Latino/Latina
     - key: options.race_ethnicity.east_asian
-      t: East Asian
+      t: Oost-Aziatisch
     - key: options.race_ethnicity.middle_eastern
-      t: Middle Eastern
+      t: Midden Oosten
     - key: options.race_ethnicity.black_african
-      t: Black or of African descent
+      t: Zwart of van Afrikaanse afkomst
     - key: options.race_ethnicity.multiracial
-      t: Multiracial
+      t: Multiraciaal
     - key: options.race_ethnicity.biracial
       t: Biracial
     - key: options.race_ethnicity.native_american_islander_australian
-      t: Native American, Pacific Islander, or Indigenous Australian
+      t: Native American, Pacific Islander of Indigenous Australian
 
     # Form Factors
     - key: options.form_factors.desktop
@@ -494,7 +494,7 @@ translations:
     - key: options.form_factors.smartphone
       t: Smartphone
     - key: options.form_factors.feature_phone
-      t: Feature phone
+      t: Feature telefoon
     - key: options.form_factors.tablet
       t: Tablet
     - key: options.form_factors.smart_watch
@@ -502,78 +502,78 @@ translations:
     - key: options.form_factors.tv
       t: TV
     - key: options.form_factors.gaming_console
-      t: Gaming console
+      t: Spelcomputer
     - key: options.form_factors.screen_reader
-      t: Screen reader
+      t: Schermlezer
     - key: options.form_factors.print
       t: Print
 
     # Industry Sector
     - key: options.industry_sector.ecommerce
-      t: Ecommerce & Retail
+      t: E-commerce en detailhandel
     - key: options.industry_sector.news_media
-      t: News, Media, & Blogging
+      t: Nieuws, media en bloggen
     - key: options.industry_sector.healthcare
-      t: Healthcare
+      t: Gezondheidszorg
     - key: options.industry_sector.finance
-      t: Finance
+      t: Financiën
     - key: options.industry_sector.programming_tools
-      t: Programming & Technical Tools
+      t: Programmering en technische hulpmiddelen
     - key: options.industry_sector.socialmedia
-      t: Social Media
+      t: Sociale media
     - key: options.industry_sector.marketing_tools
-      t: Marketing/Sales/Analytics Tools
+      t: Marketing/Verkoop/Analysehulpmiddelen
     - key: options.industry_sector.education
-      t: Education
+      t: Educatie
     - key: options.industry_sector.real_estate
-      t: Real Estate
+      t: Vastgoed
     - key: options.industry_sector.government
-      t: Government
+      t: Regering
     - key: options.industry_sector.entertainment
       t: Entertainment
     - key: options.industry_sector.consulting
-      t: Consulting & Services
+      t: Consulting & adviesdiensten
     - key: options.industry_sector.travel
-      t: Travel
+      t: Reizen
     - key: options.industry_sector.insurance
-      t: Insurance
+      t: Verzekering
     - key: options.industry_sector.logistics
-      t: Logistics
+      t: Logistiek
     - key: options.industry_sector.energy
-      t: Energy
+      t: Energie
     - key: options.industry_sector.telecommunications
-      t: Telecommunications
+      t: Telecommunicatie
     - key: options.industry_sector.student
       t: Student
     - key: options.industry_sector.hospitality
-      t: Hospitality
+      t: Horeca
     - key: options.industry_sector.cyber_security
-      t: Cyber Security
+      t: Cyberbeveiliging
     - key: options.industry_sector.construction
-      t: Construction
+      t: Bouw
     - key: options.industry_sector.automotive
       t: Automotive
     - key: options.industry_sector.agriculture
-      t: Agriculture
+      t: Landbouw
     - key: options.industry_sector.transport
       t: Transport
     - key: options.industry_sector.manufacturing
-      t: Manufacturing
+      t: Productie
 
     ###########################################################################
     # Tools
     ###########################################################################
 
     - key: tools.other_tools
-      t: Other Options
+      t: Andere opties
     - key: tools.other_tools.description
-      t: Other options you use for the current section not mentioned in the list above
+      t: Andere opties die je gebruikt voor de huidige sectie die niet in de bovenstaande lijst worden vermeld
     - key: tools.happiness
-      t: Overall Happiness
+      t: Algeheel geluk
     - key: tools.happiness.description
       t: >
-          On a scale of one (very unhappy) to five (very happy), how happy are
-          you with the current overall state of things as it relates to the options listed above?
+          Op een schaal van één (zeer ongelukkig) tot vijf (zeer tevreden), hoe tevreden ben
+          je met de huidige algemene stand van zaken met betrekking tot de hierboven genoemde opties?
 
     ###########################################################################
     # Demographics (About You/User Info)
@@ -581,75 +581,75 @@ translations:
 
     # years of experience
     - key: user_info.years_of_experience
-      t: Years of Experience
+      t: Jarenlange ervaring
     - key: user_info.years_of_experience.description
-      t: How long you've been working or studying in this field.
+      t: Hoe lang werk of studeer je al op dit gebied?
 
     # company size
     - key: user_info.company_size
-      t: Company Size
+      t: Bedrijfsomvang
     - key: user_info.company_size.description
-      t: How big your company is.
+      t: Hoe groot je bedrijf is.
 
     # salary ranges
     - key: user_info.yearly_salary
-      t: Yearly Salary
+      t: Jaarlijks salaris
     - key: user_info.yearly_salary.description
       t: In USD.
 
     # job title
     - key: user_info.job_title
-      t: Job Title
+      t: Functietitel
     - key: user_info.job_title.description
-      t: How do you introduce yourself at parties?
+      t: Hoe stel je jezelf voor op feestjes?
 
     # javascript proficiency
     - key: user_info.javascript_proficiency
-      t: JavaScript Proficiency
+      t: JavaScript-vaardigheid
     - key: user_info.javascript_proficiency.description
-      t: How proficient are you at JavaScript?
+      t: Hoe bedreven ben jij in JavaScript?
 
     # css proficiency
     - key: user_info.css_proficiency
-      t: CSS Proficiency
+      t: CSS-vaardigheid
     - key: user_info.css_proficiency.description
-      t: How proficient are you at CSS?
+      t: Hoe bekwaam ben jij in CSS?
 
     # backend proficiency
     - key: user_info.backend_proficiency
-      t: Back-end Proficiency
+      t: Back-end-vaardigheid
     - key: user_info.backend_proficiency.description
-      t: How proficient are you at back-end development?
+      t: Hoe bekwaam ben je in back-end ontwikkeling?
 
     # gender
     - key: user_info.gender
-      t: Gender
+      t: Geslacht
 
     # skin tone/appearance
     - key: user_info.race_ethnicity
-      t: Race & Ethnicity
+      t: Ras en etniciteit
 
     # other info
     - key: user_info.how_did_user_find_out_about_the_survey
-      t: How did you find out about this survey?
+      t: Hoe heb je deze enquête ontdekt?
     - key: user_info.email
-      t: Your Email
+      t: Jouw email
     - key: user_info.country
-      t: Your Country or Region
+      t: Jouw land of regio
     - key: user_info.github_username
-      t: Your GitHub Username
+      t: Jouw GitHub-gebruikersnaam
     - key: user_info.github_username.description
       t: >
-          We might use GitHub usernames in the future to look at
-          repos and cross-reference publicly available information.
+          We zouden in de toekomst GitHub-gebruikersnamen kunnen gebruiken om naar
+          repos te kijken en om naar openbaar beschikbare informatie te verwijzen.
     - key: user_info.industry_sector
-      t: Industry Sector
+      t: Industriële sector
     - key: user_info.industry_sector.description
-      t: Which industry sector(s) do you work in?
+      t: In welke branche(s) werk je?
     - key: user_info.industry_sector.others
-      t: Other Industry Sectors
+      t: Andere industriële sectoren
     - key: user_info.industry_sector.others.description
-      t: Other industry sector(s) you work in not mentioned above.
+      t: Andere branche(s) waarin je werkt, niet hierboven vermeld.
 
     ###########################################################################
     # Other Tools
@@ -658,56 +658,56 @@ translations:
     - key: tools_others.libraries
       t: Libraries
     - key: tools_others.libraries.description
-      t: Which libraries do you regularly use?
+      t: Welke libraries gebruikt u regelmatig?
     - key: tools_others.libraries.others
-      t: Other Libraries
+      t: Andere libraries
     - key: tools_others.libraries.others.description
-      t: Other answers (freeform field).
+      t: Andere antwoorden (veld met vrije vorm).
 
     - key: tools_others.text_editors
-      t: Text Editors
+      t: Teksteditors
     - key: tools_others.text_editors.description
-      t: Which text editor(s) do you regularly use?
+      t: Welke teksteditor(en) gebruik je regelmatig?
     - key: tools_others.text_editors.others
-      t: Other Text Editors
+      t: Andere teksteditors
     - key: tools_others.text_editors.others.description
-      t: Other answers (freeform field).
+      t: Andere antwoorden (veld met vrije vorm).
 
     - key: tools_others.utilities
       t: Utilities
     - key: tools_others.utilities.description
-      t: Which utilities or tools do you regularly use?
+      t: Welke utilities of tools gebruik jeregelmatig?
     - key: tools_others.utilities.others
-      t: Other Utilities
+      t: Andere utilities
     - key: tools_others.utilities.others.description
-      t: Other utilities (freeform field).
+      t: Andere antwoorden (veld met vrije vorm).
 
     - key: tools_others.browsers
       t: Browsers
     - key: tools_others.browsers.description
-      t: Which browser(s) do you primarily work in during initial development?
+      t: In welke browser(s) werk je voornamelijk tijdens het ontwikkelen?
     - key: tools_others.browsers.others
-      t: Other Browsers
+      t: Andere browsers
     - key: tools_others.browsers.others.description
-      t: Other answers (freeform field).
+      t: Andere antwoorden (veld met vrije vorm).
 
     - key: tools_others.build_tools
-      t: Build Tools
+      t: Build tools
     - key: tools_others.build_tools.description
-      t: Which build tools do you use?
+      t: Welke buildtools gebruik je?
     - key: tools_others.build_tools.others
-      t: Other Build Tools
+      t: Andere buildtools
     - key: tools_others.build_tools.others.description
-      t: Other answers (freeform field).
+      t: Andere antwoorden (veld met vrije vorm).
 
     - key: tools_others.non_js_languages
-      t: Non-JavaScript Languages
+      t: Niet-JavaScript-talen
     - key: tools_others.non_js_languages.description
-      t: Which other programming languages do you use?
+      t: Welke andere programmeertalen gebruik je?
     - key: tools_others.non_js_languages.others
-      t: Other Languages
+      t: Andere talen
     - key: tools_others.non_js_languages.others.description
-      t: Other answers (freeform field).
+      t: Andere antwoorden (veld met vrije vorm).
 
     ###########################################################################
     # Resources
@@ -715,30 +715,30 @@ translations:
 
     # blogs & magazines
     - key: resources.blogs_news_magazines
-      t: Blogs & Magazines
+      t: Blogs en tijdschriften
     - key: resources.blogs_news_magazines.description
-      t: Which blogs/magazines/etc. do you read?
+      t: Welke blogs/tijdschriften/etc. lees jij?
     - key: resources.blogs_news_magazines.others
-      t: Other Blogs & Magazines
+      t: Andere blogs en tijdschriften
     - key: resources.blogs_news_magazines.others.description
-      t: Other answers (freeform field).
+      t: Andere antwoorden (veld met vrije vorm).
 
     # sites & courses
     - key: resources.sites_courses
-      t: Sites & Courses
+      t: Sites en cursussen
     - key: resources.sites_courses.description
-      t: Which sites/courses/etc. do you consult?
+      t: Welke sites/cursussen/enz. raadpleeg jij?
     - key: resources.sites_courses.others
-      t: Other Sites & Courses
+      t: Andere sites en cursussen
     - key: resources.sites_courses.others.description
-      t: Other answers (freeform field).
+      t: Andere antwoorden (veld met vrije vorm).
 
     # podcasts
     - key: resources.podcasts
       t: Podcasts
     - key: resources.podcasts.description
-      t: Which programming-related podcasts do you listen to?
+      t: Naar welke programmeergerelateerde podcasts luister je?
     - key: resources.podcasts.others
-      t: Other Podcasts
+      t: Andere podcasts
     - key: resources.podcasts.others.description
-      t: Other answers (freeform field).
+      t: Andere antwoorden (veld met vrije vorm).
