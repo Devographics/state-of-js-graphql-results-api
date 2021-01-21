@@ -5,188 +5,187 @@ translations:
     ###########################################################################
 
     - key: results.start
-      t: Start
+      t: Begin
 
     - key: page.previous
-      t: 'Previous:'
+      t: 'Vorige:'
     - key: page.next
-      t: 'Next:'
+      t: 'Volgende:'
 
     - key: general.state_of_css_link
       t: State of CSS
 
     - key: general.netlify_link
-      t: Hosted by <a href="{link}">Netlify</a>.
+      t: Gepresenteerd door <a href="{link}">Netlify</a>.
 
     - key: general.completion_percentage
-      t: 'Completion percentage:'
+      t: 'Voltooiingspercentage:'
 
     - key: partners.thanks
-      t: Thanks to our partners for supporting us!
+      t: Dank aan onze partners voor hun steun!
 
     - key: partners.learn_more
-      t: Learn more.
+      t: Leer meer.
 
     ###########################################################################
     # Options
     ###########################################################################
 
     - key: options.experience_ranking.satisfaction
-      t: Satisfaction
+      t: Tevredenheid
     - key: options.experience_ranking.interest
-      t: Interest
+      t: Interesseren
     - key: options.experience_ranking.usage
-      t: Usage
+      t: Gebruik
     - key: options.experience_ranking.awareness
-      t: Awareness
+      t: Bewustzijn
 
     - key: options.features_simplified.know_it
-      t: Know about it
+      t: Weet ervan
     - key: options.features_simplified.used_it
-      t: Have used it
+      t: Heb het gebruikt
     - key: options.features_simplified.usage_ratio
-      t: Usage ratio
+      t: Gebruiksverhouding
 
     - key: options.quadrant.assess
-      t: ASSESS
+      t: BEOORDELEN
     - key: options.quadrant.assess.long
       t: |
-          ASSESS: Low usage, high satisfaction. Technologies worth keeping an eye on.
+          BEOORDELEN: Laag gebruik, hoge tevredenheid. Technologieën die de moeite waard zijn om in de gaten te houden.
     - key: options.quadrant.adopt
-      t: ADOPT
+      t: ADOPTEREN
     - key: options.quadrant.adopt.long
       t: |
-          ADOPT: High usage, high satisfaction. Safe technologies to adopt.
+          ADOPTEREN: Hoog gebruik, hoge tevredenheid. Veilige technologieën om toe te passen.
     - key: options.quadrant.avoid
-      t: AVOID
+      t: VERMIJDEN
     - key: options.quadrant.avoid.long
       t: |
-          AVOID: Low usage, low satisfaction. Technologies probably best avoided currently.
+          VERMIJDEN: Laag gebruik, lage tevredenheid. Technologieën die momenteel waarschijnlijk het beste worden vermeden.
     - key: options.quadrant.analyze
-      t: ANALYZE
+      t: ANALYSEREN
     - key: options.quadrant.analyze.long
       t: |
-          ANALYZE: High usage, low satisfaction. Reassess these technologies if you're currently using them.
+          ANALYSEREN: Hoog gebruik, lage tevredenheid. Beoordeel deze technologieën opnieuw als je ze momenteel gebruikt.
 
     - key: ranges.selector.years_of_experience
-      t: Experience
+      t: Ervaring
     - key: ranges.selector.yearly_salary
-      t: Salary
+      t: Salaris
     - key: ranges.selector.company_size
-      t: Company Size
+      t: Bedrijfsomvang
 
     ###########################################################################
     # Sections
     ###########################################################################
 
     - key: sections.introduction.title
-      t: Introduction
+      t: Introductie
 
     - key: sections.demographics.title
-      t: Demographics
+      t: Demografie
 
     - key: sections.tshirt.title
       t: T-shirt
 
     - key: sections.technologies.title
-      t: Technologies
+      t: Technologieën
 
     - key: sections.conclusion.title
-      t: Conclusion
+      t: Conclusie
 
     - key: sections.support.title
-      t: Support Us
+      t: Steun ons
     - key: sections.support.description
       t: >
-          We run this survey as a side project, but in order to make the
-          project sustainable we’re always looking for partners who can help support us,
-          either financially or by helping us spread the word.
-          If you think you could help in any way, please don’t hesitate to [get in touch](mailto:hello@stateofjs.com)!
+          We voeren deze enquête uit als een bijproject, maar om het project duurzaam
+          te maken, zijn we altijd op zoek naar partners die ons kunnen helpen,
+          financieel of door ons te helpen het woord te verspreiden.
+          Als je denkt dat je op wat voor manier dan ook kunt helpen,
+          aarzel dan niet om [contact op te nemen](mailto:hello@stateofjs.com)!
 
     - key: sections.awards.title
-      t: Awards
+      t: Onderscheidingen
     - key: sections.awards.description
-      t: Things that stood out this year.
+      t: Dingen die dit jaar opvielen.
 
     ###########################################################################
     # User Info
     ###########################################################################
 
     - key: user_info.locale
-      t: Language
+      t: Taal
     - key: user_info.locale.description
-      t: What language did respondents select to fill out the survey?
+      t: Welke taal hebben de respondenten gekozen om de enquête in te vullen?
 
     - key: user_info.source
-      t: Source
+      t: Bron
     - key: user_info.source.description
-      t: How did respondents find out about the survey?
+      t: Hoe kwamen de respondenten achter de enquête?
 
     ###########################################################################
     # Locales
     ###########################################################################
 
     - key: options.locale.en-US
-      t: English
+      t: Engels
     - key: options.locale.ca-ES
-      t: Catalan
+      t: Catalaans
     - key: options.locale.es-ES
-      t: Spanish
+      t: Spaans
     - key: options.locale.ru-RU
-      t: Russian
+      t: Russisch
     - key: options.locale.ua-UA
-      t: Ukrainian
+      t: Oekraïens
     - key: options.locale.fr-FR
-      t: French
+      t: Frans
     - key: options.locale.zh-Hant
-      t: Chinese (Traditional)
+      t: Chinese (Traditioneel)
     - key: options.locale.de-DE
-      t: German
+      t: Duits
     - key: options.locale.cs-CZ
-      t: Czech
+      t: Tsjechisch
     - key: options.locale.pt-PT
-      t: Portuguese
+      t: Portugees
     - key: options.locale.it-IT
-      t: Italian
+      t: Italiaans
     - key: options.locale.sv-SE
-      t: Swedish
+      t: Zweeds
     - key: options.locale.tr-TR
-      t: Turkish
+      t: Turks
     - key: options.locale.id-ID
-      t: Indonesian
+      t: Indonesisch
     - key: options.locale.hi-IN
       t: Hindi
     - key: options.locale.zh-Hans
-      t: Chinese (Simplified)
+      t: Chinees (Versimpeld)
     - key: options.locale.ja-JP
-      t: Japanese
-    - key: options.locale.ua-UA
-      t: Ukrainian
+      t: Japans
     - key: options.locale.pl-PL
-      t: Polish
+      t: Pools
     - key: options.locale.fa-IR
       t: Farsi
     - key: options.locale.nl-NL
-      t: Dutch
+      t: Nederlands
 
     ###########################################################################
     # Features
     ###########################################################################
 
     - key: features.learn_more
-      t: Learn More (MDN)
+      t: Meer informatie (MDN)
     - key: features.mdn_link
       t: MDN
     - key: features.caniuse_link
       t: CanIUse
     - key: features.specification_link
-      t: W3C Specification
+      t: W3C-specificatie
 
     # knowledge score
     - key: features.knowledge_score
-      t: Knowledge Score
+      t: Kennis score
     - key: features.knowledge_score.description
-      t: Out of all the features mentioned in the survey, how many did the respondent know about?
+      t: Van alle kenmerken die in de enquête worden genoemd, van hoeveel wist de respondent?
 
     ###########################################################################
     # Tools & Methodologies
@@ -198,9 +197,9 @@ translations:
     - key: tools.github_link
       t: GitHub
     - key: tools.github_stars
-      t: stars
+      t: sterren
     - key: tools.homepage_link
-      t: Homepage
+      t: Startpagina
     - key: tools.npm_link
       t: NPM
 
@@ -210,336 +209,339 @@ translations:
 
     # heatmaps
     - key: blocks.tools_company_size_heatmap.title
-      t: Usage by Company Size
+      t: Gebruik per bedrijfsgrootte
     - key: blocks.tools_company_size_heatmap.description
       t: |
-          For each technology, how usage is spread among respondents
-          who picked different company size ranges.
+          Voor elke technologie, hoe het gebruik wordt verdeeld onder respondenten
+          die verschillende bedrijfsgroottes hebben gekozen.
 
     - key: blocks.tools_yearly_salary_heatmap.title
-      t: Usage by Salary Range
+      t: Gebruik per salaris schaal
     - key: blocks.tools_yearly_salary_heatmap.description
       t: |
-          For each technology, how usage is spread among respondents
-          who picked different salary ranges.
+          Hoe het gebruik voor elke technologie wordt verdeeld over respondenten
+          die verschillende salarisschalen hebben gekozen.
 
     - key: blocks.tools_years_of_experience_heatmap.title
-      t: Usage by Years Of Experience
+      t: Gebruik per jarenlange ervaring
     - key: blocks.tools_years_of_experience_heatmap.description
       t: |
-          For each technology, how usage is spread among respondents who picked different experience ranges.
-          Note that the experience in question here is general experience, not experience with a specific technology.
+          Hoe het gebruik voor elke technologie wordt verdeeld onder respondenten
+          die verschillende ervaringsbereiken hebben gekozen. Merk op dat de
+          ervaring in kwestie hier algemene ervaring is, niet ervaring met een specifieke technologie.
 
     # tool
     - key: blocks.entity.homepage_link
-      t: Homepage
+      t: Startpagina
     - key: blocks.entity.github_link
       t: GitHub
 
     # cardinality
     - key: blocks.all_sections_tools_cardinality_by_user.title
-      t: Technology Usage Cardinality
+      t: Technologie gebruik kardinaliteit
     - key: blocks.all_sections_tools_cardinality_by_user.description
-      t: For each section, which percentage of respondents use (defined as having answered “would use again”) one, two, three, etc. technologies.
+      t: Welk percentage van de respondenten gebruikt voor elke sectie (gedefinieerd als “zou opnieuw gebruiken”) één, twee, drie, enz. technologieën.
 
     - key: blocks.front_end_frameworks_tools_cardinality_by_user.title
-      t: Technology Usage Cardinality
+      t: Technologie gebruik kardinaliteit
     - key: blocks.front_end_frameworks_tools_cardinality_by_user.description
-      t: Which percentage of respondents use (defined as having answered “would use again”) one, two, three, etc. items in this section.
+      t: Welk percentage van de respondenten gebruikt (gedefinieerd als “zou opnieuw gebruiken”) één, twee, drie, etc. items in deze sectie.
 
     # tools arrows
     - key: blocks.tools_arrows.title
-      t: Changes Over Time
+      t: Veranderingen in de tijd
     - key: blocks.tools_arrows.description
       t: |
-          Each line goes from 2016 to 2020. A higher point means a technology has been used by more people,
-          and a point further to the right means more users want to learn it; or have used it and would use it again.
+          Elke regel loopt van 2016 tot 2020. Een hoger punt betekent dat een technologie door meer mensen
+          is gebruikt, en een punt verder naar rechts betekent dat meer gebruikers het willen leren;
+          of hebben het gebruikt en zouden het opnieuw gebruiken.
     - key: blocks.tools_arrows.note
       t: |
-          - Some lines skip years.
-          - Technologies with only one year of data are not shown.
+          - Sommige regels slaan jaren over.
+          - Technologieën met slechts één jaar aan gegevens worden niet weergegeven.
 
     # tools quadrant
     - key: blocks.tools_quadrant.title
-      t: Satisfaction vs Usage
+      t: Tevredenheid versus gebruik
     - key: blocks.tools_quadrant.description
       t: |
-          This chart shows each technology’s **satisfaction ratio** over its total **user count**.
-          It can be divided into four quadrants:
+          Dit diagram toont de **tevredenheidsratio** van elke technologie over het totale **aantal gebruikers**.
+          Het kan worden onderverdeeld in vier kwadranten:
 
-            - **ASSESS**: Low usage, high satisfaction. Technologies worth keeping an eye on.
+            - **BEOORDELEN**: Laag gebruik, hoge tevredenheid. Technologieën die de moeite waard zijn om in de gaten te houden.
 
-            - **ADOPT**: High usage, high satisfaction. Safe technologies to adopt.
+            - **ADOPTEREN**: Hoog gebruik, hoge tevredenheid. Veilige technologieën om toe te passen.
 
-            - **AVOID**: Low usage, low satisfaction. Technologies probably best avoided currently.
+            - **VERMIJDEN**: Laag gebruik, lage tevredenheid. Technologieën die momenteel waarschijnlijk het beste worden vermeden.
 
-            - **ANALYZE**: High usage, low satisfaction. Reassess these technologies if you're currently using them.
+            - **ANALYSEREN**: Hoog gebruik, lage tevredenheid. Beoordeel deze technologieën opnieuw als je ze momenteel gebruikt.
+
     - key: blocks.tools_quadrant.note
-      t: Note that TypeScript appears twice in the chart because it's included in both the JavaScript Flavors and Build Tools sections.
+      t: Merk op dat TypeScript twee keer in de grafiek voorkomt omdat het is opgenomen in zowel de JavaScript-smaken als de Buildtools-secties.
 
     - key: blocks.tools_quadrant.interest.description
       t: |
-          This chart shows each technology’s **interest ratio** over its total **user count** (as defined by respondents who are aware of a technology but *haven't* used it yet).
+          Deze grafiek toont de **interesse verhouding** van elke technologie over het totale **aantal gebruikers** (zoals gedefinieerd door respondenten die op de hoogte zijn van een technologie maar deze nog *niet* hebben gebruikt).
 
-          (Note that low user numbers can be due to either an unknown technology; or a technology with a lot of respondents already using it.)
+          (Merk op dat lage gebruikersaantallen te wijten kunnen zijn aan een onbekende technologie of aan een technologie waarvan veel respondenten deze al gebruiken.)
 
     # category other tools
     - key: blocks.category_other_tools.title
       t: Other Tools
     - key: blocks.category_other_tools.description
-      t: Other tools in this category (freeform answers).
+      t: Andere tools in deze categorie (antwoorden met vrije vorm).
 
     # tool experience
     - key: blocks.tool_experience.title
-      t: '{name} Experience'
+      t: '{name} ervaring'
     - key: blocks.tool_experience.description
-      t: Respondent's experience with {name}.
+      t: Ervaring van respondent met {name}.
 
     # tool positive/negative split ("marimekko" chart)
     - key: blocks.tools_experience_marimekko.title
-      t: Positive/Negative Split
+      t: Positieve/Negatieve splitsing
     - key: blocks.tools_experience_marimekko.description
       t: |
-          This chart splits positive (“want to learn”, ”would use again”) vs
-          negative (“not interested”, “would not use again”) experiences on
-          both sides of a central axis.
+          Deze grafiek verdeelt positieve (“wil leren”, “zou opnieuw gebruiken”) versus
+          negatieve (“niet geïnteresseerd”, “zou niet opnieuw gebruiken”) ervaringen aan
+          beide zijden van een centrale as.
 
-          Bar thickness represents the number of respondents aware of a technology.
+          De staafdikte vertegenwoordigt het aantal respondenten dat op de hoogte is van een technologie.
 
     # tools section streams
     - key: blocks.tools_section_streams.title
-      t: Experience Over Time
+      t: Ervaring in de loop van de tijd
     - key: blocks.tools_section_streams.description
       t: |
-          Overview of opinions on the technologies surveyed over time.
+          Overzicht van meningen over de onderzochte technologieën in de loop van de tijd.
     - key: blocks.tools_section_streams.note
       t: |
-          Technologies with only one year of data are not included.
+          Technologieën met slechts één jaar aan gegevens zijn niet inbegrepen.
 
     # tools section overview
     - key: blocks.tools_section_overview.title
-      t: Category Overview
+      t: Categorieoverzicht
     - key: blocks.tools_section_overview.description
       t: |
-          Overview of opinions on the technologies surveyed. Darker segments represent positive opinions,
-          while lighter segments correspond to negative sentiment.
+          Overzicht van meningen over de onderzochte technologieën. Donkere segmenten vertegenwoordigen positieve meningen,
+          terwijl lichtere segmenten overeenkomen met een negatief sentiment.
 
     # tools experience ranking
     - key: blocks.tools_experience_ranking.title
       t: Rankings
     - key: blocks.tools_experience_ranking.description
-      t: Satisfaction, interest, usage, and awareness ratio rankings.
+      t: Ranglijsten van tevredenheid, interesse, gebruik en bewustzijn.
     - key: blocks.tools_experience_ranking.note
       t: |
-          Technologies with less than 10% awareness not included. Each ratio is defined as follows:
+          Technologieën met minder dan 10% bekendheid niet inbegrepen. Elke verhouding wordt als volgt gedefinieerd:
 
-          - Satisfaction: **would use again** / (**would use again** + **would not use again**)
-          - Interest: **want to learn** / (**want to learn** + **not interested**)
-          - Usage: (**would use again** + **would not use again**) / **total**
-          - Awareness: (**total** - **never heard**) / **total**
+          - Tevredenheid: **zou opnieuw** / (**zou opnieuw gebruiken** + **zou niet opnieuw gebruiken**)
+          - Interesse: **wil leren** / (**wil leren** + **niet geïnteresseerd**)
+          - Gebruik: (**zou opnieuw** + **niet opnieuw gebruiken**) / **totaal**
+          - Bewustzijn: (**totaal** - **nooit gehoord**) / **totaal**
 
     # happiness
     - key: blocks.happiness.title
       t: Overall Happiness
     - key: blocks.happiness.description
       t: |
-          On a scale of one (very unhappy) to five (very happy), how happy are developers
-          with the current overall state of this category?
+          Op een schaal van één (erg ongelukkig) tot vijf (erg blij),
+          hoe blij zijn ontwikkelaars met de huidige algemene toestand van deze categorie?
 
     # newsletter
     - key: blocks.newsletter.title
-      t: Stay Tuned
+      t: Blijf op de hoogte
     - key: blocks.newsletter.description
       t: |
-          If you'd like to know when we release additional results or announce next year's edition,
-          just leave us your email below:
+          Als je wilt weten wanneer we aanvullende resultaten publiceren of de editie van volgend jaar aankondigen,
+          kun je hieronder je email achterlaten:
     - key: blocks.newsletter.email
-      t: Your Email
+      t: Jouw email
     - key: blocks.newsletter.submit
-      t: Notify Me
+      t: Hou mij op de hoogte
 
     # features_overview
     - key: blocks.features_overview.title
-      t: Usage Overview
+      t: Gebruiksoverzicht
     - key: blocks.features_overview.description
       t: |
-          This chart presents the various adoption rates for all features, grouped by category.
+          Deze grafiek toont de verschillende acceptatiegraad voor alle functies, gegroepeerd per categorie.
 
-          The size of the <span class="text-teal-darker text-bold">outer circle</span>
-          corresponds to the total number of users who know about a feature, while
-          the <span class="text-teal text-bold">inner one</span> represents those who have actually used it.
+          De grootte van de <span class="text-teal-darker text-bold">buitenste cirkel</span>
+          komt overeen met het totale aantal gebruikers dat op de hoogte is van een functie, terwijl
+          de <span class="text-teal text-bold">binnenste</span> degenen vertegenwoordigt die het daadwerkelijk hebben gebruikt.
 
-          Hover on each node to view detailed data along with an <span class="text-blackpink text-bold">overlay</span>
-          representing the total number of survey respondents.
+          Plaats de muisaanwijzer op elk punt om gedetailleerde gegevens te bekijken, samen met een <span class="text-blackpink text-bold">overlay</span>
+          die het totale aantal enquêterespondenten vertegenwoordigt.
 
     # export
     - key: export.export
-      t: Export
+      t: Exporteren
     - key: export.title
-      t: Export data for {title}
+      t: Exporteer gegevens voor {title}
     - key: export.nocsv
-      t: Sorry, CSV export is not available for this dataset.
+      t: Sorry, CSV-export is niet beschikbaar voor deze dataset.
     - key: export.graphql
       t: >
-          You can copy paste this query into our <a target="_blank" rel="nofollow" href="http://graphiql.stateofjs.com/">public GraphQL API</a>.
+          Je kunt deze zoekopdracht kopiëren en plakken in onze <a target="_blank" rel="nofollow" href="http://graphiql.stateofjs.com/">openbare GraphQL API</a>.
 
     # Tools usage variations
     - key: blocks.tools_usage_variations.title
-      t: Usage Variations
+      t: Gebruiksvariaties
     - key: blocks.tools_usage_variations.description
       t: |
-          How different factors such as salary range, years of experience
-          or company size influence usage (participants who answered either
-          ”would use again” or “would not use again”).
+          Hoe verschillende factoren zoals salarisschaal, jarenlange ervaring
+          of bedrijfsgrootte beïnvloeden het gebruik (deelnemers die een van beide hebben geantwoord
+          "Zou opnieuw gebruiken" of "zou niet opnieuw gebruiken").
 
-          The baseline represents the base usage for each tool and the offsets
-          correspond to the delta from this baseline in each range. Let's say
-          tool X has an overall usage of 10% across all respondents (the baseline),
-          then if the percentage of users having from 1 to 2 years of experience
-          using this tool is 13% (compared to all users having from 1 to 2 years
-          of experience), then we have a positive delta of +3%.
+          De basislijn vertegenwoordigt het basisgebruik voor elk gereedschap en de offsets
+          komen overeen met de delta vanaf deze basislijn in elk bereik. Laten we zeggen
+          tool X heeft een algemeen gebruik van 10% onder alle respondenten (de baseline),
+          dan als het percentage gebruikers met 1 tot 2 jaar ervaring
+          het gebruik van deze tool is 13% (vergeleken met alle gebruikers die 1 tot 2 jaar
+          ervaring), dan hebben we een positieve delta van +3%.
     - key: blocks.tools_usage_variations.note
       t: |
-          Please keep in mind that tools having a lower overall usage tends to vary more.
+          Houd er rekening mee dat tools met een lager algemeen gebruik meer kunnen variëren.
 
     # Recommended Resources
     - key: blocks.recommended_resources.title
-      t: Recommended Resources
+      t: Aanbevolen bronnen
 
     ###########################################################################
     # Charts
     ###########################################################################
 
     - key: chart_units.percentage
-      t: Percents
+      t: Procenten
     - key: chart_units.count
-      t: Count
+      t: Aantal
 
     - key: charts.axis_legends.years_of_experience
-      t: Years of Experience
+      t: Jarenlange ervaring
     - key: charts.axis_legends.yearly_salary
-      t: Salary Range (USD)
+      t: Salarisschaal (USD)
     - key: charts.axis_legends.company_size
-      t: Number of Employees
+      t: Aantal werknemers
     - key: charts.axis_legends.backend_proficiency
-      t: Back-end Proficiency
+      t: Back-end-vaardigheid
     - key: charts.axis_legends.css_proficiency
-      t: CSS Proficiency
+      t: CSS-vaardigheid
     - key: charts.axis_legends.javascript_proficiency
-      t: JavaScript Proficiency
+      t: JavaScript-vaardigheid
     - key: charts.axis_legends.users_percentage
-      t: Percentage of Users
+      t: Percentage gebruikers
     - key: charts.axis_legends.users_count
-      t: User Count
+      t: Aantal gebruikers
     - key: charts.axis_legends.interest_percentage
-      t: Interest Percentage
+      t: Interessepercentage
     - key: charts.axis_legends.satisfaction_percentage
-      t: Satisfaction Percentage
+      t: Tevredenheidspercentage
     - key: charts.axis_legends.happiness
       t: Happiness
     - key: charts.axis_legends.knowledge_score
-      t: Known Features
+      t: Bekende functies
     - key: charts.axis_legends.frequency
       t: Frequency
 
     - key: charts.ranges_multiple_diverging_lines.baseline
       t: baseline
     - key: charts.ranges_multiple_diverging_lines.positive_offset
-      t: positive offset
+      t: positieve offset
     - key: charts.ranges_multiple_diverging_lines.negative_offset
-      t: negative offset
+      t: negatieve offset
 
     - key: charts.tools_arrows.negative_opinion
-      t: Negative opinions
+      t: Negatieve meningen
     - key: charts.tools_arrows.positive_opinion
-      t: Positive opinions
+      t: Positieve meningen
     - key: charts.tools_arrows.have_not_used
-      t: Have not used
+      t: Heb niet gebruikt
     - key: charts.tools_arrows.have_used
-      t: Have used
+      t: Hebben gebruikt
 
     ###########################################################################
     # Sharing
     ###########################################################################
 
     - key: share.share
-      t: Share
+      t: Delen
     - key: share.site.title
-      t: Discover the {siteTitle} results
+      t: Ontdek de resultaten van {siteTitle}
     - key: share.site.twitter_text
-      t: 'Discover the {siteTitle} results {link} {hashtag}'
+      t: 'Ontdek de {siteTitle} resultaten {link} {hashtag}'
     - key: share.site.subject
-      t: '{siteTitle} Survey Results'
+      t: '{siteTitle} enquêteresultaten'
     - key: share.site.body
-      t: 'Here are some interesting survey results: {link}'
+      t: 'Hier zijn enkele interessante enquêteresultaten: {link}'
     - key: share.block.twitter_text
       t: '{hashtag} {year}: {title} {link}'
     - key: share.block.subject
-      t: '{siteTitle} Survey Results'
+      t: '{siteTitle} enquêteresultaten'
     - key: share.block.body
-      t: 'Here are some interesting survey results ({title}): {link}'
+      t: 'Hier zijn enkele interessante enquêteresultaten ({title}): {link}'
     - key: share.twitter
-      t: Share on Twitter
+      t: Delen op Twitter
     - key: share.facebook
-      t: Share on Facebook
+      t: Delen op Facebook
     - key: share.linkedin
-      t: Share on LinkedIn
+      t: Delen op LinkedIn
     - key: share.email
-      t: Share by email
+      t: Delen via email
     - key: share.image
-      t: Get image
+      t: Krijg een afbeelding
 
     ###########################################################################
     # Awards
     ###########################################################################
 
     - key: awards.runner_ups
-      t: Runner Ups
+      t: Runner ups
 
     - key: award.feature_adoption_award.title
-      t: Most Used Feature
+      t: Meest gebruikte functie
     - key: award.feature_adoption_award.description
-      t: Awarded to the most adopted feature.
+      t: Toegekend aan de meest aangenomen functie.
 
     - key: award.feature_adoption_delta_award.title
-      t: Most Adopted Feature
+      t: Meest geadopteerde functie
     - key: award.feature_adoption_delta_award.description
-      t: Awarded to the feature with the largest year-over-year ”have used” progression.
+      t: Toegekend aan de functie met de grootste "hebben gebruikt" -progressie jaar-op-jaar.
 
     - key: award.tool_usage_award.title
-      t: Most Used Technology
+      t: Meest gebruikte technologie
     - key: award.tool_usage_award.description
-      t: Awarded to the technology with the largest user base.
+      t: Toegekend aan de technologie met het grootste gebruikersbestand.
 
     - key: award.tool_usage_delta_award.title
-      t: Most Adopted Technology
+      t: Meest geaccepteerde technologie
     - key: award.tool_usage_delta_award.description
-      t: Awarded to the technology with the largest year-over-year “would use again” progression.
+      t: Toegekend aan de technologie met de grootste 'zou opnieuw'-progressie op jaarbasis.
 
     - key: award.tool_satisfaction_award.title
-      t: Highest Satisfaction
+      t: Hoogste tevredenheid
     - key: award.tool_satisfaction_award.description
-      t: Awarded to the technology with the highest percentage of satisfied users.
+      t: Toegekend aan de technologie met het hoogste percentage tevreden gebruikers.
 
     - key: award.tool_interest_award.title
-      t: Highest Interest
+      t: Hoogste interesse
     - key: award.tool_interest_award.description
-      t: Awarded to the technology developers are most interested in learning once they are aware of it.
+      t: Toegekend aan de technologieontwikkelaars die het meest geïnteresseerd zijn in leren zodra ze zich ervan bewust zijn.
 
     - key: award.resource_usage_award.title
-      t: Most Used Resource
+      t: Meest gebruikte bron
     - key: award.resource_usage_award.description
-      t: Awarded to the resource with the largest user base.
+      t: Toegekend aan de resource met het grootste gebruikersbestand.
 
     - key: award.prediction_award.title
-      t: Prediction Award
+      t: Voorspelling Award
     - key: award.prediction_award.description
-      t: Awarded to an up-and-coming technology that might take over… or not?
+      t: Toegekend aan een opkomende technologie die het misschien overneemt... of niet?
 
     - key: award.most_write_ins_award.title
-      t: Most Write-Ins
+      t: Meeste Write-Ins
     - key: award.most_write_ins_award.description
-      t: Awarded to the item with the most write-in answers
+      t: Toegekend aan het item met de meeste Write-Ins
 
     ###########################################################################
     # Hints
@@ -547,42 +549,41 @@ translations:
 
     - key: hints.hint_hint
       t: >
-          You'll find little hints like this one throughout the survey results
-          that will point out extra features and details.
+          In de enquêteresultaten vind je kleine hints zoals deze
+          die je op extra functies en details zullen wijzen.
 
     - key: hints.units_switcher_hint
       t: >
-          You can use the segmented control at the top right of each block to switch
-          between relative percentages and absolute counts to get a different view of the
-          same data.
+          Je kunt het gesegmenteerde besturingselement in de rechterbovenhoek van
+          elk blok gebruiken om te schakelen tussen relatieve percentages en absolute
+          tellingen om een andere weergave van dezelfde gegevens te krijgen.
 
     - key: hints.export_hint
       t: >
-          The <span class="hint-export-button">Export</span> button at the top of each block
-          lets you get the raw JSON data for any chart, or a GraphQL
-          query you can run against our public API.
+          Met de <span class="hint-export-button">Exporteren</span> knop bovenaan elk blok kun
+          je de ruwe JSON-gegevens voor elk diagram opvragen, of een GraphQL-query
+          die je kunt uitvoeren tegen onze openbare API.
 
     - key: hints.completion_hint
       t: >
-          Since all questions are optional, some of them got fewer responses than others.
-          The completion indicator (<span class="hint-completion-indicator">◕</span>) tells you exactly how many people answered any given question.
+          Omdat alle vragen optioneel zijn, kregen sommige vragen minder antwoorden dan andere.
+          De voltooiingsindicator (<span class="hint-voltooiingsindicator">◕</span>) vertelt je precies hoeveel mensen een bepaalde vraag hebben beantwoord.
 
     - key: hints.tool_modal_hint
       t: >
-          You can click on any technology name to get extra details and
-          a more in-depth look at its related data.
+          Je kunt op elke technologienaam klikken voor extra details en een meer diepgaande blik op de gerelateerde gegevens.
 
     - key: hints.rankings_modes_hint
       t: >
-          The Rankings chart can be toggled between satisfaction, interest, usage, and awareness
-          to give you a fuller picture of a category's rankings.
+          De ranglijst kan worden omgeschakeld tussen tevredenheid, interesse,
+          gebruik en bekendheid om u een vollediger beeld te geven van de rangschikking van een categorie.
 
     - key: hints.sharing_hint
       t: >
-          Sharing this survey on Twitter, Facebook, or by email is scientifically proven to
-          improve your JavaScript performance by up to 15%.
+          Het is wetenschappelijk bewezen dat het delen van deze enquête op Twitter,
+          Facebook of per e-mail jouw JavaScript-prestaties tot wel 15% verbetert.
 
     - key: hints.tshirt_hint
       t: >
-          Another guaranteed scientific finding: buying our t-shirt will
-          increase your JavaScript knowledge by over 9000!
+          Nog een gegarandeerde wetenschappelijke bevinding: als je ons t-shirt koopt,
+          vergroot je houw JavaScript-kennis met meer dan 9000!
