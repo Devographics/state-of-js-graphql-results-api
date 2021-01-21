@@ -70,6 +70,6 @@ translations:
       t: Registrado como {email}
     - key: accounts.questions
       t: >
-        Si tienes alguna pregunta sobre como usamos tus datos, o te gustaría
-        que los eliminásemos de nuestros registros,
-        por favor, <a href="mailto:hello@stateofjs.com">mándanos un email</a>.
+          Si tienes alguna pregunta sobre como usamos tus datos, o te gustaría
+          que los eliminásemos de nuestros registros,
+          por favor, <a href="mailto:hello@stateofjs.com">mándanos un email</a>.

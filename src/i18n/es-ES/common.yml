@@ -35,6 +35,12 @@ translations:
       t: No hay encuestas abiertas actualmente.
     - key: general.closed_surveys
       t: Encuestas Cerradas
+    - key: general.no_closed_surveys
+      t: No hay encuestas cerradas actualmente.
+    - key: general.preview_surveys
+      t: Vista Previa de Encuestas
+    - key: general.no_preview_surveys
+      t: No hay encuestas disponibles para ver.
     - key: general.start_survey
       t: Empezar Encuesta »
     - key: general.continue_survey
@@ -113,11 +119,25 @@ translations:
     - key: forms.select_option
       t: Elige una opción
 
+    # partners
+    - key: partners.our_partners
+      t: Nuestros Socios
+    - key: partners.become_partner
+      t: Convertirse en un socio
+
     # 404
     - key: notfound.title
       t: 404 No Encontrado
     - key: notfound.description
       t: Lo sentimos pero no hemos podido encontrar lo que estabas buscando.
+
+    # other
+    - key: general.join_discord
+      t: Únete a nosotros en <a href="{link}">Discord</a>. 
+    - key: general.translator_mode
+      t: Presiona option/alt para habilitar el modo traductor.
+    - key: general.charts_nivo
+      t: Gráficas construidas con <a href="{link}">Nivo</a>.
 
     ###########################################################################
     # Nav
@@ -157,6 +177,9 @@ translations:
     - key: sections.other_tools.description
       t: De estas herramientas y tecnologías, selecciona las que uses habitualmente.
 
+    - key: sections.report.title
+      t: Informe de Tendencia
+
     ###########################################################################
     # Options
     ###########################################################################
@@ -191,7 +214,7 @@ translations:
     - key: options.patterns.use_sparingly
       t: Raramente lo uso
     - key: options.patterns.use_neutral
-      t: Neutral
+      t: Neutro
     - key: options.patterns.use_frequently
       t: Lo uso con frecuencia
     - key: options.patterns.use_always
@@ -239,7 +262,7 @@ translations:
     - key: options.happiness.1
       t: Descontento
     - key: options.happiness.2
-      t: Neutral
+      t: Neutro
     - key: options.happiness.3
       t: Contento
     - key: options.happiness.4
@@ -251,7 +274,7 @@ translations:
     - key: options.happiness.1.short
       t: Descontento
     - key: options.happiness.2.short
-      t: Neutral
+      t: Neutro
     - key: options.happiness.3.short
       t: Contento
     - key: options.happiness.4.short
@@ -263,7 +286,7 @@ translations:
     - key: options.opinions.1
       t: Estoy en Desacuerdo
     - key: options.opinions.2
-      t: Neutral
+      t: Neutro
     - key: options.opinions.3
       t: Estoy de Acuerdo
     - key: options.opinions.4
@@ -367,7 +390,7 @@ translations:
 
     # job titles
     - key: options.job_title.cto
-      t: CTO
+      t: Jefe de Tecnología
     - key: options.job_title.front_end_developer
       t: Desarrollador o Ingeniero de Front
     - key: options.job_title.back_end_developer
@@ -459,9 +482,9 @@ translations:
     - key: options.race_ethnicity.black_african
       t: Negro o descendiente de Africanos
     - key: options.race_ethnicity.multiracial
-      t: Multiracial
+      t: Multirracial
     - key: options.race_ethnicity.biracial
-      t: Biracial
+      t: Birracial
     - key: options.race_ethnicity.native_american_islander_australian
       t: Nativo Americano, de las Islas del Pacífico o Indígena Australiano
 
@@ -469,13 +492,13 @@ translations:
     - key: options.form_factors.desktop
       t: Escritorio
     - key: options.form_factors.smartphone
-      t: Smartphone
+      t: Telefono inteligente
     - key: options.form_factors.feature_phone
       t: Teléfono móvil (no smartphone)
     - key: options.form_factors.tablet
-      t: Tablet
+      t: Tableta
     - key: options.form_factors.smart_watch
-      t: Smartwatch
+      t: Reloj inteligente
     - key: options.form_factors.tv
       t: TV
     - key: options.form_factors.gaming_console
@@ -484,6 +507,58 @@ translations:
       t: Lector de pantalla
     - key: options.form_factors.print
       t: Para imprimir
+
+    # Industry Sector
+    - key: options.industry_sector.ecommerce
+      t: Comercio electrónico y Venta Minorista
+    - key: options.industry_sector.news_media
+      t: Noticias, Medios y Blogs
+    - key: options.industry_sector.healthcare
+      t: Cuidado de la Salud
+    - key: options.industry_sector.finance
+      t: Finanzas
+    - key: options.industry_sector.programming_tools
+      t: Programación y Herramientas Técnicas
+    - key: options.industry_sector.socialmedia
+      t: Redes Sociales
+    - key: options.industry_sector.marketing_tools
+      t: Herramientas de Marketing/Ventas/Análisis
+    - key: options.industry_sector.education
+      t: Educación
+    - key: options.industry_sector.real_estate
+      t: Bienes raíces
+    - key: options.industry_sector.government
+      t: Gobierno
+    - key: options.industry_sector.entertainment
+      t: Entretenimiento
+    - key: options.industry_sector.consulting
+      t: Servicios de Consultoría
+    - key: options.industry_sector.travel
+      t: Viajes
+    - key: options.industry_sector.insurance
+      t: Seguros
+    - key: options.industry_sector.logistics
+      t: Logística
+    - key: options.industry_sector.energy
+      t: Energía
+    - key: options.industry_sector.telecommunications
+      t: Telecomunicaciones
+    - key: options.industry_sector.student
+      t: Estudiente
+    - key: options.industry_sector.hospitality
+      t: Hospitalidad
+    - key: options.industry_sector.cyber_security
+      t: Seguridad Cibernética
+    - key: options.industry_sector.construction
+      t: Construcción
+    - key: options.industry_sector.automotive
+      t: Automotor
+    - key: options.industry_sector.agriculture
+      t: Agricultura
+    - key: options.industry_sector.transport
+      t: Transporte
+    - key: options.industry_sector.manufacturing
+      t: Fabricación
 
     ###########################################################################
     # Tools
@@ -560,11 +635,35 @@ translations:
     - key: user_info.email
       t: Tu Correo Electrónico
     - key: user_info.country
-      t: Tu País
+      t: Tu País o Región
+    - key: user_info.github_username
+      t: Tu usuario de GitHub
+    - key: user_info.github_username.description
+      t: >
+        Podríamos usar nombres de usuario de GitHub en el 
+        futuro para ver repositorios y referencias cruzadas 
+        de información disponible públicamente.
+    - key: user_info.industry_sector
+      t: Sector de Industria
+    - key: user_info.industry_sector.description
+      t: ¿En qué sector (es) de la industria trabaja?
+    - key: user_info.industry_sector.others
+      t: Otros sectores de la Industria
+    - key: user_info.industry_sector.others.description
+      t: Otros sectores de la industria en los que trabaja no mencionados anteriormente.
 
     ###########################################################################
     # Other Tools
     ###########################################################################
+
+    - key: tools_others.libraries
+      t: Librarías
+    - key: tools_others.libraries.description
+      t: ¿Cuáles librarías usas regularmente?
+    - key: tools_others.libraries.others
+      t: Otras Librarías
+    - key: tools_others.libraries.others.description
+      t: Otras Respuestas (campo de forma libre).
 
     - key: tools_others.text_editors
       t: Editores de Texto

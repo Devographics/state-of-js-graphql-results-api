@@ -300,7 +300,7 @@ translations:
       t: Positive/Negative Split
     - key: blocks.tools_experience_marimekko.description
       t: |
-          This chart splits positive (“want to learn”, ”would use again”) vs
+          This chart splits positive (“want to learn”, “would use again”) vs
           negative (“not interested”, “would not use again”) experiences on
           both sides of a central axis.
 
@@ -388,16 +388,16 @@ translations:
       t: Usage Variations
     - key: blocks.tools_usage_variations.description
       t: |
-          How different factors such as salary range, years of experience
-          or company size influence usage (participants who answered either
-          ”would use again” or “would not use again”).
+        How different factors such as salary range, years of experience
+        or company size influence usage (participants who answered either
+        “would use again” or “would not use again”).
 
-          The baseline represents the base usage for each tool and the offsets
-          correspond to the delta from this baseline in each range. Let's say
-          tool X has an overall usage of 10% across all respondents (the baseline),
-          then if the percentage of users having from 1 to 2 years of experience
-          using this tool is 13% (compared to all users having from 1 to 2 years
-          of experience), then we have a positive delta of +3%.
+        The baseline represents the base usage for each tool and the offsets
+        correspond to the delta from this baseline in each range. Let's say
+        tool X has an overall usage of 10% across all respondents (the baseline),
+        then if the percentage of users having from 1 to 2 years of experience
+        using this tool is 13% (compared to all users having from 1 to 2 years
+        of experience), then we have a positive delta of +3%.
     - key: blocks.tools_usage_variations.note
       t: |
           Please keep in mind that tools having a lower overall usage tends to vary more.
