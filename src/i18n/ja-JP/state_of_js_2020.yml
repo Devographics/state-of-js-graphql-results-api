@@ -17,9 +17,9 @@ translations:
 
           <span class="first-letter">2</span>020年と同じように、JavaScriptはなんとかして前進しました。Optional ChainingやNullish Coalescingなどの新機能のおかげで言語自体も成長を続けていますし、TypeScriptの普及は、静的型付けを普及させることで、物事をまったく別のレベルに引き上げています。
 
-          そしてフレームワークの面では,落ち着いたと思ったところにSvelteが現れ、フロントエンドに新たな手法を取り入れることで全てを揺るがしています。そしてビルドツールにおいても、数年にわたるWebpackの覇権の後、新しい傾向が見られるようになりました。 
+          そしてフレームワークの面では、落ち着いたと思ったところにSvelteが現れ、フロントエンドに新たな手法を取り入れることで全てを揺るがしています。そしてビルドツールにおいても、数年にわたるWebpackの覇権の後、新しい傾向が見られるようになりました。 
 
-          しかし、これまでと今回の違いは「古い」もの–相対的に言って–が、どこにも行ってないことです。SvelteとSnowpackはよいものですが、それはReactとWebpackも同じです。そして確かに、それらは最終的に偉大なJavaScript Churnの犠牲にになりますが、何年も何年もそれが続くわけではありません。
+          しかし、これまでと今回の違いは「古い」もの–相対的に言って–が、どこにも行ってないことです。SvelteとSnowpackはよいものですが、それはReactとWebpackも同じです。そして確かに、それらは最終的に偉大なJavaScript Churnの犠牲になりますが、何年も何年もそれが続くわけではありません。
 
           だから、今ここで起きていることを楽しみましょう: 偉大なエコシステムが、さらに良くなっています！
 
@@ -33,7 +33,7 @@ translations:
 
           ### State of CSS
 
-          If you haven't seen it already, we strongly recommend checking out the [State of CSS 2020 Trend Report](https://2020.stateofcss.com/en-US/report/) to get up to date on the past year's three main CSS trends. 
+          もしまだ見ていなかったら、 ここ数年のCSSの3つの主流のトレンドを追うために[State of CSS 2020 Trend Report](https://2020.stateofcss.com/en-US/report/) を見ることを強くおすすめします。
 
           ### Other Links
 
@@ -48,7 +48,7 @@ translations:
 
           「The State of JavaScript Survey」は[Sacha Greif](https://twitter.com/sachagreif)と[Raphaël Benitte](https://twitter.com/benitteraphael)によって作られ、運用されています。
 
-          Watch [this video overview](https://www.youtube.com/watch?v=o4w1qEnZxbM) to learn more about the technical aspects of the project, from data collection to data visualizations. Questions? Feedback? [Get in touch](mailto:hello@stateofjs.com) or [join our Discord](https://discord.gg/zRDb35jfrt).
+          [このビデオの概要](https://www.youtube.com/watch?v=o4w1qEnZxbM)を見て、データの収集からデータのビジュアライゼーションまで、このプロジェクトの技術的な側面と学んでください。質問やフィードバックがあれば、ぜひ[連絡をとる](mailto:hello@stateofjs.com)か[Discordに入って](https://discord.gg/zRDb35jfrt)ください。
 
           さあ、JavaScriptに今年どのような変化が起きたか見ていきましょう！
 
@@ -63,12 +63,11 @@ translations:
 
     - key: sections.tshirt.description
       t: |
-          ## アンケートをサポートして、Support the survey and look good in the process!
+          ## アンケートをサポートして、さらにおしゃれになりましょう！
 
-          2020年のJavaScriptの景色に合うよう、去年とても人気だった👕 State of JavaScript Tシャツ 👕を新しくしました！
+          2020年のJavaScriptの状況に合うよう、去年とても人気だった👕 State of JavaScript Tシャツ 👕を新しくしました！
 
-          このシャツThe shirt features a ”periodic table of JavaScript” GitHubのスター数にしたがって選んだ人気のライブラリをカテゴリごとにリストthat lists the most popular 
-          libraries grouped by category, along with their GitHub stars counts (in thousands).
+          GitHubのスター数（千件単位）にしたがって選んだ人気のライブラリをカテゴリごとにグループ化した”JavaScriptの周期表” を備えています。
 
           このシャツはJavaScriptのエコシステムに習熟するため良い方法のひとつであり、きっと同じ熱意を持った他のJavaScriptユーザーとの会話のきっかけになってくれるでしょう！
 
@@ -77,10 +76,8 @@ translations:
 
     - key: tshirt.description
       t: |
-          デザインは printed on a black heather [Bella+Canvas 3001 unisex premium 
-          t-shirt](https://www.printful.com/custom/mens/t-shirts/unisex-premium-t-shirt-bella-canvas-3001) (men’s) with a semi-slim fit; 
-          or a heather dark grey [Anvil 880 Women's Fashion Fit T-Shirt](https://www.printful.com/custom/womens/t-shirts/womens-fashion-fit-t-shirt) (women‘s). 
-          Sizing uses U.S. sizes.
+          Printing and shipping is handled by . The design is printed on a pre
+          印刷と発送は[Cotton Bureau](https://cottonbureau.com/people/state-of-js)によって行われます。デザインはa プレミアムネクストレベルブラックのとても柔らかいトライブレンドシャツにプリントされています。
 
     - key: tshirt.getit
       t: 手に入れる
@@ -154,7 +151,7 @@ translations:
     - key: blocks.source.note
       t: >
 
-          This chart aggregates a mix of referrers, URL parameters, and freeform answers. 
+          このチャートはリファラー、URL,パラメーター、フリーフォームの回答を集計したものです。
 
           - State of JS: the [State of JS](https://stateofjs.com) mailing list; also matches `email`, `by email`, etc.
 
@@ -170,16 +167,16 @@ translations:
     #   t: With a **${value}** progression in 2020, this was the year CSS Grid crossed over from new technology to established tool.
 
     - key: award.tool_usage_delta_award.comment
-      t: TypeScriptがすでに人気でしたが、利用率において**${value}**にも成長しており、到るところで使われることが多くなりそうです。
+      t: TypeScriptがすでに人気でしたが、利用率において**${value}**も成長しており、到るところで使われることが多くなりそうです。
 
     - key: award.tool_satisfaction_award.comment
-      t: With a sky-high satisfaction rating of **${value}**, Testing Library is 2020's overall most beloved tool.
+      t: 満足度が**${value}**と非常に高い、Testing Libraryが2020年の最も愛されたツールでした。
 
     - key: award.tool_interest_award.comment
-      t: GraphQL continues to be the one thing developers want to learn more about, as soon as they can finally find the time.
+      t: GraphQLが開発者が時間があったら学びたいもの一位になり続けています。
 
     - key: award.most_write_ins_award.comment
-      t: People are always passionate about text editors, and with **{value}** mentions IntelliJ IDEA wins the award for the most write-in answers. 
+      t: 人々がテキストエディタへの熱意を失うことはなく、**{value}**個ものIntelliJ IDEAの言及が最も回答に書かれていたものとしてアワードを獲得しました。
 
     ###########################################################################
     # Conclusion
@@ -191,9 +188,9 @@ translations:
 
           しかし同時に、半分以上の時間を複雑なGitHubのイシューやStack Overflowの質問を読み込んだりせずに物事を成し遂げるための安定さとシンプルさを渇望しているということ。
 
-          どちらがいいのでしょう？私たちは新しく輝いているものがほしいのか、古くて安定しているものがほしいのか？ More than ever, 2020年は shows that we won't settle for anything less than *both*. The good news is that the JavaScript community has risen up to the challenge, which promises an exciting 2021!
+          どちらがいいのでしょう？私たちは新しく輝いているものがほしいのか、古くて安定しているものがほしいのか？ これまで以上に、2020年はその*どちらかで*妥協することはないことが示されています。JavaScriptコミュニティが困難なことに挑戦し続けていることはいいニュースで、2021もエキサイティングな年になることは間違いないでしょう！
 
-          P.S. if you're still hungry for more JavaScript stats we recommend checking out the yearly [Rising Stars](https://risingstars.js.org/2020/en/) rankings from [Best Of JS](https://bestofjs.org/).
+          P.S. まだJavaScriptの統計について知り足らない場合は、[Best Of JS](https://bestofjs.org/)による年間の[Rising Stars](https://risingstars.js.org/2020/en/)ランキングをチェックするのをおすすめします。
 
     ###########################################################################
     # Picks
