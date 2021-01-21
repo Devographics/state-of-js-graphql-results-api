@@ -91,7 +91,7 @@ translations:
           Je gegevens zijn opgeslagen. Je kunt het bekijken of wijzigen totdat de enquête wordt gesloten.
 
           Je kunt ons ook helpen door deze enquête te delen. Elk beetje telt, en het helpt om onze gegevens gelijk te houden
-           en ook meer representatief:
+          en ook meer representatief:
     - key: thanks.learn_more_about
       t: 'Enkele van de functies waarover je wellicht meer wilt weten:'
     - key: thanks.knowledge_score
@@ -99,9 +99,9 @@ translations:
     - key: thanks.score_explanation
       t: >
           Je hebt <span class="score-number score-number-known">{known}</span> uit
-           <span class="score-number score-number-total">{total}</span> functies genoemd in de enquête, dit
-           plaatst je in de top <span class="score-number score-number-ranking">{knowledgeRankingFromTop}%</span>
-           van alle respondenten.
+          <span class="score-number score-number-total">{total}</span> functies genoemd in de enquête, dit
+          plaatst je in de top <span class="score-number score-number-ranking">{knowledgeRankingFromTop}%</span>
+          van alle respondenten.
     - key: thanks.share_on_twitter
       t: Delen op Twitter
     - key: thanks.share_score_message
