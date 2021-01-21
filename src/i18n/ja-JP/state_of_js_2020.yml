@@ -76,7 +76,6 @@ translations:
 
     - key: tshirt.description
       t: |
-          Printing and shipping is handled by . The design is printed on a pre
           印刷と発送は[Cotton Bureau](https://cottonbureau.com/people/state-of-js)によって行われます。デザインはa プレミアムネクストレベルブラックのとても柔らかいトライブレンドシャツにプリントされています。
 
     - key: tshirt.getit
