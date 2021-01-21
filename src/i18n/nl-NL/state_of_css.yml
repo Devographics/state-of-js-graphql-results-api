@@ -7,18 +7,19 @@ translations:
 
     - key: general.survey_intro_css2020
       t: >
-          CSS is evolving faster than ever.
+          CSS evolueert sneller dan ooit.
 
 
-          Flexbox, Grid, Multi-Column… To say nothing of whole new paradigms like CSS-in-JS.
+          Flexbox, Grid, Multi-Column... Om nog maar te zwijgen van geheel nieuwe paradigma's zoals CSS-in-JS.
 
 
-          So after the success of our annual State Of JavaScript survey,
-          we’ve decided to take on the world of styles and selectors. We're hoping you’ll help
-          us identify the latest trends, and figure out what tools to learn and use next!
+          Dus na het succes van onze jaarlijkse State Of JavaScript-enquête,
+          hebben we besloten om de wereld van stijlen en selectors aan te gaan.
+          We hopen dat je ons helpt de nieuwste trends te identificeren en uit
+          te zoeken welke tools we vervolgens kunnen leren en gebruiken!
 
     - key: general.results.description
-      t: The annual survey about the latest trends in CSS.
+      t: De jaarlijkse enquête over de laatste trends in CSS.
 
     ###########################################################################
     # Sections
@@ -27,84 +28,84 @@ translations:
     - key: sections.layout.title
       t: Layout
     - key: sections.layout.description
-      t: How do you position elements on the screen?
+      t: Hoe plaats je elementen op het scherm?
 
     - key: sections.shapes_graphics.title
-      t: Shapes & Graphics
+      t: Vormen en afbeeldingen
     - key: sections.shapes_graphics.description
-      t: Controlling the shape and display of elements.
+      t: Controle over de vorm en weergave van elementen.
 
     - key: sections.interactions.title
-      t: Interactions
+      t: Interacties
     - key: sections.interactions.description
-      t: Controlling how the user interacts with the page.
+      t: Bepalen hoe de gebruiker omgaat met de pagina.
 
     - key: sections.typography.title
       t: Typography
     - key: sections.typography.description
-      t: Setting and laying out text.
+      t: Tekst opstellen en opmaken.
 
     - key: sections.animations_transforms.title
-      t: Animations & Transforms
+      t: Animaties en transformaties
     - key: sections.animations_transforms.description
-      t: Animating and transforming elements.
+      t: Elementen animeren en transformeren.
 
     - key: sections.media_queries.title
       t: Media Queries
     - key: sections.media_queries.description
-      t: Ways of adapting your site to the user's device or preferences.
+      t: Manieren om jouw site aan te passen aan het apparaat of de voorkeuren van de gebruiker.
 
     - key: sections.other_features.title
-      t: Other Features
+      t: Andere functies
     - key: sections.other_features.description
-      t: Other CSS features.
+      t: Andere CSS-functies.
 
     - key: sections.units_selectors.title
-      t: Units & Selectors
+      t: Eenheden & Selectors
     - key: sections.units_selectors.description
-      t: Test your knowledge of CSS units and selectors.
+      t: Test uw kennis van CSS-eenheden en selectors.
 
     - key: sections.pre_post_processors.title
       t: Pre-/Post-processors
     - key: sections.pre_post_processors.description
-      t: Utilities that augment CSS.
+      t: Hulpprogramma's die CSS aanvullen.
 
     - key: sections.pre_post_processors_others.title
       t: Other Pre-/Post-processors
 
     - key: sections.css_frameworks.title
-      t: CSS Frameworks
+      t: CSS-frameworks
     - key: sections.css_frameworks.description
-      t: Libraries that give you pre-made components and styles.
+      t: Libraries die u vooraf gemaakte componenten en stijlen bieden.
 
     - key: sections.css_frameworks_others.title
-      t: Other CSS Frameworks
+      t: Andere CSS-frameworks
 
     - key: sections.css_methodologies.title
-      t: CSS Methodologies
+      t: CSS-methodologieën
     - key: sections.css_methodologies.description
-      t: Codified ways to write cleaner CSS.
+      t: Gecodificeerde manieren om schonere CSS te schrijven.
 
     - key: sections.css_methodologies_others.title
-      t: Other CSS Methodologies.
+      t: Andere CSS-methodologieën.
 
     - key: sections.css_in_js.title
       t: CSS-in-JS
     - key: sections.css_in_js.description
-      t: Libraries that help integrate CSS into JavaScript code.
+      t: Libraries die helpen bij het integreren van CSS in JavaScript-code.
 
     - key: sections.css_in_js_others.title
-      t: Other CSS-in-JS Libraries.
+      t: Andere CSS-in-JS-libraries.
 
     - key: sections.tools_others.title
-      t: Other Tools
+      t: Andere tools
     - key: sections.tools_others.description
-      t: Other CSS tools.
+      t: Andere CSS-tools.
 
     - key: sections.environments.title
-      t: Environments
+      t: Omgevingen
     - key: sections.environments.description
-      t: Which environments do you write CSS for?
+      t: Voor welke omgevingen schrijft u CSS?
 
     ###########################################################################
     # Options
@@ -112,45 +113,45 @@ translations:
 
     # CSS for print
     - key: options.css_for_print.0
-      t: I (almost) never write print styles
+      t: Ik schrijf (bijna) nooit printstijlen
     - key: options.css_for_print.0.short
-      t: Never
+      t: Nooit
 
     - key: options.css_for_print.1
-      t: I occasionally write print styles
+      t: Ik schrijf af en toe printstijlen
     - key: options.css_for_print.1.short
-      t: Occasionally
+      t: Af en toe
 
     - key: options.css_for_print.2
-      t: I write print styles as part of most projects
+      t: Ik schrijf printstijlen als onderdeel van de meeste projecten
     - key: options.css_for_print.2.short
-      t: Often
+      t: Vaak
 
     - key: options.css_for_print.3
-      t: I focus mainly on CSS for print
+      t: Ik focus me voornamelijk op CSS voor print
     - key: options.css_for_print.3.short
-      t: Mainly
+      t: Hoofdzakelijk
 
     # CSS for email
     - key: options.css_for_email.0
-      t: I (almost) never write CSS for email clients
+      t: Ik schrijf (bijna) nooit CSS voor e-mailclients
     - key: options.css_for_email.0.short
-      t: Never
+      t: Nooit
 
     - key: options.css_for_email.1
-      t: I occasionally write CSS for email clients
+      t: Ik schrijf af en toe CSS voor e-mailclients
     - key: options.css_for_email.1.short
-      t: Occasionally
+      t: Af en toe
 
     - key: options.css_for_email.2
-      t: I write CSS for email clients as part of most projects
+      t: Ik schrijf CSS voor e-mailclients als onderdeel van de meeste projecten
     - key: options.css_for_email.2.short
-      t: Often
+      t: Vaak
 
     - key: options.css_for_email.3
-      t: I focus mainly on CSS for email clients
+      t: Ik focus me voornamelijk op CSS voor e-mailclients
     - key: options.css_for_email.3.short
-      t: Mainly
+      t: Hoofdzakelijk
 
     ###########################################################################
     # Features
@@ -169,13 +170,13 @@ translations:
     - key: features.multi_column
       t: CSS Multi-Column
     - key: features.writing_modes
-      t: CSS Writing Modes
+      t: CSS Schrijfmodi
     - key: features.exclusions
-      t: CSS Exclusions
+      t: CSS Uitsluitingen
     - key: features.position_sticky
       t: '<code>position: sticky</code>'
     - key: features.logical_properties
-      t: Logical Properties
+      t: Logische properties
     - key: features.logical_properties.description
       t: <code>margin-block-start</code>, <code>padding-inline-end</code>, etc.
     - key: features.aspect_ratio
@@ -185,7 +186,7 @@ translations:
 
     # shapes & graphics
     - key: features.shapes
-      t: CSS Shapes
+      t: CSS-vormen
     - key: features.object_fit
       t: <code>object-fit</code>
     - key: features.clip_path
@@ -195,7 +196,7 @@ translations:
     - key: features.blend_modes
       t: Blend Modes
     - key: features.blend_modes.description
-      t: The <code>mix-blend-mode</code> property
+      t: De <code>mix-blend-mode</code> property
     - key: features.filter_effects
       t: CSS Filter Effects
     - key: features.backdrop_filter
@@ -219,7 +220,7 @@ translations:
     - key: features.variables_fonts
       t: Variable fonts
     - key: features.line_breaking
-      t: Line breaking properties
+      t: Lijnbrekende properties
     - key: features.line_breaking.description
       t: <code>overflow-wrap</code>, <code>word-break</code>, <code>line-break</code>, <code>hyphens</code>
     - key: features.font_variant
@@ -237,13 +238,13 @@ translations:
     - key: features.direction
       t: <code>direction</code>
     - key: features.direction.description
-      t: Also includes <code>dir</code> HTML attribute.
+      t: Bevat ook het HTML-kenmerk <code>dir</code>.
 
     # animations & transforms
     - key: features.transitions
-      t: CSS Transitions
+      t: CSS-overgangen
     - key: features.transforms
-      t: CSS Transforms
+      t: CSS-transformaties
     - key: features.animations
       t: CSS Animations
     - key: features.perspective
@@ -251,7 +252,7 @@ translations:
 
     # media queries
     - key: features.feature_support_queries
-      t: Feature Support Queries (<code>@supports</code>)
+      t: Functie ondersteuning queries (<code>@supports</code>)
     - key: features.prefers_reduced_motion
       t: <code>prefers-reduced-motion</code>
     - key: features.prefers_color_scheme
@@ -261,9 +262,9 @@ translations:
 
     # other features
     - key: features.variables
-      t: CSS Variables (Custom Properties)
+      t: CSS-variabelen (Aangepaste properties)
     - key: features.containment
-      t: CSS Containment
+      t: CSS-insluiting
     - key: features.will_change
       t: <code>will-change</code>
     - key: features.calc
@@ -271,7 +272,7 @@ translations:
     - key: features.houdini
       t: Houdini
     - key: features.comparison_functions
-      t: CSS Comparison Functions
+      t: CSS-vergelijkingsfuncties
     - key: features.comparison_functions.description
       t: <code>min()</code>, <code>max()</code>, and <code>clamp()</code>
 
@@ -280,9 +281,9 @@ translations:
     ###########################################################################
 
     - key: features_others.units
-      t: Units
+      t: Eenheden
     - key: features_others.units.description
-      t: Which of these CSS units have you used?
+      t: Welke van deze CSS-eenheden heb je gebruikt?
 
     - key: options.units.px
       t: px
@@ -312,7 +313,7 @@ translations:
     - key: features_others.pseudo_elements
       t: Pseudo Elements
     - key: features_others.pseudo_elements.description
-      t: Which of these CSS pseudo-elements have you used?
+      t: Welke van deze CSS-pseudo-elementen heb je gebruikt?
 
     - key: options.pseudo_elements.before
       t: '::before'
@@ -334,21 +335,21 @@ translations:
     - key: features_others.combinators
       t: Combinators
     - key: features_others.combinators.description
-      t: Which of these combinations CSS selectors have you used?
+      t: Welke van deze combinaties CSS-selectors heb je gebruikt?
 
     - key: options.combinators.descendant
-      t: div span (descendant)
+      t: div span (afstammeling)
     - key: options.combinators.child
-      t: div > span (child)
+      t: div > span (kind)
     - key: options.combinators.next_sibling
-      t: div + div (next sibling)
+      t: div + div (volgende sibling)
     - key: options.combinators.subsequent_sibling
-      t: div ~ div (subsequent sibling)
+      t: div ~ div (navolgende sibling)
 
     - key: features_others.tree_document_structure
-      t: Tree / Document Structure
+      t: Tree / Document structuur
     - key: features_others.tree_document_structure.description
-      t: Which of these structure related CSS selectors have you used?
+      t: Welke van deze structuurgerelateerde CSS-selectors heb je gebruikt?
 
     - key: options.tree_document_structure.root
       t: :root
@@ -386,9 +387,9 @@ translations:
       t: :has()
 
     - key: features_others.attributes
-      t: Attributes
+      t: Attributen
     - key: features_others.attributes.description
-      t: Which of these CSS attributes selectors have you used?
+      t: Welke van deze CSS-attributenselectors heb je gebruikt?
 
     - key: options.attributes.presence
       t: div[foo] (Presence)
@@ -406,7 +407,7 @@ translations:
     - key: features_others.links_urls
       t: Links/URLs
     - key: features_others.links_urls.description
-      t: Which of these links & URLs related CSS selectors have you used?
+      t: Welke van deze links en URL's gerelateerde CSS-selectors heb je gebruikt?
 
     - key: options.links_urls.any_link
       t: :any-link
@@ -418,9 +419,9 @@ translations:
       t: :target
 
     - key: features_others.interaction
-      t: Interaction
+      t: Interactie
     - key: features_others.interaction.description
-      t: Which of these interaction CSS selectors have you used?
+      t: Welke van deze interactie-CSS-selectors heb je gebruikt?
 
     - key: options.interaction.hover
       t: :hover
@@ -434,14 +435,14 @@ translations:
       t: :focus-visible
 
     - key: features_others.form_controls
-      t: Form Controls
+      t: Form besturing
     - key: features_others.form_controls.description
-      t: Which of these form related CSS selectors have you used?
+      t: Welke van deze formuliergerelateerde CSS-selectors heb je gebruikt?
 
     - key: options.form_controls.enabled_disabled
-      t: :enabled and :disabled
+      t: :enabled en :disabled
     - key: options.form_controls.read_only_write
-      t: :read-only and :read-write
+      t: :read-only en :read-write
     - key: options.form_controls.placeholder_shown
       t: :placeholder-shown
     - key: options.form_controls.default
@@ -451,13 +452,13 @@ translations:
     - key: options.form_controls.indeterminate
       t: :indeterminate
     - key: options.form_controls.valid_invalid
-      t: :valid and :invalid
+      t: :valid en :invalid
     - key: options.form_controls.user_invalid
       t: :user-invalid
     - key: options.form_controls.in_out_range
-      t: :in-range and :out-of-range
+      t: :in-range en :out-of-range
     - key: options.form_controls.required_optional
-      t: :required and :optional
+      t: :required en :optional
 
     ###########################################################################
     # Environments
@@ -466,78 +467,78 @@ translations:
     - key: environments.browsers
       t: Browsers
     - key: environments.browsers.description
-      t: Which browsers do you test in?
+      t: in welke browsers test je?
 
     - key: environments.form_factors
-      t: Form Factors
+      t: Vormfactoren
     - key: environments.form_factors.description
-      t: Which form factors do you test on?
+      t: Op welke vormfactoren test je?
 
     - key: environments.css_for_print
-      t: CSS for Print
+      t: CSS voor print
     - key: environments.css_for_print.description
-      t: Do you write print styles?
+      t: Schrijf je printstijlen?
 
     - key: environments.css_for_email
-      t: CSS for Email Clients
+      t: CSS voor e-mailclients
     - key: environments.css_for_email.description
-      t: Do you write CSS for email clients?
+      t: Schrijf je CSS voor e-mailclients?
 
     - key: charts.axis_legends.css_for_print
-      t: Frequency
+      t: Frequentie
     - key: charts.axis_legends.css_for_email
-      t: Frequency
+      t: Frequentie
 
     ###########################################################################
     # Opinions
     ###########################################################################
 
     - key: opinions.css_easy_to_learn
-      t: CSS is easy to learn
+      t: CSS is gemakkelijk te leren
     - key: opinions.css_easy_to_learn.title
-      t: Learning Curve
+      t: Leercurve
 
     - key: opinions.css_evolving_slowly
-      t: CSS is evolving too slowly
+      t: CSS evolueert te langzaam
     - key: opinions.css_evolving_slowly.title
-      t: Rate of Change
+      t: Snelheid van verandering
 
     - key: opinions.utility_classes_to_be_avoided
-      t: Utility (non-semantic) classes (.center, .large-text, etc.) should be avoided
+      t: Utility (niet-semantische) klassen (.center, .large-text, etc.) moeten worden vermeden
     - key: opinions.utility_classes_to_be_avoided.title
-      t: Non-Semantic Classes
+      t: Niet-semantische klassen
 
     - key: opinions.selector_nesting_to_be_avoided
-      t: Selector nesting (.foo .bar ul li {...}) should be avoided
+      t: Nesten van selectoren (.foo .bar ul li {...}) moet worden vermeden
     - key: opinions.selector_nesting_to_be_avoided.title
-      t: Selector Nesting
+      t: Selector nesten
 
     - key: opinions.css_is_programming_language
-      t: CSS is a programming language
+      t: CSS is een programmeertaal
     - key: opinions.css_is_programming_language.title
-      t: Programming Language
+      t: Programmeertaal
 
     - key: opinions.enjoy_writing_css
-      t: I enjoy writing CSS
+      t: Ik schrijf graag CSS
     - key: opinions.enjoy_writing_css.title
-      t: Enjoyment
+      t: Genot
 
     - key: opinions_others.currently_missing_from_css.others
-      t: What do you feel is currently missing from CSS?
+      t: Wat ontbreekt er volgens jou momenteel aan CSS?
     - key: opinions_others.currently_missing_from_css.others.description
-      t: Features you'd like to see in CSS one day.
+      t: Functies die je ooit in CSS zou willen zien.
     - key: opinions_others.currently_missing_from_css.others.note
       t: >
-          These results were normalized based on the contents of a freeform field.
-          To view the raw, unprocessed responses check out [whatsmissingfromcss.com](http://whatsmissingfromcss.com/).
+          Deze resultaten werden genormaliseerd op basis van de inhoud van een veld met vrije vormen.
+          Ga naar [whatsmissingfromcss.com](http://whatsmissingfromcss.com/) om de onbewerkte, onverwerkte reacties te bekijken.
 
     - key: opinions.sum_up_one_word_css
-      t: CSS in one word
+      t: CSS in één woord
     - key: opinions.sum_up_one_word_css.description
-      t: How would you sum up your opinion of CSS in one word?
+      t: Hoe zou je jouw mening over CSS in één woord samenvatten?
 
     - key: happiness.state_of_the_web
-      t: How happy are you with the general state of web technologies?
+      t: Hoe tevreden ben je met de algemene staat van webtechnologieën?
 
     - key: happiness.state_of_css
-      t: How happy are you with the general state of CSS?
+      t: Hoe tevreden ben je met de algemene toestand van CSS?
