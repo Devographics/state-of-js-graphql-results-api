@@ -40,17 +40,17 @@ translations:
 
     - key: sections.shapes_graphics.title
       t: Shapes & Graphics
-      t: 形状とグラフィクス
+      t: シェイプ＆グラフィクス
     - key: sections.shapes_graphics.description
       t: Controlling the shape and display of elements.
-      t: 要素の形状と表示を制御する。
+      t: 要素の形と表示を制御する。
 
     - key: sections.interactions.title
       t: Interactions
       t: インタラクション
     - key: sections.interactions.description
       t: Controlling how the user interacts with the page.
-      t: ユーザーがどのようにページに触れるかを制御する。
+      t: ユーザーとページのインタラクションを調整する。
 
     - key: sections.typography.title
       t: Typography
@@ -64,21 +64,21 @@ translations:
       t: アニメーション＆トランスフォーム
     - key: sections.animations_transforms.description
       t: Animating and transforming elements.
-      t: 要素をアニメーションさせたり、変形させたりします。
+      t: 要素のアニメーションや変形。
 
     - key: sections.media_queries.title
       t: Media Queries
       t: メディアクエリー
     - key: sections.media_queries.description
       t: Ways of adapting your site to the user's device or preferences.
-      t: ユーザーのデバイスや設定に沿うようサイトを調整します。
+      t: デバイスやユーザーの設定にあわせる。
 
     - key: sections.other_features.title
       t: Other Features
       t: そのほかの機能
     - key: sections.other_features.description
       t: Other CSS features.
-      t: そのほかのCSSの機能
+      t: そのほかのCSSの機能。
 
     - key: sections.units_selectors.title
       t: Units & Selectors
@@ -103,7 +103,7 @@ translations:
       t: CSSフレームワーク
     - key: sections.css_frameworks.description
       t: Libraries that give you pre-made components and styles.
-      t: 定義済みのコンポーネントとそのスタイルを提供するライブラリ。
+      t: コンポーネントとスタイルを提供するライブラリ。
 
     - key: sections.css_frameworks_others.title
       t: Other CSS Frameworks
@@ -114,7 +114,7 @@ translations:
       t: CSS設計手法
     - key: sections.css_methodologies.description
       t: Codified ways to write cleaner CSS.
-      t: きれいなCSSを書くためのcodified手法。
+      t: きれいなCSSを書くために体系化された手法。
 
     - key: sections.css_methodologies_others.title
       t: Other CSS Methodologies.
@@ -140,7 +140,7 @@ translations:
 
     - key: sections.environments.title
       t: Environments
-      t: Environments
+      t: 対応環境
     - key: sections.environments.description
       t: Which environments do you write CSS for?
       t: どんな環境に向けてCSSを書いているか。
@@ -180,7 +180,7 @@ translations:
 
     - key: options.css_for_print.3
       t: I focus mainly on CSS for print
-      t: CSSは印刷用スタイルだけ書いている
+      t: CSSは印刷用スタイルを主に書いている
     - key: options.css_for_print.3.short
       t: Mainly
       t: 専業
@@ -209,7 +209,7 @@ translations:
 
     - key: options.css_for_email.3
       t: I focus mainly on CSS for email clients
-      t: メール用のCSSだけ書いている
+      t: メール用のCSSを主に書いている
     - key: options.css_for_email.3.short
       t: Mainly
       t: 専業
@@ -642,7 +642,7 @@ translations:
 
     - key: opinions_others.currently_missing_from_css.others
       t: What do you feel is currently missing from CSS?
-      t: CSSにいま足りないものは何だと思っているか。
+      t: CSSにいま足りないものは何か。
     - key: opinions_others.currently_missing_from_css.others.description
       t: Features you'd like to see in CSS one day.
       t: CSSにいつかほしい機能。
@@ -658,7 +658,7 @@ translations:
       t: CSSを一言で言うと
     - key: opinions.sum_up_one_word_css.description
       t: How would you sum up your opinion of CSS in one word?
-      t: CSSについて何か一言で意見を言うなら。
+      t: CSSについて何かひとこと言うなら。
 
     - key: happiness.state_of_the_web
       t: How happy are you with the general state of web technologies?
