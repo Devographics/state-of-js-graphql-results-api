@@ -1,0 +1,75 @@
+locale: gl-ES
+translations:
+    - key: accounts.error_incorrect_password
+      t: Contrasinal incorrecto
+    - key: accounts.error_email_required
+      t: O correo electrónico é obligatorio
+    - key: accounts.error_email_already_exists
+      t: Este correo electrónico xa existe
+    - key: accounts.error_invalid_email
+      t: O correo electrónico non é válido
+    - key: accounts.error_minchar
+      t: Teu contrasinal é demasiado curto
+    - key: accounts.error_unknown
+      t: Erro descoñecido
+    - key: accounts.error_user_not_found
+      t: Usuario non atopado
+    - key: accounts.error_username_already_exists
+      t: Este usuario xa existe
+    - key: accounts.enter_username_or_email
+      t: Introduce o teu nome de usuario ou o teu correo electrónico
+    - key: accounts.error_internal_server_error
+      t: Erro interno
+    - key: accounts.error_token_expired
+      t: Token inválido para renovar teu contrasinal
+    - key: accounts.username_or_email
+      t: Nome de usuario ou correo electrónico
+    - key: accounts.enter_username
+      t: Introduce o teu nome de usuario
+    - key: accounts.username
+      t: Nome de usuario
+    - key: accounts.enter_email
+      t: Introduce o teu correo electrónico
+    - key: accounts.email
+      t: Correo electrónico
+    - key: accounts.enter_password
+      t: Introduce o teu contrasinal
+    - key: accounts.password
+      t: Contrasinal
+    - key: accounts.choose_password
+      t: Elixe un contrasinal
+    - key: accounts.change_password
+      t: Cambia teu contrasinal
+    - key: accounts.reset_your_password
+      t: Renova teu contrasinal
+    - key: accounts.set_password
+      t: Pon un contrasinal
+    - key: accounts.enter_new_password
+      t: Introduce un contrasinal novo
+    - key: accounts.new_password
+      t: Novo contrasinal
+    - key: accounts.forgot_password
+      t: Esquecín meu contrasinal
+    - key: accounts.sign_up
+      t: Rexistrarse
+    - key: accounts.sign_in
+      t: Entrar
+    - key: accounts.sign_out
+      t: Sair
+    - key: accounts.cancel
+      t: Cancelar
+    - key: accounts.info_email_sent
+      t: Correo enviado.
+    - key: accounts.info_password_changed
+      t: Contrasinal mudado.
+    - key: accounts.please_pick_password
+      t: Por favor, elixe un novo contrasinal para continuar.
+    - key: accounts.please_log_in
+      t: Por favor, rexístrate ou entra para continuar.
+    - key: accounts.logged_in_as
+      t: Rexistrado como {email}
+    - key: accounts.questions
+      t: >
+          Se tes algunha pregunta sobre como usamos os teus datos, ou se te gustaría
+          que os eliminásemos dos nosos rexistros,
+          por favor, <a href="mailto:hello@stateofjs.com">remítenos un email</a>.
