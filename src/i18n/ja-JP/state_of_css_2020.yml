@@ -6,45 +6,45 @@ translations:
 
     - key: sections.introduction.description
       t: |
-            <span class="first-letter">忘</span>れましょう、CSSについて知っているすべてを。忘れられなくても、多くのことを見直す準備はしておきましょう。あなたが私と同じく、10年以上CSSを書いているひとなら、2020年のCSSは私たちが慣れ親しんだものとまったくもって違うものに見えるでしょう。
+          <span class="first-letter">忘</span>れましょう、CSSについて知っているすべてを。忘れられなくても、多くのことを見直す準備はしておきましょう。あなたが私と同じく、10年以上CSSを書いているひとなら、2020年のCSSは私たちが慣れ親しんだものとまったくもって違うものに見えるでしょう。
 
-            ブレークポイントの代わりにCSS Gridを使えば、様々はビューポートの大きさに対応するレスポンシブなレイアウトを、ずっと短いコードで書けます。グローバルなスタイルシートではなく、CSS-in-JSを使ってコンポーネントとスタイルを同じ場所に置くと、テーマのカスタマイズをしやすいデザインシステムを実現できます。
+          ブレークポイントの代わりにCSS Gridを使えば、様々はビューポートの大きさに対応するレスポンシブなレイアウトを、ずっと短いコードで書けます。グローバルなスタイルシートではなく、CSS-in-JSを使ってコンポーネントとスタイルを同じ場所に置くと、テーマのカスタマイズをしやすいデザインシステムを実現できます。
 
-            ほとんどの人にとって、Tailwind CSSは突然現れたものだったでしょう。そのユーティリティファーストなCSSという思想により、セマンティックなクラス名をつけようというこれまでの教えを考え直させました。
+          ほとんどの人にとって、Tailwind CSSは突然現れたものだったでしょう。そのユーティリティファーストなCSSという思想により、セマンティックなクラス名をつけようというこれまでの教えを考え直させました。
 
-            これらの変化は、意気がったブログ記事や荒れたツイートを生み出してしまうかもしれません。このサイトの提供するデータや、トレンドのハイライトが、来年も慌ただしくなるであろうCSS界を進む手助けになることを祈っています。
+          これらの変化は、意気がったブログ記事や荒れたツイートを生み出してしまうかもしれません。このサイトの提供するデータや、トレンドのハイライトが、来年も慌ただしくなるであろうCSS界を進む手助けになることを祈っています。
 
-            ### チーム
+          ### チーム
 
-            State of CSSは、私たちが開発・管理しています。
+          State of CSSは、私たちが開発・管理しています。
 
-            - [Sacha Greif](https://twitter.com/sachagreif): デザイン、ライティング、コーディング
-            - [Raphaël Benitte](https://twitter.com/benitteraphael): データ分析、ビジュアリゼーション
+          - [Sacha Greif](https://twitter.com/sachagreif): デザイン、ライティング、コーディング
+          - [Raphaël Benitte](https://twitter.com/benitteraphael): データ分析、ビジュアリゼーション
 
-            ### データのダウンロード
+          ### データのダウンロード
 
-            [アンケートの回答データ（JSON）をダウンロードできます](https://www.kaggle.com/sachag/state-of-css)。何か新しいビジュアリゼーションをつくったら、ぜひ教えてください。
+          [アンケートの回答データ（JSON）をダウンロードできます](https://www.kaggle.com/sachag/state-of-css)。何か新しいビジュアリゼーションをつくったら、ぜひ教えてください。
 
-            ### そのほかのリンク
+          ### そのほかのリンク
 
-            - [State of CSSホームページ](https://stateofcss.com)
-            - [State of JS](https://stateofjs.com)
+          - [State of CSSホームページ](https://stateofcss.com)
+          - [State of JS](https://stateofjs.com)
 
-            ### Thanks
+          ### Thanks
 
-            アンケートの設計を手伝ってくれたみなさん、とくに[Chen Hui-Jing](http://chenhuijing.com/)、[Philip Jägenstedt](https://blog.foolip.org/)、[Adam Argyke](https://nerdy.dev/)、[Ahmad Shadeed](https://www.ishadeed.com/)、[Robert Flack](https://github.com/flackr)、[Dominic Nguyen](https://www.chromatic.com/)、[Fantasai](http://fantasai.inkedblade.net/)、[Kilian Valkhof](https://kilianvalkhof.com/)に感謝します。
+          アンケートの設計を手伝ってくれたみなさん、とくに[Chen Hui-Jing](http://chenhuijing.com/)、[Philip Jägenstedt](https://blog.foolip.org/)、[Adam Argyke](https://nerdy.dev/)、[Ahmad Shadeed](https://www.ishadeed.com/)、[Robert Flack](https://github.com/flackr)、[Dominic Nguyen](https://www.chromatic.com/)、[Fantasai](http://fantasai.inkedblade.net/)、[Kilian Valkhof](https://kilianvalkhof.com/)に感謝します。
 
-            翻訳について手伝ってくれた[Alexey Pyltsyn](https://github.com/lex111)にも感謝します。
+          翻訳について手伝ってくれた[Alexey Pyltsyn](https://github.com/lex111)にも感謝します。
 
-            ### Credits & Stuff
+          ### Credits & Stuff
 
-            このサイトで使われている書体はIBM Plex Monoです。
-            
-            質問やフィードバックがあればぜひ[教えてください！](mailto:hello@stateofjs.com)
+          このサイトで使われている書体はIBM Plex Monoです。
+          
+          質問やフィードバックがあればぜひ[教えてください！](mailto:hello@stateofjs.com)
 
-            では、2020年のCSSについて見てみましょう！
+          では、2020年のCSSについて見てみましょう！
 
-            <span class="conclusion__byline">– Sacha and Raphaël</span>
+          <span class="conclusion__byline">– Sacha and Raphaël</span>
 
     ###########################################################################
     # Tshirt
@@ -129,13 +129,13 @@ translations:
 
     - key: blocks.source.note
       t: |
-        このチャートはリファラー、URLパラメーター、自由回答を集計したものです。
+          このチャートはリファラー、URLパラメーター、自由回答を集計したものです。
 
-        - State of JS: [State of JS](https://stateofjs.com)のメーリングリストです
+          - State of JS: [State of JS](https://stateofjs.com)のメーリングリストです
 
-        - State of CSS: State of CSSのメーリングリストと、`email`, `by email`といった文言を含めています
+          - State of CSS: State of CSSのメーリングリストと、`email`, `by email`といった文言を含めています
 
-        - Work: `work`, `colleagues`, `coworkers`といった文言を集めたものです
+          - Work: `work`, `colleagues`, `coworkers`といった文言を集めたものです
 
     ###########################################################################
     # Awards
@@ -163,17 +163,17 @@ translations:
 
     - key: sections.conclusion.description
       t: |
-            JavaScript開発者がCSSを1行書いたら、もうそれでCSS開発者になったと言えるのでしょうか？
+          JavaScript開発者がCSSを1行書いたら、もうそれでCSS開発者になったと言えるのでしょうか？
 
-            この公案はウェブ開発の世界にある、いまのトレンドを表しています。CSS開発者がどんどんとJavaScriptを学ぶ必要にかられ、またJavaScript開発者も`font-weight: bold;`以外にもCSSがあることに気づき始めているのです。
+          この公案はウェブ開発の世界にある、いまのトレンドを表しています。CSS開発者がどんどんとJavaScriptを学ぶ必要にかられ、またJavaScript開発者も`font-weight: bold;`以外にもCSSがあることに気づき始めているのです。
 
-            こうなると「CSSの現状」を問うのは、とても難しくなります。相手が誰によるかで答えが変わってしまうからです！様々な答えの中から、どの答えが正しいとどうやって決められるのでしょうか？
+          こうなると「CSSの現状」を問うのは、とても難しくなります。相手が誰によるかで答えが変わってしまうからです！様々な答えの中から、どの答えが正しいとどうやって決められるのでしょうか？
 
-            ここでもうひとつの公案です。正しい答えは、そんなものなんてないということです。ここで取り上げた多くのツール、設計手法、フレームワーク、ライブラリ、それぞれがフロントエンドのエコシステムの一部を担っているのです。
+          ここでもうひとつの公案です。正しい答えは、そんなものなんてないということです。ここで取り上げた多くのツール、設計手法、フレームワーク、ライブラリ、それぞれがフロントエンドのエコシステムの一部を担っているのです。
 
-            複雑なReactアプリを作る？Styled Componentsはとてもいいものです。静的なランディングページを作る？Sassを使えばそう間違えは起こしません。一時期のハイプこそ収まってはいますが、テーマやプラグインの数においてBootstrapにかなうものはありません。
+          複雑なReactアプリを作る？Styled Componentsはとてもいいものです。静的なランディングページを作る？Sassを使えばそう間違えは起こしません。一時期のハイプこそ収まってはいますが、テーマやプラグインの数においてBootstrapにかなうものはありません。
 
-            このプロジェクトは今後も、GitHubに毎週のように現れる新しいプロジェクトを見続けますが、ツールやテクニック、そしてなによりCSSの灯りを守ってきた人々を忘れてはいけません。CSSを2021年、そして未来にむけて進めるには、みんなの力が必要なのです！
+          このプロジェクトは今後も、GitHubに毎週のように現れる新しいプロジェクトを見続けますが、ツールやテクニック、そしてなによりCSSの灯りを守ってきた人々を忘れてはいけません。CSSを2021年、そして未来にむけて進めるには、みんなの力が必要なのです！
 
     ###########################################################################
     # Picks
