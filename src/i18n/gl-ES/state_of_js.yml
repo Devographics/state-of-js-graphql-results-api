@@ -1,0 +1,259 @@
+locale: gl-ES
+namespace: js
+translations:
+    ###########################################################################
+    # General
+    ###########################################################################
+
+    - key: general.survey_intro_js2019
+      t: >
+          O mundo JavaScript podería usar un pouco de clasificación.
+
+
+          Dende 2016 esta enquisa recompilou datos de máis de 20,000
+          desenvolvedores cada ano para identificar tendencias actuais e futuras.
+
+
+          Fai a enquisa e axúdanos a descobrir que librarías queren aprender os
+          desenvolvedores, cales son as que teñen os mellores índices de satisfacción, e moito máis.
+
+    ###########################################################################
+    # Sections
+    ###########################################################################
+
+    - key: sections.syntax.title
+      t: Sintaxe
+    - key: sections.syntax.description
+      t: A gramática de JavaScript.
+
+    - key: sections.language.title
+      t: Linguaxe
+    - key: sections.language.description
+      t: O vocabulario de JavaScript.
+
+    - key: sections.data_structures.title
+      t: Estruturas de Datos
+    - key: sections.data_structures.description
+      t: Como almacenas e manipulas datos.
+
+    - key: sections.browser_apis.title
+      t: APIs do Navegador
+    - key: sections.browser_apis.description
+      t: Características facilitadas polo navegador.
+
+    - key: sections.other_features.title
+      t: Outras Características
+    - key: sections.other_features.description
+      t: Outras tecnoloxías e patróns.
+
+    - key: sections.patterns.title
+      t: Patróns
+    - key: sections.patterns.description
+      t: Como prefires escribir código?
+
+    - key: sections.javascript_flavors.title
+      t: Sabores de JavaScript
+    - key: sections.javascript_flavors.description
+      t: Linguaxes que compilan a JavaScript
+
+    - key: sections.front_end_frameworks.title
+      t: Front-end Frameworks
+    - key: sections.front_end_frameworks.description
+      t: Front-end frameworks e librarías
+
+    - key: sections.datalayer.title
+      t: Capa de Datos
+    - key: sections.datalayer.description
+      t: Cargando e manexando datos nas aplicacións
+
+    - key: sections.back_end_frameworks.title
+      t: Back-end Frameworks
+    - key: sections.back_end_frameworks.description
+      t: JavaScript no servidor
+
+    - key: sections.testing.title
+      t: Testing
+    - key: sections.testing.description
+      t: Ferramentas para probar o teu código
+
+    - key: sections.mobile_desktop.title
+      t: Móbiles e Escritorio
+    - key: sections.mobile_desktop.description
+      t: JavaScript para dispositivos móbiles e aplicacións de escritorio
+
+    - key: sections.build_tools.title
+      t: Ferramentas de Construción
+    - key: sections.build_tools.description
+      t: Compilando e empaquetando código
+
+    - key: sections.tools_others.title
+      t: Outras ferramentas
+    - key: sections.tools_others.description
+      t: Outras ferramentas JavaScript.
+
+
+    ###########################################################################
+    # Features
+    ###########################################################################
+
+    # syntax
+    - key: features.destructuring
+      t: Desestruturando
+    - key: features.destructuring.description
+      t: 'Exemplo: `const { foo } = bar`'
+    - key: features.spread_operator
+      t: Spread operator
+    - key: features.spread_operator.description
+      t: 'Exemplo: `[...array1, ...array2]`'
+    - key: features.arrow_functions
+      t: Arrow Functions
+    - key: features.arrow_functions.description
+      t: 'Exemplo: `const foo = () => {}`'
+    - key: features.nullish_coalescing
+      t: Nullish Coalescing
+    - key: features.nullish_coalescing.description
+      t: >
+        Exemplo: `const foo = 0 ?? 42`
+    - key: features.optional_chaining
+      t: Optional Chaining
+    - key: features.optional_chaining.description
+      t: >
+        Exemplo: `const dogName = adventurer.dog?.name`
+    - key: features.private_fields
+      t: Private Fields
+    - key: features.private_fields.description
+      t: >
+        Exemplo: `class ClassWithPrivateField { #privateField }`
+
+    # language
+    - key: features.proxies
+      t: Proxies
+    - key: features.async_await
+      t: Async/Await
+    - key: features.promises
+      t: Promesas
+    - key: features.decorators
+      t: Decoradores
+    - key: features.decorators.description
+      t:  >
+        Na súa forma máis sinxela, un decorador é unha forma de
+        envolver un anaco de código con outro, literalmente, "decorándoo".
+    - key: features.dynamic_import
+      t: Importación Dinámica
+    - key: features.dynamic_import.description
+      t: >
+        Exemplo: <code>await import('/modules/my-module.js')</code>
+
+    # data structures
+    - key: features.maps
+      t: Mapas
+    - key: features.sets
+      t: Sets
+    - key: features.typed_arrays
+      t: Typed Arrays
+    - key: array_prototype_flat
+      t: Array.prototype.flat
+
+    # browser apis
+    - key: features.service_workers
+      t: Service Workers
+    - key: features.local_storage
+      t: LocalStorage
+    - key: features.i18n
+      t: i18n
+    - key: features.web_components
+      t: Compoñentes Web
+    - key: features.web_audio
+      t: API Web para Audio
+    - key: features.webgl
+      t: WebGL
+    - key: features.web_animations
+      t: API Web para Animacións
+    - key: features.webrtc
+      t: WebRTC
+    - key: features.web_speech
+      t: API Web para Sintetizado de Voz
+    - key: features.webvr
+      t: WebVR
+    - key: features.websocket
+      t: Websocket
+    - key: features.fetch
+      t: API para chamadas ao Servidor (Fetch)
+
+    # other features
+    - key: features.pwa
+      t: Aplicacións Web Progresivas (PWA)
+    - key: features.wasm
+      t: WebAssembly (WASM)
+
+    # patterns
+    - key: patterns.object_oriented_programming
+      t: Programación Orientada a Obxectos
+    - key: features.functional_programming
+      t: Programación Funcional
+    - key: features.reactive_programming
+      t: Programación Reactiva
+
+    ###########################################################################
+    # Tools
+    ###########################################################################
+
+    - key: tools.angular.description
+      t: >
+        Date conta de que esta pregunta só fixa a experiencia con [Angular](https://angular.io/)
+        coma obxectivo, e específicamente *non* se aplica ao obsoleto [AngularJS](https://angularjs.org/).
+   
+    ###########################################################################
+    # Other Tools
+    ###########################################################################
+
+    - key: tools_others.runtimes
+      t: JavaScript Runtimes
+    - key: tools_others.runtimes.description
+      t: Que motores/runtimes/entornos de execución usas con regularidade?
+    - key: tools_others.runtimes.others
+      t: Outros Runtimes
+    - key: tools_others.runtimes.others.description
+      t: Outras respostas (eidos de texto libre).
+
+    - key: tools_others.package_registries
+      t: Rexistros de Paquetes
+    - key: tools_others.package_registries.description
+      t: De que rexistros de paquetes colles paquetes con regularidad?
+    - key: tools_others.package_registries.others
+      t: Outros Rexistros de Paquetes
+    - key: tools_others.package_registries.others.description
+      t: Outras respostas (eidos de texto libre).
+
+    ###########################################################################
+    # Opinions
+    ###########################################################################
+
+    - key: opinions.js_moving_in_right_direction
+      t: JavaScript móvese na dirección axeitada
+
+    - key: opinions.building_js_apps_overly_complex
+      t: Construir aplicacións con JavaScript é demasiado complicado agora mesmo
+
+    - key: opinions.js_over_used_online
+      t: JavaScript se usa demasiado online
+
+    - key: opinions.enjoy_building_js_apps
+      t: Disfruto construindo aplicacións con JavaScript
+
+    - key: opinions.would_like_js_to_be_main_lang
+      t: Me gustaría que JavaScript fose a miña linguaxe de programación principal
+
+    - key: opinions.js_ecosystem_changing_to_fast
+      t: O ecosistema de JavaScript cambia demasiado rápido
+
+    - key: opinions.missing_from_js
+      t: Que crees que lle falta nestes momentos a JavaScript?
+    - key: opinions.missing_from_js.description
+      t: Cousas que gostarías de ver en JavaScript algún día
+
+    - key: happiness.state_of_the_web
+      t: Como de satisfeito estás có estado xeral das tecnoloxías web?
+
+    - key: happiness.state_of_js
+      t: Como de satisfeito estás có estado xeral de JavaScript?
