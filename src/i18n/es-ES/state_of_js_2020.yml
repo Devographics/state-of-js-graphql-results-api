@@ -44,9 +44,9 @@ translations:
 
             ### Credits & Stuff
 
-            La encuesta sobre el estado de JS está creado y mantenida por [Sacha Greif](https://twitter.com/sachagreif) y [Raphaël Benitte](https://twitter.com/benitteraphael).
+            La encuesta sobre el estado de JS está creada y mantenida por [Sacha Greif](https://twitter.com/sachagreif) y [Raphaël Benitte](https://twitter.com/benitteraphael).
 
-            Mira [este video](https://www.youtube.com/watch?v=o4w1qEnZxbM) para aprender more sobre los aspectos técnicos del proyecto. ¿Preguntas? ¿Sugerencias? [Envía un mail](mailto:hello@stateofjs.com) o [únete a nuestro Discord](https://discord.gg/zRDb35jfrt).
+            Mira [este video](https://www.youtube.com/watch?v=o4w1qEnZxbM) para aprender más sobre los aspectos técnicos del proyecto. ¿Preguntas? ¿Sugerencias? [Envía un mail](mailto:hello@stateofjs.com) o [únete a nuestro Discord](https://discord.gg/zRDb35jfrt).
 
             Y ahora ¡veamos que ha pasado con JavaScript este año!
 
@@ -147,7 +147,7 @@ translations:
 
     - key: sections.resources.description
       t: |
-          Una gran cantidad de recursos han sido listados aquí, y estamos seguros que encontrarás algunos que no hayas oído 
+          Una gran cantidad de recursos han sido listados aquí, y estamos seguros que encontrarás algunos que no hayas oído
           para seguir!
 
     - key: sections.opinions.description
@@ -242,7 +242,7 @@ translations:
             Insomnia es una aplicación que te permite diseñar, probar y desplegar API
             Workflows con una limpia y simplificada interfaz- soporta REST y GraphQL,
             aunque claramente funciona mejor para REST.
-    
+
     - key: picks.ladyleet.bio
       t: This Dot Labs, GDE, MVP
     - key: picks.ladyleet.description
@@ -256,7 +256,7 @@ translations:
       t: |
             Trabajar con módulos en JavaScript a sido complicado. ES2020 viene
             con ES Modules para acabar con eso. Incluso es estable en Node.ja ¡Yei!
-    
+
     - key: picks.cassidoo.bio
       t: Principal Developer Experience Engineer en Netlify
     - key: picks.cassidoo.description
@@ -264,7 +264,7 @@ translations:
             Ben es una de las persona más generosas de la comunidad de JS.
             Está activo en el código abierto (en el equipo principal de Vue), crea contenido
             de forma consistente para que aprendan los desarrolladores, y es generoso con su tiempo.
-            
+
     - key: picks.lauragift_.bio
       t: Frontend Developer @ PassionatePeople
     - key: picks.lauragift_.description
