@@ -39,7 +39,7 @@ translations:
           ### Credits & Stuff
 
           このサイトで使われている書体はIBM Plex Monoです。
-          
+
           質問やフィードバックがあればぜひ[教えてください！](mailto:hello@stateofjs.com)
 
           では、2020年のCSSについて見てみましょう！
@@ -256,7 +256,7 @@ translations:
           Sergio has recently fixed lots of Flexbox in WebKit and even some in Chromium, 
           notably bringing flex gap to WebKit, 
           which means that soon it will be available on all modern browsers. 
-    
+
     - key: picks.jina.bio
       t: Design systems advocate and practitioner
     - key: picks.jina.description
