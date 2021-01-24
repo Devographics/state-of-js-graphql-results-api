@@ -1,4 +1,4 @@
-locale: en-US
+locale: ja-JP
 translations:
     ###########################################################################
     # Introduction
@@ -45,42 +45,43 @@ translations:
 
             <span class="conclusion__byline">– Sacha and Raphaël</span>
       t: |
+            <span class="first-letter">忘</span>れましょう、CSSについて知っているすべてを。忘れられなくても、多くのことを見直す準備はしておきましょう。あなたが私と同じく、10年以上CSSを書いているひとなら、2020年のCSSは私たちが慣れ親しんだものとまったくもって違うものに見えるでしょう。
 
-            <span class="first-letter">F</span>orget everything you know about CSS. Or at least, be ready to reconsider a lot of it. If like me you've been writing CSS for over a decade, CSS in 2020 looks nothing like what you were used to.
+            ブレークポイントの代わりにCSS Gridを使えば、様々はビューポートの大きさに対応するレスポンシブなレイアウトを、ずっと短いコードで書けます。グローバルなスタイルシートではなく、CSS-in-JSを使ってコンポーネントとスタイルを同じ場所に置くと、テーマのカスタマイズをしやすいデザインシステムを実現できます。
 
-            Instead of breakpoints, we can now leverage CSS Grid to make dynamic, responsive layouts that adapt to any viewport size with fewer lines of code. Instead of relying on global stylesheets, CSS-in-JS lets us colocate our styles with our components to build themeable design systems.
+            ほとんどの人にとって、Tailwind CSSは突然現れたものだったでしょう。そのユーティリティファーストなCSSという思想により、セマンティックなクラス名をつけようというこれまでの教えを考え直させました。
 
-            And most of all, Tailwind CSS has burst onto the scene and, through its use of utility-first CSS, forced us to reconsider the traditional dogma of semantic class names.
+            これらの変化は、意気がったブログ記事や荒れたツイートを生み出してしまうかもしれません。このサイトの提供するデータや、トレンドのハイライトが、来年も慌ただしくなるであろうCSS界を進む手助けになることを祈っています。
 
-            Whether all this change makes you want to write a hyped-up blog post or an angry Twitter rant, we are here to present the data, highlight the trends, and hopefully guide you through another eventful year of CSS!
+            ### チーム
 
-            ### Team
+            State of CSSは、私たちが開発・管理しています。
 
-            The State of CSS Survey is created and maintained by:
+            - [Sacha Greif](https://twitter.com/sachagreif): デザイン、ライティング、コーディング
+            - [Raphaël Benitte](https://twitter.com/benitteraphael): データ分析、ビジュアリゼーション
 
-            - [Sacha Greif](https://twitter.com/sachagreif): Design, writing, coding
-            - [Raphaël Benitte](https://twitter.com/benitteraphael): Data analysis, data visualizations
+            ### データのダウンロード
 
-            ### Download Our Data
+            [アンケートの回答データ（JSON）をダウンロードできます](https://www.kaggle.com/sachag/state-of-css)。何か新しいビジュアリゼーションをつくったら、ぜひ教えてください。
 
-            You can [download the raw JSON data for this survey](https://www.kaggle.com/sachag/state-of-css). Let us know if you end up making your own data visualizations!
+            ### そのほかのリンク
 
-            ### Other Links
-
-            - [State of CSS Homepage](https://stateofcss.com)
+            - [State of CSSホームページ](https://stateofcss.com)
             - [State of JS](https://stateofjs.com)
 
             ### Thanks
 
-            Thanks to all the people who helped us design the survey, including [Chen Hui-Jing](http://chenhuijing.com/), [Philip Jägenstedt](https://blog.foolip.org/), [Adam Argyke](https://nerdy.dev/), [Ahmad Shadeed](https://www.ishadeed.com/), [Robert Flack](https://github.com/flackr), [Dominic Nguyen](https://www.chromatic.com/), [Fantasai](http://fantasai.inkedblade.net/), and [Kilian Valkhof](https://kilianvalkhof.com/).
+            アンケートの設計を手伝ってくれたみなさん、とくに[Chen Hui-Jing](http://chenhuijing.com/)、[Philip Jägenstedt](https://blog.foolip.org/)、[Adam Argyke](https://nerdy.dev/)、[Ahmad Shadeed](https://www.ishadeed.com/)、[Robert Flack](https://github.com/flackr)、[Dominic Nguyen](https://www.chromatic.com/)、[Fantasai](http://fantasai.inkedblade.net/)、[Kilian Valkhof](https://kilianvalkhof.com/)に感謝します。
 
-            Additional thanks to [Alexey Pyltsyn](https://github.com/lex111) for his help with translations.  
+            翻訳について手伝ってくれた[Alexey Pyltsyn](https://github.com/lex111)にも感謝します。
 
             ### Credits & Stuff
 
-            The site is set in IBM Plex Mono. Questions? Feedback? [Get in touch!](mailto:hello@stateofjs.com)
+            このサイトで使われている書体はIBM Plex Monoです。
+            
+            質問やフィードバックがあればぜひ[教えてください！](mailto:hello@stateofjs.com)
 
-            And now, let's see what CSS has been up to this year!
+            では、2020年のCSSについて見てみましょう！
 
             <span class="conclusion__byline">– Sacha and Raphaël</span>
 
@@ -90,7 +91,7 @@ translations:
 
     - key: sections.tshirt.title
       t: T-shirt
-      t: T-shirt
+      t: Tシャツ
 
     - key: sections.tshirt.description
       t: |
@@ -102,17 +103,17 @@ translations:
 
           So whether you're going to a conference, a job interview, or just work, this shirt will demonstrate your CSS mastery like no other garment can!
       t: |
-          ## Support the survey and look good in the process!
+          ## アンケートをサポートしておしゃれになろう！
 
-          A quick announcement before the survey results. Introducing our very own 🎈🎉👕 State of CSS T-shirt 👕🎉🎈!
+          結果の前に、すこしお知らせをさせてください。🎈🎉👕 State of CSS Tシャツ 👕🎉🎈 ができました！
 
-          What makes this shirt truly special is that it's the only piece of clothing that also teaches you practical, real-world CSS techniques.
+          このTシャツの何がすごいかというと、実際のCSSテクニックを教えてくれるただひとつの衣類なのです。
 
-          So whether you're going to a conference, a job interview, or just work, this shirt will demonstrate your CSS mastery like no other garment can!
+          カンファレンスでも、面接でも、仕事でも、このTシャツはあなたがCSSに精通していることを示してくれます。ほかのTシャツではこうはいきませんよ！
     
     - key: tshirt.about
       t: About the T-shirt
-      t: About the T-shirt
+      t: Tシャツについて
 
     - key: tshirt.description
       t: |
@@ -121,18 +122,17 @@ translations:
           We use a high-quality, super-soft tri-blend shirt with a slim fit. 
           This shirt sizes small, so if you prefer a looser fit we recommend ordering one size up from what you usually wear (I'm wearing an M in the photos).
       t: |
-          The shirt features the State of CSS logo along with snippets of the actual CSS code used to create each shape. Who knows, you might learn a thing or two!
+          このTシャツはState of CSSのロゴと、その実装に使ったCSSのコードをプリントしています。もしかすると、何か新たに学べるかもしれませんよ！
 
-          We use a high-quality, super-soft tri-blend shirt with a slim fit. 
-          This shirt sizes small, so if you prefer a looser fit we recommend ordering one size up from what you usually wear (I'm wearing an M in the photos).
+          このTシャツは、高品質でとてもやわらかなトライブレンドの生地を使っています。スリムフィットなので、ゆったり着たい場合にはいつものサイズのひとつ上をおすすめします（写真はMを着用）。
 
     - key: tshirt.getit
       t: Get It
-      t: Get It
+      t: 購入する
 
     - key: tshirt.price
       t: USD $24 + shipping
-      t: USD $24 + shipping
+      t: 24ドル（＋送料）
 
     ###########################################################################
     # Sections Introductions
@@ -143,22 +143,20 @@ translations:
           This year's survey reached **11,492** people in **102** countries. For the first time this year,
           we were able to translate the survey questions in multiple languages thanks to an awesome team of volunteers.
       t: |
-          This year's survey reached **11,492** people in **102** countries. For the first time this year,
-          we were able to translate the survey questions in multiple languages thanks to an awesome team of volunteers.
+          今年のアンケートは**102**か国、**11,492**人もの人が回答してくれました。また、すばらしい翻訳ボランティアのみなさんの力により、今回初めて複数の言語で結果をお届けできるようになりました。
 
     - key: sections.features.description
       t: |
           CSS has seen a surge of new features in recent years, so as you'd expect adoption is
           lagging a bit behind as the community takes its time to absorb new properties.
       t: |
-          CSS has seen a surge of new features in recent years, so as you'd expect adoption is
-          lagging a bit behind as the community takes its time to absorb new properties.
+          CSSはここ数年、新しい機能が急増しています。新しいプロパティが使われるまでには時間がかかるので、機能の普及は少し遅れてやってくるでしょう。
 
     - key: sections.units_selectors.description
       t: |
           We're willing to bet you'll find a few things you didn't know about in this section!
       t: |
-          We're willing to bet you'll find a few things you didn't know about in this section!
+          知らなかったことがきっとあるはずです！賭けてもいいですよ。
 
     - key: sections.technologies.description
       t: |
@@ -166,17 +164,14 @@ translations:
           now have to accomodate newer entrants like Tailwind CSS. To say nothing of the whole CSS-in-JS
           movement which, while it has yet to cross over to the CSS mainstream, is nonetheless quite dynamic. 
       t: |
-          The CSS ecosystem is going through a renewal of sorts, as older mainstays like Bootstrap 
-          now have to accomodate newer entrants like Tailwind CSS. To say nothing of the whole CSS-in-JS
-          movement which, while it has yet to cross over to the CSS mainstream, is nonetheless quite dynamic. 
+          CSSのエコシステムはリニューアルの流れにあります。Bootstrapのようなベテランの主力がいる中に、新たにTailwind CSSなどの新人が登場しました。CSS-in-JSのムーブメントは言わずもがなです。メインストリームなCSSとのクロスオーバーが実現しているとはまだ言えませんが、とても強い流れであるのは間違いありません。
 
     - key: sections.other_tools.description
       t: |
           No big surprises here, but it's worth highlighting the appearance of development-focused browsers
           like Polypane and Sizzy, which go a step further than traditional devtools.
       t: |
-          No big surprises here, but it's worth highlighting the appearance of development-focused browsers
-          like Polypane and Sizzy, which go a step further than traditional devtools.
+          特に驚きはないでしょう。しかし、旧来の開発者ツールより一歩踏み込み、開発にフォーカスしたPolypaneやSizzyなどのブラウザが登場したことは注目に値するでしょう。
 
     - key: sections.environments.description
       t: |
@@ -184,9 +179,7 @@ translations:
           of reasons media like print and email remain unexplored by a majority of CSS developers. Might they
           turn out to be the next frontier of CSS…?
       t: |
-          One of CSS's core strengths is its ability to adapt to different environment, yet for a variety
-          of reasons media like print and email remain unexplored by a majority of CSS developers. Might they
-          turn out to be the next frontier of CSS…?
+          CSSが元来持っている強みのひとつに、異なる環境に適応できることがあります。しかし印刷メディアやメールなど、CSS開発者のほとんどが踏み入れていない領域もあります。これらがCSSの次のフロンティアになるかもしれませんよ…？
 
     - key: sections.resources.description
       t: |
@@ -194,17 +187,14 @@ translations:
           and feature many outstanding blogs and podcasts which we are looking forward to officially adding
           to the survey next year!
       t: |
-          The “other answers” results in this section highlight the richness and diversity of the CSS community,
-          and feature many outstanding blogs and podcasts which we are looking forward to officially adding
-          to the survey next year!
+          「そのほかの回答」に書かれた回答が、CSSコミュニティの豊かさ、多様さを表していることが分かります。みなさんが取り上げたブログやポッドキャストが、来年のアンケートの選択肢に加わるかもしれません！
 
     - key: sections.opinions.description
       t: |
           These opinions paint a picture of a language getting more mature, but also more complex. And perhaps
           –at least while we struggle to keep up with the pace of change– a little less enjoyable?
       t: |
-          These opinions paint a picture of a language getting more mature, but also more complex. And perhaps
-          –at least while we struggle to keep up with the pace of change– a little less enjoyable?
+          みなさんの意見が、言語がより成熟してきたこと、一方で複雑になったことをうかがわせます。そして、変化のペースについていくのが大変なことをふまえると、私たちはCSSをあまり楽しめていないのかもしれません。
 
           
     ###########################################################################
@@ -215,13 +205,13 @@ translations:
       t: |
           If you're interested in learning more, we [wrote a blog post](https://dev.to/sachagreif/is-our-survey-biased-against-women-49oj) that addresses the survey's gender dynamics.
       t: |
-          If you're interested in learning more, we [wrote a blog post](https://dev.to/sachagreif/is-our-survey-biased-against-women-49oj) that addresses the survey's gender dynamics.
+          回答者のジェンダーのバランスについては、[ブログ記事](https://dev.to/sachagreif/is-our-survey-biased-against-women-49oj)を書いています。
 
     - key: blocks.currently_missing_from_css.note
       t: |
           You can explore the full dataset of answers to this question in [this side project](https://whatsmissingfromcss.com/).
       t: |
-          You can explore the full dataset of answers to this question in [this side project](https://whatsmissingfromcss.com/).
+          質問への回答の完全なデータセットは、[サイドプロジェクト](https://whatsmissingfromcss.com/)を立ち上げそこで公開しました。
 
     - key: blocks.source.note
       t: >
@@ -233,15 +223,14 @@ translations:
         - State of CSS: the State of CSS mailing list; also matches `email`, `by email`, etc.
 
         - Work: matches `work`, `colleagues`, `coworkers`, etc.
-      t: >
-      
-        This chart aggregates a mix of referrers, URL parameters, and freeform answers. 
+      t: |
+        このチャートはリファラー、URLパラメーター、自由回答を集計したものです。
 
-        - State of JS: the [State of JS](https://stateofjs.com) mailing list.
+        - State of JS: [State of JS](https://stateofjs.com)のメーリングリストです
 
-        - State of CSS: the State of CSS mailing list; also matches `email`, `by email`, etc.
+        - State of CSS: State of CSSのメーリングリストと、`email`, `by email`といった文言を含めています
 
-        - Work: matches `work`, `colleagues`, `coworkers`, etc.
+        - Work: `work`, `colleagues`, `coworkers`といった文言を集めたものです
 
     ###########################################################################
     # Awards
@@ -249,23 +238,23 @@ translations:
 
     - key: award.feature_adoption_delta_award.comment
       t: With a **{value}** progression in 2020, this was the year CSS Grid crossed over from new technology to established tool.
-      t: With a **{value}** progression in 2020, this was the year CSS Grid crossed over from new technology to established tool.
+      t: 2020年に**{value}**の増加をみせたCSS Gridは、新しい技術からすっかり定着した技術になったといえるでしょう。
 
     - key: award.tool_usage_delta_award.comment
       t: No other tool comes even close to Tailwind CSS's dramatic **{value}** progression over the last year.
-      t: No other tool comes even close to Tailwind CSS's dramatic **{value}** progression over the last year.
+      t: Tailwind CSSの昨年比**{value}**という数字に対抗できるツールはありませんでした。
 
     - key: award.tool_satisfaction_award.comment
       t: PostCSS's **{value}** satisfaction ratio shows that you can't beat doing one thing really, really well.
-      t: PostCSS's **{value}** satisfaction ratio shows that you can't beat doing one thing really, really well.
+      t: PostCSSの**{value}**という満足度は、ひとつのことをとてもうまくやっているプロダクトにかなうものはないことを示しています。
 
     - key: award.tool_interest_award.comment
       t: With a **{value}** ratio, CSS Modules have generated the most interest among CSS developers this year.
-      t: With a **{value}** ratio, CSS Modules have generated the most interest among CSS developers this year.
+      t: \**{value}**という数字から、CSS開発者にとってCSS Modulesがどれだけ興味を集めたかがわかります。
 
     - key: award.most_write_ins_award.comment
       t: Many questions also accepted write-in answers, and with **{value}** mentions PhpStorm was the most popular item overall.
-      t: Many questions also accepted write-in answers, and with **{value}** mentions PhpStorm was the most popular item overall.
+      t: 多くの設問で自由入力欄を設けましたが、最も多かったのが**{value}**件の回答を集めたPhpStormでした。
 
       
     ###########################################################################
@@ -286,17 +275,17 @@ translations:
 
             So while we keep an eye on the shiny new toys popping up on GitHub every week, let's not forget the tools, techniques, and most of all people who have carried the CSS torch up to now. We'll need everybody if we're to keep CSS moving forward into 2021 and beyond!
       t: |
-            If a JavaScript developer writes a line of CSS code, are they now a CSS developer?
-            
-            This programming *kōan* illustrates a clear trend in the web development world: as more and more CSS developers are tasked with learning JavaScript, so are JavaScript developers starting to realize there might be more to this whole CSS thing than just `font-weight: bold;`. 
+            JavaScript開発者がCSSを1行書いたら、もうそれでCSS開発者になったと言えるのでしょうか？
 
-            So asking about “the State of CSS” is inherently a tricky proposition: depending on who you ask you might get completely different answers! And how do you know which one's right?
+            この公案はウェブ開発の世界にある、いまのトレンドを表しています。CSS開発者がどんどんとJavaScriptを学ぶ必要にかられ、またJavaScript開発者も`font-weight: bold;`以外にもCSSがあることに気づき始めているのです。
 
-            Here's another kōan for you: the right answer is that there *is* no right answer. Each of the many tools, methodologies, frameworks, and libraries featured here has its place in the vast front-end ecosystem. 
+            こうなると「CSSの現状」を問うのは、とても難しくなります。相手が誰によるかで答えが変わってしまうからです！様々な答えの中から、どの答えが正しいとどうやって決められるのでしょうか？
 
-            Building a complex React app? Styled Components is a great option. Designing a static landing page? You can't go wrong with Sass! And even though Bootstrap has lost some of its original hype factor, you can't beat it when it comes to sheer number of themes and plugins.
+            ここでもうひとつの公案です。正しい答えは、そんなものなんてないということです。ここで取り上げた多くのツール、設計手法、フレームワーク、ライブラリ、それぞれがフロントエンドのエコシステムの一部を担っているのです。
 
-            So while we keep an eye on the shiny new toys popping up on GitHub every week, let's not forget the tools, techniques, and most of all people who have carried the CSS torch up to now. We'll need everybody if we're to keep CSS moving forward into 2021 and beyond!
+            複雑なReactアプリを作る？Styled Componentsはとてもいいものです。静的なランディングページを作る？Sassを使えばそう間違えは起こしません。一時期のハイプこそ収まってはいますが、テーマやプラグインの数においてBootstrapにかなうものはありません。
+
+            このプロジェクトは今後も、GitHubに毎週のように現れる新しいプロジェクトを見続けますが、ツールやテクニック、そしてなによりCSSの灯りを守ってきた人々を忘れてはいけません。CSSを2021年、そして未来にむけて進めるには、みんなの力が必要なのです！
 
     ###########################################################################
     # Picks
