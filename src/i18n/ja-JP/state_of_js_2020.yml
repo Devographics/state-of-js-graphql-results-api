@@ -17,7 +17,7 @@ translations:
 
           <span class="first-letter">2</span>020年と同じように、JavaScriptはなんとかして前進しました。Optional ChainingやNullish Coalescingなどの新機能のおかげで言語自体も成長を続けていますし、TypeScriptの普及は、静的型付けを普及させることで、物事をまったく別のレベルに引き上げています。
 
-          そしてフレームワークの面では、落ち着いたと思ったところにSvelteが現れ、フロントエンドに新たな手法を取り入れることで全てを揺るがしています。そしてビルドツールにおいても、数年にわたるWebpackの覇権の後、新しい傾向が見られるようになりました。 
+          そしてフレームワークの面では、落ち着いたと思ったところにSvelteが現れ、フロントエンドに新たな手法を取り入れることで全てを揺るがしています。そしてビルドツールにおいても、数年にわたるWebpackの覇権の後、新しい傾向が見られるようになりました。
 
           しかし、これまでと今回の違いは「古い」もの–相対的に言って–が、どこにも行ってないことです。SvelteとSnowpackはよいものですが、それはReactとWebpackも同じです。そして確かに、それらは最終的に偉大なJavaScript Churnの犠牲になりますが、何年も何年もそれが続くわけではありません。
 
@@ -25,7 +25,7 @@ translations:
 
           ### Join Our Launch Livestream!
 
-          We'll be doing a [special launch livestream](https://stateofjs.com/2020stream/) in collaboration with the folks at the CodeItLive Twitch channel. Join us along with guests such as Sarah Drasner, Josh W. Comeau, and Trent C. Dodds to discuss this past year's JavaScript trends!
+          CodeItLive Twitchチャンネルの皆さんと一緒に、[スペシャルライブストリーミング](https://stateofjs.com/2020stream/)を行います。Sarah Drasner、Josh W. Comeau、Trent C. Doddsなどのゲストたちと一緒に、去年のJavaScriptのトレンドについて語り合いましょう！
 
           ### Download Our Data
 
@@ -76,7 +76,7 @@ translations:
 
     - key: tshirt.description
       t: |
-          印刷と発送は[Cotton Bureau](https://cottonbureau.com/people/state-of-js)によって行われます。デザインはa プレミアムネクストレベルブラックのとても柔らかいトライブレンドシャツにプリントされています。
+          印刷と発送は[Cotton Bureau](https://cottonbureau.com/people/state-of-js)によって行われます。デザインはプレミアムネクストレベルブラックのとても柔らかいトライブレンドシャツにプリントされています。
 
     - key: tshirt.getit
       t: 手に入れる
@@ -123,9 +123,7 @@ translations:
 
     - key: sections.build_tools.description
       t: |
-          Webpackの優位性が議論の結論になったように見えたところでしたが、ビルドツールは the build tools scene
-          has again exploded with SnowpackやESBuildのような新参者によって、 2017年以来初めての場面に導きました。leading us to give it a full 
-          section .
+          ビルドツールについてはWebpackの優位性が議論の結論になったように見えましたが、SnowpackやESBuildのような新参者によって再び爆発的に発展して、2017年以来初めての局面に突入しました。
 
     - key: sections.mobile_desktop.description
       t: |
@@ -150,11 +148,11 @@ translations:
     - key: blocks.source.note
       t: >
 
-          このチャートはリファラー、URL,パラメーター、フリーフォームの回答を集計したものです。
+          このチャートはリファラー、URL,パラメーター、フリーフォームの回答の組み合わせを集計したものです。
 
-          - State of JS: the [State of JS](https://stateofjs.com) mailing list; also matches `email`, `by email`, etc.
+          - State of JS: [State of JS](https://stateofjs.com)のメーリングリスト; `email`や`by email`なども含む
 
-          - State of CSS: the [State of CSS](https://stateofcss.com/) mailing list
+          - State of CSS: [State of CSS](https://stateofcss.com/)のメーリングリスト
 
           - Work: matches `work`, `colleagues`, `coworkers`, etc.
 
@@ -198,7 +196,7 @@ translations:
     - key: picks.my_2020_pick
       t: 'My 2020 Pick: '
     - key: picks.intro
-      t: JavaScriptコミュニティのメンバーに、彼らの「pick of the year」を共有してもらうようお願いしました！
+      t: JavaScriptコミュニティのメンバーに、彼らの「pick of the year」を共有してもらいまいした！
 
     - key: picks.joshwcomeau.bio
       t: Software-engineer-turned-educator
