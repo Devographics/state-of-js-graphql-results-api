@@ -22,10 +22,10 @@ translations:
       t: 'Porcentaje completado:'
 
     - key: partners.thanks
-      t: ¡Gracias a nuestros colaboradores por darnos su apoyo!
+      t: ¡Gracias a nuestros socios por apoyarnos!
 
     - key: partners.learn_more
-      t: Saber más.
+      t: Aprender más.
 
     ###########################################################################
     # Options
@@ -75,6 +75,13 @@ translations:
     - key: ranges.selector.company_size
       t: Tamaño de la compañía
 
+    - key: ranges.selector.years_of_experience
+      t: Experiencia
+    - key: ranges.selector.yearly_salary
+      t: Salario
+    - key: ranges.selector.company_size
+      t: Tamaño de la Empresa
+
     ###########################################################################
     # Sections
     ###########################################################################
@@ -95,18 +102,18 @@ translations:
       t: Conclusión
 
     - key: sections.support.title
-      t: Danos tu apoyo
+      t: Apóyanos
     - key: sections.support.description
       t: >
-        Mantenemos la encuentra como un proyecto paralelo, así que para hacerlo
-        sostenible estamos buscando continuamente colaboradores que nos echen una mano,
-        tanto de forma financiera como dándola a conocer.
-        Si  crees que puedes ayudarnos de alguna forma, ¡no dudes en [ponerte en contacto con nosotros](mailto:hello@stateofjs.com)!
+        Realizamos esta encuesta como un proyecto paralelo, pero para hacer el
+        proyecto sostenible siempre estamos buscando socios que puedan apoyarnos,
+        ya sea económicamente o ayudándonos a correr la voz. Si crees que puedes ayudar de 
+        alguna manera, no dudes en [ponerte en contacto](mailto:hello@stateofjs.com)!
 
     - key: sections.awards.title
       t: Premios
     - key: sections.awards.description
-      t: Cosas que han destacado este año.
+      t: Cosas que destacaron este año.
 
     ###########################################################################
     # User Info
@@ -236,26 +243,26 @@ translations:
 
     # cardinality
     - key: blocks.all_sections_tools_cardinality_by_user.title
-      t: Cardinalidad del Uso de Tecnologías
+      t: Cardinalidad de Uso de Tecnología
     - key: blocks.all_sections_tools_cardinality_by_user.description
-      t: Para cada sección, qué porcentaje de encuestados usa (definido como habiendo respondido “lo volvería a usar”) una, dos, tres, etc, tecnologías.
+      t: Para cada sección, qué porcentaje de encuestados usa (definido como haber respondido “volvería a usar”) una, dos, tres, etc. tecnologías.
 
     - key: blocks.front_end_frameworks_tools_cardinality_by_user.title
-      t: Cardinalidad del Uso de Tecnologías
+      t: Cardinalidad de Uso de Tecnología
     - key: blocks.front_end_frameworks_tools_cardinality_by_user.description
-      t: Qué porcentaje de encuestados usa (definido como habiendo respondido “lo volvería a usar”) uno, dos, tres, etc, elementos de esta sección.
+      t: Qué porcentaje de encuestados utiliza (definido como haber respondido "volvería a utilizar") uno, dos, tres, etc. elementos de esta sección.
 
     # tools arrows
     - key: blocks.tools_arrows.title
       t: Cambios a lo Largo del Tiempo
     - key: blocks.tools_arrows.description
       t: |
-          Cada línea va desde 2016 a 2020. Más arriba significa que la tecnología ha sido usada por más gente,
-          y más hacia la derecha significa que hay más gente que quiere aprenderla; o que la han usado y la volvería a usar.
+          Cada línea va de 2016 a 2020. Un punto más alto significa que una tecnología ha sido utilizada por más personas,
+          y un punto más a la derecha significa que más usuarios quieren aprenderla; o la han usado y volvería a usarla.
     - key: blocks.tools_arrows.note
       t: |
           - Algunas líneas se saltan años.
-          - No se muestran tecnologías con sólo un año de información. 
+          - No se muestran las tecnologías con solo un año de datos.
 
     # tools quadrant
     - key: blocks.tools_quadrant.title
@@ -271,9 +278,9 @@ translations:
 
           - **EVITAR**: Bajo uso, baja satisfacción. Tecnologías que probablemente debería evitar a día de hoy.
 
-          - **ANALIZAR**: Muy utilizadas, baja satisfacción. Piénsatelo bien, si son tecnologías que estés usando en estos momentos.
+            - **ANALIZAR**: Muy utilizadas, baja satisfacción. Piénsatelo bien, si son tecnologías que estés usando en estos momentos.
     - key: blocks.tools_quadrant.note
-      t: Nótese que TypeScript aparece dos veces porque se incluye tanto en la sección de Sabores de JavaScript como en la de Herramientas de Construcción.
+      t: Ten en cuenta que TypeScript aparece dos veces en el gráfico porque está incluido en las secciones JavaScript Flavors y Build Tools. 
 
     - key: blocks.tools_quadrant.interest.description
       t: |
@@ -295,14 +302,14 @@ translations:
 
     # tool positive/negative split ("marimekko" chart)
     - key: blocks.tools_experience_marimekko.title
-      t: Separación Positiva/Negativa
+      t: División Positiva/Negativa
     - key: blocks.tools_experience_marimekko.description
       t: |
-          Esta gráfica separa experiencias positivas (“quiero aprender”,
-          “lo volvería a usar”) de las negativas (“no me interesan”,
-          “no las volvería a usar”) a ambos lados del eje central.
+          Este gráfico se divide en experiencias positivas ("quiero aprender", "volvería a usar") vs.
+          negativas ("no me interesa", "no volvería a usar") en
+          ambos lados de un eje central.
 
-          El grosor de la barra representa el número de encuestados que conocen la tecnología.
+          El grosor de la barra representa el número de encuestados que conocen una tecnología.
 
     # tools section streams
     - key: blocks.tools_section_streams.title
@@ -312,7 +319,7 @@ translations:
         Opiniones sobre la tecnologías encuestadas, en el tiempo.
     - key: blocks.tools_section_streams.note
       t: |
-        No se muestran tecnologías con sólo un año de información.
+        No se incluyen las tecnologías con solo un año de datos.
 
     # tools section overview
     - key: blocks.tools_section_overview.title
@@ -329,12 +336,12 @@ translations:
       t: Clasificación de la conciencia, el interés y el ratio de satisfacción.
     - key: blocks.tools_experience_ranking.note
       t: |
-        No se incluyen tecnologías con menos de un 10% de presencia. Cada relación se define como:
+        No se incluyen tecnologías con menos del 10% de conocimiento. Cada proporción se define de la siguiente manera:
 
-        - Satisfacción: **lo volvería a usar** / (**lo volvería a usar** + **no lo volvería a usar**)
-        - Interés: **quiero aprenderla** / (**quiero aprenderla** + **no me interesa**)
-        - Uso: (**lo volvería a usar** + **no lo volvería a usar**) / **total**
-        - Presencia: (**total** - **nunca lo he oído**) / **total**
+        - Satisfacción: **usaría de nuevo** / (**usaría de nuevo** + **no usaría de nuevo**)
+        - Interés: **quiero aprender** / (**quiero aprender** + **no interesado**)
+        - Uso: (**usaría de nuevo** + **no usaría de nuevo**) / **total**
+        - Conocimiento: (**total** - **nunca he oído**) / **total**
 
     # happiness
     - key: blocks.happiness.title
@@ -383,22 +390,22 @@ translations:
 
     # Tools usage variations
     - key: blocks.tools_usage_variations.title
-      t: Variaciones en el Uso
+      t: Variaciones de Uso
     - key: blocks.tools_usage_variations.description
       t: |
-        Como los diferentes factores como el rango salarial, los años de experiencia
-        o el tamaño de la compañía influencian el uso (participantes que han respondido
-        o “lo volvería a usar” o “no lo volvería a usar”).
+        Cómo diferentes factores como el rango salarial, los años de experiencia
+        o el tamaño de la empresa influye en el uso (participantes que respondieron
+        "usaría de nuevo" o "no usaría de nuevo").
 
-        La línea base representa el uso básico de cada herramienta y el offset
-        corresponde al delta desde esta base en cada rango. Digamos que
-        la herramienta X tiene un uso general del 10% entre los participantes (la base),
-        así que si el porcentaje de usuarios que tienen entre 1 y 2 años de experiencia
-        usando esta herramienta es el 13% (comparado con todos los usuarios entre 1 y 2
-        años de experiencia) tendremos un delta positivo del +3%.
+        La línea base representa el uso base de cada herramienta y las compensaciones
+        corresponden al delta de esta línea base en cada rango. Digamos que
+        la herramienta X tiene un uso general del 10% en todos los encuestados (la línea base),
+        entonces si el porcentaje de usuarios que tienen de 1 a 2 años de experiencia
+        usando esta herramienta es del 13% (en comparación con todos los usuarios que tienen de 1 a 2 años
+        de experiencia), entonces tenemos un delta positivo de +3%.
     - key: blocks.tools_usage_variations.note
       t: |
-        Por favor, ten presente que herramientas con poco uso, tienden a variar más.
+        Ten en cuenta que las herramientas que tienen un uso general más bajo tienden a variar más.
 
     # Recommended Resources
     - key: blocks.recommended_resources.title
@@ -443,9 +450,9 @@ translations:
     - key: charts.ranges_multiple_diverging_lines.baseline
       t: línea base
     - key: charts.ranges_multiple_diverging_lines.positive_offset
-      t: offset positivo
+      t: compensación positiva
     - key: charts.ranges_multiple_diverging_lines.negative_offset
-      t: offset negativo
+      t: compensación negativa
 
 
     - key: charts.tools_arrows.negative_opinion
@@ -453,9 +460,9 @@ translations:
     - key: charts.tools_arrows.positive_opinion
       t: Opiniones positivas
     - key: charts.tools_arrows.have_not_used
-      t: No se ha usado
+      t: No he usado
     - key: charts.tools_arrows.have_used
-      t: Se ha usado
+      t: He usado
 
     ###########################################################################
     # Sharing
@@ -539,49 +546,51 @@ translations:
       t: Con más Respuestas Escritas
     - key: award.most_write_ins_award.descriptiona
       t: Concedido al elemento con más respuestas escritas.
-
+  
     ###########################################################################
     # Hints
     ###########################################################################
 
     - key: hints.hint_hint
       t: >
-          Encontrarás pequeñas pistas como esta a lo largo de los resultados de la encuesta
-          que te indicarán características y detalles adicionales.
+          Encontrarás pequeños consejos como este a lo largo de los resultados de la encuesta
+          que señalará características y detalles adicionales.
 
     - key: hints.units_switcher_hint
       t: >
-          Puedes usar el segmento de control arriba a la derecha de cada bloque para cambiar
-          entre porcentajes relativos y cuentas absolutas para tener una vista distinta de
-          la misma información.
+          Puedes utilizar el control segmentado en la parte superior derecha de cada bloque para cambiar
+          entre porcentajes relativos y conteos absolutos para obtener una vista diferente de la
+          misma informacióm.
 
     - key: hints.export_hint
       t: >
-          El <span class="hint-export-button">Botón de Exportar</span> en la parte de arriba
-          de cada bloque te permite obtener el JSON de los datos en bruto de cualquier gráfica, 
-          o una query de GraphQL que puedes correr contra nuestra API pública.
+          El botón <span class="hint-export-button">Export</span> en la parte superior de cada bloque
+          te permite obtener los datos JSON sin procesar de cualquier gráfico, o una consulta GraphQL
+          que puedes ejecutar en nuestra API pública.
 
     - key: hints.completion_hint
       t: >
-          Ya que todas las preguntas son opcionales, algunas de ellas tienen menos respuestas que otras.
-          El indicador de completitud (<span class="hint-completion-indicator">◕</span>) te dice cuanta gente las ha respondido.
+        Dado que todas las preguntas son opcionales, algunas de ellas 
+        obtuvieron menos respuestas que otras. El indicador de finalización 
+        (<span class="hint-completion-indicator">◕</span>) te dice exactamente 
+        cuántas personas respondieron una pregunta determinada.
 
     - key: hints.tool_modal_hint
       t: >
-          Puedes pulsar en el nombre de cualquier tecnología para obtener
-          detalles adicionales y una visión más profunda de sus datos.
+          Puedes hacer clic en el nombre de cualquier tecnología para obtener detalles adicionales y
+          una mirada más profunda a sus datos relacionados.
 
     - key: hints.rankings_modes_hint
       t: >
-          La gráfica de Rankings cambia entre satisfacción, interés, uso y relevancia para
-          darte una visión más completa de los rankings de una categoría.
+          La gráfica de clasificaciones se puede alternar entre satisfacción, interés, uso y conocimiento
+          para darle una imagen más completa de la clasificación de una categoría.
 
     - key: hints.sharing_hint
       t: >
-          Está científicamente demostrado que compartir esta encuesta en Twitter, Facebook,
-          o por correo, mejora el rendimiento programando en JavaScript un 15%.
+          Está científicamente probado que compartir esta encuesta en Twitter, Facebook o por correo electrónico
+          mejora tu rendimiento de JavaScript hasta en un 15%.
 
     - key: hints.tshirt_hint
       t: >
-          Otro descubrimiento científico garantizado: comprar nuestra camiseta
-          ¡incrementará tus conocimientos de JavaScript por encima de 9000!
+          Otro hallazgo científico garantizado: la compra de nuestra camiseta
+          ¡aumenta tu conocimiento de JavaScript en más de 9000!
