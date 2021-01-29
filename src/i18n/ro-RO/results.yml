@@ -1,0 +1,584 @@
+locale: ro-RO
+translations:
+    ###########################################################################
+    # General
+    ###########################################################################
+
+    - key: results.start
+      t: Începe
+
+    - key: page.previous
+      t: 'Pagina anterioară:'
+    - key: page.next
+      t: 'Pagina următoare:'
+
+    - key: general.state_of_css_link
+      t: State of CSS
+
+    - key: general.netlify_link
+      t: Găzduit de <a href="{link}">Netlify</a>.
+
+    - key: general.completion_percentage
+      t: 'Procent de completare:'
+
+    - key: partners.thanks
+      t: Mulțumim partenerilor noștri pentru susținere!
+
+    - key: partners.learn_more
+      t: Află mai multe.
+
+    ###########################################################################
+    # Options
+    ###########################################################################
+
+    - key: options.experience_ranking.satisfaction
+      t: Satisfacție
+    - key: options.experience_ranking.interest
+      t: Interes
+    - key: options.experience_ranking.usage
+      t: Utilizare
+    - key: options.experience_ranking.awareness
+      t: Conștientizare
+
+    - key: options.features_simplified.know_it
+      t: Știu despre
+    - key: options.features_simplified.used_it
+      t: Am folosit
+    - key: options.features_simplified.usage_ratio
+      t: Grad de utilizare
+
+    - key: options.quadrant.assess
+      t: EVALUARE
+    - key: options.quadrant.assess.long
+      t: |
+        EVALUARE: Utilizare scăzută, grad ridicat de satisfacție. Tehnologii pe care merită să le urmărești.
+    - key: options.quadrant.adopt
+      t: ADOPTARE
+    - key: options.quadrant.adopt.long
+      t: |
+        ADOPTARE: Utilizare ridicată, grad ridicat de satisfacție. Tehnologii sigure pentru adopție.
+    - key: options.quadrant.avoid
+      t: EVITARE
+    - key: options.quadrant.avoid.long
+      t: |
+        EVITARE: Utilizare scăzută, grad scăzut de satisfacție. Tehnologii care trebuie evitate în acest moment.
+    - key: options.quadrant.analyze
+      t: ANALIZARE
+    - key: options.quadrant.analyze.long
+      t: |
+        ANALIZARE: Utilizare ridicată, grad scăzut de satisfacție. Dacă încă le folosești, reevaluează aceste tehnologii.
+
+    - key: ranges.selector.years_of_experience
+      t: Experiență
+    - key: ranges.selector.yearly_salary
+      t: Salariu
+    - key: ranges.selector.company_size
+      t: Dimensiunea companiei
+
+    ###########################################################################
+    # Sections
+    ###########################################################################
+
+    - key: sections.introduction.title
+      t: Introducere
+
+    - key: sections.demographics.title
+      t: Date demografice
+
+    - key: sections.tshirt.title
+      t: Tricou
+
+    - key: sections.technologies.title
+      t: Tehnologii
+
+    - key: sections.conclusion.title
+      t: Concluzii
+
+    - key: sections.support.title
+      t: Susține-ne
+    - key: sections.support.description
+      t: >
+        Realizăm acest sondaj ca side project, dar pentru a-l transforma
+        într-un proiect sustenabil căutăm în permanență parteneri care să ne susțină
+        financiar sau care să ne ajute să îl promovăm.
+        Dacă ne poți ajuta în vreun fel, te rugăm să nu eziți în a ne [contacta](mailto:hello@stateofjs.com)!
+
+    - key: sections.awards.title
+      t: Premii
+    - key: sections.awards.description
+      t: Lucruri care s-au remarcat în acest an.
+
+    ###########################################################################
+    # User Info
+    ###########################################################################
+
+    - key: user_info.locale
+      t: Limbă
+    - key: user_info.locale.description
+      t: Ce limbă au selectat respondenții pentru a completa sondajul?
+
+    - key: user_info.source
+      t: Sursă
+    - key: user_info.source.description
+      t: Cum au aflat respondenții despre sondaj?
+
+    ###########################################################################
+    # Locales
+    ###########################################################################
+
+    - key: options.locale.en-US
+      t: Engleză
+    - key: options.locale.ca-ES
+      t: Catalană
+    - key: options.locale.es-ES
+      t: Spaniolă
+    - key: options.locale.ru-RU
+      t: Rusă
+    - key: options.locale.ua-UA
+      t: Ucraineană
+    - key: options.locale.fr-FR
+      t: Franceză
+    - key: options.locale.zh-Hant
+      t: Chineză (Tradițională)
+    - key: options.locale.de-DE
+      t: Germană
+    - key: options.locale.cs-CZ
+      t: Cehă
+    - key: options.locale.pt-PT
+      t: Portugheză
+    - key: options.locale.it-IT
+      t: Italiană
+    - key: options.locale.sv-SE
+      t: Suedeză
+    - key: options.locale.tr-TR
+      t: Turcă
+    - key: options.locale.id-ID
+      t: Indoneziană
+    - key: options.locale.hi-IN
+      t: Hindi
+    - key: options.locale.zh-Hans
+      t: Chineză (Simplificată)
+    - key: options.locale.ja-JP
+      t: Japoneză
+    - key: options.locale.pl-PL
+      t: Poloneză
+    - key: options.locale.fa-IR
+      t: Farsi
+
+    ###########################################################################
+    # Features
+    ###########################################################################
+
+    - key: features.learn_more
+      t: Află mai multe (MDN)
+    - key: features.mdn_link
+      t: MDN
+    - key: features.caniuse_link
+      t: CanIUse
+    - key: features.specification_link
+      t: W3C Specification
+
+    # knowledge score
+    - key: features.knowledge_score
+      t: Scor de familiaritate
+    - key: features.knowledge_score.description
+      t: Dintre toate funcționalitățile menționate în sondaj, despre câte auzise respondentul?
+
+    ###########################################################################
+    # Tools & Methodologies
+    ###########################################################################
+
+    # general
+    - key: tools.links
+      t: Link-uri
+    - key: tools.github_link
+      t: GitHub
+    - key: tools.github_stars
+      t: stele
+    - key: tools.homepage_link
+      t: Pagina principală
+    - key: tools.npm_link
+      t: NPM
+
+    ###########################################################################
+    # Blocks
+    ###########################################################################
+
+    # heatmaps
+    - key: blocks.tools_company_size_heatmap.title
+      t: Utilizare în funcție de dimensiunea companiei
+    - key: blocks.tools_company_size_heatmap.description
+      t: |
+        Pentru fiecare tehnologie, care este distribuția utilizării printre
+        respondenții care au ales diferite dimensiuni ale companiei.
+
+    - key: blocks.tools_yearly_salary_heatmap.title
+      t: Utilizare în funcție de nivelul salarial
+    - key: blocks.tools_yearly_salary_heatmap.description
+      t: |
+        Pentru fiecare tehnologie, care este distribuția utilizării printre
+        respondenții care au ales diferite intervale salariale.
+
+    - key: blocks.tools_years_of_experience_heatmap.title
+      t: Utilizare în funcție de experiență
+    - key: blocks.tools_years_of_experience_heatmap.description
+      t: |
+        Pentru fiecare tehnologie, care este distribuția utilizării printre respondenții care au ales diferite nivele de experiență.
+        De notat aici este faptul că în acest caz e vorba despre experiența generală, și nu despre experiența cu o tehnologie specifică.
+
+    # tool
+    - key: blocks.entity.homepage_link
+      t: Pagina principală
+    - key: blocks.entity.github_link
+      t: GitHub
+
+    # cardinality
+    - key: blocks.all_sections_tools_cardinality_by_user.title
+      t: Cardinalitatea utilizării tehnologiei
+    - key: blocks.all_sections_tools_cardinality_by_user.description
+      t: Pentru fiecare secțiune, ce procent dintre respondenți folosește (a răspuns „aș folosi din nou”) una, două, trei etc. tehnologii.
+
+    - key: blocks.front_end_frameworks_tools_cardinality_by_user.title
+      t: Cardinalitatea utilizării tehnologiei
+    - key: blocks.front_end_frameworks_tools_cardinality_by_user.description
+      t: Ce procent dintre respondenți folosește (a răspuns „aș folosi din nou”) unul, două, trei etc. elemente din această secțiune.
+
+    # tools arrows
+    - key: blocks.tools_arrows.title
+      t: Modificări în timp
+    - key: blocks.tools_arrows.description
+      t: |
+          Fiecare linie acoperă intervalul 2016-2020. Cu cât punctul e poziționat mai sus, cu atât tehnologia este mai folosită,
+          iar cu cât acesta e poziționat mai în dreapta, cu atât crește dorința utilizatorilor de a învăța tehnologia respectivă; sau au folosit-o și ar folosi-o din nou.
+    - key: blocks.tools_arrows.note
+      t: |
+          - Unele linii nu conțin toți anii.
+          - Tehnologiile cu date pentru un singur an nu sunt incluse.
+
+    # tools quadrant
+    - key: blocks.tools_quadrant.title
+      t: Grad de satisfacție vs utilizare
+    - key: blocks.tools_quadrant.description
+      t: |
+        Acest grafic prezintă **gradul de satisfacție** față de fiecare tehnologie raportat la **numărul total al utilizatorilor**.
+        Poate fi împărțit în patru cadrane:
+
+          - **EVALUARE**: Utilizare scăzută, grad ridicat de satisfacție. Tehnologii pe care merită să le urmărești.
+
+          - **ADOPTARE**: Utilizare ridicată, grad ridicat de satisfacție. Tehnologii sigure pentru adopție.
+
+          - **EVITARE**: Utilizare scăzută, grad scăzut de satisfacție. Tehnologii care trebuie evitate în acest moment.
+
+          - **ANALIZARE**: Utilizare ridicată, grad scăzut de satisfacție. Dacă încă le folosești, reevaluează aceste tehnologii.
+    - key: blocks.tools_quadrant.note
+      t: De menționat că TypeScript apare de două ori în grafic, fiind inclus atât în secțiunea JavaScript Favors, cât și în Instrumente pentru build.
+
+    - key: blocks.tools_quadrant.interest.description
+      t: |
+        Acest grafic prezintă **gradul de interes** față de fiecare tehnologie raportat la **numărul total al utilizatorilor** (așa cum a fost definit de respondenții care au auzit despre tehnologia respectivă, dar nu au folosit-o încă).
+
+        (De menționat că numărul mic al utilizatorilor se poate datora fie faptului că tehnologia este necunoscută, fie faptului că o tehnologie are deja foarte mulți respondenți care o folosesc.)
+
+    # category other tools
+    - key: blocks.category_other_tools.title
+      t: Alte instrumente
+    - key: blocks.category_other_tools.description
+      t: Alte instrumente din această categorie (câmp deschis).
+
+    # tool experience
+    - key: blocks.tool_experience.title
+      t: 'Experiență cu {name}'
+    - key: blocks.tool_experience.description
+      t: Experiența respondentului cu {name}.
+
+    # tool positive/negative split ("marimekko" chart)
+    - key: blocks.tools_experience_marimekko.title
+      t: Distribuția pozitiv/negativ
+    - key: blocks.tools_experience_marimekko.description
+      t: |
+          Acest grafic prezintă distribuția experiențelor pozitive („mi-ar plăcea să învăț”, „aș folosi din nou”) vs
+          negative („nu sunt interesat(ă)”, „nu aș mai folosi”), de-o parte și de alta a unei axe centrale.
+
+          Grosimea barei reprezintă numărul de respondenți care știu de existența tehnologiei respective.
+
+    # tools section streams
+    - key: blocks.tools_section_streams.title
+      t: Experiența în timp
+    - key: blocks.tools_section_streams.description
+      t: |
+        Prezentare generală a opiniilor cu privire la tehnologiile chestionate de-a lungul timpului.
+    - key: blocks.tools_section_streams.note
+      t: |
+        Tehnologiile cu date pentru un singur an nu sunt incluse.
+
+    # tools section overview
+    - key: blocks.tools_section_overview.title
+      t: Prezentare generală a categoriei
+    - key: blocks.tools_section_overview.description
+      t: |
+        Prezentare generală a opiniilor legate de tehnologiile studiate. Segmentele mai întunecate reprezintă opinii pozitive,
+        în timp ce segmentele mai deschise corespund unor sentimente negative.
+
+    # tools experience ranking
+    - key: blocks.tools_experience_ranking.title
+      t: Clasamente
+    - key: blocks.tools_experience_ranking.description
+      t: Clasamente cu privire la gradul de satisfacție, interes, utilizare și conștientizare.
+    - key: blocks.tools_experience_ranking.note
+      t: |
+        Tehnologiile cu un un grad de conștientizare mai mic de 10% nu sunt incluse. Fiecare este definit după cum urmează:
+
+        - Satisfacție: **aș folosi din nou** / (**aș folosi din nou** + **nu aș mai folosi**)
+        - Interes: **mi-ar plăcea să învăț** / (**mi-ar plăcea să învăț** + **nu sunt interesat(ă)**)
+        - Utilizare: (**aș folosi din nou** + **nu aș mai folosi**) / **total**
+        - Conștientizare: (**total** - **n-am auzit niciodată despre asta**) / **total**
+
+    # happiness
+    - key: blocks.happiness.title
+      t: Satisfacție generală
+    - key: blocks.happiness.description
+      t: |
+        Pe o scară de la 1 (foarte nemulțumit(ă)) la 5 (foarte mulțumit(ă)), cât de mulțumiți sunt programatorii
+        de starea generală a acestei categorii?
+
+    # newsletter
+    - key: blocks.newsletter.title
+      t: Rămâi aproape
+    - key: blocks.newsletter.description
+      t: |
+        Dacă îți dorești să afli când anunțăm noi rezultate sau ediția de anul viitor,
+        lasă-ne adresa de email mai jos:
+    - key: blocks.newsletter.email
+      t: Adresa ta de email
+    - key: blocks.newsletter.submit
+      t: Anunță-mă
+
+    # features_overview
+    - key: blocks.features_overview.title
+      t: Prezentare generală a utilizării
+    - key: blocks.features_overview.description
+      t: |
+        Acest grafic prezintă diferitele rate de adopție ale tuturor funcționalităților, grupate pe categorii.
+
+        Dimensiunea <span class="text-teal-darker text-bold">cercului exterior</span>
+        corespunde numărului total de utilizatori care au auzit despre funcționalitate,
+        iar <span class="text-teal text-bold">cercul interior</span> îi reprezintă pe cei care au folosit-o.
+
+        Fă hover peste fiecare pentru a vedea mai multe detalii, precum și o <span class="text-blackpink text-bold">suprapunere</span>
+        cu numărul total de respondenți ai sondajului.
+
+    # export
+    - key: export.export
+      t: Exportă
+    - key: export.title
+      t: Exportă datele pentru {title}
+    - key: export.nocsv
+      t: Ne pare rău, export-ul CSV nu este disponibil pentru acest set de date.
+    - key: export.graphql
+      t: >
+          Poți da copy/paste acestui query în <a target="_blank" rel="nofollow" href="http://graphiql.stateofjs.com/">API-ul nostru public GraphQL</a>.
+
+    # Tools usage variations
+    - key: blocks.tools_usage_variations.title
+      t: Variația utilizării
+    - key: blocks.tools_usage_variations.description
+      t: |
+        Cum influențează diverși factori, cum ar fi intervalul salarial, experiența
+        sau dimensiunea companiei, utilizarea (participanții care au răspuns fie
+        „aș folosi din nou”, fie „nu aș mai folosi”).
+
+        Punctul de plecare este reprezentat de utilizarea de bază a fiecărui instrument, iar
+        compensarea corespunde cu delta din punctul de plecare în fiecare interval. Să spunem că
+        instrumentul X are un grad de utilizare de 10% în rândul tuturor respondenților (punctul de plecare),
+        apoi dacă procentul de utilizatori care au între 1 și 2 ani de experiență cu folosirea
+        acestui instrument este de 13% (comparat cu toți utilizatorii care au între 1 și 2 ani
+        experiență), atunci vom avea un delta pozitiv de +3%.
+    - key: blocks.tools_usage_variations.note
+      t: |
+        De menționat că instrumentele cu un grad redus de utilizare tind să varieze mai mult.
+
+    # Recommended Resources
+    - key: blocks.recommended_resources.title
+      t: Resurse recomandate
+
+    ###########################################################################
+    # Charts
+    ###########################################################################
+
+    - key: chart_units.percentage
+      t: Procent
+    - key: chart_units.count
+      t: Număr
+
+    - key: charts.axis_legends.years_of_experience
+      t: Ani de experiență
+    - key: charts.axis_legends.yearly_salary
+      t: Interval salarial (USD)
+    - key: charts.axis_legends.company_size
+      t: Număr de angajați
+    - key: charts.axis_legends.backend_proficiency
+      t: Experiență în Back-end
+    - key: charts.axis_legends.css_proficiency
+      t: Experiență cu CSS
+    - key: charts.axis_legends.javascript_proficiency
+      t: Experiență cu JavaScript
+    - key: charts.axis_legends.users_percentage
+      t: Procent din utilizatori
+    - key: charts.axis_legends.users_count
+      t: Număr de utilizatori
+    - key: charts.axis_legends.interest_percentage
+      t: Grad de interes (%)
+    - key: charts.axis_legends.satisfaction_percentage
+      t: Grad de satisfacție (%)
+    - key: charts.axis_legends.happiness
+      t: Satisfacție
+    - key: charts.axis_legends.knowledge_score
+      t: Funcționalități cunoscute
+    - key: charts.axis_legends.frequency
+      t: Frecvență
+
+    - key: charts.ranges_multiple_diverging_lines.baseline
+      t: punct de plecare
+    - key: charts.ranges_multiple_diverging_lines.positive_offset
+      t: compensare pozitivă
+    - key: charts.ranges_multiple_diverging_lines.negative_offset
+      t: compensare negativă
+
+
+    - key: charts.tools_arrows.negative_opinion
+      t: Opinii negative
+    - key: charts.tools_arrows.positive_opinion
+      t: Opinii pozitive
+    - key: charts.tools_arrows.have_not_used
+      t: Nu a folosit
+    - key: charts.tools_arrows.have_used
+      t: A folosit
+
+    ###########################################################################
+    # Sharing
+    ###########################################################################
+
+    - key: share.share
+      t: Distribuie
+    - key: share.site.title
+      t: Descoperă rezultatele {siteTitle}
+    - key: share.site.twitter_text
+      t: 'Descoperă rezultatele {siteTitle} {link} {hashtag}'
+    - key: share.site.subject
+      t: 'Rezultatele sondajului {siteTitle}'
+    - key: share.site.body
+      t: 'Iată câteva rezultate interesante ale sondajului: {link}'
+    - key: share.block.twitter_text
+      t: '{hashtag} {year}: {title} {link}'
+    - key: share.block.subject
+      t: 'Rezultatele sondajului {siteTitle}'
+    - key: share.block.body
+      t: 'Iată câteva rezultate interesante ale sondajului ({title}): {link}'
+    - key: share.twitter
+      t: Distribuie pe Twitter
+    - key: share.facebook
+      t: Distribuie pe Facebook
+    - key: share.linkedin
+      t: Distribuie pe LinkedIn
+    - key: share.email
+      t: Distribuie pe email
+    - key: share.image
+      t: Obține imagine
+
+    ###########################################################################
+    # Awards
+    ###########################################################################
+
+    - key: awards.runner_ups
+      t: Clasați pe locul secund
+
+    - key: award.feature_adoption_award.title
+      t: Cea mai folosită funcționalitate
+    - key: award.feature_adoption_award.description
+      t: Oferit funcționalității cu gradul cel mai ridicat de adopție.
+
+    - key: award.feature_adoption_delta_award.title
+      t: Funcționalitatea cu cea mai mare adopție
+    - key: award.feature_adoption_delta_award.description
+      t: Oferit funcționalității cu cel mai mare progres de la an la an pe indicatorul „am folosit”.
+
+    - key: award.tool_usage_award.title
+      t: Cea mai folosită tehnologie
+    - key: award.tool_usage_award.description
+      t: Oferit tehnologiei cu cea mai mare bază de utilizatori.
+
+    - key: award.tool_usage_delta_award.title
+      t: Tehnologia cu cea mai mare adopție
+    - key: award.tool_usage_delta_award.description
+      t: Oferit tehnologiei cu cel mai mare progres de la an la an pe indicatorul „aș folosi din nou”.
+
+    - key: award.tool_satisfaction_award.title
+      t: Cel mai mare grad de satisfacție
+    - key: award.tool_satisfaction_award.description
+      t: Oferit tehnologiei cu cel mai mare procent de utilizatori mulțumiți.
+
+    - key: award.tool_interest_award.title
+      t: Cel mai mare grad de interes
+    - key: award.tool_interest_award.description
+      t: Oferit tehnologiei pe care programatorii sunt cel mai mult interesați să o învețe, odată ce au auzit de ea.
+
+    - key: award.resource_usage_award.title
+      t: Cea mai folosită resursă
+    - key: award.resource_usage_award.description
+      t: Oferit resursei cu cea mai mare bază de utilizatori.
+
+    - key: award.prediction_award.title
+      t: Premiul „predicție”
+    - key: award.prediction_award.description
+      t: Oferit unei tehnologii emergente care ar putea prelua controlul... sau nu?
+
+    - key: award.most_write_ins_award.title
+      t: Cele mai multe înregistrări
+    - key: award.most_write_ins_award.description
+      t: Oferit elementului cu cele mai multe răspunsuri înscrise.
+
+    ###########################################################################
+    # Hints
+    ###########################################################################
+
+    - key: hints.hint_hint
+      t: >
+          Vei găsi mici indicii, ca acesta, pe parcursul rezultatelor sondajului,
+          care vor oferi mai multe detalii.
+
+    - key: hints.units_switcher_hint
+      t: >
+          Poți folosi segmentarea din dreapta sus a fiecărui bloc pentru a comuta
+          între procente relative și numere absolute, obținând astfel o
+          perspectivă diferită asupra acelorași date.
+
+    - key: hints.export_hint
+      t: >
+          Butonul de <span class="hint-export-button">Export</span> din partea de sus a fiecărui bloc
+          îți oferă posibilitatea de a obține datele în format raw JSON pentru fiecare grafic sau un
+          query GraphQL pe care îl poți executa în API-ul nostru public.
+
+    - key: hints.completion_hint
+      t: >
+          Întrucât toate întrebările sunt opționale, unele dintre acestea au înregistrat mai puține răspunsuri decât altele.
+          Indicatorul de completare (<span class="hint-completion-indicator">◕</span>) arată câte persoane au răspuns la o anumită întrebare.
+
+    - key: hints.tool_modal_hint
+      t: >
+          Poți da click pe numele oricărei tehnologii pentru mai multe detalii și pentru
+          o viziune comprehensivă a datelor.
+
+    - key: hints.rankings_modes_hint
+      t: >
+          Poți opta ca graficul cu clasamente să prezinte fie satisfacția, interesul, utilizarea sau conștientizarea,
+          oferind o imagine de ansamblu asupra clasamentului unei categorii.
+
+    - key: hints.sharing_hint
+      t: >
+          A fost dovedit științific că distribuirea sondajului pe Twitter, Facebook sau pe email
+          îți îmbunătățește performanțele JavaScript cu până la 15%.
+
+    - key: hints.tshirt_hint
+      t: >
+          O altă descoperire științifică garantată: cumpărarea tricoului nostru
+          îți va îmbogăți cunoștințele JavaScript cu peste 9000!
