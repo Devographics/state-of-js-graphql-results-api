@@ -1,0 +1,276 @@
+locale: ro-RO
+translations:
+    ###########################################################################
+    # Introduction
+    ###########################################################################
+
+    - key: sections.introduction.description
+      t: |
+
+            <span class="first-letter">U</span>ită tot ceea ce știai despre CSS. Sau cel puțin, fii gata să reconsideri multe lucruri. Dacă folosești CSS de mai bine de o decadă, la fel ca mine, CSS-ul din 2020 nu seamănă aproape deloc cu ceea ce erai obișnuit.
+
+            În loc de breakpoint-uri, putem acum să folosim CSS Grid pentru a crea layout-uri dinamice și responsive, care se adaptează la orice dimensiune a ferestrei, cu și mai puține linii de cod. În loc să folosim stylesheet-uri globale, CSS-in-JS ne permite să introducem stilizări în componente, construind astfel sisteme tematice de design.
+
+            Mai mult decât atât, Tailwind CSS și-a făcut apariția în forță și ne-a determinat să reconsiderăm dogmele tradiționale ale numelor semantice de clase.
+
+            Fie că toată această schimbare te face să-ți dorești să scrii un articol pe blog plin de entuziasm sau o postare furioasă pe Twitter, noi suntem aici să prezentăm datele, să evidențiem tendințele și, sperăm noi, să te ghidăm printr-un nou an plin de evenimente în CSS!
+
+            ### Echipa
+
+            Sondajul The State of CSS este creat și menținut de:
+
+            - [Sacha Greif](https://twitter.com/sachagreif): Design, scriere, programare
+            - [Raphaël Benitte](https://twitter.com/benitteraphael): Analiza și vizualizarea datelor
+
+            ### Descarcă datele tale
+
+            Poți [descărca datele sondajului în format raw JSON](https://www.kaggle.com/sachag/state-of-css). Dă-ne de veste dacă îți creezi propriile reprezentări grafice ale datelor!
+
+            ### Alte link-uri
+
+            - [Pagina principală State of CSS](https://stateofcss.com)
+            - [State of JS](https://stateofjs.com)
+
+            ### Mulțumiri
+
+            Mulțumim tuturor celor care ne-au ajutat să proiectăm sondajul, inclusiv lui [Chen Hui-Jing](http://chenhuijing.com/), [Philip Jägenstedt](https://blog.foolip.org/), [Adam Argyke](https://nerdy.dev/), [Ahmad Shadeed](https://www.ishadeed.com/), [Robert Flack](https://github.com/flackr), [Dominic Nguyen](https://www.chromatic.com/), [Fantasai](http://fantasai.inkedblade.net/) și [Kilian Valkhof](https://kilianvalkhof.com/).
+
+            Mulțumiri suplimentare lui [Alexey Pyltsyn](https://github.com/lex111) pentru ajutorul acordat cu traducerile.
+
+            ### Credite și altele
+
+            Acest site este realizat cu IBM Plex Mono. Întrebări? Feedback? [Contactează-ne!](mailto:hello@stateofjs.com)
+
+            Iar acum, să vedem ce s-a mai întâmplat în CSS în acest an!
+
+            <span class="conclusion__byline">– Sacha și Raphaël</span>
+
+    ###########################################################################
+    # Tshirt
+    ###########################################################################
+
+    - key: sections.tshirt.title
+      t: Tricou
+
+    - key: sections.tshirt.description
+      t: |
+          ## Susține sondajul și arată bine în tot acest timp!
+
+          Un scurt anunț înainte de a trece la rezultatele sondajului. Îți prezentăm 🎈🎉👕 tricoul State of CSS 👕🎉🎈!
+
+          Ceea ce face din acest tricou unul și mai special este că se numără printre singurele piese de îmbrăcăminte care te și învață tehnici CSS practice.
+
+          Deci indiferent dacă mergi la o conferință, la un interviu de angajare sau, pur și simplu, la serviciu, acest tricou îți va arăta măiestria în CSS așa cum niciun alt obiect vestimentar nu o face!
+    
+    - key: tshirt.about
+      t: Despre tricou
+
+    - key: tshirt.description
+      t: |
+          Tricoul conține logo-ul State of CSS și codul CSS scris pentru a crea fiecare formă. Cine știe, s-ar putea chiar să afli câte ceva nou!
+
+          Folosim materiale de înaltă calitate, foarte moi, croite după un model slim fit.
+          Acest tricou este mărimea S, dar dacă preferi să fie mai larg, îți recomandăm să comanzi unul cu o mărime mai mare decât ceea ce porți în mod obișnuit (eu port un M în fotografii).
+
+    - key: tshirt.getit
+      t: Cumpără
+
+    - key: tshirt.price
+      t: 24 USD + transportul
+
+    ###########################################################################
+    # Sections Introductions
+    ###########################################################################
+
+    - key: sections.user_info.description
+      t: |
+          În acest an, sondajul a fost completat de **11.492** de persoane din **102** țări. Pentru prima dată, în acest an
+          am reușit să traducem întrebările în mai multe limbi, iar asta datorită unei echipe minunate de voluntari.
+
+    - key: sections.features.description
+      t: |
+          CSS-ul a înregistrat o creștere a funcționalităților în ultimii ani, prin urmare, așa cum era de așteptat adoptarea acestora
+          a rămas puțin în urmă, în timp ce comunitatea începe încet-încet să le folosească.
+
+    - key: sections.units_selectors.description
+      t: |
+          Suntem dispuși să pariem că vei găsi câteva lucruri despre care nu știai în această secțiune!
+
+    - key: sections.technologies.description
+      t: |
+          Ecosistemul CSS trece printr-un proces de reînnoire de toate felurile, pe măsură ce elementele centrale, cum ar fi Bootstrap,
+          trebuie acum să se adapteze noilor veniți, ca Tailwind CSS. Să nu mai vorbim despre întreaga mișcare CSS-in-JS
+          care, deși nu a trecut încă linia spre mainstream-ul CSS, este fără îndoială destul de dinamic.
+
+    - key: sections.other_tools.description
+      t: |
+          Nu există surprize mari aici, dar merită menționată apariția browserelor dedicate dezvoltării,
+          cum sunt Polypane și Sizzy, care sunt cu un pas înaintea devtool-urilor tradiționale.
+
+    - key: sections.environments.description
+      t: |
+          Unul dintre punctele forte ale CSS este capacitatea sa de a se adapta la medii diferite. Totuși, din varii motive,
+          medii ca versiunile printate sau email-ul rămân neexplorate de majoritatea programatorilor CSS. S-ar putea asta
+          dovedi următoarea frontieră a CSS-ului…?
+
+    - key: sections.resources.description
+      t: |
+          Rezultatele din secțiunea „alte răspunsuri” evidențiază bogăția și diversitatea comunității CSS.
+          Prezintă multe blog-uri și podcast-uri remarcabile pe care abia așteptăm să le includem oficial
+          în sondajul de anul viitor!
+
+    - key: sections.opinions.description
+      t: |
+          Aceste opinii prezintă imaginea unui limbaj care devine din ce în ce mai matur, dar și mai complex. Și poate
+          – cel puțin cât încă ne chinuim să ținem pasul cu schimbarea – ceva mai puțin plăcut?
+
+          
+    ###########################################################################
+    # Notes
+    ###########################################################################
+
+    - key: blocks.gender.note
+      t: |
+          Dacă îți dorești să afli mai multe, am [scris un articol pe blog](https://dev.to/sachagreif/is-our-survey-biased-against-women-49oj) care abordează dinamica de gen a sondajului.
+
+    - key: blocks.currently_missing_from_css.note
+      t: |
+          Poți explora întreg setul de răspunsuri la această întrebare în [acest side project](https://whatsmissingfromcss.com/).
+
+    - key: blocks.source.note
+      t: >
+      
+        Acest grafic agregă un mix de referrers, parametri URL și răspunsuri libere.
+
+        - State of JS: lista de email-uri [State of JS](https://stateofjs.com).
+
+        - State of CSS: lista de email-uri State of CSS; cuprinde și `email`, `by email` etc.
+
+        - Work: cuprinde `work`, `colleagues`, `coworkers` etc.
+
+    ###########################################################################
+    # Awards
+    ###########################################################################
+
+    - key: award.feature_adoption_delta_award.comment
+      t: Cu o creștere de **{value}** în 2020, acesta a fost anul în care CSS Grid a trecut de la statutul de tehnologie nouă la cel de instrument consacrat.
+
+    - key: award.tool_usage_delta_award.comment
+      t: Niciun alt instrument nu se apropie măcar de creșterea enormă, de **{value}**, pe care Tailwind CSS a înregistrat-o în ultimul an.
+
+    - key: award.tool_satisfaction_award.comment
+      t: Nivelul de satisfacție, de **{value}**, pe care PostCSS l-a înregistrat arată că nu poți învinge dacă faci doar un singur lucru foarte, foarte bine.
+
+    - key: award.tool_interest_award.comment
+      t: Cu un procent de **{value}**, CSS Modules a stârnit în acest an cel mai mare grad de interes printre programatori.
+
+    - key: award.most_write_ins_award.comment
+      t: Unele întrebări au avut răspunsuri deschise. Cu **{value}** de mențiuni, PhpStorm a fost cel mai popular element.
+
+      
+    ###########################################################################
+    # Conclusion
+    ###########################################################################
+
+    - key: sections.conclusion.description
+      t: |
+            Dacă un programator JavaScript scrie o linie de cod CSS, îl face asta programator CSS?
+            
+            Acest *kōan* al programării ilustrează o tendință clară în lumea dezvoltării web: pe măsură ce tot mai mulți programatori CSS primesc sarcina de a învăța JavaScript, la fel și programatorii JavaScript încep să-și dea seama că s-ar putea să existe puțin mai mult la acest CSS decât `font-weight: bold;`.
+
+            Așadar, întrebările despre „starea CSS” sunt inerent dificile: în funcție de persoana pe care o întrebi, vei obține răspunsuri complet diferite! Și atunci cum știi care e cel corect?
+
+            Iată un alt kōan pentru tine: răspunsul corect este că *nu există* un răspuns corect. Fiecare dintre numeroasele instrumente, metodologii, framework-uri și librării își are locul său în vastul ecosistem front-end.
+
+            Vrei să creezi o aplicație React complexă? Styled Components este o opțiune excelentă. Vrei să creezi un landing page static? Cu Sass nu ai cum să dai greș! Și chiar dacă Bootstrap și-a mai pierdut din hype-ul inițial, nu-l poți învinge când vine vorba de numărul mare de teme și plugin-uri disponibile.
+
+            Așadar, în timp ce urmărim noile jucării strălucitoare care apar pe GitHub în fiecare săptămână, să nu uităm de instrumentele, tehnicile și, mai presus de orice, de oamenii care au purtat torța CSS-ului până acum. Vom avea nevoie de toate acestea dacă ne dorim ca CSS-ul să evolueze în 2021 și după!
+
+    ###########################################################################
+    # Picks
+    ###########################################################################
+
+    - key: picks.my_2020_pick
+      t: 'Alegerea mea pentru 2020: '
+    - key: picks.intro
+      t: Am rugat membrii comunității CSS să împărtășească „alegerea anului” din perspectiva lor
+
+    - key: picks.shadeed9.bio
+      t: Autor al debuggingcss.com
+    - key: picks.shadeed9.description
+      t: |
+            Container queries este o funcționalitate mult așteptată de noi,
+            iar eu sunt încântat de faptul că echipa Chrome lucrează la suport nativ pentru aceasta!
+
+
+    - key: picks.argyleink.bio
+      t: CSS at Google
+    - key: picks.argyleink.description
+      t: |
+            The humble CSS box is more dynamic every year, and for me 2020 was about logical sides, instead of physical sides. Free internationally contextual content flow, spacing and shorthands? pls & ty
+
+
+    - key: picks.sachagreif.bio
+      t: Creator al acestui sondaj
+    - key: picks.sachagreif.description
+      t: |
+            Prin acest articol de blog, Amelia Wattenberger nu doar că a făcut acel pas în plus, a alergat un întreg maraton! Animațiile și testul se vor asigura că până la final înțelegi cascadarea CSS.
+    
+    - key: picks.christianoliff.bio
+      t: Front-end developer la Trimble MAPS
+    - key: picks.christianoliff.description
+      t: |
+          Un lucru pe care chiar am început să-l folosesc și apreciez în acest an este Purge CSS - un instrument minunat care te scapă de codul CSS nefolosit. Poate reduce considerabil dimensiunea CSS-ului, pe lângă că este rapid și ușor de utilizat.
+    
+    - key: picks.kilianvalkhof.bio
+      t: Web developer și creator al Polypane
+    - key: picks.kilianvalkhof.description
+      t: |
+          `content-visibility` deja face o diferență uriașă în performanța aplicațiilor mele web, dar în același timp cred că ar trebui să fie sarcina browserelor să optimizeze acest lucru, nu a programatorilor.
+
+    - key: picks.walterstephanie.bio
+      t: User Centered Designer & CSS Lover
+    - key: picks.walterstephanie.description
+      t: |
+          O serie de video-uri YouTube care prezintă noile feature-uri CSS cu care poți crea design-uri moderne.
+
+    - key: picks.piccalilli_.bio
+      t: Freelance designer & dev la piccalil.li
+    - key: picks.piccalilli_.description
+      t: |
+          Acest blog este o mină de aur pentru cunoștințele CSS. Michelle este o legendă în CSS, iar fiecare articol sau tutorial pe care îl face este ticsit cu informații utile.
+
+    - key: picks.sarasoueidan.bio
+      t: UI/design engineer independent
+    - key: picks.sarasoueidan.description
+      t: |
+          Alegerea mea este o persoană, și anume Rachel Andrew. Ea a predat CSS Grid unei întregi generații de programatori.
+
+    - key: picks.5t3ph.bio
+      t: Software Engineer @ Microsoft
+    - key: picks.5t3ph.description
+      t: |
+          În această prezentare, Manuel Matuzovic oferă exemple
+          elaborate, gândite cu atenție, într-un mod captivant și abordabil.
+
+    - key: picks.hugogiraudel.bio
+      t: Avocat al accesibilității non-binare și al diversității
+    - key: picks.hugogiraudel.description
+      t: |
+          Fela este un soft uimitor.
+          Este destul de puternic, relativ ușor de utilizat și foarte performant.
+
+    - key: picks.foolip.bio
+      t: Software Engineer @ Google
+    - key: picks.foolip.description
+      t: |
+          Sergio a rezolvat multe probleme legate de Flexbox din WebKit și chiar unele din Chromium,
+          cel mai notabil fiind faptul că a adus flex gap în WebKit.
+          Asta înseamnă că în curând va fi disponibil în majoritatea browserelor moderne.
+    
+    - key: picks.jina.bio
+      t: Avocat și practicant al sistemelor de design
+    - key: picks.jina.description
+      t: |
+          Media query-ul care reduce mișcarea, ceea ce ajută la
+          diminuarea amețelilor și a disconfortului.

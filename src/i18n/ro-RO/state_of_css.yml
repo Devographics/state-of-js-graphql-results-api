@@ -1,4 +1,4 @@
-locale: ja-JP
+locale: ro-RO
 namespace: css
 translations:
     ###########################################################################
@@ -7,105 +7,104 @@ translations:
 
     - key: general.survey_intro_css2020
       t: >
-          CSSはこれまでにない速さで進化しています。
+          CSS-ul evoluează mai repede ca oricând.
 
-          Flexbox、Grid、マルチカラム……CSS-in-JSは言うまでもありませんね。
 
-          State Of JavaScriptの成功をうけ、対象をスタイルやセレクタの世界にも広げることにしました。このアンケートが、いまのトレンドが何かを知ったり、どのようなツールを使えばいいのかといった疑問の解決の手助けになることを願っています！
+          Flexbox, Grid, Multi-Column… Să nu mai vorbim despre paradigmele cu totul noi, cum e CSS-in-JS.
+
+
+          Așa că, după succesul sondajului anual State Of JavaScript,
+          am decis să ne îndreptăm atenția asupra stilizărilor și selectorilor. Sperăm că ne vei ajuta
+          să identificăm ultimele tendințe și să aflăm ce instrumente să studiem și să folosim în continuare!
 
     - key: general.results.description
-      t: CSSの最新トレンドを知るためのアンケート
+      t: Sondajul anual despre ultimele tendințe în CSS.
 
     ###########################################################################
     # Sections
     ###########################################################################
 
     - key: sections.layout.title
-      t: レイアウト
+      t: Layout
     - key: sections.layout.description
-      t: どうやって画面に要素を配置しますか？
+      t: Cum poziționezi elementele pe ecran?
 
     - key: sections.shapes_graphics.title
-      t: シェイプ＆グラフィクス
+      t: Forme și grafică
     - key: sections.shapes_graphics.description
-      t: 要素の形と表示を制御する。
+      t: Controlarea formei și a afișării elementelor.
 
     - key: sections.interactions.title
-      t: インタラクション
+      t: Interacțiuni
     - key: sections.interactions.description
-      t: ユーザーとページのインタラクションを調整する。
+      t: Controlarea modului în care utilizatorul interacționează cu pagina.
 
     - key: sections.typography.title
-      t: タイポグラフィ
+      t: Tipografie
     - key: sections.typography.description
-      t: テキストの設定や配置。
+      t: Setarea și prezentarea textului.
 
     - key: sections.animations_transforms.title
-      t: アニメーション＆トランスフォーム
+      t: Animații și transformări
     - key: sections.animations_transforms.description
-      t: 要素のアニメーションや変形。
+      t: Animarea și transformarea elementelor.
 
     - key: sections.media_queries.title
-      t: メディアクエリー
+      t: Media Queries
     - key: sections.media_queries.description
-      t: デバイスやユーザーの設定にあわせる。
+      t: Moduri de adaptare a site-ului la dispozitivul sau preferințele utilizatorului.
 
     - key: sections.other_features.title
-      t: そのほかの機能
+      t: Alte funcționalități
     - key: sections.other_features.description
-      t: そのほかのCSSの機能。
+      t: Alte funcționalități CSS.
 
     - key: sections.units_selectors.title
-      t: 単位とセレクタ
+      t: Unități și selectori
     - key: sections.units_selectors.description
-      t: 単位とセレクタの知識をテストします。
+      t: Testează-ți cunoștințele despre unități și selectori CSS.
 
     - key: sections.pre_post_processors.title
-      t: プリプロセサ・ポストプロセサ
+      t: Pre-/Post-processors
     - key: sections.pre_post_processors.description
-      t: CSSを拡張するユーティリティ。
+      t: Utilitare care extind CSS-ul.
 
     - key: sections.pre_post_processors_others.title
-      t: そのほかのプリプロセサ・ポストプロセサ
+      t: Alte pre-/post-processors
 
     - key: sections.css_frameworks.title
-      t: CSSフレームワーク
+      t: Framework-uri CSS
     - key: sections.css_frameworks.description
-      t: コンポーネントとスタイルを提供するライブラリ。
+      t: Librării care oferă componente și stilizări gata făcute.
 
     - key: sections.css_frameworks_others.title
-      t: そのほかのCSSフレームワーク
+      t: Alte framework-uri CSS
 
     - key: sections.css_methodologies.title
-      t: CSS設計手法
+      t: Metodologii CSS
     - key: sections.css_methodologies.description
-      t: きれいなCSSを書くために体系化された手法。
+      t: Moduri codificate de a scrie CSS mai curat.
 
     - key: sections.css_methodologies_others.title
-      t: そのほかのCSS設計手法
+      t: Alte metodologii CSS.
 
     - key: sections.css_in_js.title
       t: CSS-in-JS
     - key: sections.css_in_js.description
-      t: JavaScriptコードにCSSを組み込むためのライブラリ。
+      t: Librării care ajută la integrarea CSS în cod JavaScript.
 
     - key: sections.css_in_js_others.title
-      t: そのほかのCSS-in-JSライブラリ。
+      t: Alte librării de tip CSS-in-JS.
 
     - key: sections.tools_others.title
-      t: そのほかのツール
+      t: Alte instrumente
     - key: sections.tools_others.description
-      t: そのほかのCSSのツール。
+      t: Alte instrumente CSS.
 
     - key: sections.environments.title
-      t: 対応環境
+      t: Medii
     - key: sections.environments.description
-      t: どんな環境に向けてCSSを書いているか。
-
-    - key: sections.awards.title
-      t: アワード
-    - key: sections.awards.description
-      t: 今年注目を集めたものに贈られます。
+      t: Pentru ce medii scrii CSS?
 
     ###########################################################################
     # Options
@@ -113,45 +112,45 @@ translations:
 
     # CSS for print
     - key: options.css_for_print.0
-      t: 印刷用スタイルは（ほとんど）書いたことがない
+      t: Nu fac stilizări pentru versiuni tipărite (aproape) niciodată
     - key: options.css_for_print.0.short
-      t: まったくない
+      t: Niciodată
 
     - key: options.css_for_print.1
-      t: 印刷用スタイルはときどき書く
+      t: Fac stilizări pentru versiuni tipărite ocazional
     - key: options.css_for_print.1.short
-      t: ときどき
+      t: Ocazional
 
     - key: options.css_for_print.2
-      t: 印刷用スタイルはほとんどのプロジェクトで書いている
+      t: Fac stilizări pentru versiuni tipărite în majoritatea proiectelor
     - key: options.css_for_print.2.short
-      t: かなり
+      t: Frecvent
 
     - key: options.css_for_print.3
-      t: CSSは印刷用スタイルを主に書いている
+      t: Mă concentrez în principal pe CSS pentru versiuni tipărite
     - key: options.css_for_print.3.short
-      t: 専業
+      t: De cele mai multe ori
 
     # CSS for email
     - key: options.css_for_email.0
-      t: メール用のCSSは（ほとんど）書いたことがない
+      t: Nu scriu CSS pentru clienți de email (aproape) niciodată
     - key: options.css_for_email.0.short
-      t: まったくない
+      t: Niciodată
 
     - key: options.css_for_email.1
-      t: メール用のCSSはときどき書く
+      t: Scriu CSS pentru clienți de email ocazional
     - key: options.css_for_email.1.short
-      t: ときどき
+      t: Ocazional
 
     - key: options.css_for_email.2
-      t: メール用のCSSはほとんどのプロジェクトで書いている
+      t: Scriu CSS pentru clienți de email în majoritatea proiectelor
     - key: options.css_for_email.2.short
-      t: かなり
+      t: Frecvent
 
     - key: options.css_for_email.3
-      t: メール用のCSSを主に書いている
+      t: Mă concentrez în principal pe CSS pentru clienți de email
     - key: options.css_for_email.3.short
-      t: 専業
+      t: De cele mai multe ori
 
     ###########################################################################
     # Features
@@ -178,7 +177,7 @@ translations:
     - key: features.logical_properties
       t: Logical Properties
     - key: features.logical_properties.description
-      t: <code>margin-block-start</code>, <code>padding-inline-end</code>など
+      t: <code>margin-block-start</code>, <code>padding-inline-end</code> etc.
     - key: features.aspect_ratio
       t: <code>aspect-ratio</code>
     - key: features.content_visibility
@@ -196,7 +195,7 @@ translations:
     - key: features.blend_modes
       t: Blend Modes
     - key: features.blend_modes.description
-      t: <code>mix-blend-mode</code>
+      t: Proprietatea <code>mix-blend-mode</code>
     - key: features.filter_effects
       t: CSS Filter Effects
     - key: features.backdrop_filter
@@ -216,11 +215,11 @@ translations:
 
     # typography
     - key: features.web_fonts
-      t: ウェブフォント (@font-face)
+      t: Fonturi web (@font-face)
     - key: features.variables_fonts
-      t: バリアブルフォント
+      t: Fonturi variabile
     - key: features.line_breaking
-      t: 改行関連プロパティ
+      t: Proprietăți pentru line breaking
     - key: features.line_breaking.description
       t: <code>overflow-wrap</code>, <code>word-break</code>, <code>line-break</code>, <code>hyphens</code>
     - key: features.font_variant
@@ -238,21 +237,21 @@ translations:
     - key: features.direction
       t: <code>direction</code>
     - key: features.direction.description
-      t: HTMLの<code>dir</code>属性も含む。
+      t: Include și atributul HTML <code>dir</code>.
 
     # animations & transforms
     - key: features.transitions
-      t: CSS Transitions
+      t: Tranziții CSS
     - key: features.transforms
-      t: CSS Transforms
+      t: Transformări CSS
     - key: features.animations
-      t: CSS Animations
+      t: Animații CSS
     - key: features.perspective
       t: <code>perspective</code>
 
     # media queries
     - key: features.feature_support_queries
-      t: フィーチャークエリー (<code>@supports</code>)
+      t: Query-uri pentru suportul funcționalităților (<code>@supports</code>)
     - key: features.prefers_reduced_motion
       t: <code>prefers-reduced-motion</code>
     - key: features.prefers_color_scheme
@@ -262,7 +261,7 @@ translations:
 
     # other features
     - key: features.variables
-      t: CSS Variables (カスタムプロパティ)
+      t: Variabile CSS (proprietăți personalizate)
     - key: features.containment
       t: CSS Containment
     - key: features.will_change
@@ -272,24 +271,18 @@ translations:
     - key: features.houdini
       t: Houdini
     - key: features.comparison_functions
-      t: CSS比較関数
+      t: Funcții CSS pentru comparare
     - key: features.comparison_functions.description
-      t: <code>min()</code>, <code>max()</code>, <code>clamp()</code>
+      t: <code>min()</code>, <code>max()</code> și <code>clamp()</code>
 
-    # knowledge score
-    - key: features.knowledge_score
-      t: 知識の度合い
-    - key: features.knowledge_score.description
-      t: アンケートで取り上げたCSSの機能を回答者がどのくらい知っていたか。
-      
     ###########################################################################
     # Units & Selectors
     ###########################################################################
 
     - key: features_others.units
-      t: 単位
+      t: Unități
     - key: features_others.units.description
-      t: どの単位を使ったことがあるか。
+      t: Pe care dintre aceste unități CSS le-ai folosit?
 
     - key: options.units.px
       t: px
@@ -317,9 +310,9 @@ translations:
       t: in
 
     - key: features_others.pseudo_elements
-      t: 疑似要素
+      t: Pseudo-elemente
     - key: features_others.pseudo_elements.description
-      t: どの疑似要素を使ったことがあるか。
+      t: Pe care dintre aceste pseudo-elemente CSS le-ai folosit?
 
     - key: options.pseudo_elements.before
       t: '::before'
@@ -339,23 +332,23 @@ translations:
       t: '::backdrop'
 
     - key: features_others.combinators
-      t: 結合子セレクタ
+      t: Combinatoare
     - key: features_others.combinators.description
-      t: CSSセレクタの結合子のうち、どれを使ったことがあるか。
+      t: Pe care dintre aceste combinații de selectori CSS le-ai folosit?
 
     - key: options.combinators.descendant
-      t: div span (子孫)
+      t: div span (descendent)
     - key: options.combinators.child
-      t: div > span (子)
+      t: div > span (copil)
     - key: options.combinators.next_sibling
-      t: div + div (隣接)
+      t: div + div (următorul frate)
     - key: options.combinators.subsequent_sibling
-      t: div ~ div (兄弟)
+      t: div ~ div (următorii frați)
 
     - key: features_others.tree_document_structure
-      t: 木構造・ドキュメント構造
+      t: Structura de tip arbore / document
     - key: features_others.tree_document_structure.description
-      t: 構造関連セレクタのうち、どれを使ったことがあるか。
+      t: Pe care dintre acești selectori CSS de structură i-ai folosit?
 
     - key: options.tree_document_structure.root
       t: :root
@@ -393,41 +386,41 @@ translations:
       t: :has()
 
     - key: features_others.attributes
-      t: 属性セレクタ
+      t: Atribute
     - key: features_others.attributes.description
-      t: 属性セレクタのうち、どれを使ったことがあるか。
+      t: Pe care dintre aceste atribute CSS le-ai folosit?
 
     - key: options.attributes.presence
-      t: div[foo] (属性の存在)
+      t: div[foo] (prezență)
     - key: options.attributes.equality
-      t: div[foo="bar"] (一致)
+      t: div[foo="bar"] (egalitate)
     - key: options.attributes.starts_with
-      t: div[foo^="bar"] (開始)
+      t: div[foo^="bar"] (începe cu)
     - key: options.attributes.ends_with
-      t: div[foo$="bar"] (終了)
+      t: div[foo$="bar"] (se termină cu)
     - key: options.attributes.contains_word
-      t: div[foo~="bar"] (単語の包含)
+      t: div[foo~="bar"] (conține cuvântul)
     - key: options.attributes.contains_substring
-      t: div[foo*="bar"] (文字列の包含)
+      t: div[foo*="bar"] (conține substring-ul)
 
     - key: features_others.links_urls
-      t: リンク・URL
+      t: Link-uri/URL-uri
     - key: features_others.links_urls.description
-      t: リンク・URL関連のセレクタのうち、どれを使ったことがあるか。
+      t: Pe care dintre acești selectori CSS pentru URL-uri și link-uri i-ai folosit?
 
     - key: options.links_urls.any_link
       t: :any-link
     - key: options.links_urls.link_visited
-      t: :link / :visited
+      t: :link și :visited
     - key: options.links_urls.local_link
       t: :local-link
     - key: options.links_urls.target
       t: :target
 
     - key: features_others.interaction
-      t: インタラクション
+      t: Interacțiuni
     - key: features_others.interaction.description
-      t: インタラクション関連セレクタのうち、どれを使ったことがあるか。
+      t: Pe care dintre acești selectori CSS de interacțiune i-ai folosit?
 
     - key: options.interaction.hover
       t: :hover
@@ -441,14 +434,14 @@ translations:
       t: :focus-visible
 
     - key: features_others.form_controls
-      t: フォームコントロール
+      t: Controale pentru formulare
     - key: features_others.form_controls.description
-      t: フォームコントロール関連セレクタのうち、どれを使ったことがあるか。
+      t: Pe care dintre acești selectori CSS pentru formulare i-ai folosit?
 
     - key: options.form_controls.enabled_disabled
-      t: :enabled / :disabled
+      t: :enabled și :disabled
     - key: options.form_controls.read_only_write
-      t: :read-only / :read-write
+      t: :read-only și :read-write
     - key: options.form_controls.placeholder_shown
       t: :placeholder-shown
     - key: options.form_controls.default
@@ -458,92 +451,93 @@ translations:
     - key: options.form_controls.indeterminate
       t: :indeterminate
     - key: options.form_controls.valid_invalid
-      t: :valid / :invalid
+      t: :valid și :invalid
     - key: options.form_controls.user_invalid
       t: :user-invalid
     - key: options.form_controls.in_out_range
-      t: :in-range / :out-of-range
+      t: :in-range și :out-of-range
     - key: options.form_controls.required_optional
-      t: :required / :optional
+      t: :required și :optional
 
     ###########################################################################
     # Environments
     ###########################################################################
 
     - key: environments.browsers
-      t: ブラウザー
+      t: Browsere
     - key: environments.browsers.description
-      t: どのブラウザーでテストしているか。
+      t: Ce browsere folosești pentru testare?
 
     - key: environments.form_factors
-      t: 対応デバイス
+      t: Form Factors
     - key: environments.form_factors.description
-      t: どんなデバイスでテストしているか。
+      t: Ce form factors folosești pentru testare?
 
     - key: environments.css_for_print
-      t: 印刷用スタイル
+      t: CSS pentru versiuni tipărite
     - key: environments.css_for_print.description
-      t: 印刷用スタイルを書いているか。
+      t: Folosești stilizări pentru versiuni tipărite?
 
     - key: environments.css_for_email
-      t: メールクライアント用CSS
+      t: CSS pentru clienți de email
     - key: environments.css_for_email.description
-      t: メール用のCSSを書いているか。
+      t: Scrii CSS pentru clienți de email?
 
     - key: charts.axis_legends.css_for_print
-      t: 頻度
+      t: Frecvență
     - key: charts.axis_legends.css_for_email
-      t: 頻度
+      t: Frecvență
 
     ###########################################################################
     # Opinions
     ###########################################################################
 
     - key: opinions.css_easy_to_learn
-      t: CSSを学ぶのは簡単だ
+      t: CSS-ul este ușor de învățat
     - key: opinions.css_easy_to_learn.title
-      t: 学習曲線
+      t: Curbă de învățare
 
     - key: opinions.css_evolving_slowly
-      t: CSSの発展は遅すぎる
+      t: CSS-ul evoluează prea încet
     - key: opinions.css_evolving_slowly.title
-      t: 変化度合い
+      t: Rata de schimbare
 
     - key: opinions.utility_classes_to_be_avoided
-      t: セマンティックではない、ユーティリティクラス（.center、.large-textなど）は避けるべきだ
+      t: Clasele (.center, .large-text etc.) utilitare (non-semantice) ar trebui evitate
     - key: opinions.utility_classes_to_be_avoided.title
-      t: セマンティックでないクラス
+      t: Clase non-semantice
 
     - key: opinions.selector_nesting_to_be_avoided
-      t: セレクタの入れ子（.foo .bar ul li {...}）は避けるべきだ
+      t: Nesting-ul selectorilor (.foo .bar ul li {...}) ar trebui evitat
     - key: opinions.selector_nesting_to_be_avoided.title
-      t: セレクタの入れ子
+      t: Nesting-ul selectorilor
 
     - key: opinions.css_is_programming_language
-      t: CSSはプログラミング言語だ
+      t: CSS-ul este un limbaj de programare
     - key: opinions.css_is_programming_language.title
-      t: プログラミング言語
+      t: Limbaj de programare
 
     - key: opinions.enjoy_writing_css
-      t: CSSを書いていて楽しい
+      t: Îmi place să scriu CSS
     - key: opinions.enjoy_writing_css.title
-      t: 楽しさ
+      t: Mulțumire
 
     - key: opinions_others.currently_missing_from_css.others
-      t: CSSにいま足りないものは何か。
+      t: Ce simți că lipsește în CSS în acest moment?
     - key: opinions_others.currently_missing_from_css.others.description
-      t: CSSにいつかほしい機能。
+      t: Funcționalități CSS pe care ai vrea să le vezi într-o zi.
     - key: opinions_others.currently_missing_from_css.others.note
       t: >
-          これらの結果は自由入力の内容を正規化したものです。処理されていない生のデータは、[whatsmissingfromcss.com](http://whatsmissingfromcss.com/)からご覧ください。
+          Acest rezultate sunt urmare a unei standardizări a conținutului obținut dintr-un câmp deschis.
+          Pentru a vedea răspunsurile brute, neprocesate, consultă [whatsmissingfromcss.com](http://whatsmissingfromcss.com/).
     
     - key: opinions.sum_up_one_word_css
-      t: CSSを一言で言うと
+      t: CSS într-un cuvânt
     - key: opinions.sum_up_one_word_css.description
-      t: CSSについて何かひとこと言うなら。
+      t: Cum ai rezuma părerea ta despre CSS într-un singur cuvânt?
 
     - key: happiness.state_of_the_web
-      t: ウェブ技術の現状に満足しているか。
+      t: Cât de mulțumit(ă) ești de starea generală a tehnologiilor web?
 
     - key: happiness.state_of_css
-      t: CSSの現状に満足しているか。
+      t: Cât de mulțumit(ă) ești de starea generală a CSS?

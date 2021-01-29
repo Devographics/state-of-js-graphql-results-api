@@ -26,6 +26,10 @@
   label: Français
   translators: ['arnauddrain', 'AvocadoVenom']
 
+- id: gl-ES
+  label: Galego
+  translators: [nunhes]
+  
 - id: hi-IN
   label: Hindi
   translators: ['jaideepghosh']
@@ -77,3 +81,7 @@
 - id: ko-KR
   label: 한국어
   translators: ['eterv']
+
+- id: ro-RO
+  label: Romanian
+  translators: ['magdaavram']

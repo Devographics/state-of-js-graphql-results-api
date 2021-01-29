@@ -1,0 +1,745 @@
+locale: ro-RO
+translations:
+    ###########################################################################
+    # General
+    ###########################################################################
+
+    # homepage
+    - key: general.why_create_account
+      t: De ce am nevoie de cont?
+    - key: general.create_account_reasons
+      t: >
+          Îți cerem să-ți creezi cont pentru:
+
+          - A evita răspunsurile duplicate
+
+          - A-ți oferi acces la răspunsurile tale
+
+          - A salva sesiunea pe măsură ce completezi
+
+          - A te notifica atunci când publicăm rezultatele
+    - key: general.survey_closed
+      t: >
+          Ne pare rău, sondajul a luat sfârșit! Poți în continuare să verifici răspunsurile tale, dar nu vei putea să le modifici.
+    - key: general.survey_read_only
+      t: >
+          Vizualizezi acest sondaj în mod read-only.
+    - key: general.survey_read_only_back
+      t: >
+          <a href="{link}">Înapoi</a> la pagina principală a sondajului pentru a începe sau pentru a continua să răspunzi.
+
+    # surveys
+    - key: general.open_surveys
+      t: Sondaje deschise
+    - key: general.no_open_surveys
+      t: Niciun sondaj nu este momentan deschis.
+    - key: general.closed_surveys
+      t: Sondaje închise
+    - key: general.no_closed_surveys
+      t: Niciun sondaj nu este momentan închis.
+    - key: general.preview_surveys
+      t: Previzualizare sondaje
+    - key: general.no_preview_surveys
+      t: Niciun sondaj disponibil pentru previzualizare.
+    - key: general.start_survey
+      t: Începe sondaj »
+    - key: general.continue_survey
+      t: Continuă sondaj »
+    - key: general.review_survey
+      t: Revizuiește sondaj »
+    - key: general.preview_survey
+      t: Previzualizează sondaj »
+    - key: general.finish_survey
+      t: Finalizează sondaj »
+    - key: general.survey_closed
+      t: Acest sondaj s-a încheiat.
+    - key: general.survey_results
+      t: Vezi rezultate sondaj »
+    - key: general.surveys_available_languages
+      t: 'Sondajele sunt disponibile în:'
+    - key: general.help_us_translate
+      t: Ajută-ne să traducem sondajele »
+    - key: general.translators
+      t: Traducători
+    - key: general.translation_help
+      t: Suport pentru traducere
+
+    # footer
+    - key: general.privacy_policy
+      t: Politica de confidențialitate
+    - key: general.leave_issue
+      t: Ai întrebări? Ai găsit o eroare? <a href="{link}" target="_blank">Deschide un issue</a>.
+    - key: general.emoji_icons
+      t: Emoji icons by <a target="_blank" rel="noreferrer" href="https://icons8.com">Icons8</a>
+
+    # navigation
+    - key: general.table_of_contents
+      t: Cuprins
+    - key: general.all_questions_optional
+      t: >
+          Notă: întrebările sunt opționale, completarea în totalitate nu este necesară.
+    - key: general.data_is_saved
+      t: Răspunsurile tale sunt salvate atunci când navighezi între secțiuni.
+
+    # thanks
+    - key: general.back
+      t: Înapoi
+    - key: general.thanks
+      t: >
+          Îți mulțumim pentru completarea sondajului!
+
+          Răspunsurile tale au fost salvate. Le poți revedea sau modifica până la închiderea sondajului.
+
+          Ne poți ajuta să ducem vestea mai departe împărtășind sondajul. Orice răspuns contează și contribuie ca datele
+          noastre să fie cât mai reprezentative:
+    - key: thanks.learn_more_about
+      t: 'Câteva dintre funcționalitățile despre care ai vrea să afli mai multe:'
+    - key: thanks.knowledge_score
+      t: Scor de familiaritate
+    - key: thanks.score_explanation
+      t: >
+          Ai auzit sau folosit <span class="score-number score-number-known">{known}</span> din
+          <span class="score-number score-number-total">{total}</span> funcționalități menționate în sondaj, ceea ce
+          te plasează în primii <span class="score-number score-number-ranking">{knowledgeRankingFromTop}%</span>
+          dintre respondenți.
+    - key: thanks.share_on_twitter
+      t: Distribuie pe Twitter
+    - key: thanks.share_score_message
+      t: >
+          Am obținut un scor de familiaritate de {score}% la sondajul #{hashtag} din acest an! Completează sondajul aici: {shareUrl}
+    # share
+    - key: general.share_subject
+      t: >
+          Sondajul {surveyName}
+    - key: general.share_text
+      t: >
+          Sondajul {surveyName} din acest an este acum disponibil! {link}
+
+    # forms
+    - key: forms.select_option
+      t: Selectează opțiune
+
+    # partners
+    - key: partners.our_partners
+      t: Partenerii noștri
+    - key: partners.become_partner
+      t: Devino partener
+
+    # 404
+    - key: notfound.title
+      t: 404 Pagina nu a fost găsită
+    - key: notfound.description
+      t: Ne pare rău, nu am putut găsi ceea ce căutai.
+
+    # other
+    - key: general.join_discord
+      t: Alătură-te pe <a href="{link}">Discord</a>.
+    - key: general.translator_mode
+      t: Apasă option/alt pentru a activa modul traducere.
+    - key: general.charts_nivo
+      t: Grafice realizate cu <a href="{link}">Nivo</a>.
+      
+    ###########################################################################
+    # Nav
+    ###########################################################################
+
+    - key: nav.surveys
+      t: Sondaje
+    - key: nav.account
+      t: Cont
+
+    ###########################################################################
+    # Sections
+    ###########################################################################
+
+    - key: sections.user_info.title
+      t: Despre tine
+    - key: sections.user_info.description
+      t: Să te cunoaștem mai bine.
+
+    - key: sections.features.title
+      t: Funcționalități
+    - key: sections.features.description
+      t: Sintaxă, cuvinte cheie și alte funcționalități ale limbajului.
+
+    - key: sections.resources.title
+      t: Resurse
+    - key: sections.resources.description
+      t: Ce resurse de {topic} consulți?
+
+    - key: sections.opinions.title
+      t: Opinii
+    - key: sections.opinions.description
+      t: Ce părere ai despre starea {topic}?
+
+    - key: sections.other_tools.title
+      t: Alte instrumente
+    - key: sections.other_tools.description
+      t: În cazul acestor instrumente și tehnologii, bifează-le doar pe cele pe care le folosești în mod frecvent.
+
+    - key: sections.report.title
+      t: Raport de tendințe
+
+    ###########################################################################
+    # Options
+    ###########################################################################
+
+    # features
+    - key: options.features.never_heard
+      t: 🤷 N-am auzit niciodată despre asta/Nu sunt sigur(ă) ce este
+    - key: options.features.heard
+      t: ✅ Știu ce este, dar nu am folosit niciodată
+    - key: options.features.used
+      t: 👍 Am folosit
+
+    # features (no emoji)
+    - key: options.features.never_heard.label
+      t: N-am auzit niciodată despre asta/Nu sunt sigur(ă) ce este
+    - key: options.features.heard.label
+      t: Știu ce este, dar nu am folosit niciodată
+    - key: options.features.used.label
+      t: Am folosit
+
+    # features (short versions)
+    - key: options.features.never_heard.short
+      t: N-am auzit niciodată despre asta
+    - key: options.features.heard.short
+      t: Știu ce este
+    - key: options.features.used.short
+      t: Am folosit
+
+    # patterns
+    - key: options.patterns.use_never
+      t: Evit aproape întotdeauna
+    - key: options.patterns.use_sparingly
+      t: Folosesc rar
+    - key: options.patterns.use_neutral
+      t: Neutru
+    - key: options.patterns.use_frequently
+      t: Folosesc frecvent
+    - key: options.patterns.use_always
+      t: Folosesc cât de des
+
+    # tools experience
+    - key: options.tools.never_heard
+      t: 🤷 N-am auzit niciodată despre asta/Nu sunt sigur(ă) ce este
+    - key: options.tools.interested
+      t: ✅ Am auzit despre > Mi-ar plăcea să învăț
+    - key: options.tools.not_interested
+      t: 🚫 Am auzit despre > Nu sunt interesat(ă)
+    - key: options.tools.would_use
+      t: 👍 Am folosit > Aș folosi din nou
+    - key: options.tools.would_not_use
+      t: 👎 Am folosit > Nu aș mai folosi
+
+    # tools experience (no emoji)
+    - key: options.tools.never_heard.legend
+      t: N-am auzit niciodată despre asta/Nu sunt sigur(ă) ce este
+    - key: options.tools.interested.legend
+      t: Am auzit despre > Mi-ar plăcea să învăț
+    - key: options.tools.not_interested.legend
+      t: Am auzit despre > Nu sunt interesat(ă)
+    - key: options.tools.would_use.legend
+      t: Am folosit > Aș folosi din nou
+    - key: options.tools.would_not_use.legend
+      t: Am folosit > Nu aș mai folosi
+
+    # tools experience (short versions)
+    - key: options.tools.never_heard.short
+      t: N-am auzit niciodată despre asta
+    - key: options.tools.interested.short
+      t: Sunt interesat(ă)
+    - key: options.tools.not_interested.short
+      t: Nu sunt interesat(ă)
+    - key: options.tools.would_use.short
+      t: Aș folosi din nou
+    - key: options.tools.would_not_use.short
+      t: Nu aș mai folosi
+
+    # happiness
+    - key: options.happiness.0
+      t: Foarte nemulțumit(ă)
+    - key: options.happiness.1
+      t: Nemulțumit(ă)
+    - key: options.happiness.2
+      t: Neutru
+    - key: options.happiness.3
+      t: Mulțumit(ă)
+    - key: options.happiness.4
+      t: Foarte mulțumit(ă)
+
+    # happiness (short version)
+    - key: options.happiness.0.short
+      t: Foarte nemulțumit(ă)
+    - key: options.happiness.1.short
+      t: Nemulțumit(ă)
+    - key: options.happiness.2.short
+      t: Neutru
+    - key: options.happiness.3.short
+      t: Mulțumit(ă)
+    - key: options.happiness.4.short
+      t: Foarte mulțumit(ă)
+
+    # opinions
+    - key: options.opinions.0
+      t: Dezacord total
+    - key: options.opinions.1
+      t: Dezacord
+    - key: options.opinions.2
+      t: Neutru
+    - key: options.opinions.3
+      t: Acord
+    - key: options.opinions.4
+      t: Acord total
+
+    # years of experience
+    - key: options.years_of_experience.range_less_than_1
+      t: Mai puțin de un an
+    - key: options.years_of_experience.range_1_2
+      t: Între 1 și 2 ani
+    - key: options.years_of_experience.range_2_5
+      t: Între 2 și 5 ani
+    - key: options.years_of_experience.range_5_10
+      t: Între 5 și 10 ani
+    - key: options.years_of_experience.range_10_20
+      t: Între 10 și 20 de ani
+    - key: options.years_of_experience.range_more_than_20
+      t: Mai mult de 20 de ani
+
+    # years of experience (short versions)
+    - key: options.years_of_experience.range_less_than_1.short
+      t: '<1'
+    - key: options.years_of_experience.range_1_2.short
+      t: 1-2
+    - key: options.years_of_experience.range_2_5.short
+      t: 2-5
+    - key: options.years_of_experience.range_5_10.short
+      t: 5-10
+    - key: options.years_of_experience.range_10_20.short
+      t: 10-20
+    - key: options.years_of_experience.range_more_than_20.short
+      t: '>20'
+
+    # company size
+    - key: options.company_size.range_1
+      t: Un angajat
+    - key: options.company_size.range_1_5
+      t: Între 1 și 5 angajați
+    - key: options.company_size.range_5_10
+      t: Între 5 și 10 angajați
+    - key: options.company_size.range_10_20
+      t: Între 10 și 20 de angajați
+    - key: options.company_size.range_20_50
+      t: Între 20 și 50 de angajați
+    - key: options.company_size.range_50_100
+      t: Între 50 și 100 de angajați
+    - key: options.company_size.range_100_1000
+      t: Între 100 și 1000 de angajați
+    - key: options.company_size.range_more_than_1000
+      t: Mai mult de 1000 de angajați
+
+    # company size (short versions)
+    - key: options.company_size.range_1.short
+      t: 1
+    - key: options.company_size.range_1_5.short
+      t: 1-5
+    - key: options.company_size.range_5_10.short
+      t: 5-10
+    - key: options.company_size.range_10_20.short
+      t: 10-20
+    - key: options.company_size.range_20_50.short
+      t: 20-50
+    - key: options.company_size.range_50_100.short
+      t: 50-100
+    - key: options.company_size.range_100_1000.short
+      t: 100-1000
+    - key: options.company_size.range_more_than_1000.short
+      t: '>1000'
+
+    # salary
+    - key: options.yearly_salary.range_work_for_free
+      t: Lucrez pro bono
+    - key: options.yearly_salary.range_0_10
+      t: $0k-$10k
+    - key: options.yearly_salary.range_10_30
+      t: $10k-$30k
+    - key: options.yearly_salary.range_30_50
+      t: $30k-$50k
+    - key: options.yearly_salary.range_50_100
+      t: $50k-$100k
+    - key: options.yearly_salary.range_100_200
+      t: $100k-$200k
+    - key: options.yearly_salary.range_more_than_200
+      t: Mai mult de $200k
+
+    # salary (short versions)
+    - key: options.yearly_salary.range_work_for_free.short
+      t: '0'
+    - key: options.yearly_salary.range_0_10.short
+      t: 0~10k
+    - key: options.yearly_salary.range_10_30.short
+      t: 10~30k
+    - key: options.yearly_salary.range_30_50.short
+      t: 30~50k
+    - key: options.yearly_salary.range_50_100.short
+      t: 50~100k
+    - key: options.yearly_salary.range_100_200.short
+      t: 100~200k
+    - key: options.yearly_salary.range_more_than_200.short
+      t: '>200k'
+
+    # job titles
+    - key: options.job_title.cto
+      t: CTO
+    - key: options.job_title.front_end_developer
+      t: Front End Developer/Engineer
+    - key: options.job_title.back_end_developer
+      t: Back End Developer/Engineer
+    - key: options.job_title.full_stack_developer
+      t: Full Stack Developer/Engineer
+    - key: options.job_title.web_developer
+      t: Web Developer
+    - key: options.job_title.web_designer
+      t: Web Designer
+    - key: options.job_title.ux_designer
+      t: UX Designer
+    - key: options.job_title.ui_designer
+      t: UI Designer
+    - key: options.job_title.back_end_dev
+      t: Back-end Developer/Engineer
+
+    # JavaScript proficiency
+    - key: options.javascript_proficiency.0
+      t: Nu știu JavaScript
+    - key: options.javascript_proficiency.1
+      t: Știu JavaScript sau jQuery la nivel începător
+    - key: options.javascript_proficiency.2
+      t: Lucrez pe proiecte front-end folosind framework-uri moderne (React, Vue etc.)
+    - key: options.javascript_proficiency.3
+      t: Creez arhitecturi complete pentru proiecte front-end
+    - key: options.javascript_proficiency.4
+      t: Lucrez cu pattern-uri avansate de front-end (state management, data loading etc.)
+
+    # CSS proficiency
+    - key: options.css_proficiency.0
+      t: Nu știu CSS
+    - key: options.css_proficiency.1
+      t: Folosesc framework-uri CSS și pot adapta stilizări existente
+    - key: options.css_proficiency.2
+      t: Știu regulile de specificitate, pot crea layout-uri
+    - key: options.css_proficiency.3
+      t: Stăpânesc animații, interacțiuni, tranziții etc.
+    - key: options.css_proficiency.4
+      t: Pot stiliza un întreg proiect front-end, urmând o metodologie consistentă
+
+    # Back-end proficiency
+    - key: options.backend_proficiency.0
+      t: Nu am cunoștințe de back-end
+    - key: options.backend_proficiency.1
+      t: Configurez CMS-uri all-in-one (WordPress etc.) sau generatoare de site-uri statice (Jekyll etc.)
+    - key: options.backend_proficiency.2
+      t: Dezvolt aplicații folosind framework-uri existente (Rails, Laravel etc.)
+    - key: options.backend_proficiency.3
+      t: Creez un întreg back-end (Go, Node.js etc.)
+    - key: options.backend_proficiency.4
+      t: Lucrez cu arhitecturi complexe multi-server sau care folosesc microservicii
+
+    # Proficiency (generic versions)
+    - key: options.proficiency.0
+      t: Niciuna
+    - key: options.proficiency.1
+      t: Începător
+    - key: options.proficiency.2
+      t: Intermediar
+    - key: options.proficiency.3
+      t: Avansat
+    - key: options.proficiency.4
+      t: Expert
+
+    # Gender
+
+    - key: options.gender.female
+      t: Feminin
+    - key: options.gender.male
+      t: Masculin
+    - key: options.gender.non_binary
+      t: Altul
+    - key: options.gender.prefer_not_to_say
+      t: Prefer să nu răspund
+
+    # Race & Ethnicity
+
+    - key: options.race_ethnicity.white_european
+      t: Alb sau din descendenți europeni
+    - key: options.race_ethnicity.south_asian
+      t: Din Asia de Sud
+    - key: options.race_ethnicity.hispanic_latin
+      t: Hispanic sau latin
+    - key: options.race_ethnicity.east_asian
+      t: Din Asia de Est
+    - key: options.race_ethnicity.middle_eastern
+      t: Din Orientul Mijlociu
+    - key: options.race_ethnicity.black_african
+      t: Negru sau din descendenți africani
+    - key: options.race_ethnicity.multiracial
+      t: Multirasial
+    - key: options.race_ethnicity.biracial
+      t: Birasial
+    - key: options.race_ethnicity.native_american_islander_australian
+      t: American nativ, din Insulele Pacificului sau indigen australian
+
+    # Form Factors
+    - key: options.form_factors.desktop
+      t: Desktop
+    - key: options.form_factors.smartphone
+      t: Smartphone
+    - key: options.form_factors.feature_phone
+      t: Telefon mobil (non smartphone)
+    - key: options.form_factors.tablet
+      t: Tabletă
+    - key: options.form_factors.smart_watch
+      t: Smartwatch
+    - key: options.form_factors.tv
+      t: TV
+    - key: options.form_factors.gaming_console
+      t: Consolă de jocuri
+    - key: options.form_factors.screen_reader
+      t: Soft de citire a ecranului
+    - key: options.form_factors.print
+      t: Versiune tipărită
+
+    # Industry Sector
+    - key: options.industry_sector.ecommerce
+      t: Ecommerce & Retail
+    - key: options.industry_sector.news_media
+      t: Știri, mass-media & blog-uri
+    - key: options.industry_sector.healthcare
+      t: Sănătate
+    - key: options.industry_sector.finance
+      t: Finanțe
+    - key: options.industry_sector.programming_tools
+      t: Programare și instrumente tehnice
+    - key: options.industry_sector.socialmedia
+      t: Social Media
+    - key: options.industry_sector.marketing_tools
+      t: Marketing/Vânzări/Instrumente de analiză
+    - key: options.industry_sector.education
+      t: Educație
+    - key: options.industry_sector.real_estate
+      t: Imobiliare
+    - key: options.industry_sector.government
+      t: Guvern
+    - key: options.industry_sector.entertainment
+      t: Divertisment
+    - key: options.industry_sector.consulting
+      t: Consultanță și servicii
+    - key: options.industry_sector.travel
+      t: Turism
+    - key: options.industry_sector.insurance
+      t: Asigurări
+    - key: options.industry_sector.logistics
+      t: Logistică
+    - key: options.industry_sector.energy
+      t: Energie
+    - key: options.industry_sector.telecommunications
+      t: Telecommunicații
+    - key: options.industry_sector.student
+      t: Student
+    - key: options.industry_sector.hospitality
+      t: HoReCa
+    - key: options.industry_sector.cyber_security
+      t: Securitate cibernetică
+    - key: options.industry_sector.construction
+      t: Construcții
+    - key: options.industry_sector.automotive
+      t: Automotive
+    - key: options.industry_sector.agriculture
+      t: Agricultură
+    - key: options.industry_sector.transport
+      t: Transporturi
+    - key: options.industry_sector.manufacturing
+      t: Manufactură
+
+    ###########################################################################
+    # Tools
+    ###########################################################################
+
+    - key: tools.other_tools
+      t: Alte opțiuni
+    - key: tools.other_tools.description
+      t: Alte opțiuni pe care le folosești, dar care nu au fost menționate în lista de mai sus
+    - key: tools.happiness
+      t: Satisfacție generală
+    - key: tools.happiness.description
+      t: >
+          Pe o scară de la 1 (foarte nemulțumit(ă)) la 5 (foarte mulțumit(ă)), cât de mulțumit(ă)
+          ești de situația generală a lucrurilor, în raport cu opțiunile din lista de mai sus?
+
+    ###########################################################################
+    # Demographics (About You/User Info)
+    ###########################################################################
+
+    # years of experience
+    - key: user_info.years_of_experience
+      t: Ani de experiență
+    - key: user_info.years_of_experience.description
+      t: De cât timp lucrezi sau studiezi acest domeniu.
+
+    # company size
+    - key: user_info.company_size
+      t: Dimensiunea companiei
+    - key: user_info.company_size.description
+      t: Cât de mare este compania în care lucrezi.
+
+    # salary ranges
+    - key: user_info.yearly_salary
+      t: Salariu anual
+    - key: user_info.yearly_salary.description
+      t: În USD.
+
+    # job title
+    - key: user_info.job_title
+      t: Denumirea funcției
+    - key: user_info.job_title.description
+      t: Cum te prezinți la petreceri?
+
+    # javascript proficiency
+    - key: user_info.javascript_proficiency
+      t: Experiență cu JavaScript
+    - key: user_info.javascript_proficiency.description
+      t: Câtă experiență ai cu Javascript?
+
+    # css proficiency
+    - key: user_info.css_proficiency
+      t: Experiență cu CSS
+    - key: user_info.css_proficiency.description
+      t: Câtă experiență ai cu CSS?
+
+    # backend proficiency
+    - key: user_info.backend_proficiency
+      t: Experiență în Back-end
+    - key: user_info.backend_proficiency.description
+      t: Câtă experiență ai în dezvoltare back-end?
+
+    # gender
+    - key: user_info.gender
+      t: Gen
+
+    # skin tone/appearance
+    - key: user_info.race_ethnicity
+      t: Rasă și etnie
+
+    # other info
+    - key: user_info.how_did_user_find_out_about_the_survey
+      t: Cum ai aflat despre acest sondaj?
+    - key: user_info.email
+      t: Adresa de email
+    - key: user_info.country
+      t: Țara sau regiunea
+    - key: user_info.github_username
+      t: Username pe GitHub
+    - key: user_info.github_username.description
+      t: >
+        În viitor, am putea folosi username-uri de GitHub pentru
+        a analiza repository-uri sau pentru a face mențiuni
+        către informații publice disponibile.
+    - key: user_info.industry_sector
+      t: Sector industrial
+    - key: user_info.industry_sector.description
+      t: În ce sector/sectoare industrial(e) lucrezi?
+    - key: user_info.industry_sector.others
+      t: Alte sectoare industriale
+    - key: user_info.industry_sector.others.description
+      t: Alt sector industrial în care lucrezi, nemenționat.
+
+    ###########################################################################
+    # Other Tools
+    ###########################################################################
+
+    - key: tools_others.libraries
+      t: Librării
+    - key: tools_others.libraries.description
+      t: Ce librării folosești în mod frecvent?
+    - key: tools_others.libraries.others
+      t: Alte librării
+    - key: tools_others.libraries.others.description
+      t: Alte răspunsuri (câmp deschis).
+
+    - key: tools_others.text_editors
+      t: Editoare de text
+    - key: tools_others.text_editors.description
+      t: Ce editor/editoare de text folosești în mod frecvent?
+    - key: tools_others.text_editors.others
+      t: Alte editoare de text
+    - key: tools_others.text_editors.others.description
+      t: Alte răspunsuri (câmp deschis).
+
+    - key: tools_others.utilities
+      t: Utilitare
+    - key: tools_others.utilities.description
+      t: Ce utilitare sau instrumente folosești în mod frecvent?
+    - key: tools_others.utilities.others
+      t: Alte utilitare
+    - key: tools_others.utilities.others.description
+      t: Alte utilitare (câmp deschis).
+
+    - key: tools_others.browsers
+      t: Browsere
+    - key: tools_others.browsers.description
+      t: Ce browser(e) folosești în faza inițială de dezvoltare?
+    - key: tools_others.browsers.others
+      t: Alte browsere
+    - key: tools_others.browsers.others.description
+      t: Alte răspunsuri (câmp deschis).
+
+    - key: tools_others.build_tools
+      t: Tool-uri pentru build
+    - key: tools_others.build_tools.description
+      t: Ce tool-uri pentru build folosești?
+    - key: tools_others.build_tools.others
+      t: Alte tool-uri pentru build
+    - key: tools_others.build_tools.others.description
+      t: Alte răspunsuri (câmp deschis).
+
+    - key: tools_others.non_js_languages
+      t: Limbaje non-JavaScript
+    - key: tools_others.non_js_languages.description
+      t: Ce alte limbaje de programare folosești?
+    - key: tools_others.non_js_languages.others
+      t: Alte limbaje
+    - key: tools_others.non_js_languages.others.description
+      t: Alte răspunsuri (câmp deschis).
+
+    ###########################################################################
+    # Resources
+    ###########################################################################
+
+    # blogs & magazines
+    - key: resources.blogs_news_magazines
+      t: Blog-uri și reviste
+    - key: resources.blogs_news_magazines.description
+      t: Ce blog-uri/reviste/etc. citești?
+    - key: resources.blogs_news_magazines.others
+      t: Alte blog-uri și reviste
+    - key: resources.blogs_news_magazines.others.description
+      t: Alte răspunsuri (câmp deschis).
+
+    # sites & courses
+    - key: resources.sites_courses
+      t: Site-uri și cursuri
+    - key: resources.sites_courses.description
+      t: Ce site-uri/cursuri/etc. folosești pentru informare?
+    - key: resources.sites_courses.others
+      t: Alte site-uri și cursuri
+    - key: resources.sites_courses.others.description
+      t: Alte răspunsuri (câmp deschis).
+
+    # podcasts
+    - key: resources.podcasts
+      t: Podcast-uri
+    - key: resources.podcasts.description
+      t: Ce podcast-uri legate de programare asculți?
+    - key: resources.podcasts.others
+      t: Alte podcast-uri
+    - key: resources.podcasts.others.description
+      t: Alte răspunsuri (câmp deschis).

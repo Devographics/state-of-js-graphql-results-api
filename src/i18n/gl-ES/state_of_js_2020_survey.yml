@@ -1,0 +1,16 @@
+locale: gl-ES
+namespace: js
+translations:
+    ###########################################################################
+    # General
+    ###########################################################################
+
+    - key: general.survey_intro_js2020
+      t: >
+          2020 foi un ano complexo para todos, o que fai que preocuparse polas últimas novidades
+          de JavaScript careza de importancia en comparación.
+
+          
+          Inda así, o mundo segue a xirar, e o mesmo fai JavaScript. E unha vez máis, coa túa axuda
+          intentaremos construír unha imaxe comprensiva do ecosistema para adiviñar un pouco máis
+          cara onde está a ir.

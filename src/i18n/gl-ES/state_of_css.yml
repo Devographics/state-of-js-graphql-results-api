@@ -1,4 +1,4 @@
-locale: ja-JP
+locale: gl-ES
 namespace: css
 translations:
     ###########################################################################
@@ -7,151 +7,151 @@ translations:
 
     - key: general.survey_intro_css2020
       t: >
-          CSSはこれまでにない速さで進化しています。
+          CSS está evoluindo máis á présa que nunca.
 
-          Flexbox、Grid、マルチカラム……CSS-in-JSは言うまでもありませんね。
 
-          State Of JavaScriptの成功をうけ、対象をスタイルやセレクタの世界にも広げることにしました。このアンケートが、いまのトレンドが何かを知ったり、どのようなツールを使えばいいのかといった疑問の解決の手助けになることを願っています！
+          Flexbox, Grid, Multi-Column… por non falar do totalmente novo paradigma CSS-in-JS.
+
+
+          Así que despois do éxito da nosa enquisa anual sobre o Estado de JavaScript,
+          decidimos facer unha, dentro do mundo dos estilos e os selectores. Agardamos
+          que nos poidas axudar a identificar as últimas tendencias, e as ferramentas que
+          debemos aprender e empregar no futuro!
 
     - key: general.results.description
-      t: CSSの最新トレンドを知るためのアンケート
+      t: A enquisa anual sobre as últimas tendencias en CSS.
 
     ###########################################################################
     # Sections
     ###########################################################################
 
     - key: sections.layout.title
-      t: レイアウト
+      t: Deseño
     - key: sections.layout.description
-      t: どうやって画面に要素を配置しますか？
+      t: Como distribues os elementos pola pantalla?
 
     - key: sections.shapes_graphics.title
-      t: シェイプ＆グラフィクス
+      t: Formas e Gráficos
     - key: sections.shapes_graphics.description
-      t: 要素の形と表示を制御する。
+      t: Controlando a forma e a representación dos elementos.
 
     - key: sections.interactions.title
-      t: インタラクション
+      t: Interaccións
     - key: sections.interactions.description
-      t: ユーザーとページのインタラクションを調整する。
+      t: Controlando coma o usuario interactúa coa paxina.
 
     - key: sections.typography.title
-      t: タイポグラフィ
+      t: Tipografías
     - key: sections.typography.description
-      t: テキストの設定や配置。
+      t: Configurando e distribuindo o texto.
 
     - key: sections.animations_transforms.title
-      t: アニメーション＆トランスフォーム
+      t: Animacións e Transformacións
     - key: sections.animations_transforms.description
-      t: 要素のアニメーションや変形。
+      t: Animando e transformando elementos.
 
     - key: sections.media_queries.title
-      t: メディアクエリー
+      t: Media Queries
     - key: sections.media_queries.description
-      t: デバイスやユーザーの設定にあわせる。
+      t: Formas de adaptar a túa paxina aos dispositivos dos teus usuarios ou as súas preferenzas.
 
     - key: sections.other_features.title
-      t: そのほかの機能
+      t: Outras Características
     - key: sections.other_features.description
-      t: そのほかのCSSの機能。
+      t: Outras características de CSS.
 
     - key: sections.units_selectors.title
-      t: 単位とセレクタ
+      t: Unidades e Selectores
     - key: sections.units_selectors.description
-      t: 単位とセレクタの知識をテストします。
+      t: Pon a proba o teu coñecimento sobre unidades e selectores de CSS.
 
     - key: sections.pre_post_processors.title
-      t: プリプロセサ・ポストプロセサ
+      t: Pre-/Post-procesadores
     - key: sections.pre_post_processors.description
-      t: CSSを拡張するユーティリティ。
+      t: Utilidades para enriquecer CSS.
 
     - key: sections.pre_post_processors_others.title
-      t: そのほかのプリプロセサ・ポストプロセサ
+      t: Outros Pre-/Post-procesadores
 
     - key: sections.css_frameworks.title
-      t: CSSフレームワーク
+      t: CSS Frameworks
     - key: sections.css_frameworks.description
-      t: コンポーネントとスタイルを提供するライブラリ。
+      t: Librarías que te facilitan compoñentes e estilos listos para ser usados.
 
     - key: sections.css_frameworks_others.title
-      t: そのほかのCSSフレームワーク
+      t: Outros CSS Frameworks
 
     - key: sections.css_methodologies.title
-      t: CSS設計手法
+      t: Metodoloxías CSS
     - key: sections.css_methodologies.description
-      t: きれいなCSSを書くために体系化された手法。
+      t: Cómo escribir CSS de forma máis limpa.
 
     - key: sections.css_methodologies_others.title
-      t: そのほかのCSS設計手法
+      t: Outras Metodoloxías CSS.
 
     - key: sections.css_in_js.title
       t: CSS-in-JS
     - key: sections.css_in_js.description
-      t: JavaScriptコードにCSSを組み込むためのライブラリ。
+      t: Librarías que nos axudan a escribir CSS dentro do código JavaScript.
 
     - key: sections.css_in_js_others.title
-      t: そのほかのCSS-in-JSライブラリ。
+      t: Outras Librarías de CSS-in-JS.
 
     - key: sections.tools_others.title
-      t: そのほかのツール
+      t: Outras ferramentas
     - key: sections.tools_others.description
-      t: そのほかのCSSのツール。
+      t: Outras ferramentas para CSS.
 
     - key: sections.environments.title
-      t: 対応環境
+      t: Entornos
     - key: sections.environments.description
-      t: どんな環境に向けてCSSを書いているか。
-
-    - key: sections.awards.title
-      t: アワード
-    - key: sections.awards.description
-      t: 今年注目を集めたものに贈られます。
+      t: Para qué entornos escribes CSS?
 
     ###########################################################################
     # Options
     ###########################################################################
 
-    # CSS for print
+    # css for print
     - key: options.css_for_print.0
-      t: 印刷用スタイルは（ほとんど）書いたことがない
+      t: (Case) nunca escribo CSS para ser impreso
     - key: options.css_for_print.0.short
-      t: まったくない
+      t: Nunca
 
     - key: options.css_for_print.1
-      t: 印刷用スタイルはときどき書く
+      t: De vez en cando escribo CSS para ser impreso
     - key: options.css_for_print.1.short
-      t: ときどき
+      t: Ocasionalmente
 
     - key: options.css_for_print.2
-      t: 印刷用スタイルはほとんどのプロジェクトで書いている
+      t: Escribo CSS para ser impreso para casi todos os proxectos
     - key: options.css_for_print.2.short
-      t: かなり
+      t: A miudo
 
     - key: options.css_for_print.3
-      t: CSSは印刷用スタイルを主に書いている
+      t: Só me centro en CSS para ser impreso
     - key: options.css_for_print.3.short
-      t: 専業
+      t: Principalmente
 
-    # CSS for email
+    # css for email
     - key: options.css_for_email.0
-      t: メール用のCSSは（ほとんど）書いたことがない
+      t: (Case) nunca escribo CSS para correos electrónicos
     - key: options.css_for_email.0.short
-      t: まったくない
+      t: Nunca
 
     - key: options.css_for_email.1
-      t: メール用のCSSはときどき書く
+      t: De vez en cando escribo CSS para correos electrónicos
     - key: options.css_for_email.1.short
-      t: ときどき
+      t: Ocasionalmente
 
     - key: options.css_for_email.2
-      t: メール用のCSSはほとんどのプロジェクトで書いている
+      t: Escribo CSS para correos electrónicos en casi tódolos proxectos
     - key: options.css_for_email.2.short
-      t: かなり
+      t: A miudo
 
     - key: options.css_for_email.3
-      t: メール用のCSSを主に書いている
+      t: Só me centro en CSS para correos electrónicos
     - key: options.css_for_email.3.short
-      t: 専業
+      t: Principalmente
 
     ###########################################################################
     # Features
@@ -164,21 +164,21 @@ translations:
     - key: features.subgrid
       t: Subgrid
     - key: features.regions
-      t: CSS Regions
+      t: Rexións en CSS
     - key: features.flexbox
       t: Flexbox
     - key: features.multi_column
-      t: CSS Multi-Column
+      t: Multi-Columna en CSS
     - key: features.writing_modes
-      t: CSS Writing Modes
+      t: Modos de Escritura en CSS
     - key: features.exclusions
-      t: CSS Exclusions
+      t: Exclusións en CSS
     - key: features.position_sticky
       t: '<code>position: sticky</code>'
     - key: features.logical_properties
-      t: Logical Properties
+      t: Propiedades Lóxicas
     - key: features.logical_properties.description
-      t: <code>margin-block-start</code>, <code>padding-inline-end</code>など
+      t: <code>margin-block-start</code>, <code>padding-inline-end</code>, etc.
     - key: features.aspect_ratio
       t: <code>aspect-ratio</code>
     - key: features.content_visibility
@@ -186,19 +186,19 @@ translations:
 
     # shapes & graphics
     - key: features.shapes
-      t: CSS Shapes
+      t: Formas en CSS
     - key: features.object_fit
       t: <code>object-fit</code>
     - key: features.clip_path
       t: <code>clip-path</code>
     - key: features.masks
-      t: CSS Masks
+      t: Máscaras en CSS
     - key: features.blend_modes
-      t: Blend Modes
+      t: Modo de mestura
     - key: features.blend_modes.description
-      t: <code>mix-blend-mode</code>
+      t: A propiedade <code>mix-blend-mode</code>
     - key: features.filter_effects
-      t: CSS Filter Effects
+      t: Filtros en CSS
     - key: features.backdrop_filter
       t: <code>backdrop-filter</code>
 
@@ -216,11 +216,11 @@ translations:
 
     # typography
     - key: features.web_fonts
-      t: ウェブフォント (@font-face)
+      t: Web fonts (@font-face)
     - key: features.variables_fonts
-      t: バリアブルフォント
+      t: Tipos variables
     - key: features.line_breaking
-      t: 改行関連プロパティ
+      t: Saltos de liña
     - key: features.line_breaking.description
       t: <code>overflow-wrap</code>, <code>word-break</code>, <code>line-break</code>, <code>hyphens</code>
     - key: features.font_variant
@@ -238,21 +238,21 @@ translations:
     - key: features.direction
       t: <code>direction</code>
     - key: features.direction.description
-      t: HTMLの<code>dir</code>属性も含む。
+      t: Tamén inclúe o atributo HTML <code>dir</code>.
 
     # animations & transforms
     - key: features.transitions
-      t: CSS Transitions
+      t: Transicións CSS
     - key: features.transforms
-      t: CSS Transforms
+      t: Transformacións CSS
     - key: features.animations
-      t: CSS Animations
+      t: Animacións CSS
     - key: features.perspective
       t: <code>perspective</code>
 
     # media queries
     - key: features.feature_support_queries
-      t: フィーチャークエリー (<code>@supports</code>)
+      t: Comprobando Características Soportadas (<code>@supports</code>)
     - key: features.prefers_reduced_motion
       t: <code>prefers-reduced-motion</code>
     - key: features.prefers_color_scheme
@@ -262,7 +262,7 @@ translations:
 
     # other features
     - key: features.variables
-      t: CSS Variables (カスタムプロパティ)
+      t: Variables CSS(Propiedades Custom)
     - key: features.containment
       t: CSS Containment
     - key: features.will_change
@@ -272,24 +272,18 @@ translations:
     - key: features.houdini
       t: Houdini
     - key: features.comparison_functions
-      t: CSS比較関数
+      t: Funcións de Comparación CSS
     - key: features.comparison_functions.description
-      t: <code>min()</code>, <code>max()</code>, <code>clamp()</code>
+      t: <code>min()</code>, <code>max()</code>, and <code>clamp()</code>
 
-    # knowledge score
-    - key: features.knowledge_score
-      t: 知識の度合い
-    - key: features.knowledge_score.description
-      t: アンケートで取り上げたCSSの機能を回答者がどのくらい知っていたか。
-      
     ###########################################################################
     # Units & Selectors
     ###########################################################################
 
     - key: features_others.units
-      t: 単位
+      t: Unidades
     - key: features_others.units.description
-      t: どの単位を使ったことがあるか。
+      t: Cales das seguintes unidades CSS tes empregado?
 
     - key: options.units.px
       t: px
@@ -317,9 +311,9 @@ translations:
       t: in
 
     - key: features_others.pseudo_elements
-      t: 疑似要素
+      t: Pseudo Elementos
     - key: features_others.pseudo_elements.description
-      t: どの疑似要素を使ったことがあるか。
+      t: Cales dos seguintes pseudo elementos CSS tes empregado?
 
     - key: options.pseudo_elements.before
       t: '::before'
@@ -339,23 +333,23 @@ translations:
       t: '::backdrop'
 
     - key: features_others.combinators
-      t: 結合子セレクタ
+      t: Combinators
     - key: features_others.combinators.description
-      t: CSSセレクタの結合子のうち、どれを使ったことがあるか。
+      t: Cales destas combinacións de selectores CSS tes empregado?
 
     - key: options.combinators.descendant
-      t: div span (子孫)
+      t: div span (descendente)
     - key: options.combinators.child
-      t: div > span (子)
+      t: div > span (fillo)
     - key: options.combinators.next_sibling
-      t: div + div (隣接)
+      t: div + div (irmán seguinte)
     - key: options.combinators.subsequent_sibling
-      t: div ~ div (兄弟)
+      t: div ~ div (irmán posterior)
 
     - key: features_others.tree_document_structure
-      t: 木構造・ドキュメント構造
+      t: Árbore / Estrutura do Documento 
     - key: features_others.tree_document_structure.description
-      t: 構造関連セレクタのうち、どれを使ったことがあるか。
+      t: Cales destes selectores CSS relacionados coa estrutura tes empregado?
 
     - key: options.tree_document_structure.root
       t: :root
@@ -393,41 +387,41 @@ translations:
       t: :has()
 
     - key: features_others.attributes
-      t: 属性セレクタ
+      t: Atributos
     - key: features_others.attributes.description
-      t: 属性セレクタのうち、どれを使ったことがあるか。
+      t: Cales destes selectores CSS de atributos tes empregado?
 
     - key: options.attributes.presence
-      t: div[foo] (属性の存在)
+      t: div[foo] (Presencia)
     - key: options.attributes.equality
-      t: div[foo="bar"] (一致)
+      t: div[foo="bar"] (Igualdad)
     - key: options.attributes.starts_with
-      t: div[foo^="bar"] (開始)
+      t: div[foo^="bar"] (Empieza con)
     - key: options.attributes.ends_with
-      t: div[foo$="bar"] (終了)
+      t: div[foo$="bar"] (Termina con)
     - key: options.attributes.contains_word
-      t: div[foo~="bar"] (単語の包含)
+      t: div[foo~="bar"] (Contiene la palabra)
     - key: options.attributes.contains_substring
-      t: div[foo*="bar"] (文字列の包含)
+      t: div[foo*="bar"] (Contiene la cadena)
 
     - key: features_others.links_urls
-      t: リンク・URL
+      t: Ligazóns/URLs
     - key: features_others.links_urls.description
-      t: リンク・URL関連のセレクタのうち、どれを使ったことがあるか。
+      t: Cales destes selectores CSS relacionados con ligazóns e URL tes empregado?
 
     - key: options.links_urls.any_link
       t: :any-link
     - key: options.links_urls.link_visited
-      t: :link / :visited
+      t: :link and :visited
     - key: options.links_urls.local_link
       t: :local-link
     - key: options.links_urls.target
       t: :target
 
     - key: features_others.interaction
-      t: インタラクション
+      t: Interacción
     - key: features_others.interaction.description
-      t: インタラクション関連セレクタのうち、どれを使ったことがあるか。
+      t: Cales destes selectores CSS de interacción tes empregado?
 
     - key: options.interaction.hover
       t: :hover
@@ -441,14 +435,14 @@ translations:
       t: :focus-visible
 
     - key: features_others.form_controls
-      t: フォームコントロール
+      t: Control de Formularios
     - key: features_others.form_controls.description
-      t: フォームコントロール関連セレクタのうち、どれを使ったことがあるか。
+      t: Cales destes selectores CSS para formularios tes empregado?
 
     - key: options.form_controls.enabled_disabled
-      t: :enabled / :disabled
+      t: :enabled and :disabled
     - key: options.form_controls.read_only_write
-      t: :read-only / :read-write
+      t: :read-only and :read-write
     - key: options.form_controls.placeholder_shown
       t: :placeholder-shown
     - key: options.form_controls.default
@@ -458,92 +452,93 @@ translations:
     - key: options.form_controls.indeterminate
       t: :indeterminate
     - key: options.form_controls.valid_invalid
-      t: :valid / :invalid
+      t: :valid and :invalid
     - key: options.form_controls.user_invalid
       t: :user-invalid
     - key: options.form_controls.in_out_range
-      t: :in-range / :out-of-range
+      t: :in-range and :out-of-range
     - key: options.form_controls.required_optional
-      t: :required / :optional
+      t: :required and :optional
 
     ###########################################################################
     # Environments
     ###########################################################################
 
     - key: environments.browsers
-      t: ブラウザー
+      t: Navegadores
     - key: environments.browsers.description
-      t: どのブラウザーでテストしているか。
+      t: En qué navegadores fas probas?
 
     - key: environments.form_factors
-      t: 対応デバイス
+      t: Factor de Forma
     - key: environments.form_factors.description
-      t: どんなデバイスでテストしているか。
+      t: En qué tamaños e formatos de pantalla fas probas?
 
     - key: environments.css_for_print
-      t: 印刷用スタイル
+      t: CSS para Imprimir
     - key: environments.css_for_print.description
-      t: 印刷用スタイルを書いているか。
+      t: Escribes CSS para imprimir?
 
     - key: environments.css_for_email
-      t: メールクライアント用CSS
+      t: CSS para Correos Electrónicos
     - key: environments.css_for_email.description
-      t: メール用のCSSを書いているか。
+      t: Escribes CSS para correos electrónicos?
 
     - key: charts.axis_legends.css_for_print
-      t: 頻度
+      t: Asiduidade
     - key: charts.axis_legends.css_for_email
-      t: 頻度
+      t: Asiduidade
 
     ###########################################################################
     # Opinions
     ###########################################################################
 
     - key: opinions.css_easy_to_learn
-      t: CSSを学ぶのは簡単だ
+      t: CSS é fácil de aprender
     - key: opinions.css_easy_to_learn.title
-      t: 学習曲線
+      t: Curva de Aprendizaxe
 
     - key: opinions.css_evolving_slowly
-      t: CSSの発展は遅すぎる
+      t: CSS está evolucionando moi despacio
     - key: opinions.css_evolving_slowly.title
-      t: 変化度合い
+      t: Velocidade de Cambio
 
     - key: opinions.utility_classes_to_be_avoided
-      t: セマンティックではない、ユーティリティクラス（.center、.large-textなど）は避けるべきだ
+      t: Clases funcionais (non-semánticas) (.center, .large-text, etc.) deberían evitarse
     - key: opinions.utility_classes_to_be_avoided.title
-      t: セマンティックでないクラス
+      t: Clases Non Semánticas
 
     - key: opinions.selector_nesting_to_be_avoided
-      t: セレクタの入れ子（.foo .bar ul li {...}）は避けるべきだ
+      t: Aniñar selectores (.foo .bar ul li {...}) debería evitarse
     - key: opinions.selector_nesting_to_be_avoided.title
-      t: セレクタの入れ子
+      t: Selectores Aniñados
 
     - key: opinions.css_is_programming_language
-      t: CSSはプログラミング言語だ
+      t: CSS é unha linguaxe de programación
     - key: opinions.css_is_programming_language.title
-      t: プログラミング言語
+      t: Linguaxe de Programación
 
     - key: opinions.enjoy_writing_css
-      t: CSSを書いていて楽しい
+      t: Disfruto escribindo CSS
     - key: opinions.enjoy_writing_css.title
-      t: 楽しさ
+      t: Satisfacción
 
     - key: opinions_others.currently_missing_from_css.others
-      t: CSSにいま足りないものは何か。
+      t: Que crees que lle falta a CSS?
     - key: opinions_others.currently_missing_from_css.others.description
-      t: CSSにいつかほしい機能。
+      t: Características que queres ver en CSS algún día.
     - key: opinions_others.currently_missing_from_css.others.note
       t: >
-          これらの結果は自由入力の内容を正規化したものです。処理されていない生のデータは、[whatsmissingfromcss.com](http://whatsmissingfromcss.com/)からご覧ください。
-    
+          Estes resultados foron normalizados en base a un eido para texto libre.
+          Para ver os datos orixinais, visita [whatsmissingfromcss.com](http://whatsmissingfromcss.com/).
+
     - key: opinions.sum_up_one_word_css
-      t: CSSを一言で言うと
+      t: CSS nunha palabra
     - key: opinions.sum_up_one_word_css.description
-      t: CSSについて何かひとこと言うなら。
+      t: Como resumirías a túa opinión de CSS cunha palabra?
 
     - key: happiness.state_of_the_web
-      t: ウェブ技術の現状に満足しているか。
+      t: Como estás de satisfeito có estado xeral das tecnoloxías web?
 
     - key: happiness.state_of_css
-      t: CSSの現状に満足しているか。
+      t: Como estás de satisfeito có estado xeral de CSS?
