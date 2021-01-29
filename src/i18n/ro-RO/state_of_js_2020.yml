@@ -84,7 +84,7 @@ translations:
       t: Cumpără
 
     - key: tshirt.price
-      t: {price} USD + transportul
+      t: '{price} USD + transportul'
 
     ###########################################################################
     # Sections Introductions
