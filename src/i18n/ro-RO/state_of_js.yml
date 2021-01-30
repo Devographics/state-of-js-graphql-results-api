@@ -44,7 +44,7 @@ translations:
     - key: sections.other_features.title
       t: Alte funcționalități
     - key: sections.other_features.description
-      t: Alte tehnologii și pattern-uri
+      t: Alte tehnologii și pattern-uri.
 
     - key: sections.patterns.title
       t: Pattern-uri

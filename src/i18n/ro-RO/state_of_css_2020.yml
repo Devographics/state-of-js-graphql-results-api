@@ -89,7 +89,7 @@ translations:
 
     - key: sections.features.description
       t: |
-          CSS-ul a înregistrat o creștere a funcționalităților în ultimii ani, prin urmare, așa cum era de așteptat adoptarea acestora
+          CSS-ul a înregistrat o creștere a funcționalităților în ultimii ani, prin urmare, așa cum era de așteptat, adoptarea acestora
           a rămas puțin în urmă, în timp ce comunitatea începe încet-încet să le folosească.
 
     - key: sections.units_selectors.description
