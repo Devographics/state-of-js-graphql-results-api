@@ -43,22 +43,22 @@ translations:
       t: Abschätzung
     - key: options.quadrant.assess.long
       t: |
-          Abschätzung: Geringe Nutzung, hohe Zufriedenheit. Technologien, die beobachtet werden sollten.
+        Abschätzung: Geringe Nutzung, hohe Zufriedenheit. Technologien, die beobachtet werden sollten.
     - key: options.quadrant.adopt
       t: Übernahme
     - key: options.quadrant.adopt.long
       t: |
-          Übernahme: Hohe Nutzung, hohe Zufriedenheit. Diese Technologien können ohne Weiteres genutzt werden.
+        Übernahme: Hohe Nutzung, hohe Zufriedenheit. Diese Technologien können ohne Weiteres genutzt werden.
     - key: options.quadrant.avoid
       t: Vermeiden
     - key: options.quadrant.avoid.long
       t: |
-          Vermeiden: Geringe Nutzung, geringe Zufriedenheit. Technologien die derzeit vermieden werden sollten.
+        Vermeiden: Geringe Nutzung, geringe Zufriedenheit. Technologien die derzeit vermieden werden sollten.
     - key: options.quadrant.analyze
       t: Analysieren
     - key: options.quadrant.analyze.long
       t: |
-          Analysieren: Hohe Nutzung, geringe Zufriedenheit. Überdenke die Nutzung dieser Technologien, wenn Du sie aktuell im Einsatz hast.
+        Analysieren: Hohe Nutzung, geringe Zufriedenheit. Überdenke die Nutzung dieser Technologien, wenn Du sie aktuell im Einsatz hast.
 
     ###########################################################################
     # Sections
@@ -95,13 +95,13 @@ translations:
     - key: user_info.source.note
       t: >
 
-          Dieses Chart führt eine Mischung aus Referrern, URL-Parametern und Freitextfeldern zusammen.
+        Dieses Chart führt eine Mischung aus Referrern, URL-Parametern und Freitextfeldern zusammen.
 
-          - State of JS: die [State of JS](https://stateofjs.com) Mailing-Liste.
+        - State of JS: die [State of JS](https://stateofjs.com) Mailing-Liste.
 
-          - State of CSS: die State of CSS Mailing-Liste; akzeptiert `email`, `by email`, usw.
+        - State of CSS: die State of CSS Mailing-Liste; akzeptiert `email`, `by email`, usw.
 
-          - Work: akzeptiert `work`, `colleagues`, `coworkers`, usw.
+        - Work: akzeptiert `work`, `colleagues`, `coworkers`, usw.
 
     ###########################################################################
     # Locales
@@ -180,20 +180,20 @@ translations:
       t: Nutzung nach Unternehmensgröße
     - key: blocks.tools_company_size_heatmap.description
       t: |
-          Wie sich die Nutzung über die Unternehmensgröße verteilt.
+        Wie sich die Nutzung über die Unternehmensgröße verteilt.
 
     - key: blocks.tools_yearly_salary_heatmap.title
       t: Nutzung nach Einkommen
     - key: blocks.tools_yearly_salary_heatmap.description
       t: |
-          Wie sich die Nutzung über das Einkommen verteilt.
+        Wie sich die Nutzung über das Einkommen verteilt.
 
     - key: blocks.tools_years_of_experience_heatmap.title
       t: Nutzung nach Erfahrung nach Jahren
     - key: blocks.tools_years_of_experience_heatmap.description
       t: |
-          Wie sich die Nutzung über die Erfahrung nach Jahren verteilt.
-          Beachte, dass es sich hierbei um allgemeine Erfahrung handelt und nicht entsprechend einer speziellen Technologie.
+        Wie sich die Nutzung über die Erfahrung nach Jahren verteilt.
+        Beachte, dass es sich hierbei um allgemeine Erfahrung handelt und nicht entsprechend einer speziellen Technologie.
 
     # tool
     - key: blocks.entity.homepage_link
@@ -206,22 +206,22 @@ translations:
       t: Zufriedenheit im Vergleich zur Nutzung
     - key: blocks.tools_quadrant.description
       t: |
-          Dieses Chart zeigt für jede Technologie den **Zufriedenheitswert** für die gesamte **Nutzerzahl**.
-          Es kann in Vier Bereiche unterteilt werden:
+        Dieses Chart zeigt für jede Technologie den **Zufriedenheitswert** für die gesamte **Nutzerzahl**.
+        Es kann in Vier Bereiche unterteilt werden:
 
-            - **Abschätzung**: Geringe Nutzung, hohe Zufriedenheit. Technologien, die beobachtet werden sollten.
+          - **Abschätzung**: Geringe Nutzung, hohe Zufriedenheit. Technologien, die beobachtet werden sollten.
 
-            - **Übernahme**: Hohe Nutzung, hohe Zufriedenheit. Diese Technologien können ohne Weiteres genutzt werden.
+          - **Übernahme**: Hohe Nutzung, hohe Zufriedenheit. Diese Technologien können ohne Weiteres genutzt werden.
 
-            - **Vermeiden**: Geringe Nutzung, geringe Zufriedenheit. Technologien die derzeit vermieden werden sollten.
+          - **Vermeiden**: Geringe Nutzung, geringe Zufriedenheit. Technologien die derzeit vermieden werden sollten.
 
-            - **Analysieren**: Hohe Nutzung, geringe Zufriedenheit. Überdenke die Nutzung dieser Technologien, wenn Du sie aktuell im Einsatz hast.
+          - **Analysieren**: Hohe Nutzung, geringe Zufriedenheit. Überdenke die Nutzung dieser Technologien, wenn Du sie aktuell im Einsatz hast.
 
     - key: blocks.tools_quadrant.interest.description
       t: |
-          Dieses Chart zeigt für jede Technologie das **Interesse** für die gesamte **Nutzerzahl** an (Definiert von Teilnehmern, die die Technik kennen aber noch *nicht genutzt haben*.).
+        Dieses Chart zeigt für jede Technologie das **Interesse** für die gesamte **Nutzerzahl** an (Definiert von Teilnehmern, die die Technik kennen aber noch *nicht genutzt haben*.).
 
-          (Beachte, dass niedrigere Nutzerzahlen an einer unbekannten Technologie liegen können oder die Technologie wird bereits von vielen Teilnehmern genutzt.)
+        (Beachte, dass niedrigere Nutzerzahlen an einer unbekannten Technologie liegen können oder die Technologie wird bereits von vielen Teilnehmern genutzt.)
 
     # category other tools
     - key: blocks.category_other_tools.title
@@ -240,14 +240,14 @@ translations:
       t: Erfahrung über Zeit
     - key: blocks.tools_section_streams.description
       t: |
-          Überblick über Meinungen zu Technologien, abgefragt über die Zeit.
+        Überblick über Meinungen zu Technologien, abgefragt über die Zeit.
 
     # tools section overview
     - key: blocks.tools_section_overview.title
       t: Kategorie Überblick
     - key: blocks.tools_section_overview.description
       t: |
-          Überblick über Meinungen zu Technologien. Dunklere Bereiche repräsentieren positive Meinungen, während hellere Bereiche für negative Einstellungen stehen.
+        Überblick über Meinungen zu Technologien. Dunklere Bereiche repräsentieren positive Meinungen, während hellere Bereiche für negative Einstellungen stehen.
 
     # tools experience ranking
     - key: blocks.tools_experience_ranking.title
@@ -260,15 +260,15 @@ translations:
       t: Allgemeine Zufriedenheit
     - key: blocks.happiness.description
       t: |
-          Auf einer Skala von eins (sehr unzufrieden) bis fünf (sehr zufrieden),
-          wie zufrieden sind Entwickler allgemein mit dem Status in dieser Kategorie?
+        Auf einer Skala von eins (sehr unzufrieden) bis fünf (sehr zufrieden),
+        wie zufrieden sind Entwickler allgemein mit dem Status in dieser Kategorie?
 
     # newsletter
     - key: blocks.newsletter.title
       t: Bleib dran
     - key: blocks.newsletter.description
       t: |
-          Wenn Du von zusätzlichen Ergebnissen erfahren möchtest oder die Ankündigung für die nächste Umfragen erhalten willst, lass einfach Deine Mail Adresse hier.
+        Wenn Du von zusätzlichen Ergebnissen erfahren möchtest oder die Ankündigung für die nächste Umfragen erhalten willst, lass einfach Deine Mail Adresse hier.
     - key: blocks.newsletter.email
       t: Deine E-Mail
     - key: blocks.newsletter.submit
@@ -279,13 +279,13 @@ translations:
       t: Überblick Nutzung
     - key: blocks.features_overview.description
       t: |
-          Dieses Chart präsentiert die verschiedenen Nutzungsraten für alle Funktionen gruppiert nach Kategorie.
+        Dieses Chart präsentiert die verschiedenen Nutzungsraten für alle Funktionen gruppiert nach Kategorie.
 
-          Die Größe des <span class="text-teal-darker text-bold">äußeren Kreises</span> korrespondiert mit der Gesamtzahl der Nutzer, die die Technik kennen. Der <span class="text-teal text-bold">innere Kreis</span> hingegen repräsentiert die die sie tatsächlich verwenden.
+        Die Größe des <span class="text-teal-darker text-bold">äußeren Kreises</span> korrespondiert mit der Gesamtzahl der Nutzer, die die Technik kennen. Der <span class="text-teal text-bold">innere Kreis</span> hingegen repräsentiert die die sie tatsächlich verwenden.
 
-          Fahre mit der Maus über einen Knoten, um detaillierte Daten zu sehen, sowie ein <span class="text-blackpink text-bold">Overlay</span> mit der Gesamtzahl der Teilnehmer.
+        Fahre mit der Maus über einen Knoten, um detaillierte Daten zu sehen, sowie ein <span class="text-blackpink text-bold">Overlay</span> mit der Gesamtzahl der Teilnehmer.
 
-    # export
+  # export
     - key: export.export
       t: Export
     - key: export.title

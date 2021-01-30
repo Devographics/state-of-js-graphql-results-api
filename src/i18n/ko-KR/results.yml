@@ -51,22 +51,22 @@ translations:
       t: 평가
     - key: options.quadrant.assess.long
       t: |
-          평가: 낮은 사용량, 높은 만족도. 지켜볼 만한 기술.
+        평가: 낮은 사용량, 높은 만족도. 지켜볼 만한 기술.
     - key: options.quadrant.adopt
       t: 적용
     - key: options.quadrant.adopt.long
       t: |
-          적용: 높은 사용량, 높은 만족도. 적용하기에 안전한 기술.
+        적용: 높은 사용량, 높은 만족도. 적용하기에 안전한 기술.
     - key: options.quadrant.avoid
       t: 기피
     - key: options.quadrant.avoid.long
       t: |
-          기피: 낮은 사용량, 낮은 만족도. 현재는 피하는게 좋은 기술.
+        기피: 낮은 사용량, 낮은 만족도. 현재는 피하는게 좋은 기술.
     - key: options.quadrant.analyze
       t: 검토
     - key: options.quadrant.analyze.long
       t: |
-          검토: 높은 사용량, 낮은 만족도. 이러한 기술을 현재 사용 중이라면 재검토해 볼 것.
+        검토: 높은 사용량, 낮은 만족도. 이러한 기술을 현재 사용 중이라면 재검토해 볼 것.
 
     - key: ranges.selector.years_of_experience
       t: 경험
@@ -98,7 +98,7 @@ translations:
       t: 지원
     - key: sections.support.description
       t: >
-          저희는 이 설문조사를 사이드 프로젝트로 운영하고 있습니다. 하지만 프로젝트가 지속 가능하도록 하기 위해 항상 재정적으로 지원하거나 또는 널리 알리는 데 도움을 줄 수 있는 파트너를 찾고 있습니다. 귀하가 어떤 식으로든 도움이 될 수 있다면 주저하지 말고 [연락](mailto:hello@stateofjs.com)해 주세요!
+        저희는 이 설문조사를 사이드 프로젝트로 운영하고 있습니다. 하지만 프로젝트가 지속 가능하도록 하기 위해 항상 재정적으로 지원하거나 또는 널리 알리는 데 도움을 줄 수 있는 파트너를 찾고 있습니다. 귀하가 어떤 식으로든 도움이 될 수 있다면 주저하지 말고 [연락](mailto:hello@stateofjs.com)해 주세요!
 
     - key: sections.awards.title
       t: 시상식
@@ -212,20 +212,20 @@ translations:
       t: 직장 규모별 사용량
     - key: blocks.tools_company_size_heatmap.description
       t: |
-          각 기술에 대해, 다양한 직장 규모 범위를 선택한 응답자 간에 사용량이 어떻게 분산되는지를 나타냅니다.
+        각 기술에 대해, 다양한 직장 규모 범위를 선택한 응답자 간에 사용량이 어떻게 분산되는지를 나타냅니다.
 
     - key: blocks.tools_yearly_salary_heatmap.title
       t: 급여 범위별 사용량
     - key: blocks.tools_yearly_salary_heatmap.description
       t: |
-          각 기술에 대해, 서로 다른 급여 범위를 선택한 응답자들 사이에 사용량이 어떻게 분산되는지를 나타냅니다.
+        각 기술에 대해, 서로 다른 급여 범위를 선택한 응답자들 사이에 사용량이 어떻게 분산되는지를 나타냅니다.
 
     - key: blocks.tools_years_of_experience_heatmap.title
       t: 업무 연차별 사용량
     - key: blocks.tools_years_of_experience_heatmap.description
       t: |
-          각 기술에 대해, 서로 다른 경험 범위를 선택한 응답자들 간에 사용량이 어떻게 분산되는지 설명합니다.
-          여기서의 경험은 특정 기술에 대한 것이 아니라 일반적인 경험이라는 점에 유의하십시오.
+        각 기술에 대해, 서로 다른 경험 범위를 선택한 응답자들 간에 사용량이 어떻게 분산되는지 설명합니다.
+        여기서의 경험은 특정 기술에 대한 것이 아니라 일반적인 경험이라는 점에 유의하십시오.
 
     # tool
     - key: blocks.entity.homepage_link
@@ -238,22 +238,22 @@ translations:
       t: 만족도 vs 사용량
     - key: blocks.tools_quadrant.description
       t: |
-          이 차트는 각 기술의 전체 **사용자 수** 대비 **만족도 비율**을 보여줍니다.
-          차트를 사분면으로 나누면:
+        이 차트는 각 기술의 전체 **사용자 수** 대비 **만족도 비율**을 보여줍니다.
+        차트를 사분면으로 나누면:
 
-            - **평가**: 낮은 사용량, 높은 만족도. 지켜볼 만한 기술.
+          - **평가**: 낮은 사용량, 높은 만족도. 지켜볼 만한 기술.
 
-            - **적용**: 높은 사용량, 높은 만족도. 적용하기에 안전한 기술.
+          - **적용**: 높은 사용량, 높은 만족도. 적용하기에 안전한 기술.
 
-            - **기피**: 낮은 사용량, 낮은 만족도. 현재는 피하는게 좋은 기술.
+          - **기피**: 낮은 사용량, 낮은 만족도. 현재는 피하는게 좋은 기술.
 
-            - **검토**: 높은 사용량, 낮은 만족도. 이러한 기술을 현재 사용 중이라면 재검토해 볼 것.
+          - **검토**: 높은 사용량, 낮은 만족도. 이러한 기술을 현재 사용 중이라면 재검토해 볼 것.
 
     - key: blocks.tools_quadrant.interest.description
       t: |
-          이 차트는 각 기술의 전체 **사용자 수** 대비 **관심도 비율**을 보여줍니다. (사용자란 기술에 대해 알고 있지만, 사용해 본 적은 없는 응답자로 정의됨)
+        이 차트는 각 기술의 전체 **사용자 수** 대비 **관심도 비율**을 보여줍니다. (사용자란 기술에 대해 알고 있지만, 사용해 본 적은 없는 응답자로 정의됨)
 
-          (여기의 사용자 수가 낮은 이유는 해당 기술이 잘 알려지지 않은 것이거나 혹은 많은 응답자가 이미 사용하고 있는 기술이기 때문일 수 있습니다.)
+        (여기의 사용자 수가 낮은 이유는 해당 기술이 잘 알려지지 않은 것이거나 혹은 많은 응답자가 이미 사용하고 있는 기술이기 때문일 수 있습니다.)
 
     # category other tools
     - key: blocks.category_other_tools.title
@@ -281,17 +281,17 @@ translations:
       t: 시간에 따른 경험
     - key: blocks.tools_section_streams.description
       t: |
-          시간 경과에 따라 조사된 기술에 대한 의견의 개요입니다.
+        시간 경과에 따라 조사된 기술에 대한 의견의 개요입니다.
     - key: blocks.tools_section_streams.note
       t: |
-          최근 1년의 데이터만 있는 기술은 포함되지 않습니다.
+        최근 1년의 데이터만 있는 기술은 포함되지 않습니다.
 
     # tools section overview
     - key: blocks.tools_section_overview.title
       t: 카테고리 개요
     - key: blocks.tools_section_overview.description
       t: |
-          조사된 기술에 대한 의견의 개요입니다. 어두운 부분은 긍정적인 의견을 나타내며, 밝은 부분은 부정적인 감정을 나타냅니다.
+        조사된 기술에 대한 의견의 개요입니다. 어두운 부분은 긍정적인 의견을 나타내며, 밝은 부분은 부정적인 감정을 나타냅니다.
 
     # tools experience ranking
     - key: blocks.tools_experience_ranking.title
@@ -300,27 +300,27 @@ translations:
       t: 만족도, 관심도, 사용량 및 인지도 비율 순위.
     - key: blocks.tools_experience_ranking.note
       t: |
-          인지도가 10% 미만인 기술은 포함되지 않습니다. 각 비율은 다음과 같이 정의됩니다.
-          Technologies with less than 10% awareness not included. Each ratio is defined as follows:
+        인지도가 10% 미만인 기술은 포함되지 않습니다. 각 비율은 다음과 같이 정의됩니다.
+        Technologies with less than 10% awareness not included. Each ratio is defined as follows:
 
-          - 만족도: **다시 사용할 예정** / (**다시 사용할 예정** + **다시 사용 안함**)
-          - 관심도: **배우길 원함** / (**배우길 원함** + **관심 없음**)
-          - 사용량: (**다시 사용할 예정** + **다시 사용 안함**) / **전부**
-          - 인지도: (**전부** - **들어본 적 없음**) / **전부**
+        - 만족도: **다시 사용할 예정** / (**다시 사용할 예정** + **다시 사용 안함**)
+        - 관심도: **배우길 원함** / (**배우길 원함** + **관심 없음**)
+        - 사용량: (**다시 사용할 예정** + **다시 사용 안함**) / **전부**
+        - 인지도: (**전부** - **들어본 적 없음**) / **전부**
 
     # happiness
     - key: blocks.happiness.title
       t: 종합 행복도
     - key: blocks.happiness.description
       t: |
-          1(매우 불행함)에서 5(매우 행복함)까지의 척도로, 개발자들은 이 카테고리의 종합적인 현재 상태에 얼마나 행복한가요?
+        1(매우 불행함)에서 5(매우 행복함)까지의 척도로, 개발자들은 이 카테고리의 종합적인 현재 상태에 얼마나 행복한가요?
 
     # newsletter
     - key: blocks.newsletter.title
       t: 채널 고정
     - key: blocks.newsletter.description
       t: |
-          설문 결과가 추가되거나 내년의 설문을 언제 발표하는지 알고 싶으시다면, 아래에 이메일을 남겨주세요:
+        설문 결과가 추가되거나 내년의 설문을 언제 발표하는지 알고 싶으시다면, 아래에 이메일을 남겨주세요:
     - key: blocks.newsletter.email
       t: 이메일
     - key: blocks.newsletter.submit
@@ -331,11 +331,11 @@ translations:
       t: 사용량 개요
     - key: blocks.features_overview.description
       t: |
-          이 차트는 모든 기능에 대한 다양한 적용률을 카테고리별로 그룹화하여 보여줍니다.
+        이 차트는 모든 기능에 대한 다양한 적용률을 카테고리별로 그룹화하여 보여줍니다.
 
-          <span class="text-teal-darker text-bold">바깥 원</span>의 크기는 해당 기능을 아는 모든 사람, <span class="text-teal text-bold">안쪽 원</span>은 실제로 기능을 사용한 사람의 수에 해당합니다.
+        <span class="text-teal-darker text-bold">바깥 원</span>의 크기는 해당 기능을 아는 모든 사람, <span class="text-teal text-bold">안쪽 원</span>은 실제로 기능을 사용한 사람의 수에 해당합니다.
 
-          각 노드를 마우스로 가리키면 전체 설문 조사 응답자 수를 나타내는 <span class="text-blackpink text-bold">오버레이</span>와 함께 자세한 데이터를 볼 수 있습니다.
+        각 노드를 마우스로 가리키면 전체 설문 조사 응답자 수를 나타내는 <span class="text-blackpink text-bold">오버레이</span>와 함께 자세한 데이터를 볼 수 있습니다.
 
     # export
     - key: export.export
@@ -353,12 +353,12 @@ translations:
       t: 사용량 변화
     - key: blocks.tools_usage_variations.description
       t: |
-          급여 범위, 경력 또는 직장 규모와 같은 여러 요소가 사용에 미치는 영향입니다. ("다시 사용할 예정" 또는 "다시 사용 안함"으로 대답한 참가자)
+        급여 범위, 경력 또는 직장 규모와 같은 여러 요소가 사용에 미치는 영향입니다. ("다시 사용할 예정" 또는 "다시 사용 안함"으로 대답한 참가자)
 
-          기준선은 각 도구의 기본 사용량을 나타내며 오프셋은 각 범위에서 이 기준선의 델타에 해당합니다. 툴 X의 전체 사용량은 전체 응답자(기준)에서 10%라고 가정해 봅시다. 이 툴 사용 경험이 1~2년인 사용자의 비율이 13%인 경우(1~2년 경력을 가진 모든 사용자와 비교) +3%가 됩니다.
+        기준선은 각 도구의 기본 사용량을 나타내며 오프셋은 각 범위에서 이 기준선의 델타에 해당합니다. 툴 X의 전체 사용량은 전체 응답자(기준)에서 10%라고 가정해 봅시다. 이 툴 사용 경험이 1~2년인 사용자의 비율이 13%인 경우(1~2년 경력을 가진 모든 사용자와 비교) +3%가 됩니다.
     - key: blocks.tools_usage_variations.note
       t: |
-          전반적인 사용률이 낮은 툴은 더욱 다양한 경향이 있음을 참고할 수 있습니다.
+        전반적인 사용률이 낮은 툴은 더욱 다양한 경향이 있음을 참고할 수 있습니다.
 
     # Recommended Resources
     - key: blocks.recommended_resources.title

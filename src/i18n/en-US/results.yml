@@ -51,22 +51,22 @@ translations:
       t: ASSESS
     - key: options.quadrant.assess.long
       t: |
-          ASSESS: Low usage, high satisfaction. Technologies worth keeping an eye on.
+        ASSESS: Low usage, high satisfaction. Technologies worth keeping an eye on.
     - key: options.quadrant.adopt
       t: ADOPT
     - key: options.quadrant.adopt.long
       t: |
-          ADOPT: High usage, high satisfaction. Safe technologies to adopt.
+        ADOPT: High usage, high satisfaction. Safe technologies to adopt.
     - key: options.quadrant.avoid
       t: AVOID
     - key: options.quadrant.avoid.long
       t: |
-          AVOID: Low usage, low satisfaction. Technologies probably best avoided currently.
+        AVOID: Low usage, low satisfaction. Technologies probably best avoided currently.
     - key: options.quadrant.analyze
       t: ANALYZE
     - key: options.quadrant.analyze.long
       t: |
-          ANALYZE: High usage, low satisfaction. Reassess these technologies if you're currently using them.
+        ANALYZE: High usage, low satisfaction. Reassess these technologies if you're currently using them.
 
     - key: ranges.selector.years_of_experience
       t: Experience
@@ -98,10 +98,10 @@ translations:
       t: Support Us
     - key: sections.support.description
       t: >
-          We run this survey as a side project, but in order to make the
-          project sustainable we’re always looking for partners who can help support us,
-          either financially or by helping us spread the word.
-          If you think you could help in any way, please don’t hesitate to [get in touch](mailto:hello@stateofjs.com)!
+        We run this survey as a side project, but in order to make the
+        project sustainable we’re always looking for partners who can help support us,
+        either financially or by helping us spread the word.
+        If you think you could help in any way, please don’t hesitate to [get in touch](mailto:hello@stateofjs.com)!
 
     - key: sections.awards.title
       t: Awards
@@ -213,22 +213,22 @@ translations:
       t: Usage by Company Size
     - key: blocks.tools_company_size_heatmap.description
       t: |
-          For each technology, how usage is spread among respondents
-          who picked different company size ranges.
+        For each technology, how usage is spread among respondents
+        who picked different company size ranges.
 
     - key: blocks.tools_yearly_salary_heatmap.title
       t: Usage by Salary Range
     - key: blocks.tools_yearly_salary_heatmap.description
       t: |
-          For each technology, how usage is spread among respondents
-          who picked different salary ranges.
+        For each technology, how usage is spread among respondents
+        who picked different salary ranges.
 
     - key: blocks.tools_years_of_experience_heatmap.title
       t: Usage by Years Of Experience
     - key: blocks.tools_years_of_experience_heatmap.description
       t: |
-          For each technology, how usage is spread among respondents who picked different experience ranges.
-          Note that the experience in question here is general experience, not experience with a specific technology.
+        For each technology, how usage is spread among respondents who picked different experience ranges.
+        Note that the experience in question here is general experience, not experience with a specific technology.
 
     # tool
     - key: blocks.entity.homepage_link
@@ -264,24 +264,24 @@ translations:
       t: Satisfaction vs Usage
     - key: blocks.tools_quadrant.description
       t: |
-          This chart shows each technology’s **satisfaction ratio** over its total **user count**.
-          It can be divided into four quadrants:
+        This chart shows each technology’s **satisfaction ratio** over its total **user count**.
+        It can be divided into four quadrants:
 
-            - **ASSESS**: Low usage, high satisfaction. Technologies worth keeping an eye on.
+          - **ASSESS**: Low usage, high satisfaction. Technologies worth keeping an eye on.
 
-            - **ADOPT**: High usage, high satisfaction. Safe technologies to adopt.
+          - **ADOPT**: High usage, high satisfaction. Safe technologies to adopt.
 
-            - **AVOID**: Low usage, low satisfaction. Technologies probably best avoided currently.
+          - **AVOID**: Low usage, low satisfaction. Technologies probably best avoided currently.
 
-            - **ANALYZE**: High usage, low satisfaction. Reassess these technologies if you're currently using them.
+          - **ANALYZE**: High usage, low satisfaction. Reassess these technologies if you're currently using them.
     - key: blocks.tools_quadrant.note
       t: Note that TypeScript appears twice in the chart because it's included in both the JavaScript Flavors and Build Tools sections.
 
     - key: blocks.tools_quadrant.interest.description
       t: |
-          This chart shows each technology’s **interest ratio** over its total **user count** (as defined by respondents who are aware of a technology but *haven't* used it yet).
+        This chart shows each technology’s **interest ratio** over its total **user count** (as defined by respondents who are aware of a technology but *haven't* used it yet).
 
-          (Note that low user numbers can be due to either an unknown technology; or a technology with a lot of respondents already using it.)
+        (Note that low user numbers can be due to either an unknown technology; or a technology with a lot of respondents already using it.)
 
     # category other tools
     - key: blocks.category_other_tools.title
@@ -300,7 +300,7 @@ translations:
       t: Positive/Negative Split
     - key: blocks.tools_experience_marimekko.description
       t: |
-          This chart splits positive (“want to learn”, “would use again”) vs
+          This chart splits positive (“want to learn”, ”would use again”) vs
           negative (“not interested”, “would not use again”) experiences on
           both sides of a central axis.
 
@@ -311,18 +311,18 @@ translations:
       t: Experience Over Time
     - key: blocks.tools_section_streams.description
       t: |
-          Overview of opinions on the technologies surveyed over time.
+        Overview of opinions on the technologies surveyed over time.
     - key: blocks.tools_section_streams.note
       t: |
-          Technologies with only one year of data are not included.
+        Technologies with only one year of data are not included.
 
     # tools section overview
     - key: blocks.tools_section_overview.title
       t: Category Overview
     - key: blocks.tools_section_overview.description
       t: |
-          Overview of opinions on the technologies surveyed. Darker segments represent positive opinions,
-          while lighter segments correspond to negative sentiment.
+        Overview of opinions on the technologies surveyed. Darker segments represent positive opinions,
+        while lighter segments correspond to negative sentiment.
 
     # tools experience ranking
     - key: blocks.tools_experience_ranking.title
@@ -331,28 +331,28 @@ translations:
       t: Satisfaction, interest, usage, and awareness ratio rankings.
     - key: blocks.tools_experience_ranking.note
       t: |
-          Technologies with less than 10% awareness not included. Each ratio is defined as follows:
+        Technologies with less than 10% awareness not included. Each ratio is defined as follows:
 
-          - Satisfaction: **would use again** / (**would use again** + **would not use again**)
-          - Interest: **want to learn** / (**want to learn** + **not interested**)
-          - Usage: (**would use again** + **would not use again**) / **total**
-          - Awareness: (**total** - **never heard**) / **total**
+        - Satisfaction: **would use again** / (**would use again** + **would not use again**)
+        - Interest: **want to learn** / (**want to learn** + **not interested**)
+        - Usage: (**would use again** + **would not use again**) / **total**
+        - Awareness: (**total** - **never heard**) / **total**
 
     # happiness
     - key: blocks.happiness.title
       t: Overall Happiness
     - key: blocks.happiness.description
       t: |
-          On a scale of one (very unhappy) to five (very happy), how happy are developers
-          with the current overall state of this category?
+        On a scale of one (very unhappy) to five (very happy), how happy are developers
+        with the current overall state of this category?
 
     # newsletter
     - key: blocks.newsletter.title
       t: Stay Tuned
     - key: blocks.newsletter.description
       t: |
-          If you'd like to know when we release additional results or announce next year's edition,
-          just leave us your email below:
+        If you'd like to know when we release additional results or announce next year's edition,
+        just leave us your email below:
     - key: blocks.newsletter.email
       t: Your Email
     - key: blocks.newsletter.submit
@@ -363,14 +363,14 @@ translations:
       t: Usage Overview
     - key: blocks.features_overview.description
       t: |
-          This chart presents the various adoption rates for all features, grouped by category.
+        This chart presents the various adoption rates for all features, grouped by category.
 
-          The size of the <span class="text-teal-darker text-bold">outer circle</span>
-          corresponds to the total number of users who know about a feature, while
-          the <span class="text-teal text-bold">inner one</span> represents those who have actually used it.
+        The size of the <span class="text-teal-darker text-bold">outer circle</span>
+        corresponds to the total number of users who know about a feature, while
+        the <span class="text-teal text-bold">inner one</span> represents those who have actually used it.
 
-          Hover on each node to view detailed data along with an <span class="text-blackpink text-bold">overlay</span>
-          representing the total number of survey respondents.
+        Hover on each node to view detailed data along with an <span class="text-blackpink text-bold">overlay</span>
+        representing the total number of survey respondents.
 
     # export
     - key: export.export
@@ -390,7 +390,7 @@ translations:
       t: |
         How different factors such as salary range, years of experience
         or company size influence usage (participants who answered either
-        “would use again” or “would not use again”).
+        ”would use again” or “would not use again”).
 
         The baseline represents the base usage for each tool and the offsets
         correspond to the delta from this baseline in each range. Let's say
@@ -400,7 +400,7 @@ translations:
         of experience), then we have a positive delta of +3%.
     - key: blocks.tools_usage_variations.note
       t: |
-          Please keep in mind that tools having a lower overall usage tends to vary more.
+        Please keep in mind that tools having a lower overall usage tends to vary more.
 
     # Recommended Resources
     - key: blocks.recommended_resources.title
@@ -448,6 +448,7 @@ translations:
       t: positive offset
     - key: charts.ranges_multiple_diverging_lines.negative_offset
       t: negative offset
+
 
     - key: charts.tools_arrows.negative_opinion
       t: Negative opinions

@@ -51,22 +51,22 @@ translations:
       t: JUGER
     - key: options.quadrant.assess.long
       t: |
-          JUGER: Utilisation basse, satisfaction haute. Technologies sur lesquelles il faut garder un oeil.
+        JUGER: Utilisation basse, satisfaction haute. Technologies sur lesquelles il faut garder un oeil.
     - key: options.quadrant.adopt
       t: ADOPTER
     - key: options.quadrant.adopt.long
       t: |
-          ADOPTER: Utilisation haute, satisfaction haute. Technologies à adopter.
+        ADOPTER: Utilisation haute, satisfaction haute. Technologies à adopter.
     - key: options.quadrant.avoid
       t: EVITER
     - key: options.quadrant.avoid.long
       t: |
-          EVITER: Utilisation basse, satisfaction basse. Technologies qu'il vaudrait mieux éviter actuellement.
+        EVITER: Utilisation basse, satisfaction basse. Technologies qu'il vaudrait mieux éviter actuellement.
     - key: options.quadrant.analyze
       t: ANALYSER
     - key: options.quadrant.analyze.long
       t: |
-          ANALYSER: Utilisation haute, satisfaction basse. Technologies à réévaluer si vous êtes en train de les utiliser.
+        ANALYSER: Utilisation haute, satisfaction basse. Technologies à réévaluer si vous êtes en train de les utiliser.
 
     - key: ranges.selector.years_of_experience
       t: Expérience
@@ -98,9 +98,9 @@ translations:
       t: Nous Soutenir
     - key: sections.support.description
       t: >
-          Nous développons cette enquête en tant que projet autonome, afin que ce projet soit pérenne nous cherchons toujours des
-          partenaires pour nous soutenir, que ce soit financièrement ou partageant à la communauté.
-          Si vous pensez pouvoir nous aider qu'importe la manière, n'hésitez pas à [nous contacter](mailto:hello@stateofjs.com)!
+        Nous développons cette enquête en tant que projet autonome, afin que ce projet soit pérenne nous cherchons toujours des
+        partenaires pour nous soutenir, que ce soit financièrement ou partageant à la communauté.
+        Si vous pensez pouvoir nous aider qu'importe la manière, n'hésitez pas à [nous contacter](mailto:hello@stateofjs.com)!
 
     - key: sections.awards.title
       t: Récompenses
@@ -212,22 +212,22 @@ translations:
       t: Utilisation par taille de l'entreprise
     - key: blocks.tools_company_size_heatmap.description
       t: |
-          Pour chaque technologie, comment l'utilisation est-elle répartie parmi les répondants
-          qui ont choisi différente taille d'entreprise.
+        Pour chaque technologie, comment l'utilisation est-elle répartie parmi les répondants
+        qui ont choisi différente taille d'entreprise.
 
     - key: blocks.tools_yearly_salary_heatmap.title
       t: Utilisation par Tranche de Salaire
     - key: blocks.tools_yearly_salary_heatmap.description
       t: |
-          Pour chaque technologie, comment l'utilisation est-elle répartie parmi les répondants
-          qui ont choisi différentes tranches de salaire.
+        Pour chaque technologie, comment l'utilisation est-elle répartie parmi les répondants
+        qui ont choisi différentes tranches de salaire.
 
     - key: blocks.tools_years_of_experience_heatmap.title
       t: Utilisation par Années d'Expérience
     - key: blocks.tools_years_of_experience_heatmap.description
       t: |
-          Pour chaque technologie, comment l'utilisation est-elle répartie parmi les répondants qui ont choisi différentes tranches d'expérience.
-          Notez que les expériences en question ici sont l'expérience générale, pas l'expérience avec une technologie spécifique.
+        Pour chaque technologie, comment l'utilisation est-elle répartie parmi les répondants qui ont choisi différentes tranches d'expérience.
+        Notez que les expériences en question ici sont l'expérience générale, pas l'expérience avec une technologie spécifique.
 
     # tool
     - key: blocks.entity.homepage_link
@@ -240,22 +240,22 @@ translations:
       t: Satisfaction vs Utilisation
     - key: blocks.tools_quadrant.description
       t: |
-          Ce graphique montre le **taux de satisfaction** de chaque technologie sur son **nombre d'utilisateur** total.
-          Cela peut être divisé en 4 quadrants:
+        Ce graphique montre le **taux de satisfaction** de chaque technologie sur son **nombre d'utilisateur** total.
+        Cela peut être divisé en 4 quadrants:
 
-            - **EVALUE**: Utilisation basse, satisfaction haute. Technologies sur lesquelles il faut garder un oeil.
+          - **EVALUE**: Utilisation basse, satisfaction haute. Technologies sur lesquelles il faut garder un oeil.
 
-            - **ADOPTE**: Utilisation haute, satisfaction haute. Technologies à adopter.
+          - **ADOPTE**: Utilisation haute, satisfaction haute. Technologies à adopter.
 
-            - **EVITE**: Utilisation basse, satisfaction basse. Technologies qu'il vaudrait mieux éviter actuellement.
+          - **EVITE**: Utilisation basse, satisfaction basse. Technologies qu'il vaudrait mieux éviter actuellement.
 
-            - **ANALYSE**: Utilisation haute, satisfaction basse. Technologies à réévaluer si vous êtes en train de les utiliser.
+          - **ANALYSE**: Utilisation haute, satisfaction basse. Technologies à réévaluer si vous êtes en train de les utiliser.
 
     - key: blocks.tools_quadrant.interest.description
       t: |
-          Ce graphique montre le **taux d'intérêt** de chaque technologie sur le **nombre d'utilisateur** total (défini par les répondants qui connaissent une technologie mais *ne l'ont pas* encore utilisé).
+        Ce graphique montre le **taux d'intérêt** de chaque technologie sur le **nombre d'utilisateur** total (défini par les répondants qui connaissent une technologie mais *ne l'ont pas* encore utilisé).
 
-          (Notez que les nombres d'utilisateurs faibles peuvent être dus soit à une technologie inconnue; soit une technologie avec beaucoup de répondants l'utilisant déjà.)
+        (Notez que les nombres d'utilisateurs faibles peuvent être dus soit à une technologie inconnue; soit une technologie avec beaucoup de répondants l'utilisant déjà.)
 
     # category other tools
     - key: blocks.category_other_tools.title
@@ -284,18 +284,18 @@ translations:
       t: Expérience dans le Temps
     - key: blocks.tools_section_streams.description
       t: |
-          Aperçu des opinions sur les technologies de l'enquête dans le temps.
+        Aperçu des opinions sur les technologies de l'enquête dans le temps.
     - key: blocks.tools_section_streams.note
       t: |
-          Technologies avec seulement un an de données ne sont pas incluses.
+        Technologies avec seulement un an de données ne sont pas incluses.
 
     # tools section overview
     - key: blocks.tools_section_overview.title
       t: Aperçu des catégories
     - key: blocks.tools_section_overview.description
       t: |
-          Aperçu des opinions sur les technologies de l'enquête. Les segments les plus sombres représentent des opinions positives,
-          alors que les segments les plus clairs correspondent au sentiment négatif.
+        Aperçu des opinions sur les technologies de l'enquête. Les segments les plus sombres représentent des opinions positives,
+        alors que les segments les plus clairs correspondent au sentiment négatif.
 
     # tools experience ranking
     - key: blocks.tools_experience_ranking.title
@@ -304,28 +304,28 @@ translations:
       t: Classements des ratio de satisfaction, intérêt, utilisation et connaissance.
     - key: blocks.tools_experience_ranking.note
       t: |
-          Technologies ayant moins de 10% de connaissance non incluses. Chaque ratio est défini comme suit:
+        Technologies ayant moins de 10% de connaissance non incluses. Chaque ratio est défini comme suit:
 
-          - Satisfaction: **Je l'utiliserai à nouveau** / (**Je l'utiliserai à nouveau** + **Je ne l'utiliserai plus**)
-          - Intérêt: **Je voudrai l'apprendre** / (**Je voudrai l'apprendre** + **Je ne suis pas intéressé**)
-          - Utilisation: (**Je l'utiliserai à nouveau** + **Je ne l'utiliserai plus**) / **total**
-          - Connaissance: (**total** - **Je n'en ai jamais entendu parler**) / **total**
+        - Satisfaction: **Je l'utiliserai à nouveau** / (**Je l'utiliserai à nouveau** + **Je ne l'utiliserai plus**)
+        - Intérêt: **Je voudrai l'apprendre** / (**Je voudrai l'apprendre** + **Je ne suis pas intéressé**)
+        - Utilisation: (**Je l'utiliserai à nouveau** + **Je ne l'utiliserai plus**) / **total**
+        - Connaissance: (**total** - **Je n'en ai jamais entendu parler**) / **total**
 
     # happiness
     - key: blocks.happiness.title
       t: Satisfaction Globale
     - key: blocks.happiness.description
       t: |
-          Sur une échelle de 1 (très insatisfait) à 5 (très satisfait), dans quelle mesure les développeurs sont-ils
-          satisfait avec l'état global de cette catégorie ?
+        Sur une échelle de 1 (très insatisfait) à 5 (très satisfait), dans quelle mesure les développeurs sont-ils
+        satisfait avec l'état global de cette catégorie ?
 
     # newsletter
     - key: blocks.newsletter.title
       t: Rester connecté.e
     - key: blocks.newsletter.description
       t: |
-          Si vous aimeriez savoir quand nous publions des résultats complémentaires ou nous annonçons l'édition de l'année suivante,
-          laissez-nous donc votre email :
+        Si vous aimeriez savoir quand nous publions des résultats complémentaires ou nous annonçons l'édition de l'année suivante,
+        laissez-nous donc votre email :
     - key: blocks.newsletter.email
       t: Votre Email
     - key: blocks.newsletter.submit
@@ -336,14 +336,14 @@ translations:
       t: Aperçu des utilisations
     - key: blocks.features_overview.description
       t: |
-          Ce graphique présente les différents taux d'adoption pour chaque fonctionnalité, groupé par catégorie.
+        Ce graphique présente les différents taux d'adoption pour chaque fonctionnalité, groupé par catégorie.
 
-          La taille du <span class="text-teal-darker text-bold">cercle externe</span>
-          correspond au nombre total d'utilisateurs qui connaissent une fonctionnalité, alors que le
-          <span class="text-teal text-bold">celui interne</span> représente ceux qui l'utilisent actuellement.
+        La taille du <span class="text-teal-darker text-bold">cercle externe</span>
+        correspond au nombre total d'utilisateurs qui connaissent une fonctionnalité, alors que le
+        <span class="text-teal text-bold">celui interne</span> représente ceux qui l'utilisent actuellement.
 
-          Survolez chaque noeud pour voir la donnée détaillée avec une <span class="text-blackpink text-bold">superposition</span>
-          représentant le nombre total de répondants de l'enquête.
+        Survolez chaque noeud pour voir la donnée détaillée avec une <span class="text-blackpink text-bold">superposition</span>
+        représentant le nombre total de répondants de l'enquête.
 
     # export
     - key: export.export
@@ -361,19 +361,19 @@ translations:
       t: Variations d'utilisation
     - key: blocks.tools_usage_variations.description
       t: |
-          Comment différents facteurs tels que la tranche de salaire, les années d'expérience
-          ou la taille de l'entreprise influencent l'utilisation (participants qui ont répondu soit
-          ”Je l'utiliserai à nouveau” ou “Je ne l'utiliserai plus”).
+        Comment différents facteurs tels que la tranche de salaire, les années d'expérience
+        ou la taille de l'entreprise influencent l'utilisation (participants qui ont répondu soit
+        ”Je l'utiliserai à nouveau” ou “Je ne l'utiliserai plus”).
 
-          La ligne de base est la base d'utilisation pour chaque outil et les écarts
-          correspondent aux deltas avec la ligne de base dans chaque tranche. Disons qu'un
-          outil X a une utilisation globale de 10% pour tous les répondants (la ligne de base),
-          ensuite si le pourcentage d'utilisateurs ayant d'1 à 2 année.s d'expérience
-          en utilisant cet outil est 13% (comparé à tous les utilisateurs ayant d'1 à 2 années
-          d'expérience), nous avons un delta positif de +3%.
+        La ligne de base est la base d'utilisation pour chaque outil et les écarts
+        correspondent aux deltas avec la ligne de base dans chaque tranche. Disons qu'un
+        outil X a une utilisation globale de 10% pour tous les répondants (la ligne de base),
+        ensuite si le pourcentage d'utilisateurs ayant d'1 à 2 année.s d'expérience
+        en utilisant cet outil est 13% (comparé à tous les utilisateurs ayant d'1 à 2 années
+        d'expérience), nous avons un delta positif de +3%.
     - key: blocks.tools_usage_variations.note
       t: |
-          Gardez en tête que les outils ayant une utilisation globale plus basse tendent à varier plus.
+        Gardez en tête que les outils ayant une utilisation globale plus basse tendent à varier plus.
 
     # Recommended Resources
     - key: blocks.recommended_resources.title

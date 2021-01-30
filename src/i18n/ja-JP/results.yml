@@ -51,22 +51,22 @@ translations:
       t: ASSESS
     - key: options.quadrant.assess.long
       t: |
-          ASSESS: 利用率は低いが、満足度が高い。チェックしておくとよさそうな技術。
+        ASSESS: 利用率は低いが、満足度が高い。チェックしておくとよさそうな技術。
     - key: options.quadrant.adopt
       t: ADOPT
     - key: options.quadrant.adopt.long
       t: |
-          ADOPT: 利用率も満足度も高い。使っても大丈夫な技術。
+        ADOPT: 利用率も満足度も高い。使っても大丈夫な技術。
     - key: options.quadrant.avoid
       t: AVOID
     - key: options.quadrant.avoid.long
       t: |
-          AVOID: 利用率も満足度も低い。いまは避けておいた方がよさそうな技術。
+        AVOID: 利用率も満足度も低い。いまは避けておいた方がよさそうな技術。
     - key: options.quadrant.analyze
       t: ANALYZE
     - key: options.quadrant.analyze.long
       t: |
-          ANALYZE: 利用率は高いが、満足度は低い。現在使っているなら、見直すとよさそうな技術。
+        ANALYZE: 利用率は高いが、満足度は低い。現在使っているなら、見直すとよさそうな技術。
 
     - key: ranges.selector.years_of_experience
       t: 経験年数
@@ -98,7 +98,7 @@ translations:
       t: サポートする
     - key: sections.support.description
       t: >
-          このアンケートはサイドプロジェクトです。私たちはプロジェクトを続けていくため、活動をサポートしてくれるパートナーを探しています。サポートは金銭的なものだけでなく、この活動を広めてくれるのも含みます。何か協力できそうと思ったら、ぜひ[連絡してください](mailto:hello@stateofjs.com)！
+        このアンケートはサイドプロジェクトです。私たちはプロジェクトを続けていくため、活動をサポートしてくれるパートナーを探しています。サポートは金銭的なものだけでなく、この活動を広めてくれるのも含みます。何か協力できそうと思ったら、ぜひ[連絡してください](mailto:hello@stateofjs.com)！
 
     ###########################################################################
     # User Info
@@ -189,19 +189,19 @@ translations:
       t: 従業員数でみた利用率
     - key: blocks.tools_company_size_heatmap.description
       t: |
-          企業の従業員数によって、技術の利用率が変化しているかを見ています。
+        企業の従業員数によって、技術の利用率が変化しているかを見ています。
 
     - key: blocks.tools_yearly_salary_heatmap.title
       t: 給与でみた利用率
     - key: blocks.tools_yearly_salary_heatmap.description
       t: |
-          給与によって、技術の利用率が変化しているかを見ています。
+        給与によって、技術の利用率が変化しているかを見ています。
 
     - key: blocks.tools_years_of_experience_heatmap.title
       t: 経験年数で見た利用率
     - key: blocks.tools_years_of_experience_heatmap.description
       t: |
-          経験年数によって、技術の利用率が変化しているかを見ています。なお、経験年数とは職務経験であり、その技術の経験ではありません。
+        経験年数によって、技術の利用率が変化しているかを見ています。なお、経験年数とは職務経験であり、その技術の経験ではありません。
 
     # tool
     - key: blocks.entity.homepage_link
@@ -214,21 +214,21 @@ translations:
       t: 満足度 vs 利用率
     - key: blocks.tools_quadrant.description
       t: |
-          このチャートは技術ごとにその**満足度**と**総利用数**でプロットしたものです。4つの領域は、次のように読み取れます。
+        このチャートは技術ごとにその**満足度**と**総利用数**でプロットしたものです。4つの領域は、次のように読み取れます。
 
-            - **ASSESS**: 利用率は低いが、満足度が高い。チェックしておくとよさそうな技術。
+          - **ASSESS**: 利用率は低いが、満足度が高い。チェックしておくとよさそうな技術。
 
-            - **ADOPT**: 利用率も満足度も高い。使っても大丈夫な技術。
+          - **ADOPT**: 利用率も満足度も高い。使っても大丈夫な技術。
 
-            - **AVOID**: 利用率も満足度も低い。いまは避けておいた方がよさそうな技術。
+          - **AVOID**: 利用率も満足度も低い。いまは避けておいた方がよさそうな技術。
 
-            - **ANALYZE**: 利用率は高いが、満足度は低い。現在使っているなら、見直すとよさそうな技術。
+          - **ANALYZE**: 利用率は高いが、満足度は低い。現在使っているなら、見直すとよさそうな技術。
 
     - key: blocks.tools_quadrant.interest.description
       t: |
-          このチャートは技術ごとにその**関心度**と**総利用数**でプロットしたものです（その技術を知っているものの**使ったことがない**人が回答しています）。
+        このチャートは技術ごとにその**関心度**と**総利用数**でプロットしたものです（その技術を知っているものの**使ったことがない**人が回答しています）。
 
-          （注：利用数が少ないのは、知られていない技術ということもあれば、多くの人がすでに使っている技術ということもあります。）
+        （注：利用数が少ないのは、知られていない技術ということもあれば、多くの人がすでに使っている技術ということもあります。）
 
     # category other tools
     - key: blocks.category_other_tools.title
@@ -256,17 +256,17 @@ translations:
       t: 評価の移ろい
     - key: blocks.tools_section_streams.description
       t: |
-          技術について、この数年で評価がどう変わったかを示します。
+        技術について、この数年で評価がどう変わったかを示します。
     - key: blocks.tools_section_streams.note
       t: |
-          1年ぶんのデータしかないものは含めていません。
+        1年ぶんのデータしかないものは含めていません。
 
     # tools section overview
     - key: blocks.tools_section_overview.title
       t: カテゴリーの概要
     - key: blocks.tools_section_overview.description
       t: |
-          アンケートした技術の評価のまとめです。暗い色が肯定的、明るい色が否定的な評価となっています。
+        アンケートした技術の評価のまとめです。暗い色が肯定的、明るい色が否定的な評価となっています。
 
     # tools experience ranking
     - key: blocks.tools_experience_ranking.title
@@ -275,26 +275,26 @@ translations:
       t: 満足度、興味、利用率、認知度のランキングです。
     - key: blocks.tools_experience_ranking.note
       t: |
-          認知度が10％以下の技術は含めていません。度合いは次のように定義しています。
+        認知度が10％以下の技術は含めていません。度合いは次のように定義しています。
 
-          - 満足度：**また使いたい** vs **もう使わない**
-          - 興味：**学びたい** vs **興味がない**
-          - 利用率：**また使いたい** + **もう使わない** vs 認知度
-          - 認知度：総数 － **聞いたことがない**
+        - 満足度：**また使いたい** vs **もう使わない**
+        - 興味：**学びたい** vs **興味がない**
+        - 利用率：**また使いたい** + **もう使わない** vs 認知度
+        - 認知度：総数 － **聞いたことがない**
 
     # happiness
     - key: blocks.happiness.title
       t: 総合的な満足度
     - key: blocks.happiness.description
       t: |
-          このカテゴリについて、現状について開発者が総合的に満足しているかを、1（とても不満）から5（とても満足）で表します。
+        このカテゴリについて、現状について開発者が総合的に満足しているかを、1（とても不満）から5（とても満足）で表します。
 
     # newsletter
     - key: blocks.newsletter.title
       t: 乞うご期待
     - key: blocks.newsletter.description
       t: |
-          回答結果の発表や、来年のアンケートのお知らせを受け取りたい方はメールアドレスを入力してください。
+        回答結果の発表や、来年のアンケートのお知らせを受け取りたい方はメールアドレスを入力してください。
     - key: blocks.newsletter.email
       t: メールアドレス
     - key: blocks.newsletter.submit
@@ -305,11 +305,11 @@ translations:
       t: 利用率の概要
     - key: blocks.features_overview.description
       t: |
-          このチャートは各機能の採用度合いを示しています。各機能はカテゴリごとに分けられています。
+        このチャートは各機能の採用度合いを示しています。各機能はカテゴリごとに分けられています。
 
-          <span class="text-teal-darker text-bold">外の円</span>は機能を知っている人の数を、<span class="text-teal text-bold">内の円</span>は実際に使った人の数をそれぞれ表します。
+        <span class="text-teal-darker text-bold">外の円</span>は機能を知っている人の数を、<span class="text-teal text-bold">内の円</span>は実際に使った人の数をそれぞれ表します。
 
-          回答者の人数など詳細は、ノードにカーソルをあわせると表示される<span class="text-blackpink text-bold">オーバーレイ</span>から確認できます。
+        回答者の人数など詳細は、ノードにカーソルをあわせると表示される<span class="text-blackpink text-bold">オーバーレイ</span>から確認できます。
 
     # export
     - key: export.export
@@ -327,12 +327,12 @@ translations:
       t: 利用率の変動
     - key: blocks.tools_usage_variations.description
       t: |
-          給与、経験年数、従業員の数などが、技術の利用にどんな差（回答者の「また使いたい」「もう使わない」の選択）を及ぼしたかを調べます。
+        給与、経験年数、従業員の数などが、技術の利用にどんな差（回答者の「また使いたい」「もう使わない」の選択）を及ぼしたかを調べます。
 
-          ベースラインはそれぞれのツールについての利用率を示します。オフセットはベースラインからの差分を表します。たとえば、Xというツールが全回答者のうち10％で使われているとします（これがベースラインです）。そのツールを使っている人のうち、経験年数1～2年の人の割合が13％の場合（ほかのすべての経験年数1～2年の人と比較し）は、肯定の差分が＋3％となります。
+        ベースラインはそれぞれのツールについての利用率を示します。オフセットはベースラインからの差分を表します。たとえば、Xというツールが全回答者のうち10％で使われているとします（これがベースラインです）。そのツールを使っている人のうち、経験年数1～2年の人の割合が13％の場合（ほかのすべての経験年数1～2年の人と比較し）は、肯定の差分が＋3％となります。
     - key: blocks.tools_usage_variations.note
       t: |
-          利用率の低いツールほど変動が大きくなりやすいことに注意してください。
+        利用率の低いツールほど変動が大きくなりやすいことに注意してください。
 
     # Recommended Resources
     - key: blocks.recommended_resources.title

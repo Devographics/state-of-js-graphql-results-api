@@ -51,22 +51,22 @@ translations:
       t: AVALUAR
     - key: options.quadrant.assess.long
       t: |
-          Poc ús, alta satisfacció. Tecnologies que val la pena tenir en compte.
+        Poc ús, alta satisfacció. Tecnologies que val la pena tenir en compte.
     - key: options.quadrant.adopt
       t: ADOPTAR
     - key: options.quadrant.adopt.long
       t: |
-          ADOPTAR: Üs elevat, alta satisfacció. Tecnologies segures per adoptar.
+        ADOPTAR: Üs elevat, alta satisfacció. Tecnologies segures per adoptar.
     - key: options.quadrant.avoid
       t: EVITAR
     - key: options.quadrant.avoid.long
       t: |
-          EVITAR: Poc ús, baixa satisfacció. Tecnologies a evitar actualment.
+        EVITAR: Poc ús, baixa satisfacció. Tecnologies a evitar actualment.
     - key: options.quadrant.analyze
       t: ANALITZAR
     - key: options.quadrant.analyze.long
       t: |
-          ANALITZAR: Alt ús, baixa satisfacció. Fer una revisió d'aquestes tecnologies si les fas servir actualment.
+        ANALITZAR: Alt ús, baixa satisfacció. Fer una revisió d'aquestes tecnologies si les fas servir actualment.
 
     - key: ranges.selector.years_of_experience
       t: Experiència
@@ -98,10 +98,10 @@ translations:
       t: Ajuda'ns
     - key: sections.support.description
       t: >
-          Realitzem aquesta enquesta com a projecte paral·lel, però per tal de fer-lo més sostenible
-          sempre busquem socis que ens puguin ajudar, ja sigui econòmicament com difonent el missatge.
-          Si creus que ens pots ajudar d'alguna manera, si us plau,
-          no dubtis en [posar-te en contacte amb nosaltres](mailto:hello@stateofjs.com)!
+        Realitzem aquesta enquesta com a projecte paral·lel, però per tal de fer-lo més sostenible
+        sempre busquem socis que ens puguin ajudar, ja sigui econòmicament com difonent el missatge.
+        Si creus que ens pots ajudar d'alguna manera, si us plau,
+        no dubtis en [posar-te en contacte amb nosaltres](mailto:hello@stateofjs.com)!
 
     - key: sections.awards.title
       t: Premis
@@ -207,24 +207,24 @@ translations:
       t: Ús en funció de la mida de l'empresa
     - key: blocks.tools_company_size_heatmap.description
       t: |
-          Per a cada tecnologia, com es distribueix l'ús entre les persones enquestades
-          que varen escollir diferents rangs de mida de l'empresa.
+        Per a cada tecnologia, com es distribueix l'ús entre les persones enquestades
+        que varen escollir diferents rangs de mida de l'empresa.
 
     - key: blocks.tools_yearly_salary_heatmap.title
       t: Ús en funció del rang salarial
     - key: blocks.tools_yearly_salary_heatmap.description
       t: |
-          Per a cada tecnologia, com es distribueix l'ús entre les persones enquestades
-          que varen escollir diferents rangs salarials.
+        Per a cada tecnologia, com es distribueix l'ús entre les persones enquestades
+        que varen escollir diferents rangs salarials.
 
     - key: blocks.tools_years_of_experience_heatmap.title
       t: Ús en funció dels anys d'experiència
     - key: blocks.tools_years_of_experience_heatmap.description
       t: |
-          Per a cada tecnologia, com es distribueix l'ús entre les persones enquestades
-          que varen escollir diferents rangs d'experiència.
-          Tingues en compte que l'experiència en qüestió aquí és en experiència general,
-          no l'experiència en una tectnologia específica.
+        Per a cada tecnologia, com es distribueix l'ús entre les persones enquestades
+        que varen escollir diferents rangs d'experiència.
+        Tingues en compte que l'experiència en qüestió aquí és en experiència general,
+        no l'experiència en una tectnologia específica.
 
     # tool
     - key: blocks.entity.homepage_link
@@ -250,9 +250,9 @@ translations:
 
     - key: blocks.tools_quadrant.interest.description
       t: |
-          Aquest gràfic mostra la **proporció d'interès** de cada tecnologia sobre el **nombre d'usuaris** total (definit per les persones que han respòs que la coneixen però encara **no** l'han usat).
+        Aquest gràfic mostra la **proporció d'interès** de cada tecnologia sobre el **nombre d'usuaris** total (definit per les persones que han respòs que la coneixen però encara **no** l'han usat).
 
-          (Tingues en compte que un resultat baix pot ser degut a una tecnologia desconeguda o una tecnologia amb moltes persones que ja l'utilitzen.)
+        (Tingues en compte que un resultat baix pot ser degut a una tecnologia desconeguda o una tecnologia amb moltes persones que ja l'utilitzen.)
 
     # category other tools
     - key: blocks.category_other_tools.title
@@ -281,18 +281,18 @@ translations:
       t: Experiència al llarg del temps
     - key: blocks.tools_section_streams.description
       t: |
-          Visió general de les opinions sobre les tecnologies enquestades al llarg del temps.
+        Visió general de les opinions sobre les tecnologies enquestades al llarg del temps.
     - key: blocks.tools_section_streams.note
       t: |
-          No s'hi inclouen les tecnologies amb dades de fa només un any.
+        No s'hi inclouen les tecnologies amb dades de fa només un any.
 
     # tools section overview
     - key: blocks.tools_section_overview.title
       t: Visió general de la categoria
     - key: blocks.tools_section_overview.description
       t: |
-          Visió general de les opinions de les tecnologies enquestades. Els segments més foscos representen opinions positives,
-          mentre que els més clars es corresponen a sentiments negatius.
+        Visió general de les opinions de les tecnologies enquestades. Els segments més foscos representen opinions positives,
+        mentre que els més clars es corresponen a sentiments negatius.
 
     # tools experience ranking
     - key: blocks.tools_experience_ranking.title
@@ -301,28 +301,28 @@ translations:
       t: Classificacions de les proporcions de satisfacció, interès, ús i consciència.
     - key: blocks.tools_experience_ranking.note
       t: |
-          No s'inclouen les tecnologies amb menys del 10% de consciència. Cada proporció es defineix de la següent manera:
+        No s'inclouen les tecnologies amb menys del 10% de consciència. Cada proporció es defineix de la següent manera:
 
-          - Satisfacció: **ho tornaria a usar** / (**ho tornaria a usar** + **no ho tornaria a usar**)
-          - Interès: **en vull aprendre** / (**en vull aprendre** + **no m'interessa**)
-          - Ús: (**ho tornaria a usar** + **no ho tornaria a usar**) / **total**
-          - Consciència: (**total** - **mai n'he sentit a parlar**) / **total**
+        - Satisfacció: **ho tornaria a usar** / (**ho tornaria a usar** + **no ho tornaria a usar**)
+        - Interès: **en vull aprendre** / (**en vull aprendre** + **no m'interessa**)
+        - Ús: (**ho tornaria a usar** + **no ho tornaria a usar**) / **total**
+        - Consciència: (**total** - **mai n'he sentit a parlar**) / **total**
 
     # happiness
     - key: blocks.happiness.title
       t: Satisfacció general
     - key: blocks.happiness.description
       t: |
-          En una escala d'entre u (cap satisfacció) i cinc (satisfacció total), quina és la satisfacció
-          amb l'estat general de la categoria actual?
+        En una escala d'entre u (cap satisfacció) i cinc (satisfacció total), quina és la satisfacció
+        amb l'estat general de la categoria actual?
 
     # newsletter
     - key: blocks.newsletter.title
       t: Atenció a nova informació
     - key: blocks.newsletter.description
       t: |
-          Si t'agradaria saber quan publiquem nous resultats o anunciem l'edició del proper any,
-          facilita'ns el teu correu electrònic a continuació:
+        Si t'agradaria saber quan publiquem nous resultats o anunciem l'edició del proper any,
+        facilita'ns el teu correu electrònic a continuació:
     - key: blocks.newsletter.email
       t: El teu correu electrònic
     - key: blocks.newsletter.submit
@@ -333,14 +333,14 @@ translations:
       t: Visió general de l'ús
     - key: blocks.features_overview.description
       t: |
-          Aquest gràfic presenta els diversos percentatges d'adopció de totes les característiques, agrupades per categoria.
+        Aquest gràfic presenta els diversos percentatges d'adopció de totes les característiques, agrupades per categoria.
 
-          La mida del <span class="text-teal-darker text-bold">cercle exterior</span>
-          correspon al nombre total de persones que coneixen la característica, mentre que el de l'
-          <span class="text-teal text-bold">interior</span> representa aquelles que l'han usat realment.
+        La mida del <span class="text-teal-darker text-bold">cercle exterior</span>
+        correspon al nombre total de persones que coneixen la característica, mentre que el de l'
+        <span class="text-teal text-bold">interior</span> representa aquelles que l'han usat realment.
 
-          Passeu el cursor per cada node per visualitzar les dades detallades juntament amb una <span class="text-blackpink text-bold">superposició</span>
-          que representa el nombre total de persones enquestades.
+        Passeu el cursor per cada node per visualitzar les dades detallades juntament amb una <span class="text-blackpink text-bold">superposició</span>
+        que representa el nombre total de persones enquestades.
 
     # export
     - key: export.export
@@ -358,19 +358,19 @@ translations:
       t: Variacions d'ús
     - key: blocks.tools_usage_variations.description
       t: |
-          Com els diferents factors, com el rang salarial, els anys d'experiència
-          o la mida de l'empresa, influeixen en l'ús (participants que han respòs
-          "ho tornaria a usar" o "no ho tornaria a usar").
+        Com els diferents factors, com el rang salarial, els anys d'experiència
+        o la mida de l'empresa, influeixen en l'ús (participants que han respòs
+        "ho tornaria a usar" o "no ho tornaria a usar").
 
-          La línia de base representa l'ús base de cada eina i les compensacions
-          corresponen al delta d'aquesta línia de base en cada interval. Suposem que
-          l'eina X té un ús global del 10% en totes les persones enquestades (la línia de base),
-          llavors si el percentatge de persones que tenen entre 1 i 2 anys d'experiència
-          en utilitzar aquesta eina és del 13% (en comparació amb totes les persones que tenen entre 1 i 2 anys
-          d'experiència), tenim un delta positiu del + 3%.
+        La línia de base representa l'ús base de cada eina i les compensacions
+        corresponen al delta d'aquesta línia de base en cada interval. Suposem que
+        l'eina X té un ús global del 10% en totes les persones enquestades (la línia de base),
+        llavors si el percentatge de persones que tenen entre 1 i 2 anys d'experiència
+        en utilitzar aquesta eina és del 13% (en comparació amb totes les persones que tenen entre 1 i 2 anys
+        d'experiència), tenim un delta positiu del + 3%.
     - key: blocks.tools_usage_variations.note
       t: |
-          Tingues en compte que les eines que tenen un menor ús general tendeixen a variar més.
+        Tingues en compte que les eines que tenen un menor ús general tendeixen a variar més.
 
     # Recommended Resources
     - key: blocks.recommended_resources.title
@@ -428,17 +428,17 @@ translations:
     - key: share.site.title
       t: Descobreix els resultats de {siteTitle}
     - key: share.site.twitter_text
-      t: 'Descobreix els resultats de {siteTitle} {link} {hashtag}'
+      t: "Descobreix els resultats de {siteTitle} {link} {hashtag}"
     - key: share.site.subject
       t: Resultats de l'enquesta de {siteTitle}
     - key: share.site.body
-      t: 'Aquí hi ha alguns resultats interessants de una enquesta: {link}'
+      t: "Aquí hi ha alguns resultats interessants de una enquesta: {link}"
     - key: share.block.twitter_text
       t: '{hashtag} {year}: {title} {link}'
     - key: share.block.subject
       t: Resultats de l'enquesta de {siteTitle}
     - key: share.block.body
-      t: 'Aquí hi ha alguns resultats interessants de una enquesta ({title}): {link}'
+      t: "Aquí hi ha alguns resultats interessants de una enquesta ({title}): {link}"
     - key: share.twitter
       t: Comparteix-ho a  Twitter
     - key: share.facebook
