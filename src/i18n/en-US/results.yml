@@ -253,11 +253,11 @@ translations:
     - key: blocks.tools_arrows.description
       t: |
           Each line goes from 2016 to 2020. A higher point means a technology has been used by more people,
-          and a point further to the right means more users want to learn it; or have used it and would use it again.
+          and a point further to the right means more users want to learn it; or have used it and would use it again. 
     - key: blocks.tools_arrows.note
       t: |
           - Some lines skip years.
-          - Technologies with only one year of data are not shown.
+          - Technologies with only one year of data are not shown. 
 
     # tools quadrant
     - key: blocks.tools_quadrant.title
@@ -275,7 +275,7 @@ translations:
 
           - **ANALYZE**: High usage, low satisfaction. Reassess these technologies if you're currently using them.
     - key: blocks.tools_quadrant.note
-      t: Note that TypeScript appears twice in the chart because it's included in both the JavaScript Flavors and Build Tools sections.
+      t: Note that TypeScript appears twice in the chart because it's included in both the JavaScript Flavors and Build Tools sections. 
 
     - key: blocks.tools_quadrant.interest.description
       t: |
@@ -300,7 +300,7 @@ translations:
       t: Positive/Negative Split
     - key: blocks.tools_experience_marimekko.description
       t: |
-          This chart splits positive (“want to learn”, ”would use again”) vs
+          This chart splits positive (“want to learn”, “would use again”) vs
           negative (“not interested”, “would not use again”) experiences on
           both sides of a central axis.
 
@@ -390,7 +390,7 @@ translations:
       t: |
         How different factors such as salary range, years of experience
         or company size influence usage (participants who answered either
-        ”would use again” or “would not use again”).
+        “would use again” or “would not use again”).
 
         The baseline represents the base usage for each tool and the offsets
         correspond to the delta from this baseline in each range. Let's say
@@ -549,11 +549,11 @@ translations:
     - key: hints.hint_hint
       t: >
           You'll find little hints like this one throughout the survey results
-          that will point out extra features and details.
+          that will point out extra features and details. 
 
     - key: hints.units_switcher_hint
       t: >
-          You can use the segmented control at the top right of each block to switch
+          You can use the segmented control at the top right of each block to switch 
           between relative percentages and absolute counts to get a different view of the
           same data.
 
@@ -561,29 +561,29 @@ translations:
       t: >
           The <span class="hint-export-button">Export</span> button at the top of each block
           lets you get the raw JSON data for any chart, or a GraphQL
-          query you can run against our public API.
+          query you can run against our public API. 
 
     - key: hints.completion_hint
       t: >
-          Since all questions are optional, some of them got fewer responses than others.
+          Since all questions are optional, some of them got fewer responses than others. 
           The completion indicator (<span class="hint-completion-indicator">◕</span>) tells you exactly how many people answered any given question.
 
     - key: hints.tool_modal_hint
       t: >
-          You can click on any technology name to get extra details and
-          a more in-depth look at its related data.
+          You can click on any technology name to get extra details and 
+          a more in-depth look at its related data. 
 
     - key: hints.rankings_modes_hint
       t: >
           The Rankings chart can be toggled between satisfaction, interest, usage, and awareness
-          to give you a fuller picture of a category's rankings.
+          to give you a fuller picture of a category's rankings. 
 
     - key: hints.sharing_hint
       t: >
-          Sharing this survey on Twitter, Facebook, or by email is scientifically proven to
-          improve your JavaScript performance by up to 15%.
+          Sharing this survey on Twitter, Facebook, or by email is scientifically proven to 
+          improve your JavaScript performance by up to 15%. 
 
     - key: hints.tshirt_hint
       t: >
-          Another guaranteed scientific finding: buying our t-shirt will
+          Another guaranteed scientific finding: buying our t-shirt will 
           increase your JavaScript knowledge by over 9000!

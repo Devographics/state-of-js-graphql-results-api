@@ -105,7 +105,7 @@ translations:
       t: 大奖
     - key: sections.awards.description
       t: 今年的亮点
-
+      
     ###########################################################################
     # User Info
     ###########################################################################
@@ -294,7 +294,7 @@ translations:
     - key: blocks.tools_experience_marimekko.description
       t: |
           这张图表将用户的积极体验(想学习，会再次使用)和消极体验(不感兴趣，不会再次使用)分在中轴两侧。
-
+          
           柱状的厚度代表了解某一技术的访问者数量。
 
     # tools section streams
