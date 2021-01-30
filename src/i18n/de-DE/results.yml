@@ -138,7 +138,7 @@ translations:
     - key: options.locale.hi-IN
       t: Hindi
     - key: options.locale.pl-PL
-      t: Polnisch
+      t: Polnisch      
     - key: options.locale.nl-NL
       t: Niederländisch
 

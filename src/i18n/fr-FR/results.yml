@@ -512,11 +512,11 @@ translations:
     - key: hints.hint_hint
       t: >
           Vous trouverez de petites astuces comme celle-ci à travers les résultats de notre enquête
-          qui cibleront des fonctionnalités et détails étendus.
+          qui cibleront des fonctionnalités et détails étendus. 
 
     - key: hints.units_switcher_hint
       t: >
-          Vous pouvez utiliser le composant segmenté en haut à droite de chaque bloc pour alterner
+          Vous pouvez utiliser le composant segmenté en haut à droite de chaque bloc pour alterner 
           entre pourcentages relatifs et comptages absolus pour obtenir un point de vue différent
           de la même donnée.
 
@@ -524,11 +524,11 @@ translations:
       t: >
           Le bouton <span class="hint-export-button">Export</span> en haut de chaque bloc
           vous permet d'obtenir les données brutes au format JSON pour n'importe quel graphique, ou une requête GraphQL
-          que vous pouvez exécuter sur notre API publique.
+          que vous pouvez exécuter sur notre API publique. 
 
     - key: hints.completion_hint
       t: >
-          Etant donné que toutes les questions sont optionnelles, certaines ont obtenues moins de réponses que les autres.
+          Etant donné que toutes les questions sont optionnelles, certaines ont obtenues moins de réponses que les autres. 
           L'indicateur de progression (<span class="hint-completion-indicator">◕</span>) affiche le nombre de personne ayant répondu à une question donnée.
 
     - key: hints.tool_modal_hint
@@ -538,12 +538,12 @@ translations:
     - key: hints.rankings_modes_hint
       t: >
           Les graphiques de classement peuvent être filtrés par satisfaction, intérêt, utilisation, et connaissance
-          pour donner une aperçu plus complète d'un classement par catégorie.
+          pour donner une aperçu plus complète d'un classement par catégorie. 
 
     - key: hints.sharing_hint
       t: >
-          C'est scientifiquement prouvé: Partager cette enquête sur Twitter, Facebook, ou par email
-          améliore votre performance en JavaScript jusqu'à 15%.
+          C'est scientifiquement prouvé: Partager cette enquête sur Twitter, Facebook, ou par email 
+          améliore votre performance en JavaScript jusqu'à 15%. 
 
     - key: hints.tshirt_hint
       t: >
