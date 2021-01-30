@@ -66,10 +66,10 @@ translations:
           Am adus modificări popularului 👕 tricou State of JavaScript 👕 de anul trecut pentru a-l adapta
           la peisajul JavaScript din 2020!
 
-          Tricoul are imprimat „tabelul periodic al JavaScript” care listează cele mai populare
+          Tricoul are imprimat „tabelul periodic JavaScript” care listează cele mai populare
           librării grupate pe categorii, împreună cu numărul de stele (în mii) de pe GitHub.
 
-          Tricoul este un mod excelent de a te familiariza cu ecosistemul JavaScript,
+          Tricoul este un mod excelent de a te familiariza cu ecosistemul JavaScript
           și, poate chiar, un motiv în plus pentru a iniția conversații interesante cu alți
           programatori JavaScript!
     
@@ -193,7 +193,7 @@ translations:
       t: Cu un grad de interes de **{value}**, GraphQL continuă să fie un lucru pe care programatorii își doresc să-l învețe de îndată ce vor avea timpul disponibil.
 
     - key: award.most_write_ins_award.comment
-      t: Oamenii devin pasionați când vine vorba de editoarele de text. Cu **{value}** mențiuni, IntelliJ IDEA câștigă premiul pentru cele mai multe răspunsuri înscrise.
+      t: Oamenii devin pasionați când vine vorba de editoarele de text. Cu **{value}** de mențiuni, IntelliJ IDEA câștigă premiul pentru cele mai multe răspunsuri înscrise.
 
     ###########################################################################
     # Conclusion
@@ -203,7 +203,7 @@ translations:
       t: |
             Încă din cele mai vechi timpuri, filozofii au meditat la Paradoxul JavaScript: pe de-o parte abia aștepți noi funcționalități și librării care promit să creeze o experiență mult mai bună.
 
-            Dar în același timp, îți dorești stabilitate și simplitate pentru a-ți putea face treaba fără să petreci jumătate din timp căutând prin issue-uri de GitHub și întrebări depăsite pe Stack Overflow.
+            Dar în același timp, îți dorești stabilitate și simplitate pentru a-ți putea face treaba fără să petreci jumătate din timp căutând prin issue-uri de GitHub și întrebări depășite pe Stack Overflow.
 
             Deci cum e mai bine? Ne dorim noul strălucitor sau vechiul de încredere? Mai mult decât oricând, 2020 ne arată că nu ne vom mulțumi cu nimic mai puțin decât *cu ambele*. Vestea bună: comunitatea JavaScript s-a ridicat la înălțimea provocării, iar asta promite un 2021 incitant!
 
@@ -286,13 +286,13 @@ translations:
             Volta ajută la gestionarea întregului toolchain JavaScript – gândește-te la nvm, dar te ajută pe tine
             și pe echipa ta să aveți aceleași versiuni de Node, npm, instrumente CLI etc.
             Îmi place pentru că este atât de simpatic de folosit și pentru că este deschizător de drumuri
-            pentru folosirea Rust în contruirea de instrumente rapide pentru JS.
+            pentru folosirea Rust în construirea de instrumente rapide pentru JS.
 
     - key: picks.markdalgleish.bio
       t: Co-creator al CSS Modules, creator al Playroom
     - key: picks.markdalgleish.description
       t: |
-            Automatizează publicarea pachetelor npm cu posibilitatea de a conecta release notes în format Markdown la fiecare modificare. Changesets a îmbunătățit cu adevărat în acest an calitatea pentru release notes și versionare.
+            Automatizează publicarea pachetelor npm cu posibilitatea de a conecta release notes în format Markdown la fiecare modificare. În acest an, Changesets a îmbunătățit cu adevărat calitatea release note-urilor și a versionării.
 
     - key: picks.sachagreif.bio
       t: Creator al sondajului State of JS

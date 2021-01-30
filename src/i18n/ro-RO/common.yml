@@ -635,7 +635,7 @@ translations:
     - key: user_info.email
       t: Adresa de email
     - key: user_info.country
-      t: Țara sau regiunea
+      t: Țară sau regiune
     - key: user_info.github_username
       t: Username pe GitHub
     - key: user_info.github_username.description

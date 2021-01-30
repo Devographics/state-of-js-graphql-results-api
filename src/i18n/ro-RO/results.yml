@@ -490,7 +490,7 @@ translations:
     ###########################################################################
 
     - key: awards.runner_ups
-      t: Clasați pe locul secund
+      t: Următorii clasați
 
     - key: award.feature_adoption_award.title
       t: Cea mai folosită funcționalitate
@@ -554,7 +554,7 @@ translations:
 
     - key: hints.export_hint
       t: >
-          Butonul de <span class="hint-export-button">Export</span> din partea de sus a fiecărui bloc
+          Butonul <span class="hint-export-button">Exportă</span> din partea de sus a fiecărui bloc
           îți oferă posibilitatea de a obține datele în format raw JSON pentru fiecare grafic sau un
           query GraphQL pe care îl poți executa în API-ul nostru public.
 
