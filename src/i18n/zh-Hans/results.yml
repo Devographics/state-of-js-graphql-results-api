@@ -162,6 +162,8 @@ translations:
       t: 波兰语
     - key: options.locale.fa-IR
       t: 波斯语
+    - key: options.locale.nl-NL
+      t: 荷兰语
 
     ###########################################################################
     # Features

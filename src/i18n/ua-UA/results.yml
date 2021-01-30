@@ -154,6 +154,8 @@ translations:
       t: Хінді
     - key: options.locale.pl-PL
       t: польська
+    - key: options.locale.nl-NL
+      t: Голландська
 
     ###########################################################################
     # Features

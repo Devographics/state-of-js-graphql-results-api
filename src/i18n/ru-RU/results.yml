@@ -165,6 +165,8 @@ translations:
       t: Японский
     - key: options.locale.fa-IR
       t: Персидский
+    - key: options.locale.nl-NL
+      t: Голландский
 
     ###########################################################################
     # Features

@@ -163,6 +163,8 @@ translations:
       t: Polish
     - key: options.locale.fa-IR
       t: Farsi
+    - key: options.locale.nl-NL
+      t: Dutch
 
     ###########################################################################
     # Features

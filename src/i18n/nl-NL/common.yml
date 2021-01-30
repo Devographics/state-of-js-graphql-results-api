@@ -1,0 +1,744 @@
+locale: nl-NL
+translations:
+    ###########################################################################
+    # General
+    ###########################################################################
+
+    # homepage
+    - key: general.why_create_account
+      t: Waarom moet ik een account aanmaken?
+    - key: general.create_account_reasons
+      t: >
+          We vragen je om een account aan te maken om:
+
+          - Dubbele reacties te vermijden
+
+          - Je toegang te geven tot je gegevens
+
+          - Je sessie opslaan terwijl je bezig bent
+
+          - Je laten weten wanneer de resultaten live zijn
+    - key: general.survey_closed
+      t: >
+          Sorry, de enquête is nu gesloten! Je kunt jke gegevens nog steeds bekijken, maar je kunt deze niet wijzigen.
+    - key: general.survey_read_only
+      t: >
+          Je bekijkt deze enquête momenteel in de alleen-lezen modus.
+    - key: general.survey_read_only_back
+      t: >
+          <a href="{link}">Ga terug</a> naar de hoofdonderzoekspagina om een ​​sessie te starten of te hervatten.
+
+    # surveys
+    - key: general.open_surveys
+      t: Open enquêtes
+    - key: general.no_open_surveys
+      t: Er zijn momenteel geen enquêtes geopend.
+    - key: general.closed_surveys
+      t: Gesloten enquêtes
+    - key: general.no_closed_surveys
+      t: Er zijn momenteel geen enquêtes gesloten.
+    - key: general.preview_surveys
+      t: Bekijk voorbeelden van enquêtes
+    - key: general.no_preview_surveys
+      t: Geen enquêtes beschikbaar om te bekijken.
+    - key: general.start_survey
+      t: Start enquête »
+    - key: general.continue_survey
+      t: Doorgaan met enquête »
+    - key: general.review_survey
+      t: Beoordeel enquête »
+    - key: general.preview_survey
+      t: Bekijk voorbeeld van enquête »
+    - key: general.finish_survey
+      t: Voltooi enquête »
+    - key: general.survey_closed
+      t: Deze enquête is nu gesloten.
+    - key: general.survey_results
+      t: Bekijk enquête resultaten »
+    - key: general.surveys_available_languages
+      t: 'Enquêtes beschikbaar in:'
+    - key: general.help_us_translate
+      t: Help ons de enquêtes te vertalen »
+    - key: general.translators
+      t: Vertalers
+    - key: general.translation_help
+      t: Hulp bij vertalingen
+
+    # footer
+    - key: general.privacy_policy
+      t: Privacybeleid
+    - key: general.leave_issue
+      t: Vragen? Bug gevonden? <a href="{link}" target="_blank">Laat een issue achter</a>.
+    - key: general.emoji_icons
+      t: Emoji-pictogrammen door <a target="_blank" rel="noreferrer" href="https://icons8.com">Icons8</a>
+
+    # navigation
+    - key: general.table_of_contents
+      t: Inhoudsopgave
+    - key: general.all_questions_optional
+      t: >
+          Let op: alle vragen zijn optioneel, 100% voltooiing is niet vereist.
+    - key: general.data_is_saved
+      t: Je gegevens worden opgeslagen wanneer je naar de vorige of volgende sectie navigeert.
+
+    # thanks
+    - key: general.back
+      t: Terug
+    - key: general.thanks
+      t: >
+          Bedankt voor het invullen van de enquête!
+
+          Je gegevens zijn opgeslagen. Je kunt het bekijken of wijzigen totdat de enquête wordt gesloten.
+
+          Je kunt ons ook helpen door deze enquête te delen. Elk beetje telt, en het helpt om onze gegevens gelijk te houden
+          en ook meer representatief:
+    - key: thanks.learn_more_about
+      t: 'Enkele van de functies waarover je wellicht meer wilt weten:'
+    - key: thanks.knowledge_score
+      t: Kennis score
+    - key: thanks.score_explanation
+      t: >
+          Je hebt <span class="score-number score-number-known">{known}</span> uit
+          <span class="score-number score-number-total">{total}</span> functies genoemd in de enquête, dit
+          plaatst je in de top <span class="score-number score-number-ranking">{knowledgeRankingFromTop}%</span>
+          van alle respondenten.
+    - key: thanks.share_on_twitter
+      t: Delen op Twitter
+    - key: thanks.share_score_message
+      t: >
+          Ik heb een kennisscore van {score}% behaald in de #{hashtag} enquête van dit jaar! Vul de enquête hier in: {shareUrl}
+    # share
+    - key: general.share_subject
+      t: >
+          {surveyName} enquête
+    - key: general.share_text
+      t: >
+          De enquête van {surveyName} van dit jaar is nu geopend! {link}
+
+    # forms
+    - key: forms.select_option
+      t: Selecteer optie
+
+    # partners
+    - key: partners.our_partners
+      t: Onze partners
+    - key: partners.become_partner
+      t: Een partner worden
+
+    # 404
+    - key: notfound.title
+      t: 404 Niet gevonden
+    - key: notfound.description
+      t: Sorry, we konden niet vinden wat je zocht.
+
+    # other
+    - key: general.join_discord
+      t: Doe met ons mee op <a href="{link}">Discord</a>.
+    - key: general.translator_mode
+      t: Druk op option/alt om de vertaalmodus in te schakelen
+    - key: general.charts_nivo
+      t: Grafieken gebouwd met <a href="{link}">Nivo</a>.
+
+    ###########################################################################
+    # Nav
+    ###########################################################################
+
+    - key: nav.surveys
+      t: Enquêtes
+    - key: nav.account
+      t: Account
+
+    ###########################################################################
+    # Sections
+    ###########################################################################
+
+    - key: sections.user_info.title
+      t: Over jou
+    - key: sections.user_info.description
+      t: Laten we de echte jij leren kennen.
+
+    - key: sections.features.title
+      t: Functies
+    - key: sections.features.description
+      t: Syntax, trefwoorden, en andere taalfuncties.
+
+    - key: sections.resources.title
+      t: Middelen
+    - key: sections.resources.description
+      t: Welke {topic} bronnen raadpleeg je?
+
+    - key: sections.opinions.title
+      t: Meningen
+    - key: sections.opinions.description
+      t: Wat vind je van de toestand van {topic}?
+
+    - key: sections.other_tools.title
+      t: Andere tools
+    - key: sections.other_tools.description
+      t: Controleer voor deze tools en technologieën degene die je regelmatig gebruikt.
+
+    - key: sections.report.title
+      t: Trendrapport
+
+    ###########################################################################
+    # Options
+    ###########################################################################
+
+    # features
+    - key: options.features.never_heard
+      t: 🤷 Nooit van gehoord/Niet zeker wat het is
+    - key: options.features.heard
+      t: ✅ Weet wat het is, maar heb het niet gebruikt
+    - key: options.features.used
+      t: 👍 Ik heb het gebruikt
+
+    # features (no emoji)
+    - key: options.features.never_heard.label
+      t: Nooit van gehoord/Niet zeker wat het is
+    - key: options.features.heard.label
+      t: Weet wat het is, maar heb het niet gebruikt
+    - key: options.features.used.label
+      t: Ik heb het gebruikt
+
+    # features (short versions)
+    - key: options.features.never_heard.short
+      t: Nooit van gehoord
+    - key: options.features.heard.short
+      t: Weet ervan
+    - key: options.features.used.short
+      t: Heb het gebruikt
+
+    # patterns
+    - key: options.patterns.use_never
+      t: Vermijd bijna altijd
+    - key: options.patterns.use_sparingly
+      t: Spaarzaam gebruik
+    - key: options.patterns.use_neutral
+      t: Neutraal
+    - key: options.patterns.use_frequently
+      t: Regelmatig gebruik
+    - key: options.patterns.use_always
+      t: Gebruik zoveel als ik kan
+
+    # tools experience
+    - key: options.tools.never_heard
+      t: 🤷 Nooit van gehoord/Niet zeker wat het is
+    - key: options.tools.interested
+      t: ✅ Van gehoord > Zou graag willen leren
+    - key: options.tools.not_interested
+      t: 🚫 Gehoord > Niet geïnteresseerd
+    - key: options.tools.would_use
+      t: 👍 Gebruikt > Zou opnieuw gebruiken
+    - key: options.tools.would_not_use
+      t: 👎 Gebruikt > Zou het niet opnieuw gebruiken
+
+    # tools experience (no emoji)
+    - key: options.tools.never_heard.legend
+      t: Nooit van gehoord/Niet zeker wat het is
+    - key: options.tools.interested.legend
+      t: Van gehoord > Zou graag willen leren
+    - key: options.tools.not_interested.legend
+      t: Gehoord > Niet geïnteresseerd
+    - key: options.tools.would_use.legend
+      t: Gebruikt > Zou opnieuw gebruiken
+    - key: options.tools.would_not_use.legend
+      t: Gebruikt > Zou het niet opnieuw gebruiken
+
+    # tools experience (short versions)
+    - key: options.tools.never_heard.short
+      t: Nooit gehoord
+    - key: options.tools.interested.short
+      t: Geïnteresseerd
+    - key: options.tools.not_interested.short
+      t: Niet geïnteresseerd
+    - key: options.tools.would_use.short
+      t: Zou opnieuw gebruiken
+    - key: options.tools.would_not_use.short
+      t: Zou niet gebruiken
+
+    # happiness
+    - key: options.happiness.0
+      t: Heel ongelukkig
+    - key: options.happiness.1
+      t: Ongelukkig
+    - key: options.happiness.2
+      t: Neutraal
+    - key: options.happiness.3
+      t: Gelukkig
+    - key: options.happiness.4
+      t: Heel gelukkig
+
+    # happiness (short version)
+    - key: options.happiness.0.short
+      t: Heel ongelukkig
+    - key: options.happiness.1.short
+      t: Ongelukkig
+    - key: options.happiness.2.short
+      t: Neutraal
+    - key: options.happiness.3.short
+      t: Gelukkig
+    - key: options.happiness.4.short
+      t: Heel gelukkig
+
+    # opinions
+    - key: options.opinions.0
+      t: Sterk oneens
+    - key: options.opinions.1
+      t: Oneens
+    - key: options.opinions.2
+      t: Neutraal
+    - key: options.opinions.3
+      t: Eens
+    - key: options.opinions.4
+      t: Sterk eens
+
+    # years of experience
+    - key: options.years_of_experience.range_less_than_1
+      t: Minder dan een jaar
+    - key: options.years_of_experience.range_1_2
+      t: 1 tot 2 jaar
+    - key: options.years_of_experience.range_2_5
+      t: 2 tot 5 jaar
+    - key: options.years_of_experience.range_5_10
+      t: 5 tot 10 jaar
+    - key: options.years_of_experience.range_10_20
+      t: 10 tot 20 jaar
+    - key: options.years_of_experience.range_more_than_20
+      t: Meer dan 20 jaar
+
+    # years of experience (short versions)
+    - key: options.years_of_experience.range_less_than_1.short
+      t: '<1'
+    - key: options.years_of_experience.range_1_2.short
+      t: 1-2
+    - key: options.years_of_experience.range_2_5.short
+      t: 2-5
+    - key: options.years_of_experience.range_5_10.short
+      t: 5-10
+    - key: options.years_of_experience.range_10_20.short
+      t: 10-20
+    - key: options.years_of_experience.range_more_than_20.short
+      t: '>20'
+
+    # company size
+    - key: options.company_size.range_1
+      t: Een werknemer
+    - key: options.company_size.range_1_5
+      t: 1 tot 5 werknemers
+    - key: options.company_size.range_5_10
+      t: 5 tot 10 werknemers
+    - key: options.company_size.range_10_20
+      t: 10 tot 20 werknemers
+    - key: options.company_size.range_20_50
+      t: 20 tot 50 werknemers
+    - key: options.company_size.range_50_100
+      t: 50 tot 100 werknemers
+    - key: options.company_size.range_100_1000
+      t: 100 tot 1000 werknemers
+    - key: options.company_size.range_more_than_1000
+      t: Meer dan 1000 werknemers
+
+    # company size (short versions)
+    - key: options.company_size.range_1.short
+      t: 1
+    - key: options.company_size.range_1_5.short
+      t: 1-5
+    - key: options.company_size.range_5_10.short
+      t: 5-10
+    - key: options.company_size.range_10_20.short
+      t: 10-20
+    - key: options.company_size.range_20_50.short
+      t: 20-50
+    - key: options.company_size.range_50_100.short
+      t: 50-100
+    - key: options.company_size.range_100_1000.short
+      t: 100-1000
+    - key: options.company_size.range_more_than_1000.short
+      t: '>1000'
+
+    # salary
+    - key: options.yearly_salary.range_work_for_free
+      t: Ik werk gratis
+    - key: options.yearly_salary.range_0_10
+      t: $0k-$10k
+    - key: options.yearly_salary.range_10_30
+      t: $10k-$30k
+    - key: options.yearly_salary.range_30_50
+      t: $30k-$50k
+    - key: options.yearly_salary.range_50_100
+      t: $50k-$100k
+    - key: options.yearly_salary.range_100_200
+      t: $100k-$200k
+    - key: options.yearly_salary.range_more_than_200
+      t: Meer dan $200k
+
+    # salary (short versions)
+    - key: options.yearly_salary.range_work_for_free.short
+      t: '0'
+    - key: options.yearly_salary.range_0_10.short
+      t: 0~10k
+    - key: options.yearly_salary.range_10_30.short
+      t: 10~30k
+    - key: options.yearly_salary.range_30_50.short
+      t: 30~50k
+    - key: options.yearly_salary.range_50_100.short
+      t: 50~100k
+    - key: options.yearly_salary.range_100_200.short
+      t: 100~200k
+    - key: options.yearly_salary.range_more_than_200.short
+      t: '>200k'
+
+    # job titles
+    - key: options.job_title.cto
+      t: CTO
+    - key: options.job_title.front_end_developer
+      t: Front End Developer/Engineer
+    - key: options.job_title.back_end_developer
+      t: Back End Developer/Engineer
+    - key: options.job_title.full_stack_developer
+      t: Full Stack Developer/Engineer
+    - key: options.job_title.web_developer
+      t: Web Developer
+    - key: options.job_title.web_designer
+      t: Web Designer
+    - key: options.job_title.ux_designer
+      t: UX Designer
+    - key: options.job_title.ui_designer
+      t: UI Designer
+    - key: options.job_title.back_end_dev
+      t: Back-end Developer/Engineer
+
+    # JavaScript proficiency
+    - key: options.javascript_proficiency.0
+      t: Kan geen JavaScript schrijven
+    - key: options.javascript_proficiency.1
+      t: Korte, eenvoudige JavaScript- of jQuery-statements schrijven
+    - key: options.javascript_proficiency.2
+      t: Werken aan bestaande front-end codebases met behulp van moderne frameworks (React, Vue, etc.)
+    - key: options.javascript_proficiency.3
+      t: Het ontwerpen van complete front-end codebases vanaf nul
+    - key: options.javascript_proficiency.4
+      t: Omgaan met geavanceerde front-end-patronen (statusbeheer, laden van gegevens, enz.)
+
+    # CSS proficiency
+    - key: options.css_proficiency.0
+      t: Vrijwel geen kennis van CSS
+    - key: options.css_proficiency.1
+      t: CSS-frameworks gebruiken en bestaande stijlen aanpassen
+    - key: options.css_proficiency.2
+      t: Specifieke regels kennen, lay-outs kunnen maken
+    - key: options.css_proficiency.3
+      t: Beheersing van animaties, interacties, overgangen, etc.
+    - key: options.css_proficiency.4
+      t: In staat om een volledige front-end helemaal opnieuw te stylen volgens een consistente methodologie
+
+    # Back-end proficiency
+    - key: options.backend_proficiency.0
+      t: Kan geen back-end werk aan
+    - key: options.backend_proficiency.1
+      t: In staat om alles-in-één CMS'en (WordPress, etc.) of statische sitegeneratoren (Jekyll, etc.) op te zetten
+    - key: options.backend_proficiency.2
+      t: In staat om apps te ontwikkelen met behulp van reeds bestaande frameworks (Rails, Laravel, etc.)
+    - key: options.backend_proficiency.3
+      t: Een volledige back-end vanaf nul opzetten (Go, Node.js, etc.)
+    - key: options.backend_proficiency.4
+      t: In staat om complexe multi-server of microservices architecturen te verwerken
+
+    # Proficiency (generic versions)
+    - key: options.proficiency.0
+      t: Geen
+    - key: options.proficiency.1
+      t: Beginner
+    - key: options.proficiency.2
+      t: Gemiddeld
+    - key: options.proficiency.3
+      t: Geavanceerd
+    - key: options.proficiency.4
+      t: Expert
+
+    # Gender
+
+    - key: options.gender.female
+      t: Vrouw
+    - key: options.gender.male
+      t: Man
+    - key: options.gender.non_binary
+      t: Niet-binair/Derde geslacht
+    - key: options.gender.prefer_not_to_say
+      t: Zeg ik liever niet
+
+    # Race & Ethnicity
+
+    - key: options.race_ethnicity.white_european
+      t: Wit of van Europese afkomst
+    - key: options.race_ethnicity.south_asian
+      t: Zuid-Aziatisch
+    - key: options.race_ethnicity.hispanic_latin
+      t: Hispanic of Latino/Latina
+    - key: options.race_ethnicity.east_asian
+      t: Oost-Aziatisch
+    - key: options.race_ethnicity.middle_eastern
+      t: Midden Oosten
+    - key: options.race_ethnicity.black_african
+      t: Zwart of van Afrikaanse afkomst
+    - key: options.race_ethnicity.multiracial
+      t: Multiraciaal
+    - key: options.race_ethnicity.biracial
+      t: Biracial
+    - key: options.race_ethnicity.native_american_islander_australian
+      t: Native American, Pacific Islander of Indigenous Australian
+
+    # Form Factors
+    - key: options.form_factors.desktop
+      t: Desktop
+    - key: options.form_factors.smartphone
+      t: Smartphone
+    - key: options.form_factors.feature_phone
+      t: Feature telefoon
+    - key: options.form_factors.tablet
+      t: Tablet
+    - key: options.form_factors.smart_watch
+      t: Smartwatch
+    - key: options.form_factors.tv
+      t: TV
+    - key: options.form_factors.gaming_console
+      t: Spelcomputer
+    - key: options.form_factors.screen_reader
+      t: Schermlezer
+    - key: options.form_factors.print
+      t: Print
+
+    # Industry Sector
+    - key: options.industry_sector.ecommerce
+      t: E-commerce en detailhandel
+    - key: options.industry_sector.news_media
+      t: Nieuws, media en bloggen
+    - key: options.industry_sector.healthcare
+      t: Gezondheidszorg
+    - key: options.industry_sector.finance
+      t: Financiën
+    - key: options.industry_sector.programming_tools
+      t: Programmering en technische hulpmiddelen
+    - key: options.industry_sector.socialmedia
+      t: Sociale media
+    - key: options.industry_sector.marketing_tools
+      t: Marketing/Verkoop/Analysehulpmiddelen
+    - key: options.industry_sector.education
+      t: Educatie
+    - key: options.industry_sector.real_estate
+      t: Vastgoed
+    - key: options.industry_sector.government
+      t: Regering
+    - key: options.industry_sector.entertainment
+      t: Entertainment
+    - key: options.industry_sector.consulting
+      t: Consulting & adviesdiensten
+    - key: options.industry_sector.travel
+      t: Reizen
+    - key: options.industry_sector.insurance
+      t: Verzekering
+    - key: options.industry_sector.logistics
+      t: Logistiek
+    - key: options.industry_sector.energy
+      t: Energie
+    - key: options.industry_sector.telecommunications
+      t: Telecommunicatie
+    - key: options.industry_sector.student
+      t: Student
+    - key: options.industry_sector.hospitality
+      t: Horeca
+    - key: options.industry_sector.cyber_security
+      t: Cyberbeveiliging
+    - key: options.industry_sector.construction
+      t: Bouw
+    - key: options.industry_sector.automotive
+      t: Automotive
+    - key: options.industry_sector.agriculture
+      t: Landbouw
+    - key: options.industry_sector.transport
+      t: Transport
+    - key: options.industry_sector.manufacturing
+      t: Productie
+
+    ###########################################################################
+    # Tools
+    ###########################################################################
+
+    - key: tools.other_tools
+      t: Andere opties
+    - key: tools.other_tools.description
+      t: Andere opties die je gebruikt voor de huidige sectie die niet in de bovenstaande lijst worden vermeld
+    - key: tools.happiness
+      t: Algeheel geluk
+    - key: tools.happiness.description
+      t: >
+          Op een schaal van één (zeer ongelukkig) tot vijf (zeer tevreden), hoe tevreden ben
+          je met de huidige algemene stand van zaken met betrekking tot de hierboven genoemde opties?
+
+    ###########################################################################
+    # Demographics (About You/User Info)
+    ###########################################################################
+
+    # years of experience
+    - key: user_info.years_of_experience
+      t: Jarenlange ervaring
+    - key: user_info.years_of_experience.description
+      t: Hoe lang werk of studeer je al op dit gebied?
+
+    # company size
+    - key: user_info.company_size
+      t: Bedrijfsomvang
+    - key: user_info.company_size.description
+      t: Hoe groot je bedrijf is.
+
+    # salary ranges
+    - key: user_info.yearly_salary
+      t: Jaarlijks salaris
+    - key: user_info.yearly_salary.description
+      t: In USD.
+
+    # job title
+    - key: user_info.job_title
+      t: Functietitel
+    - key: user_info.job_title.description
+      t: Hoe stel je jezelf voor op feestjes?
+
+    # javascript proficiency
+    - key: user_info.javascript_proficiency
+      t: JavaScript-vaardigheid
+    - key: user_info.javascript_proficiency.description
+      t: Hoe bedreven ben jij in JavaScript?
+
+    # css proficiency
+    - key: user_info.css_proficiency
+      t: CSS-vaardigheid
+    - key: user_info.css_proficiency.description
+      t: Hoe bekwaam ben jij in CSS?
+
+    # backend proficiency
+    - key: user_info.backend_proficiency
+      t: Back-end-vaardigheid
+    - key: user_info.backend_proficiency.description
+      t: Hoe bekwaam ben je in back-end ontwikkeling?
+
+    # gender
+    - key: user_info.gender
+      t: Geslacht
+
+    # skin tone/appearance
+    - key: user_info.race_ethnicity
+      t: Ras en etniciteit
+
+    # other info
+    - key: user_info.how_did_user_find_out_about_the_survey
+      t: Hoe heb je deze enquête ontdekt?
+    - key: user_info.email
+      t: Jouw email
+    - key: user_info.country
+      t: Jouw land of regio
+    - key: user_info.github_username
+      t: Jouw GitHub-gebruikersnaam
+    - key: user_info.github_username.description
+      t: >
+          We zouden in de toekomst GitHub-gebruikersnamen kunnen gebruiken om naar
+          repos te kijken en om naar openbaar beschikbare informatie te verwijzen.
+    - key: user_info.industry_sector
+      t: Industriële sector
+    - key: user_info.industry_sector.description
+      t: In welke branche(s) werk je?
+    - key: user_info.industry_sector.others
+      t: Andere industriële sectoren
+    - key: user_info.industry_sector.others.description
+      t: Andere branche(s) waarin je werkt, niet hierboven vermeld.
+
+    ###########################################################################
+    # Other Tools
+    ###########################################################################
+
+    - key: tools_others.libraries
+      t: Libraries
+    - key: tools_others.libraries.description
+      t: Welke libraries gebruikt u regelmatig?
+    - key: tools_others.libraries.others
+      t: Andere libraries
+    - key: tools_others.libraries.others.description
+      t: Andere antwoorden (veld met vrije vorm).
+
+    - key: tools_others.text_editors
+      t: Teksteditors
+    - key: tools_others.text_editors.description
+      t: Welke teksteditor(en) gebruik je regelmatig?
+    - key: tools_others.text_editors.others
+      t: Andere teksteditors
+    - key: tools_others.text_editors.others.description
+      t: Andere antwoorden (veld met vrije vorm).
+
+    - key: tools_others.utilities
+      t: Utilities
+    - key: tools_others.utilities.description
+      t: Welke utilities of tools gebruik jeregelmatig?
+    - key: tools_others.utilities.others
+      t: Andere utilities
+    - key: tools_others.utilities.others.description
+      t: Andere antwoorden (veld met vrije vorm).
+
+    - key: tools_others.browsers
+      t: Browsers
+    - key: tools_others.browsers.description
+      t: In welke browser(s) werk je voornamelijk tijdens het ontwikkelen?
+    - key: tools_others.browsers.others
+      t: Andere browsers
+    - key: tools_others.browsers.others.description
+      t: Andere antwoorden (veld met vrije vorm).
+
+    - key: tools_others.build_tools
+      t: Build tools
+    - key: tools_others.build_tools.description
+      t: Welke buildtools gebruik je?
+    - key: tools_others.build_tools.others
+      t: Andere buildtools
+    - key: tools_others.build_tools.others.description
+      t: Andere antwoorden (veld met vrije vorm).
+
+    - key: tools_others.non_js_languages
+      t: Niet-JavaScript-talen
+    - key: tools_others.non_js_languages.description
+      t: Welke andere programmeertalen gebruik je?
+    - key: tools_others.non_js_languages.others
+      t: Andere talen
+    - key: tools_others.non_js_languages.others.description
+      t: Andere antwoorden (veld met vrije vorm).
+
+    ###########################################################################
+    # Resources
+    ###########################################################################
+
+    # blogs & magazines
+    - key: resources.blogs_news_magazines
+      t: Blogs en tijdschriften
+    - key: resources.blogs_news_magazines.description
+      t: Welke blogs/tijdschriften/etc. lees jij?
+    - key: resources.blogs_news_magazines.others
+      t: Andere blogs en tijdschriften
+    - key: resources.blogs_news_magazines.others.description
+      t: Andere antwoorden (veld met vrije vorm).
+
+    # sites & courses
+    - key: resources.sites_courses
+      t: Sites en cursussen
+    - key: resources.sites_courses.description
+      t: Welke sites/cursussen/enz. raadpleeg jij?
+    - key: resources.sites_courses.others
+      t: Andere sites en cursussen
+    - key: resources.sites_courses.others.description
+      t: Andere antwoorden (veld met vrije vorm).
+
+    # podcasts
+    - key: resources.podcasts
+      t: Podcasts
+    - key: resources.podcasts.description
+      t: Naar welke programmeergerelateerde podcasts luister je?
+    - key: resources.podcasts.others
+      t: Andere podcasts
+    - key: resources.podcasts.others.description
+      t: Andere antwoorden (veld met vrije vorm).

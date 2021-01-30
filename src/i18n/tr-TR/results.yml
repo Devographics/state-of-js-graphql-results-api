@@ -139,6 +139,8 @@ translations:
       t: Hintçe
     - key: options.locale.pl-PL
       t: Lehçe
+    - key: options.locale.nl-NL
+      t: Flemenkçe
 
     ###########################################################################
     # Features

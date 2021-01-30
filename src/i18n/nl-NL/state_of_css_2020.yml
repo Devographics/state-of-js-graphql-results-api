@@ -1,0 +1,269 @@
+locale: nl-NL
+translations:
+    ###########################################################################
+    # Introduction
+    ###########################################################################
+
+    - key: sections.introduction.description
+      t: |
+          <span class="first-letter">V</span>ergeet alles wat je weet over CSS. Of wees in ieder geval bereid om veel ervan te heroverwegen. Als je net als ik al meer dan een decennium CSS schrijft, lijkt CSS in 2020 in niets op wat je gewend was.
+
+          In plaats van breekpunten kunnen we nu CSS Grid gebruiken om dynamische, responsieve lay-outs te maken die zich aanpassen aan elke viewportgrootte met minder regels code. In plaats van te vertrouwen op wereldwijde stylesheets, kunnen we met CSS-in-JS onze stijlen combineren met onze componenten om thematische ontwerpsystemen te bouwen.
+
+          En bovenal is Tailwind CSS op het toneel verschenen en, door het gebruik van utility-first CSS, ons dwingen om het traditionele dogma van semantische klassenamen te heroverwegen.
+
+          Of je nu door al deze veranderingen een gehypte blogpost of een boze Twitter-tirade wilt schrijven, we zijn hier om de gegevens te presenteren, de trends te markeren en je hopelijk door weer een bewogen jaar van CSS te leiden!
+
+          ### Team
+
+          De State of CSS-enquête wordt gemaakt en onderhouden door:
+
+          - [Sacha Greif](https://twitter.com/sachagreif): Ontwerp, schrijven, coderen
+          - [Raphaël Benitte](https://twitter.com/benitteraphael): Gegevensanalyse, gegevensvisualisaties
+
+          ### Download onze gegevens
+
+          Je kunt [de onbewerkte JSON-gegevens voor deze enquête downloaden](https://www.kaggle.com/sachag/state-of-css). Laat het ons weten als je uiteindelijk jouw eigen datavisualisaties gaat maken!
+
+          ### Other Links
+
+          - [State of CSS startpagina](https://stateofcss.com)
+          - [State of JS](https://stateofjs.com)
+
+          ### Dank
+
+          Dank aan alle mensen die ons hebben geholpen bij het ontwerpen van de enquête, inclusief [Chen Hui-Jing](http://chenhuijing.com/), [Philip Jägenstedt](https://blog.foolip.org/), [Adam Argyke](https://nerdy.dev/), [Ahmad Shadeed](https://www.ishadeed.com/), [Robert Flack](https://github.com/flackr), [Dominic Nguyen](https://www.chromatic.com/), [Fantasai](http://fantasai.inkedblade.net/), en [Kilian Valkhof](https://kilianvalkhof.com/).
+
+          Extra dank aan [Alexey Pyltsyn] (https://github.com/lex111) voor zijn hulp bij vertalingen.
+
+          ### Credits & dingen
+
+          De site speelt zich af in IBM Plex Mono. Vragen? Feedback? [Neem contact op!](mailto:hello@stateofjs.com)
+
+          En laten we nu eens kijken wat CSS dit jaar heeft uitgespookt!
+
+          <span class="conclusion__byline">– Sacha and Raphaël</span>
+
+    ###########################################################################
+    # Tshirt
+    ###########################################################################
+
+    - key: sections.tshirt.title
+      t: T-shirt
+
+    - key: sections.tshirt.description
+      t: |
+          ## Steun het onderzoek en zie er goed uit in het proces!
+
+          Een korte aankondiging voor de onderzoeksresultaten.
+          Introductie van ons eigen 🎈🎉👕 State of CSS T-shirt 👕🎉🎈!
+
+          Wat dit shirt echt speciaal maakt, is dat het het enige kledingstuk is dat je ook praktische, real-world CSS-technieken leert.
+
+          Dus of je nu naar een conferentie, een sollicitatiegesprek of gewoon naar je werk gaat, dit shirt zal je CSS-meesterschap demonstreren zoals geen ander kledingstuk dat kan!
+
+    - key: tshirt.about
+      t: Over het T-shirt
+
+    - key: tshirt.description
+      t: |
+          Op het shirt staat het State of CSS-logo en fragmenten van de daadwerkelijke CSS-code die is gebruikt om elke vorm te maken. Wie weet leer je het een en ander!
+
+          We gebruiken een hoogwaardig, superzacht tri-blend overhemd met een slim fit.
+          Dit shirt valt klein, dus als je liever een lossere pasvorm hebt, raden we aan om een maat groter te bestellen dan je normaal draagt (ik draag een M op de foto's).
+
+    - key: tshirt.getit
+      t: Bestellen
+
+    - key: tshirt.price
+      t: USD $24 + verzendkosten
+
+    ###########################################################################
+    # Sections Introductions
+    ###########################################################################
+
+    - key: sections.user_info.description
+      t: |
+          De enquête van dit jaar bereikte **11.492** mensen in **102** landen. Dit jaar konden we voor het eerst
+          de enquêtevragen in meerdere talen vertalen dankzij een geweldig team van vrijwilligers.
+
+    - key: sections.features.description
+      t: |
+          CSS heeft de afgelopen jaren een golf van nieuwe functies gezien, dus zoals je zou verwachten,
+          loopt de acceptatie een beetje achter omdat de gemeenschap de tijd neemt om nieuwe eigenschappen op te nemen.
+
+    - key: sections.units_selectors.description
+      t: |
+          We durven te wedden dat je in deze sectie een paar dingen zult vinden die je niet wist!
+
+    - key: sections.technologies.description
+      t: |
+          Het CSS-ecosysteem ondergaat een soort vernieuwing, omdat oudere pijlers zoals Bootstrap
+          nu nieuwere nieuwkomers zoals Tailwind CSS moeten accommoderen. Om nog maar te zwijgen van de hele CSS-in-JS-beweging
+          die, hoewel deze nog moet overgaan naar de CSS-mainstream, toch behoorlijk dynamisch is.
+
+    - key: sections.other_tools.description
+      t: |
+          Geen grote verrassingen hier, maar het is de moeite waard om het uiterlijk van ontwikkelingsgerichte
+          browsers zoals Polypane en Sizzy te benadrukken, die een stap verder gaan dan traditionele devtools.
+
+    - key: sections.environments.description
+      t: |
+          Een van de belangrijkste sterke punten van CSS is het vermogen om zich aan te passen aan verschillende omgevingen,
+          maar om verschillende redenen blijven media zoals print en e-mail onontgonnen door een meerderheid van CSS-ontwikkelaars.
+          Zouden ze de volgende grens van CSS kunnen blijken te zijn...?
+
+    - key: sections.resources.description
+      t: |
+          De “andere antwoorden” resultaten in deze sectie benadrukken de rijkdom en diversiteit van de CSS-gemeenschap,
+          en bevatten vele uitstekende blogs en podcasts die we volgend jaar officieel aan de enquête willen toevoegen!
+
+    - key: sections.opinions.description
+      t: |
+          Deze meningen schetsen een beeld van een taal die volwassener, maar ook complexer wordt.
+          En misschien -althans zolang we moeite hebben om het tempo van de verandering bij te houden- iets minder plezierig?
+
+    ###########################################################################
+    # Notes
+    ###########################################################################
+
+    - key: blocks.gender.note
+      t: |
+          Als je meer wilt weten, we hebben [een blogpost geschreven](https://dev.to/sachagreif/is-our-survey-bioned-against-women-49oj) die ingaat op de genderdynamiek van de enquête.
+
+    - key: blocks.currently_missing_from_css.note
+      t: |
+          Je kunt de volledige dataset met antwoorden op deze vraag bekijken in [dit zijproject](https://whatsmissingfromcss.com/).
+
+    - key: blocks.source.note
+      t: >
+
+          Dit diagram bevat een combinatie van verwijzende URL's, URL-parameters en antwoorden met vrije vorm.
+
+          - State of JS: de [State of JS](https://stateofjs.com) mailinglijst.
+
+          - State of CSS: the State of CSS mailinglijst; komt ook overeen met 'e-mail', 'per e-mail', etc.
+
+          - Work: komt overeen met `work`, `colleagues`, `coworkers`, enz.
+
+    ###########################################################################
+    # Awards
+    ###########################################################################
+
+    - key: award.feature_adoption_delta_award.comment
+      t: Met een **{value}** progressie in 2020, was dit het jaar waarin CSS Grid de overstap maakte van nieuwe technologie naar gevestigde tool.
+
+    - key: award.tool_usage_delta_award.comment
+      t: Geen enkele andere tool komt zelfs maar in de buurt van de dramatische **{value}** progressie van Tailwind CSS in het afgelopen jaar.
+
+    - key: award.tool_satisfaction_award.comment
+      t: De **{value}** tevredenheidsratio van PostCSS laat zien dat je niet kunt verslaan als je één ding echt heel goed doet.
+
+    - key: award.tool_interest_award.comment
+      t: Met een **{value}** ratio hebben CSS-modules dit jaar de meeste interesse gewekt bij CSS-ontwikkelaars.
+
+    - key: award.most_write_ins_award.comment
+      t: Veel vragen accepteerden ook ingeschreven antwoorden, en met **{value}** vermeldt PhpStorm het meest populaire item in het algemeen.
+
+    ###########################################################################
+    # Conclusion
+    ###########################################################################
+
+    - key: sections.conclusion.description
+      t: |
+          Als een JavaScript-ontwikkelaar een regel CSS-code schrijft, is hij dan nu een CSS-ontwikkelaar?
+
+          Deze programmering *kōan* illustreert een duidelijke trend in de webontwikkelingswereld: naarmate steeds meer CSS-ontwikkelaars JavaScript moeten leren, beginnen JavaScript-ontwikkelaars zich ook te realiseren dat dit hele CSS-gedoe meer kan zijn dan alleen 'font-weight: bold;`.
+
+          Dus vragen naar "de staat van CSS" is inherent een lastige propositie: afhankelijk van wie je het vraagt, krijg je misschien heel andere antwoorden! En hoe weet je welke de juiste is?
+
+          Hier is nog een kōan voor jou: het juiste antwoord is dat er *geen* juist antwoord is. Elk van de vele tools, methodologieën, frameworks en bibliotheken die hier te zien zijn, heeft zijn plaats in het enorme front-end ecosysteem.
+
+          Een complexe React-app bouwen? Styled Components is een geweldige optie. Een statische landingspagina ontwerpen? Je kunt niet fout gaan met Sass! En hoewel Bootstrap een deel van zijn oorspronkelijke hype-factor heeft verloren, kun je het niet verslaan als het gaat om het grote aantal thema's en plug-ins.
+
+          Dus terwijl we het glimmende nieuwe speelgoed in de gaten houden dat elke week op GitHub verschijnt, laten we de tools, technieken en vooral mensen die de CSS-fakkel tot nu toe hebben gedragen niet vergeten. We hebben iedereen nodig als we CSS vooruit willen helpen in 2021 en daarna!
+
+    ###########################################################################
+    # Picks
+    ###########################################################################
+
+    - key: picks.my_2020_pick
+      t: 'Mijn keuze voor 2020: '
+    - key: picks.intro
+      t: We vroegen leden van de CSS-community om hun “keuze van het jaar” te delen
+
+    - key: picks.shadeed9.bio
+      t: Auteur vandebuggingcss.com
+    - key: picks.shadeed9.description
+      t: |
+          Containerquery's zijn een langverwachte functie voor ons en ik ben heel blij dat het Chrome-team werkt aan native ondersteuning ervan!
+
+    - key: picks.argyleink.bio
+      t: CSS bij Google
+    - key: picks.argyleink.description
+      t: |
+          De bescheiden CSS-box is elk jaar dynamischer en voor mij ging 2020 over logische kanten, in plaats van fysieke kanten. Gratis internationaal contextuele inhoudsstroom, spaties en steno? pls & ty
+
+    - key: picks.sachagreif.bio
+      t: Maker van deze enquête
+    - key: picks.sachagreif.description
+      t: |
+          Met deze blogpost ging Amelia Wattenberger niet alleen een stap verder, ze liep een hele marathon! De animaties en quiz zorgen ervoor dat je eindelijk de CSS-cascade begrijpt.
+
+    - key: picks.christianoliff.bio
+      t: Front-end developer bij Trimble MAPS
+    - key: picks.christianoliff.description
+      t: |
+          Een ding dat ik dit jaar echt ben gaan gebruiken en waarderen, is Purge CSS - een geweldige tool voor het verwijderen van ongebruikte CSS. Het kan de grootte van uw CSS aanzienlijk verkleinen, en het is snel en gemakkelijk te gebruiken.
+
+    - key: picks.kilianvalkhof.bio
+      t: Web developer en maker van Polypane
+    - key: picks.kilianvalkhof.description
+      t: |
+          `content-visibility` maakt al een enorm verschil in de prestaties van mijn web-apps, maar tegelijkertijd denk ik dat het de taak van browsers moet zijn om dit te optimaliseren, niet van ontwikkelaars.
+
+    - key: picks.walterstephanie.bio
+      t: User Centered Designer & CSS Lover
+    - key: picks.walterstephanie.description
+      t: |
+          Een reeks YouTube-video's waarin alle nieuwe coole CSS-functies worden uitgelegd om moderne ontwerpen te bouwen.
+
+    - key: picks.piccalilli_.bio
+      t: Freelance ontwerper en ontwikkelaar die piccalil.li runt
+    - key: picks.piccalilli_.description
+      t: |
+          Deze blog is een absolute goudmijn aan CSS-kennis. Michelle is een CSS-legende en elk bericht of elke tutorial die ze schrijven, zit boordevol nuttige inhoud.
+
+    - key: picks.sarasoueidan.bio
+      t: Onafhankelijke UI/ontwerpingenieur
+    - key: picks.sarasoueidan.description
+      t: |
+          Mijn keuze is een persoon, namelijk Rachel Andrew. Ze leerde CSS Grid aan een hele generatie ontwikkelaars.
+
+    - key: picks.5t3ph.bio
+      t: Software Engineer @ Microsoft
+    - key: picks.5t3ph.description
+      t: |
+          In deze conferentietoespraak geeft Manuel Matuzovic zorgvuldig gemaakte
+          voorbeelden die boeiend, benaderbaar en uitvoerbaar zijn.
+
+    - key: picks.hugogiraudel.bio
+      t: Voorstander van niet-binaire toegankelijkheid en diversiteit
+    - key: picks.hugogiraudel.description
+      t: |
+          Fela is een geweldig stukje software.
+          Het is behoorlijk krachtig, relatief eenvoudig te gebruiken en zeer performant
+
+    - key: picks.foolip.bio
+      t: Software Engineer @ Google
+    - key: picks.foolip.description
+      t: |
+          Sergio heeft onlangs veel Flexbox in WebKit en zelfs enkele in Chromium gerepareerd,
+          met name door de flexkloof in WebKit te brengen, wat betekent dat het binnenkort
+          beschikbaar zal zijn in alle moderne browsers.
+
+    - key: picks.jina.bio
+      t: Voorstander van ontwerpsystemen en beoefenaar
+    - key: picks.jina.description
+      t: |
+          De media vragen om beweging te verminderen, wat helpt om duizeligheid en ongemak te voorkomen.

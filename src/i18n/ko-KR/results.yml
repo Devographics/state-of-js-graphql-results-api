@@ -165,6 +165,8 @@ translations:
       t: Farsi
     - key: options.locale.ko-KR
       t: Korean
+    - key: options.locale.nl-NL
+      t: Dutch
 
     ###########################################################################
     # Features

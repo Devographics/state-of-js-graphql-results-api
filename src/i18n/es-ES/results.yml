@@ -171,6 +171,8 @@ translations:
       t: Ucraniano
     - key: options.locale.pl-PL
       t: Polaco
+    - key: options.locale.nl-NL
+      t: Holandés
     - key: options.locale.fa-IR
       t: Farsi
 

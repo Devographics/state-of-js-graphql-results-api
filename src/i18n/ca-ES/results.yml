@@ -160,6 +160,8 @@ translations:
       t: Japonès
     - key: options.locale.ua-UA
       t: Ucraïnès
+    - key: options.locale.nl-NL
+      t: Neerlandès
 
     ###########################################################################
     # Features

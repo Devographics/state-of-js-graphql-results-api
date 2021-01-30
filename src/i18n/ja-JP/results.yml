@@ -148,6 +148,8 @@ translations:
       t: Hindi
     - key: options.locale.pl-PL
       t: Polish
+    - key: options.locale.nl-NL
+      t: Dutch
 
     ###########################################################################
     # Features

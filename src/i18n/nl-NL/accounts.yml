@@ -1,0 +1,75 @@
+locale: nl-NL
+translations:
+    - key: accounts.error_incorrect_password
+      t: Fout wachtwoord
+    - key: accounts.error_email_required
+      t: Email vereist
+    - key: accounts.error_email_already_exists
+      t: Email bestaat al
+    - key: accounts.error_invalid_email
+      t: Ongeldig email
+    - key: accounts.error_minchar
+      t: Je wachtwoord is te kort
+    - key: accounts.error_unknown
+      t: Onbekende fout
+    - key: accounts.error_user_not_found
+      t: Gebruiker niet gevonden
+    - key: accounts.error_username_already_exists
+      t: Gebruikersnaam bestaat al
+    - key: accounts.enter_username_or_email
+      t: Voer gebruikersnaam of email in
+    - key: accounts.error_internal_server_error
+      t: Interne server fout
+    - key: accounts.error_token_expired
+      t: Ongeldig token voor wachtwoordherstel
+    - key: accounts.username_or_email
+      t: Gebruikersnaam of email
+    - key: accounts.enter_username
+      t: Vul je gebruikersnaam in
+    - key: accounts.username
+      t: Gebruikersnaam
+    - key: accounts.enter_email
+      t: Voer email in
+    - key: accounts.email
+      t: Email
+    - key: accounts.enter_password
+      t: Voer wachtwoord in
+    - key: accounts.password
+      t: Wachtwoord
+    - key: accounts.choose_password
+      t: Kies wachtwoord
+    - key: accounts.change_password
+      t: Verander wachtwoord
+    - key: accounts.reset_your_password
+      t: Stel je wachtwoord opnieuw in
+    - key: accounts.set_password
+      t: Stel een wachtwoord in
+    - key: accounts.enter_new_password
+      t: Voer een nieuw wachtwoord in
+    - key: accounts.new_password
+      t: Nieuw wachtwoord
+    - key: accounts.forgot_password
+      t: Wachtwoord vergeten
+    - key: accounts.sign_up
+      t: Inschrijven
+    - key: accounts.sign_in
+      t: aanmelden
+    - key: accounts.sign_out
+      t: Afmelden
+    - key: accounts.cancel
+      t: Annuleren
+    - key: accounts.info_email_sent
+      t: Email verzonden.
+    - key: accounts.info_password_changed
+      t: Wachtwoord veranderd.
+    - key: accounts.please_pick_password
+      t: Kies een nieuw wachtwoord om door te gaan.
+    - key: accounts.please_log_in
+      t: Log in of meld je aan om te beginnen.
+    - key: accounts.logged_in_as
+      t: Aangemeld als {email}
+    - key: accounts.questions
+      t: >
+          Als je vragen hebt over hoe wij je gegevens gebruiken, of als je wilt
+          dat wij je gegevens uit onze administratie verwijderen,
+          neem dan <a href="mailto:hello@stateofjs.com">contact met ons op</a>.

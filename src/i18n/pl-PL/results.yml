@@ -156,6 +156,8 @@ translations:
       t: Ukraiński
     - key: options.locale.pl-PL
       t: Polski
+    - key: options.locale.nl-NL
+      t: Holenderski
 
     ###########################################################################
     # Features

@@ -139,6 +139,8 @@ translations:
       t: Hindi
     - key: options.locale.pl-PL
       t: Polnisch      
+    - key: options.locale.nl-NL
+      t: Niederländisch
 
     ###########################################################################
     # Features
