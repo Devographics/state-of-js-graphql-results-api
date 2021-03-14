@@ -225,84 +225,80 @@ translations:
 
     - key: blocks.tools_quadrant.interest.description
       t: |
-        This chart shows each technology’s **interest ratio** over its total **user count** (as defined by respondents who are aware of a technology but *haven't* used it yet).
+        Αυτό το γράφημα δείχνει το **δείκτη ενδιαφέροντος κάθε τεχνολογίας** πάνω από το συνολικό **πλήθος χρηστών** (όπως ορίζεται από τους ερωτηθέντες που γνωρίζουν μια τεχνολογία αλλά *δεν το έχουν* χρησιμοποιήσει ακόμη).
 
-        (Note that low user numbers can be due to either an unknown technology; or a technology with a lot of respondents already using it.)
+        (Σημειώστε ότι οι χαμηλοί αριθμοί χρηστών μπορεί να οφείλονται είτε σε μια άγνωστη τεχνολογία? ή μια τεχνολογία με πολλούς συμμετέχωντες που τη χρησιμοποιούν ήδη.)
 
     # category other tools
     - key: blocks.category_other_tools.title
-      t: Other Tools
+      t: Άλλα εργαλεία
     - key: blocks.category_other_tools.description
-      t: Other tools in this category (freeform answers).
+      t: Άλλα εργαλεία σε αυτήν την κατηγορία (ελεύθερες απαντήσεις).
 
     # tool experience
     - key: blocks.tool_experience.title
-      t: ${name} Experience
+      t: Εμπειρία ${name}
     - key: blocks.tool_experience.description
-      t: Respondent's experience with ${name}.
+      t: Η εμπειρία του συμμετέχων ${name}.
 
     # tool positive/negative split ("marimekko" chart)
     - key: blocks.tools_experience_marimekko.title
-      t: Positive/Negative Split
+      t: Χωρισμός σε Θετική/αρνητική
     - key: blocks.tools_experience_marimekko.description
       t: |
-          This chart splits positive (“want to learn”, ”would use again”) vs
-          negative (“not interested”, “would not use again”) experiences on
-          both sides of a central axis.
+           Αυτό το γράφημα διαχωρίζεται θετικά ("θέλω να μάθω", "θα χρησιμοποιούσε ξανά") έναντι σε
+           αρνητικές εμπειρίες ("δεν ενδιαφέρομαι", "δεν θα χρησιμοποιούσα ξανά")
+           και οι δύο πλευρές ενός κεντρικού άξονα.
 
-          Bar thickness represents the number of respondents aware of a technology.
+           Το πάχος της ράβδου αντιπροσωπεύει τον αριθμό των συμμετεχόντων που γνωρίζουν μια τεχνολογία.
 
     # tools section streams
     - key: blocks.tools_section_streams.title
-      t: Experience Over Time
+      t: Εμπειρία με την πάροδο του χρόνου
     - key: blocks.tools_section_streams.description
-      t: |
-        Overview of opinions on the technologies surveyed over time.
+      t: | Επισκόπηση των απόψεων σχετικά με τις τεχνολογίες που ερευνήθηκαν με την πάροδο του χρόνου.
     - key: blocks.tools_section_streams.note
-      t: |
-        Technologies with only one year of data are not included.
+      t: | Δεν περιλαμβάνονται τεχνολογίες με μόνο ένα έτος διάρκειας δεδομένων.
 
     # tools section overview
     - key: blocks.tools_section_overview.title
-      t: Category Overview
+      t: Επισκόπηση κατηγορίας
     - key: blocks.tools_section_overview.description
       t: |
-        Overview of opinions on the technologies surveyed. Darker segments represent positive opinions,
-        while lighter segments correspond to negative sentiment.
+        Επισκόπηση των απόψεων σχετικά με τις τεχνολογίες που ερευνήθηκαν. Τα πιο σκοτεινά τμήματα αντιπροσωπεύουν θετικές απόψεις, ενώ ελαφρότερα τμήματα αντιστοιχούν σε αρνητικά συναισθήματα.
 
     # tools experience ranking
     - key: blocks.tools_experience_ranking.title
-      t: Rankings
+      t: Κατάταξη 
     - key: blocks.tools_experience_ranking.description
-      t: Satisfaction, interest, usage, and awareness ratio rankings.
+      t: Κατάταξη ικανοποίησης, ενδιαφέροντος, χρήσης και ευαισθητοποίησης.
     - key: blocks.tools_experience_ranking.note
       t: |
-        Technologies with less than 10% awareness not included. Each ratio is defined as follows:
-
-        - Satisfaction: **would use again** vs **would not use again**.
-        - Interest: **want to learn** vs **not interested**.
-        - Usage: **would use again** + **would not use again** vs awareness.
-        - Awareness: total - **never heard**.
+         Δεν περιλαμβάνονται τεχνολογίες με λιγότερο από 10% επίγνωση. Κάθε αναλογία ορίζεται ως εξής:
+         
+        - Ικανοποίηση: **θα χρησιμοποιούσε ξανά** vs **δεν θα το χρησιμοποιούσα ξανά**.
+        - Ενδιαφέρον: **θέλω να μάθω** vs **δεν ενδιαφέρομαι**.
+        - Χρήση: **θα χρησιμοποιούσε ξανά** + **δεν θα το χρησιμοποιούσα ξανά** vs επίγνωση.
+        - Επίγνωση: σύνολο - **δεν γνωρίζω**.
 
     # happiness
     - key: blocks.happiness.title
-      t: Overall Happiness
+      t: Συνολική ευτυχία
     - key: blocks.happiness.description
       t: |
-        On a scale of one (very unhappy) to five (very happy), how happy are developers
-        with the current overall state of this category?
+        Σε κλίμακα από ένα (πολύ δυσαρεστημένο) έως πέντε (πολύ χαρούμενο), πόσο ικανοποιημένοι είναι οι προγραμματιστές με την τρέχουσα συνολική κατάσταση αυτής της κατηγορίας?
 
     # newsletter
     - key: blocks.newsletter.title
-      t: Stay Tuned
+      t: Μείνετε συντονισμένοι
     - key: blocks.newsletter.description
       t: |
-        If you'd like to know when we release additional results or announce next year's edition,
-        just leave us your email below:
+        Αν θέλετε να μάθετε πότε θα κυκλοφορήσουν επιπλέον αποτελέσματα ή τις ανακοινώσεις για την έκδοση του επόμενου έτους,
+         απλώς αφήστε μας το email σας παρακάτω:
     - key: blocks.newsletter.email
-      t: Your Email
+      t: Το Email
     - key: blocks.newsletter.submit
-      t: Notify Me
+      t: Ειδοποίησέ με
 
     # features_overview
     - key: blocks.features_overview.title
