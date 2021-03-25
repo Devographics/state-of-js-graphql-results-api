@@ -45,10 +45,10 @@
     - isolation
     - scop(e|ing)
 
-- id: functions
-  name: Functions
-  patterns:
-    - functions?
+# - id: functions
+#   name: Functions
+#   patterns:
+#     - functions?
 
 - id: browser_support
   name: Browser Support

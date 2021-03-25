@@ -622,8 +622,11 @@ translations:
       t: How proficient are you at back-end development?
 
     # gender
+    # see https://www.alchemer.com/resources/blog/how-to-write-survey-gender-questions/
     - key: user_info.gender
       t: Gender
+    - key: user_info.gender.description
+      t: To which gender identity do you most identify?
 
     # skin tone/appearance
     - key: user_info.race_ethnicity
