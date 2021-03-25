@@ -12,9 +12,9 @@ export interface Filters {
     country?: Filter<string>
     race_ethnicity?: Filter<string>
     industry_sector?: Filter<string>
-    salary?: Filter<string>
-    companySize?: Filter<string>
-    workExperience?: Filter<string>
+    yearly_salary?: Filter<string>
+    company_size?: Filter<string>
+    years_of_experience?: Filter<string>
     source?: Filter<string>
 }
 
@@ -80,14 +80,14 @@ export const generateFiltersQuery = (filters?: Filters): FiltersQuery => {
         if (filters.industry_sector !== undefined) {
             match['user_info.industry_sector.choices'] = mapFilter<string>(filters.industry_sector)
         }
-        if (filters.companySize !== undefined) {
-            match['user_info.company_size'] = mapFilter<string>(filters.companySize)
+        if (filters.company_size !== undefined) {
+            match['user_info.company_size'] = mapFilter<string>(filters.company_size)
         }
-        if (filters.salary !== undefined) {
-            match['user_info.yearly_salary'] = mapFilter<string>(filters.salary)
+        if (filters.yearly_salary !== undefined) {
+            match['user_info.yearly_salary'] = mapFilter<string>(filters.yearly_salary)
         }
-        if (filters.workExperience !== undefined) {
-            match['user_info.years_of_experience'] = mapFilter<string>(filters.workExperience)
+        if (filters.years_of_experience !== undefined) {
+            match['user_info.years_of_experience'] = mapFilter<string>(filters.years_of_experience)
         }
         if (filters.source !== undefined) {
             match['user_info.source.normalized'] = mapFilter<string>(filters.source)
