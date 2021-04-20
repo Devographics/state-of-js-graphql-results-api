@@ -1,55 +1,55 @@
 locale: it-IT
 translations:
-  - key: accounts.error_incorrect_password # TODO
-    t: Incorrect password
-  - key: accounts.error_email_required # TODO
-    t: Email required
-  - key: accounts.error_email_already_exists # TODO
-    t: Email already exists
-  - key: accounts.error_invalid_email # TODO
-    t: Invalid email
-  - key: accounts.error_minchar # TODO
-    t: Your password is too short
-  - key: accounts.error_unknown # TODO
-    t: Unknown error
-  - key: accounts.error_user_not_found # TODO
-    t: User not found
-  - key: accounts.error_username_already_exists # TODO
-    t: Username already exists
-  - key: accounts.enter_username_or_email # TODO
-    t: Enter username or email
-  - key: accounts.error_internal_server_error # TODO
-    t: Internal server error
-  - key: accounts.error_token_expired # TODO
-    t: Invalid password reset token
-  - key: accounts.username_or_email # TODO
-    t: Username or email
-  - key: accounts.enter_username # TODO
-    t: Enter username
-  - key: accounts.username # TODO
+  - key: accounts.error_incorrect_password 
+    t: Password errata
+  - key: accounts.error_email_required 
+    t: Email obbligatoria
+  - key: accounts.error_email_already_exists 
+    t: Email già esistente
+  - key: accounts.error_invalid_email
+    t: Email non valida
+  - key: accounts.error_minchar
+    t: La password scelta è troppo breve
+  - key: accounts.error_unknown
+    t: Errore sconosciuto
+  - key: accounts.error_user_not_found
+    t: Utente non trovato
+  - key: accounts.error_username_already_exists
+    t: Username già esistente
+  - key: accounts.enter_username_or_email
+    t: Inserisci username o email
+  - key: accounts.error_internal_server_error
+    t: Errore interno
+  - key: accounts.error_token_expired
+    t: Password reset token non valido
+  - key: accounts.username_or_email
+    t: Username o email
+  - key: accounts.enter_username
+    t: Inserisci username
+  - key: accounts.username
     t: Username
   - key: accounts.enter_email
     t: Inserisci Email
   - key: accounts.email
     t: Email
-  - key: accounts.enter_password # TODO
-    t: Enter password
-  - key: accounts.password # TODO
+  - key: accounts.enter_password
+    t: Inserisci password
+  - key: accounts.password
     t: Password
-  - key: accounts.choose_password # TODO
-    t: Choose password
-  - key: accounts.change_password # TODO
-    t: Change password
-  - key: accounts.reset_your_password # TODO
-    t: Reset your password
-  - key: accounts.set_password # TODO
-    t: Set password
-  - key: accounts.enter_new_password # TODO
-    t: Enter new password
-  - key: accounts.new_password # TODO
-    t: New password
-  - key: accounts.forgot_password # TODO
-    t: Forgot password
+  - key: accounts.choose_password
+    t: Scegli la password
+  - key: accounts.change_password
+    t: Cambia la password
+  - key: accounts.reset_your_password
+    t: Resetta la tua password
+  - key: accounts.set_password
+    t: Imposta una password
+  - key: accounts.enter_new_password
+    t: Inserisci una nuova password
+  - key: accounts.new_password
+    t: Nuova password
+  - key: accounts.forgot_password
+    t: Password dimenticata?
   - key: accounts.sign_up
     t: Registrati
   - key: accounts.sign_in
@@ -58,10 +58,10 @@ translations:
     t: Disconnettiti
   - key: accounts.cancel
     t: Cancella
-  - key: accounts.info_email_sent # TODO
-    t: Email sent.
-  - key: accounts.info_password_changed # TODO
-    t: Password changed.
+  - key: accounts.info_email_sent
+    t: Email inviata.
+  - key: accounts.info_password_changed
+    t: Password cambiata.
   - key: accounts.please_pick_password
     t: Scegli una nuova password per continuare.
   - key: accounts.please_log_in
