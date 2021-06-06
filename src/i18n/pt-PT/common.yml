@@ -53,11 +53,10 @@ translations:
       t: 'Inquéritos disponíveis em:'
     - key: general.help_us_translate
       t: Ajude-nos a traduzir os inquéritos »
-    - key: general.translators # TODO
-      t: Translators
-    - key: general.translation_help # TODO
-      t: Translation Help
-
+    - key: general.translators
+      t: Tradutores
+    - key: general.translation_help
+      t: Ajuda na tradução
     # footer
     - key: general.privacy_policy
       t: Política de Privacidade
@@ -86,21 +85,21 @@ translations:
 
           Além disso, pode ajudar-nos a divulgar o inquérito partilhando este. Cada bocadinho conta, e isso ajudará a tornar os nossos dados
           mais representativo:
-    - key: thanks.learn_more_about # TODO
-      t: 'Some of the features you might want to learn more about:'
-    - key: thanks.knowledge_score # TODO
-      t: Knowledge Score
-    - key: thanks.score_explanation # TODO
+    - key: thanks.learn_more_about
+      t: 'Alguns dos recursos sobre os quais você pode querer aprender mais:'
+    - key: thanks.knowledge_score
+      t: Pontuação de conhecimento
+    - key: thanks.score_explanation
       t: >
-          You’ve heard or used <span class="score-number score-number-known">{known}</span> out of
-          <span class="score-number score-number-total">{total}</span> features mentioned in the survey, which
-          puts you in the top <span class="score-number score-number-ranking">{knowledgeRankingFromTop}%</span>
-          of all respondents.
-    - key: thanks.share_on_twitter # TODO
-      t: Share on Twitter
-    - key: thanks.share_score_message # TODO
+          Você ouviu ou usou <span class="score-number score-number-known">{known}</span> de
+          <span class="score-number score-number-total">{total}</span> recursos mencionados na pesquisa, que
+           coloca você entre os primeiros <span class="score-number score-number-ranking">{knowledgeRankingFromTop}%</span>
+          de todos os entrevistados.
+    - key: thanks.share_on_twitter
+      t: Compartilhe no Twitter
+    - key: thanks.share_score_message
       t: >
-          I got a {score}% knowledge score on this year's #{hashtag} survey! Take the survey here: {shareUrl}
+          Tive uma pontuação de conhecimento de {score}% na pesquisa #{hashtag} deste ano! Responda à pesquisa aqui: {shareUrl}
     # share
     - key: general.share_subject
       t: >
@@ -110,8 +109,8 @@ translations:
           O inquérito {surveyName} deste ano está agora aberto {link}
 
     # forms
-    - key: forms.select_option # TODO
-      t: Select option
+    - key: forms.select_option
+      t: Selecione a opção
 
     ###########################################################################
     # Nav
@@ -446,24 +445,24 @@ translations:
       t: Nativo Americano, Ilhas do Pacífico, ou Australiano Indígena
 
     # Form Factors
-    - key: options.form_factors.desktop # TODO
-      t: Desktop
-    - key: options.form_factors.smartphone # TODO
-      t: Smartphone
-    - key: options.form_factors.feature_phone # TODO
-      t: Feature phone
-    - key: options.form_factors.tablet # TODO
+    - key: options.form_factors.desktop
+      t: Computador
+    - key: options.form_factors.smartphone
+      t: Celular
+    - key: options.form_factors.feature_phone
+      t: Telefone
+    - key: options.form_factors.tablet
       t: Tablet
-    - key: options.form_factors.smart_watch # TODO
-      t: Smartwatch
-    - key: options.form_factors.tv # TODO
-      t: TV
-    - key: options.form_factors.gaming_console # TODO
-      t: Gaming console
-    - key: options.form_factors.screen_reader # TODO
-      t: Screen reader
-    - key: options.form_factors.print # TODO
-      t: Print
+    - key: options.form_factors.smart_watch
+      t: Relógio Smart
+    - key: options.form_factors.tv
+      t: Televisão
+    - key: options.form_factors.gaming_console
+      t: Console de videogame
+    - key: options.form_factors.screen_reader
+      t: Leitor de tela
+    - key: options.form_factors.print
+      t: Impressão
 
     ###########################################################################
     # Tools
