@@ -180,7 +180,7 @@ translations:
 
     # knowledge score
     - key: features.knowledge_score
-      t: Knowledge Score
+      t: 知识评分
     - key: features.knowledge_score.description
       t: 在调查中提到的所有特性中，受访者知道多少？
 
