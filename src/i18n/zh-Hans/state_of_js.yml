@@ -155,10 +155,10 @@ translations:
     - key: features.promises
       t: Promises
     - key: features.decorators
-      t: Decorators 装饰器
+      t: 装饰器（decorators）
     - key: features.decorators.description
       t: >
-          简单来说，Decorators装饰器是一种将一段代码包装成另一段代码的方法。
+          简单来说，装饰器（decorators）是一种将一段代码包装成另一段代码的方法。
     - key: features.dynamic_import
       t: 动态引入
     - key: features.dynamic_import.description

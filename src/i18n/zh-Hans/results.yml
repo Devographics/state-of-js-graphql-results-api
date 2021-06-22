@@ -180,7 +180,7 @@ translations:
 
     # knowledge score
     - key: features.knowledge_score
-      t: Knowledge Score
+      t: 知识评分
     - key: features.knowledge_score.description
       t: 在调查中提到的所有特性中，受访者知道多少？
 
@@ -255,26 +255,26 @@ translations:
 
     # tools quadrant
     - key: blocks.tools_quadrant.title
-      t: 满意度 对比 使用率
-    - key: blocks.tools_quadrant.satisfaction.description
+      t: 满意度 对比 用户数量
+    - key: blocks.tools_quadrant.description
       t: |
-        这张图表显示了每种技术对其总 **用户数量** 的 **满意率**。它可以分为四个象限：
+        这张图表展示了每种技术的 **用户数量** 及 **满意度**。以下为四个象限的含义：
 
-          - **评估**: 使用率较低，满意度较高。值得关注的技术。
+          - **评估**: 低使用率，高满意度。值得关注的技术。
 
-          - **采用**: 使用率高，满意度高。可采用安全技术。
+          - **采用**: 高使用率，高满意度。可放心选用的技术。
 
-          - **规避**: 使用率低，满意度低。目前最好避免使用的技术。
+          - **规避**: 低使用率，低满意度。应避免使用的技术。
 
-          - **待定**: 使用率高，满意度低。如果您正在使用这些技术，请重新评估它们。
-    - key: blocks.tools_quadrant.satisfaction.note
-      t: 注意，TypeScript 在图表中出现了两次，因为它同时包含在JavaScript 偏好和构建工具部分。
+          - **待定**: 高使用率，低满意度。如果您正在使用这些技术，请重新评估它们。
+    - key: blocks.tools_quadrant.note
+      t: 注意，TypeScript 在图表中出现了两次，因为它同时包含在 JavaScript 偏好和构建工具部分。
 
     - key: blocks.tools_quadrant.interest.description
       t: |
-        这张图表显示了每种技术对其总 **用户数量** 的 **关注率** (关注定义为了解某一技术但尚未使用该技术的受访者)。
+        这张图表展示了每种技术的 **用户数量** 及 **关注率** (关注的定义是受访者听说过某一项技术但尚未使用该技术)。
 
-        (请注意，低用户数量可能是由于非著名的技术，也可能是该技术很多受访者已经在使用。)
+        (请注意，低用户数量可能是因为有很多受访者未听说过此项技术，同时也可能是因为该技术已有很多受访者在使用。)
 
     # category other tools
     - key: blocks.category_other_tools.title

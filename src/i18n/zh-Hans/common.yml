@@ -35,6 +35,12 @@ translations:
       t: 没有可供填写的问卷。
     - key: general.closed_surveys
       t: 已关闭
+    - key: general.no_closed_surveys
+      t: 没有已关闭的问卷。
+    - key: general.preview_surveys
+      t: 预览问卷
+    - key: general.no_preview_surveys
+      t: 没有可预览的问卷。
     - key: general.start_survey
       t: 开始问卷 »
     - key: general.continue_survey
@@ -115,6 +121,12 @@ translations:
       t: 我们的合作伙伴
     - key: partners.become_partner
       t: 成为我的伙伴
+
+    # 404
+    - key: notfound.title
+      t: 404 未找到页面
+    - key: notfound.description
+      t: 抱歉，你想要访问的页面不存在。
 
     # other
     - key: general.join_discord
@@ -494,6 +506,59 @@ translations:
       t: 屏幕阅读器
     - key: options.form_factors.print
       t: 打印机
+
+    # Industry Sector
+    - key: options.industry_sector.ecommerce
+      t: 电商与零售
+    - key: options.industry_sector.news_media
+      t: 新闻、媒体、自媒体
+    - key: options.industry_sector.healthcare
+      t: 医疗健康
+    - key: options.industry_sector.finance
+      t: 金融
+    - key: options.industry_sector.programming_tools
+      t: 编程与技术工具
+    - key: options.industry_sector.socialmedia
+      t: 社交媒体
+    - key: options.industry_sector.marketing_tools
+      t: 市场/销售/分析工具
+    - key: options.industry_sector.education
+      t: 教育
+    - key: options.industry_sector.real_estate
+      t: 房地产
+    - key: options.industry_sector.government
+      t: 政府单位
+    - key: options.industry_sector.entertainment
+      t: 娱乐业
+    - key: options.industry_sector.consulting
+      t: 咨询与服务
+    - key: options.industry_sector.travel
+      t: 旅游
+    - key: options.industry_sector.insurance
+      t: 保险
+    - key: options.industry_sector.logistics
+      t: 物流
+    - key: options.industry_sector.energy
+      t: 能源
+    - key: options.industry_sector.telecommunications
+      t: 通信
+    - key: options.industry_sector.student
+      t: 学生
+    - key: options.industry_sector.hospitality
+      t: 餐旅业
+    - key: options.industry_sector.cyber_security
+      t: 计算机安全
+    - key: options.industry_sector.construction
+      t: 建筑
+    - key: options.industry_sector.automotive
+      t: 汽车产业
+    - key: options.industry_sector.agriculture
+      t: 农业
+    - key: options.industry_sector.transport
+      t: 运输业
+    - key: options.industry_sector.manufacturing
+      t: 制造业
+
     ###########################################################################
     # Tools
     ###########################################################################
