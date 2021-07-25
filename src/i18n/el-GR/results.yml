@@ -302,32 +302,30 @@ translations:
 
     # features_overview
     - key: blocks.features_overview.title
-      t: Usage Overview
+      t: Επισκόπηση χρήσης
     - key: blocks.features_overview.description
       t: |
-        This chart presents the various adoption rates for all features, grouped by category.
+        Αυτό το διάγραμμα παρουσιάζει τα διάφορα ποσοστά προσαρμοστικότητας για όλα τα χαρακτηριστικά, ομαδοποιημένα ανά κατηγορία.
 
-        The size of the <span class="text-teal-darker text-bold">outer circle</span>
-        corresponds to the total number of users who know about a feature, while
-        the <span class="text-teal text-bold">inner one</span> represents those who have actually used it.
+        Το μέγεθος του <span class="text-teal-darker text-bold">εξωτερικού κύκλου</span>
+        αντιστοιχεί στον συνολικό αριθμό των χρηστών που γνωρίζουν ένα χαρακτηριστικό, ενώ η <span class="text-teal text-bold">εσωτερικός</span> αντιπροσωπεύει εκείνους που το χρησιμοποίησαν πραγματικά.
 
-        Hover on each node to view detailed data along with an <span class="text-blackpink text-bold">overlay</span>
-        representing the total number of survey respondents.
+        Αιωρίστε σε κάθε node για να δείτε λεπτομερειακά το καθε δεδομένο μαζί με ένα <span class="text-blackpink text-bold">overlay</span> που αντιπροσωπεύει τον συνολικό αριθμό των ερωτηθέντων της έρευνας.
 
     # export
     - key: export.export
-      t: Export
+      t: Εξαγωγή
     - key: export.title
-      t: Export data for ${title}
+      t: Εξαγωγή δεδομένων για ${title}
     - key: export.nocsv
-      t: Sorry, CSV export is not available for this dataset.
+      t: Λυπούμαστε, η εξαγωγή CSV δεν είναι διαθέσιμη για αυτό το σύνολο δεδομένων.
     - key: export.graphql
       t: >
-          You can copy paste this query into our <a target="_blank" rel="nofollow" href="http://graphiql.stateofjs.com/">public GraphQL API</a>.
+          Μπορείτε να υποβάλλεται ερώτημα σας στο δικό μας <a target="_blank" rel="nofollow" href="http://graphiql.stateofjs.com/">κοινό GraphQL API</a>.
 
     # Tools usage variations
     - key: blocks.tools_usage_variations.title
-      t: Usage Variations
+      t: Πολλαπλές χρήσης
     - key: blocks.tools_usage_variations.description
       t: |
         How different factors such as salary range, years of experience
