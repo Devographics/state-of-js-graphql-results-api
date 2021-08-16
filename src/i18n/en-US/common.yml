@@ -80,6 +80,14 @@ translations:
           Note: all questions are optional, reaching 100% completion is not required.
     - key: general.data_is_saved
       t: Your data is saved whenever you navigate to the previous or next section.
+    - key: general.close_nav
+      t: Close menu
+    - key: general.open_nav
+      t: Open menu
+    - key: general.more_actions
+      t: More actions
+    - key: general.skip_to_content
+      t: Skip to content
 
     # thanks
     - key: general.back
