@@ -464,11 +464,15 @@ translations:
     # Gender
 
     - key: options.gender.female
-      t: Female
+      t: Woman
     - key: options.gender.male
-      t: Male
+      t: Man
     - key: options.gender.non_binary
-      t: Non-Binary/Third Gender
+      t: Non-Binary
+    - key: options.gender.questioning
+      t: Questioning
+    - key: options.gender.not_listed
+      t: Not Listed 
     - key: options.gender.prefer_not_to_say
       t: Prefer not to say
 
@@ -606,7 +610,7 @@ translations:
     - key: user_info.job_title
       t: Job Title
     - key: user_info.job_title.description
-      t: How do you introduce yourself at parties?
+      t: How do you introduce yourself to others?
 
     # javascript proficiency
     - key: user_info.javascript_proficiency
@@ -631,11 +635,13 @@ translations:
     - key: user_info.gender
       t: Gender
     - key: user_info.gender.description
-      t: To which gender identity do you most identify?
+      t: What's your gender? The survey is anonymous, and we only use this information to highlight which demographics responded to the survey. 
 
     # skin tone/appearance
     - key: user_info.race_ethnicity
       t: Race & Ethnicity
+    - key: user_info.race_ethnicity.description
+      t: The survey is anonymous, and we only use this information to highlight which demographics responded to the survey.
 
     # other info
     - key: user_info.how_did_user_find_out_about_the_survey
