@@ -481,9 +481,9 @@ translations:
       t: Third Gender
     - key: options.gender.two_spirit
       t: Two-Spirit
-    - key: options.gender.two_spirit
+    - key: options.gender.genderqueer
       t: Genderqueer
-    - key: options.gender.two_spirit
+    - key: options.gender.genderfluid
       t: Genderfluid
     - key: options.gender.questioning
       t: Questioning
