@@ -495,11 +495,13 @@ translations:
     # Race & Ethnicity
 
     - key: options.race_ethnicity.white_european
-      t: White or of European descent
+      t: White
     - key: options.race_ethnicity.south_asian
       t: South Asian
+    - key: options.race_ethnicity.south_east_asian
+      t: South East Asian
     - key: options.race_ethnicity.hispanic_latin
-      t: Hispanic or Latino/Latina
+      t: Hispanic or Latino/Latina/Latinx
     - key: options.race_ethnicity.east_asian
       t: East Asian
     - key: options.race_ethnicity.middle_eastern
@@ -512,6 +514,10 @@ translations:
       t: Biracial
     - key: options.race_ethnicity.native_american_islander_australian
       t: Native American, Pacific Islander, or Indigenous Australian
+    - key: options.race_ethnicity.not_listed
+      t: Not listed
+    - key: options.race_ethnicity.prefer_not_to_say
+      t: Prefer not to say
 
     # Form Factors
     - key: options.form_factors.desktop
