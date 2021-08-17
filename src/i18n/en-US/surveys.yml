@@ -6,3 +6,5 @@ translations:
 
     - key: general.no_preview_surveys
       t: No surveys to preview
+    - key: general.global_nav
+      t: Global
