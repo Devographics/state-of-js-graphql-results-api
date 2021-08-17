@@ -477,6 +477,14 @@ translations:
       t: Man
     - key: options.gender.non_binary
       t: Non-Binary
+    - key: options.gender.third_gender
+      t: Third Gender
+    - key: options.gender.two_spirit
+      t: Two-Spirit
+    - key: options.gender.two_spirit
+      t: Genderqueer
+    - key: options.gender.two_spirit
+      t: Genderfluid
     - key: options.gender.questioning
       t: Questioning
     - key: options.gender.not_listed
@@ -643,7 +651,7 @@ translations:
     - key: user_info.gender
       t: Gender
     - key: user_info.gender.description
-      t: What's your gender? The survey is anonymous, and we only use this information to highlight which demographics responded to the survey. 
+      t: What's your gender? Select all that apply. The survey is anonymous, and we only use this information to highlight which demographics responded to the survey. 
 
     # skin tone/appearance
     - key: user_info.race_ethnicity
