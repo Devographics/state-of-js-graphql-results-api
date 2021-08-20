@@ -1,4 +1,4 @@
-type MDN @cacheControl(maxAge: 600) {
+type MDN {
     locale: String
     url: String
     title: String

@@ -171,7 +171,7 @@ enum FeatureID {
 """
 A feature experience datapoint
 """
-type FeatureExperienceBucket @cacheControl(maxAge: 600) {
+type FeatureExperienceBucket {
     id: FeatureExperienceID
     count: Int
     # difference with previous year
@@ -184,25 +184,25 @@ type FeatureExperienceBucket @cacheControl(maxAge: 600) {
 """
 Feature data for a specific year
 """
-type YearFeature @cacheControl(maxAge: 600) {
+type YearFeature {
     year: Int
     """
     Total number of respondents who have answered this specific question.
     """
     total: Int
     completion: Completion
-    buckets: [FeatureExperienceBucket] @cacheControl(maxAge: 600)
+    buckets: [FeatureExperienceBucket]
 }
 
-type FeatureExperience @cacheControl(maxAge: 600) {
-    all_years: [YearFeature] @cacheControl(maxAge: 600)
+type FeatureExperience {
+    all_years: [YearFeature]
     year(year: Int!): YearFeature
 }
 
 """
 A feature (e.g. arrow functions, websocket, etc.)
 """
-type Feature @cacheControl(maxAge: 600) {
+type Feature {
     id: FeatureID!
     name: String
     mdn: MDN

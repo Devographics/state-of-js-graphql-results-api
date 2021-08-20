@@ -116,7 +116,7 @@ for the parent year, and the percentage it corresponds to regarding
 the total number of respondents who have answered the question
 in this particular year.
 """
-type ToolExperienceBucket @cacheControl(maxAge: 600) {
+type ToolExperienceBucket {
     id: ExperienceID
     count: Int
     countDelta: Int
@@ -131,7 +131,7 @@ progression in this:
 
 awareness > usage > interest > satisfaction
 """
-type ToolAwarenessUsageInterestSatisfaction @cacheControl(maxAge: 600) {
+type ToolAwarenessUsageInterestSatisfaction {
     """
     Awareness is the total number of participants who answered to
     the experience question VS those who never heard of a tool.
@@ -162,23 +162,23 @@ type ToolAwarenessUsageInterestSatisfaction @cacheControl(maxAge: 600) {
     satisfaction: Float
 }
 
-type ToolYearExperience @cacheControl(maxAge: 600) {
+type ToolYearExperience {
     year: Int
     """
     Total number of respondents who have answered this specific question.
     """
     total: Int
     completion: Completion
-    buckets: [ToolExperienceBucket] @cacheControl(maxAge: 600)
+    buckets: [ToolExperienceBucket]
     awarenessUsageInterestSatisfaction: ToolAwarenessUsageInterestSatisfaction
 }
 
-type ToolExperience @cacheControl(maxAge: 600) {
+type ToolExperience {
     all_years: [ToolYearExperience]
     year(year: Int!): ToolYearExperience
 }
 
-type ToolExperienceGraphNode @cacheControl(maxAge: 600) {
+type ToolExperienceGraphNode {
     id: String
     year: Int
     experience: ExperienceID
@@ -190,7 +190,7 @@ for example number of user who were interested in React in 206
 and are willing to use it in 2017, connections are only established
 for consecutive years.
 """
-type ToolExperienceGraphLink @cacheControl(maxAge: 600) {
+type ToolExperienceGraphLink {
     source: String
     target: String
     count: Int
@@ -200,19 +200,19 @@ type ToolExperienceGraphLink @cacheControl(maxAge: 600) {
 A graph of users' experience over years, compared to just computing
 the overall choice count for each year, this keeps continuity for each user.
 """
-type ToolExperienceGraph @cacheControl(maxAge: 600) {
-    nodes: [ToolExperienceGraphNode] @cacheControl(maxAge: 600)
-    links: [ToolExperienceGraphLink] @cacheControl(maxAge: 600)
+type ToolExperienceGraph {
+    nodes: [ToolExperienceGraphNode]
+    links: [ToolExperienceGraphLink]
 }
 
-type Tool @cacheControl(maxAge: 600) {
+type Tool {
     id: ToolID!
     experience(filters: Filters): ToolExperience
     experienceGraph(filters: Filters): ToolExperienceGraph
     entity: Entity
 }
 
-type ToolExperienceRankingYearMetric @cacheControl(maxAge: 600) {
+type ToolExperienceRankingYearMetric {
     year: Int
     rank: Int
     percentage: Float
@@ -222,19 +222,19 @@ type ToolExperienceRankingYearMetric @cacheControl(maxAge: 600) {
 Used to represent the ranking of a tool compared to others
 for awareness/interest and stisfaction.
 """
-type ToolExperienceRanking @cacheControl(maxAge: 600) {
+type ToolExperienceRanking {
     id: ToolID
     entity: Entity
-    awareness: [ToolExperienceRankingYearMetric] @cacheControl(maxAge: 600)
-    usage: [ToolExperienceRankingYearMetric] @cacheControl(maxAge: 600)
-    interest: [ToolExperienceRankingYearMetric] @cacheControl(maxAge: 600)
-    satisfaction: [ToolExperienceRankingYearMetric] @cacheControl(maxAge: 600)
+    awareness: [ToolExperienceRankingYearMetric]
+    usage: [ToolExperienceRankingYearMetric]
+    interest: [ToolExperienceRankingYearMetric]
+    satisfaction: [ToolExperienceRankingYearMetric]
 }
 
 """
 Contains various rankings for a set of tools.
 """
-type ToolsRankings @cacheControl(maxAge: 600) {
-    ids: [ToolID]! @cacheControl(maxAge: 600)
-    experience(filters: Filters): [ToolExperienceRanking] @cacheControl(maxAge: 600)
+type ToolsRankings {
+    ids: [ToolID]!
+    experience(filters: Filters): [ToolExperienceRanking]
 }

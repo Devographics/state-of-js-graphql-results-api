@@ -18,25 +18,25 @@ enum OpinionID {
     enjoy_writing_css
 }
 
-type OpinionBucket @cacheControl(maxAge: 600) {
+type OpinionBucket {
     id: Int
     count: Int
     percentage: Float
 }
 
-type YearOpinion @cacheControl(maxAge: 600) {
+type YearOpinion {
     year: Int
     """
     Total number of respondents who have answered this specific question.
     """
     total: Int
     completion: Completion
-    buckets: [OpinionBucket] @cacheControl(maxAge: 600)
+    buckets: [OpinionBucket]
 }
 
-type Opinion @cacheControl(maxAge: 600) {
+type Opinion {
     id: OpinionID!
-    all_years: [YearOpinion] @cacheControl(maxAge: 600)
+    all_years: [YearOpinion]
     year(year: Int!): YearOpinion
 }
 
@@ -49,18 +49,18 @@ enum OtherOpinionsID {
     missing_from_js
 }
 
-type YearOtherOpinions @cacheControl(maxAge: 600) {
+type YearOtherOpinions {
     year: Int
     """
     Total number of respondents who have answered this specific question.
     """
     total: Int
     completion: Completion
-    buckets: [EntityBucket] @cacheControl(maxAge: 600)
+    buckets: [EntityBucket]
 }
 
-type OtherOpinions @cacheControl(maxAge: 600) {
+type OtherOpinions {
     id: OtherOpinionsID!
-    all_years: [YearOtherOpinions] @cacheControl(maxAge: 600)
+    all_years: [YearOtherOpinions]
     year(year: Int!): YearOtherOpinions
 }

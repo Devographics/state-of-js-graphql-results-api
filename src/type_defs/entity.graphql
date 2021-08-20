@@ -3,7 +3,7 @@ An entity is any object that can have associated metadata
 (such as a homepage, github repo, description).
 For example: a library, a podcast, a blog, a framework…
 """
-type Entity @cacheControl(maxAge: 600) {
+type Entity {
     id: String
     name: String
     homepage: String
@@ -20,7 +20,7 @@ type Entity @cacheControl(maxAge: 600) {
 """
 A datapoint associated with a given entity.
 """
-type EntityBucket @cacheControl(maxAge: 600) {
+type EntityBucket {
     id: String
     count: Int
     percentage: Float

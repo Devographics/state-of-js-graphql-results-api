@@ -21,13 +21,13 @@ enum HappinessID {
 """
 Happiness
 """
-type HappinessBucket @cacheControl(maxAge: 600) {
+type HappinessBucket {
     id: Int
     count: Int
     percentage: Float
 }
 
-type YearHappiness @cacheControl(maxAge: 600) {
+type YearHappiness {
     year: Int
     """
     Total number of respondents who have answered this specific question.
@@ -39,11 +39,11 @@ type YearHappiness @cacheControl(maxAge: 600) {
     """
     mean: Float
     completion: Completion
-    buckets: [HappinessBucket] @cacheControl(maxAge: 600)
+    buckets: [HappinessBucket]
 }
 
-type Happiness @cacheControl(maxAge: 600) {
+type Happiness {
     id: HappinessID!
-    all_years: [YearHappiness] @cacheControl(maxAge: 600)
+    all_years: [YearHappiness]
     year(year: Int!): YearHappiness
 }

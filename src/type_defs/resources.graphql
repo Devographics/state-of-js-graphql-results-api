@@ -7,18 +7,18 @@ enum ResourcesID {
     podcasts_others
 }
 
-type YearResources @cacheControl(maxAge: 600) {
+type YearResources {
     year: Int
     """
     Total number of respondents who have answered this specific question.
     """
     total: Int
     completion: Completion
-    buckets: [EntityBucket] @cacheControl(maxAge: 600)
+    buckets: [EntityBucket]
 }
 
-type Resources @cacheControl(maxAge: 600) {
+type Resources {
     id: ResourcesID!
-    all_years: [YearResources] @cacheControl(maxAge: 600)
+    all_years: [YearResources]
     year(year: Int!): YearResources
 }

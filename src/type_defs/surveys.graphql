@@ -27,7 +27,7 @@ enum SurveyType {
 """
 A survey
 """
-type Survey @cacheControl(maxAge: 600) {
+type Survey {
     """
     The survey's name
     """
@@ -43,7 +43,7 @@ type Survey @cacheControl(maxAge: 600) {
     """
     Experience results for a range of tools
     """
-    tools(ids: [ToolID]): [Tool] @cacheControl(maxAge: 600)
+    tools(ids: [ToolID]): [Tool]
     """
     Other tools (browsers, editors, etc.)
     """
@@ -59,7 +59,7 @@ type Survey @cacheControl(maxAge: 600) {
         year: Int!,
         ids: [ToolID]!,
         experienceId: ExperienceID!
-    ): [ToolsCardinalityByUser] @cacheControl(maxAge: 600)
+    ): [ToolsCardinalityByUser]
     """
     Usage results for a specific feature
     """
@@ -67,7 +67,7 @@ type Survey @cacheControl(maxAge: 600) {
     """
     Usage results for a range of features
     """
-    features(ids: [FeatureID]): [Feature] @cacheControl(maxAge: 600)
+    features(ids: [FeatureID]): [Feature]
     """
     Choice based features
     """

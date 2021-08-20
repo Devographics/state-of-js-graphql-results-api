@@ -16,25 +16,25 @@ enum CategoryID {
 """
 Happiness
 """
-type CategoryHappiness @cacheControl(maxAge: 600) {
+type CategoryHappiness {
     id: CategoryID!
-    all_years: [YearHappiness] @cacheControl(maxAge: 600)
+    all_years: [YearHappiness]
     year(year: Int!): YearHappiness
 }
 
 """
 Other Tools
 """
-type CategoryOtherTools @cacheControl(maxAge: 600) {
+type CategoryOtherTools {
     id: CategoryID!
-    all_years: [YearOtherTools] @cacheControl(maxAge: 600)
+    all_years: [YearOtherTools]
     year(year: Int!): YearOtherTools
 }
 
 """
 Category
 """
-type Category @cacheControl(maxAge: 600) {
+type Category {
     happiness(filters: Filters): CategoryHappiness
     tools_others(filters: Filters): CategoryOtherTools
 }

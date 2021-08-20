@@ -9,25 +9,25 @@ enum OtherFeaturesID {
     form_controls
 }
 
-type FeatureBucket @cacheControl(maxAge: 600) {
+type FeatureBucket {
     id: FeatureID
     name: String
     count: Int
     percentage: Float
 }
 
-type YearOtherFeatures @cacheControl(maxAge: 600) {
+type YearOtherFeatures {
     year: Int
     """
     Total number of respondents who have answered this specific question.
     """
     total: Int
     completion: Completion
-    buckets: [FeatureBucket] @cacheControl(maxAge: 600)
+    buckets: [FeatureBucket]
 }
 
-type OtherFeatures @cacheControl(maxAge: 600) {
+type OtherFeatures {
     id: OtherFeaturesID!
-    all_years: [YearOtherFeatures] @cacheControl(maxAge: 600)
+    all_years: [YearOtherFeatures]
     year(year: Int!): YearOtherFeatures
 }

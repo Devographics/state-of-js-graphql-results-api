@@ -25,19 +25,19 @@ enum OtherToolsID {
     runtimes_others
 }
 
-type YearOtherTools @cacheControl(maxAge: 600) {
+type YearOtherTools {
     year: Int
     """
     Total number of respondents who have answered this specific question.
     """
     total: Int
     completion: Completion
-    buckets: [EntityBucket] @cacheControl(maxAge: 600)
+    buckets: [EntityBucket]
 }
 
-type OtherTools @cacheControl(maxAge: 600) {
+type OtherTools {
     id: OtherToolsID!
-    # byYear: [YearResource] @cacheControl(maxAge: 600)
+    # byYear: [YearResource]
     year(year: Int!): YearOtherTools
     all_years: [YearOtherTools]
 }

@@ -27,14 +27,14 @@ enum Contexts {
     state_of_css_2021_survey
 }
 
-type TranslationString @cacheControl(maxAge: 600) {
+type TranslationString {
     key: String
     t: String
     context: String
     fallback: Boolean
 }
 
-type Locale @cacheControl(maxAge: 600) {
+type Locale {
     id: String
     label: String
     translators: [String]

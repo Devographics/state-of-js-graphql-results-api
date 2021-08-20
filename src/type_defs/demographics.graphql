@@ -1,12 +1,12 @@
 """
 Participation
 """
-type YearParticipation @cacheControl(maxAge: 600) {
+type YearParticipation {
     year: Int
     participants: Int
 }
 
-type Participation @cacheControl(maxAge: 600) {
+type Participation {
     all_years: [YearParticipation]
     year(year: Int!): YearParticipation
 }
@@ -14,20 +14,20 @@ type Participation @cacheControl(maxAge: 600) {
 """
 Country
 """
-type CountryBucket @cacheControl(maxAge: 600) {
+type CountryBucket {
     id: CountryID
     count: Int
     percentage: Float
 }
 
-type YearCountry @cacheControl(maxAge: 600) {
+type YearCountry {
     year: Int
     total: Int
     completion: Completion
-    buckets: [CountryBucket] @cacheControl(maxAge: 600)
+    buckets: [CountryBucket]
 }
 
-type Country @cacheControl(maxAge: 600) {
+type Country {
     all_years: [YearCountry]
     year(year: Int!): YearCountry
 }
@@ -35,20 +35,20 @@ type Country @cacheControl(maxAge: 600) {
 """
 Locale
 """
-type LocaleBucket @cacheControl(maxAge: 600) {
+type LocaleBucket {
     id: String
     count: Int
     percentage: Float
 }
 
-type YearLocale @cacheControl(maxAge: 600) {
+type YearLocale {
     year: Int
     total: Int
     completion: Completion
-    buckets: [LocaleBucket] @cacheControl(maxAge: 600)
+    buckets: [LocaleBucket]
 }
 
-type LocaleStats @cacheControl(maxAge: 600) {
+type LocaleStats {
     all_years: [YearLocale]
     year(year: Int!): YearLocale
 }
@@ -56,21 +56,21 @@ type LocaleStats @cacheControl(maxAge: 600) {
 """
 Source
 """
-type SourceBucket @cacheControl(maxAge: 600) {
+type SourceBucket {
     id: String
     count: Int
     percentage: Float
     entity: Entity
 }
 
-type YearSource @cacheControl(maxAge: 600) {
+type YearSource {
     year: Int
     total: Int
     completion: Completion
-    buckets: [SourceBucket] @cacheControl(maxAge: 600)
+    buckets: [SourceBucket]
 }
 
-type Source @cacheControl(maxAge: 600) {
+type Source {
     all_years: [YearSource]
     year(year: Int!): YearSource
 }
@@ -85,23 +85,23 @@ enum GenderID {
     non_binary
 }
 
-type GenderBucket @cacheControl(maxAge: 600) {
+type GenderBucket {
     id: GenderID
     count: Int
     percentage: Float
 }
 
-type YearGender @cacheControl(maxAge: 600) {
+type YearGender {
     year: Int
     """
     Total number of respondents who have answered this specific question.
     """
     total: Int
     completion: Completion
-    buckets: [GenderBucket] @cacheControl(maxAge: 600)
+    buckets: [GenderBucket]
 }
 
-type Gender @cacheControl(maxAge: 600) {
+type Gender {
     all_years: [YearGender]
     year(year: Int!): YearGender
 }
@@ -121,23 +121,23 @@ enum RaceEthnicityID {
     white_european
 }
 
-type RaceEthnicityBucket @cacheControl(maxAge: 600) {
+type RaceEthnicityBucket {
     id: RaceEthnicityID
     count: Int
     percentage: Float
 }
 
-type YearRaceEthnicity @cacheControl(maxAge: 600) {
+type YearRaceEthnicity {
     year: Int
     """
     Total number of respondents who have answered this specific question.
     """
     total: Int
     completion: Completion
-    buckets: [RaceEthnicityBucket] @cacheControl(maxAge: 600)
+    buckets: [RaceEthnicityBucket]
 }
 
-type RaceEthnicity @cacheControl(maxAge: 600) {
+type RaceEthnicity {
     all_years: [YearRaceEthnicity]
     year(year: Int!): YearRaceEthnicity
 }
@@ -155,23 +155,23 @@ enum SalaryRange {
     range_more_than_200
 }
 
-type SalaryBucket @cacheControl(maxAge: 600) {
+type SalaryBucket {
     id: SalaryRange
     count: Int
     percentage: Float
 }
 
-type YearSalary @cacheControl(maxAge: 600) {
+type YearSalary {
     year: Int
     """
     Total number of respondents who have answered this specific question.
     """
     total: Int
     completion: Completion
-    buckets: [SalaryBucket] @cacheControl(maxAge: 600)
+    buckets: [SalaryBucket]
 }
 
-type Salary @cacheControl(maxAge: 600) {
+type Salary {
     all_years: [YearSalary]
     year(year: Int!): YearSalary
 }
@@ -190,23 +190,23 @@ enum CompanySizeRange {
     range_more_than_1000
 }
 
-type CompanySizeBucket @cacheControl(maxAge: 600) {
+type CompanySizeBucket {
     id: CompanySizeRange
     count: Int
     percentage: Float
 }
 
-type YearCompanySize @cacheControl(maxAge: 600) {
+type YearCompanySize {
     year: Int
     """
     Total number of respondents who have answered this specific question.
     """
     total: Int
     completion: Completion
-    buckets: [CompanySizeBucket] @cacheControl(maxAge: 600)
+    buckets: [CompanySizeBucket]
 }
 
-type CompanySize @cacheControl(maxAge: 600) {
+type CompanySize {
     all_years: [YearCompanySize]
     year(year: Int!): YearCompanySize
 }
@@ -223,23 +223,23 @@ enum WorkExperienceRange {
     range_more_than_20
 }
 
-type WorkExperienceBucket @cacheControl(maxAge: 600) {
+type WorkExperienceBucket {
     id: WorkExperienceRange
     count: Int
     percentage: Float
 }
 
-type YearWorkExperience @cacheControl(maxAge: 600) {
+type YearWorkExperience {
     year: Int
     """
     Total number of respondents who have answered this specific question.
     """
     total: Int
     completion: Completion
-    buckets: [WorkExperienceBucket] @cacheControl(maxAge: 600)
+    buckets: [WorkExperienceBucket]
 }
 
-type WorkExperience @cacheControl(maxAge: 600) {
+type WorkExperience {
     all_years: [YearWorkExperience]
     year(year: Int!): YearWorkExperience
 }
@@ -258,20 +258,20 @@ enum JobTitleID {
     cto
 }
 
-type JobTitleBucket @cacheControl(maxAge: 600) {
+type JobTitleBucket {
     id: JobTitleID
     count: Int
     percentage: Float
 }
 
-type YearJobTitle @cacheControl(maxAge: 600) {
+type YearJobTitle {
     year: Int
     total: Int
     completion: Completion
-    buckets: [JobTitleBucket] @cacheControl(maxAge: 600)
+    buckets: [JobTitleBucket]
 }
 
-type JobTitle @cacheControl(maxAge: 600) {
+type JobTitle {
     all_years: [YearJobTitle]
     year(year: Int!): YearJobTitle
 }
@@ -294,20 +294,20 @@ enum IndustrySectorID {
     consulting
 }
 
-type IndustrySectorBucket @cacheControl(maxAge: 600) {
+type IndustrySectorBucket {
     id: IndustrySectorID
     count: Int
     percentage: Float
 }
 
-type YearIndustrySector @cacheControl(maxAge: 600) {
+type YearIndustrySector {
     year: Int
     total: Int
     completion: Completion
-    buckets: [IndustrySectorBucket] @cacheControl(maxAge: 600)
+    buckets: [IndustrySectorBucket]
 }
 
-type IndustrySector @cacheControl(maxAge: 600) {
+type IndustrySector {
     all_years: [YearIndustrySector]
     year(year: Int!): YearIndustrySector
 }
@@ -316,18 +316,18 @@ type IndustrySector @cacheControl(maxAge: 600) {
 Knowledge Score
 """
 
-type KnowledgeScoreBucket @cacheControl(maxAge: 600) {
+type KnowledgeScoreBucket {
     id: Int
     count: Int
     percentage: Float
 }
 
-type YearKnowledgeScore @cacheControl(maxAge: 600) {
+type YearKnowledgeScore {
     year: Int
-    buckets: [KnowledgeScoreBucket] @cacheControl(maxAge: 600)
+    buckets: [KnowledgeScoreBucket]
 }
 
-type KnowledgeScore @cacheControl(maxAge: 600) {
+type KnowledgeScore {
     all_years: [YearKnowledgeScore]
     year(year: Int!): YearKnowledgeScore
 }
@@ -340,53 +340,53 @@ Information about particpants:
 - company size
 - …
 """
-type Demographics @cacheControl(maxAge: 600) {
+type Demographics {
     """
     Country
     """
-    country(filters: Filters): Country @cacheControl(maxAge: 600)
+    country(filters: Filters): Country
     """
     Locale
     """
-    locale(filters: Filters): LocaleStats @cacheControl(maxAge: 600)
+    locale(filters: Filters): LocaleStats
     """
     How respondents found the survey
     """
-    source(filters: Filters): Source @cacheControl(maxAge: 600)
+    source(filters: Filters): Source
     """
     Participants count
     """
-    participation(filters: Filters): Participation @cacheControl(maxAge: 600)
+    participation(filters: Filters): Participation
     """
     Gender
     """
-    gender(filters: Filters): Gender @cacheControl(maxAge: 600)
+    gender(filters: Filters): Gender
     """
     Race & Ethnicity
     """
-    race_ethnicity(filters: Filters): RaceEthnicity @cacheControl(maxAge: 600)
+    race_ethnicity(filters: Filters): RaceEthnicity
     """
     Salary
     """
-    yearly_salary(filters: Filters): Salary @cacheControl(maxAge: 600)
+    yearly_salary(filters: Filters): Salary
     """
     Company size
     """
-    company_size(filters: Filters): CompanySize @cacheControl(maxAge: 600)
+    company_size(filters: Filters): CompanySize
     """
     Work experience as a developer
     """
-    years_of_experience(filters: Filters): WorkExperience @cacheControl(maxAge: 600)
+    years_of_experience(filters: Filters): WorkExperience
     """
     Job title
     """
-    job_title(filters: Filters): JobTitle @cacheControl(maxAge: 600)
+    job_title(filters: Filters): JobTitle
     """
     Industry Sector
     """
-    industry_sector(filters: Filters): IndustrySector @cacheControl(maxAge: 600)
+    industry_sector(filters: Filters): IndustrySector
     """
     Knowledge Score
     """
-    knowledge_score(filters: Filters): KnowledgeScore @cacheControl(maxAge: 600)
+    knowledge_score(filters: Filters): KnowledgeScore
 }

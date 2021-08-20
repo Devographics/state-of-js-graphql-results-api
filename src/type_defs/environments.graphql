@@ -9,45 +9,45 @@ enum EnvironmentID {
     css_for_email
 }
 
-type YearEnvironments @cacheControl(maxAge: 600) {
+type YearEnvironments {
     year: Int
     """
     Total number of respondents who have answered this specific question.
     """
     total: Int
     completion: Completion
-    buckets: [EntityBucket] @cacheControl(maxAge: 600)
+    buckets: [EntityBucket]
 }
 
 """
 An environment, based on multiple choices (e.g. browsers, form factors, etc.)
 """
-type Environments @cacheControl(maxAge: 600) {
+type Environments {
     id: EnvironmentID!
     year(year: Int!): YearEnvironments
     all_years: [YearEnvironments]
 }
 
-type EnvironmentRatingBucket @cacheControl(maxAge: 600) {
+type EnvironmentRatingBucket {
     id: Int
     count: Int
     percentage: Float
 }
 
-type YearEnvironmentsRatings @cacheControl(maxAge: 600) {
+type YearEnvironmentsRatings {
     year: Int
     """
     Total number of respondents who have answered this specific question.
     """
     total: Int
     completion: Completion
-    buckets: [EnvironmentRatingBucket] @cacheControl(maxAge: 600)
+    buckets: [EnvironmentRatingBucket]
 }
 
 """
 An environment-based rating (e.g. css for emails, css for print, etc.)
 """
-type EnvironmentsRatings @cacheControl(maxAge: 600) {
+type EnvironmentsRatings {
     id: EnvironmentID!
     year(year: Int!): YearEnvironmentsRatings
     all_years: [YearEnvironmentsRatings]

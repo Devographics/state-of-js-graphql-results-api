@@ -39,7 +39,7 @@ enum MatrixDimensionID {
     years_of_experience
 }
 
-type MatrixBucket @cacheControl(maxAge: 600) {
+type MatrixBucket {
     """
     Id of the bucket dimension range, e.g. `range_50_100`
     for `company_size`.
@@ -79,26 +79,26 @@ type MatrixBucket @cacheControl(maxAge: 600) {
     range_percentage_delta: Float
 }
 
-type ToolMatrix @cacheControl(maxAge: 600) {
+type ToolMatrix {
     id: ToolID
     entity: Entity
     count: Int
     total: Int
     percentage: Float
-    buckets: [MatrixBucket] @cacheControl(maxAge: 600)
+    buckets: [MatrixBucket]
 }
 
-type ToolsExperienceDimensionMatrix @cacheControl(maxAge: 600) {
+type ToolsExperienceDimensionMatrix {
     dimension: MatrixDimensionID
-    tools: [ToolMatrix] @cacheControl(maxAge: 600)
+    tools: [ToolMatrix]
 }
 
-type ToolsExperienceMatrices @cacheControl(maxAge: 600) {
+type ToolsExperienceMatrices {
     experience: ToolMatrixExperienceID
-    dimensions: [ToolsExperienceDimensionMatrix] @cacheControl(maxAge: 600)
+    dimensions: [ToolsExperienceDimensionMatrix]
 }
 
-type Matrices @cacheControl(maxAge: 600) {
+type Matrices {
     tools(
         year: Int!,
         ids: [ToolID]!,
