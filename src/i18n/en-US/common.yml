@@ -24,6 +24,11 @@ translations:
     - key: general.survey_read_only
       t: >
           You are currently viewing this survey in read-only mode.
+    - key: general.survey_preview
+      t: >
+          This survey is in preview mode. Its questions are subject to change, and all 
+          inputted data will be deleted when the actual survey starts. 
+
     - key: general.survey_read_only_back
       t: >
           <a href="{link}">Go back</a> to the main survey page to start or resume a session.
