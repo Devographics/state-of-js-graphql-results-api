@@ -477,14 +477,6 @@ translations:
       t: Man
     - key: options.gender.non_binary
       t: Non-Binary
-    - key: options.gender.third_gender
-      t: Third Gender
-    - key: options.gender.two_spirit
-      t: Two-Spirit
-    - key: options.gender.genderqueer
-      t: Genderqueer
-    - key: options.gender.genderfluid
-      t: Genderfluid
     - key: options.gender.questioning
       t: Questioning
     - key: options.gender.not_listed
@@ -653,17 +645,18 @@ translations:
       t: How proficient are you at back-end development?
 
     # gender
-    # see https://www.alchemer.com/resources/blog/how-to-write-survey-gender-questions/
     - key: user_info.gender
       t: Gender
     - key: user_info.gender.description
-      t: What's your gender? Select all that apply. The survey is anonymous, and we only use this information to highlight which demographics responded to the survey. 
+      t: >
+        We use this data to help track and improve the survey's representativeness. 
 
     # skin tone/appearance
     - key: user_info.race_ethnicity
       t: Race & Ethnicity
     - key: user_info.race_ethnicity.description
-      t: The survey is anonymous, and we only use this information to highlight which demographics responded to the survey.
+      t: >
+        We use this data to help track and improve the survey's representativeness. 
 
     # other info
     - key: user_info.how_did_user_find_out_about_the_survey

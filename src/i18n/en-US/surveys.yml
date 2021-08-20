@@ -8,3 +8,15 @@ translations:
       t: No surveys to preview
     - key: general.global_nav
       t: Global
+
+    ###########################################################################
+    # Demographics (About You/User Info)
+    ###########################################################################
+
+    - key: user_info.gender.question
+      t: >
+        Which of the following describe you, if any? Please check all that apply.
+
+    - key: user_info.race_ethnicity.question
+      t: >
+        Which of the following describe you, if any? Please check all that apply.
