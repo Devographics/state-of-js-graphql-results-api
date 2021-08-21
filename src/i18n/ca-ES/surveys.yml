@@ -1,8 +1,0 @@
-locale: ca-ES
-translations:
-    ###########################################################################
-    # General
-    ###########################################################################
-
-    - key: general.no_preview_surveys
-      t: No hi ha enquestes per previsualitzar

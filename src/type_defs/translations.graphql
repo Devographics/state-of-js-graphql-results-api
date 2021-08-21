@@ -38,6 +38,7 @@ type Locale {
     id: String
     label: String
     translators: [String]
+    repo: String
     strings: [TranslationString]
     translatedCount: Int
     totalCount: Int

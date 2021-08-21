@@ -3,6 +3,7 @@ export interface Locale {
     label: string
     stringFiles: any[]
     translators?: string[]
+    repo: string
 }
 
 export interface StringFile {

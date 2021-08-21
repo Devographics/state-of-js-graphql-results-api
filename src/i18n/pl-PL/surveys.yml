@@ -1,8 +1,0 @@
-locale: pl-PL
-translations:
-    ###########################################################################
-    # General
-    ###########################################################################
-
-    - key: general.no_preview_surveys
-      t: Brak ankiet do wyświetlenia

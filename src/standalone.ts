@@ -8,8 +8,8 @@ import {
 
 const run = async () => {
     const mongoClient = new MongoClient(process.env!.MONGO_URI!, {
-        useNewUrlParser: true,
-        useUnifiedTopology: true,
+        // useNewUrlParser: true,
+        // useUnifiedTopology: true,
         connectTimeoutMS: 1000
     })
     await mongoClient.connect()

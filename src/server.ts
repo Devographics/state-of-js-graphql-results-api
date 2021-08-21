@@ -34,8 +34,8 @@ const isDev = process.env.NODE_ENV === 'development'
 
 const start = async () => {
     const mongoClient = new MongoClient(process.env!.MONGO_URI!, {
-        useNewUrlParser: true,
-        useUnifiedTopology: true,
+        // useNewUrlParser: true,
+        // useUnifiedTopology: true,
         connectTimeoutMS: 10000
     })
     await mongoClient.connect()
@@ -45,14 +45,14 @@ const start = async () => {
         typeDefs,
         resolvers: resolvers as any,
         debug: isDev,
-        tracing: isDev,
-        cacheControl: true,
+        // tracing: isDev,
+        // cacheControl: true,
         introspection: true,
-        playground: false,
+        // playground: false,
         plugins: [responseCachePlugin()],
-        engine: {
-            debugPrintReports: true
-        },
+        // engine: {
+        //     debugPrintReports: true
+        // },
         context: (): RequestContext => ({
             db
         })
@@ -62,6 +62,8 @@ const start = async () => {
     // TracingHandler creates a trace for every incoming request
     // app.use(Sentry.Handlers.tracingHandler());
 
+    await server.start()
+    
     server.applyMiddleware({ app })
 
     app.get('/', function (req, res) {

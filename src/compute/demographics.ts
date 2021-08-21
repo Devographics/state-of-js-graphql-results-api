@@ -1,4 +1,4 @@
-import _ from 'lodash'
+import orderBy from 'lodash/orderBy'
 import { Db } from 'mongodb'
 import config from '../config'
 import { SurveyConfig, YearParticipation } from '../types'
@@ -33,9 +33,10 @@ export async function computeParticipationByYear(
                 }
             }
         ])
-        .toArray()
+        .toArray() as YearParticipation[]
 
-    return _.orderBy(participantsByYear, 'year')
+        console.log(participantsByYear)
+    return orderBy(participantsByYear, 'year')
 }
 
 export async function getParticipationByYearMap(
