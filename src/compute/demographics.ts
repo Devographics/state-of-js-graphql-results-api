@@ -35,7 +35,6 @@ export async function computeParticipationByYear(
         ])
         .toArray() as YearParticipation[]
 
-        console.log(participantsByYear)
     return orderBy(participantsByYear, 'year')
 }
 
