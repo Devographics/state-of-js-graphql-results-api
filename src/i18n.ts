@@ -1,11 +1,12 @@
 import { EnumTypeDefinitionNode } from 'graphql'
-import { Entity, StringFile, Locale, TranslationString } from './types'
+import { Entity, StringFile, Locale, TranslationStringObject } from './types'
 import entities from './data/entities/index'
 import typeDefs from './type_defs/schema.graphql'
 import { Octokit } from '@octokit/core'
 import fetch from 'node-fetch'
 import localesYAML from './data/locales.yml'
 import yaml from 'js-yaml'
+import marked from 'marked'
 
 let locales: Locale[] = []
 
@@ -143,10 +144,18 @@ export const getLocaleStrings = (locale: Locale, contexts?: string[]) => {
 
             // if strings need to be prefixed, do it now
             if (prefix) {
-                strings = strings.map((s: any) => ({ ...s, key: `${prefix}.${s.key}` }))
+                strings = strings.map((s: TranslationStringObject) => ({
+                    ...s,
+                    key: `${prefix}.${s.key}`
+                }))
             }
             // add context to all strings just in case
-            strings = strings.map((s: any) => ({ ...s, context }))
+            strings = strings.map((s: TranslationStringObject) => ({ ...s, context }))
+            // add HTML version in case string is markdown
+            strings = strings.map((s: TranslationStringObject) => ({
+                ...s,
+                tHtml: marked(String(s.t))
+            }))
             return strings
         })
         .flat()
@@ -160,7 +169,7 @@ Get locale strings with en-US strings as fallback
 
 */
 export const getLocaleStringsWithFallback = async (locale: Locale, contexts?: string[]) => {
-    let localeStrings: TranslationString[] = [],
+    let localeStrings: TranslationStringObject[] = [],
         translatedCount: number = 0,
         totalCount: number = 0,
         untranslatedKeys: string[] = []
@@ -172,7 +181,7 @@ export const getLocaleStringsWithFallback = async (locale: Locale, contexts?: st
         // handle en-US locale separetely first
         if (locale.id === 'en-US') {
             return {
-                strings: enStrings.map(t => ({ ...t, fallback: false })),
+                strings: enStrings.map((t: TranslationStringObject) => ({ ...t, fallback: false })),
                 translatedCount: enStrings.length,
                 totalCount: enStrings.length,
                 completion: 100,
@@ -182,7 +191,7 @@ export const getLocaleStringsWithFallback = async (locale: Locale, contexts?: st
 
         localeStrings = getLocaleStrings(locale, contexts).strings
 
-        enStrings.forEach((enTranslation: TranslationString) => {
+        enStrings.forEach((enTranslation: TranslationStringObject) => {
             totalCount++
             // note: exclude fallback strings that might have been added during
             // a previous iteration of the current loop

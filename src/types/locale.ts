@@ -1,20 +1,21 @@
 export interface Locale {
     id: string
     label: string
-    stringFiles: any[]
+    stringFiles: StringFile[]
     translators?: string[]
     repo: string
 }
 
 export interface StringFile {
-    strings: TranslationString[]
+    strings: TranslationStringObject[]
     context: string
     prefix?: string
 }
 
-export interface TranslationString {
+export interface TranslationStringObject {
     key: string
     t: string
+    tHtml: string
     context: string
     fallback: Boolean
 }

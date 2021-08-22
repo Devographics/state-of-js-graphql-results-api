@@ -30,6 +30,7 @@ enum Contexts {
 type TranslationString {
     key: String
     t: String
+    tHtml: String
     context: String
     fallback: Boolean
 }
