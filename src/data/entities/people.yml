@@ -98,9 +98,8 @@
   patterns:
     - shadeed
 
-
 - id: picalilli
-  name: Piccalilli
+  name: Andy Bell (Piccalilli)
   homepage: https://piccalil.li/
   tags:
     - css
@@ -214,3 +213,130 @@
     - courses
   patterns:
     - wes ?bos
+
+
+- id: chriscoyier
+  name: Chris Coyier
+  homepage: https://css-tricks.com
+  tags: 
+    - css
+
+- id: codepo8
+  name: Christian Heilmann
+  homepage: https://christianheilmann.com/
+  tags: 
+    - css
+
+- id: aardrian
+  name: Adrian Roselli
+  homepage: https://adrianroselli.com/
+  tags: 
+    - css
+
+- id: brucel
+  name: Bruce Lawson
+  homepage: https://brucelawson.co.uk/
+  tags: 
+    - css
+  
+- id: meyerweb
+  name: Eric Meyer
+  homepage: https://meyerweb.com/
+  tags: 
+    - css
+  
+- id: heydonworks
+  name: Heydon Pickering
+  homepage: https://heydonworks.com/
+  tags: 
+    - css
+  
+- id: jensimmons
+  name: Jen Simmons
+  homepage: https://jensimmons.com/
+  tags: 
+    - css
+  
+- id: ppk
+  name: Peter Paul Koch
+  homepage: https://www.quirksmode.org/
+  tags: 
+    - css
+  
+- id: una
+  name: Una Kravets
+  homepage: https://una.im/
+  tags: 
+    - css
+  
+- id: beep
+  name: Ethan Marcotte
+  homepage: https://ethanmarcotte.com/
+  tags: 
+    - css
+  
+- id: kittygiraudel
+  name: Kitty Giraudel
+  homepage: https://kittygiraudel.com/
+  tags: 
+    - css
+  
+- id: 5t3ph
+  name: Stephanie Eckles
+  homepage: https://moderncss.dev/
+  tags: 
+    - css
+  
+- id: hdv
+  name: Hidde De Vries
+  homepage: https://hiddedevries.nl/en/
+  tags: 
+    - css
+  
+- id: argyleink
+  name: Adam Argyle
+  homepage: https://nerdy.dev/
+  tags: 
+    - css
+  
+- id: anatudor
+  name: Ana Tudor
+  homepage: https://www.patreon.com/anatudor
+  tags: 
+    - css
+  
+- id: kilianvalkhof
+  name: Kilian Valkhof
+  homepage: https://kilianvalkhof.com/
+  tags: 
+    - css
+  
+- id: ericwbailey
+  name: Eric Bailey
+  homepage: https://ericwbailey.design/
+  tags: 
+    - css
+  
+- id: mxbck
+  name: Max Böck
+  homepage: https://mxb.dev/
+  tags: 
+    - css
+  
+- id: terriblemia
+  name: Miriam Suzanne
+  homepage: https://www.miriamsuzanne.com/
+  tags: 
+    - css
+  
+- id: bramus
+  name: Bramus Van Damme
+  homepage: https://www.bram.us/
+  tags: 
+    - css
+
+- id: adamwathan
+  name: Adam Wathan
+  homepage: https://adamwathan.me/
+  tags: 
+    - css

@@ -8,7 +8,7 @@ import {
 } from './compute'
 import { Filters } from './filters'
 
-export const getEntities = ({ type, tag }: { type: string; tag: string }) => {
+export const getEntities = ({ type, tag, tags }: { type: string; tag: string, tags: string[] }) => {
     let entities = allEntities
     if (type) {
         entities = entities.filter(e => e.type === type)
@@ -16,10 +16,13 @@ export const getEntities = ({ type, tag }: { type: string; tag: string }) => {
     if (tag) {
         entities = entities.filter(e => e.tags && e.tags.includes(tag))
     }
+    if (tags) {
+        entities = entities.filter(e => tags.every(t => e.tags && e.tags.includes(t)))
+    }
     return entities
 }
 
-// Look up entities by id, name, or aliases (case-insensitive)
+// Look up entities by id, na       me, or aliases (case-insensitive)
 export const getEntity = ({ id }: { id: string }) => {
     if (!id || typeof id !== 'string') {
         return

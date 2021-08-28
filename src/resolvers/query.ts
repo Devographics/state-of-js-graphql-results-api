@@ -14,8 +14,8 @@ export default {
         }),
         entities: (
             parent: any,
-            { type, tag }: { type: string; tag: string }
-        ) => getEntities({ type, tag }),
+            { type, tag, tags }: { type: string; tag: string, tags: string[] }
+        ) => getEntities({ type, tag, tags }),
         translation: (parent: any, { key, localeId }: { key: string; localeId: string }) =>
             getTranslation(key, localeId),
         locale: (parent: any, { localeId, contexts, enableFallbacks }: { localeId: string; contexts: string[], enableFallbacks?: boolean }) =>
