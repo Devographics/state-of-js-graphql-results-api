@@ -21,7 +21,7 @@ type Query {
     """
     Get all entities (tools, libraries, frameworks, features, etc.)
     """
-    entities(type: String, context: String, tag: String): [Entity]
+    entities(type: String, context: String, tag: String, tags: [String]): [Entity]
     """
     Translate a string
     """
