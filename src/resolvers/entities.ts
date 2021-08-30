@@ -1,6 +1,7 @@
-import { GitHub, SurveyConfig, Entity } from '../types'
+import { GitHub, SurveyConfig, Entity, RequestContext } from '../types'
 import projects from '../data/bestofjs.yml'
-import { fetchMdnResource } from '../external_apis'
+import { fetchMdnResource, fetchTwitterResource } from '../external_apis'
+import { useCache } from '../caching'
 
 const getSimulatedGithub = (id: string): GitHub | null => {
     const project = projects.find((p: Entity) => p.id === id)
@@ -49,6 +50,12 @@ export default {
             } else {
                 return
             }
+        },
+        twitter: async (entity: Entity, args: any, { db }: RequestContext) => {
+            const twitter = useCache(fetchTwitterResource, db, [entity.twitterName || entity.id])
+
+            // const twitter = await fetchTwitterResource(entity.id)
+            return twitter
         }
     }
 }

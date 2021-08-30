@@ -6,6 +6,8 @@ For example: a library, a podcast, a blog, a framework…
 type Entity {
     id: String
     name: String
+    otherName: String
+    twitterName: String
     homepage: String
     category: String
     github: GitHub
@@ -15,6 +17,7 @@ type Entity {
     type: String
     tags: [String]
     patterns: [String]
+    twitter: Twitter
 }
 
 """

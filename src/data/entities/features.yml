@@ -92,6 +92,30 @@
       - css
       - css_layout
 
+- id: flexbox_gap
+  name: Flexbox Gap
+  mdn: /en-US/docs/Web/CSS/gap
+  caniuse: flexbox-gap
+  tags:
+      - css
+      - css_layout
+
+- id: break_rules
+  name: Break Rules
+  mdn: /en-US/docs/Web/CSS/break-before
+  caniuse: mdn-css_properties_break-before_paged_context
+  tags:
+      - css
+      - css_layout
+
+- id: at_container
+  name: 'CSS property: @container'
+  mdn: /en-US/docs/Web/CSS/CSS_Container_Queries
+  caniuse: css-container-queries
+  tags:
+      - css
+      - css_layout
+
 #################################################
 # CSS shapes & graphics
 #################################################
@@ -147,6 +171,38 @@
   name: backdrop-filter
   mdn: /en-US/docs/Web/CSS/backdrop-filter
   caniuse: css-backdrop-filter
+  tags:
+      - css
+      - css_shapes_and_graphics
+
+- id: intrinsic_sizing
+  name: Intrinsic Sizing
+  mdn: /en-US/docs/Web/CSS/min-content
+  caniuse: intrinsic-width
+  tags:
+      - css
+      - css_shapes_and_graphics
+
+- id: repeating_linear_gradient
+  name: repeating-linear-gradient()
+  mdn: /en-US/docs/Web/CSS/gradient/repeating-linear-gradient()
+  caniuse: mdn-css_types_image_gradient_repeating-linear-gradient
+  tags:
+      - css
+      - css_shapes_and_graphics
+
+- id: conic_gradient
+  name: conic-gradient()
+  mdn: /en-US/docs/Web/CSS/gradient/conic-gradient()
+  caniuse: mdn-css_types_image_gradient_conic-gradient
+  tags:
+      - css
+      - css_shapes_and_graphics
+
+- id: color_function
+  name: color()
+  mdn: /en-US/docs/Web/CSS/color_value/color()
+  caniuse: css-color-function
   tags:
       - css
       - css_shapes_and_graphics
@@ -275,6 +331,14 @@
       - css
       - css_typography
 
+- id: text_decoration_style
+  name: text-decoration-style
+  mdn: /en-US/docs/Web/CSS/text-decoration-style
+  caniuse: text-decoration
+  tags:
+      - css
+      - css_typography
+
 #################################################
 # CSS animations & transforms
 #################################################
@@ -337,6 +401,14 @@
       - css
       - css_media_queries
 
+- id: prefers_reduced_data
+  name: prefers-reduced-data
+  mdn: /en-US/docs/Web/CSS/@media/prefers-reduced-data
+  caniuse: mdn-css_at-rules_media_prefers-reduced-data
+  tags:
+      - css
+      - css_media_queries
+
 #################################################
 # CSS other features
 #################################################
@@ -390,6 +462,38 @@
 - id: comparison_functions
   name: CSS Comparison Functions
   caniuse: css-math-functions
+  tags:
+      - css
+      - css_other
+
+- id: scroll_margin_scroll_padding
+  name: scroll-padding
+  mdn: /en-US/docs/Web/CSS/scroll-padding
+  caniuse: mdn-css_properties_scroll-padding
+  tags:
+      - css
+      - css_other
+
+- id: at_property
+  name: '@property'
+  mdn: /en-US/docs/Web/CSS/@property
+  caniuse: mdn-css_at-rules_property
+  tags:
+      - css
+      - css_other
+
+- id: resize
+  name: resize
+  mdn: /en-US/docs/Web/CSS/resize
+  caniuse: css-resize
+  tags:
+      - css
+      - css_other
+
+- id: content_visibility
+  name: content-visibility
+  mdn: /en-US/docs/Web/CSS/content-visibility
+  caniuse: css-content-visibility
   tags:
       - css
       - css_other

@@ -5,6 +5,8 @@ export interface Entity {
     id: string
     aliases?: string[]
     name: string
+    otherName: string
+    twitterName: string
     homepage?: string
     category?: string
     description?: string

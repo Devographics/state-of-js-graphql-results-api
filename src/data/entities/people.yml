@@ -11,21 +11,16 @@
     - tyler ?mc( |-)?ginnis
 
 
-- id: quirksmode
-  name: Quirksmode
-  homepage: https://www.quirksmode.org/
-  tags:
-    - css
-    - blogs
-
 - id: sarah_drasner
+  twitterName: sarah_edo
   name: Sarah Drasner
   homepage: https://sarahdrasnerdesign.com/
   tags:
-    - css
+    - javascript
     - blogs
 
 - id: heydon_pickering
+  twitterName: heydonworks
   name: Heydon Pickering
   homepage: https://heydonworks.com/
   tags:
@@ -34,7 +29,8 @@
   patterns:
     - heydon
 
-- id: kentcdodds
+- id: kent_c_dodds
+  twitterName: kentcdodds
   name: Kent C. Dodds
   homepage: https://kentcdodds.com/blog/
   tags:
@@ -44,14 +40,17 @@
   patterns:
     - kent( )?c(.)?( )?dodds
 
-- id: overreacted
-  name: Overreacted
+- id: dan_abramov
+  twitterName: overreacted
+  name: Dan Abramov
+  otherName: Overreacted
   homepage: https://overreacted.io/
   tags:
     - js
     - react
     - blogs
   patterns:
+    - overreacted
     - overeacted
     - abramov
 
@@ -64,7 +63,7 @@
   patterns: 
     - wieruch
 
-- id: ponyfoo
+- id: pony_foo
   name: Pony Foo
   homepage: https://ponyfoo.com/
   tags:
@@ -74,13 +73,14 @@
     - pony ?foo
 
 - id: david_walsh
-  name: David Walsh Blog
+  name: David Walsh
   homepage: https://davidwalsh.name/
   tags:
     - js
     - blogs
 
-- id: flaviocopes
+- id: flavio_copes
+  twitterName: flaviocopes
   name: Flavio Copes
   homepage: https://flaviocopes.com/
   tags:
@@ -89,7 +89,8 @@
   patterns:
     - flavio( )?copes
 
-- id: ishadeed
+- id: ahmad_shadeed
+  twitterName: ishadeed
   name: Ahmad Shadeed
   homepage: https://ishadeed.com/
   tags:
@@ -98,8 +99,10 @@
   patterns:
     - shadeed
 
-- id: picalilli
-  name: Andy Bell (Piccalilli)
+- id: andy_bell
+  twitterName: picalilli
+  name: Andy Bell
+  otherName: Piccalilli
   homepage: https://piccalil.li/
   tags:
     - css
@@ -108,7 +111,8 @@
     - picc?alil\.?l?(i|y)
     - andy()?bell
 
-- id: chenhuijing
+- id: chen_hui_jing
+  twitterName: chenhuijing
   name: Chen Hui Jing
   homepage: https://chenhuijing.com/
   tags: 
@@ -117,7 +121,8 @@
   patterns:
     - chen ?hui ?jing
 
-- id: adactio
+- id: jeremy_keith
+  twitterName: adactio
   name: Jeremy Keith
   homepage: https://adactio.com/
   tags:
@@ -127,6 +132,7 @@
     - jeremy ?keith
 
 - id: lea_verou
+  twitterName: leaverou
   name: Lea Verou
   homepage: https://lea.verou.me/
   tags:
@@ -134,6 +140,7 @@
     - blogs
 
 - id: sara_soueidan
+  twitterName: sarasoueidan
   name: Sara Soueidan
   homepage: https://www.sarasoueidan.com/
   tags:
@@ -141,6 +148,7 @@
     - blogs
 
 - id: josh_comeau
+  twitterName: joshcomeau
   name: Josh Comeau
   homepage: https://joshwcomeau.com/
   tags:
@@ -151,14 +159,9 @@
     - josh ?w? ?comeau
 
 - id: rachel_andrew
+  twitterName: rachelandrew
   name: Rachel Andrew
   homepage: https://rachelandrew.co.uk/
-  tags:
-    - css
-
-- id: una_kravets
-  name: Una Kravets
-  homepage: https://una.im/
   tags:
     - css
 
@@ -168,14 +171,19 @@
   tags:
     - css
 
-- id: kevin_powell
+- id: kevin_j_powell
+  twitterName: kevinjpowell
   name: Kevin Powell
   homepage: https://www.kevinpowell.co/
   tags:
     - css
+  patterns:
+    - kevin powell
 
-- id: css_wizardry
-  name: CSS Wizardry
+- id: harry_roberts
+  twitterName: csswizardry
+  name: Harry Roberts
+  otherName: CSS Wizardry
   homepage: https://css_wizardry.com
   tags:
     - css
@@ -183,6 +191,7 @@
     - harry ?roberts
     
 - id: stephanie_walter
+  twitterName: walterstephanie
   name: Stéphanie Walter
   homepage: https://stephaniewalter.design/
   tags:
@@ -192,7 +201,7 @@
   name: Tania Rascia
   homepage: https://www.taniarascia.com/
   tags:
-    - css
+    - javascript
 
 - id: brad_frost
   name: Brad Frost
@@ -201,6 +210,7 @@
     - css
 
 - id: dave_rupert
+  twitterName: davatron5000
   name: Dave Rupert
   homepage: https://daverupert.com/
   tags:
@@ -215,127 +225,135 @@
     - wes ?bos
 
 
-- id: chriscoyier
+- id: chris_coyier
   name: Chris Coyier
+  otherName: CSS Tricks
   homepage: https://css-tricks.com
   tags: 
     - css
 
-- id: codepo8
+- id: christian_heilmann
+  twitterName: codepo8
   name: Christian Heilmann
   homepage: https://christianheilmann.com/
   tags: 
     - css
 
-- id: aardrian
+- id: adrian_roselli
+  twitterName: aardrian
   name: Adrian Roselli
   homepage: https://adrianroselli.com/
   tags: 
     - css
 
-- id: brucel
+- id: bruce_lawson
+  twitterName: brucel
   name: Bruce Lawson
   homepage: https://brucelawson.co.uk/
   tags: 
     - css
   
-- id: meyerweb
+- id: eric_meyer
+  twitterName: meyerweb
   name: Eric Meyer
   homepage: https://meyerweb.com/
   tags: 
     - css
   
-- id: heydonworks
-  name: Heydon Pickering
-  homepage: https://heydonworks.com/
-  tags: 
-    - css
-  
-- id: jensimmons
-  name: Jen Simmons
-  homepage: https://jensimmons.com/
-  tags: 
-    - css
-  
-- id: ppk
+- id: peter_paul_koch
+  twitterName: ppk
   name: Peter Paul Koch
   homepage: https://www.quirksmode.org/
   tags: 
     - css
+    - blogs
   
-- id: una
+- id: una_kravets
+  twitterName: una
   name: Una Kravets
   homepage: https://una.im/
   tags: 
     - css
   
-- id: beep
+- id: ethan_marcotte
+  twitterName: beep
   name: Ethan Marcotte
   homepage: https://ethanmarcotte.com/
   tags: 
     - css
   
-- id: kittygiraudel
+- id: kitty_giraudel
+  twitterName: kittygiraudel
   name: Kitty Giraudel
   homepage: https://kittygiraudel.com/
   tags: 
     - css
   
-- id: 5t3ph
+- id: stephanie_eckles
+  twitterName: 5t3ph
   name: Stephanie Eckles
   homepage: https://moderncss.dev/
   tags: 
     - css
   
-- id: hdv
+- id: hidde_de_vries
+  twitterName: hdv
   name: Hidde De Vries
   homepage: https://hiddedevries.nl/en/
   tags: 
     - css
   
-- id: argyleink
+- id: adam_argyle
+  twitterName: argyleink
   name: Adam Argyle
   homepage: https://nerdy.dev/
   tags: 
     - css
   
-- id: anatudor
+- id: ana_tudor
+  twitterName: anatudor
   name: Ana Tudor
   homepage: https://www.patreon.com/anatudor
   tags: 
     - css
   
-- id: kilianvalkhof
+- id: kilian_valkhof
+  twitterName: kilianvalkhof
   name: Kilian Valkhof
   homepage: https://kilianvalkhof.com/
   tags: 
     - css
   
-- id: ericwbailey
+- id: eric_w_bailey
+  twitterName: ericwbailey
   name: Eric Bailey
   homepage: https://ericwbailey.design/
   tags: 
     - css
   
-- id: mxbck
+- id: max_bock
+  twitterName: mxbck
   name: Max Böck
   homepage: https://mxb.dev/
   tags: 
     - css
   
-- id: terriblemia
+- id: miriam_suzanne
+  twitterName: terriblemia
   name: Miriam Suzanne
   homepage: https://www.miriamsuzanne.com/
   tags: 
     - css
   
-- id: bramus
+- id: bramus_van_damme
+  twitterName: bramus
   name: Bramus Van Damme
   homepage: https://www.bram.us/
   tags: 
     - css
 
-- id: adamwathan
+- id: adam_wathan
+  twitterName: adamwathan
   name: Adam Wathan
   homepage: https://adamwathan.me/
   tags: 
