@@ -7,6 +7,8 @@ import typeDefs from './type_defs/schema.graphql'
 import { RequestContext } from './types'
 import resolvers from './resolvers'
 import express from 'express'
+import { initLocales } from './i18n'
+
 const Sentry = require('@sentry/node')
 const Tracing = require('@sentry/tracing')
 
@@ -77,6 +79,8 @@ const start = async () => {
     app.use(Sentry.Handlers.errorHandler());
 
     const port = process.env.PORT || 4000
+
+    await initLocales()
 
     app.listen({ port: port }, () =>
         console.log(`🚀 Server ready at http://localhost:${port}${server.graphqlPath}`)

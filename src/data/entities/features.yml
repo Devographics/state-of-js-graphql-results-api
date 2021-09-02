@@ -207,9 +207,17 @@
       - css
       - css_shapes_and_graphics
 
+- id: color_contrast
+  name: color-contrast()
+  mdn: /en-US/docs/Web/CSS/color_value/color-contrast()
+  tags:
+      - css
+      - css_shapes_and_graphics
+
 #################################################
 # CSS interactions
 #################################################
+
 - id: scroll_snap
   name: Scroll Snap
   mdn: /en-US/docs/Web/CSS/CSS_Scroll_Snap

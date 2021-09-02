@@ -7,6 +7,8 @@ import fetch from 'node-fetch'
 import localesYAML from './data/locales.yml'
 import yaml from 'js-yaml'
 import marked from 'marked'
+import { logToFile } from './debug'
+import { readdir, readFile } from 'fs/promises'
 
 let locales: Locale[] = []
 
@@ -15,18 +17,19 @@ const octokit = new Octokit({ auth: process.env.GITHUB_TOKEN })
 // load locales if not yet loaded
 export const loadOrGetLocales = async () => {
     if (locales.length === 0) {
-        locales = await loadGitHubLocales()
+        locales = await loadLocales()
     }
     return locales
 }
 
-// load locales contents through GitHub API
-export const loadGitHubLocales = async () => {
-    const locales: Locale[] = []
-    // only keep locales which have a repo defined
-    const localesWithRepos = localesYAML.filter((locale: Locale) => !!locale.repo)
+export const loadFromGitHub = async (localesWithRepos: any) => {
+    let locales: Locale[] = []
+    let i = 0
 
     for (const locale of localesWithRepos) {
+        i++
+        console.log(`-> loading repo ${locale.repo} (${i}/${localesWithRepos.length})`)
+
         locale.stringFiles = []
 
         const [owner, repo] = locale.repo.split('/')
@@ -35,10 +38,10 @@ export const loadGitHubLocales = async () => {
             repo,
             path: ''
         }
-        // get repo contents
-        const contents = await octokit.request('GET /repos/{owner}/{repo}/contents/{path}', options)
 
+        const contents = await octokit.request('GET /repos/{owner}/{repo}/contents/{path}', options)
         const files = contents.data as any[]
+
         // loop over repo contents and fetch raw yaml files
         for (const file of files) {
             const response = await fetch(file.download_url)
@@ -48,11 +51,61 @@ export const loadGitHubLocales = async () => {
             const context = file.name.replace('./', '').replace('.yml', '')
             locale.stringFiles.push({
                 strings,
+                url: file.download_url,
                 context
             })
         }
         locales.push(locale)
     }
+    return locales
+}
+// when developing locally, load from local files
+export const loadLocally = async (localesWithRepos: any) => {
+    let i = 0
+
+    for (const locale of localesWithRepos) {
+        i++
+        console.log(`-> loading directory ${locale.repo} locally (${i}/${localesWithRepos.length})`)
+
+        locale.stringFiles = []
+
+        const [owner, repo] = locale.repo.split('/')
+
+        // __dirname = /Users/sacha/Dev/state-of-js-graphql-results-api/dist
+        const devDir = __dirname.split('/').slice(1, -2).join('/')
+        const path = `/${devDir}/stateof-locales/${repo}`
+        const files = await readdir(path)
+        const yamlFiles = files.filter((f: String) => f.includes('.yml'))
+
+        // loop over repo contents and fetch raw yaml files
+        for (const fileName of yamlFiles) {
+            const filePath = path + '/' + fileName
+            const contents = await readFile(filePath, 'utf8')
+            const yamlContents: any = yaml.load(contents)
+            const strings = yamlContents.translations
+            const context = fileName.replace('./', '').replace('.yml', '')
+            locale.stringFiles.push({
+                strings,
+                url: filePath,
+                context
+            })
+        }
+        locales.push(locale)
+    }
+    return locales
+}
+
+// load locales contents through GitHub API or locally
+export const loadLocales = async () => {
+    console.log('// loading locales…')
+    // only keep locales which have a repo defined
+    const localesWithRepos = localesYAML.filter((locale: Locale) => !!locale.repo)
+
+    const locales: Locale[] =
+        process.env.NODE_ENV === 'development'
+            ? await loadLocally(localesWithRepos)
+            : await loadFromGitHub(localesWithRepos)
+    console.log('// done loading locales')
 
     return locales
 }
@@ -258,8 +311,13 @@ Get all locales
 
 */
 export const getLocales = async (contexts?: string[], enableFallbacks?: boolean) => {
-    const locales = await loadOrGetLocales()
-    return locales.map((locale: Locale) => getLocaleObject(locale.id, contexts, enableFallbacks))
+    const rawLocales = await loadOrGetLocales()
+    const locales = []
+    for (const locale of rawLocales) {
+        const localeObject = await getLocaleObject(locale.id, contexts, enableFallbacks)
+        locales.push(localeObject)
+    }
+    return locales
 }
 
 /*
@@ -272,4 +330,12 @@ Reverse array first so that strings added last take priority
 export const getTranslation = async (key: string, localeId: string) => {
     const locale = await getLocaleObject(localeId)
     return locale.strings.reverse().find((s: any) => s.key === key)
+}
+
+export const initLocales = async () => {
+    console.log('// initializing locales…')
+    const rawLocales = await loadOrGetLocales()
+    logToFile('raw_locales.json', rawLocales, { mode: 'overwrite' })
+    const parsedLocales = await getLocales()
+    logToFile('parsed_locales.json', parsedLocales, { mode: 'overwrite' })
 }
