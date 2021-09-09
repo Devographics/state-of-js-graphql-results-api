@@ -18,6 +18,8 @@ type Entity {
     tags: [String]
     patterns: [String]
     twitter: Twitter
+
+    related: [Entity]
 }
 
 """

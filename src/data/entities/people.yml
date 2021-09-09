@@ -293,6 +293,8 @@
   twitterName: 5t3ph
   name: Stephanie Eckles
   homepage: https://moderncss.dev/
+  related: 
+    - moderncss
   tags: 
     - css
   
@@ -358,3 +360,20 @@
   homepage: https://adamwathan.me/
   tags: 
     - css
+
+- id: philip_walton
+  twitterName: philwalton
+  name: Philip Walton
+  homepage: https://philipwalton.com/
+  tags: 
+    - js
+
+- id: michelle_barker
+  twitterName: MicheBarks
+  name: Michelle Barker
+  homepage: https://css-irl.info/
+  rss: https://css-irl.info/rss.xml
+  tags: 
+    - css
+  related: 
+    - css_irl

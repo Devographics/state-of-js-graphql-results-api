@@ -119,6 +119,7 @@
 #################################################
 # CSS shapes & graphics
 #################################################
+
 - id: shapes
   name: Shapes
   mdn: /en-US/docs/Web/CSS/CSS_Shapes
@@ -207,6 +208,14 @@
       - css
       - css_shapes_and_graphics
 
+- id: accent_color
+  name: accent-color
+  mdn: /en-US/docs/Web/CSS/accent-color
+  caniuse: mdn-css_properties_accent-color
+  tags:
+      - css
+      - css_shapes_and_graphics
+
 - id: color_contrast
   name: color-contrast()
   mdn: /en-US/docs/Web/CSS/color_value/color-contrast()
@@ -254,6 +263,13 @@
   name: pointer-events
   mdn: /en-US/docs/Web/CSS/pointer-events
   caniuse: pointer-events
+  tags:
+      - css
+      - css_interactions
+
+- id: scroll_timeline
+  name: scroll-timeline
+  caniuse: css-scroll-timeline
   tags:
       - css
       - css_interactions
@@ -383,7 +399,7 @@
       - css_animations_and_transforms
 
 #################################################
-# CSS media queries
+# CSS media queries/Accessibility
 #################################################
 - id: prefers_reduced_motion
   name: prefers-reduced-motion
@@ -392,6 +408,7 @@
   tags:
       - css
       - css_media_queries
+      - accessibility
 
 - id: prefers_color_scheme
   name: prefers-color-scheme
@@ -400,6 +417,7 @@
   tags:
       - css
       - css_media_queries
+      - accessibility
 
 - id: color_gamut
   name: color-gamut
@@ -407,7 +425,7 @@
   caniuse: mdn-css_at-rules_media_color-gamut
   tags:
       - css
-      - css_media_queries
+      - accessibility
 
 - id: prefers_reduced_data
   name: prefers-reduced-data
@@ -416,6 +434,22 @@
   tags:
       - css
       - css_media_queries
+      - accessibility
+
+- id: color_scheme
+  name: color-scheme
+  mdn: /en-US/docs/Web/CSS/color-scheme
+  caniuse: mdn-css_properties_color-scheme
+  tags: 
+    - css
+    - accessibility
+
+- id: aria_attributes
+  name: ARIA attributes
+  mdn: /en-US/docs/Web/Accessibility/ARIA
+  tags: 
+    - css
+    - accessibility
 
 #################################################
 # CSS other features

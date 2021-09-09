@@ -424,6 +424,13 @@
   tags:
     - css_in_js
 
+- id: vanilla_extract
+  name: vanilla-extract
+  homepage: https://vanilla-extract.style/
+  github: seek-oss/vanilla-extract
+  tags:
+    - css_in_js
+
 - id: aphrodite
   name: Aphrodite
   homepage: https://github.com/Khan/aphrodite

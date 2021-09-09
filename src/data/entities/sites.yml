@@ -269,3 +269,13 @@
 - id: indie_hackers
   name: Indie Hackers
   homepage: https://www.indiehackers.com/
+
+- id: css_irl
+  name: CSS IRL
+  homepage: https://css-irl.info/
+  rss: https://css-irl.info/rss.xml
+
+- id: moderncss
+  name: ModernCSS
+  homepage: http://moderncss.dev/
+  rss: https://moderncss.dev/feed/
