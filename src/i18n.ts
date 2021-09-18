@@ -9,6 +9,7 @@ import yaml from 'js-yaml'
 import marked from 'marked'
 import { logToFile } from './debug'
 import { readdir, readFile } from 'fs/promises'
+import last from 'lodash/last'
 
 let locales: Locale[] = []
 
@@ -44,16 +45,19 @@ export const loadFromGitHub = async (localesWithRepos: any) => {
 
         // loop over repo contents and fetch raw yaml files
         for (const file of files) {
-            const response = await fetch(file.download_url)
-            const contents = await response.text()
-            const yamlContents: any = yaml.load(contents)
-            const strings = yamlContents.translations
-            const context = file.name.replace('./', '').replace('.yml', '')
-            locale.stringFiles.push({
-                strings,
-                url: file.download_url,
-                context
-            })
+            const extension: string = last(file?.name.split('.')) || ''
+            if (['yml', 'yaml'].includes(extension)) {
+                const response = await fetch(file.download_url)
+                const contents = await response.text()
+                const yamlContents: any = yaml.load(contents)
+                const strings = yamlContents.translations
+                const context = file.name.replace('./', '').replace('.yml', '')
+                locale.stringFiles.push({
+                    strings,
+                    url: file.download_url,
+                    context
+                })
+            }
         }
         locales.push(locale)
     }
@@ -102,7 +106,7 @@ export const loadLocales = async () => {
     const localesWithRepos = localesYAML.filter((locale: Locale) => !!locale.repo)
 
     const locales: Locale[] =
-        process.env.NODE_ENV === 'development'
+        process.env.LOAD_LOCALES === 'local'
             ? await loadLocally(localesWithRepos)
             : await loadFromGitHub(localesWithRepos)
     console.log('// done loading locales')
