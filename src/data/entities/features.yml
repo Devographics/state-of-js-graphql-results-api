@@ -524,6 +524,13 @@
       - css
       - css_other
 
+- id: at_layer
+  name: '@layer'
+  w3c: https://www.w3.org/TR/css-cascade-5/
+  tags:
+      - css
+      - css_other
+
 - id: resize
   name: resize
   mdn: /en-US/docs/Web/CSS/resize

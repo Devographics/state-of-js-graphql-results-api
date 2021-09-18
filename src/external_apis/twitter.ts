@@ -32,10 +32,10 @@ export const fetchTwitterResource = async (db: Db, id: string) => {
         const user = data && data.data
         const avatarUrl = user?.profile_image_url?.replace('_normal', '')
         return { userName: id, avatarUrl }
-    } catch (error) {
+    } catch (error: any) {
       console.log('// fetchTwitterResource error')
       // console.log(error)
-      // console.log(error.rateLimit)
+      console.log(error.rateLimit)
       console.log(error.data)
       return
     }

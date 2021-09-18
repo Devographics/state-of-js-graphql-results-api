@@ -10,7 +10,6 @@
   patterns:
     - tyler ?mc( |-)?ginnis
 
-
 - id: sarah_drasner
   twitterName: sarah_edo
   name: Sarah Drasner
@@ -216,7 +215,8 @@
   tags:
     - css
 
-- id: wesbos
+- id: wes_bos
+  twitterName: wesbos
   name: Wes Bos
   homepage: https://wesbos.com/
   tags:
@@ -377,3 +377,20 @@
     - css
   related: 
     - css_irl
+
+- id: sarah_fossheim
+  twitterName: liatrisbian
+  name: Sarah Fossheim
+  homepage: https://fossheim.io/
+  tags:
+    - css
+    - javascript
+    - blogs
+
+- id: philip_jagenstedt
+  twitterName: foolip
+  name: Philip Jägenstedt
+  homepage: https://t.co/wvh45xbIAZ?amp=1
+  tags:
+    - css
+    - blogs

@@ -44,6 +44,26 @@
     - css
     - css_pre_post_processors
 
+- id: acss
+  name: ACSS
+  contexts: [state_of_css]
+  github: acss-io/atomizer
+  npm: atomizer
+  homepage: https://acss.io/
+  tags:
+    - css
+    - css_pre_post_processors
+
+- id: assembler_css
+  name: Assembler CSS
+  contexts: [state_of_css]
+  github: asmcss/assembler
+  npm: '@asmcss/assembler'
+  homepage: https://asmcss.com/
+  tags:
+    - css
+    - css_pre_post_processors
+
 #################################################
 # CSS frameworks
 #################################################
@@ -364,6 +384,18 @@
   github: cristianbote/goober
   description: >
     A less than 1KB css-in-js alternative with a familiar API.
+  tags:
+    - css
+    - js
+    - css_in_js
+
+- id: windi_css
+  name: Windi CSS
+  contexts: [state_of_css]
+  homepage: https://windicss.org/
+  github: windicss/windicss
+  description: >
+    Next generation utility-first CSS framework.
   tags:
     - css
     - js

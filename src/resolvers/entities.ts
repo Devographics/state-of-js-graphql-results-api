@@ -52,7 +52,7 @@ export default {
             }
         },
         twitter: async (entity: Entity, args: any, { db }: RequestContext) => {
-            const twitter = useCache(fetchTwitterResource, db, [entity.twitterName || entity.id])
+            const twitter = entity.twitterName && useCache(fetchTwitterResource, db, [entity.twitterName])
 
             // const twitter = await fetchTwitterResource(entity.id)
             return twitter
