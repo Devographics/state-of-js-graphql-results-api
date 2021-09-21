@@ -1,4 +1,5 @@
 type Twitter {
     userName: String
     avatarUrl: String
+    id: Int
 }

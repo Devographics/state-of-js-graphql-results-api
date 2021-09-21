@@ -8,7 +8,7 @@ import {
 } from './compute'
 import { Filters } from './filters'
 
-export const getEntities = ({ type, tag, tags }: { type: string; tag: string, tags: string[] }) => {
+export const getEntities = ({ type, tag, tags }: { type?: string; tag?: string, tags?: string[] }) => {
     let entities = allEntities
     if (type) {
         entities = entities.filter(e => e.type === type)

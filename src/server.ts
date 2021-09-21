@@ -8,6 +8,7 @@ import { RequestContext } from './types'
 import resolvers from './resolvers'
 import express from 'express'
 import { initLocales } from './i18n'
+import { analyzeTwitterFollowings } from './rpcs'
 
 const Sentry = require('@sentry/node')
 const Tracing = require('@sentry/tracing')
@@ -33,6 +34,12 @@ Sentry.init({
 const path = require('path')
 
 const isDev = process.env.NODE_ENV === 'development'
+
+const checkSecretKey = (req: any) => {
+    if (req?.query?.key !== process.env.SECRET_KEY) {
+        throw new Error('Authorization error')
+    }
+}
 
 const start = async () => {
     const mongoClient = new MongoClient(process.env!.MONGO_URI!, {
@@ -75,6 +82,12 @@ const start = async () => {
     app.get('/debug-sentry', function mainHandler(req, res) {
     throw new Error('My first Sentry error!');
     });
+
+    app.get('/analyze-twitter', async function (req, res) {
+        checkSecretKey(req)
+        analyzeTwitterFollowings()
+        res.status(200).send('Analyzing…')
+    })
 
     app.use(Sentry.Handlers.errorHandler());
 
