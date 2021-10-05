@@ -341,7 +341,7 @@
     - css
   
 - id: miriam_suzanne
-  twitterName: terriblemia
+  twitterName: TerribleMia
   name: Miriam Suzanne
   homepage: https://www.miriamsuzanne.com/
   tags: 
@@ -394,3 +394,46 @@
   tags:
     - css
     - blogs
+
+- id: scott_kellum
+  twitterName: ScottKellum
+  name: Scott Kellum
+  homepage: https://typetura.com/
+  tags:
+    - css
+
+- id: christopher_kirk_nielsen
+  twitterName: ckirknielsen
+  name: Christopher Kirk-Nielsen
+  homepage: https://chriskirknielsen.com/
+  tags: 
+    - css
+  blog: https://chriskirknielsen.com/blog/
+  rss: https://chriskirknielsen.com/rss.xml
+
+- id: ej_mason
+  twitterName: codeability
+  name: EJ Mason
+  homepage: https://www.ejmason.com/
+  tags: 
+    - accessibility
+
+- id: scott_o_hara
+  twitterName: scottohara
+  name: Scott O'Hara
+  homepage: https://www.scottohara.me/
+  blog: https://www.scottohara.me/writing/
+  rss: https://www.scottohara.me/feed.xml
+  github: scottaohara
+  tags: 
+    - css
+    - javascript
+    - accessibility
+
+- id: leonie_watson
+  twitterName: LeonieWatson
+  homepage: https://tink.uk/
+  blog: https://tink.uk/
+  rss: https://tink.uk/feed.xml
+  tags: 
+    - accessibility
