@@ -271,11 +271,11 @@
   homepage: https://www.indiehackers.com/
 
 - id: css_irl
-  name: CSS IRL
+  name: CSS { In Real Life }
   homepage: https://css-irl.info/
   rss: https://css-irl.info/rss.xml
 
 - id: moderncss
-  name: ModernCSS
+  name: Modern CSS Solutions
   homepage: http://moderncss.dev/
   rss: https://moderncss.dev/feed/
