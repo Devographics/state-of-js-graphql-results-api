@@ -15,7 +15,7 @@
   homepage: https://elmtown.simplecast.fm/
   patterns:
     - elm( |-)?town
-    
+
 - id: command_line_heroes
   name: Command Line Heroes
   homepage: https://www.redhat.com/en/command-line-heroes
@@ -59,7 +59,7 @@
     - syntax
 
 - id: css_podcast
-  name: CSS Podcast
+  name: The CSS Podcast
   homepage: https://thecsspodcast.libsyn.com/
 
 - id: shop_talk_show
