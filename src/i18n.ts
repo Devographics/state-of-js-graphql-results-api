@@ -49,14 +49,19 @@ export const loadFromGitHub = async (localesWithRepos: any) => {
             if (['yml', 'yaml'].includes(extension)) {
                 const response = await fetch(file.download_url)
                 const contents = await response.text()
-                const yamlContents: any = yaml.load(contents)
-                const strings = yamlContents.translations
-                const context = file.name.replace('./', '').replace('.yml', '')
-                locale.stringFiles.push({
-                    strings,
-                    url: file.download_url,
-                    context
-                })
+                try {
+                    const yamlContents: any = yaml.load(contents)
+                    const strings = yamlContents.translations
+                    const context = file.name.replace('./', '').replace('.yml', '')
+                    locale.stringFiles.push({
+                        strings,
+                        url: file.download_url,
+                        context
+                    })
+                } catch (error) {
+                    console.log(`// Error loading file ${file.name}`)
+                    console.log(error)
+                }
             }
         }
         locales.push(locale)
