@@ -62,3 +62,9 @@ export const useCache = async <F extends DynamicComputeCall>(
 
     return value
 }
+
+export const clearCache = async (db: Db) => {
+    const collection = db.collection(config.mongo.cache_collection)
+    const result = await collection.deleteMany({})
+    return result
+}

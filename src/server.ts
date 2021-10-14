@@ -9,6 +9,7 @@ import resolvers from './resolvers'
 import express from 'express'
 import { initLocales } from './i18n'
 import { analyzeTwitterFollowings } from './rpcs'
+import { clearCache } from './caching'
 
 const Sentry = require('@sentry/node')
 const Tracing = require('@sentry/tracing')
@@ -87,6 +88,12 @@ const start = async () => {
         checkSecretKey(req)
         analyzeTwitterFollowings()
         res.status(200).send('Analyzing…')
+    })
+
+    app.get('/clear-cache', async function (req, res) {
+        checkSecretKey(req)
+        clearCache(db)
+        res.status(200).send('Cache cleared')
     })
 
     app.use(Sentry.Handlers.errorHandler());
