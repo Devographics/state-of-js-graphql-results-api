@@ -279,3 +279,7 @@
   name: Modern CSS Solutions
   homepage: http://moderncss.dev/
   rss: https://moderncss.dev/feed/
+
+- id: zen_garden
+  name: CSS Zen Garden
+  homepage: https://csszengarden.com

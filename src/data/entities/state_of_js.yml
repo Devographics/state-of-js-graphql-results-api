@@ -1,0 +1,113 @@
+# missing features
+
+- id: optional_chaining
+  name: Optional Chaining
+  tags: 
+    js_missing_features
+  patterns:
+    - conditional chaining
+
+- id: battery_api
+  name: Battery API
+  tags: 
+    js_missing_features
+
+- id: static_typing
+  name: Static Typing
+  tags: 
+    js_missing_features
+  patterns:
+    - type
+    - types
+    - typing
+    - static
+
+- id: interfaces
+  name: Interfaces
+  tags: 
+    js_missing_features
+
+- id: standard_library
+  name: Standard Library
+  tags: 
+    js_missing_features
+  patterns:
+    - std
+    - standard
+
+- id: documentation
+  name: Documentation
+  tags: 
+    js_missing_features
+  patterns:
+    - docs
+
+- id: pipe_operator
+  name: Pipe Operator
+  tags: 
+    js_missing_features
+  patterns:
+    - pipe
+
+- id: pattern_matching
+  name: Pattern Matching
+  tags: 
+    js_missing_features
+
+- id: auto_currying
+  name: Auto-Currying
+  tags: 
+    js_missing_features
+  patterns:
+    - currying
+
+- id: native_observables
+  name: Native Observables
+  tags: 
+    js_missing_features
+  patterns:
+    - observable
+
+- id: decorators
+  name: Decorators
+  tags: 
+    js_missing_features
+
+- id: simplicity
+  name: Simplicity
+  tags: 
+    js_missing_features
+
+- id: sanity
+  name: Sanity
+  tags: 
+    js_missing_features
+
+- id: tree_shaking
+  name: Tree Shaking
+  tags: 
+    js_missing_features
+
+- id: immutable
+  name: Immutable Data Structure
+  tags: 
+    js_missing_features
+
+- id: multi_threading
+  name: Multi Threading
+  tags: 
+    js_missing_features
+
+- id: date_time
+  name: Date/Time Handling
+  tags: 
+    js_missing_features
+  patterns:
+    - date/time
+
+- id: monads
+  name: Monads
+  tags: 
+    js_missing_features
+  patterns:
+    - monad

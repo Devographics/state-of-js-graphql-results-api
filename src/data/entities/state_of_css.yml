@@ -1,12 +1,13 @@
-# used to normalize the results of the freeform "what features are missing from X" field
 
-#CSS
+# missing features
 
 - id: container_queries
   name: Container Queries
   patterns:
     - container( |-)(media|width)? ?quer(y|ies)
     - (element|object|component)s? (based )?(media )?quer(y|ies)
+  tags:
+    css_missing_features
 
 - id: parent_selector
   name: Parent Selector
@@ -16,27 +17,37 @@
     - parent (of )?(an )?element
     - \:parent
     - (target|select|style) (a )?parent
+  tags:
+    css_missing_features
 
 - id: nesting
   name: Nesting
   patterns:
     - nested select(or|ion)
+  tags:
+    css_missing_features
 
 - id: subgrid
   name: Subgrid
   patterns:
     - sub( |-)?grid
+  tags:
+    css_missing_features
 
 - id: has_selector
   name: ":has Selector"
   patterns:
     - \:has
     - has\(\)
+  tags:
+    css_missing_features
 
 - id: mixins
   name: Mixins
   patterns:
     - mixins?
+  tags:
+    css_missing_features
 
 - id: scoping
   name: Scoping
@@ -44,11 +55,15 @@
     - encapsulation
     - isolation
     - scop(e|ing)
+  tags:
+    css_missing_features
 
-# - id: functions
-#   name: Functions
-#   patterns:
-#     - functions?
+- id: functions
+  name: Functions
+  patterns:
+    - functions?
+  tags:
+    css_missing_features
 
 - id: browser_support
   name: Browser Support
@@ -57,35 +72,53 @@
     - consistency
     - consistent support
     - cross( |-)browser
+  tags:
+    css_missing_features
 
 - id: conditional_logic
   name: Conditional Logic
   patterns:
     - conditional
     - if statement
+  tags:
+    css_missing_features
 
 - id: houdini
   name: CSS Houdini
+  tags:
+    css_missing_features
 
 - id: animation
   name: Animation
+  tags:
+    css_missing_features
 
 - id: flow_control
   name: Flow Control
+  tags:
+    css_missing_features
 
 - id: center
   name: Centering
+  tags:
+    css_missing_features
 
 - id: masonry
   name: Masonry Layout
+  tags:
+    css_missing_features
 
 - id: simplicty
   name: Simplicity
+  tags:
+    css_missing_features
 
 - id: typography
   name: Typographic Controls
   patterns:
     - typographic
+  tags:
+    css_missing_features
 
 - id: form_elements
   name: Form Elements Styling
@@ -93,84 +126,67 @@
     - form styling
     - form input
     - input element
+  tags:
+    css_missing_features
 
 - id: print
   name: Print Support
+  tags:
+    css_missing_features
 
-# JS
+# first steps
 
-- id: optional_chaining
-  name: Optional Chaining
+- id: copy_paste
+  name: Copy/paste
+  tags: 
+    - css_first_steps
+  patterns: 
+    - copy
+    - copying
+
+- id: view_source
+  name: View Source
+  tags: 
+    - css_first_steps
   patterns:
-    - conditional chaining
+    - source
+    - inspect
 
-- id: battery_api
-  name: Battery API
+- id: blogs
+  name: Blogs
+  tags: 
+    - css_first_steps
+  patterns: 
+    - blog
+    - blogger
+    
+- id: forums
+  name: Forums
+  tags: 
+    - css_first_steps
+  patterns: 
+    - forum
 
-- id: static_typing
-  name: Static Typing
+- id: twitch
+  name: Twitch
+  tags: 
+    - css_first_steps
+
+# what do you use CSS for
+
+- id: e_commerce
+  name: E-Commerce Sites
+  tags: 
+    - css_uses
   patterns:
-    - type
-    - types
-    - typing
-    - static
+    - webshop
 
-- id: interfaces
-  name: Interfaces
+- id: electron
+  name: Electron Apps
+  tags: 
+    - css_uses
 
-- id: standard_library
-  name: Standard Library
-  patterns:
-    - std
-    - standard
-
-- id: documentation
-  name: Documentation
-  patterns:
-    - docs
-
-- id: pipe_operator
-  name: Pipe Operator
-  patterns:
-    - pipe
-
-- id: pattern_matching
-  name: Pattern Matching
-
-- id: auto_currying
-  name: Auto-Currying
-  patterns:
-    - currying
-
-- id: native_observables
-  name: Native Observables
-  patterns:
-    - observable
-
-- id: decorators
-  name: Decorators
-
-- id: simplicity
-  name: Simplicity
-
-- id: sanity
-  name: Sanity
-
-- id: tree_shaking
-  name: Tree Shaking
-
-- id: immutable
-  name: Immutable Data Structure
-
-- id: multi_threading
-  name: Multi Threading
-
-- id: date_time
-  name: Date/Time Handling
-  patterns:
-    - date/time
-
-- id: monads
-  name: Monads
-  patterns:
-    - monad
+- id: portfolio
+  name: Portfolio Sites
+  tags: 
+    - css_uses
