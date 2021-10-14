@@ -22,7 +22,7 @@ export const getEntities = ({ type, tag, tags }: { type?: string; tag?: string, 
     return entities
 }
 
-// Look up entities by id, na       me, or aliases (case-insensitive)
+// Look up entities by id, name, or aliases (case-insensitive)
 export const getEntity = ({ id }: { id: string }) => {
     if (!id || typeof id !== 'string') {
         return

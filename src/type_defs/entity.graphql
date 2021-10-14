@@ -18,7 +18,9 @@ type Entity {
     tags: [String]
     patterns: [String]
     twitter: Twitter
-
+    youtubeName: String
+    blog: String
+    rss: String
     related: [Entity]
 }
 

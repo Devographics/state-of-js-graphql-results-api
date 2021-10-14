@@ -9,13 +9,14 @@ import podcasts from './podcasts.yml'
 import sites from './sites.yml'
 import text_editors from './text_editors.yml'
 import youtube from './youtube.yml'
-import missing_features from './missing_features.yml'
 import sources from './sources.yml'
 import people from './people.yml'
 import courses from './courses.yml'
 import newsletters from './newsletters.yml'
 import socialmedia from './socialmedia.yml'
 import industry_sectors from './industry_sectors.yml'
+import state_of_css from './state_of_css.yml'
+import state_of_js from './state_of_js.yml'
 
 const entities: any = {
     browsers,
@@ -27,13 +28,14 @@ const entities: any = {
     sites,
     text_editors,
     youtube,
-    missing_features,
     sources,
     people,
     courses,
     newsletters,
     socialmedia,
     industry_sectors,
+    state_of_css,
+    state_of_js
 }
 
 // add key as category and flatten the whole thing

@@ -26,29 +26,32 @@ const roClient = twitterClient.readOnly
 
 // https://github.com/PLhery/node-twitter-api-v2/blob/master/doc/v2.md#single-user-by-username
 
-export const fetchTwitterUser = async (db: Db, userName: string) => {
-    try {
-        const data = await roClient.v2.userByUsername(userName, {
-            'user.fields': 'profile_image_url'
-        })
-        const user = data && data.data
-        const avatarUrl = user?.profile_image_url?.replace('_normal', '')
-        const id = user.id
-        return { userName, avatarUrl, id }
-    } catch (error: any) {
-        console.log('// fetchTwitterUser error')
-        // console.log(error)
-        console.log(error.rateLimit)
-        console.log(error.data)
+export const fetchTwitterUser = async (db: Db, twitterName: string) => {
+    const user = await getTwitterUser(twitterName)
+    if (!user) {
         return
     }
+    const avatarUrl = user?.profile_image_url?.replace('_normal', '')
+    const { id, description } = user
+    return { twitterName, avatarUrl, id, description }
 }
 
 export const getTwitterUser = async (twitterName: string) => {
-    const user = await roClient.v2.userByUsername(twitterName, {
-        'user.fields': ['public_metrics']
-    })
-    return user.data
+    try {
+        const data = await roClient.v2.userByUsername(twitterName, {
+            'user.fields': ['public_metrics', 'profile_image_url', 'description']
+        })
+        const user = data && data.data
+        return user
+    } catch (error: any) {
+        console.log('// getTwitterUser error')
+        // console.log(error)
+        console.log(error.rateLimit)
+        const resetTime = new Date(error.rateLimit.reset * 1000)
+        console.log(resetTime)
+        console.log(error.data)
+        return
+    }
 }
 
 export const getTwitterFollowings = async (twitterId: string) => {

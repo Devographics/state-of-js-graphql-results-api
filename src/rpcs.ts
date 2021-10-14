@@ -44,7 +44,10 @@ export const analyzeTwitterFollowings = async () => {
         // 4. if not, get twitter stats and insert them
         if (!existingStat) {
             const twitterUser = await getTwitterUser(twitterName)
-            const twitterId = twitterUser.id
+            if (!twitterUser) {
+                return
+            }
+            const twitterId = twitterUser?.id
             const followings = await getTwitterFollowings(twitterId)
             const entities = await getEntities({ tags: ['people', 'css'] })
             const peopleUsernames = entities.map(e => e.twitterName)
@@ -60,10 +63,10 @@ export const analyzeTwitterFollowings = async () => {
                 surveySlug,
                 followings,
                 followingsSubset,
-                followersCount: twitterUser.public_metrics?.followers_count,
-                followingCount: twitterUser.public_metrics?.following_count,
-                tweetCount: twitterUser.public_metrics?.tweet_count,
-                listedCount: twitterUser.public_metrics?.listed_count
+                followersCount: twitterUser?.public_metrics?.followers_count,
+                followingCount: twitterUser?.public_metrics?.following_count,
+                tweetCount: twitterUser?.public_metrics?.tweet_count,
+                listedCount: twitterUser?.public_metrics?.listed_count
             }
 
             twitterStatsCollection.insertOne(stat)
