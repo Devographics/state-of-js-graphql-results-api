@@ -70,11 +70,7 @@ export async function computeExperienceOverYears(
         ...generateFiltersQuery(filters)
     }
 
-    const results: Array<{
-        year: number
-        experience: string
-        total: number
-    }> = await collection
+    const results = await collection
         .aggregate([
             {
                 $match: match

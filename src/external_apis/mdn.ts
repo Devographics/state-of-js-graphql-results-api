@@ -32,7 +32,7 @@ export const fetchMdnResource = async (path: string) => {
     try {
         const url = `https://developer.mozilla.org${path}/index.json`
         const res = await fetch(url)
-        const json: MDNJSONRes = await res.json()
+        const json = await res.json() as MDNJSONRes
 
         return normalizeMdnResource(json)
     } catch (error) {

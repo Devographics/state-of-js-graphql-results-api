@@ -84,9 +84,9 @@ export async function computeCompletionByYear(
         }
     ]
 
-    const completionResults: CompletionResult[] = await collection
+    const completionResults = await collection
         .aggregate(aggregationPipeline)
-        .toArray()
+        .toArray() as CompletionResult[]
 
     // console.log(
     //     inspect(
@@ -171,7 +171,7 @@ export async function computeTermAggregationByYear(
         return pipeline
     }
 
-    const rawResults: RawResult[] = await collection.aggregate(getAggregationPipeline()).toArray()
+    const rawResults = await collection.aggregate(getAggregationPipeline()).toArray() as RawResult[] 
 
     // console.log(
     //     inspect(
