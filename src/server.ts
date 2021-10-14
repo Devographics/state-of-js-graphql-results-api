@@ -11,6 +11,11 @@ import { initLocales } from './i18n'
 import { analyzeTwitterFollowings } from './rpcs'
 import { clearCache } from './caching'
 
+// import Sentry from '@sentry/node'
+// import Tracing from '@sentry/tracing'
+
+import path from 'path'
+
 const Sentry = require('@sentry/node')
 const Tracing = require('@sentry/tracing')
 
@@ -32,7 +37,7 @@ Sentry.init({
   environment,
 });
 
-const path = require('path')
+// const path = require('path')
 
 const isDev = process.env.NODE_ENV === 'development'
 
