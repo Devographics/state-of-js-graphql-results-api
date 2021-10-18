@@ -31,9 +31,17 @@ export const fetchTwitterUser = async (db: Db, twitterName: string) => {
     if (!user) {
         return
     }
+    console.log(user)
     const avatarUrl = user?.profile_image_url?.replace('_normal', '')
-    const { id, description } = user
-    return { twitterName, avatarUrl, id, description }
+    const { id, description, public_metrics = {} } = user
+    const { followers_count, following_count, tweet_count, listed_count } = public_metrics
+    const publicMetrics = {
+        followers: followers_count,
+        following: following_count,
+        tweet: tweet_count,
+        listed: listed_count
+    }
+    return { twitterName, avatarUrl, id, description, publicMetrics }
 }
 
 export const getTwitterUser = async (twitterName: string) => {

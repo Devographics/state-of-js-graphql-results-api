@@ -19,6 +19,8 @@
   name: Subgrid
   mdn: /en-US/docs/Web/CSS/CSS_Grid_Layout/Subgrid
   caniuse: css-subgrid
+  patterns:
+    - sub( |-)?grid
   tags:
       - css
       - css_layout
@@ -65,6 +67,8 @@
   name: 'CSS position:sticky'
   mdn: /en-US/docs/Web/CSS/position
   caniuse: css-sticky
+  patterns:
+    - sticky
   tags:
       - css
       - css_layout
@@ -96,6 +100,12 @@
   name: Flexbox Gap
   mdn: /en-US/docs/Web/CSS/gap
   caniuse: flexbox-gap
+  patterns:
+    - gap for flex
+    - Gap property for flex
+    - flexbox( |-)?gap
+    - flex( |-)?gap
+
   tags:
       - css
       - css_layout
@@ -112,6 +122,9 @@
   name: 'CSS property: @container'
   mdn: /en-US/docs/Web/CSS/CSS_Container_Queries
   caniuse: css-container-queries
+  patterns:
+    - '@container'
+    - container
   tags:
       - css
       - css_layout
@@ -366,6 +379,7 @@
 #################################################
 # CSS animations & transforms
 #################################################
+
 - id: transitions
   name: Transitions
   mdn: /en-US/docs/Web/CSS/CSS_Transitions
@@ -401,6 +415,7 @@
 #################################################
 # CSS media queries/Accessibility
 #################################################
+
 - id: prefers_reduced_motion
   name: prefers-reduced-motion
   mdn: /en-US/docs/Web/CSS/@media/prefers-reduced-motion
@@ -451,6 +466,14 @@
     - css
     - accessibility
 
+- id: focus_visible
+  name: <code>:focus-visible</code
+  mdn: /en-US/docs/Web/CSS/:focus-visible
+  caniuse: https://caniuse.com/css-focus-visible
+  tags: 
+    - css
+    - accessibility
+
 #################################################
 # CSS other features
 #################################################
@@ -466,6 +489,9 @@
   name: '@supports'
   mdn: /en-US/docs/Web/CSS/@supports
   caniuse: css-supports-api
+  patterns:
+    - '@supports'
+    - supports
   tags:
       - css
       - css_other
@@ -547,11 +573,23 @@
       - css
       - css_other
 
+- id: viewport_units
+  name: Viewport Units (<code>vh</code>, <code>vw</code>)
+  mdn: /en-US/docs/Web/CSS/length
+  caniuse: https://caniuse.com/viewport-units
+  patterns:
+    - vh
+    - vw
+  tags:
+      - css
+      - css_other
+
 #################################################
 #
 #   JS
 #
 #################################################
+
 - id: destructuring
   name: Destructuring
   mdn: /en-US/docs/Web/JavaScript/Reference/Operators/Destructuring_assignment

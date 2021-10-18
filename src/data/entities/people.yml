@@ -403,7 +403,8 @@
 - id: philip_jagenstedt
   twitterName: foolip
   name: Philip Jägenstedt
-  homepage: https://t.co/wvh45xbIAZ?amp=1
+  homepage: https://foolip.org/
+  blog: https://blog.foolip.org/
   tags:
     - css
     - blogs
@@ -617,7 +618,7 @@
 
 - id: alex_trost
   name: Alex Trost
-  twitterName:
+  twitterName: trostcodes
   homepage:
   blog: 
   rss: 
@@ -669,18 +670,9 @@
   tags: 
     - css
 
-- id: jeremy_keith
-  name: Jeremy Keith
-  twitterName:
-  homepage:
-  blog: 
-  rss: 
-  tags: 
-    - css
-
 - id: jeremy_wagner
   name: Jeremy Wagner
-  twitterName: adactio
+  twitterName: malchata
   homepage:
   blog: 
   rss: 
@@ -896,12 +888,12 @@
 
 - id: kyle_simpson
   name: Kyle Simpson
-  twitterName:
+  twitterName: getify
   homepage:
   blog: 
   rss: 
   tags: 
-    - css
+    - javascript
 
 - id: ben_awad
   name: Ben Awad
@@ -961,14 +953,14 @@
   tags: 
     - css
 
-# - id: 
-#   name: 
-#   twitterName:
-#   homepage:
-#   blog: 
-#   rss: 
-#   tags: 
-#     - css
+- id: nicole_sullivan
+  name: Nicole Sullivan
+  twitterName: stubbornella
+  homepage:
+  blog: 
+  rss: 
+  tags: 
+    - css
 
 # - id: 
 #   name: 

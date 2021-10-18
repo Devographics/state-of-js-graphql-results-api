@@ -134,6 +134,20 @@
   tags:
     css_missing_features
 
+- id: masonry_layout
+  name: Masonry Layout
+  patterns:
+    - masonry
+  tags:
+    css_missing_features
+
+- id: css_regions
+  name: CSS Regions
+  patterns:
+    - regions
+  tags:
+    css_missing_features
+
 # first steps
 
 - id: copy_paste
@@ -190,3 +204,81 @@
   name: Portfolio Sites
   tags: 
     - css_uses
+
+# accessibility features
+
+- id: wcag_2_1_aa
+  name: WCAG 2.1 AA
+  patterns: 
+    - WCAG 2.1 AA
+    - AA
+  tags: 
+    - accessibility_features
+
+- id: progressive_enhancement
+  name: Progressive Enhancement
+  patterns:
+    - no( |-)?JS
+  tags: 
+    - accessibility_features
+
+- id: focus_traps
+  name: Focus Traps
+  patterns:
+    - focus( |-)?trap
+  tags: 
+    - accessibility_features
+
+- id: zoom
+  name: Zoom Support
+  tags: 
+    - accessibility_features
+
+# browser interoperability
+
+- id: scrollbar
+  name: Scrollbar Styling
+  tags: 
+    - browser_interoperability
+
+
+# pain points
+
+- id: safari
+  name: Safari
+  patterns:
+    - webkit
+  tags: 
+    - css_pain_points
+
+- id: email
+  name: Email
+  tags: 
+    - css_pain_points
+
+- id: ios
+  name: iOS
+  tags: 
+    - css_pain_points
+    
+- id: performance
+  name: Performance
+  patterns:
+    - perf
+  tags: 
+    - css_pain_points
+
+- id: ie
+  name: Internet Explorer
+  patterns:
+    - ie( |-)?11
+  tags: 
+    - css_pain_points
+
+- id: responsive_design
+  name: Responsive/Mobile Design
+  patterns:
+    - responsive
+    - mobile
+  tags: 
+    - css_pain_points
