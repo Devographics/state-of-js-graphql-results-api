@@ -17,6 +17,7 @@
   tags:
     - javascript
     - blogs
+    - css
 
 - id: heydon_pickering
   twitterName: heydonworks
@@ -54,6 +55,7 @@
     - overreacted
     - overeacted
     - abramov
+    - dan abromov
 
 - id: robin_wieruch
   name: Robin Wieruch
@@ -157,7 +159,7 @@
     - css
     - js
   patterns:
-    - josh ?w? ?comeau
+    - josh ?w?( |.)?com(m)?eau
 
 - id: rachel_andrew
   twitterName: rachelandrew
@@ -329,6 +331,8 @@
   twitterName: anatudor
   name: Ana Tudor
   homepage: https://www.patreon.com/anatudor
+  patterns:
+    - anna tudor
   tags:
     - css
 
@@ -439,6 +443,8 @@
   blog: https://www.scottohara.me/writing/
   rss: https://www.scottohara.me/feed.xml
   github: scottaohara
+  patterns:
+    - scott o( |')?hara
   tags:
     - css
     - javascript
@@ -934,6 +940,7 @@
     - css
   patterns:
     - jonmircha
+    - JhonMircha
 
 - id: brad_traversy
   name: Brad Traversy
@@ -961,6 +968,62 @@
   rss: 
   tags: 
     - css
+
+- id: emma_bostian
+  name: Emma Bostian
+  twitterName: EmmaBostian
+  homepage:
+  blog: 
+  rss: 
+  related: 
+    - ladybug
+  tags: 
+    - css
+
+- id: elad_shechter
+  name: Elad Shechter
+  twitterName: eladsc
+  homepage: https://eladsc.com/
+  blog: 
+  rss: 
+  tags: 
+    - css
+
+- id: ali_spittel
+  name: Ali Spittel
+  twitterName: ASpittel
+  homepage:
+  blog: 
+  rss: 
+  tags: 
+    - css
+
+- id: mina_markham
+  name: Mina Markham
+  twitterName: MinaMarkham
+  homepage: http://mina.codes/
+  blog: 
+  rss: 
+  tags: 
+    - css
+
+# - id: 
+#   name: 
+#   twitterName:
+#   homepage:
+#   blog: 
+#   rss: 
+#   tags: 
+#     - css
+
+# - id: 
+#   name: 
+#   twitterName:
+#   homepage:
+#   blog: 
+#   rss: 
+#   tags: 
+#     - css
 
 # - id: 
 #   name: 

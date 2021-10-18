@@ -282,3 +282,26 @@
     - mobile
   tags: 
     - css_pain_points
+
+
+# disability status
+
+- id: adhd
+  name: ADHD
+  tags:
+    disabilities
+
+- id: autism
+  name: Autism
+  tags:
+    disabilities
+
+- id: glasses
+  name: Glasses
+  tags:
+    disabilities
+
+- id: old
+  name: Old Age
+  tags:
+    disabilities
