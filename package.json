@@ -51,6 +51,6 @@
         "start": "node dist/server.js"
     },
     "engines": {
-        "node": ">=13.0.0"
+        "node": "14.17.5"
     }
 }
