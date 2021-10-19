@@ -118,6 +118,7 @@ enum GenderID {
     female
     prefer_not_to_say
     non_binary
+    not_listed
 }
 
 type GenderBucket {
@@ -515,5 +516,5 @@ type Demographics {
     """
     Disability Status (Other)
     """
-    disability_status_others(filters: Filters): OtherDisabilityStatus
+    disability_status_other(filters: Filters): OtherDisabilityStatus
 }

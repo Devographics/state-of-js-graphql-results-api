@@ -86,7 +86,7 @@ const demographicsFields = [
     'knowledge_score',
     'higher_education_degree',
     'disability_status',
-    'disability_status_others'
+    'disability_status_other'
 ]
 
 /**
