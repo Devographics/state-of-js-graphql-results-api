@@ -154,7 +154,7 @@ export const computeToolMatrixBreakdown = async (
 
     return {
         id: tool,
-        entity: getEntity({ id: tool }),
+        entity: await getEntity({ id: tool }),
         total: comparisonTotal,
         count: total,
         percentage: overallPercentage,

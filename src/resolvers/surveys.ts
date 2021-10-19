@@ -116,10 +116,10 @@ export default {
             id,
             filters
         }),
-        tool: (survey: SurveyConfig, { id }: { id: string }) => ({
+        tool: async (survey: SurveyConfig, { id }: { id: string }) => ({
             survey,
             id,
-            entity: getEntity({ id }),
+            entity: await getEntity({ id }),
             experience: ({ filters }: { filters?: Filters }) => ({
                 survey,
                 id,
@@ -128,11 +128,11 @@ export default {
             experienceGraph: async ({ filters }: { filters?: Filters }, { db }: RequestContext) =>
                 useCache(computeToolExperienceGraph, db, [survey, id, filters])
         }),
-        tools: (survey: SurveyConfig, { ids = toolIds }: { ids?: string[] }) =>
-            ids.map(id => ({
+        tools: async (survey: SurveyConfig, { ids = toolIds }: { ids?: string[] }) =>
+            ids.map(async id => ({
                 survey,
                 id,
-                entity: getEntity({ id }),
+                entity: await getEntity({ id }),
                 experience: ({ filters }: { filters?: Filters }) => ({
                     survey,
                     id,

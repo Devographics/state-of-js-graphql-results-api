@@ -8,9 +8,9 @@ export default {
         survey: (parent: any, { survey }: { survey: SurveyType }) => ({
             survey
         }),
-        entity: (survey: SurveyConfig, { id }: { id: string }) => ({
+        entity: async (survey: SurveyConfig, { id }: { id: string }) => ({
             survey,
-            ...getEntity({ id })
+            ...(await getEntity({ id }))
         }),
         entities: (
             parent: any,
