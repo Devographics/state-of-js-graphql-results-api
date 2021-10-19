@@ -246,7 +246,8 @@ export const getLocaleStringsWithFallback = async (locale: Locale, contexts?: st
             if (
                 localeTranslationIndex === -1 ||
                 localeStrings[localeTranslationIndex].t === enTranslation.t ||
-                localeStrings[localeTranslationIndex]?.t?.trim() === 'TODO'
+                (localeStrings[localeTranslationIndex].t &&
+                    localeStrings[localeTranslationIndex].t.trim() === 'TODO')
             ) {
                 // en-US key doesn't exist in current locale file
                 // OR current locale file's translation is same as en-US (untranslated)
