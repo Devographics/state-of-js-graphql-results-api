@@ -1,8 +1,0 @@
-# used to normalize the results of the freeform "how did you hear about this survey" field
-
-- id: work
-  name: Work
-  patterns:
-    - co( |-)workers
-    - coll?ea?gu?a?es?
-    - company
