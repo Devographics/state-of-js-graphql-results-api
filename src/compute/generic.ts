@@ -124,6 +124,8 @@ export async function computeTermAggregationByYear(
         ...generateFiltersQuery(filters)
     }
 
+    // console.log(match)
+
     // generate an aggregation pipeline for all years, or
     // optionally restrict it to a specific year of data
     const getAggregationPipeline = () => {
