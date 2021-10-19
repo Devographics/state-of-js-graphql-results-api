@@ -47,6 +47,8 @@ export default {
 
     RaceEthnicity: getStaticResolvers('user_info.race_ethnicity.choices', { cutoff: 1 }),
 
+    Age: getStaticResolvers('user_info.age', { limit: 100, cutoff: 1 }),
+
     Salary: getStaticResolvers('user_info.yearly_salary', { limit: 100, cutoff: 1 }),
 
     CompanySize: getStaticResolvers('user_info.company_size', { limit: 100, cutoff: 1 }),
@@ -64,5 +66,18 @@ export default {
         cutoff: 1
     }),
 
-    KnowledgeScore: getStaticResolvers('user_info.knowledge_score', { limit: 100, cutoff: 1 })
+    KnowledgeScore: getStaticResolvers('user_info.knowledge_score', { limit: 100, cutoff: 1 }),
+
+    HigherEducationDegree: getStaticResolvers('user_info.higher_education_degree', {
+        cutoff: 1
+    }),
+
+    DisabilityStatus: getStaticResolvers('user_info.disability_status.choices', {
+        cutoff: 1
+    }),
+
+    OtherDisabilityStatus: getStaticResolvers('user_info.disability_status.others.normalized', {
+        cutoff: 1
+    }),
+
 }

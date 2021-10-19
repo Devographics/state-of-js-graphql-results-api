@@ -7,8 +7,7 @@ import {
     computeTermAggregationSingleYearWithCache
 } from './compute'
 import { Filters } from './filters'
-import {loadOrGetEntities} from './entities'
-
+import { loadOrGetEntities } from './entities'
 
 /**
  * Return either e.g. other_tools.browsers.choices or other_tools.browsers.others_normalized
@@ -72,6 +71,7 @@ export const getDynamicResolvers = (getId: (id: string) => string, options: any 
 })
 
 const demographicsFields = [
+    'age',
     'country',
     'locale',
     'source',
@@ -83,7 +83,10 @@ const demographicsFields = [
     'job_title',
     'industry_sector',
     'industry_sector_others',
-    'knowledge_score'
+    'knowledge_score',
+    'higher_education_degree',
+    'disability_status',
+    'disability_status_others'
 ]
 
 /**

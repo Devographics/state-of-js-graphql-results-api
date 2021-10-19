@@ -120,7 +120,7 @@ export async function computeTermAggregationByYear(
 
     const match: any = {
         survey: survey.survey,
-        [key]: { $nin: [null, ''] },
+        [key]: { $nin: [null, '', []] },
         ...generateFiltersQuery(filters)
     }
 
@@ -179,7 +179,7 @@ export async function computeTermAggregationByYear(
     //     inspect(
     //         {
     //             match,
-    //             sampleAggregationPipeline: getAggregationPipeline(2020),
+    //             sampleAggregationPipeline: getAggregationPipeline(),
     //             rawResults
     //         },
     //         { colors: true, depth: null }

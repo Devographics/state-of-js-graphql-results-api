@@ -12,6 +12,41 @@ type Participation {
 }
 
 """
+Age
+"""
+enum AgeRange {
+    range_less_than_10
+    range_10_18
+    range_18_24
+    range_25_34
+    range_35_44
+    range_45_54
+    range_55_64
+    range_more_than_65
+}
+
+type AgeBucket {
+    id: AgeRange
+    count: Int
+    percentage: Float
+}
+
+type YearAge {
+    year: Int
+    """
+    Total number of respondents who have answered this specific question.
+    """
+    total: Int
+    completion: Completion
+    buckets: [AgeBucket]
+}
+
+type Age {
+    all_years: [YearAge]
+    year(year: Int!): YearAge
+}
+
+"""
 Country
 """
 type CountryBucket {
@@ -315,7 +350,6 @@ type IndustrySector {
 """
 Knowledge Score
 """
-
 type KnowledgeScoreBucket {
     id: Int
     count: Int
@@ -333,6 +367,83 @@ type KnowledgeScore {
 }
 
 """
+Higher Education Degree
+"""
+enum HigherEducationDegreeID {
+    no_degree
+    yes_related
+    yes_unrelated
+}
+
+type HigherEducationDegreeBucket {
+    id: HigherEducationDegreeID
+    count: Int
+    percentage: Float
+}
+
+type YearHigherEducationDegree {
+    year: Int
+    """
+    Total number of respondents who have answered this specific question.
+    """
+    total: Int
+    completion: Completion
+    buckets: [HigherEducationDegreeBucket]
+}
+
+type HigherEducationDegree {
+    all_years: [YearHigherEducationDegree]
+    year(year: Int!): YearHigherEducationDegree
+}
+
+"""
+Disability Status
+"""
+enum DisabilityStatusID {
+    visual_impairments
+    hearing_impairments
+    mobility_impairments
+    cognitive_impairments
+    not_listed
+}
+
+type DisabilityStatusBucket {
+    id: DisabilityStatusID
+    count: Int
+    percentage: Float
+}
+
+type YearDisabilityStatus {
+    year: Int
+    """
+    Total number of respondents who have answered this specific question.
+    """
+    total: Int
+    completion: Completion
+    buckets: [DisabilityStatusBucket]
+}
+
+type DisabilityStatus {
+    all_years: [YearDisabilityStatus]
+    year(year: Int!): YearDisabilityStatus
+}
+
+type YearOtherDisabilityStatus {
+    year: Int
+    """
+    Total number of respondents who have answered this specific question.
+    """
+    total: Int
+    completion: Completion
+    buckets: [EntityBucket]
+}
+
+type OtherDisabilityStatus {
+    all_years: [YearOtherDisabilityStatus]
+    year(year: Int!): YearOtherDisabilityStatus
+}
+
+"""
 Information about particpants:
 - overall participation
 - gender
@@ -341,6 +452,10 @@ Information about particpants:
 - …
 """
 type Demographics {
+    """
+    Age
+    """
+    age(filters: Filters): Age
     """
     Country
     """
@@ -389,4 +504,16 @@ type Demographics {
     Knowledge Score
     """
     knowledge_score(filters: Filters): KnowledgeScore
+    """
+    Higher Education Degree
+    """
+    higher_education_degree(filters: Filters): HigherEducationDegree
+    """
+    Disability Status
+    """
+    disability_status(filters: Filters): DisabilityStatus
+    """
+    Disability Status (Other)
+    """
+    disability_status_others(filters: Filters): OtherDisabilityStatus
 }

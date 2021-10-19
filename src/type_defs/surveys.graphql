@@ -25,6 +25,23 @@ enum SurveyType {
     state_of_css
 }
 
+
+"""
+All surveys
+"""
+type Surveys {
+    state_of_js: StateOfJSSurvey
+    state_of_css: StateOfCSSSurvey
+}
+
+type StateOfJSSurvey {
+    foobar: String
+}
+
+type StateOfCSSSurvey {
+    foobar: String
+}
+
 """
 A survey
 """
