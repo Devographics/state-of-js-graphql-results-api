@@ -185,11 +185,14 @@ export async function computeTermAggregationByYear(
     // )
 
     // add entities if applicable
-    const resultsWithEntity: RawResult[] = rawResults.map(result => {
-        const entity = getEntity(result as any)
-
-        return entity ? { ...result, entity } : result
-    })
+    const resultsWithEntity = []
+    for (let result of rawResults) {
+        const entity = await getEntity(result as any)
+        if (entity) {
+            result = {...result, entity}
+        }
+        resultsWithEntity.push(result)
+    }
 
     const totalRespondentsByYear = await getParticipationByYearMap(db, survey)
     const completionByYear = await computeCompletionByYear(db, match)
