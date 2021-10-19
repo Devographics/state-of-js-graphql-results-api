@@ -5,7 +5,7 @@ import config from '../config'
 import { Completion, SurveyConfig } from '../types'
 import { Filters, generateFiltersQuery } from '../filters'
 import { ratioToPercentage } from './common'
-import { getEntity } from '../helpers'
+import { getEntity } from '../entities'
 import { getParticipationByYearMap } from './demographics'
 import { useCache } from '../caching'
 

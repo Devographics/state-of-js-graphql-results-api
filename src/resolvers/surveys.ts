@@ -1,7 +1,12 @@
-import { getEntity, getGraphQLEnumValues, getDemographicsResolvers } from '../helpers'
+import { getGraphQLEnumValues, getDemographicsResolvers } from '../helpers'
+import { getEntity } from '../entities'
 import { RequestContext, SurveyConfig } from '../types'
 import { Filters } from '../filters'
-import {computeToolExperienceGraph, computeToolsCardinalityByUser, ToolExperienceId} from '../compute'
+import {
+    computeToolExperienceGraph,
+    computeToolsCardinalityByUser,
+    ToolExperienceId
+} from '../compute'
 import { useCache } from '../caching'
 
 const toolIds = getGraphQLEnumValues('ToolID')
@@ -77,10 +82,7 @@ export default {
             id,
             filters
         }),
-        happiness: (
-            survey: SurveyConfig,
-            { id, filters }: { id: string; filters?: Filters }
-        ) => ({
+        happiness: (survey: SurveyConfig, { id, filters }: { id: string; filters?: Filters }) => ({
             survey,
             id,
             filters
@@ -141,20 +143,20 @@ export default {
                     { db }: RequestContext
                 ) => useCache(computeToolExperienceGraph, db, [survey, id, filters])
             })),
-        tools_cardinality_by_user: (survey: SurveyConfig, {
-            year,
-            // tool IDs
-            ids,
-            experienceId,
-        }: {
-            year: number
-            ids: string[]
-            experienceId: ToolExperienceId
-        }, context: RequestContext) => useCache(
-            computeToolsCardinalityByUser,
-            context.db,
-            [survey, year, ids, experienceId]
-        ),
+        tools_cardinality_by_user: (
+            survey: SurveyConfig,
+            {
+                year,
+                // tool IDs
+                ids,
+                experienceId
+            }: {
+                year: number
+                ids: string[]
+                experienceId: ToolExperienceId
+            },
+            context: RequestContext
+        ) => useCache(computeToolsCardinalityByUser, context.db, [survey, year, ids, experienceId]),
         tools_others: (
             survey: SurveyConfig,
             { id, filters }: { id: string; filters?: Filters }
@@ -171,6 +173,6 @@ export default {
             ids,
             filters
         }),
-        totals: (survey: SurveyConfig) => survey,
+        totals: (survey: SurveyConfig) => survey
     }
 }

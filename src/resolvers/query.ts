@@ -1,5 +1,5 @@
 import { SurveyType } from '../types'
-import { getEntities, getEntity } from '../helpers'
+import { getEntities, getEntity } from '../entities'
 import { getLocales, getLocaleObject, getTranslation } from '../i18n'
 import { SurveyConfig } from '../types'
 

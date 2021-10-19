@@ -1,7 +1,7 @@
 import { TwitterStat } from './types/twitter'
 import { MongoClient } from 'mongodb'
 import config from './config'
-import { getEntities } from './helpers'
+import { getEntities } from './entities'
 import { getTwitterUser, getTwitterFollowings } from './external_apis/twitter'
 
 function sleep(ms: number) {

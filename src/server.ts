@@ -8,6 +8,7 @@ import { RequestContext } from './types'
 import resolvers from './resolvers'
 import express from 'express'
 import { initLocales } from './i18n'
+import { initEntities } from './entities'
 import { analyzeTwitterFollowings } from './rpcs'
 import { clearCache } from './caching'
 
@@ -106,6 +107,7 @@ const start = async () => {
     const port = process.env.PORT || 4000
 
     await initLocales()
+    await initEntities()
 
     app.listen({ port: port }, () =>
         console.log(`🚀 Server ready at http://localhost:${port}${server.graphqlPath}`)

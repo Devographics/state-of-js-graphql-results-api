@@ -3,7 +3,7 @@ import _ from 'lodash'
 import { Db } from 'mongodb'
 import config from '../config'
 import { ratioToPercentage } from './common'
-import { getEntity } from '../helpers'
+import { getEntity } from '../entities'
 import { SurveyConfig } from '../types'
 import { ToolExperienceFilterId, toolExperienceConfigById } from './tools'
 

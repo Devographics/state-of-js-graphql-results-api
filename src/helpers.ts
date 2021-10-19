@@ -1,45 +1,14 @@
 import { EnumTypeDefinitionNode } from 'graphql'
 import typeDefs from './type_defs/schema.graphql'
-import allEntities from './data/entities/index'
+// import allEntities from './data/entities/index'
 import { RequestContext, ResolverDynamicConfig, SurveyConfig } from './types'
 import {
     computeTermAggregationAllYearsWithCache,
     computeTermAggregationSingleYearWithCache
 } from './compute'
 import { Filters } from './filters'
+import {loadOrGetEntities} from './entities'
 
-export const getEntities = ({ type, tag, tags }: { type?: string; tag?: string, tags?: string[] }) => {
-    let entities = allEntities
-    if (type) {
-        entities = entities.filter(e => e.type === type)
-    }
-    if (tag) {
-        entities = entities.filter(e => e.tags && e.tags.includes(tag))
-    }
-    if (tags) {
-        entities = entities.filter(e => tags.every(t => e.tags && e.tags.includes(t)))
-    }
-    return entities
-}
-
-// Look up entities by id, name, or aliases (case-insensitive)
-export const getEntity = ({ id }: { id: string }) => {
-    if (!id || typeof id !== 'string') {
-        return
-    }
-
-    const lowerCaseId = id.toLowerCase()
-    const entity = allEntities.find(e => {
-        return (
-            (e.id && e.id.toLowerCase() === lowerCaseId) ||
-            (e.id && e.id.toLowerCase().replace(/\-/g, '_') === lowerCaseId) ||
-            (e.name && e.name.toLowerCase() === lowerCaseId) ||
-            (e.aliases && e.aliases.find((a: string) => a.toLowerCase() === lowerCaseId))
-        )
-    })
-
-    return entity || {}
-}
 
 /**
  * Return either e.g. other_tools.browsers.choices or other_tools.browsers.others_normalized

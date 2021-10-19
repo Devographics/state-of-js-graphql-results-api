@@ -1,6 +1,5 @@
 import { EnumTypeDefinitionNode } from 'graphql'
 import { Entity, StringFile, Locale, TranslationStringObject } from './types'
-import entities from './data/entities/index'
 import typeDefs from './type_defs/schema.graphql'
 import { Octokit } from '@octokit/core'
 import fetch from 'node-fetch'
@@ -10,6 +9,7 @@ import marked from 'marked'
 import { logToFile } from './debug'
 import { readdir, readFile } from 'fs/promises'
 import last from 'lodash/last'
+import { loadOrGetEntities } from './entities'
 
 let locales: Locale[] = []
 
@@ -68,6 +68,7 @@ export const loadFromGitHub = async (localesWithRepos: any) => {
     }
     return locales
 }
+
 // when developing locally, load from local files
 export const loadLocally = async (localesWithRepos: any) => {
     let i = 0
@@ -117,25 +118,6 @@ export const loadLocales = async () => {
     console.log('// done loading locales')
 
     return locales
-}
-
-// Look up entities by id, name, or aliases (case-insensitive)
-export const getEntity = ({ id }: { id: string }) => {
-    if (!id || typeof id !== 'string') {
-        return
-    }
-
-    const lowerCaseId = id.toLowerCase()
-    const entity = entities.find(e => {
-        return (
-            (e.id && e.id.toLowerCase() === lowerCaseId) ||
-            (e.id && e.id.toLowerCase().replace(/\-/g, '_') === lowerCaseId) ||
-            (e.name && e.name.toLowerCase() === lowerCaseId) ||
-            (e.aliases && e.aliases.find((a: string) => a.toLowerCase() === lowerCaseId))
-        )
-    })
-
-    return entity || {}
 }
 
 /**
