@@ -4,6 +4,10 @@ enum EnvironmentID {
     browsers_others
     form_factors
     form_factors_others
+    accessibility_features
+    accessibility_features_others
+    what_do_you_use_css_for
+    what_do_you_use_css_for_others
     # rating based
     css_for_print
     css_for_email

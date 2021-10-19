@@ -5,6 +5,9 @@ enum ResourcesID {
     sites_courses_others
     podcasts
     podcasts_others
+    first_steps
+    first_steps_others
+    people_others
 }
 
 type YearResources {
