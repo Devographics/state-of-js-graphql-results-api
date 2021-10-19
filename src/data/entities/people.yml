@@ -40,7 +40,7 @@
     - react
     - blogs
   patterns:
-    - kent( )?c(.)?( )?dodds
+    - kent( )?c(.)?( )?do(o)?dds
 
 - id: dan_abramov
   twitterName: overreacted
@@ -1007,14 +1007,15 @@
   tags: 
     - css
 
-# - id: 
-#   name: 
-#   twitterName:
-#   homepage:
-#   blog: 
-#   rss: 
-#   tags: 
-#     - css
+- id: jens_oliver_meiert
+  name: Jens Oliver Meiert
+  twitterName: j9t
+  homepage: https://meiert.com/
+  blog: 
+  rss: 
+  tags: 
+    - css
+    - accessibility
 
 # - id: 
 #   name: 
