@@ -10,7 +10,7 @@
 
 - id: de-DE
   label: Deutsch
-  translators: [abaldeweg]
+  translators: ['abaldeweg', 'Theiaz']
   repo: StateOfJS/locale-de-DE
 
 - id: en-US
