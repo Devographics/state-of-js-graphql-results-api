@@ -56,7 +56,7 @@ export type AggregationFunction = (
     survey: SurveyConfig,
     key: string,
     options: TermAggregationOptions
-) => Promise<YearAggregations[]|WinsYearAggregations[]>
+) => Promise<any>
 
 export async function getSurveyTotals(db: Db, surveyConfig: SurveyConfig, year?: Number) {
     const collection = db.collection(config.mongo.normalized_collection)
@@ -246,8 +246,13 @@ export async function computeDefaultTermAggregationByYear(
     return resultsByYear
 }
 
+interface GroupByYearResult {
+    id: number | string
+    year: number
+}
+
 export async function groupByYears(
-    results: RawResult[],
+    results: GroupByYearResult[],
     db: Db,
     survey: SurveyConfig,
     match: any,

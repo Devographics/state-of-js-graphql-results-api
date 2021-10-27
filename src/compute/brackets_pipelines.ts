@@ -1,6 +1,7 @@
 // see https://github.com/StateOfJS/state-of-js-graphql-results-api/issues/190#issuecomment-952308689
 // thanks @thomasheyenbrock!!
-export const getWinsPipeline = (key: String) => [
+export const getWinsPipeline = (match: any, key: String) => [
+    { $match: match },
     /**
      * Reduce over the bracketResult array and determine the round. (Use $reduce
      * instead of $map in order to get a running index.)
@@ -164,26 +165,26 @@ export const getWinsPipeline = (key: String) => [
                                 100
                             ]
                         },
-                        3
+                        1
                     ]
                 }
             },
             round1: {
                 count: { $ifNull: ['$round1.count', 0] },
                 percentage: {
-                    $round: [{ $multiply: [{ $ifNull: ['$round1.percentage', null] }, 100] }, 3]
+                    $round: [{ $multiply: [{ $ifNull: ['$round1.percentage', null] }, 100] }, 1]
                 }
             },
             round2: {
                 count: { $ifNull: ['$round2.count', 0] },
                 percentage: {
-                    $round: [{ $multiply: [{ $ifNull: ['$round1.percentage', null] }, 100] }, 3]
+                    $round: [{ $multiply: [{ $ifNull: ['$round1.percentage', null] }, 100] }, 1]
                 }
             },
             round3: {
                 count: { $ifNull: ['$round3.count', 0] },
                 percentage: {
-                    $round: [{ $multiply: [{ $ifNull: ['$round1.percentage', null] }, 100] }, 3]
+                    $round: [{ $multiply: [{ $ifNull: ['$round1.percentage', null] }, 100] }, 1]
                 }
             }
         }
@@ -199,7 +200,8 @@ export const getWinsPipeline = (key: String) => [
 ]
 
 // count how many matches each item won
-export const getMatchupsPipeline = (key: String) => [
+export const getMatchupsPipeline = (match: any, key: String) => [
+    { $match: match },
     /**
      * Map over the individual matches and transform the shape.
      */
@@ -233,18 +235,19 @@ export const getMatchupsPipeline = (key: String) => [
     /**
      * Unwind the individual matches and players.
      */
-    { $unwind: '$match' },
-    { $unwind: '$match.players' },
+    { $unwind: '$matches' },
+    { $unwind: '$matches.players' },
+
     /**
      * Group by player-opponent-combination and sum up totals and wins.
      */
     {
         $project: {
-            player: '$match.players.player',
-            opponent: '$match.players.opponent',
+            player: '$matches.players.player',
+            opponent: '$matches.players.opponent',
             hasWon: {
                 $cond: {
-                    if: { $eq: ['$match.players.player', '$match.winner'] },
+                    if: { $eq: ['$matches.players.player', '$matches.winner'] },
                     then: 1,
                     else: 0
                 }
@@ -259,7 +262,7 @@ export const getMatchupsPipeline = (key: String) => [
         }
     },
     /**
-     * Calcualte the percentage.
+     * Calculate the percentage.
      */
     {
         $project: {
@@ -267,9 +270,19 @@ export const getMatchupsPipeline = (key: String) => [
             player: '$_id.player',
             opponent: '$_id.opponent',
             count: '$count',
-            percentage: { $divide: ['$count', '$totalCount'] }
+            percentage: {
+                $round: [{ $multiply: [{ $divide: ['$count', '$totalCount'] }, 100] }, 1]
+            }
         }
     },
+    /**
+     * Sort by percentage descending
+     */
+    { $sort: { percentage: -1 } },
+    /**
+     * Remove any match where the player or opponent is null
+     */
+    { $match: { player: { $ne: null }, opponent: { $ne: null } } },
     /**
      * Group by player and push an object for each opponent.
      */
@@ -285,7 +298,16 @@ export const getMatchupsPipeline = (key: String) => [
         $project: {
             _id: 0,
             id: '$_id',
-            matchups: 1
+            matchups: 1,
+            year: { $literal: 2021 }
         }
-    }
+    },
+    /**
+     * Remove any item where id is null
+     */
+    { $match: { id: { $ne: null } } },
+    /**
+     * Sort by id
+     */
+    { $sort: { id: 1 } }
 ]

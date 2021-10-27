@@ -6,6 +6,7 @@ import { computeTermAggregationByYear } from '../compute'
 import { Filters } from '../filters'
 import { Entity } from '../types'
 import { getEntities } from '../entities'
+import { YearAggregations } from '../compute/generic'
 
 const computeFeatureExperience = async (
     db: Db,
@@ -27,8 +28,7 @@ export default {
             { db }: RequestContext
         ) => {
             const allYears = await computeFeatureExperience(db, survey, id, filters)
-
-            return allYears.find(y => y.year === year)
+            return allYears.find((yearItem: YearAggregations) => yearItem.year === year)
         }
     },
     Feature: {

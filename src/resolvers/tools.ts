@@ -3,6 +3,7 @@ import { computeExperienceOverYears, computeToolsExperienceRanking } from '../co
 import { useCache } from '../caching'
 import { SurveyConfig, RequestContext } from '../types'
 import { Filters } from '../filters'
+import { YearAggregations } from '../compute/generic'
 
 interface ToolConfig {
     survey: SurveyConfig
@@ -30,7 +31,6 @@ export default {
             { db }: RequestContext
         ) => {
             const allYears = await computeToolExperience(db, survey, id, filters)
-
             return allYears.find(yearItem => yearItem.year === year)
         }
     }

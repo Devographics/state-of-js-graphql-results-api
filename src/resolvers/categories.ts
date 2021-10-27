@@ -3,6 +3,7 @@ import { computeHappinessByYear, computeTermAggregationByYear } from '../compute
 import { useCache } from '../caching'
 import { RequestContext, SurveyConfig } from '../types'
 import { Filters } from '../filters'
+import { YearAggregations } from '../compute/generic'
 
 interface CategoryConfig {
     survey: SurveyConfig
@@ -30,8 +31,7 @@ export default {
             { db }: RequestContext
         ) => {
             const allYears = await computeOtherTools(db, survey, id, filters)
-
-            return allYears.find(y => y.year === year)
+            return allYears.find((yearItem: YearAggregations) => yearItem.year === year)
         }
     },
     CategoryHappiness: {
@@ -46,8 +46,7 @@ export default {
             { db }: RequestContext
         ) => {
             const allYears = await useCache(computeHappinessByYear, db, [survey, id, filters])
-
-            return allYears.find(yearItem => yearItem.year === year)
+            return allYears.find((yearItem: YearAggregations) => yearItem.year === year)
         }
     }
 }

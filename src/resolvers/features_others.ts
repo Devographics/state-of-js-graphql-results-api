@@ -6,6 +6,7 @@ import { RequestContext, SurveyConfig } from '../types'
 import { Filters } from '../filters'
 import { Entity } from '../types'
 import { getEntities } from '../entities'
+import { YearAggregations } from '../compute/generic'
 
 interface OtherFeaturesConfig {
     survey: SurveyConfig
@@ -27,7 +28,7 @@ const computeOtherFeatures = async (
         { filters }
     ])
 
-    return otherFeaturesByYear.map(yearOtherFeatures => {
+    return otherFeaturesByYear.map((yearOtherFeatures: YearAggregations) => {
         return {
             ...yearOtherFeatures,
             buckets: yearOtherFeatures.buckets.map(bucket => {
@@ -55,7 +56,7 @@ export default {
             { db }: RequestContext
         ) => {
             const allYears = await computeOtherFeatures(db, survey, id, filters)
-            return allYears.find(y => y.year === year)
+            return allYears.find((yearItem: YearAggregations) => yearItem.year === year)
         }
     }
 }
