@@ -14,6 +14,7 @@ import surveys from './surveys'
 import totals from './totals'
 import tools from './tools'
 import otherTools from './tools_others'
+import brackets from './brackets'
 
 export default {
     ...surveys,
@@ -31,5 +32,6 @@ export default {
     ...environments,
     ...proficiency,
     ...happiness,
-    ...query
+    ...query,
+    ...brackets,
 }

@@ -1,6 +1,7 @@
 import { Db } from 'mongodb'
 import { inspect } from 'util'
-import _ from 'lodash'
+import keyBy from 'lodash/keyBy'
+import orderBy from 'lodash/orderBy'
 import config from '../config'
 import { Completion, SurveyConfig } from '../types'
 import { Filters, generateFiltersQuery } from '../filters'
@@ -8,8 +9,10 @@ import { ratioToPercentage } from './common'
 import { getEntity } from '../entities'
 import { getParticipationByYearMap } from './demographics'
 import { useCache } from '../caching'
+import uniq from 'lodash/uniq'
+import { WinsYearAggregations } from './brackets'
 
-interface TermAggregationOptions {
+export interface TermAggregationOptions {
     // filter aggregations
     filters?: Filters
     sort?: string
@@ -19,33 +22,41 @@ interface TermAggregationOptions {
     year?: number
 }
 
-interface RawResult {
+export interface RawResult {
     id: number | string
     entity?: any
     year: number
     total: number
 }
 
-interface CompletionResult {
+export interface CompletionResult {
     year: number
     total: number
 }
 
-interface TermBucket {
+export interface TermBucket {
     id: number | string
     entity?: any
     count: number
+    total: number // alias for count
     countDelta?: number
     percentage: number
     percentageDelta?: number
 }
 
-interface YearAggregations {
+export interface YearAggregations {
     year: number
     total: number
     completion: Completion
     buckets: TermBucket[]
 }
+
+export type AggregationFunction = (
+    db: Db,
+    survey: SurveyConfig,
+    key: string,
+    options: TermAggregationOptions
+) => Promise<YearAggregations[]|WinsYearAggregations[]>
 
 export async function getSurveyTotals(db: Db, surveyConfig: SurveyConfig, year?: Number) {
     const collection = db.collection(config.mongo.normalized_collection)
@@ -84,9 +95,9 @@ export async function computeCompletionByYear(
         }
     ]
 
-    const completionResults = await collection
+    const completionResults = (await collection
         .aggregate(aggregationPipeline)
-        .toArray() as CompletionResult[]
+        .toArray()) as CompletionResult[]
 
     // console.log(
     //     inspect(
@@ -98,10 +109,23 @@ export async function computeCompletionByYear(
     //     )
     // )
 
-    return _.keyBy(completionResults, 'year')
+    return keyBy(completionResults, 'year')
 }
 
+// no cutoff for now
+const addCutoff = false
+
 export async function computeTermAggregationByYear(
+    db: Db,
+    survey: SurveyConfig,
+    key: string,
+    options: TermAggregationOptions = {},
+    aggregationFunction: AggregationFunction = computeDefaultTermAggregationByYear
+) {
+    return aggregationFunction(db, survey, key, options)
+}
+
+export async function computeDefaultTermAggregationByYear(
     db: Db,
     survey: SurveyConfig,
     key: string,
@@ -123,21 +147,19 @@ export async function computeTermAggregationByYear(
         [key]: { $nin: [null, '', []] },
         ...generateFiltersQuery(filters)
     }
+    // if year is passed, restrict aggregation to specific year
+    if (year) {
+        match.year = year
+    }
 
     // console.log(match)
 
     // generate an aggregation pipeline for all years, or
     // optionally restrict it to a specific year of data
     const getAggregationPipeline = () => {
-        const aggregationMatch = { ...match }
-        // if year is passed, restrict aggregation to specific year
-        if (year) {
-            aggregationMatch.year = year
-        }
-
-        const pipeline = [
+        const pipeline: any[] = [
             {
-                $match: aggregationMatch
+                $match: match
             },
             {
                 $unwind: {
@@ -161,10 +183,12 @@ export async function computeTermAggregationByYear(
                     total: 1
                 }
             },
-            { $sort: { [sort]: order } },
-            { $match: { total: { $gt: cutoff } } },
-            { $limit: limit }
+            { $sort: { [sort]: order } }
         ]
+
+        if (addCutoff) {
+            pipeline.push({ $match: { total: { $gt: cutoff } } })
+        }
 
         // only add limit if year is specified
         if (year) {
@@ -173,77 +197,39 @@ export async function computeTermAggregationByYear(
         return pipeline
     }
 
-    const rawResults = await collection.aggregate(getAggregationPipeline()).toArray() as RawResult[] 
+    const rawResults = (await collection
+        .aggregate(getAggregationPipeline())
+        .toArray()) as RawResult[]
 
-    // console.log(
-    //     inspect(
-    //         {
-    //             match,
-    //             sampleAggregationPipeline: getAggregationPipeline(),
-    //             rawResults
-    //         },
-    //         { colors: true, depth: null }
-    //     )
-    // )
+    console.log(
+        inspect(
+            {
+                match,
+                sampleAggregationPipeline: getAggregationPipeline(),
+                rawResults
+            },
+            { colors: true, depth: null }
+        )
+    )
 
     // add entities if applicable
     const resultsWithEntity = []
     for (let result of rawResults) {
         const entity = await getEntity(result as any)
         if (entity) {
-            result = {...result, entity}
+            result = { ...result, entity }
         }
         resultsWithEntity.push(result)
     }
-
-    const totalRespondentsByYear = await getParticipationByYearMap(db, survey)
-    const completionByYear = await computeCompletionByYear(db, match)
-
+            
     // group by years and add counts
-    const resultsByYear = _.orderBy(
-        resultsWithEntity.reduce((acc: YearAggregations[], result) => {
-            let yearBucket = acc.find(b => b.year === result.year)
-            if (yearBucket === undefined) {
-                const totalRespondents = totalRespondentsByYear[result.year] ?? 0
-                const completionCount = completionByYear[result.year]?.total ?? 0
-
-                yearBucket = {
-                    year: result.year,
-                    total: totalRespondents,
-                    completion: {
-                        total: totalRespondents,
-                        count: completionCount,
-                        percentage: ratioToPercentage(completionCount / totalRespondents)
-                    },
-                    buckets: []
-                }
-
-                acc.push(yearBucket)
-            }
-
-            yearBucket.buckets.push({
-                id: result.id,
-                entity: result.entity,
-                count: result.total,
-                percentage: 0
-            })
-
-            return acc
-        }, []),
-        'year'
-    )
+    const resultsByYear = <YearAggregations[]><unknown>await groupByYears(resultsWithEntity, db, survey, match)
 
     // compute percentages
-    resultsByYear.forEach(year => {
-        let yearTotalPercents = 0
-        year.buckets.forEach(bucket => {
-            bucket.percentage = ratioToPercentage(bucket.count / year.completion.count)
-            yearTotalPercents += bucket.percentage
-        })
-    })
+    const resultsWithPercentages = computePercentages(resultsByYear)
 
     // compute deltas
-    resultsByYear.forEach((year, i) => {
+    resultsWithPercentages.forEach((year, i) => {
         const previousYear = resultsByYear[i - 1]
         if (previousYear) {
             year.buckets.forEach(bucket => {
@@ -260,22 +246,75 @@ export async function computeTermAggregationByYear(
     return resultsByYear
 }
 
+export async function groupByYears(
+    results: RawResult[],
+    db: Db,
+    survey: SurveyConfig,
+    match: any,
+) {
+    const years = uniq(results.map(r => r.year))
+
+    const totalRespondentsByYear = await getParticipationByYearMap(db, survey)
+    const completionByYear = await computeCompletionByYear(db, match)
+
+    const resultsWithYears = years.map((year: number) => {
+        const totalRespondents = totalRespondentsByYear[year] ?? 0
+        const completionCount = completionByYear[year]?.total ?? 0
+
+        const buckets = results
+            .filter(r => r.year === year)
+
+        const yearBucket = {
+            year,
+            total: totalRespondents,
+            completion: {
+                total: totalRespondents,
+                count: completionCount,
+                percentage: ratioToPercentage(completionCount / totalRespondents)
+            },
+            buckets
+        }
+        return yearBucket
+    })
+
+    return orderBy(resultsWithYears, 'year')
+}
+
+export function computePercentages (resultsByYear: YearAggregations[]) {
+    
+    resultsByYear.forEach(yearResult => {
+        yearResult.buckets.forEach(bucket => {
+            bucket.count = bucket.total
+            bucket.percentage = ratioToPercentage(bucket.count / yearResult.completion.count)
+        })
+    })
+    return resultsByYear
+}
+
 export async function computeTermAggregationAllYearsWithCache(
     db: Db,
     survey: SurveyConfig,
     id: string,
-    options: TermAggregationOptions = {}
+    options: TermAggregationOptions = {},
+    aggregationFunction?: AggregationFunction
 ) {
-    return useCache(computeTermAggregationByYear, db, [survey, id, options])
+    return useCache(computeTermAggregationByYear, db, [survey, id, options, aggregationFunction])
 }
 
 export async function computeTermAggregationSingleYear(
     db: Db,
     survey: SurveyConfig,
     key: string,
-    options: TermAggregationOptions
+    options: TermAggregationOptions,
+    aggregationFunction?: AggregationFunction
 ) {
-    const allYears = await computeTermAggregationByYear(db, survey, key, options)
+    const allYears = await computeTermAggregationByYear(
+        db,
+        survey,
+        key,
+        options,
+        aggregationFunction
+    )
     return allYears[0]
 }
 
@@ -283,7 +322,13 @@ export async function computeTermAggregationSingleYearWithCache(
     db: Db,
     survey: SurveyConfig,
     id: string,
-    options: TermAggregationOptions
+    options: TermAggregationOptions,
+    aggregationFunction?: AggregationFunction
 ) {
-    return useCache(computeTermAggregationSingleYear, db, [survey, id, options])
+    return useCache(computeTermAggregationSingleYear, db, [
+        survey,
+        id,
+        options,
+        aggregationFunction
+    ])
 }

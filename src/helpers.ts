@@ -8,6 +8,7 @@ import {
 } from './compute'
 import { Filters } from './filters'
 import { loadOrGetEntities } from './entities'
+import { TermAggregationOptions, AggregationFunction } from './compute/generic'
 
 /**
  * Return either e.g. other_tools.browsers.choices or other_tools.browsers.others_normalized
@@ -33,17 +34,17 @@ export const getGraphQLEnumValues = (name: string): string[] => {
  * @param id the field's GraphQL id
  * @param options options
  */
-export const getStaticResolvers = (id: string, options: any = {}) => ({
+export const getStaticResolvers = (id: string, options: TermAggregationOptions = {}, aggregationFunction?: AggregationFunction) => ({
     all_years: async (
         { survey, filters }: ResolverDynamicConfig,
         args: any,
         { db }: RequestContext
-    ) => computeTermAggregationAllYearsWithCache(db, survey, id, { ...options, filters }),
+    ) => computeTermAggregationAllYearsWithCache(db, survey, id, { ...options, filters }, aggregationFunction),
     year: async (
         { survey, filters }: ResolverDynamicConfig,
         { year }: { year: number },
         { db }: RequestContext
-    ) => computeTermAggregationSingleYearWithCache(db, survey, id, { ...options, filters, year })
+    ) => computeTermAggregationSingleYearWithCache(db, survey, id, { ...options, filters, year }, aggregationFunction)
 })
 
 /**
@@ -52,22 +53,39 @@ export const getStaticResolvers = (id: string, options: any = {}) => ({
  * @param getId a function that takes the field's GraphQL id and returns the db key
  * @param options options
  */
-export const getDynamicResolvers = (getId: (id: string) => string, options: any = {}) => ({
+export const getDynamicResolvers = (
+    getId: (id: string) => string,
+    options: TermAggregationOptions = {},
+    aggregationFunction?: AggregationFunction
+) => ({
     all_years: async (
         { survey, id, filters }: ResolverDynamicConfig,
         args: any,
         { db }: RequestContext
-    ) => computeTermAggregationAllYearsWithCache(db, survey, getId(id), { ...options, filters }),
+    ) =>
+        computeTermAggregationAllYearsWithCache(
+            db,
+            survey,
+            getId(id),
+            { ...options, filters },
+            aggregationFunction
+        ),
     year: async (
         { survey, id, filters }: ResolverDynamicConfig,
         { year }: { year: number },
         { db }: RequestContext
     ) =>
-        computeTermAggregationSingleYearWithCache(db, survey, getId(id), {
-            ...options,
-            filters,
-            year
-        })
+        computeTermAggregationSingleYearWithCache(
+            db,
+            survey,
+            getId(id),
+            {
+                ...options,
+                filters,
+                year
+            },
+            aggregationFunction
+        )
 })
 
 const demographicsFields = [

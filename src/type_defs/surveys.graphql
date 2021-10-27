@@ -19,6 +19,7 @@
 #import "./proficiency.graphql"
 #import "./totals.graphql"
 #import "./happiness.graphql"
+#import "./bracket.graphql"
 
 enum SurveyType {
     state_of_js
@@ -132,4 +133,9 @@ type Survey {
     Happiness data, either for a specific category or more generally
     """
     happiness(id: HappinessID!, filters: Filters): Happiness
+    """
+    Brackets
+    """
+    bracketWins(id: BracketID!, filters: Filters): BracketWins
+    bracketMatchups(id: BracketID!, filters: Filters): BracketMatchups
 }

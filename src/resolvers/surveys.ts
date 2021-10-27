@@ -21,6 +21,22 @@ export default {
         surveyName: (survey: SurveyConfig) => {
             return survey.survey
         },
+        bracketWins: (
+            survey: SurveyConfig,
+            { id, filters }: { id: string; filters?: Filters }
+        ) => ({
+            survey,
+            id,
+            filters
+        }),
+        bracketMatchups: (
+            survey: SurveyConfig,
+            { id, filters }: { id: string; filters?: Filters }
+        ) => ({
+            survey,
+            id,
+            filters
+        }),
         category: (survey: SurveyConfig, { id }: { id: string }) => ({
             survey,
             id,
