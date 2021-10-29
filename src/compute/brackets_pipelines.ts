@@ -178,13 +178,13 @@ export const getWinsPipeline = (match: any, key: String) => [
             round2: {
                 count: { $ifNull: ['$round2.count', 0] },
                 percentage: {
-                    $round: [{ $multiply: [{ $ifNull: ['$round1.percentage', null] }, 100] }, 1]
+                    $round: [{ $multiply: [{ $ifNull: ['$round2.percentage', null] }, 100] }, 1]
                 }
             },
             round3: {
                 count: { $ifNull: ['$round3.count', 0] },
                 percentage: {
-                    $round: [{ $multiply: [{ $ifNull: ['$round1.percentage', null] }, 100] }, 1]
+                    $round: [{ $multiply: [{ $ifNull: ['$round3.percentage', null] }, 100] }, 1]
                 }
             }
         }
