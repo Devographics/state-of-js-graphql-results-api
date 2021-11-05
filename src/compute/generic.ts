@@ -201,16 +201,16 @@ export async function computeDefaultTermAggregationByYear(
         .aggregate(getAggregationPipeline())
         .toArray()) as RawResult[]
 
-    console.log(
-        inspect(
-            {
-                match,
-                sampleAggregationPipeline: getAggregationPipeline(),
-                rawResults
-            },
-            { colors: true, depth: null }
-        )
-    )
+    // console.log(
+    //     inspect(
+    //         {
+    //             match,
+    //             sampleAggregationPipeline: getAggregationPipeline(),
+    //             rawResults
+    //         },
+    //         { colors: true, depth: null }
+    //     )
+    // )
 
     // add entities if applicable
     const resultsWithEntity = []

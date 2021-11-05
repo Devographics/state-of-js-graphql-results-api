@@ -51,6 +51,9 @@ enum FeatureID {
     logical_properties
     aspect_ratio
     content_visibility
+    flexbox_gap
+    break_rules
+    at_container
     # CSS shapes & graphics features
     shapes
     object_fit
@@ -59,15 +62,20 @@ enum FeatureID {
     blend_modes
     filter_effects
     backdrop_filter
+    intrinsic_sizing
+    conic_gradient
+    color_function
+    accent_color
+    color_gamut
     # CSS interactions features
     scroll_snap
     overscroll_behavior
     overflow_anchor
     touch_action
     pointer_events
+    scroll_timeline
     # CSS typography features
     web_fonts
-    variable_fonts
     line_breaking
     font_variant
     initial_letter
@@ -76,15 +84,20 @@ enum FeatureID {
     line_clamp
     leading_trim
     direction
+    variable_fonts
     # CSS animations & transforms features
     transitions
     transforms
     animations
     perspective
-    # CSS media queries features
+    # CSS accessibility features
+    prefers_reduced_data
     prefers_reduced_motion
     prefers_color_scheme
-    color_gamut
+    color_contrast
+    color_scheme
+    tabindex
+    aria_attributes
     # CSS other features
     variables
     feature_support_queries
@@ -93,6 +106,8 @@ enum FeatureID {
     calc
     houdini
     comparison_functions
+    at_property
+    marker
     # units_selectors
     px
     pt
@@ -113,7 +128,6 @@ enum FeatureID {
     first_letter
     selection
     placeholder
-    marker
     backdrop
     # combinators
     descendant

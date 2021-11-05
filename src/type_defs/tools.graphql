@@ -74,6 +74,7 @@ enum ToolID {
     less
     post_css
     stylus
+    assembler_css
     # CSS frameworks
     bootstrap
     materialize_css
@@ -88,6 +89,7 @@ enum ToolID {
     pure_css
     skeleton
     spectre_css
+    halfmoon
     # CSS methodologies
     bem
     atomic_css
@@ -108,6 +110,10 @@ enum ToolID {
     fela
     linaria
     astroturf
+    twin
+    theme_ui
+    vanilla_extract
+    windi_css
 }
 
 """
