@@ -7,6 +7,7 @@ import {
     computeTermAggregationSingleYearWithCache
 } from './compute'
 import { Filters } from './filters'
+import { Options } from './options'
 import { loadOrGetEntities } from './entities'
 import { TermAggregationOptions, AggregationFunction } from './compute/generic'
 
@@ -34,17 +35,35 @@ export const getGraphQLEnumValues = (name: string): string[] => {
  * @param id the field's GraphQL id
  * @param options options
  */
-export const getStaticResolvers = (id: string, options: TermAggregationOptions = {}, aggregationFunction?: AggregationFunction) => ({
+export const getStaticResolvers = (
+    id: string,
+    options: TermAggregationOptions = {},
+    aggregationFunction?: AggregationFunction
+) => ({
     all_years: async (
-        { survey, filters }: ResolverDynamicConfig,
+        { survey, filters, options: queryOptions }: ResolverDynamicConfig,
         args: any,
         { db }: RequestContext
-    ) => computeTermAggregationAllYearsWithCache(db, survey, id, { ...options, filters }, aggregationFunction),
+    ) =>
+        computeTermAggregationAllYearsWithCache(
+            db,
+            survey,
+            id,
+            { ...options, ...queryOptions, filters },
+            aggregationFunction
+        ),
     year: async (
-        { survey, filters }: ResolverDynamicConfig,
+        { survey, filters, options: queryOptions }: ResolverDynamicConfig,
         { year }: { year: number },
         { db }: RequestContext
-    ) => computeTermAggregationSingleYearWithCache(db, survey, id, { ...options, filters, year }, aggregationFunction)
+    ) =>
+        computeTermAggregationSingleYearWithCache(
+            db,
+            survey,
+            id,
+            { ...options, ...queryOptions, filters, year },
+            aggregationFunction
+        )
 })
 
 /**
@@ -59,7 +78,7 @@ export const getDynamicResolvers = (
     aggregationFunction?: AggregationFunction
 ) => ({
     all_years: async (
-        { survey, id, filters }: ResolverDynamicConfig,
+        { survey, id, filters, options: queryOptions }: ResolverDynamicConfig,
         args: any,
         { db }: RequestContext
     ) =>
@@ -67,11 +86,11 @@ export const getDynamicResolvers = (
             db,
             survey,
             getId(id),
-            { ...options, filters },
+            { ...options, ...queryOptions, filters },
             aggregationFunction
         ),
     year: async (
-        { survey, id, filters }: ResolverDynamicConfig,
+        { survey, id, filters, options: queryOptions }: ResolverDynamicConfig,
         { year }: { year: number },
         { db }: RequestContext
     ) =>
@@ -81,6 +100,7 @@ export const getDynamicResolvers = (
             getId(id),
             {
                 ...options,
+                ...queryOptions,
                 filters,
                 year
             },
@@ -115,9 +135,10 @@ const demographicsFields = [
 export const getDemographicsResolvers = (survey: SurveyConfig) => {
     const resolvers: any = {}
     demographicsFields.forEach(field => {
-        resolvers[field] = ({ filters }: { filters: Filters }) => ({
+        resolvers[field] = ({ filters, options }: { filters: Filters; options: Options }) => ({
             survey,
-            filters
+            filters,
+            options
         })
     })
     return resolvers

@@ -1,3 +1,5 @@
+#import "./facets.graphql"
+#import "./options.graphql"
 #import "./filters.graphql"
 #import "./categories.graphql"
 #import "./demographics.graphql"
@@ -106,7 +108,7 @@ type Survey {
     """
     Resources (sites, blogs, podcasts, etc.)
     """
-    resources(id: ResourcesID!, filters: Filters): Resources
+    resources(id: ResourcesID!, filters: Filters, options: Options): Resources
     """
     Data about a specific tool category
     """

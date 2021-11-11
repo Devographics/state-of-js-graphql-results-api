@@ -10,6 +10,7 @@ import { getEntity } from '../entities'
 import { getParticipationByYearMap } from './demographics'
 import { useCache } from '../caching'
 import uniq from 'lodash/uniq'
+import sortBy from 'lodash/sortBy'
 import { WinsYearAggregations } from './brackets'
 
 export interface TermAggregationOptions {
@@ -20,13 +21,14 @@ export interface TermAggregationOptions {
     cutoff?: number
     limit?: number
     year?: number
+    values?: string[]
 }
 
 export interface RawResult {
     id: number | string
     entity?: any
     year: number
-    total: number
+    count: number
 }
 
 export interface CompletionResult {
@@ -38,7 +40,6 @@ export interface TermBucket {
     id: number | string
     entity?: any
     count: number
-    total: number // alias for count
     countDelta?: number
     percentage: number
     percentageDelta?: number
@@ -112,9 +113,6 @@ export async function computeCompletionByYear(
     return keyBy(completionResults, 'year')
 }
 
-// no cutoff for now
-const addCutoff = false
-
 export async function computeTermAggregationByYear(
     db: Db,
     survey: SurveyConfig,
@@ -135,11 +133,12 @@ export async function computeDefaultTermAggregationByYear(
 
     const {
         filters,
-        sort = 'total',
+        sort = 'count',
         order = -1,
         cutoff = 10,
         limit = 25,
-        year
+        year,
+        values
     }: TermAggregationOptions = options
 
     const match: any = {
@@ -172,7 +171,7 @@ export async function computeDefaultTermAggregationByYear(
                         id: `$${key}`,
                         year: '$year'
                     },
-                    total: { $sum: 1 }
+                    count: { $sum: 1 }
                 }
             },
             {
@@ -180,14 +179,14 @@ export async function computeDefaultTermAggregationByYear(
                     _id: 0,
                     id: '$_id.id',
                     year: '$_id.year',
-                    total: 1
+                    count: 1
                 }
             },
             { $sort: { [sort]: order } }
         ]
 
-        if (addCutoff) {
-            pipeline.push({ $match: { total: { $gt: cutoff } } })
+        if (cutoff) {
+            pipeline.push({ $match: { count: { $gt: cutoff } } })
         }
 
         // only add limit if year is specified
@@ -221,9 +220,11 @@ export async function computeDefaultTermAggregationByYear(
         }
         resultsWithEntity.push(result)
     }
-            
-    // group by years and add counts
-    const resultsByYear = <YearAggregations[]><unknown>await groupByYears(resultsWithEntity, db, survey, match)
+
+    // group by years and add counts, and also sort buckets
+    const resultsByYear = <YearAggregations[]>(
+        (<unknown>await groupByYears(resultsWithEntity, db, survey, match, values))
+    )
 
     // compute percentages
     const resultsWithPercentages = computePercentages(resultsByYear)
@@ -243,11 +244,11 @@ export async function computeDefaultTermAggregationByYear(
         }
     })
 
-    return resultsByYear
+    return resultsWithPercentages
 }
 
 interface GroupByYearResult {
-    id: number | string
+    id: string | number
     year: number
 }
 
@@ -256,6 +257,7 @@ export async function groupByYears(
     db: Db,
     survey: SurveyConfig,
     match: any,
+    values?: string[] | number[]
 ) {
     const years = uniq(results.map(r => r.year))
 
@@ -266,10 +268,18 @@ export async function groupByYears(
         const totalRespondents = totalRespondentsByYear[year] ?? 0
         const completionCount = completionByYear[year]?.total ?? 0
 
-        const buckets = results
-            .filter(r => r.year === year)
+        let yearBuckets = results.filter(r => r.year === year)
 
-        const yearBucket = {
+        // if a list of valid values is provided, make sure the bucket uses the same ordering
+        if (values) {
+            yearBuckets = [...yearBuckets].sort((a, b) => {
+                // make sure everything is a string to avoid type mismatches
+                const stringValues = values.map(v => v.toString())
+                return stringValues.indexOf(a.id.toString()) - stringValues.indexOf(b.id.toString())
+            })
+        }
+
+        const yearObject = {
             year,
             total: totalRespondents,
             completion: {
@@ -277,19 +287,23 @@ export async function groupByYears(
                 count: completionCount,
                 percentage: ratioToPercentage(completionCount / totalRespondents)
             },
-            buckets
+            buckets: yearBuckets
         }
-        return yearBucket
+        return yearObject
     })
 
     return orderBy(resultsWithYears, 'year')
 }
 
-export function computePercentages (resultsByYear: YearAggregations[]) {
-    
+export function sortbyValues(resultsByYear: YearAggregations[], values: string[]) {
+    console.log(resultsByYear)
+    const sortedResults = resultsByYear
+    return sortedResults
+}
+
+export function computePercentages(resultsByYear: YearAggregations[]) {
     resultsByYear.forEach(yearResult => {
         yearResult.buckets.forEach(bucket => {
-            bucket.count = bucket.total
             bucket.percentage = ratioToPercentage(bucket.count / yearResult.completion.count)
         })
     })

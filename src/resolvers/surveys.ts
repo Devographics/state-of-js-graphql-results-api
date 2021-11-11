@@ -2,6 +2,7 @@ import { getGraphQLEnumValues, getDemographicsResolvers } from '../helpers'
 import { getEntity } from '../entities'
 import { RequestContext, SurveyConfig } from '../types'
 import { Filters } from '../filters'
+import { Options } from '../options'
 import {
     computeToolExperienceGraph,
     computeToolsCardinalityByUser,
@@ -12,6 +13,12 @@ import { useCache } from '../caching'
 const toolIds = getGraphQLEnumValues('ToolID')
 const featureIds = getGraphQLEnumValues('FeatureID')
 
+export interface ResolverArguments {
+    id: string
+    filters?: Filters
+    options?: Options
+}
+
 /**
  * Please maintain the same order as the one shown in the explorer,
  * it makes it easier to find a specific query and ensures consistency.
@@ -21,21 +28,13 @@ export default {
         surveyName: (survey: SurveyConfig) => {
             return survey.survey
         },
-        bracketWins: (
-            survey: SurveyConfig,
-            { id, filters }: { id: string; filters?: Filters }
-        ) => ({
+        bracketWins: (survey: SurveyConfig, args: ResolverArguments) => ({
             survey,
-            id,
-            filters
+            ...args
         }),
-        bracketMatchups: (
-            survey: SurveyConfig,
-            { id, filters }: { id: string; filters?: Filters }
-        ) => ({
+        bracketMatchups: (survey: SurveyConfig, args: ResolverArguments) => ({
             survey,
-            id,
-            filters
+            ...args
         }),
         category: (survey: SurveyConfig, { id }: { id: string }) => ({
             survey,
@@ -55,21 +54,13 @@ export default {
             participation: { survey },
             ...getDemographicsResolvers(survey)
         }),
-        environments: (
-            survey: SurveyConfig,
-            { id, filters }: { id: string; filters?: Filters }
-        ) => ({
+        environments: (survey: SurveyConfig, args: ResolverArguments) => ({
             survey,
-            id,
-            filters
+            ...args
         }),
-        environments_ratings: (
-            survey: SurveyConfig,
-            { id, filters }: { id: string; filters?: Filters }
-        ) => ({
+        environments_ratings: (survey: SurveyConfig, args: ResolverArguments) => ({
             survey,
-            id,
-            filters
+            ...args
         }),
         feature: (survey: SurveyConfig, { id }: { id: string }) => ({
             survey,
@@ -98,39 +89,28 @@ export default {
             id,
             filters
         }),
-        happiness: (survey: SurveyConfig, { id, filters }: { id: string; filters?: Filters }) => ({
+        happiness: (survey: SurveyConfig, args: ResolverArguments) => ({
             survey,
-            id,
-            filters
+            ...args
         }),
         matrices: (survey: SurveyConfig) => ({
             survey
         }),
-        opinion: (survey: SurveyConfig, { id, filters }: { id: string; filters?: Filters }) => ({
+        opinion: (survey: SurveyConfig, args: ResolverArguments) => ({
             survey,
-            id,
-            filters
+            ...args
         }),
-        opinions_others: (
-            survey: SurveyConfig,
-            { id, filters }: { id: string; filters?: Filters }
-        ) => ({
+        opinions_others: (survey: SurveyConfig, args: ResolverArguments) => ({
             survey,
-            id,
-            filters
+            ...args
         }),
-        proficiency: (
-            survey: SurveyConfig,
-            { id, filters }: { id: string; filters?: Filters }
-        ) => ({
+        proficiency: (survey: SurveyConfig, args: ResolverArguments) => ({
             survey,
-            id,
-            filters
+            ...args
         }),
-        resources: (survey: SurveyConfig, { id, filters }: { id: string; filters?: Filters }) => ({
+        resources: (survey: SurveyConfig, args: ResolverArguments) => ({
             survey,
-            id,
-            filters
+            ...args
         }),
         tool: async (survey: SurveyConfig, { id }: { id: string }) => ({
             survey,
@@ -173,13 +153,9 @@ export default {
             },
             context: RequestContext
         ) => useCache(computeToolsCardinalityByUser, context.db, [survey, year, ids, experienceId]),
-        tools_others: (
-            survey: SurveyConfig,
-            { id, filters }: { id: string; filters?: Filters }
-        ) => ({
+        tools_others: (survey: SurveyConfig, args: ResolverArguments) => ({
             survey,
-            id,
-            filters
+            ...args
         }),
         tools_rankings: (
             survey: SurveyConfig,

@@ -30,6 +30,11 @@ type YearOpinion {
     Total number of respondents who have answered this specific question.
     """
     total: Int
+    """
+    Mean opinion score for the year, please note that despite the
+    opinion indices starts at 0, the average is computed from 1.
+    """
+    mean: Float
     completion: Completion
     buckets: [OpinionBucket]
 }

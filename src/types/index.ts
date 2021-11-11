@@ -1,6 +1,7 @@
 import { Db } from 'mongodb'
 import { SurveyType } from './surveys'
 import { Filters } from '../filters'
+import { Options } from '../options'
 
 /**
  * This context is injected in each and every requests.
@@ -22,6 +23,7 @@ export interface ResolverDynamicConfig {
     survey: SurveyConfig
     id: string
     filters?: Filters
+    options?: Options
 }
 
 export * from './demographics'

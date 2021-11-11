@@ -155,6 +155,8 @@ enum RaceEthnicityID {
     native_american_islander_australian
     south_asian
     white_european
+    south_east_asian
+    not_listed
 }
 
 type RaceEthnicityBucket {
@@ -359,6 +361,8 @@ type KnowledgeScoreBucket {
 
 type YearKnowledgeScore {
     year: Int
+    total: Int
+    completion: Completion
     buckets: [KnowledgeScoreBucket]
 }
 
@@ -456,65 +460,65 @@ type Demographics {
     """
     Age
     """
-    age(filters: Filters): Age
+    age(filters: Filters, options: Options): Age
     """
     Country
     """
-    country(filters: Filters): Country
+    country(filters: Filters, options: Options): Country
     """
     Locale
     """
-    locale(filters: Filters): LocaleStats
+    locale(filters: Filters, options: Options): LocaleStats
     """
     How respondents found the survey
     """
-    source(filters: Filters): Source
+    source(filters: Filters, options: Options): Source
     """
     Participants count
     """
-    participation(filters: Filters): Participation
+    participation(filters: Filters, options: Options): Participation
     """
     Gender
     """
-    gender(filters: Filters): Gender
+    gender(filters: Filters, options: Options): Gender
     """
     Race & Ethnicity
     """
-    race_ethnicity(filters: Filters): RaceEthnicity
+    race_ethnicity(filters: Filters, options: Options): RaceEthnicity
     """
     Salary
     """
-    yearly_salary(filters: Filters): Salary
+    yearly_salary(filters: Filters, options: Options): Salary
     """
     Company size
     """
-    company_size(filters: Filters): CompanySize
+    company_size(filters: Filters, options: Options): CompanySize
     """
     Work experience as a developer
     """
-    years_of_experience(filters: Filters): WorkExperience
+    years_of_experience(filters: Filters, options: Options): WorkExperience
     """
     Job title
     """
-    job_title(filters: Filters): JobTitle
+    job_title(filters: Filters, options: Options): JobTitle
     """
     Industry Sector
     """
-    industry_sector(filters: Filters): IndustrySector
+    industry_sector(filters: Filters, options: Options): IndustrySector
     """
     Knowledge Score
     """
-    knowledge_score(filters: Filters): KnowledgeScore
+    knowledge_score(filters: Filters, options: Options): KnowledgeScore
     """
     Higher Education Degree
     """
-    higher_education_degree(filters: Filters): HigherEducationDegree
+    higher_education_degree(filters: Filters, options: Options): HigherEducationDegree
     """
     Disability Status
     """
-    disability_status(filters: Filters): DisabilityStatus
+    disability_status(filters: Filters, options: Options): DisabilityStatus
     """
     Disability Status (Other)
     """
-    disability_status_other(filters: Filters): OtherDisabilityStatus
+    disability_status_other(filters: Filters, options: Options): OtherDisabilityStatus
 }
