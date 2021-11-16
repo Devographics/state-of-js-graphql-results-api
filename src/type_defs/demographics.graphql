@@ -32,11 +32,11 @@ type AgeBucket {
     percentageOfTotal: Float
 }
 
-# type AgeFacet {
-#     type: Facet
-#     id: String
-#     buckets: [AgeBucket]
-# }
+type AgeFacet {
+    type: Facet
+    id: String
+    buckets: [AgeBucket]
+}
 
 type YearAge {
     year: Int
@@ -45,8 +45,7 @@ type YearAge {
     """
     total: Int
     completion: Completion
-    buckets: [AgeBucket]
-    # facets: [AgeFacet]
+    facets: [AgeFacet]
 }
 
 type Age {
@@ -64,11 +63,17 @@ type CountryBucket {
     percentageOfTotal: Float
 }
 
+type CountryFacet {
+    type: Facet
+    id: String
+    buckets: [CountryBucket]
+}
+
 type YearCountry {
     year: Int
     total: Int
     completion: Completion
-    buckets: [CountryBucket]
+    facets: [CountryFacet]
 }
 
 type Country {
@@ -86,11 +91,17 @@ type LocaleBucket {
     percentageOfTotal: Float
 }
 
+type LocaleFacet {
+    type: Facet
+    id: String
+    buckets: [LocaleBucket]
+}
+
 type YearLocale {
     year: Int
     total: Int
     completion: Completion
-    buckets: [LocaleBucket]
+    facets: [LocaleFacet]
 }
 
 type LocaleStats {
@@ -109,11 +120,17 @@ type SourceBucket {
     entity: Entity
 }
 
+type SourceFacet {
+    type: Facet
+    id: String
+    buckets: [SourceBucket]
+}
+
 type YearSource {
     year: Int
     total: Int
     completion: Completion
-    buckets: [SourceBucket]
+    facets: [SourceFacet]
 }
 
 type Source {
@@ -139,6 +156,12 @@ type GenderBucket {
     percentageOfTotal: Float
 }
 
+type GenderFacet {
+    type: Facet
+    id: String
+    buckets: [GenderBucket]
+}
+
 type YearGender {
     year: Int
     """
@@ -146,7 +169,7 @@ type YearGender {
     """
     total: Int
     completion: Completion
-    buckets: [GenderBucket]
+    facets: [GenderFacet]
 }
 
 type Gender {
@@ -178,6 +201,12 @@ type RaceEthnicityBucket {
     percentageOfTotal: Float
 }
 
+type RaceEthnicityFacet {
+    type: Facet
+    id: String
+    buckets: [RaceEthnicityBucket]
+}
+
 type YearRaceEthnicity {
     year: Int
     """
@@ -185,7 +214,7 @@ type YearRaceEthnicity {
     """
     total: Int
     completion: Completion
-    buckets: [RaceEthnicityBucket]
+    facets: [RaceEthnicityFacet]
 }
 
 type RaceEthnicity {
@@ -213,6 +242,12 @@ type SalaryBucket {
     percentageOfTotal: Float
 }
 
+type SalaryFacet {
+    type: Facet
+    id: String
+    buckets: [SalaryBucket]
+}
+
 type YearSalary {
     year: Int
     """
@@ -220,7 +255,7 @@ type YearSalary {
     """
     total: Int
     completion: Completion
-    buckets: [SalaryBucket]
+    facets: [SalaryFacet]
 }
 
 type Salary {
@@ -249,6 +284,12 @@ type CompanySizeBucket {
     percentageOfTotal: Float
 }
 
+type CompanySizeFacet {
+    type: Facet
+    id: String
+    buckets: [CompanySizeBucket]
+}
+
 type YearCompanySize {
     year: Int
     """
@@ -256,7 +297,7 @@ type YearCompanySize {
     """
     total: Int
     completion: Completion
-    buckets: [CompanySizeBucket]
+    facets: [CompanySizeFacet]
 }
 
 type CompanySize {
@@ -283,6 +324,12 @@ type WorkExperienceBucket {
     percentageOfTotal: Float
 }
 
+type WorkExperienceFacet {
+    type: Facet
+    id: String
+    buckets: [WorkExperienceBucket]
+}
+
 type YearWorkExperience {
     year: Int
     """
@@ -290,7 +337,7 @@ type YearWorkExperience {
     """
     total: Int
     completion: Completion
-    buckets: [WorkExperienceBucket]
+    facets: [WorkExperienceFacet]
 }
 
 type WorkExperience {
@@ -319,11 +366,17 @@ type JobTitleBucket {
     percentageOfTotal: Float
 }
 
+type JobTitleFacet {
+    type: Facet
+    id: String
+    buckets: [JobTitleBucket]
+}
+
 type YearJobTitle {
     year: Int
     total: Int
     completion: Completion
-    buckets: [JobTitleBucket]
+    facets: [JobTitleFacet]
 }
 
 type JobTitle {
@@ -356,11 +409,17 @@ type IndustrySectorBucket {
     percentageOfTotal: Float
 }
 
+type IndustrySectorFacet {
+    type: Facet
+    id: String
+    buckets: [IndustrySectorBucket]
+}
+
 type YearIndustrySector {
     year: Int
     total: Int
     completion: Completion
-    buckets: [IndustrySectorBucket]
+    facets: [JobTitleFacet]
 }
 
 type IndustrySector {
@@ -378,11 +437,17 @@ type KnowledgeScoreBucket {
     percentageOfTotal: Float
 }
 
+type KnowledgeScoreFacet {
+    type: Facet
+    id: String
+    buckets: [KnowledgeScoreBucket]
+}
+
 type YearKnowledgeScore {
     year: Int
     total: Int
     completion: Completion
-    buckets: [KnowledgeScoreBucket]
+    facets: [KnowledgeScoreFacet]
 }
 
 type KnowledgeScore {
@@ -406,6 +471,12 @@ type HigherEducationDegreeBucket {
     percentageOfTotal: Float
 }
 
+type HigherEducationDegreeFacet {
+    type: Facet
+    id: String
+    buckets: [HigherEducationDegreeBucket]
+}
+
 type YearHigherEducationDegree {
     year: Int
     """
@@ -413,7 +484,7 @@ type YearHigherEducationDegree {
     """
     total: Int
     completion: Completion
-    buckets: [HigherEducationDegreeBucket]
+    facets: [HigherEducationDegreeFacet]
 }
 
 type HigherEducationDegree {
@@ -439,6 +510,12 @@ type DisabilityStatusBucket {
     percentageOfTotal: Float
 }
 
+type DisabilityStatusFacet {
+    type: Facet
+    id: String
+    buckets: [DisabilityStatusBucket]
+}
+
 type YearDisabilityStatus {
     year: Int
     """
@@ -446,7 +523,7 @@ type YearDisabilityStatus {
     """
     total: Int
     completion: Completion
-    buckets: [DisabilityStatusBucket]
+    buckets: [HigherEducationDegreeFacet]
 }
 
 type DisabilityStatus {

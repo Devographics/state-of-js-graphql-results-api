@@ -119,7 +119,7 @@ export const getEntities = async ({ type, tag, tags }: { type?: string; tag?: st
 }
 
 // Look up entities by id, name, or aliases (case-insensitive)
-export const getEntity = async ({ id }: { id: string }) => {
+export const getEntity = async ({ id }: { id: string | number }) => {
   const entities = await loadOrGetEntities()
 
   if (!id || typeof id !== 'string') {
@@ -136,5 +136,5 @@ export const getEntity = async ({ id }: { id: string }) => {
       )
   })
 
-  return entity || {}
+  return entity
 }

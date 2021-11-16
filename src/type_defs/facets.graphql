@@ -1,6 +1,4 @@
-enum Facet {
-    default
-    
+enum Facet {    
     gender
     country
     race_ethnicity
@@ -9,4 +7,5 @@ enum Facet {
     years_of_experience
     source
     industry_sector
+    higher_education_degree
 }

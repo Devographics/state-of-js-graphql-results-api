@@ -25,6 +25,16 @@ type Entity {
 }
 
 """
+A facet associated with a set of entities.
+"""
+type EntityFacet {
+    type: Facet
+    id: String
+    buckets: [EntityBucket]
+    entity: Entity
+}
+
+"""
 A datapoint associated with a given entity.
 """
 type EntityBucket {

@@ -17,7 +17,7 @@ type YearResources {
     """
     total: Int
     completion: Completion
-    buckets: [EntityBucket]
+    facets: [EntityFacet]
 }
 
 type Resources {

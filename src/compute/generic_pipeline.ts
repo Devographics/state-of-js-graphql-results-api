@@ -16,6 +16,9 @@ export type PipelineProps = {
 export const getGenericPipeline = (pipelineProps: PipelineProps) => {
     const { survey, filters, key, facet, fieldId, year, limit } = pipelineProps
 
+    // make exception for source since its path is different
+    const facetPath = facet === 'source' ? 'source.normalized' : facet
+
     const match: any = {
         survey,
         [key]: { $nin: [null, '', []] },
@@ -41,7 +44,7 @@ export const getGenericPipeline = (pipelineProps: PipelineProps) => {
             $group: {
                 _id: {
                     year: '$year',
-                    ...(facet && {[facet]: `$user_info.${facet}`}),
+                    ...(facet && {[facet]: `$user_info.${facetPath}`}),
                     [fieldId]: `$${key}`
                 },
                 count: {
@@ -57,7 +60,7 @@ export const getGenericPipeline = (pipelineProps: PipelineProps) => {
                 },
                 buckets: {
                     $push: {
-                        [fieldId]: `$_id.${fieldId}`,
+                        id: `$_id.${fieldId}`,
                         count: '$count'
                     }
                 }

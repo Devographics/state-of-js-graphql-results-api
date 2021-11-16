@@ -3,7 +3,7 @@ import { inspect } from 'util'
 import keyBy from 'lodash/keyBy'
 import orderBy from 'lodash/orderBy'
 import config from '../config'
-import { Completion, SurveyConfig, YearParticipation } from '../types'
+import { Completion, SurveyConfig, YearParticipation, Entity } from '../types'
 import { Filters, generateFiltersQuery } from '../filters'
 import { Facet } from '../facets'
 import { ratioToPercentage } from './common'
@@ -27,9 +27,29 @@ export interface TermAggregationOptions {
     facet?: Facet
 }
 
+export interface ResultsByYear {
+    year: number
+    facets: FacetItem[]
+    completion: Completion
+}
+export interface FacetItem {
+    type: Facet
+    id: number | string
+    buckets: BucketItem[]
+    entity?: Entity
+}
+
+export interface BucketItem {
+    id: number | string
+    count: number
+    percentage?: number
+    percentageOfTotal?: number
+    entity?: Entity
+}
+
 export interface RawResult {
     id: number | string
-    entity?: any
+    entity?: Entity
     year: number
     count: number
 }
@@ -145,7 +165,7 @@ export async function computeDefaultTermAggregationByYear(
         cutoff = 10,
         limit = 25,
         year,
-        facet = 'default',
+        facet,
         values
     }: TermAggregationOptions = options
 
@@ -180,7 +200,7 @@ export async function computeDefaultTermAggregationByYear(
 
     const rawResults = (await collection
         .aggregate(getGenericPipeline(pipelineProps))
-        .toArray()) as RawResult[]
+        .toArray()) as ResultsByYear[]
 
     console.log(
         inspect(
@@ -193,50 +213,21 @@ export async function computeDefaultTermAggregationByYear(
         )
     )
 
-    // add entities if applicable
-    const resultsWithEntity = []
-    for (let result of rawResults) {
-        const entity = await getEntity(result as any)
-        if (entity) {
-            result = { ...result, entity }
-        }
-        resultsWithEntity.push(result)
-    }
+    let results = rawResults
 
-    // group by years and add counts, and also sort buckets
-    const resultsByYear = <YearAggregations[]>(
-        (<unknown>(
-            await groupByYears(
-                resultsWithEntity,
-                db,
-                survey,
-                match,
-                totalRespondentsByYear,
-                completionByYear,
-                values
-            )
-        ))
-    )
+    await addEntities(results)
 
-    // compute percentages
-    const resultsWithPercentages = computePercentages(resultsByYear)
+    await addCompletionCounts(results, totalRespondentsByYear, completionByYear)
 
-    // compute deltas
-    resultsWithPercentages.forEach((year, i) => {
-        const previousYear = resultsByYear[i - 1]
-        if (previousYear) {
-            year.buckets.forEach(bucket => {
-                const previousYearBucket = previousYear.buckets.find(b => b.id === bucket.id)
-                if (previousYearBucket) {
-                    bucket.countDelta = bucket.count - previousYearBucket.count
-                    bucket.percentageDelta =
-                        Math.round(100 * (bucket.percentage - previousYearBucket.percentage)) / 100
-                }
-            })
-        }
-    })
+    await addPercentages(results)
 
-    return resultsWithPercentages
+    // await addDeltas(results)
+
+    await sortResults(results, values)
+
+    console.log(JSON.stringify(results, undefined, 2))
+
+    return results
 }
 
 interface GroupByYearResult {
@@ -244,6 +235,94 @@ interface GroupByYearResult {
     year: number
 }
 
+// add entities to facet and bucket items if applicable
+export async function addEntities(resultsByYears: ResultsByYear[]) {
+    for (let year of resultsByYears) {
+        for (let facet of year.facets) {
+            const facetEntity = await getEntity(facet)
+            if (facetEntity) {
+                facet.entity = facetEntity
+            }
+            for (let bucket of facet.buckets) {
+                const bucketEntity = await getEntity(bucket)
+                if (bucketEntity) {
+                    bucket.entity = bucketEntity
+                }
+            }
+        }
+    }
+}
+
+// add completion counts for each year
+export async function addCompletionCounts(
+    resultsByYears: ResultsByYear[],
+    totalRespondentsByYear: {
+        [key: number]: number
+    },
+    completionByYear: Record<number, CompletionResult>
+) {
+    for (let yearObject of resultsByYears) {
+        const totalRespondents = totalRespondentsByYear[yearObject.year] ?? 0
+        const completionCount = completionByYear[yearObject.year]?.total ?? 0
+        yearObject.completion = {
+            total: totalRespondents,
+            count: completionCount,
+            percentage: ratioToPercentage(completionCount / totalRespondents)
+        }
+    }
+}
+
+// add percentages relative to question respondents and survey respondents
+export async function addPercentages(resultsByYears: ResultsByYear[]) {
+    for (let year of resultsByYears) {
+        for (let facet of year.facets) {
+            for (let bucket of facet.buckets) {
+                bucket.percentage = ratioToPercentage(bucket.count / year.completion.count)
+                bucket.percentageOfTotal = ratioToPercentage(bucket.count / year.completion.total)
+            }
+        }
+    }
+}
+
+// TODO ? or else remove this
+export async function addDeltas(resultsByYears: ResultsByYear[]) {
+    
+    // // compute deltas
+    // resultsWithPercentages.forEach((year, i) => {
+    //     const previousYear = resultsByYear[i - 1]
+    //     if (previousYear) {
+    //         year.buckets.forEach(bucket => {
+    //             const previousYearBucket = previousYear.buckets.find(b => b.id === bucket.id)
+    //             if (previousYearBucket) {
+    //                 bucket.countDelta = bucket.count - previousYearBucket.count
+    //                 bucket.percentageDelta =
+    //                     Math.round(100 * (bucket.percentage - previousYearBucket.percentage)) / 100
+    //             }
+    //         })
+    //     }
+    // })
+}
+
+export async function sortResults(resultsByYears: ResultsByYear[], values?: string[] | number[]) {
+    for (let year of resultsByYears) {
+        for (let facet of year.facets) {
+            if (values) {
+                facet.buckets = [...facet.buckets].sort((a, b) => {
+                    // make sure everything is a string to avoid type mismatches
+                    const stringValues = values.map(v => v.toString())
+                    return (
+                        stringValues.indexOf(a.id.toString()) -
+                        stringValues.indexOf(b.id.toString())
+                    )
+                })
+            }
+        }
+    }
+}
+
+
+
+// not used anymore?
 export async function groupByYears(
     results: GroupByYearResult[],
     db: Db,

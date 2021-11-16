@@ -79,7 +79,7 @@ export const getDynamicResolvers = (
     aggregationFunction?: AggregationFunction
 ) => ({
     all_years: async (
-        { survey, id, filters, options: queryOptions }: ResolverDynamicConfig,
+        { survey, id, filters, options: queryOptions, facet }: ResolverDynamicConfig,
         args: any,
         { db }: RequestContext
     ) =>
@@ -87,11 +87,11 @@ export const getDynamicResolvers = (
             db,
             survey,
             getId(id),
-            { ...options, ...queryOptions, filters },
+            { ...options, ...queryOptions, filters, facet },
             aggregationFunction
         ),
     year: async (
-        { survey, id, filters, options: queryOptions }: ResolverDynamicConfig,
+        { survey, id, filters, options: queryOptions, facet }: ResolverDynamicConfig,
         { year }: { year: number },
         { db }: RequestContext
     ) =>
@@ -103,6 +103,7 @@ export const getDynamicResolvers = (
                 ...options,
                 ...queryOptions,
                 filters,
+                facet,
                 year
             },
             aggregationFunction

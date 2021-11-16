@@ -68,7 +68,7 @@ type Survey {
     """
     Other tools (browsers, editors, etc.)
     """
-    tools_others(id: OtherToolsID!, filters: Filters, options: Options): OtherTools
+    tools_others(id: OtherToolsID!, filters: Filters, options: Options, facet: Facet): OtherTools
     """
     Rankings (awareness, interest, satisfaction) for a range of tools
     """
@@ -92,7 +92,7 @@ type Survey {
     """
     Choice based features
     """
-    features_others(id: OtherFeaturesID!, filters: Filters, options: Options): OtherFeatures
+    features_others(id: OtherFeaturesID!, filters: Filters, options: Options, facet: Facet): OtherFeatures
     """
     Demographics data (gender, company size, salary, etc.)
     """
@@ -100,7 +100,7 @@ type Survey {
     """
     Opinions data
     """
-    opinion(id: OpinionID!, filters: Filters, options: Options): Opinion
+    opinion(id: OpinionID!, filters: Filters, options: Options, facet: Facet): Opinion
     """
     Opinions data
     """
@@ -108,7 +108,7 @@ type Survey {
     """
     Resources (sites, blogs, podcasts, etc.)
     """
-    resources(id: ResourcesID!, filters: Filters, options: Options): Resources
+    resources(id: ResourcesID!, filters: Filters, options: Options, facet: Facet): Resources
     """
     Data about a specific tool category
     """
@@ -122,7 +122,7 @@ type Survey {
     such as browsers, form factors... Only contain predifined
     choices, freeform answers are stored in `environmentsOthers`.
     """
-    environments(id: EnvironmentID!, filters: Filters, options: Options): Environments
+    environments(id: EnvironmentID!, filters: Filters, options: Options, facet: Facet): Environments
     """
     Environments data, for those based on rating, such as css for emails...
     """
