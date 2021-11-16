@@ -31,5 +31,6 @@ type EntityBucket {
     id: String
     count: Int
     percentage: Float
+    percentageOfTotal: Float
     entity: Entity
 }

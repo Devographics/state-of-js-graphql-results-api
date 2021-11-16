@@ -22,6 +22,7 @@ type OpinionBucket {
     id: Int
     count: Int
     percentage: Float
+    percentageOfTotal: Float
 }
 
 type YearOpinion {

@@ -191,6 +191,7 @@ type FeatureExperienceBucket {
     # difference with previous year
     countDelta: Int
     percentage: Float
+    percentageOfTotal: Float
     # difference with previous year
     percentageDelta: Float
 }

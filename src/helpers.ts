@@ -8,6 +8,7 @@ import {
 } from './compute'
 import { Filters } from './filters'
 import { Options } from './options'
+import { Facet } from './facets'
 import { loadOrGetEntities } from './entities'
 import { TermAggregationOptions, AggregationFunction } from './compute/generic'
 
@@ -41,7 +42,7 @@ export const getStaticResolvers = (
     aggregationFunction?: AggregationFunction
 ) => ({
     all_years: async (
-        { survey, filters, options: queryOptions }: ResolverDynamicConfig,
+        { survey, filters, options: queryOptions, facet }: ResolverDynamicConfig,
         args: any,
         { db }: RequestContext
     ) =>
@@ -49,11 +50,11 @@ export const getStaticResolvers = (
             db,
             survey,
             id,
-            { ...options, ...queryOptions, filters },
+            { ...options, ...queryOptions, filters, facet },
             aggregationFunction
         ),
     year: async (
-        { survey, filters, options: queryOptions }: ResolverDynamicConfig,
+        { survey, filters, options: queryOptions, facet }: ResolverDynamicConfig,
         { year }: { year: number },
         { db }: RequestContext
     ) =>
@@ -61,7 +62,7 @@ export const getStaticResolvers = (
             db,
             survey,
             id,
-            { ...options, ...queryOptions, filters, year },
+            { ...options, ...queryOptions, filters, year, facet },
             aggregationFunction
         )
 })
@@ -135,10 +136,11 @@ const demographicsFields = [
 export const getDemographicsResolvers = (survey: SurveyConfig) => {
     const resolvers: any = {}
     demographicsFields.forEach(field => {
-        resolvers[field] = ({ filters, options }: { filters: Filters; options: Options }) => ({
+        resolvers[field] = ({ filters, options, facet }: { filters: Filters; options: Options; facet: Facet }) => ({
             survey,
             filters,
-            options
+            options,
+            facet
         })
     })
     return resolvers

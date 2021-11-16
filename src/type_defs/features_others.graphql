@@ -14,6 +14,7 @@ type FeatureBucket {
     name: String
     count: Int
     percentage: Float
+    percentageOfTotal: Float
 }
 
 type YearOtherFeatures {

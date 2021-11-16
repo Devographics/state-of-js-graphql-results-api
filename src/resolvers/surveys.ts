@@ -3,6 +3,7 @@ import { getEntity } from '../entities'
 import { RequestContext, SurveyConfig } from '../types'
 import { Filters } from '../filters'
 import { Options } from '../options'
+import { Facet } from '../facets'
 import {
     computeToolExperienceGraph,
     computeToolsCardinalityByUser,
@@ -17,6 +18,7 @@ export interface ResolverArguments {
     id: string
     filters?: Filters
     options?: Options
+    facet?: Facet
 }
 
 /**

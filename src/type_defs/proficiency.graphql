@@ -8,6 +8,7 @@ type ProficiencyBucket {
     id: Int
     count: Int
     percentage: Float
+    percentageOfTotal: Float
 }
 
 type YearProficiency {

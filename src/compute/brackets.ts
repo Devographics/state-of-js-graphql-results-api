@@ -1,11 +1,12 @@
 import { Db } from 'mongodb'
 import { Completion, SurveyConfig } from '../types'
-import { TermAggregationOptions, RawResult, groupByYears } from '../compute/generic'
+import { TermAggregationOptions, RawResult, groupByYears, computeCompletionByYear } from '../compute/generic'
 import config from '../config'
 import { generateFiltersQuery } from '../filters'
 import { inspect } from 'util'
 import idsLookupTable from '../data/ids.yml'
 import { getWinsPipeline, getMatchupsPipeline } from './brackets_pipelines'
+import { getParticipationByYearMap } from './demographics'
 
 // Wins
 
@@ -97,8 +98,11 @@ export const winsAggregationFunction = async (
         id: idsLookupTable[key][result.id]
     }))
 
+    const totalRespondentsByYear = await getParticipationByYearMap(db, survey)
+    const completionByYear = await computeCompletionByYear(db, match)
+
     // group by years and add counts
-    const resultsByYear = await groupByYears(resultsWithId, db, survey, match)
+    const resultsByYear = await groupByYears(resultsWithId, db, survey, match, totalRespondentsByYear, completionByYear)
     
     // console.log(JSON.stringify(resultsByYear, '', 2))
     return resultsByYear
@@ -155,8 +159,11 @@ export const matchupsAggregationFunction = async (
     // console.log('// resultsWithId')
     // console.log(JSON.stringify(rawResults, '', 2))
 
+    const totalRespondentsByYear = await getParticipationByYearMap(db, survey)
+    const completionByYear = await computeCompletionByYear(db, match)
+
     // group by years and add counts
-    const resultsByYear = await groupByYears(rawResults, db, survey, match)
+    const resultsByYear = await groupByYears(rawResults, db, survey, match, totalRespondentsByYear, completionByYear)
 
     // console.log('// resultsByYear')
     // console.log(JSON.stringify(resultsByYear, '', 2))

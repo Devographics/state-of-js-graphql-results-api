@@ -29,7 +29,14 @@ type AgeBucket {
     id: AgeRange
     count: Int
     percentage: Float
+    percentageOfTotal: Float
 }
+
+# type AgeFacet {
+#     type: Facet
+#     id: String
+#     buckets: [AgeBucket]
+# }
 
 type YearAge {
     year: Int
@@ -39,6 +46,7 @@ type YearAge {
     total: Int
     completion: Completion
     buckets: [AgeBucket]
+    # facets: [AgeFacet]
 }
 
 type Age {
@@ -53,6 +61,7 @@ type CountryBucket {
     id: CountryID
     count: Int
     percentage: Float
+    percentageOfTotal: Float
 }
 
 type YearCountry {
@@ -74,6 +83,7 @@ type LocaleBucket {
     id: String
     count: Int
     percentage: Float
+    percentageOfTotal: Float
 }
 
 type YearLocale {
@@ -95,6 +105,7 @@ type SourceBucket {
     id: String
     count: Int
     percentage: Float
+    percentageOfTotal: Float
     entity: Entity
 }
 
@@ -125,6 +136,7 @@ type GenderBucket {
     id: GenderID
     count: Int
     percentage: Float
+    percentageOfTotal: Float
 }
 
 type YearGender {
@@ -163,6 +175,7 @@ type RaceEthnicityBucket {
     id: RaceEthnicityID
     count: Int
     percentage: Float
+    percentageOfTotal: Float
 }
 
 type YearRaceEthnicity {
@@ -197,6 +210,7 @@ type SalaryBucket {
     id: SalaryRange
     count: Int
     percentage: Float
+    percentageOfTotal: Float
 }
 
 type YearSalary {
@@ -232,6 +246,7 @@ type CompanySizeBucket {
     id: CompanySizeRange
     count: Int
     percentage: Float
+    percentageOfTotal: Float
 }
 
 type YearCompanySize {
@@ -265,6 +280,7 @@ type WorkExperienceBucket {
     id: WorkExperienceRange
     count: Int
     percentage: Float
+    percentageOfTotal: Float
 }
 
 type YearWorkExperience {
@@ -300,6 +316,7 @@ type JobTitleBucket {
     id: JobTitleID
     count: Int
     percentage: Float
+    percentageOfTotal: Float
 }
 
 type YearJobTitle {
@@ -336,6 +353,7 @@ type IndustrySectorBucket {
     id: IndustrySectorID
     count: Int
     percentage: Float
+    percentageOfTotal: Float
 }
 
 type YearIndustrySector {
@@ -357,6 +375,7 @@ type KnowledgeScoreBucket {
     id: Int
     count: Int
     percentage: Float
+    percentageOfTotal: Float
 }
 
 type YearKnowledgeScore {
@@ -384,6 +403,7 @@ type HigherEducationDegreeBucket {
     id: HigherEducationDegreeID
     count: Int
     percentage: Float
+    percentageOfTotal: Float
 }
 
 type YearHigherEducationDegree {
@@ -416,6 +436,7 @@ type DisabilityStatusBucket {
     id: DisabilityStatusID
     count: Int
     percentage: Float
+    percentageOfTotal: Float
 }
 
 type YearDisabilityStatus {
@@ -460,65 +481,65 @@ type Demographics {
     """
     Age
     """
-    age(filters: Filters, options: Options): Age
+    age(filters: Filters, options: Options, facet: Facet): Age
     """
     Country
     """
-    country(filters: Filters, options: Options): Country
+    country(filters: Filters, options: Options, facet: Facet): Country
     """
     Locale
     """
-    locale(filters: Filters, options: Options): LocaleStats
+    locale(filters: Filters, options: Options, facet: Facet): LocaleStats
     """
     How respondents found the survey
     """
-    source(filters: Filters, options: Options): Source
+    source(filters: Filters, options: Options, facet: Facet): Source
     """
     Participants count
     """
-    participation(filters: Filters, options: Options): Participation
+    participation(filters: Filters, options: Options, facet: Facet): Participation
     """
     Gender
     """
-    gender(filters: Filters, options: Options): Gender
+    gender(filters: Filters, options: Options, facet: Facet): Gender
     """
     Race & Ethnicity
     """
-    race_ethnicity(filters: Filters, options: Options): RaceEthnicity
+    race_ethnicity(filters: Filters, options: Options, facet: Facet): RaceEthnicity
     """
     Salary
     """
-    yearly_salary(filters: Filters, options: Options): Salary
+    yearly_salary(filters: Filters, options: Options, facet: Facet): Salary
     """
     Company size
     """
-    company_size(filters: Filters, options: Options): CompanySize
+    company_size(filters: Filters, options: Options, facet: Facet): CompanySize
     """
     Work experience as a developer
     """
-    years_of_experience(filters: Filters, options: Options): WorkExperience
+    years_of_experience(filters: Filters, options: Options, facet: Facet): WorkExperience
     """
     Job title
     """
-    job_title(filters: Filters, options: Options): JobTitle
+    job_title(filters: Filters, options: Options, facet: Facet): JobTitle
     """
     Industry Sector
     """
-    industry_sector(filters: Filters, options: Options): IndustrySector
+    industry_sector(filters: Filters, options: Options, facet: Facet): IndustrySector
     """
     Knowledge Score
     """
-    knowledge_score(filters: Filters, options: Options): KnowledgeScore
+    knowledge_score(filters: Filters, options: Options, facet: Facet): KnowledgeScore
     """
     Higher Education Degree
     """
-    higher_education_degree(filters: Filters, options: Options): HigherEducationDegree
+    higher_education_degree(filters: Filters, options: Options, facet: Facet): HigherEducationDegree
     """
     Disability Status
     """
-    disability_status(filters: Filters, options: Options): DisabilityStatus
+    disability_status(filters: Filters, options: Options, facet: Facet): DisabilityStatus
     """
     Disability Status (Other)
     """
-    disability_status_other(filters: Filters, options: Options): OtherDisabilityStatus
+    disability_status_other(filters: Filters, options: Options, facet: Facet): OtherDisabilityStatus
 }

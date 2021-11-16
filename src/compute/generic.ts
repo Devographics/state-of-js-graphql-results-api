@@ -3,8 +3,9 @@ import { inspect } from 'util'
 import keyBy from 'lodash/keyBy'
 import orderBy from 'lodash/orderBy'
 import config from '../config'
-import { Completion, SurveyConfig } from '../types'
+import { Completion, SurveyConfig, YearParticipation } from '../types'
 import { Filters, generateFiltersQuery } from '../filters'
+import { Facet } from '../facets'
 import { ratioToPercentage } from './common'
 import { getEntity } from '../entities'
 import { getParticipationByYearMap } from './demographics'
@@ -12,6 +13,7 @@ import { useCache } from '../caching'
 import uniq from 'lodash/uniq'
 import sortBy from 'lodash/sortBy'
 import { WinsYearAggregations } from './brackets'
+import { getGenericPipeline } from './generic_pipeline'
 
 export interface TermAggregationOptions {
     // filter aggregations
@@ -22,6 +24,7 @@ export interface TermAggregationOptions {
     limit?: number
     year?: number
     values?: string[]
+    facet?: Facet
 }
 
 export interface RawResult {
@@ -42,6 +45,7 @@ export interface TermBucket {
     count: number
     countDelta?: number
     percentage: number
+    percentageOfTotal?: number
     percentageDelta?: number
 }
 
@@ -131,6 +135,9 @@ export async function computeDefaultTermAggregationByYear(
 ) {
     const collection = db.collection(config.mongo.normalized_collection)
 
+    // use last segment of field as id
+    const fieldId = key.split('.').reverse()[0]
+
     const {
         filters,
         sort = 'count',
@@ -138,8 +145,12 @@ export async function computeDefaultTermAggregationByYear(
         cutoff = 10,
         limit = 25,
         year,
+        facet = 'default',
         values
     }: TermAggregationOptions = options
+
+    console.log('// options')
+    console.log(options)
 
     const match: any = {
         survey: survey.survey,
@@ -151,65 +162,36 @@ export async function computeDefaultTermAggregationByYear(
         match.year = year
     }
 
+    const totalRespondentsByYear = await getParticipationByYearMap(db, survey)
+    const completionByYear = await computeCompletionByYear(db, match)
+
     // console.log(match)
 
-    // generate an aggregation pipeline for all years, or
-    // optionally restrict it to a specific year of data
-    const getAggregationPipeline = () => {
-        const pipeline: any[] = [
-            {
-                $match: match
-            },
-            {
-                $unwind: {
-                    path: `$${key}`
-                }
-            },
-            {
-                $group: {
-                    _id: {
-                        id: `$${key}`,
-                        year: '$year'
-                    },
-                    count: { $sum: 1 }
-                }
-            },
-            {
-                $project: {
-                    _id: 0,
-                    id: '$_id.id',
-                    year: '$_id.year',
-                    count: 1
-                }
-            },
-            { $sort: { [sort]: order } }
-        ]
-
-        if (cutoff) {
-            pipeline.push({ $match: { count: { $gt: cutoff } } })
-        }
-
-        // only add limit if year is specified
-        if (year) {
-            pipeline.push({ $limit: limit })
-        }
-        return pipeline
+    const pipelineProps = {
+        match,
+        facet,
+        fieldId,
+        key,
+        year,
+        limit,
+        filters,
+        survey: survey.survey
     }
 
     const rawResults = (await collection
-        .aggregate(getAggregationPipeline())
+        .aggregate(getGenericPipeline(pipelineProps))
         .toArray()) as RawResult[]
 
-    // console.log(
-    //     inspect(
-    //         {
-    //             match,
-    //             sampleAggregationPipeline: getAggregationPipeline(),
-    //             rawResults
-    //         },
-    //         { colors: true, depth: null }
-    //     )
-    // )
+    console.log(
+        inspect(
+            {
+                match,
+                sampleAggregationPipeline: getGenericPipeline(pipelineProps),
+                rawResults
+            },
+            { colors: true, depth: null }
+        )
+    )
 
     // add entities if applicable
     const resultsWithEntity = []
@@ -223,7 +205,17 @@ export async function computeDefaultTermAggregationByYear(
 
     // group by years and add counts, and also sort buckets
     const resultsByYear = <YearAggregations[]>(
-        (<unknown>await groupByYears(resultsWithEntity, db, survey, match, values))
+        (<unknown>(
+            await groupByYears(
+                resultsWithEntity,
+                db,
+                survey,
+                match,
+                totalRespondentsByYear,
+                completionByYear,
+                values
+            )
+        ))
     )
 
     // compute percentages
@@ -257,12 +249,13 @@ export async function groupByYears(
     db: Db,
     survey: SurveyConfig,
     match: any,
+    totalRespondentsByYear: {
+        [key: number]: number
+    },
+    completionByYear: Record<number, CompletionResult>,
     values?: string[] | number[]
 ) {
     const years = uniq(results.map(r => r.year))
-
-    const totalRespondentsByYear = await getParticipationByYearMap(db, survey)
-    const completionByYear = await computeCompletionByYear(db, match)
 
     const resultsWithYears = years.map((year: number) => {
         const totalRespondents = totalRespondentsByYear[year] ?? 0
@@ -270,6 +263,7 @@ export async function groupByYears(
 
         let yearBuckets = results.filter(r => r.year === year)
 
+        // 1. Sort values
         // if a list of valid values is provided, make sure the bucket uses the same ordering
         if (values) {
             yearBuckets = [...yearBuckets].sort((a, b) => {
@@ -279,6 +273,7 @@ export async function groupByYears(
             })
         }
 
+        // 2. Add completion counts
         const yearObject = {
             year,
             total: totalRespondents,
@@ -296,7 +291,6 @@ export async function groupByYears(
 }
 
 export function sortbyValues(resultsByYear: YearAggregations[], values: string[]) {
-    console.log(resultsByYear)
     const sortedResults = resultsByYear
     return sortedResults
 }
@@ -305,6 +299,7 @@ export function computePercentages(resultsByYear: YearAggregations[]) {
     resultsByYear.forEach(yearResult => {
         yearResult.buckets.forEach(bucket => {
             bucket.percentage = ratioToPercentage(bucket.count / yearResult.completion.count)
+            bucket.percentageOfTotal = ratioToPercentage(bucket.count / yearResult.total)
         })
     })
     return resultsByYear

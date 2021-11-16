@@ -1,6 +1,7 @@
 import { Db } from 'mongodb'
 import { SurveyType } from './surveys'
 import { Filters } from '../filters'
+import { Facet } from '../facets'
 import { Options } from '../options'
 
 /**
@@ -24,6 +25,7 @@ export interface ResolverDynamicConfig {
     id: string
     filters?: Filters
     options?: Options
+    facet?: Facet
 }
 
 export * from './demographics'

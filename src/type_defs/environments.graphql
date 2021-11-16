@@ -36,6 +36,7 @@ type EnvironmentRatingBucket {
     id: Int
     count: Int
     percentage: Float
+    percentageOfTotal: Float
 }
 
 type YearEnvironmentsRatings {

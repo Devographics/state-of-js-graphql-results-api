@@ -1,4 +1,6 @@
 enum Facet {
+    default
+    
     gender
     country
     race_ethnicity

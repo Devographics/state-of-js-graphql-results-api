@@ -127,6 +127,7 @@ type ToolExperienceBucket {
     count: Int
     countDelta: Int
     percentage: Float
+    percentageOfTotal: Float
     percentageDelta: Float
 }
 
@@ -222,6 +223,7 @@ type ToolExperienceRankingYearMetric {
     year: Int
     rank: Int
     percentage: Float
+    percentageOfTotal: Float
 }
 
 """
