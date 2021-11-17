@@ -158,6 +158,8 @@ export async function computeDefaultTermAggregationByYear(
 
     await addCompletionCounts(results, totalRespondentsByYear, completionByYear)
 
+    await applyCutoff(results, cutoff)
+
     await addPercentages(results)
 
     // await addDeltas(results)
@@ -202,6 +204,15 @@ export async function addCompletionCounts(
             total: totalRespondents,
             count: completionCount,
             percentage: ratioToPercentage(completionCount / totalRespondents)
+        }
+    }
+}
+
+// add completion counts for each year
+export async function applyCutoff(resultsByYears: ResultsByYear[], cutoff: number = 1) {
+    for (let year of resultsByYears) {
+        for (let facet of year.facets) {
+            facet.buckets = facet.buckets.filter(bucket => bucket.count >= cutoff)
         }
     }
 }

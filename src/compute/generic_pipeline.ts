@@ -9,12 +9,13 @@ export type PipelineProps = {
     filters?: any
     limit: number
     match?: any
+    cutoff?: number
 }
 
 // generate an aggregation pipeline for all years, or
 // optionally restrict it to a specific year of data
 export const getGenericPipeline = (pipelineProps: PipelineProps) => {
-    const { survey, filters, key, facet, fieldId, year, limit } = pipelineProps
+    const { survey, filters, key, facet, fieldId, year, limit, cutoff = 1 } = pipelineProps
 
     // make exception for source since its path is different
     const facetPath = facet === 'source' ? 'source.normalized' : facet
@@ -87,7 +88,7 @@ export const getGenericPipeline = (pipelineProps: PipelineProps) => {
                 year: `$_id.year`,
                 facets: 1
             }
-        }
+        },
         // { $sort: { [sort]: order } }
     ]
 
