@@ -20,7 +20,7 @@ type YearEnvironments {
     """
     total: Int
     completion: Completion
-    buckets: [EntityBucket]
+    facets: [EntityFacet]
 }
 
 """

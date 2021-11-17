@@ -32,7 +32,7 @@ type YearOtherTools {
     """
     total: Int
     completion: Completion
-    buckets: [EntityBucket]
+    facets: [EntityFacet]
 }
 
 type OtherTools {

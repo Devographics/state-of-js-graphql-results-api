@@ -523,7 +523,7 @@ type YearDisabilityStatus {
     """
     total: Int
     completion: Completion
-    buckets: [HigherEducationDegreeFacet]
+    facets: [HigherEducationDegreeFacet]
 }
 
 type DisabilityStatus {
@@ -538,7 +538,7 @@ type YearOtherDisabilityStatus {
     """
     total: Int
     completion: Completion
-    buckets: [EntityBucket]
+    facets: [EntityFacet]
 }
 
 type OtherDisabilityStatus {

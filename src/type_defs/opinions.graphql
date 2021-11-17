@@ -25,6 +25,12 @@ type OpinionBucket {
     percentageOfTotal: Float
 }
 
+type OpinionFacet {
+    type: Facet
+    id: String
+    buckets: [OpinionBucket]
+}
+
 type YearOpinion {
     year: Int
     """
@@ -37,7 +43,7 @@ type YearOpinion {
     """
     mean: Float
     completion: Completion
-    buckets: [OpinionBucket]
+    facets: [OpinionFacet]
 }
 
 type Opinion {
@@ -65,7 +71,7 @@ type YearOtherOpinions {
     """
     total: Int
     completion: Completion
-    buckets: [EntityBucket]
+    facets: [EntityFacet]
 }
 
 type OtherOpinions {

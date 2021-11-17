@@ -5,7 +5,7 @@ import { ratioToPercentage, appendCompletionToYearlyResults } from './common'
 import { getEntity } from '../entities'
 import { Completion, SurveyConfig } from '../types'
 import { Filters, generateFiltersQuery } from '../filters'
-import { computeCompletionByYear } from './generic'
+import { computeCompletionByYear } from './completion'
 
 interface ExperienceBucket {
     id: string
