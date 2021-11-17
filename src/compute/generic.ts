@@ -11,6 +11,7 @@ import { useCache } from '../caching'
 import sortBy from 'lodash/sortBy'
 import { getGenericPipeline } from './generic_pipeline'
 import { CompletionResult, computeCompletionByYear } from './completion'
+import sum from 'lodash/sum'
 import sumBy from 'lodash/sumBy'
 
 export interface TermAggregationOptions {
@@ -44,12 +45,19 @@ export interface BucketItem {
     count: number
     // percentage?: number
     // percentage_survey?: number
+
     // percentage relative to the number of question respondents
     percentage_question: number
     // percentage relative to the number of respondents in the facet
     percentage_facet: number
     // percentage relative to the number of respondents in the survey
     percentage_survey: number
+
+    // count when no facet is selected
+    count_all_facets: number
+    // percentage relative to the number
+    percentage_all_facets: number
+
     entity?: Entity
 }
 
@@ -116,8 +124,8 @@ export async function computeDefaultTermAggregationByYear(
         values
     }: TermAggregationOptions = options
 
-    console.log('// options')
-    console.log(options)
+    // console.log('// options')
+    // console.log(options)
 
     const match: any = {
         survey: survey.survey,
@@ -151,16 +159,16 @@ export async function computeDefaultTermAggregationByYear(
         .aggregate(getGenericPipeline(pipelineProps))
         .toArray()) as ResultsByYear[]
 
-    console.log(
-        inspect(
-            {
-                match,
-                sampleAggregationPipeline: getGenericPipeline(pipelineProps),
-                results
-            },
-            { colors: true, depth: null }
-        )
-    )
+    // console.log(
+    //     inspect(
+    //         {
+    //             match,
+    //             sampleAggregationPipeline: getGenericPipeline(pipelineProps),
+    //             results
+    //         },
+    //         { colors: true, depth: null }
+    //     )
+    // )
 
     await addEntities(results)
 
@@ -174,7 +182,7 @@ export async function computeDefaultTermAggregationByYear(
 
     await sortResults(results, { sort, order, values })
 
-    console.log(JSON.stringify(results, undefined, 2))
+    // console.log(JSON.stringify(results, undefined, 2))
 
     return results
 }
@@ -240,8 +248,18 @@ export async function addPercentages(resultsByYears: ResultsByYear[]) {
         for (let facet of year.facets) {
             for (let bucket of facet.buckets) {
                 bucket.percentage_survey = ratioToPercentage(bucket.count / year.completion.total)
-                bucket.percentage_question = ratioToPercentage(bucket.count / facet.completion.count)
-                bucket.percentage_facet = ratioToPercentage(bucket.count / sumBy(facet.buckets, 'count'))
+                bucket.percentage_question = ratioToPercentage(bucket.count / year.completion.count)
+                bucket.percentage_facet = ratioToPercentage(bucket.count / facet.completion.count)
+
+                // const defaultFacetCount
+                // const all
+                const allCounts = year.facets.map(
+                    (f: FacetItem) => f.buckets.find(b => b.id === bucket.id)?.count || 0
+                )
+                bucket.count_all_facets = sum(allCounts)
+                bucket.percentage_all_facets = ratioToPercentage(
+                    bucket.count_all_facets / year.completion.count
+                )
             }
         }
     }

@@ -40,9 +40,29 @@ A datapoint associated with a given entity.
 """
 type EntityBucket {
     id: String
+    """
+    Respondent count
+    """
     count: Int
+    """
+    Percentage relative to question respondents
+    """
     percentage_question: Float
+    """
+    Percentage relative to survey respondents
+    """
     percentage_survey: Float
+    """
+    Percentage relative to question respondents in facet
+    """
     percentage_facet: Float
+    """
+    Count of respondents in all facets (same as default/null facet)
+    """
+    count_all_facets: Int
+    """
+    Percentage relative to question respondents in all facets (same as default/null faces)
+    """
+    percentage_all_facets: Float
     entity: Entity
 }
