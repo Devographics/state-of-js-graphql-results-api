@@ -12,11 +12,7 @@ enum ResourcesID {
 
 type YearResources {
     year: Int
-    """
-    Total number of respondents who have answered this specific question.
-    """
-    total: Int
-    completion: Completion
+    completion: YearCompletion
     facets: [EntityFacet]
 }
 

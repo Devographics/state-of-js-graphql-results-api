@@ -7,17 +7,14 @@ enum ProficiencyID {
 type ProficiencyBucket {
     id: Int
     count: Int
-    percentage: Float
-    percentageOfTotal: Float
+    percentage_question: Float
+    percentage_survey: Float
+    percentage_facet: Float
 }
 
 type YearProficiency {
     year: Int
-    """
-    Total number of respondents who have answered this specific question.
-    """
-    total: Int
-    completion: Completion
+    completion: YearCompletion
     buckets: [ProficiencyBucket]
 }
 

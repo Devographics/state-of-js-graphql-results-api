@@ -190,8 +190,9 @@ type FeatureExperienceBucket {
     count: Int
     # difference with previous year
     countDelta: Int
-    percentage: Float
-    percentageOfTotal: Float
+    percentage_question: Float
+    percentage_survey: Float
+    percentage_facet: Float
     # difference with previous year
     percentageDelta: Float
 }
@@ -201,11 +202,7 @@ Feature data for a specific year
 """
 type YearFeature {
     year: Int
-    """
-    Total number of respondents who have answered this specific question.
-    """
-    total: Int
-    completion: Completion
+    completion: YearCompletion
     buckets: [FeatureExperienceBucket]
 }
 

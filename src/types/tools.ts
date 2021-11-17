@@ -1,4 +1,4 @@
-import { Completion } from './index'
+import { YearCompletion } from './index'
 import { Entity } from './entity'
 
 export interface ToolExperienceBucket {
@@ -17,7 +17,7 @@ export interface ToolAwarenessUsageInterestSatisfaction {
 export interface ToolYearExperience {
     year: number
     total: number
-    completion: Completion
+    completion: YearCompletion
     buckets: ToolExperienceBucket[]
     awarenessUsageInterestSatisfaction: ToolAwarenessUsageInterestSatisfaction
 }

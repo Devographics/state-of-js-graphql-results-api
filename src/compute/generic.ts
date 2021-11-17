@@ -1,7 +1,7 @@
 import { Db } from 'mongodb'
 import { inspect } from 'util'
 import config from '../config'
-import { Completion, SurveyConfig, Entity } from '../types'
+import { YearCompletion, FacetCompletion, SurveyConfig, Entity } from '../types'
 import { Filters, generateFiltersQuery } from '../filters'
 import { Facet } from '../facets'
 import { ratioToPercentage } from './common'
@@ -11,6 +11,7 @@ import { useCache } from '../caching'
 import sortBy from 'lodash/sortBy'
 import { getGenericPipeline } from './generic_pipeline'
 import { CompletionResult, computeCompletionByYear } from './completion'
+import sumBy from 'lodash/sumBy'
 
 export interface TermAggregationOptions {
     // filter aggregations
@@ -27,7 +28,7 @@ export interface TermAggregationOptions {
 export interface ResultsByYear {
     year: number
     facets: FacetItem[]
-    completion: Completion
+    completion: YearCompletion
 }
 
 export interface FacetItem {
@@ -35,13 +36,20 @@ export interface FacetItem {
     id: number | string
     buckets: BucketItem[]
     entity?: Entity
+    completion: FacetCompletion
 }
 
 export interface BucketItem {
     id: number | string
     count: number
-    percentage?: number
-    percentageOfTotal?: number
+    // percentage?: number
+    // percentage_survey?: number
+    // percentage relative to the number of question respondents
+    percentage_question: number
+    // percentage relative to the number of respondents in the facet
+    percentage_facet: number
+    // percentage relative to the number of respondents in the survey
+    percentage_survey: number
     entity?: Entity
 }
 
@@ -58,14 +66,14 @@ export interface TermBucket {
     count: number
     countDelta?: number
     percentage: number
-    percentageOfTotal?: number
+    percentage_survey?: number
     percentageDelta?: number
 }
 
 export interface YearAggregations {
     year: number
     total: number
-    completion: Completion
+    completion: YearCompletion
     buckets: TermBucket[]
 }
 
@@ -189,7 +197,7 @@ export async function addEntities(resultsByYears: ResultsByYear[]) {
     }
 }
 
-// add completion counts for each year
+// add completion counts for each year and facet
 export async function addCompletionCounts(
     resultsByYears: ResultsByYear[],
     totalRespondentsByYear: {
@@ -199,11 +207,20 @@ export async function addCompletionCounts(
 ) {
     for (let yearObject of resultsByYears) {
         const totalRespondents = totalRespondentsByYear[yearObject.year] ?? 0
-        const completionCount = completionByYear[yearObject.year]?.total ?? 0
+        const questionRespondents = completionByYear[yearObject.year]?.total ?? 0
         yearObject.completion = {
             total: totalRespondents,
-            count: completionCount,
-            percentage: ratioToPercentage(completionCount / totalRespondents)
+            count: questionRespondents,
+            percentage_survey: ratioToPercentage(questionRespondents / totalRespondents)
+        }
+        for (let facet of yearObject.facets) {
+            const facetTotal = sumBy(facet.buckets, 'count')
+            facet.completion = {
+                total: totalRespondents,
+                count: facetTotal,
+                percentage_question: ratioToPercentage(facetTotal / questionRespondents),
+                percentage_survey: ratioToPercentage(facetTotal / totalRespondents)
+            }
         }
     }
 }
@@ -222,8 +239,9 @@ export async function addPercentages(resultsByYears: ResultsByYear[]) {
     for (let year of resultsByYears) {
         for (let facet of year.facets) {
             for (let bucket of facet.buckets) {
-                bucket.percentage = ratioToPercentage(bucket.count / year.completion.count)
-                bucket.percentageOfTotal = ratioToPercentage(bucket.count / year.completion.total)
+                bucket.percentage_survey = ratioToPercentage(bucket.count / year.completion.total)
+                bucket.percentage_question = ratioToPercentage(bucket.count / facet.completion.count)
+                bucket.percentage_facet = ratioToPercentage(bucket.count / sumBy(facet.buckets, 'count'))
             }
         }
     }

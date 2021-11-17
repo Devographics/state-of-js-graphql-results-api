@@ -1,6 +1,6 @@
 import { Db } from 'mongodb'
 import { getParticipationByYearMap } from './demographics'
-import { Completion, SurveyConfig } from '../types'
+import { YearCompletion, SurveyConfig } from '../types'
 
 /**
  * Convert a ratio to percentage, applying a predefined rounding.
@@ -20,13 +20,13 @@ export const computeCompletion = (answerCount: number, totalCount: number) => {
  * Add completion information for yearly buckets.
  */
 export const appendCompletionToYearlyResults = async <
-    T extends { year: number; total: number; completion: Pick<Completion, 'count'> }
+    T extends { year: number; total: number; completion: Pick<YearCompletion, 'count'> }
 >(
     db: Db,
     survey: SurveyConfig,
     yearlyResults: T[]
 ): Promise<Array<
-    Omit<T, 'completion'> & { completion: Completion }
+    Omit<T, 'completion'> & { completion: YearCompletion }
 >> => {
     const totalRespondentsByYear = await getParticipationByYearMap(db, survey)
 
@@ -36,10 +36,10 @@ export const appendCompletionToYearlyResults = async <
             completion: {
                 total: totalRespondentsByYear[yearlyResult.year],
                 count: yearlyResult.completion.count,
-                percentage: ratioToPercentage(
+                percentage_survey: ratioToPercentage(
                     yearlyResult.completion.count / totalRespondentsByYear[yearlyResult.year]
                 )
             }
-        } as Omit<T, 'completion'> & { completion: Completion }
+        } as Omit<T, 'completion'> & { completion: YearCompletion }
     })
 }

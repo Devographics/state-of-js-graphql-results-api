@@ -12,540 +12,97 @@ type Participation {
 }
 
 """
-Age
+Generic Types
 """
-enum AgeRange {
-    range_less_than_10
-    range_10_18
-    range_18_24
-    range_25_34
-    range_35_44
-    range_45_54
-    range_55_64
-    range_more_than_65
-}
-
-type AgeBucket {
-    id: AgeRange
-    count: Int
-    percentage: Float
-    percentageOfTotal: Float
-}
-
-type AgeFacet {
-    type: Facet
-    id: String
-    buckets: [AgeBucket]
-}
-
-type YearAge {
+type DemographicsItemYear {
     year: Int
-    """
-    Total number of respondents who have answered this specific question.
-    """
-    total: Int
-    completion: Completion
-    facets: [AgeFacet]
-}
-
-type Age {
-    all_years: [YearAge]
-    year(year: Int!): YearAge
-}
-
-"""
-Country
-"""
-type CountryBucket {
-    id: CountryID
-    count: Int
-    percentage: Float
-    percentageOfTotal: Float
-}
-
-type CountryFacet {
-    type: Facet
-    id: String
-    buckets: [CountryBucket]
-}
-
-type YearCountry {
-    year: Int
-    total: Int
-    completion: Completion
-    facets: [CountryFacet]
-}
-
-type Country {
-    all_years: [YearCountry]
-    year(year: Int!): YearCountry
-}
-
-"""
-Locale
-"""
-type LocaleBucket {
-    id: String
-    count: Int
-    percentage: Float
-    percentageOfTotal: Float
-}
-
-type LocaleFacet {
-    type: Facet
-    id: String
-    buckets: [LocaleBucket]
-}
-
-type YearLocale {
-    year: Int
-    total: Int
-    completion: Completion
-    facets: [LocaleFacet]
-}
-
-type LocaleStats {
-    all_years: [YearLocale]
-    year(year: Int!): YearLocale
-}
-
-"""
-Source
-"""
-type SourceBucket {
-    id: String
-    count: Int
-    percentage: Float
-    percentageOfTotal: Float
-    entity: Entity
-}
-
-type SourceFacet {
-    type: Facet
-    id: String
-    buckets: [SourceBucket]
-}
-
-type YearSource {
-    year: Int
-    total: Int
-    completion: Completion
-    facets: [SourceFacet]
-}
-
-type Source {
-    all_years: [YearSource]
-    year(year: Int!): YearSource
-}
-
-"""
-Gender
-"""
-enum GenderID {
-    male
-    female
-    prefer_not_to_say
-    non_binary
-    not_listed
-}
-
-type GenderBucket {
-    id: GenderID
-    count: Int
-    percentage: Float
-    percentageOfTotal: Float
-}
-
-type GenderFacet {
-    type: Facet
-    id: String
-    buckets: [GenderBucket]
-}
-
-type YearGender {
-    year: Int
-    """
-    Total number of respondents who have answered this specific question.
-    """
-    total: Int
-    completion: Completion
-    facets: [GenderFacet]
-}
-
-type Gender {
-    all_years: [YearGender]
-    year(year: Int!): YearGender
-}
-
-"""
-Race & Ethnicity
-"""
-enum RaceEthnicityID {
-    biracial
-    black_african
-    east_asian
-    hispanic_latin
-    middle_eastern
-    multiracial
-    native_american_islander_australian
-    south_asian
-    white_european
-    south_east_asian
-    not_listed
-}
-
-type RaceEthnicityBucket {
-    id: RaceEthnicityID
-    count: Int
-    percentage: Float
-    percentageOfTotal: Float
-}
-
-type RaceEthnicityFacet {
-    type: Facet
-    id: String
-    buckets: [RaceEthnicityBucket]
-}
-
-type YearRaceEthnicity {
-    year: Int
-    """
-    Total number of respondents who have answered this specific question.
-    """
-    total: Int
-    completion: Completion
-    facets: [RaceEthnicityFacet]
-}
-
-type RaceEthnicity {
-    all_years: [YearRaceEthnicity]
-    year(year: Int!): YearRaceEthnicity
-}
-
-"""
-Salary
-"""
-enum SalaryRange {
-    range_work_for_free
-    range_0_10
-    range_10_30
-    range_30_50
-    range_50_100
-    range_100_200
-    range_more_than_200
-}
-
-type SalaryBucket {
-    id: SalaryRange
-    count: Int
-    percentage: Float
-    percentageOfTotal: Float
-}
-
-type SalaryFacet {
-    type: Facet
-    id: String
-    buckets: [SalaryBucket]
-}
-
-type YearSalary {
-    year: Int
-    """
-    Total number of respondents who have answered this specific question.
-    """
-    total: Int
-    completion: Completion
-    facets: [SalaryFacet]
-}
-
-type Salary {
-    all_years: [YearSalary]
-    year(year: Int!): YearSalary
-}
-
-"""
-Company Size
-"""
-enum CompanySizeRange {
-    range_1
-    range_1_5
-    range_5_10
-    range_10_20
-    range_20_50
-    range_50_100
-    range_100_1000
-    range_more_than_1000
-}
-
-type CompanySizeBucket {
-    id: CompanySizeRange
-    count: Int
-    percentage: Float
-    percentageOfTotal: Float
-}
-
-type CompanySizeFacet {
-    type: Facet
-    id: String
-    buckets: [CompanySizeBucket]
-}
-
-type YearCompanySize {
-    year: Int
-    """
-    Total number of respondents who have answered this specific question.
-    """
-    total: Int
-    completion: Completion
-    facets: [CompanySizeFacet]
-}
-
-type CompanySize {
-    all_years: [YearCompanySize]
-    year(year: Int!): YearCompanySize
-}
-
-"""
-Experience
-"""
-enum WorkExperienceRange {
-    range_less_than_1
-    range_1_2
-    range_2_5
-    range_5_10
-    range_10_20
-    range_more_than_20
-}
-
-type WorkExperienceBucket {
-    id: WorkExperienceRange
-    count: Int
-    percentage: Float
-    percentageOfTotal: Float
-}
-
-type WorkExperienceFacet {
-    type: Facet
-    id: String
-    buckets: [WorkExperienceBucket]
-}
-
-type YearWorkExperience {
-    year: Int
-    """
-    Total number of respondents who have answered this specific question.
-    """
-    total: Int
-    completion: Completion
-    facets: [WorkExperienceFacet]
-}
-
-type WorkExperience {
-    all_years: [YearWorkExperience]
-    year(year: Int!): YearWorkExperience
-}
-
-"""
-Job Title
-"""
-enum JobTitleID {
-    full_stack_developer
-    front_end_developer
-    web_developer
-    back_end_developer
-    web_designer
-    ui_designer
-    ux_designer
-    cto
-}
-
-type JobTitleBucket {
-    id: JobTitleID
-    count: Int
-    percentage: Float
-    percentageOfTotal: Float
-}
-
-type JobTitleFacet {
-    type: Facet
-    id: String
-    buckets: [JobTitleBucket]
-}
-
-type YearJobTitle {
-    year: Int
-    total: Int
-    completion: Completion
-    facets: [JobTitleFacet]
-}
-
-type JobTitle {
-    all_years: [YearJobTitle]
-    year(year: Int!): YearJobTitle
-}
-
-"""
-Industry Sector
-"""
-enum IndustrySectorID {
-    ecommerce
-    news_media
-    healthcare
-    finance
-    programming_tools
-    socialmedia
-    marketing_tools
-    education
-    real_estate
-    entertainment
-    government
-    consulting
-}
-
-type IndustrySectorBucket {
-    id: IndustrySectorID
-    count: Int
-    percentage: Float
-    percentageOfTotal: Float
-}
-
-type IndustrySectorFacet {
-    type: Facet
-    id: String
-    buckets: [IndustrySectorBucket]
-}
-
-type YearIndustrySector {
-    year: Int
-    total: Int
-    completion: Completion
-    facets: [JobTitleFacet]
-}
-
-type IndustrySector {
-    all_years: [YearIndustrySector]
-    year(year: Int!): YearIndustrySector
-}
-
-"""
-Knowledge Score
-"""
-type KnowledgeScoreBucket {
-    id: Int
-    count: Int
-    percentage: Float
-    percentageOfTotal: Float
-}
-
-type KnowledgeScoreFacet {
-    type: Facet
-    id: String
-    buckets: [KnowledgeScoreBucket]
-}
-
-type YearKnowledgeScore {
-    year: Int
-    total: Int
-    completion: Completion
-    facets: [KnowledgeScoreFacet]
-}
-
-type KnowledgeScore {
-    all_years: [YearKnowledgeScore]
-    year(year: Int!): YearKnowledgeScore
-}
-
-"""
-Higher Education Degree
-"""
-enum HigherEducationDegreeID {
-    no_degree
-    yes_related
-    yes_unrelated
-}
-
-type HigherEducationDegreeBucket {
-    id: HigherEducationDegreeID
-    count: Int
-    percentage: Float
-    percentageOfTotal: Float
-}
-
-type HigherEducationDegreeFacet {
-    type: Facet
-    id: String
-    buckets: [HigherEducationDegreeBucket]
-}
-
-type YearHigherEducationDegree {
-    year: Int
-    """
-    Total number of respondents who have answered this specific question.
-    """
-    total: Int
-    completion: Completion
-    facets: [HigherEducationDegreeFacet]
-}
-
-type HigherEducationDegree {
-    all_years: [YearHigherEducationDegree]
-    year(year: Int!): YearHigherEducationDegree
-}
-
-"""
-Disability Status
-"""
-enum DisabilityStatusID {
-    visual_impairments
-    hearing_impairments
-    mobility_impairments
-    cognitive_impairments
-    not_listed
-}
-
-type DisabilityStatusBucket {
-    id: DisabilityStatusID
-    count: Int
-    percentage: Float
-    percentageOfTotal: Float
-}
-
-type DisabilityStatusFacet {
-    type: Facet
-    id: String
-    buckets: [DisabilityStatusBucket]
-}
-
-type YearDisabilityStatus {
-    year: Int
-    """
-    Total number of respondents who have answered this specific question.
-    """
-    total: Int
-    completion: Completion
-    facets: [HigherEducationDegreeFacet]
-}
-
-type DisabilityStatus {
-    all_years: [YearDisabilityStatus]
-    year(year: Int!): YearDisabilityStatus
-}
-
-type YearOtherDisabilityStatus {
-    year: Int
-    """
-    Total number of respondents who have answered this specific question.
-    """
-    total: Int
-    completion: Completion
+    completion: YearCompletion
     facets: [EntityFacet]
 }
 
-type OtherDisabilityStatus {
-    all_years: [YearOtherDisabilityStatus]
-    year(year: Int!): YearOtherDisabilityStatus
+type DemographicsItem {
+    all_years: [DemographicsItemYear]
+    year(year: Int!): DemographicsItemYear
 }
 
+"""
+Other Types (get rid of this later?)
+"""
+
+type Age {
+    all_years: [DemographicsItemYear]
+    year(year: Int!): DemographicsItemYear
+}
+
+type Country {
+    all_years: [DemographicsItemYear]
+    year(year: Int!): DemographicsItemYear
+}
+
+type LocaleStats {
+    all_years: [DemographicsItemYear]
+    year(year: Int!): DemographicsItemYear
+}
+
+type Source {
+    all_years: [DemographicsItemYear]
+    year(year: Int!): DemographicsItemYear
+}
+
+type Gender {
+    all_years: [DemographicsItemYear]
+    year(year: Int!): DemographicsItemYear
+}
+
+type RaceEthnicity {
+    all_years: [DemographicsItemYear]
+    year(year: Int!): DemographicsItemYear
+}
+
+type Salary {
+    all_years: [DemographicsItemYear]
+    year(year: Int!): DemographicsItemYear
+}
+
+type CompanySize {
+    all_years: [DemographicsItemYear]
+    year(year: Int!): DemographicsItemYear
+}
+
+type WorkExperience {
+    all_years: [DemographicsItemYear]
+    year(year: Int!): DemographicsItemYear
+}
+
+type JobTitle {
+    all_years: [DemographicsItemYear]
+    year(year: Int!): DemographicsItemYear
+}
+
+type IndustrySector {
+    all_years: [DemographicsItemYear]
+    year(year: Int!): DemographicsItemYear
+}
+
+type KnowledgeScore {
+    all_years: [DemographicsItemYear]
+    year(year: Int!): DemographicsItemYear
+}
+
+type HigherEducationDegree {
+    all_years: [DemographicsItemYear]
+    year(year: Int!): DemographicsItemYear
+}
+
+type DisabilityStatus {
+    all_years: [DemographicsItemYear]
+    year(year: Int!): DemographicsItemYear
+}
+
+type OtherDisabilityStatus {
+    all_years: [DemographicsItemYear]
+    year(year: Int!): DemographicsItemYear
+}
 """
 Information about particpants:
 - overall participation
@@ -555,6 +112,10 @@ Information about particpants:
 - …
 """
 type Demographics {
+    """
+    Participants count
+    """
+    participation(filters: Filters, options: Options, facet: Facet): Participation
     """
     Age
     """
@@ -571,10 +132,6 @@ type Demographics {
     How respondents found the survey
     """
     source(filters: Filters, options: Options, facet: Facet): Source
-    """
-    Participants count
-    """
-    participation(filters: Filters, options: Options, facet: Facet): Participation
     """
     Gender
     """

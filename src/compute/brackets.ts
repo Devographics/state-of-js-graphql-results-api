@@ -1,5 +1,5 @@
 import { Db } from 'mongodb'
-import { Completion, SurveyConfig } from '../types'
+import { YearCompletion, SurveyConfig } from '../types'
 import { TermAggregationOptions } from '../compute/generic'
 import config from '../config'
 import { generateFiltersQuery } from '../filters'
@@ -31,7 +31,7 @@ export interface WinsBucket {
 export interface WinsYearAggregations {
     year: number
     total: number
-    completion: Completion
+    completion: YearCompletion
     buckets: WinsBucket[]
 }
 
@@ -57,7 +57,7 @@ export interface MatchupBucket {
 export interface MatchupYearAggregations {
     year: number
     total: number
-    completion: Completion
+    completion: YearCompletion
     buckets: MatchupBucket[]
 }
 

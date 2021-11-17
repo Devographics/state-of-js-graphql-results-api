@@ -1,4 +1,4 @@
-import { Completion } from './index'
+import { YearCompletion } from './index'
 import { MDN } from './mdn'
 
 export interface FeatureBucket {
@@ -11,7 +11,7 @@ export interface FeatureBucket {
 export interface YearFeature {
     year: number
     total: number
-    completion: Completion
+    completion: YearCompletion
     buckets: FeatureBucket[]
 }
 

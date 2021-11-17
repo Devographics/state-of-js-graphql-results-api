@@ -21,8 +21,9 @@ enum OpinionID {
 type OpinionBucket {
     id: Int
     count: Int
-    percentage: Float
-    percentageOfTotal: Float
+    percentage_question: Float
+    percentage_survey: Float
+    percentage_facet: Float
 }
 
 type OpinionFacet {
@@ -34,15 +35,11 @@ type OpinionFacet {
 type YearOpinion {
     year: Int
     """
-    Total number of respondents who have answered this specific question.
-    """
-    total: Int
-    """
     Mean opinion score for the year, please note that despite the
     opinion indices starts at 0, the average is computed from 1.
     """
     mean: Float
-    completion: Completion
+    completion: YearCompletion
     facets: [OpinionFacet]
 }
 
@@ -66,11 +63,7 @@ enum OtherOpinionsID {
 
 type YearOtherOpinions {
     year: Int
-    """
-    Total number of respondents who have answered this specific question.
-    """
-    total: Int
-    completion: Completion
+    completion: YearCompletion
     facets: [EntityFacet]
 }
 

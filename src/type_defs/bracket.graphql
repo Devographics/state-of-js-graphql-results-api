@@ -24,8 +24,7 @@ type BracketWinsBucket {
 
 type YearBracketWins {
     year: Int
-    total: Int
-    completion: Completion
+    completion: YearCompletion
     buckets: [BracketWinsBucket]
 }
 
@@ -53,8 +52,7 @@ type BracketMatchupsBucket {
 
 type YearBracketMatchups {
     year: Int
-    total: Int
-    completion: Completion
+    completion: YearCompletion
     buckets: [BracketMatchupsBucket]
 }
 

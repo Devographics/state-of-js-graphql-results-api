@@ -24,22 +24,19 @@ Happiness
 type HappinessBucket {
     id: Int
     count: Int
-    percentage: Float
-    percentageOfTotal: Float
+    percentage_question: Float
+    percentage_survey: Float
+    percentage_facet: Float
 }
 
 type YearHappiness {
     year: Int
     """
-    Total number of respondents who have answered this specific question.
-    """
-    total: Int
-    """
     Mean happiness score for the year, please note that despite the
     happiness indices starts at 0, the average is computed from 1.
     """
     mean: Float
-    completion: Completion
+    completion: YearCompletion
     buckets: [HappinessBucket]
 }
 

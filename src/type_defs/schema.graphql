@@ -1,13 +1,6 @@
 #import "./surveys.graphql"
 
-"""
-Completion ratio and count
-"""
-type Completion {
-    total: Int
-    count: Int
-    percentage: Float
-}
+
 
 type Query {
     """

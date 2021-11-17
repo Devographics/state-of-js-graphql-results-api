@@ -3,7 +3,7 @@ import { Db } from 'mongodb'
 import config from '../config'
 import { ratioToPercentage, appendCompletionToYearlyResults } from './common'
 import { getEntity } from '../entities'
-import { Completion, SurveyConfig } from '../types'
+import { YearCompletion, SurveyConfig } from '../types'
 import { Filters, generateFiltersQuery } from '../filters'
 import { computeCompletionByYear } from './completion'
 
@@ -103,7 +103,7 @@ export async function computeExperienceOverYears(
             Array<{
                 year: number
                 total: number
-                completion: Pick<Completion, 'count'>
+                completion: Pick<YearCompletion, 'count'>
                 awarenessUsageInterestSatisfaction: {
                     awareness: number
                     usage: number

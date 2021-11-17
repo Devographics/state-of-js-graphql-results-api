@@ -13,17 +13,14 @@ type FeatureBucket {
     id: FeatureID
     name: String
     count: Int
-    percentage: Float
-    percentageOfTotal: Float
+    percentage_question: Float
+    percentage_survey: Float
+    percentage_facet: Float
 }
 
 type YearOtherFeatures {
     year: Int
-    """
-    Total number of respondents who have answered this specific question.
-    """
-    total: Int
-    completion: Completion
+    completion: YearCompletion
     buckets: [FeatureBucket]
 }
 

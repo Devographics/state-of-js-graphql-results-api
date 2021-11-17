@@ -32,6 +32,7 @@ type EntityFacet {
     id: String
     buckets: [EntityBucket]
     entity: Entity
+    completion: FacetCompletion
 }
 
 """
@@ -40,7 +41,8 @@ A datapoint associated with a given entity.
 type EntityBucket {
     id: String
     count: Int
-    percentage: Float
-    percentageOfTotal: Float
+    percentage_question: Float
+    percentage_survey: Float
+    percentage_facet: Float
     entity: Entity
 }

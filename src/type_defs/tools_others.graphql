@@ -27,11 +27,7 @@ enum OtherToolsID {
 
 type YearOtherTools {
     year: Int
-    """
-    Total number of respondents who have answered this specific question.
-    """
-    total: Int
-    completion: Completion
+    completion: YearCompletion
     facets: [EntityFacet]
 }
 

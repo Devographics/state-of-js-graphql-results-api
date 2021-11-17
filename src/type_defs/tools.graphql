@@ -126,8 +126,9 @@ type ToolExperienceBucket {
     id: ExperienceID
     count: Int
     countDelta: Int
-    percentage: Float
-    percentageOfTotal: Float
+    percentage_question: Float
+    percentage_survey: Float
+    percentage_facet: Float
     percentageDelta: Float
 }
 
@@ -171,11 +172,7 @@ type ToolAwarenessUsageInterestSatisfaction {
 
 type ToolYearExperience {
     year: Int
-    """
-    Total number of respondents who have answered this specific question.
-    """
-    total: Int
-    completion: Completion
+    completion: YearCompletion
     buckets: [ToolExperienceBucket]
     awarenessUsageInterestSatisfaction: ToolAwarenessUsageInterestSatisfaction
 }
@@ -222,8 +219,9 @@ type Tool {
 type ToolExperienceRankingYearMetric {
     year: Int
     rank: Int
-    percentage: Float
-    percentageOfTotal: Float
+    percentage_question: Float
+    percentage_survey: Float
+    percentage_facet: Float
 }
 
 """

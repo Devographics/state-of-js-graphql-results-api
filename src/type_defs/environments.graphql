@@ -15,11 +15,7 @@ enum EnvironmentID {
 
 type YearEnvironments {
     year: Int
-    """
-    Total number of respondents who have answered this specific question.
-    """
-    total: Int
-    completion: Completion
+    completion: YearCompletion
     facets: [EntityFacet]
 }
 
@@ -35,17 +31,14 @@ type Environments {
 type EnvironmentRatingBucket {
     id: Int
     count: Int
-    percentage: Float
-    percentageOfTotal: Float
+    percentage_question: Float
+    percentage_survey: Float
+    percentage_facet: Float
 }
 
 type YearEnvironmentsRatings {
     year: Int
-    """
-    Total number of respondents who have answered this specific question.
-    """
-    total: Int
-    completion: Completion
+    completion: YearCompletion
     buckets: [EnvironmentRatingBucket]
 }
 
