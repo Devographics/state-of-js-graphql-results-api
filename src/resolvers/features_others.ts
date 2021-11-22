@@ -1,6 +1,6 @@
 import { Db } from 'mongodb'
 import { useCache } from '../caching'
-import { computeTermAggregationByYear } from '../compute'
+import { computeTermAggregationAllYears } from '../compute'
 import { getOtherKey } from '../helpers'
 import { RequestContext, SurveyConfig } from '../types'
 import { Filters } from '../filters'
@@ -22,7 +22,7 @@ const computeOtherFeatures = async (
 ) => {
     const features = await getEntities({ tag: 'feature'})
 
-    const otherFeaturesByYear = await useCache(computeTermAggregationByYear, db, [
+    const otherFeaturesByYear = await useCache(computeTermAggregationAllYears, db, [
         survey,
         `features_others.${getOtherKey(id)}`,
         { filters }

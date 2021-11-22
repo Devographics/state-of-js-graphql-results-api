@@ -32,76 +32,91 @@ Other Types (get rid of this later?)
 type Age {
     all_years: [DemographicsItemYear]
     year(year: Int!): DemographicsItemYear
+    keys: [AgeRange]
 }
 
 type Country {
     all_years: [DemographicsItemYear]
     year(year: Int!): DemographicsItemYear
+    keys: [CountryID]
 }
 
 type LocaleStats {
     all_years: [DemographicsItemYear]
     year(year: Int!): DemographicsItemYear
+    keys: [String]
 }
 
 type Source {
     all_years: [DemographicsItemYear]
     year(year: Int!): DemographicsItemYear
+    keys: [String]
 }
 
 type Gender {
     all_years: [DemographicsItemYear]
     year(year: Int!): DemographicsItemYear
+    keys: [GenderID]
 }
 
 type RaceEthnicity {
     all_years: [DemographicsItemYear]
     year(year: Int!): DemographicsItemYear
+    keys: [RaceEthnicityID]
 }
 
 type Salary {
     all_years: [DemographicsItemYear]
     year(year: Int!): DemographicsItemYear
+    keys: [SalaryRange]
 }
 
 type CompanySize {
     all_years: [DemographicsItemYear]
     year(year: Int!): DemographicsItemYear
+    keys: [CompanySizeRange]
 }
 
 type WorkExperience {
     all_years: [DemographicsItemYear]
     year(year: Int!): DemographicsItemYear
+    keys: [WorkExperienceRange]
 }
 
 type JobTitle {
     all_years: [DemographicsItemYear]
     year(year: Int!): DemographicsItemYear
+    keys: [JobTitleID]
 }
 
 type IndustrySector {
     all_years: [DemographicsItemYear]
     year(year: Int!): DemographicsItemYear
+    keys: [IndustrySectorID]
 }
 
 type KnowledgeScore {
     all_years: [DemographicsItemYear]
     year(year: Int!): DemographicsItemYear
+    keys: [String]
 }
 
 type HigherEducationDegree {
     all_years: [DemographicsItemYear]
     year(year: Int!): DemographicsItemYear
+    keys: [HigherEducationDegreeID]
 }
 
 type DisabilityStatus {
     all_years: [DemographicsItemYear]
     year(year: Int!): DemographicsItemYear
+    keys: [DisabilityStatusID]
 }
 
 type OtherDisabilityStatus {
     all_years: [DemographicsItemYear]
     year(year: Int!): DemographicsItemYear
+    keys: [String]
 }
 """
 Information about particpants:

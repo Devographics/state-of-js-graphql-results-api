@@ -29,6 +29,13 @@ type HappinessBucket {
     percentage_facet: Float
 }
 
+type HappinessFacet {
+    type: Facet
+    id: String
+    buckets: [HappinessBucket]
+    completion: FacetCompletion
+}
+
 type YearHappiness {
     year: Int
     """
@@ -37,11 +44,12 @@ type YearHappiness {
     """
     mean: Float
     completion: YearCompletion
-    buckets: [HappinessBucket]
+    facets: [HappinessFacet]
 }
 
 type Happiness {
     id: HappinessID!
     all_years: [YearHappiness]
     year(year: Int!): YearHappiness
+    keys: [Int]
 }

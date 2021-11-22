@@ -41,6 +41,7 @@ export const getStaticResolvers = (
     options: TermAggregationOptions = {},
     aggregationFunction?: AggregationFunction
 ) => ({
+    keys: async () => options.keys || [],
     all_years: async (
         { survey, filters, options: queryOptions, facet }: ResolverDynamicConfig,
         args: any,
@@ -137,7 +138,15 @@ const demographicsFields = [
 export const getDemographicsResolvers = (survey: SurveyConfig) => {
     const resolvers: any = {}
     demographicsFields.forEach(field => {
-        resolvers[field] = ({ filters, options, facet }: { filters: Filters; options: Options; facet: Facet }) => ({
+        resolvers[field] = ({
+            filters,
+            options,
+            facet
+        }: {
+            filters: Filters
+            options: Options
+            facet: Facet
+        }) => ({
             survey,
             filters,
             options,

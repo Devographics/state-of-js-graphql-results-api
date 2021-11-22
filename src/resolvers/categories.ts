@@ -1,5 +1,5 @@
 import { Db } from 'mongodb'
-import { computeHappinessByYear, computeTermAggregationByYear } from '../compute'
+import { computeHappinessByYear, computeTermAggregationAllYears } from '../compute'
 import { useCache } from '../caching'
 import { RequestContext, SurveyConfig } from '../types'
 import { Filters } from '../filters'
@@ -12,7 +12,7 @@ interface CategoryConfig {
 }
 
 const computeOtherTools = async (db: Db, survey: SurveyConfig, id: string, filters?: Filters) =>
-    useCache(computeTermAggregationByYear, db, [
+    useCache(computeTermAggregationAllYears, db, [
         survey,
         `tools_others.${id}.others.normalized`,
         { filters }

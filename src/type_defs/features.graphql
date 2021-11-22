@@ -198,17 +198,28 @@ type FeatureExperienceBucket {
 }
 
 """
+Feature data for a specific facet
+"""
+type FeatureFacet {
+    type: Facet
+    id: String
+    buckets: [FeatureExperienceBucket]
+    completion: FacetCompletion
+}
+
+"""
 Feature data for a specific year
 """
 type YearFeature {
     year: Int
     completion: YearCompletion
-    buckets: [FeatureExperienceBucket]
+    facets: [FeatureFacet]
 }
 
 type FeatureExperience {
     all_years: [YearFeature]
     year(year: Int!): YearFeature
+    keys: [FeatureExperienceID]
 }
 
 """

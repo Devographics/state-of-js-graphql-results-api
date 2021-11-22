@@ -1,5 +1,5 @@
 import { Db } from 'mongodb'
-import { computeTermAggregationByYear } from './generic'
+import { computeTermAggregationAllYears } from './generic'
 import { SurveyConfig } from '../types'
 import { Filters } from '../filters'
 
@@ -9,19 +9,18 @@ export async function computeHappinessByYear(
     id: string,
     filters?: Filters
 ) {
-    const happinessByYear = await computeTermAggregationByYear(db, survey, `happiness.${id}`, {
+    const happinessByYear = await computeTermAggregationAllYears(db, survey, `happiness.${id}`, {
         filters,
         sort: 'id',
         order: 1
     })
 
     // compute mean for each year
-    happinessByYear.forEach((bucket: any) => {
-        const totalScore = bucket.buckets.reduce((acc: any, subBucket: any) => {
+    happinessByYear.forEach((year: any) => {
+        const totalScore = year.facets[0].buckets.reduce((acc: any, subBucket: any) => {
             return acc + subBucket.id * subBucket.count
         }, 0)
-        bucket.mean = Math.round((totalScore / bucket.total) * 10) / 10 + 1
+        year.mean = Math.round((totalScore / year.completion.total) * 10) / 10 + 1
     })
-
     return happinessByYear
 }

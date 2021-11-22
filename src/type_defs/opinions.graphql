@@ -30,6 +30,7 @@ type OpinionFacet {
     type: Facet
     id: String
     buckets: [OpinionBucket]
+    completion: FacetCompletion
 }
 
 type YearOpinion {
@@ -47,6 +48,7 @@ type Opinion {
     id: OpinionID!
     all_years: [YearOpinion]
     year(year: Int!): YearOpinion
+    keys: [Int]
 }
 
 """

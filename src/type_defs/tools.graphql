@@ -123,13 +123,23 @@ the total number of respondents who have answered the question
 in this particular year.
 """
 type ToolExperienceBucket {
-    id: ExperienceID
+    id: ToolExperienceID
     count: Int
     countDelta: Int
     percentage_question: Float
     percentage_survey: Float
     percentage_facet: Float
     percentageDelta: Float
+}
+
+"""
+Tool data for a specific facet
+"""
+type ToolExperienceFacet {
+    type: Facet
+    id: String
+    buckets: [ToolExperienceBucket]
+    completion: FacetCompletion
 }
 
 """
@@ -173,19 +183,20 @@ type ToolAwarenessUsageInterestSatisfaction {
 type ToolYearExperience {
     year: Int
     completion: YearCompletion
-    buckets: [ToolExperienceBucket]
-    awarenessUsageInterestSatisfaction: ToolAwarenessUsageInterestSatisfaction
+    facets: [ToolExperienceFacet]
+    # awarenessUsageInterestSatisfaction: ToolAwarenessUsageInterestSatisfaction
 }
 
 type ToolExperience {
     all_years: [ToolYearExperience]
     year(year: Int!): ToolYearExperience
+    keys: [ToolExperienceID]
 }
 
 type ToolExperienceGraphNode {
     id: String
     year: Int
-    experience: ExperienceID
+    experience: ToolExperienceID
 }
 
 """

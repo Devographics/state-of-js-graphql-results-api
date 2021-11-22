@@ -114,7 +114,9 @@ export async function computeExperienceOverYears(
                     id: string
                     count: number
                     countDelta?: number
-                    percentage: number
+                    percentage_survey: number
+                    percentage_question: number
+                    percentage_facet: number
                     percentageDelta?: number
                 }>
             }>
@@ -141,7 +143,9 @@ export async function computeExperienceOverYears(
             yearBucket.buckets.push({
                 id: result.experience,
                 count: result.total,
-                percentage: 0
+                percentage_survey: 0,
+                percentage_question: 0,
+                percentage_facet: 0
             })
 
             return acc
@@ -153,7 +157,9 @@ export async function computeExperienceOverYears(
     experienceByYear.forEach(bucket => {
         bucket.total = _.sumBy(bucket.buckets, 'count')
         bucket.buckets.forEach(subBucket => {
-            subBucket.percentage = ratioToPercentage(subBucket.count / bucket.total)
+            subBucket['percentage_survey'] = 0 // TODO
+            subBucket['percentage_question'] = ratioToPercentage(subBucket.count / bucket.total)
+            subBucket['percentage_facet'] = 0 // TODO
         })
     })
 
@@ -175,7 +181,10 @@ export async function computeExperienceOverYears(
                 const previousYearBucket = previousYear.buckets.find(b => b.id === bucket.id)
                 if (previousYearBucket) {
                     bucket.countDelta = bucket.count - previousYearBucket.count
-                    bucket.percentageDelta = Math.round(100 * (bucket.percentage - previousYearBucket.percentage))/100
+                    bucket.percentageDelta =
+                        Math.round(
+                            100 * (bucket.percentage_facet - previousYearBucket.percentage_facet)
+                        ) / 100
                 }
             })
         }
@@ -214,7 +223,7 @@ export async function computeToolsExperienceRanking(
             metrics.forEach(metric => {
                 metricByYear[toolYear.year][metric].push({
                     tool,
-                    percentage: toolYear.awarenessUsageInterestSatisfaction[metric]
+                    percentage_question: toolYear.awarenessUsageInterestSatisfaction[metric]
                 })
             })
 
@@ -227,7 +236,7 @@ export async function computeToolsExperienceRanking(
 
     for (const yearMetrics of Object.values(metricByYear)) {
         metrics.forEach(metric => {
-            yearMetrics[metric] = _.sortBy(yearMetrics[metric], 'percentage').reverse()
+            yearMetrics[metric] = _.sortBy(yearMetrics[metric], 'percentage_question').reverse()
             yearMetrics[metric].forEach((bucket: any, index: number) => {
                 // make ranking starts at 1
                 bucket.rank = index + 1
@@ -250,13 +259,13 @@ export async function computeToolsExperienceRanking(
                             (d: any) => d.tool === tool
                         )
                         let rank = null
-                        let percentage = null
+                        let percentage_question = null
                         if (toolYearMetric !== undefined) {
                             rank = toolYearMetric.rank
-                            percentage = toolYearMetric.percentage
+                            percentage_question = toolYearMetric.percentage_question
                         }
 
-                        return { year, rank, percentage }
+                        return { year, rank, percentage_question }
                     })
                 }
             }, {})

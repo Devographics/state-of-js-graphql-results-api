@@ -81,7 +81,7 @@ type Survey {
     tools_cardinality_by_user(
         year: Int!,
         ids: [ToolID]!,
-        experienceId: ExperienceID!
+        experienceId: ToolExperienceID!
     ): [ToolsCardinalityByUser]
     """
     Usage results for a specific feature

@@ -99,3 +99,16 @@ enum DisabilityStatusID {
     not_listed
 }
 
+enum ToolExperienceID {
+    would_use
+    would_not_use
+    interested
+    not_interested
+    never_heard
+}
+
+enum FeatureExperienceID {
+    never_heard
+    heard
+    used
+}

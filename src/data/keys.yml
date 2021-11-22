@@ -39,3 +39,49 @@ higher_education_degree:
   - no_degree
   - yes_related
   - yes_unrelated
+
+gender:
+  - male
+  - female
+  - prefer_not_to_say
+  - non_binary
+  - not_listed
+
+race_ethnicity:
+  - biracial
+  - black_african
+  - east_asian
+  - hispanic_latin
+  - middle_eastern
+  - multiracial
+  - native_american_islander_australian
+  - south_asian
+  - white_european
+  - south_east_asian
+  - not_listed
+
+tool:
+  - would_use
+  - would_not_use
+  - interested
+  - not_interested
+  - never_heard
+
+feature:
+  - never_heard
+  - heard
+  - used
+
+happiness: 
+  - 0
+  - 1
+  - 2
+  - 3
+  - 4
+
+opinions: 
+  - 0
+  - 1
+  - 2
+  - 3
+  - 4

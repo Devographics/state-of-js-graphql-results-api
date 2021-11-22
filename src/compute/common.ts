@@ -6,7 +6,7 @@ import { YearCompletion, SurveyConfig } from '../types'
  * Convert a ratio to percentage, applying a predefined rounding.
  */
 export const ratioToPercentage = (ratio: number) => {
-    return Math.round(ratio * 1000) / 10
+    return Math.ceil(ratio * 1000) / 10
 }
 
 /**

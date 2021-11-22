@@ -1,35 +1,37 @@
-import { Db } from 'mongodb'
-import { useCache } from '../caching'
 import { fetchMdnResource } from '../external_apis'
-import { RequestContext, SurveyConfig } from '../types'
-import { computeTermAggregationByYear } from '../compute'
-import { Filters } from '../filters'
 import { Entity } from '../types'
 import { getEntities } from '../entities'
-import { YearAggregations } from '../compute/generic'
-
-const computeFeatureExperience = async (
-    db: Db,
-    survey: SurveyConfig,
-    id: string,
-    filters?: Filters
-) => useCache(computeTermAggregationByYear, db, [survey, `features.${id}.experience`, { filters }])
+import keys from '../data/keys.yml'
+import { RequestContext, ResolverDynamicConfig } from '../types'
+import {
+    computeTermAggregationAllYearsWithCache,
+    computeTermAggregationSingleYearWithCache
+} from '../compute'
 
 export default {
     FeatureExperience: {
+        keys: () => keys.feature,
         all_years: async (
-            { survey, id, filters }: { survey: SurveyConfig; id: string; filters?: Filters },
+            { survey, id, filters, options, facet }: ResolverDynamicConfig,
             args: any,
             { db }: RequestContext
-        ) => computeFeatureExperience(db, survey, id, filters),
+        ) =>
+            computeTermAggregationAllYearsWithCache(db, survey, `features.${id}.experience`, {
+                ...options,
+                filters,
+                facet
+            }),
         year: async (
-            { survey, id, filters }: { survey: SurveyConfig; id: string; filters?: Filters },
+            { survey, id, filters, options, facet }: ResolverDynamicConfig,
             { year }: { year: number },
             { db }: RequestContext
-        ) => {
-            const allYears = await computeFeatureExperience(db, survey, id, filters)
-            return allYears.find((yearItem: YearAggregations) => yearItem.year === year)
-        }
+        ) =>
+            computeTermAggregationSingleYearWithCache(db, survey, `features.${id}.experience`, {
+                ...options,
+                filters,
+                year,
+                facet
+            })
     },
     Feature: {
         name: async ({ id }: { id: string }) => {

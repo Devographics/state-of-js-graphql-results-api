@@ -22,7 +22,7 @@ export interface TermAggregationOptions {
     cutoff?: number
     limit?: number
     year?: number
-    values?: string[]
+    keys?: string[]
     facet?: Facet
 }
 
@@ -92,7 +92,7 @@ export type AggregationFunction = (
     options: TermAggregationOptions
 ) => Promise<any>
 
-export async function computeTermAggregationByYear(
+export async function computeTermAggregationAllYears(
     db: Db,
     survey: SurveyConfig,
     key: string,
@@ -121,7 +121,7 @@ export async function computeDefaultTermAggregationByYear(
         limit = 25,
         year,
         facet,
-        values
+        keys: values
     }: TermAggregationOptions = options
 
     // console.log('// options')
@@ -159,16 +159,16 @@ export async function computeDefaultTermAggregationByYear(
         .aggregate(getGenericPipeline(pipelineProps))
         .toArray()) as ResultsByYear[]
 
-    // console.log(
-    //     inspect(
-    //         {
-    //             match,
-    //             sampleAggregationPipeline: getGenericPipeline(pipelineProps),
-    //             results
-    //         },
-    //         { colors: true, depth: null }
-    //     )
-    // )
+    console.log(
+        inspect(
+            {
+                match,
+                sampleAggregationPipeline: getGenericPipeline(pipelineProps),
+                results
+            },
+            { colors: true, depth: null }
+        )
+    )
 
     await addEntities(results)
 
@@ -182,7 +182,7 @@ export async function computeDefaultTermAggregationByYear(
 
     await sortResults(results, { sort, order, values })
 
-    // console.log(JSON.stringify(results, undefined, 2))
+    console.log(JSON.stringify(results, undefined, 2))
 
     return results
 }
@@ -320,7 +320,7 @@ export async function computeTermAggregationAllYearsWithCache(
     options: TermAggregationOptions = {},
     aggregationFunction?: AggregationFunction
 ) {
-    return useCache(computeTermAggregationByYear, db, [survey, id, options, aggregationFunction])
+    return useCache(computeTermAggregationAllYears, db, [survey, id, options, aggregationFunction])
 }
 
 export async function computeTermAggregationSingleYear(
@@ -330,7 +330,7 @@ export async function computeTermAggregationSingleYear(
     options: TermAggregationOptions,
     aggregationFunction?: AggregationFunction
 ) {
-    const allYears = await computeTermAggregationByYear(
+    const allYears = await computeTermAggregationAllYears(
         db,
         survey,
         key,
