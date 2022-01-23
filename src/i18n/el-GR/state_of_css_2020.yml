@@ -54,29 +54,29 @@ translations:
 
     - key: sections.tshirt.description
       t: |
-          ## Support the survey and look good in the process!
+          ## Υποστήριξη της έρευνας και η διαδικασία της εμφάνισης της!
 
-          A quick announcement before the survey results. Introducing our very own 🎈🎉👕 State of CSS T-shirt 👕🎉🎈!
+          Μια γρήγορη ανακοίνωση πριν από τα αποτελέσματα της έρευνας. Καθιέρωση της δικής μας 🎈🎉👕 State of CSS T-shirt 👕🎉🎈!
 
-          What makes this shirt truly special is that it's the only piece of clothing that also teaches you practical, real-world CSS techniques.
+          Αυτό που κάνει αυτό το πουκάμισο πραγματικά ξεχωριστό είναι ότι είναι το μόνο κομμάτι ρουχισμού που σας διδάσκει πρακτικές τεχνικές CSS.
 
-          So whether you're going to a conference, a job interview, or just work, this shirt will demonstrate your CSS mastery like no other garment can!
+          Έτσι, είτε πρόκειται για ένα συνέδριο, μια συνέντευξη εργασίας, ή απλά εργασία, αυτό το πουκάμισο θα αναδείξει την  δεξιοτεχνία της CSS όπως κανένα άλλο ένδυμα μπορεί!
     
     - key: tshirt.about
-      t: About the T-shirt
+      t: Σχετικά με την T-shirt
 
     - key: tshirt.description
       t: |
-          The shirt features the State of CSS logo along with snippets of the actual CSS code used to create each shape. Who knows, you might learn a thing or two!
+          Το πουκάμισο περιλαμβάνει το λογότυπο State of CSS μαζί με αποσπάσματα του πραγματικού κώδικα CSS που χρησιμοποιείται για τη δημιουργία κάθε σχήματος. Ποιος ξέρει, μπορεί να μάθετε ένα ή δύο πράγματα!
 
-          We use a high-quality, super-soft tri-blend shirt with a slim fit. 
-          This shirt sizes small, so if you prefer a looser fit we recommend ordering one size up from what you usually wear (I'm wearing an M in the photos).
+          Χρησιμοποιούμε ένα υψηλής ποιότητας, σούπερ μαλακό tri-blend πουκάμισο με λεπτή εφαρμογή.
+Αυτό το πουκάμισο έχει μικρά μεγέθη, οπότε αν προτιμάτε μια πιο χαλαρή εφαρμογή συνιστούμε να παραγγείλετε ένα μέγεθος από αυτό που συνήθως φοράτε (φοράω ένα M στις φωτογραφίες).
 
     - key: tshirt.getit
-      t: Get It
+      t: Επιλέξτε το
 
     - key: tshirt.price
-      t: USD $24 + shipping
+      t: USD $24 + μεταφορά
 
     ###########################################################################
     # Sections Introductions
