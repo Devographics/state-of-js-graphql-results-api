@@ -533,7 +533,8 @@ translations:
     - key: opinions_others.currently_missing_from_css.others.description
       t: Χαρακτηριστικά που θα θέλατε να δείτε στην CSS καποια μέρα.
     - key: opinions_others.currently_missing_from_css.others.note
-      t: > Αυτά τα αποτελέσματα κανονικοποιήθηκαν με βάση το περιεχόμενο ενός πεδίου ελεύθερης μορφής.
+      t: >
+       Αυτά τα αποτελέσματα κανονικοποιήθηκαν με βάση το περιεχόμενο ενός πεδίου ελεύθερης μορφής.
           Για να δείτε τις ακατέργαστες, ανεπεξέργαστες απαντήσεις ελέγξτε στο [whatsmissingfromcss.com](http://whatsmissingfromcss.com/).
     
     - key: opinions.sum_up_one_word_css
