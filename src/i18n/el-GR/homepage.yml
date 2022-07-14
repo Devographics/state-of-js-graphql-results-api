@@ -1,0 +1,50 @@
+locale: el-GR
+translations:
+    ###########################################################################
+    # Homepage
+    ###########################################################################
+
+    - key: homepage.hand_coded
+      t: Προγραμματισμό στην Ελλάδα
+    - key: homepage.leave_issue
+      t: Αφήστε ένα ζήτημα
+    - key: homepage.get_in_touch
+      t: Επικοινωνήστε με
+
+    - key: homepage.made_by
+      t: 'Το State of CSS δημιουργείται από:'
+    - key: homepage.leave_issue
+      t: Αφήστε ένα ζήτημα
+
+    - key: homepage.previous_years
+      t: 'Προηγούμενα χρόνια:'
+
+    - key: homepage.intro
+      t: >
+          ##'Η CSS εξελίσσεται γρηγορότερα από ποτέ.
+
+          Flexbox, Grid, Multi-Column… Για να μην πούμε σχετικά για τα εντελώς νέα παραδείγματα CSS-in-JS.
+
+          Έτσι, μετά την επιτυχία της ετήσιας [State Of JavaScript](https://stateofjs.com) έρευνας, αποφασίσαμε να συνεχίσουμε τον κόσμο των styles και των selectors που θα βοηθήσουν στον εντοπισμό των τελευταίων τάσεων… και προσπαθήστε να γεφυρώσετε το ολοένα αυξανόμενο “great front-end divide”!
+
+    - key: homepage.take_survey
+      t: Πάρε μέρος στην έρευνα
+
+    - key: homepage.view_results
+      t: Δείτε τα αποτελέσματα του 2019
+
+    - key: share.help_spread
+      t: Βοηθήστε στην διάδοση
+
+    - key: newsletter.stay_tuned
+      t: Μείνετε Συντονισμένη
+    - key: newsletter.leave_your_email
+      t: Αφήστε μας το email σας και θα σας ενημερώσουμε πότε θα πραγματοποιηθεί η επόμενη έρευνα
+
+    - key: author.sacha.bio
+      t: > Δημιουργός της βιβλιοθήκης οπτικοποίησης δεδομένων JavaScript ο [Nivo](http://nivo.rocks/) επίσης
+           ως [Mozaik] (http://mozaik.rocks/), ένα εργαλείο για την κατασκευή όμορφων dashboards.
+
+    - key: author.raphael.bio
+      t: > Δημιουργός του ημερήσιου ενημερωτικού δελτίου [Sidebar] (http://sidebar.io) και
+           [VulcanJS] (http://vulcanjs.org), ένα framework ανοιχτού κώδικα React + GraphQL.
